@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 587 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 587 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 587, giorno (2016-03-08)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 587, Day (2016-03-08)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="587-upper">587 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="151" unit="speeches" xml:lang="it">151 discorsi</measure>
+            <measure quantity="151" unit="speeches" xml:lang="en">151 speeches</measure>
+            <measure quantity="10991" unit="words" xml:lang="it">10.991 parole</measure>
+            <measure quantity="10991" unit="words" xml:lang="en">10,991 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0966724</idno>
+               <date when="2016-03-08">08.03.2016</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="14"/>
+               <tagUsage gi="head" occurs="12"/>
+               <tagUsage gi="note" occurs="206"/>
+               <tagUsage gi="seg" occurs="151"/>
+               <tagUsage gi="u" occurs="109"/>
+               <tagUsage gi="vocal" occurs="5"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="13"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="desc" occurs="19"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2016-03-08">08.03.2016</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza della vice presidente LANZILLOTTA</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u1">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg1">La seduta è aperta (ore 16,33). Invito i colleghi ad affrettarsi a ritirare le eventuali tessere inserite, in modo da non dover attendere dopo in caso di utilizzo del dispositivo elettronico. Si dia lettura del processo verbale. PETRAGLIA, segretario, dà lettura del processo verbale della seduta pomeridiana del 3 marzo. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u2">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u3">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg3">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg4">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,35).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Governo, composizione</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u4">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg5">In data 7 marzo 2016 il Presidente del Consiglio dei ministri ha inviato la seguente lettera: «Roma, 7 marzo 2016.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg6">Onorevole Presidente, informo la S.V.» -</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg7">abbassiamo il volume altrimenti è complicato - «che con decreti del Presidente della Repubblica in data odierna, adottati su mia proposta, previa approvazione da parte del Consiglio dei Ministri, a norma dell'articolo 10, comma 3, della legge del 23 agosto 1988, n. 400, delle deleghe di funzioni conferite dai Ministri degli affari esteri e della cooperazione internazionale, dello sviluppo economico e delle infrastrutture e dei trasporti, è stato attribuito il titolo di Vice Ministro ai rispettivi Sottosegretari di Stato per i medesimi Dicasteri dott. Mario GIRO, on. Teresa BELLANOVA e sen. Riccardo NENCINI. F.to Matteo RENZI».</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla Festa della donna</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u5">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg8">Colleghi, prima di dare la parola ai colleghi che l'hanno richiesta, vorrei formulare, ritenendo di interpretare i sentimenti di tutta l'Assemblea, gli auguri per l'8 marzo a tutte le colleghe con l'auspicio, da qui al prossimo 8 marzo, di ricordarci ogni giorno del merito e del valore delle donne. Buon 8 marzo a tutte le senatrici.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla scomparsa di Sergio Ricossa</head>
+            <note type="speaker">D'ANNA (AL-A)</note>
+            <u ana="#regular" who="#DAnnaVincenzo" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u6">
+               <note>Domando di parlare.</note>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg9">PRESIDENTE. Colleghi, comincia la seduta. Cercate di abbassare il volume della voce per consentire agli oratori di intervenire, perché così è impossibile.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg10">Ne ha facoltà.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg11">Signora Presidente, vorrei intervenire per ricordare...</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg12">PRESIDENTE. Colleghi, un po' di silenzio per favore.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg13">Qualche giorno fa è scomparso il professor Sergio Ricossa, già presidente onorario dell'istituto «Bruno Leoni» di Torino, tra i più prestigiosi istituti di cultura liberale. Ricossa è stato professore emerito presso l'università di Torino ed ha contribuito a diffondere, nei tempi difficili in cui vi era l'egemonia culturale della sinistra, testi e letture messe sistematicamente al bando dal sistema intellettual-culturale prevalente in quel periodo. Vorrei ricordare che questo studioso, che è andato sempre controcorrente e che si è distinto per il coraggio delle idee che ha professato, è stato vice presidente della Mont Pelerin Society, il prestigioso istituto ubicato in Svizzera che accoglie tutti i premi Nobel per l'economia, soprattutto quelli che vengono dalla scuola liberale. Stimatissimo all'estero, nei tempi che furono, ovvero gli anni Sessanta e Settanta, ha introdotto all'interno della cultura italiana autori come Von Mises, Von Hayek e Friedman. Ha segnato la storia del cambiamento del costume e del pensiero economico e politico in Italia, attraverso libri bellissimi, come «Impariamo l'economia», «Maledetti economisti. Le idiozie di una scienza inesistente», «I pericoli della solidarietà», sino all' ultimo libro edito, che si intitola «Straborghese». Egli ha avuto il coraggio di opporsi ai luoghi comuni e all'egemonia di una cultura, che rivendicava la supremazia della visione marxista e statalista dell'economia e dello Stato. Oggi è semplice definirsi liberale, ma dobbiamo a gente come il professore Ricossa e all'istituto «Bruno Leoni» la possibilità di comprendere i guasti delle teorie keynesiane, dello Stato massimo, dell'uso dissennato della leva della spesa e del debito pubblico, che oggi stiamo pagando con la crisi economica. Ritenevo giusto onorare in questa Assemblea questo uomo di scienza, questo pensatore corposo, che ha sempre rifiutato cariche politiche, ma che merita il rispetto e la considerazione di chiunque ama, qui e fuori di qui, definirsi liberale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppo AL-A, FI-PdL XVII e CoR</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">COMPAGNA (CoR)</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg14">Signora Presidente, intervengo solo per associarmi, con molto calore, al ricordo tracciato dal collega D'Anna del professor Ricossa. Certamente egli - non necessariamente in contrapposizione al filone keynesiano, egualmente liberale - va ricordato come un grande animatore del dibattito politico, sulle colonne della Stampa, all'università e in alcune iniziative, che più che politiche possiamo definire di società civile, sul ruolo del fisco e su altri simili argomenti. Ci inchiniamo commossi alla sua memoria, grati per il suo contributo al dibattito politico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppo CoR, FI-PdL XVII e AL-A.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg15">Signora Presidente, a nome del Gruppo di Forza Italia voglio associarmi al ricordo del professor Ricossa, un pensatore e un filosofo al di fuori dei soliti schemi, che avendo fatto la sua battaglia anche a proposito della definizione di intellettuale, sicuramente non si confaceva a quella definizione che attribuiva in particolare agli intellettuali di sinistra. Non stupisce dunque che la sua figura non sia stata ricordata con il risalto che avrebbe meritato, ma credo che, tutto sommato, ne sarebbe contento. Mi permetto di aggiungere, essendo in tema di tristi commemorazioni, che tre giorni fa è scomparso l'ex deputato dei Cristiano sociali Domenico Maselli, che sarà più appropriatamente ricordato dalla Camera dei deputati, di cui ha fatto parte per due legislature. Vorrei ricordarlo brevissimamente, in questa sede, per il ruolo che ha avuto, limitandomi ad un solo aspetto della sua multiforme e operosissima vita, ovvero al suo ruolo nel sostenere l'approvazione di numerose intese con confessioni religiose, che hanno avuto proprio in questo ramo del Parlamento la loro parte più impegnativa nella scorsa legislatura. Domenico Maselli è stato molto a lungo professore di storia del cristianesimo a Firenze e ha vissuto gran parte della sua vita a Lucca, dove è scomparso lo scorso sabato.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u9">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg16">La Presidenza si associa al cordoglio.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per l'acquisizione di un documento dell'Avvocatura dello Stato</head>
+            <note type="speaker">GIOVANARDI (GAL (GS, PpI, M, Id, E-E, MPL))</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg17">Signora Presidente, vorrei ricordare ancora una volta che, mentre la Camera dei deputati ha virtuosamente cominciato a svolgere un ciclo di audizioni conoscitive sul provvedimento riguardante le unioni civili, è la quinta volta che, prima in Commissione e poi in Aula, chiedo di avere come senatore, o come documento acquisito dal Senato, la memoria che il Governo italiano ha presentato alla Corte costituzionale sulla materia delle unioni civili, in cui, secondo indicazioni di stampa («la Repubblica» e «Il Sole 24 ore») sono contenute delle valutazioni che il Governo fa dando per acquisito il fatto che in Italia siano già in vigore alcuni istituti come quello della stepchild adoption. Dopo quindici giorni di reiterate richieste, vorrei sapere se la Presidenza del Senato ha chiesto o meno al Governo questo atto. Che almeno si sappia questo; poi ci attenderemmo di sapere dal Governo se intende mettere al corrente i senatori di atti formali depositati presso la Corte o se intende non dico tenerli riservati (perché le controparti ce li hanno già visto che sono stati pubblicati) ma almeno consentire al Senato di averne il testo e di poterlo valutare.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u11">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg18">Senatore Giovanardi, le vorrei assicurare che il Presidente del Senato ha formalmente rappresentato la sua richiesta al Governo, quindi il Presidente è in attesa di un riscontro e di un esito di questa formale richiesta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Discussione e approvazione di proposta di inversione dell'ordine del giorno</head>
+            <note type="speaker">CUCCA (PD)</note>
+            <u ana="#regular" who="#CuccaGiuseppeLuigiSalvatore" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg19">Signora Presidente, per quanto riguarda il disegno di legge sulla riforma della magistratura onoraria, debbo prospettarle la necessità di un'inversione dell'ordine del giorno, perché non sono ancora pervenuti i pareri della Commissione bilancio sulla riformulazione. Ci sono dei pareri sospesi, quindi le chiederei l'inversione dell'ordine del giorno. PRESIDENTE. Se non ci sono osservazioni, possiamo procedere all'inversione.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg20">Signora Presidente, io non ho obiezioni, ma vorrei sottolineare due aspetti. Il provvedimento in oggetto ha subito una serie di modifiche nell'ultima seduta di Commissione, perché il relatore e il Governo hanno presentato alcuni emendamenti; a distanza di oltre dieci mesi, soltanto martedì scorso si è avuta qualche ora per emendare. Noi non abbiamo nessuna possibilità di farlo, perché abbiamo fatto né più né meno gli stessi emendamenti della Commissione, non tenendo conto forzatamente delle storture che pure abbiamo notato; anche io ho letto solo nel fine settimana il testo come era uscito dall'esame della Commissione. Ebbene, noi non abbiamo potuto emendare, perché abbiamo avuto solo un'ora di tempo, mentre il relatore e il Governo continuano ad apportare modifiche. Chiedo quindi che almeno ci si dia la possibilità di intervenire, di dare qualche indicazione. Poi la nostra idea venga pure bocciata, ma noi - ripeto - non abbiamo avuto nessuna possibilità di proporre emendamenti. Si è partiti con una prima indicazione dalle ore 17 alle ore 20, ma eravamo tutti impegnati in Aula con l'esame del provvedimento sull'omicidio stradale, quindi il tempo si è ridotto ad un'ora, per questo non abbiamo potuto formulare molti emendamenti. Comunque, Signora Presidente, mi affido a lei affinché garantisca a tutti la possibilità di esprimersi. Se deve esserci un minimo di possibilità di emendare, si diano a tutti tre o quattro ore di tempo, perché l'altra volta si è avuta un'ora; adesso si parla ancora di ulteriori emendamenti del Governo e del relatore, mentre noi resteremmo con i nostri emendamenti a un testo che non c'è più. PRESIDENTE. Ha chiesto di intervenire il senatore Tonini, presidente della Commissione bilancio.</seg>
+            </u>
+            <note type="speaker">TONINI (PD)</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u14">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg21">Signora Presidente, vorrei solo fare una precisazione, rispetto a quanto detto dal relatore, circa la ragione del ritardo del parere della Commissione bilancio. Quest'ultima anche oggi pomeriggio, nella seduta appena conclusasi, ha preso in esame gli emendamenti registrando un parere positivo del rappresentante del Ministero dell'economia presente in Commissione, senza tuttavia il supporto di una relazione tecnica bollinata dalla Ragioneria che - ci hanno assicurato dal Ministero dell'economia - ci sarà domattina. Pertanto contiamo di concludere domani mattina l' iter in Commissione, potendo disporre della relazione tecnica di cui oggi non possiamo disporre.</seg>
+            </u>
+            <note type="speaker">FALANGA (AL-A)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg22">Signora Presidente, mi riaggancio a quanto ha dichiarato il senatore Caliendo per dire che effettivamente non ci è stata data la possibilità di leggere con attenzione questo provvedimento. Nel caso in cui la richiesta del senatore Caliendo non fosse accolta, mi affido al relatore, che vorrei attento; al senatore Cucca e all'Assemblea faccio un solo esempio. In questo disegno di legge è previsto che al giudice di pace sia corrisposta un'indennità di 56,81 euro per ogni richiesta di rinvio a giudizio; è, invece, prevista una indennità di 10 euro per il provvedimento di archiviazione. Ora, io non voglio mettere in discussione la onorabilità dei giudici di pace, però se un giudice di pace emette un provvedimento di rinvio a giudizio incamera circa 56 euro; se emette un provvedimento di archiviazione incassa 10 euro. Qualche diffidenza sulle ragioni che inducono il giudice a rinviare a giudizio ovvero ad archiviare, io l'avrei. Senza dire, peraltro, che lo studio e l'impegno del giudice di pace siano gli stessi, sia che chieda l'archiviazione, sia che chieda il rinvio a giudizio... PRESIDENTE. Senatore, rimaniamo sull'argomento. FALANGA (AL-A). Sì, signora Presidente, torno all'argomento, certo. Come vede, con queste storture, o viene data a noi la possibilità di apportare un minimo di contributo per rendere la norma più armonica, più corretta, più lineare, oppure non posso fare altro che affidarmi al distratto senatore Cucca, relatore di questo provvedimento. Egli infatti può, comunque, con propri emendamenti, cercare di evitare che i cittadini vengano rinviati a giudizio per la soddisfazione di interessi economici di taluni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Giovanardi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u16">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg23">Vorrei precisare che il fascicolo degli emendamenti cui è possibile presentare i subemendamenti è disponibile da ieri e che, naturalmente, se adesso si rinvia l'esame, come è stato chiesto, sarà possibile presentare ulteriori subemendamenti fino alla fine della seduta. Non vedo perché debbano esserci obiezioni. Ripeto: è disponibile da ieri il fascicolo degli emendamenti già subemendabili.</seg>
+            </u>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg24">Signora Presidente, mi faccio subito carico di quanto lei ha detto. La consequenzialità del fatto che è stata chiesta l'inversione degli argomenti all'ordine del giorno consentirebbe eventualmente nuove capacità emendative; questo dimostra che forse i tempi per gli emendamenti non erano già adeguati, dovendo iniziare la seduta. Ciò detto, signora Presidente, questo provvedimento, che mi sembra abbia trovato una discussione proficua tra le parti politiche, forse, oltre che dell'approfondimento, avrebbe bisogno dell'onestà intellettuale, che credo ci sia da parte del relatore. Per quanto il senatore Cucca abbia tutta la nostra stima, penso che le criticità emerse - che penso siano assolutamente risolvibili in un dialogo, come è stato provato in questi giorni - dovrebbero consentire a tutti di dire che, a parte l'inadempienza del Governo nel presentare la relazione tecnica (che forse non è così marginale nel momento in cui si vogliono presentare e portare avanti dei provvedimenti), un'ulteriore riflessione, non unicamente legata al rinvio tecnico-politico per la mancanza della relazione, non sarebbe una cosa negativa. Sentivo prima l'intervento del collega Falanga: ci sono delle falle che sono forse risolvibili. Mi piacerebbe, Presidente, fare una domanda che mi permetto di porre in maniera indiretta al relatore. Preso atto che ci sono alcuni problemi che possono essere risolti, c'è da parte del relatore, e quindi del Governo, la volontà di recepire le correzioni in fase emendativa? Infatti se manca questa volontà diventa inutile parlare, in quest'Aula, dei problemi che nascono quando licenziamo i provvedimenti e che dobbiamo risolvere in altro modo. Abbiamo un'opportunità temporale, Presidente, abbiamo la possibilità di capire insieme quali sono le criticità, magari in Commissione o almeno, se c'è la volontà del Governo e del relatore, di recepirle, in Aula. In questo modo potremmo capire quale sarà il percorso del provvedimento. La ringrazio, Presidente, ritengo che la mia richiesta, in questo caso, sia ragionevole dato che non vedo contrapposizioni sostanziali tra le parti politiche.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u18">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg25">Senatore Volpi, io credo che saranno il relatore e il rappresentante del Governo che si confronteranno nel merito con le singole proposte di subemendamento.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg26">Comunque mi sembra che l'opportunità di invertire l'ordine del giorno, anche ai fini di aprire un ulteriore confronto, sia condivisa.</seg>
+            </u>
+            <note type="speaker">COMPAGNA (CoR)</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u19">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg27">Signora Presidente, non ho difficoltà ad aderire alla proposta del collega Cucca, fortificata dal Presidente della Commissione bilancio, però mi accorgo che l'inversione dell'ordine del giorno porterebbe ad anticipare la trattazione dell'argomento delle missioni internazionali rispetto all'informativa sulla situazione in Libia. Ora, diciamo la verità: il nostro ordine del giorno, fin da quando è stato pensato, aveva previsto che l'informativa sulla Libia trascinasse la discussione sulle missioni internazionali. Allora mi domando se non sia il caso di fare una ulteriore anticipazione dell'informativa sulla Libia rispetto al provvedimento relativo alle missioni internazionali perché se cominciassimo a discutere quest'ultimo l'informativa sulla Libia verrebbe posticipata mentre era stata inserita in quella posizione proprio per ghiotta anticipazione delle missioni internazionali.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u20">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg28">Considerata anche questa osservazione, mi sembra comunque che ci sia un sostanziale accordo per invertire l'ordine del giorno.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u21">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg29">Salutiamo gli allievi e i docenti dell'Istituto comprensivo «Antonio De Curtis» di Aversa, in provincia di Caserta che assistono ai nostri lavori. Benvenuti a tutti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione del disegno di legge: (1917) Deputato CIRIELLI ed altri - Disposizioni concernenti la partecipazione dell'Italia alle missioni internazionali</note>
+            <note type="time">16,57</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Cirielli ed altri; Duranti ed altri; Garofani ed altri; Artini ed altri)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45653.htm</note>
+            <note type="time">(ore 16,57)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u22">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg30">L'ordine del giorno reca il seguito della discussione del disegno di legge n. 1917, già approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Cirielli ed altri; Duranti ed altri; Garofani ed altri; Artini ed altri.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg31">Ricordo che nella seduta del 15 settembre 2015 i relatori hanno integrato la relazione scritta e hanno avuto luogo la discussione generale e la replica del relatore e del rappresentante del Governo. Comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame e sugli emendamenti, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+            </u>
+            <note>Passiamo all'esame degli articoli del disegno di legge, nel testo proposto dalle Commissioni riunite.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Procediamo all'esame dell'articolo 1, sul quale sono stati presentati emendamenti e un ordine del giorno che si intendono illustrati e su cui invito i relatori ed il rappresentante del Governo a pronunziarsi.</note>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u23">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg32">Esprimo parere contrario su tutti gli emendamenti presentati.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u24">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg33">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u25">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg34">Passiamo alla votazione dell'emendamento 1.1.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg35">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata).</seg>
+            </u>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg36">Signora Presidente, il senatore Compagna ha svolto una riflessione che aveva una logica. Mi rivolgo anche ai Presidenti delle Commissioni esteri e difesa. Noi passiamo immediatamente, con una inversione dell'ordine del giorno, a discutere del provvedimento riguardante le missioni internazionali, quando sappiamo che il ministro Gentiloni, sarà presente in Aula per parlarci della Libia. Io penso che la riflessione sulle missioni possa comportare la necessità di ascoltare prima cosa diciamo sulla Libia. Non mi sembra un fatto così assurdo. Quindi, mi permetto di sollevare questa eccezione, non per non andare avanti su un provvedimento, ma perché vi è una logica anche rispetto ad alcuni passaggi funzionali sulle missioni.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u27">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg37">Senatore Volpi, questa obiezione è stata formulata, ma non è stata recepita.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg38">Ricordo, comunque, che la Conferenza dei Capigruppo non ha deciso una consequenzialità tra la discussione di questo provvedimento e l'audizione del ministro Gentiloni. Evidentemente, non si è ravvisata questa esigenza.</seg>
+            </u>
+            <note type="speaker">CASINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CasiniPierFerdinando" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u28">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg39">, relatore. Signora Presidente, questa esigenza non si è ravvisata per la semplice ragione che qui stiamo parlando del quadro normativo entro cui incasellare, da ora in avanti, il tema delle missioni militari. Questo è un problema di ordine generale, che non ha alcuna connessione con fatti specifici. Domani mattina, invece, come richiesto da molte forze politiche, non ultimo da alcuni senatori nell'ambito della mia Commissione, il ministro Gentiloni verrà per delle ragioni che sono contingenti e legate alla drammatica situazione che stiamo vivendo. Pertanto, pregherei il senatore Volpi di desistere dalla sua richiesta, perché il lavoro che noi stiamo svolgendo adesso riguarda il quadro normativo delle missioni e non è connesso alle comunicazioni che farà domani mattina il ministro Gentiloni.</seg>
+            </u>
+            <note type="speaker">MARTON (M5S)</note>
+            <u ana="#regular" who="#MartonBruno" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u29">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg40">Signora Presidente, mi permetto di dissentire dal collega Casini per un piccolo particolare. È vero che questo sarà il contesto e il quadro normativo che andrà a descrivere le future missioni internazionali, ma il problema nasce dal fatto che alcuni emendamenti andranno a dare una logica autorizzativa alle missioni internazionali che verranno. Siccome si parlerà in Parlamento di come autorizzare queste missioni internazionali, e si autorizzeranno anche missioni in Libia, io ritengo sia necessario ascoltare il ministro Gentiloni al riguardo.</seg>
+            </u>
+            <note type="speaker">MAURO Mario (GAL (GS, PpI, M, Id, E-E, MPL))</note>
+            <u ana="#regular" who="#MauroMario" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u30">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg41">Signora Presidente, concordo pienamente con l'opinione espressa dal presidente Casini, in quanto perfettamente coerente con la decisione assunta dal Governo italiano, resa nota tramite le autorità statunitensi di inviare in Libia 5.000 uomini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Volpi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u31">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg42">Prendiamo atto di queste considerazioni, ma ormai la decisione è stata adottata.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg43">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.1, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.2, presentato dal senatore De Cristofaro e da altri senatori, identico all'emendamento 1.200, presentato dal senatore Cotti. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.3, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.4, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'ordine del giorno G1.300 è stato ritirato. Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 2, sul quale sono stati presentati emendamenti e un ordine del giorno che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">CAMPANELLA (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#CampanellaFrancesco" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u32">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg44">Signora Presidente, vorrei segnalare il mio voto errato nella precedente votazione: era mia intenzione esprimere voto contrario. PRESIDENTE. La Presidenza ne prende atto.</seg>
+            </u>
+            <note type="speaker">MARTON (M5S)</note>
+            <u ana="#regular" who="#MartonBruno" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u33">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg45">Signora Presidente, illustro l'emendamento 2.7, che vuole riportare la centralità delle decisioni sulle missioni internazionali al Parlamento, e dichiara semplicemente che le Camere possono negare l'autorizzazione alle missioni internazionali. Niente di più e niente di meno.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg46">PRESIDENTE. I restanti emendamenti e ordine del giorno si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg47">Invito i relatori ed il rappresentante del Governo a pronunziarsi sugli emendamenti e sull'ordine del giorno in esame.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u34">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg48">Signora Presidente, esprimo favorevole sull'emendamento 2.550. Esprimo parere contrario su tutti gli altri emendamenti.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg49">Sull'ordine del giorno G2.200 esprimo parere favorevole con una riformulazione. Nel dispositivo chiediamo di sostituire le parole: «ad una inclusione puntuale» con le seguenti: «a motivare l'eventuale mancato accoglimento».</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u35">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg50">Signora Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u36">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg51">Chiedo ai presentatori se accolgono la riformulazione dell'ordine del giorno G2.200? MARTON (M5S). Sì, signora Presidente. PRESIDENTE. Passiamo alla votazione dell'emendamento 2.1. SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.1, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.2, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.300, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.5, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.6, presentato dal senatore Santangelo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.550, presentato dal relatore Latorre, che ottempera ad una condizione posta dalla Commissione bilancio. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.7, presentato dai senatori Marton e Santangelo. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'emendamento 2.8, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. BATTISTA (Aut (SVP, UV, PATT, UPT)-PSI-MAIE). Signora Presidente, lo ritiro. PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.9, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.200, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.201, presentato dai senatori Santangelo e Marton. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.202 (testo corretto), presentato dal senatore Cotti. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.203, presentato dai senatori Santangelo e Marton. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.551, presentato dal relatore Latorre, che ottempera ad una condizione posta dalla Commissione bilancio. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.11, presentato dal senatore Santangelo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.12, presentato dal senatore Santangelo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.13, presentato dal senatore Marton e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'ordine del giorno G2.200 (testo 2) è stato accolto dal Governo. Chiedo ai presentatori se insistono per la votazione. MARTON (M5S). Sì, signora Presidente. PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G2.200 (testo 2), presentato dai senatori Santangelo e Marton. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.0.1, presentato dal senatore Cotti e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'esame dell'articolo 3, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">MARTON (M5S)</note>
+            <u ana="#regular" who="#MartonBruno" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u37">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg52">Signora Presidente, l'emendamento 3.0.3 demanda al Comitato parlamentare per la sicurezza della Repubblica (Copasir) la funzione di controllo sulle missioni internazionali anche per quanto riguarda gli eventuali atti classificati.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u38">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg53">I restanti emendamenti si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg54">Invito i relatori e il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u39">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg55">Esprimo parere favorevole sull'emendamento 3.700 e parere contrario su tutti gli altri emendamenti.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u40">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg56">Esprimo parere conforme a quello del relatore.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg57">PRESIDENTE. Passiamo alla votazione dell'emendamento 3.700.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg58">SANTANGELO (M5S). Signora Presidente, chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. Le preannuncio, signora Presidente, che formulerò la medesima richiesta anche per gli altri articoli. Quindi quando avesse bisogno, potrà sempre riferirsi al senatore Santangelo. PRESIDENTE. Benissimo. Però bisogna alzarsi.. SANTANGELO (M5S). Alzerò la manina e, se vuole, prenderò il Regolamento e le dirò tutta la filastrocca come ho fatto i primi giorni. PRESIDENTE. No, basta la mano. SANTANGELO (M5S). Ci metteremo qualche giorno in più ma così magari la faccio contenta.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u41">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg59">Grazie, basta la mano.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg60">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.700, presentato dal Governo. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 3.1, presentato dal senatore Lucidi e da altri senatori, fino alla parola «parlamentari». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte dell'emendamento e gli emendamenti 3.0.1 e 3.0.2. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.2, presentato dal senatore Orellana e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.0.3, presentato dal senatore Marton e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'esame dell'articolo 4, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito i relatori ed il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">CASINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CasiniPierFerdinando" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u42">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg61">Il parere dei relatori è contrario sull'emendamento 4.1, mentre è favorevole sugli emendamenti 4.550 e 4.551.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u43">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg62">Il parere del Governo è conforme a quello espresso dal relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u44">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg63">Passiamo alle votazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg64">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Passiamo all'emendamento 4.1, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. Poiché i presentatori ne chiedono la votazione, invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.1, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.550, presentato dal relatore Latorre, che ottempera ad una condizione posta dalla Commissione bilancio. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.551, presentato dal relatore Latorre, che ottempera ad una condizione posta dalla Commissione bilancio. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 5, sul quale è stato presentato un emendamento che si intende illustrato e su cui invito il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u45">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg65">Il parere del Governo sull'emendamento 5.550 è favorevole.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u46">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg66">Passiamo alla votazione dell'emendamento 5.550.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg67">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.550, presentato dal relatore Latorre, che ottempera ad una condizione posta dalla Commissione bilancio. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 5, nel testo emendato. Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 6. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 6. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 7, su cui è stato presentato un emendamento che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">MARTON (M5S)</note>
+            <u ana="#regular" who="#MartonBruno" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u47">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg68">Signora Presidente, anche l'emendamento 7.1 mi sembra di buon senso e non capisco perché il Governo non sia favorevole alla sua approvazione.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg69">L'emendamento affronta la questione del personale disperso o rapito in guerra che, trovandosi in una condizione di avanzamento di grado, non può chiaramente recarsi davanti alla commissione di valutazione. La proposta emendativa prevede che laddove, come si spera, il militare venga ritrovato, abbia gli stessi vantaggi e gradi dei colleghi che hanno continuato la carriera. Mi sembra - ripeto - che l'emendamento sia di buon senso. Altrimenti la famiglia potrebbe dire che oltre al rapimento il militare ha subito anche qualcos'altro.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u48">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg70">Invito i relatori e il rappresentante del Governo a pronunziarsi sull'emendamento in esame.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u49">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg71">Il parere è contrario.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u50">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg72">Il parere è conforme a quello del relatore. Ricordo che anche la Commissione bilancio si è espressa in senso contrario.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u51">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg73">Passiamo alla votazione dell'emendamento 7.1 (testo 2).</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg74">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.1 (testo 2), presentato dal senatore Marton e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 7. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 8, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u52">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg75">Il parere è contrario su tutti gli emendamenti.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u53">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg76">Il parere è conforme a quello espresso dal relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u54">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg77">Passiamo all'emendamento 8.1, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg78">MARTON (M5S). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 8.1, presentato dal senatore Lucidi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'emendamento 8.2, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. MARTON (M5S). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 8.2, presentato dal senatore Lucidi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'emendamento 8.3, identico all'emendamento 8.4, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. DE CRISTOFARO (Misto-SI-SEL). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 8.3, presentato dal senatore De Cristofaro e da altri senatori, identico all'emendamento 8.4, presentato dal senatore Lucidi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'emendamento 8.5, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. MARTON (M5S). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 8.5, presentato dal senatore Cotti e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'emendamento 8.6, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. MARTON (M5S). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 8.6, presentato dal senatore Lucidi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'articolo 8. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 8. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 9, sul quale è stato presentato un emendamento che si intende illustrato e su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u55">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg79">Esprimo parere contrario.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u56">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg80">Esprimo parere conforme a quello espresso dal relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u57">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg81">Passiamo alla votazione dell'emendamento 9.1.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg82">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.1, presentato dal senatore Marton e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 9. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 10, sul quale è stato presentato un emendamento che si intende illustrato.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u58">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg83">Signora Presidente, intervengo per una correzione. Sull'emendamento 9.1 il voto del Gruppo Movimento 5 Stelle è favorevole e non di astensione. PRESIDENTE. Corregge il voto di astensione per tutti i senatori? SANTANGELO (M5S). Sì. PRESIDENTE. In realtà, il voto sarebbe personale.</seg>
+            </u>
+            <note type="speaker">MARTON (M5S)</note>
+            <u ana="#regular" who="#MartonBruno" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u59">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg84">Per correttezza, visto che li vuole singolarmente, esprimo voto favorevole sull'emendamento 9.1. (I senatori del</seg>
+               <incident type="action">
+                  <desc>Gruppo M5S fanno cenno di voler intervenire.</desc>
+               </incident>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u60">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg85">Prendiamo atto che le mani alzate sono per aderire alla richiesta del senatore Santangelo.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg86">Invito i relatori e il rappresentante del Governo a pronunziarsi sull'emendamento 10.1.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u61">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg87">Esprimo parere contrario.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u62">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg88">Signora Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u63">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg89">Non essendo stati presentati sull'articolo 10 altri emendamenti oltre quello soppressivo 10.1, presentato dal senatore De Cristofaro e da altri senatori, passiamo alla votazione del mantenimento dell'articolo stesso SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del mantenimento dell'articolo 10. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 10.0.1, presentato dal senatore De Cristofaro e da altri senatori, volto ad inserire un articolo aggiuntivo dopo l'articolo 10, su cui i relatori e il rappresentante del Governo esprimono un parere contrario. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'articolo 11. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 11. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 12. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 12. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 13, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u64">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg90">Esprimo parere favorevole sull'emendamento 13.700 e contrario su tutti gli altri.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u65">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg91">Signora Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u66">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg92">Passiamo alla votazione dell'emendamento 13.700.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg93">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 13.700, presentato dal Governo. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 13.200, presentato dal senatore Tarquinio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 13.201, presentato dal senatore Tarquinio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 13, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'emendamento 13.0.1, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. MARTON (M5S). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 13.0.1, presentato dalla senatrice Bertorotta e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'emendamento 13.0.2, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. BATTISTA (Aut (SVP, UV, PATT, UPT)-PSI-MAIE). Lo ritiro PRESIDENTE. Passiamo alla votazione dell'articolo 14. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 14. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 15, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u67">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg94">Esprimo parere contrario all'emendamento 15.0.1 e favorevole all'emendamento 15.0.700.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u68">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg95">Signora Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u69">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg96">Passiamo alla votazione dell'articolo 15.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg97">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 15. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'emendamento 15.0.1, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u70">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg98">Signora Presidente, insisto per la votazione dell'emendamento, anche perché è arrivato il momento di parificare normative sempre più difformi, da cui deriva che il personale che mette a disposizione la propria vita, se si trova in una certa condizione, viene riconosciuto in una certa maniera, ma se si trova in un'altra situazione viene riconosciuto in maniera differente. Che si tratti di vittime del terrorismo o del dovere, chi muore indossando una divisa sul campo, per una situazione o per l'altra, deve essere trattato nella stessa maniera. Avremmo finalmente la possibilità di parificare tali situazione: non capisco perché mantenere questa diversità. In tal modo il Governo si troverà sempre in imbarazzo a dover giustificare, davanti ai propri militari, l'effettiva diversità dei trattamenti loro destinati, a seconda che abbiano subito un incidente in una situazione o in un'altra.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u71">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg99">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 15.0.1, presentato dai senatori Divina e De Pietro. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 15.0.700, presentato dal Governo. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 16. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 16. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 17, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u72">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg100">Signora Presidente, esprimo parere contrario sugli emendamenti 17.1 e 17.2.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u73">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg101">Signora Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u74">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg102">Passiamo all'emendamento 17.1, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg103">DE PETRIS (Misto-SI-SEL). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 17.1, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 17.2. SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 17.2, presentato dalla senatrice Bertorotta e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 17. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 18, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u75">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg104">Signora Presidente, esprimo parere contrario sugli emendamenti 18.1, 18.2 e 18.4, mentre esprimo parere favorevole sull'emendamento 18.700.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u76">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg105">Signora Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u77">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg106">Passiamo alla votazione dell'emendamento 18.1.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg107">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 18.1, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 18.2, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 18.700, presentato dal Governo. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'emendamento 18.4, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. DE PETRIS (Misto-SI-SEL). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 18.4, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 18, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Colleghi, poiché sull'articolo 19 sono stati presentati emendamenti dei relatori che attendono il parere da parte della Commissione bilancio, occorre accantonarne l'esame. Passiamo dunque all'esame dell'articolo 20, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u78">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg108">Signora Presidente, esprimo parere favorevole sugli emendamenti 20.700 e 20.750, mentre il parere è contrario sull'emendamento 20.200.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u79">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg109">Signora Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u80">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg110">Passiamo alla votazione dell'emendamento 20.700.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg111">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 20.700, presentato dal Governo. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 20.200.</seg>
+            </u>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u81">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg112">PRESIDENTE. Su cosa, senatore? VOLPI (LN-Aut). Sull'ordine dei lavori. PRESIDENTE. Ne ha facoltà. VOLPI (LN-Aut). Signora Presidente, prima del voto lei ha parlato di un accantonamento dovuto al fatto che la Commissione bilancio non ha ancora espresso i suoi pareri. Credo di aver capito bene in questo caso. Noi prima abbiamo fatto un'inversione dell'ordine del giorno proprio perché non c'erano i pareri della 5ᵃ Commissione, come spiegato dal presidente Tonini, sul precedente provvedimento. Vorrei solo capire dalla Presidenza cosa accade in questo caso. Rispetto al provvedimento che stiamo trattando, vorrei che la Presidenza, i relatori, o meglio il Presidente della Commissione bilancio, ci spiegassero come intendiamo procedere in questa giornata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg113">). Diversamente diventiamo vittime del caso, se di caso si tratta. Quindi, ci sembra opportuno capire. Visto che, come diceva il presidente Casini, non c'è continuità tra quello che facciamo oggi e la presenza domani del Ministro degli affari esteri, vorremmo capire se il Ministro arriva addirittura a metà del provvedimento che stiamo esaminando. Fateci capire, ci sembra il minimo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u82">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg114">Cercherò di fare chiarezza. Dunque, vi è un emendamento del relatore che è stato riformulato; in quanto tale, deve essere riesaminato dalla Commissione bilancio; la riformulazione è stata mandata ai Gruppi, che possono eventualmente presentare subemendamenti, che saranno esaminati in serata o domani mattina dalla Commissione bilancio. Pertanto, all'esame dell'articolo 19 e al voto finale si procederà evidentemente nella seduta di domani, perché non credo che i senatori della Commissione bilancio abbiano il dono dell'ubiquità (quindi dovranno farlo al termine della seduta).</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg115">Proseguiamo ora con l'esame degli articoli che possono essere votati; l'articolo 19 e il voto finale del provvedimento saranno affrontati nella seduta di domani.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u83">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg116">Signora Presidente, il termine per la presentazione dei subemendamenti al provvedimento sulla magistratura onoraria scadrà alle ore 20 o alle 19? Lei aveva detto alla fine della seduta di Assemblea, ma probabilmente pensava che si sarebbe conclusa alle ore 20.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u84">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg117">Facciamo alle ore 20, anche se dovessimo concludere prima i lavori dell'Assemblea. Mi sembra un'osservazione legittima.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg118">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 20.200, presentato dal senatore Cotti. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 20.750.</seg>
+            </u>
+            <note type="speaker">MARTON (M5S)</note>
+            <u ana="#regular" who="#MartonBruno" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u85">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg119">Signora Presidente, ho una richiesta per i relatori. Poiché l'emendamento parla del comma 3 dell'articolo 20, che non esiste, vorrei capire cosa stiamo votando.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u86">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg120">Forse c'è una difficoltà nella lettura. L'articolo 20 ha un comma 3, che dice: «Con decreto del Ministro dell'economia e delle finanze, su proposta del Ministro della difesa, (...)», e di cui si intende sopprimere l'inciso: «, su proposta del Ministro della difesa,». L'articolo 19 del testo originario è diventato l'articolo 20 nel testo proposto dalle Commissioni riunite, quindi forse lei guardava l'articolo 20 del testo originario.</seg>
+            </u>
+            <note type="speaker">GALIMBERTI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#GalimbertiPaolo" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u87">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg121">Chiedo scusa, Presidente, ho preso adesso il testo che è in distribuzione e non contiene il comma 3.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u88">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg122">Senatore Galimberti, probabilmente lei si riferisce al testo originario. Noi stiamo discutendo il testo proposto dalle Commissioni riunite, quindi forse sta guardando il testo sbagliato.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg123">Torniamo ora all'emendamento 20.750, giustamente riferito al comma 3.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg124">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 20.750, presentato dal Governo. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 20, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 21, sul quale è stato presentato un emendamento che si intende illustrato e su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u89">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg125">Esprimo parere contrario.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u90">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg126">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u91">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg127">Non essendo stati presentati sull'articolo 21 altri emendamenti oltre quello soppressivo 21.300, presentato dal senatore De Cristofaro e da altri senatori, passiamo alla votazione del mantenimento dell'articolo stesso.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg128">SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del mantenimento dell'articolo 21. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 22, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u92">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg129">Esprimo parere contrario su tutti gli emendamenti.</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u93">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg130">Esprimo parere conforme a quello del relatore.</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u94">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg131">Scusate colleghi, da questa parte dell'Aula c'è un brusìo che impedisce alla Presidenza di svolgere il proprio lavoro; quindi vi prego di tacere o comunque di parlare con un tono di voce compatibile con lo svolgimento del lavori della Presidenza.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u95">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg132">Signora Presidente, riesco a tenere sotto controllo in maniera piuttosto semplice le tessere che mi sono più vicine. Vorrei farle notare che la tessera del senatore Gibiino è inserita nonostante il senatore sia assente, per cui è lui il furbetto della giornata. La prego di prenderne nota e di prendere i provvedimenti del caso perché questa cosa non si può fare. Signora Presidente, le regole vanno applicate perché è stato proprio il Presidente del Senato a voler rimarcare questa cosa. Quindi, prima di procedere ad eventuali altre votazioni sarebbe il caso che tutti quanti controllassero le tessere dei colleghi vicini per togliere quelle dei distratti. In caso contrario la prego di prendere provvedimenti perché questo comportamento difficilmente si riesce a spiegare al di fuori di questa Aula. Chiediamo inoltre che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u96">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg133">Il Presidente provvederà a richiamare il senatore che non ha rispettato le direttive che ci siamo dati in questo senso. I senatori Segretari sono pregati di verificare che in Aula non ci siano tessere inserite in corrispondenza di posti non occupati.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg134">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 22.300, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 22.301, presentato dal senatore Cotti e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 22. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 23, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">LATORRE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u97">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg135">Esprimo parere contrario sull'emendamento 23.300 e favorevole invece sull'emendamento 23.700 (testo 2).</seg>
+            </u>
+            <note type="speaker">ALFANO Gioacchino</note>
+            <note type="role">sottosegretario di Stato per la difesa</note>
+            <u ana="#guest" who="#AlfanoGioacchino" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u98">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg136">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u99">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg137">Passiamo alla votazione dell'emendamento 23.300.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg138">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 23.300, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 23.700 (testo 2), presentato dal Governo. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">GIARRUSSO (M5S)</note>
+            <u ana="#regular" who="#GiarrussoMarioMichele" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u100">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg139">Signora Presidente, desidero segnalare che, nel corso della votazione dell'emendamento 23.300, ho erroneamente espresso un voto contrario.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u101">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg140">La Presidenza ne prende atto.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg141">Indìco la votazione nominale con scrutinio simultaneo dell'articolo 23, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 24. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 24. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 25. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 25. (Segue la votazione). Il Senato approva. (v. Allegato B). In attesa dell'espressione dei pareri della 5ᵃ Commissione sugli emendamenti presentati all'articolo 19 che abbiamo accantonato, rinvio il seguito della discussione del disegno di legge in titolo ad altra seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u102">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg142">È presente in Aula ed assiste ai nostri lavori una rappresentanza di studenti e docenti dell'Istituto di istruzione superiore «Isaac Newton» di Camposampiero, in provincia di Padova, ai quali rivolgiamo il nostro saluto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">CERVELLINI (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#CervelliniMassimo" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u103">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg143">Signora Presidente, colleghi, la procura di Roma ha chiesto il rinvio a giudizio di 40 persone coinvolte nell'inchiesta sul dissesto - un crac di centinaia di milioni di euro - della «Provincia Italiana della Congregazione dei Figli dell'Immacolata Concezione», ente ecclesiastico a cui fanno capo, tra gli altri, l'Istituto dermopatico dell'Immacolata (meglio conosciuto come IDI), il San Carlo di Nancy e Villa Paola. Al centro dell'inchiesta per fatti illeciti e appropriazioni (avvenute in danno soprattutto dell'IDI tra il 2007 e il 2012) c'è l'attività di padre Franco Decaminada, consigliere delegato dell'IDI il quale, fino al 2011, è stato incaricato della gestione del comparto sanità, e dei suoi collaboratori</seg>
+               <vocal type="noise">
+                  <desc>. (Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg144">PRESIDENTE. Colleghi, vi prego di portare un po' di rispetto al senatore Cervellini.</seg>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg145">Signora Presidente, il rispetto è soprattutto verso le migliaia di lavoratori che rischiano il licenziamento e che da mesi lavorano in maniera egregia, a volte senza alcuna retribuzione. I collaboratori sono Domenico Temperini, ex amministratore delegato di IDI-Farmaceutici nonché direttore generale pro tempore di IDI-Sanità, e Antonio Nicolella, ex consigliere dell'imprenditore, e tutti furono arrestati nell'aprile 2013. Numerosi sono gli episodi di distrazione dei fondi ai danni della Congregazione. L'inchiesta prese le mosse da un esposto nel quale alcuni dipendenti dell'IDI lamentavano il mancato versamento degli stipendi e segnalavano una serie di incongruenze nella gestione amministrativa. Sul fallimento dell'IDI e del San Carlo di Nancy io stesso ho presentato un'interrogazione ai Ministri della salute e dello sviluppo economico ho partecipato ad alcuni degli innumerevoli presidi dei lavoratori, che ancora una volta risultano essere la parte più gravemente lesa da sciagurate operazioni fallimentari e patrimoniali. Si è prospettata persino la possibilità che proprio i soggetti responsabili del fallimento delle suddette strutture potessero ricomprare, tramite la fondazione Luigi Maria Monti, costituita ad hoc, e con l'avallo del Ministero dello sviluppo economico, lo stesso patrimonio, per una frazione del suo valore. Si parla di un passivo patrimoniale dell'ente di circa 850 milioni di euro e di distrazioni di disponibilità per oltre 82 milioni dì euro. Non è possibile che a pagare il prezzo di corruzione e malaffare siano ancora una volta i lavoratori e le loro famiglie. Il tessuto vivo della città, in un momento di recessione e stagnazione, si ricostruisce anche puntando sulla ricerca e sulle eccellenze mediche. Ma, per farlo, è necessario restituire rispetto, valore e dignità al prezioso lavoro di tante persone che in questi mesi durissimi non si sono arrese e hanno continuato, a volte solo sulle proprie forze, il lavoro di cura e accoglienza sul territorio. Infine, leggo che la Regione Lazio si costituirà parte civile, e questo è un bene. Chiedo che il Ministero e la Regione Lazio si assumano la responsabilità, coinvolgendo innanzitutto le organizzazioni sindacali - esse rappresentano le donne e gli uomini che, negli ultimi anni, spesso da soli, hanno tenuto in vita questi importanti presidi - di individuare un percorso che difenda e rilanci, con il contributo del Vaticano, realtà che in pieno Giubileo della Misericordia - tenete conto che esse si trovano a poche centinaia di metri dalla Basilica di San Pietro - rappresentano i primi poli di riferimento per milioni di cittadini italiani e pellegrini di tutto il mondo. Occorre farlo ora, adesso, perché non c'è più tempo da perdere.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-SI-Sel e PD e della senatrice Mussini.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MORONESE (M5S)</note>
+            <u ana="#regular" who="#MoroneseVilma" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u104">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg146">Signora Presidente, intervengo per comunicare a lei e all'Assemblea che abbiamo presentato come Movimento 5 Stelle una mozione per chiedere al Governo di procedere agli opportuni controlli preliminari allo scioglimento del Comune di Maddaloni, in provincia di Caserta, per fatti che noi riteniamo gravissimi e che voglio qui far presente. Ieri è stato arrestato il sindaco di Maddaloni Rosa De Lucia, assieme ad un assessore, due consiglieri comunali un imprenditore nel settore dei rifiuti. Come comunicato dalla procura di Santa Maria Capua Vetere, il sindaco utilizzava l'imprenditore Di Nardi come un vero e proprio bancomat, dal quale incassava tangenti anche a suo piacimento, ovvero dietro le sue stesse richieste. Queste tangenti venivano poi utilizzate dal sindaco per comprare il consenso dei consiglieri comunali, ottenendo l'approvazione del bilancio e altri fondamentali atti amministrativi che, se non approvati, avrebbero causato lo scioglimento automatico del Comune. Il sindaco si assicurava, dunque, la maggioranza per restare in carica e il consenso dei consiglieri comunali, mediante pratiche corruttive organizzate a tal punto che ogni consigliere aveva il suo prezzo di acquisto, pari a 7.000 euro, che venivano somministrati nella misura del 50 per cento prima del voto e il restante 50 per cento a votazione avvenuta. Inoltre, come spiega la procura, il sindaco conduceva la macchina amministrativa anche comprando il consenso degli imprenditori locali, affidando loro, in modo diretto e in prima persona, servizi e forniture di eventi organizzati nel Comune, senza alcuna regola, per risultare ben vista agli occhi dei suoi concittadini e ottenere evidentemente la sua rielezione a sindaco. Infine, piegava alla sua volontà i funzionari comunali rimuovendoli dai loro uffici e costringendoli dunque ad eseguire modifiche agli atti amministrativi, come nel caso dell'annullamento delle penali, inflitte dal funzionario responsabile del servizio ambiente ed ecologia del Comune, contro la ditta DHI, che poi corrispondeva appunto le tangenti al sindaco attraverso il suo titolare Di Nardi. Signora Presidente, emerge dunque una tangentopoli locale che parte dall'interno del Comune e coinvolge anche all'esterno tutti gli strati sociali, di cui la stampa locale narra anche quotidianamente sulle sue pagine, a riprova che il malcostume e la corruzione sono cosa risaputa da tutti. La procura scrive che alcuni consiglieri comunali, oggetto delle tangenti elargite, non sarebbero ancora stati individuati. Per tutti questi fatti esposti ed accertati dalla magistratura auspichiamo che venga al più presto ripristinata la legalità, attraverso lo scioglimento immediato del Consiglio comunale del Comune di Maddaloni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ZIZZA (CoR)</note>
+            <u ana="#regular" who="#ZizzaVittorio" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u105">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg147">Signora Presidente, gentili colleghi, desidero sottoporre all'attenzione di quest'Assemblea la delicata situazione relativa al litorale della costa adriatica Il Pilone, nella città di Ostuni, in provincia di Brindisi. È doverosa una premessa: il Comune in oggetto, Ostuni, è considerato una delle perle del Mediterraneo, per le bellezze paesaggistiche e ambientali del territorio. Per queste caratteristiche, è uno dei punti di maggior richiamo turistico della costa adriatica e del Salento. A minacciare la bellezza della spiaggia di Torre San Leonardo-Il Pilone sarebbe il progetto dell'Acquedotto pugliese, un progetto che prevede l'adduzione di una fogna proprio nella località costiera. Sì, gentili colleghi, si tratta dell'ubicazione di una vasca in cemento armato di raccolta e delle pompe di sollevamento dei reflui letteralmente a ridosso della spiaggia del Pilone. La vasca di liquami incriminata prevede, di fatto, la canalizzazione fognaria della costa nord di Ostuni. Questo scempio rischia di compiersi, se non si interviene immediatamente. Sono valse a poco le mobilitazioni dei cittadini, le denunce della stampa, il ricorso al TAR e successivamente al Consiglio di Stato (di cui ancora si attende la decisione) e la visita del sottosegretario Degani. Come Gruppo dei Conservatori e Riformisti, abbiamo già richiesto un'audizione urgente dei vertici dell'Acquedotto pugliese, dell'Autorità idrica pugliese e dei responsabili della Regione Puglia alla Presidenza della Commissione ambiente e un autorevole intervento del Ministro dell'ambiente. Mi auguro che l'Esecutivo prenda atto nell'immediatezza di tale situazione e che il Ministero competente intervenga immediatamente. Daremo battaglia affinché un territorio unico, come quello della costa salentina, meta internazionale di turismo, non venga profanato e mortificato in questo modo. Non permetteremo che in modo silente venga commesso questo oltraggio. Per questi motivi, quindi, parteciperemo, insieme agli altri, alla manifestazione indetta per sabato 12 marzo, organizzata dal Comitato per la salvaguardia della spiaggia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo CoR.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GUERRIERI PALEOTTI (PD)</note>
+            <u ana="#regular" who="#GuerrieriPaleottiPaolo" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u106">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg148">Signora Presidente, vorrei dedicare qualche minuto, attraverso questo mio intervento, per ricordare l'anniversario di uno degli eventi più tragici della storia della guerra del Nagorno Karabakh, tra Armenia ed Azerbaijan, un conflitto che, nonostante il complicato e assai debole cessate il fuoco, continua da quasi un quarto di secolo a mietere vittime. La sera del 25 febbraio 1992, l'esercito armeno aprì il fuoco sulla cittadina di Khojaly, che rappresentava un obiettivo fondamentale nella strategia di occupazione della regione. In poco meno di un giorno, le precarie difese della cittadina vennero meno. Si organizzò così un corridoio umanitario per far evacuare i civili. Ma donne, bambini ed anziani, in violazione di fondamentali norme internazionali, vennero uccisi mentre tentavano disperati la fuga attraverso quel corridoio umanitario. Vi furono oltre 600 vittime, tra cui almeno 80 bambini, mentre i feriti furono un migliaio e così i civili presi in ostaggio. Svariati sono stati i tentativi delle Nazioni Unite di porre fine al conflitto, attraverso quattro risoluzioni che invocavano il ritiro delle forze di occupazione dalle aree occupate appartenenti alla Repubblica dell'Azerbaijan, nonché gli inviti del Parlamento europeo e della NATO a rispettarne il contenuto: tutti tentativi che, per ora, non hanno avuto alcun esito e alcuna attuazione. Allo stesso tempo, troppo debole è l'attenzione della comunità internazionale verso una situazione che potrebbe degenerare nel breve periodo. Sarebbe dunque importante, e quindi auspicabile, che il Governo italiano nelle sedi opportune riaffermasse l'importanza di iniziative per la soluzione del conflitto del Nagorno Karabakh, ribadendo che il rispetto delle risoluzioni dell'ONU prima citate rappresenta un passaggio fondamentale per proseguire sulla strada di una soluzione pacifica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FASIOLO (PD)</note>
+            <u ana="#regular" who="#FasioloLaura" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u107">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg149">Signora Presidente, ho sottoscritto una mozione, della quale prima firmataria è la vice presidente del Senato Fedeli, per ricordare le Donne Costituenti, donne che hanno donato il proprio cuore e la propria mente alle conquiste dei diritti di noi tutte. Molti passi avanti sono stati fatti in questi anni. Significativi, negli ultimi anni, quello rappresentato dalla legge elettorale n. 215 del 2012, che ha sancito la doppia preferenza di genere, nonché la legge Delrio, la n. 56 del 2014, che sancisce finalmente l'equilibrio di genere nella composizione delle Giunte. Abbiamo inoltre una legge elettorale europea con la preferenza alternata di genere, e così via. Ho onorato un impegno non facile nella Commissione regionale per le pari opportunità della Regione Friuli-Venezia Giulia, dove ho toccato con mano la lunga strada ancora da compiere e la fatica per ogni piccolo passo in avanti. Ma oggi la nostra commossa gratitudine e il nostro pensiero vogliono andare non tanto e non solo alle grandi Costituenti e ai grandi passi in avanti fatti anche in tempi più recenti nel nostro Paese, grazie all'impegno di tante donne - un Paese senza memoria è un Paese senza storia, senza anima - bensì a tutte le donne del silenzio; a quelle donne che, senza clamori, hanno consolidato e trasmesso i valori della solidarietà, dell'amicizia, della famiglia, dell'accoglienza e della dedizione. A loro vanno il nostro pensiero e il nostro ringraziamento, alle donne della sensibilità sociale, della dedizione gratuita: quelle belle dentro. E non dimentichiamo le donne del silenzio, le migranti di ieri e quelle di oggi; quelle avvolte da una coperta sotto la pioggia, che cercano una via di fuga dalla guerra e sperano in un'Europa solidale; quelle donne che le immagini veloci di una telecamera distratta sfiorano appena, senza guardar dentro alle loro vite; quelle che aspettano con i figli e con i vecchi, accudendo gli uni e gli altri nel freddo, per giorni, nella speranza che una porta nel muro o un varco nel filo spinato si aprano; donne migranti, alla cui condizione va restituita dignità, persone in qualche modo sacre; quelle dell'esodo inarrestabile, che aspettano una risposta politica e umanitaria al confine tra Grecia e Macedonia, davanti a focolari improvvisati in attesa di un improbabile pullman. È in questo giorno che l'Europa solidale deve affermarsi e prevalere sull'Europa degli egoismi, un'Europa più attenta al femminile, capace di agire subito più che di negoziare davanti a un'emergenza senza precedenti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u108">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg150">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per le sedute di mercoledì 9 marzo 2016</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.u109">
+               <seg xml:id="ParlaMint-IT_2016-03-08-LEG17-Sed-587.seg151">Il Senato tornerà a riunirsi domani, mercoledì 9 marzo, in due sedute pubbliche, la prima alle ore 9,30 e la seconda alle ore 16,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 18,08).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

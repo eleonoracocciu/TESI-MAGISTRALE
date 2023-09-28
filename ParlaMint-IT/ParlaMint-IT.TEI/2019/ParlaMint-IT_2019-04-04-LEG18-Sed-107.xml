@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 107 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 107 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 107, giorno (2019-04-04)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 107, Day (2019-04-04)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="107-upper">107 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="128" unit="speeches" xml:lang="it">128 discorsi</measure>
+            <measure quantity="128" unit="speeches" xml:lang="en">128 speeches</measure>
+            <measure quantity="12595" unit="words" xml:lang="it">12.595 parole</measure>
+            <measure quantity="12595" unit="words" xml:lang="en">12,595 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1107165</idno>
+               <date when="2019-04-04">04.04.2019</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="18"/>
+               <tagUsage gi="head" occurs="17"/>
+               <tagUsage gi="note" occurs="73"/>
+               <tagUsage gi="seg" occurs="128"/>
+               <tagUsage gi="u" occurs="44"/>
+               <tagUsage gi="vocal" occurs="11"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="incident" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="44"/>
+               <tagUsage gi="desc" occurs="57"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2019-04-04">04.04.2019</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente ALBERTI CASELLATI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u1">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg1">La seduta è aperta (ore 10). Si dia lettura del processo verbale. NISINI, segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u2">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul 10° anniversario del terremoto che ha colpito l'Abruzzo</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u3">
+               <incident type="action">
+                  <desc>Il Presidente e l'Assemblea si levano in piedi.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg3">Senatori, il 6 aprile 2009, alle ore 3,32 della notte, una terribile scossa di terremoto sconvolse la città dell'Aquila, l'Abruzzo e tutto il Centro Italia. Sotto le macerie rimasero bambini, ragazze e ragazzi, intere famiglie, anziani, soccorritori. Il bilancio finale fu drammatico: persero la vita oltre 300 persone, con più di 1.500 feriti e decine di migliaia di sfollati.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg4">Tra le vittime permettetemi di ricordare Giovanna Berardini, giovane mamma, che il giorno dopo avrebbe dovuto partorire la sua seconda figlia, Giorgia. Il terremoto portò, invece, via l'intera famiglia, compreso il figlioletto Francesco di due anni. E poi case, scuole, chiese, edifici pubblici; il centro storico e le zone più colpite furono distrutte in pochi secondi, cancellando per sempre storie, ricordi, affetti, volti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg5">La macchina dei soccorsi restituì al Paese quella dignità e quell'orgoglio che la tragedia aveva messo a dura prova. Da tutta l'Italia ci si mobilitò per aiutare, sostenere, confortare quei connazionali che avevano perso tutto; una gara di solidarietà, alla quale parteciparono anche Stati esteri, fondazioni, organizzazioni internazionali.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg6">A distanza di dieci anni abbiamo il dovere morale di ricordare e abbiamo l'obbligo di ispirare ogni giorno le politiche pubbliche ai princìpi di sicurezza del territorio e dell'ambiente.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg7">In ricordo delle vittime, vi invito ad un minuto di raccoglimento.</seg>
+               <incident type="sound">
+                  <desc>L'Assemblea osserva un minuto di silenzio.</desc>
+               </incident>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Svolgimento di interrogazioni: (3-00634) - Immobile da destinare a nuova sede questura Pesaro</head>
+            <note type="time">(ore 10,08)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u4">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg8">L'ordine del giorno reca lo svolgimento di interrogazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg9">Sarà svolta per prima l'interrogazione 3-00634 sull'immobile da destinare a nuova sede della questura di Pesaro. Il rappresentante del Governo ha facoltà di rispondere a tale interrogazione.</seg>
+            </u>
+            <note type="speaker">MOLTENI</note>
+            <note type="role">sottosegretario di Stato per l'interno</note>
+            <u ana="#guest" who="#MolteniNicola" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u5">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg10">Signor Presidente, signori senatori, gli uffici della questura di Pesaro e Urbino sono ubicati in differenti immobili, detenuti in regime di occupazione extracontrattuale, con sede centrale in via Giordano Bruno e una seconda sede, ubicata in via Flacco, adibita a sede degli uffici immigrazione e personale. Con riferimento a questo secondo immobile, di proprietà di una società interamente partecipata dalla Provincia di Pesaro e Urbino, è stata anche attivata una procedura di sfratto per finita locazione con rilascio previsto, dopo due intervenute proroghe, alla fine del 2019.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg11">Al fine di individuare soluzioni alternative idonee a sistemare gli uffici attualmente dislocati nell'immobile di via Giordano Bruno, la prefettura, in stretto raccordo con la questura e l'Agenzia del demanio, ha avviato, fin dal 2015, le procedure per rendere possibile il recupero, con oneri a carico dell'Agenzia del demanio, di un immobile demaniale, adiacente alla sede della prefettura, un tempo sede dell'Intendenza di finanza e del Comando provinciale della Guardia di finanza, da anni inutilizzato.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg12">Nel nuovo stabile saranno allocati parte degli uffici attualmente situati nella sede principale di Via Giordano Bruno e sarà ricavata un'area interna per lo stazionamento delle autovetture di servizio. Gli uffici di Via Flacco, invece, saranno trasferiti nell'attuale edificio principale della questura, che si trova nella medesima piazza in posizione frontale ed a poche decine di metri dal nuovo edificio.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg13">Tale ipotesi di risistemazione logistica si è concretizzata in un protocollo d'intesa, sottoscritto in data 17 giugno 2016, tra il Ministero dell'interno, l'Agenzia del demanio ed il Comune di Pesaro. In particolare, la citata Agenzia si è impegnata a progettare ed attuare l'intervento di adeguamento e ristrutturazione edilizia, per una spesa complessiva di 6,2 milioni di euro, ed ha elaborato un progetto definitivo degli interventi, che include anche opere di riduzione del rischio sismico. Ai fini della stesura della progettazione esecutiva è stato elaborato un apposito programma, approvato dalla Soprintendenza ai beni artistici e culturali, per il posizionamento di alcuni container, strumentali alla temporanea collocazione dei negozi sulla piazza antistante l'edificio nel periodo necessario alla esecuzione dei lavori. Proprio con riferimento alla presenza degli esercizi commerciali posti al piano terra dello stabile va evidenziato che la situazione era nota all'atto della stipula del protocollo d'intesa nel 2016 a tutti gli uffici locali, interregionali e centrali interessati, che hanno valutato positivamente l'intervento sotto il profilo della funzionalità, ritenuta in linea con le regole tecniche e amministrative dettate per gli interventi del tipo innanzi prospettato. Si evidenzia, inoltre, che i suddetti esercizi commerciali non sono comunque situati a ridosso degli ingressi principali, né della prefettura né dello stabile individuato per il trasferimento degli uffici della questura. L'attuazione dell'iniziativa in parola viene, peraltro, costantemente monitorata da un apposito gruppo di lavoro composto, come indicato dal citato protocollo d'intesa, da rappresentanti delle parti sottoscrittrici, nonché da un referente locale del Dipartimento della pubblica sicurezza territorialmente competente, che garantirà il necessario supporto tecnico all'Agenzia del demanio affinché il relativo progetto di adeguamento sia conforme alle esigenze degli uffici di Polizia. L'iniziativa in questione, il cui termine presumibile di ultimazione dei lavori è previsto per la fine del 2021 o l'inizio del 2022, si presenta economicamente vantaggiosa per l'amministrazione, in quanto, essendo l'immobile demaniale, non dovranno essere corrisposti canoni e le opere di adeguamento alle esigenze di Polizia saranno realizzate e finanziate dall'Agenzia del demanio. Si fa presente, da ultimo, che non risultano finora pervenute proposte in merito alla realizzazione di una nuova struttura sull'area edificabile di proprietà del Comune, adiacente il parco Miralfiore, soluzione che comunque non sarebbe economicamente più vantaggiosa, dovendo il Ministero dell'interno in tale ipotesi corrispondere un canone di locazione per l'utilizzo dell'immobile che il Comune di Pesaro andrebbe a realizzare. La prefettura di Pesaro e Urbino ha peraltro fatto sapere che in una delle ultime riunioni del Consiglio comunale di Pesaro è stato respinto a maggioranza un ordine dei giorno presentato da un consigliere di minoranza con il quale si impegnava l'amministrazione comunale a trovare altre soluzioni per l'allocazione della questura.</seg>
+            </u>
+            <note type="speaker">CANGINI (FI-BP)</note>
+            <u ana="#regular" who="#CanginiAndrea" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg14">Signor Presidente, ringrazio il sottosegretario Molteni per la gentilezza che mi ha usato nel venire oggi in Aula a rispondere a un'interrogazione che nasce dal doveroso rapporto tra parlamentari e territorio che li ha espressi. Mi sono fatto carico dei dubbi manifestati da un sindacato di Polizia, dubbi che hanno animato un dibattito sui giornali cittadini, a seguito del quale diversi cittadini mi hanno scritto aderendo a questi dubbi e sollecitandomi a prendere una posizione. Prendo atto della cronologica ricostruzione dei fatti svolta dal sottosegretario Molteni, che mi pare non aggiunga valutazioni di merito alla scelta fatta dal sindaco di Pesaro Matteo Ricci. Tale scelta è, a mio avviso, discutibile per tante ragioni: in primo luogo per questioni di sicurezza. Ne ha fatto cenno il Sottosegretario: i negozi che si trovano al piano strada espongono al rischio e favoriscono l'intenzione di eventuali malintenzionati che volessero fare un attentato alla questura. La nuova questura si troverebbe poi collocata nel pieno del centro storico cittadino, zona a traffico limitato, a ridosso di Piazza del Popolo, frequentatissima dai pesaresi, i quali ritengono giustamente un loro diritto passeggiare in serenità. E questo ritengo che mal si concilierebbe con il viavai di volanti di Polizia che fanno il loro mestiere, ma metterebbero anche a rischio la sicurezza dei cittadini che lì passeggiano. La struttura individuata, inoltre, proprio per la sua morfologia, non pare adeguata alla funzione che andrebbe a ricoprire. Non si libererebbe automaticamente la vecchia questura e quindi ci sarebbe una coabitazione di uffici in edifici diversi, cosa che immagino non possa favorire la funzionalità del lavoro di chi dovesse operare all'interno della nuova questura. Non ci sono poi parcheggi, e questo penalizza i dipendenti della questura, così come i cittadini chiamati a frequentarla. Meglio sarebbe stato, a mio avviso, utilizzare il terreno di proprietà del Comune cui lei ha fatto riferimento - 20.000 metri quadri edificabili - per costruire una nuova questura con tutti i crismi e, dopo un accordo con il demanio, restituire alla città l'edificio dell'ex Intendenza di finanza perché, come sappiamo, Pesaro è una città ricca di fermento culturale e associativo ma povera di luoghi dove tale fermento possa realizzarsi, svolgersi, aprirsi effettivamente alla cittadinanza. Quindi, dal mio punto di vista, meglio sarebbe stato, per la collocazione di quell'edificio (l'ex Intendenza di finanza) e per la sua struttura, aprirlo e restituirlo effettivamente alla cittadinanza piuttosto che trasformarlo in una questura, o meglio in una mezza questura, dal momento che una parte della vecchia questura resterebbe in funzione. Comunque, ubi maior, prendo atto della posizione del Governo e dell'amministrazione comunale di Pesaro e speriamo che si riveli la scelta giusta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00276) - Istituzione archivio di Stato Provincia di Barletta-Andria-Trani</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u7">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg15">Segue l'interrogazione 3-00276 sull'istituzione dell'archivio di Stato della Provincia di Barletta-Andria-Trani. Il rappresentante del Governo ha facoltà di rispondere a tale interrogazione.</seg>
+            </u>
+            <note type="speaker">MOLTENI</note>
+            <note type="role">sottosegretario di Stato per l'interno</note>
+            <u ana="#guest" who="#MolteniNicola" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u8">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg16">Signor Presidente, il senatore Quarto chiede notizie relative all'istituzione di un Archivio di Stato nella provincia di Barletta-Andria-Trani. Vorrei premettere che, come correttamente ricordato dal senatore interrogante, il decreto del Presidente della Repubblica n. 1409 del 1963, che detta norme relative all'ordinamento del personale degli archivi di Stato, prevedeva un Archivio di Stato in ogni provincia, con sede nel capoluogo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg17">La competente Direzione generale del Ministero per i beni e le attività culturali, già nel marzo del 2008, aveva espresso la propria disponibilità ad attivarne uno nella provincia in parola, purché gli enti locali si fossero fatti carico dei problemi connessi all'adeguamento strutturale e funzionale delle sedi, tenuto conto delle difficoltà di bilancio evidenziate anche dagli altri uffici del Ministero presenti sul territorio.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg18">La stessa Direzione archivi, su impulso del segretario generale che si era fatto interprete della richiesta avanzata in tal senso dal commissario governativo per la Provincia di Barletta-Andria-Trani, provvide a quantificare gli oneri necessari per l'attivazione e il successivo funzionamento dell'Archivio di Stato di Trani, addivenendo alla conclusione che non sarebbe stato possibile farvi fronte con le risorse ordinarie.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg19">Si conviene con il senatore interrogante circa il fatto che la presenza di personale d'archivio già addetto al servizio presso le sezioni distaccate non comporta, per tali voci di spesa, oneri aggiuntivi e tuttavia la funzionalità di una serie di archivi esige una più complessa organizzazione anche strutturale.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg20">Nell'ampio confronto che ha riguardato la valutazione delle ragioni culturali dell'iniziativa, ma anche le sue implicazioni finanziarie, organizzative e logistiche, si è ritenuto di mantenere per ora l'assetto esistente, con gli uffici di Barletta e Trani come sezioni dell'Archivio di Stato di Bari. Nel 2016 sono stati assegnati, per l'adeguamento strutturale e funzionale della ex caserma Stennio di Barletta 974.500 euro complessivi di cui 706.500 euro imputabili alla programmazione ordinaria dei lavori pubblici e 268.000 euro stanziati con legge 23 dicembre 2014, n. 190. Tale somma non è tuttavia sufficiente per ultimare i lavori necessari. Vorrei infatti rammentare che già nel 2008 l'ufficio tecnico della competente Direzione generale archivi aveva stimato l'importo necessario all'adeguamento strutturale in 2,5-3 milioni di euro. È stato quindi previsto di realizzare in via prioritaria gli interventi comunque necessari per avviare la procedura di messa in esercizio dell'attività nel rispetto delle normative vigenti (agibilità, certificato prevenzione incendi eccetera). Peraltro, la Direzione segnala una controversia sulla proprietà del complesso, insorta tra il demanio e il Comune di Barletta.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg21">Per completezza, la stessa Direzione ricorda che è in corso un serrato confronto fra le città di Barletta e di Trani circa l'ubicazione della sede principale dell'istituendo Archivio di Stato.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg22">Vorrei tuttavia rassicurare il senatore interrogante che il Ministero per i beni e le attività culturali, che, tra le altre, svolge le funzioni statali relative alla tutela del patrimonio archivistico italiano e ne promuove la conservazione, la conoscenza e lo studio, è ben consapevole dell'importanza degli Archivi, che sono un bene prezioso e delicato dove lavorano professionisti che conservano il passato e organizzano il presente, permettendo a tutti di usufruire di inestimabili documenti che essi stessi salvaguardano per il futuro, e persevera nella ricerca di ogni possibile soluzione per realizzare quanto richiesto; una soluzione che contemperi e soddisfi il piano culturale e quello finanziario nel quadro di un piano di riorganizzazione del Ministero.</seg>
+            </u>
+            <note type="speaker">QUARTO (M5S)</note>
+            <u ana="#regular" who="#QuartoRuggiero" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u9">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg23">Signor Presidente, esprimo la mia soddisfazione per questa circostanziata e completa risposta del Governo. Finalmente, dopo quindici anni dalla nascita della Provincia di Barletta-Andria-Trani, si prende seriamente in considerazione l'istituzione della sede provinciale dell'Archivio di Stato, così come prevede la legge dello Stato. Raccogliere, conservare e sorvegliare il patrimonio archivistico e documentario di proprietà statale e renderlo fruibile ai cittadini: è questo l'importante compito degli Archivi di Stato. Preziosa risulta l'assistenza ai ricercatori in sala studio e le ricerche per corrispondenza, l'acquisizione della documentazione storica degli uffici statali, l'attività promozionale e didattica, le iniziative di ricerca scientifica e di valorizzazione dei documenti, anche in collaborazione con altri istituti culturali. Tutto ciò è sicuramente più efficiente se nel territorio esiste una sede provinciale. Per troppo tempo i Governi precedenti hanno ignorato questa legittima istanza che - sia chiaro - non comporterebbe oneri aggiuntivi. Sono infatti già operative sul territorio, come sezioni dell'Archivio di Stato di Bari, le sedi di Barletta e Trani, dotate nel complesso di circa 100.000 documenti di interesse archivistico, atti di carattere amministrativo, finanziario, giudiziario e militare, in alcuni casi risalenti al XVI secolo. Sul piano delle risorse umane poi queste due sezioni hanno già una qualificata e completa dotazione tra funzionari archivisti e addetti ai servizi e possono usufruire di due splendidi edifici, ricordati anche dal Sottosegretario: l' ex caserma Stennio di Barletta, un tempo convento dei Celestini, le cui prime notizie riguardanti la chiesa con l'annesso monastero e ospedale risalgono al 1185, e lo storico palazzo Valenzano di Trani, risalente al 1762, già sede dell'archivio notarile distrettuale. Ho fatto presente nell'interrogazione che la provincia di Fermo, nata anch'essa nel 2004, ha ottenuto la trasformazione da sezione di Archivio di Stato in Archivio di Stato di Fermo già nel 2007. Credo sia giunto il momento di procedere anche nella sesta provincia pugliese. Il Ministero per i beni e le attività culturali potrà quindi indicare come sede Barletta o Trani. Approfitto dell'occasione per sollecitare tutti gli enti coinvolti ad accelerare le procedure per completare i lavori di adeguamento e di messa in sicurezza delle strutture che ospitano o ospiteranno a breve i documenti archivistici. Il Governo, dal canto suo, deve impegnarsi ad agire tempestivamente appena il territorio sarà pronto con una sede ad accogliere l'Archivio di Stato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u10">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg24">Vorrei salutare i rappresentanti delle Consulte degli studenti del Friuli-Venezia Giulia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ripresa dello svolgimento di interrogazioni</head>
+            <note type="time">(ore 10,23)</note>
+         </div>
+         <div type="debateSection">
+            <head>(3-00217) - Situazione uffici Motorizzazione civile di Firenze e Prato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u11">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg25">Segue l'interrogazione 3-00217 sulla situazione degli uffici della Motorizzazione civile di Firenze e Prato. Il rappresentante del Governo ha facoltà di rispondere a tale interrogazione.</seg>
+            </u>
+            <note type="speaker">DELL'ORCO</note>
+            <note type="role">sottosegretario di Stato per le infrastrutture e i trasporti</note>
+            <u ana="#guest" who="#DellOrcoMichele" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u12">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg26">Signor Presidente, l'ufficio della motorizzazione civile (UMC) di Prato, nel dicembre 2012, è stato chiuso anche a seguito delle misure contenute nel decreto-legge n. 95 del 2012, con conseguente accorpamento all'UMC di Firenze. I pensionamenti, il blocco del turnover e la rotazione di personale hanno determinato criticità nell'erogazione del servizio. Con riferimento al periodo di validità del foglio rosa, la circolare ministeriale del 2 marzo 2016 ha fornito disposizioni in relazione alla possibilità di proroga. Evidenzio, inoltre, che un'apposita commissione ispettiva del MIT, nominata nel 2018 per verificare le effettive situazioni di criticità lamentate dalle autoscuole, ha riscontrato che la cosiddetta vita media del foglio rosa di Firenze è di circa cento giorni, cioè in linea con la media nazionale. Al riguardo, informo che a febbraio 2018 è stato assunto un funzionario ingegnere nell'ufficio di Firenze, mentre per le future assunzioni di personale a tempo indeterminato presso il MIT, una parte considerevole delle stesse sarà effettuata tramite apposito concorso a 148 posti di funzionario ingegnere architetto - di cui cinque per la Motorizzazione di Firenze e le relative sezioni - le cui prove scritte si sono già svolte; al riguardo, si è già richiesto al Ministero dell'economia e delle finanze la possibilità di prevedere, con il primo strumento normativo utile, un incremento dei posti già messi a concorso. Aggiungo anche che, sempre per la carenza del personale della Motorizzazione, in manovra è stato inserito un fondo da 16 milioni di euro, ovviamente spalmato su vari anni, per ulteriori cinquanta assunzioni per venire incontro a questa carenza evidente che abbiamo ereditato. Proprio per far fronte alle richieste dell'utenza si sta intervenendo attraverso miglioramenti organizzativi. L'attività operativa viene anche soddisfatta grazie ad una maggiore presenza, in regime di straordinario, da parte del personale dell'ufficio. È comunque allo studio, tra le misure da inserire nelle proposte di legge di modifica al codice della strada, quella della proroga del foglio rosa, quando al candidato non è dato di sostenere le due prove di esame di guida in costanza di validità della certificazione, misura che, quindi, permetterà di abbattere i costi del rinnovo del foglio rosa. Alla luce di quanto esposto, rassicuro che la competente Direzione generale territoriale svolge e continuerà a svolgere la propria attività di monitoraggio sulle criticità lamentate e cercherà di assumere tutti i necessari provvedimenti. Infine, informo che in ogni sede periferica sono in fase di attivazione corsi di abilitazione per l'espletamento dell'attività di esaminatore, di modo da contribuire all'incremento del personale abilitato allo svolgimento degli esami in modo da diminuire i disagi all'utenza.</seg>
+            </u>
+            <note type="speaker">PARRINI (PD)</note>
+            <u ana="#regular" who="#ParriniDario" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg27">Signor Sottosegretario, la ringrazio per le informazioni e i chiarimenti che ci ha dato. Anche considerato il fatto che l'interrogazione risale a molti mesi fa, ho potuto fare nuove verifiche con gli operatori e con i cittadini che avevano sollevato la questione e denunciato l'esistenza di un problema grave. Da queste verifiche è emerso che il quadro che attualmente abbiamo per quanto riguarda la Motorizzazione di Firenze e Prato è molto meno roseo di quello che ci viene descritto e che le prospettive non sono affatto favorevoli come quelle che lei ci ha prospettato. Sappiamo bene che c'è stata una svolta in questa vicenda che si è verificata nel mese di aprile del 2018, quando è stato rimesso in discussione un accordo precedente; ciò ha determinato una grave ricaduta sul servizio. Sappiamo che per molto tempo si è andati avanti con un grande sacrificio dei cittadini e degli operatori professionali, che hanno cercato di supplire con la loro buona volontà agli effetti gravi delle carenze di organico. Sappiamo anche che i rimedi strutturali che occorrono per poter avviare veramente a soluzione questo problema sono di dimensioni assai più ampie rispetto a quelle dei rimedi che lei ha accennato. Comunque, apprezzo il tentativo di mettere in campo una soluzione. Registro il suo ottimismo sull'effetto che avranno le iniziative in corso. Le ricordo soltanto che le assunzioni programmate sono, a mio parere, davvero insufficienti a mutare la situazione nella Motorizzazione civile di Firenze e Prato. L'esistenza di disagi così gravi come quelli che nella mia interrogazione sono riportati non è affatto attenuata dal constatare che la durata del foglio rosa in questa circoscrizione è la stessa che esiste, in media, nelle altre circoscrizioni, perché in questi casi mal comune mezzo gaudio non è un principio che vale. Mal comune è mal comune e non c'è altro da dire. Le dico anche che sarebbe bene che il Governo, come già avvenuto per ciò che concerne gli organici delle forze di polizia, desse un'informazione corretta sull'effetto, come saldo netto, dei concorsi che sono in programma. Infatti se, come da molte voci allarmate mi viene fatto sapere, ci sarà - all'interno di queste strutture - un ricorso massiccio alle nuove disposizioni sull'anticipo pensionistico, corriamo il rischio che l'immissione in ruolo di unità in più che lei ha ricordato alla fine porti a un saldo netto di personale in calo per l'effetto di un'altra misura che ha operato lo stesso Governo del quale lei è esponente e al quale appartiene. Anche in questo caso bisogna che la mano destra sappia quello che fa la mano sinistra, altrimenti non si riesce ad avere un servizio adeguato per i cittadini. La ringrazio e certamente torneremo sull'argomento perché ho l'impressione che la soluzione sia molto di là da venire.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00690 e 3-00707) - Condanna dell'avvocato iraniano Nasrin Sotoudeh</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u14">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg28">Seguono le interrogazioni 3-00690 e 3-00707 sulla condanna dell'avvocato iraniano Nasrin Sotoudeh. Il rappresentante del Governo ha facoltà di rispondere congiuntamente a tali interrogazioni.</seg>
+            </u>
+            <note type="speaker">PICCHI</note>
+            <note type="role">sottosegretario di Stato per gli affari esteri e la cooperazione internazionale</note>
+            <u ana="#guest" who="#PicchiGuglielmo" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u15">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg29">Signor Presidente, il Governo italiano segue con grande attenzione la vicenda dell'avvocatessa iraniana Nasrin Sotoudeh e del marito Reza Khandan, sia direttamente che in coordinamento con i partner europei. Sul piano bilaterale, il ministro degli affari esteri Moavero Milanesi ha effettuato un passo formale con il proprio omologo iraniano, cui è stato anche confermato l'elevato interesse dell'opinione pubblica e delle associazioni professionali forensi italiane al caso, e con l'Alto rappresentante per la politica estera dell'Unione europea Mogherini, affinché alla vicenda dell'avvocatessa Nasrin Sotoudeh sia dedicata la massima attenzione. Ancor prima della recente condanna, abbiamo preso parte attiva alle principali occasioni di discussione della situazione dei diritti umani in Iran nei competenti fora multilaterali. Da ultimo, nell'ambito dei lavori del Consiglio per i diritti umani dell'ONU a Ginevra, di cui l'Italia è parte, in occasione del dialogo interattivo con il relatore speciale ONU sulla situazione dei diritti umani in Iran (11 marzo 2019), l'Unione europea ha attirato l'attenzione, tra l'altro, sul forte impegno per la protezione e promozione della libertà di opinione, espressione, associazione e riunione. Allo stesso tempo, ha espresso forte preoccupazione per i continui arresti e detenzioni di persone che esercitano questi diritti, inclusi giornalisti, attivisti, avvocati e difensori dei diritti umani, così come di avvocati che difendono queste persone, sollecitando il Governo iraniano a rivedere le proprie politiche, azioni e leggi per assicurare la protezione di tali diritti. L'Unione europea ha inoltre sollecitato il Governo iraniano ad adottare ulteriori misure per garantire il pieno godimento dei diritti umani di donne e ragazze. A seguito dell'annuncio della recente condanna di Nasrin Sotoudeh, alla nostra ambasciata a Teheran è stato chiesto di coordinarsi con le altre rappresentanze dell'Unione europea accreditate nel Paese anche per chiarire i termini della pena inflitta, sui quali vi è divergenza tra quanto dichiarano ufficialmente le autorità iraniane (sette anni) e quanto dichiarato dalla famiglia (38 anni e 148 frustate). Si tratta di un accertamento non semplice, alla luce di alcune rigidità che sussistono nel contesto iraniano. Continueremo a sostenere le iniziative pianificate dall'Unione europea, che - ricordo - si è immediatamente attivata con una dichiarazione (il 12 marzo) nella quale si esprime preoccupazione per la condanna dell'avvocatessa. Allo stesso tempo, si richiama l'attenzione delle autorità iraniane sulle violazioni al diritto a un giusto processo subite dall'avvocatessa e sul fatto che il diritto di protestare ed esprimere pacificamente le proprie idee è sancito dal Patto internazionale sui diritti civili e politici del 1966, di cui anche l'Iran è parte, e si chiede con fermezza l'immediata revisione della sentenza relativa all'avvocatessa e di quella del marito, oltre al rispetto del loro diritto di appellarsi contro le sentenze. Monitoreremo gli sviluppi futuri del caso, evocandolo con preoccupazione nei prossimi contatti bilaterali con Teheran e assicurando che esso sia approfondito dai competenti organismi multilaterali. Il binario multilaterale appare infatti la cornice più adeguata nella quale poter iscrivere, in coordinamento con i partner dell'Unione europea, azioni di pressione sulle autorità iraniane sia relative al caso specifico sia - più in generale - per stimolare risposte costruttive in tema di rispetto dei diritti umani e delle libertà fondamentali, inclusi quelli delle donne, da parte del Governo iraniano.</seg>
+            </u>
+            <note type="speaker">CIRINNA' (PD)</note>
+            <u ana="#regular" who="#CirinnaMonica" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u16">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg30">Signor Presidente, signor Sottosegretario, colleghi, la questione oggetto dell'interrogazione che ho presentato va guardata in un'ottica più ampia, sulla quale vorrei che anche la Commissione diritti umani del Senato potesse lavorare. Non è un caso che nel mondo, ogni qualvolta le donne si fanno interpreti e portatrici di richieste non solo di rivendicazione di diritti umani, ma anche di libertà personali, nel momento in cui diventano visibili e importanti vengono colpite con estrema durezza. Una delle battaglie principali che le donne di Paesi come l'Iran conducono è il diniego all'obbligo di indossare il velo. Abbiamo visto anche le donne in Arabia Saudita che hanno sfidato il regno e il re mettendosi alla guida della loro automobile; c'è una fortissima richiesta di scolarizzazione, attraverso la quale molte donne cercano di ottenere diritti per sé e per le loro figlie. Ciò che mi domando, utilizzando lo strumento dell'interrogazione, non è solo cosa stia facendo l'Italia perché Nasrin venga liberata, ma cosa stia facendo perché non subisca la violazione della sua integrità fisica con la pena delle frustate (ormai pessima, anacronistica, fuori dalla storia e dai diritti umani) e, soprattutto, cosa stia facendo il nostro Paese per ottenere un giusto processo per questa donna. Sappiamo che a lei è stato applicato il massimo della pena su sette reati, che sono tutti discutibili perché bisognerebbe capire se realmente la condotta e, cioè, il fatto oggetto del reato, sia stata commessa da Nasrin. Soprattutto, è stato utilizzato un articolo del codice penale che, prevedendo il cumulo delle pene, prescrive l'applicazione di una norma aggravante che aumenta ulteriormente la pena. È ridicolo sostenere che non si possa accertare realmente il contenuto della sentenza: il Governo dice che è stata condannata a sette anni, ma sappiamo che è stata condannata a trentatré anni. La certezza della pena dovrebbe essere uno dei fondamenti di uno stato di diritto. Sappiamo che, di fatto, abbiamo a che fare con un Paese dove lo stato di diritto è messo continuamente in discussione. La mia domanda era anche finalizzata a capire se tutte le iniziative di cooperazione internazionale che vengono comunque sostenute rispetto a quel Paese devono, possono, saranno - me lo chiedo e lo chiedo al Governo - sottoposte a uno screening di carattere etico; inoltre vorrei sapere se si potrà valutare una risposta alternativa rispetto a tutte le iniziative di cooperazione internazionale nel caso non siano rispettati i diritti umani, la democrazia e il pluralismo all'interno delle forze politiche. Forse alcuni Paesi, che danno e fanno tanto in questo campo, possono condizionare la loro presenza e il loro aiuto e sostegno chiedendo al Governo in cambio che vengano rispettati questi punti. Rispetto alla sua risposta, signor Sottosegretario, della quale la ringrazio, vedo delle lacune e, soprattutto, una mancanza di iniziativa politica molto forte. Abbiamo Ministri visibili che continuamente, anche con frasi fatte e slogan, lanciano sfide europee e internazionali, ma non vedo la stessa veemenza, la stessa presenza e lo stesso uso di un linguaggio forte e chiaro quando si tratta di difendere una donna, i diritti umani di una donna e, soprattutto, un'ingiustizia che ormai è sotto gli occhi del mondo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">VESCOVI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#VescoviManuel" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg31">Signor Presidente, signor rappresentante del Governo, ringrazio per la risposta e faccio solo una precisazione: 120 milioni di euro li ha dati il Governo Renzi all'Iran.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Cirinnà</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg32">Parlando di diritti ed entrando nel merito della questione, importante, c'è questa donna, avvocato, Nasrin, che rappresenta non solo un caso specifico, ma un simbolo, un modo di vivere e una cultura. Lei è un caso, ma ce ne sono tanti. L'altro giorno il «Corriere della Sera» riportava la fotografia di una donna con il burqa messa in ginocchio e frustata. Già mettere una donna in ginocchio e frustarla è un'immagine che, per la nostra cultura, ci fa veramente ribrezzo e non si può più assolutamente tollerare. Si dice che c'è la sentenza del giudice (per inciso, il giudice che ha adottato questa sentenza è stato promosso all'ONU per occuparsi delle questioni femminili!).</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az e del senatore Mallegni</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg33">La nostra cultura e la loro sono completamente diverse. Io sono orgoglioso della nostra e ricordo che nella Dichiarazione islamica dei diritti dell'uomo - a differenza della nostra Dichiarazione universale dei diritti umani - è scritto che l'uomo, da intendersi nell'accezione maschile, ha diritto di supremazia sulla donna. Si tratta di una questione di cultura e di civiltà e la battaglia che si deve portare avanti non rappresenta solo una donna, ma un'intera civiltà e due mondi completamente diversi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg34">Ogni tanto sento parlare di integrazione, ma la loro cultura come può integrarsi con la nostra, che è profondamente diversa?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S, e dei senatori De Falco e Mallegni</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg35">PRESIDENTE. Lo svolgimento delle interrogazioni all'ordine del giorno è così esaurito.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul 10° anniversario del terremoto che ha colpito l'Abruzzo</head>
+            <note type="speaker">D'ALFONSO (PD)</note>
+            <u ana="#regular" who="#DAlfonsoLuciano" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg36">Signor Presidente, la ringrazio per l'opportunità che mi viene fornita di lasciare agli atti un contributo e un pensiero per partecipare a questa giusta e necessaria occasione di memoria del terremoto che ha colpito l'Abruzzo. È giusto che ci sia un contributo anche di chi lo ha conosciuto e vissuto. In quei giorni non avevo responsabilità, ma - naturalmente - ho avuto consapevolezza della gravità accaduta. Una comunità è fatta di leggi, reddito e ambizioni, ma anche di memoria collettiva. La memoria collettiva consente resistenza e resilienza quando si presentano difficoltà, situazioni di dolore e anche incertezze nella condotta, perché è più grande la difficoltà da gestire. L'Aquila ha conosciuto un terremoto di proporzioni anche scientificamente mai avvertite in quella parte di territorio del centro dell'Italia, se non si torna indietro al 1703. Come lei ha detto, signor Presidente, vite umane sono state colpite da un terremoto contro L'Aquila e non della città dell'Aquila. Il terremoto lascerà il ricordo del dolore per decenni, esattamente come accaduto nel 1703, quando ci fu un'identica scossa che distrusse il suolo e il sottosuolo, ma anche il cielo, a livello delle ambizioni. A che serve ricordare, in un momento come questo? Serve a prendere le misure circa le cose fatte, ma - soprattutto - a stabilire un livello collettivo di maturità, anche all'interno dell'ordinamento. Noi dobbiamo produrre una norma quadro riguardante i disastri, che non determini ogni volta il tiro alla fune per avere risorse finanziarie, umane, di flessibilità e azzeramento delle procedure per poter ripartire. Concludo con un pensiero, signor Presidente. All'Aquila stiamo rivedendo le mura; stanno tornando le mura, anche più belle di quelle che c'erano in passato. Il problema è che quelle mura non raccontano vita, né ambizione e c'è bisogno di far sì che tornino anche la vitalità economica, culturale, solidale e la fiducia. Come avrebbe detto Pannella, che è stato e rimane un grande abruzzese, c'è bisogno di pertinacia - la tenacia pertinente, la pertinenza nella tenacia - di tutti coloro i quali hanno dovere. Ricostruire anziché agire in anticipo e prevenire costa sei volte di più. Come ci ha insegnato anche il senatore a vita e maestro Renzo Piano, c'è bisogno di rammentare e rammendare, ma in anticipo, prima che i disastri accadano. In quest'Aula un grande senatore, Gianfranco Miglio, ci ha spiegato che lo Stato si fa riconoscere se sa reagire ai disastri. Per queste ragioni ricordare torna utile, perché è una premessa per la nostra pertinacia. Grazie, signor Presidente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DI GIROLAMO (M5S)</note>
+            <u ana="#regular" who="#DiGirolamoGabriella" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u19">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg37">Signor Presidente, onorevoli colleghi e colleghe, il 6 aprile ricorre il decennale di un evento tragico, tanto tragico e tanto lontano nel tempo eppure ancora così attuale. Nella notte tra il 5 e 6 aprile di dieci anni fa, alle ore 3,32, un boato avvolse la città dell'Aquila, un boato che riecheggia ancora in alcune di quelle strade che ancora oggi appaiono così come il terremoto le ha lasciate e ridotte: un cumulo di macerie. Bastarono pochi secondi, pochi interminabili secondi per stravolgere la vita di tante famiglie e far crollare i loro sogni, le loro certezze e le loro vite. 80.000 gli sfollati, 1.600 i feriti e 309 le vittime: questo è il rapporto del tragico evento. Sono passati dieci anni e a all'Aquila ci sono ancora 4.200 nuclei familiari in attesa di rientrare nelle proprie case; infatti, la ricostruzione risulta ancora distante dalla sua frase conclusiva, mancando all'appello ancora il 25 per cento di abitazioni nel centro, il 45 in periferia e ben il 78 per cento nelle frazioni. Dieci anni di attesa sono troppi ed è nostro compito oggi cercare di alleviare il dolore di tutti i cittadini aquilani e di tutti quelli che vivono la medesima situazione. Siamo tenuti a farli tornare a vivere nei propri quartieri, con le proprie abitudini e con le proprie comunità, a ridare loro una vita normale. Le stesse immagini di quel tragico 6 aprile si sono ripetute poi nel maggio del 2012 in Emilia-Romagna e, ancora, nel 2016 ad Amatrice. Per una Nazione che si rispetti frasi del tipo: «Si poteva evitare» oppure: «Si doveva intervenire prima» hanno il suono di una sconfitta, di un'incapacità dello Stato a fare lo Stato. Ogni vittima del terremoto è una parte di Stato che muore. È vero, l'Italia è una Nazione che ha sempre tremato e continuerà a farlo e, purtroppo, i terremoti non sono prevedibili, ma è altrettanto vero che abbiamo oggi le conoscenze sufficienti a capire se un edificio e un'infrastruttura possano resistere o no a una certa tipologia di scossa e abbiamo tutti gli strumenti per garantire la sicurezza alle persone, anche in occasione di eventi sismici. Il Governo del cambiamento alla parola «prevenzione» deve sostituire per sempre la parola «emergenza».</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u20">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg38">Sospendo la seduta fino alle ore 15. (La seduta, sospesa alle ore 10,48 è ripresa alle ore 15,02).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00753) - Question time su prospettive stabilimenti italiani gruppo Mahle</head>
+            <note type="time">(ore 15,02)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u21">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg39">L'ordine del giorno reca lo svolgimento di interrogazioni a risposta immediata, ai sensi dell'articolo 151- bis del Regolamento, alle quali risponderà il Ministro dello sviluppo economico e del lavoro e delle politiche sociali. Invito gli oratori ad un rigoroso rispetto dei tempi, considerata la diretta televisiva in corso. Il senatore Pianasso ha facoltà di illustrare l'interrogazione 3-00753 sulle prospettive degli stabilimenti italiani del gruppo Mahle, per tre minuti.</seg>
+            </u>
+            <note type="speaker">PIANASSO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#PianassoCesare" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u22">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg40">Signor Presidente, onorevoli membri del Governo, colleghi, Mahle è un'azienda produttrice di componenti automobilistici con sede a Stoccarda, in Germania. La Mahle Componenti Motori Italia SpA è presente in Italia fin dal 1987, anno in cui ha acquisito il controllo della precedente società Mondial Piston SpA, attiva fin dal 1946.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg41">In Italia sono presenti due stabilimenti di produzione, uno a La Loggia (Torino) e uno a Saluzzo (Cuneo), per un totale di circa 500 dipendenti. Lo stabilimento di Saluzzo comprende il processo produttivo di fusione della lega d'alluminio, nonché prelavorazioni meccaniche di formatura del pistone, nel quale sono impiegati 200 operai e altri 40 lavoratori tra impiegati, quadri e dirigenti. Nello stabilimento di Saluzzo, nel 2018, il ricorso alla cassa integrazione ordinaria ha coinvolto un numero compreso tra i 50 ed i 200 operai sui 200 totali; come riferito dalle associazioni sindacali coinvolte, il piano industriale presentato dall'azienda tedesca non prevede adeguati investimenti in Italia, comportando un depotenziamento per i siti produttivi presenti sul territorio italiano.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg42">Nello stabilimento di Saluzzo, inoltre, vengono prodotti i componenti per motori diesel e tale settore risulta in contrazione, causando preoccupazione per il futuro dello stabilimento alla luce dei mancati investimenti su nuove produzioni.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg43">In generale, il mercato automobilistico europeo presenta forti contrazioni che rischiano di causare gravi conseguenze nel comparto industriale italiano e dell'Unione europea. In un incontro tra i rappresentanti sindacali della Mahle e i vertici della stessa, svolto il 7 dicembre 2018 presso l'assessorato al lavoro della Regione Piemonte, i dirigenti Mahle hanno illustrato la situazione economica nei vari stabilimenti europei dell'azienda, hanno ribadito la volontà di mantenere la presenza in Italia, ma non hanno fornito indicazioni sulla possibile diversificazione produttiva e sugli sviluppi futuri. Secondo quanto risulta all'interrogante, ci sarebbe il rischio di una completa riorganizzazione aziendale che comporterebbe una drastica riduzione produttiva negli stabilimenti italiani di La Loggia e di Saluzzo, con conseguente crisi occupazionale.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg44">Si chiede di sapere se il Ministro sia a conoscenza di quanto esposto in premessa e se intenda convocare un tavolo presso il Ministero, affinché si possa avere chiarezza sui futuri piani industriali dell'azienda in questione, al fine di tutelare i livelli occupazionali attuali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg45">PRESIDENTE. Il ministro dello sviluppo economico e del lavoro e delle politiche sociali, onorevole Di Maio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DI MAIO</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali</note>
+            <u ana="#guest" who="#DiMaioLuigi" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u23">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg46">Signor Presidente, ringrazio il senatore interrogante. Riguardo alle problematiche evidenziate relativamente alla società Mahle, ricordo che l'azienda, con sedi in Germania a Stoccarda e in Italia a La Loggia (Torino) e a Saluzzo (Cuneo), è leader a livello mondiale nella produzione di componenti per motore e la sua clientela è costituita da gruppi automobilistici internazionali. In passato, l'azienda, aveva già fatto richiesta del trattamento di cassa integrazione guadagni straordinaria (CIGS) al Ministero del lavoro e delle politiche sociali per lo stabilimento di La Loggia (Torino) e per una sede di Trento, con la contestuale stipula di un contratto di solidarietà, che ha stabilito per dodici mesi la riduzione massima dell'orario di lavoro settimanale, come previsto dal contratto collettivo nazionale di lavoro del settore dell'industria metalmeccanica, per 182 lavoratori (su un organico complessivo di 799). Ad oggi, non risulta esservi alcuna richiesta di trattamento CIGS per la sede di Saluzzo (Cuneo), fermo restando - posto che l'azienda coinvolta opera specificamente in Piemonte - che la procedura potrebbe essere gestita anche a livello regionale. Tuttavia, alla luce di quanto esposto, dichiaro la totale disponibilità del Ministero dello sviluppo economico ad avviare un tavolo di confronto con le parti interessate, ovviamente con richiesta da parte dei soggetti coinvolti. Sotto il profilo degli interventi a sostegno delle imprese in Piemonte, colgo l'occasione per ricordare che il Ministero dello sviluppo economico, la Regione Piemonte e Invitalia SpA hanno sottoscritto, a luglio scorso, un accordo di programma per sostenere programmi di investimento nelle aree di crisi industriale non complessa del Piemonte ed è in corso la conclusione dell' iter per il riconoscimento dell'area di crisi industriale complessa per il territorio di Torino, in cui è localizzata la maggior parte degli stabilimenti produttivi, per rilevanza e dimensione, della Regione, tra cui anche FCA.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg47">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Pianasso, per due minuti.</seg>
+            </u>
+            <note type="speaker">PIANASSO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#PianassoCesare" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u24">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg48">Signor Presidente, sono soddisfatto della risposta del Ministro.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg49">Come Gruppo riteniamo che questo caso sia importante per diverse questioni, la prima delle quali riguarda l'attenzione che come maggioranza dobbiamo mantenere nei confronti di tutte le aziende straniere che controllano importanti asset produttivi italiani. È fondamentale che chi decide di fare investimenti nel nostro Paese garantisca l'adeguato impegno economico e la tutela dell'occupazione. Questo caso sottolinea inoltre la delicata situazione industriale nella Regione Piemonte, dove sono diversi i dossier di crisi aziendale aperti. Non a caso il Piemonte, secondo gli ultimi dati presentati dal MISE, è la quarta Regione italiana per domande di reddito di cittadinanza; si tratta, dunque, di una particolare e delicata situazione che merita la giusta attenzione da parte del Governo. Vorrei poi fare una mia osservazione personale per quanto riguarda il reddito di cittadinanza. Signor Ministro, se il reddito di cittadinanza funziona andiamo avanti su questa strada; siamo agli inizi e dobbiamo ancora vedere se è una misura che porta dei frutti, come spero e penso. Altrimenti, però, non dobbiamo comportarci come hanno fatto Forza Italia o il PD, che ritenevano di fare tutto giusto: a volte tornare sui propri passi è importante. Se il reddito di cittadinanza è l'impegno per ritrovare un lavoro, bene; se è solo un sussidio, cerchiamo di realizzare delle politiche attive del lavoro, anche perché la gente non ci chiede un sussidio, ma dignità e il lavoro dà dignità. Dai banchi di questo consesso ho sentito diverse volte criticarla perché vendeva le bibite allo stadio San Paolo o perché faceva lo steward; io le dico: Di Maio, sia orgoglioso di quello che ha fatto, perché qualunque lavoro dà dignità, anche pulire i bagni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00752) - Question time su tutela aziende storiche italiane e loro marchi</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u25">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg50">Il senatore Romagnoli ha facoltà di illustrare l'interrogazione 3-00752 sulla tutela delle aziende storiche italiane e dei loro marchi, per tre minuti.</seg>
+            </u>
+            <note type="speaker">ROMAGNOLI (M5S)</note>
+            <u ana="#regular" who="#RomagnoliSergio" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u26">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg51">Signor Presidente, Ministro, colleghi, premetto che l'Italia, per la sua tradizione industriale, possiede numerose storiche aziende che rappresentano l'eccellenza del made in Italy nel mondo e che tali aziende, grazie alla straordinaria qualità della loro produzione, sono riconosciute in tutto il mondo e il cosiddetto marchio associato, in molti casi, è divenuto patrimonio industriale mondiale. Nel corso degli ultimi anni importanti marchi storici sono stati oggetto di operazioni di acquisizione da parte di multinazionali con sede e produzione all'estero e tali operazioni, in numerosi casi, hanno provocato il trasferimento della produzione all'estero, con conseguente chiusura degli stabilimenti storici, il licenziamento, nel corso degli anni, di decine di migliaia di lavoratori e la perdita di quel know how industriale che era frutto di un costante lavoro imprenditoriale e di ricerca tecnologica. Si consideri, inoltre, che, oltre ad un impoverimento del tessuto industriale, queste chiusure hanno provocato e provocano un impoverimento del tessuto sociale e culturale nelle zone su cui insistono tali stabilimenti e che le operazioni di acquisizione di importanti marchi storici italiani continuano anche in questi anni, come nel caso dell'azienda dolciaria Pernigotti di Novi Ligure (Alessandria), per affrontare la quale è stato peraltro attivato, presso il Ministero dello sviluppo economico, un apposito tavolo di monitoraggio per la salvaguardia dei livelli occupazionali. Alla luce di questi fenomeni industriali appare sempre più necessario un intervento a tutela dell'occupazione, dell'integrità dei marchi storici, della qualità della produzione e della salvaguardia del tessuto sociale, economico e culturale delle aree su cui insiste l'azienda. Si chiede pertanto di sapere quali misure il Ministro intenda adottare per la salvaguardia dei cosiddetti marchi storici italiani, prevedendo specifici strumenti normativi, e quali iniziative il Ministro intenda intraprendere per tutelare i livelli occupazionali dei lavoratori impiegati nelle storiche aziende italiane, oggetto di operazioni industriali che prevedono il trasferimento della produzione all'estero o in aree diverse dalle zone di origine dell'azienda.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg52">PRESIDENTE. Il ministro dello sviluppo economico e del lavoro e delle politiche sociali, onorevole Di Maio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DI MAIO</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali</note>
+            <u ana="#guest" who="#DiMaioLuigi" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u27">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg53">Signor Presidente, le cosiddette delocalizzazioni selvagge, che hanno distrutto parte del tessuto imprenditoriale del nostro Paese negli ultimi anni, sono state combattute da questo Governo con dei provvedimenti all'interno del decreto dignità, per salvaguardare i livelli produttivi e la sopravvivenza stessa delle imprese italiane e per tutelare i lavoratori.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg54">Il decreto dignità, che ha il merito di aver dato un impulso positivo ai contratti di lavoro a tempo indeterminato, ha posto un freno alle delocalizzazioni delle imprese che abbiano ottenuto aiuti di Stato per effettuare investimenti. Abbiamo infatti introdotto l'obbligo di non trasferire per cinque anni in Stati fuori dall'Unione europea l'attività economica che ha beneficiato del sostegno pubblico, pena la decadenza dal beneficio e l'irrogazione di una specifica sanzione amministrativa. Lo stesso vale per imprese che vanno fuori dal territorio italiano, ma in quel caso c'è solo la decadenza dal beneficio, con interessi, e non l'irrogazione di una specifica sanzione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg55">Con una misura contenuta nel decreto crescita, in discussione in Consiglio dei ministri tra poche ore, si introdurrà nell'ordinamento la definizione di marchio storico di interesse nazionale e sarà fatto un apposito logo per valorizzare le imprese titolari di questo marchio, sia per consentire la certificazione di azienda storica del made in Italy, sia per tutelarne i livelli occupazionali e la sua produzione. Il Ministero dello sviluppo economico avrà la possibilità di poter procedere d'ufficio all'iscrizione di un marchio nel registro speciale, nel caso in cui vi sia stata notizia che l'impresa intenda chiudere il sito produttivo di origine o comunque quello principale, qualora risulti che il titolare non abbia iscritto questo marchio nell'apposito elenco. Per salvaguardare i livelli occupazionali e per garantire la prosecuzione dell'attività produttiva sul territorio nazionale è stata anche prevista l'istituzione, presso il Ministero dello sviluppo economico, del Fondo per la tutela dei marchi storici di interesse nazionale (per accedere al quale occorrerà seguire un'apposita procedura). Per accedere al Fondo, previa iscrizione del marchio all'interno del registro, l'impresa dovrà notificare senza ritardo al Ministero dello sviluppo economico le informazioni relative ad un progetto di chiusura o delocalizzazione dello stabilimento, e dovrà individuare i potenziali acquirenti, informando periodicamente il Ministero dello sviluppo economico delle proposte di acquisto ricevute e fornendo una relazione per ciascuna di esse. Inoltre, potrà essere istituito un apposito logo dei «marchi storici di interesse nazionale», che le imprese iscritte nel registro potranno utilizzare per le finalità commerciali e promozionali. Questa è solo una delle iniziative di questo Governo per frenare le delocalizzazioni delle imprese italiane e tutelare i livelli occupazionali. In tale direzione, il mio impegno come Ministro dello sviluppo economico e del lavoro e delle politiche sociali sarà sempre massimo, perché quando un'azienda delocalizza, porta fuori dall'Italia non solo gli impianti ed il proprio mercato, ma anche il proprio know-how, ossia quel bagaglio di esperienze e conoscenze accumulato negli anni con il concorso delle insostituibili maestranze italiane.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg56">Questa norma la dedichiamo ai lavoratori della Pernigotti, che sebbene non potranno godere dei vantaggi di questa norma perché non può essere retroattiva, l'hanno ispirata e non consentirà mai più altri casi Pernigotti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg57">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice Matrisciano, per due minuti.</seg>
+            </u>
+            <note type="speaker">MATRISCIANO (M5S)</note>
+            <u ana="#regular" who="#MatriscianoSusy" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u28">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg58">Signor Ministro, siamo soddisfatti di questa risposta e ci rende felici apprendere che la salvaguardia del made in Italy, uno dei punti di forza del nostro Paese e della sua immagine nel mondo, sia all'attenzione di questo Governo. Lei stesso, signor Ministro, il 5 gennaio, in occasione della sua visita presso lo stabilimento della Pernigotti, aveva annunciato che il Ministero dello sviluppo economico stava lavorando a questo tema. Noi diciamo grazie a questo Governo che è al lavoro da meno di un anno e si sta impegnando in provvedimenti seri, per i quali non servono delle proposte di legge dagli iter veloci soltanto per piantare delle bandierine, ma servono provvedimenti di qualità che risolvano i problemi alla radice, sia dei lavoratori quanto delle imprese. Ci auguriamo, con questa procedura e con i provvedimenti che verranno fatti in futuro, che casi come quello della Pernigotti e dei suoi lavoratori non si verifichino più.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00754) - Question time su soluzione attuali crisi occupazionali e sostegno a riconversione industriale</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u29">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg59">La senatrice Bellanova ha facoltà di illustrare l'interrogazione 3-00754 sulla soluzione delle attuali crisi occupazionali e sul sostegno alla riconversione industriale, per tre minuti.</seg>
+            </u>
+            <note type="speaker">BELLANOVA (PD)</note>
+            <u ana="#regular" who="#BellanovaTeresa" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u30">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg60">Signor Ministro, l'Istat, l'OCSE, Confindustria (attraverso il suo ufficio studi) e tanti altri ancora certificano che in Italia la crescita è negativa. Praticamente, siamo in recessione: il fatturato industriale è a -7,3 per cento, gli ordinativi a -5,3 per cento; aumenta la cassa integrazione e diminuisce la possibilità per le persone di avere un reddito pieno.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg61">A fine maggio, quando lei si è insediato al Ministero dello sviluppo economico e al Ministero del lavoro (in sostanza quando siete andati al Governo), in Italia gli occupati erano 23.327.000; a febbraio 2019, gli occupati in Italia erano 23.211.000, cioè 116.000 lavoratori e lavoratrici in meno.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg62">Signor Ministro, la situazione è molto grave. È chiaro che la vostra ricetta non funziona. Ma c'è una situazione ancora più grave che è quella delle aree di crisi complessa. Sono 18 in Italia, distribuite su tutto il territorio, da Portovesme a Taranto, a Savona, a Trieste, a Gela, e così via dicendo, territori che hanno subito crisi devastanti nel corso dell'ultimo decennio: 60.000 lavoratori dislocati in queste 18 aree di crisi, da gennaio sono senza stipendio perché lei, il suo collega dell'economia, il suo Governo non avete avuto il tempo di fare un decreto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg63">E non ci dica che ha firmato due giorni fa. Quello era un atto dovuto, ma il decreto non è ancora applicabile perché non porta la firma dell'Economia e la registrazione alla Corte dei conti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg64">Allora, Ministro, sulla cassa integrazione state umiliando le persone; sulle aree di crisi avete una dote di 721 milioni di euro in gran parte della scorsa legislatura: perché non investite quelle risorse per dare continuità produttiva e creare lavoro? Dai territori ci arrivano forti lamentele per i forti ritardi nella realizzazione dei progetti di riconversione. Pensi che la Commissione industria del Senato ha avviato un'indagine sulle 18 aree di crisi: la settimana scorsa abbiamo completato l'area di Savona e la settimana prossima discuteremo per quella di Taranto.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg65">La domanda, Ministro, è semplice: a che punto è l'attuazione dei progetti di riconversione e riqualificazione produttiva delle aree di crisi complessa? Perché lei, ancora in questi giorni, non è in grado di dire come si realizzano questi progetti e come effettivamente si costruiscono le condizioni perché le persone possano rientrare nel posto di lavoro, magari con progetti anche innovativi?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg66">PRESIDENTE. Il ministro dello sviluppo economico e del lavoro e delle politiche sociali, onorevole Di Maio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DI MAIO</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali</note>
+            <u ana="#guest" who="#DiMaioLuigi" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u31">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg67">Signor Presidente, ci sono tre legittime interrogazioni sull'argomento che muovono dalle stime OCSE e quindi avremo modo di spiegare da tre punti di vista diversi i tipi di intervento che stiamo portando avanti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg68">Prima di tutto ricordo che l'OCSE, a settembre 2018, ci chiedeva di non cancellare la cosiddetta legge Fornero. Adesso, in un nuovo report di questi giorni, scrive che bisogna abrogare quota 100, mostrando coerenza con ciò che ha sempre sostenuto ma non tenendo conto che quota 100 era un impegno preso sia dal MoVimento 5 Stelle che dalla Lega con gli italiani e noi abbiamo deciso di mantenere la parola data.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg69">Inoltre, credo sia sbagliato chiedere già di abrogare una misura che sta avendo grande successo e che avrà presto impatto sulla qualità della vita di tanti italiani. Inoltre, dal rapporto dell'OCSE emergono stime che evidentemente non possono considerare in modo adeguato le misure del Governo che si stanno mettendo in atto proprio in questi giorni, tra cui il decreto crescita e il decreto sblocca cantieri, che servono proprio a rispondere al momento di congiuntura economica difficile che sta attraversando l'Europa, che non era prevedibile e che risente degli scontri internazionali sul piano del commercio e dell'effetto della Brexit.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg70">Per rispondere puntualmente ai quesiti della senatrice interrogante parto dal fatto che presso il MISE ogni giorno parliamo con le imprese in crisi per garantire una rapida e positiva soluzione delle varie problematiche, la continuità produttiva e la salvaguardia dei lavoratori.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg71">Per quanto riguarda gli ammortizzatori sociali, al Ministero di mia competenza abbiamo firmato il decreto con cui sono stati assegnati alle Regioni 117 milioni di euro per il 2019 per le aree di crisi complessa e spero che il Ministero dell'economia e delle finanze firmi questo decreto il prima possibile insieme a quello sulle banche, che stiamo aspettando.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg72">Miriamo ad incrementare ulteriormente il fondo nei prossimi mesi. Per quanto riguarda le ragioni dei ritardi nella realizzazione dei progetti per accedere al beneficio, ci sono vari aspetti: l'effettivo reperimento a cura dell'impresa delle risorse finanziarie complementari al contributo di legge, le variazioni del programma e dell'assetto organizzativo delle imprese e la necessità delle imprese di realizzare i progetti in tempi più lunghi rispetto a quelli inizialmente preventivati, cioè alcune imprese stanno cambiando il cronoprogramma dei progetti che ci avevano presentato.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg73">In merito alle risorse stanziate per la copertura di tutti gli interventi programmati o in via di programmazione, tenuto conto dei progetti di conversione e riqualificazione industriale che riguardano aree di crisi industriale complessa, a questi interventi sono destinati complessivamente 283 milioni di euro. A queste risorse dovrà aggiungersi parte dello stanziamento previsto in legge di bilancio, per il biennio 2019-2020, per il finanziamento degli interventi ai sensi della legge n. 181 del 1989, destinati alla riconversione e alla riqualificazione produttiva delle aree industriali. Stiamo parlando di ulteriori 150 milioni di euro.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg74">Quanto alle istanze pervenute nel corso degli ultimi mesi, come richiesto nell'interrogazione, se per istanze si intendono le domande di agevolazioni trasmesse, si evidenzia che da dicembre sono pervenute 112 domande.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg75">Per quanto riguarda le richieste di avvio delle procedure di riconoscimento di aree industriali di crisi sono pervenute due istanze per il riconoscimento dell'area di crisi industriale complessa di Torino e di Massa-Carrara. Alla Commissione di competenza riconosco il lavoro meritorio sull'indagine conoscitiva che state portando avanti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg76">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice Bellanova, per due minuti.</seg>
+            </u>
+            <note type="speaker">BELLANOVA (PD)</note>
+            <u ana="#regular" who="#BellanovaTeresa" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u32">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg77">Signor Presidente, la risposta del Ministro è superficiale, insufficiente e parziale.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Taverna.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg78">Emerge desolatamente quello che noi evidenziamo da mesi: la totale assenza di un'idea, una visione del sistema Paese. Ministro, in Italia la disoccupazione giovanile durante il vostro Governo è passata dal 32 al 32,8 per cento. I dati ci dicono che non avete abrogato la povertà, ma la dignità del lavoro sì.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg79">Avete abrogato le politiche industriali, avete perso un anno prezioso, cianciando di condoni e decrescita felice.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Castaldi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg80">Non avete idea di rilanciare le misure del precedente Governo che avete accantonato. Allora vi diamo un consiglio non richiesto.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dei senatori Taverna e Castaldi Bonus</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg81">ricerca, Industria 4.0, credito d'imposta</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Malpezzi</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg82">per chi investe in beni strumentali, potenziare le misure per innovazione e formazione e la tutela del made in Italy : questo è il sistema che crea lavoro. Invece di organizzare tour vacanza, Ministro,</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg83">dai gilet gialli, che predicano violenza e odio, vada nelle aree di crisi industriale complesse, vada a Taranto, dove l'aspettano dalle elezioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg84">Vada dai lavoratori dell'Alcoa, non li costringa a venire sotto al Ministero per pietire il pagamento della cassa integrazione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg85">PRESIDENTE. Concluda.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg86">MALPEZZI (PD). Ancora trenta secondi, Presidente. BELLANOVA (PD). Dica come sostiene e con quali risorse aggiuntive la reindustrializzazione. Ministro, lei festeggia il memorandum con la Cina; abbia a mente, durante questi festeggiamenti, che mentre lei cerca di raccattare qualche carretto per esportare arance nel terzo Paese produttore di arance nel mondo , la Francia vende 300 Airbus.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg87">Ministro, un consiglio da una persona di una certa età.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg88">CASTALDI (M5S). Ancora? LUPO (M5S). Tempo! BELLANOVA (PD). Noi vogliamo bene all'Italia. Ministro, studi e poi ci dica con quali politiche industriali voi volete affrontare i problemi del Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00755) - Question time su misure idonee a sostenere crescita economica</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u33">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg89">Il senatore Urso ha facoltà di illustrare l'interrogazione 3-00755 sulle misure idonee a sostenere la crescita economica, per tre minuti.</seg>
+            </u>
+            <note type="speaker">URSO (FdI)</note>
+            <u ana="#regular" who="#UrsoAdolfo" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u34">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg90">Signor Vice Presidente del Consiglio dei ministri, ormai è tempo di un primo bilancio. Sono passati oltre dieci mesi dalla data in cui lei ha giurato come Vice Premier, Ministro dello sviluppo economico e Ministro del lavoro e delle politiche sociali. Le previsioni che voi, non l'OCSE, avete fatto dieci mesi fa nei documenti di bilancio sono clamorosamente fallite, rivelandosi sbagliate. Avevate previsto inizialmente una crescita dell'1,5 per cento, poi ridotta, su pressione dell'Unione europea, all'1,1 per cento; siamo invece in piena recessione economica. Siamo in recessione economica da nove mesi ed essa si aggrava al punto tale che le ultime previsioni parlano per l'Italia, se va bene, di una crescita zero per quest'anno. Siamo l'unico Paese dell'Unione europea in recessione economica, con gli indici di caduta industriale a febbraio pari a -0,5 per cento. L'Istat, non l'OCSE, ci dice oggi che si sono ridotti i consumi, si sono ridotte le capacità di spesa e di risparmio delle famiglie, si è contratta l'occupazione. Tutti dati negativi che sono emersi anche in questo dibattito. Il collega della Lega ha parlato di un'industria importante di Saluzzo e lei ha risposto che aprirete un tavolo di crisi regionale. Sa quanti tavoli di crisi nazionali vi sono al suo Ministero? 153. Lei aveva promesso ai lavoratori della Pernigotti che avrebbe salvato l'azienda. Non le cito le dichiarazioni fatte dai lavoratori della Pernigotti, che sono irriferibili in quest'Aula. «Di Maio, tante promesse, ma ci ha snobbati scappando come un (...)» e le lascio immaginare.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Lupo</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg91">La Pernigotti ha chiuso e, accanto a quella della Pernigotti, vi sono crisi industriali pesanti: da quella dell'Alitalia, per la quale avevate promesso una soluzione industriale e, invece, chiederete un nuovo rinvio, alla Piaggio, per cui lei dà soltanto la cassa integrazione ma non trova una soluzione industriale, a Termini Imerese, dove ormai è chiara quella che è stata una grande truffa, ma dove ancora lei non dà una soluzione industriale.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg92">Le chiedo perché le sue previsioni fossero clamorosamente sbagliate; perché l'11 gennaio di quest'anno è stato annunciato un miracolo economico e siamo, invece, in piena recessione economica, industriale e sociale, del lavoro e dell'occupazione? Perché i vostri provvedimenti, secondo tutti gli osservatori, nazionali e internazionali, hanno effetti negativi sul tessuto industriale e sociale del Paese? La domanda finale, e mi collego con la Lega, è: quanto aspettate a cambiare politica economica in maniera drastica? Perché i cittadini italiani non hanno bisogno di diventare disoccupati per poter essere assistiti dai sussidi del reddito di cittadinanza. Hanno bisogno di un Ministero che sia davvero il Ministero dello sviluppo economico e non il Ministero della recessione economica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg93">PRESIDENTE. Il ministro dello sviluppo economico e del lavoro e delle politiche sociali, onorevole Di Maio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DI MAIO</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali</note>
+            <u ana="#guest" who="#DiMaioLuigi" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u35">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg94">Signor Presidente, ringrazio il senatore Urso per l'interrogazione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg95">Ci tengo, prima di tutto, a dirle, senatore Urso, che sul tema Pernigotti il Ministero è al lavoro con l' advisor proprio per trovare una soluzione per quei lavoratori e per fare in modo che questo non si verifichi più. Ma il problema della Pernigotti non è di delocalizzazione. Il problema è che vi è un soggetto straniero che ha comprato il marchio e lo stabilimento con i lavoratori. Ora, si vuole liberare dello stabilimento e dei lavoratori e tenersi il marchio. E noi invece vogliamo che quello stabilimento continui a produrre e che i marchi storici italiani non finiscano più nelle mani straniere proprio per questi comportamenti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg96">Detto questo, la sua interrogazione, che riguarda prettamente le politiche industriali, mi permette di rispondere anche all'interrogativo finale della precedente senatrice interrogante che, invece, mi aveva posto domande sugli ammortizzatori sociali. Il tema vero è che lei dice, giustamente, che c'è un problema di crescita economica da nove mesi. Ma questo dimostra che è impossibile che, sin dal giorno in cui siamo entrati al Ministero, noi abbiamo causato un problema di crescita economica per questo Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg97">Anche volendo riuscirci, è veramente complicato. Se poi si vuole dare la colpa della crisi economica europea al Governo italiano, si faccia pure, tanto, c'è un lungo elenco di colpe che si attribuiscono a questo Governo da parte di tutto il mondo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg98">Noi stiamo varando un decreto crescita proprio per affrontare questo momento di congiuntura economica difficile a livello europeo e internazionale, dovuto alla guerra dei dazi tra Stati Uniti e Cina e al tema della Brexit, che sta sfiduciando i mercati. Questo ha bloccato le esportazioni e, per questo, abbiamo firmato gli accordi con la Cina, che valgono fino a venti miliardi di euro per le nostre imprese che andando in quel mercato potranno esportare, sì, le arance, ma anche tanta altra eccellenza del made in Italy in un Paese ad alta domanda interna.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg99">Poi, visto che la senatrice Bellanova citava precedentemente dei temi importantissimi, che io condivido, voglio dare qualche dettaglio del decreto crescita che stiamo per votare in Consiglio dei ministri, appena finirà il question time. Misure fiscali volte a favorire le imprese e i professionisti. Tra queste: il superammortamento, l'ulteriore deducibilità dell'IMU sui capannoni industriali, che va oltre il 60 per cento sui beni strumentali, interventi per la riduzione dell'Ires, il sisma bonus, ossia l'estensione di agevolazioni per le zone classificate a rischio sismico 2 e 3.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Malpezzi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg100">Mi lascia parlare? MALPEZZI (PD). No! DI MAIO , vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali. No? Ne prendo atto. PRESIDENTE. Senatrice Malpezzi, non interrompa. Il suo Gruppo ha già parlato e non siete stati interrotti. Non interrompa il Ministro. Non disturbi! MALPEZZI (PD). Ma non sta rispondendo! PRESIDENTE. Questo non è possibile, senatrice Malpezzi. Non vi è interlocuzione fra lei e il Ministro. E non le ho dato la parola. Faccia terminare il Ministro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Commenti delle senatrici Bellanova e Biti.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg101">Prego, signor Ministro, continui pure.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg102">, vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali. Signor Presidente, con estrema difficoltà sto cercando di illustrare i punti salienti di un decreto-legge che si chiama crescita e vuole agire sulla crescita economica del Paese, che è una preoccupazione di tutte le forze politiche presenti in quest'Aula, immagino, sia di maggioranza che di opposizione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg103">La misura per incrementare gli investimenti delle casse previdenziali nell'economia reale, un piano di grandi investimenti nelle ZES. Ci sono misure per il rilancio degli investimenti privati, come la riorganizzazione efficace del fondo di garanzia per le PMI per sostenere le misure di accesso al credito delle imprese, che hanno enormi difficoltà; la possibilità di intervento di questo fondo anche a garanzia di obbligazioni emesse dalle piccole e medie imprese (i cosiddetti minibond), le misure di sostegno e incentivazione alla capitalizzazione delle imprese, consistenti interventi a sostegno di progetti di ricerca e sviluppo per la riconversione dei processi produttivi nell'ambito dell'economia circolare, misure per accelerare il completamento degli interventi previsti nei patti territoriali e nei contratti d'area. Ci sono le misure per la tutela del made in Italy, che sono quelle che ho indicato prima sui marchi storici, ma c'è anche il programma da 140 milioni di euro per l' export del made in Italy nel mondo, che è la più alta cifra mai stanziata negli ultimi dieci anni per il sostegno al made in Italy sul mercato e ci sono misure nel settore energetico, che avranno un impatto sull'economia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg104">Io credo che in questa fase in cui l'Europa - e in primis la produzione industriale della Germania - sta risentendo di questo momento di crisi, questo provvedimento, il decreto crescita, insieme al decreto sblocca cantieri, siano due provvedimenti che interpretano le preoccupazioni di quest'Assemblea e mettono mano a una serie di interventi per rilanciare l'economia italiana.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Commenti della senatrice Malpezzi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg105">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Urso, per due minuti.</seg>
+            </u>
+            <note type="speaker">URSO (FdI)</note>
+            <u ana="#regular" who="#UrsoAdolfo" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u36">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg106">Ovviamente, interpretando quello che i telespettatori hanno ascoltato, non posso che dichiararmi profondamente insoddisfatto perché il Ministro non ha risposto alle domande.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg107">MALPEZZI (PD). Bravo! URSO (FdI). Ha fatto nuove promesse, ma non ha risposto alla domanda perché dopo dieci mesi siamo in profonda recessione economica, non come gli altri Paesi europei, perché nessun altro Paese tra i 28 Paesi dell'Unione è in recessione economica. MALPEZZI (PD). Bravo! URSO (FdI). Hanno tutti una crescita superiore all'1, 2, 3, 4 per cento nelle stime.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg108">Aggiungo di più, caro Ministro: l'Italia era già l'ultimo vagone nella crescita, ebbene questo ultimo vagone si allontana dagli altri, perché aumenta il divario con il resto dell'Unione europea. Lei, quindi, non risponde sui motivi per cui avete fallito e pretende di dare altre ricette per il futuro. Prima dica perché hanno fallito i suoi provvedimenti, perché non c'è stato affatto il miracolo economico, non c'è stato affatto l'aumento della produzione industriale, non c'è stato affatto l'aumento dell'occupazione. Ciò non è determinato soltanto dal fattore internazionale, che era prevedibile, perché ve l'avevamo detto che c'era una condizione internazionale negativa, tanto è vero che secondo l'Istat e le associazioni imprenditoriali, per tre quarti la crisi italiana è italiana e i consumi interni sono diminuiti colpiti anche dal calo del reddito delle famiglie. La riduzione degli investimenti pubblici e privati italiani e la riduzione dei consumi, e quindi delle aspettative delle famiglie, sono i due fattori che hanno determinato in gran parte la recessione economica. In gran misura, quindi, la recessione è dovuta a questi effetti, perché l' export lo scorso anno ha continuato a crescere, seppure meno rispetto agli anni precedenti. Si tratta quindi di un fattore interno che si somma ovviamente a difficoltà internazionali che non avevate previsto. Per quanto riguarda gli accordi sulla Cina, i due miliardi - perché di due miliardi si parla negli accordi, a parte le aspettative - non sono nulla rispetto ai 30 miliardi firmati con un solo contratto dalla Francia che ha venduto gli Airbus e in Cina le nostre arance ci vanno da tempo, ci vanno via nave, perché andarci via aereo è del tutto improduttivo, perché costano troppo i voli aerei. Ministro, per favore, non siamo in campagna elettorale, almeno non lo siamo in quest'Aula. Lei ci deve dire se vuole cambiare politica economica e i provvedimenti da lei annunciati ora sono pannicelli caldi che anche la sinistra aveva cercato di attuare, lei li ripesca tentando di scambiarli per una nuova politica economica. L'unica politica economica di cui ha bisogno questo Paese è la riduzione delle tasse su chi lavora e su chi produce. L'unica politica economica di cui ha bisogno questo Paese è una politica industriale che lei non disegna nemmeno in quest'Aula perché non ce l'ha, perché il suo non è il Ministero dello sviluppo economico, è il Ministero della recessione economica, il suo non è il Ministero del lavoro, è il Ministero del sussidio.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg109">L'Italia ha bisogno di lavoro e produzione, non di sussidi pubblici statali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FI-BP e PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00756) - Question time su misure agevolazione allo sviluppo e sostegno a famiglie</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u37">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg110">Il senatore Pichetto Fratin ha facoltà di illustrare l'interrogazione 3-00756 sulle misure di agevolazione allo sviluppo e di sostegno alle famiglie, per tre minuti.</seg>
+            </u>
+            <note type="speaker">PICHETTO FRATIN (FI-BP)</note>
+            <u ana="#regular" who="#PichettoFratinGilberto" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u38">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg111">Signor Presidente, onorevole Ministro, i dati di tutti gli osservatori nazionali e internazionali indicano per l'Italia una situazione difficile, anzi, disastrosa: aumentano la disoccupazione e il debito pubblico con uno spread che ci rende costosissimo l'interesse sul debito pubblico; le aziende segnalano una flessione degli ordini; gli enti locali prevedono di aumentare le tasse e le tariffe a livello locale. Le previsioni che il Governo aveva rappresentato sulla nota di variazione al Documento di economia finanza nell'autunno sono completamente saltate. L'Italia è in decrescita, tutt'altro che felice. Vi preparate ad aumentare l'IVA fino al 25 per cento e le famiglie dovranno pagare. Il Governo sembra in uno stato confusionale: continuate ad attaccarvi l'uno con l'altro e a produrre norme di spesa disordinate; continuate a produrre debito che gli italiani dovranno pagare. Ogni giorno c'è una novità, alcune anche condivisibili e una parte le ha elencate prima. Richiamo la riduzione dell'Irpef, i superammortamenti e l'intervento sulla ricerca. Nel contempo, però, il vostro impegno è concentrato sul creare disoccupati, con le chiusure domenicali, con la negazione dei voucher, con l'irrigidimento del Paese sempre più burocratizzato. Il vostro contratto prevedeva la flat tax con una revisione complessiva del sistema fiscale, che permettesse finalmente al Paese di liberare le capacità e la voglia di lavorare del popolo italiano. Fatto sporadicamente e in parte ha creato uno squilibrio nell'intero sistema. Onorevole Ministro, considerato l'attuale fallimento dei vari provvedimenti (dignità, concretezza e reddito di cittadinanza), quale sarà l'azione che finalmente farà d'accompagnamento a una crescita del nostro Paese con un vero equilibrio fiscale e, quindi, il riordino complessivo con la flat tax (che era programma del centrodestra e, quindi, della Lega) e con una politica della famiglia seria con il quoziente familiare come annunciato solamente in conferenza stampa? Queste sono le azioni sulle quali chiediamo che il Governo investa. Glielo chiediamo dall'opposizione, prima da cittadini e poi da parlamentari.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg112">PRESIDENTE. Il ministro dello sviluppo economico e del lavoro e delle politiche sociali, onorevole Di Maio, ha facoltà di rispondere all'interrogazione testé illustrata.</seg>
+            </u>
+            <note type="speaker">DI MAIO</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali</note>
+            <u ana="#guest" who="#DiMaioLuigi" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u39">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg113">Signor Presidente, come si diceva anche nella precedente interrogazione, sono assolutamente d'accordo sul fatto che investire sulle imprese in Italia sia fondamentale per favorire la crescita economica e il miglior modo per investire è abbassare le tasse. Ovviamente questi temi specifici sulla tassazione non sono nelle domande delle interrogazioni che mi sono state rivolte precedentemente perché, evidentemente, per essere ammissibili, dovrebbero vedere presente il Ministro dell'economia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg114">Voi mi avete chiesto cose di mia competenza come Ministro dello sviluppo economico e del lavoro e delle politiche sociali e ciò mi porta a essere puntuale nelle risposte, però posso rassicurare il senatore interrogante che il tema della flat tax è all'interno del contratto di Governo e si deve fare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg115">Noi lavoreremo affinché nella nostra azione di Governo si porti a casa anche questo risultato. Siamo al Governo da circa nove mesi e ci perdonerete se non siamo riusciti ancora a realizzare tutto il contratto di Governo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg116">Detto questo, sono contento che in questo dibattito si citi spesso il fatto che la Francia abbia firmato degli accordi importanti con la Cina ed è per questo che ci siamo anticipati e li abbiamo firmati anche noi per evitare di farci battere, ancora una volta, da un partner europeo che ci bacchettava sulla via della seta, ma poi andava a firmare accordi legittimi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg117">Allo stesso modo, dico che le due ragioni principali di rallentamento del PIL in Italia sono l' export e l' automotive. Questi due problemi si risolvono aumentando le relazioni commerciali verso l'Est del mondo per esportare di più e promuovendo l'accordo tra l'Unione europea e gli Stati Uniti sui dazi, in modo tale da permettere di nuovo le esportazioni di automobili europee verso quell'economia perché alcune volte, anche nelle automobili tedesche, quasi il 70 per cento è fatto di componenti italiani e, quindi, riguardano anche il nostro settore industriale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg118">Detto questo, il senatore mi ha chiesto anche in merito alle politiche sulla famiglia. Noi porteremo all'interno del DEF le politiche per aiutare le famiglie che fanno figli, al fine di mettere in sicurezza il ceto medio, proprio perché a livello europeo abbiamo un problema di congiuntura economica negativa. Mettere in sicurezza il ceto medio significa aiutare le coppie giovani - ma anche quelle meno giovani - che fanno figli, agendo con un modello simile a quello francese, che inizieremo a introdurre gradualmente, che si fonda su interventi concreti: sconti su pannolini, baby-sitter e rette degli asili nidi. Interverremo con misure per permettere di fare figli a quelle famiglie che oggi non li fanno perché non c'è possibilità economica e non certo perché in Italia non vi siano l'amore e la voglia di mettere al mondo figli.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg119">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Pichetto Fratin, per due minuti.</seg>
+            </u>
+            <note type="speaker">PICHETTO FRATIN (FI-BP)</note>
+            <u ana="#regular" who="#PichettoFratinGilberto" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u40">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg120">Onorevole Ministro, lei è il Ministro dello sviluppo economico e, quindi, il sistema delle imprese e delle famiglie gravate dall'attuale organizzazione della tassazione è di sua competenza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg121">Credo che lei abbia partecipato a individuare quella parte di imprese che devono godere della flat tax al 15 cento. Solo un attimo fa ha citato l'Ires come intervento del decreto-legge che, nella giornata di oggi, il Governo adotterà. È chiaro che non posso dichiararmi soddisfatto della sua risposta, anche perché si è trattato dell'ennesimo annuncio sul futuro. Questo Governo confida nell'effetto dell'aumento dei consumi nella parte interna per effetto del reddito di cittadinanza.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg122">Tuttavia, lei sa bene che tutti i dati ci dicono che il reddito di cittadinanza non avrà un moltiplicatore tale da generare un aumento dei consumi. Anzi, occorre stare molto attenti perché il meccanismo instaurato - è qui la confusione - può creare spinte al lavoro nero e indurre automaticamente le persone verso l'assistenzialismo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg123">Voi annunciate ogni giorno investimenti, ma non li fate (l'esempio è la realizzazione della tratta ferroviaria Torino-Lione). Voi annunciate aiuti alle famiglie, ma - l'ho già detto prima - sarà l'aumento dell'IVA l'unica comunicazione alle famiglie. Voi parlate di pensioni, ma non toccate quelle minime e a giugno prossimo, dopo le elezioni, quelle massime pensate di tagliarle o saranno tagliate automaticamente.</seg>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg124">Il PIL cala (è a zero, se non in negativo), la pressione fiscale è pari a oltre il 48 per cento (mi riferisco a dati Istat), il debito pubblico è pari a oltre il 132 del PIL, mentre gli occupati in questo Paese sono 200.000 in meno. È questo scenario che il Governo deve affrontare e lo deve fare in fretta. Mi auguro che riesca a farlo - anzitutto per il cittadino italiano e per il bene dell'Italia - e che questo Governo non venga ricordato solo per l'acquisto di 1.800 auto blu.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u41">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg125">Lo svolgimento delle interrogazioni a risposta immediata ( question time ) all'ordine del giorno è così esaurito.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">DE LUCIA (M5S)</note>
+            <u ana="#regular" who="#DeLuciaDanila" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u42">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg126">Signor Presidente, sono contenta di fare quest'intervento oggi, visto che abbiamo parlato molto di made in Italy. «Il vino è uno dei comparti che può esportare molto nel mondo. È una delle nostre eccellenze e possiamo battere altri Paesi europei, anche nel mercato cinese»: così Luigi Di Maio alla vigilia del Vinitaly di Verona, nel confermare la sua presenza alla manifestazione del prossimo weekend. Ebbene, proprio di vino voglio parlare in questo mio intervento, per rendere edotti i colleghi di un'eccezionale occasione che il nostro Paese è chiamato a vivere in questo 2019. Mi riferisco al riconoscimento di «città europea del vino», che quest'anno è stato assegnato all'Italia e - precisamente - al Sannio, insignito del prestigioso riconoscimento dalla rete delle 800 città del vino presenti in 11 Paesi europei. La rete, formata dalle associazioni nazionali presenti negli 11 Paesi membri (Germania, Austria, Bulgaria, Slovenia, Spagna, Francia, Grecia, Ungheria, Italia, Portogallo e Serbia) copre un totale di quasi 800 città di tutta Europa. A partire dal 2012, inoltre, assegna annualmente il ruolo di capitale della cultura enologica del vecchio continente a un Paese dell'Unione, ponendolo al centro dell'attenzione e promuovendo in tale maniera l'attività culturale, l'identità, i paesaggi e i territori del luogo prescelto perché, come diceva il maestro Luigi Veronelli: «Il vino è il canto della terra verso il cielo». Il 2019 ha visto assegnare questo importante premio all'Italia e, tra le realtà che hanno proposto la propria candidatura, ha prevalso il territorio Sannio Falanghina, in particolare i Comuni di Castelvenere, Guardia Sanframondi, Sant'Agata dei Goti, Solopaca e Torrecuso, tutti della provincia di Benevento. Per me, quindi, è un reale piacere condividere con voi questo risultato che la mia terra ha conquistato meritatamente e mi preme ricordare che ad oggi il Sannio tutto, e non solo i Comuni che hanno fatto cartello sotto il nome Sannio Falanghina, è all'apice dell'Europa nel settore vinicolo, ottenendo riconoscimenti continui. Per questo mi auguro vivamente che in tanti decidano di visitare questi luoghi, di assaggiare i frutti della terra e, per quanto mi riguarda, mi fa piacere farmi portavoce di questo straordinario riconoscimento. Fatto dunque il mio invito, ci tengo anche a ricordare che lo scorso marzo la capitale europea del vino ha incontrato la capitale europea della cultura; infatti, a Matera, è stato presentato il progetto Biowine, che riguarda il trasferimento di buone pratiche per la tutela dell'ambiente in viticoltura e che coinvolge alcune importanti realtà del Veneto, della Campania e della Basilicata. Partendo da qui, dunque, il Comune di Matera ha proposto di impiantare filari di falanghina nei giardini del territorio per celebrare l'anno della doppia capitale europea e rafforzare il radicamento del binomio vino-cultura. Intanto, e chiudo, proprio al Vinitaly sarà presentato il programma dettagliato delle iniziative che si svilupperanno in tutto il 2019 per celebrare la capitale europea del vino che, con orgoglio, ribadisco essere il territorio della mia Benevento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e della senatrice Bonfrisco.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u43">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg127">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di martedì 16 aprile 2019</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.u44">
+               <seg xml:id="ParlaMint-IT_2019-04-04-LEG18-Sed-107.seg128">Il Senato tornerà a riunirsi in seduta pubblica martedì 16 aprile, alle ore 16, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 15,53).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

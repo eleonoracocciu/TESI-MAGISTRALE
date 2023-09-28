@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 434 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 434 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 434, giorno (2015-04-21)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 434, Day (2015-04-21)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="434-upper">434 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="167" unit="speeches" xml:lang="it">167 discorsi</measure>
+            <measure quantity="167" unit="speeches" xml:lang="en">167 speeches</measure>
+            <measure quantity="15634" unit="words" xml:lang="it">15.634 parole</measure>
+            <measure quantity="15634" unit="words" xml:lang="en">15,634 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0912753</idno>
+               <date when="2015-04-21">21.04.2015</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="14"/>
+               <tagUsage gi="head" occurs="9"/>
+               <tagUsage gi="note" occurs="254"/>
+               <tagUsage gi="seg" occurs="167"/>
+               <tagUsage gi="u" occurs="106"/>
+               <tagUsage gi="vocal" occurs="4"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="23"/>
+               <tagUsage gi="desc" occurs="27"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2015-04-21">21.04.2015</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza della vice presidente FEDELI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u1">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg1">La seduta è aperta (ore 16,33). Si dia lettura del processo verbale. SIBILIA, segretario, dà lettura del processo verbale della seduta pomeridiana del 15 aprile.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg2">Signor Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u3">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u4">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg4">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u5">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg5">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg6">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,37).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione e approvazione del disegno di legge: (1818) Conversione in legge del decreto-legge 17 marzo 2015, n. 27, recante disposizioni urgenti per lo svolgimento contemporaneo delle elezioni regionali ed amministrative</note>
+            <note type="time">16,38</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45391.htm</note>
+            <note type="time">(ore 16,38)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u6">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg7">L'ordine del giorno reca il seguito della discussione del disegno di legge n. 1818.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg8">Ricordo che nella seduta antimeridiana il relatore ha svolto la relazione orale, è stata respinta una questione pregiudiziale, ha avuto luogo la discussione generale, il relatore ed il rappresentante del Governo hanno rinunziato ad intervenire in replica ed è stata presentata la proposta di non passare all'esame degli articoli NP1 ai sensi dell'articolo 96 del Regolamento, sulla votazione della quale è mancato il numero legale.</seg>
+            </u>
+            <note>Passiamo alla votazione della proposta di non passare all'esame degli articoli NP1.</note>
+            <note type="notPassingPoposal">proposta di non passaggio all'esame degli articoli, ai sensi dell'articolo 96 del Regolamento</note>
+            <note>SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>In attesa che decorra il termine di venti minuti dal preavviso di cui all'articolo 119, comma 1, del Regolamento, sospendo la seduta.</note>
+            <note>(La seduta, sospesa alle ore 16,39, è ripresa alle ore 16,58)</note>
+            <note>La seduta è ripresa. Invito tutte le senatrici ed i senatori a prendere posto, perché dobbiamo passare alla votazione. Indìco la votazione nominale con scrutinio simultaneo della proposta di non passare all'esame degli articoli NP1, presentata dal senatore Santangelo.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato non approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Onorevoli colleghi, la Presidenza dichiara improponibili, ai sensi dell'articolo 97, comma 1, del Regolamento, gli ordini del giorno G3, G4 e G5 che concernono specificamente la modifica della legge elettorale, attualmente in discussione presso l'altro ramo del Parlamento, per estraneità al contenuto proprio del decreto-legge al nostro esame, che reca invece disposizioni urgenti per lo svolgimento contemporaneo delle elezioni regionali ed amministrative. Si segnala inoltre che gli stessi ordini del giorno presentano profili di dubbia ammissibilità anche in ragione delle prerogative costituzionalmente garantite e riconducibili ad altri soggetti istituzionali. Passiamo quindi all'esame degli ordini del giorno, che si intendono illustrati e su cui invito il relatore ed il rappresentante del Governo a pronunziarsi</note>
+            <note type="speaker">MIGLIAVACCA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#MigliavaccaMaurizio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u7">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg9">Signora Presidente, il parere è naturalmente favorevole sull'ordine del giorno G1 e, conseguentemente, anche sul G2, trattandosi di due ordini del giorno identici.</seg>
+            </u>
+            <note type="speaker">PIZZETTI</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#regular" who="#PizzettiLuciano" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u8">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg10">Signora Presidente, trattandosi di ordini del giorno e contenendo, in quanto tali, una richiesta al Governo di rispettare la legge, dal momento che il Governo rispetta le leggi, si rimette all'Assemblea.</seg>
+               <vocal type="laughter">
+                  <desc>Ilarità da parte di alcuni senatori del Gruppo M5S.</desc>
+               </vocal>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u9">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg11">Passiamo alla votazione dell'ordine del giorno G1, identico all'ordine del giorno G2.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u10">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg12">Signora Presidente, il Governo in Commissione, dove era rappresentato da persona diversa, ha mostrato minore sensibilità, dichiarando che avrebbe accolto come raccomandazione l'ordine del giorno G2 a mia firma ed identico al G1. Sarebbe tuttavia ridicolo che il Governo accogliesse come raccomandazione un ordine del giorno in cui si impegna l'Esecutivo a rispettare la legge e la Costituzione, ma purtroppo questo è accaduto. Valuto come un fatto positivo che il rappresentante del Governo si sia ora rimesso all'Aula su un ordine del giorno che in Commissione è stato approvato all'unanimità e con il quale si chiarisce una volta per tutte che non si può intervenire con la decretazione d'urgenza in materia elettorale, cosa che dovrebbe essere sacrosanta, ma più volte lo si ripete e meglio è, anche se alla fine il decreto-legge sarà approvato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg13">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u11">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg14">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G1, presentato dalla Commissione, identico all'ordine del giorno G2, presentato dal senatore Calderoli. (Segue la votazione). Il Senato approva. (v. Allegato B). Gli ordini del giorno G3, G4 e G5 sono improponibili.</seg>
+            </u>
+            <note>Passiamo all'esame dell'articolo 1 del disegno di legge.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Avverto che gli emendamenti si intendono riferiti agli articoli del decreto-legge da convertire. Procediamo all'esame degli emendamenti riferiti all'articolo 1 del decreto-legge, che invito i presentatori ad illustrare.</note>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u12">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg15">Signora Presidente, forse l'emendamento 1.1 non ha bisogno in sé di essere illustrato, ma l'opzione che esso oggi ci pone certamente sì.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg16">Dovremmo chiederci, infatti, fino a quando potremo accettare che il Governo metta le mani e i piedi, magari con gli scarponi, su materie dalle quali dovrebbe invece astenersi, in questo caso la legge elettorale, fino a quando, cioè, il Governo interverrà con decretazione continua, cronica, direi quasi patologica, perché questa è davvero una patologia istituzionale, costituzionale. Dovremmo chiederci fino a quando il Governo continuerà a dare l'impressione - e poi a suffragarlo negli atti - di temere il confronto e il dialogo che va predicando.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg17">Fino a quando il Governo continuerà a suffragare questa impressione di paura a lasciare che si svolga il normale corso delle cose e di dover invece intervenire su materie escluse dalla decretazione d'urgenza per paura di perdere le elezioni o nella speranza di inseguire una qualche vana rincorsa nelle Regioni dove sa di avere una classe politica ormai screditata? Una classe politica screditata dalle inchieste della magistratura, screditata dalle scelte politiche spesso dissonanti, con la conseguenza che si trova un Partito Democratico sul territorio a predicare bene e a Roma a razzolare male, ma anche viceversa. Fino a quando queste cose le lasceremo andare? Credo che dovremmo alzare la schiena e cominciare a dire che da parte del Partito Democratico è forse il momento di indire una giornata: il "DS pride ", forse. Tutto questo, oggi, lo potremmo decidere con un voto semplice, restituendo al Parlamento, con un sì a questo emendamento, la dignità e lo spessore che merita.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u13">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg18">Signora Presidente, intervengo per una breve considerazione, anche se so che non sono sindacabili da parte della Presidenza le dichiarazioni di improponibilità degli ordini del giorno. Certo che una bella mano al Governo gliela date con le improponibilità, perché c'era l'occasione, per la prima volta, di sentire qualcuno da parte del Governo esprimersi in ordine all'opportunità o meno di porre la fiducia su riforme elettorali, ovvero usarle per cambiare l'Italicum prima ancora che sia partito. Lo vedremo alla prova dei fatti, di quello che accadrà alla Camera dei deputati. Quindi, saremo attenti osservatori.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg19">Signor Presidente, passo all'illustrazione degli emendamenti 1.100 e 1.0.100. Credo che il primo emendamento renda una cosa bruttissima un po' meno brutta. Mi rivolgo al sottosegretario Pizzetti, che purtroppo viene non solo disturbato dai senatori che gli parlano, ma, soprattutto, ha sempre l'ingrato compito di venire a sostituire i suoi colleghi quando ci sono argomenti un po' scivolosi in discussione. Quindi, così come stamattina, in un momento di profondo cordoglio, non era presente il Ministro dell'interno, anche oggi pomeriggio parliamo di materia elettorale e non c'è neanche il Sottosegretario per l'interno a cui rivolgere un l'appello. Infatti, se è scorretto - l'ho detto questa mattina - fare una legge che amplia di sei giorni i sessanta già ampliati dalla legge di stabilità, la cosa è non condivisibile, ma accettabile, se si dovesse usare una volta la legge. Se invece questo resterà a regime nel nostro ordinamento, sarebbe veramente una cosa inaccettabile. L'emendamento introduce il concetto previsto dal decreto-legge, però in modo che venga usato una volta sola nel 2015.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg20">Ne approfitto per illustrare anche l'emendamento 1.0.100, che introduce la possibilità di svolgere nella stessa giornata dell' election day i referendum regionali. Lo dico perché i referendum regionali stanno prendendo abbastanza piede e comportano - le dico la spesa prevista per la Regione Lombardia - l'erogazione di 30 milioni di euro per il loro svolgimento, che si ridurrebbero a meno di sette-otto se si dovessero svolgere in contemporanea. Abbiamo già affrontato l'argomento in Commissione e la senatrice Lo Moro aveva giustamente sollevato il problema che si potesse ledere l'autonomia sulla definizione della data. Pertanto, l'emendamento è stato riformulato, prevedendo che sia «su richiesta della Regione interessata». Il Ministero dell'interno aveva invece sollevato difficoltà in ordine alla sovrapponibilità della modalità di voto e, quindi, è stato previsto che è la Regione stessa a doversi adeguare alle modalità di voto in materia elettorale. Questo emendamento rende possibile lo svolgimento dei due eventi nella stessa giornata, con un risparmio - riporto quello della Regione Lombardia - di oltre 22 milioni di euro. Laddove poi si andasse a svolgere anche in altre Regioni, la cosa sarebbe di ugual vantaggio. Quindi, sia per quello che prevede questa normativa per una volta sola, sia rispetto al tema del referendum, mi aspetto da parte del relatore e del Governo una manifestazione di sensibilità qui in Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u14">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg21">I restanti emendamenti si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg22">Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">MIGLIAVACCA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#MigliavaccaMaurizio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u15">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg23">Sull'emendamento 1.1 del senatore Crimi invito al ritiro, altrimenti il parere è contrario. Lo stesso dicasi per l'emendamento 1.100.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg24">Sull'emendamento 1.0.100, presentato dal senatore Calderoli, vorrei fare un breve ragionamento. Come ha ricordato poc'anzi il senatore Calderoli, questo emendamento è stato ampiamente discusso in Commissione perché prevede la possibilità di svolgere contemporaneamente elezioni regionali o amministrative, referendum regionali o amministrativi. Sulla questione di principio la Commissione era ed è ampiamente favorevole. Sono state riscontrate alcune difficoltà che probabilmente richiederebbero un accordo tra il Governo e le Regioni in sede di Conferenza Stato-Regioni. Pertanto, se il senatore Calderoli è disponibile, lo invito a trasformare l'emendamento in un ordine del giorno sul quale ovviamente il parere è favorevole.</seg>
+            </u>
+            <note type="speaker">PIZZETTI</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#regular" who="#PizzettiLuciano" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u16">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg25">Esprimo parere conforme a quello del relatore. Per quanto riguarda la richiesta di trasformazione in ordine del giorno dell'emendamento 1.0.100, il Governo è d'accordo con la proposta del relatore con le motivazioni dallo stesso espresse. Non vi è da parte del Governo una contrarietà di principio, ma solo un problema di rischio di disallineamento tra referendum regionali e nazionali, per cui la norma va ulteriormente approfondita. Pertanto, inserendo la formula «a valutare l'opportunità di» il Governo è favorevole ad accoglierlo come ordine del giorno.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u17">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg26">Chiedo ai presentatori se accolgono l'invito del relatore a ritirare l'emendamento 1.1.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg27">ENDRIZZI (M5S). No, signora Presidente. PRESIDENTE. Passiamo dunque alla votazione dell'emendamento 1.1.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg28">Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u19">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg29">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.1, presentato dal senatore Crimi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Chiedo al senatore Calderoli se accoglie l'invito del relatore a ritirare l'emendamento 1.100. CALDEROLI (LN-Aut). No, signora Presidente. PRESIDENTE. Passiamo dunque alla votazione dell'emendamento 1.100.</seg>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u20">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg30">Signora Presidente, intervengo per dichiarare il voto a favore di questo emendamento che dice quello che avrebbe dovuto dire fin dall'inizio il decreto-legge. Infatti, sia pure su questioni marginali la materia elettorale non si modifica per decreto-legge. Questa volta ci hanno raccontato il problema dell'accavallamento delle festività, che sappiamo da secoli avrebbero avuto questa successione, figurarsi dall'anno e oltre in cui è in carica l'attuale Governo. Avrebbero dovuto pensarci prima, ma questo può ancora succedere. Poi però, il 18 marzo, quindi all'ultimo momento, si presenta un decreto-legge cambiando per sempre le modalità di svolgimento delle consultazioni. In passato questo si era fatto con l'accordo di tutte le forze politiche, contattate prima di presentare il provvedimento, e poi solo per la consultazione in corso, quella imminente per la quale esistevano davvero la necessità e l'urgenza. In questo caso non vi sono neppure la necessità e l'urgenza di cambiarlo per sempre. C'è l'urgenza di cambiarlo quest'anno - la necessità è ancora da vedere - ma di cambiarlo per sempre l'urgenza non c'è. Dovrebbe essere dunque il Governo a chiedere l'approvazione di questo emendamento perché in questo modo il decreto-legge sarebbe accettabile. Senza l'approvazione di questo emendamento siamo di fronte ad un decreto-legge presentato forse proprio per fare una forzatura. Infatti, se anche il 24 maggio fosse stata una data possibile, avrebbero cercato di approvarlo il 31 per fare la forzatura, per creare un precedente. Diciamolo chiaro: si vuole fare l'ennesima forzatura. Speriamo che qualcuno ci pensi e si fermi in tempo, perché di forzatura in forzatura, novant'anni fa siamo finiti male.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u21">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg31">Signora Presidente, ho chiesto di intervenire semplicemente per confermare che anche il nostro Gruppo voterà a favore dell'emendamento 1.100, ferma restando la nostra contrarietà a votare il 31 maggio, in occasione di un ponte: solo chi non vuole consentire la partecipazione dei cittadini si azzarda a fare un'operazione di questo tipo. Riteniamo però che l'unico caso in cui si possa intervenire con un decreto-legge è quello di elezioni imminenti, che non possono essere espletate nei termini previsti dalla normativa vigente. Quindi, l'unico caso in cui si può considerare un decreto-legge in questa materia è quello di un intervento su elezioni che devono svolgersi nell'anno in corso, in quello stesso momento. A nostro avviso sarebbe dunque opportuno fare altrimenti, raggiungendo comunque l'obiettivo. Se l'obiettivo è quello di votare il 31 maggio 2015, che motivo c'è di andare a toccare definitivamente e per sempre la normativa che regola la durata dei Consigli regionali, dando la possibilità di prorogarla fino a sessantasei giorni? È già possibile un allungamento fino a sessanta giorni: con il provvedimento in esame si prevede, per sempre, la possibilità di allungare il termine per ulteriori sei giorni. Se l'obiettivo, che giustifica la necessità e l'urgenza, è quello di votare il 31 maggio di quest'anno, che si intervenga solo per quest'anno e non per sempre, attraverso una modifica della normativa in vigore attraverso un decreto-legge.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u22">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg32">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.100, presentato dal senatore Calderoli. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.0.100. Senatore Calderoli, accoglie l'invito del relatore a trasformare l'emendamento 1.0.100 in un ordine del giorno?</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u23">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg33">Signora Presidente, comprendo tutte le difficoltà, anche dal punto di vista tecnico, e quindi accolgo l'invito del Governo a trasformare l'emendamento in un ordine del giorno. Mi auguro che il rappresentante del Ministero dell'interno prenda a cuore l'argomento, come ha detto di voler fare in Commissione, e che in sede di Conferenza unificata si porti realmente all'attenzione l'argomento, perché ci sono decine di milioni di euro che ballano. Al di là del fatto che il Ministero dell'interno storicamente è molto resistente a cambiare anche solo un sasso del proprio cortile, questa volta deve mostrarci questa apertura. Accetto dunque la trasformazione in ordine del giorno, che chiedo sia messo in votazione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u24">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg34">Passiamo dunque alla votazione dell'ordine del giorno G1.0.100.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u25">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg35">Signora Presidente, mi rivolgo al relatore e al rappresentante del Governo: non capisco perché l'emendamento non possa essere accolto così com'è. Le difficoltà sono tutte superate. Nel momento in cui dice che «su richiesta della Regione» (quindi si ha un primo presupposto: la Regione deve fare richiesta e non si tratta di un obbligo), «previo adeguamento da parte delle Regioni interessate» (quindi la Regione che fa richiesta deve adeguare le modalità di svolgimento dei propri referendum, perché siano compatibili con le modalità di svolgimento delle elezioni: c'è dunque un secondo step ), la convocazione degli elettori per tutti i referendum «può aver luogo» - non deve - nella medesima data di cui al comma 1 del presente articolo, non riesco a capire perché non si può accettare che la norma venga inserita nel decreto-legge in questi termini: così è chiarissimo. La Regione deve fare richiesta e si deve adeguare. Nella sua piena autonomia, può decidere di non fare richiesta e di non adeguarsi. Se lo fa, il Governo può prendere una decisione (perché, lo ripeto, non è obbligatorio). Forse vi è un motivo di fondo: non si vuole aprire una finestra di questo tipo perché sappiamo bene che i referendum sono uno strumento che si deve boicottare il più possibile. Quando vi è un referendum, solitamente questo cerca di intervenire rispetto a temi che la politica, e i politici, non approvano.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg36">Bisogna allora rivolgersi ai cittadini, per potere imporre qualcosa che, invece, chi governa, chi dirige le Regioni o chi sta in Parlamento potrebbero fare autonomamente; c'è allora l'obbligo di doversi rivolgere alla cittadinanza per imporre qualcosa, quando questa potrebbe essere realizzata direttamente negli organi istituzionali. Bisogna quindi boicottarlo quello strumento, come sempre e, come già abbiamo visto nella riforma costituzionale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg37">Io, ancora adesso non vedo alcun motivo perché questo emendamento scritto in questi termini, che sono diversi rispetto alla formulazione originale del testo in Commissione - in ordine alla quale capivo le obiezioni avanzate - non possa essere accolto direttamente come emendamento anziché come ordine del giorno che, come sappiamo, lascia il tempo che trova.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u26">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg38">Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G1.0.100, presentato dal senatore Calderoli. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'emendamento riferito all'articolo 2 del decreto-legge, che si intende illustrato e sul quale invito il relatore ed il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">MIGLIAVACCA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#MigliavaccaMaurizio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u27">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg39">Invito al ritiro dell'emendamento, oppure il parere è contrario.</seg>
+            </u>
+            <note type="speaker">PIZZETTI</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#regular" who="#PizzettiLuciano" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u28">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg40">Esprimo parere conforme al relatore.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg41">PRESIDENTE. Chiedo al senatore Crimi se accetta l'invito al ritiro dell'emendamento 2.1.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u29">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg42">Signora Presidente, insisto per la sua votazione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg43">Chiedo, inoltre, che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u30">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg44">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.1, presentato dal senatore Crimi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+            </u>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u31">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg45">Signora Presidente, abbiamo espresso tutte le nostre perplessità su questo decreto-legge già in sede di dichiarazione di voto sulla questione pregiudiziale presentata questa mattina, non possiamo pertanto che esprimere un voto contrario. I motivi sono molto chiari per quanto ci riguarda e si sono visti anche nella votazione avvenuta poco fa, quando è stato respinto l'emendamento che faceva sì che la deroga riguardasse solo le elezioni del 2015. Si modifica quindi permanentemente la norma stessa, e per farlo si utilizza lo strumento del decreto-legge. Siamo molto soddisfatti che sia stato accolto all'unanimità l'ordine del giorno della Commissione G1 e quello dello stesso tenore, il G2, che impegna il Governo a non violare la legge e a non utilizzare i decreti-legge in materia elettorale, è chiaro, però, che questo decreto-legge sia foriero di guai futuri. Francamente, non riteniamo comprensibile il motivo per cui non si sia davvero riusciti a trovare una data consona allo svolgimento di tali elezioni e siamo molto preoccupati che questo decreto e la scelta di quella data del 31 maggio saranno un ulteriore incentivo alla non partecipazione al voto. Per le elezioni regionali dello scorso anno in Emilia-Romagna in quest'Aula ci sono stati molti interventi, ci si è molto scandalizzati e si è riflettuto soprattutto sul fatto che, in una Regione come quella, la percentuale di partecipazione al voto fosse scesa precipitosamente sotto il 50 per cento. Guardate che su questa strada rischiamo, per le prossime elezioni, di offrire un ulteriore incentivo a non partecipare al voto. I cittadini sono già abbastanza sfiduciati e disamorati e il quadro che emerge dalle elezioni - vorrei citare la Liguria - può indurre ulteriore sfiducia. È stata una scelta che, a questo punto, conferma quello che ci dicevamo. Non era evidentemente soltanto un artificio retorico il fatto che si volesse disincentivare la partecipazione al voto, visto, tra l'altro, che le elezioni venivano considerate, soprattutto quelle dirette e di primo livello, quasi superflue, promuovendo elezioni di secondo livello, come si è visto con le Province e come si vedrà se verrà approvata definitivamente la riforma costituzionale per il Senato con il referendum. Questo decreto però, a mio avviso, è la prova provata che evidentemente il nostro non era certamente un artificio retorico, ma che vi è una sostanza nel fatto che questo Governo non è molto interessato alla partecipazione dei cittadini alle elezioni; d'altronde, è il terzo Governo che noi abbiamo che non è certamente espressione del voto e dei cittadini stessi. L'altra questione molto delicata è che per la prima volta si modifica una data per le elezioni stesse senza un minimo di consultazione tra le forze politiche. Le norme elettorali dovrebbero mettere tutti alla pari e, quindi, su una questione così delicata è sempre stata giusta consuetudine aver un consenso più generalizzato. Si è scelta totalmente un'altra strada e, torno a ripetere, si poteva almeno fare un decreto-legge che modificasse la situazione soltanto per questo anno. Invece, anche questo emendamento, come si è visto, è stato respinto e io trovo veramente risibile che, addirittura, si siano andate a cercare le feste, anche quelle civili (con tutto il rispetto per quelle previste dalle varie intese), per impedire lo svolgimento delle elezioni. Utilizzare anche il raduno degli alpini per non fare svolgere le elezioni entro il termine previsto per legge di sessanta giorni mi sembra veramente risibile, è una scusa che francamente non sta in piedi. I motivi per esprimere un voto contrario sono moltissimi, quello principale è il fatto che questo rischia di essere un precedente per altri utilizzi e siamo molto preoccupati. Lo voglio dire ancora una volta. Noi oggi, come SEL, abbiamo scelto di abbandonare i lavori della Commissione impegnata alla Camera sulla legge elettorale perché, dopo la sostituzione di dieci deputati del PD, penso che siamo arrivati ad un esercizio di arroganza da parte di una minoranza - che può davvero manipolare la volontà e la formazione delle leggi - che non si era francamente mai vista.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SEL e della senatrice Bencini.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">TORRISI (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#TorrisiSalvatore" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u32">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg46">Signora presidente, com'è stato già sottolineato dal relatore, senatore Migliavacca, il Consiglio dei ministri, su proposta del ministro dell'interno Angelino Alfano, ha approvato un decreto-legge che fissa l' election day e stabilisce che per esso la prima domenica utile è il 31 maggio 2015, ciò per le tanto attese elezioni regionali e amministrative. Le Regioni per la quali si andrà alle urne sono il Veneto, la Liguria, la Toscana, le Marche, l'Umbria, la Campania e la Puglia. In totale si tratterà di poco più di 17 milioni di elettori interpellati al voto, un voto che forse inevitabilmente verrà letto in termini di tenuta degli schieramenti e delle alleanze politiche a livello nazionale, nonché del peso politico dell'attuale Governo. Nella stessa giornata di maggio per l' election day si voterà anche per il rinnovo di Consigli comunali e sindaci di ben 1.089 Comuni. Si tratta del 13,5 per cento del totale dei Comuni italiani; tra essi vi sono 18 città capoluogo, di cui due con meno di 15.000 abitanti. Il decreto-legge n. 27 del 17 marzo 2015 introduce la possibilità di celebrare le elezioni regionali (e nessuna implicazione o analogia può avere per le elezioni nazionali, così come paventato in modo preoccupato dal senatore Calderoli) oltre il termine di sessanta giorni successivi alla scadenza del mandato consiliare, così come previsto dalla legge di stabilità per il 2015, al fine di consentire lo svolgimento delle prossime consultazioni elettorali amministrative e regionali in un'unica data, innanzitutto per la razionalizzazione della spesa pubblica. È dunque un provvedimento che permette di flessibilizzare l'arco temporale entro il quale si possono realizzare le condizioni per lo svolgimento delle consultazioni elettorali in forma abbinata. Lo spostamento del termine alla domenica compresa nei sei giorni successivi si rende necessario in quanto il rinnovo degli organi elettivi regionali dovrebbe avvenire entro il 27 maggio 2015. Tuttavia, in tale periodo non sarebbe possibile individuare una data di votazione idonea, data la coincidenza con alcune festività religiose e civili o con altre ricorrenze rilevanti ai fini dell'affluenza al voto. Pertanto, appare condivisibile la proposta del Governo di individuare il 31 maggio come data idonea per l' election day, nonostante la vicinanza della festività del 2 giugno. Infatti, un'ulteriore posticipazione comporterebbe lo svolgimento del secondo turno delle elezioni amministrative nella seconda metà del mese di giugno, con possibili conseguenze negative sulla partecipazione degli elettori. L'intervento, che si rende necessario ed urgente al fine di rendere effettiva la possibilità di celebrare in un solo giorno le elezioni regionali ed amministrative del 2015, non solo non determina nuovi o maggiori oneri a carico della finanza pubblica, ma è suscettibile di produrre una riduzione complessiva delle spese elettorali in coerenza con le finalità di risparmio delle disposizioni sull' election day. Il provvedimento mira dunque al duplice obiettivo della razionalizzazione della spesa pubblica e della maggiore affluenza al voto; due obiettivi che si pongono - e si devono porre - oggi al centro della riflessione delle urgenze di tutti i decisori politici. Se, infatti, da un lato, l'economia richiede misure che contengano la spesa pubblica in generale, ciò vale tanto di più per una spesa che può essere diminuita agevolmente, cioè facendo votare per le elezioni regionali e amministrative lo stesso giorno e riuscendo forse a centrare un altro obiettivo, forse anche più importante per la democrazia e per le istituzioni rappresentative e politiche, ovvero l'aumento dell'affluenza e della partecipazione al voto. È inutile infatti ricordare come nelle recenti elezioni vi sia stata un'astensione molto alta, una spia preoccupante per la democrazia stessa, soprattutto per quella italiana, che ha tradizionalmente registrato livelli alti, comunque buoni, di partecipazione elettorale. Basti ricordare come alle ultime elezioni politiche del 2013 vi fu un'affluenza di circa il 75 per cento degli aventi diritto, un dato buono, anche se per la prima volta nella storia dell'Italia repubblicana l'affluenza alle urne per delle elezioni politiche era scesa sotto la soglia dell'80 per cento. Non vorrei poi parlare delle ultime elezioni regionali in Emilia-Romagna, dove si è registrata un'affluenza alle urne bassissima, solo del 37,7 per cento, a fronte della partecipazione nelle elezioni precedenti del 2010 nella stessa Regione, dove si toccò il 68 per cento circa. Il provvedimento di cui parliamo mira dunque raggiungere due obiettivi importanti: ridurre la spesa pubblica e riportare i cittadini alle urne. Inoltre - e non si tratta di un dato di poco conto - finora sembra non ci siano state importanti contestazioni e le forze politiche sono già impegnate negli adempimenti elettorali. Infatti, l' election day è sempre stato inviso a molti partiti politici, perché solitamente si proponeva l'accorpamento di elezioni nazionali con alcune locali. Si è trattato, ovviamente, di elezioni che hanno cercato di seguire logiche diverse, elezioni che i partiti hanno temuto potessero influenzarsi l'un l'altra con esiti imprevedibili. Pertanto, avviandomi alla conclusione, signora Presidente e colleghi, il mio auspicio è che la data delle elezioni fissata al 31 maggio, con il voto favorevole sul decreto-legge in esame, non sia suscettibile a ulteriori slittamenti, perché si tratterebbe solo di un'ulteriore perdita di tempo. Che questo, come stabilito dal Consiglio dei ministri, fughi da noi ogni timore per una bassa affluenza alle urne: si tratta di una paura infondata e dovuta al fatto che il 31 maggio sarebbe la domenica precedente al ponte del 2 giugno. Per i motivi da me espressi, dichiaro quindi il voto decisamente favorevole da parte del Gruppo di Area Popolare sul provvedimento in esame.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo AP (NCD-UDC).</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u33">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg47">Signora Presidente, colleghi, oggi dimostrate, senza nessuna ombra di dubbio, che non avete alcun rispetto per i cittadini, che preferite favorire l'astensionismo anziché la partecipazione. C'è un mancato rispetto per i tanti lavoratori del settore turistico perché, sebbene molti pensino che ci stiamo opponendo alla data del 31 maggio per favorire il ponte delle festività, per i turisti, in realtà quelli a cui pensiamo non sono coloro che potranno votare e poi partire per le vacanze, ma gli operatori turistici. Considerate che saranno chiamate al voto circa 17 milioni di persone e che le sette Regioni coinvolte hanno una vocazione turistica particolare. Si tratta della Liguria, della Puglia, della Campania, del Veneto, della bassa Umbria, delle Marche, della Toscana, Regioni nelle quali ci saranno tantissimi operatori che si troveranno costretti a non poter votare perché inizierà proprio allora il periodo in cui si comincia a prestare la propria attività lavorativa; è il primo periodo in cui ci si può risollevare - forse - dopo un periodo di crisi che ha colpito anche quel mercato. È ridicola la ricerca di scuse, come la presenza di festività civili e religiose (ricercate con il lanternino e che magari non avremmo neanche preso in considerazione in passato); altrettanto ridicola è la storia del raduno degli alpini (alcuni Comuni avanzano la richiesta per qualche cittadino che deve partecipare al raduno). Sinceramente, trovo sia inopportuno...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Giovanardi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg48">Non mi riferisco ai 300.000 alpini; non sono tutti delle Regioni coinvolte nel voto. Lombardia e Trentino-Alto Adige non vanno al voto e sono regioni a cui fanno capo una grande quantità di alpini! Quindi non richiami quei numeri che non c'entrano niente, senatore Giovanardi! Torniamo al discorso. Si arriva al 31 maggio - diciamo la verità - non perché non si può prorogare oltre, ma perché non si è votato prima, e perché non si è votato prima? Perché non si è votato a metà aprile, o nei primi giorni di maggio? Non a causa delle festività, ma perché non avevate ancora fatto gli accordi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg49">Non avevate ancora definito chi deve vincere qui, lasciando vincere lì, o chi vince lì e chi altro vince qui, dandovi una mano a vicenda, come accade di fatto nelle Regioni dove si realizzano spartizioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg50">Non era stato ancora definito un accordo tra la Lega Nord e Berlusconi o tra PD e SEL, in alcuni casi. Invito, tra l'altro, i colleghi di SEL a fare un atto di coraggio, se ancora ce l'hanno, ritirandosi da tutte le Giunte e da tutti i Consigli regionali, in cui siedono insieme al Partito Democratico, dopo quello che è successo oggi alla Camera dei deputati presso la Commissione affari costituzionali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg51">Se avete un minimo di orgoglio, un minimo di indipendenza ritiratevi; fate cadere quelle giunte in cui fate da stampella.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg52">Ancora una volta verrà favorito l'astensionismo e non avete altre scuse. Non c'è dubbio comunque che anche questa volta un'onda vi travolgerà e molti di voi saranno spazzati via</seg>
+               <vocal type="speaking">
+                  <desc>Commenti ironici del Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg53">nelle Regioni in cui il Movimento 5 Stelle c'è e in cui si voterà; in qualche caso potrebbe anche arrivare qualche sorpresa. Qualche sorpresa potrebbe arrivare! Sicuramente molti di voi non saranno eletti perché ci saranno altri cittadini che verranno eletti ai Consigli regionali, malgrado si voti il 31 maggio!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg54">CASTALDI (M5S). Bravo!</seg>
+            </u>
+            <note type="speaker">MAZZONI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MazzoniRiccardo" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u34">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg55">Signora Presidente, onorevoli colleghi, per noi l' election day è una necessità indiscutibile in tempi di spending review e non è certo una prerogativa solo italiana , visto che l'accorpamento di tornate elettorali di diversa natura è ormai uso invalso in molte democrazie. Tuttavia, il Gruppo Forza Italia si asterrà su questo provvedimento e ne spiego ovviamente il motivo. Intanto la prima anomalia è stata intervenire per decreto-legge, scritto peraltro in stretto burocratese per stabilire, dopo un percorso tortuosissimo, che la prima domenica utile per votare è il 31 maggio 2015. Spesso, come si sa, il burocratese è il mezzo per nascondere le vere intenzioni, e il dubbio che questo decreto sia stato concepito come precedente utile per intervenire successivamente sulla data di entrata in vigore dell'Italicum è, a questo punto, più che legittimo. Ma come siamo arrivati alla data del 31 maggio e perché non si è votato nei tempi stabiliti? Il primo cambiamento, altra anomalia, è avvenuto attraverso l'ultima legge di stabilità, una manovra finanziaria che con le questioni elettorali non dovrebbe avere nulla a che fare. Ma il Governo evidentemente aveva interesse a modificare la vecchia legge sulle elezioni regionali per evitare un voto troppo ravvicinato. Le vecchie norme infatti prevedevano il voto una settimana prima della domenica delle ultime elezioni, alla scadenza dei cinque anni del mandato, e poiché nel 2010 siamo andati alle urne per i Consigli regionali il 28 marzo, l'appuntamento sarebbe caduto domenica 22 marzo. Troppo presto. È stato allora aggiunto un codicillo, il comma 501, nella legge di stabilità, intitolato proprio election day, per spostare il voto delle comunali e delle regionali entro i sessanta giorni dalla scadenza del mandato, cioè entro il 28 maggio. Ma gli uffici, non so se del Viminale o di Palazzo Chigi, non avevano tenuto conto delle insidie del calendario 2015, zeppo di ricorrenze religiose e civili che si accavallavano con le possibili date del voto: feste religiose, cristiane ed ebraiche, come la Pasqua e la Pentecoste, e civili, come la ricorrenza della Liberazione, la Festa del lavoro e l'adunata nazionale degli alpini. Un ginepraio che ha portato a un'altra variazione e un'altra norma, un altro codicillo, per allungare la data del voto al 31 maggio, che è, per la cronaca, non solo il giorno della Santissima Trinità, ma soprattutto una domenica molto ravvicinata alla festa del 2 giugno, la festa della Repubblica, che cade il martedì successivo. Vogliamo dirlo chiaro? Indire una tornata elettorale importante, come lo sono tutte le elezioni in Italia, alla quale si annette una valenza politica nazionale all'inizio del primo ponte praticamente estivo, è quanto meno un azzardo, anche perché l'andamento dell'affluenza al voto per le regionali non è da questo punto di vista molto tranquillizzante. Per questo motivo si era affacciata anche l'ipotesi di posticipare l' election day al 7 giugno, ma in questo caso i ballottaggi sarebbero slittati al 22 giugno, una data estiva assolutamente improponibile, anche perché - lo voglio ricordare - alle ultime regionali, quelle del 2014, non ha votato nemmeno il 40 per cento degli aventi diritto. Questo per dire che con la disaffezione in atto da parte dell'elettorato sarebbe stato molto più opportuno indire le regionali prima dell'ingorgo degli impedimenti e prima, soprattutto, di un ponte festivo. Ma su questi ragionamenti evidentemente ha prevalso il calcolo politico del Governo. Va poi segnalato che questi continui cambiamenti di date hanno portato a un'altra serie di anomalie al limite della legge, perché non è per un capriccio che nei quarantacinque giorni precedenti al voto i Consigli regionali devono entrare nel limbo delle decisioni ordinarie. La ragione è abbastanza ovvia: il legislatore ha voluto evitare la produzione indiscriminata di leggi e leggine elettoralistiche. Ma c'è anche un'altra anomalia: nel momento in cui si consente una proroga dei mandati così ampia, si finisce anche per alterare il principio in base al quale la durata degli eletti è di cinque anni. Per i Consigli regionali eletti il 28 marzo del 2010, la legislatura durerà infatti esattamente cinque anni e due mesi, una sorta di tempi supplementari per i consiglieri regionali uscenti che potrebbe favorirli in caso di ricandidatura a spese degli altri candidati, con l'aggravante che qualche centinaio di consiglieri di sette Regioni sta percependo l'indennità per due mesi in più, alla faccia della tanto sbandierata spending review. Insomma, un pasticcio che si sarebbe potuto evitare se il Governo, per imperizia o - io credo - per dolo, non avesse deciso che votare a marzo, nei tempi stabiliti, sarebbe stato politicamente meno conveniente per il centrosinistra, magari per avere il tempo di trovare tra le pieghe del Documento di economia e finanza, un tesoretto da spendere in funzione elettorale, un tesoretto che peraltro non esiste, come certificato chiaramente in queste ore dalla BCE e da Bankitalia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">RUSSO (PD)</note>
+            <u ana="#regular" who="#RussoFrancesco" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u35">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg56">Signora Presidente, prima di annunciare il voto favorevole del Gruppo Partito Democratico, vorrei richiamare velocemente tre elementi di questo dibattito, anche per tornare al cuore del provvedimento che andiamo a votare. Infatti, il dibattito - anche interessante - di questa sera sembra tuttavia averci fatto smarrire il fatto principale, ossia che oggi andiamo, in maniera precisa, a certificare la possibilità di votare in un'unica data, il 31 maggio, per le elezioni riguardanti gli enti locali, che erano già state convocate dal Ministero dell'interno per quel giorno, e per le elezioni regionali. Questo è l'oggetto del provvedimento che stiamo votando, che - voglio ricordarlo - contiene in sé due elementi assolutamente condivisibili in quest'Aula e soprattutto dai cittadini. Il primo è l'oggettivo risparmio che il provvedimento porta con sé, che credo sia entrato nel comune sentire di questo Parlamento, della classe politica e, in particolare, dei nostri concittadini, che non capirebbero scelte diverse. Il secondo elemento - lo dico anche in controtendenza rispetto ad alcune osservazioni ascoltate in questa sede - consiste proprio nell'obiettivo di favorire la massima partecipazione al voto. Sappiamo, infatti, che unire le elezioni per i Consigli regionali a quelle degli enti locali necessariamente e auspicabilmente porterà un numero maggiore di italiani a partecipare e ad esprimere il proprio voto. A questo proposito, voglio, senza polemica, dire al collega Crimi che non è così banale evitare la coincidenza della data con la grande adunata degli alpini a L'Aquila.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Airola</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg57">L'Aquila, tra l'altro, è una città simbolica e non devo sottolinearlo io in questa sede. Basterebbe il numero di alpini che scenderanno a L'Aquila dalla Regione Veneto, naturale serbatoio di partecipazione a questi grandi eventi, che vedono centinaia di migliaia di persone mobilitarsi, per giustificare l'attenzione che quest'Aula, anche questa volta, prova a dedicare a questo evento nazionale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg58">Desidero, inoltre, ricordare che quello che stiamo per convertire è un decreto-legge che risponde pienamente ai requisiti richiesti dalla Costituzione. Si tratta di un intervento sicuramente urgente, data l'imminenza della tornata elettorale, e puntuale. Come abbiamo detto, infatti, esso è volto solo e unicamente a favorire l'accorpamento delle elezioni regionali e amministrative.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg59">Inoltre, per cancellare ogni possibile dietrologia che pure è risuonata, vorrei sottolineare che si tratta di una norma assolutamente di contorno: questo ci dice la Corte costituzionale. Non stiamo innovando la giurisprudenza della Corte e non c'è alcun rischio che questo costituisca un precedente rispetto ad alcunché. È evidente, infatti, e lo ripeto ancora una volta, che anche fuori da quest'Aula sarebbe assolutamente incomprensibile bloccare oggi una macchina amministrativa che è già partita, con tutti gli adempimenti richiesti dalla normativa vigente; a scadenza così ravvicinata non sarebbe sicuramente possibile fare altro.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg60">Questi sono i motivi per i quali il Gruppo Partito Democratico voterà, quindi, convintamente a favore del disegno di legge di conversione del decreto-legge in esame.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u36">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg61">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u37">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg62">Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, composto del solo articolo 1. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u38">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg63">Signora Presidente, stamattina abbiamo non solo ricordato, ma abbiamo anche svolto una piccola e breve discussione sui tragici fatti dei morti nel Canale di Sicilia. Molti hanno ovviamente fatto riferimento anche al vertice europeo. Io sono convinta che sarebbe assolutamente opportuno che domani il Presidente del Consiglio venisse in Aula, così come probabilmente accadrà alla Camera, per riferire su quale sarà la posizione che verrà espressa dall'Italia a tale vertice. Credo che sia assolutamente fondamentale che il Parlamento possa discuterne.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u39">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg64">Di fronte a questa richiesta, convoco la Conferenza dei Capigruppo e sospendo la seduta. (La seduta, sospesa alle ore 17,50, è ripresa alle ore 18,17).</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg65">La seduta è ripresa.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg66">Come stabilito dalla Conferenza dei Capigruppo, domani mattina, alle ore 10,30, il Presidente del Consiglio dei ministri renderà comunicazioni sul Consiglio europeo straordinario di giovedì 23 aprile. I tempi di discussione saranno armonizzati dalla Presidenza in modo tale che la votazione su eventuali strumenti di indirizzo abbia luogo entro le ore 13,30.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg67">Domani l'Assemblea terrà seduta unica, con sospensione dalle ore 13,30 alle ore 16,30. Tale seduta si concluderà alle ore 18,30, per consentire la riunione di un Gruppo parlamentare.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg68">La Conferenza dei Capigruppo ha altresì proceduto alla ripartizione dei tempi per la discussione del Documento di economia e finanza 2015.</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+         </div>
+         <div type="debateSection">
+            <head>Calendario dei lavori dell'Assemblea, variazioni</head>
+            <note type="summary">Martedì 21 aprile pom. h. 16,30-20 - Seguito disegno di legge n. 1577 - Riorganizzazione Amministrazioni pubbliche (Collegato alla manovra finanziaria) (Voto finale con la presenza del numero legale) - Comunicazioni del Presidente del Consiglio dei ministri in vista del Consiglio europeo straordinario del 23 aprile 2015 (mercoledì 22, ore 10,30) - Doc . LVII, n. 3 - Documento di economia e finanza 2015 (giovedì 23) (**) - Disegno di legge n. 1328 - Semplificazione settore agricolo (Collegato alla manovra finanziaria) (Voto finale con la presenza del numero legale) Mercoledì 22 " ant. h. 9,30-18.30 (*) Giovedì 23 " ant. h. 9,30</note>
+            <note>(*)</note>
+            <note>La seduta unica di mercoledì 22 aprile sarà sospesa dalle ore 13,30 alle ore 16,30.</note>
+            <note>(**)</note>
+            <note>Le proposte di risoluzione sul</note>
+            <note>Doc</note>
+            <note>LVII, n. 3 (Documento di economia e finanza 2015) dovranno essere presentante entro la conclusione della discussione generale. Gli emendamenti alla risoluzione accolta dal Governo dovranno essere presentati entro un'ora dall'espressione del parere. Le votazioni avranno luogo alle ore 16.</note>
+            <note type="summary">Martedì 28 aprile pom. h. 16,30-20 - Eventuale seguito argomenti non conclusi - Documenti definiti dalla Giunta delle elezioni e delle immunità parlamentari Mercoledì 29 " ant. h. 9,30-13 " " " pom. h. 16,30-20 Giovedì 30 " ant. h. 9,30-14 Giovedì 30 aprile pom. h. 16 - Interpellanze e interrogazioni</note>
+            <note>Ripartizione dei tempi per la discussione del disegno di legge n. 1577 (Riorganizzazione Amministrazioni pubbliche) (10 ore, escluse dichiarazioni di voto)</note>
+            <note type="summary">Relatore 1 h. Governo 1 h. Votazioni 1 h. Gruppi 7 ore, di cui: PD 1 h. 40' FI-PdL XVII 1 h. 5' M5S 50' AP (NCD-UDC) 50' Misto 45' Aut (SVP, UV, PATT, UPT) - PSI-MAIE 37' LN-Aut 36' GAL (GS, LA-nS, MpA, NPSI, PpI, IdV) 36' Dissenzienti 5'</note>
+            <note>Ripartizione dei tempi per la discussione del</note>
+            <note>Doc</note>
+            <note>LVII, n. 3 (Documento di economia e finanza 2015) (4 ore, escluse dichiarazioni di voto)</note>
+            <note type="summary">Relatore 30' Governo 30' Gruppi 3 ore, di cui: PD 43' FI-PdL XVII 28' M5S 21' AP (NCD-UDC) 21' Misto 20' Aut (SVP, UV, PATT, UPT) - PSI-MAIE 17' GAL (GS, LA-nS, MpA, NPSI, PpI, IdV) 15' LN-Aut 15' Dissenzienti 5'</note>
+            <note>Ripartizione dei tempi per la discussione del disegno di legge n. 1328 (Semplificazione settore agricolo) (10 ore, escluse dichiarazioni di voto)</note>
+            <note type="summary">Relatore 1 h. Governo 1 h. Votazioni 1 h. Gruppi 7 ore, di cui: PD 1 h. 40' FI-PdL XVII 1 h. 5' M5S 50' AP (NCD-UDC) 50' Misto 45' Aut (SVP, UV, PATT, UPT) - PSI-MAIE 37' LN-Aut 36' GAL (GS, LA-nS, MpA, NPSI, PpI, IdV) 36' Dissenzienti 5'</note>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione del disegno di legge: (1577) Riorganizzazione delle amministrazioni pubbliche</note>
+            <note type="time">18,18</note>
+            <note type="status">(Collegato alla manovra finanziaria) (Votazione finale qualificata, ai sensi dell'articolo 120, comma 3, del Regolamento) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44709.htm</note>
+            <note type="time">(ore 18,18)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u40">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg69">L'ordine del giorno reca il seguito della discussione del disegno di legge n. 1577.</seg>
+            </u>
+            <note>Riprendiamo l'esame degli articoli, nel testo proposto dalla Commissione.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Ricordo che nella seduta pomeridiana del 15 aprile è stato accantonato l'articolo 1 e sono stati illustrati gli emendamenti e gli ordini del giorno presentati all'articolo 2, sui quali si sono pronunziati il relatore ed il rappresentante del Governo. Passiamo alla votazione dell'emendamento 2.300, identico all'emendamento 2.301. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.300, presentato dalla senatrice Lo Moro, identico all'emendamento 2.301, presentato dalla senatrice De Petris e da altri senatori.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato non approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u41">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg70">, relatore. Signor Presidente, intervengo sull'emendamento 1.321, precedentemente accantonato, per il quale è stata trovata una soluzione. Sull'emendamento 1.321, come sull'emendamento 2.354 e sugli altri di simile tenore, il parere è favorevole con la seguente riformulazione: «Il Governo, qualora non intenda conformarsi ai pareri parlamentari, trasmette nuovamente i testi alle Camere con le sue osservazioni, con eventuali modificazioni, corredate dai necessari elementi integrativi di informazione e motivazione. Le Commissioni competenti per materia possono esprimersi sulle osservazioni del Governo entro il termine di dieci giorni dalla data della nuova trasmissione delle medesime osservazioni ai sensi del capoverso che precede. Decorso tale termine, i decreti possono comunque essere adottati».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u42">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg71">Invito il rappresentante del Governo a pronunziarsi sulla riformulazione proposta dal relatore.</seg>
+            </u>
+            <note type="speaker">MADIA</note>
+            <note type="role">ministro per la semplificazione e la pubblica amministrazione</note>
+            <u ana="#guest" who="#MadiaMariaAnna" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u43">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg72">Esprimo parere conforme al relatore.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg73">PRESIDENTE. Chiedo alla prima firmataria dell'emendamento 1.321, senatrice Guerra, se accoglie la riformulazione proposta dal relatore.</seg>
+            </u>
+            <note type="speaker">GUERRA (PD)</note>
+            <u ana="#regular" who="#GuerraMariaCecilia" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u44">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg74">Sì, signor Presidente, la accolgo.</seg>
+            </u>
+            <note type="speaker">D'ALI' (FI-PdL XVII)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u45">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg75">Signor Presidente, io comprendo la ratio di questa richiesta, ma mi sembra che la soluzione introduca nel nostro ordinamento e nei nostri regolamenti una ulteriore previsione fino ad ora inesistente. Qualche volta abbiamo approvato delle deleghe con il doppio passaggio parlamentare, ma nel rispetto dei trenta giorni di tempo previsti. Adesso introduciamo una ulteriore formulazione, e poi diciamo che dobbiamo semplificare. Tutto questo contraddice le dichiarazioni di intenti ed introduce nell'ordinamento ulteriori complicazioni. Tra l'altro, codifica in maniera esplicita nella legge la possibilità, che esiste anche nel dettato costituzionale, per il Governo di dissociarsi dal parere delle Commissioni parlamentari. Ciò va bene fino a quando accade in virtù di una normativa consolidata e costituzionalmente prevista. Noi adesso, però, dobbiamo quasi legittimare, come Parlamento, l'intenzione del Governo di disattendere il parere delle Commissioni, sebbene tutti i Governi lo abbiamo comunque fatto nel tempo. Ma che questa intenzione debba, in maniera molto bizantina, essere nuovamente sottoposta alle Camere e poi, ancora una volta, ad un ulteriore parere, che può essere ulteriormente disatteso, con un termine diverso da quello normalmente previsto per il parere delle Commissioni, lo avrei capito se il secondo passaggio fosse valso a blindare il testo sul parere del Parlamento. Ma se il secondo passaggio deve avvenire in termini inconsueti, innovando sui nostri Regolamenti e sulla prassi costituzionale e con l'ulteriore previsione che il testo possa essere comunque varato, a me sembra una superfetazione che non giova alla semplificazione e alla rapidità della nostra procedura normativa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GUERRA (PD)</note>
+            <u ana="#regular" who="#GuerraMariaCecilia" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u46">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg76">Credo che l'osservazione del senatore D'Alì non sia condivisibile, perché abbiamo già dei precedenti. E penso, in particolare, alla delega fiscale, in cui è usata una formulazione che, nei tempi dei trenta e dieci giorni, è stata riprodotta e rispettata anche dalla riformulazione proposta dal relatore. Si tratta semplicemente di una dialettica normale tra Parlamento e Governo. Recentemente, anche per il decreto semplificazione, è successo che, a fronte di osservazioni della Commissione, il Governo è tornato in Commissione a spiegare perché riteneva possibile dar seguito solo ad alcuni rilievi e a come aveva interpretato alcune osservazioni. Questo ha reso possibile un pieno e convinto supporto da parte del Parlamento. Si tratta di ricondurre ad una dialettica istituzionale problematiche che, altrimenti, potrebbero prendere strade improprie. I precedenti ci sono: le deleghe fiscali, quasi sempre, sono state fatte in questi termini e i tempi sono esattamente gli stessi. Non c'è innovazione di merito nella procedura che l'emendamento propone, anche nella riformulazione del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u47">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg77">Passiamo alla votazione dell'emendamento 1.321 (testo 2).</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u48">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg78">Capisco che ci si abitui al peggio, ma vorrei ricordare che, in realtà, noi dovremmo muoverci solo ed unicamente nel solco dell'articolo 76 della Costituzione e, quindi, quando il Parlamento delega al Governo il suo potere legislativo - purtroppo abbiamo avuto sempre casi di inosservanza - i pareri delle Commissioni debbono essere presi assolutamente in considerazione da parte del Governo stesso. Capisco lo spirito dell'emendamento in esame, ma nel secondo passaggio dovrebbe essere previsto un impegno più forte del Governo, nel rispetto delle volontà della Commissione. Vorrei ricordare - vedo presente la presidente Finocchiaro - che in passato ci è capitato - l'argomento, purtroppo, è sempre vivo - durante l'espressione del parere sul recepimento delle direttive per lo status di rifugiati, che i pareri delle Commissioni sono stati non delle semplici osservazioni, ma vincolanti. I precedenti Governi e l'attuale, pur essendo tornati a dare spiegazioni sul perché non si sono attenuti - questo è un esempio di come torni - ad un parere in un certo senso vincolante delle Commissioni, tendono comunque a disattendere il parere delle Commissioni. Anche nella riformulazione proposta credo che ci muoviamo in un campo in cui lo stesso Parlamento ammette che si può benissimo far a meno del proprio parere, anche quando si ritorna. Il termine è vincolante per il Governo: entro dieci giorni si deve rendere il parere e, a decorrere degli stessi, i decreti possono comunque essere adottati. Per questo motivo noi, anche sulla base della proposta di riformulazione, esprimeremo un voto di astensione sull'emendamento.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u49">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg79">Signor Presidente, se questo emendamento serve a ribadire qualcosa che rientra nella normale dialettica, come la senatrice Guerra ha appena detto, ci sembra anche superfluo doverlo specificare. Sarebbe forse opportuno che il Governo si adeguasse una volta per tutte, senza bisogno di scriverlo, ai pareri che il Parlamento in quanto delegante dà sui decreti delegati. È vero che il Governo può legiferare solo su delega del Parlamento, ma quanto il Parlamento esprime sui decreti sottoposti a delega è il parere di chi ha delegato e, quindi, dovrebbe essere preso in considerazione a prescindere, che sia prassi o sia prescritto o meno che si debba fare. Purtroppo, l'emendamento 1.321 (testo 2) ci sembra voglia semplicemente cercare di legittimare una prassi che non dovrebbe neanche esistere. Per certi versi è sempre meglio di niente, anche se forse dovremmo cominciare a mettere da parte il meno peggio e cercare solo il meglio. Noi voteremo a favore dell'emendamento 1.321 (testo 2), nell'auspicio che i pareri che il Parlamento esprimerà sui decreti legislativi siano presi in debita considerazione, e non succeda quanto si è verificato qualche mese fa con la legislazione antimafia, quando una condizione votata all'unanimità tra tutte le forze politiche è stata disattesa dal Governo, benché fosse poi chiaro che andava in direzione sbagliata rispetto alla delega originale.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u50">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg80">Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.321 (testo 2), presentato dalla senatrice Guerra e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Proseguiamo la votazione degli emendamenti presentati all'articolo 2. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.302, presentato dal senatore Girotto e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.303, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.304, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 2.305, presentato dalla senatrice De Petris e da altri senatori, fino alle parole «del progetto». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte dell'emendamento 2.305 e l'emendamento 2.306. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.307, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.308, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.4, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 2.5, presentato dalla senatrice De Petris e da altri senatori, fino alle parole «di Servizi». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte dell'emendamento 2.5 e l'emendamento 2.309. Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 2.12, presentato dalla senatrice Bisinella e da altre senatrici, fino alle parole «dell'ambiente». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte dell'emendamento 2.12 e gli emendamenti da 2.310 a 2.312. Passiamo alla votazione dell'emendamento 2.9 (testo 2).</seg>
+            </u>
+            <note type="speaker">BELLOT (Misto-FAL)</note>
+            <u ana="#regular" who="#BellotRaffaela" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u51">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg81">Signor Presidente, poiché l'emendamento 2.9 nel testo riformulato, su cui sia il relatore che il Governo hanno espresso parere favorevole, va nel senso di semplificare e di dare maggiori risposte sia ai cittadini che alle imprese, invito l'Assemblea a valutare tale indicazione e, dunque, ad esprimere un voto favorevole.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u52">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg82">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.9 (testo 2), presentato dalla senatrice Bisinella e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.313, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.13, presentato dalla senatrice Fucksia e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 2.314 è assorbito dall'approvazione dell'emendamento 2.9 (testo 2). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.315, presentato dalla senatrice Bisinella e da altre senatrici. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.316, presentato dalla senatrice Bisinella e da altre senatrici. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.317, presentato dai senatori Girotto e Castaldi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.318, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 2.319 è assorbito dall'approvazione dell'emendamento 2.9 (testo 2). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.320, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.321, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.322, presentato dalla senatrice De Petris e da altri senatori, identico all'emendamento 2.323, presentato dal senatore Girotto e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.324, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.325, presentato dai senatori Girotto e Castaldi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.326, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.327, presentato dalla senatrice De Petris e da altri senatori, identico all'emendamento 2.328, presentato dai senatori Girotto e Castaldi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.329, presentato dai senatori Girotto e Castaldi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.330, presentato dai senatori Campanella e Bocchino. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.331, presentato dal senatore Arrigoni e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.17, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.332, presentato dalla senatrice De Petris e da altri senatori, sostanzialmente identico all'emendamento 2.333, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.24, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.334, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.335, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.336, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.337, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.338, presentato dai senatori Girotto e Castaldi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.339, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.340, presentato dalla senatrice De Petris e da altri senatori, sostanzialmente identico all'emendamento 2.341, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.342, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.343, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.344, presentato dalla senatrice Bisinella e da altre senatrici, identico all'emendamento 2.345, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.346, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.29, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u53">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg83">Signor Presidente, mi perdoni ma, pur con tutta la mia disponibilità nell'accelerare i lavori, spesso e volentieri non si riesce a percepire il numero dell'emendamento e non riusciamo a votare.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u54">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg84">Ha ragione a richiamarmi, senatore Santangelo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg85">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.347, presentato dalla senatrice Bisinella e da altre senatrici. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.348, presentato dalla senatrice Nugnes e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 2.349 è stato ritirato.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u55">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg86">Signor Presidente, l'emendamento 2.349 è ritirato, ma non è possibile farlo proprio e metterlo in votazione? PRESIDENTE. È stato già ritirato a suo tempo, senatore Crimi. CRIMI (M5S). Peccato, perché lo avremmo votato. Invito la maggioranza ogni tanto a riflettere, perché quando ci sono degli emendamenti buoni proposti dalla maggioranza, le opposizioni sarebbero favorevoli a votarli: invece vengono ritirati. Quindi, se c'è qualcuno che dovrebbe scongelarsi è la maggioranza.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u56">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg87">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.350, presentato dalla senatrice Bisinella e da altre senatrici. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.351, presentato dalla senatrice Bisinella e da altre senatrici. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.352, presentato dai senatori Girotto e Castaldi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.353, presentato dai senatori Girotto e Castaldi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Senatrice Guerra, accoglie la riformulazione dell'emendamento 2.354 proposta dal relatore, con il parere conforme del Governo? GUERRA (PD). Sì, signor Presidente.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u57">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg88">Signor Presidente, credo che l'emendamento 2.354 (testo 2) sia uguale all'emendamento 1.321 (testo 2), che è già stato votato.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u58">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg89">È uguale ma riferito all'articolo 2, senatore Santangelo. È sempre la stessa salvaguardia, ma riferita ad un altro articolo, quindi dobbiamo votarlo: è una delega diversa rispetto a quella dell'articolo 1.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg90">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.354 (testo 2), presentato dalla senatrice Guerra e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Invito il relatore e il rappresentante del Governo a pronunziarsi sull'ordine del giorno G2.100.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u59">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg91">Signor Presidente, esprimo parere favorevole sull'accoglimento dell'ordine del giorno.</seg>
+            </u>
+            <note type="speaker">MADIA</note>
+            <note type="role">ministro per la semplificazione e la pubblica amministrazione</note>
+            <u ana="#guest" who="#MadiaMariaAnna" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u60">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg92">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u61">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg93">Essendo stato accolto dal Governo, l'ordine del giorno G2.100 non verrà posto ai voti.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u62">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg94">Salutiamo i docenti e gli studenti dell'Istituto omnicomprensivo «Luigi Lilio» di Cirò, in provincia di Crotone, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 1577</note>
+            <note type="time">18,44</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44709.htm</note>
+            <note type="time">(ore 18,44)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u63">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg95">Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 3, sul quale sono stati presentati emendamenti e un ordine del giorno che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">SCALIA (PD)</note>
+            <u ana="#regular" who="#ScaliaFrancesco" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u64">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg96">Signor Presidente, ritiro l'emendamento 3.300.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u65">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg97">Signor Presidente, gli emendamenti presentati dal mio Gruppo all'articolo 3 si pongono in coerenza con tutte le votazioni che abbiamo effettuato poco fa sull'articolo 2 e con tutti gli altri emendamenti che abbiamo presentato, volti a preservare, anche all'interno della Conferenza dei servizi, la possibilità non solo che tutte le amministrazioni preposte alla tutela della salute, del paesaggio e dell'ambiente abbiano un loro peso, ma anche che non siano conculcate, come invece è accaduto, peraltro, anche con le ulteriori modifiche intervenute con gli emendamenti stessi. L'articolo 3 è un altro dei punti assolutamente dolenti da questo punto di vista. In particolare, segnalo che, proprio al comma 3 dell'articolo 3, si stabilisce il silenzio-assenso anche per tutte quelle amministrazioni che sono preposte alla tutela, al controllo e alla rappresentanza di interessi sensibili. Mi riferisco, in particolare, a ciò che riguarda, appunto, la tutela ambientale, della salute e dei beni culturali.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg98">Vorrei ricordare che si è sempre tentato di introdurre il meccanismo del silenzio-assenso, come fosse una sorta di sogno, e ora Renzi potrà lanciare un altro tweet dicendo che, dopo tanti anni in cui gli altri hanno solo parlato, lui l'ha fatto. Anche nei momenti peggiori, in cui si è manomessa tutta la legislazione preposta alla tutela ambientale, paesaggistica e dei beni culturali, e nella lunghissima discussione che svolgemmo sul codice ambientale, alla fine il dispositivo del silenzio-assenso, per fortuna, non è mai entrato nella nostra legislazione. Da questo punto di vista tale norma, in un Paese in cui non mi pare che la tutela paesaggistica e ambientale sia proprio un valore condiviso, produrrà dei risultati molto discutibili e anche devastanti. Vorrei anche dire - lo dico qui e lo annuncio - che è evidente che sull'introduzione del silenzio-assenso noi, per quanto ci riguarda, ricorreremo anche in questo caso all'Europa. Credo che il Governo sappia perfettamente che rischia una procedura di infrazione che produrrà ulteriori aggravi per le casse dello Stato. Proprio su questi punti abbiamo presentato vari emendamenti e, per fortuna, anche altre forze politiche li hanno presentati. In particolare, ho voluto concentrarmi su questo elemento e quindi sull'emendamento 3.14. Vorrei anche dire che proprio sull'introduzione del silenzio-assenso, previsto dal comma 3 dell'articolo 3, invito tutti a riflettere, perché esso produrrebbe davvero un grave indebolimento del sistema della tutela dell'ambiente, dei beni culturali e del paesaggio, diritto sancito dall'articolo 9 della Costituzione. Alcuni colleghi, anche del Partito Democratico, in questi giorni hanno chiesto a molti di noi di firmare una proposta di modifica della Costituzione, per rafforzare - per fortuna - l'articolo 9 della Costituzione. Invece, con l'introduzione del silenzio-assenso, in effetti stiamo dando un'altra botta proprio all'articolo 9 della Costituzione stessa. Allarmanti - mi dispiace dirlo per il collega Pagliari - sono state anche le dichiarazioni del relatore, che ha detto testualmente, a proposito dell'introduzione del silenzio-assenso, che si intende favorire la predisposizione di una nuova disciplina delle attività che i soggetti privati possono iniziare immediatamente, senza la preventiva autorizzazione dei pubblici poteri e finalmente senza il fastidio delle amministrazioni che potrebbero opporre dei pareri diversi e contrari (penso alle soprintendenze). Allora, da una parte non si fa assolutamente nulla per rafforzare il Ministero dei beni culturali e, soprattutto in periferia, gli uffici delle soprintendenze (anzi, si fa il contrario) e poi si fa in modo che, nella delega sulla pubblica amministrazione, si stabilisca il silenzio-assenso, non mettendo in grado le amministrazioni preposte alla tutela di poter svolgere il loro mestiere e quindi il loro lavoro e di poter esprimere, in tempi certamente ragionevoli, il loro parere, perché quello che si vuole in realtà è proprio indebolire il meccanismo della tutela.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SEL e della senatrice Bignami.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">NUGNES (M5S)</note>
+            <u ana="#regular" who="#NugnesPaola" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u66">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg99">Signor Presidente, anch'io ho presentato un emendamento uguale a quello della collega. Purtroppo è importante in quest'Aula ripetere le parole, che stanno sempre più perdendo significato.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg100">Con l'emendamento 3.13 chiediamo di sopprimere il comma 3, che allarga anche agli enti che hanno pertinenza nell'ambito ambientale, qualora si debbano acquisire assensi, concerti o nulla osta, il silenzio-assenso. Chiaramente questo comma è solo l'ennesima piccola parte di un disegno complessivo, che ha la sua massima espressione nello "sblocca Italia", ma che ha anche uno svolgimento molto chiaro in tutti i provvedimenti di questa legislatura, che tendono a togliere potere decisionale agli enti territoriali. È vero che stiamo parlando di un silenzio-assenso tra enti (questo non ci sfugge); ma è anche vero che noi, per quanto riguarda tutti gli argomenti e tutte le decisioni in ambito ambientale, saremmo tenuti a rispettare la legge n. 108 del 16 marzo 2001. Si tratta di una legge - assolutamente dimenticata in Italia, come tante altre - di recepimento di un'importantissima convenzione, quella di Aarhus, che prevedrebbe non di sentire il parere di enti tra enti, ma di dar luogo ad assemblee pubbliche con contraddittorio con i cittadini, ogni volta che si debba assumere una decisione con un qualche peso o valenza di tipo ambientale su quei territori.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg101">Stiamo andando invece in tutt'altra direzione, sempre chiaramente con la bandiera della semplificazione, eppure ci viene raccontato, nelle varie relazioni e commissioni d'inchiesta che hanno a che fare per esempio con la corruzione nella pubblica amministrazione oppure ascoltando i pm che più volte si trovano a dover relazionare sui motivi della corruzione e della mancanza di controllo, che il problema è l'eccessiva semplificazione. Noi invece andiamo come treni verso quella direzione, perché probabilmente il nostro interesse non è davvero la semplificazione, ma togliere tutti quei controlli, soprattutto in ambito ambientale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg102">Mi dispiace non aver fatto in tempo a chiedere di aggiungere la mia firma all'emendamento 2.13 - mi perdonerà la mia collega Fucksia - perché sarebbe stato molto interessante. Siamo chiaramente favorevoli alla semplificazione e ad accorciare i tempi burocratici delle amministrazioni, ma dobbiamo cercare e ricercare un dialogo in queste aule e nelle Commissioni per trovare soluzioni diverse, che non siano quelle volte a togliere tutti i controlli e tutti gli occhi addosso, qualunque atto o disciplina possa creare intralcio all'interesse privato, che - dobbiamo ricordarlo - secondo l'articolato della Costituzione, dev'essere sempre attuato in un ambito pubblico e nell'interesse pubblico, altrimenti è sicuramente in violazione dei diritti di tutti.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg103">Chiedo allora un attimo di riflessione in merito, anche a nome di un attivista di 93 anni, l'avvocato Giacomo Buonomo, che ogni volta che esce un provvedimento in questa legislatura mi chiama, invitandomi a ricordare a quest'Aula la convenzione di Aarhus. Vi invito allora ad ascoltare anche la saggezza di uomini che sono vissuti in altri anni e che hanno provato sulla loro pelle il depauperamento di questa istituzione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg104">PRESIDENTE. I restanti emendamenti e l'ordine del giorno si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg105">Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli emendamenti e sull'ordine del giorno in esame.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u67">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg106">Signor Presidente, esprimo parere contrario su tutti gli emendamenti</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici della senatrice Nugnes</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg107">, mentre esprimo parere favorevole sull'ordine del giorno G3.100 (testo 2).</seg>
+            </u>
+            <note type="speaker">MADIA</note>
+            <note type="role">ministro per la semplificazione e la pubblica amministrazione</note>
+            <u ana="#guest" who="#MadiaMariaAnna" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u68">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg108">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u69">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg109">L'emendamento 3.300 è stato ritirato.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg110">Passiamo alla votazione dell'emendamento 3.301.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u70">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg111">Signor Presidente, nel chiedere che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico, segnalo una correzione da apportare a causa di un errore: il voto del Gruppo M5S sull'emendamento 2.9 è contrario.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u71">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg112">Senatore Santangelo, resterà agli atti che il vostro voto era contrario.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg113">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.301, presentato dalla senatrice Bignami e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.302, presentato dal senatore Santangelo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 3.303, presentato dalla senatrice De Petris e da altri senatori, fino alle parole «Presidente del». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte dell'emendamento 3.303 e l'emendamento 3.7. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.14, presentato dalla senatrice De Petris e da altri senatori, identico agli emendamenti 3.13, presentato dalla senatrice Nugnes e da altri senatori, e 3.304, presentato dalla senatrice Puppato. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.16, presentato dal senatore Santangelo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 3.305, presentato dai senatori Bignami e Mastrangeli, fino alle parole « le seguenti ». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte dell'emendamento 3.305 e l'emendamento 3.306. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.307, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.308, presentato dal senatore Crimi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Essendo stato accolto dal Governo, l'ordine del giorno G3.100 (testo 2) non verrà posto ai voti. Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 4, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito il relatore ed il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u72">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg114">Signor Presidente, esprimo parere favorevole sull'emendamento 4.307, nel testo riformulato, mentre sui restanti emendamenti il parere è contrario.</seg>
+            </u>
+            <note type="speaker">MADIA</note>
+            <note type="role">ministro per la semplificazione e la pubblica amministrazione</note>
+            <u ana="#guest" who="#MadiaMariaAnna" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u73">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg115">Il parere del Governo è conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u74">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg116">Passiamo alla votazione dell'emendamento 4.5.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg117">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.5, presentato dalla senatrice Bisinella e da altre senatrici. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 4.300, presentato dal senatore Ceroni e da altri senatori, fino alla parola «precisa». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte dell'emendamento 4.300 e l'emendamento 4.301. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.302, presentato dalla senatrice De Pin e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.7, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.303, presentato dalla senatrice Bisinella e da altre senatrici, identico all'emendamento 4.304, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.305, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.306, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.8, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.9, presentato dalla senatrice Bisinella e da altre senatrici. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.307 (testo 2), presentato dalla senatrice Guerra e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.308, presentato dai senatori Campanella e Bocchino. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 5, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito il relatore ed il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u75">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg118">Esprimo parere contrario su tutti gli emendamenti.</seg>
+            </u>
+            <note type="speaker">MADIA</note>
+            <note type="role">ministro per la semplificazione e la pubblica amministrazione</note>
+            <u ana="#guest" who="#MadiaMariaAnna" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u76">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg119">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u77">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg120">Passiamo alla votazione dell'emendamento 5.1 SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.1, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.300, presentato dalla senatrice Bisinella e da altre senatrici. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.301, presentato dal senatore Crimi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.302, presentato dai senatori Bonfrisco e Bruno. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.303, presentato dal senatore Bruno. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.304, presentato dai senatori Galimberti e Bruno, identico agli emendamenti 5.305, presentato dai senatori Fabbri e Russo, 5.306, presentato dalla senatrice Bisinella e da altre senatrici, e 5.307, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.308, presentato dal senatore Fabbri, identico agli emendamenti 5.309, presentato dalla senatrice Bisinella e da altre senatrici, 5.310, presentato dal senatore Galimberti, e 5.311, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.312, presentato dalla senatrice Bisinella e da altre senatrici. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.313, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 5.314, presentato dalla senatrice Bisinella e da altre senatrici, fino alla parola «attività». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte dell'emendamento 5.314 e l'emendamento 5.315. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.316, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.317, presentato dal senatore Crimi e da altri senatori, identico all'emendamento 5.318, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.319, presentato dalla senatrice Lo Moro. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.320, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.321, presentato dalla senatrice De Pin e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 5.322.</seg>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u78">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg121">Quello in esame è un altro esempio di emendamento positivo, che siamo disposti a sostenere, perché stabilisce che, se sono state concesse le autorizzazioni e, tuttavia, sia avvenuto un cambiamento sostanziale e serio del quadro sulla base del quale esse erano state precedentemente concesse dall'amministrazione pubblica, è ancora possibile l'annullamento, con effetti ex nunc, cioè da quel momento, fatti salvi il pregresso e il godimento dei relativi vantaggi, fino al momento in cui si è verificata una causa di forza maggiore, un interesse collettivo che merita da essere tutelato. Si tratta quindi di un emendamento equilibrato, che salva tanto i diritti fino ad allora goduti, quanto i vantaggi, le necessità e i bisogni della collettività per il futuro. Quindi dichiaro il voto favorevole del Movimento 5 Stelle.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u79">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg122">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.322, presentato dalle senatrici Dirindin e Lo Moro. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.323, presentato dal senatore Bruno. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.324, presentato dal senatore Crimi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 5. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 5.0.3.</seg>
+            </u>
+            <note type="speaker">FUCKSIA (M5S)</note>
+            <u ana="#regular" who="#FucksiaSerenella" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u80">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg123">I concerti rappresentano spesso un ostacolo all'attuazione di leggi, che rinviano ad un atto ministeriale le definizioni di aspetti importanti per la regolamentazione di una data materia. Risulta oggi di massima importanza stabilire tempi precisi e modalità per superare il mancato concerto da parte del Ministero o dei Ministeri, al fine di consentire in tempi brevi l'effettiva attuazione della legge a cui il concerto si riferisce. Appare quanto mai fondamentale stabilire modalità che rendano effettive le leggi e che permettano al nostro ordinamento di uscire finalmente da questo ristagno normativo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u81">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg124">Senatore Pagliari, conferma il parere contrario sull'emendamento 5.0.3? PAGLIARI, relatore. Confermo il parere contrario, signor Presidente. PRESIDENTE. Anche il rappresentante del Governo conferma il parere. Indìco pertanto la votazione nominale con scrutinio simultaneo dell'emendamento 5.0.3, presentato dalla senatrice Fucksia e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Onorevoli colleghi, oltre agli emendamenti improcedibili a seguito del parere contrario ai sensi dell'articolo 81 della Costituzione, espresso dalla Commissione bilancio, risultano inammissibili, ai sensi dell'articolo 126- bis, comma 2- ter del Regolamento, gli emendamenti 6.309, 7.114, 7.433, 9.443, 9.0.303 e 15.321, in quanto estranei al disegno di legge al nostro esame, ovvero non riferiti alle modifiche proposte dalla Commissione. Passiamo all'esame dell'articolo 6, sul quale sono stati presentati emendamenti e ordini del giorno che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u82">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg125">Signor Presidente, intervengo sull'ordine dei lavori. Dopo la "carica dei 101" emendamenti messi in votazione, mi permetto di chiedere dieci minuti di sospensione: una collega non ha potuto votare ed è sgradevole doversi assentare per esigenze personali.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u83">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg126">Colleghi, è stata avanzata una richiesta da parte di un collega. Se nessuno vi si oppone esplicitamente, la Presidenza darà seguito a questa richiesta, che mi sembra comprensibile.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg127">Poiché non vi sono osservazioni, così resta stabilito. Dispongo pertanto una breve sospensione dei nostri lavori. (La seduta, sospesa alle ore 19,14, è ripresa alle ore 19,25). Riprendiamo i nostri lavori.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u84">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg128">Presidente, vorrei un chiarimento sui motivi che hanno portato la Presidenza a dichiarare inammissibile l'emendamento 6.309. Le dico subito perché. Leggo all'articolo 6 del disegno di legge che stiamo discutendo che il Governo adotta entro sei mesi uno o più decreti legislativi per modificare i decreti legislativi nn. 33 e 39 del 2013, che sono entrambi citati in questo emendamento. Il testo proposto dalla Commissione recita: «in materia di inconferibilità e incompatibilità di incarichi presso le amministrazioni pubbliche e presso gli enti privati sottoposti al controllo pubblico». L'emendamento a firma dei colleghi Fucksia e Morra propone di adottare uno o più decreti legislativi recanti disposizioni correttive del decreto legislativo n. 39 proprio in materia di inconferibilità e incompatibilità di incarichi, in particolare dando delle indicazioni e delle direttive ben precise in merito agli incarichi amministrativi al vertice delle amministrazioni statali, regionali e locali, agli incarichi di amministratore di ente pubblico, di livello nazionale, regionale e locale, agli incarichi di dirigente per coloro che hanno ricoperto la carica di Presidente del Consiglio dei ministri, Ministro, Vice Ministro, Sottosegretario di Stato e commissario straordinario del Governo. In altri termini, visto che il disegno di legge che stiamo esaminando affronterà il tema della revisione delle incompatibilità e inconferibilità, l'emendamento 6.309 propone di estendere anche ai membri del Governo, compresi i Sottosegretari che non hanno delle incompatibilità in quanto senatori o deputati o per altre cariche, tutte le incompatibilità già previste per tante altre figure istituzionali. Si può essere d'accordo o meno nel merito e io sono sicuro che non lo sarete perché vuoi che a un Ministro o a un Sottosegretario non gli si trovi un posto in un ente pubblico dopo che ha terminato il suo incarico, se non ha una pensione da deputato o da senatore?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg129">In qualche modo un posticino lo si deve trovare.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg130">Pertanto, potete votare contro il merito dell'emendamento, ma l'inammissibilità veramente non la capisco, perché stiamo parlando di incompatibilità e inconferibilità da introdurre nei decreti legislativi nn. 39 e 33 del 2013. Esprimete parere contrario come immaginiamo, ma non prendiamoci in giro. Il tema è lo stesso e l'emendamento 6.309 non può essere dichiarato inammissibile per estraneità di materia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u85">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg131">Senatore Crimi, devo confermarle l'inammissibilità per estraneità di materia, in quanto prevede l'impossibilità di conferire incarichi dirigenziali e di amministrazione a soggetti che negli anni precedenti abbiano ricoperto cariche di Governo.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u86">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg132">Signor Presidente, lei sta esprimendo un parere contrario e non un'inammissibilità. Lei sta dicendo che l'emendamento tratta un'incompatibilità che la maggioranza non condivide (non parlo di lei, signor Presidente, perché se fosse tra i banchi lo voterebbe anche); state dicendo che votereste no (perché questo mi si sta dicendo), ma la materia è perfettamente omogenea rispetto a quella prevista nel disegno di legge che stiamo votando.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg133">Votate contro. Nessuno vi obbliga a votare a favore, per carità; ci mancherebbe che votiamo qualche previsione volta ad aumentare l'incompatibilità e l'inconferibilità di incarichi. Però stiamo parlando dell'articolo 6 del disegno di legge, in cui si propone la revisione in materia di inconferibilità e incompatibilità di incarichi presso le amministrazioni pubbliche e presso gli enti privati sottoposti a controllo pubblico. Dove è la inammissibilità? Signor Presidente, davvero chiedo di rivedere questa decisione. Non capisco dove può esserci estraneità di materia se si parla dell'inconferibilità e incompatibilità di incarichi relativamente ai due decreti legislativi nn. 39 e 33 del 2013. È qualcosa che non riesco neanche a capire con tutto lo sforzo che posso fare. Vedo anche delle facce perplesse in Aula, perché se è inammissibile questo emendamento, allora tutto lo è. Signor Presidente, mi perdoni, perché davvero non saprei come poter giustificare questa decisione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg134">PRESIDENTE. Procediamo con l'illustrazione degli emendamenti.</seg>
+            </u>
+            <note type="speaker">SACCONI (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#SacconiMaurizio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u87">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg135">Signor Presidente, cari colleghi, vorrei richiamare l'attenzione dell'Assemblea sull'emendamento 6.304 con il quale si ripropone una delega non esercitata dal Governo nei tempi prescritti che estende al bilancio dello Stato quella contabilità economica che altri decreti di esercizio della stessa delega hanno applicato alle amministrazioni pubbliche.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg136">La contabilità economica consente di assicurare - come è noto - analisi dei costi, controllo di gestione, verifica dei risultati e quel processo di revisione dei costi della spesa di cui tanto parliamo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg137">L'emendamento è collocato nell'ambito della trasparenza perché la contabilità economica analitica per centri di costo garantisce certamente una maggiore trasparenza al bilancio dello Stato. Ricordiamoci, peraltro, che si deve riconciliare con la contabilità finanziaria necessaria ad altri primari scopi.</seg>
+            </u>
+            <note type="speaker">FUCKSIA (M5S)</note>
+            <u ana="#regular" who="#FucksiaSerenella" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u88">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg138">Signor Presidente, vorrei rafforzare il concetto che ha già espresso il mio collega, senatore Crimi, con riferimento all'emendamento 6.309 che era già stato proposto nel corso dell'esame del disegno di legge anticorruzione e anche in quel caso giudicato inammissibile, sebbene sia stato accolto un ordine del giorno di contenuto analogo. Lo ripropongo in questa occasione con le stesse motivazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg139">L'emendamento in questione contiene una norma che serve a raffreddare la pressione della politica sulla pubblica amministrazione. Come si fa a dire che è estraneo alla materia, mi è difficile da capire. Più che altro aiuta a dare lo stop a questa strisciante metodica della ricollocazione dei parlamentari bocciati o esclusi dalle liste all'interno degli enti pubblici. Quindi pertinente alla materia lo è e non c'è dubbio al riguardo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg140">Come ho spiegato la scorsa settimana, un decreto attuativo della cosiddetta legge Severino preclude il ricollocamento dei politici di enti regionali, provinciali e comunali al di sopra di 15.000 abitanti per i due anni successivi alla fine dell'incarico. Nulla del genere accade, invece, per gli ex parlamentari ed ex membri del Governo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg141">Lo scorso 13 febbraio il Presidente dell'autorità nazionale anticorruzione, Raffaele Cantone sulle colonne del «Corriere della Sera», rispondendo al giornalista Sergio Rizzo, scriveva: «L'augurio è di poter correggere questa lacuna attraverso la riforma, in corso di esame in Parlamento, della pubblica amministrazione». E ancora: «Con la riforma della PA le regole che già valgono per gli ente locali siano estese a livello nazionale».</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg142">Non fate come i vecchi politici che prima votano no e poi dicono che non sono d'accordo con quella misura quando ormai non è più all'ordine del giorno. Il momento è adesso ed è in tema; non può essere inammissibile questo emendamento.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg143">Se non volete dare ascolto al Movimento 5 Stelle (vi posso anche capire in qualche occasione) ascoltate il super magistrato Cantone tanto decantato da tutti approvando questo emendamento. Vedrete che liberando gli enti dalla morsa famelica dei partiti, una volta tanto in questo Paese, sarà il merito a vincere, e non lo spoil system nella sua peggiore accezione. Diamo un esempio. Comunque, è inaccettabile che l'emendamento 6.309 sia estraneo alla materia e che sia dunque inammissibile. Se non siete d'accordo, ditelo che poi lo riferiremo anche a tutti i cittadini. Ditelo anche a Cantone.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e LN- Aut e della senatrice Bignami.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg144">PRESIDENTE. I restanti emendamenti e ordini del giorno si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg145">Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli emendamenti e sugli ordini del giorno in esame.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u89">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg146">Signor Presidente, esprimo parere contrario sugli emendamenti 6.300, 6.8, 6.9 e 6.301 (sostanzialmente identico agli emendamenti 6.6 e 6.303). Invito i presentatori a trasformare l'emendamento 6.302 in ordine del giorno. Invito i presentatori a trasformare l'emendamento 6.304 in ordine del giorno, altrimenti il parere è contrario. Esprimo inoltre parere contrario sugli emendamenti 6.305, 6.12, 6.306 e 6.21. Sull'emendamento 6.307 ho già parlato con la senatrice Bignami, per la trasformazione in ordine del giorno con la formula: «a valutare l'opportunità di», altrimenti il parere è negativo. Sull'emendamento 6.308 (testo 2) esprimo parere favorevole.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg147">Esprimo parere contrario sull'ordine del giorno G6.100. Esprimo parere favorevole sull'emendamento G6.101, se riformulato introducendo nel dispositivo la formula: "a valutare l'opportunità di".</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg148">Sugli emendamenti 6.0.5, 6.0.300 e 6.0.301, che sono tutti sul tema dei controlli negli enti locali, esprimo parere contrario salvo trasformazione in ordini del giorno, perché quello dei controlli è un tema che rimane all'attenzione.</seg>
+            </u>
+            <note type="speaker">MADIA</note>
+            <note type="role">ministro per la semplificazione e la pubblica amministrazione</note>
+            <u ana="#guest" who="#MadiaMariaAnna" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u90">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg149">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u91">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg150">Passiamo alla votazione dell'emendamento 6.300.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg151">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.300, presentato dal senatore Bruno. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.8, presentato dai senatori Crimi e Puglia. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 6.9.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u92">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg152">Signor Presidente, l'emendamento 6.9 tende e a voler estendere gli obblighi di pubblicazione a tutti i dati e le informazioni inerenti gli incarichi dirigenziali conferiti a soggetti esterni e interni all'amministrazione non in possesso della qualifica di dirigente. Il fine è quello di cercare di estendere il più possibile le condizioni di trasparenza e pubblicità degli atti degli enti locali e di tutte le amministrazioni pubbliche, nonché di rendere pubbliche le procedure con le quali vengono conferiti incarichi di posizioni organizzative di qualunque tipo, anche non dirigenziali. Ciò in particolare in correlazione ad altri elementi di questo stesso disegno di legge o di provvedimenti che abbiamo convertito in legge in merito alla conferibilità di incarichi di dirigente, ad esempio a chi non possiede le qualifiche o altro, o di incarichi esterni, ad esempio nell'ambito delle nomine degli uffici apicali dei Comuni e delle Province, come vedremo negli articoli successivi.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u93">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg153">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.9, presentato dai senatori Crimi e Puglia. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.301, presentato dal senatore Volpi e da altri senatori, sostanzialmente identico agli emendamenti 6.6, presentato dalla senatrice Bisinella e da altre senatrici, e 6.303, presentato dal senatore Ceroni e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Senatrice Lanzillotta, accoglie l'invito a trasformare l'emendamento 6.302 in un ordine del giorno? LANZILLOTTA (PD). Sì, signor Presidente. PRESIDENTE. Essendo stato accolto dal Governo, l'ordine del giorno G6.302 non verrà posto ai voti. Senatore Sacconi, accoglie l'invito a trasformare l'emendamento 6.304 in un ordine del giorno? SACCONI (AP (NCD-UDC)). Signor Presidente, accolgo l'invito augurandomi che il Governo voglia accogliere l'ordine del giorno. PRESIDENTE. Il Governo aveva già espresso parere favorevole a tale trasformazione, conformandosi al parere del relatore. Pertanto, essendo stato accolto dal Governo, l'ordine del giorno G6.304 non verrà posto ai voti.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u94">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg154">Signor Presidente, ancora una volta ci stupiamo delle sorprese che ci riserva la maggioranza. Anche nel caso dell'emendamento 6.302 dei colleghi Lanzillotta, Maran e Ichino avremmo votato favorevolmente, e non è la prima volta. È anche un caso abbastanza strano: forse bisognava cogliere al volo questa opportunità, farlo votare e non trasformarlo in un ordine del giorno. Ciò dimostra, ancora una volta, che il Governo ordina e la maggioranza esegue e non il contrario. L'emendamento 6.302 aveva un obiettivo ben preciso: individuare l'effetto che doveva derivare dalla riduzione degli oneri a carico delle pubbliche amministrazioni, ossia quello di ridurre gli oneri gravanti in capo a cittadini e imprese. Non si trattava, quindi, di ridurre gli oneri delle amministrazioni locali solo per rendere più facile il loro lavoro, ma si puntava ad un obiettivo ben preciso: rendere più semplice la vita ai cittadini. Significava ridurre gli oneri a carico delle amministrazioni locali con l'obiettivo di ridurre gli oneri a carico dei cittadini e non solo per far lavorare più velocemente i Comuni. Si trattava di una norma sensata (ogni tanto arriva anche qualcosa di sensato), su cui buona parte dell'opposizione avrebbe votato favorevolmente e che, come al solito, viene ritirata e trasformata in un inutile ordine del giorno.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u95">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg155">Salutiamo i docenti e gli studenti dell'Istituto comprensivo «Silvio Pellico» di La Spezia, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 1577</note>
+            <note type="time">19,42</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44709.htm</note>
+            <note type="time">(ore 19,42)</note>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u96">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg156">Signor Presidente, una volta che mi sarei trovato straordinariamente d'accordo con i senatori Sacconi e Quagliariello vedo che il Governo non si prende carico di un emendamento come il 6.304. Secondo il nostro punto di vista, infatti, nel momento in cui creiamo autorità di controllo, abbiamo difficoltà nell'individuare le pieghe di bilancio che consentirebbero, magari, di trovare risorse, non si può dire di no ad un sistema parallelo e interessante che individuerebbe i centri di costo ed eviterebbe i tagli lineari. Non capisco perché, in un momento come questo, il Governo non accolga una proposta del genere. Ne sono molto stupito, perché siamo qui a guardare i pochi soldi che ci sono e, nel momento in cui si può ottenere una razionalizzazione attraverso una contabilità intelligente, oltre a quella burocratica, il Governo si limita ad accogliere un ordine del giorno. Sono stupito. Senatore Sacconi, ogni tanto le do ragione, ma devo dire che questa volta l'aveva appieno. Peccato che il suo Governo le abbia detto di no.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Bignami.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u97">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà. Ricordi, però, che per il suo Gruppo ha già parlato il senatore Crimi.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg157">Signor Presidente, il mio collega Crimi ha parlato dell'emendamento 6.302. Io, invece, mi ricollego a quanto già espresso dal senatore Volpi per integrare le sue osservazioni. Stiamo parlando di un emendamento che darebbe impulso all'applicazione di quanto la legge di contabilità prevede dal 2009, che è ancora rimasto lettera morta. Stiamo parlando, sostanzialmente, del completamento della struttura di bilancio dello Stato, che deve considerare non solo la contabilità finanziaria, ma anche quella economico-patrimoniale. Si tratta, quindi, di un dovere preciso del Parlamento e del Governo stesso. Nel momento in cui questa possibilità è stata già prevista nel DEF, c'è l'occasione di fissarla come legge e come norma; oggi, qui, in questo momento, non c'è alcun motivo di mantenerla come impegno generico (sappiamo, infatti, quanto valgono gli ordini del giorno). Credo veramente che si stia accelerando su quello che fa comodo e tergiversando su ciò che è necessario. Chiedo tanto al Governo, quanto al collega Sacconi, che non mi segue...</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u98">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg158">Colleghi, l'ordine del giorno derivante dalla trasformazione dell'emendamento 6.304 è già stato accolto dal Governo. Se volete rappresentare una volontà politica va bene, ma non possiamo certo tornare indietro e trasformarlo nuovamente in un emendamento.</seg>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u99">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg159">Avrei voluto intervenire prima che vi fosse la risposta del senatore Sacconi, per esplicitare il nostro sostegno, eventualmente, funzionale anche ad una sua decisione. La prossima volta terrò il braccio alzato più in alto.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u100">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg160">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.305, presentato dal senatore Amoruso. (Segue la votazione). Il Senato non approva. (v. Allegato B). Senatrice Bignami, accoglie l'invito a trasformare l'emendamento 6.307 (testo 2) in un ordine del giorno? BIGNAMI (Misto-MovX). Sì, signor Presidente. PRESIDENTE. Essendo stato accolto dal Governo, l'ordine del giorno G6.307 (testo 2) non verrà posto ai voti. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.12, presentato dalla senatrice De Petris e da altri senatori, identico all'emendamento 6.306, presentato dai senatori Perrone e Bruno. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.21, presentato dalla senatrice Petraglia e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.308 (testo 2), presentato dalla senatrice Guerra e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). L'emendamento 6.309 è inammissibile. Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G6.100, presentato dalla senatrice De Pietro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Senatrice Moronese, accoglie la riformulazione dell'ordine del giorno G6.101? MORONESE (M5S). Sì, signor Presidente. PRESIDENTE. Essendo stato accolto dal Governo, l'ordine del giorno G6.101 (testo 2) non verrà posto ai voti. Indìco la votazione nominale con scrutinio simultaneo dell'articolo 6, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Chiedo ai presentatori degli emendamenti identici 6.0.5, 6.0.300 e 6.0.301 se accolgono l'invito a trasformarli in ordini del giorno?</seg>
+            </u>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u101">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg161">Signor Presidente, saremmo anche disposti alla trasformazione dell'emendamento in un ordine del giorno. Vorrei però chiedere al relatore cosa vuol dire «è all'attenzione». Se mi spiega cosa vuol dire, dico anche di sì all'ordine del giorno, che chiederei venisse comunque posto in votazione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u102">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg162">Senatore Pagliari, conferma il suo parere favorevole nell'ipotesi di trasformazione in ordini del giorno?</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u103">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg163">Sì, confermo il parere favorevole alla trasformazione in ordini del giorno e ribadisco quello che ho già detto nella relazione, cioè che il tema dei controlli negli enti locali e uno dei temi che è all'attenzione per future...</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u104">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg164">Anche i presentatori degli emendamenti 6.0.5 e 6.0.301 sono favorevoli alla trasformazione in ordini del giorno.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg165">Indìco pertanto la votazione nominale con scrutinio simultaneo dell'ordine del giorno G6.0.5, presentato dalla senatrice Bisinella e da altre senatrici, sostanzialmente identico agli ordini del giorno G6.0.300, presentato dal senatore Volpi e da altri senatori, e G6.0.301, presentato dal senatore Ceroni e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Rinvio il seguito della discussione del disegno di legge in titolo ad altra seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u105">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg166">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di mercoledì 22 aprile 2015</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.u106">
+               <seg xml:id="ParlaMint-IT_2015-04-21-LEG17-Sed-434.seg167">Il Senato tornerà a riunirsi in seduta pubblica domani, mercoledì 22 aprile, alle ore 9,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 19,49).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

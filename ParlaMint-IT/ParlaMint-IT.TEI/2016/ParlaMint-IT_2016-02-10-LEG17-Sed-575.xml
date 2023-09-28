@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 575 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 575 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 575, giorno (2016-02-10)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 575, Day (2016-02-10)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="575-upper">575 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="94" unit="speeches" xml:lang="it">94 discorsi</measure>
+            <measure quantity="94" unit="speeches" xml:lang="en">94 speeches</measure>
+            <measure quantity="13127" unit="words" xml:lang="it">13.127 parole</measure>
+            <measure quantity="13127" unit="words" xml:lang="en">13,127 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0964713</idno>
+               <date when="2016-02-10">10.02.2016</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="11"/>
+               <tagUsage gi="head" occurs="8"/>
+               <tagUsage gi="note" occurs="179"/>
+               <tagUsage gi="seg" occurs="94"/>
+               <tagUsage gi="u" occurs="34"/>
+               <tagUsage gi="vocal" occurs="8"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="40"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="desc" occurs="49"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2016-02-10">10.02.2016</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente GRASSO</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u1">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg1">La seduta è aperta (ore 16,34). Si dia lettura del processo verbale. BERGER, segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u2">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u3">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg3">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg4">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,36).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione dei disegni di legge: (2081) CIRINNA' ed altri. - Regolamentazione delle unioni civili tra persone dello stesso sesso e disciplina delle convivenze</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46051.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (14) MANCONI e CORSINI. - Disciplina delle unioni civili</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39314.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (197) ALBERTI CASELLATI ed altri. - Modifica al codice civile in materia di disciplina del patto di convivenza</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39495.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (239) GIOVANARDI. - Introduzione nel codice civile del contratto di convivenza e solidarietà</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39865.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (314) BARANI e MUSSOLINI. - Disciplina dei diritti e dei doveri di reciprocità dei conviventi</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40058.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (909) PETRAGLIA ed altri. - Normativa sulle unioni civili e sulle unioni di mutuo aiuto</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41505.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1211) MARCUCCI ed altri. - Modifiche al codice civile in materia di disciplina delle unioni civili e dei patti di convivenza</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43663.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1231) LUMIA ed altri. - Unione civile tra persone dello stesso sesso</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43713.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1316) SACCONI ed altri. - Disposizioni in materia di unioni civili</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43968.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1360) FATTORINI ed altri. - Regolamentazione delle unioni civili tra persone dello stesso sesso</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44071.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1745) SACCONI ed altri. - Testo unico dei diritti riconosciuti ai componenti di una unione di fatto</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45187.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1763) ROMANO ed altri. - Disposizioni in materia di istituzione del registro delle stabili convivenze</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45233.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (2069) MALAN e BONFRISCO. - Disciplina delle unioni registrate</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46019.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (2084) CALIENDO ed altri. - Disciplina delle unioni civili</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46059.htm</note>
+            <note type="time">(ore 16,37)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u4">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg5">L'ordine del giorno reca il seguito della discussione dei disegni di legge nn. 2081, 14, 197, 239, 314, 909, 1211, 1231, 1316, 1360, 1745, 1763, 2069 e 2084.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg6">Ricordo che nella seduta di ieri è stata presentata una proposta di non passare all'esame degli articoli e si è conclusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg7">Ha facoltà di parlare il rappresentante del Governo.</seg>
+            </u>
+            <note type="speaker">ORLANDO</note>
+            <note type="role">ministro della giustizia</note>
+            <u ana="#guest" who="#OrlandoAndrea" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u5">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg8">Signor Presidente, onorevoli senatori, tengo a precisare che il Governo non farà una vera e propria replica ad un dibattito così articolato e ricco, anche perché, come si sa, nel Governo stesso e nella maggioranza che lo sostiene vi sono posizioni diverse, così come in tutti i Gruppi parlamentari, su un tema così sensibile e delicato, che chiama in causa le coscienze individuali.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg9">Abbiamo però seguito con grandissima attenzione questo dibattito e per questo mi corre l'obbligo di ringraziare tutti gli onorevoli senatori che sono intervenuti, con passaggi di grande profondità, così come credo profonde siano le domande che sottendono la normativa in oggetto. L'auspicio è che questo lavoro e questo confronto proseguano nel corso delle votazioni, con lo sforzo di riconoscere la parte di verità che esiste anche nelle posizioni diverse dalla propria. Questo invito non è retorico, ma è legato al fatto che, quando la politica è chiamata ad avventurarsi in un terreno così delicato che chiama in causa le coscienze, che vede esprimersi sensibilità diverse e che soprattutto incide nella dimensione più intima della vita umana, credo sia importante che il modo in cui questa discussione si sviluppa tenga conto del possibile impatto e della rilevanza delle parole che vengono utilizzate. Devo dire che, fino a qui, questo dibattito ha adempiuto in gran parte a questo obiettivo.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg10">Il Governo non esprimerà una valutazione politica sui diversi emendamenti che saranno portati alla discussione, se non esclusivamente una valutazione tecnica su alcuni, quando palesemente non conformi alla giurisprudenza europea e a quella costituzionale. Sugli altri si rimetterà alla valutazione dell'Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg11">Mi corre solo l'obbligo di segnalare, in qualità di Ministro guardasigilli, che questa normativa, quale che sia la valutazione che questo ramo del Parlamento darà sui singoli punti e poi alla fine il legislatore nel suo insieme, nasce dall'esigenza di colmare una lacuna normativa segnalata da più soggetti della giurisdizione e indicata autorevolmente da pronunce della Corte europea dei diritti dell'uomo. L'auspicio è quindi che questo importante lavoro, portato avanti quale che fosse la posizione svolta, possa trovare comunque un esito e possa dare al Paese norme certe, in un ambito di così grande rilevanza e di così grande importanza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e della senatrice Gambaro.</desc>
+               </kinesic>
+            </u>
+            <note type="notPassingPoposal">proposta di non passaggio all'esame degli articoli, ai sensi dell'articolo 96 del Regolamento</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u6">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg12">Passiamo all'esame della proposta di non passare all'esame degli articoli alla quale ha aggiunto la sua firma il senatore Sacconi.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg13">Onorevoli colleghi, sulla proposta di non passaggio all'esame degli articoli è stata presentata, da parte del prescritto numero di senatori, una richiesta di votazione a scrutinio segreto, ai sensi dell'articolo 113, comma 4, del Regolamento. Nel ricordare che il disegno di legge in esame reca disposizioni per la regolamentazione delle unioni civili tra persone dello stesso sesso e disciplina delle convivenze, la Presidenza rileva che il tema della regolamentazione di tali unioni rientra non tanto nella sfera di applicazione degli articoli 29, 30 e 31 della Costituzione - più volte richiamati sia nelle premesse dell'ordine del giorno di non passaggio all'esame degli articoli, sia in una memoria depositata contestualmente alla richiesta di votazione a scrutinio segreto - quanto nell'ambito di applicazione dell'articolo 2 della Costituzione, in base al quale la Repubblica riconosce e garantisce i diritti inviolabili dell'uomo, sia come singolo, sia nelle formazioni sociali ove si svolge la sua personalità. Infatti, la Corte costituzionale, nella nota sentenza n. 138 del 2010, ha posto al centro delle proprie argomentazioni proprio il citato articolo 2 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg14">In particolare, nel precisare il concreto significato di tale disposizione, la Corte ha chiarito che: «per formazione sociale deve intendersi ogni forma di comunità, semplice o complessa, idonea a consentire e favorire il libero sviluppo della persona nella vita di relazione, nel contesto di una valorizzazione del modello pluralistico. In tale nozione è da annoverare anche l'unione omosessuale, intesa come stabile convivenza tra due persone dello stesso sesso, cui spetta il diritto fondamentale di vivere liberamente una condizione di coppia, ottenendone - nei tempi, nei modi e nei limiti stabiliti dalla legge - il riconoscimento giuridico con i connessi diritti e doveri».</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg15">Tuttavia, proprio in ordine alla disciplina che deve regolare tali unioni, la Corte costituzionale ha escluso in modo inequivocabile che: «l'aspirazione a tale riconoscimento - che necessariamente postula una disciplina di carattere generale, finalizzata a regolare diritti e doveri dei componenti della coppia - possa essere realizzata soltanto attraverso una equiparazione delle unioni omosessuali al matrimonio».</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg16">Ne deriva, sempre ad avviso della Corte, che: «nell'ambito applicativo dell'articolo 2 della Costituzione, spetta al Parlamento, nell'esercizio della sua piena discrezionalità, individuare le forme di garanzia e di riconoscimento per le unioni suddette, restando riservata alla Corte costituzionale la possibilità d'intervenire a tutela di specifiche situazioni (come è avvenuto per le convivenze more uxorio : sentenze n. 559 del 1989 e n. 404 del 1988)», che infatti costituiscono l'oggetto del citato capo II del disegno di legge. D'altro canto, nella stessa sentenza, la Corte ha precisato che se è vero che i concetti di famiglia e matrimonio non si possono ritenere cristallizzati con riferimento all'epoca in cui la Costituzione entrò in vigore, ciò nondimeno, «l'elasticità interpretativa non può spingersi fino al punto da incidere sul nucleo della norma modificandola in modo tale da includere in essa fenomeni e problematiche non considerati in alcun modo quando fu emanata». Proprio in quanto i Padri costituenti ebbero a modello le disposizioni in materia di famiglia dettate dall'allora recentissimo codice civile del 1942, ne deriva che l'ambito applicativo degli articoli 29, 30 e 31 della Costituzione può essere interessato dalle disposizioni del disegno di legge solo laddove queste mettano in discussione i principi di riconoscimento, garanzia e tutela previsti dalle citate norme costituzionali. Ma la previsione di forme di riconoscimento, garanzia e tutela ulteriori, lascia del tutto impregiudicate quelle che la Costituzione e la conseguente legislazione di dettaglio prevedono in favore della famiglia, del matrimonio e dei figli. Infatti, l'attinenza delle disposizioni contenute nel disegno di legge agli articoli 29, 30 e 31 non si rinviene neppure ad un esame complessivo del testo. Con riguardo al capo I, concernente le unioni civili tra persone dello stesso sesso, il fatto che, per ragioni di mera tecnica legislativa, anche al fine di scongiurare duplicazioni e ridondanze della normativa vigente, si sia inteso fare riferimento ad istituti già consolidati novellando la legislazione in vigore, non determina affatto la pretesa attinenza delle misure previste con i principi che da tempo regolano la famiglia quale «società naturale fondata sul matrimonio». È infatti agevole verificare che la normativa in materia di famiglia, matrimonio e adozioni resta del tutto impregiudicata, se non intatta, prevedendosi nel disegno di legge unicamente alcune estensioni applicative giustificate da un'analogia di fondo che, per espressa precisazione della Corte costituzionale, non necessariamente può o deve tradursi in automatica equiparazione. In altre parole, il disegno di legge, pur regolando una materia sicuramente affine a quella tutelata dagli articoli 29, 30 e 31 della Costituzione, attribuisce un riconoscimento giuridico e una disciplina a fenomeni finora non regolati dal legislatore senza tuttavia intaccare in alcun modo la famiglia. Con riguardo poi alla disciplina delle convivenze di fatto, anche in questo caso il disegno di legge mira a regolamentare fenomeni già oggetto di numerosi interventi da parte sia del legislatore che della giurisprudenza, senza che ciò abbia mai determinato una limitazione o una compressione delle garanzie che la Costituzione pone nei confronti della famiglia e delle sue manifestazioni, in base ai citati articoli 29, 30 e 31. La votazione a scrutinio segreto non può essere concessa, non solo ricorrendo ad un giudizio di prevalenza sul contenuto complessivo del testo, ma soprattutto per il fatto che la disciplina delle formazioni sociali dove si svolge la personalità dell'individuo - e tra queste rientrano senz'altro le famiglie non fondate sul matrimonio - trova il proprio fondamento costituzionale nell'articolo 2, che non è ricompreso tra le disposizioni tassative per le quali il voto segreto può essere concesso. In conclusione, il provvedimento all'esame dell'Assemblea non ha ad oggetto il riconoscimento di una realtà fattuale in contrasto con le tutele e le garanzie di cui agli articoli 29 e seguenti della Costituzione, ma attribuisce effetti giuridici alla legittima manifestazione del consenso tra soggetti che nella loro libera determinazione volitiva costituiscono una realtà ritenuta meritevole di tutela, ad ogni effetto, nell'ambito omnicomprensivo ed in sé stesso esaustivo del richiamato articolo 2 del dettato costituzionale, in forza del quale l'indice di imputazione degli effetti non può che rinvenirsi nella dichiarazione espressa dai diretti interessati, ad una stregua non degradata rispetto alle stesse obbligazioni contratte verso terzi. Di conseguenza, la richiesta di voto a scrutinio segreto non può essere accolta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e della senatrice Repetti.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg17">Signor Presidente, è curioso sentir applaudire a una risposta negativa rispetto ad una richiesta di votazione a scrutinio segreto. Signor Presidente, io credo che ci sia un errore di partenza. Lei nega il voto a scrutinio segreto (poi argomenterò il perché), perché fin dall'inizio noi abbiamo chiamato mela una pera, e siccome il voto segreto è ammesso per la mela e non per la pera, non possiamo farlo; tuttavia noi siamo in presenza di una mela. Visto che stiamo parlando di matrimonio e non di qualcosa di diverso, io ho presentato una proposta di non passaggio all'esame degli articoli a mia prima firma (voglio sottolineare questo aspetto perché vedo che ci sono colleghi che se ne attribuiscono la paternità, ma al collega Quagliariello dico che se si è contrari alla maternità surrogata, bisogna essere contrari anche agli emendamenti "surrogati" e a scippi degli stessi agli altri). L'ho presentata sottoscrivendo una richiesta di voto segreto insieme a 74 colleghi (quindi una richiesta particolarmente sentita). Proprio perché sapevo di non poter escludere questa arrampicata sugli specchi per negare il voto segreto, ho preparato una memoria di sei pagine (in cui, articolo per articolo, si spiega chiaramente non che la legge Cirinnà fa prevalentemente riferimento alle materie previste dall'articolo 113, quarto comma, del nostro Regolamento, ma che la totalità degli argomenti di tale normativa fa riferimento al diritto della famiglia), che chiedo venga allegata al Resoconto stenografico della seduta odierna. Giova anche ricordare che sul non passaggio agli articoli è previsto un voto elettronico, quindi è prevedibile anche il voto segreto. Abbiamo dei precedenti: in sede di Assemblea costituente un ordine del giorno venne votato con voto segreto; abbiamo precedenti prima del 1997 alla Camera e, l'ultimo, proprio qui al Senato, nel corso della discussione su una legge che avrebbe voluto l'abolizione da parte delle Camere della pena all'ergastolo (quindi non l'introduzione, ma l'espunzione dell'ordinamento della pena all'ergastolo). Questo perché il nostro Regolamento, diversamente da quello della Camera, parla di deliberazioni «che attengono» ai rapporti civili ed etico-sociali, non che «incidono sui», quindi la formulazione è molto più aperta. Da questo punto di vista, quindi, mi sarei aspettato, vista la larghissima prevalenza della materia suscettibile di voto segreto, che lei avesse deciso di acconsentire a questa votazione per far vedere e sentire finalmente, nella libertà del voto segreto, come la pensi il Parlamento rispetto a questa materia. Sono sorpreso della sua risposta, signor Presidente: non me l'aspettavo. Mi spiace, prima l'ho chiamata un'arrampicata sugli specchi e anche la lunghezza della sua risposta lo dimostra; è una scelta politica, che lei ha voluto prendere in solitaria.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e della senatrice Fucksia</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg18">Il nostro Regolamento, invece, prevede che, in caso di incertezza sulla prevalenza o meno di una materia, lei potesse consultare la Giunta per il Regolamento. In quella sede lei avrebbe potuto fare il Ponzio Pilato, tanto la maggioranza è larghissima perché c'è anche l'aggiunta dei componenti del Movimento 5 Stelle e di SEL, che avrebbe contribuito al no al voto segreto, e non avrebbe dovuto schierarsi da nessuna parte. Purtroppo l'atteggiamento che lei ha assunto è diverso e mi auguro che sia un atteggiamento spontaneo.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg19">Non so se ieri sera abbia avuto occasione di guardare il festival di Sanremo: addirittura abbiamo un servizio radiotelevisivo pubblico che, con gli ospiti e i cantanti, cerca di sostenere e promuovere le unioni civili e le coppie di fatto. Non mi aspetto da parte del servizio radiotelevisivo pubblico delle entrate a gamba tesa su argomenti così delicati, ma tanto meno mi aspettavo da parte sua un atteggiamento che mi ricorda il passaggio del Manzoni, là dove c'è l'incontro tra i bravi di don Rodrigo e don Abbondio, quando a quest'ultimo viene detto «questo matrimonio non s'ha da fare, né domani, né mai». Lei purtroppo ha assunto - o meglio, ha sposato, visto l'argomento di cui stiamo parlando - l'atteggiamento di don Abbondio, al contrario: questo matrimonio s'ha da fare, da domani e sempre.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg20">Perché di matrimonio si tratta. Ho sentito tanti interventi dei colleghi e anche se non sono un esperto di diritto di famiglia una cosa è chiara. Si può chiamare pera o mela, con qualunque termine si voglia, ma io mi sono posto alcune semplici domande ascoltando i giuristi e gli ex magistrati presenti. Come si costituisce questa unione civile? Secondo le stesse modalità previste per il matrimonio (quello civile ovviamente: non ci abbiamo messo il sacerdote, per fortuna, ma forse qualcuno avrebbe voluto anche mettercelo). Come si scioglie l'unione civile? Secondo le medesime procedure previste per il divorzio e per la separazione. Quali sono i diritti-doveri per i componenti delle unioni civili? Le stesse previste per i coniugi, ovvero per la moglie e per il marito. Quali sono i diritti successori? Gli stessi previsti per la materia familiare. Quali sono le cause ostative? Le stesse che ostano al matrimonio</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e del senatore D'Ambrosio Lettieri</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg21">Allora, cos'è questa roba, se non il matrimonio dei gay ? Si è voluta anche fare anche un'ulteriore aggiunta, perché non bastava questo danno. Si è voluti andare ad introdurre - chiamandolo anche con un termine anglosassone, che nel testo è ancora più complicato perché è un continuo rinvio ad altri articoli e ad altri commi - la cosiddetta stepchild adoption, cioè l'adozione del figliastro...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg22">Scusate se ho più comunanza con le cose normali che non con le cose anormali che voi mettete nelle leggi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi LN-Aut e FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg23">Io sono piuttosto tradizionalista e vorrei che ciascuno avesse una mamma e un papà, se ha la fortuna di poterli avere fino alla fine.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Cardiello.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg24">Non sono d'accordo che ci siano due papà o due mamme. Sicuramente posso arrivare a pensare che, nel caso del figlio frutto di un precedente rapporto eterosessuale, qualcuno ci pensi, ma addirittura prevederlo anche per la fecondazione eterologa oppure per la cosiddetta maternità surrogata è un'aberrazione vera e propria.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi LN-Aut e FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg25">È vero che non c'è la legalizzazione di una pratica che comunque è illegittima e illecita, ma si va a legalizzare quelli che sono i frutti di quella pratica; e questa a casa mia non si chiama più utero in affitto, ma compravendita dei bambini. Punto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi LN-Aut, FI-PdL XVII, GAL (GS, PpI, FV, M, MBI, Id, E-E) e dei senatori De Pin e Rossi Maurizio</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg26">Vorrei leggere una citazione fatta ai tempi del referendum sulla fecondazione assistita, che diceva: «della fecondazione abbiamo fatto un mercato. È una trasformazione epocale: la vita che un tempo apparteneva alla religione, alla patria, alla rivoluzione, ora appartiene al mercato. Ne parliamo come un allenatore parla della sua squadra, come qualcosa di cui si può disporre. Abbiamo manipolato la vita, l'abbiamo clonata, riprodotta in provetta, comprata e venduta. L'abbiamo privatizzata. E si sa dove finiscono le cose privatizzate: non a una persona con nome cognome e odore, ma a una società anonima con fermoposta alle isole Cayman». Non è monsignor Bagnasco; sono le parole di Beppe Grillo dette undici anni fa, e devo dire che Grillo la vedeva lunga; forse anche per questo ha tolto il nome dal simbolo: qualche motivo ci sarà.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi LN-Aut, FI-PdL XVII, GAL (GS, PpI, FV, M, MBI, Id, E-E) e dei senatori De Pin e Rossi Maurizio</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg27">Concludo, Presidente. Credo vi fosse la necessità di dare una risposta anche rispetto ai diritti e ai doveri delle coppie gay, e si poteva farlo tranquillamente stabilendo nel capo II che le coppie di fatto potessero essere estese anche alle coppie omosessuali, ma per dare una risposta a 7.000 coppie - e forse a qualche centinaio di bambini - non si può aver fatto una legge che non va a dare risposte ad 1.422.000 famiglie di fatto eterosessuali e ai loro 151.000 bambini, che non potranno essere neppure adottati!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi LN-Aut, FI-PdL XVII, GAL (GS, PpI, FV, M, MBI, Id, E-E) e dei senatori De Pin e Rossi Maurizio</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg28">Questa è una legge razzista nei confronti dell'eterosessualità e della normalità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi LN-Aut, FI-PdL XVII, GAL (GS, PpI, FV, M, MBI, Id, E-E) e dei senatori De Pin e Rossi Maurizio.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">QUAGLIARIELLO (GAL (GS, PpI, M, MBI, Id, E-E))</note>
+            <u ana="#regular" who="#QuagliarielloGaetano" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg29">Signor Presidente, mi vorrò attenere soltanto per qualche minuto agli aspetti regolamentari della questione che stiamo trattando, con riferimento alla decisione che lei ha comunicato all'Assemblea. Vede, Presidente, io trovo grave tale decisione da un punto di vista formale, indipendentemente da quelle che sono le mie convinzioni in materia, che avrò modo di esprimere sin da quando interverrò sugli emendamenti all'articolo 1. Si è svolto in quest'Aula un dibattito molto ampio, che è durato alcuni giorni, e che è stato il riflesso di un dibattito ancora più ampio che si è svolto nel Paese, che ha avuto - tra le altre cose - grandi manifestazioni civili nelle quali si sono contrapposti dei valori. Vede, il fatto che questa materia intacchi i temi della famiglia, il fatto che le unioni civili possano essere considerate un matrimonio surrogato, il fatto che prevedere unioni per gli omosessuali e dei contratti per gli eterosessuali vuol dire in concreto andare a prevedere un matrimonio, sono stati gli argomenti che hanno diviso quest'Assemblea e che stanno dividendo il Paese, e lo stanno dividendo su valori contrapposti. Tra le altre cose, devo dire che, essendo stata lasciata libertà di coscienza, abbiamo assistito anche a un dibattito che ha attraversato a volte in maniera trasversale i Gruppi parlamentari. Io ho preso atto di questo dibattito come semplice componente di questa Assemblea, ho cercato di seguirlo e, nei limiti del possibile, di comprendere le ragioni dei miei avversari. L'ho fatto stando poco in Aula e molto davanti al televisore e mi sono reso conto che, di fatto, questa è una delle grandi questioni che spacca questa Assemblea e che divide il Paese. Dobbiamo cercare di gestire questa cosa nel modo "più civile", cercando di comprendere le ragioni degli altri. Presidente, se mi è consentito dirlo, secondo me non è stato un buon inizio che lei, che non è un semplice componente di questa Assemblea ma che la presiede ed è arbitro, abbia deciso, con un'interpretazione - che sembrava un surrogato della Corte costituzionale e che in qualche modo anticipava il verdetto - chi avesse ragione e chi avesse torto. Lei ha detto già tutto; ha risolto il problema. Ha preso parte in una competizione civile che ha animato l'intero emiciclo, con tutti i membri che, ai sui occhi, dovrebbero avere la stessa tutela. Condivido in questo l'opinione del senatore Calderoli: questa era una decisione che spettava quantomeno alla Giunta per il Regolamento perché non vi è dubbio che sulla competenza o meno della materia quantomeno c'è una lunga discussione da fare. Io le dimostrerò, intervenendo sugli emendamenti all'articolo 1 - non voglio anticipare nulla qui - come le sue argomentazioni sono suscettibili di contro argomentazioni altrettanto forti, se non più forti. Presidente, le assicuro che iniziare questa contesa e questa seduta con un arbitro che ha preso parte non è una buona sensazione. Credo che come me la pensino non soltanto i senatori che hanno le mie idee, ma anche quelli che vorrebbero che qui non ci siano soluzioni precostituite e che si possa ancora dibattere e, magari, cercare di comprendere le ragioni degli altri.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u9">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg30">Signor Presidente, innanzitutto desidero precisare che Forza Italia voterà a favore di questa proposta di non passaggio all'esame degli articoli ma non perché siamo contrari a qualunque tipo di riconoscimento delle unioni civili; al contrario noi siamo a favore, ecco perché se ci si fosse accordati su tutta una serie di diritti e di prerogative da dare alle coppie sia dello stesso sesso che di sesso diverso, avremmo già finito questo lavoro e avremmo consentito un momento di unità di tutti dentro questa Aula e fuori per poi, eventualmente - ove qualcuno l'avesse richiesta - andare avanti con una discussione possibilmente approfondita e nel merito sulle cose su cui non c'è accordo. In Commissione abbiamo però trovato la completa chiusura: non ci sono stati neppure accolti degli ordini del giorno, ivi incluso, ad esempio, l'ordine del giorno che chiedeva al Governo di continuare a difendere e a riservare ai genitori la priorità nelle scelte riguardanti l'insegnamento e l'educazione dei figli. C'è stato respinto persino questo ordine del giorno. È chiaro che, di fronte alla totale chiusura, non vediamo la possibilità di un cambiamento che trasformi questa legge, che ci può andare bene solo nel titolo, in qualcosa che vada bene nella sostanza. Dopodiché, signor Presidente, nell'illustrare alcune ragioni, tra le tante, per cui non siamo d'accordo con il testo in esame, sottolineerò come tutto questo provvedimento riguardi il matrimonio. Ecco perché, signor Presidente, sono e siamo preoccupati per la sua scelta di non concedere il voto segreto. Ricordo che il Regolamento in materia di voto segreto è chiarissimo, perché dice che esso è previsto su materie riguardanti una serie di articoli della Costituzione, tra cui gli articoli 29 e 30. L'articolo 29, in particolare, riguarda il matrimonio. Come è stato detto, nel disegno di legge in esame non c'è il nome «matrimonio», ma c'è la sostanza. Ad esempio, tutti conoscono gli articoli del codice civile che vengono letti durante il matrimonio, che sia celebrato in chiesa o sia civile. I primi due sono proprio gli articoli 143 e 144, che sono riportati nel loro contenuto, pur senza citarli, nel disegno di legge in esame. L'articolo 143 è infatti parafrasato dal comma 1 dell'articolo 3 del disegno di legge, il quale dice che «Con la costituzione dell'unione civile tra persone dello stesso sesso le parti acquistano gli stessi diritti e assumono i medesimi doveri». Ebbene, l'articolo 143 del codice civile dice che «Con il matrimonio il marito e la moglie acquistano gli stessi diritti e assumono i medesimi doveri». Dunque, anche nel testo è presente la medesima formulazione. Al comma 2 dell'articolo 143 del codice civile, sul matrimonio, si dice che «Dal matrimonio deriva l'obbligo reciproco alla fedeltà, all'assistenza morale e materiale, alla collaborazione nell'interesse della famiglia e alla coabitazione» e l'articolo 3 del disegno di legge Cirinnà dice che: «dall'unione civile deriva l'obbligo reciproco alla fedeltà, all'assistenza morale e materiale e alla coabitazione». Il comma 3 dell'articolo 143 del codice civile prevede poi che: «Entrambi i coniugi sono tenuti, ciascuno in relazione alle proprie sostanze e alla propria capacità di lavoro professionale o casalingo, a contribuire ai bisogni della famiglia» e il disegno di legge al nostro esame, all'articolo 3, comma 1, prevede che «Entrambe le parti sono tenute, ciascuna in relazione alle proprie sostanze e alla propria capacità di lavoro professionale e casalingo, a contribuire ai bisogni comuni». Durante la celebrazione del matrimonio si legge poi l'articolo 144 del codice civile, secondo cui: «I coniugi concordano tra loro l'indirizzo della vita familiare e fissano la residenza della famiglia secondo le esigenze di entrambi e quelle preminenti della famiglia stessa»; il comma 2, dell'articolo 3 del disegno di legge stabilisce che: «Le parti concordano tra loro l'indirizzo della vita familiare e fissano la residenza comune a ciascuna delle parti spetta il potere di attuare l'indirizzo concordato», formulazione che riproduce quella del secondo comma dell'articolo 144 del codice civile. Basta dunque cambiare il nome alle cose, perché le garanzie sostanziali, previste dal, Regolamento vengano tolte?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII e LN-Aut. Commenti del senatore Giovanardi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg31">Mi preoccupo perché qui oggi parliamo di unioni civili e di matrimonio, ma tra gli articoli per i quali il Regolamento prevede la garanzia del voto segreto ci sono quelli che riguardano la libertà personale, l'inviolabilità del domicilio, l'inviolabilità della corrispondenza, il diritto dei cittadini a riunirsi pacificamente, la libertà religiosa e tanti altri; basterà allora dire che una legge che, ad esempio, sopprima la libertà religiosa, sia fatta per ragioni culturali per fare in modo che non si tratti più materia religiosa e si potrà votare, magari sotto le minacce e senza voto segreto?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII e LN-Aut.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg32">Signor Presidente, lei è l'arbitro di questa partita ed è sempre in tempo a prendere una decisione conforme al Regolamento.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg33">Vado avanti: all'articolo 3 del disegno di legge al nostro esame, il comma 3 dice che «All'unione civile tra persone dello stesso sesso si applicano le disposizioni» di varie sezioni del titolo VI del codice civile. Il titolo VI è intitolato «Del matrimonio».</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg34">GIOVANARDI (GAL (GS, PpI, M, MBI, Id, E-E)). Bravo, Presidente! MALAN (FI-PdL XVII). Poi dice che si applicano alcuni articoli tra cui il 116. Molto interessante: l'articolo 116 tratta del matrimonio dello straniero. Questo vorrà dire che chi stipulerà una unione civile, oltre al bonus della reversibilità, potrà anche passare la cittadinanza ad uno straniero. Forse svuoteremo i centri di identificazione ed espulsione, come ha detto il senatore D'Alì, perché passeranno tutti attraverso gli uffici dell'anagrafe!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII, AP (NCD-UDC), GAL (GS, PpI, FV, M, MBI, Id, E-E) e LN-Aut.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg35">Andando avanti, sono richiamati tutti gli articoli che riguardano il matrimonio presi dal capo VI del codice civile, che si intitola «Del regime patrimoniale della famiglia». Si richiama la disciplina «Del regime patrimoniale tra i coniugi», della «Forma delle convenzioni matrimoniali», della «simulazione delle convenzioni matrimoniali» e così via. Se per caso fosse sfuggito qualcosa, il comma 4 dice che tutte le disposizioni che si riferiscono al matrimonio e le disposizioni contenenti le parole «coniuge» e «coniugi» si applicano anche alle unioni civili. E allora se questo non riguarda l'articolo 29, cosa lo riguarda?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII, AP (NCD-UDC), GAL (GS, PpI, FV, M, MBI, Id, E-E) e LN-Aut.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg36">Se questo istituto è diverso dal matrimonio, in cosa è diverso? C'è una diversità: non sono previste le pubblicazioni. Le pubblicazioni sono una garanzia, sono una sorta di gravame sulla coppia che si vuole sposare, perché se qualcuno ha qualcosa da dire possa parlare o tacere per sempre. Non ci sono le pubblicazioni e questa è un'agevolazione rispetto al matrimonio.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg37">Vi è poi tutta la seconda parte di questo disegno di legge, che tratta della convivenza e, bontà loro, è concesso anche alle coppie eterosessuali di accedere a questa seconda parte. Essa riguarda, com'è stato detto, un milione e mezzo di coppie, e di conseguenza 3 milioni di cittadini, ed almeno 150.000 bambini, e di questo ci si occupa con una parte del provvedimento che in Commissione non è stata neanche sfiorata e che a mio parere è scritta malissimo, come ha detto anche la Commissione affari costituzionali non con un parere dell'opposizione, ma con un parere, credo, unanime o comunque maggioritario. Questa parte infatti non prevede garanzie, anzi, prevede l'incertezza: sarà il magistrato a stabilire se due persone hanno un legame meritevole di tutela giuridica o no e non quelle persone. Una follia, ma tanto riguarda solo 3 milioni di italiani!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII, AP (NCD-UDC), GAL (GS, PpI, FV, M, MBI, Id, E-E) e LN-Aut.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg38">Riguarda solo 3 milioni di italiani, con 150.000 bambini? Chi se ne importa. Bisogna andare avanti e perché? Non si capisce perché bisogna andare avanti ad ogni costo.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg39">Ci sarebbe molto altro da dire, ma questo è già sufficiente. Aggiungiamo che mancava uno dei tre articoli del codice civile che si legano al matrimonio, l'articolo 147, relativo ai doveri verso i figli e quello lo troviamo all'articolo 5, con la famosa «adozione del figliastro» (questo è il nome in italiano), che vuol dire imporre ad un bambino due padri o due madri. A questo la stragrande maggioranza dei cittadini è contraria, ma purtroppo sembra che nei media e in quest'Aula ci sia una percentuale diversa: dovrebbe porsi qualche problema chi rappresenta questa diversità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII, AP (NCD-UDC), GAL (GS, PpI, FV, M, MBI, Id, E-E) e LN-Aut. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GIOVANARDI (GAL (GS, PpI, M, MBI, Id, E-E))</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà, senatore Giovanardi, ma le ricordo che ha già parlato il senatore Quagliariello.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg40">Signor Presidente, le farò perdere pochissimo tempo. PRESIDENTE. Il tempo non è mai perso in quest'Aula. GIOVANARDI (GAL (GS, PpI, M, MBI, Id, E-E)). Il tempo lo ha già perso lei quando ha confuso i fascicoli, perché domani presenteremo direttamente alla Corte costituzionale un conflitto di attribuzione. I colleghi sanno, infatti, e il Paese deve sapere che il disegno di legge 2081, che stiamo discutendo, in Commissione giustizia non è stato esaminato neanche per un minuto, violando totalmente la prescrizione tassativa dell'articolo 72 della Costituzione, che obbliga all'esame in Commissione prima di passare all'Aula. Quindi, Presidente, lei è già partito male, violando la Costituzione. Vi è una giurisprudenza costante sul fatto che si debba rispettare l'articolo 72. Poi ha continuato malissimo. Infatti, non basta ciò che hanno detto i colleghi. Le risulta che presidenti ed ex presidenti della Corte costituzionale, in appelli pubblici, abbiano sottolineato come questo testo si sovrapponga completamente all'articolo 29 della Costituzione, e quindi sia totalmente illegittimo dal punto di vista e della Costituzione in vigore, e di quello che la Corte costituzionale ci ha detto di fare? Sto parlando di personaggi di secondo piano, come Flik, come Mirabelli, come Maddalena e Santosuosso. E davanti a questi appelli, firmati oltretutto da altre centinaia di presidenti di sezioni del Consiglio di Stato, di grandi avvocati e di grandi professori universitari, lei viene qui a leggerci una pappardella in cui dice che tutta la discussione fatta nel Paese e in Aula, purtroppo non in Commissione, su questo argomento nulla ha a che fare con il matrimonio? Ma lei ha ascoltato gli interventi dei colleghi, sia quelli contrari, sia quelli che hanno spiegato, anche all'interno del Partito Democratico, che se passa questo testo così formulato, in realtà passa una formula che si sovrappone a quella del matrimonio? Lei viene a dirci questo, dopo aver negato al Senato la possibilità di discutere in Commissione questo articolato, un nuovo articolato ma visto da nessuno, infarcito di errori giuridici e di contraddizioni. Mi spieghi perché una coppia non sposata con due o tre figli non possa avere la pensione di reversibilità, anche se convive da tre anni, mentre una coppia di uomini che si sposano, in realtà, attraverso una unione civile, ha invece diritto alla reversibilità. Mi spieghi se non ha a che fare con i princìpi costituzionali, un principio di questo tipo!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Divina, Volpi e Rizzotti</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg41">Cosa ci viene a dire, allora? Io mi domando: ma quando faceva il magistrato, lo faceva così?</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg42">È un punto interrogativo che devo porre, perché se il modo di trattare argomenti delicati è questo, di negare l'evidenza, vuol dire che il Presidente non svolge il suo compito! Ho avuto l'onore di essere presieduto dal senatore Napolitano quando era presidente della Camera. Ho seguito i grandi Presidenti come Fanfani e come Nilde Iotti, che svolgevano davvero il loro compito di Presidente che, come l'onorevole Violante ci ha sempre spiegato, non è quello di tutelare una maggioranza, che si tutela da sola, e neanche di far passare il principio incredibile che, poiché l'Assemblea a maggioranza assume alcune decisioni, queste sarebbero sacre, anche quando violino il Regolamento e la Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg43">Quindi, lei non si è appiattito sulla funzione di Presidente: lei fa il servo sciocco della maggioranza e non tutela la minoranza! CARDINALI (PD). Basta! GIOVANARDI (GAL (GS, PpI, M, MBI, Id, E-E)). E questo davanti ad una legge così importante e così delicata, che tratta argomenti angoscianti come l'utero in affitto, la mercificazione del corpo umano e della compravendita all'estero, fatta anche da senatori, di bambini con 120.000 euro? Che il Parlamento non possa esprimersi con il voto segreto è una vergogna, che non ricade su di noi ma sicuramente su di lei.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Candiani, Volpi e Rizzotti</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg44">PRESIDENTE. Senatore Giovanardi, le sue offese sono una medaglia. Grazie!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Commenti dei senatori Giovanardi e Malan.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ROMANI Maurizio (Misto-Idv)</note>
+            <u ana="#regular" who="#RomaniMaurizio" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u11">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg45">Signor Presidente, devo dire che lo stare in quest'Aula mi lascia sempre più allibito. Sono molto d'accordo con il fatto che questo articolo 3 sia un articolo di discussione, ma vorrei capire una cosa. Vorrei sapere come un legislatore potrebbe scrivere un articolo 3 se partiamo da due punti fondamentali. Il primo è il seguente. Nel gennaio del 2013, in seguito alle indicazioni della Corte di Strasburgo, la Cassazione apriva alla possibilità che i figli fossero cresciuti dalle coppie gay. Queste non lo ha detto il Senato, ma la Corte di cassazione. Nel novembre del 2013 il tribunale dei minori di Bologna legittimava l'adozione di una bambina da parte di una single avvenuta negli Stati Uniti. Nell'agosto del 2014 il tribunale dei minori di Roma sanciva la possibilità di adozione da parte della madre biologica della figlia della partner, cioè legittimava praticamente la cosiddetta stepchild adoption. Nel febbraio del 2015 la Cassazione decretava che l'unione tra persone dello stesso sesso può acquistare un grado di protezione e tutele equiparabili a quelle matrimoniali, anche se a due omosessuali la legge italiana non permette di sposarsi. Poi arriva, nel luglio 2015, la Corte suprema di Strasburgo, organismo indipendente dell'Unione europea, ma vincolante per l'Italia, che ribadisce che il nostro Paese viola i diritti umani non prevedendo alcuna forma di riconoscimento delle coppie gay. La Corte afferma che la mancanza del legislatore è particolarmente grave perché, nel trasgredire i pronunciamenti della Corte costituzionale reiterati nel tempo, mina potenzialmente la responsabilità del potere giudiziario. Ora, un legislatore che deve scrivere un articolo 3 basandosi non sul desiderio delle coppie gay (che da alcuni di voi sono trattate con epiteti ancora peggiori), ma sulla necessità di difendere il minore che, in un modo o nell'altro, è indifendibile da parte sua, cosa deve scrivere? Deve forse scrivere che con la costituzione dell'unione civile tra persone dello stesso sesso le parti non acquisiscono gli stessi diritti, non assumono i medesimi doveri e possono fare quello che cavolo gli pare perché, tanto, questo non è un matrimonio? Deve scrivere che, siccome è un'unione civile, le parti si possono unire oggi e separare domani e, se casomai uno dei due ha un figlio, chi cavolo se ne frega? Ma in che mondo stiamo vivendo? Ma questo è un Paese normale o è un Paese che ha perso la testa, semplicemente perché qualcuno vede in questa situazione la possibilità di avere una maggiore o una minore quantità di voti o ha paura di andare contro il proprio elettorato?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Bignami</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg46">Il fatto che Beppe Grillo dodici mesi fa dicesse una cosa, dieci mesi fa ne dicesse un'altra e ora ne dica un'altra ancora ci deve impedire di poter votare l'articolo 3? Secondo me qui stiamo rasentando veramente la follia. Le ripeto, signor Presidente, che non dobbiamo avere nessuna paura di votare una cosa del genere. Se c'è qualcuno che, per paura, si nasconde dietro il voto segreto o pensa che, attraverso il voto segreto, alcuni non voterebbero queste cose, credo che siamo caduti veramente in basso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e Misto.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">D'ASCOLA (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#DAscolaNico" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg47">Signor Presidente, intuisco, ma mi corregga se sbaglio, che stiamo discutendo sia di questioni connesse al voto segreto, sia della questione volta a determinare il non passaggio all'esame degli articoli. Quindi, se lei non mi corregge, mi permetterò, in maniera estremamente sintetica, di intervenire su entrambe le questioni. Partendo dalla questione del voto segreto, non c'è dubbio, per lo meno questa è la mia modestissima opinione, che i due istituti, quello delle unioni civili e quello del matrimonio, siano del tutto sovrapposti. Sono sovrapposti anche per una questione ovvia per tutti gli operatori del diritto: la tecnica del rinvio, alla quale si è fatto frequentemente ricorso, determina inevitabilmente l'acquisizione integrale di quella disposizione, non soltanto nel suo significato contenutistico (potremmo dire sul versante della sostanza), ma anche proprio come rinvio ricettizio all'intero contenuto, anche formale, di quella determinata disposizione. Bene, i rinvii, che sono reiterati, a 32 disposizioni regolative del matrimonio sono assolutamente inequivocabili al riguardo. Sono identiche le modalità di celebrazione, identiche le modalità di cessazione, identici gli impedimenti. C'è inoltre una clausola di equivalenza: ogni disposizione di rango primario ovvero di rango secondario nella quale compaia la parola "coniuge" o "coniugi" deve intendersi integrata dalle diverse espressioni " partner " o " partners " delle unioni civili. Allora, noi abbiamo un rinvio che determina l'acquisizione della disciplina del matrimonio sul versante di tutte le componenti costitutive che la riguardano. Citare qui - ma lo potremmo fare - l'articolo 14 della CEDU, cioè la norma che contiene il divieto di discriminazione, sposterebbe l'accento soltanto sul versante sostanziale della disciplina, ciononostante contribuendo ad arricchire, mi auguro, il tema della discussione dal momento che, comunque si intendano le cose, quella norma che è già disponibile per l'autorità giudiziaria nazionale, ma maggiormente lo sarà per l'autorità giudiziaria europea, sta a significare che non sono consentite quelle che un grande giurista chiamava le truffe delle etichette cioè a dire che, al di là delle definizioni e malgrado la diversità delle definizioni, se in sostanza si tratta di un matrimonio a quella realtà di sostanza dovrò piegarmi, nel senso di prendere atto che ci si trova dinanzi ad un matrimonio. Ma, ripeto, il discorso qui è superfluo, perché il reiterato uso della disciplina del rinvio alla norma corrispondente del codice civile, direi che elimina per chiunque il problema. Mi permetto dunque di segnalare un aspetto. Con molto rispetto ho ascoltato la relazione che negava il voto segreto perché questa sarebbe una disciplina costruita sull'articolo 2 e non anche sugli articoli 29, 30 e 31 della Costituzione. Ma mi permetta, signor Presidente, di fare una precisazione: la medesimezza di disciplina è un evento, è cioè il risultato di una interpretazione che si conduce sulle norme. Noi possiamo dire che due discipline di ordine generale sono sovrapponibili una volta che abbiamo esaminato articolo per articolo le norme che costituiscono quella disciplina. Noi qui, al contrario, abbiamo seguito una sorta di inversione del metodo: abbiamo detto che la disciplina, che però non abbiamo analizzato e che dovremo ancora analizzare, è una disciplina la quale rientra - per definizione, sembrerebbe - all'interno dell'articolo 2 e non anche degli articoli 29, 30 e 31 della Costituzione. Allora è viziato, se mi è consentito l'uso di questo participio passato, proprio il ragionamento che giunge ad una conclusione che non è legittimata da un'analisi delle norme, che direi manca del tutto. E qui mi riporto all'intervento del senatore Malan, che ha illustrato meglio di me la medesimezza di una disciplina che conduce ad una risposta inevitabile. Non soltanto si tratta, nella sostanza, ma direi ancora prima, per effetto della tecnica del rinvio, di una disposizione formalmente del tutto sovrapponibile al matrimonio. C'è da dire che ci hanno spiegato che c'è sempre qualcheduno che ti può dimostrare che le cose sono il contrario di quello che tu hai rappresentato. E allora, per dar conto delle soluzioni alternative, delle possibili facce rovesciate di ogni fenomeno del quale ogni oratore si dovrebbe fare carico, ci dobbiamo interrogare su questo fatto: c'era la possibilità di una soluzione diversa? Insomma, in alcune pieghe del discorso è sembrato che non si potesse fare altrimenti e che la soluzione del rinvio al matrimonio fosse obbligata, perché vi sono similitudini che implicavano la necessità di ricorrere alla disciplina del matrimonio. A parte che non si può parlare di similitudini quando sono richiamate integralmente 32 disposizioni fondamentali in materia di matrimonio: non è similitudine, è chiaramente una situazione di totale medesimezza. Ma c'è da dire che già la disciplina dei contratti, i testi legislativi che il nostro Parlamento, sia pure in legislature precedenti, ha conosciuto, gli emendamenti che sono stati presentati, la possibilità di costruire sulla falsariga dei contratti che stanno in altri Paesi moderni (che nessuno si sogna di tacciare di vetustà, retrività, di legami, non si saprebbe poi per quale ragione, sospettati di "gravità" con il passato), ciò nonostante li prevedono. C'era quindi la soluzione alternativa. Dalla soluzione alternativa noi traiamo, per quel necessario gioco del contrasto, l'affermazione, che ci permettiamo di fare con assoluta umiltà, di una possibilità diversa di risolvere il problema. Ma, come ho detto, non soltanto c'è una questione di articoli 29, 30 e 31 della Costituzione, anziché di articolo 2, con uno specifico riferimento alla modalità del voto, c'è anche una questione di non passaggio agli articoli, se è vero che le due questioni alla fine si sono mescolate e che quindi nessuno pensa di disturbare i lavori del Senato chiedendo poi di intervenire su una questione che si può trattare nella medesimezza del contesto di un unico intervento, come credo di poter fare. Al riguardo, si possono dire tante cose, ma un minimo di esperienza insegna che ci sono dei punti davvero essenziali in ogni vicenda, gli unici, potremmo dire, dei quali valga la pena discutere. Poi, ovviamente, ogni oratore attribuisce carattere di rilevanza anche a cose che in realtà non la posseggono e sta nell'esperienza di chi regola il dibattito andare a dire, in questo caso: «egregio senatore, lei sta parlando di una cosa della quale non può parlare». In tale frangente, l'obbedienza all'intervento del Presidente è non soltanto una regola, ma un dovere per chi crede in maniera seria alle istituzioni. Ebbene, qui il punto della questione è uno: il non passaggio all'esame degli articoli è funzionale ad una riflessione, perché il nostro Regolamento dispone che per sei mesi l'Assemblea debba riflettere, ma non possa ufficialmente intrattenersi sull'argomento. Si determina, quindi, uno spazio di riflessione. La domanda, che in un certo senso potrebbe trasformarsi in una contro-obiezione, demolitiva della richiesta di non passaggio all'esame degli articoli, a mio modesto avviso potrebbe essere questa: quale ragione giustificherebbe questa pausa di riflessione? Credo di poter rispondere a questa domanda, ancorché sia consapevole di aver io stesso formulato la domanda e di prestare io stesso la risposta a una domanda che io stesso ho introdotto (una situazione sui generis in un certo senso, ma chi discute ovviamente non può dialogare, deve immaginare ed implicare l'obiezione che gli può essere mossa, e immaginare comporta la possibilità di errori, dei quali ovviamente io mi scuserei anticipatamente). Credo che la ragione sia chiara: c'è una situazione di grande divisione, che non è soltanto giuridica. Non dobbiamo qui cadere nell'errore ingenuo di pensare che il diritto sia lo strumento per risolvere conflitti di coscienza. Chi conosce i conflitti di coscienza, anche con riferimento al titolo di un libro storico che sta nella letteratura giuridica in posizione di preminenza, sa bene che il conflitto di coscienza esorbita dallo schema del diritto (certo, si deve alimentare del diritto perché altrimenti sarebbe un'affermazione di conflitto che non si reggerebbe su nulla). Ebbene, non c'è dubbio che il Parlamento sia diviso, ma non è soltanto il Parlamento ad essere diviso; sono divisi al loro stesso interno i partiti politici, segno dimostrativo che quel dibattito che non c'è stato in Commissione, forse queste asperità le avrebbe potute risolvere. Signor Presidente, io non traggo questa affermazione da una convinzione soggettiva (che varrebbe zero), ma dagli emendamenti, perché noi abbiamo emendamenti riferibili a diversi settori politici e allo stesso Gruppo politico, che conducono in direzione opposte. Se questa è una situazione oggettiva che credo nessuno possa smentire, se vi è una grave situazione di conflitto di coscienza - e mi permetto di dire che se in questo Parlamento non vi fosse un grave conflitto di coscienza, questo sarebbe un Parlamento privo di ogni serietà e legittimazione, perché una materia di questo genere deve (e sottolineo tre volte «deve») creare conflitti di coscienza e non può essere regolata attraverso la collocazione pigra di ogni senatore all'interno di un partito politico - se questa è la realtà, una realtà asseverata da quello che noi sappiamo, al di là di ciò che compare dal testo degli emendamenti, credo che anche questa richiesta di non passaggio all'esame degli articoli sia fortemente giustificata. In tal senso preannuncio, in dichiarazione di voto questa volta, il voto favorevole del Gruppo Area Popolare, che mi onoro di rappresentare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi AP (NCD-UDC) e FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg48">Signor Presidente, signor Ministro, autorevoli colleghi, ho un sentimento che mi accomuna con molti colleghi che sono intervenuti in questa fase del dibattito, che è quello della preoccupazione. Preoccupazione che nasce, ad esempio, avendo ascoltato ora il mio collega, Presidente della Commissione giustizia; preoccupazione che mi deriva avendo ascoltato anche la presentazione, da parte del senatore Calderoli, della proposta di non passaggio all'esame degli articoli, per le motivazioni, per i toni, per i modi, quasi che la sensazione che si determina fosse quella, in realtà, di essere qua a non voler fare una legge, a non voler dare risposte al Paese, semplicemente: a non voler fare il nostro dovere. Il Gruppo del Partito Democratico è contrario alla richiesta di non passaggio agli articoli avanzata dal senatore Calderoli. La proposta, in realtà, a me lascia anche dei dubbi riguardo la sua ammissibilità, ai sensi degli articoli 95 e 96 del Regolamento. In effetti, il contenuto della proposta riproduce sostanzialmente - e, in alcune parti, letteralmente - il contenuto di alcune questioni pregiudiziali presentate con riferimento al medesimo disegno di legge n. 2081 e già respinte dall'Assemblea. Ma su questo, ovviamente, non voglio insistere. Noi, signor Presidente, prendiamo atto delle sue decisioni, le rispettiamo e, anzi, mi permetto di ringraziarla per l'equilibrio che sta adottando in questo difficile dibattito parlamentare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg49">Ciò detto, non ci esimiamo dal rispondere, punto per punto, alle osservazioni contenute nella proposta di non passaggio all'esame degli articoli, in primis con riferimento alla presunta violazione dell'articolo 72 della Costituzione. Occorre ricordare l'intenso lavoro svolto dalla Commissione giustizia e per questo sono perplesso per l'intervento che ho ascoltato pochi minuti fa: un importante lavoro della Commissione giustizia, protrattosi per oltre 70 sedute, un anno di lavoro, per cui, nel merito, si tratta di argomenti ampiamente affrontati, approfonditi, anche nel corso delle numerose audizioni che sono state svolte. Riguardo la mancata nomina di un relatore all'Assemblea che esponesse le linee del dibattito emerso in Commissione, si ricorda che il testo in esame riproduce sostanzialmente il contenuto dell'ultimo testo unificato della relatrice alla Commissione, tiene conto delle risultanze emerse nel corso delle audizioni e apporta poche e circoscritte modifiche e riformulazioni, frutto, tra l'altro, di un'ampia condivisione, finalizzate principalmente a recepire le osservazioni emerse nel corso della lunga discussione sviluppatasi nei successivi mesi di discussione. Piuttosto, l'adozione del testo base per l'esame in Aula dell'Atto Senato 2081 e la sua calendarizzazione costituiscono strumenti procedurali costantemente diffusi nella prassi parlamentare a garanzia proprio del lavoro faticosamente svolto in Commissione.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Caliendo</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg50">La ratio, infatti, è quella di evitare che sia di fatto vanificato l'impegno costruttivo di mesi di lavoro e che il tentativo di ostruzionismo messo in atto blocchi l' iter di un provvedimento che, nell'impianto complessivo, registra la volontà di andare avanti della gran parte delle forze parlamentari. Pertanto, è del tutto strumentale il richiamo all'articolo 72 della Costituzione, che nel caso in esame non si può ritenere violato. Il procedimento legislativo adottato, dunque, è del tutto coerente con le previsioni costituzionali ed è assolutamente infondata l'accusa di lesione delle attribuzioni parlamentari. Con riferimento, poi, alla presunta violazione dell'articolo 29 della Costituzione, va subito evidenziato che il disegno di legge in esame è volto ad istituire l'unione civile tra persone dello stesso sesso quale specifica formazione sociale, che trova il suo fondamento costituzionale nell'articolo 2 e non nell'articolo 29. Si tratta in sostanza di un istituto nuovo, meritevole di tutela giuridica, regolato in modo autonomo e distinto - anche sotto il profilo tecnico-legislativo - dall'istituto matrimoniale. Questo lo sottolineiamo con forza, e chi parlava ben conosceva questo principio. La Corte costituzionale, con la sentenza n. 138 del 2010, ha ricondotto nell'alveo dell'articolo 2 della Costituzione, quale specifica formazione sociale nel cui ambito si svolge la personalità umana, l'unione omosessuale, intesa come stabile convivenza tra persone dello stesso sesso, cui spetta il diritto fondamentale di vivere liberamente una condizione di coppia ottenendo, nei tempi e nei modi stabiliti dalla legge, il riconoscimento giuridico con i connessi diritti e doveri. In sostanza, essa ha rivolto un monito preciso al legislatore - a noi tutti - affinché si assumesse l'iniziativa di introdurre una specifica disciplina atta a regolamentare sul piano civilistico queste unioni, individuando una forma alternativa che consenta alla coppia omosessuale di ottenere un riconoscimento giuridico ed un'adeguata tutela. Quindi, il disegno di legge in esame si muove correttamente in questa direzione, istituendo l'unione civile come specifico istituto alternativo al matrimonio. Non si può ravvisare pertanto alcun profilo di incompatibilità con l'articolo 29 della Costituzione. Con riferimento, poi, alla presunta violazione dell'articolo 31 della Costituzione sull'adozione del figlio del partner, si segnala che le disposizioni di cui all'articolo 5 del disegno di legge in esame adeguano il diritto positivo alla consolidata giurisprudenza di merito, secondo cui l'orientamento sessuale dell'adottante non può costituire un elemento ostativo all'adozione per casi particolari previsti dal nostro ordinamento se la stessa risponde all'interesse del minore. Il benessere del bambino, cui l'adozione deve tendere, infatti, non è legato alla forma del gruppo familiare in cui è inserito, ma alla qualità delle relazioni che vi si instaurano. Come chiarisce la stessa sentenza della Corte d'appello di Roma, non si tratta di rispondere, in forza del legame di coppia sussistente, all'esigenza di riconoscimento di una biogenitorialità, ma di valutare il legame esistente tra il minore e il partner del genitore, riconoscendo la preminenza, per la crescita del minore, del superiore interesse del medesimo alla continuità affettiva. Il riconoscimento giuridico della relazione anche nei confronti del genitore sociale assicura, infatti, al bambino i diritti di cura, di assistenza, ereditari, e garantisce, in caso di separazione o intervenuta incapacità o morte del genitore biologico, la continuità dell'esercizio della responsabilità genitoriale. Infine, con riferimento al paventato rischio - secondo me, paventato in quanto strumentale - della legittimazione e incentivazione del ricorso alla pratica della maternità surrogata, si segnala che la pratica è già oggi vietata e severamente punita dall'articolo 12 della legge n. 40 del 2004, né se si può presumere che dalle disposizioni del disegno di legge sia di fatto autorizzata una legittimazione della stessa, che invece resta sanzionata ai sensi della citata disposizione. Voglio ricordare anche l'intervento che ha fatto in quest'Aula la presidente Finocchiaro. È un intervento che unisce il Partito Democratico e può unire gran parte del Parlamento, sul divieto anche internazionale del cosiddetto utero in affitto. Pertanto, sono da ritenersi del tutto inammissibili censure di costituzionalità sollevate in merito. C'è infine una valutazione - permettetemelo - di carattere generale che riguarda tutti noi, maggioranza e opposizione. Sono anni che discutiamo di un riconoscimento dei diritti delle coppie dello stesso sesso senza poter vantare alcun risultato ad oggi. Serve a tutti di smettere con la melina e sfidarsi civilmente, lealmente, a viso aperto nelle Assemblee parlamentari. I problemi si devono risolvere; non serve a nulla e a nessuno accantonarli e lasciarli alle successive legislature. La società merita delle risposte. Ci sono tutte le condizioni per farlo, in modo civile e democratico. Sull'articolo 5, diverse forze politiche (la prima è stato il Partito Democratico) sono arrivate alla stessa conclusione, garantendo libertà di coscienza sull'unico punto rispetto al quale sostanzialmente le posizioni, anche parlamentari, sono distanti, o comunque più distanti. Voteremo liberamente e l'Aula sarà sovrana. Manderemo al Paese, tutti insieme, un messaggio concreto: la politica decide ed è in grado di decidere; è finito il tempo dei rinvii. Ciò detto, si ritiene necessario respingere la proposta del senatore Calderoli e degli altri colleghi, consapevoli del lavoro svolto fino a questo momento, nell'esigenza di garantire la funzionalità delle istituzioni e di arrivare all'approvazione di questo importante provvedimento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u14">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg51">Sulla richiesta di inammissibilità della proposta di non passaggio all'esame degli articoli, ricordo che l'articolo 96 prevede espressamente, al termine della discussione generale e prima di passare all'esame degli articoli, il voto su tale proposta. Per cui, osservando, per quanto possibile, le disposizione sugli ordini del giorno, ritengo ammissibile tale proposta.</seg>
+               <incident type="action">
+                  <desc>Il senatore Compagna fa cenno di voler intervenire</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg52">Senatore Compagna, se è per un intervento, qualcuno del suo Gruppo ha già preso la parola.</seg>
+            </u>
+            <note type="speaker">COMPAGNA (GAL (GS, PpI, M, MBI, Id, E-E))</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u15">
+               <note>Domando di parlare per un richiamo al Regolamento.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg53">Signor Presidente, ho ascoltato con molto interesse l'intervento del collega, dell'amico Marcucci e proprio mentre parlava le ho chiesto di intervenire perché, se avessimo concluso con questa rispettabilissima dichiarazione di voto a nome del PD, in gloria dell'apprezzatissimo intervento della collega Finocchiaro, a garanzia dell'unità del Gruppo, il nostro dibattito, per come effettivamente si è svolto, avrebbe dato una sgradevole sensazione di precotto maleodorante - altro che pera e mela! - rispetto al lodo presidenziale che lei ci ha letto e del quale stiamo discutendo. La nostra discussione - con molto rispetto per quello che il collega Marcucci ne ha dedotto e per quello che non ne ha dedotto - è stata caratterizzata non solo dalla richiesta e dal brillante intervento del collega Calderoli, ma anche dal fatto che, signor Presidente e amico Marcucci, a favore del non passaggio agli articoli si è pronunciato il Presidente della Commissione giustizia. Se i nostri dibattiti sono scontati fin da quando cominciano, allora ciò può essere irrilevante. Può darsi che il senatore Marcucci abbia ragione. Io non faccio parte della Commissione giustizia e neanche lui, però il collega sostiene che l'articolo 72 della Costituzione è stato rispettato minuto per minuto. Il collega Giovanardi, più o meno rabbiosamente e appassionatamente, fin dalle vacanze di Natale e della befana le scrisse una documentata lettera in cui sosteneva che non era così. Nel dibattito svoltosi, l'allora presidente Nitto Palma e l'attuale presidente D'Ascola, nominato da una quindicina di giorni, hanno riportato alla nostra attenzione quel tema che i giuristi eleganti chiamano «truffa delle etichette», cioè il balletto sulla sovrapponibilità degli istituti giuridici. E, allora, lei veramente - al di là di questa o quella furbizia da professore, sono professore anche io, sull'articolo 2 - ritiene che sarebbe la materia del disegno di legge distinta e separata dall'articolo 29 e via dicendo? Che si possa giudicare una volgarità polemica la richiesta di tornare in Commissione per un chiarimento in materia di truffa delle etichette, cioè di margini di sovrapposizione o di sovrapponibilità tra istituti giuridici? Nel nostro caso si tratta della sovrapposizione con il matrimonio secondo il codice civile, così peculiare e distinto e così retoricamente rimbalzante, rigo per rigo, nella disciplina delle unioni civili, secondo questo testo di legge e, peggio ancora della discriminazione, che esclude dalle unioni civili ciò che non è tra Giovanardi e Compagna, ma che potrebbe essere tra la signora Giovanardi e Compagna, o naturalmente tra Giovanardi e la signora Compagna. È molto grossa...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dai Gruppi PD e Misto-SEL.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg54">PRESIDENTE. Senatore Compagna, il richiamo al Regolamento lo ha già fatto.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg55">Ho fatto il richiamo al Regolamento, ma ho anche insistito, signor Presidente: affinché le nostre discussioni non siano inutili, è chiaro che ogni richiamo al Regolamento va ad impingere sulla questione del ritorno in Commissione e sul non passaggio agli articoli. È su questo che lei si è pronunciato. Se questa sua fiscalità del Regolamento è solo a garanzia delle furbizie dei professori, allora va bene, ci saranno parlamentari che faranno i professori e altri no, ma il bello del parlamentarismo è proprio la sovrapposizione continua di sua maestà il parlamentarismo, su "sua meschinità" l'accademia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo GAL (GS, PpI, M, MBI, Id, E-E) e dei senatori Divina e Di Maggio.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u16">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg56">Signor Presidente, intervengo innanzitutto per chiedere che la votazione della proposta di non passare all'esame degli articoli venga effettuata a scrutinio simultaneo mediante procedimento elettronico. A proposito del richiamo al Regolamento, desidero fare una semplice dichiarazione di voto di trenta secondi, per far comprendere ai colleghi che cosa accadrà se dovesse essere approvato il non passaggio agli articoli. PRESIDENTE. Senatore Calderoli, intanto le comunico che può ritenere accolta la sua richiesta di allegare al Resoconto la sua memoria. CALDEROLI (LN-Aut). La ringrazio, signor Presidente. Succederà che se si dovesse approvare il non passaggio agli articoli, il disegno di legge non verrà discusso e, per sei mesi, non potrà più essere assegnato in Commissione. Credo che una pausa di riflessione sia assolutamente necessaria. In questo momento votiamo la mia proposta di non passaggio agli articoli. Subito dopo, non so quando accadrà in termine di orari, voteremo il non passaggio agli articoli previsto dall'emendamento a firma del senatore Marcucci, perché prima è stata impedita la discussione in Commissione, ai sensi dell'articolo 72 della Costituzione, ma con l'approvazione dell'emendamento Marcucci non si avrà più la votazione dei singoli articoli, perché è già tutto scritto. E questo si chiama Partito Democratico? Sollevate anche l'eccezione rispetto all'ammissibilità del non passaggio agli articoli! L'articolo 96 del Regolamento del Senato è diverso dall'articolo 95, e ci sarà un motivo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u17">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg57">Invito il senatore Segretario a verificare se la richiesta avanzata dal senatore Calderoli risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo della proposta di non passare all'esame degli articoli NP1, presentata dal senatore Calderoli e da altri senatori. (Segue la votazione). Proclamo il risultato della votazione nominale con scrutinio simultaneo:</seg>
+               <note type="voting">Senatori presenti 298 Senatori votanti 297 Maggioranza 149 Favorevoli 101 Contrari 195 Astenuti 1</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg58">Il Senato non approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg59">Signor Presidente, vista la necessità di organizzare i nostri lavori, dopo il risultato di questo voto, intervengo solo per chiederle di convocare la Conferenza dei Capigruppo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo LN-Aut.</desc>
+               </vocal>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u19">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg60">Salutiamo le allieve, gli allievi e i docenti dell'Istituto tecnico agrario di Alvito, in provincia di Frosinone, che seguono i nostri lavori. Benvenuti ragazzi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2081</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46051.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 14</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39314.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 197</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39495.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 239</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39865.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 314</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40058.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 909</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41505.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1211</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43663.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1231</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43713.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1316</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43968.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1360</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44071.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1745</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45187.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1763</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45233.htm</note>
+            <note>e</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2069</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46019.htm</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2084</note>
+            <note type="time">17,57</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46059.htm</note>
+            <note type="time">(ore 17,57)</note>
+            <note type="speaker">CENTINAIO (LN-Aut)</note>
+            <u ana="#regular" who="#CentinaioGianMarco" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u20">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg61">Signor Presidente, so che avrebbe sospeso la seduta immediatamente per convocare la Conferenza dei Capigruppo però, prima di questo, avrei una comunicazione da dare all'Assemblea. L'avrei fatto prima, ma ho atteso perché speravo lo facesse lei all'inizio di seduta. Nella giornata di ieri è stata rilasciata una dichiarazione che penso sia lesiva nei confronti di tutta l'Assemblea, del ruolo dei senatori e del lavoro che svolgiamo quotidianamente qui.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Calderoli</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg62">Un senatore, pensando di essere più bravo degli altri e un po' più fenomeno, ha dichiarato: «Su 315 una cifra tra i 50 e i 70 senatori fa uso di droghe pesanti» anche in bagno. Ha affermato che se fosse Presidente del Senato farebbe fare delle analisi ambientali e l'esame del capello, e che «certi interventi che si ascoltano non sono giustificati solo dalla mancanza di cultura».</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg63">Se vuole vado avanti, signor Presidente.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg64">PRESIDENTE. Senatore Centinaio, questo tema non è all'ordine del giorno.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg65">Colleghi, non c'è nulla da ridere. Presidente, se non è all'ordine del giorno, visto che andremo in Conferenza dei Capigruppo, io le chiedo di inserire immediatamente questo tema all'ordine del giorno perché qui ne va del nostro ruolo e della nostra dignità. Signor Presidente, dal momento che cerco di essere anche collaborativo non dico che il senatore in questione, cioè il senatore Barani, quando è seduto al banco della Presidenza non si accorge nemmeno dei colleghi che alzano la mano e quindi mi domando che cosa ci faccia seduto lì o che cosa abbia fatto in bagno prima di sedersi in quel posto. Di conseguenza, a questo punto sfido pubblicamente il senatore in questione a fare l'esame del capello insieme a me. Propongo di fare l'esame del capello insieme al senatore in questione perché penso che solo un cretino come il senatore Barani possa dire determinate cose.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi LN-Aut e FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u21">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg66">Sospendo la seduta e convoco la Conferenza dei Capigruppo. (La seduta, sospesa alle ore 17,59, è ripresa alle ore 19,37). Riprendiamo i nostri lavori.</seg>
+            </u>
+            <note type="speaker">BARANI (AL-A)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u22">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg67">Signor Presidente, in Conferenza dei Capigruppo è emerso - credo in maniera strumentale, ma lungi da me ritenerlo tale - che quattro Capigruppo sono usciti perché ritengono che, con una battuta che ho fatto ieri in una trasmissione televisiva a proposito di un esame del capello da me effettuato che è risultato negativo, io abbia offeso il Senato dicendo che forse circolava roba tagliata male. AIROLA (M5S). Ma che ce ne frega! BARANI (AL-A). Mi scuso, ovviamente se qualcuno sì è sentito offeso; non era nelle mie intenzioni. A me interessa che vada avanti la legge ed è per questo che chiedo scusa.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u23">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg68">La Conferenza dei Capigruppo ha approvato il nuovo calendario dei lavori dell'Assemblea fino al 25 febbraio.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg69">La seduta antimeridiana di domani sarà dedicata all'illustrazione degli emendamenti al disegno di legge sulle unioni civili, con le modalità previste dal nono comma dell'articolo 100 del Regolamento, il quale stabilisce che su tutti gli emendamenti presentati ad uno stesso articolo si svolge un'unica discussione nel corso della quale ciascun senatore può intervenire una sola volta anche se proponente di più emendamenti.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg70">Le votazioni sugli emendamenti avranno inizio la prossima settimana a partire dalla seduta pomeridiana di martedì 16 febbraio. Nelle giornate di mercoledì 17 e di giovedì 18 l'Assemblea terrà sedute uniche con possibili sospensioni a discrezione della Presidenza.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg71">L'ordine del giorno della seduta di mercoledì 17 febbraio prevede, alle ore 15,30, le comunicazioni del Presidente del Consiglio dei ministri in vista del Consiglio europeo del 18 e 19 febbraio. Per il successivo dibattito i Gruppi potranno intervenire per dieci minuti ciascuno, comprensivi di dichiarazioni finali di voto.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg72">Nella settimana dal 23 al 25 febbraio, oltre all'eventuale seguito del disegno di legge sulle unioni civili, sarà esaminato il decreto-legge proroga termini, in scadenza il prossimo 28 febbraio.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg73">La seduta pomeridiana di giovedì 25 febbraio sarà dedicata al question time. Infine, il calendario potrà essere integrato con le comunicazioni del Presidente, ai sensi dell'articolo 126- bis, comma 2- bis, del Regolamento, sul disegno di legge collegato in materia di lavoro autonomo.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Calendario dei lavori dell'Assemblea Discussione e reiezione di proposte di modifica</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u24">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg74">La Conferenza dei Presidenti dei Gruppi parlamentari, riunitasi oggi, con la presenza dei Vice Presidenti del Senato e con l'intervento del rappresentante del Governo, ha adottato - ai sensi dell'articolo 55 del Regolamento - il nuovo calendario dei lavori dell'Assemblea fino al 25 febbraio 2016:</seg>
+               <note type="summary">Giovedì 11 febbraio ant. h. 9,30 - Seguito disegno di legge n. 2081 e connessi - Disciplina delle unioni civili Giovedì 11 febbraio pom. h. 16 - Interpellanze e interrogazioni</note>
+               <note type="summary">Martedì 16 febbraio pom. h. 16,30-20 - Seguito disegno di legge n. 2081 e connessi - Disciplina delle unioni civili - Comunicazioni del Presidente del Consiglio dei ministri in vista del Consiglio europeo del 18 e 19 febbraio 2016 (mercoledì 17, ore 15,30) Mercoledì 17 " ant. h. 9,30-22 Giovedì 18 " ant. h. 9,30-18</note>
+               <note type="summary">Martedì 23 febbraio pom. h. 16,30-20 - Eventuale seguito disegno di legge n. 2081 e connessi - Disciplina delle unioni civili Disegno di legge n. ... - Decreto-legge n. 210, proroga termini (Approvato dalla Camera dei deputati) (Scade il 28 febbraio) Mercoledì 24 " ant. h. 9,30-13 " " " pom. h. 16,30-20 Giovedì 25 " ant. h. 9,30-14 Giovedì 25 febbraio pom. h. 16 - Interrogazioni a risposta immediata ai sensi dell'articolo 151- bis del Regolamento</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg75">Gli emendamenti al disegno di legge n. .... (Decreto-legge n. 210, proroga termini) dovranno essere presentati entro le ore 17 di giovedì 18 febbraio.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg76">Il calendario sarà integrato con le comunicazioni del Presidente, ai sensi dell'articolo 126- bis, comma 2- bis, del Regolamento sul disegno di legge n. 2233, collegato alla manovra di finanza pubblica, in materia di tutela del lavoro autonomo non imprenditoriale. Ripartizione dei tempi per la discussione del disegno di legge n. .... (Decreto-legge n. 210, proroga termini) (7 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatore 40' Governo 40' Votazioni 40' Gruppi 5 ore, di cui: PD 1 h. 7' FI-PdL XVII 34' M5S 31' AP (NCD-UDC) 30' Misto 27' Aut (SVP, UV, PATT, UPT)-PSI-MAIE 24' AL-A 24' GAL (GS, PpI, FV, M, MBI, Id, E-E) 22' LN-Aut 21' CoR 19' Dissenzienti 5'</note>
+            </u>
+            <note type="speaker">CATALFO (M5S)</note>
+            <u ana="#regular" who="#CatalfoNunzia" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u25">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg77">Signor Presidente, noi del Movimento 5 Stelle pensiamo che l'Italia debba davvero compiere una svolta e che questa svolta la possano dare i parlamentari di questo Paese, se lo vogliono. Per dare una svolta al Paese, si parta dal riconoscimento dei diritti, senza perdere tempo. Per tale motivo, partendo dal riconoscimento dei diritti nelle unioni civili, noi crediamo e riteniamo opportuno che la discussione dell'Aula debba iniziare lunedì 15 e prosegua anche fino al venerdì della stessa settimana. D'altronde, proprio quando parliamo di diritti, ricordo all'Aula - a noi senatori e a me per prima - che i lavoratori italiani lavorano dal lunedì al venerdì, fino al sabato e alla domenica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg78">Quando c'è la necessità di far andare avanti la loro azienda o la loro famiglia, con la disperazione a volte, si rimboccano le maniche e continuano a lavorare. Questo per noi è rispetto del popolo italiano.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg79">Continuando, faccio presente alla Presidenza - ho qua l'elenco e non vi voglio tediare elencandoli tutti, uno per uno - che il Movimento 5 Stelle ha fatto propri ben venti disegni di legge. E ricordo altresì che, secondo il Regolamento, ai sensi dell'articolo 53, comma 3, avrebbe dovuto essere dato spazio alle opposizioni di discutere i propri provvedimenti. Ora, io dico, sono trascorsi tre anni e in quest'Aula, proprio quando parliamo di diritti, non si è tenuto conto dei diritti dell'opposizione e del Movimento 5 Stelle.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg80">Finisco con il ricordare una persona. Non ne citerò il nome per rispetto della famiglia e di chi in questo momento sta vivendo un dramma, ma lascio a voi l'accortezza di andare a cercare e magari di osservare quel minuto di silenzio che dedichiamo ai grandi (ma queste persone, secondo me, sono più grandi dei grandi). Parlo di un uomo, un lavoratore italiano, l'ennesimo lavoratore italiano che non vede e non ha visto tutelato il suo diritto, che ha perso il lavoro e che ha perso oggi la vita perché ha pensato bene di togliersela.</seg>
+               <kinesic type="applause">
+                  <desc>I senatori del Gruppo M5S si levano in piedi. Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg81">Questa dovrebbe essere la responsabilità di un Parlamento. Lo Stato ha l'obbligo di tutelare i propri cittadini, di rispettare la Costituzione e tutti i diritti in essa sanciti, partendo dalle unioni civili e finendo con il calendarizzare il disegno di legge sul reddito di cittadinanza, che tutela 1,5 milioni di bambini che appartengono a famiglie italiane che non possono permettersi di mangiare.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg82">Se vogliamo veramente tutelare la famiglia e i minori, questi provvedimenti devono allora seguire un percorso abbreviato e immediato e devono avere l'interesse di tutti. Per tale motivo chiedo che il calendario venga variato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg83">Signor Presidente, intendevo fare una proposta di modifica al calendario dei lavori dando anche una mano, se vuole, alla collega Catalfo, che forse dovrebbe essersi resa conto che, essendo ormai quasi in maggioranza, potrebbe chiedere alla maggioranza di sostenere le sue proposte.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e del senatore Caliendo</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg84">CATALFO (M5S). Vergognati! (Scambio di apostrofi tra i senatori Volpi e Catalfo). PRESIDENTE. Senatore Volpi, la prego, si rivolga alla Presidenza. VOLPI (LN-Aut). La proposta che vogliamo avanzare è che martedì alle 16,30, essendo la prima seduta utile per votare (si vota martedì pomeriggio, se non ricordo male), si inizi a discutere immediatamente sul reddito di cittadinanza. Vediamo se i diritti sono veramente così interessanti per tutti e vediamo se la vostra capacità contrattuale rispetto a quello che avete in campo ora con il disegno di legge della senatrice Cirinnà convincerà la maggioranza a cominciare a parlare anche di questo tema così importante per il vostro Gruppo. Mi sembra un'opportunità che non dovreste lasciarvi scappare: mettetela in campo e contrattate. Signor Presidente, mi sembra una proposta sostenibile politicamente. Consentiamo almeno di capire quali sono le opposizioni e quali sono le maggioranze. Diversamente, credo che la proposta dovrebbe essere messa in carico alla maggioranza. Essendo un momento in cui la maggioranza è diversa da quello che si nota normalmente, non sarebbe più in quota opposizione, ma in quota maggioranza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u27">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg85">Al di là delle quote, le proposte di modifica rimangono proposte di modifica.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg86">Se non ci sono altre proposte di modifica, passiamo alla votazione.</seg>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg87">Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea, avanzata dalla senatrice Catalfo, volta a prevedere sedute anche nelle giornate di lunedì e venerdì e l'inserimento di disegni di legge fatti propri dal Gruppo. (Scambio di battute tra i senatori Paglini e Volpi). Senatore Volpi, non accetti un dibatto separato in Aula. Non è approvata. SANTANGELO (M5S). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata. MARTON (M5S). Eccola la maggioranza, Volpi. PRESIDENTE. Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea, avanzata dal senatore Volpi, volta ad inserire l'esame dei disegni di legge sul reddito di cittadinanza nella seduta di martedì. Non è approvata. SANTANGELO (M5S). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Airola.</desc>
+               </vocal>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">ALBANO (PD)</note>
+            <u ana="#regular" who="#AlbanoDonatella" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u28">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg88">Signor Presidente, ho appreso poco fa da notizie uscite a mezzo stampa che il consigliere regionale ligure della Lega Nord Giovanni De Paoli avrebbe pronunciato le seguenti parole al termine di un incontro con alcuni genitori dell'Associazione genitori di omosessuali (Agedo): «Se avessi un figlio omosessuale, lo brucerei nel forno». Questa frase, già gravissima, è resa ancora peggiore dal fatto che non è stata pronunciata al bar, ma all'interno dell'ente Regione Liguria e da un rappresentante delle istituzioni. Ora, se il consigliere De Paoli pensava di accendere i riflettori su di sé emulando le prodezze verbali del suo segretario nazionale, Matteo Salvini, lo ha fatto in un modo pessimo, rievocando i forni crematori dei lager nazisti, in cui si stima siano state internate circa 50.000 persone in quanto omosessuali, con tanto di divisa a righe con il triangolo rosa. Intendeva questo il consigliere De Paoli? Intendeva dire che avrebbe fatto come i nazisti? Infatti, leggo sempre dalle notizie di stampa, che il consigliere oscilla tra la smentita e la conferma di una posizione comunque netta. Mi aspetto una netta presa di distanza da tali affermazioni dal presidente della Regione Liguria, Giovanni Toti, e da Edoardo Rixi, segretario nazionale della Lega Nord Liguria, facente parte della Giunta regionale ligure. Un conto è avere opinioni contrarie, un conto è non saper distinguere il ruolo politico da quello di rappresentante delle istituzioni e in questo frangente mi sembra che il consigliere De Paoli rientri in questo caso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e M5S e della senatrice Simeoni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BIGNAMI (Misto-MovX)</note>
+            <u ana="#regular" who="#BignamiLaura" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u29">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg89">Signor Presidente, due giorni fa i carabinieri del nucleo antisofisticazioni e sanità (NAS) di Roma, insieme al gruppo carabinieri di Frascati, hanno eseguito dieci ordinanze di custodia cautelare a carico di altrettante persone. Si tratta di dieci operatori - sei donne e quattro uomini - ritenuti responsabili dei reati di maltrattamento e sequestro di persona di giovani pazienti affetti da patologie neuropsichiatriche. Andando a ritroso, il 18 gennaio 2016 a Licata, in provincia di Agrigento, otto persone sono state indagate a vario titolo con l'accusa di maltrattamenti ai danni di disabili. Il 15 dicembre 2015 a Nocera Inferiore, in provincia di Salerno, i carabinieri hanno arrestato sette dipendenti di una clinica privata per maltrattamenti a pazienti, quasi tutti con problemi psichici. Il 16 novembre 2015 tre operatori sociosanitari sono stati arrestati a Galliate, in provincia di Novara, con l'accusa di maltrattamenti aggravati nei confronti delle persone disabili che avrebbero dovuto accudire. Il 26 marzo 2015 tre persone vengono indagate in seguito a una indagine dei NAS di Genova che ha evidenziato una serie di maltrattamenti ad un paziente. Il 15 luglio 2014 balza alla cronaca la notizia di bambini e ragazzi autistici fra gli otto e i vent'anni picchiati e sequestrati in una "stanza di contenimento". L'11 aprile 2014 vengono emessi 12 provvedimenti cautelari a carico di 14 persone per maltrattamenti verso persone con problemi neurologici. Il 13 febbraio 2014 inizia il processo nel tribunale di Ivrea che vede imputati due ex operatori sanitari della struttura «Anffas-La Torre» di Rivarolo, in provincia di Torino: avrebbero sottoposto due ospiti, un uomo e una donna, entrambi disabili psichici, a una serie di vessazioni fisiche e psicologiche. Il 30 dicembre 2013 i carabinieri del NAS di Napoli intervenuti per un controllo in una casa riposo di Castel Volturno scoprono un posto freddo e promiscuo, pieno di anziani e disabili psichici tra i quarantacinque e gli ottantacinque anni in sofferenza e senza alcun tipo di assistenza. Cinque persone vengono arrestate. Questi sono solo alcuni dei raccapriccianti episodi balzati alla cronaca che vedono i disabili come vittime di maltrattamenti da parte degli operatori dei centri nei quali sono ospitati. È questa la bella Italia? Le indagini condotte dalle Forze dell'ordine fanno emergere particolari scioccanti, raccapriccianti, drammatici che ci fanno piombare nello sconforto e nel Medioevo. Il Governo non può restare indifferente. Altro che fare i complimenti, signora Ministra, alla Questura: ha il dovere di vigilare e porre in atto azioni che portino alla cancellazione di tali episodi. Non alla loro diminuzione, alla loro eliminazione. Un'attenta riflessione dovrà essere fatta in quest'Aula con la legge sul «dopo di noi» che è da poco giunta in Senato. Saremo vigili, vigileremo sulle garanzie, vigileremo sui controlli. Non riduciamola ad una leggina per accontentare, ma facciamone una occasione per far sì che questi episodi non si ripetano più.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e dei senatori Bencini, Di Biagio, Mussini e Simeoni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PEZZOPANE (PD)</note>
+            <u ana="#regular" who="#PezzopaneStefania" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u30">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg90">Signor Presidente, nella giornata di ieri, nell'ospedale di Atri è nata una bimba, che si chiama Noemi. Perché parlo di Noemi in quest'Aula? Perché Noemi non doveva nascere nell'ospedale di Atri. Infatti, da due mesi è stato soppresso il punto nascita, nell'ambito di un provvedimento di razionalizzazione della spesa che ha comportato la chiusura di quattro punti nascita in Abruzzo. La chiusura dei punti nascita - si dice - ha l'obiettivo di dare sicurezza al percorso nascita e su questo, ovviamente, siamo tutti d'accordo. La vicenda di Noemi, però, racconta l'opposto. La mamma di Noemi, nella giornata di ieri, avendo gravi problemi e forti dolori, che la mettevano a rischio di anticipazione del parto, si è recata nell'ospedale di Pescara, dove sono stati approntati gli investimenti per accogliere le partorienti che prima avevano l'opportunità di partorire negli ospedali i cui punti nascita sono stati soppressi. La signora va a Pescara, viene rimandata indietro, torna ad Atri, avverte dolori lancinanti e il paradosso è che, nell'ospedale con il soppresso punto nascita, è stato allestito un punto d'emergenza, dove la donna ha partorito questa meravigliosa bambina. Ho predisposto un'interrogazione al ministro Lorenzin per chiedere se ci si renda conto che la chiusura dei punti nascita senza l'allestimento preventivo di una rete di sicurezza può produrre l'effetto opposto, ovvero mettere a rischio anche nascite che fino a qualche mese fa non avrebbero avuto alcun margine di rischio. Chiedo quindi, nell'interrogazione, anche di rivedere questi provvedimenti, specie nelle aree interne, dove la viabilità è complessa, soprattutto in inverno, quando ci si impiega anche un'ora per andare nell'ospedale più vicino. Nel dare il benvenuto a Noemi, che nasce in un ospedale dove non si vuole che nascano i bambini, sottolineo l'assurdità ed il paradosso di determinati provvedimenti, adottati per far nascere in sicurezza i bambini e che producono invece una nascita in ospedali privi dei sistemi di sicurezza e privi di punti nascita. Grazie a quei medici e a quegli operatori sanitari, per fortuna, la bambina è nata ed è sana, ma andrò a fondo su questa assoluta assurdità gravissima. Ringraziamo il cielo che la bimba è nata, ed è nata bene. Ringraziamo il cielo davvero.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FASIOLO (PD)</note>
+            <u ana="#regular" who="#FasioloLaura" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u31">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg91">Signor Presidente, colleghi, grande è la commozione di fronte alle toccanti parole della cerimonia odierna, Presidente, in cui lei ha richiamato e commemorato la Giornata del ricordo, istituita con la legge n. 92 del 30 marzo 2004. Il 10 febbraio di ogni anno, il Giorno del ricordo pone alla nostra memoria le vittime delle foibe e dell'esodo giuliano-dalmata, o meglio di istriani, friulani e dalmati. Lo stesso provvedimento legislativo ha anche istituito una specifica medaglia commemorativa destinata ai congiunti delle vittime. Oggi rilevo la grande importanza della solenne celebrazione che vi è stata in Senato, e che ha coinvolto e premiato il mondo della scuola: un mondo che ha parlato, ha ascoltato e ha ricordato quei giorni, per restituire dignità e riconoscimento storico alle vittime dei massacri, in un clima di grande commozione. Vorrei segnalare un'interessante ricerca archivistica fatta a Londra da Luisa Morettin, nel 2013, che offre i contorni e i contenuti di una realtà brutale, fatta di violenze, torture, arresti, stupri, eccidi per incutere timore nella popolazione civile. Ma paralleli a quelli del ricordo sono i giorni della memoria, il dolore lacerante delle vittime delle persecuzioni, di chi per la guerra ha sofferto, e di qualsiasi appartenenza. Fin dai dibattiti parlamentari che lo istituirono, ci furono letture contrapposte del Giorno del ricordo: una memoria divisiva tra destra e sinistra. Il Giorno del ricordo non dovrebbe essere ideologizzato. Oggi dobbiamo imporci forti riflessioni, e chiederci finalmente, come pare, dopo oltre settant'anni, di prendere coscienza in modo obiettivo di questa parte così triste e drammatica della nostra storia. Voglio rinnovare alcuni ricordi del 1945: i desaparecidos, tanta gente comune con la sola colpa di essere e volere essere orgogliosamente italiana. Tanti antifascisti, come i signori Olivi e Sverzutti, componenti del Comitato di liberazione: persone cioè che avevano fatto la Resistenza ed erano dalla parte giusta, ma comunque colpevoli perché contrari all'annessione della Venezia Giulia alla Jugoslavia. Non voglio dilungarmi, Presidente. Lei ha già fatto uno straordinario intervento. Vorrei soltanto concludere con una considerazione: dobbiamo difenderci ancora, dobbiamo difenderci sempre dai rischi dei nazionalismi. Dobbiamo veramente abbattere i muri e cercare di fare tutto il possibile per eliminare alla fonte ciò che genera mostruosità, crudeltà deliranti, lasciando dietro di sé morti e vendette. Educare non è soltanto compito della scuola, ma anche della politica: legiferare ogni giorno a sostegno dei valori della convivenza pacifica e rispettosa di tutte - e sottolineo tutte - le idee, tutte le opinioni e tutte le differenze. Educare al valore e al peso, anche qui dentro, della parola, troppo spesso dimenticato.</seg>
+            </u>
+            <note type="speaker">BONFRISCO (CoR)</note>
+            <u ana="#regular" who="#BonfriscoAnnaCinzia" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u32">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg92">Signor Presidente, la ringrazio per la parola che mi concede e che userò per unirmi alle riflessioni che ha appena svolto la collega che mi ha preceduto e per ringraziarla della cerimonia che lei ha voluto celebrare con tanta solennità e sobrietà allo stesso tempo in questa Aula parlamentare, in ricordo dei tragici fatti delle Foibe, che lei ha descritto così ben stamane nel filo rosso della memoria che deve unire grandi sforzi perché nel nostro Paese, come in tutta l'Europa, si possa cementare quella pace che, invece, sembra essere sempre più messa in discussione. Vorrei aggiungere, ai tanti ricordi di oggi, a quello che si è potuto dire oggi, alle tante altre cose che si sarebbero potute dire, un particolare e terribile avvenimento di quel contesto, in quelle terre e in quei giorni drammatici. Il terribile avvenimento è costato il sacrificio eroico di tanti funzionari dello Stato, oltre che di vittime civili, che avevano l'unica colpa di non essersi resi conto prima dell'avanzare di un grande pericolo, e di militari, in particolare, che svolsero il proprio dovere fino all'estremo sacrificio con onore e umanità, come nel caso dei 12 carabinieri trucidati dai partigiani comunisti titini nelle cave del Predil. Oggi noi dobbiamo ricordare loro e quelle tante famiglie, quei tanti bambini che vissero in quella tragedia quello che forse oggi vivono altri bambini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo CoR.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u33">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg93">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per le sedute di giovedì 11 febbraio 2016</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.u34">
+               <seg xml:id="ParlaMint-IT_2016-02-10-LEG17-Sed-575.seg94">Il Senato tornerà a riunirsi domani, giovedì 11 febbraio, in due sedute pubbliche, la prima alle ore 9,30 e la seconda alle ore 16, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 20,04).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

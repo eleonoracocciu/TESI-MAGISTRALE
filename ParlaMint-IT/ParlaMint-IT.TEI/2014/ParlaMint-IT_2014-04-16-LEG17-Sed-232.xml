@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 232 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 232 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 232, giorno (2014-04-16)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 232, Day (2014-04-16)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="232-upper">232 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="135" unit="speeches" xml:lang="it">135 discorsi</measure>
+            <measure quantity="135" unit="speeches" xml:lang="en">135 speeches</measure>
+            <measure quantity="12982" unit="words" xml:lang="it">12.982 parole</measure>
+            <measure quantity="12982" unit="words" xml:lang="en">12,982 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0761493</idno>
+               <date when="2014-04-16">16.04.2014</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="16"/>
+               <tagUsage gi="head" occurs="13"/>
+               <tagUsage gi="note" occurs="152"/>
+               <tagUsage gi="seg" occurs="135"/>
+               <tagUsage gi="u" occurs="61"/>
+               <tagUsage gi="vocal" occurs="23"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="29"/>
+               <tagUsage gi="incident" occurs="2"/>
+               <tagUsage gi="desc" occurs="54"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2014-04-16">16.04.2014</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza della vice presidente LANZILLOTTA</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u1">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg1">La seduta è aperta (ore 16,32). Si dia lettura del processo verbale. DI GIORGI, segretario, dà lettura del processo verbale della seduta del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">PETROCELLI (M5S)</note>
+            <u ana="#regular" who="#PetrocelliVitoRosario" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg2">Signora Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u3">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Non essendovi ulteriori osservazioni, il processo verbale è approvato.</seg>
+            </u>
+            <note type="speaker">TAVERNA (M5S)</note>
+            <u ana="#regular" who="#TavernaPaola" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u4">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg4">Signora Presidente, intervengo, ai sensi dell'articolo 92, comma 1, del Regolamento, per un richiamo al Regolamento stesso. È di oggi la notizia del rinvio a giudizio del senatore Maurizio Gasparri. PRESIDENTE. Senatrice Taverna, qual è l'oggetto del richiamo al Regolamento? TAVERNA (M5S). La richiesta delle dimissioni da Vice Presidente del Senato del senatore Maurizio Gasparri.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u5">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg5">Non si tratta esattamente di un richiamo al Regolamento. Potrà svolgere questo intervento a fine seduta, perché non è materia di Regolamento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg6">Volentieri, signora Presidente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u6">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg7">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u7">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg8">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg9">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,37).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione del disegno di legge: (1387) Conversione in legge del decreto-legge 14 marzo 2014, n. 25, recante misure urgenti per l'avvalimento dei soggetti terzi per l'esercizio dell'attività di vigilanza della Banca d'Italia</note>
+            <note type="time">16,39</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44135.htm</note>
+            <note>(ore 16,39) Approvazione, con modificazioni, con il seguente titolo:</note>
+            <note>Conversione in legge, con modificazioni,del decreto-legge 14 marzo 2014, n. 25, recante misure urgenti per l'avvalimento dei soggetti terzi per l'esercizio dell'attività di vigilanza della Banca d'Italia</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u8">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg10">L'ordine del giorno reca il seguito della discussione del disegno di legge n. 1387.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg11">Ricordo che nella seduta antimeridiana si è conclusa la votazione degli emendamenti e degli ordini del giorno riferiti agli articoli del decreto-legge.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg12">(ore 16,38)</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+            <note type="time">16,38</note>
+            <note type="speaker">BUCCARELLA (M5S)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u9">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg13">PRESIDENTE. Su che cosa, senatore Buccarella?.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg14">Signor Presidente, reitero, con un invito a una maggiore ponderazione, la richiesta della senatrice Taverna. Penso che il riferimento all'articolo 92, comma 1, del Regolamento sia del tutto valido per svolgere un richiamo al Regolamento, tanto più che l'oggetto dell'intervento riguarda, come già si intravedeva, una importante carica di quest'Aula. Chiedo dunque che sia concesso il tempo necessario per svolgere il richiamo al Regolamento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u10">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg15">Senatore Buccarella, lei reitera la richiesta della senatrice Taverna e io reitero la risposta che è stata a lei data. L'argomento non è all'ordine del giorno della seduta e, quindi, non può essere discusso nel corso di essa. Esso potrà essere senz'altro trattato alla fine dei lavori, come intervento di fine seduta.</seg>
+            </u>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">LANZILLOTTA (SCpI)</note>
+            <u ana="#regular" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u11">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg16">Signor Presidente, intervengo per annunciare il voto favorevole del Gruppo di Scelta Civica a questo provvedimento, che è legato all'avvio, nel prossimo novembre, del meccanismo di vigilanza bancaria unica da parte della Banca centrale europea. È un meccanismo fondamentale per la progressiva realizzazione dell'unione economica, oltre che di quella monetaria; uno strumento che è mancato fortemente durante la crisi finanziaria di questi anni. L'istituzione del meccanismo di vigilanza unico, come è noto, rappresenta uno dei passaggi previsti per la realizzazione dell'unione bancaria, volto a dare vita a un quadro finanziario integrato per salvaguardare la stabilità finanziaria e ridurre al minimo il costo dei fallimenti delle banche. Il regolamento istitutivo del meccanismo di vigilanza prevede che la Banca centrale, in vista della estensione dei suoi compiti, conduca una valutazione approfondita sulla situazione del sistema bancario europeo e sull'esercizio effettuato in base alle informazioni che le autorità nazionali e le banche interessate sono tenute a fornire. Con comunicazioni successive la BCE ha reso noto le modalità e i tempi di conduzione dell' assessment, che ha una portata imponente. Esso coinvolgerà circa 128 gruppi bancari, di cui 15 italiani. Ora, l' assessment relativo ai gruppi più grandi sarà svolto direttamente dalla Banca centrale, che ritiene, tuttavia, che il complesso di queste attività sia di tale portata da richiedere l'attivazione di quella facoltà che la normativa comunitaria prevede possibile: quella cioè dell'avvalimento di altri soggetti privati dotati di determinate caratteristiche e che, tuttavia, ancora non era stato recepito nel nostro ordinamento nazionale come facoltà dell'Autorità di vigilanza. Viene sottolineata l'importanza che i soggetti a cui si affiderà questa funzione possano intervenire in questa fase per due motivi: una è la dimensione dei compiti assegnati alla Banca e l'altra è l'esigenza che tali soggetti, con il compito di verifica delle caratteristiche degli istituti bancari sottoposti a vigilanza siano dotati della necessaria terzietà e indipendenza. Naturalmente noi sosteniamo questo provvedimento e prendiamo atto delle esigenze rappresentate dalla Banca d'Italia. Ci permettiamo, tuttavia, di sottolineare, a fronte anche di un impegno finanziario previsto di circa 30 milioni di euro, che sarà coperto dal bilancio della Banca centrale, che quest'ultima, che ha conservato molta parte delle sue strutture, pur a fronte della riduzione dei compiti d'istituto, dovrebbe potenziare e ampliare al massimo la sua capacità di intervento e ridurre al minimo, a nostro avviso, l'intervento di altri organismi, riducendo quindi anche l'onere aggiuntivo per l'istituto stesso. Quanto all'indipendenza, riteniamo che l'Autorità di vigilanza, che è terza e indipendente per definizione e per statuto, sarebbe quella maggiormente rispondente alle caratteristiche che tale funzione deve rivestire. Con queste sottolineature, annunciamo il nostro voto favorevole.</seg>
+            </u>
+            <note type="speaker">BELLOT (LN-Aut)</note>
+            <u ana="#regular" who="#BellotRaffaela" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u12">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg17">Signor Presidente, rappresentanti del Governo, onorevoli colleghi, premetto che il mio intervento non riguarderà minimamente il contenuto tecnico del provvedimento sul quale, come noto, abbiamo già avuto modo di discutere prima in Commissione e poi in Aula, questa mattina, in sede di discussione generale. È a mio avviso molto più interessante soffermare la nostra attenzione sul principio che regola ed ha ispirato questo provvedimento, ovvero quell'unione bancaria di cui, negli ultimi anni, caratterizzati da recessione e crisi economica, sentiamo sempre più parlare. Voi tutti certo ricorderete come poche settimane fa Consiglio e Parlamento europeo abbiano definito, con loro gran giubilo, l'accordo sull'ultima fase della creazione dell'unione bancaria europea, definendolo senza mezza termini un successo. Ma noi non siamo proprio sicuri che sia così ed abbiamo molti dubbi che si tratti di un successo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg18">(ore 16,44) (Segue BELLOT ). Al di là di quanto Bruxelles decide e sancisce, ognuno di noi, ogni giorno, non può non accorgersi di quanto profonda sia la distanza tra un'area europea settentrionale, dove i Governi continuano a sostenere le banche locali, e un'area meridionale, la nostra, dove, come noi purtroppo possiamo testimoniare, la situazione è molto più difficile e complicata. Ripercorrendo alcune delle tappe più recenti della storia dell'eurocrisi, il nostro ricordo corre immediatamente ai mesi a cavallo tra il giugno 2012 e la fine dello stesso anno, quando - giusto perché tutti rammentino e possano farne memoria - le banche spagnole erano sul baratro del fallimento e l'ombra di un effetto domino su tutta l'Europa regnava incontrastata. Fu allora, proprio in quel momento, che venne deciso, sull'esempio del modello americano, che l'eurosistema dovesse dotarsi di un'unione bancaria, la cui finalità era quella di verificare la responsabilità della gestione dei fallimenti bancari. Una scelta che, se da un lato ha dato ossigeno alla moneta unica, dall'altro ha stravolto, e non poco, il quadro stesso in materia di unione bancaria. Sappiamo infatti che la BCE inizierà a sorvegliare direttamente i maggiori istituti di credito dal prossimo novembre, limitandosi, per il momento, ad analizzarne la solidità di bilancio. La conseguenza, a nostro avviso inevitabile, sarà che mentre le banche sottocapitalizzate sarebbero costrette a ricercare nuovo capitale, quelle con maggiori difficoltà potrebbero essere gradualmente liquidate. Di fatto, nell'attesa dell'entrata a regime del meccanismo unico di risoluzione dell'Eurozona, le banche del Nord Europa sarebbero sostenute dai grandi Governi, proprio dai più stabili, mentre senza dubbio tale operazione rischia di essere quanto meno più difficile per gli istituti a corto di liquidità, quelli nelle aree del Mezzogiorno. Infatti sappiamo che questa situazione si riscontra in maniera palese - e lo stiamo vivendo - nell'area mediterranea. Nella sostanza, quindi, il sistema rischia di diventare fortemente sbilanciato, con il salvataggio delle banche che resterà nelle mani dei Governi nazionali, per lo più o per la maggior parte controllati dalle «loro» banche, ma con palesi differenze sulle capacità di intervenire in loro aiuto. Ecco perché, colleghi, le banche del Nord Europa avranno più possibilità di essere sostenute, a differenza di quelle dell'area mediterranea le quali, per sopravvivere, saranno costrette giocoforza a chiedere in prestito il denaro necessario, e ancora una volta a chinarsi al sistema dell'area del Nord Europa. Il quadro finale, onorevoli colleghi, è facilmente desumibile, ovvero una sempre più evidente frattura tra l'area settentrionale e l'area meridionale dell'Europa, dove gli istituti di credito potrebbero ritrovarsi con costi di finanziamento più elevati rispetto ai colleghi tedeschi o francesi. Si tratta di una possibilità che a sua volta determinerebbe, com'è facilmente intuibile, conseguenze pesanti e nefaste sul sistema produttivo e in particolar modo sulle imprese, con quelle del Nord Europa ancora una volta avvantaggiate rispetto a quelle dell'area mediterranea, con una situazione di concorrenza non del tutto equa e leale. Il rischio è che la tanto decantata crescita diventi sempre più difficile, tanto più per le nostre aziende, tipicamente caratterizzate, come sappiamo tutti, da una struttura di medio-piccole dimensioni. Ancora una volta, insomma, Bruxelles cerca inutilmente un'unione, in questo caso bancaria, che invece di appianare e colmare le sempre maggiori differenze all'interno dell'Eurozona, le ampia inesorabilmente. È di oggi - qualcuno forse lo avrà letto su «Il Sole 24 ORE» - l'articolo in cui si dice che la nascente unione bancaria implica un'importante cessione di sovranità. È chiaro, invece, che un'unione bancaria più rafforzata porterà ad una conseguente perdita di sovranità. Per questi motivi il Gruppo della Lega Nord voterà contro il provvedimento al nostro esame.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="president">Presidenza della vice presidente LANZILLOTTA</note>
+            <note type="time">16,44</note>
+            <note type="speaker">URAS (Misto-SEL)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u13">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg19">Signora Presidente, colleghi, noi voteremo contro questo provvedimento in ragione delle perplessità che avevamo già sollevato in fase di discussione generale. Riteniamo che funzioni di assoluto rilievo ai fini della vigilanza del sistema del credito, anche in un quadro di uniformità su base comunitaria, non possano essere svolte da soggetti o professionalità che sono, in qualche modo, espressione di soggetti provenienti dal sistema finanziario privato, che è oggettivamente l'ambito sul quale viene esercitata la funzione di vigilanza e di controllo. In questo modo si determinerebbe infatti - anche con tutte le cautele che pure sono state introdotte con l'accoglimento delle proposte emendative avanzate in Commissione - una sostanziale identità tra il soggetto controllore e il soggetto controllato. Crediamo che questo sia rischioso, anche in ragione della prospettiva che si è disegnata in ambito comunitario sotto il profilo della gestione delle relazioni e dei rapporti con il sistema finanziario: riteniamo che sia rischioso, in modo particolare, per gli esiti che l'azione di vigilanza può produrre e che sono ben noti. All'azione di vigilanza possono infatti seguire interventi ai quali il sistema del credito è obbligato, ed il nostro sistema del credito non può trovarsi in una condizione nella quale, anche in ragione dell'uniformità delle azioni che occorre intraprendere, decise in ambito comunitario e disposte prevalentemente dalla BCE, si registri un'ulteriore crisi ai fini del sostegno del nostro sistema del credito al sistema produttivo. Dunque per queste ragioni, che sono più che rilevanti ai fini della nostra decisione - ve ne sarebbero anche altre, ma è inutile qui richiamarle - noi voteremo contro il provvedimento in esame.</seg>
+            </u>
+            <note type="speaker">BARANI (GAL)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u14">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg20">Signora Presidente, anche il nostro Gruppo non voterà la conversione del decreto-legge recante misure urgenti per l'avvalimento di soggetti terzi per l'esercizio dell'attività di vigilanza della Banca d'Italia, perché, signora Presidente, è inutile chiudere le porte quando i buoi sono scappati. Ricordiamo che durante il Governo Monti si è dovuto prendere parte del debito del fallimento delle banche greche, dove erano esposte soprattutto le banche tedesche e francesi, ed a quel tempo siamo stati chiamati a sopperire alla mancanza di liquidità soprattutto delle banche tedesche e francesi. Signora Presidente, è inutile quindi che adesso diciamo di ridurre il rischio di fallimento delle banche nell'Unione europea. Lo abbiamo già fatto e abbiamo sopportato, ovviamente con grandi sacrifici da parte degli italiani, la mancanza di vigilanza da parte della BCE. L'unione economica, l'unione finanziaria, l'unione monetaria non ci può essere se continuiamo ad impedire alla Banca centrale di stampare moneta. Dobbiamo metterci in testa che se non stampiamo moneta - credo lo abbia già sottolineato la collega della Lega Nord - le banche del Nord Europa saranno meglio supportate dai loro Stati e quindi prevarranno sulle banche del Mediterraneo. Dovremmo riuscire a togliere questo peccato originale. Già nell'intervento di questa mattina ebbi modo di parlare di una preveggenza di un grande statista dello scorso secolo (ricordo il suo nome, Bettino Craxi), quando diceva che con l'Unione europea così come l'abbiamo realizzata (ossia solo un'unione monetaria, economica e finanziaria e non politica), se non si permetteva agli Stati di battere moneta, saremmo andati incontro a quello che lui definiva un inferno, come lo è stato. Dopo la modifica che abbiamo fatto riguardo alla Banca d'Italia qualche settimana fa, proprio in quest'Aula ebbi modo di intervenire dicendo che abbiamo svenduto la Banca d'Italia a privati. E questi privati noi adesso andiamo a cercare di garantirli con i soldi degli Stati sovrani. Questa grande debolezza da un lato, e invece questa grande capacità da parte delle banche del Nord Europa e di chi sta gestendo la politica economica e finanziaria, compreso lo spread in Italia, ossia la signora Merkel, dall'altro, non hanno di pari passo un Governo così forte da poter impedire il nostro vassallaggio economico e finanziario nei confronti della Germania. Se il Governo italiano si impone e obbliga a stampare moneta con qualsiasi effigie - ne sono convinto: anche quella di grandi esponenti dell'ex Partito Comunista, non ha importanza di chi sia l'immagine - otterrebbe il fine per cui è battuta: quello di rilanciare l'economia italiana. Quindi riteniamo che il decreto-legge in esame sia tardivo, insufficiente e che soprattutto non risolva le questioni alla base del fallimento economico e monetario del nostro Paese; il problema degli interessi della Germania e in parte anche della Francia, che ovviamente continuano a colonizzare l'economia italiana. Siamo completamente invasi da influenze straniere sul nostro suolo patrio. Riteniamo, quindi, che queste misure urgenti per l'avvalimento di soggetti terzi per l'esercizio dell'attività di vigilanza non siano necessarie. Quello che è necessario è fare in modo che la BCE batta moneta e - perché no? - anche con sopra l'immagine di quello che è stato uno dei padri dell'Unione europea: Bettino Craxi. Sono convinto che quei soldi farebbero comodo e li incasserebbe anche chi va a fare attività politica in vista delle elezioni europee in giro per l'Italia (perché pecunia non olet ): anche il leader del Movimento 5 Stelle li metterebbe in tasca, anche se hanno l'immagine di Bettino Craxi.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una delegazione del Parlamento regionale degli studenti della Toscana</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u15">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg21">Salutiamo la delegazione del Parlamento regionale degli studenti della Toscana, che è oggi in visita al Senato. Benvenuti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 1387</note>
+            <note type="time">16,58</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44135.htm</note>
+            <note type="time">(ore 16,58)</note>
+            <note type="speaker">MANCUSO</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#MancusoBruno" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u16">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg22">, relatore. Signora Presidente, ho ascoltato chi mi ha preceduto e considero assolutamente legittime alcune preoccupazioni che si sono evidenziate nel corso della discussione generale e delle dichiarazioni di voto circa, principalmente, due aspetti importanti del decreto-legge in esame, quali il conflitto di interessi e il segreto d'ufficio. Mi pare, tuttavia, avendo approfondito la questione, che all'interno dei regolamenti, soprattutto di vigilanza, della Banca d'Italia vi siano misure che ci mettono al riparo da ogni preoccupazione sotto questi profili. Ritengo, quindi, che questa sia una tappa fondamentale verso le procedure di unificazione bancaria. Se si crede in certi obiettivi e in certe finalità, se si crede, in definitiva, molto semplicemente, in un'Europa più unita e migliore anche dal punto di vista bancario, dobbiamo necessariamente adeguarci. La Banca d'Italia, infatti, così come abbiamo visto, è uno dei pochi istituti europei che non si avvale di parti terze nei compiti di vigilanza bancaria. Pertanto, in un momento in cui l'Europa ci chiede, nell'ambito delle procedure di approfondimento, di dare facoltà alla Banca d'Italia di questo avvalimento, non possiamo - se crediamo in questi obiettivi - assolutamente precludere la possibilità di andare verso l'unificazione bancaria. Sono d'accordo con il senatore Barani, che parla di stampare moneta, però è chiaro che, se lo dobbiamo fare, se ci dobbiamo credere, non possiamo ostacolare le tappe che vanno verso questo tipo di definizione. È evidente che, anche nella prospettiva delle elezioni europee, si vuole sfruttare questo provvedimento per apparire più o meno antieuropei. Secondo me questo è sbagliato. Infatti, è chiaro che chi non crede nell'Europa ostacola certi processi, mentre chi ci crede, come noi, non può fare altro che favorire certe procedure. Questa è una di quelle. Noi, come Nuovo Centrodestra, non possiamo che essere d'accordo sull'approvazione di questo disegno di legge. In quanto relatore, colgo anche l'occasione per ringraziare il Presidente della Commissione, gli Uffici e il Sottosegretario per il lavoro svolto. Il Nuovo Centrodestra voterà a favore del provvedimento di conversione del decreto-legge.</seg>
+            </u>
+            <note type="speaker">VACCIANO (M5S)</note>
+            <u ana="#regular" who="#VaccianoGiuseppe" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u17">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg23">Signora Presidente, francamente da alcuni degli interventi che ho ascoltato mi sorge il dubbio che qualche collega non abbia letto questo provvedimento e valutato la sua portata estremamente limitata: ma, giustamente, ognuno interviene come crede. Il provvedimento che esaminiamo oggi, infatti, che si è reso necessario esclusivamente per adeguare la normativa nazionale alle richieste effettuate dalla Banca centrale europea in previsione dell'assunzione da parte della stessa dei compiti di vigilanza unica sugli enti creditizi, pone alcuni spunti di riflessione. In via preliminare appare opportuno evidenziare come le previsioni normative contenute nel presente decreto-legge siano esplicitamente riferibili alle sole attività di vigilanza bancaria connesse con la valutazione approfondita prevista dal regolamento UE 1024/2013. Parliamo quindi di un atto normativo di portata estremamente limitata dato che, come noto, la BCE intende concludere la valutazione approfondita del sistema bancario nell'ottobre di quest'anno, in modo da poter avviare i nuovi compiti di vigilanza nel mese di novembre. Nella nota BCE dell'ottobre 2013, che per ovvi motivi fa riferimento in maniera generica a tutte le autorità nazionali alle quali competono le funzioni di vigilanza (per noi, la Banca d'Italia), si prevede che queste ultime si rivolgano a esperti del settore privato per ricevere assistenza nell'adempimento di compiti che necessariamente devono essere svolti in un arco temporale breve e che sono potenzialmente più gravosi rispetto alla normale attività di vigilanza. Appare quindi ragionevole prevedere, anche per meri motivi di standardizzazione normativa, che tale facoltà sia estesa anche alla Banca d'Italia. Prendo anche atto, pure con qualche perplessità, delle considerazioni effettuate dai rappresentanti dell'Istituto di via Nazionale in sede di audizione in 6ᵃ Commissione. In particolar modo mi riferisco a quelle che hanno sottolineato l'opportunità politica dell'avvalimento di soggetti terzi, senza il quale, cito testualmente, «avremmo potuto indebolire, agli occhi del mercato e degli investitori, la percezione di imparzialità dell'esercizio». Mi permetto solo di aggiungere: speriamo allora che questa percezione non sia mancata prima e non venga a mancare in futuro. In ogni caso, il legislatore non può esimersi dal considerare le peculiarità del proprio sistema di vigilanza. Mentre in alcuni Paesi europei potrebbe essere assolutamente necessario il ricorso a soggetti esterni, la Banca d'Italia, anche in virtù della solida struttura di vigilanza di cui dispone e dell'ampia esperienza maturata, avrebbe forse potuto far fronte alla maggior parte delle esigenze connesse con le attività di Asset Quality Review semplicemente utilizzando meglio le risorse umane e tecnologiche già presenti nell'Istituto, provvedendo per tempo, ove necessario, ad un potenziamento delle stesse mediante la valorizzazione del personale interno. Si consideri, inoltre, che i servizi resi da soggetti terzi hanno comportato e comporteranno spese straordinarie da parte dell'Istituto (quantificate tra i 20 e i 30 milioni di euro) e benché queste ultime non gravino in alcun modo sul bilancio dello Stato - fatto che dovrebbe essere noto a tutti, perfino a un Premier - è pur vero che i principi di ragionevolezza ed economicità applicati alle pubbliche amministrazioni nell'ambito dell'attività di spesa sono estensibili anche alla Banca d'Italia, che tra l'altro ne ha sempre affermato l'applicabilità al proprio interno. L'avvalimento di soggetti esterni, magari anticipando una doverosa attività formativa, sarebbe dovuta essere soluzione estrema, da esperire in condizione di dimostrata inadeguatezza delle risorse interne. Questo anche in virtù di un'altra considerazione: mentre l'attuale vigilanza opera oggi in base ad un quadro di norme interne e comunitarie che salvaguardano fortemente l'autonomia della funzione rispetto a soggetti terzi, anche e soprattutto governativi, tale copertura non sembra essere automaticamente estesa agli eventuali nuovi attori coinvolti, che rischiano quindi di essere permeabili a pressioni politiche o di altro tipo. Non è tutto. L'attuale impianto normativo prevede che il personale della Banca d'Italia che svolge attività di vigilanza abbia l'obbligo di riferire tutte le irregolarità constatate, anche quando assumono veste di reati, esclusivamente al Governatore, il quale di fatto si sostituisce al procuratore della Repubblica competente per materia e territorio ed è a sua volta soggetto all'obbligo di riferire al magistrato inquirente. Dato che questo decreto estende le suddette previsioni anche agli eventuali soggetti terzi coinvolti nelle attività di vigilanza, è evidente che ad essi viene dato anche un grande, implicito potere di pressione verso il Governatore, che naturalmente non può ignorare le denunce ricevute. Dato che questo decreto estende le suddette previsioni anche agli eventuali soggetti terzi coinvolti nelle attività di vigilanza, è evidente che ad essi viene dato anche un grande, implicito, potere di pressione verso il Governatore, che naturalmente non potrà ignorare le denunce ricevute. Mi chiedo se siano stati valutati questi aspetti o se si sia semplicemente proceduto ad una frettolosa traduzione in legge delle richieste della Banca centrale europea. Concludo con una riflessione di carattere più generale sull'argomento sul quale oggi si discute. Da un lato, è vero è che il vincolo imposto agli ispettori della Banca d'Italia di riferire al solo Governatore riguardo alle irregolarità rilevate trova la sua originale giustificazione nell'esigenza di evitare che tali irregolarità possano essere riconosciute prima che gli organi preposti alla disciplina del credito siano in grado di intervenire onde escluderne o almeno attenuarne le ripercussioni pregiudizievoli. Dall'altro, è anche evidente come tale sistema ponga ostacoli all'accertamento dei reati, anche non tipicamente bancari, commessi nell'ambito delle aziende di credito: anche nella migliore delle ipotesi, gli inquirenti saranno informati con un certo ritardo o disporranno di una documentazione iniziale filtrata dall'organo di controllo. Siamo in presenza di una riserva di legge, anche in materia penale seppur limitatamente ai reati tipicamente bancari, la cui interpretazione pone delicati problemi considerando anche le possibili ricadute sul principio di legalità. Sarebbe quindi opportuno stabilire in maniera definitiva quale debba essere il comportamento del Governatore una volta che questi venga a conoscenza di fatti penalmente rilevanti; se debba cioè prevalere l'interesse ad arginare il rischio di propagazione della perdita di fiducia nel settore creditizio o quello, che noi riteniamo preminente, di comunicare senza ritardo alcuno ogni irregolarità rilevante alla preposta autorità giudiziaria. Approfitto, infine, della presenza del rappresentante del Governo per un ultimo appunto: credo sia il caso di informare il Capo del Governo che, laddove si decidesse di chiudere 108 filiali della Banca d'Italia, occorrerebbe preliminarmente aprirne 50 dato che, allo stato attuale, quelle esistenti sono solo 58.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SCIASCIA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#SciasciaSalvatore" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u18">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg24">Signora Presidente, signori del Governo, onorevoli colleghi, il regolamento europeo n. 1024 del 2013, entrato in vigore il 3 novembre 2013, stabilisce che a decorrere da questa data la Banca centrale europea possa chiedere, in forza di poteri ad essa conferiti, alle autorità nazionali competenti di fornirle tutte le informazioni utili per effettuare una valutazione approfondita degli enti creditizi di ciascuno Stato membro partecipante. In base a tale richiamata disposizione, il provvedimento in esame, assegnato alla 6ᵃ Commissione del Senato in sede referente il 14 marzo e approvato con modifiche l'8 aprile, consente alla Banca d'Italia, quale autorità nazionale competente, di avvalersi di soggetti terzi per l'esercizio dell'attività di vigilanza informativa ed ispettiva sulle banche e sui gruppi bancari nazionali, ai fini dell'esercizio della valutazione che la Banca centrale europea deve concludere entro il 3 novembre 2014 e che prevede l'esame di ben 130 enti creditizi attivi in 18 Stati membri. Per l'Italia gli istituti da valutare sono 15. Quale ente primario di consulenza per la Banca centrale europea è stato nominato il gruppo di consulenza internazionale Oliver Wyman, che potrà dare, ma a richiesta, anche consulenza alla Banca d'Italia per ottenere indicazioni sulle modalità dell'intervento ispettivo. Rammento che la valutazione degli istituti di credito si applica qualora: il valore totale delle attività superi i 30 miliardi di euro; il rapporto tra le attività totali e il PIL dello Stato membro interessato superi il 20 per cento; l'ente creditizio sia uno dei tre maggiori istituti di uno Stato membro partecipante. La valutazione si sviluppa in tre fasi: un'analisi dei rischi a fini di vigilanza; un esame della qualità degli attivi; una prova di stress. Il risultato della valutazione potrà concretizzarsi in una serie di provvedimenti. Conseguentemente, al fine di poter porre in essere le valutazioni già menzionate di peso e complessità non indifferente, visto che vanno verificate le principali banche ed istituti di credito italiani, la Banca d'Italia potrà avvalersi non solo dei propri ispettori tecnici ma anche di soggetti terzi, in numero di circa 65-70, operanti nel settore delle libere professioni quali, ad esempio, i revisori contabili ed i valutatori. Si tratta, quindi, di un procedimento di notevole importanza, soprattutto di carattere tecnico, perché va verso la determinazione di un sistema unico bancario. Tutto ciò premesso, preannunzio il voto favorevole del Gruppo di Forza Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FORNARO (PD)</note>
+            <u ana="#regular" who="#FornaroFederico" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u19">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg25">Signor Presidente, signori del Governo, colleghi, l'avvio del meccanismo di vigilanza unico europeo e l'assunzione da parte della Banca centrale europea dei compiti di vigilanza fino ad ora affidati alle Banche centrali nazionali, rappresentano, come è stato ricordato da diversi colleghi che mi hanno preceduto, un passaggio epocale, di cui forse non si è abbastanza discusso e su cui forse non si è posta abbastanza attenzione, per i loro riflessi e le conseguenze future. L'attività di valutazione (peraltro in corso) dei rischi, della qualità degli attivi e degli stress test dovrà essere fatta entro ottobre 2014 e riguarderà ben 130 enti creditizi europei, pari a circa l'85 per cento del complesso degli attivi bancari del vecchio Continente. Si tratta di un'attività di valutazione che consentirà, finalmente, di avere parametri di valutazione uniformi per tutto il sistema bancario europeo, sottraendo quindi spazi alle furbizie nazionali e, soprattutto, alla speculazione internazionale. Come il governatore Visco, sono convinto anche io che le banche italiane usciranno bene da questi esami, e ciò potrà consentire di superare quel fenomeno di credit crunch che ha caratterizzato l'ultimo biennio. Notiamo con grande favore che, dopo molti mesi di decremento, gli impieghi del sistema bancario, nello scorso mese di marzo, sono finalmente cresciuti: essi sono arrivati a 1.850 miliardi di euro circa, ovvero due miliardi in più rispetto a febbraio. Non dimentichiamoci, però, che a marzo di due anni fa questi erano arrivati a 1.950 miliardi, ossia 100 miliardi in più di oggi. Il credito dato alle aziende sane rappresenta, infatti, una componente fondamentale per uscire dalla crisi. In questo contesto resta forte per noi la preoccupazione per la crescita costante delle sofferenze del sistema bancario italiano, arrivate al livello di 162 miliardi al lordo delle svalutazioni e a 78 miliardi di euro per le sofferenze nette. Si tratta di livelli di sofferenza che, al di là degli oggettivi effetti prodotti dalla recessione, dovrebbero indurre a una seria autocritica sul passato e a un ripensamento dei sistemi di controllo dell'erogazione del credito e dei criteri di valutazione delle posizioni deteriorate. Ben venga, quindi, la vigilanza europea: una vigilanza con un sistema uniforme di valutazione, come ho detto, e, per quanto rimarrà di sua competenza, della Banca d'Italia. Come è stato ricordato, il decreto consente semplicemente alla Banca d'Italia di integrare, con 65 professionisti esterni, il personale della vigilanza interna a disposizione dei capi ispettori. C'è da chiarire un passaggio, che abbiamo voluto approfondire in particolare con l'audizione dei rappresentanti della Banca d'Italia: la posizione dei professionisti esterni sarà di staff e di supporto ai capi ispettori e non sarà mai, quindi, un'attività indipendente rispetto a quella del responsabile dell'ispezione della Banca d'Italia. In altri termini, non sono previste ispezioni effettuate soltanto da soggetti esterni. Quindi, da questo punto di vista, le preoccupazioni che sono state espresse da diversi colleghi mi pare possano trovare una risposta corretta proprio in questa attività di supporto e di staff e non di assoluta indipendenza. Per queste ragioni il Gruppo del Partito Democratico voterà a favore di questo provvedimento. Cogliamo l'occasione per rinnovare l'apprezzamento per il difficile lavoro svolto dalla Banca d'Italia in questi anni, raccomandandole di continuare a garantire, nell'attività di vigilanza e di supervisione, la massima attenzione e controllo nel rispetto dei principi basilari della trasparenza e dell'equità nei comportamenti, elementi che, se possibile, appaiono ancora più importanti e determinanti in una fase così delicata non solo per le nostre banche ma per l'intera economia italiana ed europea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">*SCILIPOTI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#ScilipotiIsgroDomenico" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u20">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg26">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg27">Signora Presidente, penso che all'interno di quest'Aula il dibattito faccia sempre bene e, a differenza di qualche collega, ritengo che nessuno faccia perdere tempo. Mi riferisco in modo particolare ad alcune parole utilizzate ieri nel corso del dibattito. PRESIDENTE. Senatore, la richiamo all'argomento: motivi il suo dissenso su questo provvedimento. SCILIPOTI (FI-PdL XVII). Ieri alcuni colleghi del Movimento 5 Stelle nel manifestare hanno utilizzato una riflessione dicendo che si perdeva tempo. Ritengo che qui nessuno faccia perdere tempo e che tutti cerchino di dare un contributo nell'interesse complessivo per far sì che si portino avanti leggi a vantaggio del Paese. Qualcuno, dopo il mio intervento, si chiederà qual è il nesso tra il disegno di legge e la mia riflessione. Il nesso c'è, cara Presidente, perché parlo di Banca d'Italia e, quindi, tutto il passaggio che viene messo in discussione oggi su questo disegno di legge non lo condivido perché ritengo sia sbagliato a 360 gradi dato che l'impostazione dovrebbe essere completamente diversa. Dovremmo riflettere in maniera differente da come stiamo facendo e dovremmo interrogarci sulla situazione della Banca d'Italia allo stato attuale. La Banca d'Italia non è una banca dell'Italia, ma una banca privata, che agisce non nell'interesse della collettività e del Paese Italia, ma nell'interesse di alcuni privati. Faccio questa riflessione perché voi sapete meglio di me che la Banca d'Italia è l'unica banca in Europa ad essere privata dato che le azioni sono al 97 per cento dei privati e per circa il 3 per cento dello Stato. Questo comporta un sistema di controllo non serio, ma falsato. La Banca d'Italia dovrebbe essere il tutore e il controllore di coloro i quali esercitano una determinata attività, ma non lo è perché questi sono i proprietari di tale entità. Allora faccio una riflessione ad alta voce. PRESIDENTE. Dovrebbe concludere. SCILIPOTI (FI-PdL XVII). Chiederei al Presidente del Consiglio e al rappresentante del Ministero qui in Aula perché la Banca d'Italia mette al passivo ciò che dovrebbe essere nell'attivo e all'attivo ciò che dovrebbe essere nel passivo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Sposetti</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg28">Nel 2011 la Banca d'Italia, per conto della BCE, ha messo in circolo 138 miliardi di euro, che sono soldi del Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg29">PRESIDENTE. Deve concludere, altrimenti sono costretta ad interrompere il suo intervento. La faccio finire nei termini previsti dal Regolamento. Ha trenta secondi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg30">Perché 138 miliardi di euro che vengono messi in circolo per conto degli italiani con un costo dello 0,5 per cento, che è il costo reale, vengono poi commercializzati per il valore di 138 miliardi di euro, che fino all'altro ieri erano dello Stato e del Paese e oggi sono dei privati? Detto questo, lei mi invita a concludere e a non proseguire la mia riflessione, ma voglio dire con grande forza che sono in dissenso perché la struttura del provvedimento è completamente sbagliata.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u21">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg31">Comunico che da parte del relatore è stata presentata la proposta di coordinamento C1, che è in distribuzione. Senatore Mancuso, intende illustrarla?</seg>
+            </u>
+            <note type="speaker">MANCUSO</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#MancusoBruno" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u22">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg32">Signora Presidente, in realtà non c'è molto da illustrare: si tratta soltanto di una correzione formale per uniformare il testo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u23">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg33">Ai sensi dell'articolo 103, comma 5, del Regolamento, metto ai voti la proposta di coordinamento C1, presentata dal relatore.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg34">È approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg35">Procediamo ora alla votazione finale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg36">PETROCELLI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dal senatore Petrocelli, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, del disegno di legge, composto del solo articolo 1, nel testo emendato, con il seguente titolo: «Conversione in legge, con modificazioni, del decreto-legge 14 marzo 2014, n. 25, recante misure urgenti per l'avvalimento dei soggetti terzi per l'esercizio dell'attività di vigilanza della Banca d'Italia», con l'avvertenza che la Presidenza si intenderà autorizzata ad effettuare le eventuali ulteriori modifiche di coordinamento formale che dovessero risultare necessarie. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Discussione e reiezione della mozione 1-00230 - Revoca nomina sottosegretario Del Basso de Caro</head>
+            <note type="time">(ore 17,23)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u24">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg37">L'ordine del giorno reca la discussione della mozione 1-00230 , presentata dal senatore Santangelo e da altri senatori, per la revoca della nomina nei confronti del sottosegretario Del Basso de Caro. Ha facoltà di parlare il senatore Petrocelli per illustrarla.</seg>
+            </u>
+            <note type="speaker">PETROCELLI (M5S)</note>
+            <u ana="#regular" who="#PetrocelliVitoRosario" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u25">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg38">Signora Presidente, la ringrazio. Nella mozione per la revoca della nomina nei confronti del sottosegretario Del Basso de Caro, sottolineiamo innanzitutto il fatto che la procura della Repubblica di Napoli ha emesso, a suo carico, un invito a comparire per il reato di peculato, al fine di accertare la destinazione di alcune somme non rendicontate (che a noi risultano essere pari a 11.300 euro), utilizzate nel corso del suo mandato di consigliere regionale della Campania.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg39">Il reato per cui il signor Sottosegretario è indagato è previsto dall'articolo 314 del codice penale ed è inserito nel capo I del titolo II del suddetto codice, relativo ai delitti contro la pubblica amministrazione. Con la previsione di questa fattispecie, il legislatore incrimina la condotta del pubblico ufficiale o dell'incaricato di pubblico servizio che, «avendo per ragioni del suo ufficio o servizio il possesso o comunque la disponibilità di denaro o di altra cosa mobile altrui, se ne appropria».</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg40">Vorremmo quindi che fosse valutato il fatto che il Sottosegretario svolge il suo mandato governativo in un Ministero, quale quello delle infrastrutture, che ha competenze rilevantissime sulle infrastrutture e sui lavori pubblici nazionali, sulle reti di comunicazione stradali, autostradali, ferroviarie, lacuali, aeree e aeroportuali, marittime e portuali. Si occupa, inoltre, dell'edilizia residenziale, pubblica e privata, e sovrintende alla pianificazione degli appalti pubblici di competenza statale. Esercita le competenze sulle strade previste dal codice della strada e le competenze in ambito marittimo e della navigazione, compresa la marina mercantile e la navigazione aerea, entrambe regolate dal codice della navigazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg41">Ancor di più, detiene competenze sulla programmazione e regolazione in materia di trasporto intermodale, sul trasporto pubblico locale, sulla vigilanza sull'Agenzia nazionale per la sicurezza delle ferrovie, sull'autotrasporto di persone e cose, sul demanio marittimo, sulla vigilanza sulle autorità portuali e sulle attività nei porti. Si tratta di cose di non poco conto.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg42">Ci sembra che alle considerazioni che attengono alla palese inopportunità politica della permanenza in carica del Sottosegretario e al necessario principio di cautela e precauzione nell'affidamento di cariche pubbliche di nomina governativa si aggiunga l'incompatibilità tra la delicatezza di questo mandato e la contemporanea indagine giudiziaria in corso, concernente, per di più, un delitto contro la pubblica amministrazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg43">Noi riteniamo la grave compromissione dell'onorabilità del Sottosegretario e della sua attività ministeriale come un fatto che non consenta la sua ulteriore permanenza in siffatta e delicata carica di impegno e responsabilità.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg44">Quindi, nella mozione chiediamo un impegno al Governo ad avviare immediatamente la procedura di revoca, su proposta del Presidente del Consiglio dei ministri, sentito il Consiglio dei ministri, della nomina a sottosegretario di Stato dell'avvocato Umberto Del Basso de Caro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u26">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg45">Poiché non vi sono iscritti a parlare nella discussione, ha facoltà di parlare il rappresentante del Governo, al quale chiedo di esprimere il parere sulla mozione presentata.</seg>
+            </u>
+            <note type="speaker">PIZZETTI</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#regular" who="#PizzettiLuciano" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u27">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg46">Signora Presidente, il sottosegretario Del Basso de Caro allo stato risulta indagato e non imputato. Proprio in veste di indagato ha fatto richiesta di essere ascoltato dal pubblico ministero per dar conto del proprio operato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg47">Noi riteniamo che proprio nel rigoroso rispetto del principio di legalità, l'informazione di garanzia vada ricondotta alla sua funzione di tutela dell'indagato senza che si anticipi l'esito dell'indagine da parte di un corpo politico. Troppe persone hanno visto la propria vita professionale e politica segnata da conclusioni sbagliate di avvisi di garanzia conclusisi poi con non rinvio a giudizio o con assoluzioni nel processo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg48">Perciò l'opinione del Governo è contraria all'accoglimento della mozione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Fornaro e Gatti.</desc>
+               </kinesic>
+            </u>
+            <note type="voting">VOTAZIONE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u28">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg49">Passiamo dunque alla votazione.</seg>
+            </u>
+            <note type="speaker">SUSTA (SCpI)</note>
+            <u ana="#regular" who="#SustaGianluca" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u29">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg50">Signora Presidente, credo che le parole pronunciate adesso dal Sottosegretario siano assolutamente condivisibili, quindi ritengo che la richiesta avanzata in maniera pretestuosa dal Gruppo Movimento 5 Stelle vada respinta, anche perché ci sono garanzie che vanno assicurate. Ricordo che nella riforma del codice di procedura penale l'avviso di garanzia è stato immaginato a tutela, da un lato, della segretezza delle indagini, proprio perché era giusto che si potesse indagare sulle persone, salvo alcuni atti particolari (perquisizioni, ispezioni e quant'altro), e raccogliere il materiale per chiudere le indagini. L'avviso di chiusura di un'indagine non può essere scambiato per una condanna preventiva. Quindi, io mi associo alle considerazioni del Sottosegretario, e noi respingeremo questa richiesta.</seg>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u30">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg51">Signora Presidente, la nostra posizione ricalca un po' l'intervento del collega Susta. Ormai la battaglia politica si fa con tutti gli strumenti di cui si può disporre. Sappiamo che qua ogni pretesto può essere utilizzato «per...». Abbiamo una stampa, un sistema mediatico che è avido di scandali, scandaletti e scandalismi e che deve riempire pagine tutti i giorni ancorché non ce ne sia la necessità. Noi probabilmente gli stiamo offrendo un'opportunità per scrivere un capitolo di storia che tocca il Parlamento, che tocca il Governo. Ma, facendo un'analisi: lasciamo la libertà ai giudici e ai tribunali di agire, oltre che agli imputati di dimostrare che non c'entrano niente. Se vogliamo preventivamente mettere il carro davanti ai buoi e sentenziare prima ancora di conoscere fatti e responsabilità, allora si sta iniziando un percorso che veramente ci porta a grossi rischi. Da parte nostra capiamo che ogni pubblico ufficiale debba essere al di sopra di ogni sospetto, però ci sembra di essere in una fase iniziale e preventiva, e oggettivamente non ci sentiamo, ad oggi, allo stato degli atti, di dare un giudizio su una questione che è meramente agli atti, con un indagato che ha ricevuto un avviso di garanzia, che sta per difendersi o produrre documenti per dimostrare che quella ipotesi di reato non esiste. Noi ci asterremo dal voto su questa mozione, ma biasimiamo questo modo di agire, che ci sembra molto pretestuoso e finalizzato ad altri obiettivi.</seg>
+            </u>
+            <note type="speaker">COMPAGNA (NCD)</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u31">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg52">Signora Presidente, i senatori del Gruppo del Nuovo Centrodestra non ritengono che questa mozione possa essere accolta o, per lo meno, non certo con il nostro voto. Nella sua essenziale sobrietà, il rappresentante del Governo ha precisato i termini della questione. Ogni altra considerazione, come diceva molto bene il collega Divina, sarebbe una forzatura di quell'indipendenza ed autonomia della magistratura tante volte strumentalmente evocate in questi casi. Nell'assoluto rispetto della libertà dei colleghi di presentare qualsiasi tipo di documento, faccio presente che non ci sembra una bella pagina degradare l'Aula del Senato, fra l'altro in modo pretestuoso, con riferimento ad un moralismo di massa sempre volgare e, nel caso di Umberto Del Basso de Caro, del tutto ingiustificato. Di qui il nostro voto contrario alla mozione presentata.</seg>
+            </u>
+            <note type="speaker">BARANI (GAL)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u32">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg53">Signora Presidente, anche il nostro Gruppo ovviamente voterà contro questa mozione, che ritiene a tratti volgare e disonesta politicamente. Il sottosegretario, avvocato Del Basso de Caro, è una persona seria, onesta, capace e, ovviamente, innocente fino a prova contraria in base alla nostra Costituzione, cioè fino a sentenza definitiva, da noi prevista dopo tre gradi di giudizio. Noi, di cultura socialista e garantista, diciamo che certe volte, anche con sentenze di condanna passate in giudicato, una persona può rimanere seria e capace, soprattutto se ha ricevuto una condanna politica, come ce ne sono state negli ultimi mesi, negli ultimi tempi. Noi riteniamo sbagliato generalizzare, con falso populismo, che basti che ci sia un'indagine della magistratura. E basta con questa magistratura che si sostituisce alla politica! Basta con il rincorrere i magistrati! Questi devono fare il loro dovere, come fa la gran parte di loro, e bisogna isolare quelli estremamente politicizzati che agiscono così per sostituirsi a noi in queste Aule parlamentari. Termino con un esempio. Se il Movimento 5 Stelle fosse esistito al tempo del fascismo, quando colui che poi sarebbe diventato il presidente della Repubblica, Sandro Pertini, addirittura era stato condannato all'ergastolo, da quest'Aula sarebbe stato ritenuto ovviamente un delinquente. Invece, delinquente era chi lo ha condannato. È per questo motivo che dico che la vicenda va vista nel contesto storico in cui ci troviamo. Noi riteniamo che la mozione debba essere respinta, ma ancor di più, a monte: che volgarità impegnare il Senato, con i problemi che hanno gli italiani, su una mozione nei confronti di un Sottosegretario che sta facendo il suo lavoro. Se devo trovare un neo al sottosegretario Del Basso de Caro, dico che, essendo garantista e avendo collaborato con i socialisti ed essendo stato vicino a Bettino Craxi, ritrovarsi nel Partito Democratico è veramente l'unico neo che gli posso contestare, ma non è sufficiente per votare contro di lui. Respingiamo quindi questa mozione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Compagnone.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u33">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg54">Salutiamo gli studenti dell'Istituto comprensivo statale «Piero Gobetti» di Caltagirone, in provincia di Catania, che sono oggi in visita al Senato. Benvenuti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ripresa della discussione della mozione 1-00230 - Revoca nomina sottosegretario Del Basso De Caro</head>
+            <note type="time">(ore 17,37)</note>
+            <note type="speaker">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u34">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg55">Signora Presidente, intervengo per sviluppare una considerazione. L'uso smodato e ingiustificato dell'istituto della mozione di sfiducia comporterà sicuramente per il futuro un suo svilimento. Dico quindi ai colleghi che utilizzando ripetutamente questi strumenti che la democrazia parlamentare mette a disposizione non si fa un buon lavoro, né a favore del principio della purezza, diciamo così, della funzione pubblica, né a favore dello sviluppo della dialettica parlamentare: è evidente infatti che l'uso ripetuto e ingiustificato, senza motivazione alcuna se non quella dell'opportunità politica, che ci può essere anche nel caso del collega e sottosegretario Del Basso de Caro, sicuramente non aiuterà una corretta dialettica parlamentare. In uno Stato di diritto, dove vige il principio della presunzione di non colpevolezza, l'uso di uno strumento di questo genere, senza peraltro nessun contenuto, può portare a una deriva che - lo ricordo ai colleghi del Movimento 5 Stelle - ricadrà su coloro che l'hanno attivato. Nella dialettica parlamentare, l'uso strumentale (io non sono fra quelli che lo faranno) di certi istituti si ripeterà, e voglio augurarvi che il giorno che sarete al Governo avrete qualcuno che vi ricorderà questo abuso ripetuto. Qualcuno dice che sarebbe opportuno evitare che i colleghi andassero al Governo; io sono d'accordo con lui, ma nella dialettica parlamentare e in democrazia sicuramente questa possibilità bisogna almeno in teoria prevederla. Per tali ragioni, il Gruppo Per le Autonomie-PSI-MAIE è contrario alla mozione di sfiducia.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u35">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg56">Signora Presidente, signor rappresentante del Governo, colleghi, onorevoli cittadini che fortunatamente ci ascoltate da fuori, grazie al Movimento 5 Stelle in quest'Aula oggi si discute di moralità pubblica, di dignità istituzionale, di dovere civile da parte di chi esercita funzioni pubbliche. Noi riteniamo infatti che l'unica speranza per questo Paese non sia qualche euro in busta paga dato per comprare dei voti, bensì la legittimità morale di chi la propone. Cari cittadini, lo stiamo vedendo tutti: la squadra di Governo che il signor Renzi ha formato non ha alcun requisito di onorabilità ed è una delle più indagate della storia della Repubblica italiana. È un vero e proprio scandalo nazionale di cui nessun mezzo di informazione parla. Vorrei ricordare qualche dato, che non scriviamo noi del Movimento 5 Stelle, perché a questo il signor Renzi e la sua squadra hanno pensato da soli. Il signor Renzi per primo è condannato dalla Corte dei conti della Toscana per danno erariale; ha inoltre scroccato per anni l'utilizzo di un attico nel centro di Firenze di proprietà dell'imprenditore Carrai.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg57">PRESIDENTE. Senatore Santangelo, cerchi di usare un linguaggio un po' più consono.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg58">Signora Presidente, è molto consono. PRESIDENTE. No, il verbo da lei utilizzato non è consono. SANTANGELO (M5S). Signora Presidente, il ministro del lavoro Poletti è in mostruoso conflitto di interessi. Il ministro dello sviluppo economico Guidi è imposto da Berlusconi in cambio di un trattamento di favore sulle radiofrequenze. La sottosegretario per i beni e le attività culturali e per il turismo Barracciu è indagata per reato di peculato; il vice ministro dell'interno Bubbico ha un procedimento penale in corso per reato di abuso d'ufficio, così come il ministro delle infrastrutture e dei trasporti Lupi, il sottosegretario di Stato per la salute Vito De Filippo, fino ad arrivare a Del Basso de Caro, del quale tutti quanti conoscete qui il curriculum, da Mastella in poi, Craxi e così via. Signora Presidente, il Movimento 5 Stelle ha presentato mozioni volte alla rimozione dagli incarichi dei Ministri e dei Sottosegretari in conflitto di interessi, indagati e sotto processo. Su queste mozioni tutti potranno pronunciarsi in maniera democratica, esprimendo il proprio voto, facendolo conoscere anche ai cittadini fuori. Do qualche dato in più, ricordando ciò che accade in altri Paesi europei, perché per crescere bisogna confrontarsi; non si fa come ha fatto il presidente Grasso questa mattina nel corso della discussione sul provvedimento di modifica dell'articolo 416- ter del codice penale, quando ci ha tolto la possibilità di parlare. Pensate che in Francia, ad esempio, nel 2005 si è dimesso il Ministro dell'economia per un affitto pagato da altri (presidente Renzi, ascolti!). Nel 2006 in Svezia si sono dimessi ben due Ministri, uno perché non pagava il canone televisivo e l'altro per aver retribuito in nero la tata dei suoi figli, e potremmo andare avanti, richiamando quello che succede in moltissimi altri Paesi europei. Qui non si tratta di stabilire o meno la colpevolezza del sottosegretario Del Basso de Caro, ma si tratta di opportunità. Da noi, invece, che cosa si fa? Tutto il contrario. Si forma un Governo in cui per uno dei migliori magistrati antimafia si trovano delle fantomatiche incompatibilità - perfino Napolitano è intervenuto - mentre si stendono i tappeti rossi per gli indagati rinviati a giudizio e si fanno gli sconti per i mafiosi e i politici collusi con la mafia. In un Paese normale tutto questo non accade; in Italia, invece, purtroppo è ancora così. A prescindere dal reato e dalla questione giudiziaria, signori, nei Paesi civilizzati ci si dimette, o meglio non si accetta l'incarico, per una semplice questione di opportunità, di precauzione, di rispetto e dignità istituzionale. Mi chiedo: ma il Partito Democratico, che è molto grande, non riesce a trovare tra le sue fila un incensurato, un non indagato per sostituire il sottosegretario Del Basso de Caro?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg59">L'articolo 54 della Costituzione sancisce che i cittadini cui sono affidate funzioni pubbliche hanno il dovere di adempierle con disciplina ed onore. Signori, il sottosegretario Del Basso de Caro, a parer nostro e di tantissimi cittadini che sono fuori da quest'Aula, ha irrimediabilmente perso questa onorabilità. Chiediamo che per decenza e per dignità istituzionale il sottosegretario Del Basso de Caro torni con pacatezza e gentilezza a casa sua: ripeto, a casa sua.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u36">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg60">Signora Presidente, sono molto pochi i provvedimenti, le decisioni e le scelte del Governo Renzi che noi condividiamo. Noi non abbiamo votato la fiducia all'inizio, così come non abbiamo votato la fiducia in tutti i casi nei quali essa è stata posta. A parecchie scelte dell'attuale Governo siamo decisamente contrari, ma qui ci si propone di estromettere dal Governo un Sottosegretario perché - lo leggo dal testo stesso della mozione - «la Procura della Repubblica di Napoli ha emesso, a suo carico, un invito a comparire per il reato di peculato, al fine di accertare» - al fine di accertare, nota bene - «la destinazione di somme non rendicontate (pari a 11.300 euro), utilizzate nel corso del suo mandato di Consigliere regionale della Campania». È dalle stesse parole della mozione che ricavo la necessità di aspettare quanto meno questi chiarimenti prima di mettere in atto le procedure di revoca. Naturalmente, com'è stato appena detto, una persona potrebbe dimettersi, certamente, come è altrettanto vero che le scelte nelle nomine dei membri del Governo sono sempre opinabili: ma sono, per l'appunto, fatte dal Governo. Credo che potremmo giustificare una mozione di questo genere per ragioni politiche, per l'esercizio del mandato, per cose fatte male o non fatte quando si dovevano fare da parte di un Sottosegretario, di un Vice Ministro o di un Ministro nel corso del suo mandato, non perché deve andare in tribunale a chiarire in merito a una vicenda sulla quale, a quanto pare, è indagato. Pertanto, voteremo contro la mozione in esame, ribadendo che non si tratta di una fiducia al Governo, ma di una contrarietà ad un metodo. Se, cari colleghi, basta un'indagine o un invito a comparire per estromettere qualcuno da una determinata carica nella quale o le elezioni oppure, come in questo caso, i meccanismi previsti dalla Costituzione lo hanno portato, è ben evidente che la scelta non apparterrebbe più né al popolo né ai suoi rappresentanti, per cui non apparterrebbe più al popolo sovrano né direttamente né indirettamente, ma apparterrebbe alla discrezionalità, che giustamente i magistrati hanno perché scelgono come compiere le indagini: a volte ci azzeccano, non sempre lo fanno, e sappiamo bene quanti indagati poi sono stati trovati del tutto estranei, e peraltro anche condannati. Infine, sono risuonate ieri e anche questa mattina parole di condanna morale, di sdegno; in particolare, il nostro Gruppo è stato attaccato con accuse di ogni genere, che preferisco non menzionare, ma sempre basate sulla moralità. Ebbene, cari colleghi che avete firmato questa mozione, è più grave una condanna per reati fiscali, o un'indagine per 11.000 euro, oppure una condanna per omicidio colposo in cui è morta un'intera famiglia, compreso un bambino?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u37">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg61">Signora Presidente, voglio rifarmi ai fatti così come sono stati ricordati dal sottosegretario Pizzetti, e anche rammentare all'Aula che la persona di cui stiamo parlando, il sottosegretario Del Basso de Caro, ha un passato integro. È presidente dell'ordine degli avvocati di Benevento. Per i fatti di cui stiamo parlando non è mai stato interrogato dalla magistratura e l'unico atto che gli è stato sinora notificato è l'avviso di chiusura delle indagini preliminari. Nella mozione del Movimento 5 Stelle, che anch'io come il senatore Buemi ho letto attentamente, l'unico argomento che viene usato, l'unico argomento al quale anche il senatore Santangelo ha fatto riferimento, è quello dell'inopportunità politica. La mozione non aggiunge nulla di più che non sia la notizia della chiusura delle indagini che riguardano il sottosegretario Del Basso de Caro. So bene, lo sappiamo bene tutti, che la responsabilità politica - lo ricordava il senatore Santangelo - può intervenire anche molto prima della dichiarazione giudiziaria di colpevolezza, e questo è particolarmente vero in un Paese come l'Italia dove i tre gradi di giudizio possono durare molto. Non è però ammissibile far scattare l'inopportunità soltanto per la chiusura delle indagini preliminari, in una fase che è assolutamente iniziale di un procedimento di cui non si conosce né il seguito, né tanto meno quello che sarà l'esito. Negli ultimi due anni, signora Presidente, in gran parte delle Regioni italiane sono stati aperti giudizi per l'uso illecito di risorse pubbliche assegnate ai Gruppi politici delle Regioni, ma non tutti i casi che sono stati portati a conoscenza dell'opinione pubblica sono uguali. Per lo stesso capo di accusa per il quale è stata aperta l'indagine nei confronti dell'onorevole Del Basso de Caro (come ricordava qualcuno, l'uso di 11.000 euro del suo Gruppo consiliare) pochi giorni fa le procure di Milano e di Torino hanno archiviato procedimenti riferiti ai consiglieri regionali di quelle Regioni. Ora, condanne in blocco, senza distinguere caso da caso, senza sapere se le risorse pubbliche sono state impiegate per le attività politiche cui erano destinate o per spese personali, non sono consentite proprio per ragioni di giustizia. Penso che la politica sbaglierebbe se si limitasse ad assistere al lavoro dei giudici, senza riuscire ad assumersi le sue responsabilità. È per questo che dobbiamo apprezzare che, per disciplinare una volta per tutte questa materia finora non regolamentata, nella riforma costituzionale del Governo Renzi viene soppresso ogni rimborso pubblico in favore dei Gruppi dei Consigli regionali. Ma c'è una cosa da aggiungere, perché colora di politica questa vicenda e questo nostro dibattito. Il Movimento 5 Stelle, oltre alla mozione Del Basso de Caro, ne ha presentate ben altre sei, nei confronti dei ministri Poletti, Guidi e Lupi, del vice ministro Bubbico e dei sottosegretari De Filippo e Barracciu. Ora, vi è un'idea sbagliata della politica e della vita parlamentare in questo uso simultaneo e seriale delle mozioni di sfiducia, presentate per casi diversi con testi molto simili nei loro elementi fondamentali, senza alcun preventivo lavoro di accertamento e di verifica, senza una coscienziosa valutazione caso per caso. È trasparente l'intento di tenere occupata l'Assemblea a discutere su avversari politici che hanno diritto di essere rispettati dal momento che non solo le decisioni dei giudici non sono state assunte, ma non sono neanche conosciuti gli esiti della fase istruttoria. È per queste ragioni che i senatori del Partito Democratico respingeranno la mozione del Movimento 5 Stelle, su cui, però, voglio aggiungere qualcosa di politico, che è connesso all'uso e al contenuto di queste sette mozioni. In Italia, infatti, è in atto una sfida politica, signora Presidente. Da un lato, c'è il Movimento 5 Stelle... CASTALDI (M5S). Dall'altro tutti voi simili! ZANDA (PD). ...che dichiara guerra all'Unione europea e alle istituzioni democratiche, che ci ha abituati a sentire gli insulti agli avversari politici e che ci ha fatto sentire anche gli oltraggi fascistoidi di Grillo agli scritti di Primo Levi e alle vittime del mattatoio di Auschwitz.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg62">SANTANGELO (M5S). Fascista sei tu!</seg>
+               <kinesic type="applause">
+                  <desc>Commenti dal Gruppo M5S. Richiami del Presidente. Applausi ironici del senatore Endrizzi. Commenti del senatore Martelli</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg63">PRESIDENTE. Fate concludere l'intervento del senatore Zanda. Senatore Zanda, la prego di attenersi al tema.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg64">Signora Presidente, io mi sto attenendo al tema, perché questo è un tema politico, e come tale deve essere sviluppato. Ci sono anche le sedute di ieri e la seduta di questa mattina. Io ho sentito ieri il senatore Buccarella che accusava il Partito Democratico di usare la provocazione. Il senatore del suo Gruppo che è intervenuto dopo di lui ha affermato che il Partito Democratico aveva una certa posizione sull'articolo 416- ter perché sarebbe stato guidato dalle telefonate di Totò Riina.</seg>
+               <vocal type="speaking">
+                  <desc>Vivaci commenti dei senatori Santangelo e Buccarella.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg65">PRESIDENTE. Senatore Santangelo, senatore Buccarella, fate concludere l'intervento del senatore Zanda. Senatore Zanda, la prego di procedere nel suo intervento.</seg>
+               <kinesic type="applause">
+                  <desc>Vivaci commenti dei senatori Crimi, Marton, Buccarella, Santangelo, Airola e Lucidi. Applausi ironici del senatore Airola.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg66">Presidente, chi ha detto questa stupidaggine non ha fatto ridere nessuno.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del senatore Lucidi</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg67">Non fa ridere. Fa solo pena. Fa solo pena.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg68">LUCIDI (M5S). (Il senatore Lucidi si alza e si sporge dalla balaustra). Tu fai proprio pena! Tu fai pena! PRESIDENTE. Senatore Lucidi, la prego, torni al suo posto. Senatore Zanda, può proseguire nel suo intervento. ZANDA (PD). Io proseguo, Presidente, se mi lasciano...</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del senatore Buccarella</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg69">MARTON (M5S). Lo faccia smettere di provocare! AIROLA (M5S). È uno spot elettorale! PRESIDENTE. Fate concludere il senatore Zanda, che sta esprimendo le sue opinioni.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg70">Se posso...</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del senatore Santangelo</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg71">PRESIDENTE. Senatore Santangelo! SANTANGELO (M5S). (Rivolto alla Presidenza). Lui può offendere, vero? Lui può offendere e tu stai zitta! PRESIDENTE. Senatore Santangelo, la prego di far concludere. MARTELLI (M5S). Chiedo la parola per un richiamo al Regolamento! PRESIDENTE. Non può intervenire per un richiamo al Regolamento mentre si sta svolgendo un altro intervento. Prego, senatore Zanda. MARTELLI (M5S). Presidente, articolo 90 del Regolamento! Sta andando fuori tema! PRESIDENTE. Prego, senatore Zanda ZANDA (PD). Come tutti i senatori, ho diritto di parlare in quest'Aula nel silenzio. SANTANGELO (M5S). Per offendere! PRESIDENTE. Senatore Santangelo, la richiamo all'ordine! SANTANGELO (M5S). A me? PRESIDENTE. Sì, a lei.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici del senatore Santangelo</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg72">Senatore Santangelo!</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del senatore Lucidi</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg73">SANTANGELO (M5S). Sei brava! PRESIDENTE. Senatore Lucidi, la richiamo all'ordine.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del senatore Martelli</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg74">Senatore Martelli! FORNARO (PD). Lasciate parlare! Lasciate parlare! Siete dei fascisti! MARTON (M5S). Fornaro, ma che vuoi? Ma che vuoi? BORIOLI (PD). Fascisti! PRESIDENTE. Senatore Marton, prego lei e altri colleghi di far concludere l'intervento del senatore Zanda, altrimenti, come già fatto dal presidente Grasso questa mattina, sarò costretta ad allontanarvi dall'Aula. In questa Assemblea tutti hanno diritto di parlare e di esprimere le proprie opinioni! SANTANGELO (M5S). Questa è la tua democrazia! ZANDA (PD). Presidente, io...</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del senatore Martelli</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg75">PRESIDENTE. Senatore Martelli, la richiamo all'ordine! ZANDA (PD). Terminerò con poche battute, perché non posso certo consentire che questo mio intervento paralizzi l'Aula. Mi faccia però dire che il Movimento 5 Stelle ritiene che paralizzare l'Aula del Senato gli porti voti.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Santangelo</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg76">Noi pensiamo l'esatto contrario. Pensiamo che ragionare, parlare e fare buona politica possa portare anche successo politico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e dei senatori Casini e Buemi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg77">Voglio dire...</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg78">PRESIDENTE. Grazie.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg79">Presidente, mi faccia finire. Ho il mio tempo e debbo ancora dire qualcosa. PRESIDENTE. Sto cercando di garantire il suo diritto a parlare. ZANDA (PD). Voglio dire al Movimento 5 Stelle che gli italiani sono persone intelligenti... SANTANGELO (M5S). Tu non sei italiano! ZANDA (PD). ...e sanno distinguere tra chi vuole paralizzare il Paese e far male alle istituzioni... LEZZI (M5S). Non può parlare! BULGARELLI (M5S). Non può parlare! PRESIDENTE. Senatrici Lezzi e Bulgarelli!</seg>
+               <vocal type="shouting">
+                  <desc>Reiterate proteste dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg80">ZANDA (PD). ...e chi invece lavora per dare un futuro all'Italia e agli italiani, e lo dimostreranno il 25 maggio!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg81">AIROLA (M5S). Guarda lo spot ! LEZZI (M5S). È una Presidenza indegna! AIROLA (M5S). Incapace! PRESIDENTE. Passiamo alla votazione della mozione n. 230. (Il senatore Buccarella fa segno di voler intervenire). Senatore Buccarella, le sarà data la parola dopo il voto. (Il senatore Petrocelli fa segno di voler intervenire). SIBILIA (FI-PdL XVII). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. (Il senatore Buccarella, rivolto alla Presidenza, fa ripetutamente segno di voler intervenire). AIROLA (M5S). Dia la parola al nostro Capogruppo!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u38">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg82">Gli sarà data la parola dopo la votazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg83">Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dal senatore Sibilia, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). BUCCARELLA (M5S). (Il senatore Buccarella scende nell'emiciclo e agita vistosamente le braccia). Ora mi vede? PRESIDENTE. Senatore Buccarella, le darò la parola subito dopo la votazione. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, della mozione n. 230, presentata dal senatore Santangelo e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+               <vocal type="shouting">
+                  <desc>Vibrate proteste dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg84">Senatore Buccarella, ha la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg85">SANTANGELO (M5S). Vergognati! AIROLA (M5S). Adesso lei riapre il voto. Questo è gravissimo! Questo è gravissimo! PRESIDENTE. Senatore Airola, se lei non rispetta la Presidenza chiederò agli assistenti parlamentari e ai senatori Questori di allontanarla dall'Aula.</seg>
+               <incident type="action">
+                  <desc>Il senatore Buccarella fa cenno di voler intervenire.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg86">AIROLA (M5S). Faccia parlare il nostro Capogruppo! Lei si deve vergognare! PRESIDENTE. Senatore Airola, la richiamo all'ordine. Prego i senatori Questori di allontanare il senatore Airola che sta inveendo contro la Presidenza!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg87">BARANI (GAL). Fuori! GIOVANARDI (NCD). Fuori! PRESIDENTE. I senatori Questori e gli assistenti parlamentari sono pregati di allontanare il senatore Airola.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg88">SANTANGELO (M5S). Bene! PRESIDENTE. Prego di eseguire le disposizioni e le indicazioni della Presidenza.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg89">BUCCARELLA (M5S). Presidente! PRESIDENTE. I senatori Questori sono pregati di eseguire la disposizione della Presidenza. (Il senatore Malan, con alcuni assistenti parlamentari, si avvicina al banco del senatore Airola per eseguire l'ordine della Presidenza). PETROCELLI (M5S). Io veramente volevo intervenire in dichiarazione di voto in dissenso! PRESIDENTE. Senatore Airola, la prego di allontanarsi dall'Aula volontariamente.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del gruppo M5S. Il senatore Airola resta al proprio banco.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg90">Bene, allora o si eseguono le indicazioni della Presidenza o sospenderò la seduta.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg91">SANTANGELO (M5S). E sospenda! MORONESE (M5S). È una vergogna! È una vergogna! PRESIDENTE. Bene, la seduta è sospesa. (La seduta, sospesa alle ore 18,02, è ripresa alle ore 18,04). Riprendiamo i nostri lavori. Il senatore capogruppo Buccarella aveva chiesto di intervenire. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">BUCCARELLA (M5S)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u39">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg92">Signora Presidente, non so, perché sono momenti concitati, se lei abbia la consapevolezza e si stia rendendo conto delle modalità con cui negli ultimi dieci minuti è stata condotta l'Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg93">Quando il presidente Zanda ha iniziato a debordare chiaramente dal merito del discorso stava svolgendo una dichiarazione di voto su una mozione. Per ovvi motivi di campagna elettorale - l'ho già detto stamattina, devo ribadire e lo ribadisco in senso tecnico - il senatore Zanda, nel suo ruolo, provoca.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg94">Sembra essere ossessionato dal Movimento 5 Stelle ed invece di rimanere nell'argomento pertinente al documento al nostro esame, senza che la Presidenza facesse alcun rilievo, ha iniziato ad attaccare il Movimento 5 Stelle.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg95">Noi di questo lo ringraziamo: grazie, presidente Zanda, lei sta facendo una campagna a noi favorevole! E ci chiama fascisti mentre la Presidenza non muove un dito.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg96">Presidente, mi consenta, questo non deve accadere, perché cosa accadrebbe se invece di illustrare gli emendamenti sui provvedimenti di legge come abbiamo fatto, abbiamo voluto fare e non siamo riusciti a fare in maniera completa, dovessimo usare il tempo che abbiamo a disposizione solamente per condurre attacchi strumentali, dando del fascista o del comunista, secondo il vostro vecchio vocabolario, che è vecchio e che non funziona più...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg97">SUSTA (SCpI). Ma se ci avete dato dei mafiosi tutta la mattina! Ma cosa dici! PRESIDENTE. Senatore Susta! BUCCARELLA (M5S). Non funziona più! Potete farci innervosire qui, ma a noi non importa, perché ci state facendo un favore, perché chi guarda queste sceneggiate si sta facendo un'idea molto chiara. Dico allora ai miei colleghi del Gruppo: non cadiamo nelle provocazioni degli altri membri di quest'Assemblea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg98">VOCE DAL GRUPPO PD. Bravo! BUCCARELLA (M5S). Io dico a chi presiede quest'Aula di fare osservare il Regolamento. Noi siamo i primi che vogliamo avere rispetto delle istituzioni. Siamo noi che vogliamo la legalità; siamo noi che chiediamo la revoca dei Sottosegretari indagati.</seg>
+               <vocal type="shouting">
+                  <desc>Vivaci proteste dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg99">PRESIDENTE. Silenzio, per favore. Consentite al senatore Buccarella di concludere l'intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg100">Penso di aver già detto abbastanza e di aver fatto passare il messaggio: il nostro ringraziamento al senatore Zanda per il grande aiuto che ci sta dando... SOLLO (PD). Ne avete bisogno, dell'aiuto! BUCCARELLA (M5S). ...nel momento in cui ci chiama fascisti e nel momento in cui le vostre contraddizioni sulle scelte politiche le facciamo venire fuori come una scatoletta di tonno (non so se vi dice qualcosa) che si apre e fa vedere la contraddizione della vostra politica.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg101">Quindi, signora Presidente, quello che dico a lei personalmente è che non saremo disponibili a sopportare ulteriormente...</seg>
+               <vocal type="speaking">
+                  <desc>Vivaci commenti dal Gruppo PD.</desc>
+               </vocal>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u40">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg102">Senatore Buccarella, credo che in quest'Aula ci sia una reciproca tolleranza.</seg>
+               <vocal type="speaking">
+                  <desc>Vivaci commenti del senatore Santangelo.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg103">Senatore Santangelo, si calmi! Senatore Buccarella, siccome lei ha garantito di richiamare i suoi parlamentari ad un comportamento più sobrio, io la inviterei a cominciare con il senatore Santangelo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Applausi ironici dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BUCCARELLA (M5S)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u41">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg104">Il comportamento sobrio ci sarà, come c'è sempre stato quando abbiamo potuto ragionare rispettando le regole. Nel momento in cui i diritti sono calpestati...</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg105">PRESIDENTE. Guardi, penso che anche nella giornata odierna i diritti di espressione siano stati garantiti a tutti.</seg>
+               <incident type="action">
+                  <desc>I senatori Martelli, Marton e Santangelo si alzano in piedi e fanno segno di no con la mano</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg106">Mi dispiace, Presidente, no. Comunque, grazie al senatore Zanda. PRESIDENTE. Ha chiesto di parlare il senatore De Cristofaro. BUCCARELLA (M5S). Non ho concluso, signora Presidente. PRESIDENTE. Mi era sembrato che avesse concluso. Concluda pure, senatore Buccarella. BUCCARELLA (M5S). Ho saltato una postilla organizzativo-logistica. La gran parte del mio Gruppo parlamentare non ha potuto votare perché presa dall'intervento degli assistenti parlamentari e dalla grande baraonda che c'era in Aula... PRESIDENTE. Potrà fare segnalazione al banco della Presidenza per far risultare quale era l'intenzione di voto. BUCCARELLA (M5S). Io ed altri membri del Gruppo abbiamo segnalato la richiesta di intervento. Lei ha dato seguito alle operazioni di voto. PRESIDENTE. Provvediamo a far risultare l'intenzione di voto dei senatori che non hanno partecipato alla votazione. BUCCARELLA (M5S). Chiedo che episodi come quelli di oggi siano censurati, quando necessario, dalla Presidenza.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'ordine dei lavori</head>
+            <note type="speaker">DE CRISTOFARO (Misto-SEL)</note>
+            <u ana="#regular" who="#DeCristofaroPeppe" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u42">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg107">Signora Presidente, per un impegno del nostro Gruppo, le chiedo se è possibile il rinvio dell'esame delle altre mozioni all'ordine del giorno, ascoltando naturalmente il parere dei Capigruppo. PRESIDENTE. Devo interpellare gli altri Gruppi. Mi era stato detto che c'era un'intesa. Chiedo se questa intesa è confermata.</seg>
+            </u>
+            <note type="speaker">MICHELONI (PD)</note>
+            <u ana="#regular" who="#MicheloniClaudio" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u43">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg108">Signora Presidente, siamo stati informati della richiesta del Gruppo Misto-SEL. Chiaramente noi siamo d'accordo con la richiesta di rinvio, perché motivata seriamente. Visto che questo è il terzo rinvio cui si procede per vari motivi, quello che però chiediamo, signor Presidente, come firmatari di una delle mozioni è la garanzia che essa venga messa all'ordine del giorno delle sedute del 7 o dell'8 maggio, perché prima i senatori delle circoscrizioni Estero sono in missione all'estero, e vogliamo essere tutti presenti per la discussione di questa importante mozione. Se c'è questa promessa, non abbiamo problemi a rinviare la discussione, aderendo alla richiesta fatta dal Gruppo Misto-SEL.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u44">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg109">Ove non ci fossero obiezioni e fosse deciso il rinvio, la decisione sulla ricalendarizzazione sarà comunque presa dalla Conferenza dei Capigruppo, tenendo conto, ovviamente, di questa sua richiesta.</seg>
+            </u>
+            <note type="speaker">ROMANI Paolo (FI-PdL XVII)</note>
+            <u ana="#regular" who="#RomaniPaolo" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u45">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg110">Signora Presidente, siamo d'accordo con la richiesta di rinvio alla data che ha chiesto il senatore Micheloni. PRESIDENTE. Confermo quanto detto poc'anzi.</seg>
+            </u>
+            <note type="speaker">MANCUSO (NCD)</note>
+            <u ana="#regular" who="#MancusoBruno" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u46">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg111">Signora Presidente, intervengo per associarmi alla richiesta avanzata, considerando valide le istanze del Gruppo SEL. Siamo d'accordo su questo rinvio.</seg>
+            </u>
+            <note type="speaker">ROMANO (PI)</note>
+            <u ana="#regular" who="#RomanoLucio" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u47">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg112">Signora Presidente, siamo d'accordo con la proposta del Gruppo Misto-SEL.</seg>
+            </u>
+            <note type="speaker">BERGER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BergerHans" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u48">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg113">Signora Presidente, siamo d'accordo anche noi con la proposta.</seg>
+            </u>
+            <note type="speaker">SUSTA (SCpI)</note>
+            <u ana="#regular" who="#SustaGianluca" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u49">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg114">Signora Presidente, sono d'accordo con la proposta di rinvio.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u50">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg115">Poiché tutti sono d'accordo, così rimane stabilito.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg116">Rinvio, pertanto, la discussione delle restanti mozioni all'ordine del giorno ad altra seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">*PAGLIARI (PD)</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u51">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg117">Signora Presidente, onorevoli colleghi, voglio dare voce in questa sede ai residenti di una struttura protetta del Comune di Parma. La struttura "XXV aprile" di Parma è una delle realtà residenziali cittadine per adulti e anziani parzialmente autosufficienti con problemi sociali o con necessità di assistenza, che presenta criticità tanto gravi da incidere profondamente sulla qualità della vita degli ospiti, i quali negli ultimi giorni si sono trovati addirittura a non poter uscire dalle loro stanze in quanto entrambi gli ascensori presenti risultavano bloccati. È una situazione a dir poco paradossale. Il primo dei due risulta, infatti, bloccato da diverse settimane, fin dall'inizio di febbraio, e, in numerose occasioni, la criticità era stata segnalata al Comune di Parma, affinché intervenisse per ripristinarne il corretto funzionamento, a quanto sembra senza esito. Al termine della scorsa settimana anche il secondo ascensore si è bloccato, con il risultato che gli ospiti con difficoltà motorie si sono trovati a non poter abbandonare le proprie stanze e a non poter avere assistenza. È un'inaccettabile situazione di "segregazione". Non è la prima volta che la residenza "XXV aprile" finisce al centro delle cronache parmigiane. Nello stesso edificio, infatti, si sono verificati gravi disagi nei mesi scorsi, tali da compromettere in maniera radicale la qualità della vita degli ospiti. Nello specifico, per lungo tempo, oltre un mese e mezzo, a causa del guasto di un miscelatore divenne impossibile usufruire dell'acqua calda. Divenne, pertanto, per i familiari impossibile perfino lavare i propri cari. Infine, nel cortile della struttura sarebbero presenti alcune buche che compromettono la possibilità, per gli ospiti con gravi difficoltà di deambulazione, di percorrerlo in condizioni di sicurezza. Nel complesso, siamo di fronte ad una situazione impossibile da accettare e tale da richiedere immediati interventi. Siamo nel Comune di Parma che ha una tradizione di primo livello e un'Amministrazione comunale che si vanta di avere una politica dello Stato sociale molto avanzata; un Comune a guida del Movimento 5 Stelle!</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg118">(ore 18,15) ( Segue PAGLIARI). Questa non è una questione solo di Parma, ma più generale e delicata che pone il problema di come la politica amministrativa municipale non debba essere tale da impedire nei singoli Comuni l'assistenza a queste strutture che sono a totale carico del Comune per anziani che non hanno altra tutela.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+            <note type="time">18,15</note>
+            <note type="speaker">CANDIANI (LN-Aut)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u52">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg119">Signor Presidente, faccio un intervento per portare a conoscenza dell'Aula del Senato la difficoltà che sto riscontrando nella giornata odierna e fin da ieri nell'entrare in contatto e avere la disponibilità del direttore del carcere di Verona per accedere allo stesso e far visita ai detenuti durante le festività di Pasqua. Ho cercato in tutti i modi, ripetutamente, di rintracciare il direttore tramite gli uffici durante l'odierna giornata, senza che ve ne fosse alcuna possibilità. Sono riuscito a parlare - pensi, signor Presidente - con la segretaria del direttore del carcere. Mancava poco che mi facessero parlare con l'ultimo usciere, senza avere ancora la disponibilità di un orario per la visita. Credo che si stia ledendo un diritto fondamentale sia di un parlamentare che dei detenuti del carcere stesso di ricevere la visita di un senatore o di un deputato. All'interno di questo carcere ci sono detenuti in attesa di giudizio e ci sono persone che sono addirittura in attesa della convalida del fermo giudiziario. Ritengo quindi che debba essere richiamata, tramite la Presidenza, l'attenzione del Ministro su questo atteggiamento che non esito a definire negligente da parte della direzione del carcere circondariale di Verona</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u53">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg120">Senatore Candiani, spero che possa esercitare i suoi diritti, che possa accedere alla struttura, e soprattutto che possa uscirne.</seg>
+               <vocal type="laughter">
+                  <desc>Ilarità.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">TAVERNA (M5S)</note>
+            <u ana="#regular" who="#TavernaPaola" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u54">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg121">Signor Presidente, visto che solamente indagato non basta, speriamo che un rinvio a giudizio invece serva a qualcosa. È di oggi la notizia dei rinvio a giudizio del senatore Maurizio Gasparri da parte del gup di Roma, in merito al reato di peculato per aver sottoscritto nel 2012, come sua stessa ammissione, una polizza vita con 600.000 euro di fondi destinati al Gruppo parlamentare Popolo della Libertà. Beneficiari della polizza, in caso di morte dell'assicurato, sarebbero stati i suoi eredi legittimi: moglie e figlia. In data 20 marzo 2013 e 23 febbraio 2013 l'esponente del centrodestra, con due bonifici di 300.000 euro ciascuno, dopo specifiche richieste da parte dell'amministrazione del Gruppo, ha provveduto alla restituzione del denaro, anche se mancano all'appello 10.697 euro, che sarebbero l'equivalente degli interessi maturati con la sottoscrizione della polizza riscattati in anticipo da Gasparri il 1° febbraio. Anche se la somma è stata restituita, ricordiamo che il peculato è un reato istantaneo, che si consuma nel momento in cui avviene l'appropriazione del denaro. Ricordiamo inoltre che è un reato previsto dall'articolo 314 del codice penale, in virtù del quale «il pubblico ufficiale o l'incaricato di pubblico servizio che, avendo per ragione del suo ufficio o servizio il possesso o comunque la disponibilità di denaro o di altra cosa mobile altrui, se ne appropria, è punito con la reclusione» - guardi un po'! - «da quattro a dieci anni», né più né meno che come per il reato di scambio elettorale politico-mafioso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg122">Al di là del rilevante aspetto penale della vicenda, assume particolare rilievo, come già evidenziato dal Movimento 5 Stelle sia in data 18 dicembre 2013 che in data 17 febbraio 2014, la questione politica e istituzionale ad essa sottesa.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg123">Ricordiamo ai colleghi e informiamo i cittadini che l'articolo 16 del Regolamento del Senato, comma 2, dispone che «I contributi a carico del bilancio del Senato complessivamente erogati in favore dei Gruppi parlamentari (...) sono destinati dai Gruppi esclusivamente agli scopi istituzionali riferiti all'attività parlamentare e alle attività politiche ad essa connesse».</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg124">Pare quindi evidente che la sottoscrizione di polizze private a spese dei contribuenti e a beneficio degli eredi legittimi non rientra né negli scopi istituzionali, né nell'attività parlamentare, né nelle spese di funzionamento degli organi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg125">Il 20 novembre il senatore Gasparri omaggiava la mia persona con un commento che vado a citare: «Il fatto che una persona come la Taverna faccia parte del Senato è una buona ragione per abolirlo. Così certa gente tornerà nel nulla da cui viene». Ricordando al senatore che personalmente ho, come tutti i componenti del Gruppo, contribuito a darci delle regole che prevedono, oltre al taglio dei nostri stipendi, lo svolgimento di due soli mandati, non ho nessun problema a tornare nel nulla dal quale vengo e al quale appartengono milioni di persone che voi avete relegato nel nulla.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg126">Molto più modestamente, chiedo a nome del Gruppo Movimento 5 Stelle le dimissioni immediate del senatore Gasparri dalla carica di Vice Presidente del Senato, per una questione concernente la dignità formale e sostanziale dell'organo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg127">Dove tornerà il senatore personalmente non mi interessa, ma se riusciremo a far inserire le preferenze sono sicura di sapere dove non sarà dopo le prossime elezioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u55">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg128">Signor Presidente, domani ci concentreremo tutti sulle nostre previsioni programmatiche (infatti la giornata di domani è dedicata all'esame del Documento di economia e finanza). Siamo in un periodo di spending review, per cui l'attenzione sulla spesa della pubblica amministrazione è massima. Accade che un organo della pubblica amministrazione in questi giorni faccia quello che deve, ossia avvisa tutti i consulenti, e chi ha prestato opere per il Senato, delle ritenute d'acconto effettuate. Accade che questo organo, nello spedire un unico foglio A4, utilizza buste fuori misura, fuori dagli standard, che costano il 30 per cento in più rispetto alla spedizione normale. Accade che per spedire questo foglio si spendono 4,65 euro invece che 3,75. Ma succede che gli avvisati sono tutti professionisti, iscritti ad albi, che collaborano con l'amministrazione, e per legge - forse lo abbiamo dimenticato - tutti i professionisti devono avere una posta certificata, per cui l'invio di un documento ha un costo pari a zero. Non si capisce perché la pubblica amministrazione continui a fare leggi finalizzate al risparmio, che obbligano le strutture, gli enti, i professionisti e i privati a sostenere oneri, si dà delle regole (abbiamo addirittura un commissario, il dottor Cottarelli, che verifica come si spendono i soldi nella pubblica amministrazione) e poi è proprio la pubblica amministrazione per prima a dimenticare, anzi a spendere molto di più di quel che servirebbe. Presidente, questo organo della pubblica amministrazione è il Senato della Repubblica. Vedete un po' voi cosa è il caso di fare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per lo svolgimento e la risposta scritta ad interrogazioni</head>
+            <note type="speaker">MARGIOTTA (PD)</note>
+            <u ana="#regular" who="#MargiottaSalvatore" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u56">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg129">Signor Presidente, intervengo per sollecitare una risposta all'interrogazione 3-00755 (con carattere d'urgenza) pubblicata il 26 febbraio 2014 nella seduta n. 198, che riguarda i docenti abilitati attraverso il Tirocinio formativo attivo (TFA). Lo ricordo stasera perché domani è prevista una manifestazione di questi docenti davanti al Ministero. Se la risposta all'interrogazione urgente fosse arrivata in tempi più ragionevoli forse la manifestazione di domani si sarebbe potuta evitare. Spero quindi che la risposta arrivi. PRESIDENTE . Lo spero anch'io per lei, senatore Margiotta.</seg>
+            </u>
+            <note type="speaker">CORSINI (PD)</note>
+            <u ana="#regular" who="#CorsiniPaolo" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u57">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg130">Signor Presidente, su un tema analogo a quello che è stato adesso sottoposto alla nostra attenzione da parte del collega Margiotta. Ho presentato tempo fa due interrogazioni all'allora ministro Carrozza (la 4-01454 e la 4-01554 ) in ordine all'espletamento dei concorsi a cattedra di abilitazione all'associazione e all'ordinariato, per quanto attiene alle classi di concorso di storia del cristianesimo e di storia contemporanea. È evidente che il ministro Carrozza non ha potuto rispondermi per le vicende che tutti conosciamo. Ho allora reiterato la richiesta di risposta al nuovo ministro, professoressa Giannini, ma a tutt'oggi non ho avuto alcun riscontro. Le sarei pertanto grato se lei, signor Presidente, potesse sollecitare il Governo a dare soddisfazione alle mie richieste di chiarimento.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u58">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg131">Signor Presidente, ho chiesto di intervenire perché la senatrice Taverna ha trasformato questa Aula in un'aula di giustizia, in un tribunale. «Rinvio a giudizio» vuol dire, né più né meno, che vi è materia da sottoporre alla verifica dibattimentale. Credo che ciascuno di voi troverà nella casella postale - come l'abbiamo trovata io e altri senatori - una lettera del senatore Gasparri che ribadisce punto per punto quanto ha già detto in quest'Aula. Non voglio entrare nel merito, perché non tocca a quest'Aula discutere il merito. Si tratta di rispetto delle regole minime. La verifica non può essere demandata ad un'affermazione che non corrisponde nemmeno alla realtà dei fatti. Per questa ragione, signor Presidente, ho chiesto di intervenire, perché va rispettato il ruolo di ciascuno, e soltanto quando vi sarà l'accertamento dei fatti può essere valutata la posizione individuale. Abbiamo assistito oggi a una mozione contro un Sottosegretario (altre ne sono state presentate) e, ora, contro un Vice Presidente del Senato, sulla base soltanto di una ricostruzione fantasiosa e non sulla realtà.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u59">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg132">Senatore Caliendo, essendosi conclusi gli interventi di fine seduta e dovendole io rispondere, le ricordo che non esiste lo strumento di sfiducia nei confronti di un membro del Consiglio di Presidenza.</seg>
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg133">E finché non verrà modificata la Costituzione vale sempre il secondo comma dell'articolo 27, che recita che l'imputato non è considerato colpevole sino alla condanna definitiva.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u60">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg134">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di giovedì 17 aprile 2014</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.u61">
+               <seg xml:id="ParlaMint-IT_2014-04-16-LEG17-Sed-232.seg135">Il Senato tornerà a riunirsi in seduta pubblica domani, giovedì 17 aprile, alle ore 9,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 18,28).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

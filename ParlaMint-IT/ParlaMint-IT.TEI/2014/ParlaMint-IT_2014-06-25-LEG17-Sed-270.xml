@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 270 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 270 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 270, giorno (2014-06-25)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 270, Day (2014-06-25)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="270-upper">270 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="222" unit="speeches" xml:lang="it">222 discorsi</measure>
+            <measure quantity="222" unit="speeches" xml:lang="en">222 speeches</measure>
+            <measure quantity="15978" unit="words" xml:lang="it">15.978 parole</measure>
+            <measure quantity="15978" unit="words" xml:lang="en">15,978 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0777700</idno>
+               <date when="2014-06-25">25.06.2014</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="11"/>
+               <tagUsage gi="head" occurs="8"/>
+               <tagUsage gi="note" occurs="239"/>
+               <tagUsage gi="seg" occurs="222"/>
+               <tagUsage gi="u" occurs="133"/>
+               <tagUsage gi="vocal" occurs="2"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="15"/>
+               <tagUsage gi="desc" occurs="17"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2014-06-25">25.06.2014</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u1">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg1">La seduta è aperta (ore 16,31). Si dia lettura del processo verbale. BARANI, segretario, dà lettura del processo verbale della seduta del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">ROSSI Luciano (NCD)</note>
+            <u ana="#regular" who="#RossiLuciano" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg2">Signor Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u3">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u4">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg4">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u5">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg5">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg6">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,37).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione dei disegni di legge: (1326) Disciplina generale sulla cooperazione internazionale per lo sviluppo</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43996.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (211) TONINI. - Riforma della disciplina legislativa sulla cooperazione allo sviluppo e la solidarietà internazionale</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39513.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (558) ROMANO ed altri. - Riforma della disciplina legislativa sulla cooperazione internazionale allo sviluppo</note>
+            <note type="time">16,37</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40614.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1309) DE CRISTOFARO ed altri. - Riorganizzazione della cooperazione allo sviluppo e delle politiche di solidarietà internazionale</note>
+            <note type="time">16,37</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43943.htm</note>
+            <note>(ore 16,37) Approvazione, con modificazioni, del disegno di legge n. 1326</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u6">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg7">L'ordine del giorno reca il seguito della discussione dei disegni di legge nn. 1326, 211, 558 e 1309.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg8">Ricordo che nella seduta antimeridiana il relatore ha svolto la relazione orale e ha avuto inizio la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg9">È iscritto a parlare il senatore Lucidi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">LUCIDI (M5S)</note>
+            <u ana="#regular" who="#LucidiStefano" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u7">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg10">Signor Presidente, onorevoli colleghi, rappresentante del Governo, ci troviamo oggi a discutere un tema importante come quello che vede la partecipazione dell'Italia e quindi la promozione di progetti di cooperazione internazionale. Questo tema è intimamente legato alla politica del Movimento 5 Stelle e, in effetti, il mio lavoro emendativo è stato proprio un tentativo di tradurre i principi del Movimento stesso nel linguaggio e negli schemi propri della cooperazione internazionale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg11">Questo è stato fatto, in primo luogo, tentando di introdurre in maniera vincolante i temi, ad esempio, della tutela dei diritti umani, del rispetto dei lavoratori, della tutela dei minori, della tutela della sicurezza sui luoghi di lavoro e della tutela ambientale. Il tutto in un contesto generale e in un'ottica che va sotto il criterio generale della responsabilità sociale. Ma molti degli emendamenti nascono da considerazioni personali molto vicine al punto d'arrivo del nostro cooperare.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg12">Per questo, assolvo al mio ruolo di portavoce leggendo quanto scrive Stefano, un cooperante in Africa: «La mia esperienza di cooperante in Africa equatoriale negli anni mi ha aiutato a focalizzare meglio quale fosse il vero senso di ciò che facevo in quei luoghi. Che senso ha, infatti, portare il proprio sostegno in un Paese privo di ogni più basilare infrastruttura, quando proprio a causa di noi popoli civilizzati tali infrastrutture vengono a mancare o sono quantomeno negate agli autoctoni? La cooperazione internazionale esiste proprio grazie alla depredazione perpetrata dai popoli civilizzati ai danni di chi non ha accesso e non ha saputo difendersi di fronte alla nostra arroganza e alla nostra tecnologia.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg13">Ecco dunque che il termine cooperazione dovrebbe significare condivisione di conoscenze e non supporto ad un Paese dopo che è stato dilaniato da guerre o carestie, dettate da leggi economiche e di mercato utili soltanto a generare profitto sulle spalle della povera gente.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg14">Investire nella cooperazione internazionale è un business in grado di fruttare lauti compensi, ma esiste anche l'altro lato della medaglia: chi comprende il vero senso della cooperazione e le radici della sua presenza riesce a far nascere scambi interculturali in grado di condizionare intere società, attraverso l'arricchimento reciproco. Cooperare è dunque portare alla luce ciò che non si conosce in merito a chi si desidera andare ad aiutare. Tale ricerca inizia innanzitutto dentro l'animo umano, vittima sempre più spesso di sensi di colpa e di prese di coscienza e dunque desideroso di apportare il proprio aiuto, come se volesse riscattarsi di danni che, individualmente, non ha mai compiuto in modo diretto. Con le nostre azioni quotidiane siamo complici indiretti, invece, di un sistema basato prioritariamente sullo sfruttamento di territori e persone, prevaricando su ogni umano diritto. Tutto ciò non potrà non avere effetti che si ritorceranno su chi compie tali malefatte, ma, per adesso, sembra che ci consoliamo con la cooperazione. La vera cooperazione dunque, dovrebbe essere esercitata qui, nel nostro Paese, attraverso una corretta informazione di ciò che realmente sta avvenendo nel mondo, ma anche promulgando leggi che sanzionano chi sfrutta i territori in difficoltà e che favoriscono il mercato di chi invece opera nel rispetto del diritto dell'uomo e dell' habitat che lo ospita. Altro aspetto fondamentale della cooperazione è imparare a conoscere la radice del problema, spesso troppo distante dal mero fatto di fronte al quale si trova il cooperante: saper cogliere tale radice infatti, significa estirpare il male all'origine, favorendo così uno sviluppo autonomo, in grado di camminare con le proprie gambe». Dice Stefano: «Spesso, in cuor mio, ho desiderato che i luoghi che mi ospitavano non avessero dovuto aver bisogno del mio supporto, proprio perché la mia presenza lì era l'apice di secoli di colonizzazione, sfruttamento e guerre causate dall'uomo bianco. Se cooperare significa operare insieme, perché deve essere soltanto unilaterale la cooperazione? Perché non ospitiamo i nostri fratelli africani, asiatici o di qualunque altra parte del mondo affinché possano istruirci sulla loro cultura e sulle loro tradizioni? Perché non lasciamo che loro vengano a fare cooperazione da noi? Forse perché riteniamo di non avere bisogno del loro aiuto? Eppure, quando la loro manodopera ci serve qui in Italia non esitiamo ad assumerli, magari nuovamente sottocosto, continuando il loro sfruttamento anche qui, nella nostra Nazione. Com'è strano dunque il mondo della cooperazione! Quando ero in Africa molte, troppe volte il mio arrivo era accolto nei villaggi come un salvatore in grado di risolvere ogni problema; questa etichetta non mi è mai piaciuta, poiché ho sempre operato per dare un contributo risolutivo, ma non salvifico. È bene infatti che ci sia l'apporto economico di chi dispone del denaro, ma è altrettanto importante che chi riceve l'aiuto si adoperi per realizzare la propria salvezza, contribuendo così alla realizzazione di un progetto comune, ottenuto cooperando. Infine, cosa di non poco conto, l'arricchimento col quale si ritorna in Europa dopo anni di cooperazione è a dir poco smisurato: paradossalmente infatti, si scopre che ciò che si è dato, è ben poca cosa in relazione a ciò che si è ricevuto». Questo mi scrive Stefano. Partendo da queste considerazioni si può facilmente immaginare una cooperazione che sia veramente consapevole, ad esempio anche dei nostri atteggiamenti politici e industriali verso alcuni Paesi, e che non ponga gli sforzi della cooperazione in conflitto di interessi con altri; di questo, signor Vice Ministro abbiamo lungamente discusso in Commissione. Allo stesso tempo è importante la figura dei cooperanti relegati ancora ad un ruolo di volontari seppur inseriti in un contesto internazionale e in architetture burocratiche e remunerative che vanno ben oltre il concetto di volontariato. Ancora più in dettaglio mi è sembrato allora importante portare alla luce anche il lavoro di tante persone cooperanti che muovono in piccole realtà. Ecco allora un altro attivista, Mario, un medico ostetrico cooperante in Africa: «Essere una piccola associazione che opera nei Paesi del sud del mondo ha i suoi vantaggi: prima di tutto il contatto con la gente del posto, entrare in sintonia con loro ed essere accettati come fratelli diversi, che hanno avuto più fortuna, ma che sanno anche volgersi indietro ad aspettare chi fa fatica ad arrivare. E, proprio per questo, avere l'umiltà di chiedere di cosa si ha bisogno, non imporre dall'alto della propria capacità economica, ma condividere le scelte mirando solo ed esclusivamente alle reali necessità. Trovare la strada migliore per garantire la continuità dell'opera intrapresa; non il mordi e fuggi, non le cattedrali nel deserto delle grandi NGO internazionali, non le montagne di carte piene di buone intenzioni e di grafici su come realizzarle, ma semplice contributo fattivo, reale, di impatto immediato e in grado di migliorare da subito la qualità della vita. Fare scuola, insegnare a mantenere ciò che è stato realizzato, a riparare ciò che col tempo può rompersi, ad affrancarsi dall'essere dipendenti dal " musungu " con i soldi, che viene da lontano e lontano se ne ritorna. Il contatto umano che ricevi in questi luoghi non ha prezzo; e non ti senti importante, tutt'altro». Continua ancora Mario: «Una volta guarii un vecchio da una brutta infezione agli occhi e così tornò a vederci abbastanza da non essere di peso agli altri. Non mi disse grazie, mi disse: "Ringrazio Dio che ti ha mandato". Questo è il senso di fare cooperazione». Chiudo con una mia considerazione personale: anche sotto questi aspetti vorrei sottolineare l'importanza dell'aver collaborato insieme ai miei colleghi in Commissione alla redazione di questo testo su cui ci sentiamo di avere inciso in maniera efficace. Sottolineo, infine, l'importanza di aver inserito nel disegno di legge un intervento volto alla creazione di una maggior tutela del ruolo dei cooperanti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Razzi. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">RAZZI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#RazziAntonio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u8">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg15">Signor Presidente, signor Vice Ministro, colleghi senatori, il disegno di legge n. 1326 sulla disciplina generale sulla cooperazione internazionale allo sviluppo è un'innovazione attesa da troppi anni, che potrebbe ridare interesse e nuovo slancio alla cooperazione allo sviluppo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg16">Il disegno di legge delinea una nuova architettura di governance del sistema della cooperazione, la cui coerenza e coordinamento delle politiche saranno garantiti attraverso il Comitato interministeriale per la cooperazione allo sviluppo. Inoltre, la nascita di un'Agenzia italiana per la cooperazione allo sviluppo, peraltro già presente in tutti i principali Paesi europei, consentirà di poterci cimentare con le modalità innovative tuttora esistenti e non proprio compatibili con l'impianto normativo attuale. L'Agenzia lavorerà assieme al Ministero degli esteri in un apposito Comitato congiunto, con la partecipazione del Parlamento, con funzioni di indirizzo e di controllo sul documento triennale di programmazione. Oggi dunque è arrivato il momento per una riforma essenziale, necessaria e improrogabile. Il disegno di legge di oggi va nella giusta direzione e rappresenta un punto di svolta. Fino ad oggi soltanto il 10 per cento dei 3,5 miliardi di euro destinati alla cooperazione è stato gestito in autonomia dal Ministero degli affari esteri; il restante 90 per cento è stato affidato ai vari Ministeri che vi partecipano, i quali operano di propria iniziativa, scegliendo le linee di intervento a piacimento e finanziando le politiche che ritengono più opportune. Sono stati dunque sganciati da qualsivoglia sistema di coordinamento. La cooperazione allo sviluppo pone al centro la persona umana nella fattispecie individuale e comunitaria, su ispirazione dei principi fondamentali della Carta delle Nazioni Unite e della Carta dei diritti fondamentali dell'Unione europea per ridurre la povertà e le disuguaglianze, migliorare le condizioni di vita delle popolazioni e promuovere uno sviluppo sostenibile; tutelare e affermare i diritti umani, la dignità dell'individuo e i principi di democrazia e dello Stato di diritto; prevenire i conflitti e sostenere i processi di pacificazione, di riconciliazione, di stabilizzazione post-conflitto, di consolidamento e rafforzamento delle istituzioni democratiche. I principali punti, che rappresentano un salto di qualità nella governance complessiva della cooperazione pubblica allo sviluppo, possono essere riassunti nelle definizioni: di un Ministero degli affari esteri e della cooperazione internazionale, mantenendo il legame con la politica estera, ma riconoscendo alla cooperazione una dignità particolare e politicamente prioritaria (articolo 10); della responsabilità politica, con il riferimento ad un Vice Ministro al quale sono delegate le competenze del Ministro in materia di cooperazione allo sviluppo; del lavoro politico-diplomatico e non più gestionale del Ministero degli affari esteri e della sua Direzione generale per la cooperazione allo sviluppo (articolo 19); del luogo interministeriale dell'indirizzo politico, della programmazione con visione triennale, della coerenza delle politiche governative con le finalità della cooperazione allo sviluppo (articoli 11 e 14); dei poteri di indirizzo e controllo del Parlamento (articolo 12); degli stanziamenti annuali complessivi, accompagnati da una relazione allegata alla legge di stabilità, assicurando unitarietà e rilevanza politica e programmatica alla cooperazione allo sviluppo (articolo 13); dell'autonomia organizzativa, gestionale e di bilancio dell'Agenzia per assicurare unitarietà, efficienza gestionale, economicità, trasparenza, controllo e valutazione dell'efficacia dei risultati (articolo 16); della partecipazione dei soggetti pubblici e privati, no profit e profit, alla definizione delle strategie, delle linee di indirizzo, della programmazione, delle forme di intervento, della valutazione dell'efficacia, attraverso pareri e approfondimenti (articolo 15); del riconoscimento particolare dato alle organizzazioni della società civile, pur normato e definito, con l'iscrizione da parte dell'Agenzia all'albo dei soggetti ritenuti ammissibili, per validità e capacità (articolo 24). Il nostro Paese, signor Presidente e colleghi senatori, ha sempre ispirato sentimenti di cooperazione e di soccorso, mostrando una sensibilità assai pronunciata circa i principi ispiratori enunciati dal disegno di legge in esame; sensibilità insita nella nostra Carta costituzionale e nel DNA dell'intero popolo italiano. Prevenire i conflitti, sostenere i processi di pacificazione, di riconciliazione, di stabilizzazione post-conflitto, di consolidamento e rafforzamento delle istituzioni democratiche sono attività che il nostro Paese, da qualsiasi Governo sia stato guidato, ha sempre offerto con il massimo della disponibilità, ritenendo prioritario l'atteggiamento interventista nelle criticità e nello stato di bisogno di realtà meno fortunate. Nell'ottica, dunque, del disegno di legge in parola, il nostro Paese saprà senza alcun dubbio dare continuità alla prassi nazionale, alla luce di un ordine legislativo che indica priorità e logiche efficaci di pianificazione degli interventi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Micheloni. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">MICHELONI (PD)</note>
+            <u ana="#regular" who="#MicheloniClaudio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u9">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg17">Signor Presidente, ho accettato volentieri di dire due parole su questo provvedimento, perché è il punto d'arrivo di uno straordinario lavoro parlamentare che ho potuto vivere da quando sono in quest'Aula (era il 2006), e quel lavoro era iniziato prima. Si è trattato di un'opera talmente importante che - ricordo - la Commissione affari esteri ha fatto una cosa non molto comune, cioè ha pubblicato gli atti alla fine della legislatura per evitare che il lavoro fatto andasse perso. È stato qualcosa di straordinaria importanza, ma trovo abbastanza raccapricciante che il provvedimento in esame abbia suscitato solo tre interventi in discussione generale. Questo disegno di legge mobilita comunque tre miliardi del nostro bilancio e nell'impegno teorico (che non rispetteremo) per il 2015 dovrebbe impegnare 10 miliardi del nostro bilancio; pertanto, che ci sia così poco interesse è alquanto preoccupante. Caro relatore, contrariamente a quanto lei ha detto nel suo ottimismo naturale, cioè che si aspira ad arrivare allo 0,7 per cento, questa scarsa partecipazione alla discussione generale mi preoccupa per il raggiungimento di quel nobile obiettivo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg18">Vorrei ricordare due cose in ordine a questo lavoro. Se ricordo bene, nel 2007 ho assistito a un'audizione del rappresentante dell'Unione europea che si occupa di politica di cooperazione. In quell'occasione, alla domanda di un commissario che chiedeva come mai la nostra legge, che è simile a quella della Svezia, non funzionava mentre quella svedese funzionava, la risposta fu al limite dell'educazione: perché quelli erano svedesi. Tuttavia, quello stesso direttore nella stessa audizione disse anche che aveva studiato molto approfonditamente il lavoro che stava facendo la Commissione esteri e ci sollecitava a concluderlo perché era di grande interesse per l'Unione europea. Pertanto, noi stiamo parlando di questioni di questa importanza, che fanno la politica estera del nostro Paese, ma lo stiamo facendo come se fosse un provvedimento qualsiasi che riguarda una nostra realtà territoriale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg19">Vorrei altresì ricordare che nel 2007, nella prima finanziaria del Governo Prodi, che fu chiamata «lacrime e sangue» (sembrava che stessimo uccidendo il Paese), malgrado tutti i tagli fatti, il Governo rimise sul capitolo della cooperazione del Ministero degli esteri più di 500 milioni per pagare voci non pagate e lasciate indietro. Oggi, se ricordo bene, signor Vice Ministro, questo capitolo è ridotto a 70-80 milioni. Questi dati dovrebbero preoccuparci, perché qui è in gioco non solo la politica della cooperazione, ma tutta la nostra immagine internazionale. Quando diciamo che dobbiamo contare di più in Europa, che contiamo di più in Europa e che vogliamo modificare l'Europa, dobbiamo stare attenti a queste nostre scelte e a queste nostre decisioni.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg20">Collega Lucidi, ho apprezzato quello che lei ha detto, ma credo che il relatore abbia già dato una risposta nella sua presentazione: cooperazione e partenariato; c'è questo spirito, c'è questa volontà di innovare la politica e i rapporti che la politica della cooperazione sviluppa.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg21">L'ultimo punto che vorrei affrontare, signor Presidente, se mi concede ancora un minuto. Noi ci commuoviamo quando assistiamo ai drammi dell'immigrazione, ai drammi del mare a Lampedusa o sulle coste del Nord Africa, ma politica della cooperazione vuol dire affrontare quei problemi. Rimango scandalizzato quando sento dire che si può esportare la democrazia con le armi e con l'intervento militare: no, la democrazia la si esporta e la si sviluppa con una politica della cooperazione che permette alla gente di vivere con dignità.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg22">Credo che abbiamo fatto un buon lavoro e mi auguro semplicemente che questa legge sia approvata oggi in quest'Aula a larghissima maggioranza, se non è possibile all'unanimità.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg23">Mi auguro anche, signor Vice Ministro, che il Governo faccia quanto necessario perché questa legge sia poi approvata alla Camera dei deputati durante il semestre di Presidenza italiana dell'Unione europea, perché credo che sarebbe un bel gesto ed un bel segnale arrivare alla fine del nostro semestre di Presidenza con una nuova legge sulla cooperazione, con un respiro diverso, un respiro europeo che ci è già stato riconosciuto nella fase di elaborazione di questo lavoro parlamentare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e Aut (SVP, UV, PATT, UPT)-PSI-MAIE e della senatrice Mussini.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg24">PRESIDENTE. Dichiaro chiusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg25">Ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u10">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg26">Signor Presidente, intervengo brevemente per ringraziare i colleghi intervenuti e rassicurare la senatrice Mussini che il cambiamento di nome che viene proposto dal disegno di legge per il Ministero degli affari esteri in Ministero degli affari esteri e della cooperazione internazionale vuol dire infondere nella politica estera lo spirito della promozione della cooperazione tra i popoli, ai sensi dell'articolo 11 della nostra Costituzione, utilizzando vari strumenti fra i quali appunto la cooperazione allo sviluppo. Un altro strumento fondamentale, che non è oggetto della discussione di oggi, ma che sicuramente è all'attenzione del Governo, e sul quale il Vice Ministro, se vorrà, dirà qualcosa, è certamente la promozione della lingua e della cultura italiana nel mondo, tema assolutamente centrale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg27">Al collega Lucidi vorrei dire che il tema del partenariato è centrale in questo disegno di legge, ed anzi si può dire che ne è il vero cambio di paradigma: da una logica di aiuto allo sviluppo (dobbiamo purtroppo ancora usare questa espressione perché è scolpita nella terminologia a livello internazionale, è il nome che si usa nel dibattito pubblico internazionale) si passa alla logica del partenariato. Questo è lo spirito fondamentale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg28">Per quanto riguarda la preoccupazione espressa dal senatore Micheloni, sono convinto che man mano che questo strumento della cooperazione allo sviluppo dimostrerà tutta la sua importanza, non solo per i Paesi partner, ma innanzitutto per noi, perché la logica del partenariato implica che la relazione sia davvero cooperativa e bidirezionale (noi diamo qualcosa agli altri ma gli altri danno qualcosa a noi, in termini di arricchimento culturale, politico ed anche - perché no - di partenariato per lo sviluppo), credo che questo obiettivo di rientrare nel parametro dello 0,7 per cento nel tempo verrà raggiunto. Infine, vorrei fare un'ultima considerazione: alla vigilia del semestre di Presidenza italiana credo sia di ottimo auspicio, se l'Assemblea sarà d'accordo, avviarci a questo appuntamento portando a casa un'altra riforma importante, che non è, come dicevo stamattina, soltanto una riforma della cooperazione allo sviluppo, ma è in qualche misura una riforma della nostra politica estera. Rispetto a questo vorrei ringraziare il vice ministro Lapo Pistelli, con il quale abbiamo lavorato a stretto contatto di gomito in questi mesi, e che ha dato un apporto straordinario, anche facendo da trait d'union tra il Governo Letta, che ha cominciato questo lavoro con la presentazione del disegno di legge, e il Governo Renzi che - speriamo - lo porterà in porto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Zanda, Casini e Di Biagio.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg29">PRESIDENTE. La ringrazio, senatore Tonini, anche per la capacità di sintesi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg30">Ha facoltà di parlare il rappresentante del Governo.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u11">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg31">Signor Presidente, chiedo ai colleghi del Senato pochi minuti della loro pazienza per replicare, a nome del Governo, a quanto hanno detto stamani e a quanto ho ascoltato questo pomeriggio.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg32">Capisco che forse la cosa può impattare emotivamente soltanto su una parte dell'Assemblea, ma è la prima volta, dopo tre tentativi seriamente fatti, che arriviamo alla riforma concretamente possibile della cooperazione italiana dopo ventisette anni. Quindi, questo non è un intervento tampone né straordinario, ma è un adeguamento strutturale che cambia in profondità il sistema della cooperazione italiana.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg33">Ci arriviamo dopo un confronto lungo, ampio, intenso, che il senatore Tonini - che anch'io ringrazio a mia volta - ha ricordato nel suo intervento di stamani, e quindi questo testo è figlio di una storia. Ci arriviamo in un rapporto molto maturo con la società civile, che guarda con grande attenzione a quello che si sta svolgendo oggi in quest'Aula. Vedete, come ricordava il senatore Micheloni, le risorse dell'aiuto pubblico allo sviluppo non sono quelle che altri Paesi destinano e che noi ci aspetteremo ma, nonostante ogni sforzo che stiamo introducendo, questo dato non cambierebbe una modifica strutturale intervenuta negli ultimi anni nel sistema della cooperazione, e cioè che l'aiuto pubblico allo sviluppo è soltanto una parte delle più complessive politiche di cooperazione, e che, dunque, anche il ruolo che l'istituzione Governo gioca è sì, certo, fondamentale, ma non è l'unico ruolo in questa azione. Dunque, ogni sforzo di riforma che noi mettiamo in campo deve tenere conto che la cooperazione oggi è un sistema in cui giocano il Governo, le autonomie locali, il settore privato, le fondazioni bancarie, le ONG: un sistema di attori che deve suonare possibilmente una musica condivisa di uno spartito comune, ma ciascuno secondo la propria intonazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg34">Sono già state richiamate - lo vedremo nell'esame degli articoli - le principali novità. Giusto per richiamare alcuni titoli, per la prima volta finalmente introduciamo una regia unica della cooperazione allo sviluppo, ricondotta sotto il Ministero degli affari esteri; un riferimento che coglie la pluralità degli apporti (da qui il Comitato interministeriale per la cooperazione allo sviluppo) ma anche il riconoscimento che deve esserci un titolare di questa politica, e non uno casuale, che ci può essere o meno a seconda della formazione dei Governi, ma un titolare unico garante della coerenza delle politiche, che non è un sostantivo casualmente o astrattamente scelto ma uno dei filoni sui quali si batte oggi la riforma dell'intero sistema di cooperazione europeo, e cioè evitare che le politiche pubbliche facciano con la mano sinistra ciò che contraddice quanto è stato appena fatto con la mano destra. Si chiede, dunque, ad ogni sistema politico il riconoscimento di un punto di riferimento che sia non soltanto il titolare di quella regia ma anche il garante della coerenza a quei principi delle politiche complessive che il Governo mette in piedi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg35">Vi è un secondo elemento, una seconda colonna: l'Agenzia, che è stata oggetto di un grande dibattito. So quanto, in tempi di Tangentopoli e "Sprecopoli", l'Agenzia potrebbe essere associata facilmente al senso comune del «baraccone». Non sarà così. Ho detto fin dall'inizio - la relazione tecnica ne rende conto - che sarà «un vascello corsaro», snello e veloce, che avrà il compito di accompagnare tutti gli attori della cooperazione ad essere più efficaci nella competizione, oggi molto dura, per aggiudicarsi le grandi risorse che circolano sui mercati internazionali della cooperazione. Questa Agenzia dovrà anche essere professionale e dovrà essere evidentemente qualcosa che sfugge a quel principio di rotazione che invece ha caratterizzato fino ad oggi gli apici diplomatici che hanno gestito dal Ministero degli affari esteri non soltanto la guida politica, ma anche l'implementazione concreta delle azioni sul campo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg36">In terzo luogo, c'è un ruolo importante per il Parlamento, nell'esame del documento triennale e nell'esame delle politiche annualmente disposte dal Governo. Aggiungo che c'è un ruolo importante anche per la società civile, che viene finalmente strutturalmente associata nel cosiddetto consiglio della cooperazione, riprendendo quel buon esempio del Forum di Milano lanciato dal ministro Riccardi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg37">Fatemi dire che con questo tipo di provvedimento noi non inventiamo la ruota, ma colmiamo un ritardo rispetto a molti degli attori europei con i quali ci confrontiamo. Quando ci si muove in ritardo, si ha anche la possibilità di capire le best practices degli altri, cioè le migliori pratiche e gli errori da non ripetere. Dunque, quando diciamo di europeizzarci, intendiamo dire che non ci europeizziamo soltanto nella disciplina del bilancio, ma anche nell'innovazione o nell'adeguamento del nostro sistema di cooperazione. Da ultimo (e finisco, signor Presidente), tutto questo avviene in un tempo diverso e cruciale del dibattito internazionale. Quando fu concepita la legge n. 49 del 1987, che ora ci apprestiamo a cambiare, l'ex ministro degli esteri e mia amica Emma Bonino faceva gli scioperi della fame per richiamare l'attenzione del mondo sullo sterminio per fame in alcune aree dell'Africa. Da quel tempo la cooperazione è molto cambiata, come il senatore Tonini ha richiamato; oggi ci avviamo ad un anno cruciale, il 2015, che vedrà confluire l'intera comunità internazionale su una nuova grammatica comune dello sviluppo, l'agenda cosiddetta «post 2015», che si è posta un obiettivo assolutamente ambizioso: sradicare la povertà entro il 2030, affrontandola nelle sue quattro dimensioni, economica, sociale, ambientale e nel rispetto dei diritti umani e della good governance. Dunque, per una sfida così ambiziosa e così universale serve una macchina rifatta. Io credo - e ringrazio il senatore Micheloni che lo citava da ultimo - che noi siamo in condizioni, se il Senato oggi vorrà esaminare e concludere l'esame del testo che ha discusso insieme al Governo, di iniziare il semestre con una macchina rinnovata; questo è un segnale di buon auspicio. Poi ci sarà il software : le politiche concretamente gestite anno per anno, le singole scelte Paese per Paese. Mi permetto di chiudere rassicurando il senatore Lucidi, che ha letto alcuni dei tanti e interessanti messaggi che riceviamo dai nostri cooperanti e volontari in giro per il mondo. Ricordo molte delle domande che venivano sollecitate: partnership e non aiuto, rispetto della ownership del Paese, interventi che non siano fatti una volta sola, senza la capacità di stare in piedi, ma sostenibili e affidati alla responsabilità di quelle comunità. Ecco, questo testo oggi offre molte risposte: ci adeguiamo a un ritardo di lunga lena, ci adeguiamo con buona volontà e con buona intenzione. Io penso che un motore così ristrutturato sarà in grado di essere all'altezza delle molte sfide che anche i colleghi del Senato hanno richiamato nel dibattito generale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e PI.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u12">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg38">Comunico che sono pervenuti alla Presidenza - e sono in distribuzione - i pareri espressi dalla 1ᵃ e dalla 5ᵃ Commissione permanente sul disegno di legge in esame e sugli emendamenti, che verranno pubblicati in allegato al Resoconto della seduta odierna.</seg>
+            </u>
+            <note>Passiamo all'esame degli articoli del disegno di legge n. 1326, nel testo proposto dalla Commissione.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Procediamo all'esame dell'articolo 1, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</note>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u13">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg39">Signor Presidente, l'emendamento 1.301 propone di sostituire le parole «di genere», che esprimono un concetto che non è definito nella legislazione italiana, con le parole «di sesso», che sono invece ben note e ampiamente praticate. La parola «genere» presuppone l'adesione a un'ideologia, che è un'ideologia e non è certo patrimonio comune.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg40">Anticipo che l'emendamento 2.300 propone di introdurre, con questa formula o con altre (capisco che ci possono essere altre formule), una norma contenente dei criteri che impediscano di erogare aiuti legati alla cooperazione internazionale a Paesi che violano sistematicamente i diritti umani.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u14">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg41">I restanti emendamenti si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg42">Invito il relatore e il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u15">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg43">Signor Presidente, esprimo parere contrario sugli emendamenti 1.1, 1.300 e 1.301.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u16">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg44">Il parere del Governo è conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u17">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg45">Passiamo alla votazione dell'emendamento 1.1.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg46">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 1.1, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309</seg>
+            </u>
+            <note type="speaker">BERGER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BergerHans" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg47">Signor Presidente, ritiro l'emendamento 1.300.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u19">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg48">La Presidenza ne prende atto.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg49">Passiamo alla votazione dell'emendamento 1.301. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 1.301, presentato dal senatore Malan. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. L'emendamento 1.21 è stato ritirato. Passiamo alla votazione dell'articolo 1. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 1. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 2, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito il relatore e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u20">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg50">Signor Presidente, esprimo parere contrario sugli emendamenti 2.1, 2.4, 2.300, 2.10, 2.12 (testo 2), 2.13, 2.18 e 2.19.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u21">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg51">Il parere del Governo è conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u22">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg52">Passiamo alla votazione dell'emendamento 2.1.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg53">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 2.1, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 2.4. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 2.4, presentato dalla senatrice De Pietro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309</seg>
+            </u>
+            <note type="speaker">DE PIETRO (M5S)</note>
+            <u ana="#regular" who="#DePietroCristina" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u23">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg54">Signor Presidente, vorrei trasformare l'emendamento 2.4 in ordine del giorno.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u24">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg55">Non è più possibile, senatrice.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg56">Passiamo alla votazione dell'emendamento 2.300. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 2.300, presentato dal senatore Malan. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 2.10. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 2.10, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 2.12 (testo 2). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 2.12 (testo 2), presentato dai senatori Lucidi e Airola. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 2.13. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 2.13, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 2.18. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 2.18, presentato dal senatore Lucidi e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 2.19. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 2.19, presentato dal senatore Lucidi e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 2. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 2. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 3. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 3. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 4, sul quale è stato presentato un emendamento che invito i presentatori ad illustrare. BERGER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE). Signor Presidente, ritiro l'emendamento 4.300. PRESIDENTE. Ne prendo atto. Passiamo alla votazione dell'articolo 4. MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 4. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'emendamento 4.0.200 volto ad inserire un articolo aggiuntivo dopo l'articolo 4, che si intende illustrato e su cui invito il relatore ed il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u25">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg57">Signor Presidente, esprimo parere contrario.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u26">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg58">Il parere del Governo è conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u27">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg59">Passiamo alla votazione dell'emendamento 4.0.200. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 4.0.200, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 5, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">DE PIETRO (M5S)</note>
+            <u ana="#regular" who="#DePietroCristina" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u28">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg60">Signor Presidente, con l'emendamento 5.200 desideriamo snellire il processo decisionale per l'assegnazione dei fondi. A nostro avviso, con questa semplificazione non si rinuncia alla previsione di controlli e iniziative multilaterali.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u29">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg61">L'emendamento 5.201 è stato ritirato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg62">Il restante emendamento si intende illustrato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg63">Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u30">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg64">Signor Presidente, esprimo parere contrario sugli emendamenti 5.200 e 5.202.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u31">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg65">Il parere del Governo è conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u32">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg66">Passiamo alla votazione dell'emendamento 5.200.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg67">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 5.200, presentato dalla senatrice De Pietro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Ricordo che l'emendamento 5.201 è stato ritirato. Passiamo alla votazione dell'emendamento 5.202. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 5.202, presentato dalla senatrice De Pietro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 5. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 5. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 6. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 6. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 7, sul quale è stato presentato un emendamento che si intende illustrato e su cui invito il relatore ed il rappresentante del Governo a pronunziarsi..</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u33">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg68">Esprimo parere contrario sull'emendamento 7.200.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u34">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg69">Il parere del Governo è conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u35">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg70">Passiamo alla votazione dell'emendamento 7.200.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg71">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 7.200, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 7. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 7. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 8, sul quale è stato presentato l'emendamento 8.200, che è stato ritirato. Passiamo dunque alla votazione dell'articolo 8. MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 8. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'emendamento 8.0.200 volto ad inserire un articolo aggiuntivo dopo l'articolo 8, che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">DE PIETRO (M5S)</note>
+            <u ana="#regular" who="#DePietroCristina" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u36">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg72">Signor Presidente, con l'emendamento 8.0.200, oltre ad introdurre il concetto di imprese miste per lo sviluppo che si trovava ricompreso nel testo dell'emendamento presentato dal relatore Tonini, intendiamo proporre di prevedere delle condizioni che devono essere rispettate dalle imprese miste (quindi non dalle imprese locali dei Paesi in via di sviluppo, ma dalle imprese europee che lavorano in quei Paesi) «per garantire standard di responsabilità sociale», «l'osservanza delle linee guida OCSE sulla responsabilità sociale d'impresa per le imprese multinazionali» e «l'applicazione delle norme internazioni sul lavoro», secondo standard internazionali fissati dall'ILO «in termini di sicurezza, rispetto dell'ambiente e applicazione di salari minimi internazionalmente riconosciuti». Ciò, anche per evitare che, con la scusa di interventi di cooperazione, si possano delocalizzare attività dai Paesi di origine, il che comporterebbe anche l'applicazione di normative diverse da quelle europee. Secondo noi è dunque molto importante che le imprese rispettino questi standard.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u37">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg73">Invito il relatore ed il rappresentante del Governo a pronunziarsi sull'emendamento in esame.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u38">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg74">Signor Presidente, mi rimetto al Governo.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u39">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg75">Signor Presidente, il Governo comprende le ragioni che hanno spinto la senatrice De Pietro a presentare questo emendamento, ma ritiene che le preoccupazioni ad esso sottese siano fugate dall'articolo 27 del testo. Dunque, esprimo parere contrario.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg76">PRESIDENTE. Passiamo alla votazione dell'emendamento 8.0.200. Votazione nominale con scrutinio simultaneo</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u40">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg77">Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 8.0.200, presentato dalla senatrice De Pietro e da altri senatori.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg78">Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 9, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">BERGER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BergerHans" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u41">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg79">Signor Presidente, intervengo per chiedere al Governo un chiarimento in merito agli emendamenti 9.300 e 9.301.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg80">È positivo che il comma 2 dell'articolo 9 preveda che gli enti locali possono attuare iniziative di cooperazione allo sviluppo, però si usa l'espressione: «di norma avvalendosi dell'Agenzia di cui all'articolo 17». Le parole: «di norma» quanta flessibilità prevedono anche per iniziative di contatto diretto? Poi, sempre il comma 2, specifica che le regioni, le province autonome e gli enti locali comunicano preventivamente al Ministro degli affari esteri e all'Agenzia le varie attività: questa comunicazione è semplice o deve essere corredata di documentazione? Lo chiedo perché non vorrei che si creasse nuova burocrazia, la quale assorbirebbe fondi più utilmente impiegabili per altre iniziative.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u42">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg81">I restanti emendamenti si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg82">Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u43">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg83">Signor Presidente, esprimo parere contrario sull'emendamento 9.200.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg84">Sull'emendamento 9.300 invito al ritiro, altrimenti parere contrario.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg85">Quanto all'emendamento 9.301, vorrei dire al senatore Berger che l'espressione «di norma» vuol dire «di norma», quindi questa è la regola. Naturalmente la regola può avere delle eccezioni, che devono essere motivate. In casi particolari ci si può avvalere di altri strumenti che non siano l'Agenzia.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg86">Quanto al «comunicano», la parola è chiara, cioè comunicano l'intervento, senza il corredo di burocrazia. Credo che il Governo su questo si possa impegnare ad avere una gestione dell'Agenzia che sia la meno burocratica possibile. Del resto, la scelta dello strumento dell'Agenzia e proprio una scelta antiburocratica; speriamo naturalmente che poi i fatti corrispondano alle intenzioni del legislatore.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg87">Esprimo infine parere contrario sull'emendamento 9.201.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u44">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg88">Senatore Berger, uno dei capisaldi concettuali di quest'intervento normativo è di ricondurre a regia e a unità ciò che oggi appare terribilmente disperso e frammentato. Lo è nel momento in cui si concepiscono gli interventi (di qui il desiderio di riconoscere sotto il Ministero degli affari esteri e del CICS la programmazione e l'ideazione), ma lo è tante volte anche dal punto di vista dell'implementazione degli interventi (di qui l'idea che l'Agenzia, «di norma», diventi il canale attraverso cui passare).</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg89">Detto questo, sappiamo benissimo (e più volte nel testo ricorre il riconoscimento dell'autonomia delle Regioni a statuto speciale e delle Province autonome di Trento e di Bolzano), che esistono forme di partenariato territoriale che vanno al di là di questa previsione: da qui il «di norma». Ma il «di norma» serve a riconoscere che non è che tutti i soggetti potenziali titolari di progetti di cooperazione abbiano anche il loro strumento di implementazione, altrimenti, invece che ricondurre ad unità e ad ordine, faremmo il contrario.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg90">Sul tema del «comunicano», mi uniformo in questo caso alle parole di buonsenso del senatore Tonini. È tutt'altro che un'aggiunta di burocrazia, ma certo vorremmo evitare ciò che ad oggi ancora a me personalmente capita, cioè di andare a stringere programmi di cooperazione in alcuni Paesi ed essere talvolta ringraziati per interventi di cui ignoriamo letteralmente l'esistenza perché sono stati fatti da altri soggetti. Magari sono progetti bellissimi, ma realizzati senza che nessuno venga informato.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u45">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg91">Stante il parere contrario espresso dalla 5ᵃ Commissione ai sensi dell'articolo 81 della Costituzione, l'emendamento 9.200 è improcedibile.</seg>
+            </u>
+            <note type="speaker">BERGER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BergerHans" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u46">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg92">Signor Presidente, ritiro gli emendamenti 9.300 e 9.301.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u47">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg93">Passiamo dunque alla votazione dell'emendamento 9.201.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg94">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 9.201, presentato dal senatore Orellana e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 1326 PRESIDENTE. Passiamo alla votazione dell'articolo 9. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 9. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 10, sul quale sono stati presentati due emendamenti, il primo dei quali si intende illustrato, mentre il secondo, l'emendamento 10.201, è stato ritirato. Invito il relatore e il rappresentante del Governo a pronunziarsi sull'emendamento 10.200.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u48">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg95">Signor Presidente, esprimo parere contrario.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u49">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg96">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u50">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg97">Passiamo alla votazione dell'emendamento 10.200.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg98">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 10.200, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 10. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 10. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 11, sul quale sono stati presentati due emendamenti, il primo dei quali è stato ritirato mentre, il secondo, l'emendamento 11.200, si intende illustrato. Invito pertanto il relatore e il rappresentante del Governo a pronunziarsi sull'emendamento 11.200.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u51">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg99">Esprimo parere contrario.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u52">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg100">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u53">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg101">Passiamo alla votazione dell'emendamento 11.200.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg102">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 11.200, presentato dal senatore Orellana e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 11. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 11. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 12, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito il relatore e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u54">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg103">Signor Presidente, sugli emendamenti 12.300 e 12.201 c'è il parere contrario della 5ᵃ Commissione, quindi esprimo parere contrario, mentre esprimo parere favorevole sull'emendamento 12.301. Mi rimetto al parere del Governo sull'emendamento 12.200.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u55">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg104">Esprimo parere conforme a quello del relatore.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg105">Sull'emendamento 12.200, invito il presentatore a trasformarlo in ordine del giorno, soltanto per una forma di coerenza di tono normativo: noi indichiamo dei principi, e in questo emendamento si chiede una cosa molto specifica. Nessuna indisponibilità, ma preferirei recepirla in un ordine del giorno.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u56">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg106">Stante il parere contrario espresso dalla 5ᵃ Commissione ai sensi dell'articolo 81 della Costituzione, l'emendamento 12.300 è improcedibile.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg107">Passiamo alla votazione dell'emendamento 12.301.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg108">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 12.301, presentato dal senatore Zeller e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Senatore, Lucidi accoglie l'invito del Vice Ministro sull'emendamento 12.200?</seg>
+            </u>
+            <note type="speaker">LUCIDI (M5S)</note>
+            <u ana="#regular" who="#LucidiStefano" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u57">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg109">Signor Presidente, accolgo l'invito del vice ministro Pistelli e lo trasformo in ordine del giorno.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u58">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg110">Essendo stato accolto dal Governo, l'ordine del giorno G12.200 non verrà posto in votazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg111">Stante il parere contrario espresso dalla 5ᵃ Commissione ai sensi dell'articolo 81 della Costituzione, l'emendamento 12.201 è improcedibile.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg112">Passiamo alla votazione dell'articolo 12. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 12, nel testo emendato. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 13. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 13. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 14, sul quale sono stati presentati due emendamenti, il primo dei quali si intende illustrato, mentre il secondo, l'emendamento 14.201, è stato ritirato. Invito pertanto il relatore e il rappresentante del Governo a pronunziarsi sull'emendamento 14.200.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u59">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg113">Signor Presidente, esprimo parere contrario.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u60">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg114">Signor Presidente, esprimo parere conforme a quello espresso dal relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u61">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg115">Passiamo all'emendamento 14.200, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg116">PETRAGLIA (Misto-SEL). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione, avanzata dalla senatrice Petraglia, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo (art. 102- bis Reg.) PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 14.200, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 14. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 14. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 15, sul quale sono stati presentati emendamenti, che si intendono illustrati e su cui invito il relatore ed il rappresentante del Governo a pronunziarsi. Gli emendamenti 15.300, 15.302 e 15.303 sono stati ritirati.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u62">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg117">Signor Presidente, sull'emendamento 15.301 esprimo parere favorevole.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u63">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg118">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u64">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg119">Passiamo alla votazione dell'emendamento 15.301.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg120">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate con scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 15.301, presentato dal relatore. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 15. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 15, nel testo emendato. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 16, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito il relatore ed il rappresentante del Governo a pronunziarsi. Gli emendamenti 16.201 e 16.202 sono stati ritirati.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u65">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg121">Signor Presidente, sull'emendamento 16.200 esprimo parere contrario, anche in ragione del parere contrario della 5ᵃ Commissione.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u66">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg122">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u67">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg123">Passiamo all'emendamento 16.200, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg124">PETRAGLIA (Misto-SEL). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione, avanzata dalla senatrice Petraglia, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo (art. 102- bis Reg.) PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 16.200, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 16. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 16. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 17, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito il relatore ed il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u68">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg125">Signor Presidente, esprimo parere contrario sull'emendamento 17.200, anche in ragione del parere contrario della 5ᵃ Commissione, e sugli emendamenti 17.203, 17.204, 17.205, 17.206, 17.301 e 17.207.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg126">Esprimo parere favorevole sugli emendamenti 17.300 e 17.201, ma proponendo in quest'ultimo caso la seguente riformulazione. Anziché sostituire le parole: «procedure comparative in linea con la normativa vigente» con: «procedure che rispettino i criteri e i principi stabiliti dall'Unione europea», propongo di scrivere nel modo seguente: "dopo le parole: «procedure comparative in linea con la normativa vigente», inserire le seguenti: «e con i principi stabiliti dall'Unione europea»".</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u69">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg127">Signor Presidente, esprimo parere conforme a quello espresso dal relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u70">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg128">Passiamo all'emendamento 17.200, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg129">PETRAGLIA (Misto-SEL). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione, avanzata dalla senatrice Petraglia, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo (art. 102- bis Reg.) PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 17.200, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 17.300. MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 17.300, presentato dal relatore. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Invito i presentatori ad esprimersi sulla richiesta di riformulazione dell'emendamento 17.201.</seg>
+            </u>
+            <note type="speaker">ROMANI Maurizio (Misto)</note>
+            <u ana="#regular" who="#RomaniMaurizio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u71">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg130">Signor Presidente, accettiamo la riformulazione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u72">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg131">Passiamo alla votazione dell'emendamento 17.201 (testo 2). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 17.201 (testo 2), presentato dal senatore Orellana e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. L'emendamento 17.202 è stato ritirato. Passiamo alla votazione dell'emendamento 17.203. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 17.203, presentato dal senatore Orellana e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 17.204. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 17.204, presentato dal senatore Orellana e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 17.205. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 17.205, presentato dal senatore Orellana e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 17.206. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 17.206, presentato dal senatore Orellana e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 17.301.</seg>
+            </u>
+            <note type="speaker">BERGER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BergerHans" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u73">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg132">Signor Presidente, lo ritiriamo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u74">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg133">Passiamo dunque alla votazione dell'emendamento 17.207. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 17.207, presentato dalla senatrice De Pietro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 17. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 17, nel testo emendato. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 18, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">LUCIDI (M5S)</note>
+            <u ana="#regular" who="#LucidiStefano" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u75">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg134">Signor Presidente, abbiamo già discusso il testo dell'emendamento 18.201 in Commissione, ma desidero ribadire il concetto in Aula per lasciare agli atti la nostra posizione. Il Vice Ministro ci ha insegnato questo nuovo atteggiamento di voler far sapere alla mano sinistra, come è giusto che sia, quello che fa la destra, soprattutto in un campo come quello della cooperazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg135">L'emendamento in esame è finalizzato proprio a questo nuovo atteggiamento: si chiede di agire, ad esempio con una imposizione fiscale sulle nostre multinazionali che operano - in maniera a volte non conforme a criteri di sostenibilità economica, sociale o ambientale - in certi Paesi, affinché non si determinino situazioni di conflitto di interessi con azioni sempre del nostro Paese nell'ambito della cooperazione internazionale. Questo è il senso dell'emendamento 18.201, che abbiamo già discusso ampiamente in Commissione e che desidero rimanga agli atti.</seg>
+            </u>
+            <note type="speaker">AMORUSO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#AmorusoFrancescoMaria" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u76">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg136">Signor Presidente, vorrei brevemente evidenziare che, se questa misura fosse rapportata a quella che era, per esempio, la quota del 2013, ci sarebbero stati 45 milioni di euro a favore della cooperazione. Penso sia un fatto positivo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg137">PRESIDENTE. Il restante emendamento si intende illustrato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg138">Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u77">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg139">Stante il parere contrario espresso dalla 5ᵃ Commissione ai sensi dell'articolo 81 della Costituzione, esprimo parere contrario sugli emendamenti 18.200 e 18.201, mentre il parere è favorevole sull'emendamento 18.300.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u78">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg140">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u79">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg141">Passiamo all'emendamento 18.200, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg142">PETRAGLIA (Misto-SEL). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione, avanzata dalla senatrice Petraglia, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo (art. 102- bis Reg.) PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 18.200, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'emendamento 18.201, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. MONTEVECCHI (M5S). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo (art. 102- bis Reg.) PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 18.201, presentato dal senatore Lucidi e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 18.300. MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 18.300, presentato dal senatore Amoruso. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 18. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 18, nel testo emendato. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 19, sul quale è stato presentato l'emendamento 19.300, successivamente trasformato nell'ordine del giorno G19.300, su cui chiedo al relatore e al rappresentante del Governo di pronunziarsi.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u80">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg143">Sull'ordine del giorno G19.300 esprimo parere favorevole.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u81">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg144">Rispetto al testo presentato chiedo una riformulazione. Dove è scritto «ad adottare le opportune iniziative» chiedo che tali parole siano sostituite con: «a valutare ogni opportuna iniziativa».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u82">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg145">Il senatore Di Biagio di solito accoglie queste richieste di riformulazione. La accoglie? DI BIAGIO (PI). Sì, Presidente. PRESIDENTE. Essendo stato accolto dal Governo, l'ordine del giorno G19.300 (testo 2) non verrà posto ai voti. Passiamo alla votazione dell'articolo 19. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 19. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 20, sul quale è stato presentato un emendamento che si intende illustrato e su cui chiedo al relatore e al rappresentante del Governo di pronunziarsi.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u83">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg146">Esprimo parere favorevole sull'emendamento 20.200.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u84">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg147">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u85">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg148">Passiamo alla votazione dell'emendamento 20.200.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg149">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 20.200, presentato dal senatore Di Biagio. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 20. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 20, nel testo emendato. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 21, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui chiedo al relatore e al rappresentante del Governo di pronunziarsi.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u86">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg150">Signor Presidente, sull'emendamento 21.300 il parere è favorevole, però con una piccola riformulazione, in analogia con altre figure che fanno parte di quel Comitato: dopo le parole «ad esso partecipa altresì» bisognerebbe aggiungere le seguenti «senza diritto di voto».</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg151">Esprimo invece parere contrario sull'emendamento 21.301.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u87">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg152">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u88">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg153">Chiedo al senatore Berger se accetta la proposta di riformulazione dell'emendamento 21.300.</seg>
+            </u>
+            <note type="speaker">BERGER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BergerHans" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u89">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg154">La accetto, Presidente.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u90">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg155">Passiamo alla votazione dell'emendamento 21.300 (testo 2).</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg156">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 21.300 (testo 2), presentato dal senatore Zeller e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 21.301.</seg>
+            </u>
+            <note type="speaker">BERGER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BergerHans" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u91">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg157">Lo ritiro, Presidente.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u92">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg158">Passiamo dunque alla votazione dell'articolo 21. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 21, nel testo emendato. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 22. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 22. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 23. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 23. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'emendamento 23.0.200, tendente ad inserire un articolo aggiuntivo dopo l'articolo 23, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. PETRAGLIA (Misto-SEL). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione, avanzata dalla senatrice Petraglia, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo (art. 102- bis Reg.) PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 23.0.200, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 24, sul quale è stato presentato un emendamento che si intende illustrato e su cui chiedo al relatore e al rappresentante del Governo di pronunziarsi.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u93">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg159">Signor Presidente, esprimo parere favorevole sull'emendamento 24.300 con una richiesta di riformulazione che è di questo tenore: «Le azioni di cooperazione allo sviluppo promosse dalle Regioni e dalle Province autonome di Trento e di Bolzano e dagli enti locali si svolgono nel rispetto dei principi della presente legge e delle leggi regionali di cui all'articolo 9, comma 1, della presente legge».</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u94">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg160">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u95">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg161">Chiedo al senatore Berger se accoglie la proposta di riformulazione.</seg>
+            </u>
+            <note type="speaker">BERGER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BergerHans" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u96">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg162">Accolgo la proposta di riformulazione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u97">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg163">Passiamo alla votazione dell'emendamento 24.300 (testo 2).</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg164">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 24.300 (testo 2), presentato dal senatore Zeller e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 24. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 24, nel testo emendato Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 25, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">MARAN (SCpI)</note>
+            <u ana="#regular" who="#MaranAlessandro" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u98">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg165">Signor Presidente, intervengo molto rapidamente per dire che i tre emendamenti da me presentati hanno un'unica ratio, che vorrei brevemente illustrare. L'articolo 25, al comma 3, prevede che il Comitato congiunto, di cui all'articolo 21, fissi i parametri e i criteri sulla base dei quali vengono verificate le competenze e l'esperienza acquisita nella cooperazione allo sviluppo dai soggetti che sono iscritti, a seguito di queste verifiche, in un apposito elenco, senza prevedere tuttavia contestualmente una tempistica per tale attività. Il combinato disposto di questa disposizione con quella transitoria di cui al comma 7 dell'articolo 31, secondo la quale per i primi dodici mesi dalla data di entrata in vigore della presente legge e, in ogni caso, finché non siano fissati i criteri per l'iscrizione all'elenco di cui all'articolo 25, comma 3, rimangono validi gli effetti del riconoscimento dell'idoneità concessa ai sensi delle legge precedente, rischia di fatto di cristallizzare la situazione, per cui si applicherebbero sine die i criteri della vecchia legge e non cambierebbe niente. La prima proposta emendativa - mi riferisco all'emendamento 25.301 - vorrebbe quindi anticipare la fissazione di questi parametri, anche al fine di passare a un sistema che accredita i soggetti della cooperazione per quello che sanno fare, rispetto a quello attuale, basato invece su un complicato iter autorizzatorio. Con l'ultima parte dell'emendamento - quella in cui si fa riferimento conseguentemente all'articolo 31, comma 7 - si intende naturalmente limitare la vigenza e la validità degli effetti del riconoscimento ai soli primi dodici mesi, incentivando così un'accelerazione dell'attività di accreditamento secondo la nuova disposizione che noi introduciamo. Il successivo emendamento 25.302 prevede una tempistica per questa attività, stabilendo che entro dieci mesi dalla data di entrata in vigore della presente legge si proceda, appunto, secondo tale disposizione. L'ultimo emendamento, il 25.202, intende introdurre l'obbligo, per i soggetti della cooperazione allo sviluppo iscritti nell'elenco, di presentare ogni tre anni un report sull'attività svolta. Si tende in sostanza, almeno questa è l'intenzione degli emendamenti, a passare dal vecchio e complicato iter autorizzatorio ad una verifica di quanto i soggetti sanno fare. Sottopongo questa considerazione all'attenzione del relatore e del Governo. PRESIDENTE. I restanti emendamenti si intendono illustrati. Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u99">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg166">Esprimo parere contrario sugli emendamenti 25.200 e 25.201, mentre il parere è favorevole sull'emendamento 25.300, con la proposta di sostituire le parole «Paesi in via di sviluppo» con le seguenti: «Paesi partner ». Ciò, per omogeneità con la dizione utilizzata in tutto il provvedimento. Sugli emendamenti a firma del senatore Maran, vale a dire il 25.301, il 25.302 e il 25.202, mi rimetto al Governo.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u100">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg167">Signor Presidente, il parere del Governo è contrario agli emendamenti 25.200 e 25.201.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg168">Quanto invece all'emendamento 25.300, ho in realtà un'altra perplessità. Non capisco a cosa ci si riferisca quando si parla di organizzazioni e associazioni di cittadini immigrati, legalmente riconosciute e registrate ai sensi della legge italiana, dal momento che, ove le associazioni non fossero riconosciute e registrate ai sensi della legge italiana, non si intende ai sensi di quale legge ciò potrebbe avvenire. Comprendo l'intento di accogliere all'interno di questa matrice le diaspore organizzate, ma il nostro ordinamento non prevede un censimento, una registrazione e un riconoscimento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg169">Capisco la riformulazione proposta dal relatore, ma il parere del Governo su questo emendamento è contrario.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg170">Quanto agli emendamenti 25.301, 25.302 e 25.202, come ho avuto modo di dire al senatore Maran in Commissione, sia pur con molto rammarico, perché ci lega un'amicizia dalle legislature precedenti, in seno al Comitato congiunto - che peraltro non riconosce l'idoneità, ma fissa soltanto dei criteri - vi è un dibattito aperto, anche mentre è in corso l' iter di questo provvedimento, su quali possono essere i criteri di riferimento che premino o lo storico e consolidato patrimonio di conoscenza delle ONG o la capacità di svolgere i singoli progetti, e così via. Gli emendamenti, quindi, da questo punto di vista affrontano, tagliano e risolvono questo dibattito una volta e per sempre in modo molto dettagliato. Chiederei quindi, se mi posso permettere, al senatore Maran di trasformarli in un ordine del giorno, che vorrei tener da conto nel lavoro del comitato congiunto, senza però ossificare il dibattito fin da adesso su questa questione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u101">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg171">Colleghi, vi chiederei di aiutarmi a dirimere il dualismo sull'emendamento 25.300, perché il relatore ha espresso parere favorevole, ove riformulato, mentre il Governo esprime parere contrario.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u102">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg172">Mi rimetto al Governo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u103">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg173">Senatrice De Pietro, il parere sull'emendamento 25.300 è diventato contrario. Il problema però si è risolto da solo, perché prima c'era da parte del relatore una proposta di riformulazione, ma poi il parere è diventato contrario, quindi mi sembra che la richiesta di riformulazione decada.</seg>
+            </u>
+            <note type="speaker">DE PIETRO (M5S)</note>
+            <u ana="#regular" who="#DePietroCristina" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u104">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg174">Signor Presidente, noi intendevamo specificare che, per maggiore garanzia di gestione dei fondi, le associazioni degli immigrati dovessero essere legalmente riconosciute in Italia, insomma essere associazioni reali.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u105">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg175">Credo che proprio per questo motivo il parere sia contrario.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg176">Passiamo all'emendamento 25.200, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg177">CERVELLINI (Misto-SEL). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione, avanzata dal senatore Cervellini, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo (art. 102- bis Reg.) PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 25.200, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'emendamento 25.201, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. CERVELLINI (Misto-SEL). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione, avanzata dal senatore Cervellini, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo (art. 102- bis Reg.) PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 25.201, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 25.300. MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 25.300, presentato dalla senatrice De Pietro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Senatore Maran, accoglie la proposta di trasformazione in un ordine del giorno degli emendamenti 25.301, 25.302 e 25.202? MARAN (SCpI). Sì, signor Presidente. PRESIDENTE. Essendo stato accolto dal Governo, l'ordine del giorno G25.301 non verrà posto ai voti. Passiamo alla votazione dell'articolo 25. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 25. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 26, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito il relatore ed il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u106">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg178">Signor Presidente, esprimo parere favorevole sugli emendamenti 26.250 e 26.251.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u107">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg179">Concordo con il relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u108">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg180">L'emendamento 26.200 è stato ritirato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg181">Passiamo alla votazione dell'emendamento 26.250.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg182">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 26.250, presentato dal relatore. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'emendamento 26.251. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 26.251, presentato dal relatore. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 26. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 26, nel testo emendato. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 27, sul quale è stato presentato un emendamento, che si intende illustrato, su cui invito il relatore ed il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u109">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg183">Esprimo parere contrario.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u110">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg184">Concordo con il relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u111">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg185">Passiamo all'emendamento 27.200, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg186">PETRAGLIA (Misto-SEL). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione, avanzata dalla senatrice Petraglia, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo (art. 102- bis Reg.) PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 27.200, presentato dal senatore De Cristofaro e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 27. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 27. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 28. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 28. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 29. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 29. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo all'esame dell'articolo 30, sul quale è stato presentato un emendamento che invito il presentatore ad illustrare.</seg>
+            </u>
+            <note type="speaker">AMORUSO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#AmorusoFrancescoMaria" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u112">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg187">Signor Presidente, in questo disegno di legge si cita per la prima volta l'impresa sociale come soggetto di cooperazione, e questo è un punto molto importante. Ora, per rendere operativa questa volontà è però necessario intervenire sulla legge n. 155 del 2006, che individua i settori operativi dell'impresa sociale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg188">Con l'emendamento 30.300, quindi, si inserisce in quella legge il riferimento alla cooperazione allo sviluppo, in modo tale che anche l'impresa sociale possa partecipare tra i soggetti della cooperazione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u113">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg189">Invito il relatore ed il rappresentante del Governo a pronunziarsi sull'emendamento in esame.</seg>
+            </u>
+            <note type="speaker">TONINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u114">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg190">Esprimo parere convintamente favorevole.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u115">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg191">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u116">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg192">Passiamo alla votazione dell'emendamento 30.300.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg193">MONTEVECCHI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 30.300, presentato dal senatore Amoruso. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 30. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 30, nel testo emendato. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 31. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 31. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 32. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 32. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Passiamo alla votazione dell'articolo 33. MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 33. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309 PRESIDENTE. Abbiamo così concluso l'esame degli articoli. Abbiamo effettuato 79 votazioni in 50 minuti. Ci penserei un momento, prima di sopprimere il Senato!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Dimissioni delle senatrici Isabella De Monte e Alessandra Mussolini</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u117">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg194">Informo l'Assemblea che con lettere rispettivamente in data 3 e 16 giugno 2014, le senatrici De Monte e Mussolini hanno dichiarato, a seguito della loro elezione al Parlamento europeo, di voler rassegnare le dimissioni da senatrici della Repubblica con decorrenza dalla prima seduta del Parlamento europeo, che avrà luogo il 1° luglio 2014.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg195">Trattandosi di dimissioni originate da motivi di incompatibilità ai sensi dell'articolo 5- bis della legge 24 gennaio 1979, n. 18, l'Assemblea non può che prenderne atto. Pertanto, le predette dimissioni dispiegheranno effetti dal 1° luglio 2014. Ad entrambe le senatrici faccio i miei migliori auguri di buon lavoro al Parlamento europeo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi e congratulazioni.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg196">Devo però lamentare il mancato rispetto dell'equilibrio di genere, perché mandiamo due signore al Parlamento europeo.</seg>
+               <vocal type="laughter">
+                  <desc>Il senatore Luciano Rossi porge una torta con una candelina accesa alla senatrice Bisinella. Ilarità dal Gruppo LN-Aut.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg197">Colleghi, fate sparire subito quella torta. Chi è stato? Senatore Luciano Rossi, viene richiamato ufficialmente e la prossima volta, poiché dubito che la senatrice abbia compiuto un anno, la espello dall'Aula.</seg>
+               <vocal type="laughter">
+                  <desc>Ilarità dal Gruppo LN-Aut e del senatore Luciano Rossi.</desc>
+               </vocal>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Parlamento in seduta comune, convocazione</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u118">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg198">Comunico che il Parlamento in seduta comune è convocato domani, giovedì 26 giugno, alle ore 13, per le votazioni per l'elezione di due giudici della Corte costituzionale. Voteranno per primi gli onorevoli senatori.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione dei disegni di legge nn. 1326, 211, 558 e 1309</note>
+            <note type="time">17,55</note>
+            <note type="time">(ore 17,55)</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u119">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg199">Passiamo alla votazione finale.</seg>
+            </u>
+            <note type="speaker">ROMANO (PI)</note>
+            <u ana="#regular" who="#RomanoLucio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u120">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg200">Spero ci farà sognare per le sue capacità di sintesi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg201">Signor Presidente, la vorrei fare sognare oltre il dovuto, quindi a questo punto, nel votare convintamente a favore del provvedimento personalmente e a nome del Gruppo, ritengo opportuno depositare il mio intervento scritto; quindi, esprimo pieno consenso e ringrazio il senatore Tonini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PI e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg202">PRESIDENTE. La Presidenza l'autorizza in tal senso.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg203">Che lei sia da stimolo per tutti i colleghi.</seg>
+            </u>
+            <note type="speaker">CANDIANI (LN-Aut)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u121">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg204">Signor Presidente, ovviamente il nostro voto sarà di astensione, non ritenendo che il provvedimento sia complessivamente soddisfacente, ma ritenendolo comunque un passo avanti nell'ottica di una cooperazione internazionale che da sempre sosteniamo per potere svuotare anche il tema dell'immigrazione nel nostro Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE CRISTOFARO (Misto-SEL)</note>
+            <u ana="#regular" who="#DeCristofaroPeppe" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u122">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg205">Signor Presidente, solo poche parole per dire che anche il nostro Gruppo si asterrà. È un passo avanti, ma secondo noi troppo debole rispetto a quello che sarebbe servito: è un'occasione mancata, da questo punto di vista. Speriamo che alla Camera il testo possa essere migliorato rispetto a questo che stiamo per approvare. Per questi motivi ci asterremo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MANCUSO (NCD)</note>
+            <u ana="#regular" who="#MancusoBruno" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u123">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg206">Signor Presidente, noi siamo favorevoli al provvedimento, anche se denunciamo qualche piccola incongruità, che speriamo alla Camera possa essere risolta.</seg>
+            </u>
+            <note type="speaker">DE PIETRO (M5S)</note>
+            <u ana="#regular" who="#DePietroCristina" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u124">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg207">Si adegua alla prassi della consegna del testo? DE PIETRO (M5S). Sì, Presidente. Consegno il testo. PRESIDENTE. La Presidenza l'autorizza in tal senso.</seg>
+            </u>
+            <note type="speaker">AMORUSO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#AmorusoFrancescoMaria" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u125">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg208">Chiedo l'autorizzazione a consegnare il testo del mio intervento affinché venga allegato al Resoconto. PRESIDENTE. La Presidenza l'autorizza in tal senso.</seg>
+            </u>
+            <note type="speaker">LAI (PD)</note>
+            <u ana="#regular" who="#LaiBachisioSilvio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u126">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg209">Signor Presidente, consegno anch'io il testo dell'intervento dichiarando il voto favorevole del Gruppo del Partito Democratico. Questa è una riforma cercata da dieci anni. Tre volte l'abbiamo tentata: ci siamo riusciti, e penso sia un atto concreto importante.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u127">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg210">La Presidenza l'autorizza a consegnare il testo del suo intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg211">Avverto che il relatore ha presentato la proposta di coordinamento C1, che si intende illustrata.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg212">Ai sensi dell'articolo 103, comma 5, del Regolamento, la metto ai voti. È approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg213">Procediamo alla votazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg214">MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, del disegno di legge n. 1326, nel testo emendato, con l'avvertenza che la Presidenza si intenderà autorizzata ad effettuare le eventuali ulteriori modifiche di coordinamento formale che dovessero risultare necessarie. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Risultano pertanto assorbiti i disegni di legge nn. 211, 558 e 1309.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u128">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg215">, vice ministro degli affari esteri. Signor Presidente, colleghi del Senato, desidero soltanto, a nome del Governo, a titolo personale e - fatemi dire - a nome dei tantissimi che non da dieci, ma da vent'anni, lavorano su questa questione, ringraziare il Senato per il lavoro brillante svolto oggi. È una pagina importante quella che scriviamo, perché è un provvedimento ordinamentale che innova profondamente questa materia. Era da lungo tempo atteso. La vastissima maggioranza e l'assenza di voti contrari testimoniano quanto il testo fosse maturo e quanto questo esercizio legislativo sia stato consensuale, condiviso, frutto di un vero dialogo tra Governo e Parlamento. Di questo il Governo vi ringrazia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, FI-PdL XVII e M5S e del senatore Maran. Congratulazioni</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg216">PRESIDENTE. E noi ringraziamo il Governo, a questo punto.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">AMATI (PD)</note>
+            <u ana="#regular" who="#AmatiSilvana" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u129">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg217">Signor Presidente, venerdì scorso, 19 giugno, il TAR del Friuli Venezia Giulia ha accolto il ricorso contro il Ministero della difesa di Andrea Rinaldelli, padre di Francesco, caporale maggiore di Potenza Picena, morto a 26 anni per linfoma di Hodgkin mentre era in servizio al Petrolchimico di Porto Marghera, dopo somministrazione multipla di vaccini. Questa sentenza annulla il provvedimento con il quale era stato respinto il riconoscimento della dipendenza da causa di servizio della patologia di Francesco. Tutto ciò si aggiunge alla sentenza del gennaio scorso del tribunale di Ferrara sul caso di Francesco Finessi (militare di 22 anni morto per linfoma non Hodgkin), sentenza dove si evidenziava una correlazione tra vaccinazioni e patologie tumorali. Tali correlazioni non sono certo una novità: esse sono state ipotizzate anche nel lavoro della Commissione uranio impoverito, che sarebbe il caso di riproporre e che, nella passata legislatura, aveva segnalato un possibile ruolo delle vaccinazioni multiple come elemento determinante o codeterminante per gravi patologie. Troppe sono ormai le sentenze che segnano legami forti sul fronte delle vaccinazioni multiple, anche pediatriche, fino al clamoroso provvedimento del tribunale di Torino, che ha deciso di indagare sull'omologa questione dei vaccini pediatrici denunciata dal Codacons. A dire il vero, non sono mancate le nostre interrogazioni, sia al Senato che alla Camera, indirizzate al Ministro della difesa e al Ministro della salute. Ma ora le risposte interlocutorie - per non dire negative - del Governo non sono più all'altezza delle sentenze reiterate. Bisogna che di queste si prenda atto, che si propongano norme adeguate a ridurre drasticamente i rischi delle vaccinazioni multiple, che si arrivi finalmente ad una precisa e puntuale informazione preventiva per i cittadini e che si riconosca per i militari morti la responsabilità dello Stato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PUGLIA (M5S)</note>
+            <u ana="#regular" who="#PugliaSergio" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u130">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg218">Grazie, signor Presidente. Ercolano, frazione San Vito: c'è un dato sconcertante che risulta da un'indagine realizzata dal gruppo «Salute ambiente Vesuvio», coordinata dal professor Gerardo Ciannella, direttore dell'unità di medicina preventiva dell'ospedale Monaldi e docente di tisiologia e medicina del lavoro. Giusto per capire: negli anni '80 e '90 le cave della zona San Vito sono state utilizzate come discarica. Oltre ai compattatori della nettezza urbana, in molti all'epoca denunciarono la presenza di camion con targhe provenienti anche dal Nord che sversavano rifiuti speciali. Quindi, cosa è stato fatto? A fine 2013 furono somministrati a 314 famiglie della zona di San Vito, in pieno Parco nazionale del Vesuvio, dei questionari in cui segnalare la presenza di malattie importanti tra i componenti della famiglia. Il quadro che emerge è tutt'altro che rassicurante. In 203 casi su 314 sono state segnalate gravi patologie. Ecco, il dato non è esaustivo, ma è significativo: più della metà del territorio è ammalato. Questo è quanto dichiara il professor Ciannella. In un campione del genere, la concentrazione di leucemie e di neoplasie è preoccupante. I dati di San Vito verranno comunque resi noti nei prossimi mesi in una pubblicazione scientifica curata dallo stesso Ciannella, che intanto lancia l'allarme. Occorre monitorare immediatamente e in maniera meticolosa acqua, aria e terreni. Ci sono tumori che non si possono curare, ma si possono prevenire eliminandone le cause, ed è quello che qui va fatto subito. È questo che chiederemo anche al Governo, attraverso un'interrogazione parlamentare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg219">Sui lavori del Senato</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u131">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg220">Essendo esauriti gli argomenti previsti dal calendario dei lavori per la seduta antimeridiana di domani, tale seduta non avrà luogo.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u132">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg221">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di giovedì 26 giugno 2014</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.u133">
+               <seg xml:id="ParlaMint-IT_2014-06-25-LEG17-Sed-270.seg222">Il Senato tornerà a riunirsi in seduta pubblica domani, giovedì 26 giugno, alle ore 16, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 18,10).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

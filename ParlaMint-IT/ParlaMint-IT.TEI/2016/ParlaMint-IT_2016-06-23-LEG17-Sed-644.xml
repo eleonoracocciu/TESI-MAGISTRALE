@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 644 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 644 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 644, giorno (2016-06-23)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 644, Day (2016-06-23)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="644-upper">644 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="153" unit="speeches" xml:lang="it">153 discorsi</measure>
+            <measure quantity="153" unit="speeches" xml:lang="en">153 speeches</measure>
+            <measure quantity="17114" unit="words" xml:lang="it">17.114 parole</measure>
+            <measure quantity="17114" unit="words" xml:lang="en">17,114 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0980630</idno>
+               <date when="2016-06-23">23.06.2016</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="10"/>
+               <tagUsage gi="head" occurs="7"/>
+               <tagUsage gi="note" occurs="230"/>
+               <tagUsage gi="seg" occurs="153"/>
+               <tagUsage gi="u" occurs="85"/>
+               <tagUsage gi="vocal" occurs="8"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="39"/>
+               <tagUsage gi="desc" occurs="47"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2016-06-23">23.06.2016</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente GASPARRI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u1">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg1">La seduta è aperta (ore 9,35). Si dia lettura del processo verbale. AMATI, segretario, dà lettura del processo verbale della seduta antimeridiana del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">ARRIGONI (LN-Aut)</note>
+            <u ana="#regular" who="#ArrigoniPaolo" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg2">Signor Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u3">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u4">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg4">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u5">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg5">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg6">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 9,39).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione dei disegni di legge: (2223) Norme per il contrasto al terrorismo, nonché ratifica ed esecuzione: a) della Convenzione del Consiglio d'Europa per la prevenzione del terrorismo, fatta a Varsavia il 16 maggio 2005; b) della Convenzione internazionale per la soppressione di atti di terrorismo nucleare, fatta a New York il 14 settembre 2005; c) del Protocollo di Emendamento alla Convenzione europea per la repressione del terrorismo, fatto a Strasburgo il 15 maggio 2003; d) della Convenzione del Consiglio d'Europa sul riciclaggio, la ricerca, il sequestro e la confisca dei proventi di reato e sul finanziamento del terrorismo, fatta a Varsavia il 16 maggio 2005; e) del Protocollo addizionale alla Convenzione del Consiglio d'Europa per la prevenzione del terrorismo, fatto a Riga il 22 ottobre 2015</note>
+            <note type="time">09,30</note>
+            <note type="status">(Approvato dalla Camera dei deputati)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46444.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1662) ORELLANA ed altri. - Ratifica ed esecuzione della convenzione del Consiglio d'Europa sul riciclaggio, la ricerca, il sequestro e la confisca dei proventi di reato e sul finanziamento del terrorismo, fatta a Varsavia il 16 maggio 2005</note>
+            <note type="time">09,30</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44969.htm</note>
+            <note type="time">(ore 9,39)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u6">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg7">L'ordine del giorno reca il seguito della discussione dei disegni di legge nn. 2223, già approvato dalla Camera dei deputati, e 1662.</seg>
+            </u>
+            <note>Ricordo che nella seduta di ieri i relatori hanno svolto la relazione orale e ha avuto inizio la discussione generale.</note>
+            <note type="generalDiscussion">DISCUSSIONE GENERALE</note>
+            <note>È iscritto a parlare il senatore Scilipoti Isgrò. Ne ha facoltà.</note>
+            <note type="speaker">SCILIPOTI ISGRO' (FI-PdL XVII)</note>
+            <u ana="#regular" who="#ScilipotiIsgroDomenico" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u7">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg8">Signor Presidente, onorevoli colleghi, il disegno di legge all'ordine del giorno dispone la ratifica di cinque Trattati internazionali, finalizzati alla prevenzione e repressione del terrorismo.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg9">Si comprende come il tema sia di estrema attualità e urgenza, considerando la minaccia costante a cui siamo sottoposti già da due decenni. Il terrorismo è considerato dal Consiglio di sicurezza delle Nazioni Unite una minaccia alla pace e alla sicurezza internazionale e da ciò consegue che gli Stati parte delle Nazioni Unite devono fare tutto il necessario per contrastarlo. A maggior ragione nel nostro Paese, punto nevralgico degli sbarchi dei flussi migratori nell'area del Mediterraneo, il pericolo del terrorismo risulta essere reale e incombente, per non parlare poi dell'Anno giubilare della Misericordia, un bersaglio troppo ghiotto per tutti quei prepotenti esaltati che utilizzano la religione come strumento di controllo delle masse inermi.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg10">Prepotenti esaltati: non c'è altro termine per descrivere chi infanga il nome e la volontà del Padre per giustificare omicidi di massa perpetrati ai danni di ignare vittime da altrettante vittime di un lavaggio di cervello disumano. L'evidenza è infatti questa: fratelli che uccidono altri fratelli in nome di un Dio che niente ha a che vedere con l'unicità e l'unità del Dio degli ebrei, dei cristiani e dei musulmani, che credono di servire, mentre - in realtà - sono assoggettati, mente e corpo, alla ricerca del potere assoluto dei loro sedicenti capi spirituali. Mi viene subito in mente quanto detto da nostro Signore Gesù contro le cosiddette guide accecate dal potere e dall'esclusività del proprio status : «Guai a voi, scribi e farisei ipocriti, che chiudete il regno dei cieli davanti agli uomini; perché così voi non vi entrate, e non lasciate entrare nemmeno quelli che vogliono entrarci. Guai a voi, scribi e farisei ipocriti, che percorrete il mare e la terra per fare un solo proselito e, ottenutolo, lo rendete figlio della Geenna il doppio di voi» (Matteo 23:13-15). Siamo stati testimoni troppo passivi di eventi terrificanti che hanno scosso l'intera Europa e che ci fanno riflettere su quanto l'essere umano sia ancora capace di barbarie dopo secoli di cosiddetto progresso. Non dobbiamo però confondere il giusto impegno nella prevenzione di siffatti crimini contro l'umanità con il rifiuto di ogni e qualsiasi forma di assistenza ai fratelli bisognosi, considerando anche un crimine contro l'umanità e contro Dio qualunque muro o piano di confinamento per liberarci di ospiti sgraditi, perché potenzialmente pericolosi. Mi riferisco, ovviamente, a quanto è successo di recente in Paesi dell'Unione europea molto più civili e democratici del nostro, almeno a quanto dicono. «Allora il Signore disse ad Abramo: "Sappi che i tuoi discendenti saranno forestieri in un paese non loro; saranno fatti schiavi e saranno oppressi per quattrocento anni. Ma la nazione che essi avranno servito, la giudicherò io: dopo, essi usciranno con grandi ricchezze"». Così si legge nella Genesi biblica (capitolo 15, versetti 13 e 14). La storia del popolo eletto è quella di una stirpe di migranti alla ricerca della casa del Padre, la Terra promessa, ovvero una terra in cui vivere senza colpa, né condanna da coeredi con Cristo, in cui il Signore ci darà tutto il suo amore e gratitudine. Non voglio, non posso e non debbo non stimolare la vostra memoria a fare anamnesi dell'uscita, della fuga, del popolo ebraico dalla violenza degli egiziani. Loro, gli ebrei, i figli di Abramo (nostro e loro padre), ridotti in schiavitù, sfruttati da un popolo che pretendeva di essere superiore, in quanto adoratore di divinità che gli consentivano di dialogare con l'aldilà e di edificare per mezzo delle piramidi la garanzia della sua immortalità. I figli di Abramo, nostri fratelli, considerati un popolo di miseri pastori, adoratori di un Dio minore, andavano sfruttati e maltrattati (secondo la mentalità degli egiziani) ed i loro servigi andavano ricambiati, pagati, con un pezzo di pane duro ed una ciotola d'acqua. Quanti morti, quanta violenza e ciò a causa dell'uomo che sovente pensa di essere superiore, in virtù di credenze teologiche che portano un popolo a considerare il loro Dio migliore, più grande, più potente, più giusto di un altro Dio. Basta, dobbiamo dire basta a questa visione sbagliata e distorta, che alcuni esseri umani ed alcuni popoli hanno portato avanti sacrificando milioni di loro fratelli. Colleghi onorevoli, cittadini italiani che ci state ascoltando, ebrei, cristiani e musulmani, voi servitori di un solo Dio, del monoteismo, lo stesso monoteismo del nostro antico e sempre giovane padre Abramo. Lui, Abramo, è il fondatore del monoteismo e non lo dobbiamo mai dimenticare. Da Abramo nascerà il popolo ebraico, dal suo discendente Ismaele, figlio di Abramo e della schiava di sua moglie Sara, l'araba Agar, l'Islamismo e da Isacco, frutto della promessa fatta da Elohim ad Abramo e Sara, nascerà il grande Giacobbe e la sua discendenza darà avvio al Cristianesimo. Tre grandi religioni monoteiste; tre grandi fedi, che vanno rispettate; tre grandi popoli, il popolo ebraico, il popolo cristiano e, in ultimo per cronologia storica, il popolo islamico. Tutti e tre figli dell'unico padre terreno: Abramo. Adesso vi chiedo e mi chiedo: possono tutti questi figli dell'unico padre farsi guerra tra loro? Possono massacrarsi? Possono sfruttarsi? Possono non dialogare? Possono non amarsi? Possono non rispettarsi? Basta guerre, basta violenze tra figli dello stesso padre. Non perdiamo di vista ciò che vi ho ribadito poc'anzi, che quasi quattromila anni fa nasceva l'Ebraismo e dall'ebraismo, duemila anni fa circa, il Cristianesimo e millequattrocento anni fa circa, l'Islamismo. Tre modi di vedere l'unico Dio, creatore del mondo, del visibile e dell'invisibile, creatore degli universi che ci circondano e di tutti gli esseri viventi che vi abitano, nostri fratelli anche questi ultimi perché creati da chi ha posto in essere tutta l'esistenza. Fratelli e sorelle, figli dell'unico padre e servitore di Dio, Abramo, apriamoci al dialogo e cerchiamo tutti assieme, ebrei, cristiani ed islamici, di trovare un'intesa pacifica che possa dare solo frutti positivi all'umanità tutta e non divisioni che generano solo fratricidi. Spero che le mie parole, le mie riflessioni e le mie preghiere, possano essere motivo e stimolo a livello governativo e diplomatico affinché il tanto auspicato dialogo avvenga. Senza il dialogo non vi può essere futuro, senza il dialogo non vi può essere vita. Pensate al Cristianesimo. Nel Cristianesimo Dio stesso si fa dialogo, Parola; Dio stesso sceglie di farsi vero uomo allo scopo di capire come potere meglio dialogare con gli esseri umani. Egli manda il suo unico figlio, l'Unigenito, sulla terra allo scopo di rinsaldare il dialogo che si era fratturato nell'Antico Testamento, e di preciso nel primo libro del Pentateuco (Genesi), libro di fede per noi cristiani ma anche per i fratelli ebrei. Con il peccato di Adamo ed Eva, il dialogo tra Dio e l'uomo viene interrotto, la loro corruzione porterà alla nascita della morte, della malattia, della disperazione, dell'imperfezione, del caos, della mancanza di dialogo tra Dio e l'uomo. Ma dopo quasi due lunghi millenni, Elohim invierà il suo messaggero Gesù Cristo, l'Unto, il consacrato, la sua Parola; il dialogo si farà carne e ciò allo scopo di potere ridialogare con noi esseri umani, allo scopo di ricostruire l'alleanza tra Dio e l'uomo, di redimere i figli di Adamo ed Eva, di mondarli dai loro peccati, di farli rinascere a vita nuova. Il nuovo Adamo, Gesù Cristo, Re e Salvatore dell'umanità, porrà le basi per redimere tutta l'umanità e riammetterla al cospetto di Dio, e condurla così nella Gerusalemme celeste, nel nuovo Eden, nel nuovo paradiso, nell'aldilà. Egli inizia a farci percepire il «già», e nel «non ancora» e nell'escatologia terrena ci prepara continuamente con la Parola di Dio, con il dialogo che, grazie al Verbo fattosi carne, per noi e per la nostra salvezza, ci fa assaporare ciò che poi godremo definitivamente nel cielo. Colleghi onorevoli, amministratori dello Stato, l'umanità ha bisogno di un forte dialogo tra le tre grandi religioni monoteiste e di una legislazione internazionale che possa far capire che tra fratelli l'unica arma da adottare è quella dell'amore. Nel merito del disegno di legge, esso si inserisce nella cornice della cooperazione internazionale in materia di prevenzione e repressione del terrorismo. Il primo dei cinque Trattati oggetto di ratifica è la Convenzione del Consiglio d'Europa per la prevenzione del terrorismo. L'Italia l'ha firmata nel giugno del 2005. Il testo della convenzione individua i profili di nuove figure di reato collegate al compimento di atti di terrorismo: si fa riferimento alla pubblica provocazione (istigazione e apologia), alla commissione di un reato terroristico, al reclutamento e all'addestramento ad attività terroristiche che si concretizza nella fornitura di istruzioni per la fabbricazione e l'uso di esplosivi, armi da fuoco, sostanze nocive e pericolose, nonché di metodologie specifiche volte alla commissione di atti terroristici. In tema di provocazione, però, credo di dover aprire una piccola ma doverosa parentesi sul fatto che ritengo profondamente sbagliato anche ridicolizzare la religione, trend oggigiorno ampiamente diffuso e spacciato per libertà di parola, arrivando a delle vere e proprie forme di blasfemia inaccettabili, da parte non solo di un credente, ma anche da quegli atei che però professano apertamente il rispetto dell'altrui sensibilità. «Chi bestemmia il nome del Signore dovrà essere messo a morte: tutta la comunità lo dovrà lapidare. Straniero o nativo del paese, se ha bestemmiato il nome del Signore, sarà messo a morte (Levitico 24:16)». Ovviamente non voglio in alcun modo giustificare la violenza in nome di qualsiasi diritto, compreso quello più sacro della libertà di culto, ma voglio farvi riflettere sul fatto che una semplice ed innocua violenza verbale, in determinati contesti di arretratezza o di povertà, può provocare, anche nelle persone più mansuete, una rabbia che può essere adeguatamente cavalcata e spinta verso direzioni imprevedibili. Dio è speranza e a volte è l'unica ricchezza, quella inestimabile che rimane a chi non ha nulla. E non dobbiamo permetterci di sottovalutare ciò in nome di un cosiddetto progresso culturale che relega la fede a semplice scaramanzia o droga per gli stupidi. «Perché guardi la pagliuzza che è nell'occhio del tuo fratello, e non t'accorgi della trave che è nel tuo?». Mi riferisco al fatto che l'incitamento all'odio religioso non può essere condannato in un caso e sottovalutato, anzi quasi giustificato, in un altro, perché sempre di odio si tratta e come tale deve essere eradicato su tutti i fronti da quella che vuole considerarsi una società civile. Il secondo è il Protocollo di emendamento alla Convenzione europea per la repressione del terrorismo, anche se a livello internazionale non è ancora entrato in vigore, perché non tutti gli Stati parte della Convenzione hanno espresso il loro consenso ad essere vincolati al Protocollo. La terza ratifica riguarda la Convenzione del Consiglio d'Europa sul riciclaggio, la ricerca, il sequestro e la confisca dei proventi di reato e sul finanziamento del terrorismo. Nello specifico, il Trattato amplia la Convenzione del 1990, che disciplina la stessa materia. Adesso, con la nuova Convenzione, sono prese in considerazione anche le forme di finanziamento del terrorismo realizzate attraversa attività lecite. La quarta attiene alla Convenzione delle Nazioni Unite per la soppressione degli atti di terrorismo nucleare, adottata a New York nell'aprile del 2005. Le fattispecie che costituiscono reato connesso ad atti di terrorismo consistono nella detenzione di materie radioattive, nella fabbricazione di ordigni e nel danneggiamento di impianti. Inoltre viene stabilito che anche la sola minaccia di commettere un reato di tal specie costituisce reato, come pure la complicità. Infine si procede alla ratifica del Protocollo addizionale alla Convenzione del Consiglio d'Europa per la prevenzione del terrorismo del 2005. Seppur non ancora entrato in vigore, il Protocollo attribuisce rilievo penale alla partecipazione ad un'associazione a fini terroristici; alla sottoposizione ad un addestramento a fini terroristici; al compimento di viaggi all'estero con finalità terroristiche, al finanziamento di viaggi all'estero di altri soggetti a fini di terrorismo e all'organizzazione e al favoreggiamento in qualunque altro modo di tali viaggi. È previsto altresì il rafforzamento degli scambi rapidi di informazione tra le parti riguardo ai soggetti che si recano all'estero sospetti di essere terroristi. Da un breve excursus si evince che tutti gli accordi inseriti in questo disegno di legge per essere recepiti nel nostro ordinamento sono stati firmati quando a Palazzo Chigi c'era il Governo Berlusconi, a riprova del fatto che la conduzione di politica estera del Governo Berlusconi era in piena sintonia con tutti i partner occidentali ed era finalizzata alla lotta al terrorismo e alla cooperazione internazionale per contrastare il fenomeno con efficacia. PRESIDENTE. È finito il tempo. La invito a concludere. SCILIPOTI ISGRO' (FI-PdL XVII). Non posso concludere. Visto che il tempo è finito, chiedo di poter allegare il testo del mio intervento al Resoconto della seduta odierna. PRESIDENTE. La Presidenza la autorizza in tal senso. La prego di concludere. Poi consegnerà il testo agli Uffici. SCILIPOTI ISGRO' (FI-PdL XVII). Oggi come ieri il terrorismo colpisce al cuore l'Occidente e i Paesi che si oppongono all'estremismo islamico ed è quanto mai necessario che tutti i Governi convergano verso una strategia chiara e unica per sradicare le cellule e i gruppi terroristici. I Governi sono chiamati a gestire numerose crisi congiuntamente ed è chiaro che l'assenza di una strategia comune alimenta le minacce. Signor Presidente, mi dispiace non poter concludere il mio intervento.</seg>
+            </u>
+            <note type="speaker">CENTINAIO (LN-Aut)</note>
+            <u ana="#regular" who="#CentinaioGianMarco" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg11">Signor Presidente, capisco che ogni collega può dire quello che ritiene più giusto nella discussione di ogni provvedimento, tuttavia mi sono sentito un po' a disagio, perché non ho capito se eravamo nel Senato della Repubblica o nel Conclave. Quindi, quando mi dirà « habemus Papam! » potremo uscire da quest'Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e Misto e del senatore Crosio.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u9">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg12">Io non ho ambizioni di presiedere consessi di quel tipo, non mi ritengo all'altezza.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg13">Dichiaro chiusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg14">Comunico che sono pervenuti alla Presidenza - e sono in distribuzione - i pareri espressi dalla 1ᵃ e dalla 5ᵃ Commissione permanente sul disegno di legge in esame e sugli emendamenti, che verranno pubblicati in allegato al Resoconto della seduta odierna.</seg>
+            </u>
+            <note>Poiché i relatori e il rappresentante del Governo non intendono intervenire in sede di replica, passiamo all'esame degli articoli del disegno di legge n. 2223, nel testo approvato dalla Camera dei deputati.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Passiamo alla votazione dell'articolo 1. BIGNAMI</note>
+            <note>(Misto-MovX)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. BIGNAMI</note>
+            <note>(Misto-MovX)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo all'esame dell'articolo 3, sul quale è stato presentato un emendamento che si intende illustrato e su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</note>
+            <note type="speaker">PEGORER</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PegorerCarlo" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u10">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg15">, f.f.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg16">Signor Presidente, esprimo parere contrario. Segnalo all'Assemblea che il punto 2) della lettera e), al comma 1 dell'articolo 3, la definizione di «ogni dispositivo a dispersione di materia radioattiva od ogni ordigno a emissione di radiazioni» già ricomprende il concetto di uranio impoverito, poiché scarto di lavorazione dell'uranio arricchito.</seg>
+            </u>
+            <note type="speaker">DELLA VEDOVA</note>
+            <note type="role">sottosegretario di Stato per gli affari esteri e la cooperazione internazionale</note>
+            <u ana="#regular" who="#DellaVedovaBenedetto" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u11">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg17">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u12">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg18">Passiamo alla votazione dell'emendamento 3.1.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg19">BIGNAMI (Misto-MovX). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.1, presentato dal senatore Di Maggio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 4, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u13">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg20">Signor Presidente, come avete avuto modo di vedere, il Gruppo di Forza Italia ha votato a favore dei primi tre articoli di questo disegno di legge. Con riferimento, invece, all'articolo 4 è stata presentata una serie di emendamenti che ha come presupposto una valutazione negativa dell'articolo che ci viene proposto a causa di alcuni errori tecnici.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg21">Per iniziare, viene introdotta una nuova figura di reato che prevede la punibilità di una serie di condotte che attualmente risultano già punibili ai sensi della norma relativa al reato di associazione terroristica. Il ragionamento che viene fatto dal proponente è che tali comportamenti necessitino di una punibilità separata in quanto chi li pone in essere non fa parte dell'associazione terroristica pur favorendola con le proprie condotte. In altri termini, si sta punendo un concorso esterno in associazione terroristica. Tanto ciò è vero che, dal raffronto tra la norma attuale e quella che si vuole introdurre, le condotte risultano assolutamente identiche, così come identica è la sanzione.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg22">Orbene, il reato di concorso esterno si può configurare con riferimento a tutti i reati associativi: si può configurare con riferimento al reato di associazione mafiosa così come con riferimento al reato di associazione terroristica. Nel momento in cui, però, si prevede una disciplina per il cosiddetto concorso esterno in associazione terroristica e non si fa un'analoga operazione con riferimento all'associazione mafiosa, stante il principio di tassatività che governa il sistema penale, noi ci troviamo di fronte alla possibilità, in via interpretativa, che tutto quello che è concorso esterno in associazione mafiosa possa non trovare punibilità per l'assenza di una specifica norma, la quale invece viene espressamente prevista per il reato di associazione terroristica. E siccome l'interpretazione delle norme si ispira al sistema, con questa innovazione create sostanzialmente un varco non indifferente con riferimento al contrasto mafioso e, in particolare, alla punibilità delle condotte di concorso esterno.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg23">È utile questa norma? Assolutamente no perché - come dicevo all'inizio - le condotte in questione possono essere tranquillamente punite ai sensi delle norme attuali come figure di concorso esterno. È dannosa? Sicuramente sì per gli effetti che essa provoca nel tema del contrasto alla mafia.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg24">Liberi voi di decidere come meglio riterrete. È evidente, però, che la vostra decisione comporta un insieme di responsabilità di cui vi farete carico nel momento in cui, in sede giudiziaria, queste norme verranno utilizzate per chiedere - e molto probabilmente per ottenere - la non punibilità di tutti coloro che pongono in essere comportamenti oggettivamente di favore nei confronti dell'associazione mafiosa senza farne parte e che non potranno essere puniti in ragione del principio di tassatività, per l'assenza di una norma specifica che vada a punire quella fattispecie di concorso esterno; norma specifica che invece esiste con riferimento all'associazione terroristica.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg25">Dal nostro punto di vista - e sono stati presentati altri emendamenti sul punto - vi sono degli errori tecnici sotto il profilo della quantificazione della pena e dell'assoluta parità della sanzione tra la nuova figura e la precedente figura dell'associazione terroristica.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg26">Ma se si tratta di una nuova figura, retrogradata rispetto a quella di associazione terroristica, solo perché chi la pone in essere non fa parte dell'associazione terroristica, qual è la ragione per cui la pena deve essere la stessa? Ovvero - e se ne interesserà successivamente il senatore Caliendo, commentando un'altra norma - come potete immaginare che perfino per il possesso di una bomba atomica o di armi chimiche o batteriologiche si possa essere puniti con una pena di quindici anni, quando tutti sappiamo che il suo utilizzo ha degli effetti così deflagranti? È inutile fare degli spot pubblicitari. Dunque, questa norma serve al contrasto del terrorismo? No, questa norma non serve. Questa norma indebolisce il contrasto dello Stato con riferimento ad altri fenomeni criminali di elevata importanza? Sì, sicuramente è così. Questa norma è corretta sotto il profilo del sistema giuridico, con riguardo agli atteggiamenti sanzionatori e alla valutazione della gravità dei reati? Sicuramente no. Ora, so bene che c'è la necessità di approvare subito il provvedimento in esame senza toccare in nulla quanto è stato stabilito dalla Camera dei deputati. Ricordo, però, a tutti voi che il Senato è ancora in vita e che non è detto che morirà dopo il referendum di ottobre. Ricordo a tutti voi che compito del legislatore non è appiattirsi sulle posizioni dell'altro ramo del Parlamento, ma esprimere autonomamente il proprio legittimo pensiero, specialmente quando dall'altra Camera ci pervengono testi erronei. E questo volevamo dirvi, affinché risultasse dal Resoconto stenografico, perché un domani non si venga a dire che la colpa è dei giudici, dal momento che la colpa - ove colpa vi possa essere - è del legislatore. Voglio aprire e immediatamente chiudere una parentesi, signor Presidente. Questo è un po' quanto sta accadendo negli ultimi giorni, quando vedo l'amarezza e l'indignazione di alcuni esponenti del Nuovo centrodestra, alla luce della sentenza emessa di recente dalla prima sezione della Corte di cassazione. Ricordo quando, in dichiarazione di voto, magnificarono il loro intervento sulla normativa in materia di unioni civili, affermando di aver raggiunto un ottimo risultato. In quella legge era scritto, però, che restava previsto e consentito quanto attualmente è previsto dalle leggi in vigore, che avevano già consentito la cosiddetta stepchild adoption. Al di là delle ipocrisie, è meglio evitare di citare cose che in questa sede non sono state dette, o che sono state dette e si afferma essere state interpretate in maniera errata. A voi la responsabilità di indebolire il contrasto alla criminalità mafiosa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg27">PRESIDENTE. I restanti emendamenti si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg28">Invito i relatori e il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">LO GIUDICE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LoGiudiceSergio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u14">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg29">Desidero intervenire rapidamente sulle proposte di emendamento che sono state presentate, a partire dall'emendamento 4.1, su cui è appena intervenuto il senatore Palma.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg30">Il nuovo articolo 270- quinquies del codice penale, che stiamo proponendo, introduce una nuova fattispecie di finanziamento di condotte con finalità di terrorismo al di fuori dell'ipotesi associativa. Invito al ritiro dell'emendamento 4.1, altrimenti il parere è contrario, e non per un appiattimento su quanto approvato dalla Camera dei deputati, ma per un corretto recepimento della Convenzione di Varsavia del 2005, che è il cuore del provvedimento in esame. Quella Convenzione, così come le altre che stiamo andando a recepire, prevede una serie di interventi che, in gran parte, sono già coperti dal nostro sistema penale. In questo caso si tratta di intervenire su alcune piccole misure che, con riferimento a quanto stabilito dalla Convenzione, non sono adeguatamente previste dal nostro ordinamento. In questo caso, per l'appunto, il tema di un finanziamento fuori da una struttura e l'ipotesi di associazione con finalità di terrorismo sono un contesto molto diverso sul piano codicistico penale rispetto al tema dell'associazione mafiosa. Per quanto riguarda le altre proposte emendative, sull'emendamento invito il senatore Cappelletti al ritiro dell'emendamento 4.2 oppure esprimo parere contrario. L'emendamento propone di equiparare la pena da cinque a dieci anni per chi deposita o custodisce beni, così come nella nostra previsione, a quella di chi raccoglie, eroga o mette a disposizione beni. La previsione del disegno di legge è una pena da sette a quindici anni. Ora, è evidente che stiamo parlando di due comportamenti di gravità differente tra di loro. In merito all'equiparazione rispetto a quanto previsto dall'ordinamento vigente, in particolare dall'articolo 270- bis del codice penale, questa è, nel primo caso, relativa a chi partecipa all'associazione e, nel secondo caso, a chi finanzia l'associazione. Quindi, un'equiparazione dal punto di vista della sanzione penale di questi due comportamenti rappresenterebbe un anomalo appiattimento. Il parere è contrario anche sull'emendamento 4.6 dei senatori Caliendo e altri, che fa la proposta opposta, di diminuire le pene per chi deposita o custodisce denaro: si tratta delle stesse pene che il senatore Cappelletti propone di aumentare. Rispetto agli emendamenti presentati dai senatori De Cristofaro e altri, gli emendamenti 4.100, 4.101 e il successivo 4.102, che chiedono di inserire le parole «inequivocabilmente» e «non equivoche», invito al ritiro o esprimo parere contrario, in quanto è evidente che il tema dell'accertamento del giudice della inequivocabilità dell'atto è sottinteso. Il parere è contrario anche sull'emendamento 4.4 dei senatori Caliendo e altri, per gli stessi motivi illustrati prima rispetto all'emendamento 4.2. L'emendamento 4.5, a prima firma della senatrice Bertorotta, propone di sostituire la parola «fondi» con le parole «beni o del denaro». Io invito la senatrice a ritirarlo, altrimenti esprimo parere contrario, in quanto si tratta di una modifica terminologica ma non sostanziale. La parola fondi, infatti, nella lingua italiana può indicare sia il concetto di beni mobili che immobili che il concetto di denaro. Anche per quanto riguarda l'emendamento 4.7, a prima firma del senatore Caliendo, che chiede di sopprimere il capoverso «Art. 270- quinquies.2», che è il nuovo articolo del codice penale che sarebbe introdotto dal provvedimento, relativo alla sottrazione di beni o denaro sottoposti a sequestro, chiedo al collega di ritirarlo, altrimenti esprimo parere è contrario. Pure in questo caso, infatti, siamo in presenza di uno degli impegni specifici contratti dal nostro Paese attraverso la stipula della Convenzione di Varsavia del 2005 sul riciclaggio, la ricerca, il sequestro e la confisca dei proventi del reato. L'emendamento 4.8, sempre a prima firma del senatore Caliendo, chiede di inserire, laddove si punisce in modo specifico «Chiunque sottrae, distrugge, disperde, sopprime o deteriora beni o denaro, sottoposti a sequestro per prevenire il finanziamento delle condotte con finalità di terrorismo», le parole «, al fine di favorirne il proprietario,». Sottolineo il fatto che anche la pena, relativamente lieve, prevista per questa fattispecie di reato, da due a sei anni, non vuole riferirsi alla situazione specifica di chi mette in campo le condotte di sottrazione e sequestro per favorire chi commette la condotta terroristica, azione che sarebbe già punita con pene ben più gravi di questa. Per quanto riguarda gli emendamenti 4.10 e 4.13, dei senatori Caliendo e altri, sui quali prima anche il senatore Palma si è soffermato, relativamente all'entità delle sanzioni per chi utilizza ordigni nucleari, voglio ricordare che la sanzione prevista da quella norma per chi crea un ordigno nucleare o ne viene in possesso non è di anni quindici, ma è «una pena non inferiore ad anni quindici». In questo modo si lascia al magistrato la possibilità di prevedere sanzioni ben più gravi nel caso in cui la condotta sia effettivamente grave. Per tale motivo anche il parere sugli ultimi tre emendamenti del fascicolo è contrario.</seg>
+            </u>
+            <note type="speaker">DELLA VEDOVA</note>
+            <note type="role">sottosegretario di Stato per gli affari esteri e la cooperazione internazionale</note>
+            <u ana="#regular" who="#DellaVedovaBenedetto" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u15">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg31">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u16">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg32">Passiamo alla votazione dell'emendamento 4.1.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg33">BIGNAMI (Misto-MovX). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata).</seg>
+            </u>
+            <note type="speaker">COMPAGNA (CoR)</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u17">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg34">Signor Presidente, pur avendo ascoltato con molta attenzione e rispetto le sobrie ragioni di replica del relatore alla proposta del senatore Palma, credo invece che il Senato debba confortare con il voto favorevole l'emendamento 4.1, e non già per una metallica ragione di revisionismo del testo della Camera tramite un emendamento del Senato, che si asserisce insita nel bicameralismo. Non si tratta di questo, collega e, se me lo consente, amico relatore. Le ragioni illustrate dal senatore Palma sono per certi aspetti più concrete, ma anche più profonde. Ci si richiama da parte del relatore alla logica delle convenzioni internazionali e, in questo caso, di convenzioni internazionali che hanno come bersaglio il terrorismo. Già, ma le ragioni profonde per le quali tocca all'Aula del Parlamento ratificare i trattati internazionali sono quelle di poter constatare che i reati contro la personalità dello Stato sono estranei alla cultura democratica, alla cultura dello Stato liberale e dello Stato di diritto. Per quanto riguarda più specificamente la guerra contro il terrorismo, vorrei ricordare a quest'Aula che il nostro Paese, il nostro ordinamento giuridico, pagando un prezzo altissimo, hanno lottato con la propria magistratura, con le proprie Forze dell'ordine, con i propri esponenti politici contro il terrorismo, senza mai calpestare gli ideali dello Stato di diritto. Per cui l'improprio richiamo allo Stato etico, se non vogliamo dire alla continuità dell'ordinamento fascista in sede di ratifica dei trattati internazionali, è un modo di calpestare le ragioni, le vite umane e i costi di lealtà all'ordinamento costituzionale che allora pagammo. Di qui la necessità di approvare - a mio giudizio - l'emendamento proposto dal collega Palma.</seg>
+            </u>
+            <note type="speaker">GIOVANARDI (GAL (GS, PpI, M, Id, ApI, E-E, MPL))</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u18">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg35">Signor Presidente, ancora una volta rimango sorpreso. In Aula interviene un magistrato con grande esperienza di lotta alla mafia e al terrorismo, che è stato anche Ministro della giustizia e Presidente di Commissione, che pone all'Assemblea delle questioni estremamente serie davanti alle quali mi sarei aspettato che il rappresentante del Governo o il relatore rispondessero alle obiezioni sollevate dal collega Palma nel merito. No, la risposta è sempre la stessa: l'Europa lo vuole. Quindi, noi dobbiamo trasporre in Italia quello che l'Europa ci dice di fare. Il senatore Palma ha sollevato una problematica che può essere giusta o sbagliata, ma qualcuno mi dovrebbe spiegare perché è sbagliata. Si costruisce un sistema squilibrato per cui si tipizza nel codice penale il concorso esterno per quanto riguarda il terrorismo, mentre si lascia all'elaborazione giurisprudenziale ciò che riguarda il concorso esterno mafioso. Mi sembra di capire che si debbano tipizzare entrambe le fattispecie, perché tipizzandone solo una può capitare che l'armamentario antimafia e anticriminalità organizzata costruito decada nel momento in cui norme specifiche disciplinano - come in questo caso avverrebbe - il concorso esterno in questioni che riguardano il terrorismo. Qualcuno ha risposto? Il relatore o il Governo hanno detto se quanto dice l' ex Ministro della giustizia abbia o no fondamento? No, c'è stato silenzio. Mi domando se il Senato possa discutere di questioni di una tale importanza e spessore senza che nessuno sia in grado di difendere una posizione che viene proposta dal relatore, che sostiene di votare contro gli emendamenti presentati dal senatore Palma, e dal Governo, che semplicemente si allinea con il relatore, senza fornire una spiegazione minima sui rischi che stiamo correndo. Voterò gli emendamenti del senatore Palma perché li ha motivati, perché ci ha messo in guardia sui possibili rischi e ha fatto un discorso tecnico-giuridico serio al quale si è risposto, come al solito, con degli slogan.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Davico.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u19">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg36">Voglio comunicare che, a titolo personale, voterò a favore dell'emendamento 4.1.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Compagna</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg37">Credo che la questione sia di una certa rilevanza e non può essere liquidata semplicemente approvando il testo come arriva al nostro esame.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg38">(ore 10,28) ( Segue BUEMI). Allo stesso tempo si aprono scenari interpretativi e applicativi delle norme giuridiche che, in futuro, ci potrebbero portare a riconoscere che in questo momento stiamo commettendo un errore. Qualsiasi distorsione o equivoco che possiamo introdurre nella nostra azione legislativa sulle materie del terrorismo e della mafia sarebbe di grande nocumento agli interessi del Paese. Per questa ragione dichiaro, a titolo personale, il mio voto favorevole all'emendamento.</seg>
+            </u>
+            <note type="president">Presidenza del presidente GRASSO</note>
+            <note type="time">10,28</note>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u20">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg39">Signor Presidente, in questa legislatura ogni tanto assistiamo a spiegazioni in italiano, quasi non sapessimo leggere quanto è scritto nei disegni di legge. Il senatore Palma ha dato indicazioni precise sul primo articolo. Sul punto non si può replicare riprendendo la previsione della Convenzione europea. Noi stiamo ragionando in base all'efficacia di una norma nel nostro sistema penale, che è armonico. Quindi, non si può dire che con gli emendamenti presentati si propone la diminuzione della pena e che con altri - come abbiamo fatto - l'aumento e, addirittura, l'ergastolo, perché gli aumenti o le diminuzioni di pena si inseriscono nel sistema penale. È veramente offensiva la motivazione del parere contrario sull'emendamento 4.8, con cui noi proponiamo di aggiungere una precisa finalità. Al secondo comma dell'articolo 270- quinquies.2 si legge: «Chiunque sottrae... beni o denaro, sottoposti a sequestro per prevenire il finanziamento delle condotte con finalità di terrorismo». Le condotte con finalità di terrorismo hanno giustificato il sequestro. Non è la finalità del ladro che sottrae i beni e il denaro. Ecco perché abbiamo scritto in quel modo, come prevede la norma generale sulla violazione delle cose sottoposte al sequestro. Il ladro deve avere una specifica finalità per essere condannato alla pena da due a sei anni, e ciò avviene al fine di favorire il proprietario. È la stessa norma prevista per tutte le violazioni di cose sottoposte a sequestro. La volontà dell'opposizione è di migliorare il testo e rendere più efficace la lotta al terrorismo sotto il profilo di norme che hanno un loro significato specifico e che non possono essere dubbie. Nella lotta al terrorismo, se dovessimo imputare a delle persone alcuni reati e poi la norma non dovesse reggere ai fini della condanna, significherebbe né più né meno allargare quella che una volta, all'epoca del terrorismo, definivamo l'area in cui il pesce rosso vive e vegeta. Nello stesso tempo allora individuammo - lei lo ricorderà, Presidente - al Consiglio superiore della magistratura, su proposta di Michele Coiro e del sottoscritto, una sola aggravante senza modificare il sistema penale. Questa volta abbiamo presentato degli emendamenti che servono esclusivamente a rendere la norma coerente sotto il profilo della pena. E abbiamo previsto anche la correzione della pena, anche quando doveste bocciare il nostro primo emendamento di soppressione del primo articolo. Se non capite o non siete d'accordo con le nostre ragioni, che forse sono sbagliate, o non condividete l'emendamento del senatore Palma, non potete però non condividere tutti gli altri emendamenti che riguardano l'equilibrio delle pene. Non potete rispondere parlando di aumenti o diminuzioni di pene, perché significherebbe né più né meno non svolgere il nostro lavoro.</seg>
+            </u>
+            <note type="speaker">LUMIA (PD)</note>
+            <u ana="#regular" who="#LumiaGiuseppe" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u21">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg40">Signor Presidente, ricordo a tutti i colleghi che ci troviamo di fronte a un atto già approvato dalla Camera. Si può cambiare un atto approvato dalla Camera? CALIENDO (FI-PdL XVII). Che c'entra? LUMIA (PD). Sì, si può cambiare, e lo abbiamo fatto tante volte. Non vi è, quindi, nulla di scandaloso nella proposta che viene avanzata di approvare emendamenti che modificano un atto già approvato dalla Camera. Noi ci appelliamo alla necessità di approvare un atto del Senato che sia conforme a quello della Camera, a prescindere da una valutazione di merito di quanto è contenuto all'interno delle decisioni della Camera stessa? Riteniamo che gli atti e le scelte fatte alla Camera siano legittimi - va da sé - ma anche coerenti con le convenzioni internazionali che abbiamo il dovere - direi l'obbligo - di recepire nel nostro ordinamento, come chiede la nostra Costituzione. Presidente, cosa si sta facendo nel recepimento di ben cinque convenzioni internazionali? Nella lotta al terrorismo abbiamo già un sottosistema penale compiuto, grazie al lavoro svolto in tanti e tanti anni all'interno del nostro Paese, ma debbo dire anche grazie alla capacità del Governo di essere in allerta, pronto, vigile e in grado di anticipare condotte tutte nuove nel terrorismo globalizzato soprattutto di stampo islamico-radicale. Queste forme di condotta sono novità che l'apparato codicistico, spesso dell'Ottocento, non è in grado di prevedere. Cari colleghi, le nuove condotte da terrorismo globalizzato sono inedite e hanno spiazzato tanti Paesi in Europa, tanto che il loro apparato codicistico non è stato in grado di prevenirle e perseguirle. PALMA (FI-PdL XVII). Sono di due anni fa le norme! LUMIA (PD). Noi ci trovavamo invece con due buchi, Presidente, che sono stati riempiti dalle proposte che qui vengono sottoposte alla nostra valutazione. Il comma 1, lettera a), attiene al «Finanziamento di condotte con finalità di terrorismo», con cui si chiede di colpire «Chiunque (...) raccoglie, eroga o mette a disposizione beni o denaro, in qualunque modo realizzati, destinati a essere in tutto o in parte utilizzati per il compimento delle condotte con finalità di terrorismo (...)». In secondo luogo, si chiede di colpire «Chiunque deposita o custodisce i beni o il denaro» destinati al compimento di atti con finalità terroristica. Questi sono due punti qualificanti l'articolo 4 del provvedimento. Occorre però fare attenzione, colleghi, perché l'emendamento del senatore Palma propone di abrogare non solo queste due condotte, ma anche altre fattispecie di cui all'articolo 4, comma 1, lettera b). Mi riferisco alla resa obbligatoria in caso di condanna o patteggiamento per uno dei delitti con finalità di terrorismo previsti dal codice di procedura penale: «è sempre disposta la confisca dellecose che servirono o furono destinate a commettere il reato e delle cose che ne costituiscono il prezzo, il prodotto o il profitto». Questa è un'altra importante condotta da colpire, posto che la nuova capacità del terrorismo di accumulare denaro sia un altro elemento qualificante. L'articolo 4 del provvedimento inserisce tra i delitti contro la personalità interna dello Stato la nuova fattispecie penale di atti di terrorismo nucleare. La disposizione di cui al comma 1, lettera c), punisce con la reclusione da sei a dodici anni chiunque, con finalità di terrorismo, procura a sé o ad altri materia radio-attiva, crea un ordigno nucleare o ne viene altrimenti in possesso. Questi sono i contenuti dell'articolo 4. Con riferimento alle prime due condotte (ossia colpire chi raccoglie o mette a disposizione denaro con finalità di terrorismo, al di fuori della sua appartenenza all'associazione terroristica, che è la caratteristica del terrorismo globalizzato), il senatore Palma ha la preoccupazione che esse possano andare a interferire con le norme in materia di contrasto alla mafia per quanto riguarda il reato di concorso interno. Voglio tranquillizzare i colleghi, e non so se il collega Buemi sia d'accordo con il concorso esterno, ma penso di no. Cari colleghi, la preoccupazione del senatore Palma è quella di preservare sul piano giurisprudenziale la possibilità di colpire il concorso esterno. Dal momento che condivido la preoccupazione sollevata dal senatore Palma, dico tranquillamente che, per come abbiamo strutturato i reati di terrorismo nel sottosistema penale, detta preoccupazione non esiste. Nel sottosistema penale del reato al terrorismo si è, infatti, costruita una complessità armonica che consente di poter facilmente intervenire e colpire tutti i tipi di reato ed evitare quel tipo di indiretta interpretazione tale da andare a mettere in discussione, per via giurisprudenziale, il reato di concorso esterno in associazione mafiosa, che magari molti che voteranno l'emendamento del senatore Palma non condividono non solo nell'idea, ma neanche nell'utilizzo per via interpretativa e giurisprudenziale. Colleghi, poiché non vorrei che si creassero delle sovrapposizioni e confusioni, sarebbe opportuno attenerci al testo. Stiamo parlando dei reati di terrorismo, si tratta di un sottosistema completo, stiamo recependo delle convenzioni e ci stiamo occupando delle condotte globalizzate, inedite e nuove che il nostro codice deve prevedere, al pari di tutti gli altri Paesi impegnati in questa lotta. Il nostro voto non è semplicemente dettato da un'inerzia e dalla volontà di ratificare passivamente e alla cieca quanto deliberato dalla Camera dei deputati, ma - come ha detto bene il relatore - è un modo consapevole per far sì che il nostro Paese faccia un altro passettino in avanti, nella consapevolezza di essere alla guida; anticipa e sta chiedendo ad altri Paesi di farne ben altri in avanti per essere tutti quanti più efficaci nella lotta al terrorismo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Sangalli.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u22">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg41">Pur nel rispetto nei confronti del presidente Gasparri, sono contento della sua presenza in Aula, presidente Grasso, in quanto di qui a poco l'Assemblea voterà un emendamento che - secondo noi, ma non solo - può creare non indifferenti problemi. Signor Presidente, il tema è molto semplice e mi sia concesso un minuto per svolgere un breve riassunto della questione. Le condotte che sono previste nel nuovo articolo 270- sexies.1 sono le stesse previste nel 270- quinquies : associazione terroristica. La differenza tra le due norme, quella vecchia e quella che si vuole introdurre, è che il soggetto che pone in essere le condotte di cui alla norma che si vuole introdurre non fa parte dell'associazione terroristica. Alla luce di una giurisprudenza consolidata in tema di concorso esterno in associazione mafiosa, si sta disciplinando il concorso esterno in associazione terroristica. Lei, signor Presidente (come me e come tanti altri), sa perfettamente che il concorso esterno in un reato associativo può essere configurato con riferimento all'associazione mafiosa, ma anche con riferimento a tutti gli altri reati associativi. Le condotte, quindi, che si vogliono introdurre con una nuova punibilità - peraltro con la stessa identica sanzione dell'associazione terroristica - sono le stesse della associazione terroristica. Posso correttamente immaginare che, in sede interpretativa, quando l'imputato sarà il finanziatore non del terrorismo, ma dell'associazione mafiosa (della quale non fa parte), l'eventuale reato di concorso esterno in associazione mafiosa potrà essere aggredito sul piano interpretativo-sistematico, perché nel campo dell'associazione mafiosa manca una specifica figura delittuosa che invece è prevista per l'associazione terroristica. È questo il punto che volevo mettere in evidenza. Prosegue chiedendo: questa norma è utile? Non lo è, perché dette condotte sono già punite con la stessa identica sanzione secondo la norma attuale. È dannosa o potenzialmente dannosa? Sicuramente sì, per quello che mi sono permesso di dire e che ella, signor Presidente, ben comprende in tema di associazione mafiosa. Ho ascoltato la replica del relatore e non voglio fare polemica, ma una me la consentirà il senatore Lumia, che probabilmente è stato disattento: il nostro codice penale, a dire la verità, nel suo complesso, non risale all'Ottocento, ma a un periodo leggermente successivo e, per quanto riguarda i reati di terrorismo, l'articolo 270- quinquies risale al 2005 e, quindi, non dobbiamo andare molto tempo indietro. Signor Presidente, gli emendamenti sostanzialmente dicono che noi non siamo d'accordo per le ragioni che abbiamo espresso. Volete introdurre questo reato? Benissimo, ma non potete prevedere la stessa pena dell'associazione terroristica, altrimenti violate il principio di ragionevolezza. Avete immaginato delle altre figure per un impossessamento di beni sequestrati al fine di favorire il proprietario, ripetendo peraltro la norma già presente nel codice? Il senatore Lo Giudice dice che è pacifico perché, se ha il fine di favorire il proprietario, si commette un altro reato. Ma quale reato si commette, senatore Lo Giudice? Quello di cui all'articolo 270- quinquies o quello che volete introdurre? Siccome nel nostro sistema penale vige il principio della tassatività, come avete fatto per il 270- sexies.1, non era forse il caso di aggiungere «salvo che non ricorra il reato di cui agli articoli 200 o 270 (e via dicendo), la pena è questa»? Come vede, al fine di favorire il proprietario, serve eccome. Signor Presidente, aggiungo un'ultima cosa. Leggo alla lettera b) che l'utilizzo - l'utilizzo, senatore Lo Giudice - di materiale nucleare, cioè il lancio di una bomba atomica, viene punito con una pena non inferiore ad anni quindici, e il senatore Lo Giudice replica che lo abbiamo fatto per favorire il lavoro del giudice. Ma una pena non inferiore ad anni quindici significa ventiquattro anni nel massimo. Se non punite con l'ergastolo chi utilizza una bomba atomica, chi volete punire con l'ergastolo?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII e LN-Aut e dei senatori Bignami, Formigoni, Fucksia, Giovanardi e Pepe</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg42">Signor Presidente, per essere chiari, questo è il senso dell'intervento che mi sono permesso di fare - ripeto - stante la sua presenza in Aula, della quale - ripeto - sono contento.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg43">Noi non abbiamo presentato emendamenti ostruzionistici all'articolo 4. Abbiamo immaginato di contribuire al lavoro del legislatore ponendo una serie di problemi che non possono essere superati in politichese. Ci dovete rispondere sul piano tecnico, e fino ad ora risposte sul piano tecnico non ce ne sono state.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg44">Signor Presidente, conviene con me - non dico che sia certo, ma che sia possibile, forse estremamente probabile - che possa avvenire sul piano interpretativo quello che dico io? Conviene con me che il sistema sanzionatorio dei reati per terrorismo non può essere sganciato dal sistema sanzionatorio nel suo complesso? Volete andare avanti con questo provvedimento? Andate avanti. Non volete scontentare la Camera e i mantra della Camera? Non fatelo. Però - se me lo consentite - non si può fare una discussione sul terrorismo e sulla criminalità mafiosa parlando singolarmente per Gruppi ognuno dei fatti propri e senza dare ascolto a nessuno. Signor Presidente, le sarei grato se volesse consigliare l'accantonamento dell'articolo 4 e di tutti gli emendamenti relativi a tale articolo, per consentire non dico sul piano tecnico - ormai non ho più alcuna fiducia in questo - ma almeno sul piano politico, un ragionamento alla maggioranza. Riflettiamo se sia il caso di andare avanti con questi errori o non sia meglio piuttosto, limitatamente all'articolo 4, fare alcune piccole operazioni di lifting - o di drafting, come si dice - per evitare errori gravi. Non c'entra assolutamente niente quello che dice il collega Lumia rispetto al fatto che dobbiamo adeguare il sotto sistema. Senatore Lumia, il finanziamento di un'associazione terroristica da parte di chi non fa parte dell'associazione terroristica è già punito con la stessa pena che voi indicate ai sensi della norma attuale. Non c'è bisogno di queste operazioni, che creano solo confusione e costituiscono meri e - mi consenta - abbastanza squallidi spot pubblicitari. Chiedo pertanto che venga accantonato l'articolo 4 e tutti gli emendamenti ad esso relativi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII, AP (NCD-UDC), GAL (GS, PpI, M, Id, ApI, E-E, MPL), CoR e Misto.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FALANGA (AL-A)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u23">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg45">Signor Presidente, le questioni illustrate dal senatore Palma mi trovano in dissenso nella prima parte, e d'accordo nella seconda. Dico questo perché la prima questione posta dal senatore Palma attiene alla eventuale tipizzazione del delitto di concorso esterno in associazione terroristica. A quanto pare, il senatore Palma non è interessato evidentemente ad avere un modesto contributo. PALMA (FI-PdL XVII). Modesto no. FALANGA (AL-A (MpA)). Vedo che lascia l'Aula: grazie, senatore Palma. Dicevo che la preoccupazione del collega è quella di vedere tipizzato il reato di concorso esterno in associazione terroristica, laddove nel nostro sistema non vi è una figura già tipizzata del delitto di concorso esterno in associazione mafiosa. Per la verità, essendo da sempre un sostenitore della certezza del diritto, anche sotto il profilo della qualificazione delle condotte delittuose, avrei auspicato che nel nostro Paese ci fosse stata una norma che tipizzasse, appunto, il reato di concorso esterno in associazione mafiosa, in considerazione del fatto che esso è di derivazione giurisprudenziale e si presta talvolta ad eccessivi arbitrii da parte anche di chi giudica le condotte. Non è vero che tipizzare oggi il reato di concorso esterno in terrorismo vanifica o in qualche modo smonta il nostro sistema giurisprudenziale di concorso esterno in associazione camorristica; anzi, lo fortifica, perché se per un'attività delittuosa vi è la previsione tipizzata del concorso esterno, ben può essere di conforto a quell'orientamento giurisprudenziale che si è consolidato nel nostro Paese. Perché sono d'accordo con il senatore Palma? Perché, sotto il profilo della ragionevolezza e dell'equilibrio delle sanzioni per le singole figure delittuose, non ci può non essere un'equilibrata commisurazione. Per cui non è immaginabile - il senatore Lumia non c'è più, se n'è andato, ma è presente il relatore, senatore Lo Giudice - che vi sia una previsione di pena identica sia per il reato di terrorismo che per il reato di concorso esterno. Questo sì contrasta con l'attuale giurisprudenza italiana in tema di concorso esterno in associazione camorristica, tant'è che le pene lì sono differenziate. Quando le pene sono smisurate e non equilibrate, sappiamo che violiamo anche un chiaro principio di rango costituzionale. Per queste ragioni e soprattutto per la seconda parte di ragioni che ha illustrato il senatore Palma, signor Presidente, al fine di consentire una maggiore riflessione non già sulla prima questione, ma piuttosto sulla quantificazione delle pene per le varie figure che si vanno ad introdurre, invito il relatore e il Governo ad una riflessione su questo punto ed eventualmente mi associo alla richiesta di accantonamento. Diversamente, gli emendamenti dei senatori Caliendo e Palma, che vanno ad equilibrare le pene, saranno votati favorevolmente dal nostro Gruppo.</seg>
+            </u>
+            <note type="speaker">BUCCARELLA (M5S)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u24">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg46">Signor Presidente, ho ascoltato anch'io con attenzione quanto esposto dal senatore Palma e dagli altri colleghi che sostengono l'opportunità quanto meno di accantonare l'articolo 4, con riferimento ai rilievi sollevati dal senatore Palma, relativi all'inutilità e addirittura alla dannosità che la norma potrebbe introdurre nel nostro ordinamento, per quanto riguarda la questione dell'articolo 416- bis e l'attuale situazione giurisprudenziale sulla contestazione del concorso esterno. Personalmente non mi hanno convinto nel merito le osservazioni del senatore Palma. Provo ad illustrare la mia posizione, molto modestamente. Tenendo a mente che la norma che si vorrebbe introdurre punisce il finanziamento, il riferimento non è evidentemente all'articolo 270- bis, cioè all'associazione, ma alle condotte con finalità di terrorismo, dizione che riguarda diversi articoli del codice penale. Se noi osserviamo ad esempio l'articolo 270- quater, relativo all'arruolamento, o l'articolo 270- quinquies, relativo all'addestramento, notiamo che nel testo delle norme è scritto specificamente «al di fuori dei casi di cui all'articolo 270- bis », che prevede il reato di associazione. Quindi, con la specifica normativa già esistente, si tratta di condotte che si pongono al di fuori dell'ambito associativo e quindi anche del concorso. A me sembra che la punizione del mero finanziamento, ad esempio nei confronti di chi svolge attività di addestramento o di arruolamento, con la specifica che il finanziamento riguarda le condotte con finalità di terrorismo, non possa creare dei pericoli interpretativi o addirittura di estensione analogica in bonam partem per chi si trova imputato in reati di concorso esterno in associazione mafiosa. Vi è infatti uno specifico riferimento alle condotte con finalità di terrorismo; quindi c'è una specificazione ulteriore rispetto alle varie ipotesi di reato già previste nel nostro ordinamento, che si pongono al di fuori delle ipotesi associative, ma anche di concorso. Mi sembra invece più adeguata l'osservazione con riferimento alla pena, in relazione agli emendamenti successivi sul terrorismo nucleare. Porre la disposizione per cui la reclusione non debba essere inferiore a 15 anni, a fronte della possibilità di punire in maniera molto più severa, con un tipo di pena diversa qual è l'ergastolo, chi utilizza materia radioattiva o un ordigno nucleare mi pare francamente un'osservazione giusta, tanto più se teniamo a mente quanto abbiamo votato l'anno scorso in tema di diritti ambientali, quando, seppur con pene molto severe, abbiamo punito con un massimo forse di quindici anni chi si rendeva responsabile di disastro ambientale. Risulta infatti difficile immaginare che chi debba riuscire a utilizzare un ordigno nucleare possa essere punito semplicemente con una pena non inferiore a quindici anni. Pertanto, venendo alla dichiarazione di voto, sugli emendamenti a firma del senatore Caliendo che propongono una pena dell'ergastolo voteremo a favore, ma non possiamo dire altrettanto rispetto all'opportunità di accantonare o di votare a favore dell'emendamento 4.1, perché a nostro modestissimo parere non si dovrebbero creare condizioni di difficoltà interpretativa che potrebbero addirittura danneggiare anche l'ipotesi di contestazione di concorso esterno in associazione mafiosa. PRESIDENTE. Invito il relatore ed il rappresentante del Governo a pronunciarsi sulla proposta di accantonamento dell'articolo 4.</seg>
+            </u>
+            <note type="speaker">LO GIUDICE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LoGiudiceSergio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u25">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg47">Signor Presidente, credo sia utile procedere con il voto degli emendamenti e poi dell'articolo 4. Se me lo consente, vorrei solamente fare due osservazioni su due delle questioni emerse nelle dichiarazioni di voto.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg48">La prima riguarda di nuovo il tema dell'intromissione della norma che noi andremo ad approvare con la situazione inerente al concorso esterno in associazione mafiosa. In questo caso non si tratta di punire un concorso esterno, ma di intervenire sulla dimensione del fenomeno terroristico che, come sappiamo, non assume più solamente le vesti di un'attività strutturata all'interno di un'associazione, ma spesso presenta forme del tutto nuove e inafferrabili con azioni che, commesse con finalità di terrorismo, mostrano deboli legami con una struttura associativa. È di questo che stiamo parlando, ed è quindi su questo che c'è la necessità d'intervenire per poter colpire chi attui di fatto un comportamento finalizzato a terrorismo, ma non attraverso una individuabile e comprovabile appartenenza strutturata a un'associazione.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg49">Per quanto riguarda la questione inerente agli ordigni nucleari, capisco che possa essere efficace l'ipotesi di una persona che sgancia una bomba atomica e si becca cinque anni, ma evidentemente non stiamo parlando di questo, come sottolineava prima anche il senatore Cappelletti. La norma in discussione punisce un range molto ampio di comportamenti, che vanno (stiamo parlando di una pena edittale minima di quindici anni, quindi altissima) dalla gravissima attività di chi maneggia, ottiene, procura materia radioattiva, a quella di chi danneggia un impianto nucleare con il rischio di produrre emissioni di materiale radioattivo. Non stiamo quindi parlando dell'utilizzo di un ordigno nucleare nelle dimensioni plasticamente prima rappresentate, ma di una gamma di comportamenti che possono arrivare laddove si innestano anche altre fattispecie di reato, nel caso in cui si utilizzi una bomba nucleare. Ciò riguarda anche quei comportamenti che possono essere considerati relativamente - lo sottolineo quattro volte - meno gravi e che riguardano l'utilizzo, la trasmissione, la cessione e quindi la messa a rischio di emissioni di materia radioattiva nel caso in cui si utilizzino tali strumenti. Torno comunque a sottolineare che non stiamo parlando di una pena di quindici anni, ma di una pena non inferiore a quindici anni e che quindi potrà essere notevolmente aumentata nel caso in cui il comportamento acquisisca dei rilievi di gravità più elevati. Pertanto, rispetto alla richiesta di accantonamento, signor Presidente, io propongo di proseguire con le votazioni sull'articolo 4 e sui relativi emendamenti.</seg>
+            </u>
+            <note type="speaker">DELLA VEDOVA</note>
+            <note type="role">sottosegretario di Stato per gli affari esteri e la cooperazione internazionale</note>
+            <u ana="#regular" who="#DellaVedovaBenedetto" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u26">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg50">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u27">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg51">Indìco pertanto la votazione nominale con scrutinio simultaneo dell'emendamento 4.1, presentato dal senatore Caliendo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 4.2.</seg>
+            </u>
+            <note type="speaker">BUCCARELLA (M5S)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u28">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg52">Signor Presidente, in primo luogo chiedo di aggiungere la mia firma all'emendamento 4.2 del senatore Cappelletti. Inoltre, replicando in parte a quanto detto dal relatore vorrei invitarla a rivalutare il suo parere perché, come si legge chiaramente nel testo dell'emendamento, non si tratta di aumenti di pena ma di una specificazione letterale delle condotte che si vogliono punire. Infatti, a proposito dell'articolo 270- quinquies.1, riteniamo che la citata e generica condotta di messa a disposizione di beni possa essere integrata con le parole «deposita, custodisce, intermedia o mette a disposizione beni», comprendendo, cioè, tutte le condotte relative al finanziamento di attività con finalità di terrorismo, che riteniamo giustamente punibili, indicate con i termini che meglio possano specificarle. Per questo motivo chiedo al relatore, che ha fatto riferimento ad un aumento di pena che in realtà non c'è, di valutare la possibilità di riconsiderare il proprio parere sfavorevole su questo emendamento. PRESIDENTE. Senatore Lo Giudice, vuole riconsiderare il parere espresso sull'emendamento 4.2?</seg>
+            </u>
+            <note type="speaker">LO GIUDICE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LoGiudiceSergio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u29">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg53">Signor Presidente, confermo il mio parere contrario e vorrei spiegare perché. È vero che formalmente l'emendamento 4.2 chiede semplicemente di aggiungere, prima delle parole «mette a disposizione beni», le parole «deposita, custodisce, intermedia» ma il punto è che l'ultimo comma dell'articolo 4 sanziona, per l'appunto, chiunque deposita o custodisce beni e lo fa con una sanzione da cinque a dieci anni; quindi è evidente che, spostando o comunque inserendo le parole «deposita, custodisce, intermedia» prima delle parole «mette a disposizione beni», comportamento punito con una pena da sette a quindici, anche le condotte punite dall'ultimo comma con una pena da cinque a dieci anni verrebbero sanzionate con la pena prevista dal comma precedente.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg54">Questo è il motivo per cui quella che poteva sembrare o poteva essere nelle intenzioni dei proponenti una semplice specificazione, in realtà, ha l'effetto di un aumento di pena.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u30">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg55">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.2, presentato dai senatori Cappelletti e Buccarella. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 4.100.</seg>
+            </u>
+            <note type="speaker">CAMPANELLA (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#CampanellaFrancesco" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u31">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg56">Signor Presidente, il nostro voto sull'emendamento 4.100 sarà, ovviamente, favorevole. Tale emendamento trova il suo senso nel cercare di definire in ogni misura possibile l'espressione «destinati» relativa ai beni raccolti e poi destinati, o destinabili, ad attività terroristiche. Il problema sta nel fatto che molte associazioni o gruppi di persone raccolgono fondi da destinare a persone danneggiate dalla guerra nei teatri mediorientali. Con queste somme danno aiuto a popolazioni che sono assolutamente abbandonate dalla comunità internazionale. Non si può allora non formulare in termini meno che chiarissimi questa norma, così come mi pare sia fatto, tanto che quando parla di «destinati» non è chiaro se la destinazione è a priori, al momento in cui questi soldi sono raccolti, o se è quella finale. Ciò bloccherebbe un flusso di aiuti che è assai esiguo, ma necessario, visto che è l'unico aiuto che arriva, ad esempio, ad alcune popolazioni siriane, che in questo momento sono sottoposte ai bombardamenti russi. L'espressione «inequivocabilmente» mira dunque a ridurre il rischio che chi compie questo tipo di operazioni umanitarie possa trovarsi ad essere accusato e imputato per un reato a causa del tentativo di compiere un'attività umanitaria e assolutamente encomiabile. Il rischio connesso alla norma in esame è che tali flussi vengano ad essere ulteriormente ridotti o addirittura eliminati per il timore di incorrere in un reato.</seg>
+            </u>
+            <note type="speaker">LO GIUDICE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LoGiudiceSergio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u32">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg57">, relatore. Intervengo molto brevemente, signor Presidente, perché le osservazioni del collega senatore Campanella e le proposte contenute non solo nell'emendamento in esame, ma nei tre emendamenti a prima firma del senatore De Cristofaro, recanti tale specificazione, rappresentano un timore in sé condivisibile, ma che non ritengo possa essere considerato effettivamente riconducibile ad un rischio derivante dalla formulazione in esame. È evidente che stiamo parlando del finanziamento di condotte con finalità di terrorismo e dunque diamo per scontato il fatto che ci sia una intenzionalità e una conoscenza inequivocabile della finalità per cui quei soldi verranno utilizzati. Condivido la preoccupazione dal punto di vista culturale, ma guardando al testo della norma credo che tale preoccupazione sia già risolta dal testo che stiamo proponendo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u33">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg58">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.100, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.101, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.4, presentato dal senatore Caliendo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 4.5.</seg>
+            </u>
+            <note type="speaker">BUCCARELLA (M5S)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u34">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg59">Signor Presidente, chiedo di apporre la mia firma all'emendamento 4.5, a prima firma della senatrice Bertorotta. A proposito di quanto ha esposto il relatore in sede di parere, tengo a far presente che la proposta di sostituire la parola «fondi» con le parole «beni o del denaro», al comma 1, lettera a), dell'articolo 4, si riferisce all'ultima riga del primo capoverso, riferito all'articolo 270- quinquies. La norma contenuta alla fine di tale capoverso riporta la seguente specificazione: «indipendentemente dall'effettivo utilizzo dei fondi per la commissione delle citate condotte». Nello stesso comma, qualche riga prima, si fa però riferimento a «beni o denaro» e, dunque, qualora la norma rimanesse inalterata, potrebbe sembrare che la specificazione interessata dall'emendamento, ovvero le parole «indipendentemente dall'effettivo utilizzo», riguardino soltanto l'effettivo utilizzo del denaro. Ripeto, solo poche righe prima si fa riferimento sia ai beni sia al denaro; quindi, per una questione di razionalità e di drafting, chiedo che il relatore possa prendere in considerazione la possibilità di integrare la norma con l'emendamento che abbiamo proposto, per renderla più coerente.</seg>
+            </u>
+            <note type="speaker">LO GIUDICE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LoGiudiceSergio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u35">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg60">, relatore. Signor Presidente, come ho detto in precedenza, mi sono peritato di fare una verifica anche dal punto dell'effettivo significato nella lingua italiana dei termini utilizzati. Ho trovato la piena conferma (che era superflua, probabilmente, perché sono termini che tutti noi conosciamo e utilizziamo quotidianamente) rispetto al fatto che la parola «fondi» contenga in sé il riferimento sia a beni mobili sia a beni immobili e anche a capitali e a denaro. In questo caso, quindi, l'utilizzo della parola «fondi» all'interno dello stesso articolo che utilizza, in altre parti, le parole «beni o denaro» deve essere inteso come l'utilizzo di un termine sicuramente e completamente sinonimo rispetto all'espressione utilizzate poche righe prima nel testo. Per questo motivo ho chiesto alla senatrice Bertorotta di ritirare l'emendamento in quanto, per l'appunto, non è essenziale rispetto al reale significato delle parole utilizzate.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u36">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg61">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.5, presentato dalla senatrice Bertorotta e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.102, presentato dal senatore De Cristofaro e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.6, presentato dal senatore Caliendo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.7, presentato dal senatore Caliendo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.8, presentato dal senatore Caliendo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 4.10.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u37">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg62">Signor Presidente, volevo ribadire al senatore Lo Giudice che, quando si scrive: «pena non inferiore ad anni quindici», secondo il nostro codice la pena va da quindici a ventiquattro anni, e non da quindici all'infinito. All'Assemblea ribadisco che la legge che voi state per votare dice che chiunque, come atto di terrorismo, faccia parte di un'associazione terroristica, crei e quindi detenga un ordigno nucleare, è punito con la pena da sei a dodici anni. Onestamente, non vi sembra una follia punire con un pena da sei a dodici anni un terrorista in possesso di un ordigno nucleare? La detenzione di un'arma da guerra particolarmente micidiale ha una pena leggermente inferiore rispetto a questo. Siccome il sistema sanzionatorio si ispira a criteri di ragionevolezza, voi ritenete ragionevole che il terrorista che ha un ordigno nucleare e che, evidentemente, lo possiede non come soprammobile ma perché nella sua testa evidentemente ne immagina un futuro utilizzo, debba essere punito con una pena da sei a dodici anni? Così come successivamente - così facciamo contento il senatore Lo Giudice - lo stesso terrorista, che quell'ordigno nucleare utilizza, viene punito con una pena non inferiore ad anni quindici. Benissimo, noi siamo d'accordo. Ma se un terrorista detiene un ordigno nucleare, invece della pena da sei a dodici anni immaginiamo una pena non inferiore ad anni quindici.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Marin.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg63">E se il terrorista utilizza quell'ordigno nucleare, invece di immaginare una pena non inferiore ad anni quindici, immaginiamo la pena dell'ergastolo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Marin.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg64">Perché scusate, ma dall'utilizzazione di un ordigno nucleare possono nascere effetti meno devastanti di un omicidio? E se, parlando di ordigni nucleari, la cosa vi sembra impossibile, immaginate allora tutte le armi chimiche e batteriologiche che possono essere tranquillamente, per fini terroristici, detenute e utilizzate.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg65">Pertanto, voi ritenete che vadano bene queste pene? Votatele; però ricordo a tutti voi che la pena ha anche un effetto di deterrenza, e se il possesso di un ordigno nucleare prevede nel minimo la pena di sei anni, in ragione dei vari meccanismi di alleviamento della pena che ci sono all'interno del nostro codice, non venite poi a lamentarvi e vi invito a non fare polemiche nei confronti dei giudici se per ipotesi, a fronte del possesso di un ordigno nucleare, vi troverete di fronte a una pena magari di anni quattro e mesi sei.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII e LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GIOVANARDI (GAL (GS, PpI, M, Id, ApI, E-E, MPL))</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u38">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg66">Signor Presidente, intervengo semplicemente per ricordare a questo Senato che la maggioranza e il Governo hanno deciso di punire con diciotto anni la madre di famiglia che ha un incidente stradale nel caso in cui vada ad imboccare una strada con la nebbia o passi inavvertitamente con il rosso. Ripeto, diciotto anni di carcere. Forse richiamare il Governo a un certo equilibrio nelle pene non sarebbe male.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi GAL (GS, PpI, M, Id, ApI, E-E, MPL), FI-PdL XVII e LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FALANGA (AL-A)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u39">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg67">Signor Presidente, vorrei sottoscrivere, con l'autorizzazione dei presentatori, questo emendamento. Dichiarando di condividere totalmente le considerazioni del senatore Palma, mi pare strano che qualcuno possa non condividere dei ragionamenti così semplici ed elementari. PRESIDENTE. Senatore Palma, autorizza il collega alla sottoscrizione dell'emendamento? PALMA (FI-PdL XVII). Con grande piacere, anche perché lo utilizzo come ringraziamento per il modesto contributo fornitomi prima.</seg>
+            </u>
+            <note type="speaker">GASPARRI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u40">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg68">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg69">Signor Presidente, intervengo in dissenso dalla posizione del mio Gruppo e non intendo partecipare al voto perché reputo ridicolo che il relatore e i membri della Commissione non si fermino di fronte a questo scempio del diritto che si sta facendo. Stiamo ridicolizzando il Senato e offrendo argomenti per la sua abolizione, perché trattare meno degli incidenti stradali l'uso di ordigno nucleare è veramente incredibile. Signor Presidente, faccio appello a lei poiché, essendo stato Presidente della procura antimafia, che adesso è diventata anche procura antiterrorismo (allora non aveva questi poteri), dovrebbe fare una verifica sulla sanità mentale di chi approva una norma di questo tipo</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII, GAL (GS, PpI, M, Id, ApI, E-E, MPL) e LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg70">PRESIDENTE. Le verifiche sulla sanità mentale spettano ad altre istituzioni, non alla procura nazionale antimafia e antiterrorismo.</seg>
+            </u>
+            <note type="speaker">BIGNAMI (Misto-MovX)</note>
+            <u ana="#regular" who="#BignamiLaura" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u41">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg71">Signor Presidente, chiedo di sottoscrivere l'emendamento. Inoltre vorrei ricordare a quest'Assemblea le immagini dei trent'anni di Chernobyl. In realtà con il nucleare non si procura solo un danno momentaneo, ma si producono danni ed effetti a distanze considerevoli e non solo immediati, ma anche futuri, a tutti coloro che abitano o vorrebbero abitare in quei luoghi.</seg>
+            </u>
+            <note type="speaker">CAMPANELLA (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#CampanellaFrancesco" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u42">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg72">Signor Presidente, vorrei segnalare un aspetto che mi pare si stia perdendo di vista in questo momento. Il terrorista che negli ultimi anni è soprattutto guidato da motivazioni religiose, nella gran parte dei casi è un terrorista kamikaze, un terrorista suicida. Questo tipo di riflessioni, come quelle del presidente Palma, hanno una consistenza in un pensiero, in un modo di ragionare occidentale, quello per noi usuale. Nel caso di terroristi disposti a generare una deflagrazione nucleare e perdere tranquillamente la propria vita questi ragionamenti perdono di consistenza e di capacità di deterrenza. Il problema non è risolvibile con un aumento della pena.</seg>
+            </u>
+            <note type="speaker">MAURO Mario (GAL (GS, PpI, M, Id, ApI, E-E, MPL))</note>
+            <u ana="#regular" who="#MauroMario" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u43">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg73">Signor Presidente, non sono un appassionato degli aumenti di pena, ma essa deve anche saper configurare uno scenario. Sul piano prettamente politico, immaginare che ci sia una pena che convince e attira chi è nelle condizioni di detenere un'arma nucleare è realmente irragionevole. Chi detiene un'arma nucleare, guardando questo ordinamento, si convince a detenerla nel nostro Paese. Ovviamente chi si procura un'arma nucleare sa che ha una convenienza del tutto irragionevole a venire nel nostro Paese per detenerla e custodirla. Voglio invitare soprattutto il Gruppo del Partito Democratico, che è maggioritario nell'Assemblea, a riflettere su quello che stiamo facendo. È come se stessimo dicendo: investite in armi nucleari in Italia e detenetele in Italia perché, facendolo, vi sottraete al rischio di pene che possano inchiodarvi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Bignami</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg74">È una follia. Se questi erano gli investimenti che il Governo voleva attrarre nel nostro Paese, ci ripensi! PRESIDENTE. Il relatore intende mantenere le posizioni già assunte?</seg>
+            </u>
+            <note type="speaker">LO GIUDICE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LoGiudiceSergio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u44">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg75">Signor Presidente, stiamo tornando sempre sullo stesso argomento, ma mi preme ribadire questo punto centrale.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg76">Stiamo punendo una nuova fattispecie, che individuiamo nel nuovo articolo 280- ter del codice penale, relativo a comportamenti specifici come la detenzione, cessione e utilizzo di ordigni nucleari che, nel caso di atti che assumano diversi profili di gravità e diverse conseguenze effettive, vanno a sommarsi ad altre fattispecie di reato. Nessuno è così matto da pensare che chi produce una strage attraverso l'utilizzo di un ordigno nucleare potrà essere punito con un massimo di ventiquattro anni. È evidente che non è così. Stiamo ragionando di uno scenario diverso da quello effettivamente prodotto da questa norma, che interviene, invece, su dei comportamenti specifici punendoli in modo specifico per quello che sono. Mi riferisco alla cessione, alla detenzione e al danneggiamento di un ordigno nucleare che crei il rischio di emissione di materiale radioattivo. Stiamo parlando di comportamenti che, in combinazione con altri, possono configurare reati anche più gravi, ma che possono invece rimanere confinati nella lettera di questo articolo. È per questo che si parte da pene minime molto alte come la detenzione non inferiore a quindici anni. Si prevede un nuovo reato che, in presenza di effetti differenti, sarà configurato in modo anche differente.</seg>
+            </u>
+            <note type="speaker">CARRARO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CarraroFranco" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u45">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg77">Signor Presidente, sono laureato in economia e commercio, perciò non sono ferrato in materia giudiziaria, ma francamente mi sembra che il relatore dica cose che a me risultano poco comprensibili per una ragione semplice: colleghi giuridicamente preparati in quest'Assemblea - non faccio i nomi, per non far perdere tempo - hanno detto cose diametralmente opposte. Quindi, o il relatore ritiene che dicano bugie grandi come una casa oppure evidentemente c'è un equivoco. Voterò a favore degli emendamenti, ma provo un grande disagio, e con me credo molti colleghi, perché francamente dobbiamo sapere cosa facciamo su una materia di questo genere.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII e della senatrice Bignami.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">TARQUINIO (CoR)</note>
+            <u ana="#regular" who="#TarquinioLucio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u46">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg78">Signor Presidente, ciò che emerge e sgomenta è il dato politico: il rifiuto di questa maggioranza di ascoltare qualsiasi consiglio o suggerimento e di recepire qualsiasi emendamento. È quanto avvenuto negli ultimi anni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi delle senatrici Bignami e Simeoni.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg79">Ed è drammatico che ciò avvenga anche su un argomento come questo, perché nulla costerebbe recepire quanto detto nei vari interventi di Nitto Palma, di Giacomo Caliendo e altri colleghi. Ma niente: il silenzio più totale! Fatemelo passare, anche rispetto ad altri temi (ho tanti amici del PD): il silenzio, in questo caso anche l'ignavia di dire no, non è possibile, su un argomento che non incide su nulla politicamente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg80">Qui si continua imperterriti a dire no, non è possibile. È una questione di democrazia, di dialogo. Non ci lamentiamo poi di ciò che accade fuori. Questo ne è l'esempio: non voler dialogare su nulla. Penso una cosa e quella è. O prendi questo o te ne vai a casa. Ci rendiamo conto? Sembra un'esagerazione, ma questi comportamenti portano a dire: ma che stiamo a fare qua?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto e del senatore Pepe</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg81">Veramente vorrei dire quella maledetta parola: Aventino.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg82">Non serve a niente parlare con serenità, dialogare e confrontarsi. No, questo è e se così non è ci penseranno altri fuori di qui. Non è possibile. Vi è un'informazione generale che dà di quest'Assemblea una rappresentazione completamente errata. È una cosa che fa veramente male ed è questo che emerge.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg83">Ci vorrebbe un po' di coraggio da parte di tutti, un po' di presa di coscienza del proprio io, delle proprie idee e della propria dignità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo CoR e delle senatrici Bignami e Simeoni.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u47">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg84">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.10, presentato dal senatore Caliendo e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+               <kinesic type="applause">
+                  <desc>Vivi e prolungati applausi dai Gruppi FI-PdL XVII, M5S, AL-A, GAL, LN-Aut, CoR e Misto. Molte congratulazioni al senatore Palma.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GASPARRI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u48">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg85">Signor Presidente, il diritto penale, anche con riflessi internazionali, non può essere nelle mani di relatori così incompetenti. Propongo l'accantonamento di questo provvedimento, perché con il diritto e la lotta al terrorismo non si scherza e non si gioca. Sospendiamo l'esame di questo provvedimento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u49">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg86">Passiamo alla votazione dell'emendamento 4.13.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Crosio.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u50">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg87">Signor Presidente, è evidente che alla luce dell'approvazione dell'emendamento 4.10, il testo attuale non può più essere mantenuto. Ricordo che il Gruppo Forza Italia ha presentato due emendamenti a prima firma del senatore Caliendo: il primo prevede la pena dell'ergastolo, mentre il secondo una pena non inferiore a vent'anni di reclusione. Signor Presidente, alla luce dell'approvazione dell'emendamento 4.10 sarebbe forse necessario un breve momento di riflessione, così da consentire al relatore un'eventuale modifica del parere su uno dei due emendamenti (si tratta infatti di due emendamenti di contenuto diverso), o, se del caso, di presentare un nuovo emendamento. In caso contrario - vado al concreto, signor Presidente - si rischierebbe infatti, in ragione delle diverse sensibilità presenti in Assemblea, che nessuno dei due emendamenti venga approvato (posto che vi è chi preferisce la pena dell'ergastolo e chi quella della reclusione non inferiore a vent'anni), così lasciando nel testo un grave errore tecnico, ossia la previsione di una pena inferiore a quella testé approvata per un fatto più grave. Il mio consiglio, nonostante io faccia parte dell'opposizione e non della maggioranza, è una pausa dei lavori di almeno un quarto d'ora.</seg>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u51">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg88">Signor Presidente, credo sia ragionevole accedere alla richiesta avanzata dal senatore Palma, non prima però di aver fatto alcune sia pur brevi considerazioni politiche. Con la prima intendo respingere con nettezza le frasi pronunciate poco fa dal senatore Gasparri sul nostro relatore.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg89">Il senatore Lo Giudice ha illustrato con completezza, esattezza e onestà intellettuale e politica il contenuto dell'emendamento. Noi ci troviamo di fronte a un'evidentissima manovra politica, che non ha nulla a che vedere con il contenuto del provvedimento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Commenti dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg90">Fatemi sottolineare una questione. Non è la prima volta che, con riferimento a provvedimenti esaminati in Commissione giustizia, vengono sollevate in Assemblea questioni non trattate o trattate marginalmente in Commissione.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Giovanardi</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg91">La questione è di principio, con l'illustrazione di effetti sistemici. Le questioni vengono invece sollevate in Assemblea, cioè nel luogo</seg>
+               <vocal type="speaking">
+                  <desc>. (Commenti dai Gruppi FI-PdL XVII e M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg92">Ma allora le Commissioni che ce le abbiamo a fare?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg93">GIOVANARDI (GAL (GS, PpI, M, Id, ApI, E-E, MPL)). Bravo! Vieni in Commissione e chiedi a Lumia! ZANDA (PD). Ripeto, che ce le abbiamo a fare se poi certe questioni debbono essere sollevate...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dai Gruppi FI-PdL XVII e GAL (GS, PpI, M, Id, ApI, E-E, MPL)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg94">Per favore, lasciatemi terminare l'intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg95">PRESIDENTE. Colleghi, consentite al presidente Zanda di terminare l'intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg96">Come tutti voi, anche io - mi permetterete - ho il diritto di parlare in Assemblea quando il Presidente mi dà la parola e a non essere interrotto mentre parlo. Il senatore Palma ha testé illustrato in modo esplicito il senso di tale questione. Infatti, dopo aver tenuto per un'ora l'Assemblea imballata sulla discussione di un emendamento, una volta ottenuto il risultato, si è alzato e ha detto: «Avete visto? Adesso dobbiamo ridiscutere il provvedimento, adesso il provvedimento non ha più senso». Evidentemente, quindi, per dichiarazione esplicita del senatore Palma, questa è una manovra politica e come tale noi la dobbiamo denunciare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Commenti dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg97">MALAN (FI-PdL XVII). Vogliamo un provvedimento buono, non un provvedimento idiota. PRESIDENTE. Senatore Malan, lei è un Questore. Senatore Malan, senatore Palma, fate finire l'intervento, ognuno ha diritto di parlare. ZANDA (PD). E mi dispiace... CALIENDO (FI-PdL XVII). In Commissione abbiamo un capogruppo.</seg>
+               <vocal type="shouting">
+                  <desc>Richiami del Presidente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg98">Se non sbaglio, il senatore Malan ha anche responsabilità sulla tenuta dell'Assemblea. PRESIDENTE. È stato già evidenziato, senatore Zanda. ZANDA (PD). Eserciti queste responsabilità non solo nei confronti dell'Assemblea, ma anche nei confronti di se stesso: mi sembra che questo faccia parte dei suoi doveri. Signor Presidente, le chiedo, per cortesia, di accedere alla richiesta del senatore Palma e, per un tempo ragionevolmente breve, di concedere la sospensione immediata dei lavori dell'Assemblea</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u52">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg99">Signor Presidente, vorrei ringraziare il presidente Zanda per avere acceduto alla mia richiesta, anche se oggettivamente non riesco a comprendere a quale richiesta egli abbia acceduto, se a quella vera (fermiamoci quindici minuti per ragionare su questi due emendamenti e capire quale dei due deve avere il parere favorevole del relatore, ovvero su un eventuale ulteriore emendamento del relatore in materia) oppure a quella, sicuramente non vera e che rientra nella fantasia del senatore Zanda, ossia che io avrei chiesto di ridiscutere integralmente l'intero provvedimento. Un'ultima cosa, signor Presidente. Credo che in quest'Assemblea, nei limiti consentiti dalla politica e dalle anomalie della politica, abbiamo il dovere di dire fino in fondo la verità. Senatore Zanda, quando lei si chiede e ci chiede cosa ci stanno a fare le Commissioni e lo fa dopo l'intervento del senatore Tarquinio, che sul piano politico è stato illuminante, io, senatore Zanda, le chiedo: ma se le Commissioni, che sono presiedute da voi e hanno la stessa identica maggioranza dall'Assemblea, non funzionano, la colpa di chi è? Dell'opposizione o della maggioranza?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII e delle senatrici Bignami e Mangili.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MUSSINI (Misto)</note>
+            <u ana="#regular" who="#MussiniMaria" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u53">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg100">Signor Presidente, intervengo solo per dire che io trovo profondamente ingiuste le osservazioni del senatore Zanda a proposito della Commissione giustizia. Abbiamo sollevato anche in quest'Assemblea una difficoltà nella quale ci troviamo da tempo, da parecchi mesi, generata dalla impossibilità di avere gli spazi e i tempi per poter discutere in modo adeguatamente approfondito dei provvedimenti che sicuramente sono complessi. È vero anche quanto afferma il senatore Palma: la Commissione giustizia, esattamente come il Senato, è una Commissione nella quale il peso della maggioranza è determinante per l'andamento dei lavori stessi. Ci siamo visti sottrarre anche provvedimenti che sarebbero stati di competenza della Commissione giustizia, riunita con altre; abbiamo sollevato un conflitto di attribuzione e abbiamo cercato di evitare che accadesse questo in Assemblea e che il confronto sui temi che sono propri della Commissione giustizia diventasse oggetto di una difficile discussione corale. In realtà, non siamo stati ascoltati, nonostante il buonsenso di queste richieste; che ora venga fatta cadere sulla Commissione giustizia una responsabilità che appartiene esclusivamente alla maggioranza sembra veramente ingiusto nei confronti di chi comunque intende lavorare seriamente.</seg>
+            </u>
+            <note type="speaker">QUAGLIARIELLO (GAL (GS, PpI, M, Id, ApI, E-E, MPL))</note>
+            <u ana="#regular" who="#QuagliarielloGaetano" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u54">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg101">Signor Presidente, non vorrei essere pedante, ma ci tengo a dire che quanto è accaduto stamattina è un caso di studio da portare all'attenzione dei nostri studenti. Così funziona un Parlamento; così è scritto all'interno dei Regolamenti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi GAL (GS, PpI, M, Id, ApI, E-E, MPL), AP (NCD-UDC), LN-Aut e Misto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg102">Le Commissioni approfondiscono una questione e poi l'Assemblea, visto che non siamo ancora nella Camera dei fasci e delle corporazioni, dibatte e apporta ulteriori significati e ulteriori argomentazioni rispetto a quanto avvenuto in Commissione. Oggi mi pare sia avvenuto questo. L'intervento del collega Tarquinio è stato in qualche modo un appello all'Assemblea a riprendersi le sue competenze.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg103">In questa legislatura abbiamo visto Commissioni sbarrate che non hanno discusso i provvedimenti; abbiamo assistito ad accordi fatti all'esterno dell'Assemblea e delle Commissioni, a volte compromessi, anche dal punto di vista istituzionale, che sono stati guidati da Capigruppo anziché dai Presidenti e Vice Presidenti del Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo GAL (GS, PpI, M, Id, ApI, E-E, MPL)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg104">Una volta che l'Assemblea ha funzionato e ha fatto il proprio dovere dobbiamo anche sentirci dire che è una deviazione o una prepotenza. Un Parlamento funziona esattamente come abbiamo visto stamattina, e su questo credo che le lezioni possono esserci risparmiate e soprattutto possono essere risparmiate al Paese. Finalmente oggi abbiamo dato un esempio di dignità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi (GAL (GS, PpI, M, Id, ApI, E-E, MPL), FI-PdL XVII, AP (NCD-UDC), LN-Aut e Misto.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FALANGA (AL-A)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u55">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg105">Signor Presidente, tutti i colleghi avranno notato che i voti favorevoli a questo emendamento del mio Gruppo hanno determinato il risultato. Questo va detto, ma non vorrei che si dessero interpretazioni politiche a questo voto. Condivido quanto detto dal senatore Quagliariello. È bene che si sappia che non vi sono deputati e senatori in quest'Assemblea che seguono a prescindere, ma vi sono senatori che sostengono il Governo quando ne condividono i provvedimenti, ma che - ahimè - nella loro libertà assoluta di mandato, esprimono il loro dissenso quando sono contrari.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Santangelo</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg106">Il voto di stamattina non ha pertanto alcun significato politico. Significa semplicemente dire che su quel determinato tema il Gruppo dei senatori di AL-A non era d'accordo con il relatore e con la maggioranza. Tutto qui.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u56">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg107">Signor Presidente, intervengo anzitutto per fare una puntualizzazione e poi per porre un quesito. La proposta di sospensione dei nostri lavori è stata avanzata dal presidente Gasparri. Non capisco perché quando lo faccia il senatore Gasparri si proceda come se nulla sia accaduto, mentre quando ad avanzare analoga proposta è il presidente del PD, tutti escono dall'Aula perché ormai la seduta è praticamente sospesa. Vorrei unirmi alle considerazioni del presidente Zanda rispetto ai giudizi infelici che sono stati espressi nei confronti dei relatori, che sicuramente non li meritano. D'altra parte, se già vengono schiacciati la volontà e il pensiero dei comuni senatori, i poveri relatori dipendono esclusivamente dalla volontà del Governo e della sua maggioranza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e della senatrice Bignami</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg108">Non concordo con Zanda rispetto al ruolo delle Commissioni: le Commissioni hanno un ruolo preparatorio, ma il passaggio in Assemblea è quello definitivo e finale. Tale considerazione vale per tutte le Commissioni tranne che per la Commissione giustizia, dove vieterei l'ingresso di magistrati e avvocati (sicuramente arriveremmo in Assemblea con qualcosa di pronto!).</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg109">Consentitemi, però, una valutazione politica più generale, colleghi. Domenica ci sono stati i ballottaggi, che sono andati in una certa maniera. Domani c'è la direzione del Partito Democratico. Questa è la prima volta che il Governo, con un voto palese, va sotto, perché tutte le volte si erano modificati i pareri rimettendosi all'Assemblea.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg110">Oggi per la prima volta, con il voto palese, maggioranza e Governo vanno sotto. Quindi, ovviamente, si è visto quest'oggi quello che accadrà in futuro: quando la barca affonda, i topi scappano. I voti contrari all'emendamento sono stati quelli ortodossi, cioè i voti del PD; i voti delle "ali" e delle "alette" si stanno squagliando, perché la nave affonda. Tanti auguri; stia sereno il Governo Renzi e così la sua maggioranza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u57">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg111">Sospendo la seduta fino alle ore 12. (La seduta, sospesa alle ore 11,46, è ripresa alle ore 12,10). La seduta è ripresa. Chiedo dunque al relatore se la pausa ha portato a diverse determinazioni, che invito eventualmente ad illustrare.</seg>
+            </u>
+            <note type="speaker">LO GIUDICE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LoGiudiceSergio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u58">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg112">Signor Presidente, l'approvazione dell'emendamento 4.10 comporta la necessità di riequilibrare le pene per i comportamenti previsti al primo e al secondo comma dell'articolo 280- ter. Invito pertanto i firmatari al ritiro dell'emendamento 4.13, esprimendo invece parere favorevole all'emendamento 4.12. PRESIDENTE. Invito il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">DELLA VEDOVA</note>
+            <note type="role">sottosegretario di Stato per gli affari esteri e la cooperazione internazionale</note>
+            <u ana="#regular" who="#DellaVedovaBenedetto" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u59">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg113">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg114">PRESIDENTE. I presentatori dell'emendamento 4.12 accolgono l'invito al ritiro formulato dal relatore?</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u60">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg115">Signor Presidente, prendo atto del parere favorevole sull'emendamento 4.12, che prevede una pena non inferiore a venti anni, ma credo sarebbe una scorrettezza nei confronto dell'Assemblea se ritirassi l'emendamento che prevede la pena dell'ergastolo. A questo punto è l'Assemblea che deve decidere: io voterò a favore dell'emendamento per il quale è stato annunciato il parere favorevole, ma credo che l'Assemblea debba avere la possibilità di valutare qual è la pena coerente con quella che abbiamo già approvato.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u61">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg116">Signor Presidente, pensavo di essere stato estremamente chiaro nel mio intervento quando ho chiesto un momento di riflessione: ho parlato infatti di un momento di riflessione affinché il relatore potesse, se del caso, cambiare il suo parere in ordine ai due emendamenti, ovvero presentarne uno nuovo. Ciò nella discussione di un provvedimento in cui è stato sostanzialmente impedito all'opposizione di dare il proprio contributo. Caro senatore Zanda, se ho tenuto imballato il Parlamento per un' ora - utilizzo le sue parole - ho fatto bene, se è vero come è vero che un nostro emendamento è stato approvato dall'Assemblea</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg117">Voglio semplicemente dire che è giunta l'ora che la maggioranza, al di fuori di "inciuci" e accordi sottobanco con l'opposizione, si assuma la responsabilità, in una materia così delicata, di esprimere il proprio pensiero attraverso un parere: parere favorevole a questo emendamento; parere contrario a quest'altro emendamento. E poi l'Assemblea voti come voti. Quindi, evidentemente, signor Presidente, non ho alcuna intenzione di ritirare i due emendamenti per lo stesso ragionamento fatto dal senatore Caliendo.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg118">Da vecchio frequentatore (ahimè, troppo vecchio) di queste Aule parlamentari, se mi è consentito, io alla maggioranza vorrei dare un consiglio: non deve fare gli accordi con noi ma con il Gruppo di AL-A, se è vero come è vero che fino a quando il Gruppo di AL-A ha votato con il Governo gli emendamenti sono stati respinti e appena il Gruppo di AL-A ha votato in modo dissonante dal Governo e dalla maggioranza l'emendamento è stato approvato. Il che, evidentemente, diciamocelo francamente, pone un problema politico serissimo: voi, senza il Gruppo di AL-A, non siete maggioranza al Senato. Ed è inutile che il senatore Zanda faccia segno che non è così, perché sono i numeri a testimoniarlo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg119">È giunto allora il momento di uscire dall'equivoco. O li fate entrare al Governo (apro e chiudo una parentesi: segnalo per un incarico governativo il mio amico, senatore Falanga) ovvero la finite con l'ipocrisia ed evitate di dire che i voti di AL-A si aggiungono. I voti di AL-A sono per voi determinanti!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u62">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg120">Signor Presidente, io sono tra coloro che hanno votato a favore dell'emendamento 4.10 e ho preso la parola per annunciare il mio dissenso su alcune impostazioni. Devo dire al collega Palma che assolutamente non stanno così le cose. Vorrei precisare che io sono un sostenitore leale del Governo e di questa maggioranza, ma mantengo, come riferimento principale, la mia autonomia di giudizio rispetto al merito delle norme proposte in quest'Assemblea. Credo che questo ragionamento lo abbiano fatto altri colleghi della maggioranza, del mio Gruppo e anche di altri Gruppi, non escluso il Gruppo di maggioranza relativa, che hanno ritenuto sul punto di condividere l'emendamento 4.10. PRESIDENTE. Invito il relatore e il rappresentante del Governo a pronunziarsi nuovamente sugli emendamenti 4.13 e 4.12.</seg>
+            </u>
+            <note type="speaker">LO GIUDICE</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LoGiudiceSergio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u63">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg121">Signor Presidente, noi abbiamo utilizzato questa breve sospensione in maniera proficua, proponendo addirittura una riformulazione al primo firmatario dei due emendamenti e accordandoci dopo sul fatto che avremmo potuto convergere sull'emendamento 4.12, attraverso il previo ritiro dell'emendamento 4.13, sulla base di una considerazione di merito.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg122">Infatti, da una parte l'approvazione dell'emendamento 4.10 fa divenire necessaria una proporzionalizzazione, all'articolo 4, delle pene previste al comma secondo della lettera c) del punto 1, dall'altra occorre considerare che, se anche fra i comportamenti previsti dal comma secondo possano rientrare delle condotte tali da richiedere pene elevatissime, stabilire la pena fissa dell'ergastolo per chiunque, in maniera generale e generica, utilizzi un ordigno nucleare con il pericolo che rilasci materia radioattiva (quindi, senza che il fatto venga effettivamente commesso), francamente mi sembra eccessivo. Questo per quanto riguarda il merito. È poi chiaro che qui c'è una dimensione politica che non sta al relatore sottolineare. Io mi attengo a quello che mi era parso un accordo proficuamente raggiunto nel corso di questa breve sospensione e dunque mantengo l'invito al ritiro o il parere contrario sull'emendamento 4.13, che propone la sostituzione della reclusione non inferiore ad anni quindici con la pena secca dell'ergastolo. Il parere è invece favorevole sull'emendamento 4.12, che sostituisce le parole «non inferiore ad anni quindici» con le parole «non inferiore ad anni venti».</seg>
+            </u>
+            <note type="speaker">DELLA VEDOVA</note>
+            <note type="role">sottosegretario di Stato per gli affari esteri e la cooperazione internazionale</note>
+            <u ana="#regular" who="#DellaVedovaBenedetto" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u64">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg123">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="speaker">DI MAGGIO (CoR)</note>
+            <u ana="#regular" who="#DiMaggioSalvatoreTito" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u65">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg124">Signor Presidente, chiediamo la verifica del numero legale. PRESIDENTE. Senatore Di Maggio, le ricordo che è stata chiesta la votazione nominale con scrutinio simultaneo.</seg>
+            </u>
+            <note type="speaker">URAS (Misto)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u66">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg125">Signor Presidente, intervengo per due ragioni. Mi pare che su questo terreno, quello delle pene e della configurazione di reati di una pesantezza assoluta, non si possa determinare un ambito di discussione che trascende il merito e sconfina nelle vicende politiche e di tenuta della maggioranza al Governo. Perché questo è un tema delicato, in un sistema come il nostro, in un comportamento ormai consolidato di questo Parlamento che affronta questo tipo di questioni prevalentemente attraverso l'aumento delle pene, in una situazione che riguarda questo Paese che vede una certa condizione del sistema carcerario e del sistema della giustizia, privati dei mezzi necessari per assolvere pienamente al proprio compito. Penso che fare un'operazione politica su questi argomenti non sia una cosa giusta e neppure sopportabile. Noi ci asterremo su tutti i due gli emendamenti, perché ci vogliamo astenere da questo modo di affrontare i problemi. Io non ho apprezzato, seppure le argomentazioni che sono state rappresentate hanno un'assoluta dignità, il fatto che si sia utilizzato questo strumento per porre questioni di natura politica. È sbagliato, perché il tema riguarda la vita delle persone e la sicurezza dello Stato, e in materia di giustizia non si può e non si deve aprire questioni politiche che riguardano la vivibilità dei rapporti di maggioranza interni fra forze politiche. Per questa ragione, e solo per questa, noi ci asterremo dal voto di questi due emendamenti.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u67">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg126">Signor Presidente, vorrei fare una riflessione. Sono rimasto soddisfatto delle spiegazioni date dal relatore Lo Giudice rispetto all'emendamento 4.12, quindi l'invito che faccio ai colleghi Palma e Caliendo è di procedere al ritiro dell'emendamento 4.13 e al mantenimento dell'emendamento 4.12, su cui è stato espresso parere favorevole. Condividendo l'emendamento 4.12, sollecito i due presentatori al ritiro dell'emendamento 4.13.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u68">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg127">Signor Presidente, ho già precisato prima di non aver ritirato l'emendamento per lasciarlo alla votazione dell'Assemblea. Essendomi rimesso alla volontà dell'Assemblea, se me lo chiede una parte dell'opposizione che rispetto e che apprezzo per le battaglie che fa, devo tener conto di tale volontà. Nello stesso tempo, devo dire con rammarico, signor Presidente, che in Commissione sarebbe stato possibile valutare gli aspetti che abbiamo evidenziato in questa sede questa mattina, e forse qualcun altro che abbiamo dimenticato, come quello del ladro che viene punito con una pena di sei anni senza avere partecipato ad alcun atto di terrorismo, senza sapere nulla. In Commissione siamo disponibili come forza d'opposizione tecnica a dare sempre un ausilio e un contributo. A questo serve la politica; non serve la bacchetta per dimostrare che si ha la maggioranza. Dovete imparare a fare quello che si faceva nella passata legislatura. Il senatore Zanda sa meglio di me che, quando ero Sottosegretario alla giustizia, ricercavamo sempre l'unità per avere un voto unanime, senza approfittare della maggioranza, specialmente su questioni tecniche.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg128">Per queste ragioni, aderendo all'invito del Gruppo della Lega, ritiro l'emendamento 4.13.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII e LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BUCCARELLA (M5S)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u69">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg129">PRESIDENTE. Non credo che, dopo tutto questo, voglia fare proprio l'emendamento.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg130">Signor Presidente, prendo atto della sua osservazione e del suo invito. Io, invece, chiedo di fare mio l'emendamento ritirato dal senatore Caliendo. PRESIDENTE. Ne ha facoltà. BUCCARELLA (M5S). Invito, ancora una volta, a una riflessione sul fatto che stiamo parlando di pene relative all'utilizzo di materiale radioattivo od ordigni nucleari o, addirittura, all'utilizzo o al danneggiamento di un impianto nucleare con finalità di terrorismo. Francamente credo che una pena di specie diversa dall'ergastolo come la pena, pur rafforzata, prevista dall'emendamento 4.12, che prevede una pena minima di venti anni, non sia sufficiente. Penso che sia condivisibile sostenere la tesi originaria dell'emendamento 4.13, che a questo punto faccio mio. Al di là degli infingimenti e delle tattiche politiche, dopo aver preso atto che i voti del Gruppo di AL-A e anche di molti senatori della maggioranza del Nuovo Centrodestra sono stati sfavorevoli al Governo e lasciando a latere ogni considerazione di tipo politico sulla maggioranza che sostiene questo Governo in occasione dell'emendamento che è stato votato poco fa, rimangono le considerazioni tecniche che ci spingono a ritenere più opportuno l'ergastolo per questo tipo di fatto criminoso, la cui gravità, insieme - o quanto meno dopo - al reato di strage, è la massima ipotizzabile. Anche al fine di evitare ogni rischio di prescrizione del reato per i noti motivi, riteniamo di far proprio l'emendamento 4.13 e di invitare al voto.</seg>
+            </u>
+            <note type="speaker">NUGNES (M5S)</note>
+            <u ana="#regular" who="#NugnesPaola" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u70">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg131">Signor Presidente, intervengo sull'ordine dei lavori. Sono rimasta estremamente basita dell'andamento dei lavori dell'Aula dopo la votazione dell'emendamento. Forse, per la mia inesperienza, mi manca qualche nozione sugli istituti di Camera, Senato e Governo. PRESIDENTE. Senatrice, intervenga sull'ordine dei lavori perché siamo in fase di votazione. NUGNES (M5S). Mi faccia parlare, per favore! PRESIDENTE. La faccio parlare sull'ordine dei lavori, che è il motivo per cui ha chiesto di intervenire. Non alzi la voce. NUGNES (M5S). Ritenevo che il Parlamento fosse indipendente dal Governo, che fossero due istituti indipendenti e che quindi, nella normale dialettica tra le parti, votare contro il parere del Governo e del relatore fosse nelle possibilità e nelle giuste dinamiche di svolgimento dei lavori dell'Assemblea. Il fatto che si sia creato un subbuglio, che si sia parlato animatamente della questione, che si sia chiesta la sospensione dei lavori dell'Assemblea e redarguite le parti per aver votato in maniera difforme lo trovo gravissimo. È un segno molto grave di un decadimento degli istituti democratici.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u71">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg132">Vedo che l'ordine dei lavori non è cambiato.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg133">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.13, presentato dal senatore Caliendo e da altri senatori, successivamente ritirato e fatto proprio dal senatore Buccarella. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.12, presentato dal senatore Caliendo e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg134">Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 5.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u72">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg135">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u73">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg136">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata).</seg>
+            </u>
+            <note type="speaker">BUCCARELLA (M5S)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u74">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg137">Signor Presidente, forse pochi se ne sono accorti, a parte la senatrice Ginetti che ieri, in sede di discussione generale, ha fatto riferimento a questo articolo, parlando di agenti sotto copertura, ma mi preme far presente a tutti i colleghi, preannunciando il voto favorevole del Movimento 5 Stelle, che l'articolo 5 dispone il ricorso, nelle fattispecie di reato che stiamo introducendo con questo disegno di legge, alla figura dell'agente provocatore, quella che tanti strali ha attirato in quest'Aula. Molti esponenti in quest'Aula si sono stracciati le vesti quando si parlava, in materia di corruzione, dell'utilizzo di questi strumenti investigativi e dell'agente provocatore, cioè l'agente di polizia che pone in essere determinate condotte e quindi ha bisogno di una precisa scriminante per non essere a sua volta incriminato di fatti di reato, rispetto alla figura più attenuata dell'agente sotto copertura, cioè dell'infiltrato, l'agente che non provoca il reato, ma si inserisce negli ambiti associativi o nelle configurazioni criminose al fine di facilitare l'emersione dei fatti di reato. Ebbene, l'articolo 5 di questo disegno di legge estende a questi reati l'utilizzo di questa figura, come leggiamo nel testo (anche se così formulato chiaramente è incomprensibile), richiamando la legge n. 124 del 2007, ove si consente ai funzionari e agli agenti dei nostri servizi segreti la possibilità di porre in essere condotte definite dalla legge come reato, naturalmente entro determinati limiti che tale legge dispone per evitare giustamente un utilizzo irragionevole di questo strumento che certamente è forte. Nell'approvare questo articolo da parte nostra e da parte delle altre forze politiche che voteranno a favore, ci tengo che rimanga agli atti che quest'Assemblea voterà a favore di una figura che, in astratto, è stata molto contrastata quando si parlava di corruzione. Vorrei che questa fosse una pietra miliare, una considerazione che sarà richiamata nel caso in cui saranno nuovamente affrontate in quest'Aula le tematiche dell'anticorruzione, perché non si dica che la figura dell'agente provocatore è inammissibile in sé nel nostro ordinamento, perché è stata introdotta nel 2007 e oggi, molto probabilmente, aggiungiamo alle già previste ipotesi di reato in cui questa figura può operare anche quelle relative al finanziamento di condotte con finalità terroristiche. Ci tenevo a fare questa specificazione.</seg>
+            </u>
+            <note type="speaker">FUCKSIA (Misto)</note>
+            <u ana="#regular" who="#FucksiaSerenella" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u75">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg138">Signor Presidente, a questo punto ci tengo che resti agli atti questa ulteriore riflessione, ossia che una figura in un contesto ha un ruolo e produce delle conseguenze, mentre in un altro contesto e per altri fini ha tutt'altro risvolto, per cui di fatto non sono figure sovrapponibili. Pensiamo alle conseguenze e all'interpretazione che può essere data a una figura strumentale a screditare volontariamente e quindi creare disservizio in un'amministrazione pubblica. Qui parliamo di un ambito completamente diverso, perché parliamo di un agente dei servizi segreti, che opera nell'ambito della sicurezza dello Stato. Quindi, di fatto, le figure non sono sovrapponibili, perché i riflessi e gli effetti sono completamente diversi. Pertanto, secondo me, l'analogia non sussiste.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u76">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg139">Indìco la votazione nominale con scrutinio simultaneo dell'articolo 5. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 6.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Verifica del numero legale</head>
+            <note type="speaker">DI MAGGIO (CoR)</note>
+            <u ana="#regular" who="#DiMaggioSalvatoreTito" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u77">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg140">Chiediamo la verifica del numero legale.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u78">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg141">Siamo al voto elettronico...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo LN-Aut.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg142">Il senatore Santangelo stava facendo cenno di voler chiedere la votazione mediante procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg143">Ho chiesto prima la verifica del numero legale. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato non è in numero legale.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo LN-Aut.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg144">Sospendo pertanto la seduta per venti minuti. (La seduta, sospesa alle ore 12,36, è ripresa alle ore 12,59).</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+         </div>
+         <div type="debateSection">
+            <note>e</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2223</note>
+            <note type="time">12,59</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46444.htm</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1662</note>
+            <note type="time">12,59</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44969.htm</note>
+            <note type="time">(ore 12,59)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u79">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg145">Passiamo nuovamente alla votazione dell'articolo 6.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Verifica del numero legale</head>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u80">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg146">Chiediamo la verifica del numero legale.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u81">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg147">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato non è in numero legale. Apprezzate le circostanze, rinvio il seguito della discussione dei disegni di legge in titolo ad altra seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">GIOVANARDI (GAL (GS, PpI, M, Id, ApI, E-E, MPL))</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u82">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg148">Signor Presidente, fra quattro giorni ricorrerà il trentaseiesimo anniversario del disastro aereo di Ustica senza che si sia raggiunta una verità univoca e condivisa sull'accaduto. Abbiamo recentemente scoperto che importantissimi documenti classificati come segreti e segretissimi, che abbiamo potuto consultare come membri della Commissione di inchiesta sull'assassinio di Aldo Moro - ma la cui divulgazione dopo trentasei anni è ancora penalmente perseguibile - contengono preziose indicazioni per spiegare le cause dell'esplosione dell'aviogetto. Abbiamo sollecitato il Governo a desecretare questi atti, perché l'opinione pubblica e i familiari delle vittime hanno il diritto di conoscere le minacce di rappresaglia su vittime innocenti avanzate ripetutamente dal fronte popolare per la liberazione della Palestina manovrato dai libici nel maggio-giugno 1980, sino ad identificare un aereo (DC-10) come possibile obiettivo della rappresaglia stessa. La pubblicazione di questi atti può dare un contributo decisivo per sfatare anche ipotesi da fantascienza e depistaggi che hanno avvelenato la storia di questo disastro aereo. Sollecitiamo pertanto nuovamente il Governo a rispondere positivamente agli appelli che ogni anno, in coincidenza con l'anniversario, arrivano dalle alte cariche dello Stato. Infatti, anche quest'anno, il prossimo 27 giugno il Capo dello Stato, il Presidente del Senato e il Presidente della Camera faranno un appello a conseguire la verità, al di là di ogni convenienza. Quindi, perché questa si persegua, bisogna che il Governo, dopo trentasei anni, renda finalmente pubbliche queste carte e lasci agli storici, all'opinione pubblica, ai magistrati, la possibilità di farsi un'opinione su una situazione ancora oggi aperta, che ci vede in conflitto con gli Stati Uniti, con la Francia, e che inevitabilmente dovrà avere una condivisa e univoca verità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Albertini e Liuzzi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PAGLINI (M5S)</note>
+            <u ana="#regular" who="#PagliniSara" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u83">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg149">Signor Presidente, tutti hanno presente il gravissimo terremoto che ha colpito l'Emilia-Romagna nel maggio 2012. Tutti sicuramente ricordano le immagini dei paesi straziati: Mirandola, Medolla, Cavezzo, Finale Emilia, San Felice sul Panaro e molti altri borghi. Fu un disastro per vite perse e distruzione. Per gestire l'emergenza e provvedere alle varie fasi legate alla ricostruzione, la pubblica amministrazione si è avvalsa anche di lavoratori somministrati. La Regione Emilia-Romagna, insieme con l'agenzia Obiettivo lavoro, prima, e Manpower, adesso, non ha programmato un percorso formativo in itinere per ciascun lavoratore in modo da facilitarne la ricollocazione lavorativa, una volta conclusa l'emergenza terremoto. Eppure, sono state messe a disposizione competenze di ogni tipo, con esperienze professionali di rilievo. Con l'uso smodato dei lavoratori somministrati, la pubblica amministrazione dimostra di concorrere alla precarizzazione del lavoro, dando l'idea che possano esistere dei lavoratori usa e getta. La formula è sempre la stessa: «Ti prendo, ti sfrutto finché mi servi, ti faccio svolgere un lavoro pari a quello degli altri dipendenti, ma non ti riconosco le garanzie sul lavoro, e soprattutto, una volta che non ho più bisogno di te, ti mando a casa». È chiaro che se un lavoratore si trova in questa situazione sarà sempre ricattabile, ostaggio dell'arbitrio del dirigente piazzato dal politico di turno. I lavoratori interinali diventano così merce di scambio politico e ciò vale sia per i lavoratori di "Sisma Emilia" che per tutti gli altri. Non risulta etico utilizzare un impiegato, con le modalità che sono state assegnate nell'ambito della ricostruzione, più di quindici-diciotto mesi senza offrire in cambio una qualche prospettiva di impiego o almeno di riutilizzo delle competenze maturate. Ad oggi, le funzioni svolte dai somministrati all'interno degli enti locali rappresentano l'ossatura portante di molti uffici (ricevimento del pubblico, interfaccia con i professionisti esterni, sopralluoghi nei cantieri); attività che prima del sisma del 2012 non erano previste neppure per il personale di ruolo. Pertanto, è probabile che molte assunzioni abbiano avuto il solo scopo di utilizzare il personale per far fronte alle mancanze di organico per le attività ordinarie o per smaltire il lavoro arretrato. Data la delicatezza del tema, ho inoltre depositato un atto di sindacato ispettivo indirizzato al ministro del lavoro Poletti, perché il Ministero vigili su quanto sta accadendo in Emilia-Romagna, affinché vengano tutelati questi lavoratori e i loro diritti.</seg>
+            </u>
+            <note type="speaker">BOTTICI (M5S)</note>
+            <u ana="#regular" who="#BotticiLaura" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u84">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg150">Signor Presidente, era il luglio 2013 quando ho cominciato a raccontare le vicende della comunità Il Forteto. Oggi si sono conclusi i lavori della commissione d'inchiesta della Regione Toscana sui fatti avvenuti all'interno della comunità Il Forteto; ribadisco che si tratta di abusi sessuali durati anni ed anni. Noi abbiamo presentato un disegno di legge per istituire una Commissione d'inchiesta parlamentare, perché vogliamo andare a fondo. È la stessa conclusione cui sono arrivati i membri della commissione d'inchiesta della Regione Toscana: commissariamento della cooperativa Il Forteto, perché ancora coinvolta con le vittime e con i carnefici di questi fatti assurdi ed atroci. Invito quindi tutti i parlamentari toscani a farsi carico di questa Commissione d'inchiesta parlamentare e a sottoscrivere il testo depositato a mia prima firma, l'Atto Senato 2093, per mettere finalmente la parola fine a questa tragedia, che ha colpito non solo le vittime, ma tutti i cittadini toscani e italiani, perché è una vera vergogna quella che è stata posta in essere in questo Paese. Rinnovo quindi l'invito ai parlamentari toscani a sottoscrivere il testo e a portarlo finalmente in Commissione, per istituire una Commissione d'inchiesta al fine di indagare per davvero.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.u85">
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg151">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg152">Ricordo che il Senato tornerà a riunirsi in seduta pubblica oggi, alle ore 16, con l'ordine del giorno già stampato e distribuito.</seg>
+               <seg xml:id="ParlaMint-IT_2016-06-23-LEG17-Sed-644.seg153">La seduta è tolta (ore 13,06).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

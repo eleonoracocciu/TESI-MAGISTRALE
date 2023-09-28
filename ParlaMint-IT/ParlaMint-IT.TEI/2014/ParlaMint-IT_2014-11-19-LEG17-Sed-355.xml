@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 355 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 355 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 355, giorno (2014-11-19)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 355, Day (2014-11-19)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="355-upper">355 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="221" unit="speeches" xml:lang="it">221 discorsi</measure>
+            <measure quantity="221" unit="speeches" xml:lang="en">221 speeches</measure>
+            <measure quantity="17873" unit="words" xml:lang="it">17.873 parole</measure>
+            <measure quantity="17873" unit="words" xml:lang="en">17,873 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0813868</idno>
+               <date when="2014-11-19">19.11.2014</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="12"/>
+               <tagUsage gi="head" occurs="8"/>
+               <tagUsage gi="note" occurs="261"/>
+               <tagUsage gi="seg" occurs="221"/>
+               <tagUsage gi="u" occurs="115"/>
+               <tagUsage gi="vocal" occurs="4"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="19"/>
+               <tagUsage gi="incident" occurs="2"/>
+               <tagUsage gi="desc" occurs="25"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2014-11-19">19.11.2014</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza della vice presidente LANZILLOTTA</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u1">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg1">La seduta è aperta (ore 16,33). Si dia lettura del processo verbale. VOLPI, segretario, dà lettura del processo verbale della seduta del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">SCILIPOTI ISGRO' (FI-PdL XVII)</note>
+            <u ana="#regular" who="#ScilipotiIsgroDomenico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg2">Signora Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u3">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u4">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg4">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u5">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg5">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg6">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,38).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione dei disegni di legge: (1070) BUEMI ed altri. - Disciplina della responsabilità civile dei magistrati</note>
+            <note type="time">16,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/42039.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (315) BARANI. - Modifiche alla legge 13 aprile 1988, n. 117, in materia di responsabilità civile dei magistrati</note>
+            <note type="time">16,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40062.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (374) BARANI. - Modifiche alla legge 13 aprile 1988, n. 117, in materia di responsabilità civile dei magistrati</note>
+            <note type="time">16,38</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40303.htm</note>
+            <note type="time">(ore 16,38)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u6">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg7">L'ordine del giorno reca il seguito della discussione dei disegni di legge nn. 1070, 315 e 374.</seg>
+            </u>
+            <note>Ricordo che nella seduta antimeridiana il relatore ha svolto la relazione orale e ha avuto inizio la discussione generale.</note>
+            <note type="generalDiscussion">DISCUSSIONE GENERALE</note>
+            <note>Avverto che gli emendamenti 1.100 e 5.109 sono stati ritirati. È iscritto a parlare il senatore Lumia. Ne ha facoltà.</note>
+            <note type="speaker">LUMIA (PD)</note>
+            <u ana="#regular" who="#LumiaGiuseppe" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u7">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg8">Signora Presidente, colleghi, anche la responsabilità civile dei magistrati s'inserisce nel più ampio e complessivo processo di riforma che sta finalmente coinvolgendo la giustizia italiana.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg9">La responsabilità civile dei magistrati, insieme alla riforma della giustizia civile, che abbiamo già affrontato in quest'Aula, e insieme ad altri provvedimenti che affronteremo, tra i quali ricordo in modo particolare le misure contro la corruzione e le mafie, costituisce un punto fondamentale della riforma della giustizia italiana.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg10">Vorrei, colleghi, che si prestasse attenzione sul cambio del contesto dentro cui collochiamo le riforme sulla giustizia.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg11">Il vecchio contesto metteva in conflitto la politica con la magistratura, ma soprattutto metteva in conflitto le istituzioni con un cardine costituzionale inviolabile, specie nella vita e nella storia democratica del nostro Paese sancita dalla nostra Costituzione: l'indipendenza e l'autonomia della magistratura.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg12">Il conflitto con tale valore di portata costituzionale lo dobbiamo mettere alle nostre spalle. Non è facile e ci sono ancora pendenze che vanno in tale direzione, ma è bene che tutti insieme svoltiamo e lasciamo veramente alle nostre spalle un conflitto così devastante, che reca solo danno alla nostra società e ai nostri cittadini.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg13">Qual è la nuova dinamica che tutti dobbiamo contribuire a costruire e promuovere? È la riforma della giustizia al servizio dei cittadini. È un'altra dinamica, è un altro passo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg14">I cittadini oggi chiedono più garanzie, maggiore sicurezza e nello stesso tempo una giustizia più veloce e scattante. Una giustizia in grado, in tempi seri, che sono quelli della modernità, cioè in tempi certi, di poter fornire una reale definizione del contenzioso e del diritto che ritiene violato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg15">Ecco perché dobbiamo entrare in questo nuovo contesto: basta con la guerra e con il rovinoso conflitto a somma zero, sì ad una nuova dinamica di riforme radicali, innovative e al contempo prive di una dimensione conflittuale devastante.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg16">In questa nuova fase, è chiaro che il dialogo si fa serrato e ci può essere anche lo spazio per visioni diverse, che non vanno demonizzate. Ci può essere anche, addirittura, un certo tasso di conflitto con la stessa magistratura, ma esso è diverso rispetto a quello passato, perché la nuova dimensione, che potrebbe anche avere un certo livello di conflittualità, non ha più davanti l'obiettivo di mettere in discussione l'autonomia e l'indipendenza della magistratura. L'obiettivo è invece quello di far crescere il livello di tutela, la sicurezza e la velocità e soprattutto l'affidabilità, in riferimento alla giustizia civile, del nostro Paese per poter attrarre investimenti e garantire la libera concorrenza, mettendo alle nostre spalle l'idea della «Italietta» che trucca i bilanci e fa del vizio dell'illegalità il suo punto di forza, laddove tale vizio si è dimostrato essere il suo punto di debolezza.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg17">Ecco dove si inserisce la responsabilità civile dei magistrati.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg18">Colleghi, l'Europa dice chiaramente no alla responsabilità diretta dei magistrati. Non c'è alcun Paese in Europa dove essa sia prevista e l'Europa stessa non è d'accordo con un tale approccio.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg19">Bene abbiamo fatto, quindi, nel corso dei lavori della Commissione giustizia ad abbandonare questa strada. Abbiamo fatto bene a contrastarla e penso sia stato un ottimo risultato aver trovato un'ampia condivisione nel dire chiaramente che anche il Parlamento italiano, a partire dal Senato, non sceglie la strada della responsabilità diretta.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg20">L'Europa chiede la responsabilità nei confronti dello Stato e la stessa minaccia di infrazione che viene avanzata da parte dell'Europa ha questo obiettivo: gli Stati membri debbono prevedere una responsabilità civile di cui lo Stato si assume la prima responsabilità.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg21">(ore 16,45) ( Segue LUMIA). Il meccanismo che è stato individuato in Commissione giustizia prevede una prima fase che riguarda il rapporto tra il cittadino e lo Stato: il cittadino può agire contro lo Stato e può agire per responsabilità civile. La scelta che, cari colleghi, al riguardo è stata fatta prevede, rispetto alla legge Vassalli, alla legge principe della responsabilità civile dei magistrati, una più ampia possibilità da parte del cittadino di ricorrere verso lo Stato. Infatti, nel nuovo testo approvato dalla Commissione giustizia si sostiene quanto segue: «Costituisce colpa grave la violazione manifesta della legge nonché del diritto dell'Unione europea, il travisamento del fatto o delle prove, ovvero l'affermazione di un fatto la cui esistenza è incontrastabilmente esclusa dagli atti del procedimento o la negazione di un fatto la cui esistenza risulta incontrastabilmente dagli atti del procedimento, ovvero l'emissione di un provvedimento cautelare personale o reale fuori dai casi consentiti dalla legge oppure senza specifica ed adeguata motivazione». Come potrete vedere, attraverso un emendamento sollecitato da più Gruppi e dal Governo, verrà tolta l'espressione: «specifica ed adeguata motivazione», per lasciare: «senza motivazione». Colleghi, il cittadino ha, quindi, più possibilità di veder riconosciuto il torto che ha subito da una giustizia negata o sbagliata. Un'apertura reale viene, pertanto, inserita all'interno della responsabilità civile dei magistrati. C'è poi una seconda fase: quando lo Stato può rivalersi nei confronti del magistrato. Colleghi, la scelta che è stata fatta a tal riguardo ha una duplice novità. La prima novità è data dal fatto che salta il filtro. Come è stato detto in diversi interventi nel corso della discussione generale, in Italia la legge Vassalli non era bloccata dalle condotte di colpa grave che stabiliva, ma si inceppava di fronte ad un filtro che, di fatto, lasciava passare, se non in pochissimi casi e con risultati che si possono contare sulle dita di una mano, delle semplici e residuali forme di responsabilità civile. Quindi, questa è la novità che abbiamo votato e valutato, non senza difficoltà e non senza un processo di maturazione: anche all'interno del nostro Gruppo, si riteneva che il filtro doveva essere rinnovato, ma, in alcune sue dimensioni, mantenuto. Alla fine, però, la decisione che è stata presa, di concerto con il Governo e con tutti i Gruppi, è stata quella di togliere completamente il filtro. Della legge Vassalli, però, rimane - tra l'altro era un suo punto di forza - che, accanto alla violazione manifesta della legge e a quegli altri aspetti che costituiscono colpa grave, il riferimento che queste violazioni debbono essere determinate, oltre naturalmente che dal dolo, da negligenza inescusabile. Ciò al fine di evitare, colleghi, che possa rientrare dalla finestra quanto - come dicevo all'inizio - abbiamo tenuto fuori dalla porta: non ripresentare un conflitto che possa rimettere in discussione l'autonomia e l'indipendenza della magistratura. Voi sapete, colleghi, che rimane una questione delicata, che ha impegnato la Commissione e anche la discussione in quest'Aula: il problema della cosiddetta interpretazione. Di chi è questo potere? Di chi è questa responsabilità? Cari colleghi, dobbiamo sempre partire dalla nostra Costituzione, che all'articolo 101, secondo comma, dice in modo lapidario, con una frase caustica che non lascia dubbi, che il magistrato è soggetto solo alla legge. Non ci sono spazi per diverse letture, soprattutto per delle letture forzate. Pertanto, qualora volessimo modificare l'idea che l'interpretazione è un punto fondante dell'attività del giudice, del magistrato, dobbiamo fare una scelta, quella più trasparente, ed imboccare la via maestra della modifica della nostra Carta costituzionale. Colleghi, il nostro non è un sistema di common law, in cui la vincolavità del giudicato, del precedente, ha un valore supremo, che si impone come una sorta di giudice più forte verso il giudice minore. Nel nostro sistema non vige questa gerarchia. Nel sistema italiano, la Costituzione ha messo da parte, per storia, per tradizione, per la cultura democratica costruita nella nostra civiltà giuridica, un'opzione di questo tipo, per cui l'idea di considerare come condotta da sottoporre a responsabilità civile il non attenersi al pronunciamento della Cassazione a sezioni unite non può, cari colleghi, diventare un punto da inserire nella legge ordinaria che prevede la responsabilità civile dei magistrati. È un punto che andrebbe inserito attraverso, per chi è d'accordo, una riforma della nostra Costituzione, perché c'è una sistematicità che andrebbe stravolta e che richiede un intervento altrettanto sistematico di taglio totalmente diverso. Attenzione, colleghi, c'è un'evoluzione culturale anche nel sistema di common law, che comincia a dare forza alla legge. C'è anche un'evoluzione all'interno dei sistemi di civil law, anche all'interno del nostro sistema, che sempre più dà qualità e valore all'interpretazione e così anche al precedente nell'interpretazione, per cui le discussioni e le valutazioni che sono state svolte non sono da demonizzare, non c'è da creare un conflitto ideologico intorno al pluralismo di vedute che è stato avanzato, ma abbiamo bisogno di riformare il sistema della responsabilità civile all'interno di un quadro costituzionale, all'interno di un quadro sistemico che garantisca il cittadino e allo stesso tempo non vada a disarticolare il nostro sistema. Ecco perché, di fronte all'Europa che fa una scelta molto chiara nel suo Trattato, che è quella di creare un sistema omogeneo negli Stati membri, al punto tale che lascia alla sua Corte la funzione primaria di interpretazione (e lì c'è una vera giustificazione storica), nel nostro sistema costituzionale questa scelta non c'è perché, appunto, non siamo nelle stesse condizioni in cui deve agire l'Europa per costruire un'omogeneità tra i vari Stati membri con tutte le differenza che ci sono all'interno dei diversi contesti culturali e giuridici dei vari Paesi. Per questo penso che possiamo avviarci alla fase emendativa con un atteggiamento che provi a valorizzare il lavoro svolto nella Commissione e, come sempre, concordiamo sul lavoro di riforma che qui in Aula vede spesso impegnata la Commissione giustizia. Possiamo senz'altro scansare molti problemi che ci hanno diviso, costruire una vera unità e, come diciamo spesso, provare a licenziare anche questa importantissima riforma con una condivisione ampia e con una soluzione moderna, come ci chiede l'Europa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Buemi e Ginetti.</desc>
+               </kinesic>
+            </u>
+            <note type="president">Presidenza del presidente GRASSO</note>
+            <note type="time">16,45</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u8">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg22">Dichiaro chiusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg23">Avverto che l'emendamento 2.129 è stato ritirato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u9">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg24">Saluto gli studenti dell'Istituto statale di istruzione superiore «John Maynard Keynes» di Castel Maggiore, in provincia di Bologna, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1070</note>
+            <note type="time">16,55</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/42039.htm</note>
+            <note>e</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 315</note>
+            <note type="time">16,55</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40062.htm</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 374</note>
+            <note type="time">16,55</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40303.htm</note>
+            <note type="time">(ore 16,55)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u10">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg25">Ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">BUEMI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u11">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg26">Signor Presidente, onorevoli colleghi, intervengo brevemente per richiamare i punti essenziali della riforma, che mi sembrano particolarmente importanti, al di là del confronto parlamentare e di ciò che emergerà dal successivo confronto sui singoli emendamenti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg27">Nel testo viene infatti confermata la responsabilità indiretta del magistrato: su questa questione non ci devono essere equivoci e mi pare dunque che si confermi la linea della riforma Vassalli. Togliamo dunque dal campo gli eventuali equivoci che sono stati introdotti nella discussione precedente.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg28">Il punto essenziale della riforma in esame è la rimozione del filtro, quindi non ci sono più impedimenti, se non quelli che derivano dall'accertamento dei fatti attraverso il processo e quindi dalle conclusioni a cui il giudice arriverà, nell'accertare la responsabilità dello Stato e in seguito la responsabilità del magistrato. È stato previsto l'allargamento delle fattispecie della colpa grave, che sono state ampliate e in alcuni casi individuate meglio. La responsabilità civile per colpa grave è estesa non soltanto ai fatti connessi alla limitazione della libertà personale, ma anche ai fatti di carattere non patrimoniale, morale e anche con riferimento ad atti che non sono intervenuti sulla limitazione delle persone, ma sui beni, quindi ad una serie di fattispecie che in precedenza non erano previste.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg29">In particolare, è aumentato il limite della rivalsa nei confronti del magistrato che ha commesso il fatto, da un terzo alla metà dello stipendio annuo netto, all'epoca dell'azione di ricorso. Viene confermata la responsabilità contabile, che viene applicata anche in queste situazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg30">Quindi si riconsidera complessivamente la situazione che in questi anni ha impedito di arrivare a una significativa azione di rivalsa nei confronti dei magistrati, ma anche di accertamento della responsabilità civile dello Stato. Questo è infatti il primo obbiettivo, quello di dare ai cittadino la possibilità di agire nei confronti dello Stato, quando un suo servitore commette un fatto di colpa grave. È evidente infatti che per quanto riguarda il dolo non ci sono limitazioni: in caso di accertamento positivo del dolo, non esiste limitazione alcuna.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg31">Con queste considerazioni e con i contributi che potrebbero derivare dalla fase successiva, anche in caso di approvazione degli emendamenti presentati, sui quali il relatore e il Governo esprimeranno il proprio giudizio, credo che si possa avviare la fase conclusiva di questa azione, che da anni viene attesa dal nostro Paese e da tutti i cittadini.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg32">PRESIDENTE. Ha facoltà di parlare il rappresentante del Governo.</seg>
+            </u>
+            <note type="speaker">COSTA</note>
+            <note type="role">vice ministro della giustizia</note>
+            <u ana="#guest" who="#CostaEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u12">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg33">Signor Presidente, il dibattito è stato molto serrato e ovviamente c'erano posizioni di partenza diverse su questo provvedimento, come dimostrano i diversi disegni di legge che sono stati presentati; differenti posizioni che si evincono anche dagli emendamenti presentati.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg34">Dal 1988 ad oggi si è più volte affermata l'inefficacia della legge Vassalli e si è più volte tentato, nei due rami del Parlamento, di modificare questa normativa, per renderla efficace e per fare in modo che fosse realmente un meccanismo capace di risarcire le situazioni che lo meritassero. Non si è però mai arrivati alla discussione in sede di Aula parlamentare per affermare queste esigenze, attraverso una modifica normativa.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg35">Oggi è un'ottima occasione sotto questo profilo. Il testo arriva già con delle novità notevoli. Mi riferisco innanzitutto all'abolizione del filtro, che è lo scoglio su cui si sono infrante molte delle istanze per ottenere un risarcimento. Penso che attraverso questa novità - mi pare che non ci siano emendamenti che tendano a riproporlo - si potrà registrare un notevole risultato anche numerico, anche perché fino ad oggi si possono contare sulle dita di una mano le situazioni di risarcimento con rivalsa successiva. Questo dimostra che coloro che oggi hanno evidenziato la necessità di un cambio di passo sotto il profilo di questa legge hanno colto nel segno.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg36">Come fare questo cambio di passo? Non attraverso una norma punitiva o una norma che mini le prerogative della Costituzione, ma attraverso un testo equilibrato che garantisca l'interesse del cittadino ad essere risarcito dallo Stato, attraverso un testo che corrisponda alle censure che ci vengono dalla Corte di giustizia europea. Non è una questione - l'ho sentita evocare - di penna tremolante del magistrato, ma vi è l'esigenza che il magistrato si attenga a dei principi chiari, rigorosi, puntuali e, soprattutto, specificati all'interno di questo provvedimento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg37">Secondo qualcuno i principi liberali sarebbero travolti da questa norma. Io sono stato uno dei più grandi sostenitori di un'evoluzione e di un cambio di passo rispetto alla legge Vassalli e sono orgoglioso di essere oggi in quest'Aula per poter fare finalmente questo cambio di passo e poter varare questa novità. Alla Camera, nella scorsa legislatura, si è discusso moltissimo in Commissione. Veti reciproci hanno impedito di fare un passo avanti. Oggi attraverso l'impegno del relatore, del Presidente e dei commissari della Commissione giustizia siamo arrivati ad avere un testo in Aula. Potrà essere modificato: il Governo anche attraverso i pareri dimostrerà che alcuni emendamenti verranno accolti, però è un orgoglio arrivare in questa sede ad auspicare che attraverso il voto di questo Parlamento si possa anche impedire quello che è stato in alcune circostanze evocato, cioè un provvedimento di urgenza per andare incontro alle censure che vengono rivolte al nostro Paese e per impedire che venga attivata una procedura di infrazione nei confronti del nostro Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg38">Alcune osservazioni sugli emendamenti le svolgerò successivamente facendo alcune puntualizzazioni, soprattutto sui rilievi svolti dal senatore Caliendo sull'articolo 4. Non è vero che il Governo non ha mai evidenziato la sua posizione sull'articolo 4. In Commissione c'era un emendamento soppressivo dell'articolo 4 presentato dal senatore Giarrusso. Il Governo aveva espresso parere favorevole, ma il senatore Giarrusso però, per una scelta legittima, ha ritirato l'emendamento. Oggi chiaramente il Governo è coerente con questa sua posizione e presenta l'emendamento soppressivo. Mi pare che il lavoro in Commissione sia stato proficuo e abbia fatto fare passi avanti nell'avvicinamento delle posizioni.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg39">Auspico che il lavoro di quest'Aula consenta di giungere ad un testo che non deve essere di compromesso, ma soprattutto di equilibrio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo NCD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u13">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg40">Comunico che è pervenuto alla Presidenza, ed è in distribuzione, il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame e sui relativi emendamenti, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg41">Onorevoli colleghi, sono state presentate richieste di votazioni a scrutinio segreto sui seguenti emendamenti: 2.104, 2.117, 2.120, 2.130, 3.101, 5.100, 5.103, 6.101, 6.104 e 8.0.100. Con riguardo a tali richieste, la Presidenza ritiene ammissibile la votazione a scrutinio segreto, ai sensi dell'articolo 113, comma 4, del Regolamento, esclusivamente per gli emendamenti attinenti all'articolo 24 della Costituzione, che demanda alla legge il compito di stabilire le condizioni e i modi per le riparazioni degli errori giudiziari.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg42">Ritiene pertanto accoglibile il voto segreto sui seguenti emendamenti: 2.104, a firma della senatrice Stefani, che definisce l'ambito della colpa grave; 2.117, a firma del senatore Caliendo, che estende la colpa grave anche ai casi in cui non si tiene conto, senza specifica motivazione, delle pronunce delle sezioni unite della Corte di cassazione; 2.130, a firma del senatore Caliendo, che definisce le modalità di determinazione della manifesta violazione del diritto dell'Unione europea, con particolare riguardo alla giurisprudenza della Corte di giustizia. Non è invece ammissibile il voto segreto sull'emendamento 3.101, che si limita ad ampliare il termine di decadenza per la proposizione dell'azione di responsabilità civile, nonché, in generale, sugli emendamenti volti a modificare i contenuti e le modalità di esperimento dell'azione di rivalsa, in quanto essa attiene al distinto rapporto intercorrente tra lo Stato e il magistrato ritenuto responsabile. La richiesta di voto a scrutinio segreto non è pertanto accolta sugli emendamenti 5.100, 5.103, 6.101 e 6.104, che modificano i presupposti per l'esercizio dell'azione di rivalsa e i relativi criteri di commisurazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg43">Con riguardo agli emendamenti 2.120 e 8.0.100, la Presidenza osserva che su tali proposte la Commissione bilancio ha espresso un parere contrario ai sensi dell'articolo 81 della Costituzione. Pertanto, in applicazione dell'articolo 113, comma 6, del Regolamento, la votazione a scrutinio segreto non sarebbe comunque consentita. Tali emendamenti risultano peraltro improponibili ai sensi dell'articolo 97, comma 1, del Regolamento per estraneità all'oggetto del disegno di legge, che reca: «Disciplina della responsabilità civile dei magistrati».</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg44">Infine, la Presidenza dichiara improponibile l'emendamento 2.119, in quanto manifestamente formulato ioci causa.</seg>
+            </u>
+            <note>Passiamo all'esame degli articoli del disegno di legge n. 1070, nel testo proposto dalla Commissione.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Procediamo all'esame dell'articolo 1, sul quale è stato presentato l'emendamento 1.100, che è stato ritirato. Passiamo pertanto alla votazione dell'articolo 1. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo all'esame dell'articolo 2, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</note>
+            <note type="speaker">GIARRUSSO (M5S)</note>
+            <u ana="#regular" who="#GiarrussoMarioMichele" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u14">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg45">Signor Presidente, chiedo di apporre la mia firma ai tre emendamenti a firma del senatore Cappelletti (2.100, 2.125 e 2.131), che credo particolarmente importanti.</seg>
+            </u>
+            <note type="speaker">CAPPELLETTI (M5S)</note>
+            <u ana="#regular" who="#CappellettiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u15">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg46">Signor Presidente, l'emendamento 2.100 prevede la soppressione della lettera a) del comma 1 dell'articolo 2. Quest'ultima a sua volta prevede la soppressione delle parole «che derivino da privazione della libertà personale». L'obiettivo del mio emendamento è di ripristinare esattamente questi termini, così come previsti nella norma citata, ossia nella legge n. 117 del 1988, limitando la responsabilità civili del magistrato nei casi di privazione della libertà personale.</seg>
+            </u>
+            <note type="speaker">MUSSINI (Misto-MovX)</note>
+            <u ana="#regular" who="#MussiniMaria" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u16">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg47">Signor Presidente, l'emendamento 2.101 che chiede la soppressione della lettera a) del comma 1, ha la stessa finalità descritta dal senatore Cappelletti, che ha presentato un emendamento simile. Aggiungo solo che l'intento è quello di mantenere il perimetro della norma originale, essendo già stato rimosso il filtro di ammissibilità ed onde evitare che, di colpo, si possa passare da una situazione di scarsa applicazione della legge Vassalli a una situazione di impossibilità di applicazione in relazione all'eccesso di domande. Aggiungo anche una breve riflessione sull'emendamento 2.105 a mia prima firma. Io chiedo che venga fatta una precisazione, proprio per un problema di dizione. Quando si parla della «violazione manifesta della legge nonché del diritto dell'Unione europea», il termine «nonché» non è, a mio avviso, sufficiente a precisare che si tratta di violazione manifesta della legge nazionale e del diritto, d'altro canto, dell'Unione europea. So che il Governo ritiene che questa formulazione sia già sufficientemente chiara. Io sono anche disponibile a ritirare questo emendamento, se però dal Governo avrò la garanzia che questo non possa dare adito a strane interpretazioni di questa dizione.</seg>
+            </u>
+            <note type="speaker">STEFANI (LN-Aut)</note>
+            <u ana="#regular" who="#StefaniErika" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u17">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg48">Signor Presidente, volevo in particolare portare l'attenzione dei colleghi sull'emendamento 2.104. In realtà, il contenuto di questo emendamento è ben noto alla Commissione ed è frutto di una elaborazione fatta nel corso della discussione svoltasi con i colleghi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg49">Già in Commissione era stato presentato un emendamento di analogo contenuto. In pratica, ho riprodotto la proposta formulata a suo tempo dal relatore, senatore Buemi, con l'emendamento 2.1002 (testo 3). Questo è stato un passaggio molto importante in Commissione, che aveva portato anche alla formulazione di vari subemendamenti per migliorare questo testo. A mio avviso, in quella sede non si poteva non riconoscere che vi era una certa adesione da parte dei colleghi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg50">In particolare, mi soffermo su un passo dell'emendamento 2.104, il quale prevede la formulazione e la specificazione di casi di colpa grave, come contenuti nella legge Vassalli. L'emendamento ripete infatti i punti a), b), c) e d), che erano già contenuti nella legge Vassalli, ma ne introduce uno molto particolare, la lettera e) (sul quale abbiamo avuto un'ampia discussione in Commissione), ritenendo colpa grave anche il caso in cui il magistrato si discosti, senza adeguata motivazione, dall'interpretazione della legge espressa dalle sezioni unite della Corte di cassazione. Questo è un passaggio importante, e io chiedo a tutta l'Assemblea di soffermarsi, di meditare se considerare come ipotesi di responsabilità proprio il discostarsi da quella che è una pronuncia espressa dalla Corte di cassazione a sezioni unite: ipotesi che dagli operatori del diritto si intende certamente di una portata particolarmente rilevante.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BARANI (GAL)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u18">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg51">Signor Presidente, mi ha fatto molto piacere sentirla dichiarare improponibile l'emendamento 2.119. Ovviamente la mia era una provocazione e ho raggiunto il mio obiettivo se lei lo ha dichiarato improponibile, in quanto credo che un magistrato soggetto al giudizio di un altro magistrato che gli ha riconosciuto l'errore almeno debba chiedere scusa.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg52">L'emendamento 2.119 non chiede soldi, ma che almeno il magistrato chieda scusa, niente di più di quanto, dopo 30 anni, ha fatto il magistrato che ha messo in carcere Tortora: per ascendere superior, per arrivare a fare il procuratore capo in un'importante procura, ha chiesto - sottovoce, ovviamente - scusa. Credo che almeno il popolo italiano, quel popolo che io rappresento, quei 21 milioni di cittadini che nel 1987 sono andati a votare e maledicono chi protegge i giudici, come viene fatto in quest'Aula, meritino il rispetto di sentirsi dire una parolina: «Scusa!». Lo so che lei è un magistrato, signor Presidente, e questa parola non l'ha mai proferita, ma il chirurgo che sbaglia almeno chiede scusa alla famiglia del paziente operato e all'operato che è stato menomato a causa del suo intervento; la deve chiedere. Ad ogni modo avrei ovviamente ritirato l'emendamento 2.119 perché ha raggiunto l'obiettivo. Per quanto concerne l'emendamento 2.120, mi tocco per vedere se ci sono. Infatti, la Commissione bilancio e il suo presidente Azzollini, per un combinato disposto, dicono che tutte le visite di idoneità professionale sono un onere per lo Stato. In pratica, quando sottoponiamo un pilota di aereo a visita per accertarci che abbia le capacità psicoattitudinali per fare quel volo, questo ha un costo. Ma tale costo deve essere sostenuto per tutti i cittadini che devono svolgere un lavoro per cui la legge richiede capacità psico-attitudinali che ne attestino l'idoneità. Ebbene, l'ho richiesto per i magistrati perché, cari colleghi, se ritornate indietro al decreto legislativo del secondo Governo Prodi, con ministro della giustizia Mastella, n. 160 del 2006, modificato dall'articolo 2, comma 2, della legge n. 111 del 2007, vi renderete conto che le modifiche alle norme sull'ordinamento giudiziario parlano di valutazione della professionalità. E lo sapete cosa dice questa che è legge? Che tutti i magistrati devono essere sottoposti a valutazione di professionalità ogni quadriennio a decorrere dalla data di nomina fino al superamento della settima valutazione e fino ai 24 anni di professione. Dopodiché, dai 24 ai 40, anche se gli viene l'Alzheimer, se hanno il diabete scompensato, turbe psichiche o mentali, non sono neanche più sottoposti a visite psico-attitudinali. Questo dice la legge, e io ho semplicemente proposto un emendamento, l'8.0.100, in cui propongo che la valutazione sull'idoneità psicoattitudinale del magistrato sia affidata ad un collegio della ASL. Noi in sostanza diamo loro la licenza di uccidere. Noi, signor Vice Ministro, gli abbiamo dato la licenza di essere degli 007, ma non sono belli e affascinanti come James Bond: fanno del male al popolo sovrano. Noi gli chiediamo di chiedere scusa e soprattutto non sappiamo se hanno l'idoneità a emettere sentenze. Quindi, per un combinato disposto, adesso si apre un caso importante: perché sottoponiamo a visita gli aviatori, i medici, i biologi, gli ingegneri o i dipendenti pubblici, e i magistrati no? Vede, Presidente, ho ascoltato l'intervento del senatore Lumia: il giudice deve essere soggetto solo alla legge, ma non ha la libertà di fare cazzate, perché va contra legem e quindi non deve avere questa libertà, caro Lumia. D'altra parte, i senatori Lumia e Casson, che con il Movimento 5 Stelle fanno maggioranza nella Commissione giustizia, vanno contro la volontà del popolo italiano. Allora, Presidente, le dico, avendo spiegato gli emendamenti che ho presentato, che le mie sono proposte responsabili. Ovviamente quella che chiede le scuse pubbliche del magistrato era una provocazione - e ho raggiunto l'obiettivo - ma gli altri sono di tutela del giudice stesso, perché non può emettere sentenze se non ha l'idoneità per farlo. Voi non conoscete la medicina; io ho detto che faccio parte della Commissione giustizia, signor Presidente, perché la giustizia è ammalata e deve essere guarita, ma che è ammalata ce lo dice l'Europa, ce lo dicono le centinaia e migliaia di cittadini che chiedono un risarcimento allo Stato del danno che qualcuno fa. Chi è che paga? Pagano i cittadini, pagano doppiamente. E quando qualcuno dice che la mala giustizia ci costa due punti di PIL, ci sta dicendo che ci costa 32 miliardi. La stragrande maggioranza dei giudici è seria e capace; a questi giudici, che lavorano giorno e notte per la giustizia sancita dalla Costituzione, va il nostro rispetto. C'è però una piccola percentuale di magistrati che per diventare sindaci di una città, per diventare parlamentari o Ministri, sono pronti a vendere anche la propria madre. Per questo credo che meriti considerazione l'emendamento 8.0.100, sul quale vi invito a riflettere - avrei comunque ritirato l'emendamento 2.120, che è stato dichiarato improponibile - essendo in linea con quanto sancito dal decreto legislativo n. 160 del 2006 sulla valutazione di professionalità. La legge di modifica di tale decreto prevede infatti che la valutazione di professionalità riguardi la capacità che, oltre che la preparazione giuridica, che essa sia riferita anche al possesso delle tecniche di argomentazione e di indagine, ovvero alla conduzione dell'udienza da parte di chi la dirige o la presiede, all'idoneità a utilizzare, dirigere e controllare l'apporto dei collaboratori e degli ausiliari. Ciò vale solo fino a 24 anni di anzianità; da lì in poi no. Quello che io dico è di prevedere un aiuto, introducendo anche una visita psico-attitudinale, affidando la valutazione ad un collegio composto da medici afferenti all'azienda sanitaria locale e non ad collegio medico dell'opposizione. Questo avviene in tutti i Paesi d'Europa; solo in Italia non accade. È anche per questo che credo che, per un principio di equità e di uguaglianza previsto dalla Costituzione, i giudici non possono che essere d'accordo, perché è tutelata la loro opera e, tutelando la loro opera, si tutelano i cittadini, pur mantenendo la separazione dei poteri. Non dimentichiamo, infatti, signor Presidente, che sono i cittadini ad essere sovrani; guardi che negli Stati Uniti se un pubblico ministero fa una stupidaggine, non farà più il pubblico ministero, perché i cittadini lo mandano a casa: qui invece gli si fa fare carriera.</seg>
+            </u>
+            <note type="speaker">FALANGA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u19">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg53">Signor Presidente, volevo chiedere alla senatrice Stefani di poter sottoscrivere l'emendamento 2.104 e, se lei mi consente, vorrei svolgere molto brevemente un piccolo rilievo su questo emendamento. Ringrazio il Gruppo Lega Nord per aver immaginato questo emendamento.</seg>
+               <incident type="action">
+                  <desc>Cenni ironici di diniego da parte di alcuni senatori del Gruppo Lega Nord</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg54">Non accettano, Presidente, allora è inutile che parlo! PRESIDENTE. Non è accettata la sottoscrizione? Senatrice Stefani, accetta la richiesta del senatore Falanga? STEFANI (LN-Aut). Sì, signor Presidente, in dissenso dal mio Gruppo! PRESIDENTE. Prego, senatore Falanga. FALANGA (FI-PdL XVII). Come dicevo, Presidente, voglio ringraziare il Gruppo della Lega Nord per aver fatto salvo un principio che qualsiasi operatore del diritto animato da spirito liberale può auspicare. Nel momento in cui, cioè, il giudice si discosta dal principio affermato dalla Cassazione, deve darne motivazione. Guai, però, a fare del principio della Cassazione una cappa di piombo che cala sul giudice, andando a creare quella staticità del principio che è dannosa. I giudici della Cassazione devono potersi avvalere - come dicevo questa mattina - di quel contributo di dinamismo e di novità che può venire dalla giurisprudenza di merito. Per queste ragioni, ritengo convintamente di poter sottoscrivere l'emendamento.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u20">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg55">Signor Presidente, come ho già annunciato in fase di discussione generale, ritiro l'emendamento 2.107. Di fronte ad una formulazione generica, abbiamo fatto una precisazione su alcuni punti, ma per evitare discussioni ritiro l'emendamento, perché fa riferimento all'espressione usata dalla Corte europea nella cosiddetta sentenza Traghetti del Mediterraneo SpA, che però non è molto consona alla nostra legislazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg56">Per quanto concerne l'emendamento 2.111, mi aspetto che il Governo esprima parere favorevole, dal momento che chiedo la soppressione di alcune parole di cui anche il Governo chiede la soppressione con l'emendamento 2.700. Solo che il Governo vuole limitarsi a lasciare le parole «senza motivazione», senza considerare - lei, signor Presidente, me lo insegna - che la «motivazione apparente» o la «motivazione in oggettivo contrasto con gli elementi acquisiti» spesso è molto più grave del «senza motivazione».</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg57">Quanto all'emendamento 2.117, probabilmente, pur avendo avuto un'esperienza di insegnamento universitario, non sono stato capace di far capire al senatore Lumia e ad altri che questo emendamento afferma la libertà del giudice di interpretare la legge anche contro la Cassazione. Signor Presidente, lei sa meglio di me, come lo sanno i senatori Finocchiaro e Casson, che questo è il principio fondamentale. Il giudice, se ignora il principio di diritto affermato dalla Corte di cassazione, commette una negligenza inescusabile. Con questo emendamento si dice soltanto che il giudice deve conoscere il principio di diritto affermato dalla Corte di cassazione e può, con motivazione, discostarsi da quel principio.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg58">È una cosa ben diversa dallo stare decisis dei Paesi di common low : lì il giudice è costretto a non discostarsi dalla decisione assunta in materia identica. Qui invece il principio è diverso, e mi meraviglio che il Governo, pur avendo il Ministro la titolarità dell'azione disciplinare (e questo è uno dei motivi di azione disciplinare), non prenda in considerazione la libertà del giudice di affermare quella soggezione solo alla legge, a cui fa riferimento il senatore Lumia, che può esplicarsi solo nella libertà dell'interpretazione, nella possibilità di essere libero da condizionamenti, fosse anche quello della Corte di cassazione. Tuttavia deve motivare, per evitare una negligenza inescusabile, un suo modo sbagliato di essere magistrato. I magistrati non hanno la legittimazione popolare; esercitano l'azione giudiziaria in nome del popolo italiano, ma non hanno una legittimazione popolare né una nomina regia. I magistrati hanno una legittimazione che dipende dalla professionalità, e quest'ultima è fatta anche da aspetti che riguardano la necessità di documentarsi, in modo tale da consentire una corretta interpretazione e da evitare che, per ignoranza di un principio di diritto, si affermi qualcosa di sbagliato. Sull'emendamento 2.130 non credo di dover spiegare nulla. La Corte di giustizia europea di Lussemburgo è l'unica abilitata ad interpretare le norme del diritto europeo, al fine di garantire l'uniforme interpretazione del diritto in tutti gli Stati dell'Unione. Nel testo già approvato in Commissione noi diciamo che il giudice deve fare il rinvio pregiudiziale quando ha un dubbio; quando non si attiene alla lettera della legge, deve per obbligo di legge rinviare alla Corte di giustizia perché sia interpretata la norma. Nessun giudice di alcuno Stato europeo può interpretarla. Ma una volta che sia stata interpretata, deve per forza adeguarsi. Abbiamo detto che il giudice deve fare il rinvio pregiudiziale, ma se sia stata già interpretata deve adeguarsi a quella interpretazione. Dire il contrario significa assumere una posizione in contrasto con i principi dell'ordinamento europeo. Allo stesso tempo, Presidente, in sede di discussione generale ho detto che proponevo di sostituire, come fanno molti altri emendamenti, l'affermazione «della posizione adottata da un'istituzione dell'Unione europea», che è un linguaggio europeo che indica anche normative; mi riferisco,ad esempio, alle norme dell' antitrust. L'espressione, tradotta nella nostra legge e nella nostra lingua, non rende l'idea. Ho chiesto al Governo di fare una riformulazione che tenesse conto del mio emendamento e della parte dell'emendamento inserita dal Governo, traducendolo cioè in provvedimenti e norme. Concludo sull'articolo 2 dicendo che condivido l'ammissione del voto segreto su questi due emendamenti in base all'ultimo comma dell'articolo 24, e le preannuncio che le chiederò di rivedere la sua determinazione in ordine all'emendamento 5.103 che concerne la medesima questione. L'articolo 24, ultimo comma, fa riferimento ai modi per la riparazione degli errori giudiziari; in questo emendamento vengono specificati gli elementi, i motivi e le norme che identificano la colpa grave e quelli che identificano il dolo. Si tratta della stessa questione che abbiamo appena esaminato sui due emendamenti. Mi auguro quindi che il Governo e il relatore sugli emendamenti all'articolo 2 vogliano dare un'indicazione chiara, perché se tutti riuscissimo a dare questa indicazione, signor Vice Ministro, probabilmente l'intero provvedimento assumerebbe un altro significato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">LUMIA (PD)</note>
+            <u ana="#regular" who="#LumiaGiuseppe" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u21">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg59">Signor Presidente, per quanto riguarda gli emendamenti 2.108, 2.109 e 2.112 c'è una proposta del Governo rappresentata dall'emendamento 2.700 che, di fatto, riformula la parte trattata da questi emendamenti. Pertanto, Presidente, li ritiro e aderisco alla proposta del Governo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg60">Mantengo invece l'emendamento 2.126, anche se viene preannunciata una riformulazione da parte del Governo.</seg>
+            </u>
+            <note type="speaker">BUCCARELLA (M5S)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u22">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg61">Signor Presidente, quanto appena esposto dal senatore Lumia relativamente al ritiro degli emendamenti 2.108, 2.109 e 2.112, che confluiscono nell'emendamento 2.700 del Governo, ovviamente trova il riscontro anche da parte del mio Gruppo in quanto con l'emendamento 2.114, a mia prima firma, proponevamo proprio la soppressione dei criteri di specificità e di adeguatezza con riferimento alla motivazione dei provvedimenti cautelare reali e personali che avrebbe aperto un varco pericolosissimo nell'applicazione della legge in danno dei magistrati.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg62">L'emendamento 2.128 affronta una questione già sollevata dai colleghi che sono intervenuti in merito all'infelice formulazione del testo della norma dell'articolo 3- bis, nel quale si fa riferimento alla «posizione adottata da un'istituzione dell'Unione europea». Propongo la soppressione di questo inciso e la sua sostituzione con la parola «anche», che si collega al prosieguo dell'emendamento stesso. Mi era sembrato di intendere che il Governo avesse in animo una riformulazione su questo punto, con riferimento alla modifica dell'articolo 3- bis e del richiamo fatto alla «posizione adottata da un'istituzione dell'Unione europea» come criterio di riferimento per il discrimine della responsabilità civile. Non so se ciò corrisponde a verità. In ogni caso, il senso dell'emendamento 2.128 a mia firma era quello di togliere questa trappola interpretativa, cosa che riteniamo necessaria, salvo eventuali formulazioni successive che il Governo vorrà presentare e che saremo pronti a valutare. PRESIDENTE. Scusi, senatore Buccarella, per chiarezza: l'emendamento 2.114 è ritirato? BUCCARELLA (M5S). No, signor Presidente, non avrei motivo di ritirarlo, dato che con soddisfazione abbiamo visto che il Governo, con l'emendamento presentato ieri pomeriggio, ha aderito alla considerazione che era anche nostra, senza voler fare questioni di primogenitura.</seg>
+            </u>
+            <note type="speaker">GIARRUSSO (M5S)</note>
+            <u ana="#regular" who="#GiarrussoMarioMichele" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u23">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg63">Signor Presidente, desidero apporre la mia firma all'emendamento 2.128, del senatore Buccarella. PRESIDENTE. Il senatore Buccarella acconsente? BUCCARELLA (M5S). Sì, signor Presidente. PRESIDENTE. Ne prendiamo atto.</seg>
+            </u>
+            <note type="speaker">GIOVANARDI (NCD)</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u24">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg64">Signor Presidente, stante l'assenza del senatore D'Ascola, primo firmatario dell'emendamento 2.121, procederò io ad illustrarlo. Approfitto peraltro per svolgere le stesse considerazioni sull'emendamento 5.107, arrivando poi a dichiararne il ritiro, anche se devo dire che ritenevamo che l'emendamento 2.121 scolpisse meglio, in maniera più chiara, le situazioni nelle quali vi può essere responsabilità. Fra l'altro, in esso è indicato il problema, evidenziato anche da altri colleghi e che rimane in altri emendamenti, della motivazione, qui menzionata quale «sufficiente motivazione».</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg65">Credo che quando si discutono argomenti così importanti vi debba essere onestà intellettuale. Ebbene, nei giorni scorsi ho letto dichiarazioni da parte di magistrati dell'Associazione nazionale magistrati o di membri del Consiglio superiore della magistratura che contestavano la supposta volontà del Parlamento di non voler consentire ai magistrati di discostarsi da sentenze emesse dalla Corte di cassazione a sezioni unite. Niente di più falso! Ci dobbiamo mettere nei panni di un cittadino o di un imprenditore che diligentemente guarda la norma per quello che è e poi, prudentemente, sapendo che quella norma è stata interpretata diversamente, va anche a verificare cosa hanno detto le sezioni unite della Corte di cassazione rispetto a quella interpretazione e, fidandosi della legge e delle sezioni unite, si mette in causa. Dopodiché potrà trovare un magistrato - e questo lo ritengo giusto - che malgrado i termini della legge, che secondo il cittadino o l'imprenditore sono chiari, e nonostante la sentenza delle sezioni unite della Corte di cassazione, riterrà di fargli perdere la causa. Può verificarsi che, seppure la Corte di cassazione abbia ripetuto più volte una stessa interpretazione della norma, quel magistrato decida per una interpretazione diversa o contraria. E allora, noi non contestiamo il diritto del magistrato di discostarsi dalla pronuncia della Corte di cassazione; diciamo semplicemente che deve motivare il perché si discosta, rendendo chiari e leggibili al cittadino i motivi per i quali ritiene che la giurisprudenza delle sezioni unite della Corte di cassazione sia da adeguare o da superarsi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg66">Questo avevamo scritto nell'emendamento 2.121, insieme ad altre cose. Lo ritiriamo, come ritiriamo l'emendamento 5.107, però il problema rimane e vediamo che è evidenziato anche in altri emendamenti. È giusto, perché credo che il Parlamento, per chiarezza nei confronti sia dei magistrati che dei cittadini, debba dire che le regole e le interpretazioni, anche al più alto livello, possono essere modificate o superate, ma bisogna farlo nella chiarezza, spiegando e motivando perché si assumono decisioni diverse.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo NCD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg67">PRESIDENTE. Senatore Giovanardi, allora ritira l'emendamento 2.121? GIOVANARDI (NCD). Sì, signor Presidente, e preannuncio il ritiro anche dell'emendamento 5.107.</seg>
+            </u>
+            <note type="speaker">FALANGA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u25">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg68">Signor Presidente, vorrei sottoscrivere l'emendamento 5.103. PRESIDENTE. Senatore Falanga, lo dirà quando esamineremo l'articolo 5. FALANGA (FI-PdL XVII). Ma l'ha già illustrato il senatore Caliendo. PRESIDENTE. Per ora siamo all'articolo 2. PRESIDENTE. I restanti emendamenti si intendono illustrati. Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">BUEMI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u26">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg69">Signor Presidente, intanto premetto che, quando esprimerò parere contrario, invito i colleghi a ritirare i loro emendamenti. Il contributo che essi hanno dato con questi emendamenti, su cui non abbiamo trovato una convergenza, è stato in ogni caso positivo e ha consentito di sviluppare una dialettica, un ragionamento e un approfondimento. Quindi, su tutti gli emendamenti su cui esprimerò parere negativo vi è anche un invito al ritiro.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg70">Esprimo parere contrario sugli emendamenti 2.100, 2.101 e 2.103 e parere favorevole sull'emendamento 2.102 del relatore.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg71">Sull'emendamento 2.104 rivolgo ai presentatori un invito al ritiro con la considerazione che sulla questione anche il relatore si è diffuso approfonditamente. Tuttavia, nella valutazione complessiva del provvedimento, credo che un parere negativo ci stia al fine del raggiungimento dell'obiettivo finale di dare una riforma efficace, seppure mantenendo qualche limite.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg72">Il parere è altresì negativo sugli emendamenti 2.105 e 2.106.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg73">Gli emendamenti 2.107, 2.108 e 2.109 sono stati ritirati, perché riassorbiti nell'emendamento del Governo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg74">Esprimo parere contrario sugli emendamenti 2.110 e 2.111 e parere favorevole sull'emendamento 2.700 del Governo. L'emendamento 2.112 è stato ritirato poiché assorbito nell'emendamento del Governo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg75">Invito i presentatori a ritirare l'emendamento 2.113, e mi pare che sia stato manifestato l'accoglimento in tal senso da parte del mio Capogruppo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg76">Il parere è favorevole sull'emendamento 2.114, mentre è negativo sugli emendamenti 2.115, 2.116, 2.117 e 2.118.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg77">Gli emendamenti 2.119 e 2.120 sono improponibili, mentre l'emendamento 2.121 è stato ritirato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg78">Invito i presentatori a ritirare l'emendamento 2.122 e il capogruppo Zeller mi ha già confermato la sua disponibilità in tal senso.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg79">Esprimo parere positivo sull'emendamento 2.123 e contrario sugli emendamenti 2.124 e 2.125.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg80">Gli emendamenti 2.126 e 2.127 sono stati ritirati in quanto assorbiti dall'emendamento 2.128 del senatore Buccarella.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg81">L'emendamento 2.129 è stato ritirato. L'emendamento 2.130 del collega...</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u27">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg82">Senatore Buemi, mi scusi se la interrompo, ma le devo chiedere se ha espresso parere favorevole sull'emendamento 2.128 del senatore Buccarella, che assorbe gli emendamenti 2.126 e 2.127, perché soppressivi della prima parte.</seg>
+            </u>
+            <note type="speaker">BUEMI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u28">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg83">Esatto, Presidente.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg84">Invito i presentatori a riformulare l'emendamento 2.130, se i colleghi lo ritengono utile con il superamento del voto segreto, riformulazione che posso esplicitare subito e che è la seguente: « Al comma 1, lettera c) , capoverso «3- bis », secondo periodo, aggiungere in fine le seguenti parole : «nonché del contrasto con l'interpretazione espressa dalla Corte di giustizia dell'Unione europea».</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u29">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg85">Signor Presidente, accetto la riformulazione, ma se si scrive «nonché del contrasto», senza mettere la parola «atto» o «provvedimento», non va bene, perché si deve indicare cosa è in contrasto con l'interpretazione della Corte di giustizia europea. Sono d'accordo con il relatore, e quindi accetto la riformulazione, ma con questa mia precisazione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u30">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg86">La riformulazione proposta va nel senso di aggiungere, dopo le parole «della posizione adottata da un'istituzione dell'Unione europea», le parole: «nonché del contrasto con l'interpretazione espressa dalla Corte di giustizia europea»; ma se ho ben capito, questa riformulazione, così com'è, se non c'è l'inserimento della parola «atto» o «provvedimento», non la accetta, senatore Caliendo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg87">Esatto, signor Presidente.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u31">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg88">Signor Presidente, è stato espresso un parere favorevole sull'emendamento 2.128, che ove accolto sopprime, perché le sostituisce, alcune parole dal testo. In ragione dell'emendamento 2.128, se accolto, il testo che ne risulterebbe sarebbe: «In caso di violazione manifesta del diritto dell'Unione europea si deve tener conto anche della mancata osservanza dell'obbligo di rinvio pregiudiziale (...)». Ove poi il senatore Caliendo accogliesse la proposta di riformulazione del relatore, il testo riformulato reciterebbe, in fine: «nonché del contrasto dell'atto o del provvedimento con l'interpretazione espressa dalla Corte di giustizia dell'Unione europea». Questo sarebbe il risultato.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u32">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg89">Capisco che ci possano essere delle contraddizioni, e dunque chiedo il parere del relatore. Infatti, l'emendamento 2.128 è volto a sopprimere le parole: «della posizione adottata da un'istituzione dell'Unione europea, nonché», mentre l'emendamento 2.130 mantiene lo stesso periodo. È un problema di contraddizione che dobbiamo porre al relatore per capire se le parole «della posizione adottata da un'istituzione dell'Unione europea», che verrebbero soppresse dall'accoglimento dell'emendamento 2.128, poi nella riformulazione dell'emendamento 2.130 verrebbero reinserite. È questo il problema?</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u33">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg90">No, signor Presidente, mi scusi, ma sia l'emendamento 2.128 sia l'emendamento 2.130 ritengono di dover sopprimere le parole: «della posizione adottata da un'istituzione dell'Unione europea». Però, mentre l'emendamento 2.128 limita il periodo alle parole: «in caso di violazione manifesta del diritto dell'Unione europea si deve tener conto anche della mancata osservanza dell'obbligo (...)», con l'emendamento 2.130 presentato dal senatore Caliendo, come riformulato, si aggiungono anche le parole: «nonché del contrasto dell'atto o del provvedimento con l'interpretazione espressa dalla Corte di giustizia dell'Unione europea».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u34">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg91">No: il riferimento ad un atto o provvedimento non è presente nella proposta di riformulazione del relatore. È questo l'oggetto del contrasto tra il relatore e il senatore Caliendo. Ho capito bene, senatore Buemi?</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u35">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg92">Signor Presidente, mi scusi, io sono intervenuto perché mi è parso che si fosse creata un po' di confusione. Come per tutte le discussioni di disegni di legge, abbiamo un relatore, che inviterei a spiegarci quale testo, a suo parere, con la riformulazione dell'emendamento del senatore Caliendo, noi andremmo a votare, per chiarezza di tutti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg93">PRESIDENTE. Avevo già dato la parola al relatore a questo scopo. Prego, senatore Buemi.</seg>
+            </u>
+            <note type="speaker">BUEMI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u36">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg94">Signor Presidente, dell'emendamento 2.130, presentato dai senatori Caliendo ed altri, viene chiesta la riformulazione del testo affinché, in aggiunta al testo del comma 1, lettera c), capoverso «3- bis », al periodo che termina con le parole: «del Trattato sul funzionamento dell'Unione europea» vengano aggiunte le parole: «nonché del contrasto con l'interpretazione espressa dalla Corte di giustizia dell'Unione europea».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u37">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg95">Quindi si tratta di un'aggiunta. Nell'emendamento 2.128, però, su cui è stato formulato parere favorevole, quel periodo «della posizione adottata da un'istituzione dell'Unione europea, nonché» viene soppresso e sostituito dalla parola «anche».</seg>
+            </u>
+            <note type="speaker">BUEMI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u38">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg96">Ma l'emendamento 2.128 riguarda un'altra questione, ovvero quella del rinvio pregiudiziale. Signor Presidente, mi scusi, ma non vedo contraddizione. Sono due situazioni diverse: con una proposta si aggiunge un periodo e con l'altra viene inserita la parola «anche» al posto di un periodo che si concludeva con «nonché». Con l'emendamento 2.130, a prima firma del senatore Caliendo, come riformulato secondo la mia proposta, al termine del testo licenziato dalla Commissione, al comma 1, lettera c), capoverso 3- bis, secondo periodo, dopo le parole: «dell'articolo 267, terzo paragrafo, del Trattato sul funzionamento dell'Unione europea», si aggiungono le parole: «nonché del contrasto con l'interpretazione espressa dalla Corte di giustizia dell'Unione europea». Possiamo sospendere brevemente, per chiarire la questione anche con il presidente Palma.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u39">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg97">Mentre i senatori Buemi e Palma confabulano, sentiamo il senatore Caliendo, che penso ci possa aiutare.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg98">Signor Presidente, mi pare sia chiaro. A questo punto accetto la riformulazione del senatore Buemi, però mi pongo un problema. Sto facendo rilevare che manca il soggetto, mentre la mancata osservanza dell'obbligo fa riferimento a un comportamento; occorre inserire le parole «dell'atto o del provvedimento» nella parte relativa al contrasto: è una questione di drafting. Se vuole, lo faccia lei, come Presidente. Accetto l'emendamento, per come è stato riformulato: accetto infatti che si parli di «contrasto» anziché di «grave contrasto». Se però non mettiamo le parole «dell'atto o del provvedimento», il contrasto con chi è? Con il soggetto magistrato? No: con l'atto o il provvedimento. La «mancata osservanza», invece, riguarda invece il comportamento del magistrato, che non ha osservato l'obbligo: è talmente chiaro! Lì c'è il soggetto e qui non c'è. Accetto la riformulazione, ma credo che vada corretta, per renderla intelligibile.</seg>
+            </u>
+            <note type="speaker">FALANGA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u40">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg99">Signor Presidente, chiedo di sottoscrivere l'emendamento 2.130, con il consenso del senatore Caliendo. PRESIDENTE. Il senatore Caliendo lo consente? CALIENDO (FI-PdL XVII). Sì, signor Presidente. FALANGA (FI-PdL XVII). Vorrei chiedere al relatore, visto che si sta trattenendo sulla chiarificazione che viene offerta con l'emendamento a prima firma del senatore Caliendo, che cosa significano le parole «posizione adottata da un'istituzione dell'Unione europea». Stiamo scrivendo una norma o stiamo facendo un trattato di filosofia? Che cosa significa, nel linguaggio giuridico, parlare di posizione adottata dall'Unione?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo GAL e del senatore Milo</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg100">Ma di che parliamo? Quando non si è in grado di svolgere funzioni così delicate, bisogna avere l'umiltà di non accettare determinati incarichi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore D'Anna. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u41">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg101">Credo che si sia arrivati ad un chiarimento: con l'emendamento 2.128 si sopprime una parte e la si sostituisce con la parola «anche», mentre la parte che viene aggiunta è quella indicata dalla riformulazione dell'emendamento 2.130 «nonché del contrasto con l'interpretazione espressa dalla Corte di giustizia dell'Unione europea».</seg>
+            </u>
+            <note type="speaker">BUEMI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u42">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg102">Esatto. Però in effetti la richiesta del collega Caliendo ha un senso, perché questo testo era stato concordato con il Governo, ma nella riformulazione finale è sfuggito il soggetto. Il soggetto del contrasto, ovviamente, è l'atto o il provvedimento del magistrato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg103">COSTA, vice ministro della giustizia. L'atto o il provvedimento. BUEMI, relatore. L'atto o il provvedimento di chi, se non del magistrato?</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u43">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg104">Scusate, leggiamo il secondo periodo del comma 3- bis : «In caso di violazione manifesta del diritto dell'Unione europea si deve tener conto». A questo punto ci si ferma e saltano le parole «della posizione adottata da un'istituzione dall'Unione europea», che vengono sostituite dalla parola «anche». Poi però non possiamo lasciare «nonché». BUEMI, relatore. Anche il «nonché» è sostituito dall'«anche». Scusi, Presidente, siccome questa riformulazione è stata concordata con il Governo... PRESIDENTE. Vuole dare lettura di come verrebbe la norma dopo l'emendamento? Altrimenti non ne usciamo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg105">Scusate, chi ha fretta può anche andare.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u44">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg106">Signor Presidente, siccome bene o male, nonostante tutto, ancora faccio il Presidente della Commissione giustizia e non è che io abbia meno titolo a parlare di qualcun altro, vorrei chiarire qual è l'accordo raggiunto tra i presentatori degli emendamenti, il relatore e il Governo. Noi andiamo a votare un testo che alla fine risulta così confezionato: «In caso di violazione manifesta del diritto dell'Unione europea si deve tener conto anche della mancata osservanza dell'obbligo di rinvio pregiudiziale ai sensi dell'articolo 267, terzo paragrafo, del Trattato sul funzionamento dell'Unione europea, nonché del contrasto dell'atto o del provvedimento con l'interpretazione espressa dalla Corte di giustizia dell'Unione europea». PRESIDENTE. La riformulazione deve essere fatta in questo senso. PALMA (FI-PdL XVII). Questo è ciò che noi voteremo alla luce dell'accoglimento dell'emendamento del senatore Buccarella e dell'emendamento del senatore Caliendo, così come riformulato nei termini detti.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u45">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg107">D'accordo. Preciso che il testo 2 dell'emendamento 2.130 deve essere redatto accogliendo la precisazione del senatore Caliendo e viene messo alla fine del paragrafo 3 -bis. Questo non risultava nell'emendamento originario.</seg>
+            </u>
+            <note type="speaker">SOLLO (PD)</note>
+            <u ana="#regular" who="#SolloPasquale" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u46">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg108">Signor Presidente, mi auguro che si sia chiarito tutto. Io amo - e, come me, credo tutti - sapere cosa votiamo. Esterno un pensiero che è di tutti: purtroppo quando qualcosa riguarda la Commissione giustizia, anche quando c'è unanimità in quella Commissione, si arriva in Aula e si sconvolge tutto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Carraro</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg109">Probabilmente sarebbe stato il caso di accantonare gli emendamenti 2.128 e 2.130 se non avevano influenza sui successivi. Qualora ci fosse stata una ripercussione sui successivi, si sarebbe dovuta sospendere la seduta per dieci minuti per trovare una riformulazione che accontentasse sia il senatore Buccarella, presentatore dell'emendamento 2.128, che i presentatori dell'emendamento 2.130.</seg>
+               <incident type="action">
+                  <desc>Cenni di dissenso del senatore Palma</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg110">Senatore Palma, mi scusi, lei è stato Ministro e magistrato, io purtroppo ho due lauree ma di questa materia ne capisco poco. Amo soltanto sapere cosa voto quando voto e non votare a scatola chiusa. Occorre consentire anche ai non addetti ai lavori di sapere cosa facciamo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg111">Si è creato un attimo di confusione estrema. Probabilmente era il caso di sospendere cinque minuti o di accantonare un attimo: sarebbe stato più semplice trovare una soluzione, che alla fine mi sembra si sia trovata. Mi auguro che essa sia confacente con la norma in oggetto. Se così è, sono il primo a compiacermene.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg112">Vorrei fare un invito: per favore, quando esce un testo bello e compatto come questo, vi invito a non rimettere tutto in discussione ogni volta che si arriva in Aula. E so di interpretare il pensiero di tutti!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Battista, Carraro e Falanga.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u47">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg113">PRESIDENTE. Presidente Palma, penso che sia chiaro. Prego.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg114">Presidente, quello è chiarissimo. Io sono veramente (uso il termine che più mi sento) infastidito dall'intervento del senatore Sollo. Ma come si permette il senatore Sollo... PRESIDENTE. Non esasperiamo i toni, non è il caso. Siamo arrivati faticosamente a... PALMA (FI-PdL XVII). No, mi scusi, signor Presidente, ma lei non è intervenuto. Si è detto che i provvedimenti della Commissione giustizia, ogni volta che vengono qui in Aula, trovano uno stravolgimento: non è vero. I provvedimenti della Commissione giustizia, fatta eccezione del disegno di legge sull'articolo 416- ter, prima formulazione, sono passati qui in Aula quasi tutti a stragrande maggioranza, se non all'unanimità. In secondo luogo, sono intervenuto dicendo, in termini chiarissimi, qual era l'oggetto del voto che saremmo andati ad esprimere sull'emendamento 2.128 del senatore Buccarella e sull'emendamento 2.130 (testo 2), del senatore Caliendo ed altri. Se il senatore Sollo, nonostante abbia acquisito due lauree, non è riuscito a capire quello che ho detto, non è problema che riguarda la Commissione giustizia, ma il senatore Sollo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u48">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg115">Perché sia chiaro cosa si va a votare, in relazione ai due emendamenti 2.128 e 2.130 (testo 2), il testo del secondo periodo del comma 3- bis, senatore Sollo e tutti coloro che ha rappresentato nel suo intervento, risulta così riformulato (prego il relatore e il rappresentante del Governo di seguirmi): «In caso di violazione manifesta del diritto dell'Unione europea si deve tener conto anche della mancata osservanza dell'obbligo di rinvio pregiudiziale ai sensi dell'articolo 267, terzo paragrafo, del Trattato sul funzionamento dell'Unione europea, nonché del contrasto dell'atto o del provvedimento con l'interpretazione espressa dalla Corte di giustizia dell'Unione europea», senza le parole «grave» e «già». Riprendiamo con l'espressione dei pareri del relatore e del rappresentante del Governo.</seg>
+            </u>
+            <note type="speaker">BUEMI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u49">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg116">Il parere è negativo sull'emendamento 2.131.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg117">Infine, invito a ritirare l'emendamento 2.132 perché assorbito dall'emendamento 2.130 (testo 2), a firma del senatore Caliendo ed altri.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg118">PRESIDENTE. Senatore Zeller, ritira l'emendamento? ZELLER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE). Sì, signor Presidente.</seg>
+            </u>
+            <note type="speaker">COSTA</note>
+            <note type="role">vice ministro della giustizia</note>
+            <u ana="#guest" who="#CostaEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u50">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg119">Signor Presidente, i pareri sono conformi a quelli del relatore. Faccio solo una puntualizzazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg120">Con riferimento all'emendamento 2.700 del Governo il parere del relatore è favorevole, ma mi pare che egli abbia espresso parere contrario agli emendamenti identici, però gli emendamenti identici a quelli del Governo ricevono ovviamente il parere favorevole del Governo (mi riferisco agli emendamenti 2.113 e 2.114). Per il resto, il parere è conforme a quello del relatore.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u51">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg121">Signor Presidente, credo che, nonostante il non condivisibile - a mio avviso - intervento di prima, adesso abbia davvero ragione il senatore Sollo. Lei poco fa ha letto il testo che andiamo a mettere in votazione. Dopodiché il Governo ha preso la parola per intervenire sull'emendamento 2.130...</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u52">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg122">Il Governo non ha parlato di quell'emendamento, senatore Palma.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg123">Allora il senatore Sollo continua ad avere torto. PRESIDENTE. Il Governo ha parlato degli emendamenti 2.113 e 2.114, che sono identici all'emendamento del Governo 2.700. Invito a stemperare l'atmosfera e a procedere con calma nei nostri lavori. Procediamo dunque alla votazione degli emendamenti presentati all'articolo 2.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u53">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg124">Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u54">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg125">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.100, presentato dai senatori Cappelletti e Giarrusso, identico all'emendamento 2.101, presentato dalla senatrice Mussini e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.102, presentato dal relatore. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.103, presentato dai senatori Stefani e Centinaio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 2.104, sul quale da parte del prescritto numero di senatori è stata presentata richiesta di votazione a scrutinio segreto. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 113, comma 4, del Regolamento, indìco la votazione a scrutinio segreto dell'emendamento 2.104, presentato dalla senatrice Stefani e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.105, presentato dalla senatrice Mussini e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 2.106.</seg>
+            </u>
+            <note type="speaker">BARANI (GAL)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u55">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg126">Signor Presidente, intervengo su questo emendamento, con il quale si chiede di aggiungere, dopo le parole «dell'Unione europea» e prima delle parole «il travisamento del fatto o delle prove», le parole «l'imperizia». Nel diritto penale, e ovviamente in tutti i Trattati europei, si legge che per «imperizia» si intende quella qualificabile come negligenza e imprudenza propria di chi compie atti che presuppongono la conoscenza di regole tecniche, che non rispetta per ignoranza, inettitudine o incapacità psicoattitudinali. Quindi, l'imperizia è quella di chi commette delle stupidaggini (per non usare un francesismo). E io ritengo che essa vada inserita uniformandosi a tutti i diritti penali vigenti nei Paesi occidentali. Signor Presidente, mi permetta ora una battuta. Io ho ritirato l'emendamento 2.120 sulle visite psicoattitudinali, ma posso ben dire che la prossima volta esse andranno estese al relatore e ai membri della Commissione giustizia.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u56">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà. Siamo in vena di scambio di complimenti, oggi, vero? PALMA (FI-PdL XVII). Perché? Cos'ha detto? PRESIDENTE. Ha detto che vuole estendere gli esami psicoattitudinali anche ai parlamentari in genere, io direi, a questo punto. PALMA (FI-PdL XVII). Signor Presidente, l'emendamento 2.106, presentato dal senatore Barani, il cui contenuto tornerà anche più tardi in occasione dell'esame di un altro articolo, che era oggetto di taluni emendamenti del Nuovo Centrodestra che sono stati invece ritirati (evidentemente quello che è accaduto qualche giorno fa altro non è stato che una tempesta in un bicchier d'acqua), pone un problema molto serio: un magistrato che commette un errore per imperizia, evidentemente grave, inescusabile, deve risponderne o deve rispondere, come dice l'intero impianto della legge, solo per negligenza? Quando io ho posto questa questione al Ministro in Commissione, se non ricordo male - ma il vice ministro Costa mi potrà smentire - il Ministro ha sostanzialmente detto che non si può parlare di imperizia nei confronti di un magistrato perché il magistrato, in ragione delle varie valutazioni, è perito. È come se io dicessi che un primario ospedaliero, essendo primario di un ospedale, è di per sé perito, per cui sarebbe impossibile una causa per colpa medica nei confronti di un primario ospedaliero ove mai avesse causato un danno in ragione di una operazione sbagliata gravemente per sua imperizia. L'affermazione che chi svolge un determinato lavoro, solo per questa ragione, è, come dire, professionalmente abilitato a tutto è un errore. Il fatto di superare le valutazioni all'interno del Consiglio superiore della magistratura non significa essere preparati su tutte le singole branche del diritto. Allora, mi chiedo: ma davvero voi ritenete che un magistrato, che causi un danno ingiusto per colpa grave, per una colpa grave che si correla alla sua imperizia, non possa in alcun modo rispondere del danno che ha cagionato, similarmente a quello che accade per tutti i dipendenti pubblici - ricordiamo l'articolo 28 della Costituzione - nel caso in cui commettano un fatto colposamente grave per imperizia da cui nasca un danno? Questo è il problema che io voglio sottoporre all'Assemblea e a ciascuno di voi: di decidere secondo coscienza, evidentemente - scusate, questa è un po' una battuta ad effetto - pensando anche che se un domani uno di noi dovesse, per ipotesi, essere danneggiato da un provvedimento giudiziario gravemente errato per una colpa grave dovuta ad imperizia, si deve poi ricordare del momento in cui qui ha votato per escluderla, e cortesemente non se ne deve lamentare.</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u57">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg127">Vorrei salutare i ragazzi del Liceo classico «Onorato Fascitelli» di Isernia, che seguono con attenzione i nostri lavori. Li ringraziamo per la visita che hanno fatto al Senato. Grazie ragazzi!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1070</note>
+            <note type="time">18,13</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/42039.htm</note>
+            <note>e</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 315</note>
+            <note type="time">18,13</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40062.htm</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 374</note>
+            <note type="time">18,13</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40303.htm</note>
+            <note type="time">(ore 18,13)</note>
+            <note type="speaker">COMPAGNA (NCD)</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u58">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg128">Signor Presidente, mi pare che l'intervento del presidente Palma ci abbia riportato alla discussione generale di questa mattina. Stamattina, un collega membro della Commissione giustizia ha rievocato proprio ciò su cui è tornato adesso il presidente Palma. In Commissione giustizia il Ministro ha detto che l'imperizia non è segnale o fattispecie di colpa grave perché il magistrato ha vinto il concorso; in altri tempi si sarebbe detto, con lessico volgare: «E che c'azzecca?». Voglio dire che non si può riproporre la questione del modello francese di organizzazione burocratica, scaturita dalla vittoria del concorso, su questi profili di responsabilità. Non c'entra niente. Ho allora l'impressione che, quale che sia l'atteggiamento del mio Gruppo, il senatore Barani abbia fatto bene a raccogliere il termine «imperizia», che il senatore Albertini si era fatto cadere sotto la «frustrata» del Ministro, perché la «frustata» in questo caso ha una motivazione davvero impropria. Sono disposto a seguire con grande pazienza tutte le acrobazie lessicali di questo mondo sul rapporto tra imperizia e colpa grave, ma evocare il concorso, e quindi il modello costituzionale di organizzazione burocratica della magistratura italiana, è un argomento decisamente improprio. Non si può con protervia corporativa escludere il diritto del Parlamento a legiferare in materia. Mi permetto di ricordare che, se si vuole far valere un modello corporativo professionalizzante, questo è quello anglosassone, dove però c'è l'unità corporativa tra la professione di avvocato e quella di magistrato e a questo modello anglosassone, mai nella sua storia costituzionale, né il Parlamento, né la magistratura, sono stati vicino. Per questo motivo mi pare che non si possa non accogliere la spiegazione che il presidente Palma ha dato di quell'emendamento, a firma del senatore Albertini durante l'esame in Commissione, e che reca ora in Aula la firma del collega Barani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Barani.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u59">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg129">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.106, presentato dal senatore Barani. (Segue la votazione). Il Senato non approva. (v. Allegato B). Gli emendamenti 2.107, 2.108 e 2.109 sono stati ritirati. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.110, presentato dalla senatrice Mussini e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.111, presentato dal senatore Caliendo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.700, presentato dal Governo, identico agli emendamenti 2.113, presentato dal senatore Zeller e da altri senatori, e 2.114, presentato dai senatori Buccarella e Cappelletti. (Segue la votazione). Il Senato approva. (v. Allegato B). L'emendamento 2.112 è stato ritirato. Gli emendamenti 2.115 e 2.116 sono preclusi dall'approvazione dell'emendamento 2.700. Passiamo alla votazione dell'emendamento 2.117, sul quale da parte del prescritto numero di senatori è stata presentata richiesta di votazione a scrutinio segreto. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata).</seg>
+            </u>
+            <note type="speaker">CUCCA (PD)</note>
+            <u ana="#regular" who="#CuccaGiuseppeLuigiSalvatore" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u60">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg130">Signor Presidente, annuncio il voto contrario del Partito Democratico. Invero, questo emendamento ci sembra assolutamente inutile. Il nostro sistema non prevede una gerarchia delle decisioni alle quali si debba adeguare un giudice che debba assumere altra decisione. In buona sostanza, non esiste un obbligo di adeguarsi alle decisioni della giurisprudenza che si sia creata, anche se questa sia formata dalla Corte di cassazione e addirittura dalle sezioni riunite della Corte di cassazione. Quindi il giudice può sempre discostarsi: è già previsto nel nostro sistema che il giudice si possa discostare, nell'adottare una sua decisione, da un orientamento dominante, soltanto prevalente o anche costante. È evidente, e questo è già previsto nel nostro sistema, che qualsiasi decisione deve essere adeguatamente motivata. Nel nostro sistema vige un principio cardine fondato sulle garanzie, nel senso che tutti i provvedimenti di primo e secondo grado possono essere comunque impugnati e motivo di impugnazione può essere quello della mancanza o carenza di motivazione. Ampliare l'ambito e la portata della colpa grave, prevedendo che essa si integri anche quando ci si discosta dalla giurisprudenza, porterebbe evidentemente a soluzioni aberranti e aprirebbe un vulnus nel principio dell'imparzialità e della libertà di decisione del giudice perché si correrebbe il rischio di incorrere negli strali della responsabilità prevista da questa legge soltanto discostandosi dalla giurisprudenza. Sarebbe utile sapere - fermo restando sempre, come ho detto in precedenza, che esiste l'obbligo di motivazione - quale sia il criterio per valutare quando una motivazione possa considerarsi adeguata oppure non lo sia. In questo senso si lascerebbe un margine di discrezionalità enorme ed inadeguato che potrebbe invogliare chiunque a proporre un procedimento o un'azione di responsabilità ogni volta che una decisione assunta da un giudice, anche discostandosi dalla giurisprudenza, non sia gradita o condivisa. Non è certo questo l'obiettivo che questa legge persegue e pertanto voteremo contro questo emendamento</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GIARRUSSO (M5S)</note>
+            <u ana="#regular" who="#GiarrussoMarioMichele" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u61">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg131">Signor Presidente, noi del Movimento 5 Stelle voteremo contro questo emendamento perché riteniamo che il valore dell'indipendenza e dell'autonomia della magistratura vada preservato. I giudici, per la nostra Costituzione, sono soggetti soltanto alla legge, non a un rapporto gerarchico, nemmeno con soggetti che ricoprono posizioni in magistratura di rango sovraordinato. Questo principio non ha mai fatto parte del nostro ordinamento e i gradi di giudizio servono soltanto a rivedere le decisioni, non certo a gerarchizzare le decisioni. Peraltro, nel nostro Paese la storia del diritto molto spesso parte dal basso, da interpretazioni coraggiose, avanzate ed evolutive, che alla fine sono state fatte proprie anche dalla Cassazione; ripeto, molto spesso partono dal basso. Questo emendamento cerca di incanalare e di imbrigliare la possibilità che la magistratura evolva nell'interpretazione del diritto. Per questo annuncio il nostro voto contrario.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u62">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg132">Signor Presidente, ho sempre avuto rispetto di quest'Aula e di ciascuno di voi e non ho mai dato una lettura di un emendamento contraria a quello che dice. Accetto le dichiarazioni di voto, ma non si può parlare di gerarchizzazione e di uniformità, perché ho trasmesso a ciascuno di voi la relazione del presidente Fresa del Consiglio superiore della magistratura, al dibattito organizzato dall'Associazione Vittorio Bachelet. Siamo quasi al limite del provvedimento abnorme. Mi dispiace, senatore Cucca, ma l'emendamento 2.117 non dice che il giudice deve uniformarsi: deve solo tenerne conto, cioè conoscere. È come se noi parlassimo della soggezione alla legge e il giudice non conosce la legge. Dire allora che si deve conoscere la decisione della Cassazione connota la funzione. È per questo che vengono emessi procedimenti disciplinari. Avete quattro o cinque magistrati anche nel vostro Gruppo e potete intervistarli: questa è la regola della libertà di decisione del giudice. Voi state mistificando una cosa che non c'è scritta. Prendete qualsiasi volume della giurisprudenza disciplinare, del Consiglio superiore della magistratura, delle sezioni unite della Corte di cassazione e potrete verificarlo. Credo mi darete atto di essermi sempre attenuto, per correttezza e rispetto, a voi e al Parlamento; non ho mai dato un'interpretazione che non fosse aderente a quello che è scritto. Qui è scritto che il giudice è libero di poter decidere come vuole, ma proprio perché libero di poter decidere come vuole, deve poter conoscere i principi di diritto fissati dalla Corte di cassazione e discostarsene. Questa è una delle regole fondamentali non soltanto del nostro sistema, ma di tutti i sistemi liberali. Ho già detto che non è lo stare decisis dei Paesi di common law, perché lì c'è l'identità della decisione. Il giudice ha anche la sua decisione ed in un altro caso identico può benissimo motivare diversamente (anche in quel caso però è tenuto a citare il precedente). Nei miei quarant'anni di magistratura, come credo anche il presidente Grasso, i senatori Casson e Palma, la senatrice Finocchiaro e ognuno di noi magistrati, nello scrivere la sentenza ho sempre scritto: «la Corte di cassazione sostiene questo, e per queste ragioni mi discosto da quell'affermazione e arrivo ad un'altra conclusione». Questa è la regola. È l'insegnamento che ad un magistrato appena nominato viene dato. Oggi sento dire invece delle cose che sono al di fuori dell'emendamento; dire che vogliamo uniformare e tener conto. Il Ministro della giustizia che ha la titolarità dell'azione disciplinare ad un magistrato che farà una sentenza in questo modo, senza citare e senza motivare, farà l'azione disciplinare; chiedo allora al Vice Ministro, visto che farà l'azione disciplinare, per quale motivo oggi mi dice di no. State giocando su qualcosa che non ha senso, perché questa è una regola. Se il Ministro può fare l'azione disciplinare, è il massimo della negligenza inescusabile. Datemi un'ipotesi di negligenza inescusabile peggiore di questa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FALANGA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u63">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg133">PRESIDENTE. Senatore Falanga, può intervenire solamente per dichiarazione di voto in dissenso.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg134">Intendo sottoscrivere l'emendamento 2.117. Vorrei anche ricordare al senatore Cucca che è vero, e non c'è bisogno che lui lo ricordi...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg135">PRESIDENTE. Senatore Falanga, prendiamo atto che intende sottoscrivere l'emendamento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg136">Sottoscrivo l'emendamento 2.117 e ho la necessità... PRESIDENTE. Senatore Caliendo, accetta? CALIENDO (FI-PdL XVII). Sì, Presidente. BARANI (GAL). Domando di parlare per dichiarazione di voto. FALANGA (FI-PdL XVII). ... ho la necessità di precisare che a noi è noto che il giudice ha l'obbligo della motivazione ma sfugge, pare, che nell'emendamento del senatore Caliendo la motivazione diventa specifica!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u64">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg137">Senatore Falanga, per favore, la prego: il senatore Barani ha diritto di svolgere la sua dichiarazione di voto. Abbiamo preso atto che lei sottoscrive l'emendamento ed è d'accordo con il senatore Caliendo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg138">Prego senatore Barani, ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">BARANI (GAL)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u65">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg139">Signor Presidente, vorrei anzitutto dire al senatore Falanga che non gli ho tolto la parola: ho solamente chiesto di intervenire in dichiarazione di voto quando era il mio turno.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg140">PRESIDENTE. Non è che possiamo fare cinquanta dichiarazioni di voto, senatore Barani; lei non l'ha tolta la parola, perché non la può togliere. Prego.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg141">Grazie, signor Presidente. Ovviamente intendo anche sottoscrivere l'emendamento del senatore Caliendo, ma intervengo per svolgere una riflessione politica e poi tecnica.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg142">La riflessione politica sull'emendamento in esame è che è evidente a tutti i cittadini italiani e anche a lei, signor Presidente, che qui, sulla giustizia, c'è una maggioranza M5S-PD e che tutta la pagliacciata messa in scena in occasione dell'ultima fiducia si riassume in un accordo sottobanco per fare i loro interessi e gli interessi dei giudici, poiché credono che così facendo avranno l'immunità.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg143">Stante il citato referendum, stiamo prendendo in giro 20 milioni di italiani, perché costoro non volevano quello che state facendo adesso. Caro collega Cucca, signor Presidente, immaginiamo cosa potrebbe accadere se si applicasse il principio testé richiamato dal senatore Cucca ad un chirurgo. Questi potrebbe sbizzarrirsi in sala operatoria, magari bypassando i protocolli, le procedure e la dottrina medica consolidata, o che ha avuto come insegnamento dal suo maestro, e potrebbe essere spinto dal principio di immunità ad osare. Il chirurgo potrebbe così ammazzare il paziente. Abbiamo infatti creato degli 007 con licenza di uccidere visto che i giudici con certe sentenze hanno portato a suicidi e alla distruzione economica di famiglie e nessuno ha pagato, e questo lo sanno decine di milioni di italiani. Se esistono protocolli e procedure o giurisprudenza consolidata in tutte le categorie professionali, ci sarà un motivo. Hanno un senso e devono essere rispettate e chi le aggira e le piega a proprio uso e consumo, magari per poi fare il sindaco, il deputato, entrare in Senato o nel Governo Renzi, deve essere chiamato a rispondere del proprio operato anche nei confronti di chi subisce un danno da tale comportamento, ovviamente senza se e senza ma. Non si capisce quindi il perché di questa cocciutaggine da parte di un Partito Democratico che si dice socialista! Ma io come socialista non vi riconosco!</seg>
+               <vocal type="speaking">
+                  <desc>Il senatore Barani estrae un garofano rosso dal taschino della giacca e lo mostra all'Aula. Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg144">PRESIDENTE. Senatore Barani, la prego di attenersi all'argomento dell'emendamento per la sua dichiarazione di voto.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u66">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg145">PRESIDENTE. Senatore Palma, per dichiarazione di voto è già intervenuto il senatore Caliendo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg146">Scusi, signor Presidente, solo per regolarmi per il voto: l'emendamento 2.129 del relatore è stato ritirato?</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u67">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg147">Sì, senatore Palma. L'ho già annunciato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg148">Ai sensi dell'articolo 113, comma 4, del Regolamento, indìco la votazione a scrutinio segreto dell'emendamento 2.117, presentato dal senatore Caliendo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.118, presentato dai senatori Stefani e Centinaio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Gli emendamenti 2.119 e 2.120 sono improponibili. l'emendamento 2.121 è stato ritirato. Senatore Zeller, le chiedo se accetta l'invito che le è stato rivolto di ritirare l'emendamento 2.122.</seg>
+            </u>
+            <note type="speaker">ZELLER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#ZellerKarl" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u68">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg149">Signor Presidente, lo ritiro in quanto l'emendamento è stato assorbito dalla successiva riformulazione dell'emendamento 2.130 proposta dal relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u69">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg150">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.123, presentato dal senatore D'Ascola e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.124, presentato dai senatori Stefani e Centinaio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 2.125.</seg>
+            </u>
+            <note type="speaker">CAPPELLETTI (M5S)</note>
+            <u ana="#regular" who="#CappellettiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u70">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg151">Presidente, desidero ritirare l'emendamento 2.125 e il successivo 2.131, alla luce della riformulazione dell'emendamento 2.130, che vede il parere favorevole del nostro Gruppo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u71">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg152">L'emendamento 2.125 è quindi ritirato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg153">Sono stati altresì ritirati gli emendamenti 2.126 e 2.127.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg154">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.128, presentato dai senatori Buccarella e Giarrusso. (Segue la votazione). Il Senato approva. (v. Allegato B). L'emendamento 2.129 è stato ritirato. Sull'emendamento 2.130, la cui riformulazione è stata accettata dal senatore Caliendo, è stato richiesto il voto segreto. Chiedo se la richiesta di voto segreto è mantenuta o meno. CALIENDO (FI-PdL XVII). Presidente, non posso disporre del voto segreto. PRESIDENTE. Mi scusi, ma lei non ha sottoscritto la richiesta di voto segreto? CALIENDO (FI-PdL XVII). Avendo accettato la riformulazione proposta, è ritirata la richiesta di voto segreto. PRESIDENTE. Indìco pertanto la votazione nominale con scrutinio simultaneo dell'emendamento 2.130 (testo 2), presentato dal senatore Caliendo e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Gli emendamenti 2.131 e 2.132 sono stati ritirati. Passiamo alla votazione dell'articolo 2.</seg>
+            </u>
+            <note type="speaker">FALANGA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u72">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg155">Signor Presidente, con taluni emendamenti abbiamo tentato di far uscire da quest'Aula un provvedimento che fosse equilibrato. Per la verità, ho sentito dire, in particolare dal senatore Cucca, che l'emendamento di cui è primo firmatario il senatore Caliendo prevedeva e qualificava ipotesi di colpa la condotta del giudice che decideva, con un determinato provvedimento, discostandosi dall'orientamento giurisprudenziale e dal principio affermato dalla Corte di cassazione senza specifica motivazione. Ci siamo sentiti dire che la motivazione è già di per sé dovuta da parte del giudice, ma l'interprete ha tralasciato di leggere con attenzione l'emendamento del senatore Caliendo, che prevedeva che la motivazione dovesse essere specifica relativamente alla presa di distanza del giudice rispetto al principio giurisprudenziale già affermato. È stata poi addirittura posta in discussione, da parte del senatore Giarrusso, la circostanza che noi si voglia compromettere la posizione di indipendenza e di autonomia del giudice. Avremmo potuto essere accusati di un tale atteggiamento se avessimo obbligato - e ritenuto obbligato - il giudice ad adeguarsi al principio della Cassazione e a rispettarlo, ma nel mio intervento di questa mattina (forse erano distratti i colleghi, in particolare il senatore Giarrusso, che peraltro sono caduti in contraddizione) ho precisato che il dinamismo e l'evoluzione giurisprudenziale è un bene che qualsiasi operatore del diritto che sia animato da uno spirito liberale deve auspicare e che credo auspichino anche gli stessi giudici della Corte di cassazione, che profittano dei contributi effervescenti che provengono loro dalle decisioni di merito. Quindi, senatore Giarrusso, restituiamo a lei quanto ci ha addebitato. L'emendamento da noi proposto prevedeva che il giudice potesse decidere come meglio riteneva, nella sua più ampia e totale indipendenza ed autonomia, ma che dovesse giustificare e motivare le ragioni per le quali si discostava dalla giurisprudenza della Cassazione. Da avvocato, quando leggo una sentenza, se la motivazione mi convince non propongo appello, quindi serve anche a noi operatori del diritto conoscere qual è la motivazione a sostegno della decisione. Peraltro, se il giudice motiva la sentenza non sul punto specifico del suo discostarsi dall'orientamento giurisprudenziale della Cassazione, mi pone in una condizione di difficoltà anche nella mia delicata decisione di proporre o meno appello. Non avete voluto accogliere queste nostre precisazioni, per cui questa norma è vuota, è priva di contenuto. Dichiaro pertanto il voto contrario del Gruppo Forza Italia.</seg>
+            </u>
+            <note type="speaker">BARANI (GAL)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u73">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg156">Signor Presidente, il mio Gruppo, nella sua quasi totalità, voterà ovviamente contro l'articolo 2, anche a nome dei 21 milioni di italiani che ventisette anni fa, al referendum del 1987, hanno votato per la responsabilità civile dei magistrati. Riteniamo questo nostro voto contrario dovuto anche a tutti quei magistrati, che sono la stragrande maggioranza, che lavorano con diligenza, onestà, perizia e capacità e che, in quanto organo dello Stato, ritengono di portare avanti una missione a difesa dei diritti sanciti dalla Costituzione. Questo nostro voto contrario, quindi, è anche per loro, ce lo chiedono loro, perché solo una piccola percentuale agisce contra legem. Caro senatore Falanga, è inutile che si rivolga al senatore Giarrusso, perché noi riteniamo che di legge non capisca nulla, e quindi è come se si rivolgesse a una pianta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Rizzotti.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg157">MARTON (M5S). Presidente, non interviene su questo? PRESIDENTE. Senatore Barani, la prego di attenersi all'argomento dell'articolo 2, oggetto della sua dichiarazione di voto. BARANI (GAL). Votiamo contro l'articolo perché riteniamo che l'imperizia sia quella che ho già detto, qualificabile per negligenza ed imprudenza proprie di chi compie atti che presuppongono la conoscenza di regole tecniche e nel rispetto della legge, che i magistrati seri applicano tutti i giorni. Se c'è un magistrato che non le applica, perché non la conosce, perché non applica la legge, perché non riesce a capirla, perché non ha proprio più le capacità o perché gli sono venute a mancare per ragioni psicofisiche o attitudinali, dobbiamo però garantire a tutti gli altri, che sono il 99,9 per cento, di camminare a testa alta e di non avere un giudizio negativo, che oggi porto qui, a nome di oltre 20 milioni di italiani, compresi molti del Partito Democratico, che mi auguro non vi votino più, perché è veramente scandaloso e vergognoso quello che state facendo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u74">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg158">Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 3, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">CAPPELLETTI (M5S)</note>
+            <u ana="#regular" who="#CappellettiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u75">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg159">Signor Presidente, intervengo molto brevemente. Il comma 1, alla lettera a), aumenta da due a tre anni il periodo di tempo in cui un cittadino può chiedere il risarcimento del danno allo Stato. Mi chiedo perché questo periodo venga aumentato da due a tre anni e a chi serva questo aumento. C'è qualcuno in particolare che necessita di impugnare un provvedimento o una sentenza che è stata depositata tre anni fa? Credo che tenere in bilico un giudice per un periodo ampio di uno o due anni sia già significativo, e non credo che portarlo a tre anni vada nella direzione attesa. Quindi, con i miei emendamenti 3.100 e 3.102, propongo semplicemente di sopprimere le lettere a) e b) del comma 1, che sostanzialmente intervengono nella stessa direzione, ovvero quella di aumentare da due a tre anni il periodo di tempo in cui è possibile chiedere il risarcimento del danno.</seg>
+            </u>
+            <note type="speaker">MUSSINI (Misto-MovX)</note>
+            <u ana="#regular" who="#MussiniMaria" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u76">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg160">Signor Presidente, intervengo anche a nome della senatrice Bignami per chiedere al senatore Cappelletti se ci permette di sottoscrivere gli emendamenti 3.100 e 3.102.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u77">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg161">Vedo che il senatore Cappelletti è d'accordo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg162">Il restante emendamento si intende illustrato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg163">Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">BUEMI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u78">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg164">Invito a ritirare gli emendamenti 3.100, 3.101 e 3.102, altrimenti il parere è contrario.</seg>
+            </u>
+            <note type="speaker">COSTA</note>
+            <note type="role">vice ministro della giustizia</note>
+            <u ana="#guest" who="#CostaEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u79">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg165">Il parere del Governo è conforme a quello del relatore.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u80">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg166">Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u81">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg167">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.100, presentato dal senatore Cappelletti e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.101, presentato dai senatori Stefani e Centinaio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.102, presentato dal senatore Cappelletti e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 4, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito il relatore ed il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">BUEMI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u82">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg168">Esprimo parere favorevole sull'emendamento 4.700.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg169">Il 4.100 è ritirato e per l'emendamento 4.101 invito i presentatori a ritirarlo, altrimenti il parere è contrario.</seg>
+            </u>
+            <note type="speaker">COSTA</note>
+            <note type="role">vice ministro della giustizia</note>
+            <u ana="#guest" who="#CostaEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u83">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg170">Esprimo parere conforme.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u84">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg171">Passiamo alla votazione dell'emendamento 4.700.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u85">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg172">Signor Presidente, il Governo ha richiamato l'emendamento Giarrusso in Commissione dicendo che non tenevo conto del comportamento del Governo. Io ne tengo conto: il Governo ha presentato una serie di emendamenti in Commissione e non ha presentato l'emendamento soppressivo di questo articolo, che non è stato toccato da nessuno di noi. Badate, questo articolo non stabilisce che la sentenza di condanna nei confronti dello Stato fa stato nel giudizio di rivalsa o disciplinare, ma fa stato solo relativamente all'accertamento dei fatti. Non si può pensare che il giudice possa mettere in dubbio l'accertamento dei fatti già passati in giudicato, salva la valutazione sotto il profilo soggettivo della colpa grave e dell'inescusabilità e sotto il profilo dell'azione di rivalsa e del procedimento disciplinare. Com'è possibile dare un segnale di questo tipo, ovvero che la sentenza in questione non faccia stato nemmeno sotto il profilo dell'accertamento dei fatti? Il Governo improvvisamente decide di togliere anche questo. Vi rendete conto? Ribelliamoci tutti astenendoci dal votare secondo indicazione di Gruppo. Questa è una cosa che vale per tutti noi, indipendentemente dalla conoscenza del diritto e del giudizio; per i principi elementari del vivere civile in una società corretta. Quando vi è stata una condanna passata in giudicato dello Stato in cui si è accertato il fatto, le conseguenze del giudizio di rivalsa e disciplinare che tengono poi conto dell'elemento soggettivo verranno poi valutate; ciò che non è discutibile è solo il fatto che è stato accertato. Se volete votare a favore del Governo, allora veramente la regola della maggioranza va contro anche la logica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FALANGA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u86">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg173">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg174">Io credo che il Governo abbia sopperito ad un grave errore, perché prevedere che la decisione del giudizio promosso dal cittadino nei confronti dello Stato - e non l'accertamento dei fatti, come diceva il senatore Caliendo - possa fare stato nel giudizio successivo di rivalsa costituisce un'ipotesi di incostituzionalità giacché, non avendo il magistrato partecipato nel primo giudizio, non si può nel giudizio di rivalsa, che interessa la sua persona, fargli pesare la decisione e non soltanto l'accertamento dei fatti. È vero che vi può partecipare volontariamente, però c'è una grande difficoltà. Come si risolve un'ipotesi di litisconsorzio necessario? Si esclude infatti la partecipazione del giudice nel primo giudizio e poi, nel secondo giudizio di rivalsa, egli deve accettare la decisione che è stata assunta in un procedimento in cui egli non ha partecipato. Per queste ragioni, per amore dell'arte, devo dire che dissento dall'indicazione di voto espressa dal senatore Caliendo e dichiaro il mio personale voto favorevole a questo emendamento del Governo.</seg>
+            </u>
+            <note type="speaker">BARANI (GAL)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u87">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg175">Signor Presidente, sarò brevissimo. È condivisibile quanto il senatore Caliendo ci ha testé detto, perché in Commissione il Governo era presente ed è presente anche qui. Ho però la sensazione che questo Governo, che pure ha partecipato ai lavori della Commissione, non sia consequenziale con i proclami del suo Presidente del Consiglio che, baldanzoso e sculettante, dice: anche i giudici devono pagare, eccetera. Infatti, non c'è poi consequenzialità in quello che fa, perché a noi non ha detto nulla in Commissione. Si vede che, a un certo momento, è stato preso sotto scacco o sequestrato da qualche associazione nazionale dei magistrati che gli ha imposto, in cambio non so di cosa, questo emendamento soppressivo. Mi rivolgo al relatore: relatore, tu eri socialista un tempo. Ho visto un tuo emendamento dopo quello del Governo. Come mai l'emendamento del Governo viene a vanificare un lavoro che so che hai fatto seriamente e con coscienza e in cui hai creduto? Nel testo proposto dalla Commissione giustizia ci sono due miei disegni di legge e uno tuo, che ha portato alla responsabilità civile dei magistrati. Insomma, il Governo ti fa passare le pene dell'inferno; il Governo ti sta trascurando e ti considera marginale. Pertanto, credo di poter chiudere dicendo: ma com'è possibile, con questo testo che andiamo ad approvare, che un imprenditore venga ad investire in Italia sapendo la confusione e il potere di vita e di morte che questi magistrati hanno anche sull'economia? Continueranno ad andare a delocalizzarsi in Svizzera, ancorché in Spagna, in Croazia, in Francia, ma nessuno verrà più in Italia. Stiamo facendo un danno economico incommensurabile alla italianità e all'Italia, perché non abbiamo più certezza di diritto. Inoltre, non è vero che tutti gli uomini sono uguali: c'è un potere dello Stato, una categoria Superman, superiore a qualsiasi altra, come James Bond nei famosi film - belli, quelli - di «007».</seg>
+            </u>
+            <note type="speaker">BUEMI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u88">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg176">, relatore. Intervengo semplicemente per una precisazione, Presidente e colleghi. Il mio emendamento e il testo originario della mia proposta di legge prevedevano un indirizzo diverso rispetto alla responsabilità diretta e indiretta. Nel momento in cui la Commissione ha scelto unitariamente l'azione indiretta, era evidente che questo elemento entrava in contrasto e, quindi, la mia posizione si è modificata in funzione di questo obiettivo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u89">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg177">Prima di passare alla votazione degli emendamenti riferiti all'articolo 4, vorrei fare una comunicazione. Avverto che al termine delle votazioni sugli articoli e relativi emendamenti si riunirà la Conferenza dei Capigruppo per definire il calendario dei lavori della prossima settimana.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg178">Procediamo dunque alla votazione degli emendamenti riferiti all'articolo 4.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u90">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg179">Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u91">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg180">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.700, presentato dal Governo. (Segue la votazione). Il Senato approva. (v. Allegato B). L'emendamento 4.100 è stato ritirato. L'emendamento 4.101 è precluso dall'approvazione dell'emendamento 4.700. Essendo stato approvato un emendamento soppressivo dell'articolo 4, l'articolo non viene dunque posto ai voti. Passiamo all'esame dell'articolo 5, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">BUCCARELLA (M5S)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u92">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg181">Signor Presidente, intervengo per illustrare l'emendamento 5.102. Esso mira a eliminare una contraddizione logica contenuta all'articolo 5.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg182">Al comma 1 dell'articolo 7 della legge n. 117 del 1988 come novellato si legge che: «Il Presidente del Consiglio dei Ministri, entro due anni dal risarcimento avvenuto sulla base di titolo giudiziale o di titolo stragiudiziale, ha l'obbligo di esercitare l'azione di rivalsa nei confronti del magistrato (...)».</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg183">Nel successivo comma del medesimo articolo 7 si legge: «In nessun caso la transazione è opponibile al magistrato nel giudizio di rivalsa o nel giudizio disciplinare». Ciò vuol dire che se, a fronte della richiesta risarcitoria del cittadino, la Presidenza del Consiglio , o meglio lo Stato, addiviene a un accordo transattivo (non si aspetta cioè una sentenza, ma il giudizio viene evitato con un atto transattivo fra il cittadino e lo Stato), questa transazione non è opponibile. Non si può cioè esercitare la rivalsa, perché la transazione non è opponibile al magistrato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg184">La conseguenza di ciò sarebbe che le somme erogate a titolo risarcitorio, in sede transattiva, in favore del cittadino rimarrebbero inevitabilmente a carico dello Stato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg185">Sulla base della considerazione che appare comunque opportuno che la verifica della sussistenza del dolo o della colpa grave del magistrato sia oggetto di un giudizio di cognizione ordinario vero e proprio e che anche le difese del magistrato possano esplicarsi in quella sede, nel momento in cui dovesse contestare la sussistenza della infrazione, l'emendamento 5.102 mira a sopprimere la possibilità di risoluzione stragiudiziale della vertenza tra il cittadino e lo Stato e, conseguentemente, a sopprimere il comma 2 dell'articolo 7 che, a questo punto, sarebbe inutile, nella parte in cui, a testo vigente, prevede che la transazione non sarebbe opponibile al magistrato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg186">In altre parole, con questo emendamento diciamo che il diritto risarcitorio del cittadino deve essere oggetto di verifica solo giudiziale e che l'esercizio di rivalsa deve essere esercitato obbligatoriamente nei modi e termini che andremo a stabilire secondo le votazioni degli articoli successivi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg187">Ritengo che questa sia l'unica soluzione che possa far uscire il testo del disegno di legge da questo contrasto in virtù del quale, da un lato, la chiusura transattiva della vertenza potrebbe rappresentare un risparmio a carico dello Stato; dall'altro, però, si impedirebbe l'esercizio dell'azione di rivalsa. Un beneficio, dunque, comporterebbe anche un sacrificio, a livello anche logico e di congruenza giuridica, che io penso viene risolto con l'emendamento 5.102.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u93">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg188">Signor Presidente, con l'emendamento 5.103 pongo soltanto una questione di correttezza. Avete finora votato ipotesi di colpa grave del magistrato. Allora, se andate a leggere il testo dell'articolo 5, come formulato, in esso addirittura si fa riferimento alle ipotesi di colpa grave, a quelle determinate da dolo, oppure da negligenze inescusabili, così limitando anche una delle ipotesi di colpa grave, escludendo l'imperizia e l'imprudenza.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg189">Mi sono permesso di presentare un emendamento che, dal punto di vista della tecnica legislativa, esplicitamente chiede di sostituire, al comma 1, capoverso «Articolo 7», comma 1, le parole da «ovvero nei casi in cui» fino alla fine del comma con: «ovvero nei casi di colpa grave di cui all'articolo 2, comma 2, 3 e 3- bis » - quello che avete votato - «ovvero quando il danno ingiusto è stato determinato da dolo». Perché se il danno ingiusto è determinato da dolo può anche essere al di fuori dalle ipotesi di colpa grave. Anche la legge Vassalli teneva distinte le due ipotesi. A meno che non ritenete di dover restringere l'area di responsabilità dei giudici anche sotto il profilo del catalogare il dolo come le ipotesi di colpa grave. Non ha nessun senso, non si raccorda con l'articolo 2. Nonostante abbiamo votato contro l'articolo 2 perché non avete voluto inserire un dato pacifico della vita del magistrato, sottolineo che questa è soltanto una correzione che dà conto di quello che avete fatto, ma almeno è intellegibile e comprensibile, sia sotto il profilo della colpa grave sia sotto il profilo del dolo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MUSSINI (Misto-MovX)</note>
+            <u ana="#regular" who="#MussiniMaria" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u94">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg190">Signor Presidente, con l'emendamento 5.105 chiedo che vengano soppresse le parole: «sono stati determinati da dolo o negligenza inescusabile». Non ho capito infatti per quale ragione abbiamo eliminato la negligenza inescusabile al comma 3 dell'articolo 2, là dove viene descritto cosa costituisce colpa grave, e non la eliminiamo anche qui. Trovo che ci sia una discrepanza tra i due passaggi, quindi se è stata eliminata prima mi sembra il caso di farlo anche ora.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg191">L'emendamento 5.104 evidenzia un mero aspetto di coerenza formale nella citazione della stessa frase tra un articolo e l'altro.</seg>
+            </u>
+            <note type="speaker">FALANGA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u95">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg192">Su questo punto, Presidente, prima mi ha opportunamente interrotto perché non eravamo ancora arrivati all'articolo 5. Con il consenso del senatore Caliendo chiedo di sottoscrivere l'emendamento 5.103 e in proposito desidero precisare che stamattina in discussione generale, ad un certo punto, ho fatto riferimento ad una «frode legislativa». Perché ho parlato di frode legislativa? Colgo l'occasione, sottoscrivendo questo emendamento, per precisarlo. Guardate un po', la situazione è alla mago Merlino: mentre nel primo giudizio del cittadino nei confronti dello Stato la causa petendi va individuata nella colpa grave del giudice, che poi ha per oggetto ovviamente il risarcimento, nel successivo giudizio di rivalsa questa colpa grave, che è stata oggetto dell'accertamento del primo giudizio - è per questa ragione che poc'anzi mi sono astenuto e ho apprezzato l'emendamento del Governo nel sopprimere l'articolo 4 - ebbene, nel secondo giudizio, questa colpa grave si svilisce, si riduce, si snellisce in una negligenza inescusabile. Ora, con tutta la buona volontà, facendo anche attenzione al profilo terminologico delle due parole (negligenza inescusabile), non riesco a capire come potrà giammai un giudice del giudizio di rivalsa compiere l'accertamento di questa negligenza inescusabile. In che cosa consiste la truffa? Mentre il cittadino e per il cittadino basta provare la colpa grave del giudice, lo Stato nei confronti del magistrato non deve provare nulla, sparisce la colpa grave. Rimane un'immaginazione fantasiosa. Sotto il profilo della fantasia di chi ha immaginato questo escamotage, devo esprimere il mio apprezzamento, ma da giurista, da politico, da senatore di questa Repubblica devo dire che questa la definisco «frode legislativa». PRESIDENTE. I restanti emendamenti si intendono illustrati.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u96">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg193">Signor Presidente, se non ho compreso male la sua decisione, lei ha sostanzialmente negato il voto segreto sull'emendamento 5.103, sul presupposto che il contenuto di questo emendamento riguarda i rapporti interni, per così dire, tra lo Stato e il magistrato. Signor Presidente, prendo atto di questa sottile e, a mio avviso, forzata distinzione, ma le faccio presente che l'articolo 24, ultimo comma della Costituzione, dice più o meno testualmente che la legge determina le condizioni e i modi della riparazione dell'errore giudiziario. Il fatto che vertiamo su questo tema è pacifico, visto che lei ha già ammesso votazioni segrete sulla base di tale presupposto; le faccio tuttavia rilevare che le condizioni e i modi della riparazione dell'errore giudiziario riguardano la procedura nel complesso e che non è consentita una frammentazione, perché l'azione di rivalsa nasce in riferimento ad un atteggiamento gravemente colposo del magistrato da cui si determina la responsabilità dello Stato. Se la Costituzione avesse voluto essere sofisticamente e chirurgicamente precisa, avrebbe detto che la legge disciplina la riparazione dell'errore giudiziario. Ma evidentemente, anche tenendo conto del disposto dell'articolo 28 della Costituzione - Presidente, lei sa meglio di noi che fino alla legge Vassalli la responsabilità dei magistrati era una responsabilità diretta e che la Corte costituzionale ripetutamente aveva affermato la costituzionalità di quell'azione diretta proprio sulla base dell'articolo 28 - una corretta interpretazione dell'articolo 24, ultimo comma della Costituzione, non può che portare alla conclusione che quella norma riguarda l'intero complesso del procedimento della riparazione dell'errore giudiziario, ivi compresa evidentemente la parte di quella procedura che fa riferimento ai rapporti tra lo Stato e il magistrato. Ricordo che l'articolo 28 della Costituzione parla della responsabilità del dipendente pubblico che si estende allo Stato: conseguentemente, dal mio personale punto di vista, prevedere una frammentazione, quando quella norma della Costituzione è chiaramente diretta all'intera procedura, non mi sembra un'operazione interpretativa corretta, anche se, devo dire la verità - senza con questo immaginare in alcun modo che la sua decisione sia stata guidata da sentimenti diversi da quelli che le sono propri come Presidente del Senato - mi rendo conto che il voto segreto sull'emendamento 5.103 e sul successivo 6.101, probabilmente per una scarsa sicurezza del Governo nelle forze di maggioranza, non sarebbe stato ben accolto.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u97">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg194">Con riguardo alle considerazioni esposte dal senatore Palma e, in precedenza, dal senatore Caliendo sulla questione del voto segreto, la Presidenza, nel richiamare nuovamente l'ultimo comma dell'articolo 24 della Costituzione, che anche il senatore Palma ha ricordato e che demanda alla legge le condizioni e i modi per la riparazione degli errori giudiziari, osserva che tale disposizione intende unicamente assicurare un'adeguata tutela ai soggetti che risultano danneggiati da tali errori.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg195">Ciò risulta confermato dal principio stabilito dal successivo articolo 28 della Costituzione, che stabilisce espressamente che i funzionari e i dipendenti dello Stato e degli enti pubblici sono direttamente responsabili, secondo le leggi, civili, penali e amministrative, degli atti compiuti in violazione di diritti, e che in tali casi la responsabilità civile si estende allo Stato e agli enti pubblici.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg196">Il tema del giudizio di rivalsa attiene unicamente al rapporto tra il responsabile della condotta lesiva e il soggetto pubblico dal quale dipende, cioè lo Stato, e quindi trova il fondamento nell'articolo 97 della Costituzione, e in particolare nel principio dell'individuazione della responsabilità, di cui al terzo comma, e non investe il distinto problema della necessità di assicurare un adeguato ristoro ai soggetti lesi dall'esercizio del pubblico potere né, nel caso oggi in esame, dalla commissione di un errore giudiziario.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg197">Per queste ragioni, la Presidenza non può che confermare che gli emendamenti 5.100, 5.103, 6.101 e 6.104 non sono ammessi al voto segreto.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg198">Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">BUEMI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u98">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg199">Signor Presidente, sugli emendamenti 5.100, 5.101, 5.102 e 5.103 invito al ritiro altrimenti il parere è contrario.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg200">Esprimo parere favorevole sull'emendamento 5.104.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg201">Sull'emendamento 5.105, 5.108 e 5.110 invito al ritiro, altrimenti il parere è contrario.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg202">Ritiro l'emendamento 5.106.</seg>
+            </u>
+            <note type="speaker">COSTA</note>
+            <note type="role">vice ministro della giustizia</note>
+            <u ana="#guest" who="#CostaEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u99">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg203">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u100">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg204">Signor Presidente, chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u101">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg205">Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Passiamo alla votazione della prima parte dell'emendamento 5.100.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u102">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg206">Signor Presidente, prendo atto della volontà di non tenere conto. Voi state votando - e mi appello alla Presidenza - che può essere determinata da dolo l'ipotesi che costituisce colpa grave. Questo sta scritto nel testo del disegno di legge. Io non ho fatto un emendamento di sostituzione, bensì di regolare modalità di scrittura di una norma di legge. Il dolo può reggere il danno ingiusto, certamente, ma al di fuori delle ipotesi di colpa grave, e le ipotesi di colpa grave, di cui agli articoli 2, 3 e 3- bis, determinano l'azione di rivalsa per colpa grave: questo è scritto nel mio emendamento, ma non voglio discutere della mia proposta emendativa. Correggete quello che state votando altrimenti si vota un qualcosa che stride: non può essere il dolo che regge l'ipotesi di colpa grave.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u103">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg207">Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 5.100, presentato dai senatori Stefani e Centinaio, fino alle parole «un anno». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte dell'emendamento 5.100 e l'emendamento 5.101. Passiamo all'emendamento 5.102, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. GAETTI (M5S). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.102, presentato dai senatori Buccarella e Cappelletti. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.103, presentato dal senatore Caliendo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.104, presentato dalla senatrice Mussini e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.105, presentato dalla senatrice Mussini e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Gli emendamenti 5.106 e 5.107 sono stati ritirati. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.108, presentato dai senatori Stefani e Centinaio. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 5.109 è stato ritirato. Passiamo alla votazione dell'emendamento 5.110.</seg>
+            </u>
+            <note type="speaker">MUSSINI (Misto-MovX)</note>
+            <u ana="#regular" who="#MussiniMaria" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u104">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg208">Signor Presidente, lo ritiro.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u105">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg209">La Presidenza ne prende atto.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg210">Indìco la votazione nominale con scrutinio simultaneo dell'articolo 5, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 6, sul quale sono stati presentati emendamenti che si intendono illustrati e su cui invito il relatore ed il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">BUEMI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u106">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg211">Invito al ritiro o esprimo parere contrario sugli emendamenti 6.100, 6.101, 6.103 e 6.104.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg212">Ritiro l'emendamento 6.102.</seg>
+            </u>
+            <note type="speaker">COSTA</note>
+            <note type="role">vice ministro della giustizia</note>
+            <u ana="#guest" who="#CostaEnrico" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u107">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg213">Il Governo esprime parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u108">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg214">Signor Presidente, chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u109">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg215">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.100, presentato dai senatori Cappelletti e Buccarella. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 6.101.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u110">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg216">Signor Presidente, l'emendamento 6.101 è l'altro punto importante di questo provvedimento. La nostra Costituzione, nel garantire l'autonomia e l'indipendenza della magistratura, consente, contrariamente a quello che accade nei confronti di tutti gli altri dipendenti pubblici, di immaginare, come è si immaginato nella legge Vassalli e come si sta immaginando adesso, che l'azione nei confronti di un magistrato avvenga in termini indiretti; ci si rivale cioè e si fa azione nei confronti dello Stato e lo Stato si rivale nei confronti del magistrato. È evidente che, nell'eventualità in cui l'azione dovesse essere diretta, inevitabilmente questo tipo di azione potrebbe avere degli effetti sull'autonomia e l'indipendenza della magistratura. Ciò detto, di cosa stiamo discutendo? Stiamo discutendo dell'entità della rivalsa. Noi ci troviamo di fronte ad un magistrato che ha commesso un comportamento gravemente colposo, che rientra nei requisiti che abbiamo stabilito prima, in ragione del quale è stato provocato un danno ingiusto a un cittadino. In ragione dell'azione che questo cittadino avanza nei confronti dello Stato, quest'ultimo, per ipotesi, risarcisce il cittadino con la somma di 200.000 euro, di 100.000 euro, di 50.000 o di 700.000 euro, a seconda del tipo di danno causato. Se non si trattasse di un magistrato, qualsiasi dipendente pubblico che ha dato corso ad un'azione di questo genere per un comportamento gravemente colposo risponderebbe per l'intero. Ebbene, non riesco davvero a vedere nell'ordinamento una sola norma che, una volta accertata la colpa grave del magistrato e quindi, sostanzialmente, un comportamento assolutamente uguale a quello di qualsivoglia altro tipo di dipendente pubblico, consegni il dipendente pubblico al risarcimento per l'intero e il magistrato ad un risarcimento che qui viene quantificato nella metà dello stipendio netto che il magistrato stesso guadagnava all'epoca del fatto. Siccome ricordo a tutti voi che il Presidente del Consiglio in più di una occasione ha detto «il magistrato che sbaglia paga», vorrei capire in che termini. Se per ipotesi lo Stato venisse condannato a risarcire 150.000 euro al cittadino, il magistrato, considerando il suo stipendio medio all'epoca del fatto e quindi quando era molto più giovane in carriera, non risponderebbe per più di 35.000 euro. Chi paga gli altri 115.000 euro? Evidentemente, l'onere non può che ricadere sulla fiscalità generale e, conseguentemente, viene pagato da tutti i cittadini ivi compreso, sul piano delle tasse, quello che attraverso l'azione risarcitoria ha ottenuto il risarcimento. Allora, o qualcuno mi spiega qual è la norma che giustifica questo trattamento diverso rispetto agli altri cittadini - ed abbiamo già detto che non può essere il riconoscimento dell'autonomia e dell'indipendenza della magistratura, perché quello serve per l'azione diretta - o mi chiedo in ragione di che cosa il magistrato debba pagare molto meno di un medico, di un ingegnere, di un funzionario pubblico e via dicendo, avendo posto in essere un comportamento analogamente rilevante sul piano del risarcimento. Presentiamo solo questo emendamento sul punto, perché sul piano sistematico non vi è alcuna ragione giuridica per avere questa disparità di trattamento. Se la ragione deve essere squisitamente politica, non c'è motivo di discutere se sia meglio un terzo o due terzi, una o due annualità, perché è una ragione tecnicamente sbagliata e contro il sistema giuridico. Se ne faccia allora carico il Governo, forse nell'idea di compensare così la doverosa eliminazione del filtro ovvero la diminuzione delle ferie dei magistrati!</seg>
+            </u>
+            <note type="speaker">BARANI (GAL)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u111">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg217">Signor Presidente, mi associo a quanto testé detto dal presidente Palma in maniera tecnica e chiara. Vorrei aggiungere una nota politica: il risarcimento è quindi meramente simbolico. Diciamo che una volta che sono stati giudicati colpevoli da altri magistrati, per far vedere che questo Governo fa tirar fuori qualcosa a chi sbaglia, simbolicamente si chiede anche ai magistrati colpevoli di dare una piccolissima cifra. Ovviamente, questo non in conseguenza dei principi che hanno portato avanti i Padri costituenti con la Costituzione; credo anzi che tutti i rumori che si sentono - non so se voi li avvertite - siano i Padri costituenti che si rivoltano nella tomba, perché effettivamente stiamo calpestando la Costituzione. Vi faccio un esempio e concludo l'intervento, Presidente. L'altro giorno abbiamo scoperto che per alcuni soggetti giudicati innocenti - e mi riferisco ai medici dell'ospedale Pertini di Roma e al caso Cucchi - è stata pagata, proprio perché innocenti, la somma di un milione e 350.000 euro. Chi li ha pagati? I cittadini. Quindi, i cittadini sono «becchi e bastonati», perché pagano sempre: pagano sia quando i medici sono innocenti - si dà ad una famiglia un risarcimento solamente per avere ritirato la parte civile, e questo ovviamente fa dire quali nobili pensieri regolano una vita familiare - sia quando loro stessi sono stati vessati e - sono pochi quei giudici condannati perché, se Dio vuole, sono pochi coloro che si macchiano del crimine di non praticare una giustizia giusta, come la nostra Costituzione prescrive - si vedono pagare somme simboliche. Sono sempre quei cittadini che pagano anche per loro conto. Quindi, i cittadini pagano sempre e non credo sia questo un principio costituzionale. Ricordo che i cittadini che hanno votato il referendum nel 1987 sono più del doppio dei voti che ha preso il Partito Democratico alle ultime elezioni europee. Quindi, sono veramente tanti.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u112">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg218">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.101, presentato dal senatore Caliendo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 6.102 è stato ritirato. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.103, presentato dalla senatrice Mussini e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.104, presentato dai senatori Stefani e Centinaio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 6. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 7. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 7. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 8. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 8. (Segue la votazione). Il Senato approva. (v. Allegato B). L'emendamento 8.0.100 è improponibile. Apprezzate le circostanze, passiamo agli interventi di fine seduta. Informo che le dichiarazioni di voto e il voto finale avranno luogo nella seduta antimeridiana di domani, così come la comunicazione degli esiti della Conferenza dei Capigruppo, che è immediatamente convocata.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">GASPARRI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u113">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg219">Signor Presidente, vorrei che restasse agli atti che nei giorni scorsi, nel quartiere di Tor Sapienza a Roma, si è verificato un episodio grave nei confronti di un senatore: la senatrice Taverna è stata allontanata dai cittadini del quartiere, che l'hanno giudicata appartenente alla casta. In quel quartiere si registra un grave disagio riguardante l'immigrazione e varie problematiche che tutti abbiamo potuto vedere. Alcuni politici si sono recati in quella realtà: alcuni di loro sono stati accolti con applausi, altri - il sindaco, come era prevedibile - con una certa attenzione e anche con rabbia da parte della cittadinanza. Anche il Movimento 5 Stelle si è recato in quel quartiere, come ho letto sulle cronache. Sono, quindi, solidale con la senatrice Taverna. Benvenuta nella casta, visto che l'hanno cacciata dal quartiere di Tor Sapienza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII e PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u114">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg220">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per le sedute di giovedì 20 novembre 2014</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.u115">
+               <seg xml:id="ParlaMint-IT_2014-11-19-LEG17-Sed-355.seg221">Il Senato tornerà a riunirsi domani, giovedì 20 novembre, in due sedute pubbliche, la prima alle ore 9,30 e la seconda alle ore 16, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 19,35).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

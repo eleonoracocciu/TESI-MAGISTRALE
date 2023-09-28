@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 30 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 30 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 30, giorno (2018-08-02)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 30, Day (2018-08-02)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="30-upper">30 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="198" unit="speeches" xml:lang="it">198 discorsi</measure>
+            <measure quantity="198" unit="speeches" xml:lang="en">198 speeches</measure>
+            <measure quantity="12469" unit="words" xml:lang="it">12.469 parole</measure>
+            <measure quantity="12469" unit="words" xml:lang="en">12,469 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1071678</idno>
+               <date when="2018-08-02">02.08.2018</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="14"/>
+               <tagUsage gi="head" occurs="13"/>
+               <tagUsage gi="note" occurs="88"/>
+               <tagUsage gi="seg" occurs="198"/>
+               <tagUsage gi="u" occurs="54"/>
+               <tagUsage gi="vocal" occurs="26"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="incident" occurs="3"/>
+               <tagUsage gi="kinesic" occurs="71"/>
+               <tagUsage gi="desc" occurs="100"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2018-08-02">02.08.2018</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente ALBERTI CASELLATI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u1">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg1">La seduta è aperta (ore 9,38). Si dia lettura del processo verbale. MONTEVECCHI, segretario, dà lettura del processo verbale della seduta del 31 luglio. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u2">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul 38° anniversario della strage di Bologna</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u3">
+               <incident type="action">
+                  <desc>Il Presidente e l'Assemblea si levano in piedi.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg3">Signori senatori, il 2 agosto del 1980 fu inferta al nostro Paese una ferita insanabile. Alle ore 10,25 di quel sabato 85 innocenti persero la vita e oltre 200 tra uomini, donne e bambini rimasero feriti. Se alla stazione di Bologna tuttora c'è l'orologio fermo per sempre a quel drammatico momento, a ricordarci fin dove possono arrivare l'odio e l'orrore, le istituzioni hanno il dovere di fare in modo che il tempo non sia passato invano e non solo per impedire il ripetersi di gesti così folli, ma anche per lenire il dolore con tutto ciò che si ha a disposizione. Non ci possono essere zone d'ombra, a partire dalla ricerca di tutti i colpevoli e di tutte le connivenze. Questa non è, non può e non deve essere l'occasione per polemiche di alcun tipo. Oggi è il giorno in cui dobbiamo onorare le vittime, le loro storie e le loro vite e ricordare a noi stessi come il Paese sia riuscito, anche dopo quell'infausto giorno, a rialzarsi e a ricostruire le ragioni del nostro stare insieme, i valori della nostra comunità nazionale, i principi alla base del nostro Stato di diritto. Abbiamo ogni giorno il dovere di coltivare e tramandare la memoria di quanto accaduto, di come il terrorismo abbia cambiato per sempre la storia italiana dello scorso secolo e di come sia stato sconfitto a tutti i livelli. L'Italia non si arrese e seppe trovare, in nome della libertà e della democrazia, la forza per costruire un Paese migliore e pacificato.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg4">Alle famiglie delle vittime giunga il sentito cordoglio dell'Assemblea del Senato della Repubblica.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg5">Invito tutti i colleghi ad osservare un minuto di raccoglimento.</seg>
+               <incident type="sound">
+                  <desc>Il Presidente e l'Assemblea osservano un minuto di silenzio.</desc>
+               </incident>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla seduta antimeridiana della Commissione agricoltura e produzione agroalimentare del 1° agosto</head>
+            <note type="speaker">MALAN (FI-BP)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u4">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg6">Signor Presidente, ieri mattina è accaduto un episodio spiacevole in Commissione agricoltura durante l'audizione del Ministro per la comunicazione delle linee programmatiche, com'è d'uso quando si insedia un nuovo Governo. L'episodio si inserisce in un quadro in cui troppo spesso è accaduto che ci fosse uno spazio troppo ristretto per le domande e gli interventi, non soltanto dei Gruppi, ma anche dei singoli senatori. Noi abbiamo sempre collaborato per rendere possibile lo svolgimento di questo importante atto della vita delle Commissioni, ma lamentiamo il fatto che troppo spesso gli spazi siano stati estremamente ristretti, al punto da poter parlare due, tre, a volte cinque minuti per Gruppo: il che pare davvero non sufficiente. Ieri mattina, quando una collega ha chiesto conto di due domande che aveva posto e alle quali il Ministro non ha risposto, c'è stata da parte del Ministro una reazione francamente inappropriata ad un'Aula parlamentare, anche con gesti che volevano, come dire, invitarla a stare zitta e, nel caso volesse porre delle domande, a presentare delle interrogazioni. Questo, però, è contraddire lo spirito dell'audizione, che dovrebbe essere una esposizione chiara, senza assalti da parte di nessuno: si vuole sapere dai Ministri, in questo caso da quel Ministro, quali sono le sue linee programmatiche. Ritengo che questo atteggiamento non sia un accettabile. Non si possono offendere i senatori e la dignità del Senato con atti di questo genere. Visto anche il filmato con l'atteggiamento sia del Ministro che del Presidente della Commissione, che ha, come è suo diritto e dovere, richiamato chi, da parte dell'opposizione, protestava anche con un certo vigore, io auspico che egli richiami anche il Ministro a tenere un comportamento consono a una Commissione parlamentare. Solo il Presidente della Commissione può dire a un senatore di stare zitto, se è previsto dal Regolamento, ma certamente non può dirlo il Ministro. Auspico che ci sia un rapporto di maggiore rispetto nei confronti dei senatori, del Senato, della Commissione, specialmente in un periodo in cui si sente parlare, da esponenti autorevoli di un importantissimo movimento politico, di abolizione del Parlamento e di sorteggio dei parlamentari, che equivale all'abolizione del Parlamento. Dunque, non possiamo non vegliare sulla dignità di queste Aule. Ciascuno, ivi incluso il Governo, ha il diritto di esprimere, anche con vigore, le proprie opinioni, ma ciascuno nel proprio ruolo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">VALLARDI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#VallardiGianpaolo" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u5">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg7">Signor Presidente, intervengo in risposta all'intervento del senatore Malan. Ieri ho avuto l'onore di presiedere la Commissione agricoltura in occasione della relazione del Ministro sulle linee programmatiche e devo dire che non ho ravvisato tutta questa gravità dell'accaduto. Sicuramente, la dialettica si è un po' accesa in quel determinato momento, però ciò è stato frutto anche del calore con cui il Ministro esponeva il suo corposo programma. A difesa del Ministro (anche se non ne ha assolutamente bisogno) sottolineo che, fino a oggi, egli ha sempre dato ampia disponibilità, non solo in questi primi mesi di Governo, ma anche per il prossimo futuro. Ha detto, tranquillamente e in maniera esauriente, che ogni qual volta vi sarà un problema, anche su temi specifici, arriverà in Commissione a spiegare quali sono le linee programmatiche del Governo e le possibili soluzioni a eventuali problemi del mondo dell'agricoltura. Quindi, fino a oggi c'è stata grande disponibilità da parte del Ministro e ci sarà anche in futuro. Quanto ai fatti, credo che a volte il calore politico ci porti ad avere comportamenti che, magari, in un determinato momento, possono non essere consoni all'Aula istituzionale in cui ci si trova. Questo sta però a significare che egli tiene veramente alla questione agricoltura e alla soluzione dei relativi problemi. Credo - mi rivolgo sia al senatore Malan, che al senatore Battistoni - che si possa tranquillamente risolvere la questione tra gentiluomini, qui, nell'Aula del Senato o - eventualmente - nelle sedi opportune.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Parrini</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg8">Per quanto mi riguarda, da Presidente della Commissione, ritengo sia possibile chiudere qui l'incidente, anche perché dobbiamo occuparci di temi sicuramente ben più importanti. Il mondo dell'agricoltura, lo sappiamo, è in difficoltà. Continuiamo a parlare di agricoltura, che credo sia la questione che più interessa i nostri agricoltori e tutti i cittadini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">STEFANO (PD)</note>
+            <u ana="#regular" who="#StefanoDario" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg9">Signor Presidente, intervengo per condividere con il collega Malan il richiamo a un comportamento più consono e anche per stigmatizzare le dichiarazioni del Presidente della Commissione agricoltura e produzione agroalimentare, che non può sminuire quanto accaduto e reso pubblico dal circuito audiovisivo del Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg10">Parliamo di un Ministro che, in visita in Puglia, a seguito di una mia dichiarazione, si è permesso di dire, davanti a tutti i sindaci, che in questo Parlamento noi perdiamo tempo, mentre lui era lì a lavorare, rinunciando alle ferie. Pertanto, parliamo di una persona che - evidentemente - è vocata all'offesa del Parlamento e dei parlamentari.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e dei senatori Aimi e Cangini</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg11">DE BONIS (M5S). Bugiardo! STEFANO (PD). Io credo che questo comportamento sia da stigmatizzare e occorre fare in modo che non si ripeta più. In una seduta in cui il Ministro è chiamato a dare delle risposte sulle linee programmatiche del suo Dicastero, se un senatore o una senatrice fa delle domande, egli deve rispondere e non additare con un segno o usare parole che possono essere ascoltate, e quindi valutate nella loro gravità, attraverso il circuito audiovisivo del Senato. Quindi, signor Presidente, le chiedo di cercare di sensibilizzare, al di là della calura agostana, ogni Presidente di Commissione affinché all'interno di quei consessi ci sia un clima diverso. Infatti, il clima che si respira in questi giorni e che ho respirato in qualche seduta della Commissione agricoltura e produzione agroalimentare è oggettivamente non consono all'Assemblea parlamentare e all'impegno cui siamo chiamati.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u7">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg12">Ha chiesto di intervenire il Presidente della 1ª Commissione permanente, senatore Borghesi, per riferire sui lavori della Commissione in ordine al disegno di legge n. 717, di conversione in legge del decreto-legge 25 luglio 2018, n. 91, recante proroga di termini previsti da disposizioni legislative.</seg>
+            </u>
+            <note type="speaker">BORGHESI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BorghesiStefano" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u8">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg13">Signor Presidente, intervengo per informare l'Assemblea che la Commissione affari costituzionali è in attesa di ricevere i pareri della Commissione bilancio e, quindi, dobbiamo cominciare i lavori nella giornata di oggi. Sono pertanto a chiederle, se possibile, la sospensione dei lavori d'Assemblea.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg14">PRESIDENTE. Senatore Borghesi, fino a quando ritiene che ciò sia necessario? BORGHESI (L-SP-PSd'Az). Ritengo che ci vorrà almeno tutta la giornata di oggi affinché la Commissione affari costituzionali possa esaminare tutti gli emendamenti.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u9">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg15">In relazione a quanto riferito dal presidente Borghese, l'esame del disegno di legge di conversione del decreto-legge n. 91, recante proroga termini, avrà inizio nella seduta di domani alle ore 9,30.</seg>
+            </u>
+            <note type="speaker">PARRINI (PD)</note>
+            <u ana="#regular" who="#ParriniDario" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg16">Signor Presidente, sono Capogruppo del Partito Democratico in Commissione affari costituzionali, con profonda preoccupazione e molto sconcerto - vi prego di credermi - vorrei denunciare quanto è avvenuto nella giornata di ieri nella mia Commissione, e, per quel che ho potuto sapere, anche nella Commissione bilancio. Ci siamo trovati di fronte a due riunioni della Commissione completamente improduttive: una volta mancavano i pareri di ammissibilità, poi i pareri di valutazione finanziaria della 5ᵃ Commissione. Ci siamo riconvocati. Il presidente Borghese - gliene do atto - ha provveduto ad assolvere al proprio dovere; ci ha fatto avere i pareri di ammissibilità ma, ancora una volta, si siamo trovati privi dei pareri sulla ricaduta finanziaria del provvedimento. Le assicuro, Presidente, che è stato davvero sconfortante dovere assistere alla mancanza di coordinamento, al disordine dei lavori, a un pressappochismo che ci inquieta, perché non ci siamo potuti esprimere come avremmo voluto sugli emendamenti che il nostro Gruppo ha presentato. Riteniamo che questo fenomeno (relazioni tecniche tardive, assenza di risposte) sia qualcosa che va contro il diritto del Parlamento di approfondire i provvedimenti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg17">È una situazione particolarmente grave, signor Presidente - me lo lasci dire - per altre ragioni che voglio brevemente esporre. La prima che è ci troviamo di fronte alla prima lettura di un provvedimento molto complicato, uno dei più complicati che il Parlamento deve affrontare, come il milleproroghe. Questa Assemblea, questo ramo del Parlamento, lo esamina in prima lettura, e probabilmente non avrà un grande approfondimento nell'altro ramo del nostro Parlamento, perché sappiamo che così vanno le cose nel nostro ordinamento. Dato che si tratta della prima lettura, la compressione dei lavori delle Commissioni è particolarmente sconveniente e ci allarma. Dico di più: non abbiamo insistito noi perché questo provvedimento fosse incastrato nel calendario dell'Assemblea in questo momento. È la maggioranza che lo ha fatto, e dovrebbe fare tutto il possibile perché il lavoro in Commissione possa svolgersi ordinatamente.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg18">Infine, nella scorsa legislatura ci siamo dati un Regolamento che prevede - so che il Capogruppo del Partito Democratico lo ha segnalato più volte nella Conferenza dei Capigruppo - una compartimentazione bisettimanale tra i lavori d'Assemblea e quelli di Commissione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg19">Qual è la ragione della compartimentazione? Valorizzare al massimo l'apporto che alla produzione legislativa le Commissioni possono dare. Di fronte al primo complesso provvedimento emanato con decreto-legge, allora, ci troviamo dinanzi a un tentativo che va in direzione completamente opposta: probabilmente avremo una maggiore velocità nel lavoro di Commissione rispetto ai lavori dell'Assemblea, e questo non va assolutamente bene. Per suo tramite lo segnalo ai rappresentanti di tutti i Gruppi, perché questo Regolamento è un punto di riferimento per tutti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg20">Signor Presidente, questa valutazione che esprimiamo rispettosamente, ma con estrema fermezza, è di grande forza perché intravediamo una volontà: c'è la sensazione che alla fine a queste contraddizioni si cercherà di porre rimedio attraverso l'arrivo in Assemblea senza votazione del mandato al relatore. Questo sarebbe, se avvenisse, di inaudita gravita.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg21">Significherebbe scaricare sul Parlamento e sulla sua dignità l'incapacità di organizzare i lavori e di operare con efficienza da parte della maggioranza e del Governo. Quindi, le chiediamo di vigilare, per quanto in suo potere, affinché questo non avvenga.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg22">Capisco la devozione con cui i rappresentanti della maggioranza ascoltano i discorsi sulla democrazia morente e sul Parlamento superato, ma il Parlamento ancora c'è, e finché c'è va rispettato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg23">Anche quanto detto dal senatore Malan e dagli altri senatori dovrebbe essere ragione di grande preoccupazione.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg24">Capisco il senatore Vallardi. Non si è trovato in una posizione facile, però vorrei dirgli che le difese d'ufficio sono sempre imbarazzanti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Malpezzi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg25">Quando si nutrono di lotta all'evidenza diventano doppiamente imbarazzanti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PESCO (M5S)</note>
+            <u ana="#regular" who="#PescoDaniele" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u11">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg26">Signor Presidente, in quest'Aula io rappresento la Commissione bilancio e dico che proprio perché non vogliamo essere pressappochisti, la Commissione ha bisogno del tempo necessario per valutare minuziosamente la portata finanziaria di tutti gli emendamenti, della maggioranza e dell'opposizione. Per questo abbiamo bisogno di tempo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg27">Come ex deputato ho partecipato alla discussione di molte leggi di bilancio, in modo approfondito, anche se ero membro della Commissione finanze, e posso garantirle che i nostri predecessori ci hanno fatto aspettare molto tempo, e noi con pazienza abbiamo sempre aspettato. Quindi chiederei gentilmente alle opposizioni di fare il possibile per accettare una richiesta di tempo strettamente necessaria a valutare la portata finanziaria di tutti gli emendamenti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CALDEROLI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg28">Signor Presidente, mi scuso se interloquisco in questo momento con lei e con l'Assemblea, ma vorrei attribuire anche qualche motivazione e responsabilità rispetto a quanto sta accadendo. Per quel che mi riguarda, questa stortura del Regolamento, che ha chiamato ad esprimersi la Commissione bilancio su tutti gli emendamenti presentati è, appunto, una stortura che non si applica alla Camera. Mi sembra incredibile, infatti, che la Commissione bilancio debba verificare la copertura rispetto ad emendamenti che verranno sicuramente bocciati e non verranno mai neanche portati in Aula. La valutazione della Commissione bilancio dovrebbe limitarsi agli emendamenti approvati dalla Commissione e non estendersi a tutti quelli presentati. A tale stortura avevo posto rimedio con una proposta di modifica del Regolamento, portata in Aula, che prevedeva che la Commissione bilancio si sarebbe espressa solo sugli emendamenti approvati in Commissione e su quelli portati in Aula. È di qualcuno la responsabilità del fatto che tale modifica non sia stata introdotta? Sì, ed è proprio del Gruppo politico che oggi solleva dei problemi, cioè del Partito Democratico.</seg>
+               <kinesic type="applause">
+                  <desc>Vivi applausi dai Gruppi M5S e L-SP-PSd'Az. Commenti della senatrice Malpezzi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg29">Grazie alla presentazione di un emendamento del senatore Tonini, allora Presidente della Commissione bilancio, quella modifica venne cassata, per questo ci troviamo in questo stato dell'arte.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg30">A questo aggiungo, e concludo, che stando qui a parlare impediamo alla Commissione bilancio di riunirsi e quindi siamo causa del nostro male.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Congratulazioni. Vivaci proteste dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg31">MIRABELLI (PD). Presidente, lui dovrebbe garantire l'Assemblea!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo L-SP-PSd'Az</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg32">VOCI DAL GRUPPOL-SP-PSd'Az. A lavorare! Dovete andare a lavorare!</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo PD.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg33">Signor Presidente, intanto farei presente ad alcuni colleghi che ci invitano ad andare a lavorare che anche loro prendono un bello stipendio proprio per stare qui a lavorare. Questo è il vostro lavoro!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg34">Il vostro lavoro è preparare gli atti parlamentari come devono essere preparati. Parliamo di una situazione, signor Presidente, molto grave. Io credo che non si debba permettere ad alcuni colleghi di ricostruire la storia, compresa quella della modifica del Regolamento della quale, a seconda dei momenti e a fasi alterne, ci si prende il merito o meno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg35">Infatti, se il Presidente Calderoli è responsabile di questo Regolamento, lo ha detto con vanto recentemente in quest'Aula, è responsabile anche di quanto sta succedendo oggi. Tutta la maggioranza è responsabile di ciò che sta succedendo oggi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg36">Non è il caso di dire che oggi, discutendo in Parlamento, impediamo alla Commissione di lavorare.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg37">Mi permetta di dire, signor Presidente, è lei che lo deve impedire. Non si può pensare di lanciare questo tipo di messaggio. Quando il Parlamento si riunisce e discute su questioni rilevanti mette in evidenza l'incapacità di questo Governo e di questa maggioranza di preparare gli atti</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg38">, mette in difficoltà le Commissioni.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg39">Autorevoli colleghi, le Commissioni sono state ferme per ore, per giorni, semplicemente per l'incapacità di preparare adeguatamente gli atti parlamentari.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg40">Credo che la maggioranza abbia solo un modo per affrontare la situazione: da una parte cominciare a lavorare seriamente sui provvedimenti che presenta in Aula e al Paese, e dall'altra semplicemente chiedere scusa a noi e a tutto il Paese per lo spettacolo tremendo di incapacità</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Commenti dai Gruppi L-SP-PSd'Az e M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg41">, di ignoranza, di improvvisazione e di superficialità che la Lega e il MoVimento 5 Stelle stanno dando all'Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Proteste dai Gruppi L-SP-PSd'Az e M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg42">AUGUSSORI (L-SP-PSd'Az). Vieni in Commissione. Fatti vedere, in Commissione, ogni tanto!</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo PD.</desc>
+               </vocal>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u14">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg43">No, senatore. Se deve protestare, esca dall'Aula . Stava protestando ed è uscito.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg44">Scusate, ma non capisco niente di quello che dite, perché urlate. Mi pare che il vostro Capogruppo, il senatore Marcucci, abbia espresso il suo dissenso.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg45">LAUS (PD). Prima della minaccia! PRESIDENTE. Questo è il Parlamento. Ognuno esprime la propria opinione...</seg>
+               <vocal type="shouting">
+                  <desc>Proteste delle senatrici Malpezzi e Valente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg46">VERDUCCI (PD). È stata una minaccia. PRESIDENTE. ...e mi pare che ognuno lo abbia fatto, questa mattina. Mi pare che non ci sia bisogno di ulteriori polemiche. Ognuno ha fatto le proprie osservazioni. Lo abbiamo fatto ed è appunto questo il luogo in cui poterlo fare. STEFANO (PD). Ogni volta fanno quello che vogliono. PRESIDENTE. Prima di sospendere i lavori, vorrei formulare i miei complimenti più vivi al senatore Casini, che è stato eletto Presidente del Gruppo italiano dell'Unione interparlamentare. Presidente Casini, auguri vivissimi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg47">CASINI (Aut (SVP-PATT, UV)). Grazie, signor Presidente. PRESIDENTE. Sospendo pertanto la seduta, che riprenderà alle ore 15 con lo svolgimento del question time. (La seduta, sospesa alle ore 10,08, è ripresa alle ore 15,05).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00155) - Question time su misure a sostegno occupazione femminile</head>
+            <note type="time">(ore 15,05)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u15">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg48">L'ordine del giorno reca lo svolgimento di interrogazioni a risposta immediata (cosiddetto question time ), ai sensi dell'articolo 151- bis del Regolamento, alle quali risponderanno il Ministro dello sviluppo economico e del lavoro e delle politiche sociali, il Ministro delle politiche agricole alimentari e forestali e del turismo e il Ministro della giustizia. Invito gli oratori ad un rigoroso rispetto dei tempi, considerata la diretta televisiva in corso. La senatrice Unterberger ha facoltà di illustrare l'interrogazione 3-00155 su misure a sostegno dell'occupazione femminile, per tre minuti.</seg>
+            </u>
+            <note type="speaker">UNTERBERGER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#UnterbergerJulia" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u16">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg49">Signor Presidente, egregio signor Ministro, l'Italia è penultima in Europa nella classifica per tasso di occupazione delle donne, con una differenza tra il tasso di occupazione maschile e quello femminile che sfiora il 20 per cento. La drammaticità della situazione italiana è ulteriormente peggiorata dal fatto che, mentre negli altri Paesi europei alcune forme di flessibilità del lavoro (come il part time ) contribuiscono ad evitare un incremento del tasso di disoccupazione, in Italia invece l'accesso al part time è molto limitato, non essendovi alcuna garanzia a livello normativo che favorisca le donne con figli piccoli, con conseguente scelta obbligata di licenziamento. Inoltre l'Italia stenta anche sul numero di donne laureate e sul numero di figli per donna, con percentuali fortemente al di sotto della media europea. Per le donne è sempre più difficile conciliare lavoro e maternità, con conseguente naturale diminuzione del tasso di natalità. Sarebbe pertanto necessario rimuovere tutti gli ostacoli che disincentivano le donne dal cercare un lavoro, distribuendo in maniera più equa l'impegno familiare tra uomo e donna. Purtroppo nel contratto di Governo le donne sono menzionate come gli unici soggetti responsabili del dover conciliare i tempi da dedicare alla famiglia e al lavoro. Infine, molte delle misure introdotte dai precedenti Governi a sostegno delle madri sono in scadenza. Se non verrà rinnovato, scomparirà il cosiddetto voucher baby sitter per le donne che decidono di rientrare al lavoro, nonché il congedo di paternità obbligatoria, anch'esso in scadenza a fine 2018. L'interrogante chiede di sapere se da parte del Ministro vi sia consapevolezza della problematica espressa e quali misure intenda adottare per ridurre il divario con gli altri Paesi europei, valorizzando il talento femminile, favorendone l'alta formazione e introducendo nuove e apposite misure a sostegno delle madri che lavorano o, quantomeno, se intenda garantire il rifinanziamento delle misure già introdotte dai precedenti Governi. PRESIDENTE. Il ministro dello sviluppo economico e del lavoro e delle politiche sociali, onorevole Di Maio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DI MAIO</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali</note>
+            <u ana="#guest" who="#DiMaioLuigi" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u17">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg50">Signor Presidente, senatrici e senatori, siamo consapevoli che l'Italia si colloca agli ultimi posti in Europa rispetto ai tassi di occupazione femminile, con un gender gap molto marcato e un differenziale tra maschi e femmine in termini di occupazione pari al 19 per cento in media su tutto il territorio nazionale. A livello regionale ci sono molte variazioni e si va da un valore minimo di 10 punti percentuali di differenza in Valle D'Aosta a un valore massimo di 25 punti percentuali in Sicilia. La prima missione di questo Governo è riconoscere adeguate tutele ai lavoratori più deboli, superando forme di precariato e discriminazione. Le donne purtroppo rappresentano ancora una fascia particolarmente vulnerabile nel momento dell'ingresso e della stabile permanenza nel mondo del lavoro. In vista della prossima legge di bilancio, stiamo valutando un quadro di interventi in grado di assicurare risposte efficaci e durature. Stiamo valutando una razionalizzazione e una stabilizzazione di misure di sostegno finanziario alla natalità attualmente previste. Vogliamo investire nelle famiglie italiane e far sentire loro la vicinanza dello Stato in ogni momento in cui ne hanno bisogno. In particolare, stiamo considerando la possibilità d'introdurre una misura forte, di copertura totale del costo per gli asili nido, in modo da favorire la conciliazione famiglia-lavoro. Alla copertura degli oneri si potrà provvedere anche con risorse comunitarie del Fondo sociale europeo, oltre che con una riorganizzazione di diversi contributi, attualmente frammentati. Infine, dal momento che c'è un forte legame tra bassi tassi di occupazione e bassi tassi di scolarizzazione, vogliamo intervenire nel medio periodo su programmi mirati verso donne, giovani madri e donne con bassi tassi di scolarizzazione. Solo il 25 per cento delle donne con una licenza di scuola media lavora, mentre il 75 per cento di donne con una laurea lavora. Agiremo quindi su programmi mirati e sull'accrescimento delle competenze. In questa direzione va anche l'introduzione dello strumento del reddito di cittadinanza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-Sp-PSd'Az.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u18">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg51">Ha facoltà di intervenire in replica la senatrice Unterberger, per due minuti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg52">Avrei però una preghiera, colleghi: in Aula non si fanno foto con i cellulari. È rigorosamente vietato, vorrei non doverlo dire di più.</seg>
+            </u>
+            <note type="speaker">UNTERBERGER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#UnterbergerJulia" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u19">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg53">Egregio Ministro, prendo atto della sua risposta e mi auguro che questa tematica finalmente trovi davvero l'attenzione che le spetta. Penso che sia una grande problematica dell'Italia quella di avere un potenziale di donne che non può lavorare perché non ci sono misure che permettono la conciliazione tra lavoro e famiglia.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg54">Purtroppo, come ripeto sempre, nel vostro contratto di Governo si parla delle donne nel capitolo delle misure per la famiglia e quando si parla di misure per la famiglia si parla solo dei compiti delle donne. In futuro, anche gli uomini dovrebbero assumersi una parte di tali compiti non retribuiti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Malpezzi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg55">Inoltre, poiché tanti altri Paesi nel Nord d'Europa hanno un altissimo tasso di occupazione femminile e anche un tasso di natalità molto alto, si dovrebbe semplicemente osservare quali misure hanno adottato per arrivare a questo risultato e magari copiarne alcune; penso, ad esempio, ad un congedo di paternità che valga un mese, e solo per i padri, con una retribuzione dell'80 per cento. (</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV) e PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00150) - Question time su trattamenti pensionistici sindacalisti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u20">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg56">Il senatore Urso ha facoltà d'illustrare l'interrogazione 3-00150 sui trattamenti pensionistici dei sindacalisti, per tre minuti.</seg>
+            </u>
+            <note type="speaker">URSO (FdI)</note>
+            <u ana="#regular" who="#UrsoAdolfo" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u21">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg57">Signor Ministro, lei si è molto impegnato e soprattutto si è molto espresso in questi primi mesi di Governo - e anche nel suo precedente impegno politico - nei confronti della lotta ai cosiddetti privilegi, cosa sicuramente condivisibile, specialmente a fronte di quanto emerge dalle statistiche - com'è successo anche ieri - per esempio della Svimez, sul Mezzogiorno, o dell'Istat, sul crescente aumento della povertà in Italia e delle diseguaglianze tra ricchi e poveri e tra Regioni ricche e povere.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg58">L'abbiamo vista però stranamente silente su uno dei fronti che più colpiscono l'opinione pubblica e proprio i lavoratori, ossia i cosiddetti privilegi di alcuni sindacalisti. Nello stesso sito web dell'INPS - facilmente visibile a qualunque lavoratore voglia informarsi - c'è scritto che i sindacalisti hanno alcune regole contributive diverse dagli altri lavoratori, perché possono vedersi ugualmente versati i contributi - o addirittura lo stipendio - da enti terzi rispetto al sindacato presso il quale prestano effettivamente il proprio lavoro e perché, prima di andare in pensione, possono farsi pagare dalle organizzazioni sindacali incrementi delle proprie pensioni a condizioni molto vantaggiose. I sindacalisti svolgono una funzione assolutamente necessaria nel nostro Paese. Proprio per questo, trattandosi di una funzione necessaria che risponde anche alla vocazione etica di tutelare e rappresentare i lavoratori, dovrebbero avere, come chiunque altro svolge rappresentanza politica, sociale e sindacale, un comportamento che non sia scandaloso, come quello che è apparso a molti leggendo questo stesso sito web. Signor Ministro, le chiediamo se intende porre fine a questi privilegi. Essi riguardano certamente anche i contributi figurativi, come altre categorie; riguardano il distacco sindacale, soprattutto quando è fatto da enti pubblici - che sono tanti e troppi e, soprattutto, il decreto legislativo n. 564 del 1996, emanato su proposta dell'allora ministro Treu, che consente ai sindacalisti di aumentarsi la retribuzione negli ultimi mesi per gonfiarsi le pensioni. Per questo le chiediamo se lei risponderà alle richieste del presidente dell'INPS che dice che c'è bisogno solo del suo nulla osta per eliminare questo privilegio, quale sia il numero dei sindacalisti che ad oggi ne traggono beneficio e, inoltre, se intende procedere al ricalcolo delle pensioni anche…</seg>
+               <incident type="sound">
+                  <desc>Il microfono si disattiva automaticamente</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg59">. Congratulazioni). PRESIDENTE. Il ministro dello sviluppo economico e del lavoro e delle politiche sociali, onorevole Di Maio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti</seg>
+            </u>
+            <note type="speaker">DI MAIO</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali</note>
+            <u ana="#guest" who="#DiMaioLuigi" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u22">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg60">Signor Presidente, ringrazio il senatore interrogante.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg61">Innanzitutto tengo a ribadire in quest'Aula che questo Governo, così come è previsto dal contratto di Governo, vuole mettere fine a tutti i privilegi, vitalizi, auto blu e pensioni di privilegio. Tutto ciò che è privilegio va eliminato perché è ora che si ristabilisca che tutti i cittadini sono uguali e devono essere trattati alla stessa maniera.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg62">Questo discorso vale anche per i privilegi sindacali, sui quali chiaramente interverremo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg63">Stiamo già lavorando, in collaborazione con l'INPS, per eliminare le cosiddette pensioni d'oro e le dico che nulla osta, secondo questo Ministero, a metter mano alla pensione dei sindacalisti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg64">La peculiarità dell'ordinamento previdenziale per i sindacalisti consente loro di avere una pensione di privilegio incrementando la retribuzione pensionabile negli ultimi anni di servizio. Il versamento della contribuzione aggiuntiva produce, infatti, un incremento delle quote di pensione calcolate ancora con il sistema retributivo, in quanto risultano agganciate allo stipendio degli ultimi anni di servizio. Peraltro, c'è una notevole disparità di trattamento tra sindacalisti che sono dipendenti pubblici o iscritti ai fondi esclusivi dell'assicurazione generale obbligatoria e sindacalisti che non lo sono.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg65">Interverremo in maniera risoluta per impedire che questi privilegi vengano mantenuti. Non sono ammissibili incrementi anomali e cospicui delle retribuzioni dei sindacalisti in un così breve lasso di tempo, senza che nello stesso tempo risultino essersi verificate variazioni negli incarichi di dirigenza sindacale conferiti perché ciò comporta degli sproporzionati privilegi in termini di prestazione pensionistica a danno della finanza pubblica e delle tasse dei cittadini.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg66">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Urso, per due minuti.</seg>
+            </u>
+            <note type="speaker">URSO (FdI)</note>
+            <u ana="#regular" who="#UrsoAdolfo" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u23">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg67">Signor Ministro, siamo soddisfatti perché le abbiamo dato questa possibilità di esprimersi finalmente su questo argomento anche in una sede pubblica.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg68">Siamo soddisfatti perché ha preso un impegno ufficiale a dare il nulla osta al presidente dell'INPS per eliminare da subito il privilegio più scandaloso: quello dei sindacalisti che vedono aumentata artificiosamente la retribuzione negli ultimi mesi del mandato per costruire delle pensioni d'oro. Pensioni che sono scandalose perché parliamo di chi deve difendere i diritti dei lavoratori.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg69">L'aspettiamo, pronti a giudicarla positivamente con un comunicato, quando lei firmerà il nulla osta.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg70">Sono passati due mesi di Governo. Capisco che il tempo è stato dedicato ad altro. Aspettiamo i prossimi giorni per ottenere la notizia e le chiediamo nel contempo, ma lo faremo anche in un altro momento, se come Ministro dello sviluppo economico vorrà dare continuazione anche al provvedimento, non riproposto dal Ministro precedente, in merito ai tetti degli stipendi dei manager pubblici, che nel frattempo, in mancanza di un suo provvedimento, si sono in alcuni casi triplicati, con retribuzioni che hanno raggiunto anche il milione di euro. L'aspettiamo anche su questo privilegio che viola una direttiva del Governo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00157) - Question time su introduzione reddito di cittadinanza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u24">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg71">Il senatore Floris ha facoltà di illustrare l'interrogazione 3-00157 sull'introduzione del reddito di cittadinanza, per tre minuti.</seg>
+            </u>
+            <note type="speaker">FLORIS (FI-BP)</note>
+            <u ana="#regular" who="#FlorisEmilio" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u25">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg72">Signor Presidente, signor Ministro, se c'è una cosa del Regolamento che avremmo dovuto cambiare nella scorsa legislatura è proprio il question time, che non dà il tempo di esporre il quesito e naturalmente neanche la conseguente risposta. Il mio quesito verte sul tema del reddito di cittadinanza, signor Ministro: in una recente trasmissione televisiva lei ha annunciato che nel disegno di legge di bilancio 2018 saranno contenute le soluzioni per l'introduzione del reddito di cittadinanza. Se non sbaglio, si tratta di un reddito che comporta un esborso di circa 16 miliardi di euro. Poi naturalmente potrà correggermi e fornirmi i dati in suo possesso, ma non sappiamo da quali fonti e da quali cespiti verranno individuate queste risorse e in misura così importante. Secondo quanto proposto negli emendamenti degli scorsi anni, si pensa a un aumento del prelievo erariale unico sui giochi, peraltro già aumentato nel cosiddetto decreto dignità; a un aumento delle imposte addizionali; a un aumento delle imposte per chi estrae gas e via dicendo: in ogni caso si parla sempre di un aumento delle imposte. L'ultima novità che avevate proposto era quella di far derivare queste risorse dal taglio delle pensioni di sei volte il minimo (3.000 euro al mese), che avrebbero subito un taglio dallo 0,1 fino al 32 per cento. Il reddito di cittadinanza che volete introdurre a me pare che sia uno strumento abbastanza pericoloso, perché, soprattutto al Sud, potrebbe creare quella sorta di reddito per cui la persona disoccupata non cerca più di reinserirsi nel mondo del lavoro. Peraltro, laddove si dovesse reinserire, lo farebbe magari svolgendo lavoro in nero, con questo creando un danno alle tante imprese che lavorano rispettando la legge. Sul finanziamento in questione, a sostegno all'intrapresa del reddito di cittadinanza che lei vorrà realizzare, vorremmo conoscere da lei se sia più o meno vero che si partirà dal 2018 e se non ritenga di indicare le risorse necessarie, le modalità di recupero delle stesse e se e quali misure intende adottare per prevenire eventuali abusi nell'utilizzo di questo strumento. PRESIDENTE. Il ministro dello sviluppo economico e del lavoro e delle politiche sociali, onorevole Di Maio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DI MAIO</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali</note>
+            <u ana="#guest" who="#DiMaioLuigi" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u26">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg73">Signor Presidente, faccio presente che il reddito di cittadinanza è una delle priorità di questo Governo e la sua istituzione è prevista proprio dal contratto che è stato stipulato tra le due forze politiche di maggioranza. Soprattutto, secondo noi, è una priorità per il Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg74">Davanti al continuo impoverimento delle famiglie italiane non si può più restare inermi, né proporre palliativi che non risolvono il problema. C'è bisogno di una vera e propria manovra economica. Secondo l'ISTAT, le famiglie in condizione di grave deprivazione materiale sono oltre l'11 per cento del totale.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg75">Il reddito di cittadinanza ha la duplice funzione di togliere le persone dallo stato di povertà in cui vivono e di formare per il lavoro i cittadini che sono disoccupati. Esiste praticamente, in forme diverse, fatta eccezione per l'Italia e per la Grecia, in tutti i Paesi dell'Unione europea. È quindi ora che questa misura a riconoscimento della dignità della persona venga introdotta anche nel nostro Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg76">La proposta di legge sul reddito di cittadinanza è pronta e stiamo già lavorando in tal senso in coordinamento con il Ministero dell'economia per gli ultimi dettagli. Avrete modo a breve di discutere tutti i dettagli del reddito di cittadinanza in questo ramo del Parlamento.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg77">Dal lato dell'incontro tra domanda e offerta predisporremo una banca dati per la classificazione e l'incrocio dei dati. Il sistema informativo unico verrà alimentato con informazioni elettroniche continue da Ministeri e istituzioni, con la registrazione elettronica di qualifiche e competenze dei lavoratori e con la creazione di un fascicolo personale elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg78">Per contrastare gli abusi, sono previste delle sanzioni pesanti per coloro che dichiarano il falso sulla situazione reddituale o lavorativa e possono così ottenere illegittimamente il reddito. Sono previste sanzioni anche verso i funzionari pubblici responsabili di un'assegnazione illegittima di questo strumento. Allo stesso tempo, i beneficiari devono impegnarsi a trovare lavoro con l'aiuto dei centri per l'impiego riorganizzati e devono rendersi disponibili a lavorare e ad accrescere le loro competenze. Si impegneranno anche in progetti utili alla collettività fino a un massimo di otto ore settimanali e non potranno rifiutare le offerte che saranno loro poste.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg79">Oltre ad impegnarsi in una ricerca attiva del lavoro per almeno due ore al giorno, dovranno formarsi, quindi non potranno starsene sul divano.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg80">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Floris, per due minuti.</seg>
+            </u>
+            <note type="speaker">FLORIS (FI-BP)</note>
+            <u ana="#regular" who="#FlorisEmilio" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u27">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg81">Signor Ministro, dovrei dirmi soddisfatto della sua risposta, fermo restando che non ha risposto al quesito più importante, ovvero come ritenete di potere avere la somma necessaria per pagare questo reddito di cittadinanza.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg82">Per quanto riguarda le esperienze, posso dirle che, a mia conoscenza, esiste un precedente in Europa di introduzione del reddito di cittadinanza ed è la in Finlandia, dove l'esperimento coinvolgeva 2.000 soggetti. Dopo un anno, l'esperimento è stato interrotto, perché anche in Finlandia chi lo percepiva non cercava altro lavoro. Questo è il problema. Se poi lei mi dice che il lavoro deve essere cercato tramite i centri per l'impiego, allora sono sicuro che queste persone non verranno mai più reinserite nel mondo del lavoro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg83">Magari il centro per l'impiego funzionerà, ma ciò avverrà nell'arco dei prossimi due o tre anni, allorquando verrà totalmente modificato e lei, signor Ministro sa che i centri per l'impiego in Italia non funzionano, se è vero che solamente l'1 per cento della popolazione attiva trova lavoro tramite questi centri.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00156) - Question time su contratto relativo a velivolo di Stato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u28">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg84">La senatrice Lupo ha facoltà di illustrare l'interrogazione 3-00156 sul contratto relativo ad un velivolo di Stato, per tre minuti.</seg>
+            </u>
+            <note type="speaker">LUPO (M5S)</note>
+            <u ana="#regular" who="#LupoGiulia" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u29">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg85">Signor vice Presidente del Consiglio e ministro dello sviluppo economico, Luigi Di Maio, il quesito riguarda la vicenda dell'aereo di Stato Airbus A340-500, tornata da poco alla ribalta della cronaca politica, la cui situazione contrattuale è stata poco chiara fino a poco tempo fa. Risulta, tra l'altro, che Alitalia sia stata usata o chiamata in causa - quindi è un dossier nelle mani dello Sviluppo economico - per la stipula di un contratto che fino a poco tempo fa risultava difficile da sciogliere. Ora ci si chiede quale sia l' iter procedurale che ha seguito l'attuale Governo per la cessazione degli effetti del rapporto contrattuale; se risultino clausole negoziali che prevedono un'opzione di acquisto del velivolo e - in tal caso - a quale prezzo, e se lo stesso velivolo risulti aver operato una o più tratte o che non abbia quasi del tutto volato; se risulti chi abbia voluto e individuato il velivolo e se vi siano state delle deleghe da parte della Presidenza del Consiglio dell'allora Governo Renzi</seg>
+               <vocal type="speaking">
+                  <desc>commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg86">; chi, soprattutto, abbia sottoscritto il suddetto contratto; quale sia oggi il valore del velivolo e il costo complessivo in termini di oneri diretti e indiretti connessi alla stipula contrattuale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg87">MALPEZZI (PD). La prossima volta, dillo con parole tue! PRESIDENTE. Il ministro dello sviluppo economico e del lavoro e delle politiche sociali, onorevole Di Maio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DI MAIO</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali</note>
+            <u ana="#guest" who="#DiMaioLuigi" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u30">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg88">Signor Presidente, l'Airbus A340-500 è per me uno dei simboli degli sprechi e dei privilegi che noi sentiamo il dovere di eliminare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg89">PRESIDENTE. Non c'è bisogno né di applausi né di contestazioni. Lasciate rispondere il Ministro.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg90">, vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali. Con una lettera, io e i ministri Danilo Toninelli ed Elisabetta Trenta abbiamo chiesto formalmente ai commissari Alitalia di risolvere quel contratto, che prevede quattro salatissime voci di spesa: prima di tutto il leasing, 81 milioni di euro; poi la manutenzione, 31 milioni di euro; poi l' handling, 12 milioni di euro, e l'addestramento piloti, 4 milioni di euro, per un costo complessivo che arriverebbe intorno a 150 milioni di euro in otto anni, con la mancata riconfigurazione interna dell'aeromobile. Si tratta di soldi che non vanno ad Alitalia, il nostro vettore, ma nella quasi totalità a beneficio di Etihad, la proprietaria dell'Airbus A340-500. Stiamo parlando di un quadrimotore turbofan, uscito dal mercato nel 2011 e quindi superato e obsoleto; un apparecchio fuori dal tempo, proprio come l'idea stessa di utilizzare questo velivolo per soddisfare esigenze puramente narcisistiche: uno spreco.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Commenti e proteste dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg91">FARAONE (PD). Ma vergogna! DI MAIO , vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali. Signor Presidente, posso continuare?</seg>
+               <vocal type="shouting">
+                  <desc>Reiterate proteste dal gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg92">PRESIDENTE. Lasciate finire il Ministro! Avrete modo di presentare, anche attraverso altre interrogazioni, il vostro punto di vista e chiedere quello che volete. È possibile? Sarà possibile.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Bellanova.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg93">Non c'è bisogno di protestare, senatrice Bellanova. Faccia finire.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg94">LAUS (PD). Falso! DI MAIO , vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali. La ringrazio, signor Presidente. Uno spreco multimilionario ai danni dei cittadini italiani. Per noi è una non questione banale, ma di principio. Qualcuno deve rendere conto della totale disinvoltura con cui sono stati usati i soldi pubblici. Qualcuno potrebbe raccontarci tutta la verità su questa storia. Qualcuno dovrebbe assumersi la responsabilità di pagare un prezzo se ha sbagliato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Commenti e proteste dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg95">Io prendo l'impegno, a nome del Governo e davanti a tutti gli italiani, di andare fino in fondo a questa storia e svelarne tutti gli opachi dettagli: quanto ci è costato realmente questo velivolo e quali siano stati i veri motivi del suo acquisto. Ricordo che anche la Corte dei conti sta indagando per vederci chiaro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Commenti e proteste dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg96">Signor Presidente, poi mi fa recuperare il tempo. Io cerco di stare nei tempi.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg97">PRESIDENTE. Colleghi, dovrò concedere dei minuti in più al Ministro se continuate a interrompere! DI MAIO , vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali. È l'ultimo capoverso, e poi è finita la sofferenza!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg98">PRESIDENTE . Colleghi, io non credo che una seduta di Aula possa consistere in applausi e contestazioni. Ognuno può dire ciò che vuole. Il Ministro sta rispondendo a una interrogazione. Io chiederei silenzio, da una parte e dall'altra. MARCUCCI (PD). Ma non sta rispondendo affatto! MIRABELLI (PD). Ma anche il Ministro deve rispettarci! MALPEZZI (PD). «Narcisismo» non è una risposta! DI MAIO , vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali. Io mi sono recato a vedere il velivolo in questione nell' hangar di Fiumicino e mi ha letteralmente impressionato.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti ironici dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg99">Chi parla a sproposito di operazione di propaganda dovrebbe andare a vederlo e poi fare un giro nel mondo reale e constatare - ad esempio - in quali condizioni versano i treni regionali usati ogni giorno da migliaia di pendolari italiani.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg100">VALENTE (PD). Vergognati! FARAONE (PD). Sei un buffone! Vai su Facebook! VOCI DAL GRUPPO PD. Ma vai via! PRESIDENTE. Allora, se continuate in questo modo, devo interrompere la diretta televisiva. Si farà così. Non ammetto che vi siano offese.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg101">Signor Ministro, termini per cortesia.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg102">, vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali. È l'ultima frase, Presidente. Se posso, la pronuncio; altrimenti, se il Senato non vuole, io vado via.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg103">VALENTE (PD). Sii serio! PRESIDENTE. Senatrice, la invito a smetterla; altrimenti deve uscire dall'Aula. FARAONE (PD). Fuori! PRESIDENTE. Fuori lo posso dire soltanto io e nessun altro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg104">Prego Ministro.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg105">, vice presidente del Consiglio dei ministri e ministro dello sviluppo economico e ministro del lavoro e delle politiche sociali. Signor Presidente, semplicemente noi pensiamo sia arrivato il momento di pensare solo ai cittadini italiani e, quindi, dismetteremo questo giocattolo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg106">MALPEZZI (PD). Rispondi ai rappresentanti dei cittadini! LAUS (PD). Bugiardo! FARAONE (PD). Bugiardo!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u31">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg107">Colleghi, non vorrei arrivare al punto di farvi uscire dall'Aula. Se qualcuno qua dentro vuole offendere, sarò costretta a farlo uscire. Non trovo dignitoso per la politica, le istituzioni e questo Parlamento avere un atteggiamento di siffatto tipo. Ognuno dice quello che vuole, ma le offese non sono ammesse in quest'Assemblea. Non c'è bisogno di offendere per esprimere un proprio concetto o idea.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg108">FARAONE (PD). Lo dica a lui! PRESIDENTE. Se succede ancora, sospendo la diretta televisiva e faccio uscire. PRESIDENTE. Ha facoltà di intervenire in replica la senatrice Lupo, per due minuti.</seg>
+            </u>
+            <note type="speaker">LUPO (M5S)</note>
+            <u ana="#regular" who="#LupoGiulia" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u32">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg109">Signor Presidente, signor Ministro, onde evitare ulteriori polemiche, dico subito di ritenermi molto soddisfatta per la risposta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg110">BELLANOVA (PD). Bravo! LUPO (M5S). Sono certa che questo Governo non userà più la compagnia nazionale Alitalia per altri fini. Signor Ministro, la ringrazio per la risposta e grazie anche all'opposizione per aver dimostrato che stiamo facendo un ottimo lavoro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg111">MALPEZZI (PD). Fake news vivente!</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00151) - Question time su misure per contrastare forme illegalità in lavoro agricolo</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u33">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg112">La senatrice De Petris ha facoltà di illustrare l'interrogazione 3-00151 sulle misure per contrastare le forme di illegalità nel lavoro agricolo, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u34">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg113">Signor Presidente, dispiace che il ministro Di Maio vada via, perché credo che la domanda dovrebbe in qualche modo interessare anche lui.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg114">Ministro Centinaio, lei conosce perfettamente i dati ISTAT relativi al 2017, che confermano, ancora una volta, che il settore primario è tutt'ora fortemente interessato da forme di illegalità nei rapporti di lavoro, con irregolarità rilevate che riguardano il 39 per cento dei rapporti di lavoro dipendente. Credo che lei sappia quanto me che, sulla base dei dati del Quarto rapporto agromafie e caporalato, sono tra i 400.000 e i 430.000 i lavoratori agricoli esposti al rischio di un ingaggio irregolare e sotto caporale. Di questi, più di 132.000 sono in condizione di grave vulnerabilità sociale e forte sofferenza occupazionale.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg115">Questi numeri, purtroppo, confermano uno scenario simile a quello degli anni precedenti: più di 300.000 lavoratori agricoli, ovvero quasi il 30 per cento del totale, lavorano meno di cinquanta giornate l'anno. È proprio in questo bacino in cui, presumibilmente, si annida il lavoro irregolare e grigio. Il tasso di irregolarità dei rapporti di lavoro in agricoltura è pari al 39 per cento. Secondo le stime, sono 30.000 le aziende che ricorrono all'intermediazione tramite caporale, ossia circa il 25 per cento del totale delle aziende del territorio nazionale che impiegano manodopera dipendente. Il 60 per cento di tali aziende ingaggia quelli che vengono definiti caporali capi squadra.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg116">Signor Ministro, credo che lei abbia potuto prendere visione delle condizioni dei lavoratori sottoposti in maniera molto grave a queste forme di sfruttamento di caporalato, con la paga media che varia dai 20 ai 30 euro al giorno, il lavoro a cottimo e lavoratori sotto caporale che devono pagare.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg117">Ministro, lei dovrebbe sapere - nella scorsa legislatura era senatore - quanto sia stato fondamentale approvare la legge n. 199 del 2016 in materia di caporalato. Eppure, dalle sue parole ha dato quasi l'idea di voler mettere mano a quella legge, che è entrata in vigore per la parte repressiva.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg118">Tutte le leggi hanno bisogno - a mio avviso - di un periodo di verifica per espletare i loro effetti, ma quello è stato un momento molto importante e significativo di civiltà del lavoro, di civiltà giuridica, di lotta contro le mafie e la criminalità organizzata.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg119">Non ritiene, quindi, lei, Ministro, che bisogna andare avanti nell'applicazione della legge, magari mettendo mano alle nuove disposizioni per quanto riguarda anche la parte sul trasporto e il collocamento su cui ancora si registrano ritardi? PRESIDENTE. Senatrice, la invito a concludere.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg120">La domanda precisa è che cosa intende fare. Intende smentire categoricamente di voler cambiare la legge sul caporalato, ampliando piuttosto la rete nazionale di qualità, che permetterebbe di poter fare grandi passi in avanti anche nell'adesione delle aziende?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-LeU</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg121">PRESIDENTE. Il ministro delle politiche agricole alimentari e forestali e del turismo, senatore Centinaio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CENTINAIO</note>
+            <note type="role">ministro delle politiche agricole alimentari, forestali e del turismo</note>
+            <u ana="#regular" who="#CentinaioGianMarco" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u35">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg122">Signor Presidente, onorevoli senatori, rilevo in premessa che sulle questioni rappresentate dagli interroganti, il Ministero è coinvolto direttamente in modo particolare per quanto riguarda la Rete del lavoro agricolo di qualità e la relativa cabina di regia, che costituiscono uno dei punti dell'azione di prevenzione del fenomeno del caporalato e del lavoro nero in agricoltura previsto dalla legge n. 199 del 2016.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg123">Tale norma si caratterizza per due componenti: una repressiva, che fornisce nuovi strumenti - come la confisca - e inasprisce le pene per chi sfrutta manodopera in stato di bisogno senza più la necessità di dover dimostrare l'uso della violenza come in passato; una preventiva, che mira a valorizzare le imprese in regola attraverso l'iscrizione alla Rete del lavoro agricolo di qualità. Su questa, il Ministero è fortemente impegnato e intende continuare a promuovere lo sviluppo di tale strumento anche attraverso l'incentivazione delle sezioni territoriali.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg124">Con la norma si è esteso l'ambito dei soggetti che possono aderire alla Rete e l'ambito delle funzioni svolte dalla cabina di regia della Rete stessa, che è presieduta dall'INPS e composta da rappresentanti di sindacati, organizzazioni agricole e istituzioni. Allo stato attuale, sono iscritte alla Rete 4.000 imprese. Ritengo che tale risultato vada rafforzato ancora attraverso un'azione di promozione della Rete e di ulteriore semplificazione dell'accesso per le aziende agricole La Rete del lavoro agricolo di qualità si articola in sezioni territoriali a cui possono aderire i soggetti che hanno stipulato le convenzioni previste dalla norma in parola. Tra le attività a esse attribuite, rientra la promozione di iniziative per la realizzazione di funzionali ed efficienti forme di organizzazione del trasporto dei lavoratori fino al luogo di lavoro, anche mediante la stipula di convenzioni con gli enti locali. Ad oggi, grazie all'impulso della nostra amministrazione e del commissario di Governo per emergenza criminalità a Manfredonia, è stata creata una sezione territoriale della Rete a Foggia. Analoga richiesta di costituzione della sezione territoriale è stata avanzata dal prefetto per l'area di San Ferdinando- Rosarno.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg125">In merito alla questione voucher, molti fra voi si sono detti favorevoli alla modifica della disciplina vigente relativa alle prestazioni occasionali in agricoltura. Uno dei primi interventi di questo Dicastero si è mosso proprio in tal senso, riconoscendo che si tratta di un'esigenza reale, avvertita da parte tanto degli imprenditori quanto dei lavoratori che svolgono il proprio impiego principalmente in alcuni periodi dell'anno e che oggi non riescono a utilizzare lo strumento messo loro a disposizione, perché non rispondente alle reali necessità. Pensando alla stagionalità del lavoro, i settori che risultano maggiormente coinvolti sono quelli dell'agricoltura e del turismo, e sono proprio questi alla base dell'intervento normativo su cui stiamo lavorando.</seg>
+               <vocal type="shouting">
+                  <desc>Richiami del Presidente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg126">Presidente, posso concludere? Altrimenti consegno il testo scritto.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg127">PRESIDENTE. Prego, Ministro, concluda molto rapidamente.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg128">, ministro delle politiche agricole alimentari, forestali e del turismo. Sappiamo bene che un'impresa agricola che si trovi a gestire, in un determinato periodo dell'anno, una mole di lavoro particolarmente gravosa ha la necessità temporanea di avvalersi di personale aggiuntivo. Si sta, quindi, lavorando in più direzioni, con lo scopo di superare le criticità sia dei vecchi voucher sia degli attuali. Prima di tutto, si vuole facilitare l'individuazione dei lavoratori disponibili; in secondo luogo, si vuole ampliare l'arco temporale in cui si può usufruire della prestazione, visto che, soprattutto in agricoltura, le condizioni meteorologiche potrebbero costringere ad un inevitabile ritardo dell'attività. Inoltre, senatrice, si intende facilitare l'erogazione del compenso che deve essere riscosso in modo semplice e veloce. Per finire, senatrice De Petris, non voglio modificare la legge sul caporalato. Non è mio interesse modificare la legge sul caporalato, ma verificare, insieme a voi, la sua applicabilità, la sua efficienza ed efficacia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg129">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice De Petris, per due minuti.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u36">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg130">Signor Presidente, signor Ministro, prendo atto del fatto che lei ha affermato che non intende modificare la legge sul caporalato e vuole verificarne l'efficienza. A tale proposito le dico subito, relativamente alla vicenda dei voucher, che noi riteniamo che l'aver reintrodotto le nuove norme sui voucher, in particolare in agricoltura, rappresenti di fatto un grimaldello per mettere in discussione quella legge, e le spiego anche perché: lei sa meglio di me che nel contratto nazionale dell'agricoltura è possibile anche l'assunzione giornaliera. Il voucher tra l'altro, spalmato per dieci giorni, significa, ancora una volta, un salvacondotto di fatto per il lavoro nero. Pensi soltanto che spalmare un voucher per dieci giorni significa un compenso di 2,80 euro al giorno. Praticamente fa concorrenza al prezzo stabilito dai caporali e dai criminali. Questo è il punto e non solo. Il contratto nazionale dell'agricoltura è il più flessibile di tutti e permette - anche con una giornata, o con mezza giornata - di poter riconoscere - per esempio - la maternità. Usare il voucher, invece, spalmato tra l'altro su dieci giorni, significa far saltare anche questo meccanismo. Significa ancora una volta che siamo pronti per l'ispezione. Per questo motivo, noi ovviamente ci batteremo contro le nuove norme sui voucher e, se lei davvero vuole applicare - e andare fino in fondo - la legge sul caporalato, dovrebbe essere il primo a opporsi alla loro introduzione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-LeU e PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00152) - Question time su incremento sostegno accoppiato comparto agroalimentare</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u37">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg131">Il senatore Bergesio ha facoltà di illustrare l'interrogazione 3-00152 sull'incremento del sostegno accoppiato nel comparto agroalimentare, per tre minuti.</seg>
+            </u>
+            <note type="speaker">BERGESIO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BergesioGiorgioMaria" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u38">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg132">Signor Presidente, signor Ministro, noi sappiamo che gli aiuti accoppiati riguardano comparti specifici di produzione agricola e sono mirati a sostenere l'attività. Trovano ragione nella peculiare importanza del settore, dal punto di vista economico, sociale e ambientale, e nel fatto che le aziende che vi operano siano sottoposte a particolari difficoltà o a criticità di breve o lungo periodo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg133">Su questo piano si annoverano questi ambiti per i quali esiste un rischio di abbandono, di declino della produzione, con ripercussioni negative sull'equilibrio agroalimentare e socio-economico di aree territoriali importanti. Seguendo queste finalità, il 26 luglio la Conferenza Stato-Regioni ha approvato lo schema di decreto del Ministero delle politiche agricole, alimentari, forestali e del turismo che prevede, per l'anno di domanda 2019, l'incremento del sostegno accoppiato previsto dalla politica agricola comune per le misure relative alla coltivazione della barbabietola da zucchero, del riso e del frumento duro.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg134">L'incremento del sostegno accoppiato per la barbabietola, il riso e il frumento duro, come specificato dallo stesso Ministero, è stato deciso per incoraggiare gli agricoltori ad assumere impegni ancora più incisivi in termini di sostenibilità dei processi produttivi, unica strada per differenziare le nostre produzioni italiane. Si trattava di un provvedimento molto atteso dal mondo produttivo e di un segnale concreto e deciso verso gli agricoltori. La filiera saccarifera ha un alto valore strategico per il nostro made in Italy, in quanto si tratta di una produzione di zucchero 100 per cento italiana, di qualità e che rispetta ogni regola sociale, ambientale, sicura e stabile nel tempo. Il settore dello zucchero, infatti, è reduce dalla fine delle quote a ottobre 2017 e da un processo di ristrutturazione molto forte. Lo stesso vale anche per il problema relativo alla coltivazione del riso. Il comparto sta attraversando una forte crisi. Noi siamo qui, Ministro, per chiedere se al fine di proseguire la linea intrapresa non ritenga opportuno favorire una concertazione tra tutte le parti interessate che coinvolga anche le Regioni, per trovare soluzioni che portino a un riequilibrio dei mercati e a un'equa valorizzazione a livello europeo delle eccellenze. Poi vorremmo sapere se non ritenga utile magari procedere a una valutazione degli effetti derivanti dall'applicazione di questo decreto-legge in termini di numero di aziende coinvolte e di benefici economici, e magari anche socio-economici, attesi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg135">PRESIDENTE. Il ministro delle politiche agricole alimentari e forestali e del turismo, senatore Centinaio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CENTINAIO</note>
+            <note type="role">ministro delle politiche agricole alimentari, forestali e del turismo</note>
+            <u ana="#regular" who="#CentinaioGianMarco" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u39">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg136">Signor Presidente, la proposta da me presentata per ottenere un mirato aumento del valore del pagamento accoppiato previsto dalla PAC in favore di barbabietola da zucchero, riso e frumento duro a tutela dei bieticoltori e dei risicoltori è stata approvata dalla Conferenza Stato-Regioni il 26 luglio ultimo scorso. Le progressive quotazioni in calo hanno reso necessario un tempestivo intervento per aumentare la redditività delle colture ed evitare che il protrarsi di situazioni particolarmente sfavorevoli e penalizzanti possa causare danni, anche irreversibili, alle aziende del settore bieticolo-saccarifero nazionale. Tali aspetti sono stati posti in varie occasioni all'attenzione delle istituzioni europee al fine di poter attivare misure mirate e specifiche che possano risultare più incisive per la difesa delle nostre produzioni, troppo spesso inficiate da condizioni sfavorevoli nei mercati europei e internazionali.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg137">Oltre a un costante monitoraggio sull'andamento dei mercati relativi alle produzioni che rappresentano il vanto del made in Italy agroalimentare, particolare risalto sarà attribuito all'etichettatura e alla rintracciabilità dei prodotti agricoli utilizzati in quanto tali o come ingredienti di prodotti agroalimentari. Peraltro, l'incremento del sostegno accoppiato in favore di barbabietole, riso e grano duro mira anche a incoraggiare gli agricoltori ad assumere impegni ancora più incisivi sulla sostenibilità dei vari processi produttivi, unica strada per differenziare le produzioni italiane di eccellenza e migliorarne la competitività sui mercati. La modifica dei pagamenti accoppiati rappresenta pertanto solo il primo passo nella direzione di valorizzare la produzione agroalimentare nazionale, in quanto molto di più dovrà essere fatto per affrontare le sfide che il prossimo decennio ci pone. Sarà necessario utilizzare con intelligenza e sinergia gli strumenti che la futura PAC ci offrirà, inaugurando una stagione di concertazione e condivisione utile a superare le divisioni del passato, sempre nel rispetto delle prerogative costituzionali delle Regioni in materia di agricoltura</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg138">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Bergesio, per due minuti.</seg>
+            </u>
+            <note type="speaker">BERGESIO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BergesioGiorgioMaria" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u40">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg139">Signor Presidente, approfittiamo per ringraziare il signor Ministro per la chiarezza espositiva, ancorché - come recita anche il contratto di Governo che sta portando avanti questa legislatura - gli agricoltori si muovano in un sistema governato da politiche di settore ormai quasi di competenza esclusiva della Politica agricola comune. Troppo spesso i Governi italiani sono stati remissivi e rinunciatari in Europa rispetto alle vere esigenze del settore agricolo nazionale. È necessaria una nuova presenza del Governo italiano a Bruxelles per riformare la PAC.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg140">Signor Ministro, la difesa del lavoro degli agricoltori passa attraverso il suo lavoro, passa attraverso il lavoro del Governo, delle nostre Commissioni e di questa Assemblea. Io credo che, attraverso le azioni che sono state intraprese, si vede già che c'è un azione diversa, diversificata e più forte. Ricordiamo sempre che nel nostro Paese abbiamo bisogno di competitività, ma soprattutto di difesa dei prodotti e delle produzioni dei nostri agricoltori che riguardano zootecnia, anche il comparto cerealicolo, l'ortofrutticolo e l'itticoltura.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg141">Signor Ministro, le auguro, buon lavoro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00153) - Question time su alcune dichiarazioni del Ministro della giustizia</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u41">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg142">Il senatore Cucca ha facoltà di illustrare l'interrogazione 3-00153 su alcune dichiarazioni del Ministro della giustizia, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CUCCA (PD)</note>
+            <u ana="#regular" who="#CuccaGiuseppeLuigiSalvatore" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u42">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg143">Signor Presidente, il tempo limitato a mia disposizione mi impone di richiamare il contenuto delle due interrogazioni a prima firma rispettivamente del senatore Parrini del 10 e 30 luglio scorso e della senatrice Valente del 30 luglio scorso.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg144">Considerate le gravi affermazioni che sono state rese dal Ministro della giustizia all'esito della seduta del Consiglio dei ministri del 24 luglio, durante la quale era stato approvato il cosiddetto decreto mille proroghe, a commento della norma che rinvia l'entrata in vigore della nuova normativa sulle intercettazioni, ella, signor Ministro, aveva mosso in maniera apodittica gravissime accuse verso il PD responsabile - a suo dire - di un comportamento diretto a legare le mani alla polizia giudiziaria e alla magistratura, impedendo altresì il diritto all'informazione, pur avendo la consapevolezza che l'obiettivo era esattamente il contrario.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg145">Considerato, altresì, che lei ha affermato più volte che uno dei primari obiettivi del Governo di cui lei fa parte è la lotta alla corruzione, che, data la diffusione, minerebbe alla radice le aspettative legittime dei cittadini onesti, prevaricate dal sistema delle raccomandazioni e della corruzione, salvo poi apprendersi dei suoi rapporti con l'avvocato Lanzalone, che come confermato in più sedi, anche ufficiali dalla stessa sindaca Raggi, era stato da lei segnalato proprio alla Raggi quale consulente su questioni rilevantissime, di estrema importanza; considerato, altresì, che appare quantomeno risibile il fatto che si debba ricordare al Ministro della giustizia che il suo compito precipuo è tutelare il principio di indipendenza della magistratura da condizionamenti del potere pubblico, si chiede di sapere da lei di quali informazioni il Ministro della giustizia sia in possesso per affermare che ogni volta che qualcuno del PD veniva ascoltato c'era il PD che cercava di tagliare la linea e le comunicazioni, chiarendo altresì sulla base di quale legge dello Stato, con quali modalità e con quali finalità ella abbia ottenuto queste informazioni, e se non ritenga doveroso, vista la gravità dei fatti riportati, informarne subito il Parlamento.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg146">Si chiede di sapere se non ritenga che le sue affermazioni siano state gravemente lesive delle prerogative e dei compiti della magistratura e della polizia giudiziaria e se, nel suo ruolo di Ministro, si sia attenuto al rispetto dell'applicazione delle leggi vigenti, nonché alla tutela delle prerogative e dei compiti di cui ho testé parlato; se, al fine di tutelare il ruolo istituzionale che ricopre, non ritenga necessario chiarire in tempi brevi la natura dei suoi rapporti con l'avvocato Lanzalone, in relazione ai fatti riportati in premessa e in ragione di quali valutazioni abbia inteso indicarlo alla sindaca Raggi come consulente; se in relazione ai suddetti fatti, a tutela del prestigio e dell'integrità delle istituzioni, lei non ritenga doveroso spiegare se dal giorno in cui lei è stato eletto alla Camera dei deputati a oggi siano intercorsi rapporti di natura professionale o di altro tipo tra il suo studio e quello dell'avvocato Lanzalone.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg147">Si chiede, infine, quali iniziative intende adottare al fine di rassicurare il Parlamento e l'intero Paese sul fatto che, nonostante i fatti riportati in premessa minino - a giudizio degli interroganti - in modo grave la credibilità del suo Ministero, ella possa ricoprire l'importante compito che è chiamato ad assolvere con onore e disciplina, nel massimo rispetto del prestigio dell'istituzione che presiede.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg148">PRESIDENTE. Il ministro della giustizia, avvocato Bonafede, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">BONAFEDE</note>
+            <note type="role">ministro della giustizia</note>
+            <u ana="#guest" who="#BonafedeAlfonso" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u43">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg149">Signor Presidente, innanzitutto mi sia consentito dire che ricordavo, da parlamentare, che il question time fosse uno strumento serio e importante, con cui il Parlamento pungola i Ministri sugli atti presi...</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg150">MARCUCCI (PD). Ma come si permette? MIRABELLI (PD). Presidente, deve dire qualcosa.</seg>
+               <vocal type="shouting">
+                  <desc>Richiami del Presidente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg151">PRESIDENTE. Non riesco a capire la protesta. Non la capisco francamente.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg152">, ministro della giustizia. Ricomincio, Presidente? MALPEZZI (PD). Stiamo scherzando? MARCUCCI (PD). Siamo pazzi? Non capisce la protesta? PRESIDENTE. Senatore Marcucci, non capisco la protesta, per il semplice fatto che sta parlando di una sua esperienza. Non lo condividete, pazienza. Avanti. MIRABELLI (PD). Ha occupato i banchi del Governo per cinque anni! MALPEZZI (PD). Inizia con le scuse. Scusati subito! PRESIDENTE. Vi pregherei di essere rispettosi del parere degli altri, anche se non condiviso. Prego, Ministro. Magari saltiamo tanti preamboli, per proseguire meglio. MARCUCCI (PD). È il Governo che deve essere rispettoso del Parlamento! BONAFEDE , ministro della giustizia. Signor Presidente, chiaramente il Partito Democratico avrà la possibilità di replicare rispetto a ciò su cui non concorda. VALENTE (PD). Sì, grazie, ce la dai tu. MALPEZZI (PD). Come la collega prima! BONAFEDE , ministro della giustizia. Dicevo, aventi ad oggetto atti del Governo. Non ricordavo che il question time fosse uno strumento per trasformare il Senato in un circolo ricreativo per forze politiche che non hanno niente da fare. PRESIDENTE. Ministro... FARAONE (PD). Ma basta!</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo PD.</desc>
+               </vocal>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg153">LAUS (PD). Buffone! MALAN (FI-BP). Vada via, Ministro! LONARDO (FI-BP). Vergogna! Fuori!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u44">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg154">Ministro, scusi, la pregherei...</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo PD. Richiami del Presidente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg155">Non riesco a parlare se non la smettete. Smettetela! Non riesco a parlare.</seg>
+               <vocal type="shouting">
+                  <desc>Vivaci proteste dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg156">Interrompo la seduta. Non riesco a parlare. Smettetela.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg157">Ministro, la pregherei, però...</seg>
+               <vocal type="shouting">
+                  <desc>Reiterate proteste dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg158">MARCUCCI (PD). Sei un bugiardo, sei un pagliaccio! MALPEZZI (PD). Vergognati! LAUS (PD). Vergognati! PRESIDENTE. Se voi parlate non riesco a parlare. State protestando inutilmente, perché non riesco a parlare. Se si sovrappongono le voci, non si riesce a capire niente.</seg>
+               <vocal type="shouting">
+                  <desc>Vivacissime proteste dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg159">Smettetela! MARCUCCI (PD). Noi la smettiamo? La deve smettere il Ministro. PRESIDENTE. Ho detto di smetterla. Non riesco a parlare così! Rivendico il mio ruolo. MIRABELLI (PD). Lo faccia! PRESIDENTE. Lo sto rivendicando. Ma se parlate voi, io non riesco a parlare. Uscite allora! VOCI DAL GRUPPO PD. Vergogna! Vergogna! Vergogna! VERDUCCI (PD). Sei un provocatore! COMINCINI (PD). Il circolo ricreativo! (Il senatore Comincini si avvicina ai banchi del Governo). CASTALDI (M5S). Cosa fai? PRESIDENTE. Nessuno si avvicini ai banchi del Governo! Ministro, la pregherei di proseguire. FARAONE (PD). Sei un buffone! MALPEZZI (PD). Vergognati!</seg>
+               <kinesic type="applause">
+                  <desc>I senatori dei Gruppi FI-BP, PD e FdI abbandonano l'Emiciclo. Applausi ironici dai Gruppi M5S e L-SP-PSd'AZ.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg160">PRESIDENTE. I Senatori Questori si avvicinino.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg161">Sospendo la seduta. (La seduta, sospesa alle ore 16,01, è ripresa alle ore 16,07). La seduta è ripresa. Chiudo la diretta televisiva. Chiedo che vengano allontanati dall'Aula i senatori Rampi e Lucidi; che entrambi i senatori vengano allontanati dall'Aula. Chiedo che si allontanino spontaneamente. Allora, Ministro, prima di continuare, vorrei dirle una cosa, con tutto il rispetto che posso avere nei suoi confronti. Siccome non sono riuscita a dirlo prima, perché mi è stato impedito di parlare per il chiasso che si è verificato in questa sede, io vorrei dire che a nessuno è permesso di usare delle espressioni che possano offendere la dignità di quest'Aula. Lo dico a lei e lo dico a tutti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, FI-BP, Aut (SVP-PATT, UV) e Misto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg162">Quindi mi scusi, ma neppure lei lo può fare.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg163">Siccome prima stavo tentando di dire questo e me lo avete impedito, pregherei tutti di tenere i toni bassi, perché forse riusciremo a intenderci. Prego, signor Ministro, prosegua.</seg>
+            </u>
+            <note type="speaker">BONAFEDE</note>
+            <note type="role">ministro della giustizia</note>
+            <u ana="#guest" who="#BonafedeAlfonso" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u45">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg164">Signor Presidente, le chiederò un po' di tempo in più, visto che in tre minuti devo rispondere a due tematiche completamente differenti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg165">Cominciamo dai miei rapporti con l'avvocato Luca Lanzalone, in particolare sul perché non l'avrei presentato alla sindaca Virginia Raggi nella mia qualità, allora, di coordinatore dei Comuni governati dal MoVimento 5 Stelle. Io davvero su questo fatto non ho più niente da aggiungere rispetto a quanto ho già ampiamente detto, e cioè che ho presentato un professionista eccellente...</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg166">MARCUCCI (PD). Eccellente! BONAFEDE , ministro della giustizia. ...che in quel momento aveva dimostrato a Livorno il suo valore. Chiaramente io ho pieno rispetto della magistratura... MALPEZZI (PD). Meno male! BONAFEDE , ministro della giustizia. ...e non posso sapere quale sarà l'esito delle indagini. Ho presentato un avvocato che in quel momento ritenevo eccellente. Mi viene poi chiesto quali siano i rapporti tra l'avvocato Luca Lanzalone e lo studio legale Bonafede &amp; Partners, cioè il mio. Su questo vi dico che, avendo avuto quattr'ore di tempo, non ho potuto preparare nemmeno un testo scritto, ma ho fatto mente locale: negli ultimi sei anni non ho avuto alcun rapporto professionale con l'avvocato Luca Lanzalone. Preciso che, per essere sicuro di rispondere correttamente, stamattina ho chiamato anche il mio commercialista per chiedergli se per caso, visto che il mio studio legale patrocinava cause in tutta Italia, ci fosse una fattura emessa dall'avvocato Luca Lanzalone nei miei confronti o viceversa, e non c'è. Spero che adesso questa faccenda possa ritenersi chiusa. Per quanto riguarda le intercettazioni, invece, non mi viene chiesto conto dell'atto, ma della rassegna stampa sull'atto e, in particolare, della mia seguente dichiarazione: «Ogni volta che qualcuno del PD veniva ascoltato, c'era il PD che cercava di tagliare la linea e le comunicazioni». Mi viene chiesto perché. MARCUCCI (PD). Certo! BONAFEDE , ministro della giustizia. Ora, a parte, devo dire, un certo masochismo degli interroganti, spiegherò perché ho fatto quelle dichiarazioni. Il provvedimento in questione, sulle intercettazioni, veniva approvato il 29 agosto 2014 dal Consiglio dei ministri e rimaneva lì congelato; il 2 dicembre, però, dopo che scoppiava il caso Mafia Capitale, il Governo sentiva improvvisamente l'esigenza di mandarlo in Aula. Il 10 luglio 2015 veniva fuori un'intercettazione - chiaramente niente di penalmente rilevante - tra l'allora presidente del Consiglio Matteo Renzi e il comandante Michele Adinolfi. Vuoi vedere che di nuovo per una coincidenza, pochi giorni dopo, il Governo sentiva l'esigenza di far convocare alla Commissione una seduta notturna, nella quale presentava l'emendamento Pagano, il cosiddetto emendamento bavaglio, che per fortuna, grazie anche all'attività del Parlamento, siamo riusciti a correggere in corsa. MIRABELLI (PD). E quindi? BONAFEDE , ministro della giustizia. Dopodiché, il 19 maggio 2017, all'indomani delle conversazioni - ripeto, non rilevanti da un punto di vista penale - tra l'allora premier Matteo Renzi e il padre emerse nel caso Consip, l'allora ministro Andrea Orlando dichiarava pubblicamente che il provvedimento sulle intercettazioni andava approvato in maniera celere, proprio per impedire quel tipo di intercettazioni.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Mirabelli.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg167">MARCUCCI (PD). Che c'entra? BONAFEDE , ministro della giustizia. A questo punto, ho rilevato nella conferenza stampa che c'è una strana coincidenza tra le varie circostanze e ho fatto una mia valutazione politica, che qui ribadisco e sottoscrivo nuovamente. MALPEZZI (PD). Era una valutazione personale. PRESIDENTE. Ministro, concluda. VOCE DAL GRUPPO PD. Sì, concluda, è meglio! BONAFEDE , ministro della giustizia. Detto questo, ho notato che le fonti che vengono prese in considerazione sono articoli di giornale e mie partecipazioni a trasmissioni televisive. Visto che la giustizia è una cosa seria, mi auguro che nei prossimi question time potremo affrontare con un grande livello di forte critica la mia attività di Ministro per i temi della giustizia che ai cittadini stanno a cuore.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD. Richiami del Presidente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg168">MARCUCCI (PD). Questo è un problema nostro! BONAFEDE , ministro della giustizia. Se si ritiene invece di dover continuare sulla scia del chiacchiericcio... MARCUCCI (PD). Nel quale si è specializzato... BONAFEDE , ministro della giustizia. ...segnalo allora agli interroganti che questa sera parteciperò ad una trasmissione radiofonica alle ore 19,30, che potrebbe essere spunto per il prossimo question time.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-Sp-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg169">VERDUCCI (PD). È un provocatore! MALPEZZI (PD). Vergogna! PRESIDENTE. Ha facoltà d'intervenire in replica la senatrice Valente, per due minuti.</seg>
+            </u>
+            <note type="speaker">VALENTE (PD)</note>
+            <u ana="#regular" who="#ValenteValeria" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u46">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg170">Signor Presidente, non possiamo ovviamente che dirci totalmente insoddisfatti per le mancate risposte del ministro Bonafede, che in questo intervento ha continuato a fare illazioni e allusioni, senza essere mai puntuale né rispondere una volta nel merito alle accuse che gli sono state rivolte.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg171">Nessuna risposta è arrivata dal Ministro a difesa della dignità e dell'onorabilità della magistratura, oltre che della sua autonomia e indipendenza, a parte frasi fatte.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg172">Non ha detto nulla sulla sentenza dei 49 milioni che non viene applicata, né ha detto alcunché soprattutto sulle dichiarazioni di Salvini rispetto al fatto che si sia trattato di una sentenza politica. Questo spetta a un Ministro della giustizia!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg173">Lei, in questi giorni, continua a dire che la sua priorità è la lotta alla corruzione. L'avvocato Lanzalone sarà anche stato un professionista degno e rispettoso, come lei l'ha definito, ma oggi è indagato in un'indagine per corruzione seria e rilevante. La magistratura appurerà le sue responsabilità. Noi siamo garantisti e lo siamo sempre, perché la doppia morale la lasciamo a voi, che cambiate a seconda di dove state, a seconda se sedete in questi o quei banchi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg174">Non vogliamo dire nulla su questo, però le voglio dire una cosa: un Ministro della giustizia parla innanzitutto delle cose che gli competono e, invece, lei, come Ministro della giustizia, di quello non parla. Però è stato solerte e puntuale quando si è trattato di avanzare segnalazioni e raccomandazioni di qualche suo amico collega, in questo caso l'avvocato Lanzalone. Signor Ministro, lei rischia di essere ricordato più che come un Ministro della giustizia, come un Ministro delle raccomandazioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg175">Dovremo dire a tanti giovani, come me e come lei, che sono avvocati, che bisogna conoscere un Ministro amico come lei per arrivare a lavorare in qualche studio. Non bisogna studiare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg176">Le chiedo merito, trasparenza e onestà che avete predicato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg177">PRESIDENTE. Senatrice, vale anche per lei, quello che ho detto prima al Ministro. Vale anche per lei il rispetto che deve a quest'Aula, anche nelle sue affermazioni.</seg>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u47">
+               <note>Domando di parlare sull'ordine dei lavori.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg178">Presidente, mi spiace, ma parto da questa sua ultima reprimenda che sinceramente non ho compreso. Signor Presidente, credo che ogni parlamentare abbia il diritto di esprimere i propri giudizi e la replica ha proprio questa funzione: esprimere... PRESIDENTE. Basta che i giudizi siano rispettosi. MARCUCCI (PD). I giudizi sono rispettosi per definizione. Se la collega ritiene che il Ministro abbia detto delle cose non vere o non sufficienti rispetto alle domande poste dal Partito Democratico, signor Presidente, abbiamo il diritto di dirlo all'Assemblea e al Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg179">Oggi credo che abbiamo assistito a un pessimo spettacolo: il ministro Di Maio si è fatto preparare l'interrogazione dalla collega per poter dire e fare la sua banale propaganda.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg180">Questa non è una trasmissione televisiva; questa è un'Aula parlamentare e si deve rispondere dicendo la verità con la trasparenza nei confronti del Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg181">Signor Presidente, lei ha il dovere di chiedere ai ministri Di Maio e Bonafede di rispettare il Paese e il Parlamento, di venire qua e rispondere puntualmente.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg182">PATUANELLI (M5S). Signor Presidente! Deve parlare sull'ordine dei lavori.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Laus</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg183">PRESIDENTE. Sta parlando sull'ordine dei lavori. Lo faccia finire.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg184">Capisco che il collega capogruppo Patuanelli abbia imbarazzo di fronte a queste verità, ma il tema è proprio l'ordine dei lavori. PATUANELLI (M5S). Non mi imbarazzo per niente. MARCUCCI (PD). Il tema è proprio sapere a cosa serve. Noi abbiamo il diritto di avere delle risposte puntuali come quelle che ha dato il suo collega Centinaio, che è stato rispettoso delle domande poste. Lei, signor ministro Bonafede, e il ministro Di Maio, che molto educatamente e poco rispettosamente è andato via subito, avete approfittato della giornata di oggi per fare propaganda, per non rispondere alle richieste puntuali, in particolare, dei partiti di opposizione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg185">Credo che l'urlo «vergogna!» si sia levato in conseguenza delle vostre mancate risposte.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MALAN (FI-BP)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u48">
+               <note>Domando di parlare sull'ordine dei lavori.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg186">Signor Presidente, ho chiesto la parola quando abbiamo abbandonato l'Aula di fronte alle offese ripetute e chiaramente volute del ministro Bonafede, un Ministro con delle competenze molto particolari. Ogni Ministro ha delle competenze importantissime, ma quello della giustizia più degli altri. Uno può esprimere l'opinione che vuole, ma quando si fa una deliberata offesa nei confronti del Senato, questo è davvero inaccettabile.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg187">Presidente, la ringrazio per avere richiamato il Ministro a questa norma di comportamento. Io vedo con preoccupazione il moltiplicarsi di gesti e di parole che non sono rispettosi del Parlamento e della vita democratica in generale. Per questo bisogna tenerli sotto controllo, non ritenerli accettabili e contrastarli giorno per giorno. Noi lo facciamo e vedo che anche oggi lei, Presidente, lo ha fatto, come non dubitavamo che avrebbe fatto. Spero che questo avvenga in tutte le istituzioni democratiche, perché sono un bene preziosissimo: non possiamo additarle a ludibrio e usarle magari a scopo televisivo per fare una becera propaganda antidemocratica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PATUANELLI (M5S)</note>
+            <u ana="#regular" who="#PatuanelliStefano" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u49">
+               <note>Domando di parlare sull'ordine dei lavori.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg188">Signor Presidente, l'imbarazzo che mi è stato attribuito dal presidente Marcucci, non solo lo respingo, ma credo che debba essere suo, quando sente rispondere in replica al Ministro sulla base di un testo scritto con mancate repliche a domande che non sono state fatte. Credo che l'imbarazzo debba essere del presidente Marcucci e che la lettura di un testo che si riferisce a domande non fatte e che accusa il Ministro di non aver risposto sia veramente ridicola.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg189">Chiedo sempre al Gruppo che ho l'onore di presiedere di essere rispettoso di quest'Aula e nei confronti di tutti i componenti dell'Assemblea, ma il rispetto si dimostra anche non dando del bugiardo al Ministro del lavoro e dello sviluppo economico o non definendo Ministro delle raccomandazioni un Ministro della Repubblica, qual è il Ministro della giustizia. Se rispetto deve esserci, questo deve essere da ambo le parti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">LA RUSSA (FdI)</note>
+            <u ana="#regular" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u50">
+               <note>Domando di parlare sull'ordine dei lavori.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg190">Signor Presidente, non tocca a me e non tocca a noi - lo ha fatto lei molto bene - sottolineare i toni e i modi con cui ci si debba rivolgere in quest'Aula, quindi trovo superfluo che da parte nostra si insista nel sottolineare i toni, sicuramente non adeguati del Ministro, o sottolineare le reazioni, a mio avviso, spesso altrettanto non adeguate. Semmai tocca - almeno questo è il mio intento, visto che ho chiesto di parlare sull'ordine dei lavori - sottolineare che siamo ancora in question time. L'ordine dei lavori non può essere l'occasione per rinfacciarsi reciprocamente comportamenti o linguaggi sbagliati usati. Questo spetta al Presidente, che lo ha fatto benissimo. Mi rivolgo al collega Marcucci. Al di là del contenuto del suo intervento, che non voglio qui giudicare... ASTORRE (PD). Sei più realista del re! LA RUSSA (FdI). ...può darsi che fosse assolutamente giusto nei contenuti, ma trovo che sia stato un fuor d'opera da parte del collega Marcucci approfittare di una richiesta di intervenire sull'ordine dei lavori per svolgere un intervento politico. Su questo, Presidente, la prego di registrare il mio intervento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg191">ASTORRE (PD). Dai che ve la danno una poltroncina!</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u51">
+               <note>Domando di parlare sull'ordine dei lavori.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg192">Signor Presidente, lei sa quanto io abbia sempre difeso la dignità di quest'Assemblea, anche in momenti molto complicati e difficili: la dignità dell'Assemblea, il fatto di invocare il rispetto di quest'Aula e la dignità del Senato della Repubblica. Quindi mi sono sentita particolarmente offesa - e come me, credo tutti i senatori - dalle parole del Ministro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-LeU, PD e FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg193">Lei ha fatto bene a riprenderlo e mi dispiace, Ministro, che lei non abbia chiesto scusa a quest'Assemblea. Mi dispiace moltissimo, perché il Presidente l'ha richiamata giustamente, come ha richiamato tutti, ad essere rispettoso ed avere garbo istituzionale, anche quando ci si scontra in posizioni diverse, e io mi aspettavo da lei delle scuse. Questo non potevo non farlo presente: lei aveva il dovere, come Ministro della Repubblica, di farlo e quando entra in quest'Aula deve farlo in punta di piedi, perché questa è ancora una Repubblica parlamentare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-LeU e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg194">L'ho ricordato qualche anno fa e lo voglio ricordare oggi: si entra in punta di piedi ai banchi del Governo. Non siamo un circolo ricreativo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg195">Noi abbiamo difeso qui la dignità di quest'Aula, l'abbiamo difesa qui dentro come fuori e non possiamo tollerare, né prima, né tantomeno oggi, che questa dignità sia vilipesa. Noi siamo tutti quanti eletti dai cittadini, caro Ministro, non siamo un circolo ricreativo, non so a cosa lei sia abituato, ma ancora aspettiamo le scuse a quest'Assemblea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-LeU, PD e FI-BP.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u52">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg196">Lo svolgimento delle interrogazioni a risposta immediata ( question time ) all'ordine del giorno è così esaurito.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u53">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg197">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di venerdì 3 agosto 2018</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.u54">
+               <seg xml:id="ParlaMint-IT_2018-08-02-LEG18-Sed-30.seg198">Il Senato tornerà a riunirsi in seduta pubblica domani, venerdì 3 agosto, alle ore 9,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 16,26).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

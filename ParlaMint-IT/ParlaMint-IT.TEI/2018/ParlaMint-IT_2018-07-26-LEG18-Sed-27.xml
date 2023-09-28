@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 27 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 27 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 27, giorno (2018-07-26)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 27, Day (2018-07-26)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="27-upper">27 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="264" unit="speeches" xml:lang="it">264 discorsi</measure>
+            <measure quantity="264" unit="speeches" xml:lang="en">264 speeches</measure>
+            <measure quantity="20844" unit="words" xml:lang="it">20.844 parole</measure>
+            <measure quantity="20844" unit="words" xml:lang="en">20,844 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1069813</idno>
+               <date when="2018-07-26">26.07.2018</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="14"/>
+               <tagUsage gi="head" occurs="12"/>
+               <tagUsage gi="note" occurs="183"/>
+               <tagUsage gi="seg" occurs="264"/>
+               <tagUsage gi="u" occurs="99"/>
+               <tagUsage gi="vocal" occurs="20"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="61"/>
+               <tagUsage gi="incident" occurs="2"/>
+               <tagUsage gi="desc" occurs="83"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2018-07-26">26.07.2018</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente TAVERNA</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u1">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg1">La seduta è aperta (ore 9,30). Si dia lettura del processo verbale. PISANI Giuseppe, segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u2">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Disegni di legge, annunzio di presentazione</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u3">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg3">Comunico che, in data 25 luglio 2018, è stato presentato il seguente disegno di legge: dal Presidente del Consiglio dei ministri «Conversione in legge del decreto-legge 25 luglio 2018, n. 91, recante proroga di termini previsti da disposizioni legislative» (717).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'ordine dei lavori</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u4">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg4">Informo l'Assemblea che all'inizio della seduta il Presidente del Gruppo MoVimento 5 Stelle ha fatto pervenire, ai sensi dell'articolo 113, comma 2, del Regolamento, la richiesta di votazione con procedimento elettronico per tutte le votazioni da effettuare nel corso della seduta. La richiesta è accolta ai sensi dell'articolo 113, comma 2, del Regolamento.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione e approvazione del disegno di legge: (675) Conversione in legge, con modificazioni, del decreto-legge 22 giugno 2018, n. 73, recante misure urgenti e indifferibili per assicurare il regolare e ordinato svolgimento dei procedimenti e dei processi penali nel periodo necessario a consentire interventi di edilizia giudiziaria per il Tribunale di Bari e la Procura della Repubblica presso il medesimo tribunale</note>
+            <note type="time">09,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/18/BGT/Schede/Ddliter/50227.htm</note>
+            <note type="time">(ore 9,35)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u5">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg5">L'ordine del giorno reca il seguito della discussione del disegno di legge n. 675, già approvato dalla Camera dei deputati.</seg>
+            </u>
+            <note>Ricordo che nella seduta di ieri il relatore ha svolto la relazione orale e ha avuto inizio la discussione generale.</note>
+            <note type="generalDiscussion">DISCUSSIONE GENERALE</note>
+            <note>È iscritto a parlare il senatore Stancanelli. Ne ha facoltà.</note>
+            <note type="speaker">STANCANELLI (FdI)</note>
+            <u ana="#regular" who="#StancanelliRaffaele" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u6">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg6">Signor Presidente, signor Sottosegretario, colleghe e colleghi, leggendo la rubrica del decreto-legge oggi in discussione mi ero quasi congratulato, perché si parla di interventi di edilizia giudiziaria per il tribunale di Bari e la procura della Repubblica presso il medesimo tribunale. Il mio primo pensiero è quindi stato che il Governo inizia con un'attività importante, quella dell'edilizia giudiziaria. E devo confessare ai colleghi che ho provato anche un po' di invidia, perché a Bari si sarebbe proceduto a interventi di edilizia giudiziaria, mentre il palazzo di giustizia della mia città, Catania, non è in queste condizioni (forse perché la sua costruzione è iniziata nel 1937), e sicuramente "scoppia" anche per quella situazione imbarazzante derivante dall'eliminazione di tutte le sezioni distaccate dei tribunali e dei tribunali del territorio. Questo momento di invidia mi è passato immediatamente appena sono andato a leggere il decreto-legge, in cui si parla di tutto tranne che di edilizia e prevede invece l'interruzione della prescrizione.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg7">Non mi attardo sulle questioni di incostituzionalità, perché sono intervenuto ieri, le abbiamo illustrate tutte e l'Assemblea ha ritenuto che la pregiudiziale di costituzionalità non fosse fondata, quindi entrerò nel merito del provvedimento non potendo però sottacere il fatto che la sospensione della prescrizione rappresenta un grave vulnus al nostro ordinamento giuridico. L'ho detto ieri e desidero ripeterlo: la prescrizione non è un termine processuale, ma è diritto sostanziale strettamente collegato alla potestas che ha lo Stato di punire e la punibilità è strettamente collegata alla prescrizione. Lo Stato ha cioè il diritto di punire, ma ha un tempo entro cui può esercitare questo potere; scaduto quel tempo, non è più possibile punire. L'articolo 25 della Costituzione sul principio di legalità è molto chiaro in proposito. Se poi la sospensione della prescrizione è dovuta a responsabilità dello Stato si verifica il paradosso: come è stato anche detto dal relatore, alcune volte nel nostro ordinamento si è verificata la sospensione della prescrizione, ma per motivi non derivanti dalla inadempienza dello Stato. Faccio riferimento, per esempio, ai casi in cui c'è stato un evento naturale non prevedibile come il terremoto. Tuttavia, il fatto che a Bari la situazione tragica illustrata anche ieri in quest'Aula si protragga da più di dieci anni e che a un certo punto i problemi della giustizia di quella città si risolvano con la sospensione della prescrizione, penso che sia abnorme. Se a questo si aggiunge che tutte le realtà della giustizia di Bari, che sono quelle che hanno sofferto e che soffrono questa situazione, si sono espresse nel corso delle audizioni presso la Camera dei deputati in maniera assolutamente negativa sul provvedimento in esame, è evidente il paradosso per cui da un lato il signor Ministro tenta di recuperare le difficoltà che gli sono state illustrate quando è andato a Bari, dall'altro risponde con un provvedimento che è in contrasto con le richieste di tutti gli attori della giustizia di Bari. Penso dunque che qui vediamo il paradosso di una giustizia malata, che non trova la possibilità di un riscontro da parte del Governo. Pur tenendo infatti presente che, ovviamente, l'attuale Governo non ha alcuna responsabilità in relazione alla situazione degli edifici giudiziari e del palazzo di giustizia di Bari, un intervento in questo senso non risolve alcun problema. Mi chiedo cosa faremo il 30 settembre: faremo una nuova proroga? La verità è un'altra, ovvero che il Ministro si era impegnato a risolvere il problema, ma non si assume la responsabilità che gli è stata proposta da tutte le opposizioni. Sono infatti stati presentati in Commissione giustizia degli emendamenti con cui si proponeva di affidare i pieni poteri - chiamiamoli così - attraverso un commissariamento straordinario in capo al Ministro, per risolvere, nel modo da lui ritenuto più opportuno, questa problematica, che incide molto sulla giustizia e sul tribunale di Bari. Ecco perché ritengo che il decreto-legge e il disegno di legge di conversione al nostro esame siano una offesa alla richiesta, che proviene dagli attori della giustizia barese. Non so cosa succederà dopo il 30 settembre: so soltanto che i vertici della magistratura di Bari hanno detto e ribadito che questa sospensione produrrà ulteriori effetti negativi. Infatti per riprendere tutta l'attività con almeno 60.000 notifiche - questo è quello che è stato indicato nella relazione - e recuperare tale arretrato ci vorranno dieci anni: così hanno detto...</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg8">PRESIDENTE. Colleghi, vi chiedo cortesemente di abbassare il tono della voce, perché non riesco ad ascoltare il collega senatore. Vi chiedo, per cortesia, di scambiarvi le informazioni in maniera più composta.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg9">Grazie, signor Presidente. Non so se ci vorranno dieci anni, ma ci vorranno sicuramente degli anni. Dunque si tratta di un rimedio che peggiora la situazione della giustizia a Bari. Ho ascoltato il Ministro in audizione, presso la Commissione competente, e devo dargli atto, in quest'Aula, che ha proposto delle soluzioni, in generale, che mi hanno visto per tanta parte favorevole e che, come dicevo ieri, l'ho visto predisposto all'ascolto. Non vorrei che, avendo preso questa iniziativa così, all'improvviso, oggi non voglia tornare indietro, alla luce del dibattito che si è sviluppato sia in Commissione che in Assemblea e che non abbia il coraggio di dire: «Abbiamo sbagliato». Può succedere che si sbagli: non è una cosa dell'altro mondo. È la prima volta che questa classe dirigente si trova a dover affrontare problemi concreti, che vanno al di là delle pure declamazione di principio. Penso dunque che, per venire incontro alle esigenze a cui si ritiene di dover rimediare con il decreto-legge in esame, si possa fare qualcosa che aiuti effettivamente la giustizia di Bari e vada incontro alle esigenze evidenziate da tutti gli attori della giustizia, gli avvocati, i magistrati, i cancellieri e i tecnici del tribunale di Bari, mettendo in condizioni il Ministro di fare concretamente il proprio dovere, dandogli ampia possibilità di agire. Questo è quanto noi riteniamo di dover dire, con un'aggiunta: io non vorrei che si andasse ancora avanti nel dire la piccola - o grande bugia - che ci sarebbe l'invarianza finanziaria. È stato detto ampiamente ieri e ne ha parlato il collega della Commissione bilancio del Partito Democratico, che ha spiegato come non c'è assolutamente invarianza finanziaria, perché rifare le notifiche (e non 3.000 o 4.000, ma 50.000, 60.000 o anche di più, come è stato calcolato), costerà di più dei 60.000 euro indicati nella relazione. Ecco perché, a nome del Gruppo Fratelli d'Italia, e come diremo anche in sede di dichiarazione di voto, esprimo grande insoddisfazione per un rimedio che aggraverà la situazione degli uffici giudiziari di Bari.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Pellegrini Emanuele. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">PELLEGRINI Emanuele (L-SP)</note>
+            <u ana="#regular" who="#PellegriniEmanuele" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u7">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg10">Signor Presidente, oggi siamo in Aula per dibattere sulla situazione derivante dall'inagibilità del palazzo di giustizia di Bari, figlia della situazione paradossale in cui versa lo stato della giustizia italiana. In particolare, vediamo come in una importante città italiana quale Bari non vi sia la possibilità, per un qualsiasi cittadino, di avere il sacrosanto diritto, a prescindere da ciò che abbia compiuto, di poter accedere al servizio giustizia in modo decoroso, ma soprattutto legittimo e sicuro. Se oggi dobbiamo dibattere della conversione del decreto-legge che sospende per un periodo limitato e definito il decorso dei termini dei procedimenti penali presso il tribunale di Bari è per intervenire su una situazione che è innegabilmente e clamorosamente emergenziale. Come si può pensare di dare tutela ai cittadini innocenti fino a prova contraria, se noi Stato non siamo in grado di dare una sede decente e minimamente sicura per tutti coloro che debbono accedervi? Come si può adempiere al contratto sociale se non riusciamo nemmeno a permettere ai dipendenti della giustizia di poter svolgere il proprio dovere? Come possiamo dirci adempienti, se ci si deve ridurre a lavorare in un camping malfatto e di fortuna come è successo fino a poche settimane fa? Tutto ciò è vergognoso. A chi oggi ci accusa di aver portato avanti una norma anticostituzionale, debbo però rispondere che questa norma è talmente incostituzionale che vuole garantire le indagini, che vuole rispettare i termini di tutte le parti coinvolte, comprese le difese. Forse ci si dimentica cos'è la Costituzione, forse ci si dimentica che la garanzia dei Padri costituenti è garanzia di libertà e nel nostro caso è garanzia di poter ricevere un processo giusto e corretto ed è nostro dovere fare ogni cosa per poter consentire questo processo. Un dovere cui stiamo adempiendo cercando soluzioni emergenziali in una situazione emergenziale. Premesso che la questione immobiliare non riguarda minimamente il provvedimento di esame, occorre rammentare che l'immobile è stato dichiarato inagibile nel maggio del corrente anno dal sindaco di Bari. Non possiamo tacere, peraltro, come la compagine di maggioranza locale è la stessa dal 2004 con il Partito Democratico. Lamentiamo, altresì, che l'ex sindaco Emiliano, oggi Presidente della Regione, è magistrato e quindi ben conscio della problematica, non nuova agli operatori del diritto di ogni categoria. In questo esercizio di ricostruzione storica, doverosa per chi ascolta e per tutti noi, dobbiamo anche evidenziare come suddetto immobile venne scelto come sede provvisoria nel 1990, come sede degli uffici giudiziari, ma già nel 2002 cominciavano a sorgere problemi, quando il palazzo venne sequestrato per abuso edilizio, con facoltà d'uso dell'immobile. Successivamente emerse la non conformità dello stabile alle norme dell'edilizia pubblica e dopo ancora nel 2010, a seguito di segnalazione degli addetti ai lavori, iniziarono i lavori di consolidamento dell'edificio. Tutto inutile. Si arriva al 2018, come detto, quando il sindaco arriva ad intervenire con la dichiarazione di inagibilità. Giova rammentare, come correttamente evidenziato da alcuni interventi di ieri, che noi in tutto questo processo non eravamo attori. Sottolineo tutto questo perché oggi si attacca la maggioranza, che invece ha il diritto-dovere di intervenire. Ma scusate, com'è possibile essere colpevoli di non aver risolto in un mese un problema dimenticato da decenni, quando qualcun altro è rimasto fermo per anni?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg11">Ad ogni buon conto, le polemiche le lasciamo ad altri. Noi vogliamo guardare avanti e cercare di trovare una soluzione ad un problema che, come detto inizialmente, è ben più ampio di quello che sembra oggi e che riguarda la problematica dello stato dell'edilizia giudiziaria e purtroppo non solo a Bari. Ci rendiamo conto che garantire un processo equo e dignitoso è il minimo non derogabile che lo Stato deve assicurare.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg12">Noi non ci offendiamo, come riportato durante la discussione della questione pregiudiziale, se il Parlamento pone discussioni sui provvedimenti come quello di oggi. Tutt'altro. Il Parlamento - lo si deve ribadire una volta di più - deve avere un ruolo centrale.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg13">Tuttavia, dobbiamo anche spiegare in Parlamento e a tutti i cittadini perché ci si è ridotti a questo punto. Dobbiamo spiegare perché il Ministro della giustizia precedente non ha trovato il tempo per cercare di risolvere, anche solo in modo emergenziale, la situazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg14">E dobbiamo risolvere il problema. Quante Bari vi sono sul territorio, pur senza arrivare alla drammaticità in cui è versato il palazzo di giustizia di questa città? Nel merito, il provvedimento non fa altro che garantire l'ordinarietà dei procedimenti. La sospensione non opera infatti per i procedimenti che hanno carattere di urgenza. Tra l'altro, ricordiamo che gli effetti del provvedimento operano concretamente anche ad agosto, che - chi conosce le aule di tribunale lo sa bene - è un mese in cui, di per sé, molte attività giudiziarie vengono sospese o rinviate per assenza del personale in ferie, ivi compresi i magistrati.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg15">Si è eccepito che l'approvazione del provvedimento comporta costi per le notifiche, senza però sottolineare come buona parte delle stesse potrà essere fatta telematicamente. E, sinceramente, i costi effettivi dovrebbero essere imputati a chi ha causato questa situazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP e M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg16">Ecco che, allora, riprendendo quanto affermato ieri dall'opposizione del Partito Democratico, nemmeno noi facciamo deroghe al garantismo, ma noi non facciamo deroghe nemmeno al diritto dei cittadini a un corretto e decoroso processo. Ed è per questo che andremo avanti con determinazione e buonsenso, sempre per rimediare ad anni di immobilismo</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP e M5S</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Vitali. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">VITALI (FI-BP)</note>
+            <u ana="#regular" who="#VitaliLuigi" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u8">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg17">Signor Presidente, onorevoli colleghi, signor rappresentante del Governo, abbiamo cercato in tutti i modi di evitarvi una figuraccia e, come prima uscita, una sanzione di incostituzionalità. Lo abbiamo fatto in tutte le maniere, cercando di portarvi alla ragione e spiegarvi il motivo. Non ci siamo riusciti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg18">Ci siamo allora fatti un'idea. Probabilmente con il decreto-legge in esame voi state pagando lo scotto del noviziato, cioè vi siete comportati come quel chirurgo a cui trema la mano e che, invece di usare il bisturi, utilizza la mannaia, creando un disastro intorno a sé.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg19">Questo è il convincimento che ci siamo fatti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg20">Visto che non sentivate dall'orecchio costituzionale, abbiamo cercato di migliorare il provvedimento, rendendolo più aderente a quelle che erano e sono le esigenze e le necessità del foro e degli organi giurisdizionali di Bari. Vi abbiamo detto che non serve un decreto-legge che sospende i termini processuali fino al 30 settembre, perché siamo convinti che in quella data voi ritornerete in quest'Assemblea con un altro decreto-legge che prorogherà per altri sessanta giorni la sospensione dei termini e così chissà fino a quando.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg21">Abbiamo detto: Ministro, si assuma la responsabilità di fare il commissario straordinario, con poteri straordinari, dando certezza sui modi, percorsi e tempi con i quali tornerà la normalità nell'attività giudiziaria.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg22">Non c'è stato niente da fare.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg23">Vi abbiamo detto: specificate la data a partire dalla quale far decorrere i termini per la sospensione dei processi e indicate la data del 30 settembre 2018 per evitare equivoci. Ciò era stato segnalato dal Servizio studi della Camera dei deputati e dalla Commissione affari costituzionali del Senato e vi era stato chiesto dagli avvocati, dai magistrati e dai cancellieri. Niente da fare, anche qui sordità assoluta.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg24">Vi abbiamo detto: precisate quali sono le indagini preliminari che vanno sospese e quali no, per evitare che ci sia un'ingessatura complessiva dell'attività giudiziaria. Niente da fare.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg25">Vi abbiamo detto: abbiate il garbo costituzionale e istituzionale di togliere il riferimento all'articolo 159 del codice penale, perché la prescrizione - è stato detto più volte e anche le mura di quest'Aula lo sanno - è un istituto di carattere sostanziale e non processuale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg26">Niente da fare.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg27">Dopo aver appreso che saranno sospesi circa 9.000 procedimenti dinanzi al giudice di pace, 30.000 procedimenti davanti al tribunale e 20.000-25.000 procedimenti nella fase delle indagini preliminari, vi abbiamo detto: cercate di inserire una copertura.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg28">Non abbiamo bestemmiato. Abbiamo detto: cercate di prevedere una copertura per le notifiche. E voi avete detto che questo provvedimento è a finanza invariata e che si adempirà all'onere di 60.000-80.000 notifiche. Io dico che, invece, sono 200.000 le notifiche perché per ogni procedimento c'è un avvocato, il pubblico ministero, un imputato e almeno una parte lesa. Stiamo parlando di 60.000 procedimenti circa: 6 per 4 fa 24; sono 240.000 notifiche e non avete previsto un centesimo per procedere in maniera straordinaria alla notifica.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg29">Dite che vi provvederà il personale: cioè il personale di Bari, che, come quello di tutti gli uffici in carenza cronica, non riesce a fare le notifiche in tempo di pace, riuscirà a fare 240.000 notifiche in tempo di guerra! Niente da fare!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg30">Questo è un provvedimento che non bloccherà la prescrizione, ma creerà migliaia di prescrizioni: migliaia di processi si prescriveranno. Sicuramente gli imputati ve ne saranno grati, ma non so se lo stesso sentimento vi sarà offerto dalle parti lese e da parte degli avvocati.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg31">PRESIDENTE. Senatore Vitali, la invito a concludere.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg32">Sì, signor Presidente, ma mi toglie la parte migliore. PRESIDENTE. La faccia ora. VITALI (FI-BP). Signor Presidente, io mi domando perché non abbiate accettato alcun emendamento. Alla Camera in prima lettura non c'era alcun problema. Lo avete fatto per ignoranza? Credo di no. Lo avete fatto per presunzione. Sì, per l'arroganza che crea il profumo del potere!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg33">Vi ricordo, allora, quell'adagio che dice: chi troppo in alto va, spesso e sovente cade. Non potrete dirci che non vi abbiamo avvisato. Noi vi aspetteremo al varco. Comunque, un risultato lo avete ottenuto. Avete messo d'accordo i magistrati, gli avvocati e i cancellieri, che non volevano stare nelle tende, che oggi dicono: stavamo meglio quando stavamo peggio! Complimenti!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP. Molte congratulazioni</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritta a parlare la senatrice Piarulli. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">PIARULLI (M5S)</note>
+            <u ana="#regular" who="#PiarulliAngelaAnnaBruna" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u9">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg34">Signor Presidente, membri del Governo, onorevoli colleghi, su questa vicenda è necessario sottolineare le questioni, perché repetita iuvant. Una vexata quaestio a dir poco sconcertante, una vicenda tormentata e annosa, che vede pesanti responsabilità da parte di chi aveva il dovere di vigilare. Vergognosi ritardi, disfunzioni, proteste, da parte degli addetti ai lavori (magistrati, personale giudiziario, avvocati) ma soprattutto disagi e proteste da parte di chi si affida alla giustizia, ovvero i cittadini, la collettività, che ha subito un vero e proprio affronto. Ricostruiamo questa storia. Il palazzo di via Nazariantz, di proprietà dell'INAIL, ha ottenuto un certificato di agibilità nel lontano 2000. Nel corso degli anni, quasi un quinquennio dopo, già si erano evidenziate delle problematiche strutturali. La verifica, pur portando ad una conferma dell'idoneità ad ospitare uffici pubblici, mancava completamente di un effettivo monitoraggio della struttura, in quanto erano evidenti, già allora, disfunzioni non solo strutturali (come la caduta di pezzi di cornicione) ma anche sul versante dell'impiantistica, tanto da portare, nel tempo, a non provvedere alla riparazione a fronte dei continui guasti. Arriviamo al 31 maggio, quando, a fronte di un paventato rischio strutturale, viene adottata un'ordinanza di revoca della stessa agibilità. Le udienze si sono celebrate nei tendoni allestiti dalla Protezione civile, con macroscopiche difficoltà nell'espletamento dei processi, alcuni anche sospesi, con pregiudizio della salute di tutti, non avendo condizioni lavorative idonee (per non dire sufficientemente umane), con le conseguenti lungaggini processuali. Questa è la dimostrazione di una cattiva gestione amministrativa e politica, dove, a farne le spese, è stata la Giustizia. Credo che da parte di coloro che, quanto meno, hanno dimostrato una chiara culpa in vigilando su quanto oggi accaduto (tenendo conto che, fino al 2015, la manutenzione degli immobili delle sedi degli uffici giudiziari era di competenza del Comune e, dal 2016, del Ministero della giustizia, entrambi facenti parte della compagine politica del Partito Democratico) occorra una chiara ammissione di responsabilità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg35">Pertanto non si possono non riconoscere oggi gli sforzi compiuti dal ministro della giustizia Bonafede che in breve tempo ha dovuto risolvere una problematica atavica. Oggi le bacchette magiche non ci sono e sappiamo bene che quando c'è un'urgenza è più difficoltoso affrontare le svariate situazioni. È necessario soffermarsi sul perché si è arrivati a questo punto, perché nel corso degli anni non sia stata definitivamente risolta questa problematica con la costruzione di una cittadella per la giustizia.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg36">Come direttore di istituto penitenziario pugliese, prima di questo mandato al Senato, devo sottolineare con forza, così come ha fatto il vice premier Di Maio, l'esigenza di un'edilizia pubblica che sia adeguata alla normativa del decreto legislativo n. 81 del 2008 in maniera programmatica e non in maniera estemporanea in modo da non mettere a rischio lavoratori, utenti e datori di lavoro su cui gravano (anche su questi ultimi) le conseguenti responsabilità. Pertanto, si esprime un parere ampiamente favorevole a questo decreto-legge volto solo a superare queste criticità evidenti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u10">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg37">Dichiaro chiusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg38">Ha facoltà di parlare il relatore che invito anche a pronunziarsi sull'ordine del giorno G100.</seg>
+            </u>
+            <note type="speaker">PILLON</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PillonSimone" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u11">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg39">Signor Presidente, vorrei che quest'Aula tornasse ad essere realista su questa vicenda. Stiamo parlando di un rinvio di tre mesi - ripeto: di tre mesi - oltretutto sostanzialmente a vantaggio delle difese perché vengono sospesi tutti i termini, ivi compresi quelli a vantaggio degli imputati. Quindi non riesco a capire l'accanimento da parte di talune opposizioni sulla questione, come se fosse in ballo la Costituzione repubblicana. Questa è la prima questione.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg40">In secondo luogo, il decreto al nostro esame non ha nulla a che vedere con l'edilizia. Ringrazio il senatore Stancanelli che lo ha ricordato all'Assemblea. Non stiamo parlando di edilizia, stiamo parlando di termini e basta.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg41">In terzo luogo, per quanto riguarda i costi, la norma è più che chiara: non sono necessari interventi di copertura, perché la spesa relativa è già compresa nella spesa corrente. Le obiezioni che sono state fatte, mi duole dirlo ma probabilmente sono state portate da chi non esercita la professione di avvocato perché gli avvocati sanno che l'articolo 157, comma 8- bis consente le notifiche per via telematica direttamente al difensore dopo che è stata fatta la prima notifica. Quindi, poiché la prima notifica va fatta comunque a mano - e quella è già ricompresa nella spesa corrente - è ovvio che le eventuali successive notifiche saranno fatte in modo telematico e quindi con costi molto contenuti. Ancora: per quanto riguarda le garanzie costituzionali che sono state evocate, a me fa piacere scoprire che i colleghi del Partito Democratico si dichiarino oggi garantisti. Devo dire che negli ultimi vent'anni non ce ne eravamo accorti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg42">Meglio così, cambiare idea è sintomo di intelligenza, però sul garantismo non accettiamo lezioni da nessuno. I termini sono sospesi per tutte le parti, ivi compresi i termini a difesa (vedi appello e quant'altro).</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg43">Per quanto riguarda l'individuazione del dies a quo dal quale interviene la sospensione dei termini, a me pareva che il testo fosse sufficientemente chiaro perché è evidente che il dies a quo decorre dalla data di entrata in vigore della norma, come per tutte le norme. Tuttavia, per maggiore sicurezza - visto che è opera di misericordia consigliare i dubbiosi - abbiamo ritenuto di sottolineare questo aspetto in un ordine del giorno, che è stato presentato in data di ieri, dal quale risulta chiaramente che i termini sono sospesi dalla data di entrata in vigore del decreto-legge. Ripeto, non è una norma di contenuto sostanziale, perché già si capiva chiaramente dal testo del provvedimento che stiamo andando ad approvare. Abbiamo ritenuto di raccogliere una indicazione delle opposizioni, in particolare quella del senatore Cucca, sollevata in Commissione e, nell'ordine del giorno, abbiamo anche chiesto al Governo di riferire, entro diciotto mesi dalla data di conversione in legge del decreto-legge, sulla base dei dati statistici in suo possesso, il numero dei procedimenti penali sospesi e di quelli sopravvenuti in modo che questa Assemblea, e in generale il Parlamento, possano continuare a monitorare la situazione. Non intendo rispondere a provocazioni di chi oggi parla dell'arroganza del potere eccetera eccetera. Colleghi, qui non c'è alcuna arroganza; stiamo cercando di mettere pezze su disastri di vent'anni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg44">Stiamo cercando di venire incontro alle legittime esigenze dei cittadini pugliesi, che hanno il diritto di celebrare i processi penali in un'aula degna della ritualità e dell'importanza che il procedimento penale deve avere, nella dignità e nel rispetto che ciascuno comunque merita; soprattutto gli operatori della giustizia, gli imputati, gli avvocati e i magistrati.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg45">In conclusione, abbiamo presentato l'ordine del giorno G100 e ci rifacciamo al testo, che chiediamo venga votato e approvato esattamente come licenziato dalla Camera dei deputati.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg46">PRESIDENTE. Ha facoltà di parlare il rappresentante del Governo, al quale chiedo altresì di esprimere il proprio parere sull'ordine del giorno G100.</seg>
+            </u>
+            <note type="speaker">MORRONE</note>
+            <note type="role">sottosegretario di Stato per la giustizia</note>
+            <u ana="#guest" who="#MorroneJacopo" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u12">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg47">Il Governo accoglie l'ordine del giorno G100.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u13">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg48">Comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame e sugli emendamenti, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg49">Essendone stata avanzata richiesta, passiamo alla votazione dell'ordine del giorno G100.</seg>
+            </u>
+            <note type="speaker">FERRARI (PD)</note>
+            <u ana="#regular" who="#FerrariAlan" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u14">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg50">Signor Presidente, ho deciso di intervenire per esprimere un voto favorevole sull'ordine del giorno G100 del relatore e ne spiego le motivazioni che mi sembrano molto importanti. Prima, però, un po' di "bastone", perché non si può certo intervenire su questo provvedimento senza ricordare alla maggioranza la contrarietà del Partito Democratico che, ancora meglio rispetto a quanto fatto in discussione generale, ribadirà nel corso dell'esame degli emendamenti. Soprattutto permane, come è giusto che avvenga in ognuno dei parlamentari che siedono nelle Aule di Camera e Senato, una serie di dubbi, sui quali penso sia corretto che la maggioranza dia risposte che, fino a ora, non sono arrivate né qui né durante l'esame da parte dell'altro ramo del Parlamento. Sono dubbi rispetto alla persona proprietaria dell'immobile, che è oggetto di questo affitto; dubbi su come ci si comporta in relazione alle procedure aperte; su come si comunica lo spostamento a quelle 60.000 persone soggette alle procedure aperte. Sono dubbi, soprattutto, rispetto a quanto si intuisce essere il costo di affitto annuo: 1,2 milioni di euro a fronte del fatto che l'acquisto dell'immobile, fatto recentemente, è di 4,1 milioni. Di norma, un affitto equivale al sette per cento del valore dell'immobile all'anno; qui stiamo parlando di una cifra enormemente più alta. Tutti questi dubbi a noi rimangono, testimoniando quindi il giudizio estremamente negativo del Partito Democratico. Detto questo, la "carota", che è corretto riconoscere e che sostiene la nostra dichiarazione di voto favorevole, è che l'ordine del giorno del relatore è importante perché rileva un'esigenza proposta dal Partito Democratico e perché soprattutto sancisce un principio che entrerà a far parte delle prassi parlamentari. Siamo ovviamente soddisfatti del fatto che maggioranza e Governo accettino di impegnarsi a fare una valutazione ex post, dopo che assumono un provvedimento legislativo. Quindi, concordano sulla circostanza che le leggi si fanno su basi concrete, sostanziali, su fatti e analisi, e che dopo aver fatto le leggi e le scelte, si fa una valutazione ex post sull'impatto che esse hanno prodotto. Penso che questo sia un atto importante e coerente con il fatto che il Senato si è dotato di un nuovo ufficio, l'Ufficio valutazione impatto (UVI), che lo rende una delle Camere più innovative, togliendo la percezione, tipica e presente in tutti gli italiani, che il Parlamento fa le leggi senza misurarne l'impatto. Noi abbiamo uno strumento, l'Ufficio valutazione impatto, che misura l'effetto delle politiche pubbliche sui cittadini e sui territori. Credo che l'atto della maggioranza di accettare la proposta del Partito Democratico di fare una valutazione ex post lasci nella prassi parlamentare un elemento da cui indietro non si torna. Con coscienza dello strumento - non possiamo fare valutazione di impatto per tutto - chiederemo la valutazione di impatto per tutti i provvedimenti per i quali, sul piano concettuale e scientifico, essa si può fare. Gradirei ed, anzi, sono consapevole - convinto di avere anche l'appoggio del presidente Calderoli, proprio per la sua infinita stima e il rispetto verso il valore istituzionale di questa Assemblea - che la maggioranza ci seguirà e che soprattutto ci consentirà di consolidare questa prassi. La prassi - lo ripeto - che quando si fa una politica, quando si fa una scelta o si promuove una legge, lo si fa tenendo conto di fatti e andando a misurare i fatti ex post che tale scelta ha prodotto. Per tutte queste ragioni ribadisco il voto favorevole del Partito Democratico sull'ordine del giorno G100.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">VITALI (FI-BP)</note>
+            <u ana="#regular" who="#VitaliLuigi" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u15">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg51">Signor Presidente, voteremo a favore dell'ordine del giorno G100 perché introduce una tecnica e una modalità di verifica da parte del Parlamento che ci soddisfa. Non possiamo però non rilevare come anche in questa circostanza la maggioranza e il Governo abbiano fatto la figura del volpino. L'ordine del giorno infatti, che sicuramente dà all'opposizione e al Parlamento uno strumento di verifica, nasconde una défaillance del Governo e della maggioranza, che non ha voluto rimediare in corso di discussione né alla Camera, né al Senato. In buona sostanza, con l'emendamento 1.3 chiedevamo di inserire e cristallizzare la data del 30 settembre 2018, entro la quale i procedimenti dovevano ritenersi sospesi. Il Governo e la maggioranza non hanno accettato questo emendamento di buon senso ed hanno inserito nell'ordine del giorno un richiamo alla data del 30 settembre 2018. A parte il fatto che la norma è una cosa e l'ordine del giorno un'altra, esprimeremo un voto favorevole sull'ordine del giorno G100 sia perché c'è tale innovazione e sia perché «piuttosto che niente è meglio piuttosto».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u16">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg52">Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G100, presentato dal relatore. (Segue la votazione). Il Senato approva. (v. Allegato B). Onorevoli colleghi, la Presidenza, conformemente a quanto già stabilito durante l'esame in sede referente, dichiara improponibili, ai sensi dell'articolo 97, comma 1, del Regolamento, gli emendamenti 1.0.2 e 1.0.4, recanti misure fiscali in favore degli iscritti all'Ordine degli avvocati, in quanto estranei all'oggetto del decreto-legge in esame, che reca invece misure urgenti per assicurare il regolare svolgimento dei procedimenti penali presso il tribunale di Bari.</seg>
+            </u>
+            <note>Passiamo all'esame dell'articolo 1 del disegno di legge.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Avverto che gli emendamenti si intendono riferiti agli articoli del decreto-legge da convertire, nel testo comprendente le modificazioni apportate dalla Camera dei deputati. Procediamo all'esame degli emendamenti riferiti all'articolo 1 del decreto-legge, che invito i presentatori ad illustrare.</note>
+            <note type="speaker">VITALI (FI-BP)</note>
+            <u ana="#regular" who="#VitaliLuigi" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u17">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg53">Onorevole Presidente, so dell'inutilità di questo intervento, ma lo faccio ugualmente, perché bisogna avere tenacia nella vita: prima o poi qualche effetto lo si produce.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP e del senatore Casini</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg54">Signori rappresentanti del Governo, amici e colleghi della maggioranza, l'Unione delle camere penali italiane ha definito il decreto-legge in esame come un insieme di assurdità interventiste e di incauto interventismo, dicendo che esso determina migliaia o decine di migliaia di notifiche e che farà prescrivere moltissimi processi. Esso non prevede alcun onere finanziario e presenta evidenti elementi di incostituzionalità.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg55">Vi invitiamo ancora una volta a riflettere. Siete ancora in tempo per fermarvi e per non portare a termine questo disegno che, invece di risolvere il problema, lo aggraverà. Chiediamo pertanto all'Assemblea di votare favorevolmente la soppressione dell'articolo 1.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GRASSO (Misto-LeU)</note>
+            <u ana="#regular" who="#GrassoPietro" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u18">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg56">Il tema è già stato posto: si tratta di una dizione, di una formulazione letterale che non può che portare a un'interpretazione errata. Nel decreto-legge è detto che, alla data del 30 settembre, i processi pendenti fruiranno della sospensione dei termini. Il problema è che i processi pendenti si riportano certamente alla data di entrata in vigore del decreto-legge, cioè il 22 giugno 2018, mentre tutti quelli che sopravvengono dal 22 giugno 2018 al 30 settembre non troverebbero la possibilità di essere sospesi. Questo è evidente da un punto di vista letterale. Diciamo che il relatore e il Governo hanno inserito nella relazione un passo in cui si dice che si devono interpretare come sopravvenuti i processi che sopravvengono appunto in questo periodo. Il relatore ha inoltre inserito nell'ordine del giorno un passaggio secondo il quale ci si deve occupare della sospensione anche in relazione ai processi che sopravvengono in quella data. Però ricordo che l'ordine del giorno impegna il Governo; invece chi interpreta la legge sono i magistrati, gli operatori giustizia e gli avvocati. Naturalmente potranno anche avvalersi di questo ordine del giorno; però - ripeto - l'interpretazione letterale è quella secondo cui i processi che intervengono tra il 22 giugno e il 30 settembre, cioè quelli sopravvenuti, non potrebbero godere della sospensione dei termini. Ecco perché abbiamo proposto l'emendamento 1.4, che chiediamo venga votato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-LeU.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u19">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg57">I restanti emendamenti si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg58">Invito il relatore e il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">PILLON</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PillonSimone" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u20">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg59">Esprimo parere contrario su tutti gli emendamenti riferiti all'articolo 1.</seg>
+            </u>
+            <note type="speaker">MORRONE</note>
+            <note type="role">sottosegretario di Stato per la giustizia</note>
+            <u ana="#guest" who="#MorroneJacopo" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u21">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg60">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u22">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg61">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.1, presentato dal senatore Vitali e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'emendamento 1.2, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+            </u>
+            <note type="speaker">VITALI (FI-BP)</note>
+            <u ana="#regular" who="#VitaliLuigi" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u23">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg62">Ne chiedo la votazione e domando di parlare per dichiarazione di voto.</seg>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg63">Signor Presidente, con questo emendamento si cerca di correggere le assurdità del decreto-legge facendo ricadere in capo al Ministro il ruolo di commissario straordinario e quindi la possibilità di prevedere tempi, modi e percorsi per arrivare alla normalizzazione della situazione giurisdizionale del distretto di Bari. È veramente incomprensibile come la maggioranza si opponga a un emendamento che prende atto di una situazione particolare, difficile ed emergenziale, anche se non straordinaria, e cerca di dare una soluzione obiettiva e aderente alle necessità, tenuto conto anche delle richieste venute da tutte le organizzazioni audite. Ci sembra veramente paradossale non ritenere che in una città come Bari non ci siano almeno venti o trenta opzioni, tra caserme, locali universitari e quant'altro, per risolvere adeguatamente questo fenomeno. Pertanto insistiamo per la votazione e chiediamo di votare favorevolmente sull'emendamento 1.2.</seg>
+            </u>
+            <note type="speaker">CUCCA (PD)</note>
+            <u ana="#regular" who="#CuccaGiuseppeLuigiSalvatore" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u24">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg64">Signor Presidente, condividiamo molto l'esposizione che ha testé fatto il senatore Vitali. Di fatto, con questo emendamento si darebbe giusto seguito anche al titolo di questo provvedimento, perché si metterebbe finalmente mano al problema dell'edilizia giudiziaria e si troverebbero i locali, come già ha detto il senatore Vitali, per consentire un corretto e ordinato svolgimento dei procedimenti penali. È evidente che il voto non possa che essere favorevole. Anziché rimanere inerti, come parrebbe sia stato fatto fino ad oggi, perché appena si parla di edilizia giudiziaria sembra che si parli di chissà cosa e non si vuole assolutamente affrontare il tema (come se la questione dovesse essere affrontata in famiglia, senza nessuna discussione), in questa maniera si consentirebbe, conoscendo la procedura da seguire, di individuare quegli edifici dove l'attività giudiziaria potrebbe riprendere a svolgersi ordinatamente. Ricordo che in questo momento è tutto fermo perché le famose tensostrutture sono già state smontate. Pertanto il nostro voto non può che essere favorevole.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u25">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg65">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.2, presentato dal senatore Vitali e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.3.</seg>
+            </u>
+            <note type="speaker">VITALI (FI-BP)</note>
+            <u ana="#regular" who="#VitaliLuigi" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg66">Signor Presidente, ritiriamo questo emendamento. Come vede, noi siamo un'opposizione intransigente, ma di buon senso e non ostruzionistica. Il tema è stato introdotto, in maniera quasi fortuita, nell'ordine del giorno, quindi ritiriamo l'emendamento 1.3 perché è inutile metterlo in votazione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u27">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg67">La Presidenza ne prende atto.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg68">Sull'emendamento 1.4 la 5ᵃ Commissione ha espresso parere condizionato ad una riformulazione su cui invito il relatore e il rappresentante del Governo a pronunziarsi.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg69">PILLON, relatore. Esprimo parere contrario. MORRONE , sottosegretario di Stato per la giustizia. Signor Presidente, esprimo parere conforme a quello del relatore. PRESIDENTE. Passiamo alla votazione dell'emendamento 1.4 (testo 2).</seg>
+            </u>
+            <note type="speaker">GRASSO (Misto-LeU)</note>
+            <u ana="#regular" who="#GrassoPietro" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u28">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg70">Signor Presidente, ho già espresso le mie perplessità sul fatto che l'ordine del giorno sia rivolto ed impegni il Governo, mentre la legge la dovranno interpretare magistrati, operatori di giustizia e avvocati. Quindi non mi pare che il mezzo usato sia funzionale alla risoluzione del problema interpretativo.</seg>
+            </u>
+            <note type="speaker">CUCCA (PD)</note>
+            <u ana="#regular" who="#CuccaGiuseppeLuigiSalvatore" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u29">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg71">Signor Presidente, anche in questo caso dobbiamo ribadire che si tratta di un emendamento di buon senso. Comprendiamo le ragioni di urgenza, comprendiamo tutto, ma non si può confondere un'attività ostruzionistica con quella che invece ci porta a mettere un po' di ordine in un sistema che si sta introducendo e che produrrà sicuramente solo disordine. La chiarezza, quando si tratta di interpretare norme di diritto, soprattutto su un tema scottante come quello del diritto penale, certamente gioverebbe molto. Ritengo pertanto che sia d'obbligo fare chiarezza, in maniera tale da non lasciare dubbi interpretativi ai magistrati o comunque ai tecnici del diritto, come ha detto autorevolmente il presidente Grasso. Annunciamo quindi il voto favorevole sull'emendamento 1.4 (testo 2).</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u30">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg72">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.4 (testo 2), presentato dal senatore Grasso e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.5.</seg>
+            </u>
+            <note type="speaker">VITALI (FI-BP)</note>
+            <u ana="#regular" who="#VitaliLuigi" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u31">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg73">Signor Presidente, l'emendamento 1.5, lo ripetiamo per l'ennesima volta, è finalizzato ad evitare la possibilità che gli atti processuali possano essere dichiarati nulli a causa di indagini svolte nel periodo di sospensione disposto dall'articolo 1, comma 1, del provvedimento. In buona sostanza si deve chiarire se le indagini preliminari possano essere svolte o no nel periodo considerato; in mancanza di questa precisazione - ahimé - temiamo che i processi saranno paralizzati, nel timore che vengano compiuti atti esposti al pericolo di essere dichiarati inutili. Sappiamo che le dichiarazioni e gli interventi odierni in quest'Aula sono vani, ma li vogliamo certificare e lasciare agli atti perché un domani potremo richiamarli a nostra giustificazione di non aver partecipato a questa legislazione schizofrenica.</seg>
+            </u>
+            <note type="speaker">CUCCA (PD)</note>
+            <u ana="#regular" who="#CuccaGiuseppeLuigiSalvatore" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u32">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg74">Signor Presidente, ancora una volta condividiamo il ragionamento del senatore Vitali; ancora una volta un ragionamento di buon senso che serve a togliere i dubbi interpretativi. Ci saranno sicuramente magistrati che interpreteranno le norme contenute nel provvedimento in un modo e altri che le interpreteranno in un altro, attuando quindi una evidente disparità di trattamento nei confronti delle persone (e mai verrà ai cittadini il dubbio che queste disparità di trattamento sono conseguenti a scelte fatte consapevolmente e scientemente). Stiamo semplicemente cercando di dare un contributo perché il contenuto del decreto-legge in discussione venga interpretato in maniera univoca dai soggetti deputati ad interpretare ed applicare le norme. Anche questo è quindi un emendamento di buon senso. Annunciamo pertanto il voto favorevole del PD.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u33">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg75">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.5, presentato dal senatore Vitali e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.6, identico all'emendamento 1.7.</seg>
+            </u>
+            <note type="speaker">VITALI (FI-BP)</note>
+            <u ana="#regular" who="#VitaliLuigi" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u34">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg76">Signor Presidente, come abbiamo detto in discussione generale, l'emendamento 1.6 chiede di sopprimere il richiamo all'articolo 159 del codice penale. È stato rilevato dalle organizzazioni audite, ma è anche intervenuta più volte la Corte costituzionale per stabilire che la prescrizione è un istituto di carattere sostanziale penale e non processuale penale; ne deriva che non possono essere imputati ai cittadini i danni di un disservizio del sistema giudiziario al quale loro non hanno concorso. Insistiamo quindi anche questa volta per l'accoglimento di questo emendamento.</seg>
+            </u>
+            <note type="speaker">CUCCA (PD)</note>
+            <u ana="#regular" who="#CuccaGiuseppeLuigiSalvatore" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u35">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg77">Signor Presidente, l'emendamento 1.6 è identico all'emendamento 1.7, sottoscritto dai componenti della Commissione giustizia del Partito Democratico. Pertanto mi rifaccio alle valutazioni svolte dal collega Vitali e annuncio il voto favorevole del mio Gruppo anche su questo emendamento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u36">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg78">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.6, presentato dal senatore Vitali e da altri senatori, identico all'emendamento 1.7, presentato dal senatore Cucca e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u37">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg79">Passiamo alla votazione dell'emendamento 1.8.</seg>
+            </u>
+            <note type="speaker">CUCCA (PD)</note>
+            <u ana="#regular" who="#CuccaGiuseppeLuigiSalvatore" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u38">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg80">Signor Presidente, l'emendamento in esame tratta un tema di cui parlerò anche in seguito, ovvero quello delle notifiche. Sostanzialmente l'emendamento in esame tende ad evitare quelle spese, che pure vengono definite minimali - spiegherò successivamente perché non saranno tali - anche a fronte di quanto ha detto il collega relatore Pillon, che ha richiamato l'articolo 157 del codice di procedura penale. È vero infatti che l'ultimo comma di tale articolo prevede che le notificazioni «sono eseguite, in caso di nomina di difensore di fiducia ai sensi dell'articolo 96, mediante consegna ai difensori», ma il difensore può dichiarare di non accettare tale notificazione. Mi domando dunque quale avvocato possa accettare una notificazione a mano, quando il codice gli consente di dilatare i tempi nell'interesse del proprio assistito. Quindi tali notifiche sicuramente non verranno accettate. L'emendamento in esame cerca di porre rimedio anche a questo problema, dicendo che, possibilmente, tutte le notifiche dovranno essere effettuate in via telematica e solo in via residuale, quando sia effettivamente impossibile effettuarle in altra maniera, dovranno essere effettuate a mano o per posta. Ancora una volta si tratta di un emendamento di buon senso, che evidentemente viene rigettato per questioni di urgenza nell'approvazione del provvedimento. Di questo poi, ovviamente, pagheremo le conseguenze più avanti, quando ci ritroveremo qui, dopo il 30 settembre, a discutere di un provvedimento identico a quello in esame. Invito dunque a votare a favore dell'emendamento in esame.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u39">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg81">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.8, presentato dal senatore Cucca e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione della prima parte dell'emendamento 1.9.</seg>
+            </u>
+            <note type="speaker">VITALI (FI-BP)</note>
+            <u ana="#regular" who="#VitaliLuigi" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u40">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg82">Signor Presidente, ritiro l'emendamento 1.9, perché di fatto è stato assorbito da un emendamento approvato dalla Camera dei deputati e quindi la votazione di tale emendamento risulterebbe assolutamente superflua.</seg>
+            </u>
+            <note type="speaker">CUCCA (PD)</note>
+            <u ana="#regular" who="#CuccaGiuseppeLuigiSalvatore" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u41">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg83">Signor Presidente, ritiro l'emendamento 1.10.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u42">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg84">La Presidenza ne prende atto.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg85">Passiamo alla votazione dell'emendamento 1.11.</seg>
+            </u>
+            <note type="speaker">CUCCA (PD)</note>
+            <u ana="#regular" who="#CuccaGiuseppeLuigiSalvatore" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u43">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg86">Signor Presidente, annuncio il voto favorevole del Partito Democratico all'emendamento in esame, con cui si chiede che la sospensione non operi per i procedimenti relativi alle misure di prevenzione. La motivazione è evidente ed è abbastanza chiara: le misure di prevenzione sono tese ad evitare che determinate persone possano compiere ulteriori reati. Si tratta di persone considerate non a posto con il sistema della giustizia e si teme dunque che possano compiere ulteriori reati o fatti criminosi. Pertanto si ritiene che essi debbano essere sottoposti alle misure di prevenzione e a maggiori controlli da parte della polizia e anche ad alcuni obblighi, che incombono sull'interessato, quale ad esempio l'obbligo di firma. Tali misure, come indica il loro nome, sono volte a prevenire il compimento dei reati. Si chiede pertanto che la sospensione non operi per tali procedimenti, ma che essi possano andare avanti a prescindere dal provvedimento di sospensione, proprio per prevenire la commissione di nuovi reati. Si tratta quindi di una misura di lotta alla criminalità, ma mi pare che anche questa proposta di modifica non trovi ascolto. Continuiamo così: sospendiamo anche i procedimenti relativi alle misure di prevenzione e continuiamo a fare in modo che le persone. che dovrebbero essere sottoposte a tali misure, continuino ad agire e a vivere liberamente. Invito dunque a votare a favore dell'emendamento in esame.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u44">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg87">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.11, presentato dal senatore Cucca e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'emendamento 1.0.1, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+            </u>
+            <note type="speaker">VITALI (FI-BP)</note>
+            <u ana="#regular" who="#VitaliLuigi" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u45">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg88">Ne chiedo la votazione e domando di parlare per dichiarazione di voto.</seg>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg89">Si vogliono attribuire al Ministro o al prefetto territorialmente competente indicato dal Ministro poteri straordinari allo scopo di assicurare, a partire dal 30 settembre, il regolare svolgimento dei procedimenti e dei processi penali. Lo diciamo solo a beneficio dei Resoconti, perché sappiamo che ormai si sono otturate le orecchie sia della maggioranza che del Governo, ma non quelle dei cittadini che qui fuori controllano il lavoro dei parlamentari.</seg>
+            </u>
+            <note type="speaker">CUCCA (PD)</note>
+            <u ana="#regular" who="#CuccaGiuseppeLuigiSalvatore" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u46">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg90">Signor Presidente, intervengo su questo e sul successivo emendamento, che mi pare sia sostanzialmente analogo, per non dire identico nei contenuti. Come ho detto in precedenza, qui si tratta di mettere mano finalmente al problema del reperimento degli edifici e si sta cercando di accelerare i tempi. Non si capisce perché, quando si parla di reperire gli immobili da adibire a uffici giudiziari, l'argomento diventi tabù. Questo ovviamente non può che ingenerare dubbi sulle procedure che verranno seguite. Qui addirittura si chiede che si deroghi alle procedure di evidenza pubblica, proprio per dare un sostegno vero all'apparato giudiziario di Bari, che ha bisogno di riprendere l'attività, non di sospensioni delle quali ci troveremo sicuramente a discutere dopo il 30 settembre in quest'Aula per le proroghe di questo provvedimento. Anche questo significa tale provvedimento: mettere mano in maniera seria e urgente ai problemi del tribunale di Bari. Pare però che questo non lo si voglia fare. Il voto sarà pertanto favorevole su tale emendamento e anche sul successivo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u47">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg91">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.0.1, presentato dal senatore Vitali e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+               <incident type="action">
+                  <desc>Il senatore Bossi Umberto fa cenni alla Presidenza di non essere in possesso della tessera.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg92">Ormai questa votazione è stata effettuata, senatore Bossi. In attesa che le venga fornita la tessera, passiamo all'emendamento 1.0.3, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg93">Essendone stata avanzata richiesta, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.0.3, presentato dal senatore Cucca e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Gli emendamenti 1.0.2 e 1.0.4 sono improponibili. Passiamo all'esame degli emendamenti riferiti all'articolo 2 del decreto-legge, che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">VITALI (FI-BP)</note>
+            <u ana="#regular" who="#VitaliLuigi" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u48">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg94">Signor Presidente, torniamo sull'argomento delle notifiche. Ci sono da fare decine di migliaia di notifiche e abbiamo sentito e letto sui resoconti dei lavori parlamentari della Camera che il Governo avrebbe risposto a questa eccezione dicendo che ci sono le notifiche con la PEC. Siccome stiamo parlando di materia penale e non civile e io faccio l'avvocato penalista, nella mia vita non ho mai trovato alcun mio assistito che sia munito di posta certificata, quindi probabilmente la PEC va bene per il pubblico ministero, va bene per l'avvocato difensore, ma difficilmente è possibile rinvenirla per le parti lese e, soprattutto, per gli imputati. Vogliamo, allora, prevedere una copertura? Noi vi stiamo dando un contributo, vi stiamo dando un aiuto, un suggerimento, vi stiamo mettendo a disposizione l'esperienza pratica quotidiana che abbiamo maturato sul campo e voi continuate a dire che riuscirete a fare le notifiche nelle stesse forme e nelle stesse maniere in cui si fa in tempi normali. Io conosco la situazione degli uffici giudiziari di Bari, che non è diversa da quella di altri uffici giudiziari del Paese, dove c'è una carenza ormai patologica nell'organico degli ufficiali giudiziari e dei cancellieri, che non riescono a fare il lavoro normalmente in tempo di pace; ciononostante voi li caricate di questo lavoro e pensate che lo possano portare a termine. Evidentemente, siete d'accordo con qualcuno per far prescrivere i processi, non c'è alcun'altra spiegazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u49">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg95">I restanti emendamenti si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg96">Invito il relatore e il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">PILLON</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PillonSimone" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u50">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg97">Esprimo parere contrario.</seg>
+            </u>
+            <note type="speaker">MORRONE</note>
+            <note type="role">sottosegretario di Stato per la giustizia</note>
+            <u ana="#guest" who="#MorroneJacopo" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u51">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg98">Esprimo parere conforme a quello espresso dal relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u52">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg99">Passiamo all'emendamento 2.1, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+            </u>
+            <note type="speaker">CUCCA (PD)</note>
+            <u ana="#regular" who="#CuccaGiuseppeLuigiSalvatore" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u53">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg100">Ne chiedo la votazione e domando di parlare per dichiarazione di voto.</seg>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg101">Signor Presidente, ho notato che aveva difficoltà a vedermi, ma c'è anche questa parte dell'Aula. Capisco che c'è un po' di allergia, ma ci siamo anche noi. Devo ribadire ancora una volta quello che ha detto il collega Vitali. C'è il problema, serissimo, delle notifiche. Il senatore Vitali ha concluso il suo intervento con un'affermazione grave, ma, purtroppo, condivisibile (ne ho accennato anche io in precedenza). Il punto è uno solo. Come ho detto in precedenza, richiamare l'articolo 157 del codice di procedura penale è totalmente inutile. Chi ha dimestichezza con le aule giudiziarie (e tanti colleghi della maggioranza ne hanno molta) sa perfettamente del numero di processi che si prescrive proprio a causa della nullità delle notifiche e delle omesse notifiche. Richiamare il contenuto dell'articolo 157, ultimo comma, del codice di procedura penale per sostenere che, comunque, le notifiche possono essere fatte al difensore via PEC significa ignorare quello che accade quotidianamente negli uffici giudiziari. Infatti, il difensore sistematicamente rifiuta di ricevere queste notifiche, per due motivi molto semplici. In primo luogo, egli non ha interesse a riceverle per tutelare la posizione del cliente e, in secondo luogo, perché ciò accrescerebbe le attività da compiere per il suo studio. Infatti, l'avvocato sarebbe a sua volta obbligato a comunicare al difensore, cosa che invece lascia fare allo Stato rifiutandosi di ricevere la notifica, nell'interesse del difensore che ha proceduto alla nomina del difensore d'ufficio. Pertanto, ancora una volta l'emendamento è di buon senso, ma, purtroppo, anche in questo caso pare che non si voglia accogliere alcuna delle osservazioni fatte per migliorare il provvedimento. Noi voteremo favorevolmente, pur sapendo che l'emendamento non verrà comunque accolto. Desideriamo, tuttavia, che la nostra posizione rimanga agli atti, così da poter dire che non abbiamo partecipato a questo scempio.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u54">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg102">Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 2.1, presentato dal senatore Vitali e da altri senatori, fino alle parole «pari a». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte e l'emendamento 2.2. Passiamo alla votazione dell'emendamento 2.3.</seg>
+            </u>
+            <note type="speaker">VITALI (FI-BP)</note>
+            <u ana="#regular" who="#VitaliLuigi" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u55">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg103">Signor Presidente, non intervengo sull'emendamento, perché mi sono stancato di parlare invano in quest'Aula. Ma vi faccio una promessa: non finisce qui.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u56">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg104">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.3, presentato dal senatore Vitali e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+            </u>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">GRASSO (Misto-LeU)</note>
+            <u ana="#regular" who="#GrassoPietro" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u57">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg105">Gentile Presidente, onorevoli senatori e senatrici, sono a tutti note le gravi criticità del palazzo di giustizia di Bari, che ha ospitato gli uffici della procura e del tribunale penale. Per tali criticità si è oggi giunti ad adottare un decreto-legge di sospensione dei termini dei procedimenti e dei processi penali. Apprese tali criticità, noi della componente Liberi e Uguali del Gruppo Misto abbiamo immediatamente presentato un'interrogazione parlamentare per sollecitare l'adozione di provvedimenti urgenti. Questo sì; tuttavia, a dire il vero, auspicavamo interventi legislativi volti a individuare una sede pubblica idonea per continuare a svolgere regolarmente le udienze e non, come avvenuto, interventi drastici sui termini processuali. Lo stabile che fino a oggi ha ospitato la giustizia a Bari - lo so anche per averlo frequentato personalmente nella mia precedente funzione giudiziaria - non ha mai avuto i requisiti di sicurezza e decoro che un palazzo di giustizia dovrebbe avere: poche aule rispetto alla mole dei processi, cancellerie molto piccole e difficoltà per chi vi lavorava perfino ad archiviare i fascicoli; le stanze dove erano in custodia i detenuti divise dagli altri ambienti da pareti in cartongesso; insufficienza dei servizi igienici; infiltrazioni d'acqua dal tetto e di liquami dal sottosuolo. Il quadro era assolutamente indecoroso per un luogo dello Stato, un palazzo di giustizia che dovrebbe essere simbolo, innanzitutto, di sicurezza, di legalità e - perché no - di salubrità. La storia giudiziaria del palazzo del tribunale di Bari non rappresenta, quindi, una novità di questi giorni, essendo cominciata più di quindici anni fa. I problemi della struttura, infatti, erano già emersi dalla prima consulenza disposta dalla procura nell'ambito dell'inchiesta per abusi edilizi che, alcuni anni addietro, aveva coinvolto i costruttori. Il processo finì con condanna in primo grado e prescrizione in appello; stessa sorte ebbe il procedimento successivo, per frode nelle pubbliche forniture. Quindi, quello del tribunale di Bari non può che essere il triste epilogo di una tragedia annunciata. La situazione della struttura, con locali pericolanti, non in grado di garantire la sicurezza e l'incolumità pubblica, il degrado degli uffici e lo stato di assoluta assenza di manutenzione erano dunque noti da anni, e non solo attraverso vicende giudiziarie, ma anche attraverso numerose denunce e segnalazioni. Le verifiche strutturali effettuate hanno spinto, giustamente, le autorità amministrative competenti alla decretazione di un'ordinanza di sgombero. Davanti agli occhi di tutti ci sono delle immagini: le immagini di udienze tenute nelle tendopoli. Questa è l'immagine, quella di un palazzo sinonimo di decadimento del servizio di giustizia che perviene al cittadino, un'immagine che si abbatte sull'intero sistema giudiziario. Un punto, però, è fondamentale e vale non solo per Bari, ma per tutti i palazzi di giustizia. L'instabilità dell'edificio che ospita il tribunale non deve in alcun modo avere ripercussioni negative sulla rapidità dei procedimenti e sulla giustizia da garantire ai cittadini. Il complesso dei beni strumentali e dei documenti indispensabili per l'esercizio delle funzioni giudiziarie coinvolgono interessi di rilevanza costituzionale e, pertanto, non possono essere improvvisamente interrotti. Nel merito, il provvedimento sospende fino al 30 settembre 2018 i termini dei procedimenti penali pendenti alla data di entrata in vigore del decreto-legge n. 73 del 22 giugno 2018 dinanzi al tribunale di Bari e alla procura della Repubblica presso il medesimo tribunale. Al comma 1 dell'articolo 1, però, si usano impropriamente le parole «procedimenti penali pendenti». Per evitare qualsiasi interpretazione sarebbe stato necessario (e per questo abbiamo presentato un emendamento, che però non è stato approvato) rendere esplicito che il contenuto del decreto-legge si riferisce non solo ai procedimenti e ai processi pendenti alla data del decreto, ma anche a quelli sopravvenuti fino alla data del 30 settembre 2018. Tale chiarimento è attualmente contenuto all'interno della relazione illustrativa, ma non è esplicitato nell'articolato del decreto-legge. Alla Camera era stata prime cure anche posta la richiesta di inserire questa modifica ma, anche lì, non si capisce perché non sia stato modificato il provvedimento. A mio avviso, quindi, non basta un ordine del giorno a risolvere la questione interpretativa perché, come ho già detto, l'ordine del giorno impegna il Governo, ma l'interpretazione della legge spetta ai magistrati e agli operatori di giustizia. E siccome ci sono delle conseguenze anche sulla prescrizione, è chiaro che queste sono questioni giuridiche che potranno essere effettivamente poste. Per quanto possibile, sotto il profilo dell'organizzazione speriamo certamente che il caso di Bari non si ripeta più e che si risolva al più presto tutto il problema dell'edilizia giudiziaria, perché lì non c'è una lentezza della giustizia ma un'assoluta assenza di giustizia. Viene a mancare completamente un presidio della giurisdizione sul territorio. Questo è inaccettabile, perché crea a Bari una disparità di trattamento dei cittadini che hanno la sventura di avere una pendenza giudiziaria proprio presso quel tribunale. Inoltre, vi sono rilevanti perplessità sotto il profilo della legittimità costituzionale del provvedimento in esame. In passato una misura così drastica - parliamo di ledere i diritti costituzionalmente garantiti - come la sospensione dei termini processuali mediante decreto-legge è stata adottata in casi estremi come le calamità naturali. Quando i procedimenti ripartiranno, la macchina giudiziaria sarà gravemente rallentata, come se già non fosse abbastanza lenta in generale, con gravi conseguenze che contrastano con i princìpi del giusto processo, della ragionevole durata del processo, del diritto alla difesa. La sospensione dei procedimenti penali avrà dunque delle inevitabili conseguenze che contrastano con i princìpi costituzionali (articoli 2, 3, 24 e 111 della Costituzione). Altra perplessità nasce dal fatto che il termine fissato per il 30 settembre rischia anche di essere prorogato, viste le vicende ancora da approfondire in merito alla sede in cui trasferire il tribunale. Intervenire sui termini processuali, sospendere termini e procedimenti sarebbero la soluzione alla paralisi giudiziaria? È quasi paradossale, considerato che soltanto per effettuare le 60.000 notifiche stimate dal tribunale di Bari in conseguenza al provvedimento ci vorranno molto tempo, molto personale - addirittura si è parlato di una task force - e molta attività da parte degli uffici. È difficile immaginare tutto questo senza maggiori oneri per la finanza pubblica poiché queste attività hanno un costo. Un parere tecnico ha individuato in 60.000 euro il costo dell'operazione, ma noi pensiamo che sarà ben maggiore.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg106">(ore 10,52) ( Segue GRASSO). Inoltre, tutte le persone audite in Commissione alla Camera, tra cui gli stessi operatori di giustizia del tribunale - magistrati, avvocati, cancellieri - all'unanimità hanno manifestato una ferma contrarietà a queste misure. Sarebbe stato forse più opportuno dotarsi dei poteri per intervenire a livello logistico, individuare immediatamente una sede realmente idonea a far proseguire tutte le attività giudiziali. In conclusione, questo provvedimento non fa che determinare un allungamento dei processi e riteniamo che sarà oggetto di numerosi ricorsi anche alla Corte costituzionale. Per queste ragioni annuncio il voto contrario del Gruppo Liberi e Uguali alla conversione in legge del decreto-legge in esame.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-LeU e del senatore Cucca.</desc>
+               </kinesic>
+            </u>
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+            <note type="time">10,52</note>
+            <note type="speaker">BALBONI (FdI)</note>
+            <u ana="#regular" who="#BalboniAlberto" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u58">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg107">Signor Presidente, cari colleghi, il Gruppo Fratelli d'Italia voterà contro il provvedimento in esame perché, al di là del merito, ci spiace dover constatare che il Governo è rimasto sordo, e con esso la maggioranza, a tutte le proposte di miglioramento che sono venute non soltanto in questa seconda lettura, ma già in prima lettura alla Camera, dove sarebbe stato ancora più semplice accoglierle, che sono venute da varie parti dell'opposizione che, al di là del merito, hanno tentato almeno di intervenire con proposte di miglioramento sul piano della tecnica legislativa. Questo è un provvedimento che non soltanto suscita - com'è stato ampiamente dimostrato nel corso dell'ampio dibattito e dell'esame degli emendamenti svolto questa mattina - gravi perplessità di merito e di diritto e addirittura di costituzionalità, ma lascia anche molto a desiderare sul piano della tecnica legislativa. Sorprende che nemmeno su questo piano, con un atteggiamento di incomprensibile chiusura, il Governo e la maggioranza abbiano voluto ascoltare chi da più parti cercava almeno di limitare il danno e di migliorare ciò che poteva essere migliorato. Come è già stato da più parti sottolineato, questo è un provvedimento che mette d'accordo - caso più unico che raro - tutti gli operatori della giustizia: gli avvocati, i magistrati e il personale amministrativo. Sono tutti concordi nel ritenere che questo provvedimento farà più danni di quelli che, in astratto e su un piano puramente teorico, si propone di risolvere. Non c'era, molto probabilmente, l'urgenza prevista dalla Costituzione per intervenire in questa materia. Molti hanno già ricordato che i problemi del tribunale di Bari non sono certamente nati ieri: non sono conseguenti a un terremoto o a un'alluvione, a un evento straordinario e imprevedibile e neanche a un evento naturale. Sono conseguenti a incapacità amministrativa e gestionale di chi doveva preoccuparsi dell'amministrazione della giustizia a Bari e degli strumenti decorosi e dignitosi per poter esercitare l'importantissima funzione giurisdizionale. Ebbene, per queste ragioni riteniamo sia assolutamente improprio prevedere sospensioni dei termini processuali, ma, ancora di più, intervenire anche in materia di prescrizione prevedendone la sospensione. Come tutti hanno ricordato, la prescrizione è un istituto sostanziale, non processuale e - come dicevo poc'anzi - finora, nel nostro ordinamento, è stata sospesa soltanto in casi straordinari: ricordo il caso dei terremoti dell'Emilia-Romagna o dell'Aquila, casi gravissimi che non hanno nulla a che vedere con il caso in esame. Il relatore si chiedeva il perché le opposizioni si scaldano tanto: in fin dei conti, si tratta soltanto di una sospensione di tre mesi, uno dei quali è già previsto dalla legislazione attuale come sospensione dei termini feriali. Ebbene, è proprio questo il punto. Non c'era bisogno, per una sospensione così breve, di intervenire in questo modo. Si poteva benissimo intervenire dando poteri straordinari al prefetto, come hanno inutilmente chiesto gli emendamenti, poco fa respinti dalla maggioranza e dal Governo. Restiamo convinti che il provvedimento al nostro esame non abbia nemmeno la necessaria copertura finanziaria. Restiamo convinti che le notifiche dovranno necessariamente essere eseguite - al di là di quello che dice il relatore - e comporteranno elevati costi e aggravi importanti sia di tempo che di denaro a carico dell'amministrazione, con la conseguenza - come molti hanno spiegato meglio di me nel corso della discussione generale - che molti procedimenti penali finiranno prescritti, nonostante la sospensione disposta con il provvedimento in esame. Spero di sbagliarmi, ma sono convinto - come molti che sono intervenuti prima di me - che tra tre mesi, anzi due, in data 30 settembre, i problemi saranno tutt'altro che risolti e il Parlamento dovrà tornare a occuparsi dell'argomento, per mettere - speriamo allora - quelle pezze al testo che purtroppo in questa sede non si sono volute mettere. Per queste ragioni, il Gruppo Fratelli d'Italia voterà convintamente contro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CUCCA (PD)</note>
+            <u ana="#regular" who="#CuccaGiuseppeLuigiSalvatore" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u59">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg108">Signor Presidente, il Gruppo PD non condivide nulla del contenuto del provvedimento che l'Assemblea si accinge oggi ad approvare, evidentemente con le forza dei numeri. Tuttavia, noi abbiamo la sana abitudine di rispettare la forza dei numeri e, quindi, le regole democratiche. Non si può non osservare che già il titolo di questo provvedimento è frutto di una suggestione. Si parla di «misure urgenti e indifferibili per assicurare il regolare e ordinato svolgimento dei procedimenti e dei processi penali nel periodo necessario a consentire interventi di edilizia giudiziaria». Qual è il contenuto del provvedimento? È quello di sospendere i procedimenti: altro che assicurare il regolare svolgimento! Li sospendiamo; li facciamo cessare, provvisoriamente, ma li facciamo cessare, e sul termine «provvisoriamente» avremo modo di ritornarci in futuro, quando il provvedimento tornerà per la proroga o forse sarà inserito nel mille proroghe. Abbiamo tutti la consapevolezza che in due mesi non accadrà proprio nulla, anche perché abbiamo visto stamattina che tutti gli emendamenti destinati a dare una risposta in materia di edilizia giudiziaria e a reperire gli immobili sono stati respinti a maggioranza. Non c'è quindi alcuna volontà e, per assicurare il regolare e ordinato svolgimento dei processi, li sospendiamo. Più ordinato di così: non si fa nulla e non se ne parla più. È lecito chiedere quindi come si voglia assicurare il regolare svolgimento, visto che il decreto-legge contiene solo la sospensione. Il provvedimento, lungi dal conseguire l'obiettivo dichiarato nel titolo, che - ribadisco - è suggestivo, produrrà un danno che è stato già ben evidenziato da chi mi ha preceduto. Il presidente del tribunale di Bari, in sede di audizione, ha dichiarato che i danni che si produrranno potranno essere assorbiti in un periodo sicuramente non inferiore ai dieci anni. Voglio evidenziare peraltro che ho apprezzato molto la presentazione dell'ordine del giorno, che è venuto fuori dopo che reiteratamente avevamo chiesto la valutazione di impatto di questo provvedimento. Oggi c'è stato presentato un ordine del giorno: è già qualcosa, è un piccolissimo passo in avanti, se non altro perché tra diciotto mesi avremo modo di conoscere in questa sede i danni che il provvedimento avrà provocato. E abbiamo soprattutto preso atto che il Governo emana dei decreti-legge su una materia tanto delicata, sospendendo i procedimenti, senza aver fatto la minima valutazione di ciò che produrranno. È questo il dato certo. Ci è stato detto infatti che non erano nelle condizioni di dare la valutazione di impatto. Abbiamo quindi ora la certezza che il Governo emana decreti-legge senza conoscere probabilmente cosa accadrà a seguito della loro applicazione.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg109">(ore 11,02) ( Segue CUCCA). Con l'ordine del giorno si è raccolta una richiesta che era stata formulata reiteratamente; meglio tardi che mai, ma non è sicuramente sufficiente. Non è infatti in questo modo che si affrontano tematiche tanto delicate come quella della situazione nella quale versa il tribunale di Bari, che sarà costretto a denegare giustizia perché in questo periodo non si potrà fare niente. Alla cittadinanza si dovrà dire, con le conseguenze di cui abbiamo già parlato reiteratamente, di non poter dare giustizia perché non ci sono le sedi e tutti i procedimenti peraltro sono sospesi. Abbiamo provato a offrire il nostro contributo per migliorare il decreto-legge, ma abbiamo sempre ottenuto un rifiuto che possiamo definire pregiudiziale. Questo ci consentirà però, molto prima che si avvii la stagione invernale, di affermare che ve l'avevamo detto, anche se ciò costituirà purtroppo un'amara soddisfazione rispetto ai gravi danni che nel frattempo si saranno verificati nel sistema giudiziario di Bari. Queste preoccupanti considerazioni sono state svolte - come già detto - da tutti gli operatori giudiziari ascoltati nel corso delle audizioni svolte alla Camera, che sono però rimaste anch'esse lettera morta. Il Governo ha inteso perseverare e andare avanti lungo un percorso non condiviso sostanzialmente da alcuno degli operatori di giustizia nell'ambito del territorio di Bari. È evidente che questo ci pone un problema nel tentativo di capire le motivazioni per cui il provvedimento va avanti in siffatto modo. È evidente che pensare che sia la sospensione a risolvere i problemi del regolare e ordinato svolgimento è una chimera. Dobbiamo allora domandarcene le ragioni e forse le osservazioni che sono state svolte in precedenza da taluni colleghi, in particolare dal collega senatore Vitali, credo possano essere effettivamente condivise. Nessuno, inoltre, ci ha spiegato come sia possibile toccare l'istituto della prescrizione. Abbiamo reiteratamente sollevato questo problema, ma nessuno ha inteso dare risposta, dicendoci come si possa dare efficacia retroattiva quando sappiamo che l'istituto della prescrizione - come già detto dall'ultimo intervenuto - è un istituto sostanziale e non processuale. Anche questo elementare argomento, che si studia nei primi anni della facoltà di giurisprudenza, è stato semplicemente ignorato da chi ha scritto il provvedimento e soprattutto da chi, avendo - come sappiamo perfettamente - un solido bagaglio culturale sulle spalle, persiste in questo grossolano errore. Affrontiamo quindi il gravissimo problema e la gravissima situazione a fronte delle persone che hanno detto che sarebbe stato meglio continuare con il caldo, con una situazione climatica difficilissima, a fare processi nelle stesse strutture piuttosto che non fare nulla, come si sta facendo adesso sospendendo i processi, per assicurarne il regolare e ordinato svolgimento. Questa è palesemente una contraddizione, che debbo dire probabilmente rasenta il ridicolo. Si è detto che la sospensione opererà per un periodo estremamente limitato. Ebbene, tanto noi sappiamo - l'abbiamo detto più volte - che questo provvedimento non spiegherà mai alcun effetto concreto e benefico, ma incrementerà anzi le difficoltà e il disagio del tribunale di Bari e purtroppo sarà oggetto - l'ho già detto - di proroghe che saranno reiterate a lungo. Con tutto ciò è evidente che ci si avvierà verso la prescrizione di moltissimi processi. E poi si dice che noi vogliamo condurre una lotta alla criminalità! Noi ci allontaniamo da provvedimenti di questo genere, che, lungi dal dare un contributo serio e concreto alla risoluzione dei problemi di Bari, e quindi anche dall'evitare che i processi si prescrivano, invece li favoriscono largamente. Quindi, sono forse vere anche le notizie riguardanti l'avvenuta individuazione di un immobile, peraltro palesemente inadatto allo scopo (secondo quanto dichiarato da tutti coloro che operano nel tribunale di Bari). Probabilmente si è voluto semplicemente prendere del tempo e offrire uno specchietto per le allodole, al fine di sviare l'attenzione dal progetto vero sottostante di individuare quel locale che - per i motivi di cui abbiamo già ampiamente parlato - si tiene per il momento sottotraccia. Il progetto di acquisizione e di trasferimento verrà invece portato avanti in questo periodo e poi ovviamente valuteremo i danni che saranno stati i prodotti. Noi del PD però - lo annunciamo - manterremo molto alta l'attenzione sull'operato del Governo su questi temi e non esiteremo a denunciare operazioni che sono svolte per chissà quali reconditi motivi, che peraltro non riusciranno sicuramente - è stato detto dagli operatori e lo ribadisco ancora - a risolvere il problema denunciato che attanaglia la giustizia a Bari. Si tratta dunque di un provvedimento che definire sconclusionato è sicuramente molto ottimista. È sconclusionato in ogni sua parte e produrrà danni enormi, che noi denunciamo sin da oggi e dei quali la maggioranza, sorda a qualsiasi proposta migliorativa, sarà chiamata prima o poi - credo in tempi molto brevi - a rispondere. Un'ultima annotazione riguarda l'impegno economico. Noi sappiamo perfettamente che quello delle notifiche è un tema che esiste e che a nulla vale la giustificazione, peraltro tardiva, portata stamattina dal relatore, perché - come ho già detto - le notifiche verranno pretese. L'avvocato pretenderà che vengano fatte direttamente agli imputati coinvolti, perché è una prassi consueta e chi svolge quotidianamente la professione e frequenta le aule giudiziarie ha cognizione del comportamento che si deve tenere nell'interesse dei nostri clienti nelle aule giudiziarie; sa perfettamente che il comportamento è quello di favorire massimamente il cliente e, quindi, l'imputato. Si rifiuteranno le notifiche e ciò produrrà quel danno economico di cui si è parlato: 60.000 notifiche. È pertanto evidente che il voto del Partito Democratico non potrà che essere contrario</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="president">Presidenza del vice presidente TAVERNA</note>
+            <note type="time">11,02</note>
+            <note type="speaker">MARTI (L-SP)</note>
+            <u ana="#regular" who="#MartiRoberto" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u60">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg110">Signor Presidente, gentili colleghi, la mia dichiarazione di voto vi terrà impegnati solo qualche minuto, perché - anticipo che il vostro voto sarà favorevole su questo provvedimento - ha ben poco da aggiungere a quanto già detto dal nostro relatore Pillon e da tutti coloro che sono intervenuti in precedenza. Qualche considerazione forse va fatta e la più importante credo non sia quella di ricordare i trentasei anni trascorsi della storia del tribunale di Bari. Io ritengo di rivolgere invece un ringraziamento al Governo per non aver voluto utilizzare alcuno strumento politico e strumentalizzare una vicenda che lega la Puglia e Bari, il suo capoluogo, a quindici anni di inefficienza delle amministrazioni susseguitesi nel tempo: due anni dell'attuale presidente della Giunta regionale, Michele Emiliano, che è stato sindaco di Bari per dieci anni, nonché magistrato di quella procura e di quel tribunale, e cinque anni dell'attuale sindaco, che è anche un ingegnere e ha visitato per quattro anni e mezzo quel tribunale per ragioni istituzionali, ma che solo un mese fa si è reso conto dell'inagibilità di un edificio. La cosa che sembra più assurda è che una parte di questa opposizione - mi riferisco a Forza Italia, mentre lo capisco per quanto riguarda il PD - non riesca a far emergere questo tipo di problema e a ringraziare il Governo, il Parlamento e la maggioranza del Senato per aver messo una toppa - come ha detto il nostro relatore</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP e M5S) -</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg111">a un problema annoso della comunità della Puglia e del capoluogo di Regione.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg112">Ci siamo resi conto solo adesso delle enormi falle. Ci siamo resi conto adesso che il provvedimento in esame non andava fatto. Noi abbiamo voluto semplicemente togliere da una tensostruttura, senatore Vitali, i suoi colleghi avvocati, i suoi colleghi magistrati, gli imputati che hanno diritto a non stare da 32 a 40 gradi sotto il sole</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP e del senatore Giarrusso</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg113">in questo periodo dell'anno durante lo svolgimento dei processi. Lo abbiamo fatto senza mai tirare fuori il problema, veramente molto importante, dell'edilizia giudiziaria che non atteneva a questo Governo, ma ai cinque anni di Governo precedente del PD, che è legato alle due amministrazioni e alla terza del sindaco attuale.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg114">Quindi, mi sarei aspettato almeno da parte vostra - e me lo aspetto ancora - un cambio di passo nel voto finale che esprimerete per appoggiare il Governo e questa maggioranza nel dare dignità a chi, nel nome del popolo italiano, deve essere rispettato e tolto da una tendopoli</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MODENA (FI-BP)</note>
+            <u ana="#regular" who="#ModenaFiammetta" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u61">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg115">Signor Presidente, membri del Governo, onorevoli colleghi, annuncio fin d'ora il voto contrario e chiedo espressamente al rappresentante del Governo, che è qui in Aula, che cosa sia andato a fare il ministro Bonafede a Bari. Il punto politico del decreto-legge in esame è il seguente: se si è consapevoli di non essere nelle condizioni di risolvere un problema, e quindi ci si limita a fare un decreto pasticciato da un punto di vista giuridico - poi su questo punto tornerò - è meglio stare da un'altra parte. Non c'è bisogno che il ministro Bonafede faccia come prima o seconda apparizione pubblica l'entrata scenica nella tendopoli di Bari. In quel momento il problema non è più solo del passato, ma diventa del Governo attuale. Quello che vi hanno chiesto i magistrati e gli avvocati - vi dirò un po' anche quello che è arrivato dalle camere penali dopo il dibattito che c'è stato alla Camera - non era un intervento di sospensione: volevano un edificio. Il Ministro è andato ad assumersi un impegno per il Governo per risolvere il problema, perché è il Governo del cambiamento e, quindi, deve per forza risolvere i problemi del passato. Io vi chiederei di chiudere la fase in cui le cose che non riuscite a fare sono considerate responsabilità del passato. Che cosa ha chiesto la comunità giuridica di Bari al Ministro che è andato - secondo me incautamente - a Bari? Ha chiesto di fare l'operazione che fece l'allora ministro Rutelli quando venne giù il teatro di Bari: in tre giorni fece fare una ordinanza al Consiglio dei ministri per risolvere il problema attraverso l'individuazione di un commissario. È inutile che a dei cittadini, agli operatori del diritto, a persone che conoscono la situazione dell'edilizia forse molto meglio di noi, si proponga un rinvio dei termini quando invece chiedono un edificio. È per questo - e rispondo al collega della Lega che sta alle mie spalle - che Forza Italia non può votare il provvedimento in discussione, perché è stata chiesta una cosa al Governo e il Governo, invece di dare quanto si è chiesto, ha detto qualcosa del tipo: "Ne riparliamo tra un po'". Vi dirò di più e lo faccio con forte consapevolezza e scusandomi per il riferimento parzialmente personale. Io credo che una cosa del genere, e cioè andare in un posto e poi approvare un provvedimento che non dice niente, è un po' quanto ha fatto Renzi per anni; è il motivo per cui io - per esempio - ho costituito comitati nel no in tutta la mia Regione; è lo stesso stile. È inutile dire che c'è una responsabilità del vecchio. La verità è che alla fine, quando si tratta di risolvere i problemi concreti, quello che faceva Renzi e ciò che fa questo Governo sono la stessa cosa. Dico questo perché sono due giorni che sento colleghi strillare contro il PD e il Partito Democratico strillare contro la Lega. Secondo me, più o meno si è fatta la stessa cosa: si è fatta la comparsata a Bari, non si è risolto nulla e poi si viene qui a discutere di una norma che non risolve il problema. E lo affermo sulla base di una storia che penso mi autorizzi a farlo. Qualcuno ha chiesto perché perdiamo tutto questo tempo su una questione che riguarda un edificio. Bari - e io non sono di quelle zone - è il nono Comune d'Italia, il terzo al Sud dopo Napoli e Palermo, una bellissima porta d'oriente verso l'Est e verso il Medio Oriente, nonché una culla di giuristi di livello straordinario: pensate che vendono i libri giuridici nelle edicole. La vicenda di Bari costituisce un precedente pericoloso non solo per tutte le questioni che il collega Vitali ha già spiegato con eleganza e anche con grande competenza. La questione assume una rilevanza importantissima e tragica come precedente per il semplice motivo che oggi siamo nelle condizioni di dire che, nel momento in cui c'è un problema di edilizia, si dispone una sospensione e non si risolve quel problema. Ciò significa che, se in un ospedale avviene - come può capitare - un caso di inagibilità, si sospendono le analisi e non perché c'è stato un sisma - come ieri hanno ricordato giustamente i miei colleghi Minuti e Damiani - ma perché non si sa cosa fare e si cerca una soluzione per i prossimi tre mesi. Un collega ha anche detto che forse sono le persone che non sono avvocati a non aver capito l'importanza strategica del decreto-legge in esame. Ma ciò non è vero, perché sempre avvocati e magistrati hanno scritto alla Camera e al Senato per dire chiaramente che, prima della sospensione dei processi, facevano i rinvii proprio perché consentivano la salvezza dei termini. Questo è un punto tecnico, e chi è del mestiere sa benissimo che è meglio fare il rinvio piuttosto che sospendere tutto. Non volevano la sospensione, perché la soluzione l'avevano trovata da soli. Volevano un posto perché - come hanno giustamente ricordato i colleghi Damiani e Minuti ieri - da quindici anni si conosce il problema. C'è poi il precedente Rutelli, con la vicenda del teatro, che è il motivo per cui - lo ripeto e insisto - forse non si è centrato quanto volevano i cittadini di Bari. Detto questo, credo abbia ragione il senatore Vitali nell'affermare che, quando una maggioranza è così sorda, ci si deve chiedere il motivo. Egli si è dato due possibili spiegazioni e ha concesso ai colleghi il beneficio del dubbio, dicendo che forse sono così perché sono novizi, ma alla fine ha anche detto che forse hanno degli interessi. Questo lo scopriremo cammin facendo, ma credo che il voto favorevole al decreto-legge in esame da parte di Forza Italia non sia assolutamente possibile e, pertanto, dichiariamo il nostro voto contrario.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GIARRUSSO (M5S)</note>
+            <u ana="#regular" who="#GiarrussoMarioMichele" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u62">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg116">Signor Presidente, colleghi, in quest'Aula è andato in scena il teatro dell'assurdo e si è arrivati fino al punto di dire che non ci sono ragioni d'urgenza per intervenire in una situazione in cui la giustizia era vergognosamente ridotta sotto le tende, era disastrata!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg117">A noi non stupisce sentire le argomentazioni di Forza Italia e del PD e vedere i due Gruppi che si danno ragione. Lo abbiamo visto per cinque anni, nella scorsa legislatura, e gli italiani hanno visto per vent'anni quest'asse.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP. Vivaci commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg118">MALPEZZI (PD). Vi date ragione con la Lega! FARAONE (PD). Con la Lega! PRESIDENTE. Credo si possa far terminare un senatore senza fare commenti, giusto senatore Faraone? Ce lo concede? La ringrazio. GIARRUSSO (M5S). Su che cosa, colleghi, i due Gruppi avevano un'intesa evidente in questa Assemblea? MALPEZZI (PD). Parla per te! Guarda con chi stai governando! GIARRUSSO (M5S). Su due questioni che hanno avuto tanto a cuore negli ultimi vent'anni nel nostro Paese. La prima è quella dei commissari straordinari: una vera passione per violare tutte le regole del diritto!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg119">Questo è quello che chiedevate. Vergogna!</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg120">FARAONE (PD). Vergognati tu! PRESIDENTE. Senatore Giarrusso, la prego di mantenere un contegno dignitoso e si rivolga alla Presidenza. Sia cortese. MALPEZZI (PD). Parla del tuo programma!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dei senatori Laus e Marcucci.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg121">Sappiamo che non c'è stata una sola...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Faraone.</desc>
+               </vocal>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u63">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg122">Senatore Giarrusso, non la faccio continuare, attenda un attimo. Se l'Assemblea le consente di continuare il discorso...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Faraone.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg123">Il senatore Giarrusso è già stato ripreso. Senatore Faraone, devo riprendere anche lei? Invito tutti quanti ad abbassare i toni per far parlare il senatore Giarrusso, a cui chiedo di mantenere un tono e un vocabolario degni di questa Assemblea e di rivolgersi alla Presidenza.</seg>
+            </u>
+            <note type="speaker">GIARRUSSO (M5S)</note>
+            <u ana="#regular" who="#GiarrussoMarioMichele" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u64">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg124">Signor Presidente, non c'è stata una sola gestione commissariale nella storia degli ultimi venti anni che non sia finita in tribunale e come sappiamo, perché le gestioni commissariali servono a bypassare tutte le regole del diritto.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Modena.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg125">I colleghi si mettano il cuore in pace: il Governo e la maggioranza vogliono rispettare le regole del diritto e non le vogliono derogare: non ne hanno intenzione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg126">MALPEZZI (PD). Sospendete i diritti dei cittadini! GIARRUSSO (M5S). Abbiamo avversato tutte le gestioni commissariali che avete proposto nella scorsa legislatura e coerentemente non ne useremo e non ne abuseremo come avete fatto voi: mai!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg127">Parliamo della seconda passione che vi unisce, che è sottesa a questo dibattito, che altrimenti sarebbe surreale e incomprensibile per un intervento che - come il senatore Pillon, con molta calma e correttezza ha spiegato - è normale. No: c'è un non detto che viene espresso negli interventi, che è la grande passione per la prescrizione che avete voi della vecchia maggioranza, del vecchio asse che ha sfasciato questo Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg128">Guai a toccare la prescrizione! FARAONE (PD). Finiscila!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Bellanova.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg129">MARCUCCI (PD). Pensa agli affitti! GIARRUSSO (M5S). La levata di scudi e l'asse che abbiamo visto in quest'Aula hanno una sola ragione: si è toccato il tabù che deve essere intoccabile, ossia la prescrizione. Guai a toccarla!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Bellanova.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg130">PRESIDENTE. Senatrice Bellanova, mi perdoni, ma non c'è bisogno di una continua interlocuzione con il senatore Giarrusso.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg131">BELLANOVA (PD). Lei non deve permettere le accuse!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u65">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg132">...neanche di una interlocuzione con me. La prego di far terminare il senatore Giarrusso.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg133">Non mi sembra che sia stato detto nulla e ci penso io a richiamare i senatori che hanno un atteggiamento non consono all'Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg134">Devo procedere a un richiamo formale o i senatori Questori possono cortesemente consentire...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dei senatori Faraone, Malpezzi e Bellanova</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg135">Io sto ascoltando il senatore Giarrusso e non ravviso alcun motivo per doverlo richiamare, tranne le vostre interruzioni.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg136">FARAONE (PD). No, no, no! BELLANOVA (PD). Giarrusso deve parlare dei contenuti! FARAONE (PD). È vergognoso! Provoca! PRESIDENTE. Senatore Faraone, non le permetto di dire che sono parziale. Se mantenete un atteggiamento consono all'Aula, possiamo far terminare questo intervento. Posso ridare la parola al senatore? Vi ringrazio. FARAONE (PD). Un atteggiamento consono deve mantenerlo lui! (Scambio di battute tra il senatore Puglia e la senatrice Bellanova). PRESIDENTE. Senatrice! Senatore Faraone, richiamo all'ordine anche lei. Non vorrei procedere a un secondo richiamo! Prego, senatore Giarrusso, continui. GIARRUSSO (M5S). Bene, dopo aver apprezzato la democrazia dell'ex maggioranza... RAMPI (PD). Ora basta! Sei tu maggioranza! GIARRUSSO (M5S). Continuiamo nell'esprimere la nostra ferma posizione, coerente... RAMPI (PD). È incredibile, ma governi tu! MALPEZZI (PD). Incredibile davvero! PRESIDENTE. Senatore, cortesemente. Se voglio posso richiamare tutti, qualora continuiate a disturbare la seduta. BELLANOVA (PD). È lei la Presidente! PRESIDENTE. Senatrice Bellanova, sono perfettamente in grado di capire le parole del senatore Giarrusso e di svolgere il mio ruolo con imparzialità. L'ho richiamata una prima volta. Vi chiedo gentilmente di far terminare i lavori con un atteggiamento consono al vostro ruolo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg137">Prego, senatore Giarrusso.</seg>
+            </u>
+            <note type="speaker">GIARRUSSO (M5S)</note>
+            <u ana="#regular" who="#GiarrussoMarioMichele" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u66">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg138">La ringrazio, Presidente.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg139">Io credo che quanto è stato fatto dal nostro Governo sia ciò che si aspetta il nostro Paese da sempre: un intervento normale, secondo le regole, che non avvantaggia nessuno, come ha ben spiegato il senatore Pillon...</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg140">MALPEZZI (PD). State sospendendo. GIARRUSSO (M5S). ...che mette tutti nelle condizioni di poter accedere alla giustizia in maniera dignitosa, perché non è dignitoso gestire la giustizia sotto le tende, come avete fatto voi con le vostre mancanze ventennali, perché voi avete messo la giustizia in queste condizioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg141">MALPEZZI (PD). Le tende!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Faraone.</desc>
+               </vocal>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u67">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg142">Senatore Marcucci, mi rivolgo a lei. Come posso chiedere ai suoi colleghi di far terminare il senatore? Io non posso ascoltare continue interruzioni sulla parola «regole», mi perdoni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg143">Sulla parola «regole» ci sono delle interruzioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP. Commenti del senatore Faraone</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg144">Senatore Marcucci, le chiedo cortesemente, in qualità di Capogruppo, di invitare i suoi colleghi a terminare questa discussione. È possibile? Prego, senatore Giarrusso.</seg>
+            </u>
+            <note type="speaker">GIARRUSSO (M5S)</note>
+            <u ana="#regular" who="#GiarrussoMarioMichele" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u68">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg145">Grazie, signor Presidente.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg146">Concludendo, io credo che quest'Assemblea esprimerà il proprio voto su un provvedimento normale. Questa sarà la cifra di questa maggioranza e di questo Governo: ci saranno atti normali, dettati dalla logica e dal buon senso e non atti che possano dare adito a quanto abbiamo già visto in passato, i cui effetti stiamo cercando di contenere e riparare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Molte congratulazioni</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg147">MARCUCCI (PD). Vergogna!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u69">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg148">Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, composto del solo articolo 1. (Segue la votazione). Il Senato approva.</seg>
+               <kinesic type="applause">
+                  <desc>v. Allegato B. Applausi dai Gruppi M5S e L-SP, i cui senatori si alzano in piedi. Dai Gruppi PD e FI-BP si levano i cori: «Vergogna, vergogna, vergogna!» e «Onestà, onestà, onestà!». Commenti del senatore Faraone.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u70">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg149">Signor Presidente, segnalo alla Presidenza che si può tenere ordine, come è giusto. Questo è il suo ruolo e la ringraziamo perché lei lo svolge in maniera appropriata e adeguata. Segnalo però al Presidente che in quest'Assemblea, qualche seduta fa, un senatore del MoVimento 5 Stelle, ha non solo attaccato e ingiuriato, ma anche minacciato un nostro collega.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg150">Io ho chiesto provvedimenti che non sono ancora stati presi. In quest'Assemblea il senatore Airola ha ingiuriato e minacciato un nostro collega. Allora, si cominci dai comportamenti di tutti e non solo da quelli del Partito Democratico su un provvedimento vergognoso che oggi avete voluto approvare, a dispetto della legge e della legalità!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u71">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg151">Senatore, Marcucci, come lei sa, della sua richiesta è già stato investito il Presidente del Senato.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg152">La mia è stata una richiesta di collaborazione con il Capogruppo, in una perfetta condizione di rispetto dei ruoli. Mi sono permessa di chiedere a lei la cortesia di un aiuto affinché ci fosse in Assemblea un atteggiamento dignitoso e rispettoso sia della Presidenza, che dei colleghi.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg153">MARGIOTTA (PD). Ci comporteremo come lei si è comportata nella scorsa legislatura! PRESIDENTE. Non ho chiesto il vostro intervento, sto parlando con il Capogruppo. La ringrazio per aver contribuito. La seduta è sospesa. Riprenderà alle ore 15. (La seduta, sospesa alle ore 11,36, è ripresa alle ore 15,02).</seg>
+            </u>
+            <note type="president">Presidenza del presidente ALBERTI CASELLATI</note>
+         </div>
+         <div type="debateSection">
+            <head>(3-00127) - Question time su indicazioni amministrative volte a concedere in meno casi riconoscimento protezione internazionale</head>
+            <note type="time">(ore 15,02)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u72">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg154">L'ordine del giorno reca lo svolgimento di interrogazioni a risposta immediata (cosiddetto question time ), ai sensi dell'articolo 151- bis del Regolamento, alle quali risponderanno il Ministro dell'interno e il Ministro dell'istruzione, dell'università e della ricerca. Invito gli oratori ad un rigoroso rispetto dei tempi, considerata la diretta televisiva in corso.</seg>
+               <incident type="action">
+                  <desc>I senatori del Gruppo PD si alzano in piedi mostrando la rivista «Famiglia Cristiana» e gridando: "Vade retro! Vade retro!"</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg155">No, no! Lo trovo incivile! Via subito quelle cose. Prego i senatori questori di intervenire. Sospendo la diretta televisiva.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg156">Sarà carino per qualcuno, ma a me non piace affatto.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg157">FARAONE (PD). Ministro, vieni qui a fare le foto! PRESIDENTE. Per favore! Io non accetto questo modo di rapportarsi. Gli show noi li riserviamo ad altre sedi. COLLINA (PD). In Aula non si posso fare le foto! PRESIDENTE. La senatrice De Petris ha facoltà di illustrare l'interrogazione 3-00127 sulle indicazioni amministrative volte a concedere in meno casi il riconoscimento della protezione internazionale, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u73">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg158">Signor Presidente, rinnovo una domanda formulata già ieri durante i lavori della 1ᵃ Commissione al ministro Salvini, che riguarda per la precisione la circolare inviata dal Ministro il quattro luglio, poi ripresa da una nota formale inviata il 16 luglio 2018 dalla Presidente per la Commissione nazionale per il diritto d'asilo, in cui si chiede ai commissari delle commissioni territoriali di attenersi alle procedure di valutazione delle domande di protezione internazionale, in particolare in merito alle domande il cui esito sia la protezione umanitaria. Facendo riferimento alla sua circolare, Ministro, la prefetta chiede una improrogabile e doverosa modifica al trend del riconoscimento della protezione umanitaria, indicando espressamente una richiesta di flessione, di riduzione del riconoscimento della protezione umanitaria. Ministro, quando ieri le ho posto la domanda sulla circolare, lei ha fatto riferimento a pronunciamenti della Cassazione sul carattere residuale della protezione umanitaria. Ministro, penso che lei sia assolutamente a conoscenza del fatto che vi è un consolidato orientamento della Cassazione (sentenze nn. 4139 del 2011, 6879 del 2011, 24544 del 2011, 22111 del 2014) secondo cui si dice chiaramente che la forma della protezione umanitaria è residuale, nel senso che è posta a chiusura del sistema della protezione internazionale, ed è strettamente ancorata - questo anche nella sentenza del 2018 - a una delle forme di attuazione del diritto costituzionale d'asilo. Questo significa che non è residuale in termini numerici, ma è alternativa, ovvero dopo che sono stati esaminati le forme dell'asilo e la richiesta di protezione sussidiaria. Quindi, da questo punto di vista, le rinnovo la richiesta se non intenda ritirare la circolare, anche alla luce di questo vero e consolidato pronunciamento della Cassazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Errani.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg159">PRESIDENTE. Il ministro dell'interno, senatore Salvini, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">SALVINI</note>
+            <note type="role">ministro dell'interno e vice presidente del Consiglio dei ministri</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u74">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg160">Signor Presidente, anzitutto spero che anche «Famiglia Cristiana», come «Rolling Stone» e «L'Espresso» - che strana compagnia! - riesca a incrementare di venti copie la sua tiratura settimanale. Spero che almeno il mio volto serva a questo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP e M5S. Applausi ironici dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg161">MALPEZZI (PD). Bravo! Viva la stampa libera! SALVINI , ministro dell'interno e vice presidente del Consiglio dei ministri. Il prossimo magari sarà «Dylan Dog», chi lo sa.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg162">Entrando nel merito, ringrazio la senatrice De Petris, con cui ho avuto l'onore di interloquire ieri.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg163">La nota inviata lo scorso 16 luglio dal presidente della Commissione nazionale per il diritto di asilo, che rientra assolutamente nelle sue prerogative, si inserisce in una richiesta, nell'interesse anche dei rifugiati veri, di contingentare i tempi di esame delle domande.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg164">Sono entrati in ruolo da venti giorni 250 nuovi funzionari, ed è intenzione mia e di questo Governo farne entrare in ruolo entro l'anno altri 170 per ridurre i tempi di esame delle domande giacenti, che sono 130.000, che adesso, dall'inizio alla fine dell' iter, arrivano ad assommare due anni e mezzo di tempo, indegno soprattutto nei confronti dei rifugiati veri che avrebbero diritto ad avere riconosciuto il loro status prima di questo tempo immemore. Quindi, si tratta di una circolare che sollecita ad accorciare i tempi e ad aumentare il numero delle domande prese in esame, e su questo credo siamo tutti d'accordo. Per quanto riguarda le fattispecie della protezione umanitaria, stiamo lavorando a un pacchetto sicurezza per normare, come negli altri Paesi europei, più direttamente e specificamente i casi in cui può essere riconosciuta questa forma di protezione, che, come lei ha ammesso, senatrice De Petris - il dibattito sulla terminologia può essere soggettivo - è riconosciuta della Cassazione, quindi non da Salvini, nella sua ultima sentenza come «residuale». Ora, i dati ci dicono che è riconosciuta nel 28 per cento dei casi, quindi quasi il doppio rispetto allo status di rifugiato e alla protezione sussidiaria. Se ricomprendiamo anche i ricorsi e l'accettazione del 25 per cento dei ricorsi arriviamo a un 40 per cento, che non è un numero residuale evidentemente. Il nostro obiettivo è avere tempi certi e diritti garantiti per coloro i quali si devono vedere riconosciuti questi diritti. Plaudo all'iniziativa del presidente della Commissione nazionale per il diritto di asilo, che non entra nel merito delle scelte singole ma chiede un lavoro ancora più rapido e ancora più efficiente, e mi ripropongo di portare all'attenzione dell'Assemblea, nel più breve tempo possibile, un pacchetto sicurezza che metta insieme una normativa più aggiornata e più efficiente per quanto riguarda l'immigrazione in generale. Obiettivo mio e di questo Governo è riconoscere pieni diritti in tempi celeri a chi merita di vederseli riconosciuti, ma evitare scorciatoie e furbate che l'Italia non si può più permettere.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg165">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice De Petris, per due minuti.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u75">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg166">Signor Ministro, mi fa piacere che lei abbia precisato che l'indirizzo era solo quello di abbreviare i tempi e quindi di accorciare i tempi che oggettivamente sono molto lunghi. Voglio però precisare che l'ultima sentenza della Cassazione, cui facevo riferimento, afferma che la protezione umanitaria costituisce una forma di tutela certamente residuale, perché posta a chiusura del sistema complessivo - quindi il sistema è complessivo - che disciplina la protezione internazionale degli stranieri in Italia. È quindi una forma ancorata all'articolo 10 della Costituzione, che entra a far parte a pieno titolo del sistema di protezione e di asilo costituzionale, come è accuratamente interpretato e detto dalla Cassazione stessa. Non è quindi un modo furbesco per trovare altre protezioni, è uno degli elementi che viene riconosciuto dalla nostra Costituzione. Inoltre, la Corte di cassazione più volte, come nella sentenza citata, ha detto che è all'interno del sistema pluralistico della protezione internazionale e viene utilizzato quando non ci sono gli estremi per i primi due, la richiesta d'asilo e la protezione sussidiaria.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00123) - Question time sul contrasto flussi migratori irregolari</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u76">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg167">La senatrice Rauti ha facoltà di illustrare l'interrogazione 3-00123 sul contrasto dei flussi migratori irregolari, per tre minuti.</seg>
+            </u>
+            <note type="speaker">RAUTI (FdI)</note>
+            <u ana="#regular" who="#RautiIsabella" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u77">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg168">Signor Presidente, colleghi, onorevole Ministro, proprio ieri quest'Aula ha approvato la cessione di dodici unità navali italiane alla Guardia costiera libica. Abbiamo visto il provvedimento come un segnale positivo; esattamente come abbiamo visto come un segnale il suo indirizzo sulle politiche migratorie dopo l'insediamento al Viminale. Segnali che vanno nella direzione che riteniamo necessaria, della protezione delle frontiere per fronteggiare l'immigrazione clandestina e per gestire il fenomeno delle ondate migratorie, nonché per garantire la sicurezza interna.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg169">Il nodo di fondo resta infatti quello del controllo delle frontiere marittime e del contrasto alla tratta degli esseri umani; contrasto a flussi migratori e tutela della sicurezza sono quindi due nodi fondamentali, come anche ribadito dal Consiglio europeo del 28 e 29 giugno scorso.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg170">Si tratta però, signor Ministro, di intensificare gli sforzi per fermare le attività dei trafficanti dalla Libia, dalla Tunisia e da altri Paesi nordafricani, nonché di compiere sforzi maggiori per assicurare il rimpatrio dei migranti irregolari. È per questo, signor Ministro, che Fratelli d'Italia ribadisce, ancora una volta, la necessità di un blocco navale al largo delle coste libiche, concordato con le autorità della Libia come unica soluzione per bloccare l'immigrazione clandestina, impedendo a monte la partenza dei barconi diretti verso l'Italia. Voglio rilevare, per prevenire ogni obiezione ed eventuali equivoci, che il blocco navale non è una misura di guerra, ma è l'interdizione alle partenze; interdizione concordata e in collaborazione con le autorità, in questo caso libiche. Il blocco navale che Fratelli d'Italia chiede è quindi una missione militare europea realizzabile ed efficace.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg171">Le chiediamo allora, signor Ministro, se non ritenga urgente adottare le iniziative di competenza per promuovere in sede europea l'attivazione di tale specifica missione definita blocco navale.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg172">Le chiediamo altresì un intervento di sistema e non di settore; quindi se non ritenga opportuno ed urgente promuovere nell'ambito del prossimo quadro finanziario pluriennale un apposito fondo europeo per realizzare accordi con i Paesi di provenienza migratoria, secondo il principio di riammissione, promuovendo così le operazioni di rimpatrio dei migranti irregolari.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg173">Lei, signor Ministro, ha annunciato, come ha ribadito anche in questa sede, un decreto sicurezza che metta ordine all'attuale situazione di disordine sulla materia, forse addirittura un nuovo testo sull'immigrazione. Abbiamo anche ascoltato che ha citato nuovamente la circolare del 4 luglio. Una circolare inviata ai prefetti, sulla quale il suo Ministero è dovuto tornare. La circolare è disattesa, tanto che è stata nuovamente sollecitata.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg174">Signor Ministro, le chiediamo sia per il blocco navale sia per i rimpatri un impegno maggiore del Governo, perché non vorremmo che i tanti annunci, anche condivisibili, rimanessero tali.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg175">PRESIDENTE. Il ministro dell'interno, senatore Salvini, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">SALVINI</note>
+            <note type="role">ministro dell'interno e vice presidente del Consiglio dei ministri</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u78">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg176">Signor Presidente, senatrice, parto dai numeri perché la politica è passione, ma è fatta di numeri.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg177">Dal 1° giugno, data di insediamento di questo Governo, ad oggi sono sbarcati in Italia 4.500 immigrati. Nello stesso periodo dell'anno scorso sbarcarono 34.200. Quindi, siamo a meno 30.000. Non mi sembra siano annunci, ma fatti reali e concreti e il nostro impegno è a proseguire su questa linea.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg178">Quanto al blocco navale, posto che una simile opzione investirebbe valutazioni dell'intero Esecutivo, ritengo importante sottolineare come il mio Ministero reputi prioritario per il momento dare attuazione alle conclusioni del Consiglio europeo del 28 giugno. Stiamo lavorando con la Libia, come lei ricordava, per la dotazione di mezzi, per l'invio di uomini, per l'addestramento, per il supporto economico e il sostegno al presidio delle frontiere Nord e Sud. Il problema non si esaurisce in Libia; bisogna coinvolgere l'Egitto, l'Algeria, la Tunisia e il Marocco, cosa che ho già iniziato a fare. Penso di completare entro l'estate. Quindi, al di là del dibattito sull'utilizzo della parola, mi interessa il risultato concreto che stiamo ottenendo e che conto di riuscire a incrementare e migliorare entro la fine del mandato.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg179">Quanto al secondo punto da lei sollevato in merito alla collaborazione su base europea, è quello su cui stiamo stressando i colleghi Ministri e Primi Ministri europei affinché i 500 milioni del Trust europeo per l'Africa vengano effettivamente, rapidamente ed efficacemente spesi, così come sono stati investiti 6 miliardi in Turchia. Stiamo lavorando con le organizzazioni non governative OIM e UNHCR, che rappresentano l'Organizzazione internazionale per le migrazioni e l'ONU ed altre associazioni di sostegno e volontariato per continuare sulla via dei rimpatri volontari assistiti, che l'anno scorso sono stati più di 30.000.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg180">Io penso che, essendo da cinquantasei giorni, con onore, nel posto che Dio e gli italiani - che ringrazio - mi hanno concesso, abbiamo dimostrato che volere è potere e che si può limitare l'immigrazione clandestina, anche perché, una volta chiuso il flusso dell'immigrazione irregolare, si potrà finalmente tornare a parlare di immigrazione regolare, limitata e qualificata, che potrà essere un valore aggiunto per la nostra società, a differenza di quanto accaduto negli ultimi anni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP e M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg181">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice Rauti, per due minuti.</seg>
+            </u>
+            <note type="speaker">RAUTI (FdI)</note>
+            <u ana="#regular" who="#RautiIsabella" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u79">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg182">Signor Ministro, anche io amo i numeri e, infatti, avevo letto la sua relazione che indicava dal 1° giugno un calo pari al 86 per cento. Io lo quantifico in percentuale.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg183">A proposito di numeri, è vero che c'è un calo, però è anche vero che negli ultimi cinque anni - questo naturalmente non dipende da lei - sono sbarcati nel nostro Paese oltre 600.000 persone, che in qualche modo dobbiamo gestire in maniera sistemica e non con interventi di settore. Mentre ci possiamo ritenere parzialmente soddisfatti della risposta sulle attività di rimpatrio e per gli accordi che lei intende ampliare con gli altri Paesi da cui origina l'immigrazione, vogliamo anche ricordare però che si potrebbero "invogliare" alcuni di questi Paesi. Per esempio, la Turchia ci ha obbligato a fornire 6 miliardi in quattro anni per la questione migranti. L'Europa in quel caso non ha lesinato e lo ha fatto perché la rotta balcanica disturbava la Germania e si sono trovate subito le risorse. Su questo siamo parzialmente soddisfatti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg184">Non penso di poter dire altrettanto per quanto riguarda il blocco navale. Credo di poter dire, a nome del Gruppo che in questo momento rappresento, che siamo insoddisfatti, perché di blocco navale ne abbiamo sentito parlare molto in altri momenti, anche da esponenti autorevoli della maggioranza di Governo. Non ne sentiamo più parlare e continuiamo a ribadire che è l'unica azione seria per incidere a monte - tutto il resto poi è a valle -, per fermare i barconi della morte, i trafficanti e per fare la lotta agli scafisti, che lei enuncia nelle linee guida. Come si fa a realizzare questo se non si agisce con lo strumento di un blocco navale al largo delle coste libiche? Non dobbiamo avere paura delle parole: «blocco navale» non è un atto di guerra, ma una missione europea che blocca le barche lì dove partono.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg185">PRESIDENTE. La pregherei di concludere.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg186">Quindi ci auguriamo, signor Ministro, che la maggioranza di Governo voglia accogliere le nostre proposte di legge in materia di protezione umanitaria e di protezione sussidiaria - ne abbiamo presentate - e che condivida la nostra posizione. Concludo ribadendo l'importanza cruciale per noi del blocco navale.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00126) - Question time su sentenza di sequestro di fondi</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u80">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg187">Il senatore Parrini ha facoltà di illustrare l'interrogazione 3-00126 su una sentenza di sequestro di fondi, per tre minuti.</seg>
+            </u>
+            <note type="speaker">PARRINI (PD)</note>
+            <u ana="#regular" who="#ParriniDario" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u81">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg188">Signor Presidente, signor Ministro, l'interrogazione che a nome del Partito Democratico mi accingo a illustrare ha al suo centro una vicenda politico-giudiziaria torbida a nostro avviso e mi porterà a porle tre domande, molto semplici ma ritengo decisamente rilevanti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg189">La vicenda a cui mi riferisco è ben nota ed è quella che nasce dal fatto che un decreto di sequestro, emesso il 4 settembre 2017, e facente seguito a una sentenza penale del 24 luglio 2017 impone alla Lega di restituire 49 milioni incamerati illegalmente. Fino a oggi questo obbligo non è stato adempiuto, se non in misura irrisoria. Ci sono 49 milioni che vanno restituiti allo Stato e che non sono stati restituiti: il fatto è di rilevanza enorme.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg190">Questo è il fatto principale della vicenda. Accanto al fatto principale ce ne sono alcuni che definiamo secondari, ma non meno gravi: ci sono ipotesi investigative di riciclaggio di denaro; ci sono ipotesi investigative di investimento in proprio dei fondi del finanziamento pubblico; ci sono ipotesi investigative di ricorso a manovre elusive del decreto di sequestro che prima richiamavo; ci sono ipotesi investigative che hanno a che fare con ambigue chiamate in causa rivolte anche a lei, Ministro, che provengono dall'interno del suo partito e che abbiamo letto con grande sconcerto, soprattutto perché fino a oggi nessuna replica a queste chiamate in causa ci risulta giunta. Infine, ci sono documenti che provano che le risorse oggetto dell'inchiesta penale per truffa, a cui mi riferivo e che in quel momento già si sapevano tali, sono state utilizzate anche dopo la sua elezione a Segretario federale della Lega.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg191">Quindi le tre domande che le faccio sono molto semplici. Primo: lei, Ministro, crede nello stato di diritto, nel principio che tutti sono ugualmente sottoposti alla legge, anche i detentori del partito politico, anche i partiti di maggioranza di Governo? Secondo: siccome lei ha rivolto parole molto pesanti contro le sentenze a cui mi sono riferito, definendole «politiche», sa qualcosa che noi non sappiamo a proposito dell'operato della magistratura che ha emesso queste sentenze? Se lo sa, lo dica al Gruppo Partito Democratico, ma soprattutto al Parlamento, perché se ci fosse qualcosa di strano noi saremo al suo fianco per chiedere chiarezza.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg192">PRESIDENTE. Concluda, senatore Parrini.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg193">Certamente, Presidente. Terza domanda: lei è il Ministro della legalità che dirige e coordina le forze che in questo Stato sono incaricate di vigilare sul rispetto delle sentenze. Ritiene che il suo ruolo di Ministro dell'interno e della legalità sia compatibile con il ruolo di capo, cioè di numero uno di un partito che è investito da una vicenda giudiziaria così grave e da una sentenza che prevede che restituisca 49 milioni e che questi soldi non ha restituito? PRESIDENTE. Chiuda davvero. PARRINI (PD). Concludo, Presidente. Mi conceda solo un secondo. PRESIDENTE. Ha già preso più di un minuto. PARRINI (PD). Vorrei chiederle che cosa ha fatto e cosa pensa di fare come Ministro della legalità e come persona che dirige le forze incaricate di far rispettare le sentenze, affinché queste sentenze vengano rispettate.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg194">PRESIDENTE. Il Ministro dell'interno, senatore Salvini, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">SALVINI</note>
+            <note type="role">ministro dell'interno e vice presidente del Consiglio dei ministri</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u82">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg195">Mamma mia, quante ipotesi investigative. Vedremo quante arriveranno fino in fondo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg196">Sicuramente le sentenze vanno applicate, fino a prova contraria, in via definitiva. C'è un unico precedente di confisca a un partito politico senza una sentenza in via definitiva: arriva dalla Turchia. Non so se sia il suo modello di riferimento, ma non è il mio modello di riferimento. Siamo prontissimi a rispondere quando ci sarà la conclusione di un iter giudiziario che, fino a prova contraria, è in corso tra ipotesi e controipotesi. Sono curioso e spero che facciano in fretta, perché stanno usando denaro pubblico per approfondire tutte queste numerose ipotesi investigative. Quando ci sarà una sentenza, sarò il primo a rispettarla. Io, essendo giornalista, di solito non querelo mai nessuno. Mi sono riservato nelle scorse settimane di elevare formale querela, perché posso essere attaccato o criticato, ma chi accosta il mio nome alla malavita, alla mafia, alla camorra e alla 'ndrangheta, ne deve rispondere davanti a un giudice, perché un conto è la critica politica, un conto è l'infamia; un conto è la bugia, un conto è la menzogna. Non mi riferisco evidentemente a lei, senatore, ma a qualche campione difeso dai vostri banchi.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg197">Ripeto - un conto è la critica, un conto sono l'insulto e la diffamazione.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg198">Da ultimo, rispondo con le parole dell'ex procuratore di Venezia Carlo Nordio, quindi mi spoglio della mia veste di segretario della Lega, incarico che conto di riuscire a svolgere altrettanto bene come quello di Ministro. Dice il procuratore Nordio: «La Guardia di finanza deve reperire denari o beni equivalenti riferibili alla Lega, inclusi quelli eventualmente trasferiti all'estero, purché siano pertinenti con il reato. Possono essere aggredite esclusivamente le acquisizioni realizzate fino al momento del reato, non quelle attuali o future. È inconcepibile che se io oggi» dice Carlo Nordio «dono un euro alla Lega, questo sia sequestrato per un reato con cui non ha alcun nesso». Poi aggiunge: «Le sentenze giudiziarie condizionano il funzionamento della nostra democrazia» e «L'abc del diritto impone che i beni futuri non possano essere toccati: se passa il principio opposto, è barbarie giuridica». Inoltre: «A mio giudizio, Salvini ha ragione», prosegue l'ex procuratore Carlo Nordio. «Il sequestro di una cifra così ingente comporta la compromissione dell'attività politica. Significa impedire a un partito di Governo di sopravvivere. Le sentenze vanno rispettate, ma non ho mai visto un provvedimento di sequestro così congegnato». Condivido riga per riga lo sconcerto del procuratore Nordio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP. Applausi ironici dal Gruppo PD. Alcuni senatori del Gruppo PD espongono cartelli con la scritta: «Restituisci 49 milioni» e facsimili di assegni</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg199">PRESIDENTE. È indecente! Non vi do più il diritto di replica. Avete un diritto di replica. È indecente. (Il ministro Salvini riprende con il suo telefono cellulare i banchi del Gruppo PD). VOCE DAL GRUPPO PD. Ma cosa fa il Ministro? MARCUCCI (PD). Signor Presidente, non si può fare!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u83">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg200">Signor Ministro, in Aula non si può fotografare. Ho impedito anche a loro di fotografare.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg201">Colleghi, vi invito a tenere un comportamento corretto. Ho appena detto al Ministro che non si può fotografare, eppure avete fotografato anche voi. Non mi pare che questo sia un ring, d'accordo? Non mi piace questo modo, non mi piace.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg202">Avete il diritto di replica. Fatelo nella misura in cui avete il diritto di farlo. Non c'è bisogno di queste manifestazioni. Diversamente, sarò costretta ad impedire la diretta televisiva.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP e M5S e del ministro Salvini. Applausi ironici dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg203">Non si può dare questo spettacolo; non possiamo dare questo spettacolo.</seg>
+               <vocal type="shouting">
+                  <desc>Vivaci proteste dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg204">Smettetela. Avete il diritto di replicare ed è quella la sede per manifestare il vostro pensiero, non altra. Non lo tollero. Diversamente dovrò chiudere la seduta.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg205">Ha facoltà di intervenire in replica il senatore Misiani, per due minuti. Adesso dica quello che deve dire.</seg>
+            </u>
+            <note type="speaker">MISIANI (PD)</note>
+            <u ana="#regular" who="#MisianiAntonio" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u84">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg206">Signor Presidente, come penso si sia capito, noi non siamo per nulla soddisfatti delle risposte date dal ministro Salvini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg207">La vicenda è stata riassunta bene dal collega Parrini e quindi non ci torno. Noi abbiamo rivolto tre domande facili facili al ministro Salvini, in primo luogo se intende rispettare le sentenze della magistratura e un atto di sequestro che è immediatamente esecutivo. Nordio non c'entra niente; si legga la sentenza della Corte di cassazione del 12 aprile scorso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg208">Non è che la Cassazione va bene per i migranti e non va bene per i 49 milioni! Le abbiamo chiesto se lei, come segretario della Lega, intenda restituire o meno i 49 milioni di soldi pubblici che sono oggetto di quell'atto di sequestro e se intenda risolvere o meno un conflitto evidente di opportunità tra il suo essere segretario del partito oggetto interessato da quell'atto di sequestro e il Ministro responsabile politico della legalità, del rispetto della legge e delle sentenze e quel conflitto va risolto.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg209">Signor Presidente, il Ministro ama dare di sé l'immagine di uomo forte che non molla, che va avanti, come scrive tweet dopo tweet. Il Ministro oggi ha buttato la palla in tribuna. Signor Ministro, perché continua a non rispondere? Perché continua a non dire la verità agli italiani? Dove sono finite la sua spavalderia e la sua forza? Cosa aspettate a restituire 49 milioni di soldi pubblici che sono dovuti agli italiani e che sono oggetto di un atto immediatamente esecutivo? Concludo con una domanda, signor Presidente, che desidero rivolgere a un partito che sull'abolizione del finanziamento pubblico, sulla legalità e la trasparenza ha guadagnato milioni di voti, il MoVimento 5 Stelle, che in passato, quando questi temi riguardavano altri partiti, ha fatto battaglie politiche, proclami e ha avuto prese di posizione durissime. Perché questa volta state zitti? Cosa pensate di questa vicenda? Cosa pensa il vostro Ministro della giustizia, che su questa vicenda è stato zitto nonostante sia stato chiamato più volte a rispondere in quest'Aula? Quando vi degnerete, voi e i vostri alleati, di dire la verità agli italiani, che meritano di avere conoscenza dei fatti e risposte rispetto agli atti della magistratura che vanno rispettati?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00062) - Question time su trascrizione atti nascita bambini da genitori dello stesso sesso</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u85">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg210">Il senatore Pillon ha facoltà di illustrare l'interrogazione 3-00062 sulla trascrizione di atti di nascita di bambini da parte di genitori dello stesso sesso, per tre minuti.</seg>
+            </u>
+            <note type="speaker">PILLON (L-SP)</note>
+            <u ana="#regular" who="#PillonSimone" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u86">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg211">Signor Presidente, signor Ministro, onorevoli colleghi, da qualche mese stiamo assistendo a un'evidente strategia portata avanti da due o tre studi legali e volta al tentativo di legittimare nel nostro Paese pratiche illegali e delittuose, quale utero in affitto e traffico di gameti umani.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg212">Resa impraticabile la strada legislativa, da parte delle lobby si è intrapresa la strada amministrativa e giudiziaria da un lato e la strada mediatica dall'altro, proponendo l'iscrizione e la trascrizione di atti di nascita evidentemente contrari al vero, in quanto riportanti come fossero veri genitori due maschi o due femmine. Il media system si è gettato sulla ghiotta vicenda, riprendendo i provvedimenti amministrativi e giudiziari e parlando di bambini con due padri o con due madri, come se questo fosse possibile, ingenerando grande confusione nell'opinione pubblica. Si tratta di un modo elegante e compassionevole per negare la verità dei fatti, visto che ciascuno di noi è stato concepito da un padre e da una madre e, tra l'altro, si tratta di un modo per deprivare così i minori del loro inalienabile diritto a crescere con mamma e papà, aggirando il divieto normativo posto dalla legge n. 40 del 2004, che sanziona quali gravi delitti la maternità surrogata e il traffico di gameti. A meno che non sia cambiato qualcosa negli ultimi dieci minuti, due padri uguale utero in affitto. Come sapete, praticare utero in affitto significa comprare fisicamente a carissimo prezzo degli ovociti da una donna, scelta da catalogo in base a delle preferenze da parte di ricchi acquirenti; questa donna viene bombardata con iperstimolazione ovarica, sottoposta a prelievo di gameti che, una volta fecondati, vengono impiantati nell'utero di un'altra femmina, scelta normalmente tra le più povere. Quest'ultima donna viene sottoposta a trattamenti con terapie chemioterapiche antirigetto ed è costretta a seguire il contratto di affitto di utero in ogni dettaglio per nove mesi. Il bambino, una volta nato, è immediatamente strappato e consegnato agli acquirenti. Due madri è uguale a traffico di gameti, cioè scegliere a catalogo spermatozoi su Internet sulla base della bellezza, del colore dei capelli, della razza e delle altre caratteristiche psicofisiche del venditore.</seg>
+               <vocal type="shouting">
+                  <desc>Richiami del Presidente</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg213">Ho quasi concluso, signor Presidente.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg214">In entrambi i casi sappiamo che i bambini che nasceranno saranno privati della figura paterna o materna dal capriccioso egoismo di due adulti, che hanno più denaro. Questo è vero schiavismo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg215">PRESIDENTE. Concluda, per favore.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg216">Concludo, signor Presidente. Questo è attentare alla dignità della donna. Signor Ministro, visto che riusciamo a dire che chi ruba un'auto all'estero non può legittimamente registrarne la proprietà in Italia, mentre riusciamo a registrare in Italia dei bambini, come se fossero figli di due padri, comprati all'estero, vorrei sapere cosa intende fare per garantire che i sindaci rispettino la normativa vigente, che vieta utero in affitto e traffico di gameti... PRESIDENTE. Per favore, concluda. PILLON (L-SP). ...e impedire la legittimazione ex post di tali pratiche.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg217">PRESIDENTE. Il ministro dell'interno, senatore Salvini, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">SALVINI</note>
+            <note type="role">ministro dell'interno e vice presidente del Consiglio dei ministri</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u87">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg218">Signor Presidente, ringrazio il senatore Pillon. Negli ultimi mesi si sono registrati diversi casi di richieste di iscrizione e trascrizione di atti di nascita da parte di persone dello stesso sesso, rispetto alle quali alcuni ufficiali dello stato civile, nel solco del vigente ordinamento, hanno correttamente opposto diniego, ritenendole contro la legge. Altri uffici comunali, invece, hanno ritenuto di procedere alla formazione degli atti richiesti andando oltre, a mio avviso, le norme vigenti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg219">Sul tema, che, come intuibile, va al di là della stretta valutazione in termini giuridici, si stanno sviluppando posizioni diversificate: mi riferisco, in particolare, all'ordinanza di rimessione alla Corte costituzionale del tribunale di Pisa dell'11 maggio scorso, che solleva la questione di legittimità costituzionale della normativa di stato civile, nella parte in cui non consente la formazione in Italia di un atto di stato civile in cui siano riconosciuti come genitori due persone dello stesso sesso. Sul piano amministrativo, i diversi contenziosi attualmente in corso hanno suggerito al Ministero l'opportunità di richiedere all'Avvocatura generale dello Stato - e lo abbiamo fatto - le proprie valutazioni di ordine legale, prima di definire linee di indirizzo, che ho intenzione di diramare a tutte le prefetture e a tutti gli enti interessati. Ritengo necessario attendere tali valutazioni, tenuto conto dell'orientamento del Consiglio di Stato, volto ad escludere che il prefetto possa annullare l'atto dell'ufficiale dello stato civile in assenza di un'espressa previsione di legge.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg220">Dal mio punto di vista, comunque, ad oggi esistono alcuni punti fermi. Il primo: secondo il vigente ordinamento di stato civile, gli atti di nascita si formano e si iscrivono nei relativi registri, indicando quali genitori la madre partoriente e il padre biologico. Punto.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice De Petris.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg221">Tale principio viene anche riaffermato con riferimento alla notazione nell'atto di nascita del riconoscimento di filiazione, che richiede la preventiva verifica in capo al soggetto dichiarante della condizione di paternità o maternità.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg222">Secondo punto fermo: l'articolo 12 della legge n. 40 del 2004 considera le pratiche dell'utero in affitto e della compravendita di gameti umani e di bambini quali fattispecie delittuose. Sono dei reati. Finché campo e finché sarò membro di questo Governo, l'utero in affitto e i bambini in vendita non esisteranno in Italia come pratica che lede il diritto del bambino, della mamma e del papà.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Giarrusso</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg223">Attendiamo quindi la sentenza dell'Avvocatura dello Stato. Nell'interesse collettivo e in particolare dei bambini, il diritto ad avere una mamma e un papà è un diritto a cui io e questo Governo daremo fiato, voce e difesa in ogni sede possibile e immaginabile.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg224">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Pillon, per due minuti.</seg>
+            </u>
+            <note type="speaker">PILLON (L-SP)</note>
+            <u ana="#regular" who="#PillonSimone" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u88">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg225">Signor Presidente, signor Ministro, sono pienamente soddisfatto della risposta.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg226">Ringrazio il Ministro per aver indicato con chiarezza quali sono da considerarsi le condotte lecite e le condotte illecite da parte dei sindaci e lo ringrazio per avere annunciato un suo provvedimento amministrativo, che lo chiarisca in modo definitivo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg227">Ringrazio il ministro Salvini anche per avere ricordato che madre è solo colei che partorisce e padre è solo colui che ha concepito.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg228">MALPEZZI (PD). Quindi chi adotta non è madre! PILLON (L-SP). Ci auguriamo che le amministrazioni e anche alcuni tribunali vogliano ottemperare a queste indicazioni che, oltre ad essere conformi alla legge, sono soprattutto conformi alla naturalità delle cose, al buon senso e al superiore interesse dei fanciulli.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg229">MALPEZZI (PD). Quindi è madre solo chi partorisce. E chi adotta?</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00124) - Question time su occupazioni abusive di edifici</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u89">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg230">Il senatore Dal Mas ha facoltà di illustrare l'interrogazione 3-00124 sulle occupazioni abusive di edifici, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DAL MAS (FI-BP)</note>
+            <u ana="#regular" who="#DalMasFranco" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u90">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg231">Signor Presidente, senatrici e senatori, signor Ministro, lei conosce bene questa vicenda - ne ha parlato diverse volte - dell'occupazione abusiva di immobili, una piaga di questo Paese, anche se probabilmente in tutti i Paesi occidentali accade questo. La questione, però, ha avuto un'accelerazione a seguito di due recenti sentenze, che lei certamente conosce, del tribunale civile di Roma, emesse a distanza di otto mesi, che hanno realizzato un vero e proprio cambio di paradigma su questa vicenda, affermando principi sui quali poi velocemente mi soffermerò richiamandoli.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg232">La questione è nota perché già nella precedente legislatura il Capo della Polizia, nel corso di un'audizione presso la Commissione d'inchiesta sulle condizioni di sicurezza e sullo stato di degrado di città e periferie, ha dato questi dati: Catania oltre 100 unità, Genova 3.000 appartamenti, Reggio Calabria 110 alloggi, Roma 101 edifici, Torino 24 stabili, Venezia 19 immobili occupati e 14 invasioni di terreni. Se non erro, nel contratto di Governo per il cambiamento del Paese, voi avete indicato un apposito capitolo, a pagina 44-45, dove avete, anche in modo direi preciso, indicato in circa 48.000 alloggi la dimensione di questo fenomeno.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg233">Tornando alle recenti decisioni del tribunale di Roma, una del novembre del 2017, una più recente di luglio 2018, lo Stato italiano è stato condannato a risarcire i proprietari per l'occupazione abusiva di immobili e sostanzialmente si parla di cifre abbastanza interessanti, anzi importanti, quasi spaventose: in un caso di 266.000 euro mensili, nell'altro caso 28 milioni di euro. In particolare, nelle richiamate decisioni si afferma un principio: la latitanza dello Stato, che ha significato la mancata prevenzione, al fine di evitare l'occupazione, e il mancato sgombero degli immobili.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg234">Credo che le parole più efficaci le abbia dette il giudice nella più recente sentenza, allorquando afferma che l'occupazione abusiva di un intero compendio immobiliare non lede i soli interessi della parte proprietaria, ma anche il generale interesse dei consociati ad una convivenza ordinata e pacifica ed assume una inequivoca valenza eversiva.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg235">Credo non sia necessario che mi dilunghi su questo, lei certamente conosce bene queste cose. Nel contratto di Governo vi si fa riferimento, attendiamo delle risposte e di conoscere quali iniziative il Governo intenda prendere.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg236">PRESIDENTE. Il ministro dell'interno, senatore Salvini, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">SALVINI</note>
+            <note type="role">ministro dell'interno e vice presidente del Consiglio dei ministri</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u91">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg237">Signor Presidente, il tema delle occupazioni abusive di immobili pubblici e privati presenta profili di particolare complessità. Va tenuto conto, infatti, che le occupazioni costituiscono un fenomeno diversificato e possono essere oggetto di protagonismo da parte di famiglie con disagio abitativo, di gruppi dell'antagonismo politico, di illegalità diffuse.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg238">Gli interroganti ricordano i dati emersi nel corso dell'attività della Commissione parlamentare. Io posso dire che, tornando a Roma, si contano oggi 92 stabili occupati abusivamente, 66 dei quali ad uso abitativo, oltre a 6.834 appartamenti di proprietà dell'edilizia residenziale pubblica. Ci si trova dunque nella condizione di dover garantire nel medesimo tempo i diritti dei proprietari, la sicurezza pubblica e l'ordine pubblico.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg239">Quello che muoverà la mia attività di Ministro è il fatto che la proprietà privata è un diritto intangibile e su questo lavoreremo anche con alcune modifiche normative alle quali stanno lavorando i miei uffici.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg240">L'impegno parimenti importante è agire in chiave di prevenzione, attraverso una costante e attenta vigilanza del territorio e degli immobili non utilizzati, al fine di impedire fenomeni di illegalità. Per i tentativi di nuova occupazione è fondamentale l'intervento immediato delle Forze di polizia, al fine di evitare il consolidarsi di situazioni di fatto.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg241">È altresì necessaria una rigorosa politica degli sgomberi, utile anche a ridurre il numero delle situazioni risalenti nel tempo, secondo i mirati percorsi previsti dalle vigenti disposizioni di legge che, come dicevo, non escludo possano essere perfezionate, cambiate e migliorate. In tal senso, ho già dato mandato agli uffici del Ministero di fare gli opportuni approfondimenti. A questa azione è necessario si affianchi un'iniziativa incisiva da parte degli enti locali. È per questo motivo che ho intenzione di stabilire una forte e costante collaborazione con i sindaci di tutta Italia e con le categorie economiche interessate, nell'ottica di garantire, sempre e comunque, la legalità, attraverso soluzioni operative concrete ed efficaci.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg242">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Dal Mas, per due minuti.</seg>
+            </u>
+            <note type="speaker">DAL MAS (FI-BP)</note>
+            <u ana="#regular" who="#DalMasFranco" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u92">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg243">Signor Ministro, mi ritengo soddisfatto della sua risposta.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg244">Se mi permette, vorrei richiamare un disegno di legge presentato da Forza Italia e già incardinato in Senato, con cui si intende sostanzialmente modificare l'articolo 11 del cosiddetto decreto Minniti, che mette effettivamente in congelatore le decisioni della magistratura.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg245">Signor Ministro, lei ha giustamente detto che bisogna mettere insieme le esigenze di chi è in condizione di difficoltà con quelle della proprietà, però è anche vero che, in questo momento, troppo spesso certe situazioni sono ricadute prevalentemente sulla proprietà e non sullo Stato, che ha il compito di garantire la sicurezza che noi abbiamo devoluto attraverso un patto che è all'origine degli Stati moderni e che riteniamo debba essere alla base anche del nostro sistema sociale e consociativo, nonché della nostra sicurezza.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg246">Confidiamo quindi che questa politica venga attuata e auspichiamo che l'attuale maggioranza che governa questo Paese prenda in considerazione l'ipotesi di modificare l'articolo 11 del cosiddetto decreto Minniti, che affida ai prefetti un potere assolutamente discrezionale, che supera qualsiasi decisione definitiva della magistratura.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore De Poli.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00125) - Question time su riqualificazione patrimonio edilizio scolastico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u93">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg247">La senatrice Montevecchi ha facoltà di illustrare l'interrogazione 3-00125 sulla riqualificazione del patrimonio edilizio scolastico, per tre minuti.</seg>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u94">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg248">Signor Ministro, come lei sa, in Italia esiste un patrimonio di edilizia scolastica vetusto, che necessita di continui interventi di messa in sicurezza degli edifici. Nonostante gli investimenti del Governo che ci ha preceduto, i dati sinora pubblicati non consentono di considerare nel complesso migliorato il quadro generale di riferimento. Do un solo dato, senza entrare nel discorso dell'adeguamento antisismico: ancora il 40 per cento degli edifici non risulta possedere la relativa certificazione di agibilità.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg249">Nonostante l'istituzione di una struttura di missione per il coordinamento e l'impulso nell'attuazione degli interventi di riqualificazione dell'edilizia scolastica presso la Presidenza del Consiglio dei ministri, resta una frammentazione eccessiva delle linee di finanziamento, con diversi interlocutori istituzionali, che non consente una visione e una gestione unitarie dell'edilizia scolastica in Italia. La suddetta struttura non era operativa già da tempo (da mesi) e non aveva più un coordinatore, allorché l'attuale Governo ha deciso di non riconfermarla.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg250">Al momento risultano già stanziate risorse per 7 miliardi di euro, ma non ancora autorizzate, in considerazione, appunto, della complessità delle procedure che ne ritardano l'assegnazione agli enti locali.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg251">Infine, ad oggi ancora non vi è la necessaria pubblicità e fruibilità dei dati contenuti nell'anagrafe dell'edilizia scolastica e ricordo che la stessa ha ripreso a vivere, nella scorsa legislatura, grazie anche all'enorme lavoro di sollecitazione da parte della mia forza politica.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg252">Chiedo, pertanto, al Ministro cosa intenda porre in essere per migliorare la qualità del nostro patrimonio edilizio scolastico, garantirne la riqualificazione e rendere effettiva la fruibilità e pubblicità dei dati contenuti nell'anagrafe dell'edilizia scolastica, al fine di pianificare al meglio gli interventi necessari e gestire in modo oculato ed efficace le risorse a disposizione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del ministro Salvini</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg253">PRESIDENTE. Il Ministro dell'istruzione, dell'università e della ricerca, dottor Bussetti, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">BUSSETTI</note>
+            <note type="role">ministro dell'istruzione, dell'università e della ricerca</note>
+            <u ana="#guest" who="#BussettiMarco" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u95">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg254">Signor Presidente, ringrazio gli onorevoli interroganti perché mi danno l'opportunità di intervenire su un tema che mi sta molto a cuore e di cui mi sono occupato sin dal mio insediamento presso il Ministero dell'istruzione, dell'università e della ricerca.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg255">Vorrei partire da alcuni dati significativi. Il primo è che il nostro patrimonio edilizio scolastico è particolarmente vetusto: si pensi che il 62 per cento delle scuole è stato costruito prima del 1976; circa il 58 per cento degli edifici scolastici non è a norma sotto il profilo della normativa antincendio e circa il 53 per cento sotto il profilo dell'agibilità.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg256">Il tempo medio dei procedimenti attraverso i quali le risorse stanziate nel bilancio dello Stato per finanziare interventi di ristrutturazione ed adeguamento sismico delle scuole pervengono agli enti locali proprietari degli edifici scolastici è di circa un anno e mezzo; a questo, occorre aggiungere quello necessario all'ente per espletare le gare di appalto ed eseguire poi gli interventi.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg257">Ritengo siano dati molto preoccupanti, soprattutto in considerazione della notevole entità delle risorse, anche di fonte europea, sinora stanziate e non spese. Si tratta di una situazione che non è più accettabile, visto che siamo tutti convinti che la sicurezza delle nostre studentesse e dei nostri studenti e di tutto il personale scolastico costituisca una priorità assoluta.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg258">Credo, pertanto, che occorra ripensare integralmente la governance del sistema. In questo senso si spiega la già decisa soppressione della struttura di missione per l'edilizia scolastica istituita dal precedente Governo presso la Presidenza del Consiglio dei ministri. Avere, infatti, un unico interlocutore, il MIUR, costituisce una decisa facilitazione per gli enti locali nell'attuazione degli interventi di messa in sicurezza delle scuole. Occorre poi semplificare i processi. In tale ottica ho promosso, d'intesa con il Ministro per gli affari regionali e le autonomie, la costituzione di un tavolo tecnico tra Stato, Regioni ed enti locali che sta lavorando alacremente perché si addivenga, entro il prossimo agosto, al perfezionamento, in Conferenza unificata, di un accordo quadro finalizzato a ridurre gli adempimenti burocratici e tagliare i tempi necessari per l'assegnazione delle risorse agli enti locali proprietari di edifici scolastici. Nello stesso tempo, al medesimo tavolo stiamo lavorando per proporre interventi legislativi (mi auguro già nel disegno di legge di conversione del decreto-legge così detto Ministeri) di semplificazione e accelerazione delle procedure. Altro importante tema è quello della trasparenza. È necessario, infatti, che i cittadini possano verificare se gli obiettivi che ci siamo prefissi saranno raggiunti. Proprio per questo è necessario avere un anagrafe dell'edilizia scolastica aggiornata in tempo reale e veramente accessibile a tutti. Si tratta di pochi importanti obiettivi che, grazie all'impegno di tutti gli attori istituzionali, potremo raggiungere in tempi brevi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg259">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice Montevecchi, per due minuti.</seg>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u96">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg260">Signor Presidente, ringrazio il Ministro per la risposta, rispetto alla quale mi dichiaro soddisfatta, e gli auguro buon lavoro, auspicando che il percorso già attivato per dotarsi, anche presso il Ministero, di strutture e competenze adeguate a gestire in modo efficiente tutti gli aspetti riguardanti l'edilizia scolastica, arrivi presto a conclusione e finalmente in questo Paese si possa arrivare ad un livello accettabile di riqualificazione e di messa in sicurezza del patrimonio scolastico, perché ciò significherebbe, prima di tutto, mandare i nostri bambini e le nostre bambine, i nostri studenti e le nostre studentesse in luoghi sicuri e quindi proteggerli.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg261">PRESIDENTE. Lo svolgimento delle interrogazioni a risposta immediata ( question time ) all'ordine del giorno è così esaurito.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u97">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg262">Onorevoli colleghi, la 1ᵃ Commissione permanente non ha ancora concluso l'esame in sede referente del disegno di legge n. 648 di conversione in legge del decreto-legge 12 luglio 2018, n. 86, in materia di riordino dei Ministeri, all'ordine del giorno della seduta odierna. Pertanto la discussione del provvedimento è rinviata alla seduta di lunedì 30 luglio alle ore 16.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u98">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg263">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di lunedì 30 luglio 2018</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.u99">
+               <seg xml:id="ParlaMint-IT_2018-07-26-LEG18-Sed-27.seg264">Il Senato tornerà a riunirsi in seduta pubblica lunedì 30 luglio, alle ore 16, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 15,57).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

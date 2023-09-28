@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 431 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 431 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 431, giorno (2015-04-15)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 431, Day (2015-04-15)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="431-upper">431 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="195" unit="speeches" xml:lang="it">195 discorsi</measure>
+            <measure quantity="195" unit="speeches" xml:lang="en">195 speeches</measure>
+            <measure quantity="20206" unit="words" xml:lang="it">20.206 parole</measure>
+            <measure quantity="20206" unit="words" xml:lang="en">20,206 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0912561</idno>
+               <date when="2015-04-15">15.04.2015</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="16"/>
+               <tagUsage gi="head" occurs="9"/>
+               <tagUsage gi="note" occurs="303"/>
+               <tagUsage gi="seg" occurs="195"/>
+               <tagUsage gi="u" occurs="105"/>
+               <tagUsage gi="vocal" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="29"/>
+               <tagUsage gi="desc" occurs="30"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2015-04-15">15.04.2015</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza della vice presidente FEDELI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u1">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg1">La seduta è aperta (ore 16,34). Si dia lettura del processo verbale. VOLPI, segretario, dà lettura del processo verbale della seduta pomeridiana del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">BARANI (GAL (GS, LA-nS, MpA, NPSI, PpI))</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg2">Signor Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u3">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u4">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg4">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u5">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg5">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg6">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,38).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (1598) Ratifica ed esecuzione dell'Accordo fra il Governo della Repubblica italiana ed il Governo della Repubblica del Cile sull'autorizzazione all'esercizio di attività lavorative dei familiari a carico del personale diplomatico, consolare e tecnico-amministrativo delle missioni diplomatiche e rappresentanze consolari, fatto a Roma il 13 dicembre 2013</note>
+            <note type="time">16,38</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44794.htm</note>
+            <note type="time">(ore 16,38)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u6">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg7">L'ordine del giorno reca la discussione del disegno di legge n. 1598.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg8">Ilrelatore, senatore Zin, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg9">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">ZIN</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ZinClaudio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u7">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg10">Signora Presidente, onorevoli colleghi, il disegno di legge n. 1598 reca l'autorizzazione alla ratifica e l'esecuzione dell'accordo sottoscritto nel 2013 fra l'Italia e il Cile, teso a consentire l'esercizio dell'attività lavorativa ai familiari a carico del personale diplomatico. Si tratta di un accordo praticamente identico a quello esaminato nella seduta antimeridiana, riferito all'Argentina, che intende facilitare l'esercizio dell'attività lavorativa dei familiari del personale delle missioni diplomatiche e consolari.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg11">Anche in questo caso, l'accordo si estende anche ai familiari delle rappresentanze accreditate presso la Santa Sede e gli organismi internazionali aventi sede nei rispettivi territori. I successivi articoli definiscono le procedure autorizzative, l'applicabilità della normativa locale in materia fiscale e di sicurezza sociale e del lavoro e la non applicabilità dell'immunità.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg12">Il disegno di legge di ratifica si compone di tre articoli, che dispongono l'autorizzazione alla ratifica, l'ordine di esecuzione e l'entrata in vigore dell'accordo in oggetto. Anche in questo caso, dall'applicazione del provvedimento non derivano oneri o minori entrate a carico del bilancio dello Stato. In conclusione, si propone l'approvazione da parte dell'Assemblea del provvedimento in esame.</seg>
+            </u>
+            <note type="generalDiscussion">DISCUSSIONE GENERALE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u8">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg13">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u9">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg14">Signora Presidente, il mio collega senatore Candiani mi invita a consegnare l'intervento scritto. Io invece preferisco solamente dire che il provvedimento, così come illustrato dal relatore, ha delle finalità ben specifiche e condivisibili. Quindi, rimettendomi a quanto già detto varie volte in sede di Commissione, sottolineo che questo è un provvedimento che trova la nostra condivisione, concetto che ribadirò velocissimamente anche in sede di dichiarazione di voto.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u10">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg15">Dichiaro chiusa la discussione generale.</seg>
+            </u>
+            <note>Poiché il relatore ed il rappresentante del Governo non intendono intervenire in sede di replica, passiamo all'esame degli articoli.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Passiamo alla votazione dell'articolo 1. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>In attesa che decorra il termine di venti minuti dal preavviso di cui all'articolo 119, comma 1, del Regolamento, sospendo la seduta.</note>
+            <note>(La seduta, sospesa alle ore 16,41, è ripresa alle ore 17,01)</note>
+            <note>Colleghi, la seduta è ripresa ed invito tutti a prendere posto, perché ci accingiamo a votare. Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 3. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u11">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg16">Signora Presidente, dal momento che mi hanno detto che devo essere un uomo di parola, mi rimetto a quanto ho già detto in precedenza, quindi dichiaro e confermo il voto favorevole del Gruppo della Lega.</seg>
+            </u>
+            <note type="speaker">LUCIDI (M5S)</note>
+            <u ana="#regular" who="#LucidiStefano" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u12">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg17">Signora Presidente, desidero soltanto dichiarare il voto favorevole da parte del mio Gruppo.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg18">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u14">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg19">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (1649) Ratifica ed esecuzione della Convenzione europea per la protezione del patrimonio archeologico, fatta alla Valletta il 16 gennaio 1992</note>
+            <note type="time">17,04</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44914.htm</note>
+            <note type="time">(ore 17,04)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u15">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg20">L'ordine del giorno reca la discussione del disegno di legge n. 1649, già approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg21">La relatrice, senatrice Bertorotta, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni, la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg22">Pertanto, ha facoltà di parlare la relatrice.</seg>
+            </u>
+            <note type="speaker">BERTOROTTA</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#BertorottaOrnella" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u16">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg23">Signora Presidente, il disegno di legge in esame, già approvato dalla Camera, reca l'autorizzazione alla ratifica e l'esecuzione della Convenzione europea per la protezione del patrimonio archeologico, risalente al 1992.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg24">Il testo, elaborato nell'ambito del Consiglio d'Europa, sottoscritto da 46 Paesi e ratificato già da 42, è finalizzato ad offrire maggiori garanzie giuridiche a protezione del patrimonio archeologico degli Stati parte, definito come fonte della memoria collettiva europea e strumento di studio storico e scientifico. Il documento, composto di 18 articoli, ha aggiornato i contenuti di un precedente trattato del Consiglio d'Europa, risalente al 1969 e ratificato dall'Italia nel 1973.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg25">Nello specifico, il testo mira all'adozione di un regime giuridico finalizzato alla protezione del patrimonio archeologico ed alla conservazione integrata dei beni, cercando al contempo di conciliare i bisogni dell'archeologia con quelli della pianificazione urbanistica e territoriale, di offrire un sostegno finanziario pubblico alla ricerca, di promuovere la raccolta e la diffusione delle informazioni scientifiche, la mutua assistenza tecnica e scientifica, la sensibilizzazione del pubblico e la possibilità di una più ampia fruizione del patrimonio archeologico, nonché di prevenire la circolazione illecita di elementi di tale patrimonio.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg26">La Convenzione delinea altresì un quadro istituzionale di cooperazione e di scambio sistematico di esperienze e di esperti fra i Paesi parte.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg27">Più in dettaglio, con riferimento alle misure di identificazione e di tutela, l'articolo 2 impegna i Paesi all'adozione di un regime giuridico per la protezione del patrimonio archeologico che preveda la gestione di un inventario, la costituzione di riserve archeologiche e l'obbligo di denuncia alle autorità delle nuove scoperte.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg28">L'articolo 3 stabilisce criteri comuni per le procedure di autorizzazione e di controllo degli scavi e delle attività archeologiche, per scoraggiare l'illegalità e garantire il rilievo scientifico delle ricerche.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg29">L'articolo 4 prevede misure di protezione fisica del patrimonio, mediante l'acquisto, la conservazione e la manutenzione del patrimonio stesso, anche attraverso la creazione di depositi per i reperti allontanati dal luogo di origine.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg30">Relativamente alle misure di conservazione integrata del patrimonio, l'articolo 5 impegna i Paesi parte a conciliare i bisogni dell'archeologia con quelli dello sviluppo del territorio, incoraggiando la maggiore partecipazione possibile degli archeologi alle politiche di pianificazione ed ai programmi di sviluppo territoriale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg31">Il successivo articolo 6 impegna i Paesi firmatari a finanziare la ricerca archeologica attraverso le varie autorità pubbliche nazionali e territoriali e ad accrescere i mezzi destinati all'archeologia preventiva.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg32">Gli articoli 7 e 8 dispongono in ordine alla raccolta ed alla diffusione delle informazioni scientifiche, prevedendo, in particolare, un impegno a facilitare, a livello nazionale ed internazionale, lo scambio di materiale archeologico a fini scientifici, nonché a promuovere lo scambio di informazioni sulla ricerca archeologica e l'organizzazione di programmi di ricerca internazionali.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg33">L'articolo 9 impegna gli Stati a sensibilizzare l'opinione pubblica sulla conoscenza del patrimonio archeologico e del suo valore e a promuoverne l'accessibilità.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg34">Il successivo articolo 10 dispone misure finalizzate alla prevenzione della circolazione illecita del patrimonio archeologico, impegnando i Paesi allo scambio di informazioni tra autorità e istituzioni scientifiche sugli scavi illegali, a fornire informazioni sui materiali sospettati di provenire da scavi illegali o sottratti a scavi ufficiali, all'adozione di misure necessarie ad impedire che musei o istituzioni analoghe possano acquistare materiali archeologici illegali, ed infine alla limitazione del movimento del patrimonio archeologico illegale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg35">Di interesse anche l'articolo 12 della Convenzione, che stabilisce misure per la mutua assistenza tecnica e scientifica fra i Paesi.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg36">Il disegno di legge consta di quattro articoli che ineriscono, rispettivamente, all'autorizzazione alla ratifica, all'ordine di esecuzione, alla copertura finanziaria ed all'entrata in vigore del testo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg37">Gli oneri complessivi - essenzialmente connessi alle spese di missione per l'esperto di cui all'articolo 13 della Convenzione, finalizzate ad attività di controllo dell'applicazione del testo - sono previsti in circa 2.500 euro annui.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto a rappresentanze di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u17">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg38">Colleghi, salutiamo le studentesse e gli studenti dell'Istituto comprensivo «S. Giovanni Bosco-Alessandro Manzoni» di Toritto, in provincia di Bari, che siedono al primo piano delle tribune ed ai quali rivolgiamo il nostro benvenuto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg39">Salutiamo ora le studentesse e gli studenti dell'Istituto «Casagrande» di Pieve di Soligo, in provincia di Treviso, che si trovano al secondo piano delle tribune. Benvenuti tutte e tutti al Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 1649</note>
+            <note type="time">17,10</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44914.htm</note>
+            <note type="time">(ore 17,10)</note>
+            <note type="generalDiscussion">DISCUSSIONE GENERALE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u18">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg40">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u19">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg41">Signora Presidente, il provvedimento in esame richiama tutti ad un'attenzione particolare perché quando si parla di archeologia ci si riferisce ad un aspetto culturale molto importante della storia, non solo dell'Italia ma di tutti i 96 Paesi firmatari di questa Convenzione, anche se non ancora tutti l'hanno ratificata.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg42">È importante ricordare come questo provvedimento abbia già ottenuto il voto favorevole del nostro Gruppo alla Camera in quanto si chiede che questi luoghi siano accessibili e che tutti possano fruire della conoscenza di parti importanti del nostro passato.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg43">Del resto, come sosteneva il professor Rochet, uno degli aspetti più importanti che dà la misura del livello di cultura di un Paese è proprio la possibilità di conoscere le proprie radici identitarie e l'archeologia mostra pezzi di radici identitarie molto importanti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u20">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg44">Dichiaro chiusa la discussione generale.</seg>
+            </u>
+            <note>Poiché la relatrice ed il rappresentante del Governo non intendono intervenire in sede di replica, passiamo all'esame degli articoli.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Passiamo alla votazione dell'articolo 1. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 3. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 4. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u21">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg45">Signora Presidente, vista l'importanza del provvedimento non posso esimermi dal dichiarare il voto favorevole del Gruppo Lega Nord.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BERTOROTTA</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#BertorottaOrnella" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u22">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg46">, relatrice. Signora Presidente, anch'io ovviamente dichiaro il voto favorevole su questo provvedimento.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u23">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg47">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u24">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg48">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione del disegno di legge: (1577) Riorganizzazione delle amministrazioni pubbliche</note>
+            <note type="time">17,13</note>
+            <note type="status">(Collegato alla manovra finanziaria) (Votazione finale qualificata, ai sensi dell'articolo 120, comma 3, del Regolamento) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44709.htm</note>
+            <note type="time">(ore 17,13)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u25">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg49">L'ordine del giorno reca il seguito della discussione del disegno di legge n. 1577.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg50">Ricordo che nella seduta pomeridiana dell'8 aprile è stata presentata una proposta di non passaggio all'esame degli articoli e si è conclusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg51">Ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u26">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg52">Signora Presidente, onorevoli colleghi, credo che, di fronte a un provvedimento come questo, che incide sui principi dell'attività amministrativa, che incide su istituti molto importanti, come la Conferenza dei servizi, il "silenzio-assenso" e l'autotutela; di fronte a un provvedimento che introduce in modo organico la delega sulla cittadinanza digitale; di fronte a un provvedimento che ha due deleghe, sottovalutate complessivamente, ma che hanno, a mio modo di vedere, una portata molto significativa anche sul piano dell'anticorruzione, come la delega sui servizi pubblici locali e la delega sulle società partecipate; di fronte a un provvedimento che incide anche sull'organizzazione pubblica, intervenendo sull'ufficio territoriale periferico dello Stato, sull'organizzazione complessiva degli uffici periferici, sulle camere di commercio, e che introduce le premesse per una riforma organica e significativa del lavoro alle dipendenze della pubblica amministrazione, incidendo in particolare sullo stato giuridico dei dirigenti pubblici; a fronte di un provvedimento di questa portata, il dibattito fa registrare sostanzialmente una condivisione di fondo di cui, come relatore, non posso che prendere atto con soddisfazione. Infatti, dimostra in pratica che il provvedimento così come è uscito dal lavoro, molto significativo, svolto in sede parlamentare ha un consenso di fondo. Questo lo devo dedurre dal fatto che sostanzialmente le questioni su cui si è soffermato il dibattito sono molto limitate e particolari.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg53">Il dibattito ha fatto emergere, per quanto riguarda la dirigenza pubblica, la preoccupazione del rapporto fra tecnica e politica, cioè la preoccupazione che la revocabilità dell'incarico possa dare vita ad una debolezza della dirigenza pubblica nei confronti del potere politico. È chiaro che siamo di fronte ad una modifica resa necessaria dalla valutazione complessiva dello stato dell'amministrazione pubblica e anche da recentissimi episodi che ci pongono di fronte al fatto che abbiamo bisogno di una dirigenza pubblica che abbia una professionalità forte e duttile, che non pensi all'inamovibilità come valore, e alla posizione in un determinato ente come ad una posizione fino a fine carriera sulla quale consolidare magari anche un potere personale. L'amministrazione, come la politica, è a servizio dei cittadini e quindi non può essere in questa logica che si configura la dirigenza; la dirigenza più che mai nella dinamica moderna deve essere capace di mobilità e capace di consolidare la dignità di una professionalità sia nel confronto con gli appartenenti alla propria stessa categoria di dirigenti, sia nei confronti degli amministratori pubblici. La disciplina che viene proposta a questa Assemblea è una disciplina che sicuramente pone le premesse perché la dirigenza recuperi tutta la sua dignità professionale, tutta la sua dignità giuridica e perché la revocabilità dell'incarico sia semplicemente un fine mandato dopo il quale si affronta il concorso con tutti gli altri dirigenti, un concorso aperto a tutti quelli che vorranno partecipare.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg54">Non c'è quindi, con queste premesse, nella novità del disegno, niente che vada ad incidere sul rapporto tra politica e dirigenza, soprattutto nel momento in cui la dirigenza e la politica, proprio in virtù di queste riforme, siano riportate nei loro alvei e nei loro alvei rimangano.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg55">C'è un altro tema che è emerso sia con riferimento al silenzio assenso, sia con riferimento alla Conferenza di servizi e riguarda i termini posti per l'enunciazione dei propri pareri nei rapporti tra le amministrazioni. Credo che da questo punto di vista, al di là del fatto che è sicuramente necessario che poi ci sia una revisione delle dotazioni organiche per rendere questi principi concretamente attuabili, questa sia una previsione sacrosanta, in quanto impedisce l'abuso della competenza, ovvero l'uso delle proprie competenze non per concorrere alla definizione dei provvedimenti e delle decisioni pubbliche, ma per impedire, ritardare o condizionare in modo indebito le decisioni. Questo abuso delle competenze è assolutamente incostituzionale: viola l'articolo 97 della Costituzione, perché pretende di incidere surrettiziamente sul piano della Costituzione materiale, sui principi della ripartizione delle competenze e della leale collaborazione tra i poteri dello Stato.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg56">In questa chiave, la definizione di tempi brevi ed il silenzio assenso tra le amministrazioni pubbliche hanno un forte significato sia di riconduzione della relazione tra le amministrazioni nell'alveo della Costituzione, sia di incisione sui costumi vigenti. Credo possa contribuire davvero a far sì che si sviluppi nel modo migliore il rapporto di leale collaborazione tra le amministrazioni affinché il principio-dovere della celerità delle decisioni sia un principio e un dovere consacrato e reso effettivo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg57">Rimane poi un tema che ha interessato molto il dibattito e la discussione generale e che ha visto anche, in questi giorni, qualche riflessione forse non propriamente adeguata al ruolo. Mi riferisco al Corpo forestale dello Stato. Da questo punto di vista voglio subito precisare che nella delega è posto un problema di riordino delle funzioni di polizia, di riordino delle funzioni di tutela agroalimentare e di sicurezza alimentare. Si tratta di un disegno di razionalizzazione volto a superare sovrapposizioni, duplicazioni e interferenze tra le diverse norme in ordine al sistema complessivo delle polizie.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg58">In questo ambito la delega pone attenzione alla sicurezza agroalimentare affrontando la questione di una diversa organizzazione senza una penalizzazione delle funzioni relative al settore che - ripeto - non verranno penalizzate dalla delega. In quest'ultima viene precisato adeguatamente - e comunque c'è un dibattito rimesso all'Assemblea - che le funzioni verranno chiarite e definite. Si tutelano anche i principi della unitarietà, della competenza e della professionalità.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg59">Questo è quanto ritenevo di dover dire in replica, sulla base di quanto emerso in discussione generale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg60">PRESIDENTE. Ha facoltà di parlare il rappresentante del Governo.</seg>
+            </u>
+            <note type="speaker">MADIA</note>
+            <note type="role">ministro per la semplificazione e la pubblica amministrazione</note>
+            <u ana="#guest" who="#MadiaMariaAnna" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u27">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg61">Signora Presidente, non posso che iniziare questa replica ringraziando la Commissione affari costituzionali: la presidente Finocchiaro e tutti i componenti - mi riferisco sia ai Gruppi di maggioranza che di opposizione - i quali nel corso dell'approfondita discussione non hanno mai avuto atteggiamenti ostruzionistici, ma hanno sempre partecipato, a volte condividendo e altre no i diversi punti della delega, ma sempre in modo legittimo e puntuale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg62">Naturalmente ringrazio anche il sottosegretario Rughetti, le persone del mio staff e i funzionari della Commissione affari costituzionali, nonché tutti i senatori intervenuti in discussione generale la settimana scorsa, i quali hanno dimostrato in larga parte di capire prima di tutto lo spirito di questo disegno di legge. Penso, ad esempio, al senatore Cociancich, che nel suo intervento ha subito messo in luce come questa non sia una riforma di settore, ma per il Paese. È una riforma per il Paese che entra in una strategia complessiva che il Governo sta mettendo in atto per riuscire a riportare l'Italia ad essere protagonista nell'ambito di una nuova strategia economica europea. Per questo sappiamo che è necessaria una riforma sistemica dello Stato che stiamo portando avanti con tre provvedimenti fondamentali. Mi riferisco alla legge n. 56 del 2014, già legge dello Stato e oggi nel suo percorso di attuazione, una legge che supera le funzioni delle Province per come le ricordiamo e che attribuisce alle stesse due sole funzioni essenziali; al disegno di legge Boschi che, nel Titolo V, ridà con chiarezza competenze a Stato e Regioni, superando le ragioni degli innumerevoli conflitti di attribuzione che, a normativa vigente, hanno dato ai nostri cittadini uno Stato incapace di rispondere con tempestività ai loro bisogni e, infine, al disegno di legge delega di riforma della pubblica amministrazione che ci accingiamo a votare in quest'Aula. Qual è il filo conduttore di queste riforme che approcciano la riforma dello Stato? È sempre uno solo e si sintetizza con una parola: semplicità. Noi sappiamo che questi anni hanno messo in luce uno Stato troppo complicato nei diversi livelli di amministrazione, nell'eccesso di produzione normativa; troppo complicato per i nostri cittadini, così come per i nostri imprenditori, che avevano un'idea, magari volevano fare un investimento, ma poi si trovavano uno Stato controparte e non al fianco. Tutto questo ha scoraggiato gli investimenti; ha scoraggiato i cittadini rispetto al loro diritto di avere servizi pubblici di qualità. Tutto questo, insomma, ha scoraggiato una parte importante di crescita del nostro Paese. Che cosa c'è in particolare in questo disegno di legge quale elemento di semplicità? Io credo che il punto più importante sia quello richiamato con determinazione e passione dalla senatrice Lanzillotta, ovvero la cittadinanza digitale. Sappiamo che questo è il tema che farà la vera differenza rispetto al buon esito della riforma della pubblica amministrazione. Ne discutevo anche stamattina in un'università con molti ragazzi e ragazze che, tra tutti gli aspetti che affrontiamo in questo disegno di legge, focalizzavano la loro attenzione proprio sul tema della cittadinanza digitale, ovvero sul fatto che oggi l'innovazione come mezzo ci consente di avere la tecnica a disposizione per dare ai nostri cittadini, ai nostri imprenditori la possibilità di ricevere nei loro luoghi, sul loro telefonino piuttosto che sul loro computer di casa o dell'ufficio, attraverso un'identificazione digitale, tutte le informazioni che li riguardano rispetto all'amministrazione, quindi di usufruire di tutti i servizi pubblici attraverso il mezzo digitale e di adempiere a tutti i doveri che hanno con l'amministrazione, sempre attraverso i servizi digitali. Io credo che questo sia il vero punto che fa di questo disegno di legge un provvedimento non tanto e non solo per la modernizzazione del Paese, ma soprattutto per la democrazia di questo Paese, perché se noi riusciamo a dare a 60 milioni di residenti la possibilità di usufruire di servizi pubblici in tempi certi e con trasparenza - e questa è la cittadinanza digitale - abbiamo immediatamente fatto la riforma della pubblica amministrazione che davvero diventa volano di sviluppo per il Paese. Ci sono poi una serie di altri interventi che si inseriscono sempre nel filone della semplicità: semplicità, per esempio, dei processi decisionali. Il senatore Pagliari - che ringrazio per il lavoro costante che insieme abbiamo fatto - ha citato diversi aspetti: penso all'autotutela, alla Conferenza dei servizi, al silenzio-assenso tra amministrazioni. Penso a quella norma importante, affrontata in diversi vostri interventi, dove si dà una delega al Governo per chiarire una volta per tutte che cosa i cittadini e gli imprenditori possono fare con SCIA e silenzio-assenso e cosa invece necessita di autorizzazione espressa. Oltre alle semplificazioni sui processi decisionali ci sono anche semplificazioni nei modi di organizzare il nostro Stato. Voglio dirlo qui con chiarezza: non c'è mai stato un approccio di semplice razionalizzazione; non si è mai partiti da esigenze di taglio dei costi, ma c'è sempre stato l'approccio del considerare uno Stato più snello e più semplice come uno Stato più efficace e più efficiente per i cittadini. Per questo noi pensiamo sia importante prevedere un unico luogo fisico di raccordo tra il cittadino e lo Stato centrale, e questo è l'Ufficio territoriale del Governo. È per questo che vogliamo raggruppare la periferia dello Stato in un unico ufficio fisico per uscire da quella prassi, ormai purtroppo consolidata, per cui anche amministrazioni di uno stesso livello di governo finiscono per bloccarsi a vicenda perché non comunicano o comunicano male tra loro. È sempre con questa logica che abbiamo voluto dimezzare il numero delle camere di commercio, ma soprattutto abbiamo voluto legare questo dimezzamento - che poi è a sua volta collegato al dimezzamento di un contributo obbligatorio per le imprese, con conseguente riduzione dei costi - a delle funzioni definite in modo che le camere di commercio siano davvero un sostegno alla nostra imprenditoria e non invece un freno. È sempre seguendo questa logica che siamo intervenuti sulle forze di polizia, riconoscendo in esse un elemento fondamentale per il nostro Paese. Al contempo, abbiamo anche riconosciuto che le risorse si possono usare meglio, gestendo insieme i servizi associati - penso agli acquisti, agli uffici legali - evitando duplicazioni di ruoli e razionalizzando le catene di comando. Su questo voglio tranquillizzare tutti coloro che negli interventi in discussione generale hanno legittimamente raccontato i loro timori rispetto al presidio necessario e fondamentale del nostro meraviglioso territorio. In particolare, in merito all'assorbimento del Corpo forestale dello Stato in uno degli altri corpi di polizia, vorrei precisare che il criterio di delega individuato a seguito della discussione in Commissione affari costituzionali garantisce tutti i timori che sono stati legittimamente espressi in quest'Aula. Siccome è stato proprio questo il punto su cui più ampia è stata la discussione in Commissione affari costituzionali, credo sia utile richiamare il fatto che, proprio dopo tale discussione in Commissione affari costituzionali, è stato stabilito - questo recita il testo proposto dalla Commissione in merito alla riorganizzazione dell'amministrazione dello Stato - che devono restare ferme «la garanzia degli attuali livelli di presidio dell'ambiente e del territorio», nonché quella della sicurezza agroalimentare e che occorre salvaguardare «le professionalità esistenti», la specialità del Corpo e la sua unitarietà. Non c'è quindi alcun timore di un minor controllo e di una minor tutela del nostro territorio; casomai, razionalizzando una catena di comando, potremo avere più tutela del territorio rispetto a quella che abbiamo oggi. Il terzo filone di semplificazione contenuto in questo disegno di legge è quello normativo. Abbiamo deciso di affrontare il tema della semplificazione normativa scegliendo alcuni settori strategici, per i quali proponiamo l'adozione di testi unici di semplificazione. Tra questi settori vi è, innanzitutto, quello del pubblico impiego: riscrivendo il testo unico sul pubblico impiego - sono d'accordo con il senatore Torrisi e i criteri di delega approvati in Commissione lo testimoniano - faremo in modo di uscire dalla rappresentazione decadente e colpevolmente umiliante che c'è stata in questi anni, anche con la complicità colpevole di alcune parti della politica, per cui tutti i lavoratori pubblici sono uguali e devono essere puniti e penalizzati. Non è così. Ci sono tante lavoratrici e tanti lavoratori che, malgrado questa rappresentazione decadente, continuano ogni giorno a portare avanti servizi essenziali per il nostro Paese e per i nostri cittadini, come la scuola, la salute, il fisco, la giustizia. È proprio in risposta al valore di queste persone che, semplificando la normativa sul pubblico impiego, grazie ai criteri di delega, introdurremo dei meccanismi premianti che valorizzino chi fa bene e penalizzino e puniscano ovviamente chi fa male. Gli altri due settori strategici di semplificazione normativa che abbiamo deciso di inserire in questo disegno di legge sono quelli delle partecipazioni pubbliche e dei servizi pubblici locali. A questo proposito, vorrei rispondere al senatore Endrizzi, che ha usato il termine «lucro»: per noi «lucro» è sprecare risorse della collettività, perché sono risorse che vengono dalle tasse pagate dai nostri cittadini, così come per noi è «lucro» usare quelle risorse senza riuscire a dare qualità e servizi eccellenti per tutti i cittadini. Questi saranno gli obiettivi che porteremo avanti adottando questi due testi unici. In diversi interventi, ma soprattutto nelle pregiudiziali di costituzionalità che sono state presentate, si è posto l'accento sul tema della dirigenza. Anche in quest'Aula io ho raccontato come, in una discussione anche con il Presidente del Consiglio, siamo arrivati alla scelta del ruolo unico, che è la scelta di una dirigenza autonoma e indipendente dalla politica e che quindi rispetta non solo formalmente, ma sostanzialmente l'articolo 97 della nostra Costituzione. Dico sostanzialmente perché invece negli anni passati abbiamo avuto tanta cattiva amministrazione che, con precariato reiterato, di fatto non rispettava la Costituzione, che prevede l'accesso nell'amministrazione per concorso. No, noi vogliamo rispettare l'articolo 97 della nostra Costituzione, in particolar modo per la dirigenza, perché crediamo in una dirigenza autonoma e indipendente dalla politica, ma reputiamo anche che riconoscere l'autonomia e l'indipendenza dalla politica della dirigenza non significhi inamovibilità, non significhi che non si possano prevedere nei percorsi di carriera delle valutazioni che influiscano su incarichi di maggiore o minore responsabilità. Pertanto, la Costituzione non solo la rispettiamo, ma esaltiamo quell'articolo 97 puntando sulla dirigenza così come ci chiede la Costituzione, ma crediamo anche che sia fondamentale che i più bravi possano avere incarichi di maggior responsabilità e i meno bravi incarichi di minore responsabilità; inoltre, se davvero hanno dimostrato, con meccanismi assolutamente di cautela, di essere stati scarsi nel loro rendimento, riteniamo si possa prevedere un'uscita dal ruolo, ovviamente sulla base di meccanismi di valutazione e mai su scelte arbitrarie. Rispondo anche all'immagine suggestiva del senatore Crimi, che in Commissione ha partecipato spesso anche puntualmente alla discussione, ma che nell'intervento in discussione generale ha portato alla nostra attenzione un'immagine molto suggestiva in relazione al passaggio di un dirigente di Agcom verso Mediaset. Mi rendo conto che l'immagine è suggestiva, ma è frutto di una serie di inesattezze che provo a mettere in fila. La prima è che il ruolo unico non riguarda le autorità indipendenti e la seconda è che con il decreto-legge n. 90 del 2014, antipasto della riforma della pubblica amministrazione, che abbiamo convertito in legge in agosto, noi abbiamo inasprito le incompatibilità e i tempi di uscita per i quali i componenti delle autorità non potevano andare a lavorare in luoghi e società che prima avevano controllato. In terzo luogo, qualora anche parlassimo del ruolo unico dei dirigenti (che nulla c'entra con Agcom), non è questo Governo che introduce il fatto che ci possa essere un tempo di aspettativa in cui si va nel privato, ma è già previsto a normativa vigente; non solo noi non lo cambiamo, ma non cambiamo neanche i regimi di incompatibilità. Tutto questo per dire che l'immagine - me ne rendo conto - era suggestiva, ma frutto di molte inesattezze. Tranquillizzo invece il senatore Cuomo: già nella legge di stabilità noi abbiamo voluto - perché dire così è giusto - tutelare i vincitori di concorso non assunti che, al pari dei dipendenti delle Province che verranno messi in mobilità dalle Province perché non più occupati con le funzioni essenziali di cui alla legge Delrio, dovranno avere quel posto che spetta loro e che era frutto di uno scandalo che già non avessero, perché ancora esisteva una doppia autorizzazione (una a bandire e una ad assumere), ma questa previsione l'abbiamo sanata con il decreto-legge n. 90 del 2014. Termino con la vera sfida di questa riforma, che certamente è approvare questo disegno di legge in via definitiva nei diversi rami del Parlamento, ma soprattutto attuarla. Noi stiamo già lavorando ai decreti legislativi; sappiamo anche, però, che il tasso di riformismo non si misura nella quantità di leggi che si approvano. Questa è una riforma che avrà la necessità di un grandissimo sforzo di attuazione e quindi credo davvero che quanti più saremo a condividerne lo spirito e ad iniziare uno sforzo collettivo del Paese e dei corpi intermedi, tanto più ci potrà essere davvero un buon esito degli effetti positivi di questo disegno di legge.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e AP (NCD-UDC).</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u28">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg63">Comunico che sono pervenuti alla Presidenza - e sono in distribuzione - i pareri espressi dalla 5ᵃ Commissione permanente sul disegno di legge in esame e sugli emendamenti, che verranno pubblicati in allegato al Resoconto della seduta odierna.</seg>
+            </u>
+            <note>Ricordo che nella seduta pomeridiana dell'8 aprile è stata presentata una proposta di non passaggio all'esame degli articoli, ai sensi dell'articolo 96 del Regolamento, a prima firma del senatore Martelli.</note>
+            <note type="notPassingPoposal">proposta di non passaggio all'esame degli articoli, ai sensi dell'articolo 96 del Regolamento</note>
+            <note>Passiamo alla votazione della proposta di non passare all'esame degli articoli NP1.</note>
+            <note type="speaker">GASPARRI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u29">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg64">Signora Presidente, onorevole Ministro, colleghi, noi abbiamo sempre auspicato riforme che potessero dare efficienza alla pubblica amministrazione, ma riteniamo che questo disegno di legge presenti molte carenze. Sui singoli punti sono puntualmente intervenuti nel lavoro in Commissione i colleghi Bernini, Bruno, Mazzoni, che hanno seguito e seguiranno tanti aspetti. Vorrei adesso evidenziare alcune questioni che ci portano a condividere la proposta di non passaggio all'esame degli articoli. Prima ho sentito parlare il Ministro della vicenda dei servizi pubblici locali. Mi auguro che le misure che sono state annunciate portino a un miglioramento della qualità. Ricordo che la parte politica di cui faccio parte, il centrodestra, con i Governi Berlusconi fece una riforma dei servizi pubblici locali utilissima, importante e preziosa, che fu boicottata da larghi settori della politica e del Parlamento. Quella riforma fu poi cancellata con un referendum basato su argomenti francamente non veritieri. Faccio l'esempio dell'acqua, ma non è l'unico dei servizi pubblici: si diceva che c'era la privatizzazione dell'acqua, mentre c'era soltanto una maggiore efficienza dei servizi e un'apertura a capitali privati. Ma quello fu il tema della campagna referendaria che difatti raggiunse il quorum. Ricordo ancora alcune immagini e manifestazioni di bambini a cui veniva sottratta l'acqua. Non era quello il contenuto della riforma: era piuttosto il tentativo di impedire, attraverso una più corretta gestione e una depoliticizzazione delle gestioni di cui tanti parlano, uno spreco, considerato che le risorse idriche in questo Paese sono abbondantemente sprecate. Noi quindi siamo stati portatori di autentiche riforme dei servizi pubblici locali, approvate e poi - ahimè - in base a procedure lecite e democratiche (i referendum abrogativi fanno parte della nostra Costituzione), cancellate. Mi pare che quella che si prospetta oggi sia molto meno della riforma seria e coraggiosa che noi facemmo, quindi la nostra critica riguarda l'insufficienza degli obiettivi che questa riforma raggiunge. Vedo che il Ministro va via. Volevo dire qualcosa sulla questione del Corpo forestale, facendo riferimento a ciò che il ministro Madia ha dichiarato, ma vedo che scortesemente non vuole ascoltare. (Il Presidente indica i banchi del Governo). Lo so che ci sono altri rappresentanti del Governo, Presidente, ma avrei avuto piacere che il Ministro ascoltasse, così avrebbe potuto approfondire le sue conoscenze come noi approfondiamo le nostre ascoltando le sue argomentazioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg65">Evidentemente è un politico così esperto che non ha bisogno di ascoltare il Parlamento. Il ministro Madia ha detto sul Corpo forestale dello Stato delle cose non esatte. Di fatto, cosa ha detto? Che, in base a questa delega, non cambia niente. Intanto la ringrazio, perché è tornata. Come dicevo, il Ministro ha detto che non cambia niente perché si salvaguarda la specificità, il tipo di interventi e l'azione del Corpo forestale dello Stato. Allora perché dobbiamo andare a collocarlo o qui o lì? Faccio presente ai colleghi - perché so che il Corpo forestale dello Stato è stato al centro di interventi e preoccupazioni di colleghi di tutti i Gruppi, anche di maggioranza - che oggi su "La Stampa" di Torino c'è una bella pagina che riferisce di un convegno promosso ieri dalla CGIL sui problemi della sicurezza. Nell'ambito di questo convegno l'onorevole Fiano, che ben conosco e penso sia noto a tanti colleghi, e che si occupa con passione e competenza dei temi della sicurezza nell'ambito del Partito Democratico, ha riferito - ho letto «La Stampa», non ero al convegno - che il Corpo forestale dello Stato, in base a questa delega, potrà essere collocato - leggete «La Stampa», se non credete a quello che dico, e se è falso Fiano smentisca i giornalisti - o nell'Arma dei carabinieri o nella Polizia di Stato. Piccolo dettaglio: l'Arma dei carabinieri è un corpo di polizia a competenza generale di ordinamento militare, mentre la Polizia di Stato, in base alla legge n. 121 del 1981, che immagino il ministro Madia conosca a memoria, è un corpo di polizia smilitarizzato ormai da 33 anni. Allora, delle due l'una. Fiano non è un politico che parla a caso, ma è il responsabile della sicurezza; non è senatore, è deputato, quindi ci sopravviverà come Assemblea parlamentare, visto che il Senato poi spirerà. Allora, dove vanno a finire questi della forestale, nella Polizia o nei Carabinieri? Vengono rimilitarizzati, ridiventano militari gli appartenenti al Corpo forestale? O vanno da un'altra parte? Ma si può dare una delega in bianco? Stralciate questa norma, colleghi, e approfondiamo l'argomento.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg66">Non vorrei - lo dico anche ai colleghi di maggioranza che hanno dei dubbi - che tutto questo serva per consentire al Presidente del Consiglio di fare una slide, dicendo che avevamo cinque forze di polizia e ora ne abbiamo quattro. Il risparmio non c'è. Mi fermo qui, perché sto intervenendo sulla proposta di non passaggio agli articoli; torneremo sull'argomento, qualora la nostra proposta di una pausa di riflessione non venisse accolta. Mi auguro tuttavia che il voto sarà favorevole alla proposta di non passaggio agli articoli. Non ci sono risparmi economici, ma ci sarà solo caos organizzativo. Il convegno di ieri, con la notizia che i membri del Corpo forestale andranno nei Carabinieri o nella Polizia, ha seminato ancora altra confusione. Se poi è vero che tutto resta come prima e che si semplifica la catena di comando, ciò vuol dire che chi dirige un corpo di polizia che ha delle specificità verrà comandato da gente che fa altri mestieri. Un questore fa un lavoro delicatissimo, che tuttavia è diverso da quello di un dirigente del Corpo forestale dello Stato. Concludo su questo punto. Oggi abbiamo eretto il procuratore nazionale antimafia Roberti anche a procuratore nazionale antiterrorismo. Noi non abbiamo votato la fiducia, ma il decreto-legge comunque era già in vigore ed oggi è stato convertito in legge definitivamente. Questo decreto-legge ha attribuito alla Procura nazionale antimafia anche i compiti di Procura nazionale antiterrorismo. Dunque il procuratore nazionale antimafia, che è persona competente, ieri in un articolo pubblicato sul "Corriere della sera" ha detto di fare attenzione alla terra dei fuochi, al controllo del territorio, alle ecomafie, alla criminalità agroalimentare. Io credo che, oltre a votare il non passaggio all'esame degli articoli, uno "stralcetto" di quella delega non sarebbe male. Poi c'è anche la polizia provinciale, che è rimasta per strada e non si sa che fine dovrà fare. Sarebbe dunque opportuna un po' di riflessione. Non si sa se il Corpo forestale dovrà passare nei Carabinieri, nella Polizia o addirittura nella Guardia di finanza. E che cos'è? Un'attribuzione di numeri? Sono cose serie. Con la sicurezza e con la pubblica amministrazione di questo Paese non si scherza. Sì alle riforme, no all'improvvisazione. Per questo voteremo a favore della proposta di non passaggio all'esame degli articoli.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u30">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg67">Signora Presidente, noi voteremo per il non passaggio agli articoli per vari motivi, che sono stati già richiamati nelle questioni pregiudiziali e sospensive esaminate prima dell'inizio della discussione generale. Il nostro voto è dovuto anzitutto all'ampiezza della delega. Si tratta di una delega che praticamente tratta tutte le questioni legate alla pubblica amministrazione, passando da trasparenza e Conferenza di servizi fino alle forze di polizia, relegando talvolta intere riforme a quattro parole: riordino delle funzioni di polizia. Tutta la riforma è così. Riordino delle funzioni di polizia: questo può voler dire tutto e niente, aprendo praticamente una delega che rimane in piedi per tutto il tempo necessario. Saranno 12 mesi nel caso dei vari decreti legislativi, più il tempo necessario alle modifiche che si renderanno necessarie successivamente. Un altro motivo per cui voteremo il non passaggio all'esame degli articoli è perché durante i lavori in Commissione abbiamo effettivamente visto come su alcuni temi importanti come la dirigenza e, in particolare, i segretari comunali, il Corpo forestale dello Stato e le camere di commercio la Commissione avesse una posizione ampiamente condivisa che non era quella del Governo. Nei lavori della Commissione è stato evidente come sia stata oppressa la volontà della stessa maggioranza: senatori della maggioranza hanno dovuto votare contro i propri emendamenti perché il parere del Governo era quello. Non si trattava di emendamenti isolati, ma presentati in Gruppo, da quattro o cinque senatori. Parliamo dei componenti della maggioranza e del Partito Democratico. Si è verificata, quindi, una serie di violazioni del rispetto dei ruoli tra Governo e Parlamento. Voteremo a favore del non passaggio all'esame degli articoli per quell'articolo 15, introdotto alla fine, che prevede l'ampio agio da parte del Governo di poter modificare e abrogare disposizioni di legge che prevedono l'adozione di provvedimenti attuativi che non sono stati attuati con i relativi regolamenti o decreti magari semplicemente perché sono cambiate le condizioni. Però non è dato sapere quali sono queste condizioni e non c'è stato fornito un elenco, pur essendoci stato detto che si ha già chiaro il quadro dei provvedimenti considerati non più percorribili o superati. Eppure, non li abbiamo avuti. Vengo, infine, a uno dei motivi più importanti: questo provvedimento è collegato alla manovra finanziaria. Come tale, i pareri della Commissione bilancio avrebbero dovuto avere un valore importante in tutto il provvedimento. E, infatti, leggendo i Resoconti o i pareri della Commissione bilancio, ci accorgiamo che la stessa ha rilevato che alcuni articoli e parti introdotti in Commissione non sono stati sottoposti al suo parere. Bisognerebbe riesaminarli. Stiamo parlando dello stesso articolo 15 in cui doveva essere introdotta la clausola di salvaguardia, ma ciò non è stato fatto. Questo lo dice la Commissione. È scritto; non lo sto inventando: leggete i resoconti sommari della Commissione. Ci si dovrebbe fermare e ricominciare daccapo cercando di affrontare le questioni separatamente. Quando si fa un provvedimento omnibus come questo, la maggioranza non può che votare il provvedimento nella sua interezza e buona parte della maggioranza si troverà costretta a dover votare - e faccio un invito rivolto a tutti - per non creare una crisi di Governo al buio un intero provvedimento di cui dovrà digerire bocconi amari. Abbiamo avuto contezza di quali sono durante i lavori della Commissione, a partire dalla Forestale fino ai segretari comunali, su cui ci sono posizioni abbastanza differenti tra il Governo e buona parte della Commissione che, a mio avviso, rappresenta una grande maggioranza di questa Aula. Spero che questa Aula abbia il coraggio non solo di votare a favore del non passaggio all'esame degli articoli, ma che abbia anche il coraggio, durante la votazione degli emendamenti, di non appiattirsi alla volontà del Governo e di decidere dando quel ruolo prioritario al Parlamento sul Governo nella legislazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u31">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg68">Noi voteremo a favore dalla proposta di non passaggio all'esame degli articoli perché abbiamo avuto modo, anche nella stessa pregiudiziale di costituzionalità, di porre in evidenza e all'attenzione dell'Assemblea una serie di rilievi critici e di profili, a nostro avviso, molto delicati dal punto di vista della compatibilità costituzionale. Per la verità, il non passaggio agli articoli non è solo un rito, ma è anche il tentativo di sottolineare in questa Aula alcuni aspetti particolarmente critici, su cui io ancora faccio appello. Ovviamente, durante l'esame dei singoli emendamenti e nel prosieguo della discussione, che spero non avverrà perché auspichiamo che si possa approvare la proposta di non passaggio all'esame degli articoli, noi pensiamo che all'interno della maggioranza e da parte del Governo ci possa essere un'ulteriore riflessione. In particolare per quanto ci riguarda, tre questioni ci stanno particolarmente a cuore e le riteniamo anche particolarmente critiche. Noi continuiamo a ritenere abbastanza non precisa nell'indicare gli obiettivi e le direttive, anche in generale e come tutte le deleghe ultimamente, la delega sulla riforma, di cui certamente vi è necessità. Una delega ampia che - ahimè - come abbiamo visto in altre deleghe rischia, nei decreti legislativi e negli schemi sottoposti alle Commissioni, di non far avere al Governo il conforto delle opinioni delle Commissione stesse. Ci sarebbe, però, la necessità di un supplemento di discussione, in particolare sulla questione (che io ripropongo con forza e che investe gli articoli 2 e 3) della riorganizzazione della Conferenza dei servizi e del silenzio assenso (che è quella che più ci preme). Nel nostro ordinamento il principio del silenzio assenso per quanto riguarda gli enti e le amministrazioni preposte a tutela dell'ambiente, dei beni culturali, del paesaggio e della salute (tutti valori costituzionalmente protetti) è sempre stato respinto. Ciò persino nei momenti più difficili per l'ambiente di questo Paese, quando abbiamo assistito a procedimenti e a provvedimenti di impatto particolarmente negativo sull'ambiente. Tale principio vige per molte amministrazioni, ma non per quelle preposte alla tutela dell'ambiente. Credo vi sia la necessità di ritornare in Commissione per indagare ulteriormente. La seconda questione sulla quale vi è un profilo politico è la seguente. Come si agisce con una delega? Questo è un ragionamento opposto a quello fatto dal collega senatore Gasparri per quanto riguarda la questione dei servizi pubblici locali. In particolare, su questo tema bisognerebbe arrivare a un provvedimento di stralcio e ad un'approfondita riflessione. Noi ci siamo adoperati anche per segnalare una questione di rispetto minimo. Tra un po' ritornerà in Senato la riforma costituzionale. Non raccontiamoci di nuovo chiacchiere, dicendo che renderemo il referendum più semplice. Tanto degli esiti di questo referendum non interessa niente a nessuno. Sono andati a votare milioni di cittadini nel giugno 2011. Per la prima volta si è avuto di nuovo il quorum. Questi cittadini hanno espresso opinioni molto chiare per quanto riguarda l'acqua e il servizio idrico. In base a un grande lavoro svolto negli anni, da parte di associazioni e Comuni, si è detto che l'acqua è un bene comune e che deve essere pubblica. In questa delega, invece, si compie un'operazione inversa. Grazie alle nostre le insistenze vagamente si scrive: «tenuto conto», ma la priorità non è certo quella del rispetto degli esiti referendari, come avrebbe dovuto essere in una delega. In una democrazia che ha incidentalmente, e purtroppo pochi, strumenti di partecipazione diretta, come il referendum, quella dovrebbe essere la legge, perché la sovranità è del popolo che ha deciso e in quel momento ha di fatto legiferato abrogando alcune leggi. Il terzo punto riguarda i segretari comunali. Abbiamo discusso e, per la verità, si sono fatti anche alcuni passi avanti, ma non soddisfacenti. In una situazione come quella che viviamo in questo Paese - e dico qui pubblicamente di aver firmato il disegno di legge dei senatori Filippi e Zanda per l'istituzione di una Commissione d'inchiesta sul sistema degli appalti ed altro - abbiamo la necessità di ristabilire con forza un punto ed un criterio di legalità e legittimità: non dovete abolire i segretari comunali; dovete invece restituire loro funzioni adeguate. Oggi, infatti nella grave situazione in cui versa il nostro Paese, dato che ogni settimana ne viene fuori una, bisognerebbe ripristinare la possibilità, che è stata tolta ai segretari comunali, di esprimere il parere preventivo di legittimità sugli atti. Bisognerebbe quindi fare una riflessione o tentare di trovare una soluzione molto diversa, perché non è sufficiente quella recata dal testo proposto dalla Commissione stessa. Ultima questione che desidero trattare è quella della Guardia forestale: caro Gasparri, non in questa delega, come ha detto il responsabile sicurezza del Partito Democratico nel convegno da lei ricordato, ma nel DEF che non si capisce se sta un po' di qua e un po' di là, cosa ancor più grave. Quello che si dice nell'intento di rassicurare - e l'hanno detto anche adesso il rappresentante del Governo ed il Ministro - in realtà è smentito dal DEF stesso e dal suo contenuto. Continuo a ripetere che questo aspetto avrebbe veramente meritato uno stralcio per poter fare un ragionamento come quello che tutti in Commissione abbiamo fatto. Vi è una necessità? Benissimo, mettiamoci in campo, riordiniamo e razionalizziamo: nell'operazione di razionalizzazione, però, bisogna partire ovviamente dalle forze di polizia che fanno più o meno le stesse cose ed hanno funzioni generaliste. Guardate anche i numeri: tra Polizia e Carabinieri vi sono 200.000 unità, mentre la Polizia penitenziaria ne ha 38.000. Facciamo quindi una razionalizzazione del corpo di Polizia più piccolo e più specializzato, in previsione dell'assorbimento. Hanno citato Roberti, che però l'ha spiegato chiaramente: anche per fare in modo non solo che le indagini vadano avanti, ma che poi le questioni tengano in tribunale, in giudizio, bisogna avere qualcuno che abbia le competenze tecnico-scientifiche per farle. Questo è il lavoro che è stato fatto in tutti gli ultimi anni per combattere i reati ambientali: ora, nel momento in cui, dopo vent'anni, si spera che la Camera finalmente approvi il disegno di legge che introduce i reati ambientali nel codice penale, cosa facciamo? Smobilitiamo invece ed indeboliamo la forza di polizia, mentre bisognerebbe compiere l'operazione inversa: fare un lavoro con la Polizia provinciale al fine di realizzare un vero e proprio corpo - razionalizzando, riorganizzando e rafforzando - specializzato in polizia ambientale e tutela della biodiversità. Cosa razionalizzate, le caserme che stanno nei parchi? Ci mettete la polizia? O pensate che, alla fine, il risparmio ci sia? Il 90 per cento dei costi è dovuto al personale: su cosa risparmiate, sui 30 milioni, tra l'altro coperti da tutte le multe che incassa la Guardia forestale? No, spenderete di più, perché dovrete pure rifare loro le divise, per metterli soltanto sotto il capo della Polizia: con tutto il rispetto, questo inevitabilmente comporterà un indebolimento della specializzazione. Riutilizzeranno il personale sotto ai questori, magari per fare ordine pubblico, mentre abbiamo la necessità contraria in questo Paese, in cui ogni ora si compiono tre reati ambientali. Continueremo a portare avanti la battaglia per la tutela della biodiversità e degli animali, anche se non piace al senatore Giovanardi. Il mio è quindi un invito a tutti quanti a votare il ritorno del testo in Commissione e quindi il non passaggio all'esame degli articoli. Spero anche di aver aperto qualche varco nella maggioranza e nel Governo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-SEL e dei senatori Romani Maurizio, Bignami e Campanella.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u32">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg69">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u33">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg70">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo della proposta di non passare all'esame degli articoli NP1, presentata dal senatore Martelli e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u34">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg71">Colleghi, salutiamo le studentesse e gli studenti dell'Istituto tecnico statale «Marie Curie» di Napoli. Benvenute e benvenuti al Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 1577</note>
+            <note type="time">18,07</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44709.htm</note>
+            <note type="time">(ore 18,07)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u35">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg72">Invito il senatore Segretario a dare lettura del parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg73">Chiedo all'Assemblea di prestare particolare attenzione e di abbassare la voce.</seg>
+            </u>
+            <note type="speaker">VOLPI</note>
+            <note type="role">segretario</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u36">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg74">«La Commissione programmazione economica, bilancio, esaminato il disegno di legge in titolo, esprime, per quanto di propria competenza, parere: di semplice contrarietà sull'articolo 1, comma 1, lettera c), condizionato, ai sensi dell'articolo 81 della Costituzione, alla soppressione delle parole "per tutti i cittadini"; non ostativo condizionato, ai sensi della medesima norma costituzionale, sull'articolo 1, comma 1, lettera l), all'inserimento, dopo la parola: "responsabile", delle seguenti parole: "individuato nell'ambito dell'attuale dotazione organica di fatto del medesimo ufficio,"; di semplice contrarietà sull'articolo 7, comma 4; non ostativo sull'articolo 9, comma 1, lettera b), punto 1), condizionato, ai sensi dell'articolo 81 della Costituzione, alla soppressione delle parole: "delle camere di commercio, industria, artigianato e agricoltura" e al loro eventuale inserimento al numero 2) ovvero al numero 3); di semplice contrarietà sull'articolo 9, comma 1, lettera b), numero 4), dalle parole: "in sede di prima applicazione" fino a: "finanza pubblica;"; contrario, ai sensi dell'articolo 81 della Costituzione, sull'articolo 9, comma 1, lettera b), numero 4), limitatamente alle parole da "in assenza di" fino alla fine; non ostativo sull'articolo 9, comma 1, lettera i), condizionato, ai sensi della medesima norma costituzionale, alla soppressione delle parole: "superamento degli automatismi nel percorso di carriera e"; non ostativo sull'articolo 12, comma 1, lettera f), condizionato, ai sensi dell'articolo 81 della Costituzione, all'inserimento, dopo le parole: "per l'effettuazione degli accertamenti", delle seguenti: ", previa intesa in sede di Conferenza tra lo Stato e le Regioni e le province autonome di Trento e di Bolzano per la quantificazione delle predette risorse finanziarie e per la definizione delle modalità d'impiego del personale medico attualmente adibito alle predette funzioni, senza maggiori oneri per la finanza pubblica"; di semplice contrarietà sull'articolo 12, comma 1, lettere h) e n); contrario, ai sensi dell'articolo 81 della Costituzione, sull'articolo 12, comma 1, lettera p); non ostativo sull'articolo 15, comma 1, condizionato, ai sensi della medesima norma costituzionale, all'introduzione di una clausola di invarianza finanziaria; non ostativo sull'articolo 15, comma 2, condizionato, ai sensi dell'articolo 81 della Costituzione, all'introduzione del parere obbligatorio delle Commissioni parlamentari competenti per i profili finanziari. Il parere è di nulla osta sulle restanti parti del testo. Si osserva, inoltre, che l'articolo 9, comma 1, lettera c), numeri 1) e 2), nel prefigurare il reclutamento di dirigenti degli organi costituzionali tramite il corso-concorso ovvero il concorso generale della pubblica amministrazione, interferisce con l'autonomia contabile e funzionale dei predetti organi, la quale si esplica, tra l'altro, nella formulazione dei fabbisogni di personale, nell'individuazione delle professionalità necessarie, nella particolare procedura di trattazione delle controversie in materia di reclutamento. Si osserva, infine, che l'articolo 10, comma 4, pur riguardando somme di modesta entità, reca un rischio di dequalificazione della spesa».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u37">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg75">Onorevoli colleghi, alla luce del parere espresso dalla 5ᵃ Commissione permanente ai sensi dell'articolo 126 -bis, comma 2 -quater, del Regolamento, sono inammissibili le seguenti disposizioni del disegno di legge: articolo 9, comma 1, lettera b), numero 4), limitatamente alle parole da: «in assenza di» fino alla fine, e lettera c), numeri 1) e 2), nella parte concernente gli organi costituzionali; articolo 12, comma 1, lettera p). Pertanto, risultano assorbiti o decaduti gli emendamenti riferiti alle suddette disposizioni. Per quanto riguarda il parere condizionato ai sensi dell'articolo 81 della Costituzione su altri articoli e commi del testo proposto dalla Commissione, tali osservazioni sono state recepite in puntuali emendamenti presentati dal relatore. Qualora tali emendamenti non venissero accolti dall'Assemblea, le parti di testo ad essi riferite saranno dichiarate inammissibili ai sensi dell'articolo 126 -bis, comma 2 -quater, del Regolamento.</seg>
+            </u>
+            <note type="speaker">LANZILLOTTA (PD)</note>
+            <u ana="#regular" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u38">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg76">Signora Presidente, intervengo perché siamo di fronte a una questione molto delicata. Come lei ha prima annunciato, gli effetti dei pareri della Commissione bilancio sui disegni di legge collegati sono molto incisivi in quanto comportano, sostanzialmente, la soppressione delle norme su cui non vi è stato un parere favorevole ai sensi dell'articolo 81 della Costituzione o la sostanziale e automatica correzione attraverso emendamenti del relatore. La prego, se possibile, di seguirmi: vorrei fare due osservazioni. La prima riguarda il parere condizionato espresso dalla Commissione bilancio sull'articolo 1, comma 1, lettera l). Questa disposizione, incorporata nel testo, nasce da un emendamento, che era numerato 1.500/23, sul quale la Commissione bilancio il 5 marzo aveva dato il nulla osta. Dopodiché, il 15 aprile, la Commissione bilancio modifica il suo parere e condiziona, ai sensi dell'articolo 81 della Costituzione, l'ammissibilità di questa disposizione all'inserimento di un inciso che rischia di sterilizzare l'effetto della normativa. Mi spiego. Bene avrebbe fatto la Commissione bilancio a chiarire ciò che è implicito nella norma, ossia che vi debba essere invarianza delle risorse finanziarie. Dire però che questo vincolo si realizza attraverso una modalità che è quella di individuare il dirigente che guida la transizione al digitale nell'ambito dell'attuale dotazione organica di fatto del medesimo ufficio significa invadere la competenza della 1ᵃ Commissione e, implicitamente, anche dichiarare che non si capisce di che cosa si stia parlando. L'organico di fatto della dirigenza infatti non esiste, perché a bilancio sono finanziati tutti i posti dirigenziali di funzione e poiché questi uffici talvolta non sono ricoperti, qualora in quell'ufficio non vi fosse la copertura del posto, non si nomina il nuovo dirigente. Credo che in molti Ministeri questa norma non sia stata accolta con grande favore. La seconda obiezione che muovo è quella, da ultimo, contenuta nel parere per quanto riguarda l'estensione dello strumento del corso-concorso al reclutamento dei dirigenti di organi costituzionali e di altre amministrazioni. Nel merito posso anche essere d'accordo, ma si tratta di un aspetto di merito e mi stupisco che la Commissione bilancio, che dovrebbe tendere ad individuare procedure di reclutamento più trasparenti e quindi per ciò più controllabili, rivendichi che si cancelli una norma che produrrebbe questo effetto, lasciando invece l'effetto dell'autonomia, e quindi il fatto che la procedura di reclutamento si svolga esclusivamente all'interno di organi costituzionali o di altre amministrazioni. Questa, essendo stata espressa una contrarietà ai sensi dell'articolo 81 della Costituzione, è un'altra invasione molto forte della competenza della Commissione di merito. Sottopongo quindi questi temi e dico sin d'ora che a mio parere bisogna fare una riflessione sulla portata dei pareri della Commissione bilancio. Tali pareri, infatti, incidono in misura molto significativa sulla sostanza dei provvedimenti, spesso peraltro in modo, a mio avviso, eccessivamente subalterno al fatto che vengano o meno redatte le relazioni tecniche sulle disposizioni, e alle modalità con cui vengono redatte, limitando fortemente l'autonomia legislativa del Parlamento per profili che non attengono strettamente all'articolo 81 della Costituzione. Chiedo quindi che per questi aspetti ci sia una riflessione da parte del relatore e della Commissione bilancio.</seg>
+            </u>
+            <note type="speaker">URAS (Misto-SEL)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u39">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg77">Signora Presidente, intervengo brevemente per sollevare una questione di ordine procedurale che richiede un chiarimento, se possibile, da parte della Presidenza ed anche della Commissione, ovvero sulla corretta applicazione del comma 2- bis dell'articolo 126- bis, che attiene all'esame dei disegni di legge collegati alla manovra di finanza pubblica, cioè per conoscere se e come sia stato del tutto osservato il contenuto che impone, prima dell'assegnazione, l'accertamento delle disposizioni estranee all'oggetto del disegno di legge presentato dal Governo al Senato e collegato alla manovra finanziaria. Questo infatti ha dei riflessi sicuramente significativi sulla consistenza di questo progetto di legge, proprio relativamente agli effetti che possono essere determinati sulla manovra finanziaria che è stata approvata con la legge di stabilità.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u40">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg78">Signora Presidente, io credo che i colleghi abbiano già cominciato ad esporre quali sono le perplessità. Il parere della Commissione bilancio è abbastanza imponente ed è tale da aver portato anche la Presidenza ad assumere delle determinazioni per cui alcune parti del testo uscito dalla Commissione sono inammissibili. Vi sono quindi testi inammissibili, vi è una serie di osservazioni e di condizioni, vi sono emendamenti decaduti a seguito del parere, emendamenti del relatore che credo siano stato presentati dopo il parere della Commissione bilancio e che non so se siano già inseriti nel fascicolo o se siano a parte. Credo insomma che vi siano tutti le condizioni per sospendere l'esame del disegno di legge sulla pubblica amministrazione oggi per capire cosa ne rimane ed in che modo, ed in particolare cosa rimane dell'attività emendativa svolta dai vari Gruppi, anche alla luce degli emendamenti che il relatore ha presentato e dei quali dovremmo avere adesso conoscenza nel dettaglio. Visto che il provvedimento è ampio e tratta tutti questi argomenti, signora Presidente, credo sia il caso di non affrontarlo in maniera leggera, partendo solo da una semplice approvazione degli emendamenti, come faremmo ora, senza considerare l'interezza del provvedimento.</seg>
+            </u>
+            <note type="speaker">ZELLER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#ZellerKarl" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u41">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg79">Signora Presidente, anch'io ho notato con un certo stupore che è stato espresso parere contrario ex articolo 81 della Costituzione dalla Commissione bilancio all'articolo 12, comma 1, lettera p), giacché analogo emendamento votato in Commissione aveva avuto un parere non ostativo della Commissione bilancio. Pertanto, chiedo anch'io al Presidente della 5a Commissione di rivedere tale parere, trattandosi dello stesso argomento, della stessa materia di cui ad un emendamento che in Commissione era stato solo lievemente riformulato in misura addirittura riduttiva rispetto alla dizione originaria e che aveva ottenuto il parere non ostativo della Commissione bilancio. Chiederei pertanto un riesame della questione. Si tratta - ripeto - dell'articolo 12, comma 1, lettera p).</seg>
+            </u>
+            <note type="speaker">MAURO Giovanni (GAL (GS, LA-nS, MpA, NPSI, PpI, IdV))</note>
+            <u ana="#regular" who="#MauroGiovanni" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u42">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg80">Signora Presidente, poiché da diversi giorni, anche su altri provvedimenti, parliamo di digitalizzazione - abbiamo avuto sedute importantissime in quest'Aula alla presenza del Primo Ministro, che avrebbe dovuto rappresentare anche in sede europea la questione dell'ammodernamento e della digitalizzazione dello Stato - ricordo che vi è un aspetto della questione che riguarda l'attuazione di decisioni assunte dal Parlamento. Vi è un aspetto, da cui non si può prescindere, che concerne la verifica di ciò che si fa, di ciò che i soggetti abilitati, od obbligati a realizzare in termini di comportamenti attivi all'interno della pubblica amministrazione, devono fare e che, se non verificati o sanzionati, non produrrebbero atti concreti.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg81">(ore 18,23) ( Segue MAURO Giovanni). Con l'emendamento 1.329 non si chiede altro che di istituire una piattaforma digitale di coordinamento rispetto alla verifica di ciò che i vari soggetti devono porre in atto per portare avanti la digitalizzazione. Pertanto, da un momento di verifica si può passare ad un momento di contestazione nei confronti di coloro che non mettono in atto i comportamenti richiesti. Viene quindi individuato un aggravio di spesa che non si riesce a capire. Si richiama l'articolo 81 della Costituzione, ma senza una ragione in quanto si prevede in maniera chiara e inequivocabile un'organizzazione tutta interna al Ministero che può sì coinvolgere anche altre amministrazioni che però, in termini di spesa, non incidono minimamente in maniera aggiuntiva rispetto alle risorse già in campo. Non riesco davvero a comprendere tale logica, dal momento che non è previsto né un gettone di presenza, né l'acquisizione di carte o quant'altro che possa indirettamente comportare una spesa. Tra l'altro, è un emendamento che si conclude con la dizione di rito, ovvero che l'applicazione del presente comma non comporta nuovi o maggiori oneri a carico dello Stato. Io non riesco a capire come ormai possiamo esercitare in questo modo la potestà legislativa. Peraltro, questo emendamento aveva ricevuto, in maniera trasversale, non solo il consenso di quasi tutti i membri della Commissione affari costituzionali, ma persino del Governo, perché il ministro Madia e il sottosegretario Rughetti avevano espresso parere favorevole. Di fronte ad una norma che si ritiene di buonsenso e utile alla pubblica amministrazione, una norma che logicamente non comporta spese, perché, in maniera dogmatica, dobbiamo accettare che la stessa non venga introdotta nel provvedimento in quanto viene evocato l'articolo 81 della Costituzione? Devo dire che me ne dispiaccio e intervengo in questa sede affinché ciò rimanga agli atti, perché queste sono quelle battaglie che piace fare quando si partecipa alla realizzazione di una normativa che si ritiene utile, a prescindere dalle posizioni politiche di appartenenza. Abbiamo partecipato ai lavori in Commissione e parteciperemo ai lavori in Aula, non dal punto di vista di chi è senatore dell'opposizione ma di chi deve fare un lavoro utile per i cittadini che da domani dovranno fruire delle norme introdotte da questo provvedimento o essere da queste vessati. Credevamo che la norma introdotta dall'emendamento 1.329 andasse davvero nella direzione di una maggiore velocizzazione della digitalizzazione della pubblica amministrazione, che è attesa non solo dai nostri cittadini ma da tutto il nostro sistema imprenditoriale. PRESIDENTE. Ha facoltà di parlare il presidente della 5ᵃ Commissione permanente, senatore Azzollini.</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente GASPARRI</note>
+            <note type="time">18,23</note>
+            <note type="speaker">AZZOLLINI (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#AzzolliniAntonio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u43">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg82">Signor Presidente, forse è ora di affrontare un po' la questione del lavoro che svolge la Commissione bilancio, perché probabilmente siamo abituati solo a lavorare e non a rispondere. Farò, quindi, un discorso completo, che affronti tutte le questioni: se il Regolamento viene osservato, quanto la Commissione bilancio abbia talvolta funzioni di supplenza, e come invece bisogna seriamente interpretare il suo ruolo, a meno che non venga cambiato il Regolamento del Senato e l'articolo 81 della Costituzione, cosa che è possibile (e in quel caso, ovviamente, ci adegueremo, penso con grande soddisfazione dei membri della Commissione bilancio).</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg83">Ricordo a me stesso, come direbbe il modesto avvocato di provincia che sono e non un raffinato intellettuale, che siamo in presenza di un disegno di legge che il Governo ha dichiarato collegato alla legge di finanza pubblica. Questa dichiarazione del Governo, che normalmente viene fatta nel Documento di economia e finanza, comporta l'osservanza della procedura prevista per la legge di stabilità. È una dichiarazione che non spetta né al Parlamento, tantomeno alla Commissione bilancio, ma al Governo. Da quel momento, la Commissione bilancio esercita la sua attività ai sensi delle norme regolamentari che vengono stabilite per la legge di stabilità. Naturalmente, quando il Governo fa questa dichiarazione, vuole chiaramente segnalare all'attività parlamentare che siamo di fronte a norme che esercitano un impatto diretto sulla finanza pubblica, altrimenti non l'avrebbe dichiarato. Se ha fatto questa dichiarazione, dice al Parlamento: «Noi dichiariamo questo perché viene scontato nei saldi della legge finanziaria; quindi imponiamo particolare attenzione». Da qui discende la dichiarazione di inammissibilità, che consegue alla pronuncia della Commissione bilancio di contrasto con l'articolo 81 sia in riferimento al testo sia ai singoli emendamenti. Quindi, noi dobbiamo esercitare la nostra potestà secondo le regole che ci sono stabilite e imposte. Per questo, in questo caso, il nostro parere è tale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg84">Signor Presidente, che si discuta così, ognuno con la sua libera interpretazione su quello che fa la Commissione bilancio - me lo consentirete solo per un attimo - mi sembra un tantino azzardato, perché rispetto al lavoro di quella Commissione, composta da persone non raffinate, ma piuttosto rozze nel loro esame (che però è molto efficace perché determinato dalle cifre), dire all'improvviso «non è stato fatto» è piuttosto sgradevole, non per me ma per i colleghi della Commissione bilancio, vieppiù quando la procedura consente a ciascun senatore, di fronte ai pareri che noi diamo, di andare dal proprio Gruppo e di segnalare la questione e, quando ciò accade, naturalmente la stessa viene riesaminata. In questo modo elimino già la prima delle osservazioni, che non mi sono parse pertinenti; in ogni caso, ove mai ci fossero state e ci si fosse chiesto perché la Commissione bilancio avesse poi rivisto il suo parere, ci tengo a dire che, come tutti sapete, la maggiore parte delle volte la Commissione bilancio rivede il proprio parere apponendo al testo qualche correttivo di sostanza in favore del presentatore.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg85">La Commissione bilancio in questo caso si è particolarmente esercitata sul testo - lo volevo dire alla fine, ma ho preso un impegno in questo senso in Commissione bilancio e quindi lo dico subito - perché è stata violata una norma regolamentare e sono stati approvati emendamenti modificativi del testo senza il preventivo visto della Commissione stessa che, lo ribadisco, è sempre assolutamente obbligatorio, in particolare in un disegno di legge collegato. Quella sì, dunque, è una questione che chiedo semplicemente di rivedere, nel senso che non si può in sede di disegno di legge o decreto-legge in generale e, in particolare, in occasione di un disegno di legge collegato, discutere senza la preventiva applicazione. Né bisogna stupirsi degli effetti perché, come sapete, nella legge di stabilità in particolare c'è una serie di segnalazioni che la Commissione bilancio fa alla Presidenza perché vengano espunte norme che non hanno i requisiti previsti dall'articolo 81 per quella specifica questione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg86">Tutta questa parte - lo ripeto - mi costringe invece a segnalare che sia nel testo - che per questo abbiamo dovuto rivedere - sia negli emendamenti ci sono state riformulazioni non preventivamente portate all'attenzione della Commissione bilancio e questo, vi assicuro, non perché ci piace lavorare su testi uno, due, tre e, a volte quattro o addirittura cinque - vi invito gentilmente a guardarli - che siamo costretti a rivedere: sarebbe più utile rivederli tutti prima. In ogni caso, ci riteniamo come tutti obbligati a collaborare al buon andamento dei lavori del Senato e ci sacrifichiamo per fare anche questo lavoro, che ripeto, però, nel caso della legge di stabilità o di un provvedimento ad essa collegato, non è in linea con il Regolamento di Senato.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg87">Sono questioni che, una volta per tutte, voglio affrontare, perché altrimenti non ci capiamo: signor Presidente, assicuro tutti, lo dico con dolcezza, che ove ci esimeste da un po' di questi compiti, ne saremmo felici, perché non è bellissimo dire di no ai propri colleghi, anche se tutti sanno che sistematicamente ci sforziamo per rendere compatibili le questioni con l'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg88">Signor Presidente, voglio evidenziare un altro aspetto, così da entrare poi sempre più nel merito. Quando si dice che la conseguenza del parere della Commissione bilancio è una particolare richiesta con la particolare maggioranza o, come in questo caso, l'inammissibilità, ciò non deve stupire alcuno e per una ragione molto semplice: la Commissione bilancio non entra mai nel merito, limitandosi a dire che un certo emendamento andrebbe coperto. Noi dunque non ci esprimiamo mai sul merito e quando dichiariamo l'improcedibilità di un dato emendamento è perché non c'è la copertura. Ove mai il Governo - che in questo caso è il proponente - il presentatore dell'emendamento o il Ministero dell'economia decidono di coprire quell'emendamento, è del tutto evidente che è superato ex se il parere di contrarietà ai sensi dell'articolo 81 della Costituzione espresso dalla Commissione bilancio. È dunque del tutto francamente inopportuno ricondurre al nostro parere esiti che sono assolutamente regolari e che non entrano affatto nel merito, limitandosi a indicare al presentatore di un emendamento - sia esso il Governo o un parlamentare - la necessità di copertura di un determinato emendamento. Sapete che su tantissimi emendamenti è espresso parere contrario ai sensi dell'articolo 81 della Costituzione, perché mancano le relazioni tecniche del Governo che, in molti casi, sono davvero molto complesse e complicate. Quindi, noi non entriamo mai nel merito di alcuno. E ribadisco, sempre con leggerezza, che francamente è un po' stupefacente entrare nel merito del lavoro di colleghi, cosa che come noi non facciamo nei confronti di alcuno. Passando al merito delle questioni poste, per quanto riguarda l'articolo 1, comma 1, lettera l), ricordo alla collega Lanzillotta che ha parlato di un emendamento presentato nell'altro ramo del Parlamento (non so cosa né in quale ramo). Per noi quello era una parte del testo, con o senza emendamenti, e ci siamo pronunciati su quel testo - lo ribadisco - non preventivamente assoggettato al parere della Commissione. È semplice cosa dice a questo punto. Non conosco la questione relativa ai dirigenti in più o in meno, ma il testo afferma una cosa semplice: la scrittura della norma, che parlava di collocazione nell'ambito di un ufficio dirigenziale di un dirigente alle dirette dipendenze dell'autorità, era assolutamente interpretabile nel senso dell'aumento di una unità. L'emendamento afferma che non si può aumentare tale unità e che va fatto nell'ambito della dotazione organica di fatto. Se si vuole aumentare di un'unità, lo si dice e si copre tale misura. Dal dibattito approfondito svolto su tali questioni in Commissione bilancio, è emerso chiarissimamente come la interpretazione più semplice era quella nel senso della possibilità di un aumento della dotazione organica di fatto. Ma ciò non è possibile, a meno che non si trovi una copertura. Quindi, mi sembra una cosa assolutamente lineare. Peraltro, ci è stato detto che si intendeva che uno dei dirigenti di quell'ufficio dovesse essere assoggettato alle dirette dipendenze dell'autorità. Scuserete la nostra rozzezza, ma lo abbiamo soltanto scritto. Non mi stupirei, quindi, e semplicemente raccoglierei una cosa che è ictu oculi evidente (mi scuso per aver usato un'espressione che mi sembra sia latina). La seconda questione che mi è stata posta francamente mi sorprende, perché la stima che ho nei confronti dei colleghi è notoria, ma l'osservazione che viene fatta non è ai sensi dell'articolo 81 della Costituzione. Pertanto, siccome l'osservazione che poniamo rispetto all'articolo 9, comma 1, lettera c), nn. 1 e 2, non ha diretta incidenza sull'articolo 81, non è stata fatta ai sensi di tale articolo. Come tutte le osservazioni che sono naturali nei nostri pareri, siccome potrebbero esservi interferenze su alcune questioni di carattere finanziario (in questo caso il bilancio degli organi costituzionali), abbiamo posto all'attenzione questo problema per evitare che, quando si svolgano quelle procedure concorsuali - di questo si tratta - non si tenga conto di tali aspetti. Se lo faranno, avranno adempiuto ad una nostra semplice osservazione. Questo testo non è, dunque, improcedibile e chiedo almeno che voi leggiate i nostri pareri: non è una condizione ex articolo 81 della Costituzione - mi dispiace - ma è solo una osservazione. Per quanto riguarda il comma 1, lettera p ), i colleghi della SVP, che sono prodighi e che ringrazio per il costante rapporto che hanno con la nostra Commissione in cui spesse volte risolviamo i problemi posti...</seg>
+               <vocal type="shouting">
+                  <desc>Richiami del Presidente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg89">Signor Presidente, è una questione che si è posta a lungo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg90">PRESIDENTE. La stiamo facendo parlare abbondantemente, ma la invitavo a trovare il modo di concludere.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg91">Ha ragione e vado rapidamente alla conclusione. Non posso, però, non dire che in questo caso parliamo di un emendamento che attiene ad una materia che l'articolo 117 della Costituzione conferisce come potestà legislativa esclusiva allo Stato e che esso cambia. Si tratta semplicemente di questo. Noi diamo e confermiamo quel tipo di parere. Se, come in altre occasioni, avessero voluto cambiare il testo, si sarebbe potuto ragionare e, compatibilmente con il dettato costituzionale e in ragione delle funzioni dello Stato e dell'articolo 81 della Costituzione, ci saremmo comportati di conseguenza. Infine, vi è la questione del senatore Mauro a proposito della limitazione o meno dell'attività emendativa. È limitata l'attività emendativa quando contrasta con l'articolo 81. È semplice: in questo caso è limitata. D'altra parte, negli emendamenti a cui il senatore Mauro si riferisce - sento l'obbligo, ma anche il piacere, di dare una risposta - è accaduto questo: ad un testo emendativo sul quale era stato espresso parere contrario ex articolo 81, è stata solo aggiunta che: «la presente norma non comporta oneri». Questo - come capite - non è assolutamente soddisfacente. Perché quella norma non presenti oneri, va cambiato il testo; se quel testo comporta oneri ed io scrivo, invece, che non ne comporta, ciò non conferisce coerenza con l'articolo 81. Faccio un esempio banale. Se dico che devo assumere cento persone e poi scrivo che la presente norma non comporta oneri, delle due l'una: o la cosa è incoerente oppure, francamente, avremmo preso una decisione che si dovrebbe valutare non in Senato, ma da qualche altra parte. Signor Presidente, volevo solo dire che sugli emendamenti in esame è del tutto inutile aprire discussioni in questa sede: lo si fa in Commissione per tutto il tempo e senza avere giammai la prerogativa di ciascun singolo senatore o senatrice o di ciascuna Commissione, ma in stretta coerenza con l'obbligo che la Costituzione e il Regolamento del Senato ci impongono. É così che tentiamo di fare il nostro lavoro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi AP (NCD-UDC) e LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg92">PRESIDENTE. Ha facoltà di parlare il presidente della 1ᵃ Commissione, senatrice Finocchiaro.</seg>
+            </u>
+            <note type="speaker">FINOCCHIARO (PD)</note>
+            <u ana="#regular" who="#FinocchiaroAnna" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u44">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg93">Signora Presidente, vorrei sgombrare il campo da un'impressione che può essere stata avvalorata dalle parole del presidente Azzollini e, cioè, che, nel corso dell'esame di questo provvedimento, si sia agito in dispregio delle norme regolamentari. Vorrei rassicurare i colleghi che l'osservanza delle norme regolamentari è stata massima, tanto più che - come il collega Azzollini ricordava correttamente - noi agiamo nell'ambito di un procedimento legislativo che riguarda un provvedimento collegato. Di conseguenza, siamo tenuti all'osservanza delle prescrizioni più rigorose che il Regolamento prevede, in ragione ovviamente della salvaguardia dei vincoli di bilancio.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg94">Allo stesso modo - e lo dico con ogni forza - è vero che la norma, che prevede che appartenga alla discrezionalità, ovviamente ragionata e motivata, del Presidente della Commissione - anche quando si tratti di sede referente che ha ad oggetto un provvedimento collegato - decidere quali emendamenti inviare alla Commissione bilancio, e tale norma non soffre, nel corso del procedimento riguardante appunto un provvedimento collegato, di alcuna eccezione regolamentare.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg95">Ciò nonostante, la 1ᵃ Commissione ha inviato alla Commissione bilancio per il parere - numerose tornate hanno impegnato la Commissione bilancio in un lavoro, molto lungo e faticoso, per il quale mi sento di ringraziare il suo Presidente e i suoi componenti - tutti gli emendamenti che erano stati presentati, ad eccezione di due. Il primo emendamento era stato presentato dal relatore, e poi vi erano i relativi subemendamenti in ragione del loro evidente carattere ordinamentale. Sta alla discrezione del Presidente della Commissione di merito decidere se quell'emendamento possa comportare nuovi oneri e, di conseguenza, ritenere che occorra inviarlo alla Commissione bilancio. È stato altresì deciso di non inviare alla 5ᵃ Commissione la riformulazione di quegli emendamenti sui quali vi era stato, nel primo testo, un parere di nulla osta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg96">Per queste due questioni, peraltro risolte adesso con il parere della Commissione bilancio, e solo per queste due, non vi era stato invio alla Commissione bilancio, in ossequio - lo ripeto - ad un potere del Presidente della Commissione di merito.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg97">Per il resto - come tutti coloro i quali hanno osservato i nostri lavori sanno - la Commissione si è puntualmente attenuta ad ogni prescrizione che derivava dai successivi pareri della Commissione bilancio, ovviamente dichiarando improponibili tutti gli emendamenti sui quali era stato evidenziato il tradimento del vincolo di cui all'articolo 81. Inoltre, sono stati inseriti nel testo, con emendamenti del relatore, tutti i suggerimenti che la Commissione bilancio aveva formulato su tutti gli emendamenti, per renderli compatibili con il vincolo di cui all'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg98">Mi pare, però, che il presidente Azzollini abbia posto una questione sulla quale vivissimo è l'interesse mio personale e della mia Commissione. Intendo porre qui una questione che - mi perdonerà il presidente Azzollini - travalica assolutamente la questione odierna, che pure è in essa coinvolta, ma ha carattere generale. Non voglio in questa sede discutere dello svantaggio di un sistema ordinario, e che quindi non ha riguardo a provvedimenti collegati, che vede al Senato la necessità di inviare per prassi tutti gli emendamenti alla Commissione bilancio. Non tutti i Presidenti delle Commissioni di merito ritengono di esercitare lo scrutinio di cui ho parlato prima, e ciò carica la Commissione bilancio di un lavoro straordinario e molto spesso inutile, perché molti di quegli emendamenti verranno respinti o addirittura ritirati. Alla Camera, invece, perviene alla Commissione bilancio, per lo scrutinio di competenza di quella Commissione filtro, il testo elaborato dalla Commissione prima del mandato al relatore. Ciò ovviamente facilita veramente e sgrava di molto il lavoro della Commissione bilancio. E su questo forse una riflessione in Giunta per il Regolamento sarebbe interessante fare.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg99">Ma voglio invece affrontare la questione che riguarda la congruenza dei nostri testi rispetto all'articolo 81 della Costituzione. Vorrei dire con molta chiarezza una cosa che spesso non diciamo, perché non la sentiamo: l'osservanza dell'articolo 81 non è un obbligo, un dovere ed una responsabilità soltanto del Governo, ma è, allo stesso tempo, un obbligo, un dovere ed una responsabilità istituzionale che appartengono al Governo, al Parlamento e naturalmente anche al Presidente della Repubblica, in sede di vaglio del testo prima della promulgazione. Perché dico questo? Quanto è previsto dal Regolamento all'articolo 76- bis, comma 3, cioè una richiesta della Commissione bilancio nei confronti della Ragioneria generale dello Stato e del Ministero dell'economia e delle finanze di un contributo istruttorio al fine di un'autonoma decisione della Commissione bilancio stessa circa l'osservanza dell'articolo 81, sta rischiando di diventare - devo dire anche con privazione di "poteri istituzionali" in termini di autonomia della stessa Commissione bilancio - l' ipse dixit dal quale si ritiene di non derogare. Ora, consideriamo che cosa accade in un procedimento referente che non tratti di un provvedimento collegato. La relazione tecnica del MEF (la relazione della Ragioneria) diventa per la Commissione bilancio l'obbligo di decidere in un modo piuttosto che in un altro su un testo. Io credo, invece, che vada fortemente recuperata questa responsabilità rispetto all'articolo 81, che identicamente appartiene al Governo e al Parlamento, così come appartiene al Presidente della Repubblica, perché altrimenti - sì - può verificarsi l'interferenza di una decisione, peraltro di un Ministero soltanto. Infatti, tutti i pareri sui quali poi il MEF ha espresso parere negativo con relazione tecnica avevano il parere positivo del Governo presente in Commissione. Ciò può ridursi ad un'interferenza sul merito della decisione politica del Parlamento</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg100">, che certo deve sottostare all'articolo 81, ma in virtù di un'autonoma responsabilità, peraltro contemplata dal nostro Regolamento. Quando non si tratta, infatti, di provvedimento collegato, l'Aula può disattendere il parere contrario ex articolo 81. Il Parlamento, nella pienezza della propria autonomia e dei propri poteri, ha la possibilità di valutare autonomamente e di assumersi la responsabilità circa l'osservanza dell'articolo 81. La questione è molto complessa e delicata e il presidente Azzollini ha fatto bene, nel modo in cui l'ho sentito - io mi sarei espressa diversamente - a rivendicare il ruolo della Commissione bilancio. Ma credo bisogna rivendicare di più, presidente Azzollini. Bisogna rivendicare il fatto che questa istituzione ha insieme la responsabilità del procedimento legislativo, la responsabilità della decisione politica e la responsabilità dell'osservanza dell'articolo 81 della Costituzione. Credo che su questo punto sarebbe interessante un approfondimento, anche per evitare che tra di noi possano sorgere difficoltà, fraintendimenti e - lasciatemi dire - il paradosso di una posizione del Governo così ferma e generosa rispetto all'innovazione di questo provvedimento e un atteggiamento diverso, che è impersonato dal volto, dipinto come arcigno, del MEF. E non è la prima volta che ciò accade nel corso dei lavori parlamentari. Penso che affrontare la questione con freddezza, laicità e con una discussione politico-istituzionale seria e responsabile sia il modo migliore che abbiamo per superare anche le difficoltà di oggi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD edei senatori Bruno e Palermo.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza dell'Associazione culturale «Officina Pinerolese»</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u45">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg101">Salutiamo l'Associazione culturale «Officina Pinerolese» di Pinerolo, in provincia di Torino, che sta seguendo i nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 1577</note>
+            <note type="time">18,52</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44709.htm</note>
+            <note type="time">(ore 18,52)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u46">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg102">Rimangono confermate le valutazioni che la Presidenza ha fatto ai sensi del Regolamento vigente. De iure condendo, si vedrà.</seg>
+            </u>
+            <note type="speaker">D'ALI' (FI-PdL XVII)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u47">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Avrebbe dovuto segnalarcelo prima. In ogni caso, può brevemente aggiungere le sue considerazioni. Ai Presidenti delle Commissioni abbiamo dato ampio spazio. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg103">In Aula si sta sviluppando in questi minuti un dibattito su un tema che non era previsto e credo, pertanto, sia legittimo che ogni Gruppo possa esprimere il suo parere. Ho sentito delle ricostruzioni che ritengo veramente molto singolari sull'attività della Commissione bilancio, a commento di quanto molto correttamente ha detto il presidente Azzollini. E mi stranisce veramente che questi commenti vengano sollevati ogniqualvolta la Commissione bilancio ardisca esprimere un parere contrario al contenuto di un testo governativo o agli emendamenti del relatore o della maggioranza. Le nostre pregiudiziali su molti disegni di legge sono piene di sospetti, dubbi e certezze sulla violazione dell'articolo 81 della Costituzione, che prima esprimiamo in Commissione bilancio dove - com'è noto - si vota a maggioranza. E come opportunamente ha ricordato la presidente Finocchiaro, la Commissione bilancio si avvale - e non può fare diversamente - delle relazioni sia del Ministero della finanze che della Ragioneria generale dello Stato, che hanno gli elementi tecnici per poter verificare se una norma ha bisogno o meno di una copertura finanziaria. E, quindi, sono veramente singolari tutte queste argomentazioni. Noi abbiamo più volte espresso pareri contrari e sistematicamente la Ragioneria generale dello Stato ha indicato anche la congruità delle coperture. Ed è anche successo, altre volte, che la Commissione bilancio abbia dato un parere in difformità da quello espresso dalla Ragioneria generale dello Stato. Da questo punto di vista, voglio apprezzare la rigorosità della Commissione e anche l'apertura su molti argomenti della stessa, per quanto da noi spesso politicamente non condivisi. Presidente Finocchiaro, alla fine, anche gli emendamenti votati senza il parere della Commissione, prima di arrivare nell'Aula, passano dalla Commissione. Non c'è, quindi, un doppio lavoro della Commissione nell'esaminarli prima perché, se sono già stati esaminati, il parere rimane quello che è, salve le modifiche che molto spesso si annidano attraverso i testi 2 o 3, come ha detto il presidente Azzollini. Pertanto, è assolutamente dovere della Commissione bilancio intervenire su qualsiasi modifica, anche su una semplice virgola, che si faccia nella rielaborazione di un emendamento, ancorché questo abbia ricevuto il nulla osta e, a maggior ragione, se non lo ha ricevuto. Tra l'altro, vi è l' extrema ratio. Il Parlamento è sovrano comunque e lei mi insegna che, su richiesta di quindici senatori, si possono votare anche emendamenti che hanno ricevuto il parere contrario della Commissione bilancio. La Commissione bilancio, quindi non ha mai la possibilità, né tanto meno l'intenzione, di condizionare i lavori del Parlamento, se non indirizzandoli alla loro corretta soluzione, quella del rispetto dell'articolo 81 della Costituzione, che è Costituzione per tutti, e non solo per il Governo ma anche per il Parlamento e per il Presidente della Repubblica. Quindi, pur se spesso dissenzienti in Commissione bilancio, alla fine non possiamo che censurare la pratica in forza della quale, quando la Commissione bilancio esprime un parere negativo su alcuni testi, diventa il mostro del Parlamento mentre, quando boccia le proposte dell'opposizione, diventa la garante dell'articolo 81 della Costituzione. Questo è stato il parere della Commissione bilancio. Anche se noi non dovessimo essere d'accordo, riteniamo comunque che debba essere rispettato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u48">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg104">Signor Presidente, mi sembra che l'andamento di questa discussione abbia assunto una dimensione maggiore rispetto alla questione posta al momento in cui il dibattito è partito. La senatrice Lanzillotta ha posto un problema su una formulazione di un passaggio del provvedimento. Il presidente Azzollini ha giustamente fatto un richiamo di fondo generale al ruolo della 5ᵃ Commissione e al modo in cui essa deve applicare l'articolo 81 della Costituzione, e sono poi seguite delle osservazioni della presidente Finocchiaro sul lavoro della 1ª Commissione. Io ho preso la parola perché è rimasto estraneo al nostro dibattito un punto che considero centrale e, cioè, la posizione che dovrebbe assumere, e che noi vorremmo assumesse, l'Ufficio parlamentare di bilancio, che abbiamo istituto più di un anno fa. La questione non detta è l'autonomia del Parlamento nella valutazione degli effetti finanziari delle norme che dobbiamo discutere. È una questione di enorme rilievo, che attiene alla nostra attività quotidiana, in termini macro ma anche in termini riferiti a singoli emendamenti. Con tutta l'amicizia che porto al presidente Azzollini, e della quale egli è a conoscenza, io dico che è naturale che i senatori abbiano molto rispetto per le indicazioni della Commissione bilancio per quanto riguarda le coperture previste dall'articolo 81, ed è anche naturale che essi difendano nel merito le proprie proposte. È dalla naturale dialettica esistente tra la censura della 5ᵃ Commissione e la necessità, invece, di vedere discusse nel merito le proposte parlamentari che nasce il problema. E per cercare di risolverlo a valle ed evitare che questa discussione potesse bloccare i nostri lavori e mobilitare l'Aula su una questione su cui, veramente, non dovremmo nell'ordinario fermarci tanto, noi pensavamo che sarebbe stato utile avere il supporto dell'Ufficio parlamentare di bilancio. Su questo punto credo occorra riflettere e noi senatori del Partito Democratico vi rifletteremo. Adesso non ho chiaro se della questione debba essere investita la Giunta del Regolamento o debbano essere prese altre iniziative, ma vorrei porre in Aula, pubblicamente, la questione dell'attività dell'Ufficio parlamentare di bilancio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u49">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg105">Prendiamo atto della sua sollecitazione, tenendo conto che le norme già stabiliscono quali sono gli ambiti di competenza del nuovo organismo istituito, che in questa circostanza non sembrano sussistere. In ogni caso, l'argomento potrà essere approfondito.</seg>
+            </u>
+            <note>Passiamo all'esame degli articoli, nel testo proposto dalla Commissione.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Procediamo all'esame dell'articolo 1, sul quale sono stati presentati emendamenti e ordini del giorno, che invito i presentatori ad illustrare.</note>
+            <note type="speaker">FUCKSIA (M5S)</note>
+            <u ana="#regular" who="#FucksiaSerenella" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u50">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg106">Signor Presidente, con l'emendamento 1.303, al primo comma dell'articolo 1, dopo la parola «entro», aggiungerei le parole «non oltre». L'inserimento di tale avverbio intende sottolineare la natura perentoria dei termini entro cui il Governo deve emanare i decreti legislativi volti a dare attuazione ad un'erogazione dei servizi ai cittadini semplificata, grazie al pieno utilizzo della modalità telematica.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg107">Troppi sono infatti i decreti, anche di natura ministeriale - come ha accennato, oggi, anche la ministra Madia - che avrebbero dovuto introdurre innovazione e semplificazione nelle relazioni tra cittadini e pubblica amministrazione e che, invece, sono stati oggetto di tante proroghe, e sono rimasti spesso ancora lettera morta.</seg>
+            </u>
+            <note type="speaker">BISINELLA (Misto-FAL)</note>
+            <u ana="#regular" who="#BisinellaPatrizia" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u51">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg108">Signor Presidente, vorrei fare solo una precisazione molto veloce per tutti gli emendamenti riferiti all'articolo 1.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg109">Forse vi è stato un problema nella stampa riguardo ai firmatari - e poi lo diremo anche durante l'esame degli altri - nel senso che si intendono aggiunte anche le firme delle colleghe Munerato e Bellot. Vorrei che ciò rimanesse agli atti, perché in alcuni casi i firmatari sono stati riportati correttamente, mentre in altri vi è solo l'indicazione del primo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg110">Nel merito, invece, ritengo di soprassedere per quanto riguarda l'illustrazione degli emendamenti riferiti all'articolo 1, e poi vedremo nel prosieguo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg111">L'unica osservazione aggiuntiva che faccio è che condivido le osservazioni mosse dal Presidente della Commissione bilancio. È vero che è stato certamente fatto un lavoro approfondito in Commissione affari costituzionali, anche in merito agli impegni di spesa che potevano derivare da proposte emendative, e che è stato compiuto un esame molto attento nei riguardi di ogni proposta avanzata dai colleghi. Troveremo, però, certamente altre occasioni, nel corso dell'esame di questo provvedimento e delle proposte emendative ad esso presentate, per soffermarci con molta attenzione su probabili impegni di spesa che dovessero derivare alle entrate dello Stato.</seg>
+            </u>
+            <note type="speaker">GUERRA (PD)</note>
+            <u ana="#regular" who="#GuerraMariaCecilia" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u52">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg112">Signor Presidente, l'emendamento 1.321 - analogo ad alcune proposte emendative presentate ad altri articoli, che non illustrerò - riguarda la questione della migliore precisazione del procedimento di deleghe e del rapporto fra Parlamento e Governo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg113">In sostanza, vediamo che questo provvedimento presenta aspetti molto importanti, molti dei quali sono trattati con deleghe al Governo. Chiedo allora con l'emendamento in esame - e anche con gli altri che non illustrerò - che in questo caso, data l'importanza e la rilevanza dell'argomento, si segua lo stesso procedimento che si sta seguendo con la delega fiscale, che consiste nel rafforzare il parere del Parlamento, che non diventa mai vincolante, una volta data la delega nei confronti del Governo, ma permette un'interlocuzione più proficua e trasparente. Sostanzialmente, nel caso in cui il parere espresso e previsto dalle Commissioni non venga accettato dal Governo, quest'ultimo s'impegna a dare una motivazione del perché abbia deciso di non dar seguito al parere, rimandando il provvedimento in Commissione ed accettando, quindi, un suo ulteriore pronunciamento. Dopodiché, ovviamente, essendo stato delegato, rimane sovrano e può decidere di procedere indipendentemente dal parere ricevuto.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg114">Mi sembra che questo, anche in base alla relazione che vi è stata nell'intero processo che ha accompagnato l'estensione del provvedimento ed il suo passaggio in Commissione, possa rappresentare un fattore di arricchimento, riconducendo la dialettica Governo-Parlamento nella sede istituzionale, che è quella che le è propria.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Fornaro.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BENCINI (Misto)</note>
+            <u ana="#regular" who="#BenciniAlessandra" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u53">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg115">Signor Presidente, chiedo di poter aggiungere le firme mia e della senatrice Mussini all'emendamento 1.321 della senatrice Guerra. PRESIDENTE. Senatrice Guerra, è d'accordo? GUERRA (PD). Sì, signor Presidente.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u54">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg116">Ne prendiamo atto.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg117">I restanti emendamenti e ordini del giorno si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg118">Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli emendamenti e sugli ordini del giorno in esame.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u55">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg119">Signor Presidente, formulo un invito al ritiro di tutti gli emendamenti presentati all'articolo 1, altrimenti il parere è contrario, con l'eccezione di quelli da me presentati, su cui il parere è favorevole, e dell'emendamento 1.321 di cui chiedo l'accantonamento.</seg>
+            </u>
+            <note type="speaker">MADIA</note>
+            <note type="role">ministro per la semplificazione e la pubblica amministrazione</note>
+            <u ana="#guest" who="#MadiaMariaAnna" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u56">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg120">Il parere del Governo è conforme a quello espresso dal relatore.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg121">PRESIDENTE. Passiamo alla votazione dell'emendamento 1.300.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u57">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg122">Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u58">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg123">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.300, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.301, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.302, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.303, presentato dalla senatrice Fucksia e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.304, presentato dai senatori Piccoli e Mazzoni. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.305.</seg>
+            </u>
+            <note type="speaker">FUCKSIA (M5S)</note>
+            <u ana="#regular" who="#FucksiaSerenella" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u59">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg124">Signor Presidente, colleghi, il difensore civico è una figura fondamentale, perché offre un servizio al cittadino e contemporaneamente alla pubblica amministrazione, in particolare nella prevenzione di costosi contenziosi, impattando con la realtà sia politica che giudiziaria. L'istituto viene disciplinato in modo disorganico da varie normative (legge n. 241 del 1990 relativamente al diritto di accesso agli atti, legge n. 127 del 1997, articolo 136 del decreto legislativo n. 267 del 2000 ed altro) non essendovi, allo stato attuale, una legge quadro che definisca linee guida per codificare modalità e strumenti di intervento volti a garantire omogeneità ed efficacia dell'azione della difesa civica sull'intero territorio nazionale. L'emendamento proposto, al quale daremo voto favorevole, si muove proprio in questa direzione, anche in considerazione della recente ricerca promossa a livello governativo, da cui emerge che le principali difficoltà del cittadino nei rapporti con la pubblica amministrazione derivano non tanto dalla mala amministrazione, quanto dalla diversificazione e complessità delle norme e dalle scadenze alle quali sottostare. In questo scenario, il supporto del difensore civico al cittadino, offerto gratuitamente, è uno strumento essenziale per risolvere i possibili conflitti ed imboccare la strada della semplificazione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u60">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg125">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.305, presentato dalla senatrice Fucksia e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.700.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u61">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg126">Signor Presidente, nel fascicolo degli emendamenti non è presente l'emendamento 1.700. È stato aggiunto dopo. Può attendere un momento, per favore?</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u62">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg127">È un emendamento che recepisce le osservazioni della 5ᵃ Commissione, che lo ha definito necessario: è frutto, quindi, del rispetto dei pareri vincolanti. Il testo è in distribuzione ai Gruppi. Nel frattempo proseguiamo con le votazioni degli altri emendamenti, in attesa che la distribuzione sia completata.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg128">Passiamo alla votazione dell'emendamento 1.306.</seg>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u63">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg129">Signor Presidente, dovremmo avere il tempo di leggere l'emendamento 1.700. Se lo leggiamo, non possiamo intanto votare.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u64">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg130">Ho posposto la votazione dell'emendamento in modo che i senatori possano leggerlo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg131">Ma, se devo votare, non posso leggere. PRESIDENTE. Ora il testo dell'emendamento 1.700 è in distribuzione ai Gruppi e, dopo la votazione di qualche altro emendamento, lo recupereremo. Senatore, riuscirà certamente a leggerlo. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.306, presentato dal senatore Crimi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.307, presentato dal senatore Bruni e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.308, presentato dal senatore Crimi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). I testi degli emendamenti presentati dal relatore sono stati distribuiti. Indìco dunque la votazione nominale con scrutinio simultaneo dell'emendamento 1.700, presentato dal relatore. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.701, presentato dal relatore. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.309, presentato dalla senatrice De Petris e da altri senatori, identico all'emendamento 1.310, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.311.</seg>
+            </u>
+            <note type="speaker">DI BIAGIO (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#DiBiagioAldo" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u65">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg132">Signor Presidente, intendo ritirare gli emendamenti 1.311 e 1.327. Sui due temi da essi trattati, che giudico estremamente importanti, presenterò degli ordini del giorno, che auspico il Governo accolga.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u66">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg133">La invito a presentare con sollecitudine i testi degli ordini del giorno.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg134">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.312, presentato dalla senatrice Bisinella e da altre senatrici. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 1.313 è stato ritirato. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.314, presentato dal senatore Margiotta. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.315, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.316, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 1.317, presentato dalla senatrice Bisinella e da altre senatrici, fino alle parole «in sede di». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte dell'emendamento 1.317 e gli emendamenti da 1.318 a 1.320. Relatore, l'emendamento 1.321 era stato accantonato: ritiene debba rimanere accantonato o nel frattempo ha maturato qualche idea al riguardo? PAGLIARI, relatore. Sì, signor Presidente: rimane accantonato. PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.322, presentato dai senatori Campanella e Bocchino. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.323, presentato dalla senatrice Bisinella e da altre senatrici, sostanzialmente identico agli emendamenti 1.324, presentato dal senatore Volpi e da altri senatori, 1.0.6, presentato dalla senatrice Bisinella e da altre senatrici, e 1.0.300, presentato dal senatore Volpi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.325, presentato dai senatori Gibiino e Bruno. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.326, presentato dai senatori Perrone e Bruno. (Segue la votazione). Il Senato non approva. (v. Allegato B). Gli emendamenti 1.327 e 1.328 sono stati ritirati. Gli emendamenti 1.329 e 1.330 sono inammissibili. Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli ordini del giorno G1.100 e G1.101.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u67">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg135">Esprimo parere favorevole all'accoglimento degli ordini del giorno G1.100 e G1.101, a condizione che vengano entrambi riformulati inserendo le parole «a valutare l'opportunità di» dopo le parole «impegna il Governo».</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg136">PRESIDENTE. I presentatori accolgono la proposta di riformulazione? VACCARI (PD). La accolgo, signor Presidente. BONFRISCO (FI-PdL XVII). Anch'io accolgo la proposta di riformulazione.</seg>
+            </u>
+            <note type="speaker">BISINELLA (Misto-FAL)</note>
+            <u ana="#regular" who="#BisinellaPatrizia" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u68">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg137">Signor Presidente, anche a nome delle senatrici Bellot e Munerato, chiedo alla senatrice Bonfrisco di poter sottoscrivere l'ordine del giorno G1.101 (testo 2). PRESIDENTE. Senatrice Bonfrisco, accetta la sottoscrizione del suo ordine del giorno? BONFRISCO (FI-PdL XVII). Sì, signor Presidente.</seg>
+            </u>
+            <note type="speaker">MADIA</note>
+            <note type="role">ministro per la semplificazione e la pubblica amministrazione</note>
+            <u ana="#guest" who="#MadiaMariaAnna" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u69">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg138">Il Governo è disponibile ad accogliere gli ordini del giorno così riformulati.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u70">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg139">Essendo stati accolti dal Governo, gli ordini del giorno G1.100 (testo 2) e G1.101 (testo 2) non verranno posti ai voti.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg140">A questo punto, avendo il Governo, nella persona del ministro Madia, accolto gli ordini del giorno, dovremmo votare l'articolo 1 ma non possiamo procedere in tal senso, essendo stato accantonato l'emendamento 1.321, a meno che lei, relatore, non sia in grado di fornirci un orientamento sull'emendamento accantonato.</seg>
+            </u>
+            <note type="speaker">DI BIAGIO (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#DiBiagioAldo" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u71">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg141">Signor Presidente, vorrei solo evidenziare che ci sono anche i miei due ordini del giorno G1.311 e G1.327, formulati con la dicitura appena proposta «a valutare l'opportunità di».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u72">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg142">Si tratta degli emendamenti 1.311 e 1.327, che lei ha trasformato in ordini del giorno, ma il problema è che i testi degli ordini del giorno non sono materialmente pervenuti alla Presidenza. Il contenuto è comunque analogo a quello degli emendamenti, quindi posso già chiedere al relatore di pronunziarsi su di essi.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u73">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg143">Invito il senatore Di Biagio a formulare gli ordini del giorno, in modo che possiamo valutarli.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u74">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg144">Gli ordini del giorno sono formulati in analogia ai testi degli emendamenti ritirati, ossia l'1.311 e l'1.327. Quindi, gli ordini del giorno sono di analogo tenore.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg145">, relatore. Accolgo gli ordini del giorno. PRESIDENTE. Invito il rappresentante del Governo a pronunziarsi sugli ordini del giorno. MADIA, ministro per la semplificazione e la pubblica amministrazione. Esprimo parere favorevole. PRESIDENTE. Essendo stati accolti dal Governo, gli ordini del giorno G1.311 e G1.327 non verranno posti ai voti.</seg>
+            </u>
+            <note type="speaker">BLUNDO (M5S)</note>
+            <u ana="#regular" who="#BlundoRosettaEnza" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u75">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg146">Signor Presidente, prendo la parola solo per chiedere di sottoscrivere l'ordine del giorno G1.101 (testo 2) della senatrice Bonfrisco: avevo chiesto la parola, poco fa.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u76">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg147">Ne prendiamo atto. L'ordine del giorno della senatrice Bonfrisco ha avuto molto successo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg148">Permanendo l'accantonamento di un emendamento che non ci consente di votare l'articolo 1, la cui votazione viene anch'essa accantonata per evidenti ragioni, passiamo all'esame dell'articolo 2, sul quale sono stati presentati emendamenti e un ordine del giorno, che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u77">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg149">Signor Presidente, intervengo molto rapidamente e complessivamente per illustrare gli emendamenti del Gruppo a mia prima firma, la maggior parte dei quali riguarda una questione molto delicata concernente la Conferenza dei servizi in quanto con l'articolo 2, per l'ennesima volta, si rimette mano al suo riordino.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg150">Abbiamo presentato due tipi di emendamenti. Da una parte quelli che tendono in qualche modo a far sì che vi sia la possibilità della partecipazione degli interessati al procedimento interno alla Conferenza dei servizi (eliminando l'inciso in base al quale si possa partecipare soltanto ad ipotesi di adozione di provvedimenti di interesse generale, che circoscrive moltissimo la possibilità della partecipazione); dall'altra, emendamenti che tendono a far sì che tutte le associazioni portatrici di interessi diffusi o sensibili, nonché i comitati cittadini che si costituiscono in difesa di tali interessi pubblici territoriali, possano partecipare al procedimento interno alla Conferenza dei servizi. Si tratta, tra l'altro, di un tema in discussione anche nella delega per la revisione del sistema del codice degli appalti: a maggior ragione nella Conferenza dei servizi questo dovrebbe essere un dato scontato.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg151">Gli altri emendamenti tendono a fare in modo che esista un meccanismo di salvaguardia, e quindi non di conculcamento, della volontà delle amministrazioni che rappresentano il sistema delle tutele. Mi riferisco quindi alle amministrazioni preposte alla tutela della salute, dell'ambiente e del paesaggio, dunque degli interessi sensibili e costituzionalmente protetti. Da questo punto di vista proponiamo una serie di emendamenti di modifica del testo prodotto dalla Commissione stessa, prevedendo soprattutto che nella Conferenza dei servizi il meccanismo della tutela sia tenuto in assoluta considerazione. Come è emerso anche dal testo approvato dalla Commissione, questo ovviamente non c'è. Non solo: si va addirittura in senso opposto. Per di più vi è un meccanismo - anche in questo caso ne proponiamo l'abolizione - secondo cui tutte le amministrazioni dello Stato devono presentarsi alla Conferenza dei servizi con un unico rappresentante. Pensate un po' voi cosa accadrà nel momento in cui si dovrà decidere di infrastrutture, per esempio: ci andrà un rappresentante del Ministero delle infrastrutture e dei trasporti o del Ministero dell'ambiente? Penso, quindi, che anche su questo fronte ci sia una forzatura assurda che andrà contro gli interessi generali di questo Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg152">Tutto il meccanismo delle grandi opere, oltre alla legge obiettivo, si è ulteriormente incancrenito perché non si teneva nel debito conto quei pareri. Oggi, invece di migliorare la situazione (le valutazioni di impatto ambientale, i pareri delle amministrazione predisposte alla tutela) si fa un'operazione che va ancora di più in senso inverso.</seg>
+            </u>
+            <note type="speaker">NUGNES (M5S)</note>
+            <u ana="#regular" who="#NugnesPaola" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u78">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg153">Signor Presidente, noi in linea di massima siamo assolutamente d'accordo con l'idea che si debba semplificare e rendere più efficiente l'amministrazione pubblica: quindi, a questo non vogliamo assolutamente sottrarci. Ci sembra, però, che i provvedimenti adottati da questo Governo vadano in una direzione che vede nella semplificazione soltanto e sempre il taglio, l'eliminazione, la sottrazione e non l'efficientamento.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg154">Con l'emendamento 2.348 noi proponiamo di aggiungere al comma 1, lettera m), qualche riferimento al cosiddetto meccanismo che vede le priorità, perché, benché nella lettera m) si parli di termini per la tutela ambientale, si riduce tutto a termini per la valutazione tecnica e la necessaria composizione degli interessi pubblici e si finisce, in modo molto brutale, «in modo da pervenire in ogni caso alla conclusione del procedimento entro i termini previsti», come se, appunto, l'unico obiettivo non fosse quello di valorizzare i principi, le priorità e le esigenze della tutela dell'ambiente, della salute e della pubblica incolumità manifestate dagli enti preposti, ma soprattutto e sempre del fare presto, del fare il più presto possibile, possibilmente restando zitti e non esprimendo alcun parere. Presidente, visto che mi ha ascoltato con piacevolezza, la ringrazio della sua attenzione, che dà molto valore alle mie parole. Presidente, lei è di sostegno. Io sono molto felice quando parlo al suo cospetto perché la sua attenzione mi rafforza.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u79">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg155">Ha ragione, senatrice, mi scuso ma mi stavano chiedendo notizie sull'andamento dei lavori a nome dei Gruppi. Le chiedo scusa. Prego, completi il suo intervento, se vuole sottolineare nuovamente il suo pensiero, così posso prenderne atto.</seg>
+            </u>
+            <note type="speaker">NUGNES (M5S)</note>
+            <u ana="#regular" who="#NugnesPaola" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u80">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg156">Ho finito. Sottolineavo l'esigenza che nell'efficientamento dello svolgimento delle funzioni gli enti non perdano l'attenzione per quelli che sono i valori di tutela, mentre mi sembra che l'interesse del Governo vada semplicemente verso i tagli e la semplificazione fine a se stessa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CROSIO (LN-Aut)</note>
+            <u ana="#regular" who="#CrosioJonny" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u81">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg157">Signor Presidente, all'articolo 2 proponiamo una serie di emendamenti che credo siano veramente di buonsenso.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg158">Chi ha avuto occasione di fare anche solo mezza giornata nelle amministrazioni locali sa che uno dei grossi inconvenienti che abbiamo - e la semplificazione dovrebbe andare in questa direzione - è la procedura riguardante la Conferenza dei servizi. Con gli emendamenti che proponiamo noi cerchiamo più che altro di fare chiarezza, in modo da avere tempi certi per quanto riguarda le Conferenze dei servizi perché troppo spesso - chi ha avuto esperienza di amministrazione locale lo sa bene - la sovrintendenza, piuttosto che altri enti che partecipano alla Conferenza dei servizi, disattendono la tempistica che anche un'amministrazione pubblica si dà, facendo saltare la programmazione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg159">Ci si riempie tra l'altro tanto la bocca, soprattutto in questo momento in cui si vogliono giustamente assecondare anche le richieste dell'Europa, parlando di snellimento e sfoltimento delle procedure in materia di appalti, con il nuovo Codice degli appalti, con cui si vogliono dare regole chiare e snelle sugli appalti e, di conseguenza, su tutto ciò che concerne l'amministrazione pubblica. Con gli emendamenti che abbiamo presentato andiamo a determinare degli obblighi in capo a chi deve partecipare agli appalti stessi, tra cui, ad esempio, l'obbligo di presentarsi; in caso contrario, interviene il silenzio assenso. Sappiamo benissimo, infatti, sempre in virtù dell'esperienza amministrativa che abbiamo, che la posizione e la decisione di alcuni enti coinvolti, magari apparentemente marginali, sono parte integrante di tutto il sistema procedurale riguardante una certa opera per cui, non presentandosi, quegli enti vanno a bloccare tutta la macchina amministrativa.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg160">Mi preme sottolineare che molto si era fatto nelle procedenti legislature per quanto concerne tutto il sistema della semplificazione, che andava ad incidere anche su questo problema: l'allora ministro Calderoli fece molto per queste problematiche.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg161">È chiaro che in questo momento riteniamo che cercare di dare una mano, indicando tempi certi, stabilendo che comunque la Conferenza dei servizi debba pervenire ad una decisione certa, entro tempi, con modi e procedure codificati e chiari - in questi emendamenti noi li indichiamo in maniera molto specifica - sia un atto di assoluto buonsenso. Le nostre proposte vanno dunque verso quella che dovrebbe essere un'amministrazione sempre più moderna e che si adegua, tra l'altro, con le indicazioni europee proprio per quanto concerne questo genere di procedure.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e del senatore Castaldi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FUCKSIA (M5S)</note>
+            <u ana="#regular" who="#FucksiaSerenella" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u82">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg162">Signor Presidente, l'emendamento 2.13 ha l'obiettivo di incentivare le pubbliche amministrazioni a funzionare in tempi congrui, ovverosia a prevedere l'adozione di provvedimenti disciplinari nei confronti dei dirigenti responsabili delle amministrazioni preposti a rendere gli atti di consenso, quando non lo facciano nei termini prescritti. In questo modo si incentivano le amministrazioni ad esprimersi nei tempi richiesti, consentendo così alla Conferenza dei servizi di funzionare efficacemente come modulo procedimentale semplificato. Infatti, troppo spesso le decisioni che dalla Conferenza dovrebbero scaturire vengono di fatto paralizzate a scapito dei privati, che attendono nell'incertezza risposte necessarie per svolgere la loro attività.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg163">PRESIDENTE. I restanti emendamenti e l'ordine del giorno si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg164">Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli emendamenti e sull'ordine del giorno in esame.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u83">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg165">Esprimo parere contrario su tutti gli emendamenti, ad eccezione dell'emendamento 2.9, che ha parere favorevole ove accolta la seguente riformulazione: « Al comma 1, dopo la lettera c ), inserire la seguente: "c- bis) principio della certezza dei tempi della conferenza, ovvero necessità che qualsiasi tipo di conferenza di servizi debba avere una durata certa, anche con l'imposizione a tutti i partecipanti di un onere di chiarezza e inequivocità delle conclusioni espresse"». Chiedo inoltre l'accantonamento dell'emendamento 2.354. PRESIDENTE. Chiedo al presidente Azzollini di pronunciarsi sulla presente riformulazione.</seg>
+            </u>
+            <note type="speaker">AZZOLLINI (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#AzzolliniAntonio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u84">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg166">Signor Presidente, premesso che, come ho detto prima, in sedi di questo tipo non si potrebbe fare, in questo caso posso tuttavia esprimere il parere ai sensi dell'articolo 100 del Regolamento perché evidentemente la riformulazione proposta non reca oneri. Pertanto il parere, reso ai sensi dell'articolo 100, è di nulla osta.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u85">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg167">Pertanto si può votare con questa riformulazione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg168">Senatrice Bisinella, accoglie la riformulazione proposta dal relatore?</seg>
+            </u>
+            <note type="speaker">BISINELLA (Misto-FAL)</note>
+            <u ana="#regular" who="#BisinellaPatrizia" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u86">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg169">Chiedo al relatore se può ripeterla.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u87">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg170">« Al comma 1, dopo la lettera c ), inserire la seguente: "c- bis) principio della certezza dei tempi della conferenza, ovvero necessità che qualsiasi tipo di conferenza di servizi debba avere una durata certa, anche con l'imposizione a tutti i partecipanti di un onere di chiarezza e inequivocità delle conclusioni espresse"». BISINELLA (Misto-FAL). La parte finale dell'emendamento decade o rimane? PAGLIARI, relatore. La riformulazione è sostitutiva dell'emendamento. BISINELLA (Misto-FAL). Comunque è abbastanza in linea con il merito cui mi riferivo, quindi la accetto.</seg>
+            </u>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u88">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg171">Signor Presidente, mi permetto di fare un'osservazione che riguarda in generale gli emendamenti proposti dalla senatrice Guerra, la quale ha formulato una proposta che è almeno di salvaguardia del lavoro del Parlamento e pertanto secondo noi ha un senso importante, in particolare con riferimento a questa proposta di delega che è molto ampia e rispetto alla quale noi abbiamo anche contestato in senso negativo la mancanza di criteri direttivi specifici. Innanzitutto, se la presentatrice ce lo consente, noi vorremmo apporre la nostra firma agli emendamenti della senatrice Guerra, ma porrei anche una richiesta su come procedere. Mi sono infatti permesso di fare una verifica e mi sembra che il testo dell'emendamento 2.354 sia reiterato praticamente in tutti gli articoli che andiamo a trattare. Poiché con la richiesta di accantonamento del relatore è stata fermata la votazione dell'articolo 1 e immagino anche dell'articolo 2 (se permane la riserva), prima di proseguire ritengo pertanto che ci sia la necessità di sciogliere la riserva sulla proposta della senatrice Guerra. Altrimenti procediamo innanzitutto con la mancanza di un presupposto che invece consentirebbe un po' a tutto il Parlamento di tranquillizzarsi nella sua funzione di controllo e di verifica, e poi perché procederemmo a delle votazioni su articoli, senza mai votare l'articolo finale, per una riserva che è presente. Mi permetto dunque di chiedere al relatore se non convenga fermarsi un attimo, considerato che manca poco all'orario previsto per la chiusura dei lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Calderoli</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg172">Questo consentirebbe al relatore e al Governo di verificare «l'emendamento Guerra» che, secondo me, sta non solo bloccando, ma ha un senso importante rispetto alle funzioni del Parlamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MADIA</note>
+            <note type="role">ministro per la semplificazione e la pubblica amministrazione</note>
+            <u ana="#guest" who="#MadiaMariaAnna" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u89">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg173">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="speaker">CARRARO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CarraroFranco" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u90">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg174">Chiedo anche io di firmare l'emendamento della senatrice Guerra.</seg>
+            </u>
+            <note type="speaker">FORNARO (PD)</note>
+            <u ana="#regular" who="#FornaroFederico" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u91">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg175">Se la collega Bisinella è d'accordo, vorrei aggiungere la mia firma all'emendamento 2.9, così come riformulato.</seg>
+            </u>
+            <note type="speaker">CAMPANELLA (Misto-ILC)</note>
+            <u ana="#regular" who="#CampanellaFrancesco" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u92">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg176">Signor Presidente, con il suo permesso, io e i colleghi Bocchino, Bignami e Casaletto vorremmo apporre la nostra firma all'emendamento della senatrice Guerra.</seg>
+            </u>
+            <note type="speaker">BENCINI (Misto)</note>
+            <u ana="#regular" who="#BenciniAlessandra" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u93">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg177">Signor Presidente, vorrei apporre anch'io la mia firma al suddetto emendamento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u94">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg178">A questo punto abbiamo acquisito i pareri sugli emendamenti all'articolo 2.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg179">Faccio presente al relatore che gli emendamenti della senatrice Guerra pongono una questione generale relativa, come si è inteso, a una procedura rafforzata di verifica parlamentare per l'esercizio della delega. Pertanto, considerato che la seduta terminerà alle ore 20, alla ripresa dei lavori sul disegno di legge sarebbe utile sciogliere questo dilemma che rischia di sospendere la votazione di tutti gli articoli.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u95">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg180">, relatore. Signor Presidente, questo emendamento è stato presentato in Aula e non in Commissione. PRESIDENTE. Adesso ci sarà modo di riflettere. PAGLIARI, relatore. Il merito lo affronteremo, ma mi permetto di dire che è evidente la strumentalità del ragionamento del senatore Volpi. PRESIDENTE. Adesso il senatore Volpi non può replicare. PAGLIARI, relatore. Signor Presidente, posso esprimere la mia opinione? È evidente la strumentalità del ragionamento dell'opposizione, dato che potevamo benissimo andare avanti e accantonare l'emendamento. Era chiaro che non saremmo andati oltre le ore 20, ossia l'orario previsto per la chiusura della seduta odierna, quindi non avremmo finito neanche le votazioni sugli emendamenti riferiti all'articolo 2. Prima della ripresa dei lavori di martedì ci sarà il chiarimento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u96">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg181">La Presidenza auspica che questa vicenda possa trovare chiarimento, visto che viene posta, credo, in tutti gli articoli, ed auspica quindi che il relatore possa formarsi un'opinione da qui a quando torneremo sul tema.</seg>
+            </u>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u97">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg182">Signor Presidente, molti Gruppi presenti in quest'Aula chiedono una riflessione apponendo una firma all'emendamento. Credo che il relatore debba prendere atto che l'80 per cento di questa Assemblea ha apposto la propria firma a tale proposta emendativa. Non è il relatore che fugge o diventa strumentale la richiesta di sospensione: è un invito, credo intelligente, alla sensibilità del relatore, che dovrebbe rappresentare il Parlamento e non il Governo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u98">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg183">, relatore. Signor Presidente, intervengo semplicemente per dire che credo di aver fatto una riflessione oggettiva di un problema che, come ho precisato, verrà affrontato. Se il senatore Volpi crede di tradurre tutte le discussioni in questi termini, ne prendo atto.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u99">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg184">Senatore Pagliari, domani mattina - come poi sentiranno i colleghi rimasti in Aula quando leggeremo l'ordine del giorno - alle ore 9,30 riprenderemo i lavori del provvedimento sulla pubblica amministrazione. Quindi sarebbe forse auspicabile che domani non dovessimo accantonare anche la votazione dell'articolo 2. Il mio ovviamente è un auspicio - non posso fare di più - affinché si possa sciogliere domani mattina e non martedì il tema dell'accantonamento, altrimenti questo rallenterà l' iter dell'attesa riforma, su cui già sono stati presentati numerosi emendamenti. Rinvio il seguito della discussione del disegno di legge in titolo ad altra seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">DI GIORGI (PD)</note>
+            <u ana="#regular" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u100">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg185">Signor Presidente, colleghi, chiedo solo un attimo di pazienza per chi è interessato. Stasera vorrei parlare molto rapidamente di un tema che ancora una volta ci colpisce e colpisce tutti, in particolare le donne; ma credo che debba colpire complessivamente la nostra società. Ultimamente a Firenze è successa una cosa orrenda: è stato ritrovato il corpo di una ragazza, una ex modella, naturalmente massacrata dal suo compagno. Questo omicidio lascia ancora una volta sgomenti, per la particolare crudeltà e le violenze che le donne in genere sono costrette a subire durante la loro vita. Questa ragazza aveva denunciato ed aveva fatto tutto ciò che classicamente si fa e che di fatto non serve a nulla, perché non c'è sufficiente protezione. Perché racconto qui questo dato, che avrete già letto sui giornali? Semplicemente perché credo sia necessario che, da parte nostra, ci sia davvero un tentativo un po' più forte di mettere fine a questo, attraverso una legislazione che sia adeguata. Noi abbiamo fatto qualcosa nel corso di questa legislatura: abbiamo convertito in legge il decreto-legge 14 agosto 2013, n. 93, recante «Disposizioni urgenti in materia di sicurezza e per il contrasto della violenza di genere, nonché in tema di protezione civile e di commissariamento delle province». Un decreto omnibus, perché naturalmente ancora non riusciamo a fare le cose ad hoc. Credo invece che sia necessario cominciare a muoverci davvero su questo tema del femminicidio, con un segnale più significativo, legato a qualcosa di più completo: cultura del rispetto verso le donne, prevenzione e naturalmente educazione alla differenza di genere. Credo che ce la possiamo fare: potremmo essere la legislatura che lo fa. Rispetto a questo, i vari atti che quotidianamente succedono in tutte le parti d'Italia ci devono spingere ad essere veloci. Signor Presidente, credo che sia necessario che il Senato si muova, visto che c'è molta sensibilità da parte di tutti i colleghi. Quindi norme specifiche a tutela delle donne devono diventare realtà. Dicevo che bisogna puntare all'educazione, con azioni rivolte a diffondere tra gli uomini, tra i giovani, tra i ragazzi l'idea del rispetto della donna, influendo in maniera incisiva sui programmi scolastici. Come 7ᵃ Commissione abbiamo parlato di questo in più occasioni: ne abbiamo parlato con il Ministro e vogliamo che anche all'interno del provvedimento «la buona scuola», quando si parla di educazione civica e civile, questo sia un tema forte, un tema fondante, qualcosa che renda la civiltà del nostro Paese un po' più avanzata rispetto a quello che c'è in altre parti d'Europa. Guardate che la quantità di omicidi e di femminicidi nel nostro Paese è veramente insopportabile ormai per tutti ed è insopportabile per un Paese civile. Quindi faccio questa comunicazione soltanto per dire che serve molto di più. Queste donne vengono uccise dopo essere state minacciate: quasi sempre si tratta di una storia di minacce e di violenza. Quindi noi dobbiamo far sì che in questo provvedimento, che spero si possa fare il prima possibile, ci siano anche investimenti veri nella predisposizione di luoghi protetti. Abbiamo bisogno di questo, abbiamo bisogno che le Regioni e tutti gli organi competenti si diano da fare. I Comuni lo stanno facendo per come possono. Bisogna mettere a disposizione luoghi dove queste donne con i loro figli possono avere una salvaguardia reale. Quindi, ci vogliono investimenti, assistenti sociali, attività nei confronti delle Forze di polizia, perché è giusto che l'accoglienza sia di un certo tipo. Naturalmente il discorso include le ASL e tutti coloro che hanno competenza. Noi sappiamo come fare: ce lo diciamo sempre nelle Aule istituzionali e nei luoghi a questo deputati, però poi qualche volta non siamo concreti. Spero che da noi, dai presenti, da coloro che in questa legislatura sono impegnati qualcosa di reale possa venire per i nostri figli, le nostre figlie e per tutti coloro che hanno fiducia ancora in noi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e dei senatori Floris, Liuzzi e Orellana.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MORRA (M5S)</note>
+            <u ana="#regular" who="#MorraNicola" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u101">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg186">Io debbo sottolineare all'Assemblea un problema che pare sia stato risolto in ultimo dall'Esecutivo in merito al DEF, di cui si inizia a trattare, esattamente in merito al fondo per la disabilità. Sappiamo tutti che questo fondo, a seguito di pressioni che associazioni e organismi della società civile hanno promosso, è stato finalmente rifinanziato dopo che era stata paventata l'ipotesi dal deputato Gutgeld, che è l'ispiratore delle politiche economiche dell'Esecutivo Renzi, di procedere a razionalizzazioni della spesa nell'ambito della spesa per le disabilità che neanche i Governi di cosiddetto centrodestra avevano avuto poi il coraggio di portare avanti. Voglio far presente che, in base alle previsioni dell'ISTAT, noi piuttosto che ridurre la spesa per questo fondo dovremmo aumentarla, perché sono sempre di più le famiglie che necessitano di aiuto per accudire persone che hanno problemi cronici. Una società che sia effettivamente solidale non taglia servizi. Mi permetto anche di ribadire che, se questa è un'emergenza nazionale, lo è ancora di più per chi vive nell'Italia meridionale, in quanto le nostre Regioni non offrono purtroppo centri di eccellenza che possano garantire servizi alla persona come ce ne sono in Regioni del Centro-Nord. Tutto questo significa costi che non possono essere semplicemente sostenuti con 250 euro di indennità di accompagnamento e con 500 euro di ulteriore assegno alla persona. Se vogliamo essere una civiltà seria, dobbiamo innanzitutto pensare ai più deboli, ancorché diversi dai normodotati. Pertanto, chiedo al Governo della Repubblica di farsi carico anche di queste esigenze perché sono le persone più deboli che meritano soprattutto più ascolto da una politica miope e che potrebbe iniziare, per esempio, a manifestare generosità operando dei tagli alla spesa pubblica partendo dalla politica stessa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CIAMPOLILLO (M5S)</note>
+            <u ana="#regular" who="#CiampolilloLello" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u102">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg187">Signor Presidente, l'acquedotto pugliese, come puntualmente denunciato dal comitato pugliese «Acqua bene comune», firma un protocollo di intesa con la Gori SpA, gruppo Acea, per avviare un percorso comune di sviluppo di rapporti di partnership. Il tutto avviene con l'avvicinarsi della scadenza della concessione del servizio idrico integrato e la conseguente possibilità di vendita ai privati - avete sentito bene - delle azioni dell'acquedotto pugliese. Ma dove sono finiti i tavoli dell'Intergruppo parlamentare sull'acqua bene comune?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg188">Che fine ha fatto la politica di Nichi Vendola e Michele Emiliano sull'acqua quale bene di tutti i cittadini? E le tante affascinanti narrazioni dei poeti della sinistra contro la logica del profitto su beni essenziali alla vita di ogni persona umana che fine hanno fatto? Ormai il morbo di Renzi ha invaso ogni angolo della vecchia politica di questi giovani vecchi, che con le loro bugie e la loro ipocrisia stanno demolendo ciò che resta del nostro Paese, ossia almeno la speranza di un futuro più equo e libero.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg189">Per poter consentire ad ogni cittadino di vivere una vita degna di essere vissuta, beni come l'acqua devono essere di libero accesso per tutti e non possono essere oggetto di squallide speculazioni da parte dei soliti noti gruppi imprenditoriali amici dei nostri governanti da strapazzo. In questa prospettiva sarebbe utile comprendere come Acquedotto pugliese abbia scelto la Gori SpA. Quello stesso Acquedotto pugliese che con i soldi pubblici ha fatto in questi anni assunzioni senza concorso e speso i nostri soldi senza alcun controllo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg190">Questa, signor Presidente, è l'ennesima vergogna sull'acqua che il Movimento 5 Stelle intende denunciare. Il Movimento 5 Stelle è l'unica forza politica che ha avuto rispetto della volontà popolare, espressa con un referendum nel 2011, e ha presentato il disegno di legge n. 876, a mia prima firma, allo stato giacente nei cassetti polverosi della Commissione ambiente. Il Movimento 5 Stelle è l'unica forza che ha avuto il coraggio di chiedere veramente e senza finzioni la ripubblicizzazione dell'Acquedotto pugliese che tutti i pugliesi attendono.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PUGLIA (M5S)</note>
+            <u ana="#regular" who="#PugliaSergio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u103">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg191">Signor Presidente, la multinazionale americana Mc Donald's in uno spot pubblicitario attacca la nostra cultura nelle sue basi. Una delle tante basi della nostra cultura è l'enogastronomia. E la pizza è il simbolo mondiale dell'Italia, che si fa sentire ovunque e in ogni tempo. La pizza è tradizione ed eccellenza. Non possiamo consentire che la multinazionale Mc Donald's ci calpesti sfacciatamente. Ancora più umiliante è che le stendiamo anche tappeti rossi per farla partecipare all'Expo. Questa multinazionale avrà addirittura un suo stand presso l'Expo di Milano. E ricordo, prima a me stesso, che l'Expo sarebbe nato per offrire a tutti la possibilità di conoscere e assaggiare i migliori prodotti del mondo e scoprire le eccellenze della tradizione agroalimentare e gastronomica di ogni Paese. Quindi, Mc Donald's all'Expo che ci fa? Intanto, come Movimento 5 Stelle abbiamo chiesto ad Expo di escludere Mc Donald's dagli sponsor ufficiali. Come ricordava il nostro vice presidente della Camera Luigi Di Maio, Expo è stato non soltanto un tangentificio, ma, a questo punto, diventa un evento per danneggiare le nostre tradizioni enogastronomiche.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Nugnes.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg192">Siamo lieti che l'Associazione verace pizza napoletana, per bocca del suo vice presidente Massimo Di Porzio, ci faccia sapere che il loro ufficio legale sta valutando le azioni da intraprendere per mettere fine al vergognoso attacco ad un simbolo della dieta mediterranea. Benché siano inconfutabili qualità e gradimento di cui la pizza napoletana gode, è ignobile comparare due prodotti tanti diversi solo per sconsigliare la pizzeria.</seg>
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg193">È chiaro che il colosso americano tenta di screditare il suo maggior competitor. Non è la prima volta che Mc Donald's attacca le nostre tradizioni. E l'Associazione ha anche fatto sapere che l'eventuale risarcimento servirà per finanziare, giustamente, corsi di educazione alimentare per i bambini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u104">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg194">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di giovedì 16 aprile 2015</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.u105">
+               <seg xml:id="ParlaMint-IT_2015-04-15-LEG17-Sed-431.seg195">Il Senato tornerà a riunirsi in seduta pubblica domani, giovedì 16 aprile, alle ore 9,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 20).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

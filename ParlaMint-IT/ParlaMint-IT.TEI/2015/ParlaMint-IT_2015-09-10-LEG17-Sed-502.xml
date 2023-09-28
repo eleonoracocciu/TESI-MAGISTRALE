@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 502 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 502 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 502, giorno (2015-09-10)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 502, Day (2015-09-10)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="502-upper">502 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="131" unit="speeches" xml:lang="it">131 discorsi</measure>
+            <measure quantity="131" unit="speeches" xml:lang="en">131 speeches</measure>
+            <measure quantity="13000" unit="words" xml:lang="it">13.000 parole</measure>
+            <measure quantity="13000" unit="words" xml:lang="en">13,000 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0939350</idno>
+               <date when="2015-09-10">10.09.2015</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="15"/>
+               <tagUsage gi="head" occurs="8"/>
+               <tagUsage gi="note" occurs="405"/>
+               <tagUsage gi="seg" occurs="131"/>
+               <tagUsage gi="u" occurs="75"/>
+               <tagUsage gi="vocal" occurs="2"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="incident" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="13"/>
+               <tagUsage gi="desc" occurs="17"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2015-09-10">10.09.2015</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente GRASSO</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u1">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg1">La seduta è aperta (ore 9,36). Si dia lettura del processo verbale. VOLPI, segretario, dà lettura del processo verbale della seduta antimeridiana del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg2">Signor Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u3">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u4">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg4">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u5">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg5">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg6">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 9,40).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Commemorazione di Luigi De Sena</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u6">
+               <incident type="action">
+                  <desc>Si leva in piedi e con lui tutta l'Assemblea.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg7">Onorevoli colleghi, lo scorso 31 agosto è venuto a mancare l'ex senatore Luigi De Sena, componente di quest'Assemblea nella XVI legislatura.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg8">Nato a Nola, entrò in Polizia nel 1968 con incarichi direttivi presso la squadra mobile di Treviso, per poi passare alla questura di Roma dove ha guidato, a partire dal 1981, la squadra mobile della Capitale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg9">Dal 1985 al 1992 svolse la propria attività professionale presso il SISDE come direttore dell'unità centrale informativa, per collaborare successivamente con la Criminalpol, coordinando diverse operazioni antimafia in Sicilia e occupandosi del progetto di sicurezza per il Giubileo del 2000.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg10">Nel 2000 divenne direttore centrale dei servizi tecnico-logistici del Dipartimento della pubblica sicurezza del Ministero dell'interno, per poi essere nominato, nel dicembre 2003, vice capo della Polizia di Stato e direttore centrale della Criminalpol. Ricoprì tali incarichi fino al 2005, quando, all'indomani dell'omicidio del vice presidente del Consiglio regionale della Calabria Francesco Fortugno, venne nominato prefetto e assegnato a Reggio Calabria, con il compito di coordinarne le attività di sicurezza pubblica e di contrasto alla criminalità organizzata.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg11">Eletto senatore nel 2008, si è distinto nel corso della legislatura per l'impegno profuso come Vice Presidente della Commissione parlamentare antimafia, nonché come componente delle Commissioni affari costituzionali e industria. Durante il suo mandato ha messo al servizio dell'attività legislativa la competenza acquisita nei precedenti incarichi istituzionali, fornendo un pregevole contributo ai dibattiti delle Commissioni e dell'Assemblea sulle tematiche relative alla sicurezza pubblica e al contrasto della criminalità.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg12">Con la morte di Luigi De Sena, scompare dunque un servitore dello Stato, sempre in prima linea nel contrasto alla criminalità organizzata, che, anche in virtù delle eccellenti qualità investigative e di una notevole esperienza maturata sul campo, ha rappresentato un prezioso punto di riferimento per le istituzioni repubblicane. La profonda conoscenza del fenomeno mafioso e degli strumenti per combatterlo, il rigore morale, insieme al senso dell'etica pubblica e della legalità hanno costantemente caratterizzato il suo operato nelle vesti di dirigente di Polizia, di prefetto e, da ultimo, nell'esercizio del mandato parlamentare.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg13">La sua limpida coerenza è sempre stata il senso dello Stato, coscienza e sentimento che venivano prima e superavano la stessa appartenenza politica e la logica delle contingenze o delle mediazioni, poiché per lui era proprio il senso dello Stato l'unico punto di equilibrio accettabile.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg14">Nel rinnovare il sentimento di affettuosa vicinanza alla moglie e alla famiglia, invito l'Assemblea ad osservare un minuto di silenzio e di raccoglimento.</seg>
+               <incident type="sound">
+                  <desc>L'Assemblea osserva un minuto di silenzio</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg15">Riprendiamo la seduta, rinnovando ancora una volta il sentimento di vicinanza ai familiari.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">*ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg16">Signor Presidente, mi permetta innanzitutto di salutare con affetto e con amicizia la signora De Sena, i figli di Luigi e i parenti che oggi con noi ricordano la scomparsa di un uomo che ha avuto una lunga e ricca vita pubblica, una vita pubblica che, assieme ai numerosi incarichi di responsabilità che ha ricoperto, dicono molto del suo duro impegno professionale e dei suoi ripetuti successi. Spesso accade, però, che il curriculum non riveli tutto delle persone. Anche questa volta è così, non bastando il curriculum ad illustrare una personalità con un'umanità molto complessa e profonda e a dirci come Luigi De Sena veramente fosse, con tutta la sua sensibilità, la sua morale e i suoi ideali. Il suo curriculum vitae illustra il percorso di un vero servitore dello Stato, come ricordava adesso il presidente Grasso, e ci dice anche che ha svolto il suo lavoro in un modo non ordinario, non banale, non di routine, ma con un ingegno e un'abnegazione rari in un Paese come il nostro, purtroppo tuttora profondamente e gravemente ammalato di tran tran burocratico. La carriera di De Sena è stata densa di avanzamenti e di traguardi raggiunti. Il suo lavoro lo ha portato ai vertici più alti della Polizia di Stato, sino alla prefettura di Reggio Calabria. È stato proprio l'insieme delle sue qualità professionali e delle doti di saggezza e di equilibrio con cui ha combattuto la mafia e ha esercitato le sue responsabilità di prefetto nella difficilissima realtà calabrese che lo ha portato in Parlamento, per scelta felice del Partito Democratico. In Calabria De Sena ha rappresentato con coerenza e serietà lo Stato, con tutti i sacrifici e i rischi che questa missione comportava in una terra tanto difficile. Uomo di Stato - come lei ha ricordato, presidente Grasso - con un tratto personale e una profondità culturale propri di un gentiluomo napoletano, Luigi era un uomo sereno, allegro, molto sicuro delle sue idee, ma nello stesso tempo era umanamente malinconico, pensieroso, ricco di memorie e di ricordi. Intellettuale e aristocratico nella visione politica, aveva contemporaneamente anche un animo popolare e una grandissima sensibilità sociale. Insomma, Luigi era un vero figlio di quella straordinaria borghesia meridionale che per centocinquant'anni di storia unitaria tanto ha dato alla nostra Patria in termini di classe dirigente, di finezza di pensiero e di solidità culturale. Chi sia stato Luigi De Sena, quanto grandi siano stati l'affetto e la stima di chi l'ha conosciuto era palpabile nel pomeriggio in cui si è celebrata, nella sua parrocchia, la cerimonia funebre. Raramente ho visto una così sincera partecipazione, tanta generale e vasta commozione, tanto rimpianto sincero di colleghi, amici, della sua famiglia, dei tanti parenti con i quali, numerosi, a lui piaceva molto trascorrere ad Amalfi il poco tempo del suo riposo. Luigi De Sena non aveva granché del cliché tradizionale del funzionario di Polizia. Come altri suoi colleghi, come gli uomini migliori della Polizia di Stato, dei Carabinieri, della Guardia di finanza, anche Luigi De Sena era profondamente innamorato della sua professione. Ma la interpretava con uno stile e con una cultura della sicurezza - espressione che lui usava molto spesso - tutta sua. Io ero amico personale, oltre che collega di Luigi De Sena da molti anni, e parlavo con lui molto spesso e so che credeva in modo assolutamente prioritario alla funzione sociale dello Stato. Riteneva che fosse proprio una buona politica sociale a costituire il migliore, più efficace e più sollecito metodo di lotta alla criminalità e a ogni altra forma di violazione della legalità. In una parola, Luigi De Sena era un poliziotto vigile, attento, severo, che aveva ben chiaro come, a difesa della legge, l'arma più efficace dello Stato fosse la prevenzione. De Sena credeva veramente, con il cuore, che la Polizia dovesse agire non in contrapposizione ai cittadini, ma al loro servizio. Se oggi fosse qui e se noi potessimo chiedergli di aiutarci a capire come fronteggiare il gigantesco fenomeno delle migrazioni di massa, Luigi ci scongiurerebbe di non ridurlo ad una questione di polizia, ad un fatto di ordine pubblico. Lui, poliziotto democratico sino in fondo all'anima, ci spiegherebbe il valore civile e politico per l'Italia e per l'Europa di una buona politica di solidarietà e di accoglienza; ci direbbe della necessità di aiutare i rifugiati che scappano dalla violenza; ci ricorderebbe la necessità di prevenire le guerre; ci metterebbe in guardia dai pericoli del debito pubblico delle più povere tra le Nazioni africane; ci direbbe di investire risorse nella scuola e nell'educazione civile delle persone che l'Italia è in grado di accogliere. Questa era, per Luigi De Sena, la cifra della cultura della sicurezza. Faccio un'ultima notazione. Pur essendo un uomo di valore e di profonda e vasta esperienza, pur essendo una persona molto colta e matura, Luigi De Sena, appena entrato in Senato, mostrò di avere molto chiaro di essere stato chiamato a esercitare un alto ruolo per lui assolutamente nuovo. Da gran signore qual era, faceva il senatore con grande modestia e grande dignità. Come tutte le grandi personalità, voleva ascoltare, era curioso di conoscere, di osservare. Quella dell'ascolto è una dote rara nella politica del nostro tempo. Presidente, oggi voglio ricordarlo non soltanto con il rispetto dovuto a chi è stato senatore, a chi ha aiutato il Senato a svolgere per un'intera legislatura il suo ruolo, ma lo voglio ricordare con amicizia e con affetto. A nome di tutto il Gruppo del Partito Democratico voglio anche ringraziarlo, con il cuore, per l'insegnamento di vita che ci ha lasciato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">D'AMBROSIO LETTIERI (CoR)</note>
+            <u ana="#regular" who="#DAmbrosioLettieriLuigi" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg17">Signor Presidente, colleghe e colleghi, considero un privilegio tributare l'estremo saluto a Gigi De Sena. Farlo qui, in quest'Aula, ne ravviva il ricordo: è come se lo vedessi ancora lì, seduto di fronte a me, nell'esercizio delle sue funzioni. Per quel che mi riguarda, infatti, la partecipazione ai lavori del Senato si arricchì della sua frequentazione, mediata dalla presenza di comuni amici, con i quali spesso avevamo l'abitudine di intrattenerci, a margine dell'attività parlamentare. Come è stato ricordato da lei, signor Presidente, l'autorevolezza e il prestigio dei ruoli ricoperti ha disvelato la grandezza e lo spessore morale di una persona, che di quegli incarichi e di quel prestigioso percorso professionale non fece mai un uso diverso da quello di un civil servant, di un servitore dello Stato, solerte e tenace nell'azione, pacato nei modi, rassicurante nel pensiero. Ha detto bene il presidente Zanda: era umanamente malinconico, ma di quella malinconia che non apriva la porta alla tristezza. La sua era una malinconia rassicurante, una modalità pacata di rapportarsi ai problemi. Credo che la testimonianza più bella del suo prestigioso percorso professionale, dopo aver svolto l'attività nell'ambito della Polizia di Stato, salendone tutti i gradini, come direttore centrale della Criminalpol e come vice capo della Polizia, fu l'incarico che l'allora ministro Pisanu gli affidò, in Calabria, come prefetto di Reggio. In un suo intervento, in questa Assemblea, Luigi De Sena disse: «L'incarico di vice capo della Polizia» lo lasciai «per assumere le funzioni di prefetto di Reggio Calabria, pochi giorni dopo l'inquietante omicidio del presidente del Consiglio regionale della Calabria, onorevole Francesco Fortugno. Non ebbi alcuna esitazione» ad accettare quell'incarico, tanto che «dopo poche ore ero in quel territorio. Un territorio ossessionato da una mafia violenta ed implacabile, potente, impermeabile e sanguinosa, ma anche un territorio la cui popolazione, nella maggior parte costituita da persone per bene, ma forse da troppo tempo maltrattate e quindi ormai incredule, mi poneva una sola» irrinunciabile «richiesta: la libertà di essere, la libertà di lavorare». Credo che Luigi De Sena abbia servito lo Stato nel senso più autentico del termine, nel momento in cui si è levato da quel territorio, che non era la sua terra natia, ma era la terra che ha servito, un unanime senso di cordoglio e di dolore per la sua scomparsa, perché in quella Regione, Luigi De Sena, con tenacia e determinazione, ma anche con umiltà e pacatezza, riportò lo Stato, la credibilità e la fiducia nelle istituzioni e riaccese la fiammella della speranza in quella popolazione, che era stata per così lungo tempo privata della cultura della legalità. Condivido pienamente le puntuali parole del presidente Zanda riferite alla qualità del suo impegno dentro e fuori dal Senato, allorquando ne ricorda la valenza che andò ben oltre l'attività di contrasto ad ogni forma di criminalità, così come si evince non solo dal suo prestigioso curriculum, ma anche nei suoi discorsi e nei suoi impegni svolti, sia in quest'Aula che nella Commissione antimafia, sulla sicurezza pubblica, sui temi dell'usura e dell'immigrazione clandestina. Credo che Luigi De Sena offrì contributi preziosi per individuare e circoscrivere gli antidoti migliori per consentire al nostro Paese di fare un sostanziale passo in avanti verso la cultura della legalità e una più piena declinazione dei principi della democrazia. Luigi De Sena è andato via, ma lascia a tutti noi che abbiamo avuto l'onore e il privilegio di conoscerlo e al Paese intero l'esempio di una vita spesa al servizio del Paese e il modo migliore per onorarne la memoria è quello di non dimenticare il senso del suo impegno. La lezione di vita che ci lascia anche come legislatori è quella di proseguirne, per quel che sapremo, il suo impegno in tutte le sedi nelle quali esso potrà trasformarsi in operosa attività per la cultura della democrazia. Con questo pensiero, a nome dei Conservatori e Riformisti, formulo alla famiglia il senso profondo del cordoglio e della nostra vicinanza, che estendo volentieri agli amici del Partito Democratico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">COMPAGNA (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u9">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg18">Signor Presidente, anche i senatori di Area Popolare ricordano con grande affetto la figura del senatore De Sena, che abbiamo conosciuto e frequentato nella scorsa legislatura. Per me era qualcosa più di un amico, quasi un fratello maggiore, benché proveniente da una carriera del tipo di quella che è stata ricordata: prestigiosissima, motivo di onore e di vanto per l'amministrazione dell'interno che aveva servito con tanta dedizione. Luigi De Sena era anche un uomo straordinariamente colto: con me amava conversare dei classici della questione meridionale. Aveva letto gli scritti di mio padre, di Manlio Rossi Doria, di Pasquale Saraceno. Siccome si è detto del suo senso dello Stato, nella storia della questione meridionale De Sena era uno di quelli che rubricava come termine di riferimento irrinunciabile Giustino Fortunato e la sua opera «Il Mezzogiorno e lo Stato italiano». Come nelle ultime pagine della «Storia del Regno di Napoli» di Benedetto Croce, il "Regno sabaudo" era stato un momento di grande passione, di grande generosità per l' élite civile del Mezzogiorno. Pertanto, De Sena era affezionatissimo alla statualità. Non gli sfuggiva mai, come capita a noi di lasciarci sfuggire: prima la società civile e poi lo Stato. No! Per De Sena, lo Stato di Fortunato veniva prima, ed era molto più importante della società civile di Gramsci, con tutto il rispetto che si deve a una esperienza civile, politica ed intellettuale come quella di Gramsci. Con De Sena, con quella composta ironia, ci facevamo compagnia in Commissione antimafia dove ebbi l'onore negli ultimi due anni di subentrare al collega Gentile chiamato al Governo. Ci sedevamo vicini io e De Sena, scambiando commenti molto garbati e malinconici. Egli diceva sempre che antimafia era una espressione che non esisteva, perché non è che il codice dovesse essere contro la mafia, contro la corruzione e contro la criminalità. Poi, siccome alcune sedute si svolgevano di sera, ci capitava di parlare di calcio e di parlare del Napoli, perché le sedute si svolgevano in contemporanea con qualche partita. In quella Commissione, ironia delle vicende della vita, De Sena aveva ritrovato Pisanu, quello che era stato il suo Ministro. De Sena fu di Pisanu un esemplare Vice Presidente. Tutt'altro che appariscente, interpretava il suo ruolo di Vice Presidente di una Commissione parlamentare nel modo più degno e nel modo meno narcisistico. Gli piaceva presiedere per dare tempo a Pisanu di fare una telefonata e esaminare un documento. Come ha ricordato con moltissimo affetto il collega Zanda, De Sena era venuto in Parlamento con molti titoli di competenza, ma fin dal primo giorno aveva capito che questa non è (o perlomeno non é soprattutto) Aula di competenza, ma è Aula di rappresentanza. Per essere liberi bisogna amare la libertà di chi la pensa diversamente. Bisogna sapere ascoltare. Bisogna avere quel senso dell'ironia un po' malinconica che c'è nelle nostre tradizioni. Visto che ho citato Giustino Fortunato, credo che a De Sena farebbe piacere essere ricordato con il senso dell'ironia, apparentemente malinconico, ma forte di una sua serenità: quello di Benedetto Croce e quello di Eduardo De Filippo, un autore che amava tantissimo. Di qui la nostra partecipazione sentita al lutto dei familiari e il nostro sforzo, per quanto possibile, di compostezza di comportamenti per onorarne la memoria.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg19">Signor Presidente, io ho conosciuto Luigi quando eravamo adolescenti. Il nostro rapporto si è consolidato nel corso degli anni, anche quando riuscivamo solo a sentirci per telefono, vivendo in città diverse per i reciproci impegni professionali. Quando ieri il mio Capigruppo mi ha chiesto di commemorare Luigi, ho avuto un moto di fastidio e quasi di rifiuto, perché non avrei mai immaginato di dover commemorare Luigi. Poi, però, ho accettato volentieri, perché spero di essere in grado di tratteggiarne, in pochi minuti, i tratti salienti, facilitato dal rapporto di amicizia, ma anche da una profonda conoscenza del suo carattere riflessivo, attento, anche ai particolari, e che qualcuno, non attento, scambiava per supponenza. Luigi è stato un uomo dello Stato, con grandi qualità professionali, che sono state ricordate, e rappresentava certamente una figura importante, una risorsa per le istituzioni democratiche, tanto da affidargli, per citare solo due esempi, il coordinamento del progetto di sicurezza del Giubileo del 2000, a cui lui teneva molto, e successivamente, dopo l'omicidio di Francesco Fortugno, l'incarico di prefetto di Reggio Calabria. Allo stesso tempo, gli è stato affidato il coordinamento di tutte le attività di sicurezza pubblica e di contrasto alla 'ndrangheta e la responsabilità dell'attuazione del programma straordinario per la Calabria. Grande investigatore, come ha ricordato il presidente Grasso, ma anche attento osservatore dei mutamenti sociali, in grado comunque di suggerire interventi appropriati per una corretta convivenza civile, in un quadro di massimo rigore che gli ha consentito di riaffermare l'autorità di governo in un territorio difficile per la presenza di una forte, radicata criminalità organizzata. Luigi era sempre disponibile al dialogo; amava discutere e confrontare le proprie idee con pacatezza, in una spasmodica ricerca della migliore soluzione per l'affermazione del principio di legalità che ha sempre perseguito. Ricordo le volte, nel corso della XVI legislatura, in cui mi indicava possibili correttivi, sia a testi del Governo che rappresentavo, sia a testi delle opposizioni, anche se del suo Gruppo di appartenenza, senza alcuna volontà compromissoria, ma solo perché la norma fosse funzionale alla sua ratio e perché potesse dispiegare appieno i suoi effetti. Le sue indicazioni sfociavano in confronti che si protraevano anche nei giorni successivi, perché non erano finalizzate ad imporre il proprio punto di vista, ma piuttosto si rivelavano come strumenti di ricerca. Certo, tra noi era più facile, ma ho assistito a discussioni anche con altri colleghi improntate allo stesso metodo. Aveva idee ben precise e radicate sulle istituzioni repubblicane e le esplicitava senza tenere conto della compatibilità o della convenienza politica. Basti pensare a quando, nel 2010, presentò l'emendamento che così recitava: «Il Presidente della Repubblica, durante il suo mandato, non può essere perseguito per violazione della legge penale»; o a quando presentò la proposta di legge per l'introduzione del reddito minimo come strumento di controllo della 'ndrangheta. Quel reddito minimo a cui oggi il Movimento 5 Stelle si aggrappa, senza ricordarne l'origine, ovvero chi ha avuto per primo l'idea in questo Parlamento, in quest'Aula, presentando una specifica proposta di legge. Luigi per carattere tendeva all'approfondimento di qualsiasi aspetto della vita sociale. Presidente Grasso, io ricordo anche un altro episodio che riguarda la nostra vita, quando insieme con Luigi ci siamo trovati a Palermo e siamo andati a pranzo con Giovanni Falcone. Giovanni e Luigi erano molto simili, per quella ricerca di perfezionamento della norma indipendentemente dal fatto che fosse stata proposta dal Gruppo di appartenenza o da un Gruppo avversario; l'importante era che la norma avesse una sua funzionalità. Questo aspetto ci legava molto, perché da ragazzi abbiamo sempre ragionato sul fatto che lo Stato è qualcosa in cui dobbiamo credere. E quando Luigi entrò in Polizia lo desiderava molto. Aveva scelto la sua attività e, dal momento che il fratello del padre era il Capo di Stato maggiore dell'Arma dei carabinieri, aveva il terrore che qualcuno potesse pensare che era un raccomandato. Luigi ha messo tutta la sua vita a disposizione dello Stato in quelle forme di attività che credeva utili per la lotta alla criminalità: una lotta che si basava sul rispetto delle garanzie costituzionali e da attuarsi attraverso la vera ricerca di strumenti che possano creare consenso nell'opinione pubblica. È con questo spirito che, ricordando anche il suo sorriso, abbraccio i suoi familiari - dai figli, alla moglie, ai fratelli - insieme a tutto il Gruppo di Forza Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <note>PRESIDENTE. Ha chiesto di intervenire il rappresentante del Governo, vice ministro Bubbico. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">BUBBICO</note>
+            <note type="role">vice ministro dell'interno</note>
+            <u ana="#regular" who="#BubbicoFilippo" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u11">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg20">Signor Presidente, intervengo a nome del Governo per rendere omaggio a Luigi De Sena, che è stato un grande servitore dello Stato, e per esprimere vicinanza alla sua famiglia.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg21">I vari interventi svolti hanno ricordato la figura di quest'uomo, segnalandone l'alta competenza, il senso del dovere e l'efficacia nella gestione degli incarichi che gli sono stati attribuiti, da vice capo della Polizia a prefetto antimafia a Reggio Calabria.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg22">Luigi De Sena è stato un uomo straordinario, che ha saputo continuamente esprimere grande competenza, grande sensibilità e grande umanità. È stato portatore di una visione alta della politica e delle funzioni pubbliche.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg23">Ho avuto la fortuna di conoscerlo e di frequentarlo e mi ritrovo in tutto quanto è stato detto dai colleghi in questa circostanza. Luigi è stato un grande uomo, che ha saputo sempre distinguere la funzione di rappresentanza di una parte politica dalla funzione di tutela e di difesa degli interessi generali. Non è mai stato un uomo di parte. Mi sono giovato spesso dei suoi consigli e delle sue valutazioni nella breve e comune esperienza in Commissione industria.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg24">Per questo motivo, voglio testimoniare alla famiglia tutto l'affetto e l'ammirazione, tributando un riconoscimento all'uomo e al servitore dello Stato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg25">PRESIDENTE. Nel rinnovare i sentimenti di vicinanza e di cordoglio alla famiglia da parte di tutta l'Assemblea, sospendo brevemente la seduta. (La seduta, sospesa alle ore 10,18, è ripresa alle ore 10,27).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla seduta di ieri della Giunta delle elezioni e delle immunità parlamentari</head>
+            <note type="speaker">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg26">Signor Presidente, ho il dovere di segnalarle quanto accaduto ieri sera nella seduta della Giunta delle elezioni e delle immunità parlamentari. Si tratta di un fatto gravissimo, che mette in discussione la possibilità di un libero esercizio dell'azione parlamentare da parte dei colleghi, cioè di noi parlamentari e membri di quest'Assemblea. Durante la trattazione delle questioni riguardanti il collega Bilardi, di cui penso si parlerà prossimamente nella seduta già programmata riguardante l'autorizzazione all'arresto del collega su richiesta del tribunale competente, è avvenuto un gravissimo episodio di intimidazione da parte del collega Giarrusso nei confronti della collega Fucksia. Avendo la collega Fucksia manifestato, durante la relazione della collega Pezzopane, dissenso esplicito ed evidente (e nessun intervento successivo può modificare quello che è stato visto e rilevato dai membri della Giunta durante la seduta), il collega Giarrusso si è alzato dal suo banco, è andato dalla collega Fucksia e, con azione intimidatoria, ha cercato di modificare le sue opinioni circa la questione riguardante il collega Bilardi. Ora, noi siamo chiamati ad esprimerci in particolare su questioni di grande delicatezza, come la privazione della libertà dei colleghi (sebbene su richiesta della magistratura). Siamo chiamati a decisioni delicatissime, che non possono essere influenzate né dall'esterno né dall'interno del Senato. Che il collega Giarrusso si avvicini alla collega Fucksia, la quale manifesta dissenso su alcune questioni, e, intimidendola a voce alta, le dica «vieni fuori», volendo modificare il suo atteggiamento, è un fatto gravissimo che non posso sottacere e che sottopongo alla sua attenzione, perché questa azione intimidatoria ha modificato i rapporti all'interno della Giunta sulla decisione prima richiamata. Signor Presidente, se questo fatto accade su questioni di rilevanza politica (è già accaduto in quest'Aula: ci sono state azioni intimidatorie di impedimento dell'esercizio della funzione parlamentare, in particolare per il voto di fiducia, come lei ricorderà) può essere anche, in qualche misura, accettato; ma non può essere accettato in una funzione delicata come quella svolta dai membri della Giunta. Mi permetto di sottoporre alla sua attenzione tale questione perché è evidente che c'è bisogno di una messa a punto dei comportamenti ed eventualmente non è da trascurare la competenza per azioni sanzionatorie che devono essere prese in considerazione o da parte della istituzione parlamentare che lei rappresenta al massimo livello oppure da parte della magistratura esterna.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u13">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg27">La Presidenza prende atto di quanto lei ha rappresentato e chiederà una relazione su questi fatti al Presidente della Giunta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg28">Chi vuole prendere la parola lo può fare, tenendo però conto che aprirei un'eventuale discussione e un dibattito sulla relazione che il Presidente della Giunta farà alla Presidenza. Questa è la mia intenzione, per stigmatizzare i fatti. Per me, come Presidente, la relazione è la base da cui partire. Chi vuole intervenire può farlo, chiaramente, ma tenendo presente quanto ho già manifestato come intenzione circa la procedura da seguire.</seg>
+            </u>
+            <note type="speaker">GIOVANARDI (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u14">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg29">Signor Presidente, vista la gravità dell'accaduto, mi limito a confermare quanto segnalato dal senatore Buemi, visto che siamo stati tutti testimoni oculari di questo episodio (con l'aggravante che parlava un autorevole collega, Nico D'Ascola, da par suo): in maniera continuativa, il collega Giarrusso impediva alla senatrice Fucksia anche di sentire ciò che si diceva, alzando la voce fino a minacciarla dicendo «vieni fuori». Abbiamo sollevato subito il problema, non è che ce ne siamo accorti a posteriori, quando la senatrice ha cambiato il voto; abbiamo protestato subito chiedendo al Presidente di intervenire perché non è possibile che un membro della Giunta, mentre parla un altro collega, venga intimidito in questa maniera. Immagino che, se ciò accadesse in un tribunale, porterebbe all'arresto di chi compie questa azione intimidatoria. Intervengo, quindi, semplicemente per dire che ciò che il senatore Buemi denuncia è esattamente quello che è accaduto, fino al cambiamento dell'atteggiamento di voto, dopo una riunione drammatica. Mi risulta che, dopo le dichiarazioni di voto, ognuno si esprime liberamente rispetto agli orientamenti, tra l'altro su una questione che, quando verrà esaminata in Aula, interpellerà ognuno di noi. Stiamo, infatti, parlando di una questione che può coinvolgere ogni senatore, cioè della rendicontazione di quello che viene dato ai collaboratori: secondo l'interpretazione della collega Pezzopane, quei 2000 euro rendicontati potrebbero essere un'ingente somma pubblica su cui può essere chiesto l'arresto, perché su quello ogni senatore potrebbe fare del peculato. PRESIDENTE. Il merito della questione lo lasciamo, poi, al dibattito successivo.</seg>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg30">Signor Presidente, raccogliendo il suo invito, insieme alla decisione, che io ritengo opportuna di chiedere una relazione al Presidente della Giunta sulla base della quale poi esprimerci in modo più ampio, vorrei confermare quanto detto dai colleghi Buemi e Giovanardi. Aggiungo che un organo che svolge una funzione così delicata e particolare come la Giunta per le elezioni e le immunità deve essere libero anche da qualsiasi apparenza di intimidazione e coercizione del voto. È pertanto opportuno un approfondimento dell'increscioso episodio.</seg>
+            </u>
+            <note type="speaker">BONFRISCO (CoR)</note>
+            <u ana="#regular" who="#BonfriscoAnnaCinzia" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u16">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg31">Signor Presidente, non posso confermare quanto detto, perché non ero presente, in quanto il mio Gruppo non è rappresentato in quella Giunta. Sono qua ad apprezzare con il mio intervento la sua decisione di far svolgere al Presidente della Giunta un'ampia e particolareggiata relazione in Aula, che metta in evidenza quanto realmente accaduto e anche lo spirito di una Giunta delle elezioni che, oltre il merito delle questioni e oltre la forma da rispettare, deve mantenere una propria serenità di giudizio, perché questo è garanzia delle istituzioni. Se è accaduto un fatto così grave - e attendiamo di averne la conferma dalla relazione del Presidente - sono certa che lei poi vorrà affrontare il modo in cui le istituzioni democratiche possono rispondervi.</seg>
+            </u>
+            <note type="speaker">CASTALDI (M5S)</note>
+            <u ana="#regular" who="#CastaldiGianluca" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg32">Signor Presidente, desidero intervenire brevemente, convinto che il senatore Giarrusso non abbia bisogno della difesa del Presidente del Gruppo Movimento 5 Stelle, solo per dire che mi fa molto piacere il modo in cui lei ha recepito questa situazione. Voglio solo far notare che forse certe accuse vengono da chi è abituato a tali pratiche. Noi siamo cittadini semplici e chi ci ascolta e ci osserva sa come ci comportiamo; quindi respingo tutto al mittente. Fa piacere anche a noi che lei farà attenzione alla relazione, perché probabilmente quell'accusa verrà ribaltata. PRESIDENTE. Va bene, ma non creiamo comunque anticipazioni.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (1963) Ratifica ed esecuzione dell'Accordo di associazione tra l'Unione europea e la Comunità europea dell'energia atomica e i loro Stati membri, da una parte, e l'Ucraina, dall'altra, fatto a Bruxelles il 27 giugno 2014</note>
+            <note type="time">10,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45751.htm</note>
+            <note type="time">(ore 10,36)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u18">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg33">L'ordine del giorno reca la discussione del disegno di legge n. 1963, già approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg34">Il relatore, senatore Verducci, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg35">Pertanto, ha facoltà di parlare il relatore.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg36">(ore 10,36)</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+            <note type="time">09,36</note>
+            <note type="speaker">VERDUCCI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#VerducciFrancesco" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u19">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg37">Signor Presidente, rappresentante del Governo, colleghi, l'oggetto che abbiamo di fronte è la ratifica del disegno di legge, già approvato dalla Camera dei deputati, che riguarda l'accordo di associazione del giugno 2014 tra l'Unione europea, i suoi Stati membri, e l'Ucraina.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg38">Sappiamo che l'Ucraina è uno dei Paesi chiave del partenariato orientale e che quest'accordo di associazione ha un significativo rilievo nel percorso di avvicinamento di questi Paesi all'Unione europea. Questi accordi di associazione sono strumenti fondamentali, che consentono di superare un approccio minimale, di mera cooperazione, puntando invece ad un graduale rapporto di associazione politica e d'integrazione economica.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg39">Quest'accordo rientra in un contesto assai difficile, dai risvolti drammatici: quello della crisi dei rapporti fra l'Unione europea e la Federazione Russa, che è assolutamente necessario seguire con grande attenzione. Dobbiamo fare pressione perché si compia ogni sforzo per la ripresa del dialogo e del confronto politico con Mosca, con l'obiettivo di superare le conflittualità e la rottura di quell'ordine internazionale che è stato segnato dai fatti di Crimea e che, ancora oggi, è segnato da una gravissima instabilità nella regione del Donbass.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg40">Voglio anche ricordare un aspetto certamente importante nei nostri lavori: la Commissione esteri del Senato ha recentemente dedicato grande attenzione proprio al tema del partenariato orientale, approvando un documento, un'apposita risoluzione, sulla nuova politica europea di vicinato. La politica europea di vicinato è un documento dell'Unione di grande importanza, che è soggetto ad una consultazione. La nostra Commissione esteri, su input e volontà del presidente Casini, nella risoluzione approvata, ha voluto unanimemente chiedere una profonda revisione di questa politica europea di vicinato, intanto sottolineando proprio come imprescindibile - cito testualmente - l'oggetto di questa mattina, ossia quel confronto ravvicinato e sistematico con la Russia che non sempre si è dispiegato pienamente, come nel caso dell'accordo di partenariato con l'Ucraina, concluso senza considerazione delle legittime preoccupazioni della Federazione Russa. È proprio in questo senso che la stessa risoluzione risponde ad una sollecitazione della Commissione europea e, in particolare, dell'alto rappresentante dell'Unione per gli affari esteri e la politica di sicurezza Mogherini. Nella nostra risoluzione sulla politica europea di vicinato abbiamo inoltre voluto chiedere che ci sia un cambiamento molto forte, un riequilibrio nei confronti del Mediterraneo, un'attenzione sulle politiche del Mediterraneo di fronte alla crisi internazionale in atto. Abbiamo chiesto, dunque, con forza il superamento del regolamento di Dublino e l'integrazione della politica europea di vicinato con le politiche di sicurezza estere e con l'agenda sull'immigrazione. Questo è il contesto all'interno del quale chiediamo l'approvazione di questo accordo di associazione, che fa parte degli accordi di nuova generazione per una graduale integrazione dell'Ucraina nel mercato interno dell'Unione, per una più stretta cooperazione in materia di dialogo politico in tema di diritti umani, di giustizia, di sicurezza, di sviluppo sostenibile, di finanza pubblica e di energia, con l'obiettivo di incrementare l'area di libero scambio fino all'inserimento dell'Ucraina nel mercato unico europeo. Voglio sottolineare che si tratta di un accordo che, nel rafforzamento delle relazioni bilaterali, chiede all'Ucraina una vera e propria agenda per le riforme, insistendo su ambiti di collaborazione, non solo tra i Parlamenti, ma anche tra le rispettive società civili e sulla riforma delle pubbliche amministrazioni, sulle politiche industriali, marittime, della pesca, dell'agricoltura. Tutto questo avrà risvolti economici molto importanti, innanzitutto per l'Ucraina, che si stima trarrà considerevoli benefici, con un incremento significativo del prodotto interno lordo superiore al 6 per cento e delle esportazioni per un miliardo di euro. Questi benefici si produrranno analogamente anche per il sistema economico, manifatturiero ed industriale dei Paesi dell'Unione europea. Concludo rilevando che nel disegno di legge si fa molta attenzione all'approfondimento del dialogo politico per una convergenza graduale e significativa delle aree della politica estera, della politica comune di sicurezza e di difesa, insistendo sulla prevenzione dei crimini internazionali, sul tema della giustizia, della libertà e della sicurezza: un atto importante dunque che, con questo spirito, chiediamo all'Aula di approvare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u20">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg41">Non essendovi iscritti a parlare nella discussione generale e poiché il rappresentante del Governo non intende intervenire in sede di replica, comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+            </u>
+            <note>Passiamo all'esame degli articoli.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Procediamo alla votazione dell'articolo 1. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 3. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 4. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">STEFANI (LN-Aut)</note>
+            <u ana="#regular" who="#StefaniErika" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u21">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg42">Signor Presidente, intervengo brevemente per dichiarare il voto contrario della Lega Nord a questa ratifica ricordando quanto successo durante la sua approvazione alla Camera. In quella occasione, l'11 giugno di quest'anno, si decise con una scelta tempisticamente sbagliata, che aveva il forte sapore della provocazione politica, di calendarizzare l'esame dell'accordo proprio mentre il nostro Paese veniva visitato dal Presidente della Federazione Russa. Ci rendiamo conto che alla fine questo accordo si sarebbe dovuto comunque approvare nell'Aula della Camera, ma è stato votato proprio nei giorni in cui si faceva pubblicamente professione di voler distendere gli animi. Questo contribuì a confermare quell'aura di doppiezza che viene spesso associata alla nostra condotta politica in campo internazionale. Quel voto calendarizzato proprio in quei giorni venne, infatti, interpretato da alcuni osservatori russi come uno sgarbo diplomatico e complicò ulteriormente il tentativo di ricucire. Siamo, inoltre, preoccupati per i costi diretti che questa operazione potrà avere sull'economia europea e, in particolare, su quella italiana, considerate le condizioni precarie in cui si trovano le finanze ucraine e l'apparato produttivo di quel Paese. Per queste motivazioni il Gruppo della Lega Nord voterà contro questa ratifica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">COMPAGNA (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u22">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg43">Signor Presidente, intervengo per annunciare il voto favorevole del Gruppo di Area Popolare.</seg>
+            </u>
+            <note type="speaker">DE CRISTOFARO (Misto-SEL)</note>
+            <u ana="#regular" who="#DeCristofaroPeppe" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u23">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg44">Signor Presidente, intervengo per dire che su questa ratifica la componente SEL del Gruppo Misto si asterrà. Su un tema delicato come quello in esame - lo abbiamo già detto alla Camera, dove è già stata approvata questa ratifica, come è stato ricordato dal collega Verducci, alcuni mesi fa - avremmo preferito una discussione un po' meno precipitosa e un po' più compiuta, perché ci preoccupano molto la fragilità del quadro politico ucraino, la difficoltà delle istituzioni di quel Paese di produrre effettivamente una transizione democratica compiuta. Nel corso di tutti questi mesi abbiamo sempre detto, e continuiamo a pensare anche adesso, che l'Ucraina debba avere un ruolo di cerniera e non debba invece rappresentare una faglia ancora più profonda che si scava tra una parte dell'Europa e l'Oriente. Pensiamo che l'Europa avrebbe dovuto facilitare questo tipo di percorso. Pensiamo che bisogna fare di tutto affinché si evitino, anche nel corso dei mesi che verranno, ritorni e ipotesi belliche promuovendo tutte le soluzioni diplomatiche possibili. Per queste ragioni avremmo preferito un percorso meno rapido e meno precipitoso e, quindi, pensiamo che sia corretto da parte nostra esprimere un voto di astensione su questa ratifica.</seg>
+            </u>
+            <note type="speaker">LUCIDI (M5S)</note>
+            <u ana="#regular" who="#LucidiStefano" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u24">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg45">Signor Presidente, condivido parte delle dichiarazioni del senatore De Cristofaro in quanto - a nostro giudizio - il tempo dedicato a questa importante ratifica nella nostra Commissione è stato davvero poco. Ricordo - ho anche un appunto - che abbiamo dedicato circa trenta minuti di discussione al testo in due sedute (la prima il 7 luglio, in cui si è proceduto alla relazione, e un'altra il 23 luglio, in cui ci sono state delle comunicazioni del Presidente). Ripeto in quest'Aula quello che ho già detto in Commissione. A me è saltato agli occhi il fatto che in un trattato del genere venissero citati benefici per lo Stato di Kiev come un aumento del PIL, che verrà a valle del trattato stesso, di circa sei punti percentuali. E tutto ciò avviene alla luce di una situazione politica e militare, in quell'area, abbastanza preoccupante. Abbiamo chiesto spiegazioni, ma di fatto un chiarimento non c'è stato. È chiaro che - a nostro avviso - il trattato in esame presenta molte più ombre che luci e per questo motivo dichiaro il voto contrario del Gruppo.</seg>
+            </u>
+            <note type="speaker">AMORUSO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#AmorusoFrancescoMaria" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u25">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg46">Signor Presidente, intervengo per annunciare, a nome del Gruppo di Forza Italia, il voto favorevole al provvedimento in esame, con una brevissima dichiarazione di voto, perché ritengo che questa Assemblea non debba votare in funzione del lavoro svolto dalla Camera dei deputati. Abbiamo la nostra autonomia, facciamo le nostre valutazioni, esaminiamo il testo che stiamo votando e riteniamo che le problematiche, espresse anche dai colleghi che mi hanno preceduto, siano tuttora valide. Quello in esame rappresenta però, per noi, un atto di attenzione nei confronti di un Paese che deve capire che la strada intrapresa non è certamente quella corretta. La strada da intraprendere è quella volta all'apertura del dialogo, alla soluzione dei problemi, mentre, per l'Unione europea, è quella di considerare la Repubblica federale russa come un partner importante, per la politica europea, in tutti gli scenari internazionali. Nel preambolo stesso del provvedimento in esame è scritto, tra l'altro, che l'Ucraina deve attuare le riforme politiche, socio-economiche, giuridiche e istituzionali necessarie per dare efficacia all'attuazione del presente accordo, ma l'Ucraina è deficitaria dal punto di vista del processo che deve intraprendere. Vogliamo dunque dare un segnale di attenzione e, al tempo stesso, rimanere fermi sulle posizioni di un corretto rapporto con la Federazione russa, che consideriamo un partner essenziale e fondante per l'Unione europea e l'Italia.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg47">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u27">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg48">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (1750) Ratifica ed esecuzione dell'accordo quadro di partenariato e cooperazione tra l'Unione europea e i suoi Stati membri, da una parte, e la Mongolia, dall'altra, fatto a Ulan-Bator il 30 aprile 2013</note>
+            <note type="time">10,52</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45192.htm</note>
+            <note type="time">(ore 10,52)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u28">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg49">L'ordine del giorno reca la discussione del disegno di legge n. 1750.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg50">Il relatore, senatore Corsini, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg51">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">CORSINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CorsiniPaolo" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u29">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg52">Signor Presidente, l'Assemblea è chiamata ad esaminare l'accordo quadro di partenariato e cooperazione sottoscritto nel 2013 tra l'Unione europea, i suoi Stati membri e la Mongolia. L'intesa - già ratificata dalla Mongolia - è finalizzata a consolidare le relazioni ed il dialogo politico con il Paese asiatico attraverso un partenariato di ampia portata strategica, con particolare riferimento ai comparti del commercio e degli investimenti, dello sviluppo sostenibile, dell'istruzione e della giustizia.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg53">Frutto di un negoziato piuttosto rapido, l'accordo, che si affianca a quello già vigente in materia di scambi e cooperazione economica, costituirà la cornice giuridica per il rafforzamento della cooperazione settoriale con un Paese dalle considerevoli potenzialità strategiche, stanti anche i suoi rapporti con la Cina e la Russia, destinato altresì ad essere maggiormente integrato nell'economia mondiale e nella cooperazione regionale ed internazionale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg54">Il testo, che si compone di 65 articoli, suddivisi in nove titoli, definisce preliminarmente la natura e l'ambito di applicazione dell'intesa, prevedendo fra l'altro un impegno contro la proliferazione delle armi di distruzione di massa, per la piena operatività della Corte penale internazionale e in materia di lotta al terrorismo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg55">I titoli II e III dettano norme rispettivamente in materia di cooperazione bilaterale, regionale e internazionale e di sviluppo sostenibile, prevedendo fra l'altro l'introduzione in Mongolia di norme e standard comuni europei, l'impegno per approfondire la collaborazione nel quadro delle organizzazioni regionali ed internazionali, nonché strategie per promuovere lo sviluppo umano, sociale e la tutela dell'ambiente. II titolo IV è finalizzato ad intensificare le relazioni commerciali, a migliorare il sistema degli scambi multilaterali e a consentire migliori condizioni di accesso ai rispettivi mercati. Alcuni articoli sono dedicati alla collaborazione doganale, alla incentivazione ai flussi di investimento, all'applicazione delle norme sulla concorrenza e all'apertura dei mercati degli appalti. Nel quadro della cooperazione in materia di giustizia, libertà e sicurezza, il titolo V si occupa di migrazione, lotta agli stupefacenti, contrasto alla criminalità organizzata, alla corruzione e al finanziamento del terrorismo. Il titolo VI disciplina la cooperazione in altri settori, fra cui i servizi finanziari, la politica industriale, la cooperazione scientifica e tecnologica, l'energia e l'ambiente. Seguono poi norme sugli strumenti di cooperazione finanziaria, prevedendo anche un impegno della Banca europea degli investimenti. Da ultimo, il titolo IX reca le disposizioni finali dell'accordo, prevedendo una clausola evolutiva per il possibile ampliamento dell'ambito di applicazione dell'intesa, norme per l'adempimento degli obblighi, per l'applicazione territoriale e per l'entrata in vigore e la durata del testo stesso. Il disegno di legge di ratifica dell'accordo si compone di quattro articoli che dispongono, rispettivamente, in merito all'autorizzazione alla ratifica, all'ordine di esecuzione, all'entrata in vigore ed alla clausola di invarianza finanziaria. Va sottolineato che l'accordo non presenta profili di incompatibilità con la normativa nazionale, né con l'ordinamento comunitario e gli altri obblighi internazionali sottoscritti dal nostro Paese. In conclusione, si propone l'approvazione da parte dell'Assemblea del provvedimento in esame.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u30">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg56">Non essendovi iscritti a parlare nella discussione generale e poiché il rappresentante del Governo non intende intervenire in sede di replica, comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+            </u>
+            <note>Passiamo all'esame degli articoli.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Procediamo alla votazione dell'articolo 1. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 3. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 4. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">COMPAGNA (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u31">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg57">Signor Presidente, annuncio il voto favorevole del Gruppo Alleanza Popolare al disegno di legge in esame.</seg>
+            </u>
+            <note type="speaker">LUCIDI (M5S)</note>
+            <u ana="#regular" who="#LucidiStefano" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u32">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg58">Signor Presidente, dichiaro il voto contrario del Gruppo M5S.</seg>
+            </u>
+            <note type="speaker">MARAN (PD)</note>
+            <u ana="#regular" who="#MaranAlessandro" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u33">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg59">Signor Presidente, annuncio il voto favorevole del Gruppo PD al disegno di legge in esame.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u34">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg60">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u35">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg61">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (1829) Ratifica ed esecuzione dell'Accordo fra la Repubblica italiana e la Repubblica orientale dell'Uruguay riguardante lo svolgimento di attività lavorativa da parte dei familiari conviventi del personale diplomatico, consolare e tecnico-amministrativo, fatto a Roma il 26 agosto 2014</note>
+            <note type="time">10,59</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45419.htm</note>
+            <note type="time">(ore 10,59)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u36">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg62">L'ordine del giorno reca la discussione del disegno di legge n. 1829.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg63">Il relatore, senatore Zin, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg64">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">ZIN</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ZinClaudio" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u37">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg65">Signor Presidente, l'Assemblea è chiamata ad esaminare il disegno di legge di ratifica ed esecuzione dell'accordo sottoscritto nell'agosto 2014 fra Italia e la Repubblica orientale dell'Uruguay, volto a consentire l'esercizio di attività lavorative ai familiari conviventi del personale delle rispettive missioni diplomatiche e rappresentanze consolari, nonché delle delegazioni presso la Santa Sede.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg66">L'accordo è elaborato sulla base di un modello standard e ricalca quelli approvati recentemente con Brasile, Argentina e Cile. Il testo è finalizzato a rafforzare le relazioni diplomatiche fra Italia ed Uruguay, facilitando la partecipazione dei familiari dei diplomatici alla vita sociale del Paese che li ospita, senza con ciò venire meno al ruolo istituzionale che sono chiamati a svolgere in qualità di familiari del personale accreditato. L'intesa, composta di 8 articoli, si estende anche ai familiari delle rappresentanze accreditate presso la Santa Sede. Si applica ai consorti non separati e ai figli a carico di età compresa fra i diciotto e i ventisei anni e ai figli diversamente abili, a prescindere dall'età. Gli articoli 2 e 3 definiscono le procedure autorizzative in Italia ed in Uruguay, con modalità pressoché analoghe. Gli articoli 4, 5 e 6 stabiliscono, rispettivamente, l'applicabilità della normativa locale in materia tributaria, di sicurezza sociale e del lavoro e la non applicabilità delle immunità civili, amministrative e penali per l'esercizio dell'attività lavorativa. Gli articoli 7 e 8 regolamentano la modalità di soluzione delle eventuali controversie nell'interpretazione o applicazione del testo; l'entrata in vigore; la durata e la possibilità di denuncia dell'accordo medesimo. Il disegno di legge di ratifica si compone di 3 articoli che dispongono: l'autorizzazione alla ratifica, l'ordine di esecuzione, l'entrata in vigore. Dall'applicazione del provvedimento non derivano oneri o minori entrate a carico del bilancio dello Stato. In conclusione, signor Presidente, si propone l'approvazione da parte dell'Assemblea del provvedimento in esame.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u38">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg67">Non essendovi iscritti a parlare nella discussione generale e poiché il rappresentante del Governo non intende intervenire in sede di replica, comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+            </u>
+            <note>Passiamo all'esame degli articoli.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Procediamo alla votazione dell'articolo 1. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 3. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">COMPAGNA (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u39">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg68">Signor Presidente, annuncio il voto favorevole del Gruppo Area Popolare.</seg>
+            </u>
+            <note type="speaker">AIROLA (M5S)</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u40">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg69">Signor Presidente, annuncio l'astensione del Gruppo Movimento 5 Stelle.</seg>
+            </u>
+            <note type="speaker">MARAN (PD)</note>
+            <u ana="#regular" who="#MaranAlessandro" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u41">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg70">Signor Presidente, annuncio il voto favorevole del Gruppo PD.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u42">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg71">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u43">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg72">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (1964) Adesione della Repubblica italiana alla Convenzione delle Nazioni Unite sulla riduzione dei casi di apolidia, fatta a New York il 30 agosto 1961</note>
+            <note type="time">11,03</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45752.htm</note>
+            <note type="time">(ore 11,03)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u44">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg73">L'ordine del giorno reca la discussione del disegno di legge n. 1964, già approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg74">La relatrice, senatrice Fattorini, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg75">Pertanto, ha facoltà di parlare la relatrice.</seg>
+            </u>
+            <note type="speaker">FATTORINI</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#FattoriniEmma" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u45">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg76">Il disegno di legge, già approvato dalla Camera dei deputati, reca l'adesione dell'Italia alla Convenzione delle Nazioni Unite del 1961 sulla riduzione dei casi di apolidia, a cui finora hanno aderito 63 Paesi, tra i quali 20 Stati membri dell'Unione europea, inclusi Regno Unito, Francia e Germania.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg77">L'apolidia, ovvero la condizione di un individuo privo di nazionalità e che nessuno Stato considera come proprio cittadino, è un fenomeno spesso sottovalutato, ma che esclude ancora oggi molte persone dal poter beneficiare di diritti elementari fondamentali.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg78">Nonostante il diritto della persona umana alla nazionalità sia riconosciuto come fondamentale dalla Dichiarazione universale dei diritti dell'uomo e dalla Convenzione europea sulla nazionalità del 1997, si stima che in Europa vi siano circa 600.000 casi di apolidia, mentre in Italia sarebbero almeno 15.000 le persone apolidi o a rischio di apolidia, per la maggior parte giovani, nati e cresciuti in Italia, spesso appartenenti alle comunità rom e sinti provenienti dalla ex Jugoslavia.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg79">La Convenzione in esame prevede che gli Stati parte garantiscano l'acquisizione della cittadinanza in modo automatico al momento della nascita, attraverso previsione di legge o tramite istanza dell'interessato.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg80">L'ordinamento italiano, riconoscendo ex lege la cittadinanza ai bambini nati nel proprio territorio, che sarebbero altrimenti apolidi, è già in linea con quanto previsto da una delle opzioni indicate dalla Convenzione e non necessita di disposizioni di adeguamento. Tuttavia, il nostro Paese ha finora provveduto a ratificare solo la Convenzione sullo status degli apolidi del 1954, e non anche la Convenzione del 1961. Un'eventuale adesione consentirebbe di introdurrebbe nell'ordinamento italiano un ulteriore obbligo giuridico di rilevanza internazionale, rafforzando la trasparenza giuridica e la prevedibilità delle garanzie e delle procedure poste in essere dall'Italia in materia di prevenzione dell'apolidia, dando seguito ad impegni assunti a livello internazionale. La Convenzione, composta di 21 articoli, ha per obiettivo quello di assicurare il diritto di ogni persona ad avere una cittadinanza, ivi compreso il diritto di ogni bambino ad acquisirne una. Essa stabilisce norme sull'acquisizione, sulla rinuncia, sulla perdita e sulla privazione della cittadinanza e prevede una serie di misure cui gli Stati aderenti devono dare applicazione, che illustro. Più in dettaglio, gli articoli da 1 al 4 introducono misure per evitare l'apolidia dei minori, in particolare attraverso l'attribuzione iure soli della cittadinanza ai nati da genitori apolidi o cittadini di Stati che non applicano lo ius sanguinis, e attraverso l'attribuzione iure sanguinis della cittadinanza ai nati all'estero. Gli articoli 5, 6 e 7 fissano una serie di misure per evitare l'apolidia dovuta a perdita o a rinuncia della propria nazionalità, condizionando la perdita della cittadinanza al possesso di un'altra cittadinanza. Gli articoli 8 e 9 dettano norme per evitare l'apolidia dovuta alla privazione della nazionalità, mentre l'articolo 10 introduce alcune disposizioni volte ad evitare l'apolidia nel contesto della successione degli Stati, prevedendo l'obbligo di regolare la cittadinanza delle persone coinvolte in trasferimenti di territorio da uno Stato a un altro. L'articolo 13 dispone che non venga pregiudicata l'applicazione di disposizioni nazionali più favorevoli in materia, mentre i successivi articoli dal 14 al 17 dettano norme in materia di controversie e di applicazione delle disposizioni ai territori statuali. Il disegno di legge di ratifica si compone di 4 articoli che dispongono, rispettivamente, in merito all'autorizzazione alla ratifica, all'ordine di esecuzione, alla clausola di invarianza di finanza ed all'entrata in vigore. L'accordo non presenta profili di incompatibilità con la normativa nazionale, né con l'ordinamento comunitario e gli altri obblighi internazionali sottoscritti dal nostro Paese, risultando peraltro in linea con quanto già previsto dalle convenzioni del Consiglio d'Europa sulla nazionalità del 1997 e sulla prevenzione dei casi di apolidia in relazione alla successione degli Stati del 2006. In conclusione, si propone l'approvazione da parte dell'Assemblea del provvedimento in esame.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u46">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg81">Non essendovi iscritti a parlare nella discussione generale e poiché il rappresentante del Governo non intende intervenire in sede di replica, comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+            </u>
+            <note>Passiamo all'esame degli articoli.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Procediamo alla votazione dell'articolo 1. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 3. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 4. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">BONFRISCO (CoR)</note>
+            <u ana="#regular" who="#BonfriscoAnnaCinzia" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u47">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg82">Signor Presidente, è con particolare piacere che accolgo il fatto che il mio primo intervento in Aula da componente della Commissione affari esteri si svolga su questo tema. Dopo la relazione della relatrice Fattorini, così ampia e molto chiara, vorrei ricordare che, ai sensi dell'articolo 1 della legge 5 febbraio 1992, n. 91, il principio cardine su cui si basa l'acquisizione della cittadinanza italiana è - come tutti sappiamo - fondamentalmente quello dello ius sanguinis, cioè della trasmissione della cittadinanza per discendenza. L'adesione alla Convenzione comporterà per l'Italia l'ulteriore obbligo giuridico di rilevanza internazionale, di cui si è dibattuto molto nella passata legislatura, di prevedere l'attribuzione iure soli della cittadinanza ai nati da genitori apolidi o cittadini di Stati che non applicano il principio dello ius sanguinis, e l'attribuzione iure sanguinis della cittadinanza ai nati all'estero. Si tratta, di conseguenza, dell'introduzione nel nostro ordinamento giuridico di un principio che oggi costituisce un'eccezione a quello della unicità della cittadinanza, poiché applicabile solamente in determinati casi specifici, come quello di stranieri discendenti da avo italiano emigrati in Paesi in cui vige il principio dello ius soli. In questo modo si garantirebbe ai figli dei nostri emigrati il mantenimento del legame con il Paese di origine degli ascendenti, con ciò dovendosi considerare la misura anche in un'ottica di rispetto e di salvaguardia dei diritti dell'infanzia, che - penso ai bambini e agli adolescenti - sono particolarmente cari all'attività del nostro Gruppo. I bambini e gli adolescenti costituiscono l'anello più debole di una catena che abbiamo visto dispiegarsi in tutta la sua drammaticità in questi giorni che definiamo di emergenza, mentre rappresentano probabilmente una nuova frontiera con cui dovremo rapportarci nello scambio, che non è solo culturale o sociale, ma fondamentalmente geopolitico, con masse di persone che provengono da Paesi con forti turbolenze e che richiamano l'Europa al proprio dovere principale, in quanto nata e costituita per mantenere la pace. Infatti, è proprio questo che ci ricorda l'applicazione di numerosi trattati, tra cui ricordiamo la Dichiarazione di Ginevra dei diritti del fanciullo del 1924 e la più recente Convenzione sui diritti dell'infanzia e dell'adolescenza approvata dall'Assemblea generale delle Nazioni Unite nel 1989. Il nostro Gruppo ha più volte concretamente sollecitato l'adozione di misure volte alla tutela dei soggetti deboli e vulnerabili, e in particolare attraverso mozioni. Una di queste, che affronteremo nelle prossime settimane in quest'Aula, è dedicata alla tragedia in atto di Boko Haram e a quella (che sembra meno tragica, ma non lo è affatto) oggetto del grande ed accorato appello lanciato dal presidente della Tunisia Essebsi, che dichiara lo stato emergenza del Paese e chiede l'aiuto per contrastare forme di terrorismo che minacciano la Tunisia ed altri Paesi, tra cui il nostro. Attraverso lo strumento della mozione richiamiamo altresì l'attenzione del Governo e dei partner europei ed internazionali, nonché delle organizzazioni non governative, data la notevole pressione che queste hanno per poter esercitare a livello mondiale, sulle informazioni relative ad alcune pratiche brutali attuate ormai in troppe aree del pianeta nei confronti di minori. Come sempre accade, sono le minoranze, le donne, i bambini e i disabili ad essere più facilmente e brutalmente sfruttate, in Paesi dove l'intensità del conflitto armato ha raggiunto livelli estremi, con un impatto sproporzionato e intollerabile su queste categorie. In particolare, nella sua campagna di espansione l'ISIS non si fa scrupolo di addestrare, utilizzare e, in casi di necessità, uccidere anche i bambini, reclutati dai predicatori e attirati dal martirio che la jihad offre. Negli ultimi mesi detto fenomeno ha assunto dimensioni particolarmente drammatiche. Tra le righe di queste drammatiche atrocità diventa impossibile non riconoscere un lucido e complesso programma di radicalizzazione rivolto alle menti più giovani e fragili, perciò proiettato al futuro per forgiare la prossima generazione di terroristi jihadisti. Questo è il punto. Nell'avanzare su tale terreno, noi mettiamo in atto una clausola di salvaguardia possibile rispetto al reclutamento di giovani, perché il fenomeno che affrontiamo approvando l'atto del Senato in esame è legato soprattutto alla potenziale fornitura - consentitemi questo brutto termine - in quel segmento di possibili giovani che possono abbracciare la causa del terrorismo islamico o del terrorismo tout court. In tale contesto appare per noi fondamentale creare le condizioni per favorire una reale integrazione nel tessuto sociale del Paese in cui questi giovani sono nati e di quei minori che, altrimenti, potrebbero trovarsi nella triste condizione di non essere riconosciuti come propri cittadini da nessuno Stato. Tuttavia, non nascondiamo ed è nostro dovere evidenziare possibili risvolti che traviserebbero lo scopo primario della Convenzione, e da questi noi dobbiamo fuggire. Non vorremmo, infatti, che con questa ratifica si stia preparando il terreno alla concessione indiscriminata della cittadinanza italiana anche a quelle minoranze che non hanno la concreta, a volte neanche minima, intenzione di inserirsi produttivamente nella realtà sociale ed economica del nostro Paese, e che pertanto - secondo noi - non dovrebbero legittimamente ambire all'acquisizione dello status di cittadino italiano. Ma oggi, nel vivere e nell'affrontare questa emergenza, noi dobbiamo togliere innanzitutto linfa vitale al possibile reclutamento nel nostro Paese che un'immigrazione incontrollata può favorire e sanare una condizione legale e giuridica. Il nostro Gruppo voterà a favore dell'approvazione di questo atto, e tutti insieme ci apprestiamo ad approvare un testo che escluda almeno il rischio che da tale versante possa arrivare un fenomeno assai pericoloso per la sicurezza dei cittadini italiani.</seg>
+            </u>
+            <note type="speaker">STEFANI (LN-Aut)</note>
+            <u ana="#regular" who="#StefaniErika" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u48">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg83">Signor Presidente, per quanto nel merito questo provvedimento ci pare anche teoricamente condivisibile, perché la condizione di apolidia, quando non derivi dalla risposta ad un crimine, è veramente una inaccettabile violazione dei diritti dell'uomo, proprio la scelta dei tempi ingenera in noi qualche dubbio e qualche sospetto. Nella relazione illustrativa è, infatti, scritto a chiare lettere che il problema della apolidia nel nostro Paese si identifica soprattutto con i rom. Non vorremmo, quindi, che con questa affermazione si stia ora preparando il terreno alla concessione indiscriminata della cittadinanza italiana a tutti i rom che si muovono sui nostri territori. Speriamo, invece, che si stia creando il presupposto per una politica che miri a chiedere a tutti i nostri partner di identificare, come loro cittadini, i rom originari del proprio Paese. C'è però un altro e ulteriore delicato aspetto della questione che riteniamo meritevole di menzione. Sul tappeto, infatti, non c'è solo la questione dei rom, che la Romania ha unilateralmente europeizzato nel 2007. Il problema della apolidia riguarda, infatti, anche alcuni Stati membri della stessa Unione europea, in particolar modo le Repubbliche baltiche di Lettonia ed Estonia, che negano dal 1991 la cittadinanza agli elementi delle minoranze russofone che non abbiano accettato di apprendere la lingua ufficiale e la storia dello Stato. Tale situazione è evidentemente incompatibile con le norme fondamentali del diritto dell'Unione europea e dovrebbe essere in qualche modo corretta. Quindi, pur essendo teoricamente favorevoli alla ratifica della Convenzione, la Lega voterà ugualmente contro, dal momento che siamo fortemente preoccupati per i passi che potranno farvi seguito, per le ragioni che ho espresso prima. Temiamo, in particolare, la prospettiva che da questo provvedimento possa un giorno discendere un'indiscriminata concessione della cittadinanza del nostro Paese ai rom, che non possiamo e non vogliamo accettare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">COMPAGNA (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u49">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg84">Signor Presidente, annuncio il voto favorevole del nostro Gruppo al provvedimento.</seg>
+            </u>
+            <note type="speaker">LUCIDI (M5S)</note>
+            <u ana="#regular" who="#LucidiStefano" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u50">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg85">Signor Presidente, annuncio il voto di astensione del Gruppo Movimento 5 Stelle e sottolineo il fatto, già evidenziato da altri, che stiamo ratificando l'adesione ad un accordo ormai datato. È quasi un paradosso: sembrerebbe che il primo apolide sia proprio questa Convenzione che, dopo oltre cinquant'anni, trova finalmente la nostra attenzione. In realtà, noi avremmo preferito una revisione delle leggi già vigenti in Italia, che di fatto impediscono il riconoscimento della cittadinanza, e, tra queste, anche del testo unico sull'immigrazione. Confermo, quindi, il voto di astensione del nostro Gruppo.</seg>
+            </u>
+            <note type="speaker">D'ALI' (FI-PdL XVII)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u51">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg86">Signor Presidente, diverse motivazioni avrebbero dovuto portare sia la Commissione che il Parlamento a soprassedere sull'approvazione di questo disegno di legge. La prima motivazione è certamente relativa alle cifre: andiamo a ratificare una Convenzione sottoscritta nel 1961. È chiaro che, dal 1961 ad oggi (che poi forse è anche l'età media dei componenti dell'Aula nella quale ci troviamo), sono di molto cambiate le condizioni internazionali e quelle per poter valutare se questa Convenzione debba essere ratificata, così come dice l'articolato, sic et simpliciter. Tra l'altro, nell'articolato stesso mancano alcune indicazioni riguardo a facoltà o a discrezionalità che la Convenzione stessa affida agli Stati contraenti. Quindi, non sappiamo, nel ratificare la Convenzione, quale sarà l'atteggiamento dello Stato italiano riguardo a queste discrezionalità. Sarebbe stato invece opportuno, e vorrei dire corretto, indicare all'Assemblea l'intenzione di esercitare alcune attività previste dalla Convenzione. Detto questo, è chiaro che quella in esame è una Convenzione del 1961 e oggi le condizioni sono completamente cambiate. Sarebbe stato, quindi, più opportuno che questa ratifica, oltre ad essere meglio specificata nel dettato normativo, fosse stata discussa nell'ambito di un dibattito che è già preannunciato nelle nostre Aule parlamentari e che riguarda tutta la materia, molto delicata, della cittadinanza, dello ius sanguinis e dello ius soli. Quindi, trovo assolutamente fuor di luogo la proposizione, dopo cinquantaquattro anni, della ratifica di una Convenzione che può impegnare anche il Parlamento rispetto ad un dibattito che ancora si deve svolgere. Per queste motivazioni, senza voler con ciò nulla togliere ai diritti di alcuni soggetti, e soprattutto dei più deboli quali possono essere i bambini, noi ci asterremo sulla ratifica di questa Convenzione, che tra l'altro non risulta ancora ratificata da importanti Stati, quali gli Stati Uniti d'America e la Spagna. Ci saranno dei motivi per cui, in 54 anni, la Convenzione non è stata da noi ratificata, come d'altronde ancora non hanno fatto alcuni Stati importanti. Evidentemente le Nazioni Unite dovrebbero aggiornare il testo della Convenzione alla realtà odierna. Soprattutto noi, che siamo molto esposti su questo fronte, dovremmo fare una più adeguata riflessione, piuttosto che veicolare nel nostro ordinamento, come spesso accade, sotto forma di ratifica, norme sulle quali magari qualcuno potrebbe non essere d'accordo o potrebbe proporre delle modifiche. Mi sembra veramente un modo di operare molto superficiale, per cui noi ci asterremo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Alicata.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MARAN (PD)</note>
+            <u ana="#regular" who="#MaranAlessandro" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u52">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg87">Signor Presidente, intervengo per annunciare il voto favorevole del mio Gruppo.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u53">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg88">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u54">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg89">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. Si tratta di un voto assolutamente importante, perché dopo cinquantaquattro anni aderiamo ad una Convenzione: mi chiedo se non vi sia una prescrizione per i trattati. La Convenzione, là dove approvata, è entrata in vigore nel 1975. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione, con modificazioni, del disegno di legge: (1660) Ratifica ed esecuzione dell'Accordo sul reciproco riconoscimento dei titoli attestanti studi universitari o di livello universitario rilasciati nella Repubblica italiana e nella Repubblica popolare cinese, con Allegati, firmato a Pechino il 4 luglio 2005</note>
+            <note type="time">11,25</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44964.htm</note>
+            <note type="time">(ore 11,25)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u55">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg90">L'ordine del giorno reca la discussione del disegno di legge n. 1660.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg91">Ilrelatore, senatore Compagna, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg92">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">COMPAGNA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u56">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg93">Signor Presidente, l'accordo intende favorire la collaborazione fra i due Paesi nel settore dell'istruzione. L'accordo in tema di istruzione era necessario perché i rapporti fra l'Italia e la Cina riscontrano una grave lacuna nella mancanza di equiparazione dei titoli di studio. Tranne alcuni accordi bilaterali sottoscritti fra singole università italiane e cinesi, non vi è stato - ed è una lacuna, essendo l'università italiana prevalentemente statale e lo stesso quella cinese - un accordo tra Stati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg94">L'accordo si compone di un preambolo e di nove articoli.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg95">L'articolo 1 individua l'ambito di validità, stabilendo che i destinatari siano le università, i politecnici e le istituzioni di alta formazione artistica e musicale. Da questo punto di vista anticipo che proporrò un emendamento di coordinamento, perché l'espressione "universitaria" comprenda anche i titoli di studio rilasciati dopo il perfezionamento universitario, quindi quelli post-universitari.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg96">L'elenco delle istituzioni accademiche coinvolte è espressamente indicato in due Allegati, quello A per la parte italiana e quello B per la parte cinese.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg97">Ai sensi dell'articolo 3, gli studenti in possesso del titolo finale di studi secondari superiori possono essere ammessi presso un'istituzione universitaria di uno dei due Paesi secondo le disposizioni vigenti nel Paese di accoglienza e in base alla disponibilità dei posti. Il medesimo articolo prevede altresì che siano esonerati dalle prove per l'accertamento della competenza linguistica, nonché dal contingentamento dei posti riservati agli studenti stranieri, i diplomati presso scuole secondarie nel cui programma di insegnamento sia stato inserito almeno per un triennio l'insegnamento della lingua del Paese ospite. Era il problema che ha sempre turbato la nostra università per stranieri di Perugia.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg98">Gli articoli da 4 a 6 disciplinano il riconoscimento dei titoli rilasciati dalle istituzioni universitarie cinesi in Italia, disponendo che tali certificati consentano l'iscrizione ai corsi universitari di primo livello, dei livelli successivi ed al dottorato di ricerca presso gli atenei italiani. La competenza ad esprimere una valutazione sull'equivalenza dei certificati e degli esami sostenuti spetta in ogni caso all'istituzione universitaria di accoglienza.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg99">L'articolo 7 riconosce ai possessori di un titolo universitario conseguito presso un'istituzione di uno dei due Paesi il diritto a fregiarsi di tale qualificazione nell'altro Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg100">Il successivo articolo 8 prevede la creazione di una commissione mista permanente di esperti per l'attuazione dell'intesa.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg101">Il disegno di legge di ratifica si compone di quattro articoli, che dispongono in merito all'autorizzazione alla ratifica, all'ordine di esecuzione, alla copertura finanziaria ed all'entrata in vigore. Gli oneri economici sono stati quantificati in 2180 euro ad anni alterni, a decorrere dal 2015. Ho già segnalato che in Commissione è stato approvato un emendamento tecnico di coordinamento.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg102">L'accordo non presenta alcun profilo di incompatibilità con la normativa nazionale, né con l'ordinamento comunitario e gli altri obblighi internazionali sottoscritti dal nostro Paese. Di qui, il mio suggerimento all'Assemblea di approvare il provvedimento in esame.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u57">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg103">Non essendovi iscritti a parlare nella discussione generale e poiché il rappresentante del Governo non intende intervenire in sede di replica, comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+            </u>
+            <note>Passiamo all'esame degli articoli, nel testo proposto dalla Commissione.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Procediamo alla votazione dell'articolo 1. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo all'esame dell'articolo 3, sul quale è stato presentato un emendamento, che si intende illustrato, sul quale invito il rappresentante del Governo a pronunziarsi.</note>
+            <note type="speaker">GIRO</note>
+            <note type="role">sottosegretario di Stato per gli affari esteri e la cooperazione internazionale</note>
+            <u ana="#guest" who="#GiroMario" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u58">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg104">Signor Presidente, esprimo parere favorevole.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u59">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg105">Passiamo alla votazione dell'emendamento 3.100.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg106">SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.100, presentato dal relatore. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 4. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">LUCIDI (M5S)</note>
+            <u ana="#regular" who="#LucidiStefano" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u60">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg107">Signor Presidente, annuncio il voto contrario del Gruppo Movimento 5 Stelle.</seg>
+            </u>
+            <note type="speaker">MARAN (PD)</note>
+            <u ana="#regular" who="#MaranAlessandro" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u61">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg108">Signor Presidente, annuncio il voto favorevole del mio Gruppo.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u62">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg109">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u63">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg110">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione, con modificazioni, del disegno di legge: (1659) Ratifica ed esecuzione dell'Accordo tra il Governo della Repubblica italiana ed il Governo della Repubblica dell'Azerbaijan sulla cooperazione nel settore della difesa, fatto a Roma il 6 novembre 2012</note>
+            <note type="time">11,32</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44963.htm</note>
+            <note type="time">(ore 11,32)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u64">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg111">L'ordine del giorno reca la discussione del disegno di legge n. 1659.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg112">Ilrelatore, senatore Compagna, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni, la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg113">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">COMPAGNA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u65">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg114">Signor Presidente, l'intesa ha lo scopo di assicurare un rapporto tra le Forze armate dei due Paesi, sviluppandone e disciplinandone la cooperazione bilaterale, con l'intento di consolidare le rispettive capacità difensive. Non mancano possibili ricadute in alcuni settori produttivi importanti e vengono rafforzate le relazioni bilaterali in ambito culturale, scientifico e commerciale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg115">Si ricorda che l'Azerbaijan è Paese membro del partenariato euro-atlantico, ovvero di quel forum di consultazione e dialogo tra la NATO e alcuni suoi partner esterni, nonché sottoscrittore dal 1994 del programma della NATO partenariato per la pace. È inoltre un Paese che occupa un'area di grande importanza strategica e politica, ed è uno dei principali esportatori di idrocarburi, con forti ricadute sui rapporti economici con l'Italia. L'accordo si compone di un breve preambolo e di nove articoli. L'articolo 1 precisa che la cooperazione bilaterale verrà regolata da principi di reciprocità, uguaglianza e reciproco interesse, in conformità con gli ordinamenti giuridici dei due Paesi e con gli impegni internazionali da essi assunti. L'articolo 2 individua le aree di intervento e le modalità della cooperazione, precisando che essa si svolgerà sulla base di piani annuali e pluriennali, che l'organizzazione delle attività sarà di pertinenza dei rispettivi Ministeri della difesa e che sarà possibile organizzare eventuali consultazioni dei rappresentanti delle parti, da tenersi alternativamente a Baku - dove si trova la delegazione guidata dal collega Divina, che forse ne parlerà in questi giorni - e a Roma. Tra gli ambiti di cooperazione ci sono la cooperazione politico-militare, la ricerca e lo sviluppo di prodotti e servizi per la difesa, le operazioni umanitarie, la formazione e la sanità militare. Sono anche previste visite reciproche di delegazioni e di personale di formazione, nonché la partecipazione ad esercitazioni militari. L'articolo 4 affronta il tema della giurisdizione e stabilisce il diritto per il Paese ospitante di giudicare il personale ospitato per eventuali reati commessi sul proprio territorio, salvo reati commessi contro la sicurezza interna, il suo patrimonio o commessi in relazione al servizio. È previsto altresì che si addivenga ad un'intesa che salvaguardi il personale interessato nel caso di sanzioni previste nel Paese ospitante in contrasto con i princìpi fondamentali dello Stato di origine. Gli articoli successivi disciplinano casi di eventuali risarcimenti per danni provocati dal personale in relazione al servizio reso. L'articolo 8, infine, indica le modalità attraverso le quali si potrà emendare o rivedere il testo dell'accordo. Il disegno di legge di ratifica si compone rispetto a questi nove articoli soltanto di cinque articoli, che riassumono rispettivamente l'autorizzazione alla ratifica, l'ordine di esecuzione, la copertura finanziaria, la clausola di invarianza di spesa per la finanza pubblica e l'entrata in vigore. Gli oneri economici riguardano eventuali visite ufficiali ed incontri operativi tra le rispettive delegazioni. In Commissione è stato approvato un emendamento tecnico che sposta al 2015 le coperture inizialmente previste per il 2014. Non sono stati ravvisati profili di incompatibilità con la normativa nazionale, né con l'ordinamento comunitario e altri obblighi internazionali. Da qui la proposta della Commissione all'Assemblea di approvare il provvedimento in esame.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u66">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg116">Non essendovi iscritti a parlare nella discussione generale e poiché il rappresentante del Governo non intende intervenire in sede di replica, comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+            </u>
+            <note>Passiamo all'esame degli articoli, nel testo proposto dalla Commissione.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Procediamo alla votazione dell'articolo 1. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 3. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 4. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 5. SANTANGELO</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 5.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">AIROLA (M5S)</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u67">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg117">Signor Presidente, intervengo per annunciare il voto contrario del mio Gruppo.</seg>
+            </u>
+            <note type="speaker">MARAN (PD)</note>
+            <u ana="#regular" who="#MaranAlessandro" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u68">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg118">Signor Presidente, intervengo per annunciare il voto favorevole del mio Gruppo.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u69">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg119">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u70">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg120">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">ALBANO (PD)</note>
+            <u ana="#regular" who="#AlbanoDonatella" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u71">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg121">Signor Presidente, onorevoli colleghi, 5 settembre 2010-5 settembre 2015: sono trascorsi cinque anni dall'omicidio di Angelo Vassallo, conosciuto anche come il sindaco pescatore di Pollica. Vorrei ricordare insieme a voi la sua figura di amministratore coraggioso, caparbio ed incorruttibile. Ha pagato con la vita il suo impegno contro le ecomafie e i responsabili della sua uccisione devono ancora essere consegnati alla giustizia. Proprio il coraggio, l'amore per le istituzioni e il territorio di Vassallo devono essere un esempio per tutti i cittadini e gli amministratori, un esempio quanto mai necessario di buona politica. Con questo Governo abbiamo approvato finalmente pene aspre contro gli ecoreati, ma solo un'opera di capillare educazione presso la popolazione potrà mettere un freno alle ecomafie che uccidono sia in modo cruento - come è successo al sindaco pescatore - sia in modo subdolo e lento, causando tumori e malattie degenerative. Ad Angelo Vassallo dobbiamo anche il riconoscimento dell'UNESCO della dieta mediterranea tra i patrimoni orali e immateriali dell'umanità, una medaglia per la nostra Italia, che ha l'onore di ospitare questo anno l'Expo internazionale dedicata proprio all'alimentazione. Il nostro Paese ha bisogno di tanti Angelo Vassallo, cittadini, amministratori e politici con la schiena dritta, in grado di affrontare con forza e onestà morale le sfide che la lotta alla legalità ci impone per un'Italia migliore, un'Italia più giusta, un'Italia che ama e rispetta il suo territorio e la salute degli italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg122">PRESIDENTE. La Presidenza si unisce al ricordo e la ringrazia.</seg>
+            </u>
+            <note type="speaker">BOTTICI (M5S)</note>
+            <u ana="#regular" who="#BotticiLaura" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u72">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg123">Signor Presidente, chiederei un attimo di attenzione.</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg124">PRESIDENTE. Colleghi, la seduta sta proseguendo. L'emiciclo non è il circolo ricreativo dei senatori o degli ex senatori. Chi vuole può uscire.</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg125">Continuano imperterriti. Colleghi! BOTTICI (M5S). Mi piacerebbe che si ponesse un po' di attenzione, perché quanto sto per evidenziare si manifesta quotidianamente in queste Aule. L'anno scorso abbiamo votato una delega fiscale su cui il Governo ha chiesto ulteriore tempo, perché non aveva ancora fatto tutti i decreti legislativi. Su alcuni decreti ha esercitato un abuso di delega che nessuno gli ha dato e di altri si è dimenticato. Ieri sono arrivati cinque decreti legislativi in seconda lettura. Vi faccio solo un esempio: sul decreto legislativo n. 183, che è quello che riforma il sistema sanzionatorio, sono state scritte sedici pagine di parere dalla Commissione giustizia e dalla Commissione finanze perché quel testo è scritto con i piedi. Il Governo lo ha trasmesso alle Camere il 9 settembre e abbiamo solo dieci giorni di tempo a disposizione. Se noi consideriamo che oggi pomeriggio ci sarà una seduta breve e che venerdì, sabato, domenica e lunedì non si lavora, ci rimarranno pochissimi giorni per valutare questo decreto legislativo assieme agli altri. Chiedo allora che, quando vengono presentati i decreti legislativi, ci sia l'obbligo di lavorare in Commissione per dieci giorni, ossia per il tempo massimo a disposizione delle Commissioni, altrimenti si fa un lavoro inutile e si continua con la presa in giro del lavoro dei parlamentari. Non è possibile: il parere non è vincolante, il testo viene consegnato l'ultimo giorno, non si sa se il dossier è pronto o no! Il Governo faccia allora ciò che vuole, ma si assuma le proprie responsabilità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg126">PRESIDENTE. Senatrice Bottici, per ottenere un risultato le suggerisco di svolgere le medesime considerazioni anche in Commissione, che è la sede propria in cui farlo.</seg>
+            </u>
+            <note type="speaker">PANIZZA (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#PanizzaFranco" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u73">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg127">Signor Presidente, giorni fa, durante la puntata della trasmissione televisiva «Porta a Porta», il Presidente del Consiglio, Matteo Renzi, ha annunciato che il Presidente della Repubblica, Sergio Mattarella, nel suo prossimo viaggio negli Stati Uniti, sottoporrà all'attenzione del presidente Obama la vicenda del nostro connazionale, il trentino Chico Forti, attualmente in carcere a vita negli Stati Uniti. Da più parti, in questi anni e soprattutto negli ultimi mesi, si è alzata forte da parte dell'opinione pubblica la richiesta di revisione di un processo che ha molti lati oscuri circa il modo con cui si è giunti alla sentenza di condanna. Come ha sottolineato lo stesso presidente Renzi, stante il nostro sistema giuridico, ci sarebbero stati sicuramente tutti gli estremi per una revisione di un processo che, invece, nel caso di Forti non è mai stato accordato. Vorrei sottolineare inoltre la straordinaria dignità e la piena fiducia che Forti ha sempre dimostrato nei confronti della giustizia americana, un atteggiamento che gli fa onore e che costituisce una ragione in più per tentare tutte le strade necessarie per ottenere la revisione del processo. Ricordo inoltre che, alcuni mesi fa, è stata depositata in Senato una mozione presentata da me e sottoscritta da diversi colleghi - che invito tutti i colleghi a sottofirmare - in questo simile a una, approvata a larghissima maggioranza dalla Camera dei deputati (che unificava i testi degli onorevoli Ottobre, Corda e altri), con cui si impegnava il Governo ad assumere, in ogni sede, qualsiasi iniziativa di competenza, volta a tutelare il concittadino Enrico Forti, come più volte in precedenza il Governo italiano ha ritenuto di dover fare, in difesa di altri concittadini condannati e detenuti all'estero, considerato anche il fatto che lo Stato italiano intrattiene con il Governo degli Stati Uniti ottimi rapporti diplomatici, che hanno portato, anche di recente, alla soluzione di casi giudiziari controversi. Pertanto, signor Presidente, credo che sarebbe un fatto istituzionalmente significativo che anche questo ramo del Parlamento esaminasse e approvasse quanto prima la mozione che è stata depositata, perché si darebbe ulteriore forza a una vicenda probabilmente di civiltà giuridica e di tutela di un nostro connazionale, sulla quale non credo debbano esistere diversità politiche, ma l'intero forte sostegno di tutte le figure e di tutte le articolazioni istituzionali, proprio come la sensibilità mostrata al riguardo Presidente della Repubblica è lì a sottolineare. PRESIDENTE Senatore Panizza, credo che sia anche utile che, attraverso il suo Capogruppo, venga sollecitata la calendarizzazione della citata mozione, nella Conferenza dei Capigruppo.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per lo svolgimento in Commissione e la risposta scritta ad interrogazioni</head>
+            <note type="speaker">BLUNDO (M5S)</note>
+            <u ana="#regular" who="#BlundoRosettaEnza" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u74">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg128">Signor Presidente, dal giorno in cui è stata istituita, la Commissione bicamerale per l'infanzia e l'adolescenza sta portando avanti molte indagini conoscitive sul complesso e delicato universo dei minori, alcune delle quali - come quella sul diritto dei minori a fruire del patrimonio artistico e culturale e sulla prostituzione minorile - sono ancora in corso di svolgimento, con i cicli di audizioni che continuano regolarmente, nonostante i problemi organizzativi che si sono riscontrati. Altre si sono concluse, come quella sulla povertà minorile, con una relazione finale, che è stata presentata lo scorso 30 giugno. Altre, però, sono state recentemente deliberate, ma per motivi apparentemente inspiegabili si sono arenate dopo la prima audizione. Mi riferisco all'indagine conoscitiva sui minori fuori famiglia, che ho proposto in qualità di Vice Presidente della Commissione, per la quale, dopo la prima audizione a maggio, si è rinviata la seconda audizione al 23 ottobre. Si tratta di un ritardo inaccettabile, per un'indagine conoscitiva che ha il nobile obiettivo di acquisire dati certi sul numero dei minori presenti nelle case famiglia e avere contezza delle modalità utilizzate nelle operazioni di collocamento. Su quest'ultima vicenda ho anche indirizzato al ministro Orlando l'interrogazione a risposta orale in Commissione giustizia 3-01932 , per la quale oggi sollecito una risposta che ancora tarda ad arrivare. Allo stesso modo chiedo riscontro a un'altra mia interrogazione a risposta scritta, la 4-04295 , su Airone ONLUS, un ente che sembra continui a operare ancora nel settore, pur essendo direttamente coinvolto nello scandalo adozioni internazionali in Kazakhstan, su cui molti di noi (anche il Gruppo della Lega Nord) hanno presentato interrogazioni che ancora non hanno ottenuto risposta. Auspico pertanto di avere presto queste risposte.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.u75">
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg129">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg130">Ricordo che il Senato tornerà a riunirsi in seduta pubblica oggi, alle ore 16, con l'ordine del giorno già stampato e distribuito.</seg>
+               <seg xml:id="ParlaMint-IT_2015-09-10-LEG17-Sed-502.seg131">La seduta è tolta (ore 11,50).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

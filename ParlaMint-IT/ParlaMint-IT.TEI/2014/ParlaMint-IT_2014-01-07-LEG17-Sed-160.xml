@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 160 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 160 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 160, giorno (2014-01-07)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 160, Day (2014-01-07)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="160-upper">160 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="73" unit="speeches" xml:lang="it">73 discorsi</measure>
+            <measure quantity="73" unit="speeches" xml:lang="en">73 speeches</measure>
+            <measure quantity="5058" unit="words" xml:lang="it">5.058 parole</measure>
+            <measure quantity="5058" unit="words" xml:lang="en">5,058 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0733951</idno>
+               <date when="2014-01-07">07.01.2014</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="13"/>
+               <tagUsage gi="head" occurs="11"/>
+               <tagUsage gi="note" occurs="123"/>
+               <tagUsage gi="seg" occurs="73"/>
+               <tagUsage gi="u" occurs="33"/>
+               <tagUsage gi="vocal" occurs="4"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="23"/>
+               <tagUsage gi="desc" occurs="27"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2014-01-07">07.01.2014</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente GRASSO</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u1">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg1">La seduta è aperta (ore 17,02). Si dia lettura del processo verbale. GENTILE, segretario, dà lettura del processo verbale della seduta del 2 gennaio.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg2">Chiediamo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u3">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u4">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg4">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u5">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg5">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg6">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 17,07).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Su una manifestazione svoltasi presso il domicilio della senatrice Granaiola</head>
+            <note type="speaker">LEPRI (PD)</note>
+            <u ana="#regular" who="#LepriStefano" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg7">Signor Presidente, intervengo solo per esprimere, a nome del mio Gruppo e credo - spero - di tutta l'Aula del Senato, la nostra solidarietà e la nostra vicinanza alla collega senatrice Manuela Granaiola che, qualche giorno fa, è stata oggetto di un cosiddetto flash mob : una nuova scoperta, una nuova modalità attraverso cui alcuni esponenti e rappresentanti del Movimento 5 Stelle a Viareggio hanno inteso manifestare la loro contrarietà nei confronti di alcune iniziative e prese di posizione della nostra collega. Noi riteniamo, evidentemente, assolutamente legittima ogni forma di critica che si vuol manifestare, nelle forme, naturalmente, rispettose dell'autonomia di pensiero e della libertà di espressione. Riteniamo che questa modalità attraverso cui alcuni manifestanti si sono recati presso l'abitazione della collega Granaiola per manifestare in modo rumoroso e, soprattutto, poco rispettoso dell'autonomia di un parlamentare sia assolutamente inaccettabile. Il domicilio di chiunque - lo dice la Costituzione - è sacro. Manifestare in prossimità del domicilio di un collega parlamentare è oltremodo irrispettoso. Vogliamo fin da subito evidenziare l'inciviltà di questa modalità, e ci aspettiamo da parte dei colleghi del Movimento 5 Stelle chiarimenti e, verosimilmente, le loro scuse.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, FI-PdL XVII, NCD, PI, SCpI e dei senatori Bencini, Buemi e Orellana.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per il pronto ristabilimento dell'onorevole Bersani</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u7">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg8">Colleghi, a nome dell'Aula del Senato esprimo solidarietà all'onorevole Bersani</seg>
+               <kinesic type="applause">
+                  <desc>L'Assemblea si leva in piedi. Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg9">che in questo momento si trova ricoverato. Speriamo che al più presto possa essere fra noi.</seg>
+               <kinesic type="applause">
+                  <desc>Vivi, prolungati applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione, con modificazioni, del disegno di legge: (1053) Ratifica ed esecuzione dell'Accordo fra il Governo della Repubblica italiana e il Governo degli Stati Uniti d'America sul rafforzamento della cooperazione nella prevenzione e lotta alle forme gravi di criminalità, fatto a Roma il 28 maggio 2009</note>
+            <note type="time">17,11</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41984.htm</note>
+            <note type="time">(ore 17,11)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u8">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg10">L'ordine del giorno reca la discussione del disegno di legge n. 1053.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg11">Ilrelatore, senatore Compagna, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg12">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">COMPAGNA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u9">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg13">Signor Presidente, l'Aula del Senato è oggi chiamata ad esaminare il disegno di legge di ratifica ed esecuzione dell'Accordo fra il Governo italiano e il Governo degli Stati Uniti d'America sul rafforzamento della cooperazione nella prevenzione e lotta alle forme gravi di criminalità, fatto a Roma il 28 maggio 2009.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg14">Già nella scorsa legislatura il disegno di legge di ratifica era stato approvato in prima lettura dalla Camera. Il testo in esame riproduce integralmente i contenuti di quel disegno di legge, salvo che per l'aggiunta di una norma che prevede successivi decreti di attuazione per assicurare il rispetto delle disposizioni vigenti di norme in materia di protezione dei dati personali.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg15">L'intesa risponde pienamente all'esigenza di rafforzare la cooperazione di polizia fra i due Paesi per il contrasto alle forme gravi di criminalità transfrontaliera e al terrorismo internazionale, ispirandosi all'importante Trattato intergovernativo firmato a Prüm il 27 maggio 2005, a cui l'Italia aderì con la legge n. 85 del 2009, che istituì la banca dati nazionale del DNA presso il Ministero dell'interno e previde che l'accesso ai dati potesse avvenire anche «per le finalità di collaborazione internazionale di polizia».</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg16">I due Stati, Italia e Stati Uniti, si impegnano a rafforzare la cooperazione di polizia, nel rispetto delle competenze attribuite dalla legislazione nazionale, nella prevenzione e nell'attività investigativa di contrasto alle forme gravi di criminalità (senza incidere sulle procedure di assistenza giudiziaria internazionale già esistenti), attraverso la condivisione di informazioni, secondo il principio della disponibilità e reciprocità, e la facoltà di interrogazioni automatizzate dei dati dattiloscopici e dei profili del DNA.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg17">L'intesa prevede, in particolare, che vengano individuati punti di contatto nazionali e i mezzi di comunicazione (articolo 5), nonché stabilite procedure di consultazione per la composizione delle controversie (articolo 19).</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg18">La facoltà di interrogazioni automatizzate prevista dall'Accordo è esercitata unicamente per la prevenzione e per l'attività di contrasto alle forme gravi di criminalità. Una specifica disposizione, relativa allo scambio di informazioni per fini preventivi, riguarda la materia del terrorismo e della criminalità organizzata (articolo 10).</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg19">L'Accordo internazionale consente ai punti di contatto nazionali di accedere ai dati di riferimento contenuti sia nei sistemi nazionali di identificazione delle impronte digitali appositamente creati che negli schedari dei profili dei DNA tramite interrogazioni automatizzate. Le modalità di trasmissione dei dati concordanti sono disciplinate dalla legislazione nazionale, nel rispetto dei diritti fondamentali e degli accordi internazionali in materia di garanzia dei dati personali. Successive intese attuative definiscono le modalità tecniche e procedurali relative alle interrogazioni automatizzate dei dati dattiloscopici e dei profili del DNA.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg20">C'è da segnalare che il Garante per la protezione dei dati personali aveva espresso alcune riserve in ordine all'applicazione dell'Accordo in relazione alle norme europee ed internazionali in materia. Le sue riserve hanno trovato accoglimento con le previsioni, che prima ricordavo, di cui all'articolo 2, in particolare al comma 2.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg21">Gli organismi designati per l'esecuzione dell'Accordo sono, per l'Italia, il Dipartimento della pubblica sicurezza del Ministero dell'interno e, per gli Stati Uniti d'America, il Dipartimento di giustizia e il Dipartimento per la sicurezza interna (articolo 23).</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg22">Gli oneri dell'Accordo sono quantificati in circa 10 milioni per l'anno 2013, e si prevede di farvi fronte mediante corrispondente riduzione dello stanziamento dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2013, allo scopo parzialmente utilizzando l'accantonamento relativo al Ministero degli affari esteri.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg23">A tal riguardo, occorre precisare come la Commissione bilancio del Senato, nella valutazione del provvedimento, abbia espresso parere non ostativo, condizionato però ad una riformulazione della relativa copertura, aggiornandola alla nuova cifra di 10.248.000 euro. La Commissione affari esteri ha conseguentemente provveduto a modificare il testo con l'approvazione dell'emendamento 3.1, riferibile appunto ai 248.000 euro.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg24">Gli oneri complessivi del disegno di legge sono in larga parte (9.922.000 euro) riconducibili alla sviluppo del sistema automatizzato di identificazione delle impronte (AFIS), ivi incluso l'adeguamento delle infrastrutture hardware, nonché specifici interventi di software e aggiornamento del sistema. Il disegno di legge in esame, in sede consultiva, oltre al richiamato parere non ostativo con condizioni espresso dalla Commissione bilancio, ha ricevuto il parere favorevole della Commissione giustizia e quello non ostativo della Commissione affari costituzionali. Ciò premesso, il relatore auspica l'approvazione del provvedimento anche da parte di questa Assemblea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e dei senatori Di Giacomo e Mancuso.</desc>
+               </kinesic>
+            </u>
+            <note type="generalDiscussion">DISCUSSIONE GENERALE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u10">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg25">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Maran. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">MARAN (SCpI)</note>
+            <u ana="#regular" who="#MaranAlessandro" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u11">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg26">Signor Presidente, colleghi, anche il mio Gruppo auspica l'approvazione sollecita del provvedimento. L'Accordo in ratifica, i cui negoziati hanno avuto inizio nel 2009, ha un'importanza strategica fondamentale proprio nell'azione di prevenzione e nell'attività investigativa di contrasto delle forme gravi di criminalità, considerato soprattutto il fatto che esso si fonda sulla condivisione di informazioni delicate, proprio perché questa condivisione è componente essenziale in questo settore. Esso si fonda anche sull'implementazione di tecnologie automatizzate volte a favorire forme di controllo più incisive, soprattutto alle frontiere. Noi pertanto riteniamo che l'Accordo vada rapidamente e sollecitamente ratificato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo SCpI.</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u12">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg27">Signor Presidente, seguirò l'esempio del collega Maran, perché penso sia inutile in quest'Aula ripetere dei concetti su cui tutti siamo d'accordo, anche se è da sottolineare l'importanza dei contenuti del testo al nostro esame. Tutti siamo favorevoli quando si tratta di lotta alle gravi forme di criminalità: lei, signor Presidente, è un esperto in materia perché ne è stato un interprete per tanti anni.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg28">Credo si debba sottolineare un aspetto: quando c'era il Governo Berlusconi, quando al Governo vi era un Ministro dell'interno che si chiamava Roberto Maroni, vi era sicuramente una grandissima disponibilità e volontà nell'affrontare le tematiche della lotta a queste gravi forme di criminalità. Quindi, con un pizzico d'orgoglio, evitando di svolgere considerazioni che so essere condivise da tutti (perché le ho ascoltate in altre sedi), anticipo la dichiarazione di voto in sede di discussione generale e preannuncio il voto favorevole del Gruppo Lega Nord svolgendo un semplice ragionamento sui contenuti del provvedimento al nostro esame.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg29">Si tratta di assumere informazioni e di avere dati che permettano di controllare quanto accade all'interno del nostro Paese senza violare la privacy di alcuno. In un momento così delicato, dove sono di estrema attualità tante tematiche che riguardano l'acquisizione dei dati (i quali sembra che spesso siano acquisiti in modo non perfettamente legale), è opportuno sottolineare che la ratifica di questo Accordo semplificherà lo scambio di informazioni, ma soprattutto codificherà il modo in cui questi scambi dovranno avvenire, proprio a tutela della privacy dei cittadini e con un occhio di riguardo alla sicurezza degli stessi. Nell'Accordo in esame si riesce a trovare un perfetto connubio tra queste due cose: si tratta di due obiettivi importanti che ci spingono quindi ad approvare celermente il disegno di legge in esame.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Orellana. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">ORELLANA (M5S)</note>
+            <u ana="#regular" who="#OrellanaLuisAlberto" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u13">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg30">Presidente, colleghi, il presente disegno di legge ha lo scopo di ratificare l'Accordo firmato il 28 maggio 2009 fra l'Italia e gli Stati Uniti in tema di lotta alla criminalità e al terrorismo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg31">In estrema sintesi, questo Accordo, una volta diventato operativo, consentirà al Dipartimento della pubblica sicurezza del Ministero dell'interno e, per gli Stati Uniti d'America, al Dipartimento di giustizia e al Dipartimento per la sicurezza interna (NSA) una condivisione delle informazioni ed una implementazione di tecnologie automatizzate.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg32">Le informazioni da condividere sono specificatamente i dati dattiloscopici e il DNA. L'Accordo autorizza i rispettivi punti di contatto nazionali ad accedere, tramite interrogazioni automatizzate, ai dati di riferimento contenuti sia nei sistemi nazionali di identificazione delle impronte digitali appositamente creati, sia negli schedari dei profili del DNA. Oltre a queste informazioni (impronte digitali e DNA) potranno essere forniti altri dati alla nostra controparte statunitense per quanto indicato nell'articolo 10.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg33">L'articolo 10 infatti è forse il più importante e, a mio parere, controverso. Esso stabilisce che le parti possano inviarsi reciprocamente - per tramite dei punti di contatto nazionali - ulteriori dati personali allo scopo di perseguire reati gravi come il terrorismo e/o la criminalità organizzata.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg34">Merita particolare attenzione il comma 4 di questo articolo, che specifica che le parti non possono imporre restrizioni generiche all'invio dei dati a causa degli standard giuridici della parte richiedente. L'Italia, ad esempio, non si potrà opporre a richieste di dati adducendo, ad esempio, carenze legislative negli Stati Uniti nella gestione dei dati personali. L'impegno che si sottoscrive ora vincola fortemente l'Italia a inviare i dati che gli investigatori statunitensi richiedessero senza potersi di fatto opporre. Pur non essendo questa la sede della valutazione dell'ordinamento giuridico statunitense in materia di privacy (e pur rientrando gli Stati Uniti fra le democrazie occidentali più avanzate ed essendo nostri tradizionali alleati), questa disposizione dovrebbe meritare maggiore attenzione, anche solo per evitare che possa esser foriera di problematiche connesse a violazioni, eventualmente legalizzate, del diritto di chi, accidentalmente e ingiustamente, dovesse incappare in dette procedure. Da semplice cittadino mi domando inoltre se non sia un'eccessiva apertura di credito verso l'alleato statunitense il fornire dati su persone magari incensurate, ma che si teme possano commettere reati gravi (questo, infatti, è il senso dell'articolo 10). Su quali valide circostanze si possono fondare questi timori? Il rischio è di consentire che vengano forniti dati di persone innocenti alle autorità statunitensi senza un sufficiente controllo da parte della nostra autorità giudiziaria. Inoltre, questo Accordo firmato quasi cinque anni fa andrebbe riconsiderato in questo specifico momento storico, nel quale recenti rivelazioni dei media hanno minato la fiducia reciproca fra i tradizionali alleati occidentali in tema di sicurezza. Mi riferisco, in particolare, allo scandalo del Datagate.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg35">Come sapete, la NSA, ovvero proprio il Dipartimento di sicurezza interna americano, che sarà uno dei punti di contatto oggetto del presente Accordo, si è distinta per una imponente e illegale raccolta di dati sulle comunicazioni fra cittadini al di fuori degli Stati Uniti. In Italia ben 46 milioni di comunicazioni al mese sono sotto controllo, sono tracciate dalla NSA. Eppure, nel 2007, l'attuale presidente Obama, da senatore, denunciò gli eccessi dell'Amministrazione Bush nello spionaggio interno dei propri cittadini e promise di ridurlo drasticamente. Ora, molti suoi stessi elettori sono sgomenti nello scoprire che il loro Presidente non solo ha continuato con la stessa politica di raccolta dati, ma l'ha anche ampliata.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg36">Gli alleati europei, come sappiamo, sono tra le prime vittime. Le nostre rappresentanze diplomatiche come quelle di altre Nazioni europee sono finite nel mirino della raccolta dati illegale degli Stati Uniti: «Obiettivo Cicuta» era il nome, dato dagli agenti segreti americani, alla missione diplomatica italiana presso l'ONU; «Obiettivo Bruneau» era invece quello della nostra ambasciata a Washington. Questo ha scatenato, la scorsa estate, un coro di proteste dei principali leader europei (i più accaniti sono stati il presidente francese Hollande e la cancelliera tedesca Merkel). Il presidente Obama e il suo staff hanno offerto risposte concilianti, di rinnovata amicizia e collaborazione, che potrebbero essere riassunte con un laconico: così fan tutti. Eppure, più volte è stato negato che i nostri servizi segreti agissero in modo analogo e ci è stato detto che le autorità italiane non conoscessero l'esistenza del sistema statunitense PRISM alla base di questo scandalo di dimensioni planetarie. Ma proviamo a soffermarci un attimo sulla nobile giustificazione, in nome della quale molto, troppo è stato permesso, non ultimo la violazione di un certo numero di diritti fondamentali: la lotta al terrorismo internazionale. È una giustificazione che sembra, in certe occasioni, vacillare: «Vi controlliamo per il vostro bene, per la vostra sicurezza, spulciamo le vostre comunicazioni, i vostri acquisti per prevenire tragedie, morti, disperazione». Bene, il dato è ancora più preoccupante di quanto appaia se consideriamo che, ad essere spiati, a grondare microspie, cimici, microfoni e chissà quant'altro erano gli uffici delle principali istituzioni europee: BCE, Commissione europea, Consiglio, Parlamento europeo e le rappresentanze diplomatiche dei Paesi europei presso organismi internazionali (ONU). Stando a questo sillogismo, Francoforte o Bruxelles avrebbero un grado di pericolosità molto più elevato di Kabul o Baghdad, se nella sola città tedesca di Francoforte la NSA, in un giorno, intercettava in media milioni di chiamate e oltre 10 milioni di comunicazioni via Internet. Questi dati fanno pensare - può darsi che io pecchi in malizia - più che all'antiterrorismo, ad una capillare ricerca di preziose informazioni politiche e, sopratutto, economiche, a vantaggio degli Stati Uniti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg37">In questo momento, con questo scenario, ritengo utile e necessario valutare con la giusta attenzione la ratifica di questo Accordo, anche come segnale di critica verso l'alleato statunitense, a cui pure dobbiamo tanto e con il quale i legami di amicizia non possono essere comunque messi in discussione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Razzi. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">RAZZI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#RazziAntonio" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u14">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg38">Signor Presidente, chiedo di poter allegare il mio intervento. Il mio Gruppo voterà a favore della ratifica.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg39">PRESIDENTE. La Presidenza l'autorizza in tal senso.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg40">Dichiaro chiusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg41">Ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">COMPAGNA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u15">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg42">Signor Presidente, molto sobriamente esprimo gratitudine per la disponibilità favorevole alla ratifica espressa dai colleghi Maran, Stucchi e Razzi. Quanto al collega Orellana, mi è parso che le sue osservazioni critiche siano abbastanza laterali all'articolato, perché, prendendo come sponda l'articolo 10, il collega Orellana si domanda e ci domanda se non ci sia un eccesso di apertura di credito nei confronti della grande democrazia americana, del nostro alleato di riferimento dell'ultimo mezzo secolo in politica internazionale, e se questo riferimento non debba venir meno in seguito ad alcune vicende che il senatore stesso ha evocato proprio in tema di protezione dei dati personali.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg43">Io risponderei al collega Orellana con molta schiettezza e sincerità: noi abbiamo molta fiducia e apriamo volentieri credito, come consolidata istituzione democratica, al Dipartimento di giustizia degli Stati Uniti d'America. Per quel che concerne le preoccupazioni evocate anche in noi da alcune recenti vicende, cui si è richiamato il collega Orellana, ci sembrerebbe improprio farle cadere nella politica che, come ricordava il senatore Maran, dopo gli accordi di Prüm si è dipanata in Europa contro il terrorismo e contro la più grave criminalità organizzata.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg44">Di qui l'auspicio di una rapida e sollecita approvazione del provvedimento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg45">PRESIDENTE. Ha facoltà di parlare il rappresentante del Governo.</seg>
+            </u>
+            <note type="speaker">PISTELLI</note>
+            <note type="role">vice ministro degli affari esteri</note>
+            <u ana="#guest" who="#PistelliLapo" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u16">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg46">Signor Presidente, il livello della cooperazione fra le due polizie, quella italiana e quella americana, è da molto tempo ottimo (voglio ricordare che la DEA ha esperti distaccati presso i nostri uffici italiani, così come l'ufficio antidroga italiano ha esperti distaccati presso le strutture americane) e questo Accordo riveste un fortissimo interesse bilaterale innanzitutto per il nostro Paese.</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg47">PRESIDENTE. Prego i colleghi di fare un po' di silenzio.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg48">Continui pure il suo intervento, vice ministro Pistelli.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg49">, vice ministro degli affari esteri. Troppo spesso pensiamo che gli accordi che stipuliamo o che ratifichiamo li facciamo in omaggio a una richiesta altrui. In realtà, questo Accordo corrisponde a un forte interesse bilaterale e nostro alla condivisione di informazioni per il contrasto al crimine transnazionale. Come richiamato in discussione, l'Accordo è fatto sulla falsariga dei testi già negoziati col Trattato di Prüm fra diversi Paesi europei (Belgio, Germania, Spagna, Francia, Olanda, Lussemburgo ed Austria), e l'unico elemento di obiezione che era stato sollevato dal Garante per la protezione dei dati personali è stato superato, avuto riguardo all'articolo 2, comma 2, dell'Accordo di esecuzione, che tiene conto della legislazione italiana in materia di privacy. Segnalo, come diceva il collega Stucchi, che l'Accordo è stato firmato nel 2009, quando il Ministro dell'interno era Maroni, ma che, a differenza del nostro ordinamento, in quello americano tale intesa può entrare direttamente in vigore nel quadro del Visa Waiver Program : cioè, siamo noi ad essere in difetto, con cinque anni di ritardo, rispetto a un'intesa che poteva già entrare in funzione, secondo l'ordinamento americano, cinque anni fa. Quindi, prima facciamo e davvero meglio è per tutti. Io rivendico, a nome del Governo, di avere rimesso dentro una pipeline parlamentare questo testo, la cui ratifica non era stata completata nell'ambito della scorsa legislatura. Essendo la prima seduta del 2014, colgo l'occasione per rivolgere a tutti i colleghi del Senato gli auguri di un buono e proficuo 2014.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u17">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg50">Ricambiamo gli auguri del Governo.</seg>
+            </u>
+            <note>Passiamo all'esame degli articoli, nel testo proposto dalla Commissione.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Passiamo alla votazione dell'articolo 1. MONTEVECCHI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>.</note>
+            <note>Votazione nominale con scrutinio simultaneo</note>
+            <note>PRESIDENTE. Indìco pertanto la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 1. Dichiaro aperta la votazione.</note>
+            <note>(Brusio).</note>
+            <note>Colleghi, per favore, non siamo allo stadio.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Ripresa della discussione del disegno di legge n. 1053 PRESIDENTE. Passiamo alla votazione dell'articolo 2. MONTEVECCHI</note>
+            <note>(M5S)</note>
+            <note>Chiedo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>.</note>
+            <note>Votazione nominale con scrutinio simultaneo</note>
+            <note>PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 2. Dichiaro aperta la votazione.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Ripresa della discussione del disegno di legge n. 1053 PRESIDENTE. Passiamo alla votazione dell'articolo 3. MONTEVECCHI</note>
+            <note>(M5S)</note>
+            <note>Chiedo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>.</note>
+            <note>Votazione nominale con scrutinio simultaneo</note>
+            <note>PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 3. Dichiaro aperta la votazione.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Ripresa della discussione del disegno di legge n. 1053 PRESIDENTE. Passiamo alla votazione dell'articolo 4. MONTEVECCHI</note>
+            <note>(M5S)</note>
+            <note>Chiedo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>.</note>
+            <note>Votazione nominale con scrutinio simultaneo</note>
+            <note>PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 4. Dichiaro aperta la votazione.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Ripresa della discussione del disegno di legge n. 1053 PRESIDENTE.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">MARAN (SCpI)</note>
+            <u ana="#regular" who="#MaranAlessandro" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u18">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg51">Signor Presidente, intervengo solo per annunciare il voto favorevole del Gruppo cui appartengo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo NCD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ROMANO (PI)</note>
+            <u ana="#regular" who="#RomanoLucio" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u19">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg52">Signor Presidente, annuncio il voto favorevole del Gruppo Per l'Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u20">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg53">Signor Presidente, come ho detto prima nel corso della discussione generale, voteremo a favore della ratifica dell'accordo al nostro esame, che riteniamo importante e che ci auguriamo entri presto in vigore.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi LN-Aut e NCD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GIARRUSSO (M5S)</note>
+            <u ana="#regular" who="#GiarrussoMarioMichele" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u21">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg54">Signor Presidente, il Movimento 5 Stelle ha evidenziato la particolarità dello stato dei rapporti con il nostro alleato americano in questo particolare momento, ma soprattutto la mancanza assoluta di qualunque tipo di dibattito in ordine ai fatti gravissimi che sono stati richiamati proprio in relazione ai rapporti con le attività illegittime di intelligence espletate dallo stesso nostro alleato. Il Movimento 5 Stelle voterà a favore della ratifica dell'accordo in votazione per senso di responsabilità, ma con tutte le riserve già avanzate in ordine alla gestione di questo tipo di informazioni e al controllo su di esse, che deve essere massimo. Nell'ultimo anno la politica è stata silente su questi problemi. Ricordiamo benissimo in queste Aule quando altri, su intercettazioni del tutto legittime della magistratura, hanno sollevato polveroni indecenti e indicibili</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg55">, tacendo invece quando i nostri alleati americani hanno intercettato tutto e tutti per i loro scopi. Altro che terrorismo! Altro che lotta alla malavita!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">URAS (Misto-SEL)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u22">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg56">Signor Presidente, intervengo solo per annunciare il voto favorevole del Gruppo Misto-SEL.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Sibilia.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">AMORUSO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#AmorusoFrancescoMaria" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u23">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg57">Signor Presidente, anch'io intervengo per svolgere una breve dichiarazione di voto a nome del Gruppo Forza Italia. Come sappiamo benissimo, la lotta al terrorismo e alla criminalità è fondamento del vivere civile e della sicurezza internazionale. Gli ottimi rapporti - come riportava il rappresentante del Governo - tra il Governo italiano e gli Stati Uniti in questo campo non fanno che avvalorare ancora di più la necessità di procedere immediatamente all'approvazione di questo provvedimento, che riguarda anche aspetti moderni di partecipazione e di intervento da parte delle due polizie, in modo particolare per quanto riguarda l'attività investigativa e di contrasto alle forme gravi di criminalità, attraverso sia la condivisione di informazioni che la facoltà di interrogazioni automatiche dei dati dattiloscopici e dei profili del DNA. Penso che questa, come già emerso nelle dichiarazioni di voto e nel voto dei singoli articoli, rappresenti una volontà comune del Senato. Anche il Gruppo di Forza Italia, per tali ragioni, voterà a favore di questo provvedimento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">RUSSO (PD)</note>
+            <u ana="#regular" who="#RussoFrancesco" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u24">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg58">Signor Presidente, onorevoli colleghi, anche il Gruppo Partito Democratico voterà convintamente a favore di questo provvedimento, la cui bontà si manifesta anche alla luce dell'unanimità del voto che è stato espresso in Commissione, e anche nelle precedenti votazioni. Esso testimonia, come è stato ricordato, il grado di assoluta qualità della cooperazione tra Stati Uniti e Italia in questo campo, che è già esemplificata nell'ambito delle Nazioni Unite: ricordo la Convenzione di Palermo del 2000, che rappresenta proprio la Magna Charta di cornice rispetto alla lotta alla criminalità organizzata a livello internazionale. Vogliamo sottolineare il fatto che, nonostante le criticità ricordate anche in quest'Aula (e mi fa piacere che l'accordo preveda garanzie esplicite di privacy, sulle quali il Parlamento e il Governo sono chiamati a vigilare), sia proprio il livello internazionale di cooperazione a garantire meglio di ogni altra cosa i cittadini e le forze di polizia rispetto all'efficacia dell'azione di queste. È per questo che non soltanto questo accordo, ma anche la cooperazione a livello europeo - ricordiamo il terzopilastro del Trattato dell'Unione europea, che comprende e ha come focus il tema oggi in esame - ci spingono sempre di più verso una cooperazione che ci permetterà di rendere più omogenee ed efficaci le strumentazioni, anche informatiche, che costituiscono l'oggetto dell'Accordo in ratifica: si tratta di una cooperazione che fa fronte ai terribili problemi che il mondo contemporaneo ci pone. Ribadisco, quindi, il voto favorevole del Gruppo Partito Democratico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u25">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg59">Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u26">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg60">Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco pertanto la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, del disegno di legge, nel suo complesso. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg61">Constato che l'approvazione è avvenuta all'unanimità.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Su atti di intimidazione nei confronti di due ricercatori scientifici a Milano</head>
+            <note type="speaker">GIOVANARDI (NCD)</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u27">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg62">Signor Presidente, nell'associarmi alla solidarietà per la collega vittima di uno spiacevole episodio, faccio presente che i muri di Milano sono stati riempiti di manifesti su cui due ricercatori scientifici, due professori ordinari di farmacologia presso l'Università di Milano, vengono chiamati per nome e cognome e definiti assassini e vivisettori, con l'indirizzo e il numero telefonico di casa e l'invito a contattare i «boia», come sono definiti i ricercatori su questi manifesti.</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg63">PRESIDENTE. Prego, colleghi, allontanatevi dall'Aula in silenzio.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg64">GIOVANARDI (NCD). Signor Presidente, vorrei richiamare l'attenzione sull' escalation di violenza, non soltanto verbale, che caratterizza questo Paese: abbiamo assistito tutti con stupore e indignazione agli insulti che pubblicamente vengono rivolti a persone, come ad esempio l'onorevole Bersani nel momento della malattia. Ma c'è di peggio, come indicare quali assassini, chiamandoli per nome e cognome, dei ricercatori scientifici, esponendoli a rischi alla fine di un anno in cui, in dodici mesi, gli attentati, le prevaricazioni e i danneggiamenti si sono ripetuti puntualmente. Noi siamo nell'ambito dell'ecoterrorismo, e tali atti richiamano non soltanto, signor Presidente....</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg65">Signor Presidente, io le sto parlando di due professori universitari che su manifesti affissi a Milano sono stati indicati come assassini, come vivisettori, con l'indicazione del numero telefonico e dell'indirizzo di casa e con l'invito a rivolgersi a quei «boia», perché tali sono definiti! Siamo nella scia di una serie di atti concreti, di danneggiamenti terroristici, di irruzioni all'interno di laboratori dove i ricercatori sono stati intimiditi e da cui le cavie sono state fatte scappare. Stiamo quindi parlando di parole e di fatti, in una escalation drammatica che ha coinvolto anche una povera giovane, di poco più di vent'anni, Caterina, che è stata insultata soltanto perché rivendicava il diritto di vivere e di essere curata. Credo che le autorità, soprattutto quando dalle parole si passa a manifestazioni così eclatanti come le liste di proscrizione stampate e affisse sui muri di Milano, possano anche rintracciare i mandanti di questi manifesti e perseguirli, come è giusto che sia, prima che nel nostro Paese, come al solito, si pianga dopo che saranno avvenuti fatti che diventano inevitabili nel clima di odio che qualcuno sta creando.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla votazione finale del disegno di legge n. 1053</head>
+            <note type="speaker">SCILIPOTI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#ScilipotiIsgroDomenico" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u28">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg66">Signor Presidente, per quanto riguarda la ratifica ed esecuzione dell'Accordo fra il Governo della Repubblica italiana e il Governo degli Stati Uniti d'America sul rafforzamento della cooperazione nella prevenzione e lotta alle forme gravi di criminalità, fatto a Roma il 28 maggio 2009, avevo espresso un voto favorevole. Purtroppo, però, la mia postazione non era funzionante. Dichiaro, pertanto, che il mio voto, pur se non risulta, era ed è favorevole. PRESIDENTE. La Presidenza ne prende atto.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'opportunità di introdurre un contrassegno identificativo per le forze dell'ordine</head>
+            <note type="speaker">MARTELLI (M5S)</note>
+            <u ana="#regular" who="#MartelliCarlo" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u29">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg67">Signor Presidente, vorrei parlare oggi di una questione che ritorna ciclicamente, ogni volta che si verificano incidenti di piazza o che qualcuno solleva il velo sulla questione. Si tratta dell'identificativo delle forze dell'ordine. Sappiamo bene che tale questione sorge tutte le volte che si svolgono manifestazioni durante le quali si scatenano violenze, più o meno evitabili. Ebbene, tutte le volte che accade questo si creano le solite fazioni: qualcuno è favorevole, qualcuno è contrario, adducendo i pretesti più assurdi. Nel ricordare che il Movimento 5 Stelle ha da mesi presentato una mozione affinché ci sia un codice identificativo sia sugli strumenti di offesa che su quelli di difesa, cioè il casco, la pettorina e lo sfollagente, affinché ciascuno sia responsabile del suo proprio armamentario di sicurezza, volevo anche ricordare che queste cose ce le dice l'Europa. Noi ripetiamo «l'Europa ci dice» solamente quando ci fa comodo. Ebbene, nel 2001 il Consiglio d'Europa ha varato il codice europeo di etica per la polizia, che affronta questioni quali il rapporto fra polizia e sistema di giustizia penale. Negli articoli 36, 37 e 38 il codice dice che non si devono infliggere trattamenti inumani, e, all'articolo 45, che gli appartenenti alle forze di polizia, in occasione dei loro interventi, devono essere in grado di dar conto della propria qualità e della propria identità professionale. Una risoluzione del Parlamento europeo del 2012 evidenzia che il Parlamento esprime preoccupazione per il ricorso ad una forza sproporzionata da parte della polizia durante eventi pubblici e manifestazioni nell'Unione europea ed invita gli Stati membri a provvedere affinché il controllo giuridico e democratico delle autorità incaricate dell'applicazione della legge e del loro personale sia rafforzato. Inoltre, lo stesso Sindacato dei lavoratori di polizia, il SILP, ha dichiarato nel novembre 2012 che gli agenti che fanno ordine pubblico devono indossare un codice identificativo alfanumerico, dandone anche la spiegazione, con riferimento all'esigenza di realizzare un duplice effetto: trasparenza verso l'opinione pubblica e garanzia dei poliziotti nello svolgere il loro servizio. Quindi, ogni volta che pensiamo al codice identificativo, ricordiamoci che ci sono delle convenzioni e delle risoluzioni che noi stessi abbiamo sottoscritto, e abbiamo il dovere di ottemperarvi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Su una manifestazione svoltasi presso il domicilio della senatrice Granaiola</head>
+            <note type="speaker">BOTTICI (M5S)</note>
+            <u ana="#regular" who="#BotticiLaura" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u30">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg68">Signor Presidente, vorrei rispondere al senatore Lepri per chiarire che la manifestazione a Viareggio (che era un flash mob, quindi non una manifestazione nei termini conosciuti, ma un atto dimostrativo) è stata organizzata da gruppi locali che godono della più completa autonomia, e che le relative autorizzazioni sono state rilasciate dagli organi competenti (questura), che erano ben a conoscenza di dove essa si sarebbe svolta (di fronte alla stazione). Poi i giornali, che hanno tirato fuori la questione della casa della senatrice Granaiola, hanno ingigantito un po' il tutto. La manifestazione si è svolta in modo goliardico e canzonatorio (alcuni erano vestiti da befana). Comunque possiamo comprendere l'imbarazzo e l'inquietudine della senatrice Granaiola - e per questo ci scusiamo in qualche modo - per essere stata presa come capro espiatorio contro il suo partito, ma non possiamo dimenticare i vari fatti che hanno portato a questa manifestazione.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg69">Vi ricordo che negli ultimi mesi in questo Parlamento ne abbiamo viste di tutti i colori.</seg>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg70">Ribadisco quindi che è stata una manifestazione di un gruppo locale, che non ha chiesto né confermato la nostra presenza come parlamentari. Come abbiamo detto più volte in quest'Aula, le persone fuori, i cittadini comuni, non riescono a comprendere quello che accade in queste Aule, quindi hanno bisogno di fatti concreti a favore degli stessi, non sempre di alcune lobby o di altri regalini che dal Governo vengono fatti ad alcune associazioni, o quant'altro (ricordo che il Governo è comunque a formazione PD). Pertanto ribadisco che, se il Governo ed i parlamentari fanno delle cose concrete, le manifestazioni poi si fermano da sole.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GRANAIOLA (PD)</note>
+            <u ana="#regular" who="#GranaiolaManuela" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u31">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg71">Signor Presidente, mi corre l'obbligo di precisare alcuni aspetti. Ringrazio la senatrice Bottici per aver voluto fare delle precisazioni, ma non è vero che la stampa ha ingigantito la cosa, perché se va a vedere le foto sulla stampa vedrà che la manifestazione era esattamente davanti alla mia casa. Quindi, nessuna esagerazione dalla stampa. Se è una goliardia augurare ad una persona la «fine molecolare», credo che la goliardia la conoscano poco.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u32">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg72">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per le sedute di mercoledì 8 gennaio 2014</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.u33">
+               <seg xml:id="ParlaMint-IT_2014-01-07-LEG17-Sed-160.seg73">Il Senato tornerà a riunirsi domani, mercoledì 8 gennaio, in due sedute pubbliche, la prima alle ore 9,30 e la seconda alle ore 16,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 17,54).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

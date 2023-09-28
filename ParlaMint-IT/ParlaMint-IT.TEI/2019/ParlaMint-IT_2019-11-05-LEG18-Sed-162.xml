@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #covid" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 162 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 162 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 162, giorno (2019-11-05)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 162, Day (2019-11-05)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="162-upper">162 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="89" unit="speeches" xml:lang="it">89 discorsi</measure>
+            <measure quantity="89" unit="speeches" xml:lang="en">89 speeches</measure>
+            <measure quantity="8430" unit="words" xml:lang="it">8.430 parole</measure>
+            <measure quantity="8430" unit="words" xml:lang="en">8,430 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1125898</idno>
+               <date when="2019-11-05">05.11.2019</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="9"/>
+               <tagUsage gi="head" occurs="8"/>
+               <tagUsage gi="note" occurs="50"/>
+               <tagUsage gi="seg" occurs="89"/>
+               <tagUsage gi="u" occurs="22"/>
+               <tagUsage gi="vocal" occurs="10"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="incident" occurs="3"/>
+               <tagUsage gi="kinesic" occurs="39"/>
+               <tagUsage gi="desc" occurs="52"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2019-11-05">05.11.2019</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente TAVERNA</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u1">
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg1">La seduta è aperta (ore 16,31). Si dia lettura del processo verbale. MONTEVECCHI, segretario, dà lettura del processo verbale della seduta del 31 ottobre. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u2">
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg3">Colleghi, come sapete è in corso la Conferenza dei Capigruppo. Sospendo pertanto la seduta fino al termine della Conferenza medesima. (La seduta, sospesa alle ore 16,35, è ripresa alle ore 16,48).</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+         </div>
+         <div type="debateSection">
+            <head>Sul tragico incidente di Quargnento, in provincia di Alessandria</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u3">
+               <incident type="action">
+                  <desc>Il Presidente e l'Assemblea si levano in piedi.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg4">Onorevoli colleghi,com'è tristemente noto, questa notte un'esplosione ha distrutto un cascinale a Quargnento, in provincia di Alessandria, causando la morte di tre vigili del fuoco e il ferimento di altri due pompieri e di un carabiniere.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg5">Le vittime sono Matteo Gastaldo, Marco Triches, entrambi di Alessandria, e Antonino Candido di Reggio Calabria.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg6">Sono in corso le indagini per accertare le cause e la reale dinamica di un evento così grave e devastante.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg7">Secondo quanto si apprende da alcune fonti, l'esplosione potrebbe essere riconducibile ad un atto doloso, circostanza che renderebbe ancor più sconcertante la tragedia che ha colpito il Corpo dei vigili del fuoco.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg8">Il nostro pensiero va a tutti coloro che svolgono attività di vigilanza sul territorio e mettono la propria vita a servizio della sicurezza e della serenità dei cittadini.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg9">Nell'esprimere il cordoglio del Senato della Repubblica per le vittime e la vicinanza e la solidarietà ai feriti coinvolti nel tragico evento, invito l'Assemblea ad osservare un minuto di silenzio.</seg>
+               <incident type="sound">
+                  <desc>L'Assemblea osserva un minuto di silenzio.</desc>
+               </incident>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato Discussione e reiezione di proposta di modifica al calendario dei lavori dell'Assemblea</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u4">
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg10">Onorevoli colleghi, la Conferenza dei Capigruppo, riunitasi oggi pomeriggio, ha stabilito che giovedì 7 novembre, alle ore 16,30, il Ministro dello sviluppo economico renda un'informativa sulla situazione dell'azienda Ilva con successivi interventi dei rappresentanti dei Gruppi per dieci minuti ciascuno.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg11">In relazione ai lavori della 1ᵃ Commissione permanente, l'inizio della discussione sul decreto-legge in tema di riordino dei Ministeri è rinviata a domani mattina.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg12">Le comunicazioni del Presidente sul contenuto del disegno di legge di bilancio, ai sensi dell'articolo 126, commi 3 e 4, del Regolamento, avranno luogo nella giornata di domani in relazione ai lavori della Commissione bilancio.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg13">Il question time di giovedì pomeriggio alle ore 15 vedrà la presenza dei Ministri dell'ambiente, dei beni culturali, nonché per le pari opportunità e la famiglia.</seg>
+            </u>
+            <note type="speaker">BERNINI (FI-BP)</note>
+            <u ana="#regular" who="#BerniniAnnaMaria" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u5">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg14">Signor Presidente, vorrei intervenire sul tema che è stato oggetto della Conferenza dei Capigruppo, da noi richiesta proprio per questo motivo, ovvero l'annuncio di ritiro di ArcelorMittal dovuto all'eliminazione dello scudo penale, che rischia di procurare al nostro Paese un danno industriale di proporzioni cospicue, tema su cui, come è stato precisato durante la riunione dei Capigruppo, non abbiamo alcuna intenzione di fare polemica politica strumentale. Il problema ci interessa, ci angoscia. Riteniamo che la questione non si stia trattando con la dovuta serietà, riteniamo che ci debba essere non solamente serietà ma anche rispetto nei confronti di un comparto ma soprattutto di persone che hanno creduto agli affidamenti assunti da un Governo che non può nascondersi dietro al fatto di non essere lo stesso Governo. Il Presidente del Consiglio ci ha annunciato di essere in procinto di ricevere, o comunque di incontrare i rappresentanti di ArcelorMittal e ci dice che ha intenzione di protestare vigorosamente rispetto alla decisione di ritiro di una industria che comunque ha ricevuto degli affidamenti ed ha a sua volta dato degli affidamenti, ha a sua volta dato delle disponibilità economico-finanziarie, oltre ai 4 miliardi di euro e alla garanzia di un piano di bonifica e riqualifica per noi fondamentale per la realizzazione del piano ambientale. Tutto questo, Presidente e colleghi, è stato cristallizzato in un contratto contenente un accordo negoziale che ha vincolato il nostro Governo non solamente all'impresa e all'industria ArcelorMittal, che deve garantire la prosecuzione di un comparto per noi fondamentale che è la siderurgia, nel quale siamo leader nel mondo - abbiamo superato la Germania - ma anche nei confronti di tutti i dipendenti (più di 1.200) che ArcelorMittal si è impegnata ad assumere sulla base di tale contratto. Signor Presidente, colleghi, stiamo parlando di persone, per questo non ci permetteremmo mai di fare su questo strumentalizzazione politica, però quello che sta facendo il Governo in questo momento ci preoccupa drammaticamente, perché sta disattendendo un accordo negoziale assunto con un'impresa che ha garantito il mantenimento della produzione siderurgica nel nostro Paese, che rappresenta un punto e mezzo di PIL, che rappresenta almeno 24 miliardi di indotto, che rappresenta lavoro per 20.000 persone direttamente e per 40.000 persone nella sua definizione di indotto. Signor Presidente, colleghi, noi riteniamo che per parlare di questo, con tutto il rispetto per il sottosegretario D'Incà, che ha dato la sua disponibilità... LANNUTTI (M5S). È Ministro! BERNINI (FI-BP). Chiedo scusa, è stato un orribile refuso, di cui mi scuso profondamente. Con tutto il rispetto per il ministro D'Incà, che ha dato la disponibilità del Governo, e per il ministro Patuanelli che, a sua volta, ha dato disponibilità per venire a riferire alle 16,30 di giovedì, colleghi, vi chiedo: di cosa deve riferire se già il Governo, nella persona dei ministri Bellanova e Costa, sta dicendo due cose diverse? Abbiamo bisogno del Presidente del Consiglio! Vogliamo il Presidente del Consiglio, vogliamo l'unica persona in grado di garantire l'unità di direzione politica del Governo. Per questo motivo abbiamo richiesto la Conferenza dei capigruppo; per questo motivo chiediamo a tutti voi di sostenere la nostra richiesta di avere qui, domani, il Presidente del Consiglio dopo l'incontro con i vertici di ArcelorMittal, da cui dipende la vita o la morte di un comparto, che determinerà la vita o la morte di un territorio, il Sud, ma anche di tutta l'Italia, perché la crisi del Sud significa la crisi di tutto il Paese. A fronte di un tema di questa gravità, trattato con tanta superficialità, mi scuso con i colleghi perché non voglio fare strumentalizzazione politica</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg15">, ma è terribilmente superficiale votare per l'eliminazione dello scudo penale, che avete concesso a determinate condizioni, e poi presentare un emendamento per rimetterlo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg16">Colleghi, questo è terribilmente strumentale, questo è assolutamente vergognoso, non solamente nei confronti dei dipendenti e dell'indotto di Ilva, ma nei confronti dei cittadini italiani, che sono traditi ancora una volta nella loro fiducia.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg17">Richiediamo qui, ancora una volta, la persona che dice di essere sempre disponibile a venire e che sarà un Presidente del Consiglio che, nel rinascimento italiano che ci ha promesso con le sue dichiarazioni programmatiche, sarà sempre disponibile a confrontarsi con il Parlamento. Quando, se non di fronte a una situazione così grave, che lo sarà ancor di più nel prosieguo? Perché, colleghi, un punto e mezzo di PIL al Sud significa un impoverimento del Sud, del Centro e del Nord, che mai come ora non ci possiamo permettere.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg18">Colleghi, se perdiamo l'Ilva, perdiamo almeno 24 miliardi, che sono esattamente la somma necessaria per fermare l'aumento dell'IVA, sterilizzando le clausole. Noi non sappiamo se il Governo fermerà effettivamente l'aumento dell'IVA e sterilizzerà le clausole, ma sicuramente sta fermando l'Ilva e questo - ripeto - non ce lo possiamo permettere.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg19">Signor Presidente del Consiglio, la aspettiamo qui, come lei ha promesso di fare, per chiarire una situazione che solo lei può chiarire.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ROMEO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#RomeoMassimiliano" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg20">Signor Presidente, come Gruppo Lega ci uniamo alla proposta presentata dalla collega Bernini, a nome di Forza Italia, per esprimere il nostro disappunto e la non approvazione del calendario perché anche noi avremmo voluto avere qui il Presidente del Consiglio domani a prendersi le proprie responsabilità di fronte ad una vicenda drammatica per il nostro Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg21">Visto che dichiara alla stampa che garantiranno la salvaguardia dei posti di lavoro, venga in Aula a dirci come e soprattutto vogliamo un impegno da parte dell'Assemblea: non ci basta un'informativa generale, giusto per raccontarci quello che è successo. Vogliamo un impegno, un atto di indirizzo chiaro che venga dall'Assemblea, per far sì che davvero ci sia una risposta a quei 10.000, 12.000, 14.000, più di 20.000 lavoratori se guardiamo anche l'indotto che, oggi come oggi, stanno vivendo momenti di grandissima difficoltà.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg22">La questione grave non è tanto il fatto che si possa strumentalizzare o meno; poteva anche esserci una strumentalizzazione. Il fatto è che, circa due settimane fa, in quest'Aula - e ricordo un mio intervento nel merito - la Lega aveva fatto presente la necessità di stare attenti a togliere il miniscudo, che era un'azione di buonsenso, la giusta mediazione che la Lega, quando era al Governo, aveva trovato tra il maxiscudo renziano e il nulla voluto dal MoVimento 5 Stelle.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg23">Il miniscudo serviva a realizzare il piano ambientale e noi avevamo detto a tutti voi di stare attenti perché, se fosse stato tolto, ci sarebbe stato il rischio di un disimpegno da parte di ArcelorMittal, e conseguentemente che l'azienda avrebbe potuto chiudere, con le conseguenze del caso per i lavoratori. Questo è stato il nostro intervento, quindi siete stati avvisati preventivamente: attenzione, non fate questo errore, trovate una soluzione politica adesso, perché poi può essere troppo tardi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg24">Qualcuno di voi disse che l'azienda si nascondeva dietro la questione dello scudo, perché aveva già deciso da tempo il disimpegno, questione che oggi è stata confermata secondo le dichiarazioni del ministro Patuanelli. Tuttavia, in quell'occasione, avevamo detto a tutti voi che, se anche così fosse stato - mettiamo caso che davvero il ministro Patuanelli avesse ragione, ovvero che il miniscudo fosse semplicemente un pretesto, perché in realtà c'era già il disimpegno - fornirgli l'alibi sarebbe stato ancora più grave.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg25">Questo è ciò che abbiamo detto in quest'Aula! Quindi, la nostra non è stata un'opposizione su quel provvedimento - lo ricordate bene - di tipo ostruzionistico; anzi, abbiamo cercato, a partire dai rider, fino a tutte le altre imprese, (Whirlpool e quant'altro), di dare i consigli e i suggerimenti giusti, dopo tutta la fatica che si era fatta per arrivare a quella soluzione di buonsenso. Poiché per governare serve la rivoluzione del buonsenso!</seg>
+               <kinesic type="applause">
+                  <desc>applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg26">Quello che la Lega ha dimostrato in tutti i mesi che ha governato, usando il cervello, facendo sì che il diritto alla salute potesse andare di pari passo con il diritto al lavoro, che è cosa fondamentale. Queste furono le nostre parole, ma voi ve ne siete altamente fregati; avete votato la fiducia perché c'era il rischio che addirittura potesse saltare il Governo e oggi, anzi ieri abbiamo avuto la conferma di tutti i dubbi e le perplessità che avevamo messo in evidenza. Quindi, ve l'avevamo detto e, nonostante questo, siete andati avanti lo stesso, a sbattere contro il muro e oggi siamo qui a parlare di un argomento grave: questo è il tema che dobbiamo mettere in rilievo. Quel decreto-legge, così come varato - ed è scritto chiaro - porta l'articolo 14, che era la soluzione: è assurdo fornire l'alibi o addirittura regalare a una multinazionale la possibilità di andarsene a investire da qualche altra parte, magari facendo il favore di qualche altro Paese europeo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg27">È ancora più grave! Abbiate, allora, la dignità, dopo quel voto, che è assodato, chiaro e palese - non scappate di fronte a questo - di venire in Aula e di votare una risoluzione per far sì che davvero ci sia un indirizzo politico chiaro per salvare l'ex Ilva e per far sì che si mantengano realmente gli investimenti e si tutelino i lavoratori. Ma purtroppo, nella Conferenza dei capigruppo di oggi, non avete avuto neanche questo coraggio, perché vi vergognate, vi nascondete.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg28">Mandate qui il ministro Patuanelli, a cui vogliamo tanto bene, ma è Conte che deve venire in Aula. È il presidente Conte, che ama sempre parlamentarizzare tutto. Vi ricordate? Ha sempre detto che il Parlamento è il luogo dove bisogna discutere, dove bisogna affrontare i problemi. Nel suo discorso sulla fiducia ha detto di voler salvare il Mezzogiorno? È così che si salva il Mezzogiorno? Ma vergognatevi! Vergognatevi, altroché!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Grimani.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg29">Non faccia gestacci, senatore; lo sa che ho sempre rispetto da parte di tutti, non facciamo gestacci in Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg30">GRIMANI (IV-PSI). Ma quali gestacci? ROMEO (L-SP-PSd'Az). Se ho visto male, chiedo scusa, non voglio fare polemica, però mi lasci finire. È vero che dovrei rivolgermi alla Presidenza; non mi richiami, Presidente. PRESIDENTE. Non le farò mai gestacci. ROMEO (L-SP-PSd'Az). Per queste motivazioni, noi chiediamo che il presidente Conte venga a riferire in Aula domani, subito dopo l'incontro delle ore 11 con ArcelorMittal. Sarebbe davvero segno di trasparenza e voglia di affrontare i problemi usando lo strumento delle comunicazioni.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg31">Prendetevi le vostre responsabilità. Sistemate la questione all'interno della maggioranza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az. Commenti dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg32">Quando eravamo al Governo ho sentito più volte, dai banchi del Partito Democratico, parlare di tutela delle aziende e di lavoro. Alla fine, però, cosa succede? Dopo tutto quello che avete detto sul reddito di cittadinanza, alla luce dei numeri che sono emersi avete votato una manovra che contiene il reddito di cittadinanza.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dai Gruppi M5S e PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg33">MATRISCIANO (M5S). Ma che c'entra? ROMEO (L-SP-PSd'Az). Avete davvero una capacità di cambiare le vostre posizioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg34">Scusate, posso finire? PRESIDENTE. Senatore Romeo, si rivolga a me.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg35">Noi speculiamo sui poveri? Avete visto i dati sul reddito di cittadinanza? Ponetevi qualche domanda.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg36">Fatevene qualcuna. Guardate soprattutto i dati relativi a Pomigliano d'Arco! Ripeto: fatevi qualche domanda.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg37">Quindi, con responsabilità, abbiate il coraggio di venire qua.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az. Commenti dal Gruppo M5S. Applausi ironici del senatore Nencini.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">URSO (FdI)</note>
+            <u ana="#regular" who="#UrsoAdolfo" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg38">Signor Presidente, l'argomento in questione è estremamente serio e importante, anzitutto perché riguarda un grande impianto siderurgico - il più grande d'Europa - e la più grande azienda del Mezzogiorno. Il tema è inoltre estremamente serio e importante perché la siderurgia è il cuore dell'industria italiana. Se in Italia si è sviluppata una filiera metalmeccanica competitiva a livello globale, che per altro esprime la prima voce dell'economia e dell' export italiano, è perché essa si è potuta sorreggere sull'industria siderurgica italiana che era la prima in Europa. Ove chiudesse l'ex Ilva di Taranto, non chiuderebbe soltanto un'impresa che, in quella zona del Sud, dà lavoro a oltre 10.000 persone e alle loro famiglie e alle filiere dell'indotto, ma si determinerebbero un impatto negativo su altri impianti siderurgici italiani - penso a quello di Novi Ligure - nonché un colpo mortale per buona parte dell'industria metalmeccanica italiana. Per questo motivo è così importante salvaguardare quello stabilimento e la filiera produttiva che sta a valle. Proprio per questo motivo, pochi giorni fa, avevamo sollevato la questione in quest'Assemblea, chiedendo espressamente ai senatori - in modo specifico a quelli del Partito Democratico - di non avallare il ricatto strumentale di una parte del Gruppo MoVimento 5 Stelle, tanto più a fronte di un provvedimento che era nato nel precedente Governo, salvo intese - espressione ne era il ministro del lavoro e delle politiche sociali, nonché dello sviluppo economico Di Maio - per poi essere avallato dal successivo Governo e, quindi, dall'Assemblea. In quel momento avevamo chiesto ed evidenziato l'importanza di mantenere quel mini scudo che era stato elaborato e concordato con l'azienda. Avevamo inoltre evidenziato come l'azienda avrebbe potuto cogliere l'occasione e la giustificazione per tornare indietro sui suoi passi e rinunciare all'investimento. Peraltro, tutti sanno in quest'Aula, soprattutto chi studia cultura industriale, che l'azienda indiana aveva pensato di realizzare quell'investimento in alternativa ad altri gruppi, sempre indiani, perché le aziende siderurgiche italiane fanno gola ai magnati della siderurgia indiana, nella loro competizione - potrei dire guerra - all'interno del loro stesso Paese per la conquista del mercato europeo, a cominciare dalla produzione italiana. Come tutti sanno, negli ultimi mesi si è combattuta una guerra in Italia tra chi voleva accaparrarsi l'industria di Terni, chi voleva accaparrarsi la Lucchini e chi voleva accaparrarsi l'Ilva. In quella competizione i partner internazionali hanno due alternative: comprare uno stabilimento per produrre o comprare uno stabilimento per chiuderlo. Il gruppo ArcelorMittal aveva scelto di comprare lo stabilimento per produrre. Ma allo stesso gruppo va bene anche che lo stabilimento chiuda, perché è un modo per eliminare un concorrente. Come sanno tutti coloro che studiano la globalizzazione dei fenomeni industriali, quando si vuole comprare qualcosa - mi riferisco per esempio al gruppo Whirlpool, che è oggetto dello stesso decreto-legge - lo si fa o per acquisire un sito produttivo e rendersi più potenti o per evitare che quel sito produttivo venga comprato dai concorrenti; quindi è meglio comprarlo, per evitare che lo facciano i concorrenti. Talvolta lo si compra - mi riferisco anche al caso Whirlpool - per chiudere lo stabilimento, favorendo gli stabilimenti che lo stesso gruppo ha in altri Paesi. Siamo caduti nella trappola degli indiani per quanto riguarda l'Ilva di Taranto. Di chi è la responsabilità? È di tanti, verosimilmente oggi nello stesso Governo Conte. Noi crediamo che sia doveroso - lo hanno chiesto ieri per primi i Capigruppo del mio Gruppo Fratelli d'Italia, Lollobrigida alla Camera e Ciriani al Senato - che Conte riferisca in Aula subito, con una comunicazione che le permetta di esprimersi e di dare un indirizzo di politica industriale sul provvedimento in questione e su quella azienda, che riguarda l'intera industria italiana e non deve essere derubricato a incidente di percorso, perché non lo è. Esso è il frutto di una mancata cultura industriale o, meglio, di una cultura contro l'industria che pervade larghe parti di questo Parlamento e della maggioranza e pregiudica l'interesse nazionale, lo sviluppo economico e quindi anche l'occupazione, e non solo nel Mezzogiorno. Il chiarimento è assolutamente necessario: deve essere fatto dal Presidente del Consiglio in quest'Aula e con un dibattito che porti a una conclusione e, quindi, a un voto da parte dell'Assemblea. Io credo che questo sia dirimente - non uso le parole a caso - per la salvaguardia della stessa maggioranza e dello stesso Governo. Noi aspettiamo che Conte, con un briciolo di responsabilità, venga qui in Aula a dirci come mai ha sottovalutato quanto è accaduto due settimane fa, a fronte di quello che noi avevamo detto in quest'Aula e che chiunque sappia leggere le cronache di questo Paese aveva previsto sarebbe accaduto. C'è una colpevole responsabilità del Governo nell'accedere a un ricatto ideologico, bruciando su di esso l'interesse nazionale, che in questo campo è più evidente che mai.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FARAONE (IV-PSI)</note>
+            <u ana="#regular" who="#FaraoneDavide" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg39">Signor Presidente, sono contento che questa seduta si stia tenendo, visto che ieri avevamo ascoltato delle dichiarazioni da parte del senatore Salvini, secondo le quali sarebbe arrivato qui e avrebbe interrotto i lavori d'Aula se non si fosse presentato il presidente Conte. È già la seconda volta che accade, signor Presidente, e mi aspetto che alla terza, almeno alla terza, ci sia una reazione da parte della Presidenza. Abbiamo già dovuto subire il fatto che i senatori, in piena estate, dovessero alzare il sedere per venire qui a occuparsi di una seduta che poi sappiamo com'è finita. Ora abbiamo sentito che Salvini avrebbe, anzi ha minacciato sui social che questa seduta non si sarebbe mai dovuta tenere se non ci fosse stato il presidente Conte. Signor presidente Calderoli, ritengo opportuno che lei intervenga, in qualità di Vice Presidente del Senato, affinché di queste affermazioni non ce ne siano. Dopodiché, il senatore Romeo ha perso l'occasione per far sì che ci occupassimo complessivamente come Assemblea di un tema che tutti a parole diciamo di considerare un patrimonio nazionale, ossia l'Ilva: poi, quando si tratta di occuparsene, ognuno costruisce la propaganda e la strumentalizzazione. Dico questo perché, se il senatore Romeo si fosse informato e avesse letto il contratto che in questo momento ha ArcelorMittal, avrebbe visto che non vi sono alcun obbligo né alcuna clausola rispetto al tema che riguarda l'immunità per gli amministratori e, quindi, lo scudo. Non c'è dunque un'azienda - ArcelorMittal - che decide di andare via perché questo Parlamento ha deliberato di modificare le condizioni contrattuali; c'è invece un privato che decide di andare via scientemente e liberamente, utilizzando il pretesto dello scudo che non c'è più: il fatto che non ci sia alcun accordo contrattuale, però, sta nelle cose ed è concreto. Su questo ritengo bisogni fare la valutazione, perché, se ArcelorMittal va via e lo fa venendo meno all'accordo contrattuale che ha con lo Stato, mi aspetto dalla Lega, dal PD, da Italia Viva, da Forza Italia e dal MoVimento 5 Stelle che tutti insieme dicano che ArcelorMittal non sta rispettando gli impegni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, PD e IV-PSI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg40">Pertanto, se ArcelorMittal non rispetta gli impegni, c'è un recesso e paga per essere venuta meno a un impegno: a seguito di quel recesso ci sono penali onerosissime da pagare allo Stato; dobbiamo dirlo tutti insieme. Un minuto dopo, ci dovremo occupare di capire chi sostituirà ArcelorMittal, perché naturalmente - a nostro avviso e secondo la legge - c'è un secondo che aveva partecipato, al quale quindi ci si deve rivolgere per capire se si può andare avanti su quell'investimento.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg41">Siccome l'azione che deve svolgere la Lega, invece, è strumentalizzare l'evento più che occuparsi del problema, abbiamo dovuto ascoltare il senatore Romeo inventarsi la storiella che, se non viene il presidente Conte in quest'Aula, non si può risolvere nulla.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg42">Signor Presidente, siamo invece dell'idea che venga l'onorevole Patuanelli, che è il Ministro che ha assunto l'impegno con questo Parlamento di affrontare la questione</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Ripamonti</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg43">, a prescindere da quello che sta scritto nel provvedimento che è stato approvato senza lo scudo; ci venga a dire come si andrà avanti: domani avrà luogo l'incontro con il privato, ArcelorMittal, e scopriremo le intenzioni dell'azienda. Ripeto che, se questa dovesse decidere unilateralmente d'interrompere l'impegno preso con il nostro Paese - con l'Italia, non con Conte né con una forza politica - e vi venisse meno, bisognerebbe procedere per colpire un'azienda che, dopo essersi presa la responsabilità di andare avanti con l'investimento e aver costruito le condizioni per salvaguardare 15.000 posti di lavoro, oltre alla riconversione ambientale, dice che non è più così. Su questo credo dobbiamo essere tutti uniti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg44">In conclusione, signor Presidente, alla luce di tale premessa, per evitare ogni pretesto, è necessario che il ministro Patuanelli venga a riferire qui.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg45">Ugualmente ricordo alla Lega di essere la forza politica che per prima ha tolto lo scudo dal decreto-legge crescita; provvedimento che pertanto è stato portato in Aula senza di esso, su indicazione della Lega stessa, che era allora al Governo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Garavini. Commenti dal Gruppo L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg46">Capisco che Romeo lo dimentichi, come dimentica di aver votato a favore del reddito di cittadinanza e ora imputa a questa maggioranza il fatto che vi sia quel provvedimento. Ha dimenticato anche di aver tolto lo scudo nel decreto crescita su Ilva.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo L-SP-PSd'Az</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg47">Poiché, però, ora noi non dobbiamo concedere pretesti a nessuno, sfido la Lega: c'è un provvedimento in discussione presso la Camera, il decreto fiscale, e vi è la possibilità di intervenire per togliere ogni pretesto ad ArcerolMittal. Quindi, anziché stare qui a frignare</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo L-SP-PSd'Az</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg48">; anziché stare qui a chiacchierare e a reclamare che venga Conte in Assemblea, non si capisce a fare che, la Lega voti a favore del nostro emendamento al disegno di legge di conversione del decreto-legge n. 124 del 2019, presentato alla Camera, e andiamo avanti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg49">Siccome, purtroppo, si scoprirà che la strategia aziendale di ArcerolMittal, a prescindere da tutto, è quella di andare via, noi forze politiche dobbiamo, tutte insieme, responsabilmente, se si vuole risolvere il problema, capire come sopperire a questa decisione, oltre naturalmente a fare causa a un'azienda che è venuta meno a tutti gli impegni presi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg50">Signor Presidente, noi siamo favorevoli al calendario dei lavori illustrato e alla presenza in Aula del ministro Patuanelli, che - ripetiamo - è la figura istituzionale che ha seguito la vicenda anche nel rapporto con il Parlamento e ci deve una risposta. Avevamo chiesto la presenza del Ministro quando è stata approvata la conversione del decreto-legge sulle crisi aziendali; abbiamo chiesto che eventualmente tornasse in Assemblea e il Ministro aveva preso un impegno relativamente a un provvedimento ad hoc su Ilva: ascoltiamolo. Se poi sarà necessario sentire anche Conte, lo sentiremo; è strumentale, invece, subordinare per forza la prosecuzione della discussione alla presenza del Presidente del Consiglio. Siccome noi ci dobbiamo occupare dei lavoratori, che rischiano il posto di lavoro, non ci possiamo occupare della strumentalità di Romeo e della Lega.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo IV-PSI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg51">AUGUSSORI (L-SP-PSd'Az). Bravo! Bravo!</seg>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u9">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg52">Signor Presidente, la ringrazio per aver convocato la Conferenza dei Capigruppo, nella quale abbiamo potuto affrontare questo tema, che era stato sollevato dal Partito Democratico con la richiesta scritta, che le abbiamo inviato nella giornata odierna, di richiedere la presenza del presidente Conte in Assemblea, per riferire su una vicenda così importante per tutto il Paese, per la nostra economia e forse anche per l'Europa intera. Ovviamente si parla non solo di economia, ma anche di salute dei nostri cittadini, quindi il tema è molto delicato. Tutte le forze politiche presenti in Parlamento si sono dimostrate sensibili e, quindi, l'occasione mi è ghiotta per rivolgere a tutti noi un appello di responsabilità: non si può scherzare sulla pelle dei cittadini di Taranto; non si può scherzare sulla pelle dei lavoratori dell'ex Ilva. Sono temi talmente delicati e importanti, che riguardano migliaia di famiglie, che credo sia come minimo dovuta la serietà. Proprio perché la serietà ci sta guidando, noi abbiamo chiesto al presidente Conte di venire a riferire in Aula, perché la situazione è grave e deve essere affrontata. Il presidente Conte non può venire questa settimana, ma siamo felici che venga il ministro Patuanelli, che - lo ricordo - è il Ministro che ha deciso di accogliere in quest'Aula l'ordine del giorno a mia prima firma, sottoscritto da tutti i Capigruppo di maggioranza, che aveva proprio l'obiettivo di garantire l'impegno del Governo, con - io credo - il supporto di tutto il Parlamento, affinché quell'attività produttiva potesse essere risanata in termini ambientali e continuare a produrre acciaio, importante e strategico per il nostro Paese. Ben vengano, quindi, il calendario comunicato e l'impegno di Patuanelli. Rimane ferma, signor Presidente, la nostra richiesta che venga in Assemblea il presidente Conte, nei tempi e nei modi che lui stesso deciderà. Il Parlamento ha la necessità, su una questione così rilevante, di essere costantemente e adeguatamente informato e di assumere i provvedimenti, anche normativi, necessari affinché gli impegni presenti in quell'ordine giorno siano mantenuti e gli obiettivi siano raggiunti. Mi fa piacere che il presidente Romeo abbia deciso un'azione di rivisitazione critica del proprio operato politico, anche rispetto alle sue decisioni del recente passato e ai suoi voti espressi in quest'Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Commenti dal Gruppo L-SP-PSd'Az.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg53">Signor Presidente, ripeto qui quello che ho sostenuto anche alla riunione dei Capigruppo, proprio perché penso che su una vicenda come quella dell'Ilva bisognerebbe - è un appello che evidentemente cadrà nel vuoto - evitare operazioni di strumentalizzazione. La vicenda dell'Ilva - lo sapete tutti perfettamente - è molto complessa e delicata e ad essa è certamente legato il problema di migliaia di posti di lavoro. Ma vorrei ricordare a me stessa per prima e poi a quest'Assemblea che esiste un problema gigantesco che riguarda migliaia di malati e migliaia di persone, tra cui bambini, che hanno subito un impatto sanitario devastante.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-LeU e M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg54">È un problema così enorme e complesso che tanti sono stati i decreti Ilva finora emanati, di cui abbiamo perso il conto. E, quando faccio questa affermazione, sapete tutti che è così. Se avessimo avuto in tasca il progetto meraviglioso e la volontà della riconversione, che accelerava il piano di risanamento ambientale attraverso un'operazione tecnologica avanzata, è evidente che non saremmo qua.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg55">Sono tante le questioni legate alla vicenda che anch'io personalmente avrei molta voglia di chiarire: per esempio, mi chiedo per quale motivo è stata scelta Mittal e non l'altra cordata, visto che lì si parlava di decarbonizzazione, mentre qui le cose sono un po' diverse. Oggi dobbiamo sapere esattamente com'è la situazione. Sapete infatti perfettamente che, prima ancora che arrivasse in Aula il provvedimento sulle imprese e prima ancora che cominciassimo a discutere anche nel merito degli emendamenti e della soppressione dello scudo penale - su questo poi ritorno - Mittal ha compiuto un atto unilaterale: non solo andava da settimane annunciando altri esuberi e cassa integrazione per 5.000 persone, ma ha compiuto un atto il cui significato era chiarissimo a tutti. Parlo della nomina di un amministratore delegato che, ovunque sia andato, ha solo tagliato teste e chiuso sedi; certamente non ha avviato né operazioni di risanamento, né di rimessa in campo della produzione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg56">Sappiamo perfettamente che tutto quello che sta avvenendo e la strada dello scudo penale sono solo e unicamente un alibi. Se ce la vogliamo poi dire tutta, non era stato proprio tolto quello scudo penale, perché in tutta la stratificazione delle normative era rimasta una parte di immunità. Di che cosa si sono lamentati? Dopo la morte dell'operaio nel forno, i magistrati di Taranto sono intervenuti. Pensate che si possa prevedere uno scudo penale anche sulle morti sul lavoro? Sapete perfettamente che tutto questo non è possibile e l'avete escluso anche dalla norma.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg57">Allora credo che sia necessario che il ministro Patuanelli venga a riferire, anche perché ha seguito la vicenda e ha anche incontrato quell'amministratore delegato, per fare il punto sulla vicenda del contratto e sulla storia dell'affitto degli stabilimenti. È opportuno che ci sia l'informativa. Ovviamente questo non esaurisce la questione perché, se avessimo risolto il problema dell'Ilva attraverso l'informativa e la discussione parlamentare, forse non sarebbero passati invano tutti questi anni.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg58">Ciò non pregiudica il fatto che anche il Presidente del Consiglio possa - e lo farà sicuramente - venire qui in Aula per portare ulteriori elementi. Se siamo un'Assemblea responsabile, che ha veramente a cuore la sorte non soltanto dei lavoratori, ma di tutti i cittadini di quell'area e di Taranto, dobbiamo con responsabilità ascoltare l'informativa del ministro Patuanelli e poi vedere come si evolverà la situazione. In un Paese serio, al di là delle strumentalizzazioni, questo dovrebbe stare a cuore di tutti e non si dovrebbe permettere che ciascuno faccia rimbalzare la vicenda sull'altro. Sulla vicenda dell'Ilva, credo che nessuno potrà dire di non averci messo del suo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg59">A maggior ragione, credo che dovremmo tutti quanti, con tranquillità e senso di responsabilità, attendere l'informativa e poi ognuno - anche noi - avrà la possibilità di prendere le proprie iniziative.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-LeU e della senatrice Rojc.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">LEZZI (M5S)</note>
+            <u ana="#regular" who="#LezziBarbara" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u11">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg60">Prima di ogni altra valutazione, vorrei dire che sono sempre stata contraria all'immunità, allo scudo penale, per una questione di legalità e di Stato di diritto e devo ringraziare la Lega, perché è grazie a loro che abbiamo abolito lo scudo penale all'ex Ilva. Quindi, grazie!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, PD e IV-PSI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg61">La mia posizione in merito a questo non è mai cambiata e posso dire di avere tanti testimoni, sia a Taranto che in Italia, del fatto che ho sempre combattuto contro l'abominio di dover scegliere se morire di fame o morire di lavoro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg62">Mi rendo perfettamente conto che c'è un problema, ma so anche che possono essere percorse diverse strade per risolverlo. E pensate, sono addirittura d'accordo con il senatore Faraone quando dice che le forze politiche si devono mettere insieme senza schizofrenia, senza tornare indietro su quello che questo Parlamento ha fatto per ben due volte, prima con la Lega e poi con il PD: abolire lo scudo penale. Tra l'altro, in quest'Aula ci sono tanti giuristi e sanno bene che l'articolo 51 del codice penale rende non punibili coloro che adempiono a un ordine che viene da un'autorità. In questo caso il piano ambientale, che è stato emanato grazie a un decreto del Presidente del Consiglio dei ministri, non dà luogo ad alcuna punibilità, se si ha intenzione di osservare il piano ambientale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg63">Ho anche la necessità di rispondere ad ArcelorMittal - e mi auguro che il ministro Patuanelli ponga l'accento anche su questo aspetto - in merito al fatto che nelle ultime ore tanti osservatori, commentatori, giornalisti e politici hanno dato quasi dei folli ai magistrati di Taranto, come se si fossero alzati una mattina e avessero deciso di chiudere l'altoforno 2. Non è così, perché nel 2016 un ragazzo, un operaio di trentacinque anni, è morto dopo quarantotto ore di agonia perché investito dalla ghisa incandescente. E la procura, come se Taranto dovesse essere una bolla avulsa dallo Stato italiano, si dovrebbe girare dall'altra parte e far finta che un morto di trentacinque anni e la sua famiglia non abbiano lo stesso diritto alla giustizia che hanno tutti i cittadini italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg64">Questo vuol dire «prima gli italiani». Questo vuol dire «prima i tarantini e prima i pugliesi».</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg65">Altro che le menzogne di un capitano dei miei stivali, che dice a me di tornare a Taranto! È lui che ha annullato i comizi a Taranto! Andasse lui a parlare a Taranto!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg66">Ex ministro Salvini, vada a Taranto. Bacioni, Salvini, da Taranto! Vai, Salvini. Abbi il coraggio di dire che i tarantini sono meno degli altri e che le altre imprese italiane sono meno di Arcelor, perché Arcelor viene prima di tutte le altre imprese, perché per Arcelor c'è un'immunità penale, uno scudo penale che per le altre aziende non c'è.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo L-SP-PSd'Az</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg67">Io, come altre persone, posso anche intravedere diverse soluzioni che non prevedono nemmeno la chiusura, perché non è detto, non esiste una cultura anti-industriale. State calmi. Basta con questa storia. Ma è possibile che si debba concedere a un'industria di portare troppi bambini all'oncologico? È possibile che si debbano chiudere gli occhi per il PIL e non cercare intelligentemente di coniugare entrambe le cose? No? Allora questo Parlamento è miope.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg68">Comunque, non accetterò nessun compromesso, perché rappresento quel territorio; non voglio candidarmi a governatrice, come dice Calenda, ma rappresento fieramente quel territorio. Non è solo per questo, perché c'è una inesatta narrazione degli ultimi giorni offensiva nei riguardi di tutto il Gruppo parlamentare del MoVimento 5 Stelle, sia alla Camera che al Senato. Quell'emendamento è stato sottoscritto non da diciassette senatori, ma dal Gruppo parlamentare del MoVimento 5 Stelle al Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg69">Io non ho capitanato proprio nessuno, perché qui ci sono non delle pecore, ma delle persone che portano delle soluzioni e un'idea di MoVimento 5 Stelle da dieci anni ormai. Siamo arrivati qui - vi piaccia o no - anche per coniugare il benessere, la salute e la vita con il PIL, l'industria e lo sviluppo. Si può fare!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg70">Apriamo tutti gli occhi e non abbandoniamo una città a se stessa. Non facciamolo, perché non ci perdoneranno, non potranno perdonarci. Siamo qui per trovare soluzioni. Parliamo con il ministro Patuanelli e offriamo le nostre soluzioni, senza farci mettere all'angolo da una multinazionale, da degli amministratori, da chiunque sia. Siamo un Parlamento sovrano che rappresenta dei cittadini e</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo L-SP-PSd'Az</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg71">, quindi, cerchiamo le soluzioni, perché per me, senatore Salvini, davvero vengono prima gli italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Congratulazioni. Applausi ironici del senatore Candiani.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u12">
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg72">Senatore Romeo, credo di aver compreso che la proposta avanzata dalla senatrice Bernini e dal collega Urso, a nome anche del Capogruppo, sia di chiedere che domani il presidente Conte venga a rendere delle comunicazioni al Parlamento.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg73">Metto ai voti, dunque, la proposta di modifica del Calendario dei lavori dell'Assemblea.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg74">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg75">Dispongo la controprova.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg76">Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg77">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg78">Resta quindi stabilito... (I senatori del Gruppo</seg>
+               <incident type="entering">
+                  <desc>L-SP-PSd'Az espongono cartelli recanti la scritta: «Disastro Ilva vergogna!».</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg79">Mettiamo via i cartelli, per cortesia. Invito i senatori Questori e gli assistenti parlamentari a rimuovere i cartelli. VOCI DAL GRUPPO L-SP-PSd'Az. Vergogna! Vergogna! PRESIDENTE. Non ho autorizzato i cori mentre vengono tolti i cartelli. SANTANGELO (M5S). Presidente Calderoli, la seduta va interrotta! PRESIDENTE. Senatore Santangelo, quando diventerà Presidente lo farà lei. SANTANGELO (M5S). La seduta va interrotta, altrimenti i giornalisti fanno le foto. Lei lo sa. PRESIDENTE. Senatore Santangelo, trovo che le interruzioni della seduta non facciano che enfatizzare quello che uno vorrebbe e, quindi, evito di sospenderla. SANTANGELO (M5S). È la seconda volta che lo fa! PRESIDENTE. Leggersi il Regolamento prima di intervenire.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u13">
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg80">Saluto a nome dell'Assemblea i docenti e gli studenti dell'Istituto di istruzione superiore «Tommaso Fiore» di Modugno, in provincia di Bari, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">PUCCIARELLI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#PucciarelliStefania" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u14">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg81">Signor Presidente, il mio intervento riguarda il Fondo per la non autosufficienza. Esso, nonostante ci sia stato l'accordo tra le Regioni per il riparto, vede il blocco da parte del Ministero per la sua erogazione. In questo modo si vanno a toccare le classi più deboli, le famiglie in cui ci sono persone con gravi disabilità e anziani non autosufficienti. Pertanto, tardare nell'erogazione di quelle risorse mette ulteriormente in crisi famiglie che sono già in difficoltà. È dunque necessario che il Ministero, nel caso specifico il MEF, sblocchi immediatamente i fondi destinati a queste finalità. Non abbiamo tempo da perdere, per cui chiedo che il Ministero intervenga urgentemente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BRIZIARELLI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BriziarelliLuca" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg82">Signor Presidente, ho chiesto di intervenire per portare a conoscenza dell'Aula quanto sta accadendo in queste ore nel carcere di Terni, in Umbria. Da sabato sono in corso rivolte dei detenuti: quella di oggi ha coinvolto addirittura tre sezioni del carcere. La polizia penitenziaria sta lavorando non solo nel carcere di Terni, ma anche in quelli di Perugia e Spoleto, in condizioni gravissime per la carenza di personale. Nonostante tutto ciò, però, gli agenti sono stati addirittura sbeffeggiati dalle dichiarazioni di alcuni dirigenti che, all'indomani dei fatti di Perugia, hanno affermato che è normale che nelle carceri accadano fatti di questo tipo. Già a settembre, dopo il sequestro di un agente di polizia penitenziaria a Perugia, un suicidio e una rivolta, presentammo un'interrogazione - ancora senza risposta - nella quale chiedevamo al ministro Bonafede di dirci quando l'Umbria avrebbe avuto una dotazione organica sufficiente e quando sarebbe cessato in Italia quello «scaricabarile» per cui, anche oggi, alcuni dei detenuti coinvolti nei fatti di Terni sono stati trasferiti dalla Toscana. È ormai da mesi, infatti, che l'Umbria riceve gli scarti del sistema penitenziario toscano. Non è così, però, che si risolvono i problemi. Sono stati proprio alcuni dei detenuti che in Toscana si sono rivelati autori di fatti gravissimi a essere stati trasferiti. Bisogna risolvere i problemi, non semplicemente attraverso trasferimenti da una struttura all'altra. Tra l'altro, sembra che alcuni detenuti siano coinvolti in un processo di radicalizzazione, per cui si corre il pericolo dello sviluppo dell'islamismo all'interno delle nostre carceri. Chiediamo conto dunque della mancata risposta al ministro Bonafede, al quale comunque rivolgeremo una nuova interrogazione perché dia finalmente risposte che pensino prima alla polizia penitenziaria e poi ai detenuti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CORBETTA (M5S)</note>
+            <u ana="#regular" who="#CorbettaGianmarco" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u16">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg83">Signor Presidente, tre settimane fa sono intervenuto in quest'Aula per chiedere chiarezza al Ministero della difesa in merito all'assunzione dell'incarico presso l'Organismo regionale per le attività di controllo (ORAC) della Regione Lombardia da parte del colonnello dei carabinieri Maurizio Bortoletti. Il Ministero, subito dopo, ha comunicato al Consiglio regionale della Lombardia il diniego al colonnello Bortoletti di assumere tale incarico. Ringrazio il sottosegretario Tofalo che proprio oggi è venuto in Commissione difesa qui in Senato a rispondere a una specifica interrogazione sul tema presentata dalla collega Donno. Tuttavia, nonostante questo diniego ministeriale e nonostante il parere negativo espresso in precedenza dal comando generale dell'Arma, il colonnello risulta a tutti gli effetti membro dell'ORAC. Il Consiglio regionale della Lombardia ha giustificato l'assegnazione dell'incarico al colonnello per effetto del silenzio-assenso del Ministero protrattosi fino all'11 ottobre; ma il silenzio-assenso - ex testo unico del pubblico impiego - cui il Consiglio regionale fa riferimento, non si applicherebbe al personale militare per esplicita esclusione prevista dalla stessa norma. Si richiede pertanto di sapere se il Ministero non consideri che l'accettazione dell'incarico da parte del colonnello Bortoletti costituisca illecito disciplinare, in considerazione del fatto che il colonnello - come poc'anzi sottolineato - risulta tuttora membro dell'ORAC. Qualora la nomina si sia perfezionata in modo illegittimo, si ritiene che l'illegittimità attenga alla nomina dell'intero organismo di controllo, essendo un organismo perfetto, con inevitabili danni di carattere non solo erariale, dal momento che alla costituzione dell'ORAC è cessata l'attività del precedente organismo di controllo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CORRADO (M5S)</note>
+            <u ana="#regular" who="#CorradoMargherita" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg84">Signor Presidente, colleghi, intervengo per anticiparvi l'intenzione, condivisa con altri membri della Commissione cultura, di presentare un'interrogazione al ministro Franceschini su un episodio occorso pochi giorni fa nella Reggia di Caserta. La mattina del 30 ottobre, un cittadino è entrato con l'automobile nei giardini del palazzo reale borbonico eludendo la sorveglianza. Senza che alcuno tentasse di fermarlo, ha parcheggiato il veicolo lungo un viale e ha raggiunto a piedi la fontana di Venere e Adone, situata a considerevole distanza dal varco che si presume abbia utilizzato. Sempre indisturbato è entrato nella vasca, ha passeggiato tra le sculture che la adornano e ha fatto il bagno, come dimostra un video postato sui social, e a suo dire sarebbero trascorsi una trentina di minuti prima che si materializzasse un addetto alla vigilanza. Si è trattato di un gioco, teste l'autore del gesto, per attirare l'attenzione generale sull'inefficienza del sistema di sorveglianza della Reggia, lacuna obiettivamente inaccettabile per un sito UNESCO visitato annualmente da un milione di persone. Alla tardiva scoperta della plateale effrazione sono seguite, da parte dell'architetto Maffei, direttrice dell'istituto (dotato di autonomia speciale), la denuncia ai carabinieri per deturpamento di un bene culturale, l'avvio di un'inchiesta interna e la rituale richiesta di denaro (7 milioni) per il piano di messa in sicurezza dell'intero complesso, rivolta al Ministero dell'interno. Non può bastare: il ministro Franceschini ha il dovere di accertare la verità e riferirne agli italiani, anche perché, dopo avere visto un fioraio salire sul leone dello Scalone a gennaio 2018 e un commercialista, ad ottobre 2019, unirsi clandestinamente al corteo di Venere, è lecito guardare con ancor più preoccupazione al 2020, quando sappiamo che la Reggia, nella foga mercificatoria di cui è vittima, sarà il set delle riprese di una fiction. Aggiungo che nel tiro incrociato dei veleni subito scatenatosi tra quanti gridano al complotto ai danni della Maffei, insinuando che i custodi siano stati complici se non anche suggeritori dell'invasore motorizzato, e quanti deplorano che la dirigente non abbia speso una parola per fare autocritica (dando anzi prova di un'abilità pari a quella del predecessore nell'eludere le proprie responsabilità), la sola certezza è che il problema del controllo dei varchi di via Pietro Giannone e soprattutto di via Raffaele Gasparri permane. Così come permane il vizio antico dei dirigenti Mibact di bollare come fughe di notizie e imputare al personale le prove delle loro inettitudini quando queste si risanno all'esterno, sia nel caso in cui emergano casualmente sia che vengano fatte emergere dai dipendenti per senso di responsabilità nei confronti dell'amministrazione alla quale appartengono. L'episodio di Caserta s'impone all'opinione pubblica per la fama della Reggia vanvitelliana, ma chiudo citandone un altro, a riprova, anch'esso esemplare: nel parco archeologico di Capo Colonna, in Calabria, da sempre teatro dell'azione dei tombaroli, il sistema di videosorveglianza, indispensabile a garantire la sicurezza dei visitatori oltreché dei ruderi, è stato messo fuori uso da un temporale lo scorso 16 luglio e riparato integralmente solo a fine ottobre, nonostante che la direzione generale musei avesse garantito il denaro necessario già a fine agosto. Mentre la direzione del polo museale della Calabria dormiva sonni tranquilli, preoccupata solo della "fuga di notizie" e della fastidiosa ingerenza di chi vi parla, il parco archeologico statale è stato esposto a rischi gravissimi. È necessaria e urgente, dunque, una presa in carico, da parte dei vertici politici e amministrativi del Mibact, della qualità del servizio offerto all'utenza, nei grandi attrattori come nei luoghi della cultura più piccoli o defilati, poiché la sicurezza non è solo quella garantita dai droni di prossimo e provvidenziale utilizzo, ma discende anche e prima di tutto dalla rettitudine morale di chi, per conto della Repubblica, «tutela il paesaggio e il patrimonio storico e artistico della Nazione».</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MATRISCIANO (M5S)</note>
+            <u ana="#regular" who="#MatriscianoSusy" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg85">Signor Presidente, salutare i familiari come tutte le volte prima di andare al lavoro: un gesto quotidiano e immensamente prezioso che non si ripeterà più. Una tragedia che ha scosso non solo l'alessandrino ma l'Italia intera per la sua brutale ferocia e insensatezza. Matteo Gastaldo, Marco Triches e Antonio Candido hanno chiuso ieri sera la porta di casa dietro di loro e poi sono morti solo perché hanno eseguito, come sempre, il loro dovere. Un dovere fatto di assistenza al prossimo, di aiuto costante, di generosità. La scorsa notte, quando la sirena ha suonato, hanno indossato i caschi e le giacche per salire sui mezzi di soccorso per quello che sembrava essere uno dei classici interventi di routine e invece, tutto è crollato, come la cascina di Quargnento, esplosa in migliaia di macerie. Dagli elementi acquisiti dagli inquirenti potrebbe trattarsi di un fatto doloso. Sono stati infatti ritrovati un timer e una bombola di gas ancora inesplosa. Sembrerebbe dunque che queste esplosioni siano state volute e deliberatamente determinate. Oggi tutta l'Italia parla dei tre pompieri alessandrini, ma nessuna parola li riporterà tra noi. E i loro sorrisi nelle foto sono disarmanti, sono lo stridore più macabro di una storia senza un senso, lo stesso stridore che si avvertiva questa notte mentre le ruspe graffiavano i ruderi di quella cascina, alla ricerca speranzosa di Matteo Gastaldo, l'ultimo pompiere trovato senza vita, travolto dalle macerie. Le foto di Matteo, Marco e Antonio sono il simbolo di tutti quei lavoratori che ogni giorno si impegnano per rendere migliore il nostro Paese, angeli che fanno del proprio lavoro una missione, per proteggere e salvare le nostre vite. Antonio Candido, originario di Reggio Calabria, aveva solo trentadue anni, sposato da solo un anno, era figlio di un vigile del fuoco ancora in servizio. A giugno sui social scrisse dopo la morte di un collega: «Quanto vale la vita di un Vigile del fuoco?». L'altro eroe è Marco Triches, trentotto anni, di Alessandria, sposato, con un bimbo piccolo. Amava la fotografia ed era pronto ad aiutare il prossimo, come testimoniato durante il terremoto che colpì Arquata del Tronto. In quella tragedia partì per andare ad aiutare le popolazioni colpite. Infine, Matteo Gastaldo, quarantasei anni, residente a Gavi, anche lui con una bimba piccola. Protagonista nelle operazioni di soccorso durante il maltempo e determinante in molte operazioni importanti come quando salvò una donna che aveva tentato il suicidio gettandosi in un pozzo. Alle tre vittime si aggiungono tre feriti, altri due vigili del fuoco, Giuliano Dodero, classe 1971, e Graziano Trombetta, classe 1984, e un carabiniere della stazione di Solero Roberto Borlengo di trentuno anni. A loro va il mio più sincero augurio di pronta guarigione con la speranza che possano tornare presto a casa tra le braccia dei loro cari. Antonio, Marco e Matteo invece non torneranno più a casa e oggi tutti li chiameranno eroi. Anche il presidente del Consiglio Giuseppe Conte ha definito i vigili del fuoco: «eroi sempre in prima linea per garantire la nostra incolumità». Ma loro eroi lo erano già. Oggi, semplicemente, lo sono ancora di più.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MAUTONE (M5S)</note>
+            <u ana="#regular" who="#MautoneRaffaele" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u19">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg86">Signor Presidente, onorevoli colleghi, ancora una volta, il razzismo resta al centro delle prime pagine dei giornali. È davvero inaccettabile ed intollerabile che ancora oggi, in un mondo globalizzato, in una società multirazziale come la nostra, negli stadi, dove la correttezza e la sportività dovrebbero essere i punti cardine della competizione, si consumino episodi di razzismo ai danni di chi ha il colore della pelle diverso, o appartiene ad un'altra etnia o proviene da un'altra area geografica della stessa Nazione. Assurde e seriamente preoccupanti le parole del capo ultrà dell'Hellas Verona circa i cori razzisti rivolti dalla sua curva a Mario Balotelli; pensate, il leader scaligero afferma che il giocatore bresciano, già militante nella nostra nazionale, non potrà mai considerarsi del tutto italiano. La stessa società sportiva dell'Hellas Verona ha minimizzato l'accaduto, affermando che non ci siano stati cori razzisti e che la tifoseria veronese è da definirsi ironica, ma assolutamente non razzista. Voglio anche ricordare che appena qualche mese fa l'allenatore del Bologna, Sinisa Mihajlovic, grande uomo che sta combattendo con dignità e forza d'animo la sua battaglia contro la leucemia e a cui vanno i miei auguri per una completa guarigione, è stato definito dispregiativamente zingaro, questa volta non da un ultrà, ma da un agente della polizia municipale di Roma, un pubblico ufficiale che rappresenta lo Stato. Ancora più grave, secondo me, che in Brianza una mamma, durante una partita di calcio tra pulcini, classe 2009, abbia gridato ad un bambino di appena dieci anni, «negro di merda». Qui non ci sono interessi economici, non si vince il pallone d'oro, è una semplice partita tra bambini che vogliono divertirsi. Che insegnamento potrà mai dare una madre al suo bambino di dieci anni se costei dà queste pessime manifestazioni di sé nei confronti di un altro bambino della stessa età? Episodi che vengono consumati a pochi giorni dall'istituzione della Commissione contro il razzismo e l'istigazione all'odio e alla violenza, su cui l'ultrà veronese ironizza chiedendosi se lo verranno a prendere: un mix di ignoranza, arroganza, disprezzo del valore della vita umana. Soprattutto, quello che colpisce è il suo esibizionismo e la sua interiore certezza d'impunità, di onnipotenza e di superiorità rispetto a coloro la cui unica colpa è di essere diversi per razza, cultura o religione. Come se il colore della pelle o la diversa provenienza geografica potessero essere sinonimo di persona perbene o delinquente. Concludo questo mio intervento ricordando Martin Luther King, considerato uno dei personaggi storici più influenti di sempre, che si batté strenuamente per l'emancipazione delle persone di colore nel suo Paese, fino a diventarne un martire. Sono passati cinquantun anni dal suo assassinio, ma il mondo non ha ancora imparato che il rispetto della persona umana è un diritto-dovere di ogni cittadino che voglia essere un uomo libero.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Verducci.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u20">
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg87">Saluto a nome dell'Assemblea - ahimè, proprio in orario di chiusura - i docenti e gli studenti dell'Istituto «Da Vinci-De Giorgio» di Lanciano, in provincia di Chieti, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u21">
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg88">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di mercoledì 6 novembre 2019</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.u22">
+               <seg xml:id="ParlaMint-IT_2019-11-05-LEG18-Sed-162.seg89">Il Senato tornerà a riunirsi in seduta pubblica domani, mercoledì 6 novembre, alle ore 9,30, con il seguente ordine del giorno: ( Vedi ordine del giorno ) La seduta è tolta (ore 17,58).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

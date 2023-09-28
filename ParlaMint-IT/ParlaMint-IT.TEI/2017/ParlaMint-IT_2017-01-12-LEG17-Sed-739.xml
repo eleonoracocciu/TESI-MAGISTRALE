@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 739 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 739 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 739, giorno (2017-01-12)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 739, Day (2017-01-12)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="739-upper">739 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="183" unit="speeches" xml:lang="it">183 discorsi</measure>
+            <measure quantity="183" unit="speeches" xml:lang="en">183 speeches</measure>
+            <measure quantity="16882" unit="words" xml:lang="it">16.882 parole</measure>
+            <measure quantity="16882" unit="words" xml:lang="en">16,882 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=1000246</idno>
+               <date when="2017-01-12">12.01.2017</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="16"/>
+               <tagUsage gi="head" occurs="7"/>
+               <tagUsage gi="note" occurs="227"/>
+               <tagUsage gi="seg" occurs="183"/>
+               <tagUsage gi="u" occurs="91"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="22"/>
+               <tagUsage gi="desc" occurs="22"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2017-01-12">12.01.2017</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente GASPARRI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u1">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg1">La seduta è aperta (ore 9,31). Si dia lettura del processo verbale. BERGER, segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u2">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u3">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg3">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg4">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 9,37).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Deliberazione sul parere espresso dalla 1ᵃ Commissione permanente, ai sensi dell'articolo 78, comma 3, del Regolamento, in ordine al disegno di legge: (2629) Conversione in legge del decreto-legge 23 dicembre 2016, n. 237, recante disposizioni urgenti per la tutela del risparmio nel settore creditizio</note>
+            <note type="time">09,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/47535.htm</note>
+            <note type="time">(ore 9,37)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u4">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg5">L'ordine del giorno reca la deliberazione sul parere espresso dalla 1ᵃ Commissione permanente, ai sensi dell'articolo 78, comma 3, del Regolamento, in ordine alla sussistenza dei presupposti di necessità e di urgenza richiesti dall'articolo 77, secondo comma, della Costituzione, nonché dei requisiti stabiliti dalla legislazione vigente, per il disegno di legge n. 2629: «Conversione in legge del decreto-legge 23 dicembre 2016, n. 237, recante disposizioni urgenti per la tutela del risparmio nel settore creditizio».</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg6">Nel corso della seduta di ieri la 1ᵃ Commissione permanente ha espresso parere favorevole sulla sussistenza dei predetti presupposti e requisiti.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg7">Successivamente, da parte del prescritto numero di senatori, è stato richiesto su tale parere il voto dell'Assemblea.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg8">Poiché l'estensore del parere, senatore Mancuso, non intende intervenire, ricordo che potrà prendere la parola non più di un rappresentante per Gruppo, per non più di dieci minuti.</seg>
+            </u>
+            <note type="speaker">BRUNI (CoR)</note>
+            <u ana="#regular" who="#BruniFrancesco" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u5">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg9">Signor Presidente, in ordine al punto che stiamo discutendo, l'incostituzionalità dell'Atto Senato 2629, la posizione che esprimiamo come Gruppo non riguarda tutto il decreto-legge oggi in esame, poiché le disposizioni interessate dalle nostre censure di costituzionalità sono contenute esattamente negli articoli 20 e 21 del decreto-legge in conversione, che nella sostanza dispongono la modifica di taluni fondamentali aspetti della normativa vigente in materia di funzionamento del modello cooperativistico del credito fondato sulla cosiddetta democrazia economica, che è proprio il modus operandi delle banche di credito cooperativo, delle banche popolari e delle allora casse di risparmio. Si tratta di un modello radicalmente diverso da quello tipico degli istituti di credito organizzati nella forma societaria delle società per azioni, il cui principio fondante (un'azione, un voto) è opposto alla democrazia economica tipica del credito cooperativo, che si fonda sul principio del cosiddetto voto capitario (un uomo, un voto). Le summenzionate disposizioni del decreto-legge noto come salva MPS, nel prevedere un eventuale ed ipotetico intervento statale a sostegno di banche a struttura cooperativa in difficoltà - ovviamente lo prevedono in termini generali e non certo per il caso MPS - ne modificano (e qui viene la norma che noi censuriamo) gli aspetti essenziali, ad esempio tramite la sostituzione del voto capitario con quello per azione, o anche modificando l'accesso alla compagine sociale in deroga alle disposizioni di cui agli articoli 2527 e 2528 del codice civile. Tali interventi, pur essendo rivolti a tutelare l'eventuale investimento statale - come evidenziato nella relazione introduttiva, in cui si sostiene che gli istituti della cosiddetta democrazia economica non sono idonei a garantire quell'investimento - sono, a nostro avviso, palesemente incostituzionali. È noto a questa Assemblea, infatti, che lo strumento della decretazione d'urgenza debba contenere misure di immediata applicazione, così come statuito dal comma 3 dell'articolo 15 della - più volte citata - legge n. 400 del 1988, pacificamente considerata di rango costituzionale. È evidente che tali interventi siano tutt'altro che di immediata applicazione, sostanziando invece una riforma organica del credito cooperativo, con il pretesto dell'ipotetico intervento statale. Questo tema è all'esame del Parlamento e anche del dibattito politico da mesi e mesi: il Governo cerca di introdurre in pillole questo tipo di riforma del credito cooperativo, strada percorsa dal Governo Renzi con la riforma delle banche popolari recentemente già censurata dalla Corte costituzionale. È ormai consolidata la giurisprudenza della Corte, secondo la quale un decreto-legge che contenga norme, quali quelle di cui agli articoli 20 e 21, non immediatamente applicabili, configura un vizio di eccesso di potere del legislatore governativo; segnalerei in questo senso la sentenza n. 22 del 2012 della Corte costituzionale. Tale pronuncia conferma l'attenzione della Corte, che duplica quella del precedente Capo dello Stato, circa il corretto uso del decreto-legge come fonte del diritto e strumento di governo, affinché il ricorso ad esso non trasmodi in eccesso di potere per sviamento dalla causa tipica di tale strumento, di cui all'articolo 77 della Costituzione. Per cogliere la pregnanza della giurisprudenza della Corte in materia di decretazione d'urgenza, che con questa pronuncia si consolida ulteriormente in termini univoci nella direzione di evidenziare i limiti formali e sostanziali a tale potere, non è irrilevante come la stessa Corte abbia evidenziato il fatto che il decreto-legge si collochi come fonte del diritto in quanto frutto primario di una scelta dell'Esecutivo e non del Parlamento. Per tale ragione la Costituzione ne ha circoscritto l'adottabilità tanto alle circostanze di fatto di cui all'articolo 77, secondo comma, della Costituzione, quanto nell'ambito dei limiti formali che qualificano la forma di governo in vigore, che si imperniano sul rilievo del procedimento legislativo ordinario presso le Camere, quale sede ordinaria per la posizione del diritto primario, soprattutto quando esso rechi discipline di tipo ordinamentale. Questi, limitatamente agli articoli 20 e 21, sono i motivi salienti che ci spingono a sostenere e ribadire la fondatezza dei rilievi di incostituzionalità in quelle parti già indicate, come previsto dall'articolo 78, comma 3, del Regolamento, che dispone che si possa segnalare l'incostituzionalità anche solo di alcune parti di un decreto-legge in conversione. In questo senso va il nostro intervento a sostegno dei rilievi di incostituzionalità mossi al decreto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo CoR.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">TOSATO (LN-Aut)</note>
+            <u ana="#regular" who="#TosatoPaolo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg10">Signor Presidente, anche noi sosteniamo i presupposti di incostituzionalità di questo decreto-legge e muoviamo queste osservazioni basandoci su un'argomentazione molto semplice. Il Governo negli ultimi tempi ha varato tutta una serie di provvedimenti (definiti decreti salva banche, salva risparmio eccetera) con trattamenti evidentemente diversi rispetto ad azionisti e obbligazionisti delle banche coinvolte. Ci sono stati dei primi provvedimenti nel novembre del 2015 che tendevano a salvare - così è stato detto - quattro banche in grave dissesto. In realtà azionisti e obbligazionisti non sono stati assolutamente tutelati, ma anzi sono stati privati di tutti i loro risparmi, nel decreto-legge successivo non c'è stato un atteggiamento risolutivo tendente a indennizzarli rispetto al maltolto e ora con questo nuovo provvedimento si pone in essere un trattamento ancora diverso nei confronti di risparmiatori, azionisti e obbligazionisti del Monte dei Paschi di Siena. Noi onestamente riteniamo che debba esserci equità di trattamento nei confronti di risparmiatori di banche coinvolte in dissesti finanziari e che inoltre si renda necessario l'accertamento delle responsabilità (e su questo si dovrà muovere la Commissione d'inchiesta, che speriamo venga finalmente varata); non è tuttavia costituzionalmente sostenibile che ci siano azionisti o obbligazionisti di alcune banche che hanno perso tutti i loro risparmi, altri che vengono parzialmente indennizzati, altri che vengono tutelati con formule nuove e innovative come quelle contenute nel decreto-legge con il quale si chiede nuovamente un intervento d'urgenza del Parlamento. Ci deve essere equità: è uno dei requisiti fondamentali della nostra Costituzione nei confronti dei cittadini che, trovandosi in situazioni analoghe, devono essere tutelati in identico modo. Ci sembra quindi evidente, palese e chiaro da tutti i punti di vista che non ci siano i presupposti di costituzionalità per questo ennesimo decreto-legge che dimostra esclusivamente l'improvvisazione continua esistente a livello governativo nel cercare di affrontare un tema fondamentale e molto delicato come quello della tutela del risparmiatore. Nell'azione di governo regna invece esclusivamente una confusione totale, che ha avuto effetti devastanti rispetto al rapporto di fiducia tra risparmiatori e banche. Oggi nel nostro Paese tutti i cittadini italiani hanno la certezza che i propri risparmi, i risparmi di una vita, non sono al sicuro rispetto ad errori o addirittura a crimini commessi da coloro che hanno responsabilità nella gestione degli stessi. Se l'attuale Governo andrà avanti in questo modo, credo dovrà varare nuovi provvedimenti salva-banche e salva-risparmi a tutela di altri istituti creditizi, con provvedimenti nuovi e improvvisati, che non avranno niente di equo e soprattutto di uniforme rispetto ai provvedimenti precedenti. Chiediamo uniformità di trattamento e una tutela per risparmiatori, azionisti e obbligazionisti che sia omogenea in ogni caso. Non ci possono essere trattamenti di serie A o di serie B; la Costituzione non lo permette e per questo chiediamo naturalmente un voto del Parlamento che prenda atto di questa situazione ormai fuori controllo per responsabilità precise del Governo precedente e di quello attuale (che ne è una fotocopia), e che non sa più dove andare a parare. Ogni provvedimento è frutto di improvvisazione e non rappresenta mai una soluzione dei reali problemi, che hanno fatto sì che i risparmiatori fossero abbandonati a sé stessi, in balia degli eventi, senza alcuna certezza e con un'unica grande preoccupazione, cioè che i risparmi di una vita possano essere cancellati nel giro di una notte con un decreto-legge che non salva certamente i loro risparmi, ma che può salvare gli istituti bancari e che cerca di coprire le responsabilità di chi ha determinato queste situazioni in un crescendo ormai intollerabile. Mi auguro che il Parlamento prenda atto di questa situazione ormai fuori controllo e voti una incostituzionalità che è evidente, palese, certa e deve essere semplicemente ratificata con il voto del Parlamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Stucchi e Bonfrisco.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg11">Signor Presidente, come abbiamo già sostenuto i giorni scorsi in Commissione affari costituzionali, noi riteniamo che il decreto-legge varato dal Governo non abbia i presupposti di necessità e urgenza. Sembra quasi paradossale quello che sto dicendo, ma in realtà il Governo è intervenuto - vogliamo sottolineare questo aspetto - in modo tardivo su una situazione che era sotto gli occhi di tutti da moltissimo tempo. Quindi ci troviamo di fronte quasi ad un paradosso: vi sono una necessità e una urgenza accertate e stabilite per dar vita al decreto-legge, ma lo stesso viene emanato a scoppio ritardato. Abbiamo voluto definirla inerzia, ma potremmo usare parole anche più pesanti per sottolineare e stigmatizzare l'atteggiamento tenuto dal Governo e quindi le scelte che ha compiuto ritardando questo intervento. Ora, è inutile nascondersi dietro parole roboanti come quelle riportate nel titolo del decreto-legge, cioè «disposizioni urgenti per la tutela del risparmio nel settore creditizio». In realtà, ciò che non viene pienamente garantito dal decreto al nostro esame è proprio la tutela del risparmio e dei risparmiatori. Ovviamente, quando il decreto arriverà in Aula affronteremo nella pregiudiziale di costituzionalità anche alcuni aspetti e alcune misure in esso contenute, che risultano dubbi dal punto di vista costituzionale. Innanzi tutto ci troviamo di fronte ad un trattamento diverso dei risparmiatori rispetto ad altri decreti che sono intervenuti sulle crisi bancarie di altri istituti, quindi è evidente a tutti che vi è una violazione piena del principio costituzionale di eguaglianza e del principio della tutela del risparmio così come ci vengono consegnati dalla nostra Costituzione. Ritornando all'argomento precedente, cioè all'inerzia del Governo e quindi all'intervento tardivo sulla vicenda MPS, il Governo Renzi ha teso ad edulcorare la situazione bancaria italiana con messaggi rassicuranti. Nel corso di tutta la lunghissima campagna referendaria, quindi per buona parte dell'anno trascorso, noi abbiamo ascoltato reiterate assicurazioni da parte del Governo, e in particolare del Ministro dell'economia Padoan, relative alla solidità indiscussa (così veniva definita dal Ministro e per la verità queste stesse affermazioni le ha ribadite qualche giorno fa) del sistema bancario italiano, nonostante si fosse in presenza del default di quattro istituti di credito e soprattutto della vicenda del Monte dei Paschi di Siena. Ora dovremo occuparci delle scelte operate con il decreto-legge del 23 dicembre, sul quale dovremo intervenire nel merito. Auspichiamo pure che con l'approvazione di una serie di emendamenti si possa arrivare a scelte d'intervento molto chiare da parte del Governo, magari, come noi sosteniamo, arrivando anche alla nazionalizzazione del Monte dei Paschi. Il problema che ci troviamo di fronte, come dicevo, è che anche davanti ad alcuni fatti inoppugnabili, come per esempio il risultato degli stress test del 29 luglio eseguiti dalla Banca centrale europea e dalla Commissione europea, che nei confronti di tale istituto bancario disegnavano uno scenario avverso in cui il patrimonio addirittura risultava negativo del 2,23 per cento (il che significa una sforbiciata al risparmio della banca da parte della BCE per ben 13 miliardi di euro), il Governo Renzi ha voltato la testa dall'altra parte, preferendo continuare la battaglia referendaria ed evitando di affrontare nodi molto seri come quelli della situazione del Monte dei Paschi. Se si fosse invece intervenuti sei mesi fa, si sarebbero impiegate certamente molte meno risorse e gli attuali 20 miliardi di euro dei contribuenti italiani che sono stati stanziati (e non è detto neanche che siano sufficienti) si sarebbero potuti utilizzare più utilmente per investimenti sui problemi iperurgenti di questo Paese (penso alle questioni del lavoro, alle questioni delle emergenze che ci siamo trovati di fronte, come il terremoto, e agli interventi per la povertà). Invece ci troviamo di fronte ad una risposta a questo punto assolutamente tardiva. Non solo, ma all'interno di questo decreto-legge vi è una serie di provvedimenti che avranno effetto e applicazione molto più tardi; quindi anche i presupposti di cui all'articolo 77 della Costituzione, dal nostro punto di vista, non sono stati rispettati. Oltretutto, la risposta del Governo sembra ancora una volta sempre più incentrata sul salvataggio delle banche (e magari, nel caso specifico, del MPS), senza porre al centro la vera questione che è di fronte a noi, cioè un'azione di tutela incondizionata dei risparmiatori e dei lavoratori delle banche, che ora sono sempre più esposti. Nel decreto-legge stesso manca assolutamente un seppur minimo accenno alle responsabilità che ci hanno portato alla situazione attuale; responsabilità da cui non risultano certamente esenti esponenti del precedente e dell'attuale Governo, che non hanno saputo agire con la necessaria tempestività al fine di tutelare il risparmio. Ieri abbiamo assunto la decisione di estendere l'urgenza a tutti i disegni di legge che propongono l'istituzione di una Commissione d'inchiesta su questa vicenda e noi auspichiamo che si arrivi al più presto ad approvare l'istituzione di tale Commissione. Infatti, un'altra questione grave che è sotto gli occhi di tutti e che necessita di un intervento già con questo decreto-legge è ad esempio l'operazione trasparenza, volta a rendere finalmente noto, non solo al Parlamento, ma a tutti i cittadini e soprattutto ai risparmiatori, le responsabilità degli amministratori e tutti i debitori insolventi, soprattutto i grandi debitori. Il 78 per cento di queste sofferenze sono appunto legate alla concessione di prestiti superiori a 250.000 euro. Credo che questa sia un'altra delle questioni che sono di fronte a noi e su cui bisognerebbe intervenire immediatamente. Annunciamo, tra l'altro, anche la presentazione di un emendamento a questo decreto-legge proprio sulla trasparenza, perché tutti gli italiani hanno il diritto di conoscere i nomi di tutti i maggiori debitori insolventi. Questo ha molto a che fare anche con i presupposti di costituzionalità, perché è evidente a tutti che rischiamo di trovarci di fronte a trattamenti diversi e quindi ad una tutela non adeguata soprattutto dei piccoli risparmiatori. Il profilo di costituzionalità è pertanto molto discutibile, così come noi ribadiamo che è assolutamente discutibile che ancora una volta si sia utilizzato un decreto-legge sulla base dei requisiti di necessità ed urgenza di cui all'articolo 77 della Costituzione quando gli stessi si erano manifestati già nell'anno precedente, e che siano inoltre inserite all'interno del decreto norme che troveranno invece un'applicazione non immediata e che hanno tutto il sapore di un ulteriore intervento di riforma. Per questo motivo, confermiamo il nostro giudizio negativo sulla sussistenza dei presupposti di costituzionalità di questo decreto-legge.</seg>
+            </u>
+            <note type="speaker">BOTTICI (M5S)</note>
+            <u ana="#regular" who="#BotticiLaura" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg12">Signor Presidente, vorrei ripercorrere brevemente la storia: i requisiti di necessità e urgenza derivano da alcuni fatti compiuti dal precedente Governo e dall'attuale. Partiamo dal recepimento nel novembre 2015 della direttiva BRRD (Bank recovery and resolution directive), il cosiddetto bail in; nel contempo, il Governo Renzi emette un decreto-legge per la risoluzione di quattro banche. Noi, in quel frangente, avevamo già intuito la necessità di un intervento pubblico perché avevamo capito che, anche se le quattro banche non erano riconosciute come sistemiche, le loro vicende avrebbero portato comunque a un peggioramento della fiducia dei cittadini italiani nel nostro sistema bancario. La questione però non riguarda solo i cittadini italiani, perché molto spesso in quest'Aula si sente parlare di investitori esteri. Anche questi, vedendo che l'Italia non riesce a gestire il sistema bancario italiano, ossia quel tessuto che dovrebbe far crescere l'economia e i cittadini stessi, potrebbero avere qualche dubbio sull'investirci. Noi avevamo pertanto chiesto di mettere subito in chiaro quali erano le procedure che si potevano effettuare attraverso la direttiva BRRD per intervenire pubblicamente. C'è stato risposto che non era possibile. È stato così emanato il decreto-legge del novembre 2015 e chi ha pagato per questo decreto sono solo i piccoli risparmiatori. Quest'Assemblea diceva che non si trattava di piccoli risparmiatori, ma di investitori. Però, a un certo punto, la maggioranza si è resa conto che forse avevamo ragione noi e che i piccoli risparmiatori sono stati truffati. Si pensa, quindi, a un indennizzo forfetario, ma quando si parla di indennizzo vuol dire che c'è una colpa perché non lo si riconosce se non c'è una colpa dall'altra parte. Tralascio la questione degli arbitrati, che solo oggi siete riusciti a fare dopo un anno che dovevano essere pronti, per soffermarmi sul tema dell'indennizzo forfetario che il Governo decide di riconoscere nella misura dell'80 per cento a questi piccoli risparmiatori che si sono visti scippare i propri risparmi. Nel prosieguo interviene tutta la questione del referendum sulla riforma costituzionale e, a luglio 2016, escono i risultati degli stress test. Noi sapevamo già in anticipo che il Monte dei Paschi di Siena non avrebbe retto agli stress test, perché il percorso degli ultimi anni della banca aveva comunque evidenziato una mancanza di patrimonio e di liquidità; infatti, il titolo stava crollando. Al Governo però non interessava rimettere in piedi il sistema bancario: gli serviva solo un'arma di ricatto. Infatti, nella Toscana, Siena è la provincia in cui vince il sì (lo dico solo per chiarire alcune questioni) e la stessa cosa avviene ad Arezzo: sono le due città in cui le due banche operano.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Paglini</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg13">Si arriva al referendum e si perde, ma la questione della Monte dei Paschi era già nota; non c'era però la necessità e urgenza in quel momento perché tanto si aspettava. Si arriva al 23 dicembre, l'antivigilia, e scatta la necessità di adottare il decreto-legge in cui si stabiliscono delle procedure. Il decreto-legge in oggetto, infatti, stabilisce delle procedure attraverso le quali le banche possono chiedere il sostegno pubblico. Se si fosse trattato solo della determinazione delle procedure, lo si sarebbe potuto adottare anche prima. E invece no, si aspetta il 23 dicembre. La necessità e l'urgenza non sono però rispettate dal Parlamento, in quanto non ci si mette subito al lavoro per capire, esaminare e arrivare poi alla conversione del decreto-legge in un testo giusto, ma si sta in vacanza fino al 10 gennaio. Quindi, nei giorni passati il decreto-legge, che si sarebbe potuto discutere nelle Assemblee parlamentari, viene tenuto fermo. Nel decreto-legge in oggetto non ci sono solo gli aspetti che poco fa i miei colleghi hanno evidenziato, ma c'è proprio un errore di fondo: mi riferisco a questo Governo, che negli ultimi anni non è stato in grado di riportare il Paese Italia al lustro che aveva un tempo. L'unica necessità che vedo in questo Paese sono le vostre dimissioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi delle senatrici Bulgarelli e Paglini</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg14">Infatti, con il vostro rattoppare un sistema bancario avete fatto di questo il Paese il Paese delle urgenze, visto che ora sono in urgenza non solo il sistema bancario, anche ma il territorio e l'occupazione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg15">Il disegno di legge sull'istituzione di una Commissione di inchiesta sul dissesto finanziario dell'istituto di credito Monte dei Paschi di Siena è incardinato in Commissione da molto tempo, ma nessuno vedeva la necessità e l'urgenza di portarne a termine l'esame. Nella Commissione di inchiesta sul Monte dei Paschi istituita dalla Regione Toscana noi chiedemmo che l'elenco dei debitori fosse pubblico, perché loro i nomi li facevano. Tuttavia, il Parlamento non vedeva assolutamente la necessità e l'urgenza di dare delle risposte ai cittadini.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg16">Mi chiedo una cosa. Quando si adottano i decreti-legge questo Governo pensa alla necessità e all'urgenza del Paese, oppure alla propria necessità e urgenza di rimanere al suo posto per continuare a coprire quelle amministrazioni bancarie e quella parte politica che ha influito su tutte le banche italiane? Infatti, ricordo che non c'è solo il Monte dei Paschi di Siena, ma esistono anche le quattro banche salvate lo scorso anno, la Banca Popolare di Vicenza, Veneto Banca, Banca Carige, la Cassa di risparmio di San Miniato e le banche di credito cooperativo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg17">Abbiamo tutto il sistema bancario all'aria e questa responsabilità ce la dobbiamo assumere tutti, perché negli ultimi quattro anni in qualche modo abbiamo cercato di farvi riprendere il contatto con il territorio. Forse non siamo stati abbastanza incisivi o forse voi siete troppo sordi, ma questo decreto-legge non è necessario e urgente. I presupposti erano altri e voi siete arrivati qui per la vostra negligenza e incapacità nel ricoprire questi posti di comando.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u9">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg18">Signor Presidente, signori rappresentanti del Governo, colleghi, senza nulla togliere all'autorevolissima presenza di Ministri, Vice ministri e Sottosegretari, mi sarei aspettato oggi la presenza del ministro Pier Carlo Padoan, anzitutto - ma non solo - perché su questo decreto-legge c'è la sua firma. Colgo peraltro l'occasione per dire che l'altra firma è del presidente del Consiglio Gentiloni, cui vanno gli auguri di pronta guarigione miei e del Gruppo Forza Italia. Ripeto: non solo per la firma che ha apposto il Ministro dell'economia a questo decreto, ma per quanto ha dichiarato nel corso degli scorsi mesi e anni sulla situazione del Monte dei Paschi: dichiarazioni ampiamente rassicuranti e trionfalistiche che sono state peraltro riassunte, durante una trasmissione dell'8 gennaio scorso, in alcuni minuti di servizio che sono apparsi come un florilegio delle sue dichiarazioni del tutto rassicuranti sulla situazione del Monte dei Paschi. Per tacere di quanto l'ex presidente del Consiglio Renzi ha detto più volte, in particolare un anno fa, il 22 gennaio 2016: il Monte dei Paschi è risanato, ora investire è un affare. Forse avrebbe dovuto far seguire queste dichiarazioni dalla consueta formuletta: "la presente non costituisce sollecitazione al risparmio o all'investimento su questi titoli". Infatti, un bancario che facesse un'affermazione di questo genere, senza precisare quanto ho sopra specificato, rischierebbe sanzioni penali. Invece abbiamo un ex Presidente del Consiglio che ha detto di investire in questa banca e chi ha investito si è ritrovato il capitale ridotto più o meno del 90 per cento. Pertanto, quanto dico non è solo strumentale a parlare di fatti passati, le cui conseguenze, in realtà, sono pienamente presenti in questo decreto, ma sottolinea il primo difetto di questo decreto e cioè che giunge tardivo. Se fosse giunto per tempo, anziché essere preceduto da rassicurazioni false e pericolosamente fuorvianti, anziché 20 miliardi di euro sarebbe stata necessaria una somma molto inferiore. Un articolo di Marcello Esposito su «la Repubblica», non proprio un giornale antigovernativo, ricordava qualche giorno fa che, negli ultimi sei mesi, il Monte dei Paschi ha perso 14 miliardi di depositi, una parte dei quali ora deve essere messa dallo Stato, cioè dal contribuente, con questo decreto-legge. È molto grave che sia stato fatto passare tutto questo tempo. Un altro aspetto di strategia riguardante le banche, delle quali pure il Governo si è abbondantemente occupato (ricordo che ha ritenuto prioritario fare un intervento, assai discutibile, sulle banche popolari, anziché intervenire là dove c'era il problema), è in generale l'irrigidimento delle norme sulle banche, che sono state messe in ulteriore difficoltà perché molti depositanti sono fuggiti e non solo dal Monte dei Paschi, con il risultato che la crisi si è ulteriormente aggravata. Questo è stato veramente uno sbaglio strategico e di terapia. Inoltre, l'accoglimento eccessivamente affrettato e non sufficientemente spiegato del famoso meccanismo del bail in ha fatto sì che molti, specialmente dalle banche che avevano il sentore di qualche difficoltà, siano fuggiti. Il risultato è che le banche che già erano in difficoltà sono finite in grave difficoltà e ora tocca al contribuente ripararle: davvero un errore gravissimo che dimostra l'insufficienza fondamentale della politica bancaria del Governo precedente e, per quanto di competenza, del Governo presente. Ecco perché avrebbe dovuto essere presente il Ministro dell'economia, che invece forse sta facendo qualche altra dichiarazione per indurre in errore altri risparmiatori. Vi è un altro problema in questo decreto. Tutti ora diranno come dovrebbe essere modificato; ricordo però che, senza il voto che il Gruppo di Forza Italia ha dato (non certo da solo, ma assieme ai Gruppi di maggioranza), un voto che ci siamo presi la responsabilità di accordare e che consente uno scostamento dal pareggio di bilancio, oggi non potremmo parlare di alcun decreto: né di un decreto-legge bello, né di un decreto-legge brutto o di un decreto-legge che piaccia all'uno o all'altro, perché senza quel voto questo decreto-legge non si potrebbe fare. I risparmiatori sarebbero comunque gravemente danneggiati nei loro risparmi e la crisi potrebbe estendersi, con effetto domino, ad altre banche e ad altre realtà del nostro Paese. Pertanto, questo va ricordato. L'atteggiamento di responsabilità del Gruppo Forza Italia ha contribuito a far sì che oggi possiamo parlare di un decreto. Modificarlo in meglio o in peggio sarà poi compito, in parte, del Governo che, purtroppo, non ha ritenuto di consultare coloro che si sono coinvolti in questa presa di responsabilità e, in parte, del lavoro che faremo in queste settimane. Ricordo, però, che trattandosi di decreto-legge, nel frattempo esso è in vigore. Pertanto, se ci sono degli errori, essi si riflettono fin da ora nella realtà e sarà difficile correggerli. Un altro problema di questo decreto è la disparità di trattamento con le altre banche che si sono trovate in difficoltà; una disparità molto grave, denunciata, per esempio, dal sindaco di Arezzo Alessandro Ghinelli, il quale ha sottolineato come il precedente decreto sulle banche abbia creato gravi difficoltà (in particolare, egli si riferiva alla realtà della sua città). Poi, però, oggi ci si trova ad erogare somme molto più alte per salvare il Monte dei Paschi. Noi sappiamo dai dati che, nel caso delle quattro banche salvate precedentemente, i risparmiatori sono stati ristorati per ora soltanto per il 10 per cento delle somme che avevano impegnato; qui parliamo di somme percentuali molto più alte. Intanto, è una ingiustizia in sé. In secondo luogo, la situazione può dare luogo a dei ricorsi per evidente vizio di costituzionalità a fronte dell'articolo 3 della Costituzione, che prevede l'eguaglianza tra i cittadini e, pertanto, espone anche lo Stato al rischio di dover tirare fuori altri soldi per situazioni che in questo decreto-legge non sono contemplate. Peraltro, qui non parliamo delle solite cifre che riempiono i giornali, soprattutto quando si parla degli organi costituzionali. Si voleva fare una riforma radicale della Costituzione per risparmiare 50 milioni, e poi qui si parla di 20 miliardi come se fossero noccioline; 20 miliardi che rischiano di aumentare con questa disparità di trattamento. Pertanto, questo è un difetto davvero notevole del provvedimento in oggetto, che bisognerà sicuramente prendere in esame. Altro problema fondamentale di questo decreto-legge è che in esso non vi è traccia di misure che impongano al Governo di rendere conto di come questa somma verrà impiegata. Si parla di 20 miliardi di euro che escono subito dal bilancio dello Stato, con una formula curiosa. Mentre, ordinariamente, quando c'è un fondo di garanzia l'uscita per il bilancio dello Stato avviene quando questa garanzia deve davvero intervenire. Qui, invece, i 20 miliardi escono subito, e quindi aumenta il debito pubblico con tutte le conseguenze anche sulla strategia finanziaria del nostro debito, e poi il Governo li utilizzerà. Noi sappiamo che la cifra relativa al Monte dei Paschi sarà compresa fra i sei (speriamo) e gli otto (temiamo) miliardi, ma gli altri? È assolutamente necessario che venga introdotto un meccanismo in questo decreto, con degli emendamenti, perché deve esserci, da parte del Governo, il dovere, con garanzie precise, di riferire su come vengono utilizzate queste somme. La maggior parte di queste norme sono deroghe: non a norme secondarie, ma al codice civile e ad aspetti fondamentali contenuti nelle leggi di settore. Tali deroghe peraltro vengono in gran parte lasciate alla discrezionalità di scelte che dipendono dal Governo o vengono compiute direttamente dal Governo. La situazione di emergenza impone almeno in parte queste scelte, ma è fondamentale che il Governo ne riferisca e ne spieghi i criteri. Un altro aspetto che vogliamo sottolineare è che è necessario introdurre (e riteniamo questa la sede più opportuna) norme che impongano di rivelare i nomi e le identità di società o di privati che siano grossi debitori insolventi delle banche, che poi vengono aiutate a spese del cittadino. I dipendenti dello Stato, gli eletti dal popolo devono rendere conto dettagliatamente di quanto prendono. Lì parliamo di decine di migliaia di euro. Poiché qui parliamo di miliardi, sarà bene essere almeno altrettanto rigorosi. Allo stesso tempo, non possiamo dimenticare che se ci sono stati dei prestiti la cui restituzione è in sofferenza, vi è anche qualcuno che questi prestiti li ha concessi e che è più colpevole, perché ancora più responsabile. Di questo sarebbe bene avere contezza. Non è possibile, ad esempio, che in questo decreto si stabilisca che si diano per truffati tutti coloro che hanno comprato delle obbligazioni subordinate - e questo è anche opinabile - senza che però ci sia il truffatore. Se lo Stato deve intervenire a rifondere coloro che hanno comprato dei titoli che, seguendo il codice civile, oggi hanno perso moltissimo del loro valore, si assume che questo titolo era una truffa; se però c'è il truffato e se si prevede che lo Stato debba rifondere il truffato, ci deve essere il truffatore. Su questo punto bisogna fare chiarezza e per questo esprimeremo un voto di astensione, come nelle votazioni preliminari che ci sono state per l'istituzione di una Commissione di inchiesta sulle banche in crisi, dichiarando la nostra buona volontà nei confronti dello sforzo che viene compiuto per salvare i risparmiatori, ma esprimendo al contempo tutte le nostre perplessità sulle carenze di questo decreto, la prima delle quali è la sua tardività, che lo ha reso notevolmente più costoso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BARANI (ALA-SCCLP)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg19">Signor Presidente, il nostro Gruppo già ieri si era espresso a favore della proposta di istituire una Commissione d'inchiesta sul dissesto finanziario dell'istituto di credito Monte dei Paschi di Siena, che ovviamente è l'oggetto della conversione del decreto-legge recante disposizioni urgenti per la tutela del risparmio nel settore creditizio. Troppe vicende che hanno riguardato quell'istituto sono ancora avvolte nel mistero, compreso l'apparente suicidio (ma poi è stato veramente così?) di un dirigente precipitato da Rocca Salimbeni. Nell'illustrazione, anche ieri, delle varie proposte di modifica avanzate dai colleghi alla proposta di legge sono elencati alcuni episodi che tornano di attualità con questo decreto e che vanno citati, ma la vicenda è molto più complessa. Riguarda legami che risalgono ad un tempo ancora più lontano e che hanno investito l'intero gruppo dirigente del Partito comunista, poi PDS, DS ed ora PD tanto a livello locale che nazionale. Alcune operazioni, infatti non potevano essere poste in essere se non vi fossero state complicità diffuse che hanno investito lo stesso Esecutivo, quando appunto quel partito aveva responsabilità di governo. Non posso dimenticare quel famoso atto d'indirizzo, che è la pietra miliare, il peccato orginale - cosa unica nella storia di via XX Settembre - quando il Ministro del tesoro - Vincenzo Visco - intervenne pesantemente per indirizzare la nomina del nuovo presidente dell'istituto nella persona di Giuseppe Mussari: unico non senese ad assumere quella carica che nei 500 anni precedenti era spettata di diritto ad un cittadino del luogo. Quando ieri ci siamo tutti espressi a favore dell'istituzione della Commissione d'inchiesta, quindi, era per riuscire a scrivere e a portare fuori dalle mura del Granducato una narrazione rimasta fin troppo nell'ombra, o forse sarebbe meglio dire sotto maglietto. Si illumineranno le manovre iniziate fin dagli anni Settanta ad opera di personaggi poco noti al grande pubblico, ma non alla nomenclatura di quel partito. Fu Silvano Andriani, uno dei consiglieri della banca, a far conoscere, a Roma, le potenzialità di un istituto che, negli anni precedenti, aveva avuto solo un'importanza locale. Silvano Andriani, prima di essere eletto come senatore, era stato il segretario del CESPE: chi ha i capelli bianchi come me ricorda che era il centro studi di politica economica del Partito comunista. Un vivaio di giovani quadri dove almeno due ministri attuali - Pier Carlo Padoan e Claudio De Vincenti - compivano i primi passi. Questo per dimostrare quanto sia lunga la tela di quella storia. Né mi soffermo sulle vicende più recenti che questo decreto ben esplicita. Negli ambienti finanziari si parla, con insistenza, di un possibile scambio, a livello europeo. La Commissione che chiude un occhio sulle misure di salvataggio predisposto, in aperta violazione delle norme del bail in per evitare di accendere i fari sul vero grande malato d'Europa, vale a dire la Deutsche Bank con il suo carico di derivati, la cui valutazione è stata lasciata alla discrezionalità della stessa banca, mentre alcune operazioni di mercato sono state valutate in modo improprio per rafforzare la sua consistenza patrimoniale. Già questo accenno dimostra come il problema degli assetti del sistema bancario italiano vada ben oltre il caso del Monte dei Paschi di Siena. Ecco perché in questo momento voteremo contro il decreto in esame: ne riteniamo una dimostrazione - se mai ce ne fosse bisogno - la richiesta avanzata dal presidente dell'ABI, cioè quella di rendere noto il nome dei primi cento debitori che non hanno proceduto al rimborso dei debiti contratti e che di conseguenza hanno alimentato i non performing loans, che rappresentano la palla al piede dell'intero sistema bancario italiano. Diceva un mio collega di Gruppo, il senatore Milo, che bisognerebbe nazionalizzare le imprese che hanno preso i soldi dallo Stato e non li hanno restituiti, non dare i soldi al Monte dei Paschi per coprire questi buchi che hanno creato dolosamente. I problemi lievitano nel disinteresse generale: vorrei ricordare che già nel 2012, ben cinque anni fa, in un rapporto del Fondo monetario italiano sulla stabilità finanziaria si indicava con grande preoccupazione che le banche italiane avevano crediti in sofferenza per un valore che le collocava al terzo posto nella classifica internazionale, subito dopo la Grecia e l'Irlanda. Si tratta di una denuncia che evidentemente non ha scosso chi invece doveva preoccuparsi. Queste sono solo alcune ragioni per dimostrare la necessità di estendere il presente decreto a tutto il sistema bancario, non solo al Monte dei Paschi. Troppe cose rimangono misteriose, a partire da una vigilanza, quella della Banca d'Italia, che ha operato con discrezionalità e intermittenza: feroce con alcune piccole banche - ne cito una, il Credito cooperativo fiorentino - ma del tutto comprensiva e ovviamente complice in tutte le altre situazioni, compreso il Monte dei Paschi di Siena, al punto da determinare i risvolti di carattere giudiziario poi terminati con un non luogo a procedere. Nella nostra proposta, quindi, oggi riteniamo che il nostro obiettivo coincida con quello indicato dal presidente dell'ABI: rendere noti i nomi dei grandi profittatori di una risorsa come il risparmio, specificatamente tutelato dall'articolo 47 della nostra Costituzione. Ecco perché il nostro voto sarà contrario, proprio perché il testo non rispetta quest'articolo 47. Dobbiamo separare le mele marce (poche) da quelle buone (tante) per evitare possibili contagi e contaminazioni. Siamo infatti convinti che la maggior parte delle banche italiane sia solida e in grado di svolgere la sua funzione essenziale, che è quella di finanziare lo sviluppo economico del Paese. Proprio per preservare tale funzione, però, è necessario non solo mettere in fuorigioco chi si è approfittato della pubblica buona fede, ma far emergere prima che sia troppo tardi quei problemi ai quali si può ancora provvedere. Un compito, questo, che non può essere lasciato ad Authority che hanno mostrato tutti i loro limiti; il Parlamento deve esserne investito e anche questo decreto va reso potabile e allargabile a tutto il problema bancario italiano. Concludo con un'ultima considerazione importante, che forse, signor Presidente, è la più importante: bisogna valutare anche i rimborsi delle obbligazioni subordinate. Il rimborso non va dato a piè di lista, perché in questi momenti ci sono stati tanti speculatori che nel mercato secondario hanno rastrellato obbligazioni in grande quantità e giacché con questo decreto, lo Stato le copre al 100 per cento, costoro realizzano margini d'interesse inimmaginabili; sono questi gli speculatori che non ci possiamo permettere di rimborsare: non possiamo rimborsare al cento per cento chi ha comprato e rastrellato sul mercato secondario le obbligazioni pagandole praticamente un nulla. Dovremmo farlo perché sono amici degli amici? Qui ci sono stati degli interessi incredibili con delle complicità, come ho già detto prima. In quel sistema c'era il CESPE, una fondazione di politica economica del PCI in cui sono cresciuti due Ministri. Qui nessuno è fesso. Quindi dobbiamo fissare per le obbligazioni una data, ad esempio il 30 giugno: quelle successive a tale data dobbiamo considerarle in mano a speculatori che non so di quale corrente siano (ma lo posso immaginare), che hanno rastrellato a costo zero per avere cento. Ecco perché noi, a differenza dei colleghi di Forza Italia, non ci asterremo, ma voteremo contro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo ALA-SCCLP.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u11">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg20">Salutiamo la delegazione di studenti e docenti dell'Istituto tecnico commerciale e Liceo delle scienze umane «Angelo Poliziano» di Roma, che sta seguendo i nostri lavori. Benvenuti al Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione sulla deliberazione ai sensi dell'articolo 78, comma 3, del Regolamento in ordine al disegno di legge n. 2629</note>
+            <note type="time">10,31</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/47535.htm</note>
+            <note type="time">(ore 10,31)</note>
+            <note type="speaker">MANCUSO (AP (Ncd-CpI))</note>
+            <u ana="#regular" who="#MancusoBruno" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg21">Signor Presidente, mi pare che mai come questa volta si possa dire che la notte abbia portato consiglio. Fino a ieri in Commissione affari costituzionali sembrava che sulla necessità di votare favorevolmente ai presupposti di necessità e urgenza di questo provvedimento fossimo tutti, o quasi, d'accordo. Se non c'è stata totale condivisione, sicuramente non ci sono state le riflessioni e gli interventi che oggi ho ascoltato in Aula, che riguardano più che altro il merito del provvedimento. Poco ho sentito dal punto di vista delle motivazioni che possono essere ostative circa l'accoglimento dei presupposti di necessità e urgenza. Ritengo che la discussione di oggi sia stata un po' anticipatoria del dibattito successivo, però noi ora ci dobbiamo limitare all'approvazione e all'accoglimento di questi presupposti. Mi sembra che in questo caso ci siano tutte le motivazioni e che siano assolutamente serie. Al Capo I del provvedimento è disciplinata la procedura per la concessione della garanzia dello Stato sulle passività di banche aventi sede legale in Italia. Il Capo II riguarda gli interventi di rafforzamento patrimoniale, e se questi interventi non si fanno con la dovuta urgenza, ritengo che si possa anche vanificare l'intervento del Governo in aiuto e supporto al sistema bancario. Che poi ci sia la necessità di una riorganizzazione, di una revisione e di una riflessione totale sulla necessità - così come è stato detto ieri - di verificare il comportamento di chi ha le responsabilità di monitorare e vigilare sul sistema bancario, questo è un altro discorso. Pertanto, ribadisco la validità della mia proposta avanzata presso Commissione affari costituzionali ed invito l'Assemblea a respingere le pregiudiziali proposte oggi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo AP (Ncd-CpI).</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u13">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg22">Passiamo alla votazione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg23">Verifica del numero legale CRIMI (M5S). Chiediamo la verifica del numero legale. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Chiedo ai colleghi di prendere posto e invito chi non avesse ancora ritirato la propria tessera ad affrettarsi a farlo. Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sulla deliberazione ai sensi dell'articolo 78, comma 3, del Regolamento in ordine al disegno di legge n. 2629 PRESIDENTE. Metto ai voti il parere favorevole espresso dalla 1ᵃ Commissione permanente, ai sensi dell'articolo 78 del Regolamento, in ordine alla sussistenza dei presupposti richiesti dall'articolo 77, secondo comma, della Costituzione, nonché dei requisiti stabiliti dalla legislazione vigente, relativamente al decreto-legge n. 237. È approvato. CRIMI (M5S). Chiedo la controprova visto che ci cono stati astenuti e contrari. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (2498) Ratifica ed esecuzione dell'Accordo di cooperazione tra il Ministero dell'interno della Repubblica italiana e il Ministero degli affari interni della Repubblica di Azerbaijan, firmato a Roma il 5 novembre 2012</note>
+            <note type="time">HH,MM</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/47185.htm</note>
+            <note type="time">(ore 10,36)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u14">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg24">L'ordine del giorno reca la discussione del disegno di legge n. 2498, già approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg25">Il relatore, senatore Compagna, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg26">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">COMPAGNA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u15">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg27">Signor Presidente, l'Azerbaijan, che è membro del Partenariato Euro-Atlantico, occupa un'area di grande importanza strategica e politica, che costituisce però anche un crocevia di traffici illeciti, i cui proventi alimentano spesso attività criminali di vario tipo sul territorio europeo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg28">Nell'ambito delle intese bilaterali con l'Azerbaijan, il Parlamento ha recentemente autorizzato un disegno di legge - ora in attesa di pubblicazione - relativo ad un Accordo di cooperazione nel settore della difesa.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg29">L'intesa oggi al nostro esame è composta da un preambolo e da 12 articoli; dopo aver definito i rispettivi Ministeri degli interni quali autorità competenti, individua e definisce le diverse tipologie di reati (dalla criminalità organizzata al terrorismo, fino al traffico di stupefacenti e di esseri umani) cui si applica.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg30">La cooperazione prevede lo scambio di informazioni e di esperienze, la ricerca di latitanti e di persone scomparse, l'identificazione di persone soggiornanti senza autorizzazione e l'applicazione di mezzi tecnologici moderni per il contrasto ai traffici di persone e di migranti.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg31">Le richieste di assistenza possono essere respinte solo se compromettono la sicurezza nazionale o risultano in contrasto con la legislazione nazionale.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg32">L'articolo 8, in particolare, definisce i limiti e i livelli di protezione relativi all'utilizzo delle informazioni e dei documenti trasmessi nell'ambito della cooperazione bilaterale, disponendone un utilizzo per i soli fini dell'Accordo, salvo diverso consenso fra le Parti.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg33">Il disegno di legge di ratifica si compone di quattro articoli.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg34">Gli oneri economici per l'Italia vengono quantificati complessivamente in circa 60.000 euro annui.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg35">L'Accordo non presenta profili di incompatibilità con la normativa nazionale, con l'ordinamento comunitario né con gli altri obblighi internazionali sottoscritti dal nostro Paese, ed è anzi in linea con le Convenzioni delle Nazioni Unite in materia di lotta contro il traffico illecito di sostanze stupefacenti e la criminalità organizzata.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg36">In conclusione, la Commissione mi autorizza a proporre all'Aula l'approvazione da parte dell'Assemblea del provvedimento in esame.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore D'Ambrosio Lettieri.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u16">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg37">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u17">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg38">Signor Presidente, si tratta di un Accordo importante e non penso sia il caso di rinunciarvi. È giusto sottolineare che la relazione del collega Compagna ha fornito le spiegazioni necessarie all'Assemblea per comprendere la portata di questa ratifica. Mi limito a dire che abbiamo un orientamento favorevole per quanto riguarda la votazione finale e in sede di dichiarazione di voto fornirò le motivazioni.</seg>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Sangalli. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">SANGALLI (PD)</note>
+            <u ana="#regular" who="#SangalliGianCarlo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u18">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg39">Signor Presidente, vorrei preannunciare il voto favorevole del Gruppo Partito Democratico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u19">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg40">Dichiaro chiusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg41">Comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg42">Metto ai voti l'articolo 1.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg43">È approvato.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg44">Passiamo alla votazione dell'articolo 2. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 3. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 4. Verifica del numero legale CANDIANI (LN-Aut). Chiediamo la verifica del numero legale. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione del disegno di legge n. 2948 PRESIDENTE. Metto ai voti l'articolo 4. È approvato.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u20">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg45">Signor Presidente, come anticipato ho riservato a questa fase l'indicazione delle motivazioni relative all'espressione del voto favorevole del nostro Gruppo e, se lei lo consente, per economia dei nostri lavori consegnerei alla Presidenza il testo scritto del mio intervento preannunciando il voto favorevole del Gruppo Lega Nord.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg46">PRESIDENTE. La Presidenza l'autorizza in tal senso.</seg>
+            </u>
+            <note type="speaker">AMORUSO (ALA-SCCLP)</note>
+            <u ana="#regular" who="#AmorusoFrancescoMaria" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u21">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg47">Signor Presidente, io vorrei cogliere questa occasione per svolgere un'unica dichiarazione di voto sui quattro provvedimenti che abbiamo in votazione questa mattina e che sono tutti più o meno riguardanti gli stessi argomenti. Questa mia dichiarazione di voto vale quindi per tutti ed in particolare per gli accordi tra la Repubblica italiana e l'Azerbaijan, tra la Repubblica Italiana e lo Stato di Israele, tra la Repubblica Italiana e la Repubblica di Croazia e tra la Repubblica Italiana e lo Stato del Qatar; questo perché tutti e quattro i provvedimenti per vari aspetti riguardano forme di collaborazione tra lo Stato italiano e gli altri Paesi in materia di lotta alla criminalità organizzata, al terrorismo, all'emigrazione illegale. C'è tutto un complesso lavoro che viene fatto dallo Stato italiano, in particolare dal Ministero dell'interno e dal Ministero degli affari esteri, con altri Stati per contrastare questi fenomeni gravissimi in alcune aree molto critiche del mondo. Per questi motivi, il voto del Gruppo ALA-Scelta Civica per la Costituente Liberale e Popolare sarà favorevole su tutti e quattro i provvedimenti in materia che sono al nostro esame.</seg>
+            </u>
+            <note type="speaker">LUCIDI (M5S)</note>
+            <u ana="#regular" who="#LucidiStefano" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u22">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg48">Signor Presidente, annuncio il voto favorevole del Movimento 5 Stelle.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u23">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg49">Signor Presidente, chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u24">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg50">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (2499) Ratifica ed esecuzione del Memorandum d'Intesa sulla lotta alla criminalità tra il Governo della Repubblica italiana ed il Governo dello Stato del Qatar, fatto a Roma il 16 aprile 2012</note>
+            <note type="time">10,46</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/47186.htm</note>
+            <note type="time">(ore 10,46)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u25">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg51">L'ordine del giorno reca la discussione del disegno di legge n. 2499, già approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg52">Il relatore, senatore Compagna, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg53">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">COMPAGNA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CompagnaLuigi" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u26">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg54">Signor Presidente, il testo in esame riguarda un aspetto importante, come richiamava il collega Amoruso, cioè la collaborazione dell'Italia nella lotta alla criminalità organizzata, in particolare con riferimento alla prevenzione, alla scoperta ed alla repressione dei reati e all'individuazione dei criminali. Di qui, un'azione comune tra le autorità italiane e del Governo dello Stato del Qatar.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg55">Il testo si compone di un preambolo e di 11 articoli e mira a definire uno strumento giuridico che regolamenti la collaborazione di polizia bilaterale sotto il profilo strategico ed operativo, consentendo di intensificare i rapporti tra gli omologhi organismi dei due Paesi.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg56">Nel definire gli obiettivi del Memorandum, l'articolo 1 menziona la collaborazione bilaterale nella lotta alla criminalità, in generale e in tutti i casi in cui la prevenzione e la repressione dei reati, nonché l'individuazione dei criminali, richiedano un'azione comune tra le autorità dei due Paesi. L'Accordo è finalizzato, in particolare, a contrastare, attraverso una cooperazione di polizia, i traffici illeciti di sostanze stupefacenti e di armi, il terrorismo, la criminalità organizzata, l'immigrazione illegale e altri reati in qualche modo riguardanti il crimine organizzato. La cooperazione implica lo scambio delle informazioni e l'assistenza nello sviluppo scientifico e tecnico delle indagini. Gli articoli seguenti disciplinano i casi in cui le richieste di assistenza possano essere rifiutate, lo scambio di riunioni e visite e le misure di tutela per la protezione dei dati personali. Le autorità competenti sono il Dipartimento della pubblica sicurezza del Ministero dell'interno per l'Italia e il Dipartimento per la cooperazione internazionale per il Qatar. II disegno di legge consta di quattro articoli che ineriscono, rispettivamente, all'autorizzazione alla ratifica, all'ordine di esecuzione, alla copertura finanziaria dei relativi oneri ed all'entrata in vigore del testo. Gli oneri complessivi sono di circa 50.000 euro annui. L'analisi delle compatibilità dell'intervento non segnala criticità. Il testo tiene conto delle disposizioni contenute, fra le altre, nella Convenzione unica sugli stupefacenti del 1961 e nella Convenzione ONU sulla lotta contro la criminalità organizzata transnazionale del 2000. In conclusione, la Commissione mi dà mandato di proporre a questa Assemblea l'approvazione del provvedimento in esame.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u27">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg57">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u28">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg58">Signor Presidente, su questa ratifica credo sia necessaria una breve riflessione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg59">Naturalmente, la lotta alla criminalità è questione che vede tutti schierati dalla stessa parte ma, poiché siamo in un momento delicato, bisogna prestare attenzione a provvedimenti come questo e soprattutto bisogna capire quali sono i soggetti con cui ci si interfaccia, quando vengono siglati accordi di questo tipo. Non si tratta di provvedimenti di serie B, ma di provvedimenti che hanno un impatto sui cittadini.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg60">Una ratifica di questo tipo ha sicuramente una portata positiva per quanto riguarda i rapporti tra i due Paesi, ma forse è necessario chiedere uno sforzo maggiore in termini di chiarezza al soggetto interlocutore, in questo caso al Qatar, con cui stringiamo questo accordo, per quanto riguarda determinati atteggiamenti assunti in passato. Mi riferisco ad iniziative che poi hanno causato un nocumento, dei danni o anche delle tragedie in altre aree del mondo. È necessario capire se, effettivamente, chi firma con noi un accordo è scevro da questo tipo di sostegno a soggetti che hanno intenzioni ostili oppure vi è stata una connivenza, che deve essere assolutamente condannata e non deve più esserci in futuro.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg61">Quando si parla di Qatar, si parla di uno Stato che sostiene la diffusione della religione islamica in tante altre parti del mondo, oltre ai Paesi dove essa si è originata e spesso lo fa mettendo a disposizione tantissimi soldi, tanti milioni di euro. Anche in proposito bisognerebbe capire quali siano le intenzioni reali: si tratta solamente di agevolare la diffusione di un culto oppure dietro c'è qualcos'altro? Queste sono preoccupazioni che ritenevo giusto rassegnare, evidenziando però che la portata del provvedimento è sicuramente positiva e che ci troviamo di fronte ad un Paese che ha dato dei segnali che, almeno nell'ultimo periodo, fanno ben pensare per quanto riguarda il futuro. La nostra è una preoccupazione; qualcuno la può ritenere eccessiva, ma essa ha portato il nostro Gruppo, alla Camera, ad astenersi sui singoli articoli e sulla votazione finale, posizione che preannuncio in questa sede e che ribadirò in sede di dichiarazione di voto.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u29">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg62">Dichiaro chiusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg63">Comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg64">Procediamo alla votazione dell'articolo 1.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg65">CIAMPOLILLO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1. (Segue la votazione). Il Senato approva. (v. Allegato B). Metto ai voti l'articolo 2. È approvato. Passiamo alla votazione dell'articolo 3. CIAMPOLILLO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 4. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u30">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg66">Signor Presidente, visto che ho già anticipato alcune delle perplessità che ci hanno portato ad esprimere un voto di astensione sui singoli articoli, confermiamo tale voto di astensione anche per quanto riguarda il voto finale sul provvedimento. Le chiedo di poter consegnare il testo del mio intervento, che ribadisce in modo molto più puntuale le perplessità poc'anzi espresse e ribadisco il voto di astensione del nostro Gruppo. PRESIDENTE. La Presidenza la autorizza a consegnare il testo del suo intervento, senatore Stucchi.</seg>
+            </u>
+            <note type="speaker">ROSSI Luciano (AP (Ncd-CpI))</note>
+            <u ana="#regular" who="#RossiLuciano" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u31">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg67">Signor Presidente, l'illustrazione del collega Compagna è stata puntuale e dettagliata. Non c'è dubbio che l'argomento, anche alla luce delle riflessioni che ha sollevato il collega Stucchi, vada nella direzione di una maggiore conoscenza e di un maggior approfondimento. Tuttavia, proprio per dare migliori risposte in futuro credo sia opportuno non solo condividere, ma anche sostenere convintamente questo disegno di legge e, in particolare, quanto contenuto all'articolo 1. Di conseguenza, il voto del Gruppo Area Popolare sarà senz'altro favorevole.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo AP (Ncd-CpI).</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u32">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg68">Ricordo che in sede di esame del disegno di legge n. 2498 il senatore Amoruso ha anticipato il voto favorevole del proprio Gruppo anche sul disegno di legge in esame.</seg>
+            </u>
+            <note type="speaker">LUCIDI (M5S)</note>
+            <u ana="#regular" who="#LucidiStefano" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u33">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg69">Signor Presidente, annuncio il voto contrario del Gruppo Movimento 5 Stelle.</seg>
+            </u>
+            <note type="speaker">SANGALLI (PD)</note>
+            <u ana="#regular" who="#SangalliGianCarlo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u34">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg70">Signor Presidente, annuncio il voto favorevole del Partito Democratico. Per giustificare il nostro voto, richiamo l'articolo 1, su cui vi è stata un'ampissima convergenza: i temi che si trattano tra i due Stati sono la collaborazione contro il traffico illecito di sostanze stupefacenti, il terrorismo, la criminalità organizzata, tutti i tipi di contraffazione e di contrabbando, il riciclaggio, i reati connessi alle carte di credito, i reati informatici e suInternet, i reati commessi nei porti, aeroporti e altri varchi e l'immigrazione clandestina. Mi pare utile che questo Memorandum di intesa venga adottato e pertanto sul provvedimento il voto del Partito Democratico sarà favorevole.</seg>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u35">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg71">Signor Presidente, intervengo per annunciare il voto di astensione del Gruppo di Forza Italia sul provvedimento. Le finalità, come ha detto il presidente Sangalli, sono buonissime, il problema è il soggetto con cui l'Accordo viene fatto. Credo che, per le implicazioni che ci sono state da parte di quello Stato con organizzazioni che, per l'appunto, questo strumento si propone di combattere, sarebbe stato maggiormente opportuno un approfondimento di carattere sostanziale e politico prima della ratifica. Pertanto, noi ci asterremo.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u36">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg72">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u37">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg73">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione, con modificazioni, del disegno di legge: (2027) Ratifica ed esecuzione dell'Accordo tra il Governo della Repubblica italiana e il Governo della Repubblica di Croazia sulla cooperazione transfrontaliera di polizia, fatto a Zagabria il 5 luglio 2011</note>
+            <note type="time">10,57</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45908.htm</note>
+            <note type="time">(ore 10,57)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u38">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg74">L'ordine del giorno reca la discussione del disegno di legge n. 2027.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg75">Il relatore, senatore Pegorer, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg76">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">PEGORER</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PegorerCarlo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u39">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg77">Signor Presidente, il disegno di legge all'esame dell'Assemblea reca ratifica ed esecuzione dell'Accordo sottoscritto tra l'Italia e la Croazia sulla cooperazione transfrontaliera di polizia. L'intesa sancisce l'impegno dei due Paesi a sviluppare una più efficace azione di contrasto al crimine transfrontaliero, con particolare riferimento all'immigrazione illegale, alla tratta degli esseri umani e al traffico di sostanze stupefacenti. L'intento è di creare uno strumento giuridico per regolamentare la collaborazione di polizia sul piano strategico e operativo, nonché di intensificare i rapporti tra gli omologhi organismi dei due Paesi preposti alla pubblica sicurezza.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg78">L'Accordo, composto da un preambolo e da 17 articoli, individua nei rispettivi Ministeri dell'interno le autorità responsabili dell'attuazione dell'intesa. Dopo aver specificato gli ambiti di competenza per territorio, l'intesa definisce le modalità della cooperazione transfrontaliera prevedendo lo scambio di informazioni, i collegamenti per le comunicazioni e telecomunicazioni, l'armonizzazione dell'attività operativa, istruzione e formazione professionale.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg79">I successivi articoli dell'Accordo disciplinano uno scambio di funzionari di polizia, gruppi di lavoro congiunti, l'invio di ufficiali di collegamento e il coordinamento di attività operative. Un capitolo specifico è dedicato alla protezione della riservatezza dei dati personali.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg80">Il disegno di legge di ratifica si compone di quattro articoli che dispongono rispettivamente in merito all'autorizzazione alla ratifica, all'ordine di esecuzione, alla copertura finanziaria e all'entrata in vigore.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg81">Gli oneri economici per l'Italia vengono quantificati complessivamente in circa 120.000 euro annui, ascrivibili alle spese per la diaria e per il distacco di breve termine del personale coinvolto, nonché per l'attività di formazione e istruzione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg82">Segnalo all'Assemblea che la Commissione affari esteri ha approvato due emendamenti al testo originario seguendo le indicazioni formulate dalla competente Commissione bilancio per spostare la copertura finanziaria al 2017 e per aggiornare le norme sulla copertura alla riforma delle legge di contabilità entrata in vigore lo scorso settembre.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg83">L'Accordo non presenta profili di incompatibilità con la normativa nazionale, con l'ordinamento comunitario, né con gli altri obblighi internazionali sottoscritti dal nostro Paese, a partire dalla Convenzione delle Nazioni Unite contro la criminalità organizzata e i relativi protocolli.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg84">In conclusione, signor Presidente, si propone l'approvazione del provvedimento in esame.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u40">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg85">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Stucchi Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u41">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg86">Signor Presidente, nella seduta di Commissione di ieri il senatore Pegorer ha relazionato sul provvedimento in esame e devo dire che anche nella relazione svolta questa mattina ne ha illustrato bene i contenuti.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg87">Condivido in toto la sua relazione e vorrei soffermarmi solo su un aspetto, ossia la sottolineatura che ha voluto fare dello specifico capitolo dedicato alla riservatezza dei dati personali. Si tratta di una questione attualissima, presente anche oggi sui quotidiani e per fortuna l'Accordo contiene un passaggio dedicato a questo tema. È una cosa importante che ritengo opportuno sottolineare all'Assemblea, ribadendo la condivisione dei contenuti del provvedimento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u42">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg88">Dichiaro chiusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg89">Comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg90">Procediamo alla votazione dell'articolo 1.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg91">CIAMPOLILLO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 2. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 3. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3. (Segue la votazione). Il Senato approva. (v. Allegato B). Metto ai voti l'articolo 4. È approvato.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u43">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg92">Signor Presidente, ribadisco il voto favorevole del nostro Gruppo al provvedimento. Voglio dire solo che servirà un ulteriore accordo o ulteriori accordi con la Croazia per affrontare altre tematiche che riguardano l'area balcanica, collegata all'Italia in modo più che contiguo, e che hanno conseguenze dirette per il nostro Paese.</seg>
+            </u>
+            <note type="speaker">BERTOROTTA (M5S)</note>
+            <u ana="#regular" who="#BertorottaOrnella" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u44">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg93">Signor Presidente, voglio dire due parole in merito all'Accordo in esame, partendo dalla crisi siriana, che può essere definita, senza ombra di dubbio, la madre di tutte le emergenze migratorie in Europa dal 2011 in poi, oltre alla crisi libica, che sarebbe meglio definire l'aggressione militare a un Paese sovrano con l'obiettivo di annientare le istituzioni e favorire il caos. Entrambe le crisi influiscono sui flussi migratori, ma in questo caso mi riferirò alla crisi siriana per ovvie ragioni di geografia dei flussi migratori verso l'Europa. Questa crisi ha generato un enorme flusso di profughi, dei quali un numero sempre maggiore si dirige in Europa. Di fronte alle problematiche generate da quanto appena illustrato, la posizione politica della Croazia e degli altri Paesi dell'Est Europa è stata di totale contrasto alla ripartizione delle quote migranti, facendo di fatto pesare l'accoglienza su Paesi come il nostro e la Grecia. La Croazia, inoltre, ha più volte chiuso le proprie frontiere, creando di fatto situazioni di emergenza significative sia per gli Stati limitrofi, che per l'Europa in generale. Il problema, signor Presidente, non è dunque l'accordo in sé, ma il segnale politico che diamo alla Croazia, in un momento in cui questo Paese, in contrasto con altri, attua frequenti chiusure delle sue frontiere e a livello europeo gioca in un campo avverso al nostro interesse nazionale, dato che una chiusura generalizzata delle frontiere dei Paesi europei (come - voglio ricordarlo - Zagabria auspica) lascerebbe i migranti sul territorio italiano e quindi aggraverebbe il sistema di accoglienza che fa già acqua da tutte le parti ed è stato più volte terreno di corruzione e malaffare, come ben sappiamo e come molti colleghi del PD ben sanno, con i casi di mafia capitale e del CARA di Mineo. Signor Presidente, parliamo tanto di immigrazione irregolare dal Mediterraneo (circa 150.000 arrivi in media all'anno) quando dalle Repubbliche dell'Est Europa ogni anno milioni di persone si spostano da aree dove il salario di un operaio è di circa 200 euro: mi pare chiaro che qualcosa non funzioni. Voi la chiamate integrazione, ma a mio avviso siamo di fronte ad un processo migratorio ben più imponente che sta abbattendo, una dopo l'altra, tutte le conquiste sociali e lavorative faticosamente raggiunte con la lotta dei nostri nonni e dei nostri padri. Le reiterate azioni di chiusura della frontiera da parte della Croazia e il sostegno ad una proposta politica europea di gestione delle quote di redistribuzione dei migranti che danneggia in maniera sia diretta che indiretta l'interesse italiano sono le ragioni che portano il Movimento 5 Stelle a votare contro questo Accordo e invito i colleghi degli altri Gruppi politici a unirsi e dare un segnale politico inequivocabile a chi lavora per bloccare i migranti nei Paesi di primo approdo come il nostro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ROSSI Luciano (AP (Ncd-CpI))</note>
+            <u ana="#regular" who="#RossiLuciano" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u45">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg94">Signor Presidente, credo che l'illustrazione del collega Pegorer sia stata puntuale e non c'è dubbio che i rapporti di buon vicinato con la Croazia siano per noi fondamentali. Per questi e altri motivi, posso anticipare il voto favorevole del Gruppo di Area Popolare.</seg>
+            </u>
+            <note type="speaker">SANGALLI (PD)</note>
+            <u ana="#regular" who="#SangalliGianCarlo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u46">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg95">Signor Presidente, il Gruppo del Partito Democratico esprimerà un voto favorevole al presente Accordo, ma non ci nascondiamo che deve essere uno dei primi passi di una politica molto attenta rispetto a tutta l'area dei Balcani, sia per quanto riguarda i flussi di migrazione, sia in vista di un processo di stabilizzazione dei Balcani stessi. La politica estera e internazionale presuppone che si parta da accordi e non da scontri: l'accordo serve per poter poi costruire nuovi accordi. Per tale motivo voteremo a favore del disegno di legge al nostro esame. PRESIDENTE. Ricordo che in sede di esame del disegno di legge n. 2498 il senatore Amoruso ha anticipato il voto favorevole del proprio Gruppo anche sul disegno di legge in esame.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u47">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg96">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u48">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg97">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione, con modificazioni, del disegno di legge: (2186) Ratifica ed esecuzione dell'Accordo fra il Governo della Repubblica italiana e il Governo dello Stato di Israele in materia di pubblica sicurezza, fatto a Roma il 2 dicembre 2013</note>
+            <note type="time">11,08</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46343.htm</note>
+            <note type="time">(ore 11,08)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u49">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg98">L'ordine del giorno reca la discussione del disegno di legge n. 2186.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg99">Il relatore, senatore Corsini, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg100">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">CORSINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CorsiniPaolo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u50">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg101">Signor Presidente, il collega, senatore Amoruso, ha già delineato il senso e le finalità di questo provvedimento, ma in vista di una valutazione più dettagliata dirò che l'intesa in esame risponde all'esigenza di migliorare la cooperazione operativa tra le forze di sicurezza dei due Paesi, al fine di garantire il mantenimento della sicurezza reciproca e prevenire e combattere la criminalità transnazionale e il terrorismo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg102">L'Accordo, che si compone di un preambolo e di 15 articoli, identifica come autorità competenti il Dipartimento della pubblica sicurezza del Ministero dell'interno, per l'Italia, e il Ministero della pubblica sicurezza, per Israele.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg103">Tra gli ambiti della cooperazione (articolo 2), sono inclusi la criminalità organizzata, il traffico di sostanze stupefacenti, la migrazione illegale, la tratta di persone e quella di armi, nonché i reati di natura economica e il terrorismo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg104">Il testo definisce quindi le modalità per lo svolgimento della cooperazione bilaterale, prevedendo, fra l'altro, lo scambio di informazioni e di prassi operative, lo svolgimento di operazioni congiunte quale supporto alle iniziative informative ed investigative, nonché lo scambio di dati su persone sospette e sulle organizzazioni criminali operanti nei due territori.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg105">I successivi articoli disciplinano le modalità per le richieste di assistenza e i casi per opporre un rifiuto a tali richieste, nelle situazioni pregiudizievoli per la sovranità, la sicurezza e l'ordine pubblico di una delle due parti.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg106">Alcuni articoli sono quindi dedicati alla protezione dei testimoni e dei loro familiari, ai limiti all'uso dei dati personali e al distacco di esperti per la sicurezza.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg107">L'intesa dispone altresì la possibilità per le autorità competenti di concludere accordi di esecuzione, regola la gestione delle spese ordinarie e disciplina le modalità per la composizione di eventuali controversie interpretative o applicative dell'Accordo, la durata, l'entrata in vigore e le modalità per la sua eventuale modifica.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg108">II disegno di legge consta di quattro articoli relativi all'autorizzazione, alla ratifica, all'ordine di esecuzione, alla copertura finanziaria e all'entrata in vigore del testo. Gli oneri economici per l'Italia vengono quantificati complessivamente in circa 120.000 euro annui. L'analisi delle compatibilità dell'intervento non segnala criticità di ordine costituzionale, né di contrasto con l'ordinamento dell'Unione europea.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg109">L'Accordo, pur in assenza di richiami formali nel preambolo, appare compatibile con gli obblighi internazionali dell'Italia e, in particolare, tiene conto nella sostanza delle disposizioni contenute delle Convenzioni delle Nazioni Unite in materia di lotta alla droga e al terrorismo e contro la criminalità organizzata transnazionale.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg110">In conclusione, si propone l'approvazione da parte dell'Assemblea del provvedimento in esame.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u51">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg111">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u52">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg112">Signor Presidente, il collega Corsini, da buon professore, ha illustrato in modo perfetto il contenuto di questo ratifica, tra l'altro oggetto dei lavori in Commissione ieri pomeriggio.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg113">Ritengo condivisibile la finalità di questa ratifica e, quindi, senza perdere altro tempo per l'economia dei nostri lavori, anticipo già in questa sede il voto favorevole della Lega Nord su questo provvedimento, sugli articoli e per il voto finale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Crosio.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u53">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg114">Comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg115">Procediamo alla votazione dell'articolo 1.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg116">CIAMPOLILLO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 2. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 3. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 4. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u54">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg117">Signor Presidente, desidero solo ribadire il voto favorevole del Gruppo Lega Nord al provvedimento.</seg>
+            </u>
+            <note type="speaker">BERTOROTTA (M5S)</note>
+            <u ana="#regular" who="#BertorottaOrnella" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u55">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg118">Signor Presidente, non si può non spendere alcune parole per Israele e per gli accordi che stringiamo con questo Paese. Questo Accordo, firmato nel 2013, sostituisce una convenzione precedente del 2005. Esso prevede una spesa complessiva superiore a 120.000 euro. È prevista una serie di corsi di formazione e scambi di informazioni che, a mio avviso, non ha alcuna utilità in Italia, in quanto noi non affrontiamo minacce simili a quelle che affronta Israele né, tantomeno, ci troviamo in presenza di territori morfologicamente omogenei. Risulta poi preoccupante la collaborazione nella gestione dell'ordine pubblico in occasione di grandi eventi e manifestazioni di massa. Le nostre forze di polizia sono perfettamente addestrate ad affrontare questo genere di eventi e non si capisce per quale motivo dovremmo spendere altri soldi per cooperare in un settore che riguarda strettamente l'ordine pubblico interno dei rispettivi Paesi. Inoltre, c'è una grande differenza tra i reati che vengono puniti nel Paese mediorientale rispetto a quelli che vengono puniti nel nostro. Per fare solo un esempio, potremmo riferirci alla legislazione penale sui minori, soprattutto palestinesi, rispetto alle tutele previste nel nostro Paese, ma le differenze non si fermano qui, ovviamente. Riteniamo dunque che l'accordo firmato nel 2005 sia già sufficiente a garantire la cooperazione sulla sicurezza dei rispettivi Paesi, senza aggravare lo Stato di ulteriori spese che - ripeto - a nostro avviso sono sostanzialmente inutili in termini sia di aggiornamento del nostro personale, che di minacce che il nostro Paese deve affrontare. Annuncio pertanto il voto contrario del Gruppo del Movimento 5 Stelle alla ratifica in oggetto.</seg>
+            </u>
+            <note type="speaker">ROSSI Luciano (AP (Ncd-CpI))</note>
+            <u ana="#regular" who="#RossiLuciano" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u56">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg119">Signor Presidente, intervengo per anticipare il voto convintamente a sostegno del Gruppo di Area Popolare, prendendo senz'altro le distanze da quanto la collega del Movimento 5 Stelle ha detto. Infatti, non si tratta di spese, ma di investimenti in sicurezza e non c'è dubbio che quando si parla dei temi della sicurezza e della difesa di tutto il mondo, ad iniziare dal nostro Paese, non si può pensare di difendere solo i nostri confini senza immaginare di essere, invece, protagonisti anche dello scenario internazionale. Il voto del Gruppo Area Popolare sarà pertanto favorevole alla ratifica.</seg>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u57">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg120">Signor Presidente, intervengo anch'io per esprimere il voto favorevole del Gruppo Forza Italia, sottolineando che lo Stato di Israele gestisce l'emergenza ed il contrasto al terrorismo, agli attentati ed al lancio di missili ogni giorno. È un Paese che ha inventato un sistema di difesa grazie al quale i continui lanci di missili, che vengono dai territori che sono stati menzionati e dei quali si compiangono sempre altri aspetti senza mai parlare di questo, vengono in grandissima parte neutralizzati. Quel sistema di difesa purtroppo, dati i tempi che il nostro Paese, come altri, deve fronteggiare, potrebbe essere molto utile. Sarebbe utile quanto meno una collaborazione con un Paese che ha questa straordinaria, quotidiana esperienza di rispetto dei diritti umani e di difesa della sicurezza dei cittadini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SANGALLI (PD)</note>
+            <u ana="#regular" who="#SangalliGianCarlo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u58">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg121">Signor Presidente, mi preme sottolineare che quello al nostro esame è un Accordo importante, che si inserisce in una situazione di grande tensione presente nell'area mediorientale. Esso viene ratificato a pochi giorni da un terribile attentato che ha colpito Israele e a quel popolo e a quel Governo dobbiamo esprimere la nostra compatta solidarietà, nonché la gratitudine per l'impegno nella lotta al terrorismo che quel Paese è chiamato a svolgere e che svolge dando a tutti lezione su come lo si deve fare. Se si intensificano le relazioni e la collaborazione con quel Paese, anche in una situazione che si auspica di maggiore distensione dell'area mediorientale e nei rapporti con la Palestina, non possiamo che esserne soddisfatti e contenti. Annuncio pertanto il voto favorevole del Gruppo del Partito Democratico per le argomentazioni esattamente opposte a quelle di chi vota contro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg122">PRESIDENTE. Ricordo che in sede di esame del disegno di legge n. 2498 il senatore Amoruso ha anticipato il voto favorevole del proprio Gruppo anche sul disegno di legge in esame.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u59">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg123">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u60">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg124">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B). Prendiamo atto che nella precedente votazione il senatore Carraro intendeva esprimere un voto favorevole.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (2194) Ratifica ed esecuzione della Convenzione tra il Governo della Repubblica italiana e il Governo di Barbados per evitare le doppie imposizioni in materia di imposte sul reddito e per prevenire le evasioni fiscali, fatta a Barbados il 24 agosto 2015</note>
+            <note type="time">11,24</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46363.htm</note>
+            <note type="time">(ore 11,19)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u61">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg125">L'ordine del giorno reca la discussione del disegno di legge n. 2194.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg126">Il relatore, senatore Amoruso, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni, la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg127">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">AMORUSO</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#AmorusoFrancescoMaria" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u62">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg128">Signor Presidente, la Convenzione in esame risponde all'esigenza di disciplinare in maniera più efficiente ed equilibrata gli aspetti fiscali delle relazioni economiche fra i due Paesi. L'intesa ricalca il modello di convenzione fiscale dell'OCSE, che è stata alla base di molti accordi con altri Paesi, tra cui quello che esamineremo tra poco che riguarda le Filippine, e trova applicazione nei riguardi delle persone fisiche e giuridiche residenti in uno o in entrambi gli Stati contraenti, limitatamente all'imposizione sui redditi e all'imposta regionale sulle attività produttive.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg129">L'accordo definisce il concetto di residenza, di stabile organizzazione e di utili d'impresa, accogliendo il principio generale in base a cui gli utili d'impresa sono imponibili nello Stato di residenza dell'impresa stessa ad eccezione dei redditi prodotti per il tramite di un'organizzazione stabile.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg130">Quanto agli utili di capitale, la Convenzione stabilisce, fra l'altro, una potestà impositiva concorrente dei due Stati per plusvalenze relative a beni immobili o a beni mobili appartenenti alla stabile organizzazione o alla base fissa.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg131">In materia di pensioni, la Convenzione prevede la tassazione soltanto nello Stato di residenza, mentre per le remunerazioni derivanti dallo svolgimento di funzioni pubbliche stabilisce di regola la tassazione nello Stato della fonte.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg132">Per i redditi di professori ed insegnanti, l'accordo, per facilitare gli scambi, dispone un'esenzione temporanea nel Paese presso cui essi svolgono attività di ricerca o insegnamento.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg133">Sono poi previsti il principio di non discriminazione, una procedura amichevole per la risoluzione dei conflitti, lo scambio d'informazioni e l'intangibilità dei privilegi fiscali previsti per agenti diplomatici e funzionari consolari.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg134">Il disegno di legge di ratifica si compone di tre articoli che dispongono rispettivamente in merito all'autorizzazione e alla ratifica, all'ordine di esecuzione e all'entrata in vigore. Non sono previsti oneri. Il testo non presenta profili d'incompatibilità con la normativa nazionale né con l'ordinamento europeo e gli altri obblighi internazionali sottoscritti dal nostro Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg135">In conclusione, si propone l'approvazione da parte dell'Assemblea del provvedimento in esame.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u63">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg136">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u64">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg137">Signor Presidente, come ha detto il relatore la doppia imposizione è questione ben nota a quest'Assemblea. Si tratta di una ratifica standard, che viene scritta seguendo un modello già utilizzato e risolve alcune questioni aperte tra questi due Paesi, ossia il nostro e Barbados. Credo che, come in altri casi, il nostro Gruppo non possa che condividere le finalità del provvedimento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u65">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg138">Dichiaro chiusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg139">Comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg140">Procediamo alla votazione dell'articolo 1.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg141">CIAMPOLILLO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 2. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 3. CIAMPOLILLO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u66">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg142">Signor Presidente, in ragione di quanto ho detto, condividendone le finalità, il nostro Gruppo esprimerà un voto favorevole sul provvedimento in esame.</seg>
+            </u>
+            <note type="speaker">BERTOROTTA (M5S)</note>
+            <u ana="#regular" who="#BertorottaOrnella" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u67">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg143">Signor Presidente, parlando di Barbados vengono in mente il Paradiso: spiagge da sogno, mare cristallino, rigogliosa ed esotica vegetazione. Un posto meraviglioso. Oltre che essere un paradiso per il turismo, è un paradiso fiscale, soprattutto per le imprese di grandi dimensioni. Bisogna innanzitutto distinguere tra le persone fisiche e le società. Le società godono di molti privilegi, come ad esempio: dieci anni di esenzione dal pagamento delle tasse sul reddito, seguiti da una aliquota fissa del 2,5 per cento. Ma fin qui nulla di scorretto, poiché il Paese è molto piccolo e le esigenze di spesa dello Stato sono sicuramente più contenute delle nostre. È proprio il caso di citare un articolo di Valerio Castronovo del 14 agosto 2016 su «Il Sole 24 Ore», dal titolo «È il capitalismo, bellezza», ovvero come giudicare scorretta una concorrenza basata su tasse più basse e servizi alle imprese migliori. Sulla trasparenza bancaria, invece, Barbados è attualmente inserito nelle black list degli Stati non collaborativi previste dai decreti del Ministero dell'economia e delle finanze. Barbados fa inoltre parte della cosiddetta lista top 30 dei paradisi fiscali predisposta dall'Unione europea. Come non concludere che la firma di questo accordo è un passo decisivo verso l'uscita dalla black list italiana e ovviamente un'ottima referenza anche per uscire dalla top list europea, sempre che ciò sia di interesse per entrambe le parti? È da evidenziare inoltre che rispetto al modello di Convenzione OCSE, comunemente usato dal nostro Paese per siglare accordi di questo tipo, in questo caso ci sono da notare diverse anomalie, come ad esempio: l'articolo 14 stabilisce una corsia privilegiata per le cosiddette stabili organizzazioni, che sarebbero «piattaforma di trivellazione o nave utilizzate per l'esplorazione o lo sfruttamento di risorse naturali» quale stabile organizzazione, «se la durata oltrepassa i sei mesi». La difformità rispetto al modello OCSE riguarda l'articolo 28, che stabilisce la possibilità di rimborsi al contribuente soprattutto nel caso di tassazioni improprie. È inoltre da rilevare che lo Stato caraibico ha recentemente sottoscritto la Convenzione multilaterale sulla reciproca assistenza in materia fiscale promossa da OCSE e Consiglio d'Europa, e rientra tra i Paesi che si sono impegnati ad effettuare, entro il settembre 2017, la prima trasmissione di dati secondo il nuovo standard di scambio automatico OCSE in materia di informazioni finanziarie. Analoghi accordi sono stati sottoscritti anche con gli Stati Uniti. Questo accordo va probabilmente nella giusta direzione, quella di una maggiore trasparenza e di regole certe, tuttavia non è adeguato ad affrontare il prossimo futuro, anche in ragione della trasformazione del mercato finanziario e delle imprese. È un accordo nato già vecchio per molti versi. Tuttavia, in ragione della necessità di proseguire un percorso di dialogo e di recuperare base imponibile legittima, seppur in presenza delle perplessità evidenziate, annuncio il nostro voto favorevole.</seg>
+            </u>
+            <note type="speaker">ROSSI Luciano (AP (Ncd-CpI))</note>
+            <u ana="#regular" who="#RossiLuciano" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u68">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg144">Signor Presidente, l'illustrazione fatta dal collega Amoruso è stata precisa e puntuale. Pertanto, anticipo il voto favorevole del Gruppo Area Popolare.</seg>
+            </u>
+            <note type="speaker">SANGALLI (PD)</note>
+            <u ana="#regular" who="#SangalliGianCarlo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u69">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg145">Signor Presidente, confermo il voto favorevole del Partito Democratico.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u70">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg146">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u71">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg147">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (2207) Ratifica ed esecuzione del Protocollo recante modifiche alla Convenzione tra la Repubblica italiana e la Repubblica delle Filippine per evitare le doppie imposizioni in materia di imposte sul reddito e per prevenire l'evasione fiscale del 5 dicembre 1980, fatto a Manila il 9 dicembre 2013</note>
+            <note type="time">11,38</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46407.htm</note>
+            <note type="time">(ore 11,29)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u72">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg148">L'ordine del giorno reca la discussione del disegno di legge n. 2207.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg149">Il relatore, senatore Micheloni, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg150">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">MICHELONI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#MicheloniClaudio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u73">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg151">Signor Presidente, si tratta di ratificare il Protocollo recante modifiche alla Convenzione tra la Repubblica italiana e la Repubblica delle Filippine per evitare le doppie imposizioni in materia di imposte sul reddito e per prevenire l'evasione fiscale, del 5 dicembre 1980, fatto a Manila il 9 dicembre 2013.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg152">Il Protocollo in esame è finalizzato ad aggiornare la Convenzione bilaterale risalente al 1980, consentendo di ampliarne il campo di applicazione, includendovi, per l'Italia, anche l'imposta regionale sulle attività produttive.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg153">L'articolo III modifica alcune disposizioni della Convenzione vigente, riformulando in particolare quella relativa al metodo di imputazione ordinaria per l'eliminazione della doppia imposizione, rendendola adeguata alla più recente formulazione utilizzata in materia nelle Convenzioni fiscali. Il medesimo articolo elimina il meccanismo che prevedeva la possibilità per i soggetti italiani che operano nel territorio delle Filippine di attribuirsi il pagamento di imposte virtuali su canoni, interessi o dividendi, anche qualora le stesse non venissero effettivamente prelevate per tali fattispecie reddituali.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg154">Il successivo articolo IV amplia la cooperazione fra le amministrazioni, prevedendo fra l'altro il superamento del segreto bancario. L'articolo costituisce dunque la base giuridica per intensificare la cooperazione amministrativa fra le Parti in materia di scambio di informazione, conformemente all'obiettivo prioritario della lotta all'evasione transnazionale, consentendo al contempo di migliorare la trasparenza dei rapporti fra le autorità fiscali dei due Paesi.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg155">Da ultimo, l'articolo V dispone in ordine all'entrata in vigore del Protocollo al momento dello scambio delle notifiche delle procedure di recepimento del nuovo accordo nei rispettivi ordinamenti.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg156">Il disegno di legge di ratifica si compone di 3 articoli che dispongono, rispettivamente, in merito all'autorizzazione alla ratifica, all'ordine di esecuzione ed all'entrata in vigore.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg157">La relazione illustrativa che accompagna il provvedimento precisa come dall'introduzione delle disposizioni della Convenzione non dovrebbero determinarsi effetti di gettito per l'erario italiano. Il testo non presenta profili di incompatibilità con la normativa nazionale, né con l'ordinamento europeo e gli altri obblighi internazionali sottoscritti dal nostro Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg158">In conclusione, si propone l'approvazione da parte dell'Assemblea.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u74">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg159">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u75">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg160">Signor Presidente, ringrazio il relatore per il suo intervento. Questa ratifica tocca in effetti una questione che abbiamo già affrontato con le Barbados, ma per le Filippine è una questione che va ad aggiornare un documento già esistente al fine di evitare la doppia imposizione e prevenire l'evasione fiscale. Noi condividiamo queste finalità. Oggi abbiamo uno strumento più moderno, più agile e facilmente applicabile che sicuramente porterà a dei risultati migliori; uno strumento maggiormente performante rispetto ai vecchi accordi esistenti. Come dicevo prima, condividiamo le finalità e ci auguriamo che il prima possibile possa trovare applicazione il contenuto di questa ratifica.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u76">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg161">Dichiaro chiusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg162">Comunico che è pervenuto alla Presidenza - ed è in distribuzione - il parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame, che verrà pubblicato in allegato al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg163">Procediamo alla votazione dell'articolo 1.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg164">GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 2. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 3. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u77">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg165">Signor Presidente, mi limito a ribadire il voto favorevole del nostro Gruppo; le finalità sono condivise e soprattutto è uno strumento che può dare risultati migliori rispetto a quello attualmente in vigore.</seg>
+            </u>
+            <note type="speaker">LUCIDI (M5S)</note>
+            <u ana="#regular" who="#LucidiStefano" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u78">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg166">Signor Presidente, dichiaro il voto favorevole del Gruppo Movimento 5 Stelle.</seg>
+            </u>
+            <note type="speaker">ROSSI Luciano (AP (Ncd-CpI))</note>
+            <u ana="#regular" who="#RossiLuciano" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u79">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg167">Signor Presidente, vorrei annunciare il voto convintamente favorevole del Gruppo.</seg>
+            </u>
+            <note type="speaker">SANGALLI (PD)</note>
+            <u ana="#regular" who="#SangalliGianCarlo" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u80">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg168">Signor Presidente, annuncio il voto favorevole del Gruppo Partito Democratico.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u81">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg169">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u82">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg170">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato Conferenza dei Presidenti dei Gruppi parlamentari, convocazione</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u83">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg171">Onorevoli colleghi, comunico che nella seduta pomeridiana di martedì 17 gennaio, alle ore 16,30, il Presidente renderà comunicazioni sul calendario dei lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg172">La Conferenza dei Capigruppo sarà convocata nella stessa giornata di martedì.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">PERRONE (CoR)</note>
+            <u ana="#regular" who="#PerroneLuigi" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u84">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg173">Signor Presidente, è mio desiderio portare all'attenzione di questa Assemblea la preoccupante situazione di maltempo che si è abbattuto sulle Regioni del Centro-Sud. La Puglia, in special modo, è la Regione in cui le avversità climatiche hanno travolto il territorio che non è riuscito a far fronte all'eccezionalità di questi eventi. Il comparto ortofrutticolo, che rappresenta da sempre un'eccellenza in Italia e nel mondo, è stato messo in ginocchio. Le perdite parziali parlano già di oltre 110 milioni di euro, ma il bilancio è destinato a salire. La Puglia è uno dei principali produttori di ortofrutta a livello nazionale e la diminuzione del quantitativo dei prodotti ortofrutticoli della Puglia provocherà inevitabilmente la scarsità delle materie prime in tutto il Paese, l'aumento dei prezzi dell'approvvigionamento esistente, nonché ricadute occupazionali su tutta la filiera agricola. Il Gruppo CoR ha presentato un'interrogazione per chiedere al ministro Martina di agire con tempestività e presentare un provvedimento che permetta alle aziende agricole di tornare a produrre senza il gravame causato dalle perdite determinate da questi tristi eventi. Auspichiamo, quindi, che il Ministro venga a riferire in quest'Assemblea sulle strategie che il Governo intende adottare per fronteggiare questa situazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo CoR.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DI GIORGI (PD)</note>
+            <u ana="#regular" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u85">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg174">Signor Presidente, colleghi, intervengo in merito alla gravissima situazione in cui si trova il sovrintendente di polizia artificiere rimasto gravemente ferito a Firenze dall'esplosione di un ordigno artigianale la mattina di Capodanno del 2017 (abbiamo iniziato così il nostro anno in Italia). Mario Vece, di 39 anni, ha perso la mano sinistra e quasi totalmente l'occhio destro e ha una grave malformazione allo zigomo, su cui adesso si è di nuovo intervenuti con un'operazione. Lunedì scorso, infatti, ha subìto di nuovo un lungo intervento chirurgico, probabilmente non l'ultimo, che si è concluso positivamente. Io mi recherò in ospedale per portare la solidarietà mia personale da cittadina di Firenze, ma vi parlo in questa sede, colleghi, perché da membro del Consiglio di Presidenza vorrei portare anche quella del Senato della Repubblica e sono certa di poter portare anche la vostra, colleghi. Il sovrintendente Mario Vece, infatti, nell'esercizio delle sue funzioni, per garantire la nostra sicurezza è stato vittima di un incidente gravissimo che ovviamente sconvolgerà per sempre la sua vita a quella dei suoi famigliari. Ovviamente sono criminali senza animo i responsabili dell'attentato, persone che ritengono che la lotta politica vada fatta con il sangue e la distruzione, soggetti malavitosi che, secondo le dichiarazioni riportate sulla stampa, come avete visto, farebbero capo ad ambienti anarco-insurrezionalisti che di fatto pensano che la lotta politica vada fatta con il sangue. Le ferite di Mario Vece sono ferite alla democrazia e alle nostre istituzioni. Non sono nuovi questi soggetti; hanno già colpito a Firenze, hanno usato il medesimo sistema di ordigni esplosivi contro sedi dell'organizzazione di estrema destra CasaPound, ma non è questo il punto. Il punto è che la lotta politica deve essere civile. È una lotta che deve essere svolta con le parole, con gli argomenti e non certamente con queste modalità che sono inaccettabili. Concludo qui il mio intervento, Presidente. Volevo sono manifestare la vicinanza del Senato della Repubblica all'artificiere Mario Vece affinché nessuno, nel vortice delle notizie che si sovrappongono giorno dopo giorno, dimentichi la storia di quest'uomo che comunque ha compiuto tale sacrificio per proteggere noi, tutti noi, come tanti poliziotti, come le Forze dell'ordine fanno ogni giorno con un elevato rischio personale. Noi, dopo la notizia, ce ne dimentichiamo, ma in ospedale c'è un uomo che sta soffrendo moltissimo e la sua famiglia, oltretutto, vive a Salerno e quindi ha anche problemi di natura economica per poter stare a Firenze ed assisterlo in un momento così tragico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e dei senatori Giovanardi e Orellana.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CAPPELLETTI (M5S)</note>
+            <u ana="#regular" who="#CappellettiEnrico" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u86">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg175">Signor Presidente, non intervengo spesso in fine seduta. Lo faccio raramente ma per segnalare situazioni gravi, anche molto gravi come la seguente. Vengo da Vicenza, Vicenza è in Veneto e il Veneto è sempre più conosciuto in Italia come la terra dei PFAS, che sono materiali chimici inquinanti che hanno contaminato, intriso il terreno, le falde e l'acqua di 300.000 abitanti del Veneto. Noi ci battiamo da tre anni perché venga chiuso il rubinetto dell'azienda che inquina, che è stata già da tempo individuata. Però nulla è stato fatto dal Governo, che anzi ha triplicato i valori di soglia, e nulla è stato fatto dal Governo regionale, che anzi ci ha accusato di procurato allarme, minacciando azioni legali nei confronti del Movimento 5 Stelle. Ora, però, sono emersi nuovi dati e nuovi studi gravi e allarmanti. Da uno studio del registro nascite sugli esiti materni e neonatali in relazione alla contaminazione da PFAS, emerge l'incremento del diabete gestazionale, dei nati con peso molto basso, dei nati piccoli per età gestazionali ed alcune malformazioni maggiori tra cui anomalie del sistema nervoso, anomalie del sistema circolatorio e cromosomiche. Nei 21 Comuni interessati nel Veneto si assiste ad un significativo aumento della mortalità. Le patologie associate ai PFAS sono in particolare le cardiopatie ischemiche, per cui la mortalità è aumentata del 21 per cento, malattie cerebro vascolari, per cui la mortalità è aumentata del 19 per cento, diabete mellito più 25 per cento, Alzheimer e demenza più 14 per cento. Addirittura vi è un eccesso significativo di ipertiroidismo. Presidente, in Veneto si sta morendo di PFAS. Non lo diciamo solo noi che bisogna chiudere i rubinetti dell'inquinamento, lo dice Domenico Mantoan, direttore generale della sanità della Regione Veneto che per firmare la sua relazione chiede l'immediata rimozione delle fonti di contaminazione. Per uno scherzo del destino anche lui è vittima di questo inquinamento. Pare che si sia sottoposto o intenda sottoporsi a breve a plasmaferesi: per chi non lo sapesse è il lavaggio del proprio sangue. Peccato che in questa situazione vi siano 300.000 cittadini in Veneto. Al governo regionale e nazionale chiediamo per l'ennesima volta di svegliarsi, di rispondere alle interrogazioni che giacciono senza risposta ormai da anni e di intervenire per far chiudere la fonte dell'inquinamento che è stata chiaramente individuata. Chi inquina deve pagare e qui ci sono danni per miliardi e miliardi. Termino, però, con una domanda: chi pagherà per tutte le vite che sono state spezzate perché non si è intervenuti prima per porre fine a questo inquinamento?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u87">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg176">Signor Presidente, ancora uno scandalo nella gestione dei migranti: il 3 gennaio 2017 le Forze dell'ordine sono intervenute a Cona, in Provincia di Venezia, dopo una rivolta scoppiata in seguito alla morte di una ragazza ivoriana di 25 anni. Il centro è gestito dalla società cooperativa Ecofficina Edeco, che - come riporta «Il Fatto quotidiano» - è nome conosciuto per diverse inchieste: truffa, falso e maltrattamenti sono le ipotesi di reato a carico dei vertici della cooperativa. Essa è diventata leader, in pochissimi anni, nella gestione del mercato dell'accoglienza, con un fatturato passato da 114.000 euro nel 2011 a quasi 20 milioni di euro nel 2016, dopo esserci aggiudicata importanti strutture in tre Province: Oderzo, Cona e Padova. Fino a poco tempo fa, gestiva l'ex caserma Prandina, dove, alle porte del centro storico, sono transitati centinaia di migranti (troppi). Ho visitato quella tendopoli e ho presentato un atto di sindacato ispettivo che ancora non ha avuto risposta. Il caso è così lampante, signor Presidente, che Ugo Campagnaro, presidente regionale di Confcooperative, ebbe a dichiarare che questo è un sistema che non risponde alle logiche della buona accoglienza, della qualità dell'intervento, dell'integrazione e della relazione. Si tratta invece di un modello che guarda soprattutto al business, prendendo le distanze da quel soggetto gestore e dalla maniera in cui operava. Negli anni Ecofficina è stata oggetto di inchieste giornalistiche che riportano gli intrecci parentali con la politica. Il presidente è Gaetano Battocchio, mentre l'amministratore delegato è Sara Felpati, moglie di Simone Borile, ex presidente del Consorzio Padova Sud e vicepresidente della controllata Padova Tre, le stesse in cui lavorano o hanno lavorato, tra gli altri, Francesca Degani, sorella di Barbara, ex presidente della Provincia e Sottosegretario all'ambiente con il Nuovo Centrodestra, ma anche Emiliano Manzato, figlio di Sergio, ex deputato dei DS e sindaco di Stanghella. E poi una pletora di parenti di politici locali: mogli, figli e cognate di assessori, vicesindaci, consiglieri comunali di destra, sinistra e centro. L'unione tra Padova Tre ed Ecofficina, oggetto di indagini giornalistiche, si sarebbe conclusa nel 2014, ma i loro legami sono finiti ancora al centro di un'inchiesta del pubblico ministero di Padova Federica Baccaglini su un buco in bilancio da 30 milioni di euro. Addirittura, nel novembre scorso gli uomini della Guardia di finanza sono arrivati a perquisire gli uffici di Ecofficina per un sospetto scambio di denaro tra le casse della Coop e quelle della società di raccolta rifiuti. Dunque, signor Presidente, ho presentato un ulteriore atto di sindacato ispettivo, in cui chiedo di sapere quali informazioni il Governo abbia in riferimento alla morte della ragazza presso il centro di accoglienza e sulla rivolta scoppiata; quali iniziative abbia in animo di adottare per verificare ed eventualmente risolvere le criticità evidenziate; come voglia prevenire la gestione di questi centri di accoglienza da parte di soggetti che non abbiano gli standard doverosi di qualità e dignità negli interventi; se intenda attivare un sistema di monitoraggio adeguato; infine come intenda attuare i controlli sulla rendicontazione economica e sulla corretta e trasparente gestione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CANDIANI (LN-Aut)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u88">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg177">Signor Presidente, ieri abbiamo avuto modo di conoscere dalle cronache giornalistiche un nuovo episodio della gestione della ricostruzione post terremoto secondo il Governo. Sono rimasto veramente esterrefatto da questa scelta e soprattutto dalla modalità (tramite sorteggio) con la quale si sta dando risposta ad esigenze fondamentali, come quella di un tetto sotto cui ripararsi. Credo che questo sia il fallimento totale di qualsiasi scelta politica seria di risposta a questa emergenza, che - lo ricordo - nei mesi passati ha visto sfilare tutte le componenti del Governo, dall'ex Presidente del Consiglio all'attuale, al Presidente della Repubblica (lo dico con rispetto), ai Ministri, che sono andati sul campo e si sono prodigati e spesi per soluzioni veloci e sicure per tutti, dicendo che nessuno sarebbe stato lasciato indietro. Signor Presidente, è vergognoso che ci sia stato un sorteggio. Dopo la disgrazia, dopo la malasorte, adesso ci si deve affidare alla buona sorte. Ma questa non è una modalità seria con cui operare. Non è possibile che si proceda con questa modalità nei confronti di gente che ancora oggi aspetta sotto le tende e sotto la neve. La cosa ancora più raccapricciante è che ci si affidi alle raccolte di fondi privati, quando ci sono centinaia di milioni che dovrebbero essere a disposizione e quando purtroppo - lo dico per l'ennesima volta - la burocrazia sta vincendo sul buonsenso. Negli scorsi giorni ho parlato con il sindaco di Norcia e mi sono trovato davanti a una riflessione semplice: sta vincendo la burocrazia; la necessità di garantire la sicurezza degli appalti rispetto al farli. Questa non è una modalità seria con cui un Paese e un Governo, che vogliono essere seri, possono dare risposte credibili. Sono veramente rammaricato e non dico altro perché vorrebbe dire scadere nel contenuto. Nei prossimi giorni tornerò ancora in quelle case e tra quella gente e riporterò ancora in questa Aula del Senato la situazione. Come ho fatto in precedenza, chiedo a lei, Presidente, di attivarsi presso la Commissione agricoltura perché ci sia una visita seria della Commissione per considerare le condizioni di abbandono in cui sono ancora gli agricoltori. Se ciò non avverrà, avremo abdicato al nostro ruolo. Questo non possiamo permettercelo; noi non lo permetteremo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg178">PRESIDENTE. La ringrazio anche per la presentazione di mozioni e di altri strumenti per portare questa discussione in Assemblea.</seg>
+            </u>
+            <note type="speaker">GIROTTO (M5S)</note>
+            <u ana="#regular" who="#GirottoGianniPietro" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u89">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg179">Signor Presidente, passiamo di vergogna in vergogna: prima abbiamo sentito dell'inquinamento dell'acqua, un bene fondamentale; adesso parlerò dell'inquinamento dell'aria. Abbiamo avuto la brillante idea di riaprire una centrale a carbone. Sappiamo tutti che il carbone è il combustibile del futuro: sicuro, pulito ed economico (naturalmente sono sarcastico). Abbiamo riaperto una centrale a Genova perché la Francia produce meno energia con il nucleare. Noi italiani siamo stati bravissimi negli anni passati: abbiamo aumentato notevolmente la nostra produzione da rinnovabili e, quindi, siamo tranquilli (anche qui sono tristemente sarcastico). L'Italia negli ultimi due anni è in retromarcia. Colleghi della maggioranza, per favore mettetevelo in testa. Sono dati ufficiali: due anni fa abbiamo perso il 5 per cento di elettricità da rinnovabili e l'anno scorso il 2 per cento. Siamo in retromarcia, mentre nel resto del mondo si incrementa la produzione di energia da rinnovabili: l'anno scorso il fotovoltaico ha avuto un aumento del 30 per cento, mentre noi abbiamo perso lo 0,5 per cento. Siamo fermi e in retromarcia. È una vergogna incredibile! Riapriamo una centrale a carbone alla faccia della COP21, degli obiettivi 2020 e 2030, della strategia energetica nazionale e di quanto ha dichiarato Obama adesso che è libero e non ha più alcuna remora. Ha rilasciato un'intervista a «Popular Science», che vi invito a leggere, nella quale sposa completamente rinnovabili ed efficienza. Come potrebbe essere altrimenti dal momento che creano centinaia di migliaia di posti di lavoro, salvaguardano l'ambiente e l'economia? Noi cosa facciamo in Italia? Riapriamo una centrale a carbone. Vorrei invitare tutti ad andare in miniera a estrarlo per capire cosa comporta. È un messaggio per tutti gli italiani. Questo Governo è in retromarcia, non dategli più fiducia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per la risposta scritta ad interrogazioni</head>
+            <note type="speaker">PUGLIA (M5S)</note>
+            <u ana="#regular" who="#PugliaSergio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u90">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg180">Signor Presidente, volevo sollecitare la risposta a due interrogazioni. La prima è l'atto 4-02094 , addirittura del 17 aprile 2014. Non so cosa faccia il Ministero. Dorme? Forse è perché c'è ancora Poletti. È rivolta proprio al Ministero del lavoro. L'altra interrogazione che voglio sollecitare è l'atto 4-06281 del 4 agosto 2016, che riguarda il parco archeologico di Liternum, nel Comune di Giuliano, in provincia di Napoli. Voglio chiedere al Ministro se effettivamente ha intenzione di dare ai cittadini questo parco archeologico. Siccome si parla tanto di cultura e del fatto che con la stessa si mangia, sollecito queste due interrogazioni.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.u91">
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg181">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg182">Ricordo che il Senato tornerà a riunirsi in seduta pubblica oggi, alle ore 16, con l'ordine del giorno già stampato e distribuito.</seg>
+               <seg xml:id="ParlaMint-IT_2017-01-12-LEG17-Sed-739.seg183">La seduta è tolta (ore 11,55).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

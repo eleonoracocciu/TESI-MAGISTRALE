@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 189 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 189 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 189, giorno (2014-02-12)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 189, Day (2014-02-12)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="189-upper">189 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="139" unit="speeches" xml:lang="it">139 discorsi</measure>
+            <measure quantity="139" unit="speeches" xml:lang="en">139 speeches</measure>
+            <measure quantity="12477" unit="words" xml:lang="it">12.477 parole</measure>
+            <measure quantity="12477" unit="words" xml:lang="en">12,477 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0747681</idno>
+               <date when="2014-02-12">12.02.2014</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="20"/>
+               <tagUsage gi="head" occurs="16"/>
+               <tagUsage gi="note" occurs="167"/>
+               <tagUsage gi="seg" occurs="139"/>
+               <tagUsage gi="u" occurs="70"/>
+               <tagUsage gi="vocal" occurs="9"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="39"/>
+               <tagUsage gi="desc" occurs="48"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2014-02-12">12.02.2014</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza della vice presidente LANZILLOTTA</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u1">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg1">La seduta è aperta (ore 9,33). Si dia lettura del processo verbale. BERGER, segretario, dà lettura del processo verbale della seduta antimeridiana del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">BARANI (GAL)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg2">Signora Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Verifica del numero legale</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u3">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato non è in numero legale. Poiché, come comunicato per le vie brevi, la seduta si sarebbe dovuta sospendere per un impegno istituzionale del Gruppo della Lega Nord e Autonomie, a questo punto sospendo la seduta fino alle ore 10,30. (La seduta, sospesa alle ore 9,36, è ripresa alle ore 10,32).</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg4">(ore 10,32)</seg>
+            </u>
+            <note type="president">Presidenza della vice presidente FEDELI</note>
+            <note type="time">10,32</note>
+         </div>
+         <div type="debateSection">
+            <head>Ripresa della discussione sul processo verbale</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u4">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg5">Riprendiamo i nostri lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg6">Metto ai voti il processo verbale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg7">È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u5">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg8">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u6">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg9">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg10">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 10,33).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'ordine dei lavori</head>
+            <note type="speaker">LATORRE (PD)</note>
+            <u ana="#regular" who="#LatorreNicola" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg11">Signora Presidente, l'ordine del giorno di oggi prevede anche la discussione, con conseguente votazione, del decreto-legge relativo alle missioni militari. Come ben sapete sia lei che tutto il Parlamento, i Presidenti delle Commissioni difesa ed esteri di Camera e Senato hanno assunto, in questi giorni, una iniziativa relativa alla drammatica vicenda che sta angosciando il nostro Paese, che vede coinvolti i due fucilieri Massimiliano Latorre e Salvatore Girone, i quali sono in India in attesa di giudizio da due anni, nonché all'atteggiamento ormai non più tollerabile delle autorità indiane. In virtù di questa situazione il Parlamento, per affiancare il lavoro del Governo, aveva...</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg12">PRESIDENTE. Prego davvero tutti i senatori di prestare attenzione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg13">...aveva promosso una serie di incontri ed iniziative tese a internazionalizzare la vicenda e a chiedere a tutte le istituzioni internazionali, ai nostri alleati e in generale a tutto il mondo democratico, di unirsi all'Italia per pretendere il rispetto dei diritti e delle norme internazionali. Non dobbiamo dimenticare che i nostri fucilieri erano all'epoca impegnati in una missione internazionale antipirateria, coperta dalle Nazioni Unite. Rispetto a questa iniziativa stavamo costruendo... PRESIDENTE. Le chiedo scusa, senatore Latorre, se la interrompo, ma devo chiedere a tutti i senatori presenti in Aula di prestare attenzione e di abbassare il tono della voce. LATORRE (PD). Capisco che queste sono ore nelle quali è già cominciata una discussione relativa al futuro politico del Paese. PRESIDENTE. È importante quanto lei ci deve comunicare. LATORRE (PD). Ci stiamo preoccupando di questioni che riguardano il destino di nostri due militari</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, FI-PdL XVII, M5S , NCD e PI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg14">, ma soprattutto ci stiamo occupando della dignità del nostro Paese nel mondo. Quindi, ai margini si parli di altro. Poco ci interessa.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg15">Quello che ci preme dire in questa circostanza è che, fermo restando l'impegno che abbiamo, teso ovviamente anche a discutere e confermare tutti gli impegni internazionali, ieri si è svolta una importante audizione delle Commissioni congiunte esteri e difesa. In quella sede il Ministro degli esteri - dopo di me interverrà al riguardo anche il presidente Casini - non solo ci ha rassicurato, ma ha anche rilanciato la necessità di promuovere una grande iniziativa internazionale, garantendoci che su questo fronte sta raccogliendo il consenso delle istituzioni e dei nostri interlocutori in tutto il mondo. D'altro canto, in effetti, in queste settimane abbiamo registrato la presa di posizione del presidente Barroso e di alcuni capi di Governo, e sappiamo che il Presidente del Consiglio e il Presidente della Repubblica, anche all'indomani della nostra iniziativa, si sono attivati.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg16">Ieri però è accaduto qualcosa che ci ha molto colpito e che ci preoccupa. Ci riferiamo alle dichiarazioni del segretario generale delle Nazioni Unite Ban Ki-moon, il quale ha sottolineato che questa non può essere una vicenda su cui si caratterizza un impegno della massima istituzione internazionale, ma è un problema bilaterale dei due Paesi, l'Italia e l'India. Questa dichiarazione ci preoccupa moltissimo, ed è anche in contrasto con quanto ieri il Ministro della difesa ci ha comunicato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg17">Per cui chiediamo a lei, signora Presidente, sperando di interpretare il sentimento del Parlamento (questa è anche l'opinione dei componenti delle Commissioni esteri e difesa di questo ramo del Parlamento), di discutere di queste missioni e di questo provvedimento (lo facciamo come atto politico, non per mettere in discussione i nostri impegni internazionali, al momento) solo dopo che il Ministro degli esteri sarà venuto in Aula a dirci come il Governo italiano intende reagire alle recenti dichiarazioni del segretario generale delle Nazioni Unite Ban Ki-moon.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, FI-PdL XVII, NCD e PI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CASINI (PI)</note>
+            <u ana="#regular" who="#CasiniPierFerdinando" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg18">Signora Presidente, mi associo completamente alle dichiarazioni del presidente Latorre e, poiché le condivido, non le ripeto. Vorrei però specificare - per trarre le conclusioni del suo ragionamento - una richiesta precisa: vogliamo sospendere l'esame, previsto oggi all'ordine del giorno, del decreto recante proroga delle missioni internazionali, fino a quando il Governo non sarà venuto in Aula a riferire in ordine alle affermazioni inaccettabili rese ieri dal Segretario Generale dell'ONU.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PI, FI-PdL XVII e NCD).</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg19">Sia chiaro che, a fronte della strategia che ci è stata illustrata di internazionalizzare il tema dei marò, conformemente peraltro alla posizione che è stata espressa, nel senso indicato dal Governo italiano, dal presidente Barroso e dal commissario Ashton, ieri sera abbiamo avuto una totale smentita da parte del Segretario Generale dell'ONU, il quale ha riproposto la tesi, ormai desueta, di un problema bilaterale tra Italia e India.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg20">Da questo Senato si deve levare una voce univoca: questo non è un problema tra Italia e India, ma è un problema tra l'India e la comunità internazionale perché i nostri marò erano inquadrati in una missione internazionale antipirateria avallata dall'ONU.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PI,PD, FI-PdL XVII e NCD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg21">). Non possiamo essere lasciati soli dal Segretario Generale dell'ONU, e vogliamo che il Governo, subito prima dell'esame di questo decreto, esprima la propria posizione e ci dica quali iniziative intende intraprendere.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg22">Penso che la volontà unanime del Senato sia fare chiarezza su questo punto. Il Governo ci dica le iniziative che ha in cantiere per contrastare una visione unilaterale inaccettabile del Segretario Generale dell'ONU. Mi sembra che in caso contrario non possiamo procedere all'esame del provvedimento recante proroga delle missioni internazionali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PI,PD, FI-PdL XVII, NCD e Misto-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GASPARRI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u9">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg23">Signora Presidente, intervengo per esprimere, a nome del Gruppo di Forza Italia, apprezzamento e condivisione alle parole dei Presidenti delle Commissioni difesa ed esteri. Poco fa, quando vi è stata la riunione congiunta delle Commissioni 3ª e 4ª, mi sono permesso di sollevare la questione delle dichiarazioni inaccettabili del Segretario Generale delle Nazioni Unite, e ne è scaturita la presa di posizione e la decisione delle Commissioni, visto, tra l'altro, che il decreto-legge sulle missioni consente ampiamente di poter fare una discussione serena e approfondita. Esso, infatti, scade il 16 marzo e, in un momento di affollamento di provvedimenti in Parlamento, per questo specifico provvedimento c'è la possibilità di attendere che il Governo possa riferire. Il nostro Gruppo ha condiviso una serie di iniziative, in sede parlamentare e fuori. Rivendico come merito delle Commissioni esteri e difesa di Camera e Senato la missione parlamentare, che qualcuno aveva criticato e che, invece, è stata occasione anche per coinvolgere e sensibilizzare maggiormente tutte le istituzioni, il Governo, le Presidenze di Camera e Senato e il Presidente della Repubblica, in quale incontrò una delegazione al ritorno dal viaggio, assumendo ulteriori iniziative di stimolo. Le affermazioni dei senatori Latorre e Casini sono da sottoscrivere. Non voglio aprire in questa sede polemiche sulle Nazioni Unite, la cui storia gloriosa è fatta anche di tante, inutili esternazioni. Noi, però, dal segretario generale Ban Ki-moon ci saremmo attesi una solidarietà all'Italia e ai nostri militari, che collaborano in tante parti del mondo per la sicurezza e la libertà, molto più di quanto non faccia l'ONU.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg24">Riteniamo, quindi, che sia una questione che investe la dignità della nostra Nazione. Pur comprendendo - lo dico senza alcuna ironia - le ore difficili della politica e del Governo, un Governo in carica c'è e credo possa far sentire la sua voce fino al Palazzo dell'ONU. Non siamo, infatti, di fronte a una vicenda bilaterale tra Italia e India.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg25">Abbiamo pesato le parole, comprendendo il rischio dei nostri militari; abbiamo apprezzato il viaggio del Ministro della difesa lunedì; attendiamo con pazienza il 18 febbraio per conoscere le nuove decisioni delle autorità indiane; comprendiamo che l'India ha in corso la campagna elettorale, con tutto il confronto interno: ma ora basta. Dall'Aula del Senato venga un monito forte, un richiamo ai diritti dei nostri militari e al rispetto, che non si deve soltanto a La Torre e a Girone, ma che il Segretario Generale dell'ONU deve a una Nazione come l'Italia, che ha migliaia di donne e di uomini impegnati in tanti scenari di crisi a rischiare la vita anche per consentire all'ONU di svolgere la sua attività.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII e NCD e dei senatori Casini e Latorre.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg26">Signora Presidente, non posso che unirmi, con il Gruppo Lega Nord, alle considerazioni che sono state fatte, anche perché la fondatezza delle parole del presidente Casini e poi dal presidente Gasparri è evidente. Il nostro è un Paese che, senza mai riserve, si è sempre messo a disposizione della comunità internazionale, con sacrifici di persone (anche definitivi, purtroppo) e con impegni finanziari importanti. Non possiamo, quindi, accettare che l'evento che riguarda i nostri marò venga derubricato come un fatto tra due Nazioni. Premesso che la riflessione deve essere estremamente profonda, perché abbiamo forze impegnate che addirittura rischiano di essere ascritte a situazioni come la pirateria, credo che occorra una valutazione generale non solo sulla forma di partecipazione del nostro Paese alle missioni internazionali, ma anche su queste particolari situazioni, che sono state peraltro - lo ricordo ai colleghi - dibattute profondamente nella scorsa legislatura: in quale forma avremmo potuto dare protezione ai navigli rispetto alla pirateria...</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg27">PRESIDENTE. Per favore, chiedo ai colleghi, sia nell'emiciclo di destra che in quello di sinistra, di abbassare la voce. Prego, senatore Volpi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg28">Signora Presidente, capisco e capiamo che in questo momento vi siano forse delle particolari fibrillazioni che riguardano il Governo. Da questo, tuttavia, non è nostra intenzione far scaturire una polemica. Non ci interessa sapere che tipo di Governo verrà a dare il suo contributo al Parlamento per capire qual è la situazione rispetto a questa vicenda estremamente importante, che riguarda delle persone, ma - mi permetta, Presidente - riguarda anche la dignità di un Paese che, quando serve, è sempre presente. Una soluzione, però, dobbiamo trovarla: dobbiamo trovarla per i marò, che ormai da due anni sono ad aspettare non si sa che cosa, ma dobbiamo trovarla anche per capire come siamo considerati a livello internazionale. Se le considerazioni, infatti, sono quelle fatte dall'ONU e ricordate in quest'Aula, sinceramente forse una riflessione insieme su come comportarci dovremmo farla.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e del senatore D'Anna.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">TONINI (PD)</note>
+            <u ana="#regular" who="#ToniniGiorgio" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u11">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg29">Signor Presidente, credo che l'emozione di questo momento - che è certamente difficile per il nostro Paese - con particolare riferimento ad una vicenda che si trascina da molto tempo e che sta diventando sempre più dolorosa, debba accompagnarsi anche alla riflessione. Sono convinto che sia necessario anche mantenere il pieno controllo di quello che stiamo facendo e dell'atteggiamento dell'Italia sulla scena internazionale, che deve perseguire con determinazione - e quindi anche con pazienza - l'obiettivo di far valere le nostre ragioni sul terreno politico e diplomatico internazionale. Credo, allora, che sia stata giusta la decisione assunta dalle Commissioni congiunte affari esteri e difesa di Camera e Senato - che il mio Gruppo ha condiviso - di chiedere al nostro Governo di venire a riferire in Aula, perché certamente le dichiarazioni del Segretario Generale delle Nazioni Unite sono impegnative e devono quindi essere lette con molta attenzione, richiedendo, da parte dell'Italia, una capacità evidentemente più forte ed adeguata di sostenere le proprie ragioni. Ritengo, dunque, che sia giusto chiedere al Ministro degli affari esteri di venire a riferire in Parlamento per capire quali possano essere le iniziative che il Governo, supportato dal Parlamento, deve portare avanti per sostenere con efficacia le nostre ragioni, a livello europeo e a livello multilaterale, con particolare riferimento alle Nazioni Unite. Stiamo attenti e controlliamo le nostre emozioni: non vorrei che in qualche Gruppo si insinuasse la tentazione, che non ha mai portato fortuna all'Italia, del «molti nemici molto onore».</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e SCpI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg30">In questo momento dobbiamo costruire una rete di amicizia forte attorno all'Italia e attorno alle nostre ragioni, che sono ragioni forti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg31">Sono convinto quindi che il nostro Governo, che fin qui ha avuto sempre il consenso del Parlamento per l'attenzione con la quale ha seguito questa vicenda, possa certamente proseguire e portare avanti la propria azione in questo senso, nell'interesse, innanzitutto, dei nostri marò e del nostro Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, SCpI e PI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE CRISTOFARO (Misto-SEL)</note>
+            <u ana="#regular" who="#DeCristofaroPeppe" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg32">Signora Presidente, il nostro Gruppo si associa alla richiesta formulata dai presidenti Latorre e Casini. Vorrei anche dire che condivido molto le cose che ha detto adesso il senatore Tonini, nel senso che, anche dal nostro punto di vista, si tratta di una questione delicatissima, che pensiamo vada affrontata con grande cautela e con intelligenza, se così posso dire. In effetti ho l'impressione che, nel corso di questi mesi e di questi anni, un certo linguaggio e una certa retorica - che è stata utilizzata, purtroppo, anche in Parlamento - non giovino affatto alla causa dei marò. Penso invece che sulla questione bisognerebbe avere molta più capacità di mettere in campo un'iniziativa politica e diplomatica tesa a rafforzare i rapporti di amicizia, a non isolare il nostro Paese, naturalmente anche a fare polemica, quando è necessario, e con una richiesta forte di rispetto dei diritti umani, sapendo che si tratta, signora Presidente, di una vicenda delicata nella quale non dobbiamo mai dimenticare che ci sono due morti, i quali troppo spesso, nel corso di questi mesi e di questi anni, sono stati dimenticati nel racconto che facciamo degli eventi. Voglio pensare naturalmente con forza ai nostri marò e alle loro famiglie, alla condizione di sgomento che probabilmente vivono in queste ore, ma vorrei che non dimenticassimo che ci sono due pescatori indiani innocenti ammazzati.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SCAVONE (GAL)</note>
+            <u ana="#regular" who="#ScavoneAntonio" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg33">Signora Presidente, il Gruppo GAL si associa con convinzione alla richiesta che in quest'Aula è stata avanzata dai Presidenti delle Commissioni difesa ed esteri, ma senza voler essere ultroneo vorrei sottolineare alcuni aspetti. Le affermazioni del Segretario Generale dell'ONU sono sconcertanti: se il nostro cuore e la nostra mente non fossero assorbiti dalla preoccupazione che abbiamo rispetto al destino dei nostri marò, non ci dovrebbe sfuggire, in questo momento, che tali affermazioni rappresentano un rischio di isolamento sul piano internazionale del nostro Paese, nel quale la politica sin troppo fragile probabilmente ha aperto la strada a considerazioni di tale leggerezza. Parlo di leggerezza, e lo sottolineo, perché è giusto che l'Assemblea sappia quello che abbiamo osservato andando in India come parlamentari, con grande convinzione e in armonia, senza indulgere ad alcuna strumentalizzazione rispetto a quello che abbiamo trovato. Abbiamo trovato due militari del nostro Paese di grandissimo livello, e qui voglio sottolineare la qualità delle Forze armate, della Marina militare, nell'aver saputo selezionare persone straordinarie sul piano della tenuta psicologica e nell'averle sapute formare in questo modo. Abbiamo trovato due militari che danno lustro al nostro Paese, due persone per bene, di grande compostezza e di grande tenuta psicologica. Aggiungo che è vero che ci sono due morti, ma è da stabilire se quelle morti sono da imputare alla diretta responsabilità di quello che è avvenuto in quel momento. Stiamo attenti alle semplificazioni strumentali: i due pescatori che sono morti erano su un peschereccio che non è mai stato visto dal comandante e dall'equipaggio della nave italiana e la nave italiana è stata indicata perché, molto semplicisticamente, era stata individuata una nave rossa e nera. Questo ci è stato detto in quella situazione. Ricordiamoci quindi che il nostro Paese merita di essere difeso e merita di avere in questo momento un Governo capace di alzare la voce e di stare a schiena dritta rispetto a questi atti di leggerezza che l'Italia subisce anche dall'ONU, anche per un'altra ragione. Insieme ai militari, abbiamo potuto osservare, ed è giusto che lo si sappia in quest'Aula, la capacità dell'ambasciatore italiano in India, Daniele Mancini, rispettato da tutta la componente diplomatica indiana, al punto che ci ha consentito di incontrare tutti gli ambasciatori d'Europa. I Presidenti delle Commissioni hanno incontrato l'ambasciatore degli Stati Uniti e, se posso dirlo, probabilmente da questo e non dagli altri, hanno registrato una condizione di difficoltà di dialogo tra il suo Paese e l'India. L'India è un Paese in difficoltà, è un Paese alla svolta, dopo cinquant'anni della politica che lo ha retto fino ad oggi. L'India è un Paese che qualcuno ha convinto di essere una grande potenza, e la grande potenza rischia di affermarsi sulla pelle di persone estranee ai fatti che vengono loro contestati. Ricordo a me stesso e a tutti, per completare il ragionamento, che se l'Italia è impegnata in azioni che sono di tipo internazionale a tutela di tutti, abbiamo il dovere, nei confronti non solo dei nostri militari, ma delle Forze armate, di essere riconosciuti come un Paese al pari degli altri, che contribuisce a tutelare l'equilibrio e la pace nel mondo. Quindi, aspettiamo che il Governo con coraggio ci comunichi qual è la strategia di risposta immediata, rispetto anche a questa superficiale considerazione che abbiamo registrato da parte del Segretario Generale dell'ONU. È doveroso che, fino ad allora, altri temi di questo tenore non siano trattati da quest'Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo GAL e del senatore Crosio.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ORELLANA (M5S)</note>
+            <u ana="#regular" who="#OrellanaLuisAlberto" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u14">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg34">Signora Presidente, il Gruppo del Movimento 5 Stelle si associa alla richiesta del senatore Latorre e del senatore Casini affinché il Governo, nella persona del Ministro degli affari esteri, chiarisca in Aula, il prima possibile, questa profonda distonia tra le parole che ha usato ieri, con le quali ci ha garantito un coinvolgimento forte della comunità internazionale (la cosiddetta internazionalizzazione della vicenda, che è un atto - perlomeno questo - urgente e dovuto) e, invece, le parole del segretario generale dell'ONU Ban Ki-moon, che riconduce questa incredibile vicenda a una questione semplicemente bilaterale. La lotta alla pirateria marina è una lotta che l'Italia sta conducendo da anni: con la missione Ocean Shield, sotto l'egida della NATO, con la missione Atalanta, sotto l'egida dell'Unione europea, e con la protezione dei mercantili italiani, sotto l'egida dell'UNCLOS, che è quella in cui purtroppo sono incappati due anni fa i nostri fucilieri di Marina. Questa lotta, che appunto ha tante sfaccettature, non sta ricevendo il sufficiente appoggio da parte di queste tre organizzazioni. Finora si è espressa solo l'Unione europea, sia a livello del Presidente della Commissione europea, Barroso, che dell'Alto rappresentante per gli affari esteri, Ashton, in modo, secondo me, insufficiente, ma almeno abbiamo avuto una chiara indicazione di volerla considerare come una problematica europea, e non più bilaterale, come forse si pensava all'inizio della vicenda. Penso però che questo percorso debba ancora proseguire: l'Unione europea, primo partner commerciale dell'India, deve far valere il suo peso. Sono d'accordo con chi parla dell'esigenza di atteggiamenti più riflessivi e pacati, ma diplomazia non vuole dire mancanza di fermezza. La fermezza in questo caso non deve mancare nell'opzione e nella posizione dell'Italia. Su questo c'è ancora da fare, un po' perché l'Unione europea è il partner commerciale più importante dell'India, un po' perché sappiamo che l'India ambisce a diventare membro permanente del Consiglio di sicurezza dell'ONU. Voglio davvero sapere se l'atteggiamento di Ban Ki-moon sia dovuto ad ignoranza del problema (cosa che non credo) o piuttosto a calcolo politico legato a questo appuntamento che l'India vuole avere. L'Italia, però, non può restare ferma, ma deve chiedere l'aiuto degli altri Paesi dell'Unione europea (alcuni dei quali sono già membri permanenti del Consiglio di sicurezza dell'ONU) e degli Stati Uniti, che sono forse il membro più importante di tutti, e dei Paesi che supportano la NATO. Quanto alla NATO, non ho sentito parole di condanna di questa situazione da parte di Rasmussen. Il lavoro di internazionalizzazione, che pure a livello parlamentare noi possiamo promuovere con i nostri pari nei Parlamenti nazionali europei nonché a livello di Parlamento europeo, non può mancare di posizioni chiare e nette da parte della NATO, che ancora non si è espressa, e di un cambiamento totale di atteggiamento da parte di Ban Ki-moon. Su questo punto, però, noi vogliamo garanzie in quest'Aula da parte del Governo. Non mi interessa se sia un Governo debole, forte o in fibrillazione. L'Italia è a fianco ai nostri due fucilieri e non può rimanere vittima di un Europa debole o di un Governo debole.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e dei senatori Alicata e Zuffada.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ALBERTINI (PI)</note>
+            <u ana="#regular" who="#AlbertiniGabriele" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg35">Signora Presidente, il Gruppo Popolari per l'Italia del Senato si associa con convinzione e piena condivisione alla proposta dei Presidenti delle Commissioni esteri e difesa di posticipare il voto sul disegno di legge per la proroga della missioni internazionali ai chiarimenti richiesti. Leggendo il testo del provvedimento che dovremmo votare, dopo aver assicurazioni da parte del Governo dell'internazionalizzazione di questo caso, si possono cogliere degli elementi di fatto incontrovertibili. Innanzitutto, la nostra presenza in tutto lo scenario internazionale è sempre stata condivisa dalle organizzazioni internazionali. Venendo al decreto-Legge n. 2 del 2014, con l'articolo 1 è prorogato il finanziamento dei nostri interventi militari in Albania, in Kosovo, nell'intera area balcanica, a Cipro, nel Mediterraneo orientale. Nell'articolo 2 si fa riferimento all'impiego di personale militare in Afghanistan, negli Emirati Arabi Uniti, in Qatar, in Barhain, nel Sud del Libano, in Israele, ad Hebron, in Palestina, in Georgia, a Rafah. Non sono rapporti bilaterali: il nostro Paese agisce in conseguenza di fatti e circostanze definiti a livello mondiale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Dalla Zuanna</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg36">E chiediamo che sia applicabile anche ai rapporti internazionali, così come nel diritto civile, la clausola inadimplenti non est adimplendum. Noi siamo parte di questa comunità, e in ragione del nostro PIL e della nostra popolazione diamo il nostro contributo e assicuriamo la nostra partecipazione alle missioni di pace o di mantenimento della pace in questi scenari internazionali, missioni che spaziano in tutto il mondo ed impegnano il nostro Paese economicamente e a prezzo di vite umane. Vogliamo che questo argomento sia riconosciuto. Vorrei brevemente fare ancora qualche citazione e soffermarmi su un aspetto di dettaglio relativo alla pirateria. Noi lavoriamo, con le forze civili oltre che con quelle militari, in Africa, in Libia, in Somalia, in Mali e nel Niger. L'Italia interviene in Pakistan, in Siria, in Sud Sudan. Il nostro Paese è impegnato in questi scenari con tutte le sue energie possibili. Nel disegno di legge di proroga si fa poi un preciso riferimento a quella che vorremmo fosse la legge penale applicabile anche allo scenario relativo al contrasto della pirateria e nel provvedimento che ci apprestiamo a votare non c'è niente di più preciso e di più puntuale del riferimento alla posizione dei nostri marò. Cito in particolare il rinvio che il disegno di legge fa all'articolo 4, commi 1- sexies e 1- septies, del decreto-legge n. 152 del 2009, in base al quale è prevista la non punibilità del militare che, nel corso delle missioni all'estero, per necessità delle operazioni militari faccia uso della forza e ordini di far uso della forza, purché ciò avvenga in conformità alle direttive, alle regole di ingaggio e agli ordini legittimamente impartiti. Quello dei marò è quindi un caso discriminante che non può che essere assoggettato a questa disciplina e non può che essere riconosciuto non solo dalla nostra legge ma dall'intera comunità internazionale, in quanto il nostro Paese fa parte del contesto internazionale che interviene in questo scenario. Quindi noi rinnoveremo l'impegno italiano in queste missioni, adempiremo al nostro patto con gli altri Paesi, a condizione che gli altri Paesi riconoscano il nostro ruolo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PI e SCpI e dei senatori Volpi e Alicata.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GUALDANI (NCD)</note>
+            <u ana="#regular" who="#GualdaniMarcello" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u16">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg37">Signora Presidente, anche il Gruppo NCD ha deciso, sia pure con sofferenza, di accogliere le richieste del presidente Casini e del presidente Latorre. Bisogna però fare una riflessione ad alta voce e, purtroppo, con una certa forza. Diciamo basta all'atteggiamento di questo Governo che continua a prendere tempo. Recentemente sono stato in India con una delegazione parlamentare; abbiamo assistito ad una grande attività diplomatica, ma il Governo indiano non ci ha neanche accolto né ci ha minimamente ascoltato: continua a disconoscere i principi giuridici basilari della comunità internazionale, a partire da quelli del diritto del mare. È stato addirittura confermato che il fatto sia accaduto in acque internazionali e quindi si attesta all'Italia un eventuale processo. Si disconosce l'immunità funzionale dei marò. Rispetto al grande sconcerto che hanno suscitato le dichiarazioni del Segretario Generale delle Nazioni Unite, vorrei ricordare che quando l'Italia è stata chiamata più volte a difendere la pace nei più importanti conflitti internazionali è sempre stata disponibile a partecipare, purtroppo anche pagando un alto prezzo in termini di vite umane. Quindi diciamo basta a questo perdere tempo e agli atteggiamenti, quasi prepotenti, dello Stato indiano. In questo momento mi sento anch'io sotto processo: non è infatti un processo a Girone e Latorre, ma è un processo che stanno facendo alla Patria Italia e a tutti noi. Si tratta di una grande violazione. Mi auguro, quindi, che il Governo possa, in primo luogo, anche prendere in considerazione un eventuale ritiro dalle attività antipirateria, dal momento che veniamo identificati come terroristi nel mondo. Il Governo quindi deve prendere urgentemente posizione e fare le giuste proteste anche all'ONU, visto che il Segretario Generale dice che si tratta semplicemente di un rapporto bilaterale. Mi auguro che il Governo urgentemente affronti la questione, perché non possiamo disconoscere che in questo momento noi siamo sotto processo. Mi auguro che il Governo dia risposte chiare e urgenti a tutta l'Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo NCD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ICHINO (SCpI)</note>
+            <u ana="#regular" who="#IchinoPietro" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg38">Vedo che il microfono in corrispondenza della sua postazione non è funzionante.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg39">Signor Presidente, colgo l'occasione per chiedere che il nostro banco sia attrezzato di microfono. Da tempo abbiamo una menomazione del nostro diritto di parola. Il Gruppo di Scelta Civica concorda sulla necessità urgente che il Ministro degli affari esteri, ma anche il Ministro della difesa, riferiscano sulla situazione dei rapporti internazionali e sull'azione che la nostra amministrazione militare e la nostra diplomazia stanno svolgendo e hanno svolto negli ultimi giorni in questo quadro. Noi avvertiamo, però, che c'è un'alternativa netta - in questo concordiamo pienamente con quanto ha rilevato il collega Tonini - tra il dire che l'interesse che l'Italia difende nella vicenda dei marò è interesse dell'intera comunità internazionale e l'istituire una sorta di rapporto di scambio tra ciò che noi facciamo nelle missioni internazionali di pace e ciò che chiediamo che avvenga in termini di giustizia per i nostri militari oggi detenuti e incriminati in India. Non c'è questo rapporto di scambio: non immiseriamo la nostra decisione e il nostro impegno in termini di burden sharing internazionale sul terreno delle missioni di pace a un rapporto di do ut des rispetto alla vicenda dei marò. Non stiamo difendendo un interesse particolare dell'Italia su quel terreno, così come non è in nome di un interesse particolare dell'Italia che partecipiamo alle missioni internazionali. Quindi, dobbiamo essere ben consapevoli che l'autorevolezza della nostra azione in difesa della giustizia nei confronti dei nostri militari in India è la stessa cosa della nostra partecipazione alla difesa della pace e dell'interesse della comunità delle Nazioni in ogni altra parte del mondo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori D'Onghia e Olivero.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">NENCINI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#NenciniRiccardo" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg40">Signor Presidente, non ho motivo di dissentire dall'opinione e dalla proposta avanzata dai presidenti Latorre e Casini. Mi convincono le motivazioni, a cui aggiungo il fatto che si tratta di una questione nazionale. Qualsiasi Governo avremo, è corretto chiedere al Ministro degli affari esteri di venire in Aula a riferire, ed è corretto chiedergli anche di armonizzare la posizione del Governo con quella del Senato, perché ho avuto l'impressione - se guardo al passato, vorrei dire la certezza - che non sempre vi sia stata armonia tra le due Camere e chi rappresenta l'Esecutivo. Servono maggiore incisività e serve la conferma di una internazionalizzazione della vicenda. Se non alziamo il velo, rischiamo di manifestare un drammatico isolamento: è quello che all'Italia non serve, ed è la ragione per cui armonizzare le posizioni tra Parlamento e Governo mi pare una straordinaria priorità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Aut (SVP, UV, PATT, UPT)-PSI-MAIE e del senatore Tonini.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CARRARO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CarraroFranco" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u19">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg41">Signora Presidente, informo i senatori Casini e Latorre - affinché possano preparare meglio la lodevole iniziativa - che venerdì scorso, 7 febbraio, il presidente del Consiglio Letta ha trascorso circa cinque ore con il signor Ban Ki-moon, perché prima si è tenuto un ricevimento a Sochi organizzato dal presidente Putin e poi hanno partecipato insieme all'inaugurazione dei giochi invernali, che si è svolta appunto la scorsa settimana. Quindi, il presidente Letta avrà certamente avuto informazioni che possono essere utili.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u20">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg42">Di fronte alla richiesta forte ed unanime dell'Assemblea del Senato, nella Conferenza dei Presidenti dei Gruppi parlamentari che si riunirà a breve, verrà esaminata questa importante esigenza, affinché si possa rispondere positivamente. Ringrazio i Presidenti delle Commissioni 3ᵃ e 4ᵃ e tutti i senatori intervenuti nel dibattito.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione del disegno di legge: (1213) Conversione in legge del decreto-legge 28 dicembre 2013, n. 149, recante abolizione del finanziamento pubblico diretto, disposizioni per la trasparenza e la democraticità dei partiti e disciplina della contribuzione volontaria e della contribuzione indiretta in loro favore</note>
+            <note type="time">11,13</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43689.htm</note>
+            <note type="time">(ore 11,13)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u21">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg43">L'ordine del giorno reca il seguito della discussione del disegno di legge n. 1213.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg44">Ricordo che nella seduta pomeridiana di ieri ha avuto inizio l'esame degli emendamenti al testo del decreto-legge.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg45">(ore 11,14) Onorevoli colleghi, tenuto conto dell'ampio dibattito svoltosi sul tema introdotto dai Presidenti delle Commissioni 3ᵃ e 4ᵃ, ritengo che la seduta debba essere sospesa e convoco la Conferenza dei Presidenti dei Gruppi parlamentari per affrontare in quella sede il calendario dei nostri lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg46">Sospendo pertanto la seduta. (La seduta, sospesa alle ore 11,14, è ripresa alle ore 12,23).</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg47">(ore 12,23) Invito il senatore segretario a dare lettura dell'ulteriore parere espresso dalla 5ᵃ Commissione permanente sugli emendamenti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg48">BERGER, segretario. «La Commissione programmazione economica, bilancio, esaminati gli ulteriori emendamenti 10.6 (testo 2) e 11.24 (testo 2), trasmessi dall'Assemblea, relativi al disegno di legge in titolo, esprime, per quanto di propria competenza, parere non ostativo». PRESIDENTE. Riprendiamo dall'emendamento 5.7, precedentemente accantonato. Chiedo alla relatrice e alla rappresentante del Governo di esprimere il proprio parere.</seg>
+            </u>
+            <note type="president">Presidenza della vice presidente FEDELI</note>
+            <note type="time">12,23</note>
+            <note type="speaker">DE MONTE</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#DeMonteIsabella" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u22">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg49">Signora Presidente, invito a ritirare l'emendamento 5.7. Diversamente, il parere è contrario, in quanto, relativamente allo stesso emendamento e anche all'emendamento 11.0.3 ho proposto l'ordine del giorno G5.250.</seg>
+            </u>
+            <note type="speaker">DE CAMILLIS</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#DeCamillisSabrina" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u23">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg50">Il parere del Governo è conforme a quello della relatrice.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u24">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg51">Senatrice Lanzillotta, le chiedo se accetta o meno l'invito che le è stato rivolto a ritirare l'emendamento 5.7.</seg>
+            </u>
+            <note type="speaker">LANZILLOTTA (SCpI)</note>
+            <u ana="#regular" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u25">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg52">Signora Presidente, non accettiamo l'invito e neanche la trasformazione dell'emendamento in ordine del giorno, perché riteniamo centrale la questione del finanziamento della politica nell'ambito di una riforma trasparente.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg53">Stiamo introducendo regole rigide per quanto riguarda il finanziamento dei partiti e delle fondazioni di partito e non dettiamo alcun criterio e regola in ordine alla modalità di finanziamento di associazioni, istituzioni e fondazioni, che sono parte fondamentale della politica e del modo in cui questa si organizza. Ma questo - come dicevo ieri - non è un male. Il punto è che abbiamo associazioni dirette o presiedute a livello nazionale da ex Ministri dell'economia, ex Presidenti del Consiglio, ex Ministri dello sviluppo e talvolta da Ministri e Presidenti del Consiglio in carica, che ricevono finanziamenti non dichiarati ma esistenti, in quanto le relative aziende sono associate, da società e aziende i cui manager sono da loro nominati e su cui esercitano e svolgono funzioni di indirizzo e controllo. La settimana scorsa si è parlato di comportamenti morali o etici e qualcuno ha detto che l'etica si afferma, da parte delle istituzioni legislative, attraverso i propri atti, cioè attraverso l'esercizio della funzione legislativa: ecco, questo è il momento, la trasparenza tra il mondo della politica e il mondo dell'economia pubblica è una condizione fondamentale per riqualificare non solo il ruolo dei partiti e della politica, ma anche il modo in cui operano quelle aziende e il modo in cui i manager vengono nominati. Ripeto: ci apprestiamo a una stagione di nomine e abbiamo un'influenza che si esercita attraverso dei flussi finanziari tra personalità che concorrono in modo determinante a queste decisioni e i destinatari di queste attività. Che ci sia un parere totalmente contrario e non si affronti questo tema lo trovo davvero molto grave, e per questo riteniamo che ci debba essere un'assunzione di responsabilità attraverso il voto. Per questo non accettiamo la trasformazione in ordine del giorno dell'emendamento 5.7.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi SCpI e PI.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u26">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg54">Rivolgo un saluto, a nome dell'Aula, agli studenti dell'Università LUISS di Roma, che assistono ai nostri lavori dalle tribune.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 1213</note>
+            <note type="time">12,28</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43689.htm</note>
+            <note type="time">(ore 12,28)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u27">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg55">Chiederei alla relatrice, per completare gli emendamenti all'articolo 5, se può darci il parere anche sull'emendamento 5.0.1.</seg>
+            </u>
+            <note type="speaker">DE MONTE</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#DeMonteIsabella" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u28">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg56">Signora Presidente, vorrei anche replicare all'osservazione della senatrice Lanzillotta, ricordando che stiamo approvando la conversione in legge del decreto che riguarda il finanziamento ai partiti.</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg57">PRESIDENTE. Chiedo per favore un attimo di attenzione, perché non riusciamo ad ascoltare la relatrice.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg58">Prego, senatrice.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg59">, relatrice. L'abolizione del finanziamento pubblico ai partiti si basa su due pilastri, rappresentati dalla contribuzione volontaria e dal 2 per mille: rispetto a questo c'è l'obbligo dell'iscrizione nel registro e vigono altresì obblighi di trasparenza relativamente allo statuto. Condivido ovviamente le istanze che sono manifestate quanto alla trasparenza rivolta ai singoli, nonché alle contribuzioni da parte delle società partecipate, ma proprio per questo penso sia auspicabile che ci sia una trattazione organica e completa. Pertanto, proprio in questo senso ho presentato l'ordine del giorno G5.250 che impegna il Governo «ad assumere ogni iniziativa affinché sia predisposta una disciplina generale e compiuta sui casi in questione», quelli richiamati negli emendamenti 5.7 e 11.0.3. Quanto all'emendamento 5.0.1, vorrei rivolgere alla senatrice De Petris una proposta di riformulazione, perché vorrei ricordare che ieri l'emendamento 5.0.1 (testo 2) ha ricevuto il parere contrario da parte della Commissione bilancio e, di conseguenza, è stato nuovamente presentato il testo precedente dell'emendamento. Vorrei proporre la seguente riformulazione: «Dopo il comma 2, inserire il seguente: "2- bis. Gli obbligati alla dichiarazione patrimoniale e di reddito, ai sensi della legge 5 luglio 1982, n. 441, e successive modificazioni, devono corredare le stesse dichiarazioni con l'indicazione di quanto ricevuto, direttamente o a mezzo di comitati costituiti a suo sostegno, comunque denominati, a titolo di liberalità eccedenti la somma di 5.000 euro l'anno. Di tali dichiarazioni è data evidenza nel sito Internet del Parlamento italiano."».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u29">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg60">Chiedo alla senatrice De Petris se accoglie questa proposta di riformulazione, ma prima ancora al presidente Azzollini di esprimere il proprio parere sul nuovo testo, ai sensi dell'articolo 100 del Regolamento del Senato.</seg>
+            </u>
+            <note type="speaker">AZZOLLINI (NCD)</note>
+            <u ana="#regular" who="#AzzolliniAntonio" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u30">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg61">Signora Presidente, ho già detto ieri che non avrei più dato i pareri, ai sensi dell'articolo 100 del Regolamento, in queste condizioni. Chiedo scusa ma dovete darmi un brevissimo tempo per convocare la Commissione in materia.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg62">È una scelta già presa ieri: le condizioni non mi consentono di farlo. Lo avevo già detto ieri e rimane così.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi NCD, M5S e del senatore Di Maggio.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u31">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg63">Siamo comunque costretti ad accantonare l'emendamento. Senatrice De Petris, in ogni caso accoglie la riformulazione?</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u32">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg64">Signora Presidente, la riformulazione introduce, per fortuna, l'obbligo per qualsiasi eletto di indicare nella dichiarazione sulla sua situazione patrimoniale anche i contributi superiori a 5.000 euro ricevuti direttamente o attraverso il comitato. Rimarrebbe esclusa la parte sui prestiti infruttiferi: ce ne dispiacciamo, ma accogliamo la riformulazione, perché almeno introduce l'obbligo per i singoli eletti di rendere pubblica dichiarazione dei contributi ricevuti, direttamente o attraverso la forma dei comitati.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u33">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg65">Con la riformulazione accolta dalla senatrice De Petris, manteniamo accantonato l'emendamento fino a quando la Commissione bilancio non avrà fatto le necessarie verifiche.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg66">Passiamo alla votazione dell'emendamento 5.7.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg67">MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata).</seg>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u34">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg68">Signora Presidente, l'emendamento 5.7 pone il focus sulle fondazioni politiche. Si tratta, di fatto, di setacci di soldi al sistema dei partiti e dei politici. Sono già ampiamente finanziate da generosi privati (si può dire che sia un finanziamento indiretto). Ricordo il caso, per esempio, della Fondazione italianieuropei, che si è vista 30.000 euro in ingresso in forma di pubblicità dalle lobby del gioco d'azzardo; vediamo la Fondazione Big Bang riferita a Matteo Renzi, che ha tra i generosi finanziatori Davide Serra, del Fondo Algebris, celebre per avere sede alle Cayman; abbiamo, poi, Guido Ghisolfi, del Gruppo chimico Mossi&amp;Ghisolfi, che con la moglie, Ivana Tanzi, ha versato altri 100.000 euro; abbiamo, infine, Alfredo Romeo, arrestato nel 2009</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Cappelletti</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg69">, con accuse gravi e condannato in primo grado a due anni.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg70">Ecco, abbiamo già una serie di finanziatori privati che, per entità e anche per identità della provenienza dei finanziamenti, sono discutibili; ma è assolutamente inaccettabile che il finanziamento a queste fondazioni avvenga anche da enti o società private, ancorché partecipate. Non ci basta che siano escluse dai finanziamenti le fondazioni che hanno come direttori o presidenti esponenti politici eletti con cariche di un certo livello. Non ci basta, perché potrebbe essere che, all'indomani del voto di questo emendamento, si cambi il consiglio di amministrazione e il presidente, in modo da poter ricevere ancora questi finanziamenti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg71">È, però, un inizio, è qualcosa di importante, su un tema estremamente delicato e direi scottante. Noi, quindi, voteremo a favore dell'emendamento 5.7, ma faremo anche attenzione a che, fatta la legge, non sia subito trovato l'inganno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u35">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg72">Signora Presidente, noi voteremo a favore dell'emendamento 5.7 presentato dai senatori Lanzillotta e Susta, perché la questione che esso pone è molto seria. È evidente a tutti che non solo adesso che siamo alla vigilia della grande stagione delle nomine, ma anche per l'esperienza di quello che abbiamo potuto - ahimè - verificare dalle varie notizie in questi anni, questa è una questione cruciale. Infatti, fondazioni partecipate da enti pubblici, anche attraverso membri di queste società, con il finanziamento di fondazioni o il finanziamento diretto da parte di questi manager, potranno influenzare le ulteriori nomine. Vorrei sottolineare che anche l'emendamento 11.0.3 (testo corretto), che io avevo presentato e che la Commissione poi ha fatto proprio, in qualche modo affronta la stessa questione, proponendo l'estensione del divieto di finanziamento o contribuzione anche ai componenti dei consigli di amministrazione delle società con partecipazione di capitale pubblico. È evidente a tutti, infatti, come in questo caso possa determinarsi un'influenza ben più ampia della stessa influenza politica generica. È un tema delicato, ed io, facendo una dichiarazione di voto a favore, inviterei tutta l'Aula a riflettere seriamente - in nome della trasparenza e di quello che viene dichiarato in questo decreto-legge - se non sia il caso di votare favorevolmente su questo emendamento.</seg>
+            </u>
+            <note type="speaker">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u36">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg73">Signora Presidente, l'emendamento 5.7 pone delle questioni serie. È evidente infatti che, seppur indirettamente, esiste molto spesso una relazione tra nominati ed elargizioni, in particolare laddove le nomine derivino da scelte politiche dei Gruppi parlamentari, dei gruppi consiliari, delle Giunte o dei Ministeri. Credo sia dunque doveroso valutare il merito di questo emendamento e fare anche un sforzo: possiamo infatti proclamare tutte le volontà di trasparenza e di separazione tra scelte politiche e comportamenti imprenditoriali, però il nesso emerge molto spesso e, in questo senso, dobbiamo dare un segnale molto chiaro. Credo (magari lo dirò poi nella dichiarazione di voto finale) che sia necessario difendere con dignità il punto di vista della necessità di un finanziamento pubblico; nello stesso tempo, però, dobbiamo tagliare quei collegamenti e quei rapporti che sicuramente alterano le volontà in funzione dei contributi. In questo senso, allora, almeno a titolo personale, voterò a favore dell'emendamento 5.7.</seg>
+            </u>
+            <note type="speaker">D'ANNA (GAL)</note>
+            <u ana="#regular" who="#DAnnaVincenzo" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u37">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg74">Signora Presidente, onorevoli colleghi, intervengo per annunciare il voto favorevole sull'emendamento 5.7 e per invitare l'Aula ad una riflessione molto seria. Vedete, colleghi, la causa prima e vera dell'attuale crisi economica è data dall'ammontare del debito pubblico e da una forma di Stato pauperistico, assistenziale e clientelare che non riesce o non è riuscito a trovare finora al suo interno alcun elemento per gestire con criteri privatistici, aziendali e manageriali tutte le cose che avoca a sé, e uno degli aspetti deteriori dello statalismo è la cinghia di trasmissione che lega chi governa lo Stato con chi lo gestisce, anche attraverso le aziende partecipate e tutto ciò che qui è elencato. D'altro canto, l'esempio di Mattei e dell'ENI negli anni Cinquanta fu eloquente, e fu salutato dalla genia politica di quel tempo come uno degli elementi favorevolmente distintivi di quella società politica. Ora, troncare di netto l'osmosi che c'è tra istituzioni partecipate dallo Stato ed elargizioni che lo Stato fa attraverso queste società che sono controllate da esponenti dei partiti politici che in quel momento governano e rappresentano lo Stato è un elemento essenziale, è il primo elemento per eradicare la forma deteriore di occupazione da parte dei partiti dello Stato e l'edificazione dello Stato clientelare. Volevo però ricordare al senatore Endrizzi che non dobbiamo solo guardare all'epifenomeno: questo è uno dei tanti modi, per lo Stato dissipatore, di bruciare risorse. Questa è una delle cose che bisogna fare per riformare lo Stato, gli altri sono epifenomeni. Se voi non prendete coscienza che al modello criptosocialista va sostituito il modello della gestione liberale e liberista dello Stato, con l'efficienza, la produttività, l'economicità, questi interventi saranno solo dei pannicelli caldi rispetto alla marea di denaro che questo Stato spreca. Il nostro voto quindi sarà favorevole, e volevo ricordare all'Assemblea, se mi è consentito, che ebbi tra le mani, da deputato, qualche anno fa, un libricino che era redatto dalla componente dell'onorevole Follini, che mi pare si chiamasse «Cuci e scuci» (non ricordo esattamente, ma c'era un ago), e campeggiavano, dietro queste quaranta paginette piene di ridondanze e di articoli scopiazzati, la pubblicità dell'ENI e la pubblicità di Finmeccanica. Se questo emendamento serve ad evitare questo spreco di pubblico denaro, un plauso va ai senatori Lanzillotta e Susta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo GAL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SUSTA (SCpI)</note>
+            <u ana="#regular" who="#SustaGianluca" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u38">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg75">Signora Presidente, colleghi, credo di dover aggiungere poche parole a quelle che già sono state autorevolmente dette dalla senatrice Lanzillotta e da tanti altri senatori intervenuti su questo tema. Desidero solo rimarcare, in sede di dichiarazione di voto e preannunciando ovviamente il voto favorevole del Gruppo di Scelta Civica a questo emendamento, che il tentativo di ricostruire un rapporto fiduciario tra il cittadino e lo Stato, moralizzare la politica, restituirla alla sua funzione naturale di guida dei processi politici di cambiamento e di governo del Paese, che dovrebbe essere il ruolo principale dei partiti, è alla base di un emendamento come questo. È stata evocata anche una personalità importante della nostra storia: credo che quella frase secondo cui i partiti sono dei taxi su cui si sale e si scende a seconda delle convenienze sia esattamente l'opposto di quello che vogliamo rappresentare con questo emendamento. Occorre spezzare il legame perverso tra la politica e gli affari anche quando passa attraverso le aziende di Stato, le società partecipate, in una logica redistributiva in negativo e restituire quindi pienamente i partiti alla società civile, alla loro funzione di indirizzo della vita politica nazionale e ad essere delle comunità in cui degli uomini liberi si ritrovano per raggiunge determinati fini. Credo che su questo emendamento si debba registrare la convergenza quasi totale del Senato della Repubblica. Mi auguro che tutte le forze politiche, in particolare il Partito Democratico, che del rapporto tra etica e politica fa una ragione fondante della sua esistenza, alla fine votino a favore di questo emendamento che fa chiarezza anche rispetto alle degenerazioni a cui abbiamo assistito nella storia repubblicana.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo SCpI e della senatrice D'Onghia.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">OLIVERO (PI)</note>
+            <u ana="#regular" who="#OliveroAndrea" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u39">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg76">Signora Presidente, anche da parte del Gruppo dei Popolari per l'Italia c'è la decisione di appoggiare questo emendamento della senatrice Lanzillotta, perché crediamo che bene esprima una volontà, che il nostro Gruppo sente molto forte, di fare chiarezza e di portare trasparenza nella relazione tra i partiti politici e il mondo economico. In particolare, io credo che noi abbiamo il grande dovere di far sì che i costi della politica vengano tagliati, a partire da quelli che sono indiretti, occulti, poco trasparenti. Dobbiamo dircelo con grande sincerità: la situazione che ci spinge oggi a prendere drastici provvedimenti, che avranno per molti versi anche un peso rilevante sulla vita dei partiti politici, deriva dal fatto che la politica non ha saputo, negli anni passati, innanzitutto tagliare i costi indiretti. A volte noi mettiamo a repentaglio la possibilità (e oggi è un po' l'occasione) di avere i giusti finanziamenti per l'attività politica, perché ve ne sono stati di ingiusti. E oggi noi dobbiamo essere molto determinati nell'andare a cancellare questi finanziamenti. C'è un tema fondamentale, quello delle società partecipate. A più riprese, noi abbiamo sottolineato, già nei mesi passati, la necessità di un rapporto più virtuoso tra le società partecipate, la responsabilità pubblica e i cittadini. Vogliamo più trasparenza e, naturalmente, per questo abbiamo bisogno anche che sia netto e chiaro il rapporto tra le funzioni di controllo dello Stato e i soggetti che devono amministrare per conto dello Stato beni e risorse pubbliche. Questo emendamento ha sostanza ed è estremamente rilevante a questo riguardo. Pertanto, chiediamo a tutti i colleghi di valutarlo molto attentamente. Noi ci esprimeremo favorevolmente su di esso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo SCpI e della senatrice D'Onghia.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u40">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg77">Signora Presidente, anche noi siamo certamente contrari a finanziamenti occulti e truffaldini, a scambi di favore tra finanziamenti pubblici, dati con il denaro pubblico, e vantaggi privati. Non credo però che sia questa la via. In questo emendamento praticamente c'è scritto che, per evitare queste situazioni (dalle quali, tra l'altro, noi di Forza Italia, essendo sempre stati molto bravi a non dar vita a fondazioni di questo genere, siamo totalmente esclusi ed avremmo semmai interesse ad approvare un emendamento di questo genere), una fondazione, che ha scopo di promuovere politiche pubbliche (quindi in tutti settori), se presieduta dal collega Sergio Zavoli non può avere finanziamenti pubblici; se presieduta da Totò Riina, invece, può avere finanziamenti pubblici, perché Totò Riina non reca il marchio d'infamia di essere membro del Parlamento, del Consiglio regionale, del Consiglio provinciale o comunale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII e NCD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg78">Ciò vorrebbe dire che se una fondazione è presieduta dal collega Carlo Rubbia, che suppongo qualche titolo lo abbia, tant'è vero che è stato nominato senatore a vita, non può avere finanziamenti; se invece è presieduta da un completo ignorante, magari anche con scarso livello di onestà, questo va benissimo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg79">Aggiungo che, come ha detto il collega Endrizzi, se sussiste un'intenzione di fare un profitto indebito e di avere un finanziamento occulto, si fa presto a sostituire quell'ex membro di Senato, Camera o Consiglio comunale con un prestanome o con una persona che non abbia ricevuto il marchio d'infamia di essere membro del Parlamento o di qualche assemblea elettiva, anche locale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg80">Non dovremmo dimenticare che, da qualche millennio, il fatto che gli uomini e le donne che hanno particolari talenti e ai quali si può chiedere di dire qualcosa sulla vita pubblica si impegnino nella vita pubblica è visto come una cosa positiva. Però, se uno scienziato, un politologo o un sociologo si impegnano nella vita pubblica, non lui personalmente, ma la sua fondazione, è esclusa dal finanziamento. Dovremmo ricordarci che la democrazia non è una cosa brutta, che l'impegno politico non è una cosa brutta e che semmai è brutto il disimpegno politico, lo starsene fuori e non partecipare al bene del proprio Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg81">Ecco perché noi voteremo contro l'emendamento 5.7.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII e dei senatori Sposetti e Zeller</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg82">. Votazione nominale con scrutinio simultaneo</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u41">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg83">Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 5.7, presentato dai senatori Lanzillotta e Susta.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg84">Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 1213 PRESIDENTE. Essendo stato accolto dal Governo, l'ordine del giorno G5.250 non verrà posto ai voti. Ricordo che l'emendamento 5.0.1 è stato accantonato. Passiamo all'esame dell'emendamento riferito all'articolo 10 del decreto-legge, precedentemente accantonato, su cui invito la relatrice e la rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">DE MONTE</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#DeMonteIsabella" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u42">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg85">Esprimo parere favorevole sull'emendamento 10.6 (testo 2).</seg>
+            </u>
+            <note type="speaker">DE CAMILLIS</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#DeCamillisSabrina" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u43">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg86">Esprimo parere conforme a quello della relatrice.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u44">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg87">Passiamo alla votazione dell'emendamento 10.6 (testo 2).</seg>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u45">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg88">Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, sull'emendamento in esame e, contestualmente, sugli emendamenti presentati sui restanti articoli.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u46">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg89">Dobbiamo procedere articolo per articolo, senatrice.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg90">Ma sono stati tutti accantonati. PRESIDENTE. Non possiamo procedere come da lei richiesto. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 10.6 (testo 2), presentato dalla relatrice. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 1213 PRESIDENTE. Passiamo all'esame degli emendamenti riferiti all'articolo 11 del decreto-legge, precedentemente accantonati, su cui invito la relatrice e la rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">DE MONTE</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#DeMonteIsabella" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u47">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg91">Esprimo parere favorevole sull'emendamento 11.24 (testo 2).</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg92">Essendo poi stato accolto dal Governo l'ordine del giorno G5.250, ritiro l'emendamento 11.0.3 (testo corretto).</seg>
+            </u>
+            <note type="speaker">DE CAMILLIS</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#DeCamillisSabrina" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u48">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg93">Signora Presidente, sull'emendamento 11.24 (testo 2) il Governo si rimette all'Aula.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u49">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg94">Passiamo alla votazione dell'emendamento 11.24 (testo 2).</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg95">MONTEVECCHI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 11.24 (testo 2), presentato dalla relatrice. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 1213 PRESIDENTE. L'emendamento 11.0.3 (testo corretto) è stato ritirato. Passiamo all'esame degli emendamenti riferiti all'articolo 16 del decreto-legge, precedentemente accantonati, su cui invito la relatrice e la rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">DE MONTE</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#DeMonteIsabella" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u50">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg96">Esprimo parere contrario sugli emendamenti 16.1 (testo 3) e 16.3, mentre il parere è favorevole sull'emendamento 16.250 (testo 2).</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg97">Mi rimetto invece all'Aula sugli emendamenti 16.100 (testo 2) e 16.250 (testo 2)/100.</seg>
+            </u>
+            <note type="speaker">DE CAMILLIS</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#DeCamillisSabrina" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u51">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg98">Signora Presidente, invito a ritirare gli emendamenti 16.1 (testo 3) e 16.250 (testo 2)/100, altrimenti il parere è contrario. Il Governo si rimette all'Aula sull'emendamento 16.100 (testo 2). Esprimo parere favorevole sull'emendamento 16.250 (testo 2). Il parere è invece contrario sull'emendamento 16.3.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u52">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg99">Passiamo alla votazione dell'emendamento 16.1 (testo 3), su cui la 5ᵃ Commissione ha espresso parere contrario.</seg>
+            </u>
+            <note type="speaker">*ICHINO (SCpI)</note>
+            <u ana="#regular" who="#IchinoPietro" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u53">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg100">Signor Presidente, intervengo sull'emendamento 16.1 (testo 3) e sui successivi. Ricordo all'Aula che istituire oggi la cassa integrazione per i dipendenti dei partiti che, di fatto, restano disoccupati significa anzitutto legittimare un nuovo caso di abuso della cassa integrazione, oltretutto regalando questo trattamento in situazioni e a partiti che non hanno mai pagato il relativo contributo. Viceversa, l'emendamento 16.1 (testo 3) mira ad applicare in questo caso la misura corretta, cioè un trattamento di disoccupazione accompagnato con le misure opportune per il reinserimento del lavoratore nel tessuto produttivo. Nel momento in cui ci proponiamo di moralizzare la spesa pubblica in riferimento ai costi della politica, non mi sembra - e non sembra al Gruppo di Scelta Civica - che il rinnovare l'abuso della cassa integrazione sia un'opzione coerente. Sottolineo, infine, che mentre per un verso noi attribuiamo il trattamento di cassa integrazione straordinaria a dipendenti di partiti che non hanno mai pagato una lira per questo trattamento, per altro verso imponiamo l'onere del 3 per cento, per il futuro, a partiti che non fruiranno presumibilmente di quel trattamento, dal momento che è poco plausibile che venga dichiarata una crisi di settore nel futuro prossimo o remoto per il fatto che un partito licenzia o ha difficoltà a mantenere il rapporto di lavoro con una parte dei propri dipendenti. Quindi, compiamo un'operazione ad elevato tasso di irrazionalità. Per questo motivo, chiedo il sostegno per la votazione dell'emendamento 16.1 (testo 3) nonostante il parere negativo della Commissione bilancio. Il Gruppo di Scelta Civica voterà a favore di questo emendamento e contro gli emendamenti successivi all'articolo 16.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u54">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg101">Invito il senatore Segretario a verificare se la richiesta di votazione, avanzata dal senatore Ichino, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo (art. 102- bis Reg.) PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 16.1 (testo 3), presentato dal senatore Ichino e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 1213 PRESIDENTE. Passiamo alla votazione dell'emendamento 16.100 (testo 2). Ricordo che su di esso il relatore ed il rappresentante del Governo si sono rimessi all'Aula e che, qualora approvato, sarebbero da intendersi preclusi i successivi emendamenti.</seg>
+            </u>
+            <note type="speaker">GATTI (PD)</note>
+            <u ana="#regular" who="#GattiMariaGrazia" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u55">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg102">Signora Presidente, intervengo, molto brevemente, per dire che non mi sembra il caso di avere un atteggiamento di così grande ostilità verso i lavoratori che sono stati dipendenti dei partiti, per due ordini di motivi. Infatti, se ci sono state prove veramente gravi, anche di malcostume, queste di solito non hanno coinvolto i dipendenti. Queste sono nella responsabilità di alcuni politici corrotti, che forse dovremmo trovare il modo di controllare. Per i lavoratori dipendenti, tuttavia, penso vi sia la necessità che i datori di lavoro, quali che essi siano, si assumano la responsabilità. I partiti non sono un'organizzazione a delinquere, ma sono associazioni libere di cittadini liberi. Allora, definiamo anche per questi lavoratori, utilizzando l'intervento legislativo, la possibilità di usufruire di ammortizzatori sociali adeguati.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u56">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg103">Saluto le studentesse e gli studenti del liceo scientifico e classico «Leoniano» di Anagni, in Provincia di Frosinone, ai quali do il benvenuto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 1213</note>
+            <note type="time">13,03</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43689.htm</note>
+            <note type="time">(ore 13,03)</note>
+            <note type="speaker">BULGARELLI (M5S)</note>
+            <u ana="#regular" who="#BulgarelliElisa" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u57">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg104">Vorrei solo rispondere alla collega sottolineando che non è una questione di ostilità nei confronti delle persone che lavorano per i partiti, ma si tratta del fatto che gli ammortizzatori sociali dovrebbero essere garantiti per tutte le persone e non solo per quelle che lavorano per i partiti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg105">Qui, invece, continuiamo a distinguere tra lavoratori di serie A, di serie B e di serie C e a dare le garanzie sempre e solo a certe categorie.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg106">Ripeto, nessuno ce l'ha con le persone che lavorano per i partiti, ma le garanzie vanno date a tutti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg107">Dunque, riformiamo gli ammortizzatori sociali affinché tutte le persone che sono a casa e non arrivano alla fine del mese possano di nuovo mangiare, invece di stare sull'orlo della povertà.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">LANZILLOTTA (SCpI)</note>
+            <u ana="#regular" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u58">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg108">Credo che la questione debba essere affrontata nei suoi termini reali e non nei termini poc'anzi evocati dalla senatrice Gatti. Noi avevamo proposto una soluzione - che però è stata respinta - che si faceva carico del problema dei dipendenti delle strutture di partito che dovranno essere ridimensionate in modo realistico, cioè con un contratto di ricollocazione che guidasse questi lavoratori verso un'occupazione diversa. Non vi sarà, infatti, un nuovo partito da cui saranno assunti. La cassa integrazione è fatta per lavoratori di settori in crisi, in vista del risanamento strutturale dell'azienda da cui vengono in quel momento licenziati. Il fatto di utilizzare le risorse per la cassa integrazione per i lavoratori di partito significa toglierla a lavoratori di fabbriche ed aziende che hanno un futuro e che possono avere un risanamento, per le quali però non vi saranno risorse perché queste saranno state assorbite impropriamente dai dipendenti dei partiti. Ripeto che questi ultimi non possono avere una ricollocazione perché i partiti non avranno altri dipendenti.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg109">PRESIDENTE. Onorevoli colleghi, per favore, lasciate parlare la senatrice Lanzillotta.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg110">Pertanto, essere contrari a questo emendamento non significa esseri contro i dipendenti dei partiti, ma cercare le soluzione appropriate per situazioni tra loro diverse, senza sottrarre risorse ai lavoratori che in questo momento di crisi faticano, nel bilancio pubblico, ad avere il finanziamento della cassa integrazione che spetterebbe loro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo SCpI).</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u59">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg111">Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u60">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg112">Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 16.100 (testo 2), presentato dal senatore Sposetti e da altri senatori.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg113">Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Caleo all'indirizzo della senatrice Lanzillotta.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg114">Ripresa della discussione del disegno di legge n. 1213 PRESIDENTE. Risultano pertanto preclusi gli emendamenti 16.250 (testo 2)/100, 16.250 (testo 2) e 16.3.</seg>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u61">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg115">Signora Presidente, vorrei un chiarimento. L'ultima votazione svolta era riferita all'emendamento 16.100 (testo 2), giusto? Tutti gli altri emendamenti...</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u62">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg116">Tutti gli altri emendamenti sono preclusi a seguito dell'approvazione dell'emendamento 16.100 (testo 2).</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg117">Resta solo l'emendamento 5.0.1, che è stato accantonato per consentire alla Commissione bilancio di esaminare la nuova formulazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg118">Rinvio pertanto il seguito della discussione del disegno di legge in titolo ad altra seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulle prospettive occupazionali dei lavoratori dello stabilimento FIAT di Termini Imerese (PA)</head>
+            <note type="speaker">BAROZZINO (Misto-SEL)</note>
+            <u ana="#regular" who="#BarozzinoGiovanni" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u63">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg119">Chiedo sempre a chi si deve allontanare di farlo senza creare troppo disturbo a chi deve parlare e a chi vuole ascoltare.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg120">Signora Presidente, nel 2009, a seguito dell'annuncio del piano Fabbrica Italia, il Governo si limitò a prendere atto della decisione assunta dalla FIAT che annunciava la cessazione della produzione dello stabilimento di Termini Imerese. Il Governo disse però che si impegnava ad affrontare e a risolvere il problema cercando di trovare soluzioni di lavoro anche diverse aprendo un tavolo presso il Ministero dello sviluppo economico. Sono passati quattro anni e vari Governi e nessuno ha fatto nulla, mentre la FIAT va verso un disimpegno con l'Italia. Altro che Fabbrica Italia! Fra pochi mesi non ci sarà più neanche il salario minimo garantito dalla cassa integrazione, per la gioia di qualche senatore qui presente che, evidentemente, pensa che anche essere in cassa integrazione sia una colpa da attribuire agli operai. Domani gli operai della FIAT di Termini Imerese scenderanno in piazza, sarà uno sciopero territoriale. Gli operai scendono in piazza per il lavoro. Vogliono e chiedono lavoro. Al loro fianco saranno presenti tutti: le parti sociali, gli studenti, gli artigiani e i commercianti. Finalmente, aggiungo io! Questa vertenza riguarda 1.200 operai della FIAT, ma contando gli operai che lavorano nell'indotto sono molti di più...</seg>
+               <vocal type="noise">
+                  <desc>Brusio. Richiami del Presidente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg121">Ho letto che i parroci del luogo (quindi non quei pericolosi sindacalisti estremisti) hanno dichiarato che la crisi che attanaglia il nostro territorio è sempre più grave e che noi siamo chiamati ad agire, ad operare per il bene del nostro territorio. Non possiamo e non dobbiamo rimanere immobili perché senza un lavoro dignitoso non c'è futuro.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg122">Rispetto a queste tragedia, che sono ormai sotto gli occhi di tutti, a me resta il rammarico per la cecità di questa politica che, ancora una volta, fa finta di nulla.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SEL.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul fenomeno del bullismo attraverso la Rete</head>
+            <note type="speaker">MATTESINI (PD)</note>
+            <u ana="#regular" who="#MattesiniDonella" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u64">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg123">Signora Presidente, sono nove i minori, dall'inizio dell'anno, che si sono tolti la vita in seguito ad episodi di cyberbullismo. L'ultimo suicidio si è verificato domenica pomeriggio a Padova e riguarda una ragazzina di 14 anni. Si è buttata. Una distanza di 30 metri tra la sua vita, sconvolta da chi le voleva male, e la sua morte. Prima ha lasciato una serie di messaggi strazianti per chiedere scusa ai genitori: scusa per averli delusi. Colleghi, non è una decisione dettata da un raptus : aveva pianificato tutto perché quelle frasi che la schernivano sul social network «ask.fm» l'hanno annullata in un'età (14 anni)...</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg124">PRESIDENTE. Senatrice Mattesini, aspetti un attimo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg125">Ormai sono già passati alcuni minuti. Chi deve conversare, per favore, esca dall'Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg126">Prego, senatrice Mattesini, prosegua pure.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg127">MATTESINI (PD). È stata aperta dalla procura di Padova un'inchiesta. Sottolineo che ask.fm è un sito fondato in Lettonia, già attivo in 150 Paesi che ogni giorno conta dai 200.000 ai 300.000 nuovi iscritti. Un sito che anche Cameron ha chiesto di boicottare. Ha un'utenza quasi esclusivamente compresa tra i 13 e i 18 anni dove, volendo, si può «picchiare al buio». Ho usato questa frase perché con le parole si può fare molto più male che con i fatti. La violenza verbale dei giovani senza volto si scatena con la stessa naturalezza con lui l'acqua esce da un rubinetto. Ci sono veri e propri pestaggi verbali, e guardate, colleghi, che il branco virtuale fa più ribrezzo di quello vero. Quelle frasi come «fai schifo», «ucciditi», sono spesso rivolte a tanti ragazzi, non soltanto a quella ragazzina che poi si è uccisa. Ma il punto non è soltanto il sito «ask.fm» perché ormai è il web in generale che è diventato un'occasione di grande violenza che rende ancora più fragile quella fragile età dei nostri giovani adolescenti. Pensiamo, ad esempio, alla crescita del sexting, e cioè lo scambio di foto osé in Rete. Una ricerca di Save the Children sul cyberbullismo, fatta in occasione della giornata di ieri dedicata alla lotta contro il bullismo, ci dice quali sono le conseguenze pesanti nei confronti dei minori e quale è il grande rischio a cui sono sottoposti: il 69 per cento di ragazze e ragazzi si isola e non esce più di casa; il 62 per cento si rifiuta di andare a scuola; il 53 per cento cade in depressione. Questa questione - lo dico a lei, signora Presidente, e, tramite lei, anche al Governo e al Parlamento tutto - necessita di diventare un'emergenza su cui intervenire subito. Segnalo che in tal senso (chiedo nel merito un'attenzione particolare da parte della Presidenza, ma anche delle Presidenze delle Commissioni) è già stato depositato un disegno di legge, a prima firma della senatrice Elena Ferrara, recante disposizioni a tutela dei minori per la prevenzione e il contrasto del fenomeno del cyberbullismo. Chiedo che ci sia un impegno per poterlo calendarizzare subito, perché c'è bisogno di dare ora una risposta che deve mettere a sistema tutte le azioni. Occorre creare una cornice di prevenzione sia al livello nazionale sia al livello dei territori, perché il ministro Carrozza proprio ieri ci ha detto di avere risorse importanti del proprio Ministero per poter intervenire nelle scuole per progetti educativi, ma non basta. Non basta soltanto il percorso scolastico, anche perché tra l'altro quella di oggi è una scuola che sempre di più tiene lontani i ragazzi maggiormente in difficoltà: sappiamo quanto conta l'abbandono scolastico e sappiamo che questi sono i soggetti più fragili. Occorre davvero che da subito ci sia un impegno affinché il Governo, ma anche questo il Parlamento, possano dare risposte concrete. Mi dispiace che quest'Assemblea sia disattenta, ma quando una ragazzina di 14 è il nono minore che si uccide per violenze in Rete, guardate, colleghi, che si fa riferimento a tutti noi: non possiamo pensare che la colpa sia di qualcun altro. È questa distrazione del mondo degli adulti, e anche di una parte della classe politica, che deve invece essere scossa affinché tutti siano richiamati a responsabilità. Non possiamo aspettare domani, ma c'è bisogno oggi di intervenire.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e Misto-SEL. Congratulazioni</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg128">PRESIDENTE. Senatrice Mattesini, farò presente questa esigenza alla Presidenza e ai Capigruppo.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla cessione di una società in-house dell'Istituto per il commercio con l'estero</head>
+            <note type="speaker">DI BIAGIO (PI)</note>
+            <u ana="#regular" who="#DiBiagioAldo" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u65">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg129">Signora Presidente, vorrei richiamare l'attenzione di quest'Assemblea su una questione, oggetto di svariati atti parlamentari. Faccio riferimento al futuro di Retitalia Internazionale SpA, una società in house dell'ICE, le cui sorti, a mio parere, sembrano affidate ad una esagerata discrezionalità amministrativa, ben distante da quanto disposto dalla legge ed altrettanto distante dagli impegni assunti dal Governo su questo argomento, a tutela di 65 lavoratori che con la dismissione di questa società verrebbero automaticamente messi alla porta. Sappiamo che la spending review aveva previsto l'alienazione di alcune società d questo tipo, a patto che non fossero strategiche. Malgrado il fatto che Retitalia fosse oggettivamente strategica (e questo lo dimostra la gestione da parte di questa di due importanti progetti sul fronte dell'internazionalizzazione) l'ICE ha voluto comunque svenderla.</seg>
+               <vocal type="noise">
+                  <desc>Brusio dai banchi del Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg130">PRESIDENTE. Per cortesia, chiedo alle senatrici del Movimento 5 Stelle di abbassare il tono della voce.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg131">DI BIAGIO (PI). Voglio poi ricordare, che la legge di stabilità 2014 ha abrogato la disposizione che prevedeva l'alienazione delle società in house. Pertanto sarebbe stato quantomeno il caso di rivedere, insieme alle RSU della società, un piano alternativo anche per non cadere nel vizio di legittimità. Ma l'ICE continua indisturbata sulla sua strada di dismissione della società. Nel gennaio 2014 vengono presentate sole due offerte da due società dal passato alquanto discutibile e fumoso. Parliamo della Gepin P.A. spa e della Techshare srl. L'alienazione con tanto di richiesta di liberatoria al presunto nuovo acquirente si configura come una vera e propria vendita e non un cambio di proprietà e, in quanto tale, sarebbe necessario avviare procedure completamente diverse per garantire i livelli occupazionali. Della Gepin si è tanto parlato e non sono mancati atti parlamentari per chiedere al Governo chiarimenti circa i discutibili intrecci societari operati da questa e la mancata salvaguardia dei posti di lavoro. La Techshare, invece, sembra essere una «scatola» vuota all'interno del consorzio Syntecnica, contenente al proprio interno una serie di altrettante scatole apparentemente vuote. Alcune delle società presenti nel gruppo Syntecnica fanno capo ad altri gruppi e consorzi, alcuni dei quali in crisi. Si sta parlando di una serie di matriosche che non possono far pronosticare solidità per il mantenimento dei livelli occupazionali. Va da se che affidare eventualmente un contratto ad una sola di queste società legittimerebbe un licenziamento di massa, considerando anche il passato poco brillante della prima e alquanto dubbioso della seconda ed il contratto al ribasso per le quali hanno presentato offerta. Invito quindi il MISE ad ascoltare l'invito espresso più volte dal Parlamento a sospendere la procedura di alienazione ed eventualmente affrontare la questione in un tavolo tecnico-politico. Credo che la trattazione a breve del disegno di legge Destinazione Italia potrebbe fornire un'ottima occasione di confronto.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla salvaguardia degli spazi espositivi dell'Accademia delle belle arti di Bologna</head>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u66">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg132">La Galleria di ingresso dell'Accademia delle belle arti di Bologna si fregia da secoli di una collezione di rarissime statue in gesso e di rilievi, ispirati ai grandi capolavori del passato: una collezione preziosa, perché unica al mondo. Inoltre, la Galleria, nota appunto come Galleria dei gessi, aveva una prospettiva - avrebbe, e si spera avrà - talmente stupefacente da essere stata immortalata da tanti artisti. Qualche giorno fa è comparsa magicamente nella Galleria una struttura destinata ad ospitare la portineria dell'Accademia. Ascoltate bene: la struttura è posizionata contro una delle pareti davanti ai fregi, che ingloba, e alcuni dei quali sono tagliati visivamente da spazzole che ne intersecano le fattezze. Vi invito a guardare le foto sul Web: un orrore, tanto più se si considera che siamo all'interno di un luogo deputato per eccellenza alla promozione delle arti. Sarebbe ora interessante capire se questa operazione scellerata sia stata autorizzata dal neo magnifico presidente del CDA dell'Accademia e dal sodale direttore o se entrambi fossero all'oscuro del diabolico piano. In entrambi i casi un fatto è certo: è gravissimo quanto è accaduto. Tutto questo ci ricorda un passaggio del saggio di Bruno Zanardi, apparso sulla rivista bolognese «il Mulino», nel febbraio 2012, nel quale scrive: «Molti hanno detto che la grandezza di Totò sta nell'aver immortalato tutti i tic e le fragilità dei comportamenti degli italiani, comportamenti strutturali tali perciò da essere purtroppo ancora parte del nostro vivere civile, così da potersi legittimamente chiedere se l'Italia sia ancora oggi un Paese colmo di principi, ma con mezzo baffo, come Totò in «Miseria e nobiltà»; vale a dire chiedersi se l'Italia, ad oggi, sia un Paese con un ceto dirigente in molti casi intento a svolgere la propria funzione più per forma che per sostanza, più per ruolo che per competenza, cioè con un mezzo baffo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulle prospettive occupazionali dei lavoratori del gruppo 6 GDO srl</head>
+            <note type="speaker">ORRU' (PD)</note>
+            <u ana="#regular" who="#OrruPamelaGiacomaGiovanna" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u67">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg133">Voglio intervenire su una vicenda che riguarda in questo caso specifico la mia Regione, ma che ha ripercussioni in genere su tutte quelle società e rami d'azienda, la cui proprietà è stata confiscata e trasferita all'Agenzia dei beni sequestrati e i cui lavoratori si trovano a lottare per i propri diritti, spesso senza sapere quale sarà il loro futuro. Mi riferisco, nella fattispecie, alla vicenda del gruppo 6 GDO srl: il gruppo, con sede a Castelvetrano, è in amministrazione controllata dal 2008 ed opera nell'ambito delle grandi distribuzioni, gestendo direttamente e indirettamente la somministrazione, affiliazione e conduzione di supermercati e discount in provincia di Trapani, Agrigento e in parte di Palermo. Il gruppo occupa centinaia di lavoratori che, a seguito del provvedimento di confisca, si trovano in cassa integrazione guadagni straordinaria e rischiano di perdere il posto del lavoro, se la vertenza sul futuro dell'azienda non verrà conclusa in tempi brevissimi. Il mio intervento è finalizzato, oltre a porre l'attenzione dell'Aula e della Presidenza su questa problematica, ad anticipare che sto presentando un'interrogazione nella quale chiedo al Ministro dell'interno di rivolgere particolare attenzione ai lavoratori che operano nelle aziende confiscate e che chiaramente non hanno nulla a che fare con la proprietà malavitosa delle stesse. Nella fattispecie chiedo quali azioni urgenti intenda mettere in campo il Governo per tutelare i lavoratori della 6 GDO che rischiano di perdere il posto di lavoro con il sopraggiungere dei termini di legge, fissati per fine marzo, quando l'azienda andrà in liquidazione. Signora Presidente, non possiamo far passare il messaggio, nella nostra Regione, che con la mafia c'è il lavoro e si lavora e con la legalità le imprese chiudono.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per lo svolgimento di un'interpellanza</head>
+            <note type="speaker">LUMIA (PD)</note>
+            <u ana="#regular" who="#LumiaGiuseppe" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u68">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg134">Signora Presidente, vorrei sollecitare la Presidenza a rivolgersi al Governo, in particolare alla Presidenza del Consiglio e al Ministro dello sviluppo economico, per mettere al centro della loro attenzione la vertenza FIAT di Termini Imerese. È una vertenza nazionale, che merita il massimo e diretto impegno della Presidenza del Consiglio e del Ministro dello sviluppo economico. È una vertenza che chiama in gioco un territorio qualificato nella produzione di automobili: un territorio dove ci sono operai FIAT preparati, seri e produttivi, e dove insiste un indotto, anch'esso qualificato, con operai altrettanto preparati e produttivi. Ecco perché, Presidente, questa vicenda deve essere affrontata in sede nazionale. La Presidenza del Consiglio deve avere una sua strategia, anche perché la vicenda FIAT riguarda l'intero Paese. In questi anni la FIAT ha fatto errori clamorosi. Adesso si trova ad una svolta. Tra qualche settimana o mese, dovrà presentare un nuovo piano industriale. Allora il Governo nazionale deve fare il Governo del nostro Paese, come avviene nei Paesi maturi e avanzati. Non c'è stato un Paese, anche quelli a forte tradizione liberale nell'economia, come gli Stati Uniti, con in testa il presidente Obama, dove non si sia sviluppata una gestione attiva delle politiche industriali, con incentivi diretti da parte dello Stato, con strategie guidate da parte della guida di quel Paese. E lo stesso deve avvenire nel nostro Paese. Svolgere una funzione solo notarile e meramente descrittiva della crisi non va bene. C'è bisogno invece di un'azione propositiva da parte del Governo. È necessario che Palazzo Chigi abbia delle idee e queste siano fatte valere interloquendo con la FIAT. Presidente, ho presentato l'interpellanza 2-00119 che va in tale direzione. In conclusione, quindi, sono due le scelte da compiere. La prima è quella di dare subito una risposta a questa interpellanza. La seconda è quella di chiedere al Governo di venire in Aula e di impegnare l'Assemblea intorno a una riflessione sulla politica industriale nel settore dell' automotive. Signora Presidente, domani a Termini Imerese vi sarà una grande iniziativa territoriale, corale, sociale con le organizzazioni sindacali, le forze produttive, il mondo sociale e il mondo dell'impegno ecclesiale. Poiché venerdì ci sarà un incontro tra il Ministero dello sviluppo economico, una rappresentanza di Palazzo Chigi, le organizzazioni sindacali, la Regione, il sindaco e i Comuni del territorio, è bene che fin da adesso vi sia un impulso da parte del Senato affinché già da domani si cambi passo e cominci veramente nel nostro Paese a venir fuori una politica industriale degna di un Paese avanzato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg135">PRESIDENTE. Certamente sosterremo e ci faremo parte fondamentale di questa proposta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulle difficoltà delle Amministrazioni comunali conseguenti all'applicazione del Patto di stabilità</head>
+            <note type="speaker">CANDIANI (LN-Aut)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u69">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg136">Signora Presidente, voglio portare alla conoscenza dall'Assemblea una situazione che si sta diffondendo sul territorio con preoccupante gravità, troppo spesso sottovalutata. I sindaci, i nostri amministratori stanno perdendo totalmente fiducia nello Stato e anche nelle istituzioni che rappresentano, fino ad arrivare - come nel caso del sindaco di Pandino o del sindaco di Viggiù, Sandy Cane - a dichiarare la propria indisponibilità a ricandidarsi per un secondo mandato. Un vero paradosso. Tra qualche giorno, se il Governo reggerà o comunque tra qualche tempo, si potrebbe parlare all'interno di quest'Aula, con la proposta Delrio, addirittura di prevedere il terzo mandato per i sindaci. Questo è un paradosso: significa non conoscere la realtà dei fatti, se si pensa di proporre un terzo mandato perché si fa fatica a trovare gli amministratori, con gli amministratori sul campo che si dimettono e non vogliono fare nemmeno il secondo. Questo accade perché la politica si è allontanata da chi amministra. Chi amministra ha a che fare quotidianamente con i problemi della gente; la politica invece sembra sempre più avvitata su se stessa, lontana dalla realtà. Il mio è un appello a tornare a parlare con il territorio, prendendo coscienza che se si perde questo tipo di affetto che i cittadini hanno nei confronti delle amministrazioni significa che in questo Paese sono compromesse le radici stesse della democrazia. Occorre che il Governo ne sia consapevole, perché una proposta tanto paradossale, come quella del terzo mandato, quando - ripeto - i sindaci non vogliono fare il secondo, dimostra che forse si sta ragionando su livelli di attenzione che non sono quelli che la gente e i nostri amministratori hanno nei Comuni. A costoro dobbiamo, invece, far sentire che il Governo e il Paese sono vicini e che il Parlamento opera per riuscire ad allentare i problemi, come il Patto di stabilità e la difficoltà a sostenere il carico sociale; come quando un Comune si trova ad essere coinvolto in problemi legati ai minori, da cui non può sottrarsi, con l'impossibilità, allo stesso tempo, di rispettare il Patto di stabilità: tutti paradossi che portano i nostri amministratori a disimpegnarsi sul campo. Dobbiamo impedirlo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Bisinella.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.u70">
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg137">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg138">Ricordo che il Senato tornerà a riunirsi in seduta pubblica oggi, alle ore 16, con lo stesso ordine del giorno.</seg>
+               <seg xml:id="ParlaMint-IT_2014-02-12-LEG17-Sed-189.seg139">La seduta è tolta (ore 13,30).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

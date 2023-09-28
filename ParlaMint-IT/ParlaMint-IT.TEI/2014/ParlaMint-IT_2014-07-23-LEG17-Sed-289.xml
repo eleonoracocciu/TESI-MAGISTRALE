@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 289 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 289 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 289, giorno (2014-07-23)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 289, Day (2014-07-23)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="289-upper">289 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="180" unit="speeches" xml:lang="it">180 discorsi</measure>
+            <measure quantity="180" unit="speeches" xml:lang="en">180 speeches</measure>
+            <measure quantity="17036" unit="words" xml:lang="it">17.036 parole</measure>
+            <measure quantity="17036" unit="words" xml:lang="en">17,036 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0794904</idno>
+               <date when="2014-07-23">23.07.2014</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="11"/>
+               <tagUsage gi="head" occurs="8"/>
+               <tagUsage gi="note" occurs="552"/>
+               <tagUsage gi="seg" occurs="180"/>
+               <tagUsage gi="u" occurs="79"/>
+               <tagUsage gi="vocal" occurs="17"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="46"/>
+               <tagUsage gi="incident" occurs="3"/>
+               <tagUsage gi="desc" occurs="66"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2014-07-23">23.07.2014</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente GRASSO</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u1">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg1">La seduta è aperta (ore 16,06). Si dia lettura del processo verbale. GENTILE, segretario, dà lettura del processo verbale della seduta pomeridiana del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">SCILIPOTI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#ScilipotiIsgroDomenico" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg2">Signor Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u3">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u4">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg4">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u5">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg5">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg6">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,11).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui criteri di ammissibilità delle richieste di votazione a scrutinio segreto in ordine agli emendamenti presentati agli articoli del disegno di legge costituzionale n. 1429</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u6">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg7">Comunico che entro le ore 20 di ieri sono pervenute ulteriori richieste di voto segreto, il cui elenco è in distribuzione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg8">Poiché è stata richiesta la mia decisione prima di iniziare l'esame degli articoli, prima di assumere questa decisione, nel dare conto alla Giunta per il Regolamento delle diverse tipologie di emendamenti per i quali è stato chiesto lo scrutinio segreto, ho ricordato le norme regolamentari e i precedenti di voto segreto dei due rami del Parlamento su emendamenti riferiti sia a disegni di legge costituzionale sia a disegni di legge ordinaria.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg9">In tale sede ho riscontrato la diversità di opinioni e di valutazione dei componenti della Giunta rispetto ai criteri di ammissibilità dello scrutinio segreto, sia alle articolate motivazioni. In esito all'approfondito dibattito, la Giunta ha unanimemente convenuto - nel senso che l'unica unanimità raggiunta è questa - di rimettersi alla determinazione della Presidenza.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg10">Nel caso di specie, ho registrato un numero di richieste di voto segreto che non ha precedenti nella prassi parlamentare: 920 richieste di voto segreto su emendamenti. Per tale ragione ritengo opportuno anzitutto enunciare i principi ai quali ho inteso e intendo attenermi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg11">L'articolo 113, comma 4, del Regolamento distingue le deliberazioni relative alle norme sulle minoranze linguistiche, di cui all'articolo 6 della Costituzione, dalle deliberazioni che attengono ai rapporti civili ed etico-sociali, di cui agli articoli della Costituzione espressamente richiamati (dal 13 al 32, secondo comma, tranne gli articoli 23, 28 e 31), oltre alle deliberazioni che concernono le modificazioni al Regolamento del Senato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg12">Con diversa dizione lessicale, il Regolamento della Camera dei deputati, all'articolo 49, parla di votazioni che incidono sui principi e sui diritti di libertà, di cui agli stessi articoli costituzionali richiamati nel Regolamento del Senato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg13">Ho preso in considerazione la prassi di entrambi i rami del Parlamento circa l'ammissibilità del voto segreto su emendamenti riferiti a disegni di legge costituzionale e la diversa portata normativa delle due discipline regolamentari, come applicate alle diverse fattispecie della tutela delle minoranze linguistiche, da un lato, e dei diritti di libertà, dall'altro.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg14">Ritengo pertanto che, anche in ragione del tenore lessicale della formula dell'articolo 113, comma 4, del Regolamento, sia sempre ammissibile il ricorso allo scrutinio segreto laddove si faccia riferimento alla tutela delle minoranze linguistiche, con l'avvertenza che - innovando rispetto alla prassi procedurale precedente in relazione all'elevato numero di richieste - l'adozione dello scrutinio segreto non sarà ostativa all'applicazione della cosiddetta regola del canguro, vale a dire alla votazione delle parti comuni degli emendamenti con conseguente effetto preclusivo sugli emendamenti successivi in caso di reiezione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg15">Viceversa, per quanto riguarda le proposte emendative che richiamano a diverso titolo gli articoli 13 e seguenti della Costituzione sui rapporti civili ed etico sociali, come richiamati dall'articolo 113, comma 4, del Regolamento, la Presidenza - sempre alla luce del dibattito svoltosi nella Giunta - ritiene di ammettere lo scrutinio segreto sui soli emendamenti riferiti alle funzioni delle Camere (articoli 1 e 18 del disegno di legge al nostro esame) e non al procedimento legislativo (articolo 10 del disegno di legge).</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg16">Questa è la decisione. In base ad essa, conseguentemente, si potrà stabilire quali saranno gli emendamenti oggetto di voto segreto. L'elenco sarà distribuito al più presto. Intanto cominciamo a votare; poi, di volta in volta, sulla base di questi principi, che fanno riferimento alla materia, si vedrà che tipo di votazione adottare.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg17">Purtroppo l'elevato numero di emendamenti ci costringe ad andare avanti, valutando via via come votare, seguendo il principio stabilito con questa decisione.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1429) Disposizioni per il superamento del bicameralismo paritario, la riduzione del numero dei parlamentari, il contenimento dei costi di funzionamento delle istituzioni, la soppressione del CNEL e la revisione del Titolo V della parte seconda della Costituzione</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44283.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (7) CALDEROLI. - Modifiche agli articoli 116, 117 e 119 della Costituzione. Attribuzione di ulteriori forme e condizioni particolari di autonomia alle Regioni; istituzione delle «Macroregioni» attraverso referendum popolare e attribuzione alle stesse di risorse in misura non inferiore al 75 per cento del gettito tributario complessivo prodotto sul loro territorio; trasferimento delle funzioni amministrative a Comuni e Regioni</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39307.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (12) CALDEROLI. - Modifiche agli articoli 56 e 57 della Costituzione, in materia di composizione della Camera dei deputati e del Senato della Repubblica</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39313.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (35) ZELLER ed altri. - Modifiche alla parte seconda della Costituzione, concernenti la forma di Governo, nonché la composizione e le funzioni del Parlamento</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39332.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (67) ZANDA. - Modifica agli articoli 66 e 134 della Costituzione in materia di verifica dei poteri dei parlamentari</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39366.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (68) ZANDA. - Modifica dell'articolo 68 della Costituzione in materia di autorizzazione parlamentare</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39369.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (125) LANZILLOTTA ed altri. - Modifiche agli articoli 56, 57 e 59 della Costituzione. Riduzione del numero dei componenti della Camera dei deputati e del Senato della Repubblica</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39426.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (127) LANZILLOTTA ed altri. - Disposizioni per la revisione del Titolo V della Parte seconda della Costituzione e di altre disposizioni costituzionali in materia di autonomia regionale</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39428.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (143) DIVINA. - Modifica dell'articolo 116 della Costituzione in materia di statuti delle Regioni ad autonomia speciale</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39444.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (196) ALBERTI CASELLATI ed altri. - Modifica degli articoli 67, 88 e 94 della Costituzione, in materia di mandato imperativo</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39492.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (238) RUTA. - Modifiche alla parte seconda della Costituzione, concernenti la composizione del Parlamento e l'esercizio delle sue funzioni</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39864.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (253) D'AMBROSIO LETTIERI. - Modifiche all'articolo 117 della Costituzione concernenti l'attribuzione allo Stato della competenza legislativa esclusiva in materia di tutela della salute</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39879.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (261) FINOCCHIARO ed altri. - Modifiche agli articoli 68, 96 e 134 della Costituzione e alla legge costituzionale 16 gennaio 1989, n. 1, in materia di procedimento per l'autorizzazione alla limitazione della libertà personale dei parlamentari e dei membri del Governo della Repubblica</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39942.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (279) COMPAGNA ed altri. - Modifica dell'articolo 68 della Costituzione, in materia di immunità dei membri del Parlamento</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39960.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (305) DE POLI. - Modifiche agli articoli 116 e 119 della Costituzione, per l'inclusione del Veneto tra le regioni a statuto speciale e in materia di risorse finanziarie delle medesime regioni</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39987.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (332) COMAROLI ed altri. - Abrogazione del secondo comma dell'articolo 59 della Costituzione, concernente la nomina dei senatori a vita</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40192.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (339) DE POLI. - Modifica all'articolo 68 della Costituzione in materia di garanzie dei parlamentari</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40199.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (414) STUCCHI. - Modifiche al titolo V della parte seconda della Costituzione in materia di autonomie provinciali e locali. Attribuzione dello statuto di autonomia provinciale alla provincia di Bergamo</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40395.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (436) RIZZOTTI. - Modifica dell'articolo 59 della Costituzione in materia di senatori a vita</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40417.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (543) INIZIATIVA POPOLARE. - Attribuzione di ulteriori forme e condizioni particolari di autonomia alle regioni, istituzione delle «comunità autonome» attraverso referendum popolare e attribuzione alle stesse di risorse in misura non inferiore al 75 per cento del gettito tributario complessivo prodotto sul loro territorio, trasferimento delle funzioni amministrative a comuni e regioni</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40525.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (574) ZANETTIN ed altri. - Soppressione delle regioni a statuto speciale e delle province autonome</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40630.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (702) BLUNDO ed altri. - Iniziativa quorum zero e più democrazia</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41018.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (732) TAVERNA ed altri. - Modifiche all'articolo 117 della Costituzione, concernenti l'attribuzione allo Stato della competenza legislativa esclusiva in materia di tutela della salute</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41115.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (736) STUCCHI. - Abrogazione del secondo comma dell'articolo 59 della Costituzione, concernente la nomina dei senatori a vita</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41144.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (737) STUCCHI. - Modifiche agli articoli 56 e 57 della Costituzione in materia di composizione della Camera dei deputati e del Senato della Repubblica</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41145.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (877) BUEMI ed altri. - Modifica dell'articolo 55 della Costituzione in materia di funzionamento del Parlamento in seduta comune per l'elezione di organi collegiali</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41446.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (878) BUEMI ed altri. - Modifica dell'articolo 66 della Costituzione in materia di verifica dei poteri dei parlamentari</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41447.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (879) BUEMI ed altri. - Revisione dell'articolo 68 della Costituzione</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41448.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (907) CIOFFI ed altri. - Modifiche all'articolo 77 della Costituzione in materia di decretazione d'urgenza</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41503.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1038) CONSIGLIO. - Modifica all'articolo 59 della Costituzione in materia di nomina dei senatori a vita</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41922.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1057) D'AMBROSIO LETTIERI ed altri. - Modifica dell'articolo 59 della Costituzione in materia di senatori a vita</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41991.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1193) CANDIANI ed altri. - Abrogazione del secondo comma dell'articolo 59 della Costituzione concernente i senatori a vita di nomina del Presidente della Repubblica</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43400.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1195) CALDEROLI ed altri. - Disposizioni per la riforma del bicameralismo, la riduzione del numero dei parlamentari e la razionalizzazione del procedimento legislativo</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43444.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1264) SACCONI ed altri. - Disposizioni per la riforma del bicameralismo, la riduzione del numero dei parlamentari e la razionalizzazione del procedimento legislativo</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43833.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1265) AUGELLO ed altri. - Abrogazione dell'articolo 99 della Costituzione e soppressione del Consiglio nazionale dell'economia e del lavoro</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43834.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1273) MICHELONI. - Modifiche agli articoli 56, 57 e 94 della Costituzione, in materia di riduzione del numero dei parlamentari, di riforma della composizione del Senato e di conferimento della fiducia al Governo</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43842.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1274) MICHELONI. - Modifiche agli articoli 56, 57 e 94 della Costituzione, in materia di riduzione del numero dei parlamentari e di conferimento della fiducia al Governo</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43843.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1280) BUEMI ed altri. - Abolizione della Camera dei deputati e trasformazione del Consiglio nazionale dell'economia e del lavoro in Consiglio nazionale delle autonomie</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43874.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1281) DE POLI. - Modifiche all'articolo 117 della Costituzione, concernenti l'attribuzione allo Stato della competenza legislativa esclusiva in materia di produzione, trasporto e distribuzione nazionale dell'energia</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43879.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1355) CAMPANELLA ed altri. - Modifiche agli articoli 56, 57, 59, 66, 70, 80, 81, 82 e 94 della Costituzione in materia di bicameralismo</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44076.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1368) BARANI ed altri. - Disposizioni per il superamento del sistema bicamerale ai fini dello snellimento del procedimento legislativo e del contenimento della spesa pubblica</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44104.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1392) BUEMI ed altri. - Revisione della Costituzione in tema di fiducia al Governo, Senato della Repubblica e Parlamento in seduta comune</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44150.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1395) BATTISTA ed altri. - Modifica all'articolo 58 della Costituzione in materia di equiparazione del requisito di età anagrafica ai fini dell'esercizio del diritto di elettorato attivo per la Camera dei deputati e il Senato della Repubblica</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44163.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1397) TOCCI e CORSINI. - Modifiche alla Costituzione per l'introduzione di un bicameralismo di garanzia e per la riduzione del numero dei parlamentari</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44165.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1406) SACCONI ed altri. - Disposizioni per la riforma del bicameralismo, la riduzione del numero dei parlamentari e la revisione del titolo V della parte seconda della Costituzione</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44188.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1408) SONEGO ed altri. - Modificazioni all'articolo 116 della Costituzione in materia di regime di autonomia delle Regioni a statuto speciale</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44192.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1414) TREMONTI. - Modifiche agli articoli 97, 117 e 119 della Costituzione</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44225.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1415) COMPAGNA e BUEMI. - Revisione della Costituzione in tema di legislazione regionale, democrazia interna ai partiti politici, fiducia al Governo, Parlamento in seduta comune</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44226.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1416) MONTI e LANZILLOTTA. - Abolizione del bicameralismo paritario, riforma del Senato della Repubblica, disposizioni in materia di fonti del diritto e modifiche al Titolo V, Parte II della Costituzione in materia di autonomie territoriali</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44228.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1420) CHITI ed altri. - Istituzione di un Senato delle Autonomie e delle Garanzie e riduzione del numero dei parlamentari</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44235.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1426) DE PETRIS ed altri. - Modifiche alla Costituzione per la riforma del bicameralismo perfetto, la riduzione del numero dei parlamentari e l'assegnazione al Senato della Repubblica di funzioni legislative esclusive e funzioni di vigilanza e di garanzia</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44248.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1427) BATTISTA ed altri. - Modifiche degli articoli 64, 65 e 66 della Costituzione, volte ad introdurre il dovere dei membri del Parlamento di partecipare ai lavori parlamentari e la decadenza per assenza ingiustificata e reiterata</note>
+            <note type="time">16,17</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44249.htm</note>
+            <note>Seguito della discussione dei disegni di legge costituzionale: (1454) MINZOLINI ed altri. - Modifiche alla parte II della Costituzione in materia di composizione della Camera dei deputati e del Senato e attribuzione delle competenze legislative loro spettanti</note>
+            <note type="time">16,17</note>
+            <note type="status">(Votazione finale qualificata ai sensi dell'articolo 120, comma 3, del Regolamento) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44322.htm</note>
+            <note type="time">(ore 16,17)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u7">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg18">L'ordine del giorno reca il seguito della discussione dei disegni di legge costituzionale nn. 1429, 7, 12, 35, 67, 68, 125, 127, 143, 196, 238, 253, 261, 279, 305, 332, 339, 414, 436, 543, 574, 702, 732, 736, 737, 877, 878, 879, 907, 1038, 1057, 1193, 1195, 1264, 1265, 1273, 1274, 1280, 1281, 1355, 1368, 1392, 1395, 1397, 1406, 1408, 1414, 1415, 1416, 1420, 1426, 1427 e 1454.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg19">Riprendiamo l'esame degli articoli del disegno di legge n. 1429, nel testo proposto dalla Commissione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg20">Ricordo che nella seduta antimeridiana si è concluso l'esame del complesso degli emendamenti presentati all'articolo 1 ed i relatori e il rappresentante del Governo hanno espresso il proprio parere.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'ordine dei lavori</head>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg21">Signor Presidente, capisco che le richieste presentate per il voto segreto siano numerose; tuttavia, prima di iniziare una votazione nella quale inevitabilmente le implicazioni sono anche di carattere politico, sarebbe opportuno avere almeno, secondo quanto da lei stabilito in base alla sua facoltà, l'elenco degli emendamenti ammessi al voto segreto. Mi sembra che continuare ad andare avanti a prescindere, come è stato fatto stamattina, non sia proficuo. Non è un richiamo tecnico ma di buon senso. È evidente, infatti, che la consequenzialità del ragionamento politico sta anche in alcune scelte di sostanza all'interno della possibilità di esprimersi o meno con il voto segreto. Mi permetto di dirle questo perché credo sia inevitabile fare un ragionamento su quest'elenco di emendamenti quando sarà pronto. Penso che gli Uffici lo faranno con la solita sollecitudine, ma sapere, prima di iniziare le votazioni, quali sono gli emendamenti ammessi al voto segreto mi sembrerebbe normale.</seg>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u9">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg22">Signor Presidente, intervengo per un chiarimento sulla sua decisione. Come è emerso nel corso dei lavori della Giunta per il Regolamento, tutti gli emendamenti che si riferiscono ai diritti delle minoranze linguistiche per i quali - se non ho mal compreso - lei ha ammesso il voto segreto, prevedono nello stesso emendamento prescrizioni anche molto diverse. Queste prescrizioni - a parer mio, per esempio, ma non solo - hanno un contenuto prevalente sull'emendamento che quindi, ad una prima lettura, apparirebbe strumentalmente confezionato, per cui partirebbe definendo i diritti delle minoranze linguistiche, per poi prescrivere norme di ben altro contenuto, che riguardano altre parti del provvedimento. Non ho ben compreso dunque come intenda regolarsi su questi emendamenti, che - lo ribadisco - sono maggioritari nella categoria, perché sono forse i più numerosi in assoluto tra quelli la cui ammissibilità lei dovrà decidere.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u10">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg23">Non ho inteso richiamarmi al Regolamento, che prevede il voto per parti separate; basta la richiesta di votare per parti separate e questa eventuale strumentalità - così com'è stata definita - potrà essere interrotta.</seg>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u11">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg24">Mi permetta allora di aggiungere che il settimo comma dell'articolo 113 del nostro Regolamento prevede anche una grande attenzione alla prevalenza delle materie nel provvedimento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg25">PRESIDENTE. Certo, ma la prevede per il voto finale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg26">La prevede, a mio parere... PRESIDENTE. ...e si può estendere interpretativamente anche agli altri articoli. ZANDA (PD). Mi scusi, signor Presidente, ma né il comma 7 né il comma 4 distinguono su questo punto, quindi mi sembra che la questione vada almeno soppesata. PRESIDENTE. D'accordo, senatore Zanda.</seg>
+            </u>
+            <note type="speaker">DE CRISTOFARO (Misto-SEL)</note>
+            <u ana="#regular" who="#DeCristofaroPeppe" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg27">Signor Presidente, a me pare che la scelta - che naturalmente sta alla sua totale libertà ed autonomia - sia molto equilibrata e colga anche l'importanza politica di un passaggio come questo. Mi associo però a mia volta alla richiesta avanzata dal collega della Lega, al fine di conoscere nel merito - anche semplicemente come elemento di maggior chiarezza e per avere un quadro completo, prima di cominciare le votazioni, vista l'implicazione politica obiettivamente molto significativa della cosa - per quali emendamenti è stato effettivamente ammesso il voto segreto e per quali non lo è stato.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg28">Signor Presidente, prima di tutto desidero ringraziarla per la precisazione che ella ha inteso fare sull'intervento del presidente Zanda, relativamente al fatto che il criterio della prevalenza previsto dall'articolo 113, comma 7, del Regolamento riguardi solo ed esclusivamente la votazione finale e non possa essere trasportato - neanche come criterio interpretativo analogico - a quanto previsto dall'articolo 113, comma 4, che invece riguarda evidentemente lo specifico emendamento. Detto questo, signor Presidente, mi permetto di sottoporre alla sua attenzione un piccolo problema: ha preannunciato la sua decisione in ordine agli emendamenti sui quali è stato chiesto il voto segreto e mi sembra di intuire dalle sue parole che probabilmente per qualcuno di essi - ma non so in quale numero - sia stato concesso. Mi chiedo se, a tal proposito, non sia preferibile affrontare immediatamente tale problema, ai fini della velocità dei lavori e ove il loro elenco fosse già pronto. In maniera diversa, signor Presidente, ho l'impressione che ogni decisione su un voto segreto, se non affrontata nell'intero complesso, possa dar corso singolarmente ad incidenti che ella potrà risolvere, come prescrive il Regolamento, nella sua esclusiva autonomia ovvero, se lo riterrà opportuno, sentita la Giunta per il Regolamento. Per questa ragione, sarebbe probabilmente preferibile concentrare le eventuali doglianze - e non so se ve ne saranno - in ordine alla sua decisione, sì da poter risolvere il problema per andare avanti più speditamente.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u14">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg29">Ringrazio il senatore Palma per il suo contributo all'ordine dei lavori, che mi permette di rispondere anche al senatore Volpi: tutti gli emendamenti riferiti all'articolo 1 concernenti quella materia specifica saranno oggetto di voto segreto.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg30">Siccome sappiamo che gli emendamenti sono oltre 2.000, penso che gli Uffici potranno predisporre un elenco degli emendamenti che saranno sottoposti a voto segreto.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg31">Per quegli emendamenti sarà certamente utilizzato tutto quello che la tecnica della prassi parlamentare riserva, cioè accorgimenti quali il canguro, il taglio e la separazione di parti separate, e per l'articolo 1, che si andrà a votare, non ci sono problemi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg32">Frattanto, gli Uffici stanno preparando un elenco che sarà certamente distribuito.</seg>
+            </u>
+            <note type="speaker">SACCONI (NCD)</note>
+            <u ana="#regular" who="#SacconiMaurizio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg33">Signor Presidente, mi unisco alle considerazioni del collega Zanda, insistendo sul criterio della prevalenza della materia trattata dall'argomento. Soprattutto laddove risultasse complessa la separazione, non può non prestarsi attenzione al tema che viene prevalentemente trattato, affinché la materia sensibile non sia trainante un voto impropriamente segreto per altro tema che merita invece la pubblica trasparenza del nostro comportamento di voto. Faccio davvero appello a lei perché si tratta di un tema, come lei può intendere, molto delicato. Non nascondo che mi ha stupito la sua decisione dopo l'opinione largamente espressa dai componenti della Giunta per il Regolamento. Quindi mi auguro che lei vorrà considerare il carattere strumentale di molti emendamenti ai fini del voto segreto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Bianconi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SCILIPOTI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#ScilipotiIsgroDomenico" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u16">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg34">Signor Presidente, mi spiace e chiedo scusa al senatore Sacconi ed al senatore Zanda, ma spero di aver capito male che nelle parole sia del senatore Zanda che del senatore Sacconi si poteva intravedere un giudizio di scorrettezza sul comportamento di alcuni parlamentari, perché quando si usa il termine «strumentale» significa scorrettezza. Ritengo che all'interno del Parlamento non ci sia nessuno che voglia essere strumentale e scorretto, ma ognuno vuole fare il suo lavoro tranquillo e sereno e rispettare la decisione del Presidente del Senato sia quando è conveniente al Gruppo che rappresentiamo e agli interessi personali, sia quando va loro contro. Sentire utilizzare queste parole da una persona come lei, senatore Zanda, che io rispetto e stimo, sentirla utilizzare il termine «strumentale» per dire che ci sono parlamentari qui dentro che scrivono una cosa per intenderne un'altra e per creare difficoltà a quest'Aula nel mandare avanti le riforme, mi spiace.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Zanda</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg35">Allora dico a lei, senatore Zanda, con grande rispetto, che qui nessuno ha intenzione di non fare le riforme, ma di fare riforme serie e concrete, senza stare agli atteggiamenti scorretti di un Presidente del Consiglio che utilizza i propri rappresentanti come marionette all'interno dell'Aula!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg36">PRESIDENTE. Senatore Scilipoti, basta.</seg>
+            </u>
+            <note type="speaker">CANDIANI (LN-Aut)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg37">Signor Presidente, credo che la sua impostazione possa dare solo serenità all'Assemblea nell'impostare il lavoro sugli emendamenti e mai come in questo caso...</seg>
+               <vocal type="noise">
+                  <desc>Brusio. Il senatore Scilipoti conversa con la senatrice Bernini</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg38">PRESIDENTE. Senatore Scilipoti ha svolto il suo intervento, basta per favore.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg39">Riavvolgo il nastro, Presidente. PRESIDENTE. Sì, grazie, è molto gentile. Senatore Scilipoti e senatrice Bernini, per favore.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Bernini.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg40">Prego, senatore Candiani.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg41">Ritengo che la sua decisione dia serenità a questa Aula che sarà ovviamente sovrana nella gestione delle votazioni che ci aspettano. Il Gruppo Lega Nord e Autonomie avanza però la richiesta di porre attenzione alla velocità nello svolgimento delle votazioni che saranno sicuramente complicate, soprattutto se si procederà anche con votazioni per parti separate e quindi bisognerà scindere gli emendamenti. Sicuramente in questo caso occorre un'impostazione, come quella che lei correttamente sta tenendo, sopra le parti. Peraltro giunge abbastanza inconsueto che dopo che la Giunta per il Regolamento l'ha investita dell'autorità e della responsabilità di prendere questa decisione ci sia qualcuno che in questa Aula ne contesti l'autorevolezza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CASSON (PD)</note>
+            <u ana="#regular" who="#CassonFelice" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg42">Signor Presidente, per quello che sono riuscito a capire dalle sue indicazioni sintetiche, ho difficoltà a districarmi tra la massa di emendamenti per i quali è stato chiesto il voto a scrutinio segreto ammessi in quanto tali, e gli altri per i quali invece c'è stato un diniego. Credo sia indispensabile avere un'indicazione specifica degli emendamenti ammessi al voto segreto perché per una serie di questi si arriverà al voto in pochissimo tempo. Ricordo per esempio gli emendamenti 1.28 e 1.29, al ventesimo posto rispetto a quelli non ammessi. Non avendo un elenco specifico degli emendamenti ammessi e di quelli non ammessi, prendo atto dell'indicazione generale del Presidente che tenderebbe ad ammettere - per quello che ho capito - alla votazione a scrutinio segreto gli emendamenti relativi all'articolo 1 e 18 inerenti le minoranze. Non ho capito se esclusivamente alle minoranze o anche per altri... PRESIDENTE. Per le funzioni ho detto. CASSON (PD). Per questo dico che non avendo un testo, probabilmente sbaglio nell'interpretazione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u19">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg43">Lo ribadisco, visto che non sono stato chiaro: «ritiene di ammettere lo scrutinio segreto sui soli emendamenti riferiti alle funzioni delle Camere (articoli 1 e 18 del disegno di legge al nostro esame) e non al procedimento legislativo (articolo 10 del disegno di legge)». Questa è la distinzione. Lei mi sembra abbia presentato qualche emendamento all'articolo 18.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg44">Sì. PRESIDENTE. Credo l'emendamento 18.1 che è stato esaminato con particolare attenzione.</seg>
+            </u>
+            <note type="speaker">CASSON (PD)</note>
+            <u ana="#regular" who="#CassonFelice" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u20">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg45">Ci sono, ad esempio, altri emendamenti per i quali è stato chiesto il voto a scrutinio segreto presentati all'articolo 2 che riguardano le minoranze. Questo sembrerebbe essere in contraddizione...</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg46">PRESIDENTE. Sono ammessi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg47">Non riesco a capire.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u21">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg48">Non riesco a essere chiaro. C'è un'ammissione per materia derivante dall'articolo 113 del Regolamento...</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg49">Riguarda tutti? PRESIDENTE. Tutti quelli relativi alle minoranze linguistiche. Quella è per materia. L'altra distinzione è per funzioni delle Camere. Quindi tutti gli emendamenti che per materia riguardano le minoranze linguistiche, stando all'espressione letterale dell'articolo 113, comma 4, del Regolamento, sono ammessi, sia quelli presentati all'artico 1, che all'articolo 2. Purtroppo, dato che si tratta di 920 emendamenti, bisogna dare agli Uffici il tempo di predisporre gli elenchi perché anche essi sono venuti a conoscenza ora della la mia decisione. Quindi, devono cominciare a lavorare. Ho già detto che per l'articolo 1 questo problema non c'è perché tutta la materia delle minoranze linguistiche è ammessa, con degli accorgimenti, al voto segreto. Mi sembra di essere stato abbastanza chiaro.</seg>
+            </u>
+            <note type="speaker">CASSON (PD)</note>
+            <u ana="#regular" who="#CassonFelice" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u22">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg50">Arrivo alla questione letterale, che è stata da lei ricordata, relativamente all'articolo 10. È un problema che verrà riproposto quando ci si arriverà, ma intanto vorrei segnalarlo. Infatti, all'articolo 113, comma 4, del Regolamento si fa riferimento alle materie che attengono ai rapporti. Sottolineo il concetto di rapporti, perché sono quelli relativi ai diritti civili di cui agli articoli 13 e seguenti della Costituzione, che riguardano le libertà fondamentali: libertà religiosa, libertà personale, libertà di associazione, libertà di stampa, la materia del testamento biologico eccetera. In seguito torneremo su tali temi, ma ora voglio sottolineare che - a mio avviso - questa decisione è in contrasto con le decisioni precedentemente assunte, sia dalla Camera dei deputati che dal Senato della Repubblica, relativamente a leggi di natura costituzionale come a leggi di natura ordinaria. Mi limito a ricordare, per quanto riguarda le leggi costituzionali, i precedenti del 2002 e del 2000 del Senato e quello del 1990 della Camera dei deputati; si fa riferimento a leggi costituzionali, a questioni che hanno attinenza anche all'articolo 117 della Costituzione, così come alle questioni che attengono alle Giunte provinciali di Trento e Bolzano. In particolare, per le leggi ordinarie vi sono precedenti della scorsa legislatura, del 2009 e del 2010, che ammettono il voto segreto in modo specifico su norme che hanno a che fare con i rapporti civili citati anche nei nostri emendamenti, che riguardano la libertà personale, la libertà di unione e la libertà di associazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg51">Signor Presidente, per carità, non voglio certamente contestare la decisione, se definitiva, ma chiedo che si possa pensare anche ad una valutazione in corrispondenza con i precedenti del Senato in materia di rapporti civili, non tanto quelli di riferimento diretto.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg52">Concludo il mio primo intervento evidenziando che in questo caso non si tratta soltanto di un riferimento di tipo generico. Quando si chiamano in gioco l'intervento e la competenza di una Camera come di un'altra, si richiama in gioco una garanzia costituzionale che hanno voluto i nostri Padri costituenti: questi hanno previsto due Camere quanto meno per ovviare ai possibili errori di una Camera rispetto ad un'altra. Abbiamo visto concretamente, anche nella scorsa legislatura, che in temi di diritti personali e di diritti fondamentali, come la libertà di stampa, le esigenze di indagine (ricordo il tema delle intercettazioni), una Camera ha corretto gli errori dell'altra.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg53">È una posizione di garanzia, alla quale ci siamo voluti richiamare con i nostri emendamenti sull'articolo 10 per i quali abbiamo richiesto la votazione segreta.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg54">Ovviamente potrò entrare nel dettaglio solo successivamente.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u23">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg55">La ringrazio, senatore Casson. Comunque, all'inizio, nella mia premessa, ho dato atto del fatto che ho valutato i precedenti, anche quelli che lei ha citato. Pertanto, sotto questo profilo, la mia decisione è definitiva.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg56">Quei precedenti sono stati valutati e il precedente ha il valore - appunto - di precedente, ma non di interpretazione regolamentare.</seg>
+            </u>
+            <note type="speaker">URAS (Misto-SEL)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u24">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg57">Signor Presidente, intervengo soltanto per richiamare la lettera del comma 7 dell'articolo 113 del Regolamento, che regola il voto palese finale sui disegni di legge e introduce un rafforzamento dei contenuti del comma 4 dello stesso articolo, in particolare per quanto riguarda gli aspetti relativi alle norme sulle minoranze linguistiche. Ripeto che si tratta di un rafforzamento e non del contrario, come è stato poc'anzi sostenuto dai colleghi Zanda e Sacconi: è un rafforzamento del diritto a sottoporre le norme riguardanti le minoranze linguistiche al voto segreto. Sottolineo tale aspetto perché, come noto, tutte le minoranze - politiche, etniche, religiose, culturali ed anche linguistiche - patiscono già la loro condizione di minoranza. Non occorre rafforzare, con un ragionamento che è, in questo caso sì, strumentale, cioè finalizzato ad una sorta di accelerazione della discussione e della votazione di questo progetto di riforma costituzionale; al contrario, andrebbe casomai valorizzato. Lo dico perché una buona parte degli emendamenti sono sottoscritti da me e hanno l'obiettivo non strumentale del riconoscimento del diritto di minoranza linguistica anche per la Sardegna. Voglio spendere solo due parole per rammentare a tutti noi il modo in cui la mia Regione è stata trattata in merito alla vicenda delle calamità naturali del novembre del 2013, quando tutti noi sul piano politico, prima che sul piano istituzionale, abbiamo assunto un impegno di considerazione, che invece è rimasto totalmente inevaso per responsabilità congiunta del Governo e della maggioranza. In questa sede e in questa fase facciamo una battaglia di principio che mira a riconoscere la nostra condizione di difficoltà della quale chiediamo si faccia carico l'intero Stato e l'insieme della Repubblica. La nostra è una condizione di difficoltà che non ci ha impedito, Presidente, e non ci impedisce di dare il nostro contributo alle tante vicende di questo Paese, anche quando questo è chiamato a intervenire per questioni di natura internazionale e per il perseguimento di obiettivi di pace. I sardi, per il contributo di sangue che hanno dato in più occasioni, meritano almeno di non essere considerati strumentali nella difesa dei loro diritti.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1429</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44283.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 7</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39307.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 12</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39313.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 35</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39332.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 67</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39366.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 68</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39369.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 125</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39426.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 127</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39428.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 143</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39444.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 196</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39492.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 238</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39864.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 253</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39879.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 261</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39942.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 279</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39960.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 305</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39987.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 332</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40192.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 339</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40199.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 414</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40395.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 436</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40417.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 543</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40525.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 574</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40630.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 702</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41018.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 732</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41115.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 736</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41144.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 737</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41145.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 877</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41446.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 878</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41447.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 879</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41448.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 907</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41503.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1038</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41922.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1057</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41991.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1193</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43400.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1195</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43444.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1264</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43833.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1265</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43834.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1273</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43842.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1274</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43843.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1280</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43874.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1281</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43879.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1355</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44076.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1368</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44104.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1392</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44150.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1395</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44163.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1397</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44165.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1406</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44188.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1408</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44192.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1414</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44225.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1415</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44226.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1416</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44228.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1420</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44235.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1426</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44248.htm</note>
+            <note>e</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1427</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44249.htm</note>
+            <note>Ripresa della discussione dei disegni di legge costituzionale nn. 1454</note>
+            <note type="time">16,40</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44322.htm</note>
+            <note type="time">(ore 16,40)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u25">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg58">Gli emendamenti da 01.1 a 01.10 sono improponibili.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg59">Passiamo alla votazione dell'emendamento 01.11.</seg>
+            </u>
+            <note type="speaker">CARRARO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CarraroFranco" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg60">Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata).</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u27">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg61">Signor Presidente, credo il senatore Volpi avesse chiesto di dare il tempo di trovare l'emendamento e capire di cosa stiamo parlando. L'emendamento 01.11 mi sembra voglia abrogare il terzo comma dell'articolo 48 della Costituzione, che istituisce, se non sbaglio, l'esercizio del diritto di voto dei cittadini residenti all'estero. L'obiettivo non è togliere l'esercizio del diritto di voto, ma l'eliminazione della circoscrizione Estero. Su questo ci esprimiamo favorevolmente perché sappiamo come la circoscrizione Estero in molte occasioni sia stata un bacino di voti per alcuni Gruppi in particolare rispetto ad altri. Deve essere invece garantito il diritto di voto dei cittadini residenti all'estero, così come viene garantito per le elezioni europee; deve essere garantito e devono votare per le circoscrizioni di appartenenza. Quindi, la legge deve prevedere delle modalità di esercizio del voto. Le circoscrizioni di appartenenza per le elezioni europee, ad esempio, sono quelle dell'ultima residenza nota del Paese d'origine. Ecco perché riteniamo che possa essere affrontato questo tema e ricordo che, in questa sede, la circoscrizione Estero è stata in più di un'occasione oggetto di discussione, per una sua eventuale abolizione. Non me ne vogliano i colleghi, che sono stati eletti nella circoscrizione Estero: essi potranno benissimo candidarsi in una circoscrizione italiana ed essere votati dai cittadini all'estero, che potranno esercitare il proprio diritto di voto, a prescindere. Al centro della discussione è proprio l'idea che ci possano essere dei senatori o dei deputati eletti nella circoscrizione Estero, a maggior ragione in un Senato che dovrà essere il Senato delle autonomie, dei raccordi e dei rappresentanti delle istituzioni. Ecco perché voteremo a favore dell'emendamento in esame.</seg>
+            </u>
+            <note type="speaker">URAS (Misto-SEL)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u28">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg62">Signor Presidente, intervengo per dichiarare il mio voto contrario a questo emendamento e per sostenere invece la tesi che sia giusto avere una circoscrizione Estero, per l'elezione delle Camere. Com'è noto, siamo sostenitori del Senato elettivo e saremo anche sostenitori di una presenza dei nostri migranti anche all'interno di quella Camera. Come dicevo proprio l'altro giorno, parlando con il collega Turano, in linea di principio pensiamo che debba essere così, in un Paese che ha una popolazione che opera all'estero pari a quella residente, anzi maggiore, la quale ha fatto tanto per la comunità nazionale che risiede in Italia, aprendo possibilità sul piano economico e sul piano delle relazioni internazionali, anche in funzione dell'affermazione della nostra capacità di produrre qualità e di dare quell'immagine di Paese evoluto e moderno che abbiamo sempre dato. Provengo dalla Sardegna e ricordo che ci sono oltre 1.600.000 sardi riconosciuti come cittadini in altri Paesi, dove si sono fatto stimare per la loro capacità di lavoro, per la loro onestà e per il loro impegno, anche nella partecipazione alla vita delle istituzioni di quei Paesi. Penso che questo tipo di riconoscimento non possa essere rimosso dall'articolo 48 della Costituzione e penso che tutti dovremmo abituarci ad attribuire il giusto valore ai richiami, agli interventi e alle valutazioni fatte dal Capo dello Stato, su questo come su altri argomenti. Lo stesso vale anche per gli ultimi interventi fatti dal Capo dello Stato in ordine alla discussione in corso, che ritengo importanti e certamente da non giudicare inopportuni, come altri hanno fatto. Al contrario: quando il Capo dello Stato richiama tutti, anche il Governo, ad una capacità di dialogo e alla ricerca d'intese, anche attraverso inevitabili mediazioni tra forze schierate su opposte posizioni politiche, rende positiva la battaglia che è in corso in questo Senato, dandole la dignità che merita. Non è una perdita di tempo. È un vero impegno democratico e non può essere disconosciuto. Ricordo il richiamo fatto a tutti dal Capo dello Stato a ridiscutere, con la massima attenzione, anche provvedimenti che fanno parte di questo blocco di riforme, e noi per le riforme ci siamo: non ci siamo per le restaurazioni; non ci siamo per tornare indietro ma per andare avanti. Opportuni, come al solito, sono stati anche gli altri interventi del Presidente della Repubblica su diversi argomenti, che però non abbiamo saputo cogliere, in particolare sulla vicenda della condizione carceraria e sull'uso ed abuso della decretazione d'urgenza e del voto di fiducia. Credo che l'insieme di questi richiami vada acquisito alla nostra discussione, anche per quanto riguarda l'argomento specifico di cui stiamo trattando. Sono infatti convinto che riconoscere ai nostri connazionali, che non si sono dimenticati e non vogliono dimenticarsi di questo Paese, il diritto a rappresentarlo in questa sede e nei luoghi dove loro operano, sia un dovere di tutti, al quale tutti dobbiamo rispondere affermativamente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-SEL, M5S e LN-Aut e dei senatori Mussini e Zin.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GIARRUSSO (M5S)</note>
+            <u ana="#regular" who="#GiarrussoMarioMichele" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u29">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg63">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg64">La informo, senatore, che per le dichiarazioni di voto in dissenso la Presidenza concederà un minuto.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg65">Mi scusi, Presidente, ma questa è una votazione di enorme rilievo costituzionale ed io vorrei poter esprimere la mia posizione, che è particolare ed importante. PRESIDENTE. La esprima pure, senatore. La invito solo ad avere una capacità di sintesi e a farlo in un minuto. GIARRUSSO (M5S). La ringrazio e cercherò di usare la massima sintesi. PRESIDENTE. La invito a cominciare, però, così da non sprecare il tempo a sua disposizione. GIARRUSSO (M5S). Signor Presidente, io sono siciliano; la mia è una terra di immigrazione. Abbiamo milioni di italiani all'estero e credo che vadano rispettati, riconoscendo loro la possibilità di avere un collegio ed un senatore da loro eletto direttamente, attraverso libere elezioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Zin.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg66">Costringere i nostri connazionali a meccanismi di voto nel territorio è un artificio che non serve. Avere qui dei rappresentanti dei nostri cittadini all'estero è anche questa una garanzia di libertà e di democrazia.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg67">Per questo il mio voto sarà in dissenso da quello espresso dal mio Gruppo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Zin</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg68">PRESIDENTE. Ha visto, senatore Giarrusso, è riuscito ad esprimere la sua posizione nei tempi.</seg>
+            </u>
+            <note type="speaker">MICHELONI (PD)</note>
+            <u ana="#regular" who="#MicheloniClaudio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u30">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg69">Signor Presidente, fa sicuramente un certo effetto che la prima votazione sia su un emendamento che chiede la soppressione della circoscrizione Estero, ma la ringrazio di concederci la parola su questo. Per la verità, ritroveremo in molti emendamenti il tentativo di sopprimere la circoscrizione Estero: lo considero un fallimento culturale, più che politico, di noi parlamentari della circoscrizione Estero, perché non siamo riusciti a trasmettere in questi anni il significato profondo della presenza nel Parlamento italiano di rappresentanti degli italiani all'estero. Care colleghe e cari colleghi - l'ho detto più volte in quest'Aula - se c'è veramente la convinzione che questa presenza sia importante solo per gli italiani all'estero, allora voterò questo emendamento, perché non è questo. La nostra presenza qui è utile ed importante per l'Italia se l'Italia capisce che con questa presenza mantiene rapporti con decine di milioni di persone che sono un volano per l'economia, per la politica e per la cultura italiana. Se non capiamo questo, allora ha ragione chi ha presentato l'emendamento. Al di là del fatto che non siamo stati capaci di trasmettere ciò e di aprire in un certo senso questa politica al di fuori dei nostri campanili, al di fuori del nostro territorio nazionale, credo non possiamo permetterci di iniziare questo lavoro con un emendamento siffatto. Un concetto, però, Presidente, vorrei rilevare. Se il Senato non sarà elettivo, la presenza di senatori della circoscrizione Estero in tale Assemblea diventa complicata. Se, al contrario, il Senato resta elettivo, allora i rappresentanti della circoscrizione Estero dovrebbero essere presenti solo nel Senato e non nella Camera politica che dà la fiducia al Governo, uscendo dai limiti dei luoghi comuni dei cittadini di categoria A, B o Z che non vogliono dire un granché. Noi siamo cittadini italiani che viviamo un'altra realtà. Riteniamo che il Paese abbia bisogno di collegamenti con questa realtà e - lo ripeto - ne ha bisogno sul piano economico, politico e culturale, e questo collegamento dovrebbe trovarsi principalmente nella Camera che non dà la fiducia al Governo. Per questo noi sosteniamo con forza un Senato elettivo, anche perché in tal caso potremo capire e sostenere una legge elettorale alla Camera che garantisca la stabilità e la governabilità del nostro Paese. Mi auguro che sia largamente respinto questo emendamento, ma non per motivi nostalgici, ma per gli interessi dell'Italia e non degli italiani all'estero.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e della senatrice Mussini.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CROSIO (LN-Aut)</note>
+            <u ana="#regular" who="#CrosioJonny" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u31">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg70">Signor Presidente, quando nel nostro Paese affrontiamo il tema del voto degli italiani all'estero quasi sempre viene esaminato in maniera direi superficiale e sbrigativa, e credo che questo sia ingiusto, e non per difendere tout court la questione degli italiani all'estero, ma perché non reputo sia buona prassi, in un momento così importante per il Paese, affrontarlo in detta maniera. Abbiamo avuto posizioni chiare ma fondate in modo inequivocabile su questioni di merito molto solide. Purtroppo ancora oggi vediamo che le procedure a complemento del voto degli italiani all'estero non funzionano bene nel nostro Paese. Faccio degli esempi. Nelle ultime elezioni europee sono stati presentati vari ricorsi perché molti cittadini residenti all'estero hanno ricevuto la documentazione per poter esercitare il proprio diritto di voto fuori tempo massimo o, addirittura, ad elezioni avvenute. Credo che questo sia sconcertante e sicuramente non da Paese serio. Sarebbe opportuno, se si vuole veramente mantenere il voto all'estero o comunque dimostrare di intraprendere un dibattito in maniera seria, prendere esempio da altri Paesi che tanto hanno fatto per mettere i propri cittadini che stanno all'estero nella condizione di poter votare liberamente. Sono quei Paesi che hanno adottato sistemi informatici e quant'altro nelle ambasciate piuttosto che nei consolati garantendo l'effettiva validità e certezza del voto. Basti pensare ai nostri studenti che risiedono all'estero, che non possono tornare a votare, e alla difficoltà che hanno avuto nell'esprimere il voto; qualcuno addirittura non è riuscito a farlo. In più abbiamo un problema davvero grande: all'interno dei Comuni del nostro Paese ci sono i registri dell'AIRE, che dovrebbero essere la piattaforma sulla quale poter determinare quali sono gli italiani residenti all'estero, i quali sono incompleti, perché vengono lasciati in maniera discrezionale al funzionario del Comune che determina se il cittadino è residente nel Comune o all'estero (anche se qualcuno dice che non è così). Mi spiego meglio. Noi abbiamo delle Province di confine in cui dei cittadini si recano quotidianamente a lavorare a pochi chilometri da casa propria e, per ragioni non riferibili al nostro Paese ma ad altri Paesi, hanno forzatamente la residenza in un Paese diverso. Si tratta, ad esempio, di cittadini delle Province di Como, Varese o Sondrio, che sono obbligati ad avere il domicilio nella Confederazione elvetica, perché questo è previsto dalle leggi della Confederazione. Qui nasce il problema; questi cittadini non si vogliono iscrivere all'AIRE, perché chiaramente tutte le sere, in modo particolare adesso, avendo anche la Svizzera aderito al Trattato di Schengen, possono liberamente tornare a casa tutte le sere e non vogliono iscriversi all'AIRE e risiedere fuori Paese. Cosa succede allora? Ci sono stati un sacco di casini - scusi la parola, signor Presidente - e addirittura è dovuto arrivare il TAR del Piemonte a certificare che il cittadino italiano ha diritto ad avere la propria residenza dove ha i propri affetti. Qui disastri sopra disastri; oggi non sappiamo i cittadini che sono iscritti da una parte e quelli iscritti dall'altra. Va allora benissimo affrontare questo tema importante del voto dei cittadini all'estero, ma il substrato del Paese che crea le fondamenta per poter applicare questa prerogativa e questa necessità che dobbiamo affrontare non è solido. Per cui, ben più serio e meno sbrigativo di togliere o ampliare la circoscrizione Estero (o, come prevede l'emendamento successivo, mettere in Costituzione la possibilità di voto per corrispondenza), sarebbe, da parte di un Paese, fare uno screening e capire che percorso si vuol avere e se ci sono veramente gli strumenti e le condizioni per consentire ai nostri cittadini di esercitare il proprio diritto di voto. Per cui, su tale questione vogliamo essere, come sempre, signor Presidente, estremamente seri. Non ci assumiamo la responsabilità di cancellare con un colpo di spugna una norma che non ha senso eliminare in questo modo e le cui implicazioni devono essere affrontate con molta più serietà e meno pressappochismo. Noi ci esprimeremo pertanto con un voto di astensione, non perché non abbiamo le idee chiare ma forse perché, in questo momento, siamo quelli che, all'interno dell'emiciclo, stanno dimostrando di avere, perlomeno, la consapevolezza di quello che stanno facendo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">D'ALI' (NCD)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u32">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg71">È chiaro che non ritengo opportuno eliminare il terzo comma dell'articolo 48 della Costituzione, in quanto esso afferma un diritto che noi abbiamo votato nelle scorse legislature con molta convinzione, cioè quello della rappresentanza, in questo Parlamento, degli italiani all'estero. Sappiamo che la norma certamente non è stata poi attuata nel migliore dei modi, perché chi ha vissuto, anche direttamente, quelle elezioni sa delle complicazioni e, quindi, sa bene che occorrerebbe poi una modifica della norma elettorale e delle modalità applicative dal punto di vista elettorale. Però, per amore di chiarezza, vorrei anche precisare al senatore Giarrusso che questa proposizione varrà a riforma approvata solamente per la Camera dei deputati, perché l'impalcatura di questa riforma esclude la possibilità di un ritorno di senatori eletti nella circoscrizione Estero in Senato. Quindi, senatore Giarrusso, qualora dovesse passare questa riforma come nel testo proposto dalla Commissione, lei non vedrà più senatori della circoscrizione Estero in questo Senato; allo stesso modo, l'abolizione della circoscrizione Estero è consequenziale all'abolizione di tutte le circoscrizioni italiane. Quindi, non vedrà più né senatori esteri, né senatori italiani direttamente eletti dal popolo. È quindi chiaro che ritengo opportuno non approvare questo emendamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Torrisi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BONFRISCO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#BonfriscoAnnaCinzia" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u33">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg72">Signor Presidente, con il massimo rispetto dei colleghi che siedono in quest'Aula in rappresentanza degli italiani all'estero vorrei dire che oggi, secondo il nostro punto di vista, questa scelta operata alcuni anni fa necessita - ovviamente non senza suscitare la contrarietà di molti - di un'ulteriore riflessione che ci porti a comprendere, collega Micheloni, quanto lei ha detto con la grandissima onestà intellettuale che sempre la contraddistingue nei suoi interventi, così come gli altri senatori che provengono dalla circoscrizione Estero. Lei sa quanto non ha funzionato in questa legge. L'emendamento tenta di aprire un varco alla riflessione che noi dobbiamo ai nostri concittadini italiani e anche a quegli italiani residenti all'estero che spesso, in virtù di una lunga storia personale o familiare, pur - come ha ricordato il collega Uras - distintisi in quei Paesi nel rappresentare degnissimamente la nostra Nazione, non per questo sono oggi parte integrante di questo Paese e di questa comunità. Non voglio rimettere in discussione taluni principi importanti da una parte come dall'altra; sono più affezionata al principio che guarda al cittadino che vive sul suolo di un Paese e che inquadriamo in quel principio ancora più ampio della taxation legata alla representation. Ritengo pertanto che in quel contesto noi oggi si debba e si possa riaprire una riflessione su quanto sia servito a quegli italiani e a questo Paese intraprendere il percorso che all'epoca, in quegli anni, ci portò a istituire questa rappresentanza. Non ne voglio fare, collega Micheloni, nemmeno una questione di costi, perché il collega D'Alì ha già specificato che stiamo parlando non di questa Camera ma dell'altra. Non voglio neanche sottolineare che all'inizio quella legge non riuscì a contemplare le tante cose di cui doveva farsi carico. Fu uno spot, che, tra alcune cose buone, produsse tante distorsioni (che poi sono anche esaminate e riproposte all'attenzione dell'Aula dagli emendamenti successivi), alcune delle quali legate, per esempio, all'assoluta mancanza di verifica e di controllo sulla regolarità di quel voto. Tuttavia io non lego il sostegno a questo emendamento solo ad un costo sbagliato o a un costo giusto, ma ad un principio, quello cioè che noi dobbiamo poter vivere e sapere vivere nella modernità. Pertanto, forse è meglio andare a recuperare il legame vero con quei cittadini, che non è fatto solo di rappresentanza ma di una storia che continua tra il Paese d'origine, il nuovo Paese e quello scambio culturale e politico. Tuttavia, sulla cittadinanza apriamo un confronto che ci porta lontanissimo. Io sono per riuscire a contemplare tutte le esigenze che possiamo e che vogliamo giustamente riconoscere a quella nostra gente che vive altrove, a ricordare la storia che li ha portati lì quando gli albanesi eravamo noi e quando i migranti partivano da ogni Regione di questo nostro povero Paese e hanno potuto e saputo trovare in quei Paesi opportunità e accoglienza, che spero siano meno tristi di quanto tanti dei loro ricordi a volte, affiorando, ci fanno registrare. Spero altresì che oggi noi si sappia, in un'epoca moderna, riconoscere quei diritti e i diritti di oggi degli italiani e di chiunque vive la condizione di migrante attraversando il mondo in cerca di opportunità. Pertanto, con molto rispetto, sostengo l'apertura di una vera riflessione in quest'Aula, soprattutto con quei colleghi, come lei, collega Micheloni, che in quest'Aula ci sono venuti sempre nel pieno rispetto dei principi costituzionali italiani e di quella storia di cui lei, come altri colleghi, siete portatori. Tuttavia, oggi secondo me c'è la necessità di una riflessione per capire se siamo davvero sulla strada giusta e se è davvero così che dobbiamo garantire il riconoscimento a quella storia, a quel lavoro, all'eroismo dei tanti nostri connazionali e delle nostre connazionali, che lontano dal loro Paese, hanno saputo affrancarsi dal bisogno e dalla povertà e ci hanno dato una grande lezione. Ecco perché, con grande rispetto dell'Assemblea e dei colleghi eletti all'estero, mi permetto di sostenere e di offrire alla vostra attenzione questo tipo di emendamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Minzolini e Razzi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BRUNO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#BrunoDonato" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u34">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg73">Signor Presidente, ricordo quando abbiamo approvato questa legge le battaglie che fece il collega Tremaglia, cui - credo - va il ricordo da parte di tutta l'Assemblea; una battaglia che tutti quanti abbiamo sostenuto e voluto. La collega forse voleva dire - e credo che il secondo emendamento che affronteremo forse qualcosa in più dice - che il voto degli italiani all'estero non si è mai svolto in maniera regolare. Noi abbiamo avuto anche grandi scandali; quantomeno la stampa si è occupata di fatti gravissimi: non si capiva chi votava, per come votava; ma questa è materia di legge ordinaria, non di legge costituzionale. Qui si sta discutendo se ancora deve persistere o meno la possibilità della circoscrizione Estero, e quindi la rappresentanza estera nel nostro Parlamento. Ha detto bene il collega Micheloni: è una questione culturale prima che politica. Credo che noi dobbiamo continuare a sostenere questo tracciato della nostra Costituzione e guai se ce ne privassimo.</seg>
+            </u>
+            <note type="speaker">MARTON (M5S)</note>
+            <u ana="#regular" who="#MartonBruno" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u35">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg74">PRESIDENTE. Senatore Marton, lo sapete che le dichiarazioni in dissenso saranno segnate e controllate? MARTON (M5S). Assolutamente, Presidente. PRESIDENTE. Ho già richiamato qualcuno al rispetto del Regolamento, quindi, mi pare giusto preventivamente farvelo sapere. Ne prendo atto e le do la parola. MARTON (M5S). Signor Presidente, poiché sono state addotte più motivazioni, dal senatore Giarrusso, dai colleghi Crimi e Micheloni, data l'estrema importanza dell'argomento, che mi vede in totale disaccordo sul togliere addirittura il diritto di voto per la circoscrizione Estero, ritengo non sia giusto partecipare a questa votazione. Pertanto, mi asterrò proprio perché non ho contezza di quale sia la posizione più corretta, se quella del senatore Micheloni, del senatore Giarrusso o del mio Gruppo in generale.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u36">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg75">Signor Presidente, vorrei intervenire sull'ordine dei lavori, se lei mi consente, ma questa è una domanda che le rivolgo. Noto che quando interviene qualcuno in dissenso lei dà un minuto di tempo. Mi permetto di farle presente - può darsi che ignoro il Regolamento, che conosco poco - che l'articolo 109, comma 2, del Regolamento prevede espressamente che, salvo i casi di limitazione della discussione, il tempo per chi interviene in dissenso è assolutamente analogo al tempo a disposizione di chi fa la dichiarazione di voto. PRESIDENTE. Certamente. PALMA (FI-PdL XVII). Anzi, se vi è un intervento presidenziale è ad ampliandum, potendo il Presidente portare il tempo di intervento da dieci a quindici minuti. Presidente, comprendo bene quello che sto dicendo, a me non importa, ma voglio dire che dal mio personale punto di vista non possiamo consentire, sia pure per esigenze contingenti, un'interpretazione del Regolamento che sia in così aperto contrasto con la lettera stessa del Regolamento, a meno che non vi sia nel Regolamento qualche altra norma che ciò lo consenta. Né può essere la norma del Regolamento che consente delle discussioni per gruppi di emendamenti, perché quello appartiene ad un problema completamente diverso. Quindi, signor Presidente, vorrei capire in virtù di quale disposizione, prassi o precedente ella può restringere il tempo di intervento dai dieci minuti previsti dal Regolamento all'uno o ai due minuti che ella graziosamente intende concedere.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Mandelli</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg76">PRESIDENTE. Esiste un potere di armonizzazione da parte del Presidente, così come di flessibilità e ragionevolezza nell'utilizzo degli strumenti che la democrazia offre.</seg>
+            </u>
+            <note type="speaker">AIROLA (M5S)</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u37">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg77">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg78">Signor Presidente, sono figlio di emigranti e ritengo che chiunque in quest'Aula e fuori dalla Nazione abbia qualcuno che è emigrato. L'Italia è un Paese fatto di emigranti. Il loro apporto alla vita politica del nostro Paese, anche dall'estero, è importantissimo. Penso soprattutto che l'amore verso la Patria a volte sia molto più intenso in costoro che in tanti italiani che vi vivono.</seg>
+            </u>
+            <note type="speaker">CAMPANELLA (Misto-ILC)</note>
+            <u ana="#regular" who="#CampanellaFrancesco" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u38">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg79">Signor Presidente, intervengo per chiedere l'accantonamento dell'emendamento 01.11 e la sua trattazione in seguito. Condivido con il senatore Marton la perplessità nel trattare un tema così importante per moltissimi nostri connazionali quando, probabilmente, non abbiamo dedicato al suo approfondimento il tempo necessario, negando con ciò un ragionamento ampio e comprensivo di temi affatto diversi che ci impediscono un'analisi approfondita. Ricordo che, quando questa norma nacque, nel Paese e presso le comunità italiane all'estero si diffuse un dibattito approfondito. Una decisione sull'annullamento di questo diritto, presa in questo momento, senza il necessario approfondimento e trattandosi di temi tanto diversi, mi pare non aiuti. Corriamo il rischio di modificare la norma o addirittura annullarla in un attimo, senza un'analisi sufficiente a consentirci di migliorare la norma nel complesso e sottraendo invece ai nostri connazionali all'estero qualcosa che non solo li tiene legati da un punto di vista affettivo e sentimentale, ma consente loro di continuare ad incidere sulla vita del proprio Paese nel quale contano di poter tornare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Battista.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">COMPAGNONE (GAL)</note>
+            <u ana="#regular" who="#CompagnoneGiuseppe" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u39">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg80">Signor Presidente, mi fa piacere che alla fine con questo emendamento abbiamo sortito l'effetto che volevamo. Lo voglio dire soprattutto al collega Micheloni, che stimo tantissimo. Lo dico non solo da firmatario dell'emendamento, ma anche da siciliano, da persona che ha avuto tanti parenti emigrati, che conosce perfettamente la storia dell'emigrazione italiana e quale beneficio essa abbia rappresentato per le nostre comunità. Siamo testimoni di quegli anni '60, quando i nostri parenti ed amici emigravano: andavano a lavorare all'estero per poi portare il frutto del loro lavoro nella nostra terra, con il quale venivano costruite le loro case, creavano aziende, portavano cioè economia e sviluppo. Quindi, di questo noi siamo perfettamente coscienti. Vorrei però farvi la seguente domanda (ed ecco perché abbiamo posto il problema, e lo si legge nel successivo emendamento all'articolo 1, con il quale si propone di modificare l'articolo 48 della Costituzione): quanto ottenuto corrisponde veramente a quello che si voleva fare consentendo l'espressione del voto nella disponibilità dei nostri emigrati? Questa riforma è stata realizzata? I nostri emigrati all'estero si sentono veramente ancora italiani? Riescono a rendersi partecipi della nostra vita politica? Conosciamo infatti alcuni meccanismi distorsivi con cui per esempio è accaduto molte volte che una persona ha votato per tanti. Per non parlare di tutta quella serie di scandali che sono avvenuti realmente e che corrispondono a una disaffezione, a un meccanismo assolutamente non funzionale che non è frutto della partecipazione dei nostri connazionali all'estero. Questa è la verità: questa era dunque l'occasione per approfondire il problema, per non limitarci alla semplice riedizione di dare la possibilità ai nostri connazionali di votare. Non è solo questo il problema ma anche: come votano? Si tratta di un voto veramente partecipato? Vi sono meccanismi perché esso sia tale e quei cittadini si sentano ancora italiani? Questo è il problema che abbiamo posto e che, come abbiamo visto, ha giustamente suscitato tante reazioni in Aula, ma è l'occasione per approfondirlo. E non è vero che nella volontà e nella premura di voler approvare il disegno di legge costituzionale non possiamo trovare il tempo invece per ragionare su quest'argomento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo GAL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MAURO Mario (PI)</note>
+            <u ana="#regular" who="#MauroMario" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u40">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg81">Signor Presidente, intervengo in dichiarazione di voto per esprimere la più viva contrarietà alla volontà di rimuovere la circoscrizione Estero, anche in ragione del fatto più semplice: il nuovo Senato si presenta come un'istituzione che dà spazio ai territori, alle loro esigenze e alle loro istanze. Come altro dovremmo considerare, in questo senso, le nostre comunità all'estero, la loro sensibilità e i loro bisogni, nonché la loro necessità e la loro volontà di superare, insieme con l'intera Nazione, le circostanze più difficili che ci affliggono? Proprio per questo, esprimerò voto contrario sull'emendamento 01.11.</seg>
+            </u>
+            <note type="speaker">CAPPELLETTI (M5S)</note>
+            <u ana="#regular" who="#CappellettiEnrico" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u41">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg82">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg83">Signor Presidente, anch'io vorrei esprimere una breve dichiarazione di voto in dissenso rispetto a quanto già espresso dal collega Crimi. Devo dire, per completezza, che concordo con quanto dichiarato anche dal senatore Micheloni, il quale, sostenendo che la circoscrizione Estero sia stata un fallimento, da questo punto di vista mi trova d'accordo. Tuttavia anch'io, come il collega Giarrusso, provengo da una Regione, il Veneto, che è stata di grande emigrazione nel passato, ma che lo è anche nel presente, a causa delle politiche fallimentari che sta portando avanti la maggioranza di questo Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg84">Per questo motivo, per la solidarietà verso gli emigranti del passato e verso quelli che, purtroppo, lo sono nel presente, mi asterrò in questa votazione.</seg>
+            </u>
+            <note type="speaker">CASSON (PD)</note>
+            <u ana="#regular" who="#CassonFelice" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u42">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg85">Signor Presidente, intervengo sull'ordine dei lavori e per un richiamo al Regolamento, sulla scia per altro di quanto detto poco fa dal presidente Palma. Dal momento che siamo all'inizio di una lunga serie di votazioni, non ho trovato all'interno del Regolamento del Senato una limitazione per quanto riguarda le dichiarazioni di voto, in particolare in dissenso dal Gruppo. Tra l'altro, pur prendendo atto della divergenza della valutazione della Presidenza del Senato in riferimento ai precedenti, per quanto concerne alcuni voti segreti, ritengo di dovermi richiamare direttamente alla Costituzione, per la precisione all'articolo 72, comma quattro, che è già stato ricordato dal presidente Calderoli nella seduta di ieri, che fa letteralmente riferimento al fatto che: «La procedura normale di esame e di approvazione diretta da parte della Camera è sempre adottata per i disegni di legge in materia costituzionale (...)». Questo significa che non è neanche possibile, come qualcuno paventava fuori da quest'Aula, il contingentamento dei tempi, perché vale la procedura normale, e quindi bisogna consentire ai voti in dissenso lo spazio indicato dall'articolo 109 del Regolamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Astorre.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u43">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg86">Ribadisco che, non essendo stata organizzata la discussione sul disegno di legge, ho la facoltà di armonizzare i tempi. Ci sono numerosi precedenti in merito e la prassi non è innovativa, per cui potrei assegnare un tempo complessivo per il voto in dissenso e sulla base di questo poi procedere. Ho ritenuto di dare la possibilità di sintetizzare il dissenso in maniera che sia chiaro; se poi vi sono particolari esigenze non mancherà, nella capacità armonizzativa, la possibilità di concedere più di quello quando è necessario.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg87">Sotto questo profilo, insisto sulla capacità di armonizzazione che spetta al Presidente quando non c'è una organizzazione della discussione, tra virgolette contingentamento dei tempi.</seg>
+            </u>
+            <note type="speaker">PUGLIA (M5S)</note>
+            <u ana="#regular" who="#PugliaSergio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u44">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg88">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg89">Signor Presidente, in verità, non sono assolutamente d'accordo con l'emendamento 01.11, quindi voterò in dissenso rispetto al mio Gruppo. Con questa proposta si toglie infatti la possibilità del diritto di voto ai cittadini residenti all'estero. Ebbene, sono napoletano e si sa che ci sono più napoletani all'estero che nella mia città, perché sono dovuti emigrare. La riforma già sta togliendo la possibilità del voto, e quindi la possibilità di scegliere i propri rappresentanti, ai cittadini, poi togliamo anche la possibilità a chi sta all'estero di votare. Credo che questo emendamento vada assolutamente non votato, anzi invito l'intera Assemblea a votare contro di esso. Sinceramente, neanche sono d'accordo con il collega Campanella, di accantonarlo. Assolutamente no: questo è un emendamento che va votato convintamente, nella maniera più assoluta, esprimendo un voto contrario.</seg>
+            </u>
+            <note type="speaker">BOTTICI (M5S)</note>
+            <u ana="#regular" who="#BotticiLaura" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u45">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg90">Signor Presidente, mi associo alle parole del collega Casson e del collega Palma, in quanto ribadisco che, secondo l'articolo 109 del Regolamento vi è lo stesso trattamento tra le dichiarazioni di voto e quelle in dissenso. Mi associo inoltre alle parole dei miei colleghi che votano in dissenso rispetto al Gruppo del Movimento 5 Stelle, in quanto credo che con questo emendamento mentre costringiamo ogni giorno i nostri giovani ad espatriare, impediamo anche loro di partecipare alla vita politica italiana, e questa è veramente una scorrettezza delle più grandi!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FERRARA Mario (GAL)</note>
+            <u ana="#regular" who="#FerraraMario" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u46">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg91">Signor Presidente, ho chiesto la parola per entrare nel merito del richiamo al Regolamento del senatore Casson e alla risposta da lei data. Signor Presidente, lei ha comunicato all'Assemblea il suo intendimento di voler armonizzare i tempi degli interventi in dissenso in modo che, essendo qualificati in dissenso, abbiano un spazio temporale più contenuto rispetto a quello dato al Gruppo. Tuttavia, vorrei farle osservare, signor Presidente, che in questa occasione il concetto di Gruppo, e quindi di dissenso dal Gruppo, non esiste. Il concetto di dichiarazione di voto a nome del Gruppo esiste quando c'è una limitazione dei tempi di intervento, per cui ci sono tempi indirizzati alle dichiarazioni di voto e quindi quella in dissenso è in dissenso. Quando invece non c'è contingentamento, e quindi non c'è un tempo riservato alla dichiarazione del voto del Gruppo, non esiste la dichiarazione in dissenso. PRESIDENTE. La ringrazio per l'osservazione. FERRARA Mario (GAL). Signor Presidente, non credo siano state mosse osservazioni a quello che ha detto lei, ma vorrei che sia un intendimento di organizzazione per rendere più efficienti i lavori e che non costituisca precedente. Era questa la parte importante che volevo sottolineare: che non costituisca precedente. PRESIDENTE. Quindi, secondo lei basta dichiarare il dissenso per non essere più appartenente ad un Gruppo? Questo è quello che viene dalla sua filosofia del diritto parlamentare? FERRARA Mario (GAL). Lei riapre, Presidente. Io avevo concluso: a me bastava che fosse registrato il fatto che non costituiva precedente. Per quello che ha detto, mi costringe a ripetere... PRESIDENTE. Ci sono tanti precedenti. FERRARA Mario (GAL). O parla lei o parlo io!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg92">PRESIDENTE. Parlo io.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg93">Senatore Ferrara, spero che non vogliamo scendere...</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg94">L'articolo 109 del Regolamento prevede che quando i tempi non sono contingentati ognuno possa intervenire in dissenso. Va bene che lei voglia armonizzare i tempi, ma che ciò non costituisca precedente, perché il concetto di dissenso al quale si richiamava lei non esiste in questo momento. Il suo concetto di dissenso si riferiva al dissenso dal Gruppo quando è previsto il contingentamento dei tempi. Quando il contingentamento non c'è quel concetto non esiste e, quindi, non esiste la limitazione agli interventi, interventi che ogni senatore può fare, sempre per dieci minuti, ancorché la Presidenza non consenta che siano svolti per quindici minuti.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u47">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà, ma mi pare sia già intervenuto. Sempre sul dissenso? CRIMI (M5S). Signor Presidente, intervengo seriamente. È un intervento serio.</note>
+               <kinesic type="applause">
+                  <desc>Applausi ironici dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg95">PRESIDENTE. Grazie per la qualificazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg96">Volevo semplicemente affermare che non è un intervento a scopo ostruzionistico quello che sto facendo adesso</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg97">Possiamo definire tutti quelli che volete come interventi ostruzionistici.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg98">Alla luce del dibattito che si è svolto e a dimostrazione che il dibattito è serio e che porta a dei risultati quando è fatto seriamente, il Gruppo Movimento 5 Stelle voterà contro questo emendamento in funzione anche del dissenso che è stato manifestato adesso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Zin.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u48">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg99">La ringrazio per la precisazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg100">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 01.11, presentato dal senatore Compagnone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">FALANGA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u49">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg101">Signor Presidente, ma la votazione è aperta già nella fase di verifica dell'appoggio o lo è quando si dichiara aperta? Poc'anzi eravamo nella fase di verifica dell'appoggio e lei ha dato la parola a tutti. A me l'ha negata dicendo che già era stata aperta la votazione, mentre non era così. Sull'ordine dei lavori vorrei ricordare a lei, signor Presidente, che credo sia un giurista più raffinato di me, ma anche a me stesso che, ai sensi dell'articolo 12 delle preleggi, la prima interpretazione della norma è quella letterale. Se la prima interpretazione della norma è quella letterale, mi pare che dalla lettura dell'articolo 109 del Regolamento a lei sia consentita, sì, la facoltà, «apprezzate le circostanze», di concedere quindici minuti a chi dichiara il voto del Gruppo. Poi, però, signor Presidente (e qui mi riferisco all'interpretazione letterale della norma) c'è il seguente punto: «uguale facoltà è riconosciuta ai senatori». Se nella norma viene affermata una facoltà dei senatori, non credo vi possa essere autorità alcuna né interpretazione alcuna che possa limitare o comunque annullare questa stessa facoltà. Aggiungo tale considerazione a quanto già evidenziato poc'anzi dai colleghi che mi hanno preceduto sul tema, a proposito delle sue determinazione nel limitare i tempi da concedere per gli interventi svolti da chi vota in dissenso rispetto al Gruppo. Signor Presidente, la pregherei di svolgere una riflessione sul tema, al di là della prassi. Peraltro, Presidente, si cambiano gli orientamenti giurisprudenziali e, quindi, non capisco perché non si dovrebbe modificare una prassi se è sbagliata. Quando la Presidenza di quest'Aula è affidata ad un raffinato giurista come lei, credo che possa essere fatta un'eventuale riflessione su una prassi sbagliata, se c'è stata: lei ha l'autorevolezza e gli strumenti scientifici per modificarla e porre l'andamento dei lavori nella giusta direzione, nella più corretta interpretazione delle norme giuridiche, della Costituzione e del nostro Regolamento.</seg>
+            </u>
+            <note type="speaker">CASTALDI (M5S)</note>
+            <u ana="#regular" who="#CastaldiGianluca" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u50">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg102">Signor Presidente, non voglio fare un intervento ostruzionistico, ma voglio soltanto dichiarare la mia astensione al primo voto su questa materia. PRESIDENTE. Ne prendiamo atto. CASTALDI (M5S). Tengo molto a questo, perché non mi sento un Padre costituente. PRESIDENTE. L'articolo successivo riguarda lo stesso tema. CASTALDI (M5S). Al secondo voto mi assumerò le responsabilità che 9 milioni di italiani ci hanno dato un anno e mezzo fa. PRESIDENTE. Passiamo alla votazione dell'emendamento 01.12.</seg>
+            </u>
+            <note type="speaker">MORRA (M5S)</note>
+            <u ana="#regular" who="#MorraNicola" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u51">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg103">A nome del Gruppo M5S, dichiaro il voto favorevole sull'emendamento in esame, soprattutto perché nella sua parte conclusiva viene espresso un auspicio - almeno noi lo interpretiamo in questo modo - che dovrebbe essere per tutti importante e su cui fare crescere la comunità di tutti gli italiani, sia quelli fisicamente residenti in Italia sia quelli che vivono, per tanti, troppi motivi, al di fuori dei confini nazionali. In particolare, la parte a cui mi riferisco è la seguente: «anche attraverso il voto per corrispondenza». Noi abbiamo deciso di dare il nostro convinto sostegno a questa proposta emendativa perché troppe volte abbiamo notato un freno allorquando si è chiesto - e tale richiesta è stata più volte avanzata anche in Commissione - di accogliere le nostre istanze in termini di corrispondenza digitale, e quindi di mail e di PEC.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg104">(ore 17,38) ( Segue MORRA). Nell'epoca in cui la stessa ontologia apre le porte alla dimensione dell'elettronica, ci sembra quanto meno opportuno, adeguato e politicamente corretto riconoscere che centinaia di migliaia e forse milioni di italiani sono impediti nell'esercizio del voto da vetuste procedure e da meccanismi che hanno generato - come ha ricordato prima di me il senatore Crosio - polemiche annose e sterili. Tali polemiche hanno di fatto mortificato l'intento del senatore Tremaglia, all'epoca Ministro degli italiani all'estero, che aveva suscitato aspettative, grazie all'intuizione di dare voce alle tante persone che noi abbiamo condannato all'emigrazione. Questa apertura verso una frontiera nuova poteva rappresentare un ponte per unire e non più un ponte attraverso il quale far allontanare senza più poter comunicare. Che il voto debba anche essere effettivo e personale ci sembrava scontato, ma anche questo ci sembra ottimale. In un'epoca in cui, in tanti campi del sapere, della società, del vivere e anche del produrre, la dimensione dell'elettronica, della cibernetica e dell'informatica offrono sempre più contributi importanti ad un dibattito che si fa anche politico - penso, per esempio, alle riflessioni di Esposito e di altri sulla biopolitica in relazione agli sviluppi della cibernetica - l'emendamento ci sembra certamente meritevole di attenzione. Questo vale per l'emendamento in esame e per altri di cui non vi sto a dire, anche per la scarsa attenzione che susciterebbero e per tanti motivi che non ricordo. Questa è l'indicazione del Gruppo che voterà in maniera convinta a favore dell'emendamento. Il nostro voto è pertanto palesato.</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente GASPARRI</note>
+            <note type="time">17,38</note>
+            <note type="speaker">MICHELONI (PD)</note>
+            <u ana="#regular" who="#MicheloniClaudio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u52">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg105">Signor Presidente, vorrei dire ai firmatari di questo emendamento che mi sembra abbastanza pericoloso, anche se ad una prima lettura può apparire come qualcosa che garantisca il mantenimento del voto all'estero. Qui si sta tentando di inserire un elemento di legge ordinaria in materia elettorale nella Costituzione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Candiani</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg106">Questo apre la porta a qualsiasi tipo di giochi e pericoli sulla Costituzione. Questo è oggetto della legge ordinaria.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg107">Ho sentito prima delle cose molto interessanti: è vero che ci sono stati problemi (e Dio solo sa se noi li conosciamo), ma cara collega Bonfrisco, Di Gregorio e Di Girolamo non hanno nulla a che vedere e non hanno mai avuto nulla a che vedere con gli italiani all'estero.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Sposetti, Mussini e Zin</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg108">I problemi che hanno inquinato il collegio estero hanno origine nella nostra madre Patria. Quelli lo hanno inquinato sul piano penale; l'inquinamento sul piano politico è stato fatto da organizzazioni dell'Italia, della madre Patria che ha interessi nel collegio estero. Non è responsabilità delle comunità italiane all'estero. Allora, sulla gestione della circoscrizione Estero ci dobbiamo guardare dentro qui, a Roma.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg109">Il problema della riforma della legge elettorale non è nato da adesso: già nella precedente legislatura la presidente Finocchiaro aveva depositato un disegno di legge di riforma; adesso è stato ripresentato. È un problema tecnico che va risolto, e giustamente ci sono le nuove modalità di voto che vanno al di là del voto per corrispondenza e dei sistemi inseriti nell'emendamento, che - ripeto - ritengo pericoloso. Chiedo che anche questo emendamento sia largamente respinto come gli emendamenti 01.13, 01.14 e 01.15. Guardiamoci dentro qui, prima di guardare le comunità all'estero, e guardiamo le comunità all'estero per quello che danno e hanno dato a questo Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-ILC.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MINZOLINI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MinzoliniAugusto" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u53">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg110">Signor Presidente, ho presentato sia l'emendamento bocciato prima che l'emendamento che stiamo esaminando ora ma capisco che probabilmente questo è un argomento estremamente sensibile, ma il problema, in ogni caso, esiste e indipendentemente dai nomi, va affrontato, altrimenti rischiamo di lasciarlo in un limbo che potrebbe diventare pericoloso, anche perché ci sono stati Governi che si sono tenuti in piedi per parlamentari eletti all'estero. Ecco perché da questo punto di vista, secondo me, vale la pena di richiamare l'attenzione e dare delle indicazioni che non puntano a eliminare la rappresentanza all'estero, ma cercano di dare una maggior regolarità. Non è immaginabile infatti che si facciano le elezioni e il giorno dopo, nelle ripartizioni estere, si trovino pacchi di voti o di schede bianche che girano per Sidney o per qualche altro luogo. Da questo punto di vista credo che dare un'indicazione forte, in un momento del genere, visto che stiamo riscrivendo la Costituzione e abbiamo una memoria abbastanza recente di questi fatti, sia un segnale importante. Lo dico anche perché - e vedo il tipo di dibattito che stiamo facendo - dovremmo invece iniziare a ragionare sul fatto che siamo dei costituenti: non so se ce ne rendiamo conto. A proposito della discussione che abbiamo avuto all'inizio della seduta, sono rimasto un po' perplesso e debbo fare un attestato di stima al coraggio del presidente Grasso, che in una situazione di questo tipo ha accettato l'idea di uno scrutinio segreto: poi vedremo come sarà regolato. Già quello è, a mio avviso, un atto di coraggio, rispetto ai discorsi fatti dal collega Zanda e da altri senatori. Sono stati fatti dei riferimenti al Regolamento della Camera dei deputati e del Senato, ma forse dovremmo tornare con la mente a quello che è stato fatto tanti anni fa. Forse nessuno si è andato a rivedere gli atti dell'Assemblea costituente, ma all'epoca il numero delle votazioni a scrutinio segreto fu addirittura superiore a quello delle votazioni per appello nominale. Ci furono 43 voti a scrutinio segreto contro 23 voti per appello nominale. Questo significa che in una condizione di questo tipo, in cui stiamo parlando delle regole, quel vincolo che è politicamente necessario, su determinati temi, che in ogni caso sono di coscienza, venne allora gestito in maniera diversa. La cosa che colpisce è che all'epoca, chi aprì la strada allo scrutinio segreto fu il Presidente dell'Assemblea costituente, Umberto Terracini, che apparteneva allo schieramento dove siedono i colleghi di fronte a me, e l'uomo che aprì la strada al primo voto segreto, che fu fatto su un argomento di coscienza come l'indissolubilità del matrimonio, fu addirittura Palmiro Togliatti. Mi pongo dunque il problema e comincio a pensare che probabilmente la sensibilità democratica di Togliatti fosse superiore a quella del senatore Zanda. Adesso cominciamo con la fase cruciale delle votazioni di questa fase costituente: mentre l'Assemblea di allora fu caratterizzata da una sorta di costituente del coraggio, visto che si ebbe il coraggio di lasciare spazio alle opinioni di tutti - essa si tenne infatti subito dopo la guerra e si dovevano ricreare le condizioni, essendo quasi usciti da una guerra civile - non vorrei che quella odierna si trasformi in una sorta di costituente della paura. Ciò non certo perché ci siano svolte autoritarie, ma perché come al solito aleggia non una questione di patti, ma una questione di disciplina di partito, di cui, su certi temi, farei a meno. Dico questo perché si è creato un meccanismo psicologico, di cui non ci rendiamo conto. Probabilmente non ce ne rendiamo conto, anche in relazione alla nostra funzione di costituenti: è inaccettabile - lo ripeto: inaccettabile - dover leggere ogni giorno delle dichiarazioni, di retroscena o meno, da parte del Presidente del Consiglio, che discutendo della riforma avanza soltanto questo tipo di argomento: «quelli che non sono d'accordo con me, vogliono mantenere la poltrona o addirittura l'indennità parlamentare».</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e dei senatori Battista e D'Anna</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg111">È inaccettabile, anche di fronte al fatto che molti di noi hanno sottoscritto anche emendamenti che chiedono l'abolizione del Senato: lo dico più che altro per i giornalisti e per i media. Non stiamo difendendo la poltrona, ma stiamo dicendo che o si fa una riforma seria o addirittura è meglio abolire il Senato: quindi, della nostra poltrona non ci frega niente! La cosa mi dà fastidio: non voglio tornare ad una polemica con lui, ma nessuno può dire una cosa del genere, specialmente se per tutta la vita ha mangiato di politica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg112">Chiaro? Questo è insopportabile! Dunque, se dobbiamo fare un confronto o un dialogo, facciamolo, ma credo che la dignità di tutti noi vada difesa, da parte tutti noi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppi M5S, Misto-ILC e del senatore D'Anna.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GIOVANARDI (NCD)</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u54">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg113">Signor Presidente, intervengo per motivare il voto a favore dell'emendamento 01.12. Ho apprezzato a suo tempo la generosa ed appassionata opera dell'onorevole Tremaglia, che con passione aveva disegnato scenari che però, alla realtà dei fatti, si sono miserevolmente frantumati. Vorrei solo sottolineare tre profili. Innanzitutto, discutiamo della preferenza e dei pericoli della stessa nell'elezione di deputati e di senatori e poi facciamo circoscrizioni in cui i candidati devono andare a prendere le preferenze dall'Argentina, dalla Terra del fuoco, a tutti i Paesi sudamericani, fino al Centro America. Si tratta di distanze sterminate per cui, o parliamo di ultramiliardari, o non si capisce bene come facciano questi soggetti a fare una campagna elettorale che avrebbe come circoscrizione - ed è così - l'intera Europa, ad esempio, o l'intera Australia o l'Africa. L'idea di collegi esteri in cui qualcuno dovrebbe andare a rappresentare italiani che vivono in una parte del mondo che va dal Messico all'Argentina, o in Asia o in Africa, è una finzione giuridica. E la finzione giuridica com'è finita? È finita come sappiamo tutti, con votazioni che sono profondamente inquinate: li vogliamo chiamare brogli? Li vogliamo chiamare gruppi organizzati che riescono ad intercettare il voto e a votare per gli altri? È così, purtroppo è così. Una seconda illusione riguarda il fatto che chi viene qua e sta qua rappresenta gli interessi delle decine di milioni di italiani che vivono all'estero, i quali pagano le tasse all'estero e ognuno dei quali è preoccupato giustamente di seguire gli interessi del suo Paese. Come il sindaco di New York, che è venuto in Italia, che si chiama De Blasio, ad esempio, ma fa comunque il sindaco di New York ed è chiaramente interessato, non tanto alle vicende italiane, ma ad amministrare New York. Viceversa, il contributo che questi parlamentari possono dare in Italia allo sviluppo delle questioni economiche, sociali, finanziarie e fiscali del Paese ha un senso, se rappresentano persone che stanno in altri continenti alle quali non si applicano le leggi italiane? In tutto il mondo chi è all'estero ed ha la cittadinanza, quando c'è da votare semplicemente vota per corrispondenza, o comunque mediante sistemi moderni che gli consentono - se ha intenzione di farlo - di far contare il suo voto. Dunque, l'anomalia italiana della circoscrizione Estero è stato un disastro, sia teoricamente che praticamente, per cui non vedo per quale motivo si debba insistere nel perpetuare un'esperienza disastrosa.</seg>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u55">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg114">Signor Presidente, alla luce di quanto esposto dal collega Micheloni e poco fa dal collega Morra a proposito della corrispondenza per via telematica, chiedo al senatore Minzolini, primo firmatario dell'emendamento, se è possibile una riformulazione dello stesso, con un'indicazione esplicita della corrispondenza per via telematica, certificata da un'agenzia terza chiaramente, perché quella potrebbe essere la chiave per risolvere i problemi di corruzione. Vorrei sapere se può essere accettata una riformulazione in questo senso. PRESIDENTE. Senatore Minzolini, accetta la proposta della senatrice Montevecchi?</seg>
+               <incident type="action">
+                  <desc>Il senatore Minzolini fa un cenno di assenso.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg115">Non credo che i relatori cambino il loro parere sull'emendamento. Presidente Finocchiaro, il parere sull'emendamento resta contrario? (</seg>
+               <incident type="action">
+                  <desc>La relatrice Finocchiaro fa un cenno di assenso.</desc>
+               </incident>
+            </u>
+            <note type="speaker">VACCIANO (M5S)</note>
+            <u ana="#regular" who="#VaccianoGiuseppe" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u56">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg116">Signor Presidente, poiché non ho più la certezza su quale sia il testo effettivo dell'emendamento - sul quale mi sarei pronunciato in dissenso rispetto alla posizione del mio Gruppo parlamentare, così come espresso poco fa dal collega Morra - a questo punto, se possibile, vorrei conoscere l'esatta formulazione dell'emendamento, in modo da poter esprimere il mio voto in maniera compiuta.</seg>
+            </u>
+            <note type="speaker">ORELLANA (Misto-ILC)</note>
+            <u ana="#regular" who="#OrellanaLuisAlberto" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u57">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg117">Signor Presidente, vorrei fare un richiamo al Regolamento, perché non sono del tutto convinto di quanto è stato detto, anche perché, per quanto riguarda il Gruppo Misto, ci sono delle particolarità delle quali va tenuto conto. Mi rendo conto che qui ci troviamo a dover mettere insieme, ad armonizzare una serie di norme e di principi tutti validissimi: l'articolo 72 delle Costituzione, che ci impone la procedura normale quando si tratta di leggi costituzionali; l'articolo 109, comma 2, del Regolamento che garantisce dieci minuti per le dichiarazioni di voto, con la possibilità di estenderli a quindici, nel caso in cui il Presidente lo ritenga utile o valido, nel senso dunque di aumentare il tempo, non di ridurlo. Ma chiaramente tutto questo fa il paio, male, o addirittura va a collidere con il diritto - giustamente riconosciuto dal Presidente - di armonizzare i tempi di lavoro dell'Aula. Credo occorra fare uno sforzo in questo senso e trovare un punto di caduta che non sia rappresentato da dieci minuti in un caso e da un solo minuto in un altro. Faccio poi rilevare la particolarità del Gruppo Misto, nel quale mi trovo a far parte non per una mia scelta personale e dove ci sono persone con le quali non condivido chiaramente alcuna idea politica, per estremizzare. Non mi riferisco al caso specifico o a tutti i casi, ma ciò avviene molto spesso. Non può succedere che qualcuno del mio Gruppo svolga una dichiarazione di voto contraria in dieci minuti, mentre io che sono favorevole, e sembra che intervengo in dissenso, e non si sa per quale motivo, posso intervenire per un solo minuto. La peculiarità del Gruppo Misto, data la numerosità dei suoi componenti, non è neanche un fatto trascurabile in quest'Aula. Ricordo che siamo ben 24 senatori. Pertanto, credo vada fatto uno sforzo in questo senso e non costringere chi del Gruppo Misto deve intervenire a farlo in un solo minuto, tempo nel quale effettivamente non si riesce ad esprimere un concetto.</seg>
+            </u>
+            <note type="speaker">MUSSINI (Misto-MovX)</note>
+            <u ana="#regular" who="#MussiniMaria" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u58">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg118">Signor Presidente, farò una dichiarazione di voto a nome forse dell'intero Gruppo Misto o di chi non si vorrà dissociare o non vorrà svolgere ulteriori precisazioni. L'emendamento 01.12, nella sua formulazione, cancella di fatto la circoscrizione Estero, garantendo la possibilità per i residenti all'estero di esprimere un loro voto. Ora, che questo emendamento e quello precedente abbiano suscitato un profondo dibattito è segno che tutta la materia relativa all'elettorato all'estero e all'esistenza, alla creazione e alla cancellazione eventuale delle circoscrizioni all'estero è stata trattata con grande superficialità ed affrontata dai firmatari di questo disegno di legge con grande incuria.</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg119">Presidente, mi scusi ma le devo chiedere un favore. Soffro di un terribile acufene, per cui il brusio mi rende davvero difficile intervenire.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Bottici</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg120">PRESIDENTE. Ha ragione, senatrice Mussini.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg121">Prego a tutti i colleghi presenti, davvero numerosi per l'importanza delle votazioni, di consentire alla senatrice Mussini di concludere il suo intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg122">Credo mi lascerà il tempo necessario, perché l'importanza della materia non è indifferente. Stiamo parlando di un diritto che è stato istituito suscitando polemiche e che è stato accompagnato da tutta una serie di altre istituzioni. Mi riferisco ai CGIE e ai COMITES. Più volte è stata richiamata l'attenzione - anche il senatore Micheloni poco fa l'ha fatto - sull'incuria con la quale è stata valutata la necessità di rivedere, accompagnare e rinnovare queste istituzioni. È sfuggito evidentemente, a chi si è occupato di questa materia, l'importanza di raccordarla - questa materia in particolare, ma peraltro è successo anche in molti altri passaggi su temi diversi - con l'esistente, con un esistente che non viene toccato, viene dato per scontato o eliminato. Ora è chiaro che, se la materia della rappresentanza all'estero fosse stata affrontata con serietà, calma e sistematicità, non si sarebbe potuto evitare di inserire nel dibattito anche il senso di quelle istituzioni che esistono e delle quali abbiamo discusso in quest'Aula proprio in relazione, tra l'altro, all'istituzione dei seggi, e non tanto per le elezioni politiche quanto per quelle europee. Ora la materia viene liquidata con estrema fretta e semplicità. La proposta emendativa che facciamo è quella di prevedere anche il voto per corrispondenza. Il fatto di inserire in Costituzione un qualcosa che potrebbe essere modificato dalle nuove tecnologie da un giorno all'altro è francamente privo di fondamento. Sicuramente è opportuno che la possibilità di esprimere un voto dall'estero debba essere disciplinata nel senso di garantire l'effettività e la personalità. È anche vero, però, che questa è una materia che, al di là dei riflettori puntati dal presidente del Consiglio Renzi, ha avuto, in questa stessa Aula, un approfondito dibattito. Ora, questo è veramente il segnale della trascuratezza per certi temi che non sono irrilevanti. Ricordo che i senatori eletti all'estero, oltre ad essere rappresentanti delle circoscrizioni in cui sono stati eletti, sono anche un importante raccordo con tutte quelle istituzioni che, comunque, sul territorio esistono e che rappresentano delle collettività, il cui rapporto sicuramente, in momenti di crisi, potrebbe essere determinante, sia dal punto di vista dell'economia del Paese, che da quello della possibilità, di cui noi dobbiamo approfittare, di mantenere forte l'immagine del Paese, così già molto bistrattata, che noi diamo all'estero. Noi voteremo contro questo emendamento, pur apprezzando il fatto che i colleghi hanno voluto mettere all'attenzione di questo momento di discussione un tema come la nostra rappresentanza all'estero, che evidentemente è stata così poco integrata e poco intersecata nelle varie parti della riforma. Ci sarà più avanti occasione di parlare anche della incongruenza nella rappresentatività del collegio estero tra la Camera e questo nuovo Senato che si vuol andare a definire.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-MovX.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GIARRUSSO (M5S)</note>
+            <u ana="#regular" who="#GiarrussoMarioMichele" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u59">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg123">Signor Presidente, anche io come, il collega Vacciano, vorrei esprimere la mia posizione. Sono favorevole al voto degli italiani all'estero, ma assolutamente contrario a due cose. In primo luogo, che le modalità di voto vengano inserite in Costituzione, perché è tecnicamente sbagliato; la riserva di legge sulle modalità di voto esiste, c'è e non è certamente questa la norma che la può inserire. La seconda cosa, secondo me grave, è il voto per corrispondenza. Attenzione: là influiamo su elementi che riconducono anzitutto alla personalità del voto e alla segretezza dello stesso. Per questo, se non viene riformulato l'articolo, il mio voto sarà in dissenso da quello del Gruppo.</seg>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u60">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg124">Signor Presidente, mi scusi, avevo chiesto da qualche minuto la parola sull'ordine dei lavori perché ho la necessità di far notare all'Aula - anche se forse tutti i colleghi l'hanno notato - che da un'ora e mezzo stiamo discutendo e abbiamo votato un solo emendamento. FERRARA Mario (GAL). Meno male. ZANDA (PD). Se non ho avvertito male, il presidente Grasso aveva fatto cenno a poteri di coordinamento della Presidenza, di cui non conosco bene l'estensione. Quindi, le vorrei chiedere se può informare me e anche l'Aula in che cosa consistono o se dobbiamo procedere con questo ritmo di lavori ancora per il tempo necessario. Perché, su una questione di questa rilevanza, un'ora e mezza per votare un emendamento mi sembra - francamente - che ci stia indicando molto sul nostro futuro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD,FI-PdL XVII e Misto-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CASINI (PI)</note>
+            <u ana="#regular" who="#CasiniPierFerdinando" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u61">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg125">Signor Presidente, naturalmente a titolo personale vorrei dire che le osservazioni del collega Zanda mi sembrano totalmente pertinenti.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal senatore Airola</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg126">Benissimo, dalle assemblee studentesche sono stato interrotto, figuriamoci.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg127">Credo sia chiaro a tutti che, tra i poteri della Presidenza, esiste la capacità - lineetta - necessità di garantire all'opposizione il diritto di espressione più pieno, in particolare quando trattasi di argomenti così delicati come la riforma costituzionale, e alla maggioranza, che non può avere meno diritti dell'opposizione, la possibilità di portare in votazione il prodotto legislativo che ritiene prioritario nell'interesse del Paese. Credo che la votazione precedente, dove peraltro si sono registrati pochissimi voti favorevoli a fronte di un dibattito interminabile, sia la dimostrazione più palese dell'incapacità di questa istituzione di riformare se stessa.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg128">AIROLA (M5S). Sono 31 anni che stai qui dentro!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Scilipoti. Richiami del Presidente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg129">Colleghi, potete interrompermi finché vi pare; figuratevi se la cosa mi eccita o mi preoccupa più di tanto.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del senatore Scilipoti.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg130">PRESIDENTE. Senatore Scilipoti, dia un contributo utile ai lavori.</seg>
+               <vocal type="shouting">
+                  <desc>Reiterate proteste del senatore Scilipoti.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg131">Senatore Scilipoti, stia seduto, la richiamo all'ordine.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg132">La realtà delle cose, onorevoli colleghi, è che questa forma così sbracata di ostruzionismo è il più grande regalo a chi vuole dimostrare che questa istituzione non fa il suo dovere</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PI, PD, NCD e SCpI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg133">Questo è ciò che apparirà chiaro agli occhi degli italiani da oggi, questa sera, a domani e a tutti i prossimi giorni.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg134">Per cui, se voi siete impegnati come nuova forza politica a un atto di autolesionismo e di Karakiri politico e istituzionale, noi abbiamo il dovere di chiedere alla Presidenza...</seg>
+               <vocal type="shouting">
+                  <desc>Vive, reiterate proteste del senatore Scilipoti.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg135">PRESIDENTE. Presidente Romani, ci aiuti a sedare il senatore Scilipoti...</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg136">SCILIPOTI (FI-PdL XVII). Parlare all'interno di quest'Aula è un atto di democrazia! È una cosa ben diversa, sa di cosa parlo! PRESIDENTE. ...«sedare» in termini morali, ovviamente. Senatore Casini, lei che è un presidente emerito aiuti l'Aula: abbiamo compreso il senso del suo intervento. CASINI (PI). È lei che deve aiutare l'Aula. PRESIDENTE. Certo, tutti dobbiamo farlo. CASINI (PI). La democrazia comprende un qualcosa che non è così secondario: la possibilità di decidere, altrimenti non è democrazia ma anarchia, signor Presidente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg137">Pertanto, noi chiediamo alla Presidenza che sia efficace nel disciplinare con serietà i lavori dell'Aula.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del senatore Scilipoti.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg138">AIROLA (M5S). Vergognati. Non puoi utilizzare questo linguaggio.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u62">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg139">Vorrei dire al senatore Zanda e al presidente Casini che su questo punto prima il presidente Grasso è stato abbastanza chiaro.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg140">Intanto ricordo a tutti noi - che ben lo sappiamo - che l'orientamento della Conferenza dei Capigruppo di ieri è stato quello di ampliare i tempi della discussione con un calendario molto impegnativo proprio in ragione dell'importanza dell'argomento. Questo dovrebbe far capire a tutti i colleghi che l'ampliamento della discussione è proprio un modo per non comprimere i diritti di nessuno e non andrebbe usato strumentalmente. Ove ciò avvenga, la Conferenza dei Capigruppo, il Senato potrà assumere le decisioni che poi vorrà prendere.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg141">Allo stato attuale il presidente Grasso ha ricordato che chi illustra le posizioni del Gruppo interviene per 10 minuti e gli altri colleghi intervengono per un minuto, perché si presuppone che esprimano un dissenso. Non posso, quindi, che convenire con quanto il Presidente Grasso ha detto poc'anzi nello spirito di un'ampia discussione che ieri la Conferenza dei Capigruppo ha stabilito. Quindi, non si può dire che 150 ore, 180 ore o quante saranno in totale non siano abbastanza, perché tutti hanno diritto di esprimere la loro opinione, ma il Senato ha il dovere di decidere.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg142">E voglio ricordare al presidente Casini che in altre fasi e in altre legislature riforme anche di questo livello e anche più ampie furono approvate.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg143">Aveva chiesto la parola il senatore Scilipoti, devo immaginare in dissenso dal suo Gruppo, ma non lo vedo in Aula.</seg>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u63">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg144">Signor Presidente, vorrei ricordare al presidente Zanda che l'argomento su cui abbiamo appena votato riguardava il diritto di voto di milioni di cittadini italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Campanella</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg145">Si tratta di una materia che avrebbe meritato da sola un disegno di legge di rango costituzionale e che non possiamo pensare di liquidare in pochi minuti. È una materia peraltro controversa, che soltanto la fretta e l'arroganza del Governo hanno compresso in così poco tempo, durante i preparativi per le vacanze.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Campanella</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg146">Aggiungo che il presidente Casini - non si offenda se glielo dico - è un esperto di truffe semantiche.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Campanella</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg147">SANTANGELO (M5S). Ascolta! ENDRIZZI (M5S). Qui non abbiamo a che fare con un ostruzionismo del Movimento 5 Stelle o di altre forze politiche</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg148">, ma abbiamo a che fare con un ostruzionismo del Presidente del Consiglio, che sta proponendo una riforma che è come una corona di spine sulla democrazia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Campanella</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg149">Sta imponendo, per modi e per contenuti, una corona di spine ai cittadini, e se c'è una reazione di questo tipo in difesa della democrazia</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Susta</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg150">- l'ho già detto e lo ripeto - non si tratta di ostruzionismo, altrimenti andate dai figli dei ragazzi del '99 che sono ancora vivi a dire che sul Piave i loro padri hanno fatto ostruzionismo.</seg>
+               <kinesic type="applause">
+                  <desc>Vivi e prolungati applausi dai Gruppi M5S e Misto-ILC. Molte congratulazioni</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg151">PRESIDENTE. Il senatore Palma aveva chiesto di intervenire, ma al momento non lo vedo in Aula.</seg>
+            </u>
+            <note type="speaker">BRUNO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#BrunoDonato" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u64">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg152">PRESIDENTE. Per cortesia, si consenta al senatore Bruno di svolgere il suo intervento come hanno potuto fare gli altri colleghi perché anche questo è rispetto dell'Assemblea.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg153">Ne ha facoltà.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg154">Prendo la parola per dichiarare il voto contrario del Gruppo all'emendamento 01.12, di cui non capisco assolutamente la portata. L'ha scritto il senatore Minzolini, per cui chiedo a lui che cosa vuol dire che, in riferimento al voto dei cittadini all'estero, la legge «ne assicura l'effettività e la personalità». Mi sembra oltretutto una norma di legge ordinaria che vogliamo inserire nella Costituzione, e credo violi un principio sacro della nostra Costituzione: mi riporto a quanto detto dal collega Giarrusso circa la segretezza del voto. La verità è che noi ci dobbiamo concentrare sul voto degli italiani all'estero, sulla riforma con legge ordinaria di dove si vota e come si vota, escludendo, se possibile, la corrispondenza, i pacchi del patronato e dei sindacati che sino ad oggi nel voto all'estero l'hanno fatta da padrone.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Marin.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg155">Forse è questo il motivo che ha ispirato parte dei colleghi del mio Gruppo nel presentare questo emendamento, che però è fatto male perché non è questa la sede in cui si deve affrontare un discorso del genere. Va fatto con legge ordinaria e saremo i primi a sostenere la bontà di queste tesi ma, ripeto, circoscrivendole e regolamentando in maniera seria il voto degli italiani all'estero. Sino a oggi questo non è avvenuto, ma ciò non può giustificare il suo inserimento in una riforma costituzionale con parole che non dicono assolutamente nulla, e di cui io, purtroppo, non ho compreso la portata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII e del senatore Micheloni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MAURO Mario (PI)</note>
+            <u ana="#regular" who="#MauroMario" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u65">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg156">Signor Presidente, esprimo un voto contrario, soprattutto richiamandomi alle ragioni esposte dal senatore Micheloni, e cioè quelle legate al fatto che ciò che viene introdotto in Costituzione andrebbe invece inserito in una legge ordinaria. Proprio per questo, mi permetto di ricordare a questo punto del nostro dibattito che analogo criterio e analoghe motivazioni gradirei venissero fatte emergere nel momento in cui in altri punti del testo dovessimo incontrare passaggi che vogliono introdurre nella legge costituzionale parti di legge elettorale che andrebbero disciplinate con legge ordinaria.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Buemi e Gaetti.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u66">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg157">PRESIDENTE. Sull'emendamento? DE PETRIS (Misto-SEL). No, sull'ordine dei lavori. PRESIDENTE. Ce lo dovrebbe dire. Perché essendo Presidente di Gruppo può intervenire sull'ordine dei lavori in questa fase, altrimenti avrebbe dovuto intervenire a fine seduta. DE PETRIS (Misto-SEL). Intervengo sull'ordine dei lavori con molta pacatezza, Presidente, perché delle volte non capisco alcuni interventi di esponenti della maggioranza. Lei, signor Presidente, ha giustamente fatto presente che ieri c'è stata la riunione dei Capigruppo, su cui abbiamo discusso in Aula votando le varie proposte avanzate. Vorrei anche ricordare che la discussione serve ad esaminare nel merito le questioni e, come si è visto dall'emendamento votato in precedenza, non si tratta di questioni secondarie, ma di questioni che meritano una discussione approfondita. Rivolgendomi al senatore Zanda, che ora è andato via, ed anche al presidente Casini, che però non era presente alla Conferenza dei Capigruppo... CASINI (PI). Non sono Capogruppo. DE PETRIS (Misto-SEL). ...vorrei ricordare che in quella sede ho proposto di prenderci un momento di riflessione e ho chiesto al Governo di utilizzare il tempo per l'esame dei decreti in scadenza senza iniziare a votare sul disegno di legge costituzionale. Questo perché una riflessione più attenta sulle questioni note, poste in quest'Aula in tantissimi interventi, forse potrebbe servire. Vorrei ricordare che sia da parte del presidente Zanda che del Governo vi è stata la determinazione di continuare l'esame del provvedimento dalle nove a mezzanotte, proseguendo i lavori anche il sabato e la domenica, senza mostrare alcuna ragionevolezza né capacità di ascoltare le questioni molto serie poste da questa Assemblea. Ancora una volta ieri, in Conferenza dei Capigruppo, vi è stata offerta la possibilità di poter discutere nel merito. Vorrei però ricordare, perché questo è accaduto durante il voto in Aula sul calendario, che questa proposta, nei prossimi giorni nei quali il Senato si dedicherà all'esame dei decreti-legge, non è stata presa assolutamente in considerazione. Pertanto, credo che nessuno oggi possa alzarsi facendo finta che ieri in Conferenza dei Capigruppo non vi sia stata discussione.</seg>
+               <incident type="action">
+                  <desc>Il senatore Sacconi fa cenno di voler intervenire</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg158">PRESIDENTE. Senatore Sacconi, vuole intervenire? SACCONI (NCD). Signor Presidente, sì ma credo che vi fosse prima la senatrice Bisinella, il cui intervento è stato lungamente richiesto.</seg>
+            </u>
+            <note type="speaker">BISINELLA (LN-Aut)</note>
+            <u ana="#regular" who="#BisinellaPatrizia" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u67">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg159">Signor Presidente, approfitto dell'opportunità, dal momento che il senatore Sacconi è stato così gentile e garbato da accorgersi che è quasi un'ora che una esponente della Lega chiede la parola, ignorata. Faccio presente a lei, signor Presidente, e a chi l'assiste, che è più di un'ora che alzo la mano e cerco di richiamare l'attenzione e mi sono passati davanti numerosi colleghi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg160">PRESIDENTE. Per parlare sull'emendamento? BISINELLA (LN-Aut). Sì, sull'emendamento. PRESIDENTE. Il senatore Sacconi aveva chiesto di intervenire sull'ordine dei lavori in qualità di Presidente di Gruppo. Comunque, intervenga pure sull'emendamento. BISINELLA (LN-Aut). Sarò sintetica, ruberò solo pochi secondi. Ringrazio pubblicamente il presidente Sacconi per il garbo e l'accortezza. In ordine all'emendamento 01.12, a dimostrare che la Lega Nord non sta facendo mero ostruzionismo ma interviene nel merito e motivatamente, e poiché con questi primi emendamenti affrontiamo un tema importante, come sottolineato da vari colleghi, ovvero la soppressione o meno della circoscrizione Estero, sottolineo che noi ci siamo astenuti e il motivo è stato spiegato bene dal collega che mi ha preceduto. Faccio presente che sull'emendamento 01.12 condivido la preoccupazione espressa da una collega del Partito Democratico (credo fosse il senatore Micheloni), che non è il caso di inserire in Costituzione norme di dettaglio che riguardano la specificità della legge elettorale, trattandosi di rilievi che riguardano la legislazione ordinaria e che quindi non devono trovare spazio in sede di dettato costituzionale. Noi su questa linea manterremo la nostra posizione di astensione perché riteniamo che comunque la materia vada meglio regolata e chiarita. Faccio però notare, in conclusione, che in Costituzione non andrebbero inserite norme di dettaglio, ma con questo disegno di legge costituzionale il Governo, all'articolo 70, nel regolare il procedimento legislativo e le funzioni del nuovo Senato, inserisce proprio in Costituzione - quindi costituzionalizza - regole molto rigide, che spetterebbero e sarebbero addirittura competenza dei Regolamenti parlamentari. Approfittiamo quindi di questa riflessione, che viene dagli stessi banchi del Partito Democratico, per ricordarcene quando, nel prosieguo dell'esame del disegno di legge, andremo ad affrontare e ad inserire in Costituzione norme che riguardano non solo la legislazione ordinaria, ma addirittura i Regolamenti parlamentari. Per questo motivo, manterremo con coerenza il voto di astensione che abbiamo preannunciato in questa sede e le nostre argomentazioni puntuali e di merito per cercare di migliorare questo testo molto, molto pasticciato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SACCONI (NCD)</note>
+            <u ana="#regular" who="#SacconiMaurizio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u68">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg161">Signor Presidente, credo che nessun collega debba sentirsi offeso per la constatazione che sta svolgendo una battaglia ostruzionistica. L'ostruzionismo è un'arte nobile nella vita parlamentare, che tuttavia ha quel limite prima ricordato dal presidente emerito Pier Ferdinando Casini, nel rivendicare a fianco del diritto delle minoranze quello delle maggioranze. Credo abbia fatto bene il collega Zanda a segnalare per primo la condizione ostruzionistica che si sta producendo in Aula, anche se non ad opera di tutti, perché vi sono opposizioni che graduano diversamente il loro modo di agire. Vi è però oggettivamente una condizione ostruzionistica che è bene rilevare nel momento in cui si produce, affinché si cominci a riflettere sui modi entro i quali questa legittima pratica può esprimersi, che - come ho detto - per un verso la devono consentire, ma entro certi limiti, perché ad un certo punto l'Assemblea del Senato dev'essere posta nella condizione di deliberare. La mia conclusione è quindi che, per adesso, ne prendiamo atto, ma tra poco ne dovremo parlare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo NCD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">D'ANNA (GAL)</note>
+            <u ana="#regular" who="#DAnnaVincenzo" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u69">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg162">Signor Presidente, Sandro Pertini ha avuto modo spesso di pronunciare questa frase: «A brigante, brigante e mezzo». Sono d'accordo con il senatore Casini che non teme gli agguati delle Assemblee, ma quelle dei gruppi giovanili, perché altre non mi pare ne abbia fatte (e siamo coetanei). Se vi presentate con un progetto di riforma costituzionale elaborato dal Governo e definito in un patto a due, senza che questo parta da una larga iniziativa parlamentare, e se il Presidente del Consiglio, nel suo sport preferito - che è quello di sembrare simpatico alla gente - continua a bollarci come persone che si oppongono perché hanno cara la poltrona, perché vi meravigliate che quelli che non sono d'accordo utilizzino gli strumenti del Regolamento parlamentare? Oltre ad una legge speciale che si attagli ai «nazareni», vorreste anche un Regolamento speciale del Senato che si attagli al Presidente del Consiglio? Voglio fare una proposta, allora: si riuniscano di nuovo i Capigruppo e chiedano a coloro che hanno presentato gli emendamenti o ai Gruppi a cui questi colleghi fanno capo di fare una cernita e di trovare un'intesa sui tempi, mentre qua aleggia la parola «ghigliottina» - anche se con grande garbo: io sono un estimatore del senatore Sacconi per il suo garbo dialettico - come a dire: state dando fastidio, attenti a voi che tagliamo i tempi!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg163">Allora, poiché noi non desisteremo perché, voglio ricordare per la centesima volta in quest'Aula, non stiamo difendendo i nostri augusti e senatoriali deretani, stiamo difendendo un piccolo principio, abbastanza marginale, che dovrebbe anche dare qualche fastidio perché a molti è costato il sacrificio della vita, che si chiama «diritto del popolo italiano a scegliersi i parlamentari»!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi GAL, M5S, Misto-SEL, Misto-ILC e Misto-MovX</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg164">Non stiamo discutendo delle prebende e voglio considerare un'altra cosa. L'ho detto la prima volta che sono intervenuto: voi andate di fretta perché la tempistica presuppone le elezioni anticipate, presuppone che i capopartito e i capobastone si scelgano i candidati, si facciano le leggi e controllino i controllori delle leggi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi GAL, M5S, Misto-SEL, Misto-ILC e Misto-MovX</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg165">Voi state facendo peggio della legge Acerbo, voi volete il potere con il 25 per cento dei voti rispetto alla platea elettorale! Se questo l'avesse proposto Silvio Berlusconi, molti di questi insofferenti sarebbero lì con le mutande arancioni o con le mutande viola, con i grillini a rompere le scatole! PRESIDENTE. Senatore D'Anna però, la prego di concludere. L'intervento era sull'ordine dei lavori, ma questo diventa un intervento generale! D'ANNA (GAL). È concluso, signor Presidente. Voglio concludere con una breve storiella napoletana.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u70">
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg166">Senatore, lei è intervenuto sull'ordine dei lavori: manteniamo una serietà perché a questo punto lei smentisce la serietà del suo intervento.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore D'Anna.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg167">Concluda, perché l'ordine dei lavori non è alimentato da una storiella.</seg>
+               <vocal type="laughter">
+                  <desc>Ilarità.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">D'ANNA (GAL)</note>
+            <u ana="#regular" who="#DAnnaVincenzo" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u71">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg168">Mi faccia concludere, è seria la cosa. È una allegoria. C'era Pulcinella che doveva essere impiccato e, poiché era stolto e faceva discussioni inutili, voleva sapere chi portava la scala per andare al patibolo. Ed è esattamente quello che voi ci volete far fare a noi: sapere chi porta la scala per impiccare il diritto di voto del popolo italiano!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi GAL, M5S, Misto-SEL, Misto-ILC e Misto-MovX.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u72">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg169">Va bene, non porteremo nessuna scala.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg170">Aveva chiesto di parlare il senatore Turano. Ne ha facoltà.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg171">TURANO (PD). Signor Presidente, rinuncio al mio intervento perché quel che volevo dire è stato già detto da altri. PRESIDENTE. Ne prendiamo atto, senatore Turano. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 01.12 (testo 2), presentato dal senatore Minzolini e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 01.13 (testo corretto).</seg>
+            </u>
+            <note type="speaker">ORELLANA (Misto-ILC)</note>
+            <u ana="#regular" who="#OrellanaLuisAlberto" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u73">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg172">CARRARO (FI-PdL XVII). Signor Presidente, l'ha vista l'ora? PRESIDENTE. Senatore Carraro, la Presidenza conosce gli orari, la prego, lei che è una persona che collabora, non ci si metta pure lei a dire che cosa dobbiamo fare! Prego, senatore Orellana. ORELLANA (Misto-ILC). Signor Presidente, anticipo che il Gruppo che rappresento voterà contro l'emendamento 01.13 perché, come i due precedenti, ritorna sulla questione del voto degli italiani all'estero. Esso intende sopprimere, del terzo comma dell'articolo 48 della Costituzione, solo il secondo periodo, quello in cui definisce la circoscrizione estero, lasciando la possibilità di voto per i cittadini residenti all'estero prevista dal primo periodo che rimarrebbe inalterato. Si può quindi immaginare che il voto degli italiani all'estero venga garantito, ma non attraverso una circoscrizione Estero, quindi che essi possano votare ma facendo riferimento solo a candidati delle loro zone d'origine. Il che può sembrare anche una buona idea. Peccato però che molti italiani che vivono all'estero sono anche nati all'estero, quindi non hanno un riferimento preciso legato ad una precedente origine o residenza. Non si capisce pertanto come potrebbero andare a cercare dei candidati da votare in zone in cui, magari, non sono mai stati. In alternativa, si fa riferimento all'ultima residenza dei genitori. Ma, come sappiamo, tutti abbiamo due genitori e se i genitori fossero provenienti da zone diverse si creerebbero dei contenziosi e problemi molto forti. Credo pertanto che vada lasciata, come previsto attualmente, una circoscrizione Estero. Al riguardo farei poi qualche altra considerazione. Il testo dell'emendamento 01.13 propone anche di sopprimere all'articolo 32 il comma 1. Leggendo tale articolo, si evince che riguarda tutt'altro. In effetti, il riferimento più corretto è l'articolo 37 che riguarda le disposizioni consequenziali e di coordinamento. Nel testo quindi è contenuto un refuso che posso immaginare sia da attribuire alla fretta che si è scelto di adottare nel passaggio tra Commissione e Aula. Pertanto, chi ha presentato gli emendamenti non ha avuto il tempo materiale di citare il giusto riferimento. Come è già stato rilevato in alcuni degli interventi che mi hanno preceduto, nel testo sono contenuti errori macroscopici. Adesso ne stiamo evidenziando altri e si fa fatica a capire i riferimenti a cosa corrispondono. Sempre con riferimento agli eletti all'estero, ricordo che in questa legislatura con il Porcellum non concorrevano al calcolo del premio di maggioranza. È importante capire ciò perché dobbiamo immaginare cosa succederà nella futura legge elettorale che ha superato l'esame di un ramo del Parlamento, ma che ancora non è legge: il famoso Italicum. Se confermassimo il voto all'estero e rimanesse l'indicazione che non concorrono nel calcolo del premio di maggioranza, probabilmente il voto all'estero non sarebbe da considerarsi completamente e pienamente un voto politico, che nella riforma che stiamo valutando, in questo momento è demandato esclusivamente alla Camera dei deputati. Se il voto dei cittadini residenti all'estero non concorre al premio di maggioranza e quindi non è un voto pienamente politico è più ragionevole che la rappresentanza all'estero resti in capo al Senato che, invece, abbiamo visto dal testo base è composto da consiglieri regionale e da sindaci, oltre che da cinque persone nominate dal Presidente della Repubblica. Credo che andrebbe trovato un modo per garantire la rappresentanza all'estero, se le considerazioni che ho fatto sono valide. Se invece non fosse così, se gli eletti all'estero concorreranno al calcola del premio di maggioranza, allora vale la pena che restino alla Camera dei deputati. Credo ci sia una vaghezza nella strada che stiamo intraprendendo che non ci consente di fare scelte oculate e ponderate. Oltretutto, faccio un'ulteriore considerazione: e se non ci fosse alcun premio di maggioranza nella futura legge elettorale? Stiamo dando per scontato che ci sia l'Italicum ed il premio di maggioranza. Ma sappiamo che la Corte costituzionale, invece, ha incontrato delle difficoltà al riguardo. Intanto, sull'emendamento 01.13 ribadisco il voto contrario della componente Italia Lavori in Corso del Gruppo Misto che rappresento, ma non parlo per l'intero Gruppo Misto. Su questo punto ho fatto un richiamo al Regolamento e - approfitto per ricordarlo - vorrei ricevere una risposta da parte della Presidenza in tempi congrui con quelli affannosi con cui stiamo portando avanti l'esame dei disegni di legge di revisione costituzionale.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u74">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg173">Per il Gruppo Misto valgono le stesse regole che valgono per gli altri. È un Gruppo, è il Gruppo Misto, si parla e se ci sono dissidenti potranno esprimere il loro dissenso. Altrimenti non sarebbe un Gruppo e i senatori sarebbero sciolti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg174">Per quanto riguarda l'emendamento 01.12, preciso che è stata respinta la riformulazione proposta dalla senatrice Montevecchi e che il senatore Minzolini aveva accolto. Quindi, in votazione è stato posto il testo riformulato, che è agli atti, e che è stato respinto.</seg>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u75">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg175">Signor Presidente, quello in esame, per come è scritto, è un emendamento omnibus, perché mescola materie diverse. A differenza del collega Orellana, prendo alla lettera quello che è scritto nel fascicolo e noto che nella prima parte sostanzialmente si abolisce, non il diritto di voto degli italiani all'estero, ma la circoscrizione Estero come organizzazione, come bacino di elettorato passivo. Sappiamo quali sono i problemi legati a tali tematiche: la difficoltà di garantire la certezza e l'identificazione del votante; i disguidi, che abbastanza spesso ci vengono segnalati da cittadini preoccupati del destino che hanno avuto le loro schede; le perplessità connesse al fatto che mancano ancora sistemi di controllo adeguati. Non per questo, però, dobbiamo desistere dall'impegno di garantire loro il diritto di votare. Semmai possiamo ragionare - appunto - sull'organizzazione. Poi, però, c'è il seguito, che forse è più interessante, almeno per me (Il vice presidente Gasparri conversa con un senatore), magari lo è poco per il vice presidente Gasparri. Signor Presidente, le devo avanzare una richiesta e quindi chiedo la sua attenzione. Il seguito dell'emendamento nel fascicolo originario a) 01.13 recita: «all'articolo 32 sopprimere il comma 1». Ebbene io non vado a interpretare cosa poteva voler dire quell'articolo 32 (se era l'articolo 32: pare sia il 37). Vedo che l'articolo 32 del testo proposto dalla Commissione prevedeva - leggo testualmente per evitare errori - che «I Comuni, le Città metropolitane e le Regioni hanno autonomia finanziaria di entrata e di spesa, nel rispetto dell'equilibrio dei relativi bilanci, e concorrono ad assicurare l'osservanza dei vincoli economici e finanziari derivanti dall'ordinamento dell'Unione europea». Se si sopprime il comma 1, si torna al testo previgente che recita: «I Comuni, le Province, le Città metropolitane e le Regioni». Vi risparmio il resto perché non sto facendo ostruzionismo. Pertanto, si reintroduce implicitamente la Provincia. Sappiamo benissimo che la Provincia non è stata abolita e che anche questo disegno di legge prevede semplicemente la sua ricomparsa sotto mentite spoglie, sotto il concetto di ente di area vasta. In questo caso, però, si arriva addirittura a confermare il termine. Allora, vi sono due ipotesi: o vi è una furbesca reintroduzione della Provincia tal quale, anche con il suo stesso nome, oppure si tratta di un errore, uno di quei tanti errori che sono stati già segnalati. Penso, ad esempio, a emendamenti diversi per contenuto con lo stesso numero identificativo. Questi errori possono essere chiamati refusi, ma voi capite quanto un refuso possa essere, come in questo caso, ammesso che lo sia, determinante. Infatti, se avessimo votato una modifica così impattante, senza accorgerci di questo errore, avremmo dovuto faticare per porvi rimedio. Ricordo che, quando a suo tempo arrivò il decreto del fare, era blindato e nulla si doveva modificare, ma per errore venne dichiarato il parere favorevole del Governo. Scattò il voto anche dalla parte che sta alla mia destra, che una volta si chiamava sinistra. Si trattò di un voto automatico, errore veniale, ma se il vice Presidente in quel caso avesse dichiarato chiusa la votazione il cosiddetto decreto del fare avrebbe avuto un emendamento valido e sarebbe, dunque, decaduto perché non esistevano più i tempi per fare di nuovo un passaggio fra Senato e Camera. Allora, vi invito a riflettere sulla delicatezza di quello che stiamo facendo e a fare uno sforzo tutti perché questo dibattito sia gravido di contenuti, fecondo in termini di risultati per il Paese e non forzato per questa importanza dei tempi. Il presidente Calderoli ha più volte rilanciato la palla nel campo del Governo dicendo che dal Governo ci si aspetta un segno che fin qui è mancato. Ci si attende un segno di apertura, almeno su quegli aspetti che nulla possono portare di beneficio per la funzionalità delle Camere. Io non ho ancora capito, ad esempio, a che serva un Senato sottratto al voto degli italiani e perché il presidente Renzi si ostini a mantenere questa inutile e respingente ostinazione. Forse - mi chiedo - è lui il primo a non volere questa riforma e a presentarla in modo irricevibile. Allora, attendiamo di avere il tempo per riparare agli errori e agli orrori. Forse, se ci dessimo un tempo per rivedere il fascicolo, potremmo avere dal Governo quel segno di lungimiranza, attenzione e rispetto per i cittadini che al momento manca. Mi fermo qui perché non voglio tediarvi oltre. Ho detto quello che dovevo. Spero di essere stato sentito da chi doveva udire. A lei, Presidente, chiedo di compiere un gesto di responsabilità rispetto al fatto che stiamo votando un fascicolo che non è esatto e non contiene la certezza di cui abbiamo bisogno quando si tratta di modificare la Costituzione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u76">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg176">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 01.13 (testo corretto), presentato dal senatore Minzolini e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Come già annunciato, ci sarà adesso la seduta congiunta di Camera e Senato. I nostri lavori si concluderanno per consentire ai senatori di recarsi alla Camera per la votazione dei membri del Consiglio superiore della magistratura e della Corte costituzionale. Rinvio pertanto il seguito della discussione dei disegni di legge in titolo ad altra seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u77">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg177">Comunico che è pervenuta dal prescritto numero di senatori la richiesta, ai sensi dell'articolo 78, comma 3, del Regolamento di remissione all'Assemblea del parere favorevole espresso dalla prima Commissione permanente in ordine alla sussistenza dei presupposti di necessità e urgenza del decreto-legge recante misure urgenti per la realizzazione del piano delle misure e delle attività di tutela ambientale e sanitaria per le imprese sottoposte a commissariamento straordinario (Atto Senato n. 1567).</seg>
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg178">Pertanto, l'ordine del giorno della seduta pomeridiana di domani è integrato con la deliberazione dell'Assemblea sul predetto parere.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u78">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg179">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per le sedute di giovedì 24 luglio 2014</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.u79">
+               <seg xml:id="ParlaMint-IT_2014-07-23-LEG17-Sed-289.seg180">Il Senato tornerà a riunirsi domani, giovedì 24 luglio, in due sedute pubbliche, la prima alle ore 9,30 e la seconda alle ore 16, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 18,44).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

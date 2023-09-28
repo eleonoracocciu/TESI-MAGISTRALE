@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 92 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 92 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 92, giorno (2019-02-21)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 92, Day (2019-02-21)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="92-upper">92 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="119" unit="speeches" xml:lang="it">119 discorsi</measure>
+            <measure quantity="119" unit="speeches" xml:lang="en">119 speeches</measure>
+            <measure quantity="10322" unit="words" xml:lang="it">10.322 parole</measure>
+            <measure quantity="10322" unit="words" xml:lang="en">10,322 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1105010</idno>
+               <date when="2019-02-21">21.02.2019</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="13"/>
+               <tagUsage gi="head" occurs="12"/>
+               <tagUsage gi="note" occurs="52"/>
+               <tagUsage gi="seg" occurs="119"/>
+               <tagUsage gi="u" occurs="37"/>
+               <tagUsage gi="vocal" occurs="4"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="44"/>
+               <tagUsage gi="desc" occurs="48"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2019-02-21">21.02.2019</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente ALBERTI CASELLATI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u1">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg1">La seduta è aperta (ore 15,04). Si dia lettura del processo verbale. DURNWALDER, segretario, dà lettura del processo verbale della seduta del 19 febbraio. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u2">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00620) - Question time su misure per sostenere economia e stabilità conti pubblici</head>
+            <note type="time">(ore 15,08)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u3">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg3">L'ordine del giorno reca lo svolgimento di interrogazioni a risposta immediata (cosiddetto question time ), ai sensi dell'articolo 151- bis del Regolamento, alle quali risponderà il Presidente del Consiglio dei ministri. Invito gli oratori ad un rigoroso rispetto dei tempi, considerata la diretta televisiva in corso. Il senatore Steger ha facoltà di illustrare l'interrogazione 3-00620 sulle misure per sostenere l'economia e la stabilità dei conti pubblici, per tre minuti.</seg>
+            </u>
+            <note type="speaker">STEGER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#StegerDieter" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u4">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg4">Signor Presidente, signor Presidente del Consiglio, le stime di crescita contenute nell'ultima legge di bilancio si stanno rivelando decisamente ottimistiche rispetto ai dati sull'andamento reale dell'economia. I dati Eurostat sull'ultimo trimestre 2018 hanno indicato l'Italia come fanalino di coda nella crescita europea, nonché come unico Paese caratterizzato dal segno meno. I dati sulla produzione industriale dipingono un quadro allarmante, con la peggiore performance da dieci anni a questa parte. Anche le previsioni sul 2019 non lasciano presagire nulla di buono. La Commissione europea ha abbassato le stime di crescita del PIL italiano nel 2019 passando dall'1,2 per cento allo 0,2 per cento, rispetto all'1,3 per un cento di aumento medio dell'eurozona. Tutto questo fisiologicamente impatta sulle previsioni di deficit. L'Ufficio parlamentare di bilancio, in audizione al Senato, ha ipotizzato un disavanzo del 2,3 per cento, che sale al 2,5 per cento nella previsione avanzata dall'agenzia internazionale Moody's. Intanto, da più parti, continua a giungere una forte richiesta di una politica orientata alla crescita e allo sviluppo, che, secondo molti analisti, è stato il limite della manovra di bilancio. Quota 100 e reddito di cittadinanza impegnano grandissime risorse, ma probabilmente non generano sufficienti effetti stimolo sulla crescita e lo sviluppo. Pertanto, signor Presidente del Consiglio, le chiedo di sapere se, considerati i continui aggiornamenti al ribasso dei saldi di finanza pubblica, non ritenga inevitabile un ulteriore intervento correttivo sulla manovra, sulla cui necessità, secondo quanto fatto trapelare dai giornali, non vi sarebbe alcun dubbio, né da parte delle istituzioni europee, né da parte di alcuni membri del suo stesso Governo. Infine, signor Presidente del Consiglio, alla luce dei forti segnali di recessione, le chiedo di sapere dove il suo Governo intende reperire le risorse e quali siano gli interventi che vuole porre in essere per invertire l'andamento negativo e rilanciare la crescita economica dell'intero Paese tanto auspicata. PRESIDENTE.Il presidente del Consiglio dei ministri, professor Conte, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CONTE</note>
+            <note type="role">presidente del Consiglio dei ministri</note>
+            <u ana="#guest" who="#ConteGiuseppe" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u5">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg5">Signor Presidente, gentili senatrici e gentili senatori, rivolgo a voi tutti un cordiale saluto, ben lieto di rispondere alle vostre interrogazioni, anche in ragione del potere ispettivo e di controllo che è demandato alle Camere sulle attività di Governo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg6">Vengo alla risposta alla prima interrogazione. Abbiamo ben presente qual è il quadro macroeconomico che interessa non solo l'Italia e non solo l'Europa, all'interno di una congiuntura che vede l'intero continente europeo in fase di rallentamento temporaneo, anche a causa delle tensioni commerciali. Nonostante lo shock esterno che ha interessato anche il nostro Paese nella seconda metà dello scorso anno, i nostri fondamentali economici restano solidi. Anche per questo abbiamo impostato una linea di politica economica chiara, incentrata sugli investimenti e sulla crescita, senza dimenticarci però delle fasce più deboli e di chi si trova in difficoltà. Una linea di politica economica che rivendico e che stiamo portando avanti con determinazione. Non intendiamo farci dettare l'agenda da ipotesi o previsioni di sorta; alle ipotesi rispondiamo con azioni concrete. Stiamo seguendo un percorso ben chiaro e non ci lasciamo distrarre da voci dissonanti che si levano dal dibattito politico ed economico. Abbiamo appostato miliardi di euro che vanno solo spesi, meglio e più velocemente rispetto al passato. Stiamo accelerando l'attuazione e l'applicazione delle varie misure approvate in questi mesi, affinché il più presto possibile possano dispiegare i propri effetti; effetti che contribuiranno a una crescita progressiva soprattutto nella seconda metà dell'anno. Stiamo lavorando a una inversione di rotta rispetto al segno meno degli ultimi mesi. Il Governo rimane fiducioso nelle proprie stime di crescita, perché valutiamo che il secondo semestre del 2019 sarà accompagnato da un allentamento delle tensioni commerciali e da condizioni più favorevoli alla crescita. Grazie a un vero e proprio Patto per i cantieri, promosso insieme al ministro Toninelli qui presente e sostenuto dall'azione della cabina di regia Strategia Italia e dalla struttura di missione Investitalia, alle varie riforme e alle varie misure fiscali introdotte, saremo in grado di riportare il Paese verso una stagione di crescita e di maggiore equità sociale. D'altronde, la stagione dell'austerità ci ha mostrato che l'economia ha bisogno di respirare proprio nelle fasi in cui i consumi e gli investimenti privati rallentano. Non riteniamo pertanto necessaria alcuna manovra correttiva; dobbiamo solo continuare nel razionale ed efficace utilizzo delle risorse finanziarie già stanziate. Peraltro abbiamo già adottato alcune misure prudenziali che ci mettono al riparo da interventi correttivi. A garanzia del rispetto degli obiettivi di finanza pubblica, vorrei ricordare che la legge di bilancio contiene misure di monitoraggio dei conti pubblici e in più uno specifico meccanismo di accantonamento di risorse fino a due miliardi di euro che potranno essere utilizzati o meno a seconda dello stato del ciclo economico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg7">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Steger, per due minuti.</seg>
+            </u>
+            <note type="speaker">STEGER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#StegerDieter" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u6">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg8">Signor Presidente del Consiglio, condividiamo in pieno il vostro obiettivo di crescita e di sociale. Ci preoccupa però molto la situazione attuale. Noi riteniamo che il quadro macroeconomico sia preoccupante e che non si tratti di una situazione passeggera.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg9">Riteniamo inoltre, anche se lei dice che non è così, che una manovra sarà necessaria perché il quadro economico non è destinato a migliorare nei prossimi mesi. Spero che lei abbia ragione, però, signor Presidente, se lei guarda i dati delle grandi economie politiche in Europa, può vedere che è in atto una situazione congiunturale preoccupante, accompagnata anche dai problemi che abbiamo a livello di politica finanziaria, quindi rischiamo molto.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg10">Spero stiate monitorando bene la situazione e che abbiate in mente, se fossero necessari interventi correttivi, misure che aiutino a sbloccare gli investimenti perché abbiamo bisogno di ulteriori semplificazioni. Dato che è presente anche il ministro Toninelli, voglio ricordare la necessità di lavorare sul codice degli appalti. Su questo fronte bisogna essere celeri perché il Paese ha bisogno che la crescita continui, o ricominci, nei prossimi mesi. Personalmente sono abbastanza preoccupato, signor Presidente del Consiglio.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00625) - Question time su impulso attività di governo per favorire miglioramento quadro economico e finanziario</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u7">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg11">Il senatore Mallegni ha facoltà di illustrare l'interrogazione 3-00625 sull'impulso all'attività di governo al fine di favorire il miglioramento del quadro economico e finanziario, per tre minuti.</seg>
+            </u>
+            <note type="speaker">MALLEGNI (FI-BP)</note>
+            <u ana="#regular" who="#MallegniMassimo" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u8">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg12">Signor Presidente del Consiglio, innanzitutto le vogliamo esprimere tutta la nostra solidarietà per ciò che è accaduto qualche giorno fa all'Europarlamento con l'intervento del deputato belga Verhofstadt, perché riteniamo che un comportamento del genere non debba mai verificarsi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP, M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg13">Noi come Forza Italia non l'abbiamo mai fatto e non ci siamo mai permessi di prevaricare e di valicare i confini dello Stato per andare ad insegnare qualcosa a qualcun altro.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg14">Allo stesso tempo, però, Presidente, ci consenta una riflessione: lei purtroppo non esercita, in base all'articolo 95 della Costituzione, le sue prerogative. Lo sappiamo perfettamente che il 4 marzo è venuto fuori un risultato che non ha permesso la formazione di una maggioranza che potesse governare in funzione del risultato elettorale stesso e sappiamo bene che a giugno è venuto fuori un Governo che ha prodotto qualcosa di diverso da quello che gli elettori avevano deciso, cioè ha prodotto lei, signor Presidente del Consiglio. Che lei non sia nelle condizioni di poter svolgere il suo ruolo lo si vede dalle sue dichiarazioni, dalle sue prese di posizione, dalla questione del rapporto deficit -PIL della manovra economica (il 2,4 per cento invalicabile che poi è diventato il 2,04 andando in ginocchio davanti alla Commissione europea), dalla sua dichiarazione dopo l'approvazione della legge di bilancio: «il 2019 sarà un anno bellissimo», per chi ancora non l'abbiamo scoperto, sicuramente non per gli italiani. Ci dovevano essere meno tasse e non ci sono state, ci dovevano essere detrazioni per le imprese e non ci sono state, la disoccupazione galoppa e la produzione industriale cala dell'8 per cento. E allora a noi viene spontanea una domanda, che è simile a quella del collega Steger di poco fa. Noi vogliamo sapere se la manovra economica- bis, che l'altro giorno il sottosegretario alla Presidenza del Consiglio Giorgetti ha evocato, per poi rimangiarsela dopo qualche minuto, è una cosa che sarà all'attenzione del Parlamento, o se invece la scopriremo attraverso un tweet o un comunicato stampa. Come farete a sanare la questione dei 23 miliardi di clausole IVA per il 2020, visto che le azioni vanno messe in campo prima della fine dell'anno? Insomma, signor Presidente del Consiglio, io non voglio parafrasare colui che abbiamo detto aver svolto una funzione sbagliata nei suoi riguardi al Parlamento europeo. Però le dico: faccia il Presidente del Consiglio, eserciti i suoi ruoli e ci dica finalmente come stanno le cose.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg15">PRESIDENTE. Il presidente del Consiglio dei ministri, professor Conte, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CONTE</note>
+            <note type="role">presidente del Consiglio dei ministri</note>
+            <u ana="#guest" who="#ConteGiuseppe" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u9">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg16">Gentile senatore, vorrei rassicurarla sul fatto che il sottoscritto e qualsiasi Ministro che compone questo Governo è nel pieno delle sue prerogative. Di questo può stare assolutamente tranquillo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg17">Tutti agiamo con la più ferma determinazione e abbiamo l'obiettivo di difendere gli interessi degli italiani; è l'unica ragione che ci ispira, è l'unica ragione che ci guida.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg18">Quanto al merito dei quesiti specifici che ha posto, ritengo opportuno sottolineare che la strategia di politica economica messa in campo dal Governo affronta non solo la fase congiunturale, nella quale si osserva - come abbiamo già detto - un rallentamento economico dovuto a crescenti tensioni commerciali in tutto il continente europeo, ma soprattutto anche le ragioni per le quali il nostro Paese ha accumulato nell'ultimo decennio (non ieri o l'altro ieri) un ritardo strutturale nella crescita rispetto ai partner europei. Vorrei ricordare che, sul fronte della fiscalità, il Governo ha introdotto numerose forme di detassazione, volte a favorire gli investimenti e l'occupazione. Tra queste ricordo l'aliquota piatta al 15 per cento per le partite IVA e le piccole imprese con ricavi inferiori a 65.000 euro già nel 2019; la riduzione dell'Ires dal 24 al 15 per cento per le imprese che investono in beni strumentali e aumentano il numero di assunzioni stabili; la riduzione media del 32 per cento dei premi e contributi INAIL (stiamo parlando di un vero e proprio taglio del cuneo fiscale); il raddoppio dal 20 al 40 per cento della deducibilità dal reddito d'impresa dell'IMU pagata dalle imprese sui loro beni strumentali (e varie altre misure). L'attenzione al mondo delle imprese quindi c'è, soprattutto al mondo delle medie e piccole imprese, con importanti provvedimenti, fra cui il rifinanziamento della "Nuova Sabatini" per l'acquisto di beni strumentali o le misure che sbloccano i pagamenti. Tutti gli imprenditori devono sapere (alcuni ancora non lo sanno) che hanno la possibilità di ottenere tempestivi pagamenti dalla pubblica amministrazione tramite la triangolazione con Cassa depositi e prestiti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg19">Abbiamo rifinanziato il Fondo di garanzia per le piccole e medie imprese e i contratti di sviluppo. Abbiamo introdotto misure a sostegno dell'innovazione tecnologica, come il fondo per la blockchain e il cosiddetto «Internet delle cose», ovvero l'estensione della rete al mondo degli oggetti e dei luoghi concreti. Per quanto riguarda la manovra correttiva, l'ho già chiarito e lo ribadisco: non ravvisiamo nessuna necessità di discutere di una manovra correttiva</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg20">, anche in ragione delle misure prudenziali che abbiamo introdotto già nella legge di bilancio. Il Governo ribadisce infine la determinazione a disinnescare le clausole di salvaguardia dell'IVA per gli anni 2020 e 2021. Vorrei ricordare che lo ha già fatto per il 2019: nel corso del 2018, nel volgere di pochi mesi, abbiamo contrastato l'incremento dell'IVA per un valore pari a 12 miliardi e mezzo. Allo stesso modo ci stiamo adoperando per il corrente anno e per l'anno prossimo, confidando nelle varie misure di crescita economica e in specifici interventi di razionalizzazione della spesa pubblica.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg21">Stiamo lavorando a una complessiva revisione del sistema di tax expenditures, volta anche a rimodulare le detrazioni fiscali in un'ottica di produttività ed efficienza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg22">PRESIDENTE.Ha facoltà di intervenire in replica il senatore Mallegni, per due minuti.</seg>
+            </u>
+            <note type="speaker">MALLEGNI (FI-BP)</note>
+            <u ana="#regular" who="#MallegniMassimo" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u10">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg23">Signor Presidente del Consiglio, a Roma stare tranquilli non porta bene e io le potrei dire «stia sereno» che, secondo me, porta ancora meno bene.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg24">Le devo dire un'altra cosa, Presidente; ancora una volta mi duole dover stigmatizzare che lei è completamente staccato dalla realtà, perché il mondo reale di quanto lei ha ricordato poco fa non se ne è ancora accorto. I numeri sono in calo vertiginoso, l'occupazione è veramente ad un livello allucinante (stamani siamo al 34 per cento dell'occupazione giovanile), le imprese che hanno a che fare tutti i giorni con gli enti locali, in funzione della norma che voi avete inserito nella legge di bilancio per lo sblocco delle tasse comunali, avendo strozzato sindaci e amministrazioni locali, saranno costrette ad aumentare le tasse su quelle che sono le produttività di tutti i giorni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg25">Inoltre le detrazioni, che lei evocava sulla questione dell'IMU, scompariranno assolutamente perché la pressione fiscale lieviterà a tal punto che non consentirà sollievo alcuno da parte delle imprese. Questa è la verità.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg26">Noi l'attendiamo il 27 o il 28 maggio, decida lei il giorno, quando all'esito delle elezioni europee verrà sicuramente in Aula - forse, perché non sappiamo ancora quanto durerà questo Governo - a dirci che probabilmente sarà essenziale fare la manovra correttiva. Tutto quello che c'è prima delle elezioni europee infatti non esiste e ciò vale anche per quello che capita alle famiglie, comprese quelle con disabili. Ricordo che stiamo discutendo del reddito di cittadinanza dal quale è scomparsa ogni tipo di agevolazione per le famiglie con disabili e per quelle numerose.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg27">Un reddito di cittadinanza nel quale è impedito alle minoranze di poter portare avanti il proprio punto di vista, tagliando i dibattiti, chiudendo le Commissioni e stralciando emendamenti da voi presentati in Commissione e, per paura, ritirati.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg28">Questa è la condizione in cui si vive e allora, signor Presidente del Consiglio, le dico, con rispetto e con speranza, di esercitare il ruolo che la Costituzione le assegna in base all'articolo 95 e cerchi di non mettere gli italiani nelle condizioni di dar ragione all'eurodeputato belga, perché molti oggi la pensano così.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u11">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg29">Vorrei salutare una rappresentanza di studenti della «Stanford University», sezione di Firenze.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00621) - Question time su garanzia livelli essenziali prestazioni regionalismo differenziato</head>
+            <note type="time">(ore 15,28)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u12">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg30">La senatrice De Petris ha facoltà di illustrare l'interrogazione 3-00621 sulla garanzia dei livelli essenziali delle prestazioni nell'ambito del regionalismo differenziato, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u13">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg31">Signor Presidente del Consiglio, lei sa perfettamente che è la prima volta dal 2001, da quando è stata approvata la riforma del Titolo V, che in qualche modo diverse Regioni attivano richieste ai sensi dell'articolo 116, terzo comma, della Costituzione. Si sta procedendo, a nostro avviso, in assenza di precedenti e di un quadro chiaro e definito entro il quale costruire le intese. Peraltro, a proposito della riunione del Consiglio dei ministri del 14 febbraio, abbiamo potuto soltanto leggere il comunicato in cui si dice semplicemente che dopo l'illustrazione delle intese raggiunte con le Regioni interessate da parte del Ministro competente, il Consiglio dei ministri ne ha preso atto e condiviso lo spirito. Si continua così a non avere gli elementi di chiarezza circa i parametri entro i quali ci si sta muovendo, nella totale e completa assenza di partecipazione e di informazione al Parlamento.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg32">Signor Presidente del Consiglio, per quello che ci è dato sapere, conoscere e leggere, le richieste delle Regioni potrebbero comportare insieme alle nuove competenze, anche il trasferimento delle risorse ritenute necessarie, calcolate in base ai fabbisogni standard. In questo modo si determinerebbe di fatto una sperequazione con altre Regioni e, soprattutto, il livello dei diritti dei cittadini di quelle Regioni verrebbe garantito in base al reddito dei residenti. Quindi la cittadinanza e la possibilità di esercitare i propri diritti sarebbero legate di fatto alla residenza. Signor Presidente del Consiglio,lei sa meglio di noi che l'articolo 117 della Costituzione stabilisce che lo Stato ha legislazione esclusiva sulla determinazione dei livelli essenziali delle prestazioni concernenti i diritti civili e sociali da garantire sul territorio. Quindi le chiediamo come intenda procedere il Governo, prima di arrivare al trasferimento di competenze ad una o più Regioni, per garantire preventivamente i livelli essenziali delle prestazioni e quali livelli inderogabili di quantità e qualità dei servizi offerti intende garantire su tutto il territorio nazionale, come sancito dall'articolo 117 della Costituzione - ad oggi ancora disattesi, come lei sa - ancorando il trasferimento di risorse sulle materie assegnate alle Regioni esclusivamente con parametri validi per l'intero territorio nazionale ed escludendo quindi ogni riferimento ad indicatori collegati all'introito fiscale. Signor Presidente del Consiglio, dovrebbe essere ben cosciente del fatto che c'è un limite oggettivo nell'articolo 116, terzo comma, e nel trasferimento delle competenze, costituito dall'articolo 5 della Costituzione, sull'unità della Repubblica, dall'articolo 3, sull'uguaglianza dei cittadini, e dagli altri principi fondamentali della Costituzione, quali ad esempio l'articolo 9, sulla tutela dell'ambiente e dei beni culturali. Tra l'altro siamo molto preoccupati del fatto che si voglia procedere attraverso l'articolo 8 della Costituzione, che però non c'entra nulla, visto che esso si riferisce alle intese con le confessioni religiose. In questo caso stiamo parlando invece di un procedimento, che non ha nulla a che fare con la garanzia per le minoranze religiose. Quindi, su questi aspetti esprimiamo la nostra preoccupazione e vorremmo avere risposte chiare dal Governo e da lei, signor Presidente del Consiglio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg33">PRESIDENTE. Il presidente del Consiglio dei ministri, professor Conte, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CONTE</note>
+            <note type="role">presidente del Consiglio dei ministri</note>
+            <u ana="#guest" who="#ConteGiuseppe" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u14">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg34">Signor Presidente, gentile senatrice, l'interrogazione in oggetto mi consente di chiarire un passaggio, sicuramente molto significativo, che ci occuperà nei prossimi giorni, nelle prossime settimane e nei prossimi mesi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg35">È opportuno evidenziare come il processo di attuazione dell'autonomia differenziata sia previsto dalla Costituzione - sembra scontato dirlo - con riferimento all'articolo 116, terzo comma, che assegna la possibilità di attribuire forme e condizioni particolari di autonomia alle Regioni a Statuto ordinario. Gioverà ricordare anche l'ambito delle materie nelle quali possono essere riconosciute tali forme ulteriori di autonomia, ovvero tutte quelle materie che l'articolo 117, terzo comma, attribuisce alla competenza legislativa concorrente e un ulteriore numero di materie riservate dallo stesso articolo 117, secondo comma, alla competenza legislativa esclusiva dello Stato, ovvero l'organizzazione della giustizia di pace, le norme generali sull'istruzione e la tutela dell'ambiente, dell'ecosistema e dei beni culturali. È disposto, come sapete, che le competenze siano attribuite con legge dello Stato, approvata a maggioranza assoluta dei componenti, sulla base di un'intesa tra lo Stato e la Regione interessata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg36">Ricordo che sin dalla redazione del contratto per il Governo del cambiamento è chiaramente evidenziato che il percorso del regionalismo differenziato dovrà tenere in considerazione non solo la peculiarità delle realtà territoriali, ma anche la piena realizzazione della solidarietà nazionale, nell'ambito della tutela dell'unità giuridica, di quella economica e dei livelli essenziali delle prestazioni concernenti i diritti civili e sociali, prescindendo dai confini territoriali.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg37">In questa fase, com'è noto, l'Esecutivo sta completando un'intensa e complessa attività istruttoria e di negoziazione, propedeutica alla redazione di un testo condiviso con le Regioni richiedenti. Il Governo è disponibile ad aprire un confronto con il Parlamento in merito al contenuto di questo progetto nelle forme che verranno nei prossimi giorni definite, nel rispetto delle prerogative del Parlamento. Il Governo è ben consapevole della centralità delle Camere nell'ambito di un processo di trasferimento di competenze legislative che assume un rilievo costituzionale e che vede il Parlamento necessariamente e doverosamente coinvolto.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg38">Per quanto riguarda la richiesta di definire preventivamente i livelli essenziali delle prestazioni, informo che le bozze di intesa richiamano al loro interno sia i fabbisogni standard, sia i livelli essenziali delle prestazioni. La definizione dei fabbisogni standard, in attuazione dell'articolo 116, terzo comma della Costituzione, non riguarda la spesa per l'esercizio delle funzioni delle Regioni, bensì la spesa sostenuta dallo Stato nelle Regioni per le funzioni oggi in capo allo stesso. Dunque, di fabbisogni su indicatori comuni a tutte le Regioni si tratterà e saranno definiti da un comitato paritetico composto da rappresentanti delle Regioni e dello Stato, rispondendo a criteri unitari per l'erogazione dei servizi in ogni angolo del Paese. Non è previsto in alcun modo il riferimento ad indicatori collegati all'introito fiscale. A riguardo, nell'ambito delle risorse finanziarie in conformità all'istruttoria svolta dal Ministero per gli affari regionali e le autonomie con il Dicastero dell'economia e delle finanze, posso sin d'ora precisare che il trasferimento avverrà in base al costo storico, cioè verrà individuato quanto lo Stato spende sul territorio della Regione interessata per la specifica materia da trasferire; la determinazione del costo sarà individuata da un'apposita commissione paritetica Stato-Regioni. Il costo così individuato sarà trasformato in parte di compartecipazione sui tributi erariali e stabilito con decreto del Presidente del Consiglio, sul quale saranno coinvolte le Commissioni parlamentari competenti e la Conferenza unificata. Le risorse finanziarie allocate dallo Stato nelle altre Regioni rimarranno invariate. Entro un anno dall'emanazione del decreto del Presidente del Consiglio dei ministri, dovranno essere individuati i fabbisogni standard delle competenze statali nelle singole Regioni (tutte, non solo quelle che hanno chiesto l'autonomia differenziata). A tal fine, sarà costituito un apposito comitato paritetico Stato-Regioni composto da rappresentanti delle amministrazioni statali e rappresentanti di tutte le Regioni a Statuto ordinario. Posso assicurare che il complesso procedimento che si sta dipanando coniugherà, in piena conformità con la nostra architettura costituzionale, il rafforzamento, sì, dell'autonomia regionale ove richiesto, ma con la salvaguardia della solidarietà e della coesione nazionali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg39">PRESIDENTE.Ha facoltà di intervenire in replica il senatore Errani, per due minuti.</seg>
+            </u>
+            <note type="speaker">ERRANI (Misto-LeU)</note>
+            <u ana="#regular" who="#ErraniVasco" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u15">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg40">Con tutto il rispetto, la sua risposta è così generica da non rassicurarci. Ciò che noi temiamo di più, presidente Conte, è che, come dimostrano le sue parole o il testo del contratto di Governo, si affronti una questione che riguarda i diritti essenziali dei cittadini, cito solo la sanità e l'istruzione, che sono sistemi nazionali, e penso che nessuno, tanto meno lei, vorrà immaginare che ci siano insegnanti regionali o medici regionali. La sua risposta è insoddisfacente perché si finge di non vedere qual è il problema di fondo. Stiamo, ancora una volta, rovesciando il percorso: prima l'autonomia, poi si dovrebbero definire i livelli essenziali e i fabbisogni standard. Lei capisce che questa ipotesi non regge. E se aveste la pazienza di verificare quello che è successo dal 2001 col Titolo V della Costituzione, potreste verificare che - ahinoi - è stata la Corte costituzionale, meritoriamente, a definire i confini reali della legislazione nazionale e della legislazione regionale. Questo perché il Parlamento non è stato in grado di definire i livelli essenziali delle prestazioni e i principi fondamentali. Se diamo più autonomia - certo, il terzo comma dell'articolo 116 è una disposizione costituzionale e noi siamo per applicarla, ma con tutte le garanzie - relativamente alle norme generali dell'istruzione, quali sono i principi fondamentali sull'istruzione che debbono essere garantiti dalle legislazioni regionali?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg41">Questo è il punto, signor Presidente del Consiglio. E se si rovescia questo percorso, faremo confusione e avremo il federalismo fai da te, che è peggio del centralismo dello Stato, e peggio ancora saranno i centralismi regionali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-LeU e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg42">Di questo dovete prendere consapevolezza. Noi siamo pronti a fare una discussione di merito seria.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg43">Allora sgombriamo il campo. Signor presidente Conte, io ho colto la sua attenzione sul coinvolgimento del Parlamento, ma - intendiamoci - il coinvolgimento del Parlamento non è una qualche audizione o un dibattito; coinvolgere il Parlamento vuol dire abbandonare il percorso dell'articolo 8 della Costituzione, che non c'entra niente con l'autonomia, e costruire un percorso affinché il Parlamento svolga la sua funzione legislativa.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg44">PRESIDENTE.Senatore Errani, concluda, per cortesia.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg45">Definisca i LEP, definisca i principi fondamentali. A quel punto, si può procedere; diversamente sarà confusione. Signor Presidente del Consiglio, questo Paese ha già tantissimi problemi, e lei lo sa; sono convinto che lo sappia. Non costruiamo altri elementi di confusione e di conflitto, perché di questo il Paese non ha assolutamente bisogno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-LeU e PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u16">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg46">Colleghi, a me non piace mai interrompere, però il tempo è stato sforato abbondantemente, e devo dire da parte di tutti. Quindi vi pregherei di attenervi ai tempi perché c'è una diretta televisiva.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00622) - Question time su titolarità riserve auree detenute dalla Banca d'Italia</head>
+            <note>La senatrice Rauti ha facoltà di illustrare l'interrogazione 3-00622 sulla titolarità delle riserve auree detenute dalla Banca d'Italia, per tre minuti.</note>
+            <note type="speaker">RAUTI (FdI)</note>
+            <u ana="#regular" who="#RautiIsabella" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u17">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg47">Signor Presidente, signor Presidente del Consiglio, l'Italia è il terzo Stato al mondo per consistenza di riserve auree, dopo gli Stati Uniti e la Germania, con 2.452 tonnellate d'oro, pari oggi ad una somma di circa 100 miliardi di euro. Le riserve auree italiane sono dunque fra le più cospicue al mondo e sono custodite prevalentemente nei caveau della Banca d'Italia, e in parte all'estero presso alcune banche centrali. Le riserve auree hanno da sempre svolto una funzione essenziale e di garanzia dell'indipendenza e della sovranità del popolo italiano. Sulla base di studi di eminenti costituzionalisti, l'analisi della normativa vigente induce a ritenere che si tratti di beni pubblici di natura quasi demaniale destinati ad uso di utilità generale. Si consideri che l'articolo 127, paragrafo 2, del Trattato sul funzionamento dell'Unione europea stabilisce che tra i compiti da assolvere tramite il Sistema europeo di banche centrali vi siano la detenzione e la gestione delle riserve ufficiali in valuta estera degli Stati membri, evidenziando nessuna supponibile ingerenza circa la proprietà e il titolo in forza del quale le banche centrali nazionali detengono tali riserve, ivi comprese quelle auree, lasciando così sul campo del diritto domestico la determinazione della questione. Se ciò è vero, le norme relative all'attività di gestione devono interpretarsi nel senso che la Banca d'Italia gestisce e detiene, ad esclusivo titolo di deposito - lo sottolineo -, le riserve auree, rimanendo impregiudicato il diritto di proprietà dello Stato italiano su dette riserve, comprese quelle detenute all'estero. Allora, un'esplicita specificazione sulla proprietà dell'oro in questione in capo allo Stato italiano si rende necessaria, vista e considerata la natura ibrida assunta dalla Banca d'Italia nel corso degli anni in conseguenza dei numerosi interventi legislativi. Il Gruppo Fratelli d'Italia chiede da tempo il pronunciamento chiaro e definitivo sulla titolarità delle riserve auree detenute dalla Banca d'Italia. L'argomento è divenuto, peraltro, estremamente attuale in considerazione anche delle recenti dichiarazioni di esponenti istituzionali della Banca d'Italia e rappresentanti autorevoli della maggioranza di Governo. Atteso che Fratelli d'Italia ritiene che le riserve auree non possano essere utilizzate per coprire esigenze di bilancio, ma debbano rimanere quale riserva a garanzia della solidità del patrimonio nazionale, chiediamo di sapere, alla luce di quanto esposto, quale sia la posizione del Governo riguardo alla proprietà delle riserve auree italiane e se si intenda affermare in modo chiaro e inequivocabile che esse appartengono al popolo e allo Stato italiano e non alla Banca d'Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg48">PRESIDENTE.Il presidente del Consiglio dei ministri, professor Conte, ha facoltà di rispondere all'interrogazione testé illustrata.</seg>
+            </u>
+            <note type="speaker">CONTE</note>
+            <note type="role">presidente del Consiglio dei ministri</note>
+            <u ana="#guest" who="#ConteGiuseppe" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u18">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg49">Gentile senatrice, in relazione alla questione da lei posta, segnalo che le riserve auree sono sempre state in verità iscritte all'attivo della situazione patrimoniale della Banca d'Italia e che tra le operazioni di sua pertinenza sono sempre rientrate l'acquisto e la vendita di oro e di valute auree.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg50">Anche dopo il superamento del gold standard, le Banche centrali hanno continuato a possedere riserve auree al fine di rafforzare la fiducia nella stabilità del sistema finanziario e della moneta e di diversificare il valore delle loro attività di riserva per mantenerne equilibrato il valore. Con il Trattato di Maastricht, per volontà degli Stati contraenti, sono state trasferite in maniera esclusiva all'Unione europea le competenze sovrane in materia di politica monetaria (è cosa nota, evidentemente). Di conseguenza, la detenzione e la gestione delle riserve valutarie, tra cui quelle auree, rientra ora tra i compiti fondamentali dell'eurosistema, composto dalla BCE e dalle Banche centrali nazionali degli Stati dell'area dell'euro. Le riserve auree nelle disponibilità delle Banche centrali nazionali possono essere utilizzate, oltre che per interventi sul mercato dei cambi, anche per adempiere agli impegni nei confronti di organismi finanziari internazionali o per espletare il servizio di debito in valuta del Tesoro. Non sembra possibile, inoltre, che le riserve auree possano essere rivendicate dai partecipanti al capitale di Banca d'Italia, i cui diritti patrimoniali, come è noto, sono limitati al valore del capitale e agli utili netti annuali. Le Banche centrali nazionali debbono poter esercitare il loro potere di detenzione e gestione delle riserve in piena indipendenza; le autorità nazionali, legislative e di Governo, sono tenute al rispetto dell'indipendenza della BCE e delle Banche centrali nazionali, ai sensi dei trattati europei sottoscritti dagli Stati contraenti. Sotto il profilo dell'indipendenza istituzionale, le Banche centrali nazionali non possono essere destinatarie di prescrizioni vincolanti per quanto attiene allo svolgimento dei propri compiti istituzionali nelle materie di competenza del loro sistema, anche con specifico riguardo alle riserve valutarie: ce lo impongono l'articolo 130 del Trattato sul funzionamento dell'Unione europea e l'articolo 7 dello statuto del Sistema europeo di Banche centrali (SEBC). Gli Stati devono, altresì, rispettare l'indipendenza finanziaria delle Banche centrali assicurando che essi abbiamo sufficienti risorse finanziarie per svolgere i propri compiti. Gli Stati membri hanno deciso, infine, di vincolarsi al rispetto del divieto di finanziamento monetario: mi riferisco all'articolo 123 del Trattato. Esso impedisce alle Banche centrali nazionali, a tutela del perseguimento dell'obiettivo di stabilità dei prezzi e del mantenimento della disciplina fiscale, di erogare credito allo Stato e agli altri enti pubblici, incluso il finanziamento degli obblighi al settore pubblico nei confronti dei terzi. La Banca centrale europea ha precisato che il divieto comprende qualsiasi erogazione finanziaria, anche in assenza di un obbligo di restituzione, al fine di tenere conto della finalità ultima della norma. Per intenderci, un eventuale trasferimento non oneroso o comunque effettuato a prezzi inferiori a quelli di mercato di attività finanziarie dal bilancio della Banca d'Italia a quello dello Stato rientrerebbe pertanto in tale divieto. Risulta quindi, dall'assetto normativo descritto, che la proprietà delle riserve auree nazionali è della Banca d'Italia, ente pubblico che svolge le funzioni di banca centrale della Repubblica Italiana: l'utilizzo della riserva aurea rientra tra le finalità istituzionali della banca a tutela del valore della moneta. Un intervento normativo volto a modificare gli assetti della proprietà aurea della Banca d'Italia, ancorché nell'ambito della discrezionalità politica del legislatore nazionale, andrebbe, quindi, valutato sul piano della compatibilità con i principi basilari che regolamentano l'ordinamento del Sistema europeo delle Banche centrali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg51">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice Rauti, per due minuti.</seg>
+            </u>
+            <note type="speaker">RAUTI (FdI)</note>
+            <u ana="#regular" who="#RautiIsabella" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u19">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg52">Signor Presidente del Consiglio, rispetto il suo ruolo ma, per sincerità politica, debbo dire con molta chiarezza che il Gruppo Fratelli d'Italia non solo non è affatto soddisfatto della sua risposta, ma è anche preoccupato perché, purtroppo, lei non solo ha eluso la domanda di fondo, ovvero l'effettiva titolarità delle riserve auree, ma è andato oltre, dichiarando esplicitamente che le riserve sono di Banca d'Italia. Questo, oltre a non avere precedenti, è in contraddizione con quanto dichiarato da autorevoli esponenti della maggioranza del Governo che lei presiede.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg53">Noi continuano a ribadire, invece, che sia necessario - e non da valutare - un intervento legislativo per correggere un difetto oggettivo e per colmare un vuoto normativo. Continuiamo a pensare, coerentemente, che l'oro appartenga agli italiani e che questo principio non vada enunciato, ma vada certificato, precisando l'aspetto giuridico della proprietà legale dell'oro. Questo anche perché non vogliamo che l'oro della Banca d'Italia venga usato per altri fini, ovvero - mi consenta - per tappare i buchi di finanze pubbliche o per evitare manovre correttive, insomma, per correggere disastrose politiche economiche.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg54">Sull'utilizzo, poi, delle riserve auree, è evidente - lo sappiamo - che esistono dei paletti: il già citato Trattato dell'Unione europea, ma anche i paletti imposti dalla Banca centrale europea, cui si appella anche il direttore generale di Bankitalia in cerca di una risposta che non c'è e che non arriva.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg55">Noi siamo convinti, invece, Presidente, che il rafforzamento del Paese passi anche attraverso la proprietà pubblica di Banca d'Italia, e per questo abbiamo presentato un disegno di legge sulla nazionalizzazione della Banca d'Italia e sul ritorno alla Banca d'Italia delle risorse auree in questo momento custodite all'estero.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg56">Chiediamo inoltre, con forza, che si voti in questa Assemblea la nostra mozione sulle riserve auree, sperando di avere anche il sostegno di quelle forze che si dicono sovraniste ma che, poi, alla politica dei fatti, in realtà, non concretizzano il sovranismo né ne pongono le basi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg57">L'oro detenuto da Bankitalia, a nostro avviso, è degli italiani e dello Stato; tutto il resto - mi consenta - è una retorica sovranista, se poi ci si piega, nella logica delle cose concrete, ai poteri forti e alla grande finanza invece di difendere l'autonomia monetaria e l'oro, che è della Patria e che non è e non può essere ritenuto delle banche.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00626) - Question time su misure volte a fronteggiare peggioramento dati congiunturali economia</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u20">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg58">Il senatore Marcucci ha facoltà di illustrare l'interrogazione 3-00626 sulle misure volte a fronteggiare il peggioramento dei dati congiunturali dell'economia, per tre minuti.</seg>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u21">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg59">Signor Presidente del Consiglio, la ringrazio per la disponibilità a essere oggi in Aula. Lei avrà ascoltato molti colleghi di diversi Gruppi preoccupati per la situazione alla quale state portando il nostro Paese e la nostra economia e oggi - almeno fino ad ora - esco da questa seduta ancora più preoccupato - il Partito Democratico esce ancora più preoccupato - perché o lei finge o lei non sa. La situazione è molto grave: state portando il Paese - e i dati lo dimostrano - in una situazione di una gravità senza precedenti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg60">In un accorato intervento che ebbi modo di fare davanti a lei a conclusione della discussione sulla legge di bilancio - discussione che in realtà non vi fu, perché non ci avete permesso di leggerla e di approfondirla - le rivolsi un appello, signor Presidente: quello di prendere coscienza e di valutare l'emergenza nella quale stavate portando il Paese. Ecco, lei ci rispose che dopo la manovra, per esempio, lo spread sarebbe calato. Poi ci spiegaste anche che lo spread non toccava i cittadini e neanche i conti pubblici: quei 2 miliardi di euro che avete accantonato basteranno a malapena a far fronte allo spread così alto, come voi lo avete determinato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg61">Oggi l'ultimo dato attesta che lo spread supera di nuovo i 270 punti. La Spagna, che per tanti anni di governo di centrosinistra ha avuto uno spread superiore a quello dell'Italia, oggi è a 107. Si tratta di 163 punti di differenza, che sono imputabili al vostro cattivo Governo e alla vostra cattiva gestione, che viene pagata con soldi pubblici e che gli italiani stanno pagando con gli interessi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg62">State portando l'industria in situazioni allucinanti, con un crollo della produttività e della produzione. Ci sono dati incontrovertibili. Sapevate che il dato sul PIL che avete inserito nella legge di bilancio non era realizzabile, avete raccontato e continuate a raccontare bugie, come quella che non adotterete il provvedimento per risanare i conti a giugno o luglio, perché non ci sono le condizioni.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg63">Lei, signor Presidente del Consiglio, si presentò agli italiani come l'avvocato degli italiani. Lei sa benissimo che il primo dovere di un avvocato è quello di essere serio, sincero e trasparente. Lei e il suo Governo non siete né seri, né sinceri, né trasparenti con gli italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Commenti dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg64">State continuando a dare i numeri - numeri sbagliati, che stanno portando l'Italia sul baratro - esclusivamente per avere un tornaconto elettorale, ma gli italiani non sono stupidi e se ne stanno accorgendo. Anche se oggi, qui, in Aula, il suo Governo non è giallo-verde, ma è diventato solo giallo, come evidenziato dalla presenza dei rappresentanti del Governo, tutto il Governo è responsabile di tutto quello che di male state facendo al nostro Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg65">PRESIDENTE. Il presidente del Consiglio dei ministri, professor Conte, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CONTE</note>
+            <note type="role">presidente del Consiglio dei ministri</note>
+            <u ana="#guest" who="#ConteGiuseppe" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u22">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg66">Signor Presidente, in merito alle questioni appena poste, ricordo che il Governo ha voluto predisporre una legge di bilancio di carattere espansivo proprio al fine di contrastare il rallentamento economico dovuto - sì - alle tensioni commerciali internazionali e che era possibile prevedere già dal terzo trimestre del 2018.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg67">C'è stato il negoziato con le istituzioni europee, nel corso del quale il Governo ha avuto modo di far prevalere le proprie ragioni e gli interessi della nazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg68">Tale negoziato si è concluso con esito positivo, evitando al Paese una procedura di infrazione che avrebbe - essa sì - pesato sulle prospettive di crescita future. Questa trattativa ha inoltre smentito una narrazione di cui il Governo è stato vittima nei primi mesi del suo mandato, in merito al posizionamento europeo del Paese, fugando le tensioni sui mercati obbligazionari.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg69">Ho dichiarato e lo ribadisco che non è in preparazione alcuna manovra correttiva.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg70">Ho già anticipato e lo ribadisco che questo Governo si è mosso in maniera prudente e ha introdotto misure prudenziali per il caso in cui i conti pubblici dovessero andare incontro a scenari meno favorevoli.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg71">L'azione del Governo a sostegno della crescita si fonda, in realtà, su un corposo piano di investimenti pubblici, che aggiungerà 15 miliardi alle risorse già postate in bilancio per il prossimo triennio, e su un'attenta azione di rilancio degli investimenti sui territori.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg72">Ricordo che ho firmato i due decreti che istituiscono la cabina di regia Strategia Italia e la struttura di missione Investitalia, che affiancheranno le amministrazioni centrali e gli enti locali nel rilancio delle opere pubbliche e nel riammodernamento delle infrastrutture. Proprio ieri ho firmato il decreto che avvia il Piano nazionale contro il dissesto idrogeologico.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Malpezzi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg73">È un passaggio fondamentale per sbloccare tutte le opere di messa in sicurezza di cui necessita il nostro territorio, che al contempo costituisce un ulteriore motore per l'attività economica. Nel piano appena approvato prevediamo vari interventi, distribuendo misure d'emergenza, di prevenzione, di manutenzione e ripristino, nonché di semplificazione. Il piano, pur essendo pluriennale, contiene un piano stralcio per il 2019 con investimenti sino a 3 miliardi di euro, da spendere immediatamente.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg74">Nel complesso, i fondamentali economici del Paese restano ben solidi. A una condizione di stabilità del mercato del lavoro, testimoniata dagli indicatori sull'occupazione del dicembre 2018 rilasciati dall'Istat, corrisponde anche un quadro di stabilità del sistema bancario e della situazione patrimoniale delle famiglie, come riportato dalla medesima Banca d'Italia. Il livello dei tassi applicati dalle banche su nuove operazioni a famiglie e imprese non finanziarie resta stabile e, in alcuni casi, subisce una revisione al ribasso con differenze trascurabili su base annuale.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg75">Al contempo, prosegue la massiccia cessione dei crediti deteriorati, dei quali 15 miliardi di euro sono stati cartolarizzati o ceduti nel solo mese di dicembre 2018. Se è vero che emerge un rallentamento del tasso di crescita dei volumi del credito, che resta comunque positivo, questo risulta coerente con una fase di rallentamento economico che, come detto, siamo fiduciosi di poter invertire grazie alle politiche disposte in manovra.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Bellanova.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg76">Senatore Marcucci, un'ultima riflessione: il Governo intende affrontare non soltanto le esigenze di breve periodo, ma anche invertire il trend strutturale di bassa crescita degli anni passati e che ci ha visto agli ultimi posti nella classifica della crescita su scala europea, nonostante le politiche monetarie poste in essere dalla BCE e un quadro economico internazionale ben più favorevole di quello attuale.</seg>
+               <kinesic type="applause">
+                  <desc>Prolungati applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg77">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Marcucci, per due minuti.</seg>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u23">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg78">Signor Presidente, le regole sui tempi in Parlamento valgano per tutti, anche per il Presidente del Consiglio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg79">A me dispiace anche per i Gruppi che dovrebbero intervenire dopo di noi, quindi mi permetto di sottolineare la questione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u24">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg80">Continuo a dare i tempi, ma mi pare che nessuno oggi li abbia rispettati, mettendo in difficoltà anche la diretta televisiva. L'ho detto ripetutamente, ma non mi piace e non ho interrotto mai nessuno. Tutti hanno sforato.</seg>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u25">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg81">Signor Presidente, appunto: l'ha detto rivolgendosi ai Gruppi, ma forse lo dovrebbe dire anche al Governo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg82">Signor Presidente del Consiglio, lei ha detto che sarà un anno bellissimo, questo: lo sarà per lei e forse per tanti del MoVimento 5 Stelle e della Lega che hanno una posizione importante all'interno del Governo o una delle tante poltrone di sottogoverno che avete occupato.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo L-SP-PSd'Az.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg83">Forse sarà un anno bellissimo per voi e per questo, ma temo che sarà molto brutto per il nostro Paese e per gli italiani, per quello che di male state facendo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg84">Lei in Parlamento, dove ovviamente non è abituato a stare, perché non è nella sua esperienza personale, dovrebbe venire, parlare e ascoltare, perché certe volte leggere solo il compitino che le hanno preparato può non essere sufficiente né dare tutte le informazioni che servono.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg85">Cosa voleva dire allora, sostenendo che sarà un anno bellissimo? A pensar male, in questo caso, forse si fa la cosa giusta: può darsi che stiate realizzando gli obiettivi vostri e di questa maggioranza, ossia avere un Paese più insicuro, con più disoccupazione e che va verso la decrescita felice.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg86">Un Paese nel quale il ministro Toninelli, correttamente posizionato al suo fianco, blocca tutti gli investimenti pubblici, dove voi, con la legge di bilancio, avete tolto gli incentivi per gli investimenti privati e per la nuova occupazione dei giovani.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg87">MALPEZZI (PD). Bravo! MARCUCCI (PD). Voi avete fatto un'azione che va dritta a mettere un'ipoteca grave sul futuro del nostro Paese e dei nostri giovani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg88">Vi state prendendo una grave responsabilità e dovreste avere almeno il coraggio della sincerità e della trasparenza: questo coraggio, oggi, in quest'Aula, da lei non l'ho ascoltato, signor Presidente del Consiglio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00623) - Question time su salvaguardia ruolo produttivo stabilimento Alstom di Savigliano</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u26">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg89">Il senatore Bergesio ha facoltà di illustrare l'interrogazione 3-00623 sulla salvaguardia del ruolo produttivo dello stabilimento Alstom di Savigliano, per tre minuti.</seg>
+            </u>
+            <note type="speaker">BERGESIO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BergesioGiorgioMaria" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u27">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg90">Signor Presidente del Consiglio dei ministri, io mi rivolgo a lei in merito alla situazione produttiva e occupazionale italiana della Alstom, un gruppo industriale francese operante nel settore della costruzione di treni e di infrastrutture ferroviarie, recentemente venuto alla ribalta della cronaca per la mancata autorizzazione alla fusione con la tedesca Siemens da parte della Commissione europea.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg91">In Italia il gruppo opera tramite Alstom ferroviaria in tre stabilimenti, con un totale di circa 3.000 dipendenti ed un indotto che supera i 5.000. Alstom ferroviaria rappresenta un fiore all'occhiello del made in Italy grazie al centro di eccellenza di Savigliano, in provincia di Cuneo, dove si fabbricano i treni Pendolino, di conseguenza si tratta di commesse italiane. La produzione dei treni nel sito di Savigliano avviene in quota con un sito produttivo del gruppo Alstom localizzato in Polonia, quello di Katowice. Nel 2017 Alstom ferroviaria SpA ha attivato un progetto di ricerca e sviluppo concernente la nuova piattaforma di treni regionali. La Regione Piemonte ha partecipato al programma tramite lo stanziamento di 544.000 euro destinati al sito di Savigliano. A quanto ci risulta, negli ultimi mesi una quota crescente della produzione si starebbe spostando dal sito di Savigliano a quello polacco. Noi vorremmo sapere se i fatti di cui abbiamo appreso dalle informazioni ottenute in un incontro avuto con le associazioni sindacali e le rappresentanze sindacali unitarie (RSU) aziendali siano veritieri e quali iniziative il Governo intenda intraprendere in merito alla salvaguardia occupazionale e produttiva dello stabilimento di Savigliano e di conseguenza di tutto il percorso dei dipendenti italiani (importante è la quota produttiva dello stabilimento di Savigliano), tenuto conto anche degli interventi pubblici erogati sia a livello regionale sia a livello statale con il Piano nazionale industria 4.0. Sarebbe utile per noi, infatti, capire come e se sarà possibile intervenire anche alla luce delle recenti novità introdotte dal decreto dignità, approvato da questo Parlamento, in merito alle misure atte ad evitare la delocalizzazione produttiva di siti incentivati da risorse pubbliche.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az e della senatrice Donno</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg92">PRESIDENTE.Il presidente del Consiglio dei ministri, professor Conte, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CONTE</note>
+            <note type="role">presidente del Consiglio dei ministri</note>
+            <u ana="#guest" who="#ConteGiuseppe" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u28">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg93">Signor Presidente, il Governo è a conoscenza delle vicende riguardanti il gruppo Alstom nonché dell'attivazione, da parte della società, di un progetto di ricerca e sviluppo, tuttavia occorre effettuare qualche precisazione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg94">Dopo la notifica alla Commissione europea di una possibile operazione di fusione tra la Alstom ferroviaria e la Siemens, avvenuta come lei sa nel giugno 2018, il 28 gennaio scorso si è svolto un incontro presso il Ministero dello sviluppo economico finalizzato a fare il punto in merito al citato processo di fusione e al suo impatto sullo stabilimento della società di Savigliano. Nel frattempo, la Commissione europea ha espresso il proprio parere negativo rispetto alla fusione tra Alstom e Siemens, riscontrando il rischio di una lesione della concorrenza nei mercati dei sistemi di segnalamento ferroviario e dei treni ad alta velocità. È stato evidenziato infatti che le misure prospettate dalla società all'esito dei primi dubbi circa il possibile impatto negativo dell'operazione sulla concorrenza e sul mercato interno dell'Unione non sarebbero state idonee per rimediare alle criticità emerse.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg95">Questa decisione, tra l'altro, ha portato proprio in questi giorni (ed è cosa nota anche questa) Germania e Francia a proporre un manifesto, inteso a modificare le regole sulle concentrazioni e l' antitrust nell'Unione europea per favorire fusioni tra società europee. È un'iniziativa che mi permetto di giudicare abbastanza singolare, che si caratterizza per una impostazione ancora una volta bilaterale, nonostante miri ad affermarsi in un contesto europeo. È evidente infatti che per pervenire a una modifica delle regole europee in materia di concorrenza appaia inidoneo un manifesto di politica industriale bilaterale tra due pur autorevoli Paesi, ma occorre innanzitutto che si apra una preliminare discussione nelle sedi europee opportune, che miri a un sereno confronto tra tutti gli Stati membri per giungere a un progetto di riforma condiviso nel rispetto degli interessi di tutti i cittadini europei. In definitiva, confermo l'impegno del Governo a monitorare le attività dell'Alstom, onde prevenire criticità nello stabilimento di Savigliano che rappresenta un'eccellenza nel settore ferroviario italiano. Preciso inoltre che il 7 aprile 2017 è stato sottoscritto un accordo di programma tra il MISE, la Regione Lombardia e la Regione Piemonte per il finanziamento di un articolato programma di ricerca e di sviluppo finalizzato alla messa a punto di tecnologie innovative per la costruzione di diverse tipologie di treni. Questo Governo, dunque, continuerà a porre la massima attenzione su questa vicenda, posto che rientra tra i principali punti dell'azione governativa frenare, anzi contrastare le delocalizzazioni che hanno caratterizzato per anni questo Paese. A tal ultimo proposito evidenzio che uno dei primi provvedimenti normativi di questo Governo - lo ricorderete bene - è stato il cosiddetto decreto dignità che, attenzione, non sta solo modificando la struttura del mercato del lavoro in favore di rapporti più stabili (e mi riferisco agli ultimi dati appena diffusi dall'INPS).</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'AZ</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg96">Il decreto dignità ha anche previsto l'obbligo per le aziende che abbiano ottenuto aiuti di Stato al fine di effettuare investimenti produttivi di non trasferire per cinque anni a Paesi extra Unione europea l'attività economica che ha beneficiato del sostegno pubblico. In caso contrario, si è altresì previsto la decadenza dal beneficio concesso, nonché l'irrogazione di una sanzione amministrativa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'AZ</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg97">PRESIDENTE.Ha facoltà di intervenire in replica il senatore Bergesio, per due minuti.</seg>
+            </u>
+            <note type="speaker">BERGESIO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BergesioGiorgioMaria" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u29">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg98">Signor Presidente del Consiglio, grazie per la disponibilità e soprattutto per i chiarimenti. Noi crediamo che la questione dell'Alstom di Savigliano, nella sua soluzione, possa essere l'inizio di una nuova politica di difesa - come ha detto bene prima - della produzione industriale italiana e di conseguenza dell'occupazione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg99">Quando lo abbiamo approvato eravamo convinti che il decreto dignità - la cui legge di conversione è stata approvata da questo Parlamento - non fosse solo il titolo di un decreto-legge, ma legittimasse, nella sua applicazione, la vera dignità, che è quella delle imprese e dei lavoratori, a cui il legislatore, in questo caso tutto il Governo, si è ispirato sin dall'inizio. Perciò auspichiamo che venga monitorata questo tipologia di intervento e soprattutto l'attività del gruppo in questione in favore dei suoi lavoratori, ma anche di tutto l'indotto, delle imprese che vi lavorano.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00624) - Question time su avvio strutture di coordinamento per realizzazione di interventi messa in sicurezza territorio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u30">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg100">Il senatore Patuanelli ha facoltà di illustrare l'interrogazione 3-00624 sull'avvio delle strutture di coordinamento per la realizzazione di interventi di messa in sicurezza del territorio, per tre minuti.</seg>
+            </u>
+            <note type="speaker">PATUANELLI (M5S)</note>
+            <u ana="#regular" who="#PatuanelliStefano" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u31">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg101">Signor Presidente, onorevoli colleghi, presidente Conte, intanto la ringrazio anche per le risposte pacate e precise che ha dato fino adesso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppo M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg102">Se coloro che oggi sono all'opposizione avessero riservato, quando erano maggioranza, la stessa attenzione e preoccupazione che hanno verso questo Governo nei confronti ci ciò che facevano i Governi della scorsa legislatura, avremmo evitato di trovarci con 5 milioni di poveri, con ponti che crollano e con fiumi che esondano ogni volta che piove. Quindi la ringrazio per aver dato risposte puntuali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppo M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg103">A proposito delle questioni che hanno attinenza con le infrastrutture e con il dissesto idrogeologico, lei ha citato diverse volte, nelle risposte agli interroganti che mi hanno preceduto, alcune azioni che il Governo ha previsto di porre in essere: dapprima attraverso l'approvazione del cosiddetto decreto Genova, con l'istituzione di una cabina di regia che ha il compito di verificare lo stato di attuazione dei piani e dei programmi di investimento infrastrutturale, nonché di verificare lo stato di attuazione degli investimenti connessi a fattori di rischio per il territorio, come il rischio idrogeologico, la vulnerabilità sismica e le situazioni di particolare degrado ambientale necessitanti attività di bonifica. Poi, con la legge di bilancio, il Parlamento ha approvato un testo che demanda al Presidente del Consiglio dei ministri l'istituzione di una struttura di missione per il supporto delle attività del Presidente del Consiglio relative al coordinamento delle politiche del Governo e dell'indirizzo politico-amministrativo dei Ministri in materia di investimenti pubblici e privati, denominata Investitalia. Investitalia dovrebbe quindi operare alle dirette dipendenze del Presidente del Consiglio dei ministri anche in raccordo con la cabina di regia Strategia Italia, di cui al citato articolo 40 del cosiddetto decreto Genova.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg104">Considerato quindi che l'istituzione delle citate strutture di raccordo appare necessaria al fine di attuare un piano di messa in sicurezza del territorio, nonché di individuare soluzioni operative in materia di investimento e di ammodernamento delle infrastrutture e che risulta indispensabile, quindi, garantire equilibrio e sostenibilità al fragile assetto idrogeologico del territorio, attraverso soluzioni coordinate a livello nazionale delle citate strutture di raccordo, si chiede di sapere quale sia lo stato di avanzamento delle procedure per l'istituzione della cabina di regia di Investitalia e per l'approvazione dei relativi decreti al fine di poter disporre quanto prima delle medesime strutture.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg105">Inoltre, si chiede di sapere quali iniziative si intendano attivare al fine di dare attuazione ai piani e ai programmi di investimento, nonché agli interventi connessi ai fattori di rischio per il territorio che prima citavamo: dissesto idrogeologico, vulnerabilità sismica degli edifici pubblici e le situazioni di particolare degrado ambientale che necessitano di attività di bonifica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg106">PRESIDENTE. Il presidente del Consiglio dei ministri, professor Conte, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CONTE</note>
+            <note type="role">presidente del Consiglio dei ministri</note>
+            <u ana="#guest" who="#ConteGiuseppe" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u32">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg107">Senatore Patuanelli, la ringrazio perché questa sua interrogazione mi consente di informare l'Assemblea sul lavoro costante di questo Governo in una materia che consideriamo fondamentale: gli investimenti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg108">L'ho già detto: il nostro obiettivo è tornare a crescere in una congiuntura economica che sappiamo essere non favorevole in tutta Europa, anche alla luce della guerra dei dazi che è in corso di combattimento, consentitemi questa espressione, nello spazio globale di mercato. Dinanzi a questa situazione non bisogna ritrarsi spaventati, bisogna invece imboccare con decisione e determinazione la strada della crescita e dello sviluppo, facendo degli investimenti il motore della crescita della nostra economia.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg109">In questi giorni, lei lo ha ricordato e l'ho anticipato anch'io, ho firmato due decreti presidenziali con i quali vengono istituite due strutture che saranno sicuramente strategiche, collocate presso la Presidenza del Consiglio, per coordinare, gestire e accelerare gli investimenti e la costruzione di nuove opere da attuare nel Paese: Strategia Italia (una cabina di regia) e la struttura di missione Investitalia. Il loro compito specifico sarà di favorire la realizzazione di programmi di investimenti riguardanti le infrastrutture materiali e immateriali, di manutenzione e riammodernamento delle infrastrutture delle pubbliche amministrazioni. Dovranno anche verificare gli stati di avanzamento dei progetti infrastrutturali e supportare le pubbliche amministrazioni nella realizzazione dei piani e dei programmi di investimento.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg110">Il nostro approccio alla realizzazione del piano di investimenti è basato su tre direttrici fondamentali: innanzitutto, è importante assicurare un flusso costante di risorse agli enti locali, onde evitare che l'attuazione delle opere venga bloccata anche quando l' iter normativo non presenta problemi. In secondo luogo, è necessario promuovere il cosiddetto capacity building a tutti i livelli della pubblica amministrazione, con particolare attenzione agli enti locali. Spesso, infatti, abbiamo riscontrato un deficit nella capacità di elaborare progetti. In terzo luogo, proviamo una decisa semplificazione degli adempimenti burocratici e degli ostacoli che in questi anni hanno impedito un armonico sviluppo delle opere pubbliche nel Paese, ed è anche per questa ragione che stiamo intervenendo con molta decisione per riformare il codice dei contratti pubblici, anzi anticipo che con il ministro Toninelli, qui presente, stiamo pensando di anticipare alcune misure di riforma del codice dei contratti pubblici, perché il Paese non può aspettare e la crescita economica non può tardare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg111">Come già ho anticipato, ieri ho firmato il Piano nazionale per la mitigazione del rischio idrogeologico, il ripristino e la tutela della risorsa ambientale, un piano di cui nei prossimi giorni presenteremo tutti i dettagli. È un progetto elaborato in piena sintonia e che coinvolge il ministro dell'ambiente Costa, il qui presente ministro Toninelli, il ministro per il Sud Lezzi e la medesima Protezione civile, perché razionalizza e definisce la strategia concreta di investimenti Regione per Regione, territorio per territorio, a valere già dal corrente anno e non in un futuro prossimo o futuribile. In questo modo rispondiamo - attenzione - anche al riconoscimento, che la Commissione europea ci ha riservato, della clausola di flessibilità nel rapporto deficit -PIL. Ricorderete infatti che il Governo ha chiesto alla Commissione europea l'attivazione della clausola di flessibilità ai fini di operazioni di prevenzione del dissesto idrogeologico e di manutenzione della rete stradale, per oltre 3 miliardi di euro, da spendere già nel 2019. L'Italia ha un territorio fragile, che dobbiamo e possiamo proteggere in primo luogo con la prevenzione e con interventi di messa in sicurezza diretti a neutralizzare il rischio di frane e alluvioni. Questo ovviamente non riguarda solo la crescita economica, ma riguarda anzi e ancor più la sicurezza dei cittadini. È questo il più significativo e urgente intervento pubblico di cui il nostro Paese necessita, la vera grande opera pubblica di cui l'Italia ha bisogno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg112">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Patuanelli, per due minuti.</seg>
+            </u>
+            <note type="speaker">PATUANELLI (M5S)</note>
+            <u ana="#regular" who="#PatuanelliStefano" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u33">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg113">Signor Presidente, sarò molto più breve dei due minuti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg114">Sono pienamente soddisfatto della sua risposta, signor Presidente del Consiglio. Ritengo che molte volte in questo Paese ci si chiuda, rispetto agli investimenti, in una discussione che ha a che fare soltanto con gli stanziamenti. In realtà, sappiamo bene che ci sono 150 miliardi di euro in previsione nei prossimi dieci anni e che questo Governo ha incrementato di 15 miliardi l'importo degli investimenti per il prossimo triennio. Il problema è avere la capacità di spendere questi soldi, che molto spesso non vengono spesi, e soprattutto di spenderli per le opere di cui il Paese ha bisogno e certamente la messa in sicurezza del territorio e la messa in sicurezza sismica dei nostri edifici rientrano tra le priorità. Abbiamo la certezza che, attraverso queste strutture di raccordo, si riuscirà a far sì che i piani di investimento non restino soltanto sulla carta, ma diventino invece investimenti che finalmente potranno rimettere in moto l'economia del Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg115">PRESIDENTE. Lo svolgimento delle interrogazioni a risposta immediata ( question time ) all'ordine del giorno è così esaurito.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">GRIMANI (PD)</note>
+            <u ana="#regular" who="#GrimaniLeonardo" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u34">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg116">Signor Presidente, intervengo per denunciare un fatto accaduto alcuni giorni fa nella mia Regione, l'Umbria, in una scuola di Foligno, un importante centro della nostra Regione. Si è verificato, durante una lezione, che un insegnante ha costretto un alunno di colore a girarsi verso la finestra, invitandolo a fissare un punto esterno, accusandolo di essere troppo brutto per stare girato. Si è trattato quindi di un fatto gravissimo e vergognoso, che va denunciato anche nella nostra Aula del Senato. Tale gravissimo episodio è sicuramente estraneo alla cultura diffusa di rispetto che c'è nella terra umbra e che ha sempre caratterizzato la gente della mia Regione, un episodio gravissimo proprio nel dibattito complessivo del nostro Paese. Auspico che venga fatta chiarezza. Notizie che giungono dalla Regione Umbria hanno evidenziato come il dirigente scolastico abbia chiesto un immediato intervento al direttore dell'Ufficio scolastico regionale e come siano in procinto di essere inviate delle relazioni al Ministero. Deve essere fatta chiarezza sulle gravissime responsabilità che un docente che si comporta in questo modo sicuramente ha. Credo però che vada fatta anche una riflessione più generale, molto breve. Il docente ha spiegato che si trattava di un esperimento sociale, una cosa veramente incomprensibile, ma credo che questi comportamenti debbano farci riflettere su un aspetto: nel nostro Paese c'è un'eccessiva tensione, c'è un clima eccessivamente pesante, che porta spesso all'utilizzo di espressioni e di argomentazioni a sfondo razzista e discriminatorio, che purtroppo possono portare poi a generare fenomeni di questo tipo. È nostro dovere e dovere delle istituzioni creare le condizioni per cui non si verifichino più fatti di questa gravità. Verranno accertate le responsabilità, non siamo noi a doverlo fare, ma è importante che ci sia attenzione nell'utilizzo delle argomentazioni e dei termini, perché spesso quando si produce vento, esso porta alla tempesta. È necessario quindi evitare questi comportamenti e dal Parlamento deve venire un monito in tal senso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE FALCO (Misto)</note>
+            <u ana="#regular" who="#DeFalcoGregorio" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u35">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg117">Signor Presidente, ringrazio per la cortesia istituzionale il presidente Conte, che ha ritenuto di poter rimanere con noi anche dopo lo svolgimento del question time. Mi soffermo solo due minuti, per poche parole e una breve riflessione. Subito dopo il voto della Giunta delle elezioni e delle immunità parlamentari, riguardante la richiesta di autorizzazione a procedere nei confronti del ministro Salvini, che ha approvato le conclusioni del relatore, senatore Gasparri, sono cessate le ostilità che in questi giorni avevano caratterizzato i rapporti all'interno della maggioranza. La Lega è sempre stata pronta ad ostacolare, a rallentare e a minacciare, in modo ambiguo, ma evidente, l'alleato contraente, che non poteva nascondere la propria difficoltà. Basti ricordare come, nel suo primo passaggio parlamentare, il decreto-legge in materia di reddito di cittadinanza abbia rischiato di essere davvero stravolto e non già per l'assalto delle opposizioni, ma per quello della Lega, che ha tentato di metterne in discussione alcuni punti fondanti. I componenti del MoVimento 5 Stelle hanno evitato modifiche sostanziali, ma hanno dovuto accettare dei compromessi, che hanno reso ancora più complessa la burocrazia connessa al sussidio. A quanto pare però, miracolosamente, si è giunti ora ad una desistenza leghista su ulteriori emendamenti al decreto-legge, dopo una sorta di ostruzionismo di maggioranza, che ha rallentato i lavori dell'Assemblea della settimana appena trascorsa. Inoltre, si è poi improvvisamente trovato l'accordo sulle nomine INPS, in sospeso, e l'accordo su una mozione parlamentare unitaria del MoVimento 5 Stelle e della Lega, volta a continuare a non scegliere sulla questione TAV. Si tratta di un rapporto causa-effetto? Non lo posso affermare, però si è improvvisamente trovato l'accordo. In un'altra epoca si sarebbe detto che a pensar male si fa peccato, ma spesso ci si azzecca. È davvero casuale che queste nuove convergenze tra i firmatari del contratto siano intervenute dopo il voto della Giunta, favorevole al leader della Lega? Quel voto che ha tanto profondamente lacerato il MoVimento 5 Stelle? O non si è forse di fronte ad un evento tipico di un'epoca, che speravamo proprio di aver lasciato le spalle e invece troviamo molto, molto vicina? Non occorre tanta, troppa fantasia per immaginare che ci possa essere stato un rapporto di scambio tra gli alleati contraenti. Se così fosse, sarebbe vergognoso perché ci riporterebbe a prassi indegne, esecrate da tutti a parole: quelle della cosiddetta prima Repubblica. Il cambiamento non si può tradurre nel ritorno a quelle pratiche, tipiche appunto della peggiore prima Repubblica: pratiche di spartizione e immobilismo, volte ad assicurare la sopravvivenza a un Governo che ormai appare chiaramente fermo, in contrasto però con le esigenze e l'interesse del Paese, che invece non deve fermarsi e che necessita di un'azione politica di impulso all'economia fatta di scelte responsabili e coerenti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e della senatrice De Petris.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u36">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg118">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di lunedì 25 febbraio 2019</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.u37">
+               <seg xml:id="ParlaMint-IT_2019-02-21-LEG18-Sed-92.seg119">Il Senato tornerà a riunirsi in seduta pubblica lunedì 25 febbraio, alle ore 10,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 16,29).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

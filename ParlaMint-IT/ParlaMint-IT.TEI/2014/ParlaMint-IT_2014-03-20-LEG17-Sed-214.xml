@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 214 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 214 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 214, giorno (2014-03-20)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 214, Day (2014-03-20)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="214-upper">214 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="180" unit="speeches" xml:lang="it">180 discorsi</measure>
+            <measure quantity="180" unit="speeches" xml:lang="en">180 speeches</measure>
+            <measure quantity="19410" unit="words" xml:lang="it">19.410 parole</measure>
+            <measure quantity="19410" unit="words" xml:lang="en">19,410 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0752051</idno>
+               <date when="2014-03-20">20.03.2014</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="20"/>
+               <tagUsage gi="head" occurs="15"/>
+               <tagUsage gi="note" occurs="234"/>
+               <tagUsage gi="seg" occurs="180"/>
+               <tagUsage gi="u" occurs="82"/>
+               <tagUsage gi="vocal" occurs="8"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="63"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="desc" occurs="72"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2014-03-20">20.03.2014</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza della vice presidente LANZILLOTTA</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u1">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg1">La seduta è aperta (ore 9,32). Si dia lettura del processo verbale. BARANI, segretario, dà lettura del processo verbale della seduta antimeridiana del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">CROSIO (LN-Aut)</note>
+            <u ana="#regular" who="#CrosioJonny" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg2">Signora Presidente, chiediamo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u3">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u4">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg4">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u5">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg5">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg6">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 9,39).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione dei disegni di legge: (1224) FEDELI ed altri. - Modifiche alla legge 24 gennaio 1979, n. 18, per la promozione dell'equilibrio di genere nella rappresentanza politica alle elezioni per il Parlamento europeo</note>
+            <note type="time">09,39</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43706.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1256) ALBERTI CASELLATI ed altri. - Modifiche alla legge 24 gennaio 1979, n. 18, in materia di parità di condizioni per l'elezione dei rappresentanti italiani al Parlamento europeo</note>
+            <note type="time">09,39</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43795.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1304) AMORUSO. - Modifica alla legge 24 gennaio 1979, n. 18, in materia di preferenze</note>
+            <note type="time">09,39</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43932.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1305) CALDEROLI. - Modifiche alla legge 24 gennaio 1979, n. 18, recante norme per l'elezione dei membri del Parlamento europeo spettanti all'Italia</note>
+            <note type="time">09,39</note>
+            <note type="status">(Votazione finale qualificata ai sensi dell'articolo 120, comma 3, del Regolamento)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43939.htm</note>
+            <note>(ore 9,39) Approvazione, con modificazioni, in un testo unificato con il seguente titolo:</note>
+            <note>Modifiche alla legge 24 gennaio 1979, n. 18, recante norme per l'elezione dei membri del Parlamento europeo spettanti all'Italia, in materia di garanzie per la rappresentanza di genere e relative disposizioni transitorie inerenti alle elezioni da svolgersi nell'anno 2014</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u6">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg7">L'ordine del giorno reca il seguito della discussione dei disegni di legge nn. 1224, 1256, 1304 e 1305, nel testo unificato proposto dalla Commissione.</seg>
+            </u>
+            <note>Riprendiamo l'esame degli articoli, nel testo unificato proposto dalla Commissione.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Ricordo che nella seduta antimeridiana di ieri ha avuto inizio la votazione dei subemendamenti presentati all'emendamento 1.1000 della relatrice. Passiamo alla votazione dell'emendamento 1.1000/21. CANDIANI</note>
+            <note>(LN-Aut)</note>
+            <note>Chiediamo che le votazioni vengano effettuate con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dal senatore Candiani, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Colleghi, in attesa che decorra il termine di venti minuti dal preavviso di cui all'articolo 119, comma 1, del Regolamento, sospendo la seduta.</note>
+            <note>(La seduta, sospesa alle ore 9,41, è ripresa alle ore 10)</note>
+            <note>.</note>
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+            <note>Riprendiamo i nostri lavori. Invito i colleghi senatori a prendere posto.</note>
+            <note>Votazione nominale con scrutinio simultaneo</note>
+            <note>PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 1.1000/21, presentato dal senatore Barani. Dichiaro aperta la votazione.</note>
+            <note>(Segue la votazione)</note>
+            <note>Onorevoli colleghi, stiamo votando! Aspetto solo perché questa è la prima votazione della giornata. Il Senato non approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Ripresa della discussione del disegno di legge n. 1224-1256-1304-1305 PRESIDENTE. Passiamo alla votazione dell'emendamento 1.1000/22.</note>
+            <note>Votazione nominale con scrutinio simultaneo</note>
+            <note>PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 1.1000/22, presentato dal senatore Barani. Dichiaro aperta la votazione.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato non approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Ripresa della discussione del disegno di legge n. 1224-1256-1304-1305 PRESIDENTE. Passiamo alla votazione dell'emendamento 1.1000/23.</note>
+            <note>Votazione nominale con scrutinio simultaneo</note>
+            <note>PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 1.1000/23, presentato dal senatore Calderoli. Dichiaro aperta la votazione.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato non approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Ripresa della discussione del disegno di legge n. 1224-1256-1304-1305 PRESIDENTE. Passiamo alla votazione dell'emendamento 1.1000/24, identico all'emendamento 1.1000/25.</note>
+            <note type="speaker">DE CRISTOFARO (Misto-SEL)</note>
+            <u ana="#regular" who="#DeCristofaroPeppe" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u7">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg8">Signor Presidente, vorrei chiedere l'attenzione dell'Aula sull'emendamento 1.1000/24. Tale emendamento riguarda la nostra richiesta volta ad abbassare la soglia di sbarramento per le elezioni europee dal 4 al 3 per cento. Capisco che in Italia c'è una propaganda, che va avanti da un po' di tempo a questa parte, secondo la quale i piccoli partiti sarebbero responsabili di tutte le nefandezze che sono accadute in questo Paese. Capisco anche che ciò viene detto e costruito per lavarsi la coscienza. Vorrei però avere l'attenzione dell'Aula su un punto. La quota di sbarramento al 4 per cento è prevista per le elezioni europee solo dall'ordinamento italiano. Infatti, differentemente dall'Italia, in 12 altri Paesi europei, e in particolare in Paesi importanti, come la Gran Bretagna, il Portogallo, la Spagna e, adesso, anche la Germania, questa quota è stata abbassata. Pensate che la Germania, che aveva la quota di sbarramento al 5 per cento, ha abbassato tale quota al 3 per cento, e la Corte costituzionale tedesca ritiene addirittura illegittimo finanche quel 3 per cento, ed è perciò probabile che tale quota sarà ulteriormente abbassata. Tra l'altro, siccome noi siamo soliti seguire la Germania sulla politica economica, qualche volta sarebbe il caso di seguirla, più che sulla politica economica, sulla loro idea di democrazia che è, forse, leggermente più avanzata della nostra. Il punto di riflessione che propongo a questo Parlamento, e sul quale vorrei che esso si esprimesse prima di votare, riguarda la ratio di questa misura, vale a dire la motivazione logica per cui viene introdotta una soglia di sbarramento. Signor Presidente, il punto è che «si può sacrificare la rappresentanza, se però ottieni almeno governabilità»: questa è esattamente la ratio che è stata utilizzata in tutti questi anni per introdurre le soglie di sbarramento. Ammesso e non concesso che questa cosa sia riuscita, cioè che queste soglie di sbarramento così alte abbiano effettivamente favorito la governabilità, questo Parlamento in ogni caso deve spiegare per quali ragioni il principio di sacrificare la rappresentanza in cambio della governabilità possa essere esteso a un organo, il Parlamento europeo, dove non esiste il tema della governabilità e dove, per di più, non esiste nemmeno il rischio della frammentazione dei Gruppi politici, visto il limitato numero dei Gruppi stessi. Chiedo allora ai principali partiti del Parlamento repubblicano e, in particolare, al Partito Democratico, di avere davvero un sussulto di dignità su questo punto. Non è un atto di generosità quello che noi chiediamo principalmente al Partito Democratico, ma un atto di lungimiranza politica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SEL Votazione nominale con scrutinio simultaneo</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg9">PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 1.1000/24, presentato dalla senatrice De Petris e da altri senatori, identico all'emendamento 1.1000/25, presentato dal senatore Calderoli.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg10">Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 1224-1256-1304-1305 PRESIDENTE. Passiamo alla votazione dell'emendamento 1.1000/26. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 1.1000/26, presentato dal senatore Calderoli. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 1224-1256-1304-1305 PRESIDENTE. Passiamo alla votazione dell'emendamento 1.1000.</seg>
+            </u>
+            <note type="speaker">LANZILLOTTA (SCpI)</note>
+            <u ana="#regular" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u8">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg11">Signor Presidente, voglio brevemente motivare il voto contrario del mio Gruppo a questo emendamento che comunque, forse con qualche incoerenza, ma in ragione di un vincolo di maggioranza, non ci porterà a votare contro il provvedimento, per ragioni di lealtà. Vorrei svolgere qui un brevissimo ragionamento. Pur essendo membro donna di questa Assemblea, non ho sottoscritto questa proposta di legge, perché è mia convinzione che le donne che sono in politica, prima che tutelare quote consistenti nelle istituzioni politiche, debbano fare battaglie quotidiane, anche nel loro modo di operare nei ruoli che rivestono, per la parità delle donne nella società e nel lavoro. L'Italia ha un tasso di occupazione femminile del 46 per cento, contro una media europea del 57,2. Nei Paesi scandinavi, dove il tasso medio di occupazione femminile è del 71 per cento, il tasso di presenza delle donne nelle istituzioni politiche è del 40 per cento. Credo che, affinché le donne possano svolgere un ruolo primario di leadership nelle istituzioni politiche, abbiano bisogno di un retroterra sociale ed economico che dia loro forza, perché possano non essere semplicemente la copertura a un sistema politico che è sostanzialmente governato da un solo genere. Questo disegno di legge era meritorio (anche se avevo qualche riserva per le ragioni che ho detto). Tuttavia, abbiamo visto che, nel giro di poche ore, di fronte ai diktat denunciati dalla relatrice - che ha dichiarato di aver subito pesantissime pressioni da accordi tutti maschili - le donne che hanno sottoscritto questo disegno di legge non hanno tenuto il punto, dopo averci sommerso per circa una settimana di retorica di genere. Credo che questo non sia un buon servizio alle donne, che vengono usate per una battaglia politica che poi viene abbandonata: abbandonata anche perché la preferenza a tre, come ha onestamente dichiarato il collega Sacconi, è del tutto inutile, perché tanto, come egli ha giustamente detto, tre preferenze non le dà nessuno. Lo stesso rinvio al 2019 è, per così dire, un rinvio di stile, visto che da qui al 2019 tutto potrà accadere. Ricordo, caro senatore Calderoli e presidente, che lei fu sommerso da critiche quando, nella riforma costituzionale del bicameralismo per la riduzione dei parlamentari, si era pensato a un differimento dell'entrata in vigore a partire dalla legislatura successiva a quella 2016; si trattava, peraltro, di qualcosa di assai più impegnativo. In quell'occasione fu detto, a mio avviso giustamente, che in realtà non si aveva il coraggio di affrontare davvero il tema e che il sistema politico non aveva la capacità di affrontare la questione. Credo che la questione femminile nel nostro Paese sia una questione gravissima: è una questione sociale ed economica, e come tale va affrontata. Ritengo che la priorità non sia quella di tutelare le quote delle donne che fanno politica, ma le donne che vivono nella società. In ogni caso, nel momento in cui si ingaggia una battaglia per le donne, queste non possono essere strumentalizzate e abbandonate. Per questo voteremo contro questo emendamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi SCpI e Misto-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PETRAGLIA (Misto-SEL)</note>
+            <u ana="#regular" who="#PetragliaAlessia" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u9">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg12">Signor Presidente, anche noi voteremo contro questo emendamento, e vorremmo condividere con l'Aula alcune considerazioni. In parte le abbiamo svolte nella discussione generale, ma non pensavamo di arrivare a una conclusione, direi, così penosa, perché è accaduto esattamente quello che temevano, cioè il peggio: ancora una volta, dopo che per giorni ci siamo detti in quest'Aula che mai e poi mai avremmo fatto quello cui abbiamo assistito alla Camera, anche qui abbiamo sacrificato l'introduzione delle preferenze e l'equilibrio della rappresentanza di genere sull'altare della vera alleanza politica che in realtà regge questo Governo. Allora, proprio nel rispetto del patto con Berlusconi, abbiamo deciso di annullare anni e anni di battaglie sui diritti e sulle libertà, per le donne e con le donne. Devo dire che trovo un po' singolare l'ostruzionismo che ha fatto la maggioranza in questi giorni di discussione generale, perché pensavamo che almeno l'impegno delle colleghe del Partito Democratico e delle altre colleghe che hanno sottoscritto il disegno di legge avrebbe portato tutti a mantenere con forte coerenza le proprie posizioni. Invece, ancora una volta, dobbiamo prendere atto che se il coraggio uno non ce l'ha non è che se lo può dare: questo è il punto della discussione. Allora noi, che avevamo dichiarato che non avremmo utilizzato la discussione sulle preferenze di genere per barattarla con niente, nemmeno con l'abbassamento della soglia di sbarramento, ci troviamo oggi non solo a non aver affrontato lealmente la discussione sulla soglia di sbarramento (che - abbiamo detto - era il convitato di pietra di questa discussione), ma di fatto approviamo, anzi, approvate, una stranissima proposta per rinviare al 2019 l'introduzione delle preferenze di genere. Sappiamo benissimo che da qui al 2019 può succedere di tutto e mille altre modifiche possono essere introdotte, ma - come suggeriva ieri un senatore con una battuta (cito le sue parole) - siccome il Senato sarà cancellato, ci avvantaggiamo a prevedere riforme per il futuro, dato che poi avremo difficoltà ad intervenire. Dico tutto questo perché, alla fine di questa giornata, il risultato che deriverà da questo voto rappresenterà un pessimo esempio per tutto il Paese, ma soprattutto per i giovani e le giovani che ci ascoltano.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal GruppoMisto-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE BIASI (PD)</note>
+            <u ana="#regular" who="#DeBiasiEmiliaGrazia" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u10">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg13">Signor Presidente, spiace che ancora una volta sia una donna ad attaccare le donne: questo è uno dei motivi per cui faremo sempre molta fatica a raggiungere una parità culturale, prima che di potere.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg14">Del resto, la senatrice Lanzillotta non ha sottoscritto la proposta: non l'apprezza, è un suo legittimo diritto, ma lasci stare la scelta individuale delle persone, delle donne che hanno parlato qui dentro e degli uomini, che hanno riservato larga parte della loro vita alla battaglia per la libertà femminile. E non si permetta mai più di parlare di retorica, perché fa parte della nostra esperienza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg15">In terzo luogo, devo dire che sono francamente stupita che, nel secolo nella grande modernità, siamo ancora qui a dire che devono essere le donne a farsi carico della condizione delle donne. È dagli anni Sessanta, senatrice Lanzillotta, che non si parla più in questo modo: si aggiorni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg16">Anche perché non è che gli uomini possono rappresentare anche le donne e le donne devono rappresentare solo le donne: non funziona così.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Lanzillotta</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg17">Cara Lanzillotta, io le battaglie le ho fatte, non so tu! PRESIDENTE. Senatrice De Biasi, la invito a parlare con la Presidenza.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg18">Ha ragione, mi scusi, signor Presidente. PRESIDENTE. Glielo chiedo, anche se sono solo un uomo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg19">Nessuno è perfetto, Presidente. Come dicevo, non è pensabile che le donne debbano rappresentare le donne. Credo che uomini e donne debbano poter rappresentare uomini e donne, perché io ci tengo a una rappresentanza generale e non di parte. Diversamente, dovremmo parlare di una rappresentanza fondata sulla quantità femminile e maschile nella società e, in tal caso, le donne dovrebbero essere in numero maggiore. Non concordo con questa idea meccanicistica di diritto naturale. Mi permetto solo di dire che l'emendamento in esame ha dietro di se la lotta di tante donne nella società. Al riguardo, un punto è importante: le donne che sono nella società devono poter accedere a queste stanze, devono poter arrivare nelle stanze del potere. Non consento a nessuno di impedirmi di parlare di potere e di farlo in base ad una esperienza storica, numerica - come è noto - di esclusione delle donne dal potere. Quanto alla strumentalità (è l'ultima considerazione che voglio fare), bisogna avere le carte in regola per poter essere scevri da strumentalità, cosa che non mi pare sia successa nel corso della discussione di questo disegno di legge. Come dicevano i monaci nel '500 - lo dico a tutti noi, ma in particolare a chi ha anche pensato di barattare altri elementi che riguardano le elezioni europee con il valore della parità - « Nisi caste, tamen caute »: se non in modo casto, almeno con prudenza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u11">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg20">Signor Presidente, colleghi, quello che si ottiene con questo emendamento ha un solo effetto, e non ha nulla a che vedere con la rappresentanza di genere o con la possibilità di aumentare la presenza delle donne in Parlamento. Non ha nulla a che vedere con la rappresentanza di genere, perché si ottiene esclusivamente la terza preferenza nulla da poter utilizzare come controllo del voto scientifico, calcolato, matematico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg21">Questo è l'unico risultato che otterremo per le prossime elezioni europee.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg22">Alla collega che tanto si infervora sulla situazione in cui si ritrovano le donne a dover difendere le donne, voglio far notare che il provvedimento fa emergere la necessità che i partiti, i Gruppi, le liste debbano legiferare per autoregolare un qualcosa che possono autonomamente fare, e questo dà proprio il senso di come sono degradati nella loro forma.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg23">Abbiamo dimostrato che si può fare: il 70 per cento di donne capolista non è venuto fuori a seguito di una legge. Oggi, probabilmente, noi, con il 70 per cento di donne, non potremmo farlo, dovremo diminuire il loro numero rispetto al numero degli uomini in una eventuale elezione europea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg24">Ma questo avverrà fra cinque anni e, nel frattempo, può accadere di tutto.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg25">Non capisco però il motivo della tensione quando l'emendamento in esame è il frutto della maggioranza. Il relatore ovviamente l'ha presentato perché era l'unico che poteva presentare, e ha cercato di mettere insieme le scelte della maggioranza. Se oggi quindi si ottiene il nulla, non è certo per le opposizioni che votano questo emendamento. Ma si ottiene il nulla, perché questo è il nulla riguardo alla rappresentanza di genere, e lo si ottiene grazie alla maggioranza e ai due uomini che la comandano, Matteo Renzi e Silvio Berlusconi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg26">. Votazione nominale con scrutinio simultaneo</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u12">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg27">Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 1.1000, presentato dalla relatrice, senatrice Lo Moro.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg28">Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 1224-1256-1304-1305 PRESIDENTE. Risultano pertanto preclusi gli emendamenti 1.109, 1.111, 1.112, 1.113, 1.114, 1.115, 1.116, 1.118, 1.119, 1.128 (testo 2), 1.120, 1.121, 1.122, 1.123, 1.124, 1.126, 1.127, 1.129, 1.131, 1.132, 1.134, 1.135, 1.137, 1.5, 1.6, 1.138, 1.139, 1.140, 1.141, 1.142, 1.143, 1.144, 1.145, 1.10, 1.300, 1.301, 1.7, 1.302, 1.303, 1.11, 1.8, 1.304, 1.305, 1.306, 1.146, 1.147 e 1.0.300. Gli emendamenti 1.110, 1.117, 1.125, 1.130, 1.133, 1.136, 1.148, 1.149 e 1.150 sono stati ritirati.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u13">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg29">Saluto gli studenti e i docenti del Liceo scientifico «Galileo Galilei» di Belluno e quelli dell'Istituto «Sacro Cuore» di Modena.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 1224-1256-1304-1305</note>
+            <note type="time">10,23</note>
+            <note type="time">(ore 10,23)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u14">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg30">Passiamo alla votazione dell'ordine del giorno G1.1000. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'ordine del giorno G1.1000, presentato dal senatore Calderoli. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 1224-1256-1304-1305 PRESIDENTE. Passiamo all'esame degli emendamenti volti ad inserire articoli aggiuntivi dopo l'articolo 1, che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">MICHELONI (PD)</note>
+            <u ana="#regular" who="#MicheloniClaudio" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u15">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg31">Signor Presidente, l'emendamento 1.0.107 (testo 2) riguarda le elezioni europee ma non la questione della parità di genere.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg32">L'Italia è uno degli 11 Paesi dell'Unione europea che costituiscono i seggi elettorali presso i consolati e le ambasciate. La Commissione continentale Europa e Africa del Nord del Consiglio generale degli italiani all'estero ha votato all'unanimità un ordine del giorno con il quale si richiede di non costituire presso i consolati i seggi elettorali per il voto nei collegi nazionali. È un ordine del giorno che condivido pienamente perché si pone due obiettivi, il primo dei quali ha un forte significato politico: gli elettori italiani che vivono nei Paesi dell'Unione europea hanno infatti la possibilità - che utilizzano in misura sempre maggiore - di votare e di candidarsi nei Paesi dell'Unione europea in cui sono residenti senza dover cambiare cittadinanza.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg33">(ore 10,25) ( Segue MICHELONI). Tutti gli altri cittadini elettori italiani per votare nelle elezioni europee devono invece tornare nei propri collegi. L'utilizzo dei seggi è in discesa libera: nell'ultima tornata elettorale solo 90.000 elettori hanno usufruito di questa possibilità, mentre è in crescita la partecipazione al voto nelle liste locali. Il carattere positivo di questo ordine del giorno è dato dal salto politico che esso compie, perché dimostra la volontà della costruzione e dell'integrazione politica europea; non si può infatti continuare a sostenere, come abbiamo fatto in questi giorni, che l'Europa deve fare un salto avanti mentre poi si continuano a costituire seggi elettorali presso i consolati. Questo è il primo punto politico. Il secondo punto è che l'organizzazione di questi seggi ha un costo, che nell'ultima tornata elettorale è stato di 10,5 milioni di euro per raccogliere 90.000 voti. È logico pensare che alla prossima tornata elettorale il numero di questi voti sarà inferiore (probabilmente saranno 40-50.000), dal momento che sono state le prime generazioni ad aver usufruito in maniera maggiore di questa possibilità. Con l'emendamento 1.0.107 (testo 2) si chiede quindi di non costituire seggi elettorali per le elezioni europee presso i consolati e le ambasciate nazionali. So bene che la mia capacità di persuasione nei confronti dei Gruppi e del relatore è praticamente nulla in questo momento e dunque che tale emendamento probabilmente subirà la stessa sorte di tutti gli altri. Permettetemi però, per distendere gli animi, di raccontare un aneddoto, prima di concludere. Circa trent'anni fa, tornando dalla Svizzera per le ferie, un vecchio amico aquilano mi diede una grande lezione sull'Italia, che in questi ultimi anni mi torna spesso in mente. Ascoltando noi che tornavamo dall'estero, ci disse che noi l'Italia non l'avevamo capita, e ci raccontò questa storia: una mattina un italiano si alza e, colto da un raptus, esce da casa con un martello e colpisce in testa tutte le persone che incontra. Il vecchio a questo punto mi fece una domanda: «Come reagiscono le istituzioni italiane a un problema del genere?». Noi ingenuamente abbiamo risposto dicendo: «Le forze dell'ordine lo prendono, lo portano all'ospedale dove lo curano». L'amico allora replicò: «Vedi che non hai capito niente dell'Italia? Se succede una cosa di questo tipo, il giorno dopo il Governo fa un decreto che obbliga tutti gli italiani a portare il casco». Questa storiella dovrebbe farci riflettere, perché capisco e credo sia di gran buonsenso il richiamo che ci ha rivolto il Capo dello Stato, ad evitare i decreti omnibus affinché ci sia coerenza nelle materie, però noi dovremmo rispondere con altrettanto buonsenso, altrimenti dovremmo fare un decreto per ogni parola della lingua italiana, se tutto si fa rigidamente come in questo momento succede con il provvedimento in esame. Credo di non aver convinto assolutamente nessuno, per cui a questo punto chiedo alla relatrice e al rappresentante del Governo di pronunziarsi in senso favorevole sull'ordine del giorno, che risulterà dalla trasformazione di questo emendamento, ma senza le solite formule, come «verificare», «valutare l'eventualità di». Chiedo che sia un ordine del giorno che impegni il Governo ad affrontare la tematica con i tempi dovuti affinché non vi siano più seggi nei consolati per le elezioni europee.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="president">Presidenza della vice presidente LANZILLOTTA</note>
+            <note type="time">10,25</note>
+            <note type="speaker">PIZZETTI</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#regular" who="#PizzettiLuciano" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u16">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg34">, sottosegretario di Stato alla Presidenza del Consiglio dei ministri. Signora Presidente, il Governo apprezza molto l'intervento del collega Micheloni ed anche il testo della sua proposta. Purtroppo, come ho già specificato anche ieri, essendo la procedura elettorale già avviata, non è possibile accoglierlo come emendamento. Segnalo infatti che la procedura elettorale è già avviata in diversi Paesi, in cui già si sta esercitando o è stato esercitato il diritto di voto: Belgio, Lussemburgo, Francia, Spagna, Grecia, per un totale di quasi 700.000 elettori. Peraltro, i cittadini che votano sulla base del progetto Erasmus hanno anche loro già esercitato tale diritto, per cui ci troveremmo nella condizione di dover procedere a un annullamento, con grande pregiudizio e nocumento di un diritto. Per queste ragioni puramente tecniche l'emendamento non è accoglibile, ma siccome tutte le motivazioni espresse dal collega Micheloni, ivi compreso il rilevante risparmio di spesa, sono reali e vere, il Governo è disponibile ad accogliere l'ordine del giorno che risulterà dalla trasformazione dell'emendamento, senza la formula «a valutare l'opportunità di», ma come accoglimento del testo in toto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e PI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MUSSINI (Misto)</note>
+            <u ana="#regular" who="#MussiniMaria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg35">Signora Presidente, concordo con l'obiettivo del risparmio, che sicuramente ha a che vedere con una diversa distribuzione delle risorse anche rispetto alla questione del rinnovo dei COMITES e dei CGIE, ma nel merito vorrei riproporre delle osservazioni già esposte ai miei stimatissimi colleghi eletti all'estero, e che riguardano nello specifico proprio le elezioni europee. Lunedì scorso ho partecipato al convegno di AlmaLaurea. Ebbene, l'82 per cento dei nostri laureati che lavorano all'estero si trovano in Europa, ma non si tratta di un'emigrazione come quella di un tempo, con un forte radicamento nella società e quindi con la conseguente possibilità di esprimere dei candidati all'interno di quella stessa società in cui i nostri laureati vanno a vivere, bensì di un tipo di mobilità completamente diversa. Quindi, credo si debba anche aggiornare il concetto di mobilità e di emigrazione. Non si tratta di soggetti che siano profondamente radicati in Spagna, in Francia, in Gran Bretagna (Paese che accoglie la maggiore parte dei nostri laureati), bensì di soggetti il cui legame con l'Italia deve essere conservato con la maggiore cura possibile. Che cosa c'entra questo con le elezioni europee? Tali soggetti sono tra l'altro altamente qualificati, perché stiamo parlando di un'emigrazione di altissima qualità: parliamo di laureati, di specializzati, di persone inserite nel miglior tessuto produttivo dei Paesi in cui sono andati a vivere. Ora, quello di cui mi preoccupo è che questi soggetti, che nel dare il loro voto sono comunque espressione di realtà qualificate, abbiano la possibilità di farlo rispetto all'opzione tra votare dei candidati locali e votare dei candidati italiani. Non ho affatto detto che questi soggetti siano nelle condizioni di potere o di voler tornare in Italia per votare. Tuttavia credo che la strada sia, da un lato, quella di sensibilizzare questa nuova forma di mobilità italiana all'estero e di tenerla legata alle questioni che pur riguardano l'Italia e che vengono discusse all'interno del Parlamento europeo; dall'altro lato, credo che sia giusto trovare le risorse per poter rinnovare COMITES e CGIE, ma non a danno di quello stesso percorso di partecipazione democratica, quanto piuttosto da qualche altra parte. Semmai, prendendo atto del fatto che la possibilità di votare nei consolati non viene adeguatamente utilizzata, credo che il Governo dovrebbe cercare di esplorare le possibilità di rendere più economico il voto tramite i consolati, piuttosto che eliminare tale possibilità. Credo altresì - ma questo credo che valga per tutti - che sarebbe importante sensibilizzare i cittadini italiani, sia residenti in Italia che all'estero (in Europa nella fattispecie), su quanto è importante partecipare a queste elezioni europee. Per tali ragioni, anticipo che noi ci esprimeremo in modo contrario anche su un eventuale ordine del giorno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg36">Signora Presidente, condividendo totalmente lo spirito e l'obiettivo dell'emendamento 1.0.107 (testo 2), mi chiedevo - anche per portarci un po' avanti con il lavoro - se il Governo, invece di accogliere un ordine del giorno, non farebbe meglio a chiedere una riformulazione dell'emendamento, prevedendo una data di applicazione della norma alle successive elezioni. Così ci mettiamo eventualmente al riparo da incertezze applicative, perché spesso noi ci entusiasmiamo nei momenti topici, ma ci dimentichiamo nei momenti successivi. Quindi, chiedo al rappresentante del Governo di esprimersi a favore dell'emendamento 1.0.107 (testo 2), prevedendo però che la norma entri in vigore nell'elezione successiva.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Candiani.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u19">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg37">Verifichiamo la disponibilità del Governo, perché non è la prima disposizione del provvedimento che avrebbe queste caratteristiche. Prego, signor Sottosegretario.</seg>
+            </u>
+            <note type="speaker">PIZZETTI</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#regular" who="#PizzettiLuciano" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u20">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg38">Il Governo si è impegnato ad accogliere l'ordine del giorno e a darvi corso. Per le ragioni che ho espresso nelle precedenti sedute, noi ci atteniamo comunque al fatto che questo testo deve essere corrispondente al titolo. Per cui non intendiamo introdurre in questo testo altri elementi. Riconfermo però l'impegno assunto dal Governo a dar corso all'ordine del giorno del collega Micheloni.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u21">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg39">Senatore Micheloni, accetta la proposta di trasformare l'emendamento 1.0.107 (testo 2) in un ordine del giorno? Diversamente, il parere sarebbe contrario.</seg>
+            </u>
+            <note type="speaker">MICHELONI (PD)</note>
+            <u ana="#regular" who="#MicheloniClaudio" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u22">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg40">Signora Presidente, accetto la proposta di trasformare l'emendamento in un ordine del giorno, senza la formula «a valutare l'opportunità di». Questo ci tengo a precisarlo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg41">PRESIDENTE. Quindi un ordine del giorno prescrittivo, con la formula «impegna il Governo» senza altre aggiunte.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg42">Non voglio raccontare di nuovo la storia del martello e del casco, però questo è il problema. Ma questo problemino ci dovrebbe far riflettere per i prossimi provvedimenti, altrimenti dovremmo fare dieci decreti al giorno. Accetto allora volentieri questa trasformazione e vorrei dire alla cara collega ed amica Mussini che il discorso che ha fatto purtroppo guarda il futuro con gli occhi nelle spalle, perché i nostri partecipano alla vita europea e sono anche candidati in Inghilterra da italiani, sono candidati in Belgio, votano e costruiscono veramente l'Europa. I nostri italiani in Europa sono cittadini europei. Sarebbe opportuno che, nel semestre italiano, la cittadinanza materiale e reale dei cittadini europei che vivono in Europa fuori dai propri Paesi (sono 22 milioni) sia un tema affrontato dal nostro Paese, che ne ha tanti su questi 22 milioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u23">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg43">Invito la relatrice a pronunciarsi sull'ordine del giorno G1.0.107.</seg>
+            </u>
+            <note type="speaker">LO MORO</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#LoMoroDoris" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u24">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg44">Signora Presidente, il parere è favorevole.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg45">Vorrei approfittare per ringraziare il collega Micheloni di aver evitato il voto dell'emendamento 1.0.107 (testo 2), cosa che non siamo riusciti ad evitare ieri sul problema della Sardegna. I titoli che ci sono stati sui giornali ieri in Sardegna non hanno rispettato la verità. Infatti, dire che non si è votato solo perché il relatore era contrario significa dare una lettura di quanto accade in Aula assolutamente forzata.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg46">Quindi, il parere è favorevole, perché in questa circostanza non potremmo che mantenere questa linea, ovvero dare parere favorevole a un ordine del giorno che comunque non rientra nell'oggetto specifico di questa legge.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u25">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg47">Essendo stato accolto dal Governo, l'ordine del giorno G1.0.107 non verrà posto ai voti.</seg>
+            </u>
+            <note type="speaker">PAGANO (NCD)</note>
+            <u ana="#regular" who="#PaganoPippo" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg48">Signora Presidente, vorrei segnalare che io e il collega Dalla Tor desideriamo sottoscrivere l'ordine del giorno del presidente Micheloni.</seg>
+            </u>
+            <note type="speaker">BARANI (GAL)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u27">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg49">Signora Presidente, vorrei invitare il senatore Micheloni, perché lo può fare solo lui, a chiedere che il suo ordine del giorno venga sottoposto a votazione, per dare più forza al suo contenuto.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u28">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg50">Il senatore Micheloni ha già fatto capire che non insiste per la votazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg51">Gli emendamenti 1.0.108 e 1.0.109 sono stati ritirati.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg52">Passiamo all'esame dell'articolo 2, sul quale è stato presentato un emendamento che si intende illustrato.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u29">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg53">Signora Presidente, avevamo presentato un emendamento aggiuntivo in Commissione, l'1.0.1, e si trattava, Presidente, di un emendamento aggiuntivo. Mi rivolgo alla Presidente della 1ᵃ Commissione perché in quella sede avevo detto che avrei ritirato gli emendamenti per ripresentarli in Aula nella speranza che in Aula non vi fossero problemi. Scopro adesso, invece, che gli Uffici hanno ritenuto di dover inserire nel fascicolo questo emendamento - che per me è e resta aggiuntivo - non più come aggiuntivo ma trasformato inopinatamente (perché il mio emendamento era chiarissimo: «dopo l'articolo 1 inserire il seguente») nell'emendamento 1.300, facendolo adesso dopo aver votato. Quando è stato presentato l'emendamento della relatrice, essendo il mio un emendamento aggiuntivo non l'ho trasformato in subemendamento. Ora invece risulta che è stato dichiarato precluso dopo la votazione degli emendamenti nostri e del senatore Calderoli che abbassavano la soglia di sbarramento dal 4 al 3 per cento. Tra l'altro non si comprende per quale motivo dovrebbe risultare precluso. Se uno ritiene che sia un emendamento volto ad inserire un articolo aggiuntivo, tanto da decidere di non trasformarlo in subemendamento, francamente vederselo dichiarare precluso è inaccettabile. Mi rivolgo ai colleghi della 1ᵃ Commissione perché, per quanto mi riguarda, non ritirerò più alcun emendamento in Commissione, visto il risultato. Onestamente trovo assurdo che sia stata compiuta questa scelta, tanto più dopo la presentazione di un emendamento da parte della relatrice. Ancor più assurdo poi il fatto, visto che è stato inserito nel fascicolo non più come emendamento aggiuntivo, che sia stato dichiarato precluso dopo che l'Aula ha respinto l'emendamento che chiedeva di abbassare la soglia dal 4 al 3 per cento. Molti, infatti, potrebbero aver votato contro lo sbarramento al 3 perché non volevano alcuno sbarramento. Francamente chiedo venga messo in votazione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u30">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg54">Senatrice De Petris, la Presidenza ha applicato la norma dell'articolo 102, comma 4, del Regolamento, che prevede che il Presidente ha facoltà di modificare l'ordine delle votazioni quando lo reputi opportuno ai fini dell'economia o della chiarezza delle votazioni stesse.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg55">Poiché i subemendamenti riferiti all'emendamento del relatore, che sono stati votati, avevano come contenuto, almeno in parte, l'oggetto del suo emendamento, l'1.300, per poterlo esaminare e votare è stato riferito all'emendamento del relatore perché altrimenti sarebbe stato precluso, quindi non esaminato, né in quella fase né in quella successiva. Questa è la valutazione sostanziale dell'emendamento dal punto di vista della Presidenza, e quindi credo debba prenderne atto. Mi spiace, senatrice, ma è così. Non può essere di nuovo messo in votazione avendo quel contenuto che è stato già respinto dall'Assemblea. Quindi, in base al principio ne bis in idem, non è possibile votare in successione la stessa disposizione. Non essendo stati presentati sull'articolo 2 altri emendamenti oltre quello soppressivo 2.100, presentato dal senatore D'Ambrosio Lettieri, passiamo alla votazione del mantenimento dell'articolo stesso.</seg>
+            </u>
+            <note type="speaker">GIOVANARDI (NCD)</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u31">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg56">Signora Presidente, capisco benissimo che il Senato e i colleghi si trovino nella condizione di dover votare un provvedimento in vista delle elezioni europee e che il compromesso è stato raggiunto differendo di cinque anni l'efficacia di alcune norme che entreranno in vigore solo allora, ma mi sono astenuto sull'emendamento 1.1000, presentato dalla relatrice sull'articolo 1, perché vorrei che avessimo anche la consapevolezza che in questi cinque anni andrà fatta una riflessione su quello che è stato previsto. Ricordo ancora che gli articoli 3 e 51 della Costituzione - e all'attuale formulazione di quest'ultimo ho personalmente contribuito - parlano di pari opportunità come momento e condizione per poter partecipare ed accedere. Invece nel testo abbiamo previsto che l'ultimo della lista presentata per le elezioni europee, se non viene rispettato l'equilibrio di genere, viene depennato, cioè viene cancellato, in maniera tale che - parlo soprattutto a coloro che hanno cuore la Costituzione ed i principi - succederà che Antonio Rossi o Antonia Rossi, che sono cittadini italiani con pieni diritti elettorali e che magari sono in lista proprio per la loro qualità di candidati rispetto alla professionalità, alla capacità, al contributo che possono dare all'Europa, verranno automaticamente depennati soltanto perché sono all'ultimo posto. Se allora si va in ordine alfabetico, Abete sarà contentissimo, Zurlo verrà eliminato. Vorrei capire in base a quale principio costituzionale si elimina l'ultimo, se in ordine alfabetico, perché ha un cognome che nell'alfabeto viene dopo, oppure, nel caso non si vada per ordine alfabetico ma si facciano delle considerazioni di merito, per quale motivo deve essere eliminato l'ultimo e non quello a metà. Colleghi, ancora più grave, è previsto nella norma che se lo squilibrio è tale per cui vengono eliminati uno, due, tre, quattro, cinque candidati, e si va sotto la soglia, viene ricusata la lista, cioè viene impedita la partecipazione al Parlamento europeo di una lista. Per esempio, vi pongo un caso di scuola: è proibito in Italia per legge fare il Partito delle donne? È proibito in Italia per legge e per Costituzione fare il Partito degli uomini? Se allora una persona fondasse il Partito degli uomini, ritenendo di partecipare soltanto con uomini alle elezioni, oppure se facesse il Partito delle donne, volendo partecipare alle elezioni con liste femminili, sulla base di queste norme si cancellano tutti i candidati e viene ricusata la lista, cioè cancelliamo l'articolo 3 dalla Costituzione. L'articolo 51 della Costituzione lo applichiamo con un automatismo tale che sicuramente la Corte costituzionale lo casserà, perché non siamo più nelle politiche di pari opportunità che concedono a tutti i cittadini italiani, uomini o donne che siano, di partecipare e di essere votati soprattutto quando ci sono le preferenze. È giusto dire (fin qui ci arrivo): ci sono più preferenze, per le pari opportunità se si vota un uomo si vota anche una donna, non si votano solo persone dello stesso sesso. Capisco che è una forzatura, ma va nella direzione di agevolare le pari opportunità. Però questo automatismo a decimazione, questo depennare dalla lista i candidati, questo ricusare la lista, quindi eliminare alla radice la possibilità di partecipazione alle elezioni europee ed i diritti costituzionalmente garantiti sulla base di una differenza di genere, mi sembra un sistema che nei prossimi cinque anni dovrà assolutamente essere rivisto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo GAL e del senatore Formigoni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">NUGNES (M5S)</note>
+            <u ana="#regular" who="#NugnesPaola" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u32">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg57">Signora Presidente, volevo riflettere sul fatto che questa discussione è stata molto interessante. In alcuni momenti ho anche avuto dubbi sulla mia posizione, però poi ho riflettuto sul fatto che effettivamente veniamo da un modello maschile che ha portato lo sviluppo del nostro Paese, ma non solo, ad un punto che potremmo definire di non ritorno. Auspico effettivamente un cambio di modello, nel quale il femminile sia alla guida (e sarebbe ora di vederlo anche alla guida decisionale del Paese). Rilancio allora quanto è stato detto dal collega Crimi: perché vogliamo limitare l'ingresso delle donne in politica? Perché vogliamo mettere un tetto oltre il quale la rappresentanza femminile non possa andare?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u33">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg58">Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u34">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg59">Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dalla senatrice Montevecchi, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco pertanto la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, del mantenimento dell'articolo 2. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 1224-1256-1304-1305</seg>
+            </u>
+            <note>PRESIDENTE.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">MARAN (SCpI)</note>
+            <u ana="#regular" who="#MaranAlessandro" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u35">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg60">Signora Presidente, colleghi, anche se non ne siamo persuasi, noi del Gruppo di Scelta Civica voteremo a favore del provvedimento in esame, che si muoveva giustamente nella prospettiva di promuovere la riduzione dello squilibrio di genere. Com'è noto a tutti, infatti, all'interno del Parlamento europeo c'è una presenza femminile pari a circa il 36 per cento del totale degli europarlamentari in carica, e l'Italia si colloca al venticinquesimo posto tra gli Stati membri, con una percentuale di donne pari a circa il 23 per cento, superiore soltanto a quelle della Polonia, della Repubblica Ceca e del Lussemburgo. Il provvedimento era diretto ad introdurre un meccanismo di riequilibrio di genere nel sistema di elezione dei rappresentanti italiani al Parlamento europeo, in coerenza, dunque, con la risoluzione che esso aveva approvato nel 2013 per invitare gli Stati membri ed i partiti politici ad incoraggiare l'elaborazione di liste che garantissero una rappresentanza paritaria, e con l'impostazione proposta dalla Commissione affari costituzionali nel 2011, che prevedeva che ai partiti fosse posto l'obiettivo di avere almeno il 40 per cento di donne come deputate nel 2014, come raccomandato anche dall'Assemblea parlamentare del Consiglio d'Europa. Ora, invece, dopo quella che la relatrice ha definito «la mediazione possibile», tutto è rinviato al 2019: in altre parole, la lista dei candidati non assicura la rappresentanza di entrambi i sessi, nell'ordine di lista non devono alternarsi i candidati di sesso diverso, non vi è alternanza nel ruolo di capolista e solo una delle tre preferenze che l'elettore può esprimere deve riguardare un candidato di sesso diverso. Certo, si dirà che si afferma un principio, ma a nostro giudizio si tratta di un pateracchio, frutto del patto tra Forza Italia e Partito Democratico. Con i nostri emendamenti, abbiamo poi proposto un'altra questione, relativa alla soglia di sbarramento, che riguarda anch'essa l'eguaglianza e la parità del voto, il principio fondamentale richiamato dalla Corte costituzionale tedesca, che, nella sentenza del 26 febbraio, ha dichiarato l'incostituzionalità della soglia del 3 per cento. Il punto in discussione è proprio la finalità della soglia: ridurre la frammentazione, favorire stabili maggioranze e garantire la governabilità. Il punto è che il Parlamento europeo non ha molto a che vedere con un Parlamento nazionale. Come sappiamo, dal crollo della prima Repubblica nella realtà italiana si è cercato di dare forma, forzando le regole elettorali, proprio al modello Westminster, come alternativa sia al sistema assembleare sia a quello semipresidenziale, al punto che le disposizioni censurate dalla Corte costituzionale italiana qualche mese fa non si sono limitate ad introdurre un correttivo ulteriore rispetto alle soglie di sbarramento al sistema proporzionale - naturalmente sempre con l'obiettivo di favorire maggioranze stabili - ma, e cito testualmente la Corte, «rovesciano la ratio della formula elettorale prescelta (...), che è quella di assicurare la rappresentatività dell'Assemblea parlamentare». Ecco, il tentativo compiuto in una dimensione nazionale in questi anni non ha avuto successo per molte altre ragioni: per il mancato adeguamento di alcune norme costituzionali, dal bicameralismo perfetto al potere di scioglimento e perché nelle democrazie parlamentari in cui il modello Westminster si è in varie forme realizzato - nel Regno Unito, in Germania o in Spagna - sono i partiti che danno forza alle istituzioni di governo, e l'Italia non può contare su partiti con una consistenza tale da fondare una vocazione maggioritaria, né è possibile perseguire questo modello con partiti aziendali, partiti personali, cartelli localistici e quant'altro. La domanda centrale dei referendum del 1991 e del 1993 era se il Governo lo dovessero scegliere i cittadini o il Parlamento, e dunque i partiti, e più volte nel corso della legislatura. Se a quella domanda si risponde affermativamente, ossia che la scelta spetta ai cittadini, allora bisogna affrontare il nodo della forma di governo, perché non si può costruire l'ipotesi di una «legge elettorale del sindaco» senza una sua elezione diretta, come vedremo quando discuteremo la legge elettorale italiana. Ma la domanda che abbiamo posto è: l'Europa, con tutto questo, cosa c'entra? Al momento non esiste una disciplina uniforme per le elezioni europee, per ora esistono soltanto alcuni principi comuni stabiliti nell'atto sulle elezioni del Parlamento europeo del 1976, poi modificato nel 2002. Il nodo di tale atto è che esso richiede che l'elezione avvenga secondo un sistema proporzionale, rinviando per il resto alle leggi nazionali, con norme che dunque si diversificano nei vari Paesi. Ebbene, non è la prima volta che la legge elettorale tedesca incorre nella censura della Corte: era già avvenuto nel 2011, e anche in quel caso si discuteva della clausola di sbarramento, e la soglia, allora fissata al 5 per cento, è stata successivamente ridotta al 3 per cento, ma questa modifica non è stata giudicata sufficiente a rimuovere il vizio di costituzionalità. Perché? Perché per la Corte la parità del voto elettorale per i cittadini e i partiti costituisce un principio fondamentale della Costituzione tedesca, un principio che tollera limitazioni solo in casi eccezionali, in particolare, per proteggere la funzionalità dell'organo parlamentare che si va ad eleggere. Ma questa giustificazione non si può applicare al Parlamento europeo che, sempre ad avviso della Corte, può funzionare regolarmente anche in assenza della regola in questione. Certo, il Parlamento europeo si sta avviando verso una maggiore politicizzazione, com'è evidenziato dalla scelta da parte di ciascun Gruppo politico, proprio nella campagna elettorale in corso, di un proprio candidato alla Presidenza della Commissione e, naturalmente nel tempo, forse ne risulterà un contrasto più netto tra maggioranza ed opposizione, con la necessità di maggioranze stabili a sostegno della Commissione. Di qui, l'esigenza di evitare un eccessivo frazionamento. Tuttavia, la Corte, pur prendendo atto di un'evoluzione in corso, è rimasta ferma su un punto: allo stato attuale non esistono elementi tali da giustificare una lesione del principio fondamentale della parità di voto. È questo il punto che abbiamo cercato di sollevare, perché allo stato attuale il Parlamento europeo è diverso dalla Camera dei deputati e dal Senato, è diverso dal Bundestag, per il fatto che non elegge un Governo dell'Unione e perché la sua funzione legislativa non richiede maggioranze stabili. Dunque, perché la soglia di sbarramento è al 4 per cento? Lo dico con le parole della Corte tedesca: il principio dell'uguaglianza del voto salvaguarda l'uguaglianza dei cittadini, che è il presupposto della democrazia e costituisce uno dei fondamenti essenziali dell'ordinamento dello Stato. Da questo principio discende che ciascun voto espresso dall'elettore in via generale deve contare allo stesso modo ed avere la stessa opportunità di successo. Nel sistema proporzionale, che è il vincolo cui siamo tenuti dall'indicazione europea, questo principio richiede inoltre che la scelta di ciascun elettore debba avere la stessa influenza sulla composizione della rappresentanza da eleggere, perché l'obiettivo del sistema proporzionale di rappresentanza è che tutti i partiti siano rappresentati nell'organo da eleggere in misura il più possibile prossima al numero dei voti che ricevono. Dunque il provvedimento in discussione, frutto come ho detto dell'intesa tra Forza Italia e PD, contraddice questo principio di fondo e sulla riduzione dello squilibrio di genere si limita a sancire un principio che non ha efficacia immediata. Voteremo quindi il provvedimento per obbligo di maggioranza e perché non vogliamo che il voto negativo del Senato, come quello della Camera, finisca per suonare di nuovo come un'umiliazione per le donne. Voteremo, ma non siamo persuasi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo SCpI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u36">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg61">Signora Presidente, la nostra discussione è stata molto animata sulla terza discriminazione di questo provvedimento, che riguarda anche la Sardegna (tra l'altro, ne abbiamo discusso qualche giorno fa). Questa vicenda ha una fine molto penosa, per me personalmente e per la mia forza politica. Abbiamo voluto condurre fino in fondo, come abbiamo fatto alla Camera dei deputati, una battaglia, che non era niente di rivoluzionario: si chiedeva semplicemente che per le elezioni europee si potesse introdurre la preferenza di genere. Per quanto ci riguarda, avremmo voluto anche la riduzione a due preferenze: in tal modo, come avviene per le elezioni amministrative, sarebbe stato veramente semplice esprimere una preferenza ad una donna ed una preferenza ad un uomo. Abbiamo verificato che l'introduzione di questo meccanismo, là dove è accaduto, come nelle elezioni amministrative, ha avuto effetti assolutamente positivi. Purtroppo non si può dire altrettanto, ad esempio, per le elezioni regionali, dove questo strumento non è stato utilizzato (le leggi regionali non sono state approvate). Penso allo scandalo della Basilicata, dove non è stata eletta neanche una donna, o alla Sardegna, dove ne sono state elette soltanto quattro. Pensavamo, dunque, che questo provvedimento sarebbe stato abbastanza semplice: si trattava di introdurre la possibilità di esprimere una preferenza su tre, ovviamente con un po' di serietà. Signora Presidente, so che lei condivide questo pensiero. La serietà vuole che, se si introduce tale meccanismo, la seconda e la terza (come era previsto nel testo originale) vengano annullate; per quanto ci riguardava, dovevano essere annullate tutte e tre le preferenze, perché ciò avrebbe avuto un effetto sanzionatorio. È penosa, invece, la conclusione. Si è parlato di qualcuno che ha voluto utilizzare la questione della preferenza di genere per fare ricatti sullo sbarramento. Qualcuno si vuole salvare la coscienza, perché la realtà è un'altra: come ha affermato la collega Petraglia, qui ci sono tanti don Abbondio, anche quando si fanno le battaglie per le donne, cioè di quelli che non hanno il coraggio di andare fino in fondo. Ripeto che non si trattava di niente di rivoluzionario, ma di un atto abbastanza semplice. Ci si vuole salvare la coscienza per non dirsi esattamente quanto è accaduto, cioè che per tutto quello che riguarda la materia elettorale e che riguarderà evidentemente anche le riforme vige soltanto il patto tra il Partito Democratico e Forza Italia. Questo è il vero punto politico che ha condotto ad una fine veramente vergognosa del provvedimento in esame. Sembra una sorta di elemosina alle donne! Infatti, si introduce la possibilità di esprimere una preferenza ad un altro sesso, ma poi si stabilisce che è possibile annullare soltanto l'ultima preferenza. Sappiamo perfettamente come funziona - ahimè - il meccanismo delle tre preferenze; sono già stati fatti combine ed accordi. Il terzo è quello che in gergo viene definito «il ballerino». L'annullamento della terza preferenza, dunque, rappresenta una presa in giro per le donne. La relatrice aveva condotto una battaglia e, quindi, mi dispiace molto che alla fine non abbia avuto il coraggio di dimettersi da tale incarico per non accettare questo compromesso, che non onora né noi né le donne. Dopo quanto accaduto alla Camera dei deputati, tutti noi avevamo sperato che il Senato potesse dare un segnale diverso al Paese, alle donne e agli uomini. Molte di noi sono state elette in rappresentanza generale, non perché hanno costruito la loro carriera magari soltanto perché si occupavano delle donne. Sappiamo perfettamente però che il vulnus alla democrazia del nostro Paese è la scarsa rappresentanza delle donne. Non stiamo parlando di quote, ma di parità di genere e, appunto, di un vulnus alla democrazia. Pertanto, ancora una volta, si discriminano le donne e le forze politiche. Abbiamo spiegato in tutti i modi che per il Parlamento europeo non c'è la questione della governabilità. Voi, cinque anni fa, avete fatto un colpo di mano, con Veltroni in primis, per portare la quota di sbarramento dal nulla al 4 per cento. Oggi, dopo le due pronunce della Corte costituzionale tedesca, dopo varie pronunce - e ricordo che c'è anche un nostro ricorso pendente da cinque anni presso la Corte, che spero possa andare avanti - ancora una volta, in occasione di queste elezioni europee così importanti, dove per la prima volta si discuterà davvero del destino dell'Europa, vi assumete la responsabilità di discriminare e di impedire il pluralismo democratico! Mi soffermo, quindi, sulla terza discriminazione. Mi dispiace dirlo, ma i senatori sardi avrebbero dovuto forse avere più coraggio, come ne avremo noi. Si può ammettere che non si vuole mai cambiare sulla terza discriminazione la legge elettorale? È una discriminazione che riguarda un'intera Regione, un popolo che sa perfettamente che va a votare, ma non avrà mai la possibilità di vedere un proprio eletto. Ricordo infatti che ci sono stati solamente casi di subentrati in seguito alla dimissione di deputati siciliani. Anche su questo punto, non c'è stato il coraggio di accettare una modifica. Eravamo in tempo, ma vi siete inventati che eravamo fuori tempo. Sapete perfettamente che ciò non è vero. Potevamo fare le modifiche tranquillamente sullo sbarramento e sulla questione delle donne, e oggi, invece, viene fuori questa norma, che - lo sottolineo - non merita neanche il nostro voto contrario. Noi non parteciperemo al voto, perché questa norma prende in giro le donne ed è portatrice di tre discriminazioni. Sapete perfettamente che bisognerebbe solo vergognarsi di aver scritto che tali norme entrano in vigore pienamente dal 2019 e di aver accettato che si va dicendo in giro che è stata introdotta la norma della preferenza di genere, quando poi, a livello sanzionatorio, non succede niente. Mi dispiace altresì di aver firmato questo testo, a prima firma della senatrice Fedeli. Spero sia cancellato il mio nome quando questa normativa sarà approvata come testo unificato. Chiedo, anzi, ufficialmente che sia cancellato il mio nome, perché ancora una volta noi stiamo scrivendo una pagina vergognosa per il nostro Paese. Quando però si tratterà di applicare la parità negativa, allora questo Senato sarà molto pronto! La parità negativa, già esposta dal commissario Cottarelli, prevede di alzare ancora una volta l'età pensionabile delle donne e di intervenire sulla reversibilità, sapendo che colpirà le donne. Potrò allora vedere tanti voti a favore di quella parità, perché per la parità negativa sarete tutti quanti pronti, mentre per la parità positiva, per la parità di genere, non avete avuto il coraggio nemmeno di riscattare quello che è accaduto alla Camera dei deputati! Per tutti questi motivi, il mio Gruppo non parteciperà neanche al voto, sfileremo la tessera, perché questo provvedimento non è degno neanche del nostro voto contrario!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SEL e della senatrice De Pin.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DI MAGGIO (PI)</note>
+            <u ana="#regular" who="#DiMaggioSalvatoreTito" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u37">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg62">Signora Presidente, onorevoli colleghi, parrebbe proprio che la montagna abbia partorito un topolino. Il dibattito che ha accompagnato questo provvedimento, alla luce dell'emendamento presentato dal relatore, diventa drammaticamente imbarazzante, surreale, anche per la settimana precedente, dove non c'è stato l'elogio della retorica, signora Presidente, ma forse più quello dell'ipocrisia. Con buona pace della senatrice De Biasi, credo che la cosa che abbiamo appreso è che l'ipocrisia non ha sesso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Candiani</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg63">Forse è la pagina più brutta di questo scorcio di legislatura. Il partito di maggioranza relativa, che non avendo più alcuna stella polare alimenta il filibustering contro se stesso, partorisce oggi un'ignominiosa proposta di mediazione che offende l'intelligenza, prima, e la dignità, poi, delle sue donne. E in questa offesa vorrebbe coinvolgere tutti i partner di maggioranza. Una battaglia di emancipazione di genere che abortisce in quest'Aula - permettetemi - per la codardia di molte donne che siedono proprio in quest'Aula.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste della senatrice De Biasi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg64">Ho avuto la ventura di seguire il dibattito animato dalle donne del Partito Democratico in questi giorni e ho la sventura di vedere il frutto di quel dibattito in una proposta che in fine nega se stessa.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste di alcune senatrici del Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg65">Una sorta di «gravidanza isterica», per rimanere nel genere.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste della senatrice De Biasi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg66">Viene da chiedersi: cos'è l'omertà? L'omertà è quella solidarietà che, dettata da interessi pratici o di consorterie (oppure imposta da timori di rappresaglie), ti fa astenere da denunce... DE BIASI (PD). Anche nel linguaggio c'è un limite!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u38">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg67">Mi scusi se la interrompo, senatore Di Maggio.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg68">Senatrice De Biasi, il senatore Di Maggio sta esprimendo delle valutazioni con parole della lingua italiana. Sono dei concetti su cui capisco che ci può essere un dissenso, ma non gli posso togliere la parola. Non posso togliere la parola al senatore Di Maggio per il fatto che esprime un'opinione diversa dalla sua, senatrice De Biasi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg69">DE BIASI (PD). Gli faccia almeno cambiare il linguaggio! PRESIDENTE. Prego, senatore Di Maggio, continui il suo intervento. (La senatrice De Biasi si allontana dall'Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PI e del senatore Candiani.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DI MAGGIO (PI)</note>
+            <u ana="#regular" who="#DiMaggioSalvatoreTito" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u39">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg70">L'omertà è quella solidarietà che, dettata da interessi pratici o di consorterie (oppure imposta da timori di rappresaglie), ti fa astenere da denunce, in questo caso direi da testimonianze di un libero giudizio su fatti e persone.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg71">E, al pari, cos'è la dignità? È quel sentimento che proviene dal considerare importante il proprio valore morale. Per le sue caratteristiche intrinseche questo sentimento si avvicina a quello di autostima, ovvero di considerazione di sé, delle proprie capacità e della propria identità. Pertanto, il concetto di dignità dipende anche dal percorso che ciascuno sceglie di compiere.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg72">Ecco, Presidente, lo dico alle donne del Partito Democratico: il percorso che voi ci avete indicato noi non possiamo accettarlo. Faremmo un torto a tutte quelle donne che su questo percorso hanno speso anni e anni di battaglia, ma faremmo soprattutto torto alla nostra intelligenza.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg73">Voi sostanzialmente ci invitate a votare un provvedimento che nega, nei fatti, se stesso, che nega il motivo per il quale era stato pensato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg74">Ma c'è di più, signora Presidente. C'è un fatto che qui mi preme segnalare, un macroscopico dato politico che a noi non sfugge: quello che ci accingiamo a votare è il provvedimento di una nuova maggioranza. Capiamo bene che la velocità è diventata il must del Partito Democratico, che può cambiare in corsa un Presidente del Consiglio. Tuttavia, per cambiare maggioranza sarebbe comunque molto meglio consultarsi con tutti quelli che quel percorso l'hanno condiviso. Lo ha anticipato in discussione generale il senatore Di Biagio: per le considerazioni sin qui fatte, annuncio il voto di astensione del nostro Gruppo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MAURO Giovanni (GAL)</note>
+            <u ana="#regular" who="#MauroGiovanni" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u40">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg75">Signora Presidente, abbiamo francamente una sorta di disagio per come si è andato evolvendo il dibattito. Abbiamo occupato un'intera settimana dei lavori di quest'Assemblea con la discussione di una questione che riteniamo potesse essere posta in maniera assolutamente diversa. Vediamo intanto gli aspetti positivi. Per una volta si parla - fatto diventato ormai purtroppo raro nel nostro legiferare - di un'iniziativa legislativa nata direttamente dal Parlamento. Il disegno di legge della presidente Fedeli e quello della senatrice Alberti Casellati erano stati unificati affinché il Senato potesse legiferare in una materia che riteniamo assolutamente importante e fondamentale: l'equilibrio di genere. È vero che ci sono dei risultati e delle conquiste che non si fanno per legge o per decreto: diceva il senatore Micheloni che è un vizio tutto italico quello di intervenire su tutto con una decretazione. Ma è anche vero che, quando il legislatore si accorge che c'è un ritardo rispetto a ciò che si considera una conquista (e sicuramente è da considerare una conquista una maggiore partecipazione e un maggiore apporto alla vita democratica del Paese da parte del genere femminile, che eccelle ed è presente in tutti i settori della nostra società e del nostro vivere), se si ritiene importante e fondamentale raggiungere questo obiettivo e a ciò imputiamo un ritardo, allora può intervenire il legislatore. Ma qui è successo qualcosa che davvero non ci aspettavamo e che, per taluni aspetti, non fa onore alla nostra stessa Aula. Stamattina, per citare un noto film, c'erano donne sull'orlo di una crisi di nervi. Il non riuscire neanche a comprendersi fino in fondo e magari a rispettarsi è un aspetto che esso stesso genera il problema dell'equilibrio di genere: gli atteggiamenti che abbiamo registrato oggi in Aula hanno anch'essi un non so che di sessista, perché gli atteggiamenti sessisti non si registrano solo tra soggetti di sesso diverso, si possono registrare atteggiamenti sessisti anche tra persone delle stesso genere, e oggi mi è sembrato di vivere questo aspetto. Infatti, al di là della volontà e delle buone intenzioni di realizzare una legge importante, si sono innescate le solite furbizie e i consueti meccanismi, per cui a quell'abito ognuno voleva appendere la propria medaglia, o peggio, qualcuno voleva portare a casa un risultato diverso. Infatti, a leggere i testi, sia dell'iniziativa legislativa a prima firma Fedeli, sia di quella a prima firma della senatrice Alberti Casellati, l'idea era estremamente chiara: colmare quella che si riteneva essere una lacuna. Tra i sostenitori c'era però anche chi la vedeva di buon occhio non per la finalità precisa dell'iniziativa, ma perché nel frattempo poteva inserire al suo interno l'abbassamento della soglia di sbarramento per le elezioni europee; c'era chi, mentre diceva che andava bene quell'intervento legislativo, già pensava di modificare i collegi. Ognuno ha partecipato alla redazione e alle lunghissime ore di dibattito con un retropensiero. Ebbene, noi dobbiamo registrare che siamo ancora molto indietro rispetto a quella che pensiamo debba essere una conquista sociale e, quindi, istituzionale e politica da parte del legislatore, perché il legislatore stesso, in questi giorni di discussione e atteggiamenti, ha dimostrato forse di viverla in maniera difforme rispetto a una pura e semplice conquista sociale. La presenza delle donne nelle Assemblee elettive è ancora molto ridotta e, secondo la nostra opinione, dovrebbe essere incrementata. Ora, posto che ci sono problemi culturali, di selezione della classe dirigente all'interno dei partiti e problemi di cooptazione, sostengo che i cambiamenti culturali abbiano i loro tempi e che questi possano essere incredibilmente lunghi. Quindi, se pensiamo che il tempo farà in modo che nel futuro ci siano più donne nei Parlamenti nazionali ed europei, credo che questo momento non riusciranno a vederlo neppure i nostri figli. Quindi, noi legislatori, che ci siamo accorti di questa anomalia, dobbiamo colmare questo squilibrio, questo deficit di democrazia: il nostro è un sistema che, direttamente o indirettamente, frena l'ingresso di un numero più consistente di donne nelle Assemblee elettive.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg76">(ore 11,17) ( Segue MAURO Giovanni). Ebbene, credo che noi abbiamo il dovere di spingere il cambiamento culturale e di anticipare la necessità del cambiamento culturale, e per far questo dobbiamo mettere a disposizione quello che possiamo: una legge. Equilibrio di genere per legge? A questa domanda rispondiamo sì. Qualcuno lo considera un male - nutro tanto rispetto per questa opinione - ma è un male necessario. La politica non può inseguire sempre i cambiamenti della società, ma deve possedere l'ambizione di anticipare i processi di cambiamento, di guidarli e deve avere la lungimiranza di capire che tutte le norme elettorali che vanno nella direzione di riequilibrare la presenza numerica dei due generi nei Parlamenti devono essere sostenute. Non si vuole fondare qui alcun privilegio per le donne, cari colleghi, così come non intendo entrare in questioni di merito e di capacità. A chi non è capitato di incontrare, lungo la propria attività politica, tante donne militanti di partito in gamba, preparate, motivate ed appassionate, le quali però non hanno avuto l'opportunità di dimostrare il loro valore in Parlamento o sono state volutamente bloccate dai segretari di partito? Non facciamo gli ipocriti, colleghi. Sappiamo bene che il merito non c'entra. Tante sono le donne meritevoli impegnate in politica e fuori dai Parlamenti, di tutti i partiti, che aspettano soltanto che questo sistema venga scardinato. Nel futuro, quando lo squilibrio sarà colmato, quando il tema sarà superato, perché nel Paese ci sarà stata una crescita culturale in grado di garantire naturalmente e fisiologicamente una giusta presenza delle donne nelle assemblee elettive, allora tutte queste norme sulla parità di genere non avranno ragion d'essere, e il loro destino sarà quello dell'ineluttabile abrogazione. Ma fino a quel momento noi abbiamo il dovere di fare la nostra parte, qui ed ora. Questo disegno di legge, quindi, così come emendato dalla relatrice, va sostenuto, anche se personalmente penso che la soluzione trovata di prevedere una diversa operatività della legge in due momenti temporali diversi rappresenta un'operazione di maquillage che non convince assolutamente. Siamo intervenuti anche con una modificazione dei nostri modi. Abbiamo voluto anticipare quella che solitamente è una norma transitoria che va posta alla fine di qualunque testo legislativo, tant'è che all'inizio del provvedimento leggiamo che l'operatività partirà dal 2019. Anche questa è una dimostrazione del disagio con cui la relatrice, il Governo e l'Aula hanno dovuto procedere rispetto all'argomento. Nonostante questo e nonostante il fatto di aver registrato certi comportamenti che ci hanno provocato dispiacere, poiché siamo assolutamente convinti di essere nel giusto e di aver avviato una strada che non dovrebbe però essere percorsa per forza sotto la spinta di una legge - una società davvero evoluta non ha bisogno di strumenti del genere - ed essendo questa la condizione, dichiaro il voto favorevole del mio Gruppo al provvedimento in esame.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Compagnone e Candiani.</desc>
+               </kinesic>
+            </u>
+            <note type="president">Presidenza della vice presidente FEDELI</note>
+            <note type="time">11,17</note>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u41">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg77">Salutiamo i docenti e gli studenti che stanno seguendo i nostri lavori del Liceo scientifico «Aldo Moro» di Reggio Emilia e del Liceo scientifico «Majorana»-Istituto tecnico «Leonardo da Vinci» di Mola di Bari, ai quali diamo il nostro benvenuto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 1224-1256-1304-1305</note>
+            <note type="time">11,22</note>
+            <note type="time">(ore 11,22)</note>
+            <note type="speaker">D'ALI' (NCD)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u42">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg78">Signora Presidente, il Nuovo Centrodestra voterà a favore del testo come è stato alla fine definito attraverso l'emendamento della relatrice. Noi avevamo sollevato - non solo noi, ma anche il Ministero dell'interno - forti perplessità sull'opportunità di intervenire con una legge modificativa sulle regole delle elezioni europee nel momento in cui già era partito ed è operativo il termine per le raccolta delle firme. Questa riflessione ha certamente condotto alla modifica temporale dell'entrata in vigore della previsione dell'assoluta parità di genere nella composizione delle liste e ha suggerito di applicare solamente per questa tornata la previsione della obbligatorietà della differenza di genere con riferimento alla terza preferenza. Nel mio intervento e in molti interventi dei miei colleghi sono state espresse anche perplessità di merito complessivo sulla opportunità che il Parlamento intervenga in ordine alla composizione delle liste e all'obbligo dell'espressione delle preferenze in nome di un principio di assoluta libertà che riteniamo debba essere tutelato nei nostri processi democratici. Sono e siamo infatti assolutamente convinti -anche il senatore Giovanardi ha espresso in precedenza analoghi concetti - che non debba essere posta alcuna limitazione alla scelta dei partiti nella composizione delle liste e dei cittadini nella espressione delle preferenze. Queste limitazioni, infatti, che oggi possono sembrare positive perché volte alla promozione di alcune parti del corpo elettorale, sia attivo che passivo, possono arrivare a comprimere fortemente la manifestazione della libertà democratica del Paese. Ironicamente, magari con qualche cenno che non voglio venga frainteso, potremmo sostenere che nel 2019 la norma che stabilisce l'assoluta parità di genere nella composizione delle liste potrebbe anche risultare a vantaggio degli uomini, dato l'andamento demografico nel nostro Paese e data anche la giusta e corretta evoluzione della meritocrazia in molti settori della società italiana che vedono certamente e giustamente emergere le donne più di quanto emergano gli uomini. La democrazia, però, è ben altra cosa; il merito politico è ben diverso dal merito professionale o anche dallo stesso merito sociale ed è cosa che si conquista attraverso le battaglie che si fanno all'interno della società e delle organizzazioni che presiedono alla selezione politica. Quindi, ciò che, a nostro giudizio, dobbiamo assicurare è la pari opportunità di condizioni di partecipazione alla competizione politica, sia interna alle organizzazioni previste dalla Costituzione, sia nelle fasi di democrazia diretta assicurate sempre dalla Costituzione, cioè le elezioni dei membri del Parlamento e degli altri organi istituzionali di governo del territorio, così, come in questo caso, del Parlamento europeo. Credo che la soluzione individuata, che - ripeto - soddisfa anche importanti esigenze tecnico-giuridiche, che ho illustrato poco fa, come quella della assoluta impossibilità di intervenire con una modifica della composizione delle liste in una fase in cui è già stata avviata la raccolta delle firme, sia ancora una volta transitoria. Ricordo che quando dieci anni fa si introdusse per la prima volta l'obbligo di rispettare una data percentuale di genere nelle liste europee si stabilì di applicare tale misura soltanto per le prime due tornate elettorali, proprio perché si affermò che quella disposizione era necessaria in quanto si trattava di una norma promozionale che avrebbe esplicato i propri effetti nelle due tornate elettorali successive, e che poi si sarebbe tornati al regime di normalità. Già quella motivazione ci induce a pensare che il regime di normalità sia quello della assoluta libertà di scelta, sia nella composizione delle liste che nella espressione delle preferenze. Noi voteremo comunque a favore del disegno di legge come delineato dall'emendamento del relatore, che non è stato generato da pressioni particolari o da condizionamenti, ma è una scelta di buonsenso rispetto ad opinioni, tutte rispettabilissime, presenti in quest'Aula. Tra l'altro, essa ancora deve essere trasferita alla Camera, quindi si sarebbe aggravata maggiormente la criticità della tempistica della sua approvazione rispetto alla data di celebrazione del turno elettorale per le elezioni europee. Si tratta, come dicevo, di una soluzione di buonsenso che lascia anche in futuro la possibilità di apportare ulteriori aggiustamenti ad una legge che per il 2019 riteniamo eccessivamente tranchant, e ciò nell'interesse dei due generi, sia di quello femminile che di quello maschile, che potrebbero essere limitati nella loro proiezione esclusiva nel presentarsi al corpo elettorale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo NCD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FATTORI (M5S)</note>
+            <u ana="#regular" who="#FattoriElena" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u43">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg79">Signora Presidente, colleghi, oggi stiamo votando una normativa che al suo principio doveva garantire una pari presenza di donne e uomini nel Parlamento europeo. Sappiamo tutti, come è stato ricordato, che l'Italia è oggi agli ultimi posti per quanto riguarda l'equilibrio tra uomini e donne eletti nel Parlamento europeo, con un misero 23-25 per cento della rappresentanza femminile rispetto a quella maschile. La domanda che ci viene in mente è la seguente: è questa la strada, fissare un obbligo di legge? Il concetto di «parità» non dovrebbe indurci in inganno. Infatti l'articolo 3 della Costituzione pone tutti i cittadini su un piano di parità sociale e di uguaglianza di fronte alla legge, «senza distinzione di sesso, di razza, di lingua, di religione, di opinioni politiche, di condizioni personali e sociali». Ma se applichiamo rigidamente tale articolo nella legge elettorale, oltre alle quote di genere dovremmo introdurre le quote per i giovani, per le diverse religioni, per il titolo di studio o per l'aliquota IRPEF. Quella che, secondo noi, va semmai protetta è l'opportunità di accesso alle liste; poi il merito e la libera valutazione dovrebbero spettare all'elettore. Altrimenti rischiamo il patetico: per esempio, la rappresentanza femminile finlandese nel Parlamento europeo è del 62 per cento, ma questa legge non ci avrebbe consentito di raggiungere una simile percentuale. Dunque, imporre che le preferenze siano diversificate per genere sembrerebbe una forzatura. Peraltro, la legge n. 18 del 1979 fissa a tre il numero minimo di componenti di una lista. E se, per ipotesi, l'unico maschio di quella piccola lista fosse un pregiudicato, dovremmo dargli comunque il voto in quanto unico maschio? Vi ho voluto proporre dei casi un po' particolari. Per dare maggiore dignità a questa legge avreste potuto accogliere i nostri emendamenti: per esempio per limitare il numero di mandati, mandando a casa una serie di uomini che da troppo tempo occupano il Parlamento europeo; per ripulire le liste dagli impresentabili; e non ultimo per l'introduzione del transgender come altro tipo di sessualità, perché la parità di sessi include non solo il maschio e la femmina. Ma ci avete bocciato tutti gli emendamenti. Poi va denunciata l'ipocrisia delle forze politiche, che alla Camera hanno appena affossato ogni tentativo di introduzione di preferenze di genere per l'Italicum, e ora cercano di rifarsi il trucco e di rendersi più presentabili con questo provvedimento al Senato. Tuttavia non sono state queste nostre perplessità a ostacolare il provvedimento, bensì i veti del duopolio Renzi-Berlusconi, allorché alcune forze politiche hanno chiesto di abbassare le soglie di sbarramento. Questo, secondo noi, ha irritato la maggioranza occulta di PD e Forza Italia, che invece puntano a far man bassa dei voti dei partiti che non raggiungessero la soglia. Per questo motivo, abbiamo assistito ad una sequela di discorsi in discussione generale: una settimana di vergognoso ostruzionismo della maggioranza</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg80">, quando in Italia vi sono ben altre necessità, solo in attesa degli accordi sottobanco. E una volta che l'accordo sottobanco è stato raggiunto, si voleva concedere per i subemendamenti una sola ora. Quindi ci ritroviamo nella paradossale situazione in cui l'ostruzionismo viene garantito alla maggioranza occulta, mentre la ghigliottina si pone all'opposizione, soprattutto quella vera.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg81">Ma parliamo anche del merito di questo emendamento. La norma, che aveva una sua dignità nella forma originale, viene svuotata, rimanda tutto al 2019 e per questa tornata prevede modifiche insignificanti. Noi ci chiediamo il perché. Pensiamo che questo derivi dal fatto che i candidati si sono già accordati e, con la combinazione di tre preferenze, si fanno votare reciprocamente in minicordate, controllando il voto dei loro bacini elettorali, come chi lo fa in quei partiti che sono addetti al voto di scambio. Se verranno votati tre uomini o tre donne poco male, perderemo solo la terza preferenza; quindi addio al vero equilibrio di genere, mentre gli accordicchi e il voto di scambio sono tutelati. Ci stiamo prendendo in giro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Bottici</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg82">Le poche e parziali modifiche alla legge elettorale interverranno solo dal 2019. Allora ci sorge un dubbio: perché non rimandare tutto e quindi occuparsi di faccende più urgenti, astenersi dall'intervenire sulla legge elettorale nell'imminenza del voto e magari pensarci subito dopo? Ma il Partito Democratico non poteva perdere la faccia e dunque arriviamo a questa forzatura dei tempi che ha portato una montagna a partorire un topolino.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg83">Se i partiti avessero veramente a cuore la preferenza di genere l'avrebbero normata in tempi non sospetti, per esempio inserendola nella legge sul finanziamento pubblico ai partiti; e si sa che, quando per voi ci sono dei soldi, l'etica si attiva. Invece purtroppo nella legge sul finanziamento ai partiti si è disposta un'irrilevante decurtazione dei finanziamenti e solo oltre uno squilibrio tra donne e uomini nelle liste europee superiore al 60-40 per cento. Però ricordiamo che il finanziamento pubblico è vincolato all'adozione di uno statuto da parte dei partiti, che ne tuteli la democrazia interna. Allora ci chiediamo: perché nessun vincolo è stato posto ai partiti perché inseriscano nel proprio statuto la parità di genere nelle liste elettorali?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg84">Ecco, avete perso un'occasione o forse ne avete data una ai cittadini: quella di capire quali sono veramente le vostre priorità.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg85">Ora passiamo alle nostre priorità. Le nostre priorità non le trovate nelle parole, le trovate nei fatti. Vi ricordo che il Movimento 5 Stelle alle ultime elezioni politiche ha presentato un numero maggiore di donne rispetto agli uomini come capilista e che i nostri eletti hanno la maggior percentuale di donne tra tutte le forze politiche.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e della senatrice Bencini.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg86">E questo senza nessuna norma sulla preferenza di genere nelle nostre selezioni, che chiamiamo parlamentarie. Però noi abbiamo anche le liste pulite da pregiudicati, abbiamo rinunciato ai rimborsi elettorali e non abbiamo avuto bisogno di nessuna norma che ci obbligasse a fare questo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg87">Il problema è che a voi servono le leggi per imporre etica e buonsenso. Noi siamo oltre.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg88">Ecco, dopo il vergognoso iter di questo disegno di legge e la sua patetica conclusione, non possiamo prestarci a votare una normativa che per la maggior parte di noi era superflua, ma adesso è addirittura svuotata, trasformata in un provvedimento di facciata che piega il principio della rappresentanza di genere a interessi diversi. Se è terribile mancare di rispetto alle donne, ancor più terribile è strumentalizzarle e far perdere loro la dignità per scopi diversi! Avevo apposto la mia firma a questo disegno di legge, perché aveva una sua dignità così com'era stato proposto e aveva un suo scopo. Ma, considerando la sua trasformazione offensiva, non posso che ritirarla e anticipare il voto contrario di tutto il Movimento 5 Stelle.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PELINO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PelinoPaola" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u44">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg89">Signora Presidente, onorevoli colleghi, capisco bene che il provvedimento, così come scaturisce dall'ultima, faticosa mediazione del relatore, senatrice Lo Moro, possa suscitare qualche preoccupazione e qualche malumore da parte di chi crede fermamente che la parità di genere debba essere garantita attraverso l'introduzione di rigide quote rosa e di altrettanto rigide preferenze di genere, già dalle prossime elezioni dei membri del Parlamento di Strasburgo. Posizione rispettabilissima; d'altra parte, che la questione sia di massima importanza è indubbio. Ne ho avuto ulteriore conferma durante la mia partecipazione alla 58ᵃ sessione della Commissione sulla condizione delle donne tenutasi sotto l'egida delle Nazioni Unite a New York la settimana scorsa. È stata un'occasione preziosa per confrontarsi e ascoltare le voci delle delegazioni provenienti da tutto il mondo; un'occasione che mi ha portato ad una riflessione conclusiva, che ho espresso nel mio discorso in quella sede e che vorrei qui ripetere: il mio forte auspicio è che presto, nel nostro Paese, non ci sia più bisogno di parlare di quote rosa, di dovere imporre attraverso un atto legislativo la partecipazione delle donne nelle istituzioni politiche. Non perché la parità di genere non sia necessaria, ma perché l'equilibrio verrà raggiunto in maniera naturale e non conflittuale. Non si può e non si deve scadere in considerazioni che ci dipingono come vittime di un sistema ancorato al predominio degli uomini, in cui noi giochiamo esclusivamente un ruolo secondario e subordinato. Invece, è giusto rivendicare con orgoglio come, negli ultimi decenni, è costantemente cresciuta la partecipazione delle donne nelle attività istituzionali, nelle posizioni di vertice di importanti aziende, nella vita politica e sociale del nostro Paese. Ritengo che questo provvedimento sia pienamente rispondente all'impegno profuso per promuovere l'uguaglianza di genere e l' empowerment femminile sia sulla scena nazionale che su quella internazionale. Concordo con le considerazioni espresse in quest'Aula sul fatto che il progresso politico, civile, sociale ed economico di ogni Paese non può prescindere da una piena partecipazione ed un completo coinvolgimento delle donne su basi di uguaglianza nei processi decisionali, nelle scelte di governo e nei processi formativi ed educativi. Né si può trascurare la posizione dell'Unione europea su questo punto. È considerata come una priorità universale per il quadro post 2015 garantire la partecipazione delle donne alla vita politica ed economica, promuovere l'uguaglianza dei diritti di tutto il genere femminile. Purtroppo in questo momento non si poteva fare di più e di meglio. Come ha giustamente sottolineato ieri il presidente Romani, le esigenze legate al rispetto della piena legittimità della raccolta già in atto delle firme per le liste che si presentano alle prossime elezioni europee non ci consentono di rimandare ulteriormente l'approvazione di questo provvedimento, ma non ci permettono neanche di cambiare le regole del gioco quando il gioco è già iniziato. Oggi dobbiamo sostenere la coraggiosa mediazione anche della senatrice Lo Moro, e considerare che iniziamo un processo che, se anche verrà pienamente applicato solo dalle successive elezioni, non è giusto interrompere. Per questo motivo dichiaro il voto favorevole del Gruppo Forza Italia.</seg>
+            </u>
+            <note type="speaker">MATURANI (PD)</note>
+            <u ana="#regular" who="#MaturaniGiuseppina" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u45">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg90">Signora Presidente, colleghi, colleghe, rappresentante del Governo, in questi giorni in quest'Aula si è svolto un dibattito sapiente, appassionato, che ha evidenziato diversi punti di pensiero rispetto al disegno di legge presentato. Punti diversi di pensiero che in alcune situazioni e per alcune rappresentazioni ci hanno piuttosto meravigliato, visto che il disegno di legge è uscito dalla Commissione di merito con un voto favorevole all'unanimità. Credo che questo sia il primo punto che a quest'Aula va ricordato. Nella giornata odierna abbiamo assistito al dibattito conclusivo su questo disegno di legge e a rappresentazioni di pensiero che per giustificare posizioni diverse alla vigilia del voto non solo smentiscono in maniera davvero pesante il voto espresso in Commissione, ma addirittura tendono a gettare discredito verso il pensiero e le scelte sostenute dal Partito Democratico. Avevo preparato il mio intervento scritto, come si suol fare in queste occasioni e poi lo leggerò, ma non mi posso esimere dal fare delle considerazioni di natura politica che scaturiscono dal dibattito che si è svolto. Non si può più accettare che sulla rappresentanza paritaria delle donne si vogliano giocare, su interessi diversi di alcune forze politiche, questioni diverse. In questo dibattito le forze che hanno dichiarato che voteranno contro il disegno di legge, che sono quelle che in Commissione avevano votato a favore, sono anche quelle che hanno inserito in questo dibattito un elemento fuorviante rispetto all'elemento unico e pregnante che il disegno di legge rappresentava, cioè il paritario equilibrio di genere nelle liste per le elezioni europee. La soglia di accesso non c'è in questo disegno di legge. Allora, credo che tutti noi dobbiamo riflettere sulla mediazione raggiunta, sull'emendamento proposto dalla relatrice, che ringrazio a nome dell'intero Gruppo del Partito Democratico per il suo lavoro importante, appassionato, equilibrato e competente. La soglia di accesso non è un elemento introdotto e costitutivo di questo disegno di legge. Pertanto non ci si venga a dire che il Partito Democratico ha fatto una scelta al ribasso giocando sulla pelle delle donne. Sulla pelle delle donne e sulla rappresentanza delle donne hanno giocato pesantemente quelle forze politiche che hanno anteposto l'elemento della soglia d'accesso alla rappresentanza femminile nelle liste. E questo è un dato di verità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e della senatrice Bonfrisco.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg91">Dopodiché, sul disegno di legge si può anche avere e si ha la libertà di modificare il proprio pensiero. Come dire, prendiamo atto che nei luoghi importanti della discussione si condivida l'impianto del provvedimento e poi, quando si arriva in Aula, non lo si condivida più, ma non con quelle motivazioni strumentali, che noi non accettiamo. La mediazione raggiunta con l'emendamento della nostra relatrice permette finalmente in questa consultazione, quella che si svolgerà a breve, di avere una rappresentanza femminile.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg92">Ricordo a tutti, ma credo che non abbiate bisogno che ve lo ricordi io, che il provvedimento che aveva garantito fino alle passate elezioni europee che la terza preferenza fosse una preferenza di genere ha perso la sua efficacia. Dunque, se non si interveniva con questa proposta di legge, avremmo avuto quasi sicuramente una rappresentanza del nostro Paese al Parlamento europeo composta quasi esclusivamente da uomini.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg93">Intanto, quindi, il provvedimento di legge che voteremo, sia pure con lo slittamento al 2019 della pienezza dell'efficacia delle norme in esso contenute, garantisce comunque la possibilità per le donne del nostro Paese di essere rappresentate nel Parlamento europeo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg94">Inoltre, colleghi e colleghe, non è più accettabile in quest'Aula, mentre si discute della dignità della rappresentanza di genere dentro alle istituzioni, permettersi o permettere ai colleghi di definire interventi appassionati e competenti, poiché non corrispondenti al proprio pensiero, come il frutto di gravidanze isteriche.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e dei senatori Albertini e Bonfrisco.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg95">Colleghi, non è più accettabile nemmeno pensare di ridurre questo dibattito e la volontà delle donne di essere rappresentate pienamente nelle istituzioni ad una banale lotta tra femminucce e maschietti, com'è stato affermato qua dentro durante la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg96">Ci troviamo oggi, a pochi giorni dal voto della Camera, che - diciamolo subito - ha registrato una sconfitta per la politica tutta, con la sola esclusione delle parlamentari di tutti gli schieramenti che hanno voluto privilegiare coraggiosamente e con forza la loro appartenenza di genere, sostenendo la rappresentanza di genere nella proposta di legge per l'Italicum.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg97">Ora, alla vigilia della seconda lettura dell'Italicum, ci ritroviamo in Senato ad esprimere un voto su un testo che promuove il riequilibrio di genere nelle liste per le elezioni europee, dal momento che - come dicevo - non è più in vigore la norma transitoria che ha garantito finora tale rappresentanza.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg98">Ci avrebbe certamente fatto piacere poter discutere tale provvedimento non a ridosso delle elezioni europee, ma, da quanto ho poc'anzi ricordato, abbiamo dovuto constatare l'utilizzo di quest'elemento in discussione generale a fini strumentali da parte di tante forze politiche. Anche sul suddetto elemento abbiamo accettato e condiviso la giusta mediazione cui siamo arrivati. L'abbiamo fatto con responsabilità e con la volontà di tenere alta l'attenzione su un tema che, chiariamolo subito, non si chiama «quote» - smettiamola di chiamarlo così! - ma «democrazia paritaria».</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg99">Questo vale, cari colleghi e care colleghe, in vista anche e soprattutto della seconda lettura del disegno di legge elettorale, che quest'Aula sarà chiamata a votare. Nel corso di tale lettura, auspico vivamente - e con me il mio Gruppo - che possa vedere la luce la correzione di quanto derivato dall'inaccettabile voto segreto dell'Aula di Montecitorio.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg100">Care colleghe e cari colleghi, dobbiamo sapere - ma penso che lo sappiamo tutti - che l'Italia è molto più avanti di quanto si voglia far finta di credere, ed ha pienamente elaborato il fatto che gli uomini e le donne sono parimenti cittadini titolari di diritti politici.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg101">C'è un mondo, colleghi e colleghe, che non si fermerà, che investirà e sta già investendo tutti i settori del nostro Paese, dalla pubblica amministrazione, alle aziende, ai luoghi e ai settori dell'economia, alla scuola, all'università, ai giornali; un mondo cui non possono e non devono rimanere estranee le Aule di questo Parlamento, né tanto meno la rappresentanza italiana del Parlamento europeo...</seg>
+               <incident type="sound">
+                  <desc>Il microfono si disattiva automaticamente. Il Presidente ne dispone la riaccensione.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg102">..alla vigilia di un voto che si rivela cruciale per i destini del nostro Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg103">Auspico che prima del voto ci possa essere un'ulteriore riflessione delle forze politiche che hanno annunciato il loro voto contrario, perché davvero quest'Aula, il Senato e tutti noi perderemmo un'occasione se non votassimo a favore di questo testo di legge.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u46">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg104">Signora Presidente, sostituisco indegnamente la senatrice Bisinella e quindi svolgerò una breve dichiarazione di voto. Voteremo a favore del provvedimento in esame perché abbiamo presentato una proposta di legge per la tutela e il sostegno della rappresentanza di genere e nonostante quello che è accaduto in quest'Aula voteremo perché siamo convinti di questo. Approfitto per fare le mie scuse, come dovrebbero fare tutti i colleghi dell'Assemblea, alla relatrice, alla Presidente della Commissione e a tutti coloro che hanno lavorato veramente per portare avanti questa proposta conclusasi, purtroppo, in maniera indegna.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg105">Una cosa è certa: se nei giorni scorsi avevamo dei dubbi su chi avesse affossato il problema della rappresentanza di genere grazie al voto segreto alla Camera, quest'oggi non ne conosciamo i nomi, ma sicuramente l'appartenenza. Ed è bene dirlo: chi ha affossato là e qui la rappresentanza di genere sono il Partito Democratico, Forza Italia-Il Popolo della Libertà XVII Legislatura e Nuovo Centrodestra.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">D'ANNA (GAL)</note>
+            <u ana="#regular" who="#DAnnaVincenzo" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u47">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg106">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg107">Signora Presidente, desidero brevemente ribadire che l'intera questione qui sollevata con ampio dispendio di parole cozza su un solo elemento: quale sia il diritto che ha quest'Assemblea, che ha lo Stato, di prevaricare attraverso una legge, la libera determinazione del voto. In sostanza, bisognerebbe chiedersi se in un sistema in cui c'è uno Stato tanto tracotante e pervasivo si possa garantire una maggiore libertà nella libera espressione del voto attraverso un obbligo. Questa non è una bella pagina per la democrazia perché voglio ricordare che tutte le società tiranniche, dalla Repubblica di Platone, al progetto politico di Campanella, alla società ideale di Tommaso Moro, nascono sempre dall'assunto di rendere gli uomini ugualmente felici. Voi, per parificare o per dare una maggiore opportunità alle donne, state defraudando i cittadini, donne comprese, del libero arbitrio che l'elettore ha nel poter votare con proprio discernimento e secondo la propria scelta. Questo resti agli atti del Senato, perché quello che oggi vi sembra una conquista è un'ulteriore invasione della legislazione sul diritto degli uomini ad autodeterminarsi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Liuzzi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg108">. Votazione nominale con scrutinio simultaneo</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u48">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg109">Ai sensi dell'articolo 120, comma 3, del Regolamento, indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, del testo unificato dei disegni di legge nn. 1224, 1256, 1304 e 1305, nel testo emendato, con il seguente titolo: «Modifiche alla legge 24 gennaio 1979, n. 18, recante norme per l'elezione dei membri del Parlamento europeo spettanti all'Italia, in materia di garanzie per la rappresentanza di genere e relative disposizioni transitorie inerenti alle elezioni da svolgersi nell'anno 2014», con l'avvertenza che la Presidenza si intenderà autorizzata ad effettuare le eventuali modifiche di coordinamento formale che dovessero risultare necessarie.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg110">Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Comunicazioni del Presidente, ai sensi dell'articolo 126- bis , comma 2- bis , del Regolamento, in ordine al disegno di legge: (1328) Disposizioni in materia di semplificazione, razionalizzazione e competitività agricole del settore agricolo, agroalimentare e della pesca</note>
+            <note type="time">11,59</note>
+            <note type="status">(Collegato alla manovra finanziaria)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43998.htm</note>
+            <note type="time">(ore 11,59)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u49">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg111">L'ordine del giorno reca comunicazioni del Presidente, ai sensi dell'articolo 126- bis, comma 2- bis, del Regolamento, in ordine ad disegno di legge n. 1328 recante: «Disposizioni in materia di semplificazione, razionalizzazione e competitività agricole del settore agricolo, agroalimentare e della pesca», collegato alla manovra di finanza pubblica. Invito il senatore Segretario a dare lettura del parere reso - sentito il Governo - dalla 5ᵃ Commissione permanente, ai sensi dell'articolo 126- bis, comma 2- bis, del Regolamento, in ordine al predetto disegno di legge in esame.</seg>
+            </u>
+            <note type="speaker">BARANI</note>
+            <note type="role">segretario</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u50">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg112">«La Commissione programmazione economica, bilancio, esaminato il disegno di legge in titolo, ai sensi e per gli effetti dell'articolo 126- bis, comma 2- bis del Regolamento, e sentito il rappresentante del Governo, osserva che il termine del 31 gennaio indicato dall'articolo 7, comma 2, lettera f ), della legge n. 196 del 2009, per la presentazione dei provvedimenti collegati alla manovra di finanza pubblica, non è stato rispettato, in quanto il disegno di legge in titolo risulta presentato alla Presidenza del Senato il 21 febbraio scorso, ma che tuttavia il predetto termine, sulla scorta di numerosi precedenti, può considerarsi di carattere ordinatorio. Rileva, altresì, che le disposizioni del disegno di legge risultano, nel loro complesso, funzionali al rilancio del settore agricolo e agroalimentare, conformemente alla Nota di aggiornamento del Documento di economia e finanza 2013, e che esse appaiono, inoltre, conformi al contenuto proprio dei collegati alla manovra di finanza pubblica, come sancito dall'articolo 10, comma 6, della legge di contabilità».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u51">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg113">Tenuto conto del parere espresso dalla 5ᵃ Commissione permanente, esaminato il disegno di legge collegato n. 1328, ai sensi dell'articolo 126- bis, comma 2- bis, del Regolamento, preso atto della posizione del Governo, comunico che il testo del provvedimento in questione non contiene disposizioni estranee al proprio oggetto, come definito dalla legislazione vigente. In attesa delle determinazioni della Conferenza dei Presidenti dei Gruppi parlamentari, passiamo agli interventi di fine seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">MORONESE (M5S)</note>
+            <u ana="#regular" who="#MoroneseVilma" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u52">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg114">Signora Presidente, neanche 24 ore dopo aver ricordato in quest'Aula la straordinaria figura di don Peppe Diana a venti anni dai suo barbaro assassinio eseguito dai sicari della camorra, ricorre oggi un ulteriore anniversario... (Brusìo). PRESIDENTE. Chiedo all'Aula particolare attenzione. MORONESE (M5S). Grazie, Presidente. Ricorre oggi un ulteriore anniversario che, per i suoi contorni, è legato a doppio filo con le sorti di quelle che oggi conosciamo come terre di don Peppe Diana, oltre che come terra dei fuochi. Anch'esso è un ventennale che dovrebbe stampare quel 20 marzo del 1994 nella mente e nel cuore di tutti i cittadini di questo Paese, ma soprattutto di quelle dei molti cronisti impegnati a svolgere con serietà e onestà il loro lavoro di informazione. Venti anni fa venivano assassinati infatti, la giornalista del TG3 Ilaria Alpi e il suo operatore Miran Hrovatin. Una morte avvenuta tra le oscure controversie che da sempre caratterizzano il Corno d'Africa, in quella Somalia e in quella Mogadiscio che, come avremmo scoperto proprio grazie alle intuizioni di Ilaria Alpi, era il punto nevralgico dello scambio armi-rifiuti che per anni ha alimentato una guerra civile senza quartiere dietro alla quale nascondere affari a nove zeri. Una rotta per traffici internazionali di rifiuti di ogni genere, quella somala, che dopo l'uccisione di Ilaria Alpi e di Miran Hrovatin avrebbe cambiato destinazione, individuando nella Campania uno dei recapiti privilegiati, dando origine a quell'enorme catastrofe ambientale di matrice politica, economica e mafiosa che è stata l'ultra decennale emergenza rifiuti, le cui conseguenze, proprio mentre parliamo in quest'Aula, continuano a manifestarsi con una violenza inaudita ai danni della salute dei cittadini campani, e chissà di quali altri territori che in futuro magari si scoprirà, forse proprio grazie ai degni eredi di Ilaria Alpi. Un dramma, quello campano, che in tutta la sua crudezza, specie negli ultimi mesi nei quali si sta cercando di correre ai ripari con improbabili leggi e indagini fumose, ha ormai fatto storia in questo Paese, e che nonostante la coltre fumosa alzata della politica negli anni post uccisione, manifesta chiaramente l'enorme scandalo su cui la giornalista del TG3 e il suo operatore avevano messo le mani, e sugli sporchi affari che causarono la loro morte. Perché il nome di Ilaria Alpi non resti solo una sterile incisione sulla targa di un premio giornalistico, oggi e ogni giorno tutti noi abbiamo il dovere di conservare il suo estremo esempio di ricerca e condivisone della verità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PELINO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PelinoPaola" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u53">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg115">Signora Presidente, devo riportare a lei e a quest'Aula le preoccupazioni degli abruzzesi e, nello specifico, degli abitanti della Valle Peligna e dell'Alto Sangro per la paventata chiusura dei distretti di Polizia stradale e della Polizia ferroviaria. Torno a ribadire le aree interessate hanno bisogno della presenza costante delle Forze di polizia perché si tratta per lo più di aree turistiche e montane. L'eliminazione della Polizia stradale a Castel di Sangro, oltre a danneggiare la stessa cittadina, penalizza l'intero circondario, Roccaraso, Rivisondoli, Pescocostanzo e tutti i Comuni che nel periodo invernale ed estivo richiamano migliaia di turisti. C'è poi Sulmona, dove si vorrebbe accorpare la Polizia stradale locale alla vicina Pratola Peligna. Sulmona è il Comune più grande e popoloso della Valle Peligna e non può perdere una presenza così importante, che garantisce sicurezza ai cittadini. Sempre a Sulmona si vuole eliminare la Polfer. Mi appello a lei, Presidente, affinché il Ministro dell'interno, sia pur nell'ottica di effettuare i tagli alla spesa pubblica, non penalizzi un'area già così fortemente depressa da una crisi strutturale e dal tragico evento del terremoto del 2009.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Falanga.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u54">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg116">Senatrice Pelino, faremo assolutamente presente la situazione al Governo.</seg>
+            </u>
+            <note type="speaker">PAGLINI (M5S)</note>
+            <u ana="#regular" who="#PagliniSara" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u55">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg117">Signora Presidente, oggi la ditta Firem di Formigine, in provincia di Modena, sta mettendo in mezzo alla strada 42 lavoratori: 42 persone senza speranza, 42 famiglie distrutte. Si era sentito parlare del caso solo nell'agosto scorso, quando la notizia che una ditta si era volatilizzata al rientro dalle ferie era un buon colpaccio televisivo. Gli operai rientrati non volevano credere ai loro occhi. Nessuno li aveva avvisati. Un'azienda sparita da una parte, in Italia, e riapparsa da un'altra, in Polonia. I 42 operai erano stati lasciati fuori dai cancelli, con i capannoni svuotati dai macchinari e le attrezzature fatte sparire: neanche ladri professionisti notturni avrebbero fatto di meglio. Via, tutto in Polonia, con quote cedute al 70 per cento e confluite nella nuova società di nome Antigo, guarda caso degli stessi titolari, i signori Pedroni di Formigine. Via, a continuare lì un altro giro di giostra per chi si vuole arricchire alle spalle dei nuovi schiavi. Ricordo che i lavoratori polacchi vengono anche chiamati i cinesi d'Europa. Davanti alla FIREM la passerella in agosto l'hanno fatta tutti: istituzioni, politici e sindacati, nessuno mancava all'appello. Il deputato del Partito Democratico Richetti aveva assicurato di aver coinvolto direttamente l'allora ministro dei rapporti con il parlamento Franceschini. Forse una risposta tempestiva del Governo avrebbe potuto ancora salvare l'azienda e le sorti dei 42 lavoratori. Come Movimento 5 Stelle avevamo presentato delle interrogazioni alla Camera, alle quali ad oggi non abbiamo ancora avuto nessuna risposta. Totale silenzio. Proviamo oggi da qui a segnalare ulteriormente questa tragedia. Quindi, se volete mandare le telecamere di «Ballarò», «Che tempo che fa», «Porta a Porta», «Agorà» - tanto, ormai si sa, la politica viene fatta in televisione - vi segnalo che oggi a Modena, in tribunale, saranno presenti i legali e i rappresentanti della ditta FIREM per presentare i conti, con la speranza che non si dichiari il fallimento dell'azienda. Ciò significherebbe la catastrofe per i lavoratori coinvolti che chiedono risposte: sono 42 cittadini «baggianati», derubati, derisi, sviliti, umiliati, violentati. Signori, abbiamo risposte per loro? Operai usati e gettati. Signori, la televisione dice che il presidente Renzi darà 80 euro a chi, nonostante abbia un lavoro, guadagna poco; ma a questi 42 operai, a questi disperati che il lavoro lo hanno perso, il presidente Renzi che cosa offre? Gli operai della FIREM e noi del Movimento 5 Stelle chiediamo ancora a chi di dovere, di fare luce e chiarezza e chiediamo com'è possibile che una delocalizzazione avvenga in questo modo, cioè infischiandosene delle leggi vigenti in materia che ben regolano queste cose. Ma, sopratutto, chiediamo com'è possibile far tutto ciò lasciando in Italia oltre 7 milioni di euro di debiti tra fornitori, indotto e lavoratori. Questo lo vogliamo sapere e sottolineo il termine «lo vogliamo». Vogliamo sapere se qualcuno è veramente interessato a ristabilire serietà, correttezza e, soprattutto, rispetto per i lavoratori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SCIBONA (M5S)</note>
+            <u ana="#regular" who="#ScibonaMarco" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u56">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg118">Signora Presidente, «al mio Paese a chi butta giù le reti viene tagliata la gola. Fanno un buco e lo infilano sotto terra». Questa è la minaccia rivolta a Tino, 60 anni, attivista del comitato di Pozzolo Formigaro (Alessandria) contro il Terzo Valico. La settimana scorsa si era recato alla Cascina Ramellotta, insieme ad un altro attivista del comitato di Novi Ligure, dove alcuni operai della Lande srl stavano risistemando gli oltre 4 chilometri di recinzione divelti da numerose donne e uomini nella giornata del 22 febbraio. A minacciare in dialetto Tino è stato proprio un operaio della Lande srl, società tra l'altro già citata anche in quest'Aula, precisamente in un'interpellanza del 2010, dove si richiamavano informative del ROS che attenzionavano tale ditta per rapporti con la camorra. Tino non è certamente persona da farsi intimidire, ma quella minaccia di morte è una minaccia contro le migliaia di donne e di uomini che si battono, da anni, in difesa della propria terra ed è l'ennesimo sintomo di come tante ditte malavitose, all'opera in appalti del Terzo Valico, pensino di poter fare il bello e il cattivo tempo in un clima di protezione che la classe politica fornisce loro. Dunque, tutta la nostra solidarietà e vicinanza a Tino e agli attivisti No TAV del Terzo Valico, e speriamo che anche tutti i politici, gli amministratori, nonché il prefetto di Alessandria, che invocano incessantemente l'isolamento degli eventi, vogliano fare lo stesso. Violento è chi pensa di poter minacciare di morte un signore di 60 anni con l'unica colpa di difendere con amore la terra in cui vive ed è da sempre in prima fila nelle iniziative del movimento, che si tratti di preparare una polenta o tagliare delle recinzioni, in ogni caso tutte azioni ispirate alla lotta gandhiana. Infine, da quest'Aula voglio fugare un dubbio. I No TAV del Terzo Valico non hanno paura, non si fanno intimorire e oggi hanno una ragione in più per continuare a far cadere le recinzioni di Pozzolo Formigaro. Con tutti loro vi aspettiamo il 5 aprile ad Arquata per una grande marcia popolare fino al cantiere di Radimero e poi tutti insieme si dovrà tornare alla Cascina Ramellotta. Contro le mafie vinciamo noi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">NUGNES (M5S)</note>
+            <u ana="#regular" who="#NugnesPaola" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u57">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg119">Signora Presidente, è del 2011 l'avvio de «Il Grande Progetto Pompei» e solo di qualche mese fa l'approvazione del decreto cultura, che, all'articolo 1, ne dispone l'accelerazione con l'istituzione dell'«Unità Grande Pompei» e l'approvazione di un piano strategico che ha costituito anche una Soprintendenza specifica per i beni archeologici di Pompei, Ercolano e Stabia e l'istituzione di un fondo «Mille giovani per la cultura»: un programma straordinario ed urgente, un programma grande di interventi conservativi, di prevenzione, manutenzione e restauro. Eppure, i crolli continuano e ai crolli si susseguono anche i furti. Uno a gennaio: un frammento di un'edera su fondo giallo, che è stato poi restituito. Un altro è stato scoperto solo pochi giorni fa, grazie al giro di un sorvegliante: l'affresco raffigurante il ritratto di Artemide nella casa di Nettuno. Allora, avviene che il Ministro dispone d'urgenza lo stanziamento di 6 milioni di euro per l'illuminazione e la sorveglianza privata. Si continua in questo Paese a procedere per emergenza, per progetti straordinari, quando invece è sempre e solo l'ordinaria gestione ad essere deplorevolmente dimenticata e deprivata sempre. A Pompei abbiamo solo 180 telecamere, che lasciano scoperte vastissime aree. Semplici regole, come il divieto di ingresso con lo zainetto, non vengono rispettate. Abbiamo solo 138 custodi, distribuiti in cinque turni: meno della metà di quelli necessari. Si procederà in Commissione competente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MATTESINI (PD)</note>
+            <u ana="#regular" who="#MattesiniDonella" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u58">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg120">Signora Presidente, sono anche contenta che in Aula ci sia il sottosegretario Ferri, perché voglio portare l'attenzione sul tema minori e mafia. Il mio pensiero va a Cocò, il bambino di tre anni ucciso il 19 gennaio scorso, piuttosto che a Domenico, anche lui di tre anni, ucciso lunedì a Palagiano, in Puglia, da una pioggia di proiettili. Insieme a lui sono morti i genitori e gli altri due bambini, i due fratellini di sei e sette anni, si sono salvati: il più piccolo - ci raccontano le cronache - si è accasciato sul sedile e ha chiuso gli occhi ed ha detto poi alla zia: «Ho fatto finta di morire». Il pensiero, oltre che a loro, va anche agli altri piccoli che negli anni sono stati uccisi, massacrati, per l'unica colpa di essere figli di genitori legati a clan mafiosi: un orrore continuo, un crescendo davvero pericoloso, una situazione che deve interessare ed impegnare tutto il Parlamento, ed anche il Governo, per due motivi. Il primo è perché affrontiamo la questione legata alla legalità, che è la vera emergenza di questo Paese, essendo la precondizione per qualunque cambiamento vero e duraturo. Il secondo motivo riguarda i minori: riguarda la tutela e il dovere che lo Stato ha, in tutte le sue articolazioni, di garantire ai bambini il diritto a vivere bene, in serenità e quindi in sicurezza, indipendentemente da chi ne siano i genitori, e a non morire per mano di mafia. Dobbiamo interrogarci, però, non solo sui bambini morti e sul come impedire che ne muoiano altri, ma anche sul fatto che abbiamo il dovere di fare qualcosa per i due fratellini di Domenico di 6 e 7 anni che si sono salvati. Si sono salvati, è vero, sono vivi, sono sopravvissuti, ma credo che il ricordo di quegli spari, l'immagine della madre e del padre uccisi, la paura che hanno avuto in quei momenti saranno un qualcosa di indelebile nella loro vita. Come adulti, come legislatori, come coloro che hanno la responsabilità prima di questo Paese, abbiamo il dovere di cercare insieme risposte che oltrepassino la sfera dell'intervento individuale e superino magari quel momento di dolore ed orrore che ognuno di noi prova di fronte ad avvenimenti di tal genere. Per questo reputo - per esempio - utile che il tema «mafia e minori» possa trovare un lavoro congiunto delle Commissioni parlamentari bicamerali antimafia e infanzia, sapendo bene naturalmente quali sono le differenti competenze delle due Commissioni. Credo utile quanto meno un primo incontro, una prima seduta, per definire, in qualche modo, il lavoro delle due Commissioni (e non solo, perché il tema riguarda anche il Governo), un percorso comune, al fine di intervenire davvero, ragionare - fatto non semplice - e definire quali possono essere le nuove norme, quali i comportamenti e la politica anche a livello locale, perché non accada più quanto è successo in questi anni e da ultimo ancora lunedì.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e dei senatori Bencini e Liuzzi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per la risposta scritta ad un'interrogazione</head>
+            <note type="speaker">ORRU' (PD)</note>
+            <u ana="#regular" who="#OrruPamelaGiacomaGiovanna" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u59">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg121">Signor Presidente, signori colleghi, pur sapendo di rischiare di diventare tediosa, intervengo per l'ennesima volta sulla vicenda che riguarda la situazione dei lavoratori del gruppo 6GDO srl, azienda della mia Regione e in particolare della mia Provincia, Trapani, per la quale ho sollecitato insistentemente e continuo oggi a sollecitare risposta alla mia interrogazione 4-01685 al Ministro dell'interno, presentata il 12 febbraio scorso. Questa mia continua e ormai pressoché quotidiana ostinazione nel richiedere riscontro al Ministro sulla situazione dell'azienda, la cui proprietà è stata confiscata e trasferita all'Agenzia nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata, è dovuta alla situazione divenuta ormai di reale drammaticità per i lavoratori del gruppo, in quanto, se non definita nelle prossime ore, con il sopraggiungere dei termini di legge fissati in questi giorni, l'azienda andrà in liquidazione. Oltre ad avere presentato l'interrogazione, nelle settimane scorse ho contestualmente contattato più volte il Ministero del lavoro, con cui sono in continuo contatto, che sta curando la procedura della cassa integrazione per i lavoratori del gruppo. Pertanto, signora Presidente, sollecito la risposta all'interrogazione, ribadendo ancora una volta che, nonostante la consapevolezza che la crisi economica ha generato perdita di lavoro ovunque, non è più possibile procrastinare una risposta sul futuro dei lavoratori onesti coinvolti, che continuano a rischiare di pagare un prezzo doppiamentealto .</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per fatto personale</head>
+            <note type="speaker">CIRINNA' (PD)</note>
+            <u ana="#regular" who="#CirinnaMonica" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u60">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg122">Signora Presidente, prendo la parola non per un intervento di fine seduta, ma per fatto personale, per fatto personale collettivo, per stigmatizzare quanto è accaduto - sono lieta di farlo durante la sua Presidenza, perché sono certa che lei non l'avrebbe permesso - durante l'intervento del senatore Di Maggio. Auspico che i pochi colleghi presenti in Aula di Scelta Civica per l'Italia vogliano riferire le mie parole al senatore Di Maggio e anche alla senatrice Lanzillotta. Apprendiamo dalla presidente Lanzillotta che l'uso del termine «codardo» non è un insulto, ma rientra in un lessico normale e possibile. Se aprite Wikipedia trovate scritto che codardo è chi fugge per paura davanti ad un pericolo o ad un rischio, venendo meno al proprio dovere. Allora voglio sapere dal senatore Di Maggio, che ha definito tutte le senatrici del PD delle codarde per come si sono comportate sulla mediazione dolorosa e difficile del testo che abbiamo appena votato, dove era quando le tante donne del PD facevano le battaglie per i diritti; dove era quando facevamo i ricorsi al TAR</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg123">; dove era la presidente Lanzillotta quando, nelle giunte romane, sedeva una sola donna e noi ricorrevamo al Consiglio di Stato.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u61">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg124">Senatrice Cirinnà, per definizione e regola di quest'Aula, la Presidenza, mentre presiede, non può essere contestata. Non è corretto.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg125">Quindi, la invito a considerare, quando si rivolge ad una senatrice e ad un senatore nella loro veste di senatori all'interno dell'Aula, che l'atteggiamento è differente.</seg>
+            </u>
+            <note type="speaker">CIRINNA' (PD)</note>
+            <u ana="#regular" who="#CirinnaMonica" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u62">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg126">Ho sbagliato, ha ragione e le chiedo scusa.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg127">Pertanto, proprio perché nel ruolo di Presidenza non si può essere contestati - ne chiederò conto, insieme a tutte le colleghe del Partito Democratico al presidente Grasso - mi domando se la senatrice Lanzillotta, quando presiede, lo fa per il Gruppo di Scelta Civica o se presiede per tutti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg128">Dato che «codardo» si può dire, allora mi prendo la libertà di dire che codardo sarà il senatore Di Maggio e codarda sarà la senatrice Lanzillotta. È lecito! Ma voglio anche precisare che nessuno di noi pensa che sia codarda né la senatrice Lo Moro, che ha sofferto terribilmente per questo testo, né la presidente Finocchiaro, né tanto meno la collega De Biasi, che è stata apostrofata come colei che ha svolto un certo intervento perché affetta da una gravidanza isterica.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg129">Se questo linguaggio sessista prende piede anche in quest'Aula noi non vinceremo mai la battaglia per la parità, perché saremo travolte da questo maschilismo imperante!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e della senatrice Casaletto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg130">Mi auguro, ma sono certa che lo farà, che il presidente Grasso vorrà stigmatizzare quanto accaduto. È inutile che noi combattiamo nel Paese se anche qui dentro questi atteggiamenti vengono sopportati, subiti e tollerati!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e della senatrice Casaletto.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u63">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg131">Mi corre l'obbligo, oltre che la responsabilità, di precisare che il senatore Di Maggio non appartiene al Gruppo Scelta Civica per l'Italia, ma al Gruppo Per l'Italia, e che il senatore Di Maggio si assume tutta la responsabilità di ciò che ha detto. Ovviamente questo significa che la Presidenza ne prende atto e che procederà alle opportune verifiche in ordine a linguaggio e rispetto delle regole di questo Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per lo svolgimento di interpellanze</head>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u64">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg132">Signora Presidente, sollecito lo svolgimento di due interpellanze, la 2-00106 e la 2-00107 , da me presentate rispettivamente il 23 dicembre dello scorso anno e il 2 gennaio scorso relativamente alla questione delle pari opportunità. Poiché il Governo Letta non aveva nominato un Ministro per le pari opportunità, tali interpellanze erano rivolte al Presidente del Consiglio. Anche il Governo Renzi non ha nominato un Ministro dedicato, e mi risulta che non siano state ancora assegnate le deleghe per le competenze. Pertanto, la competenza sulle pari opportunità resta in capo al Presidente del Consiglio, il quale non manca peraltro di Sottosegretari alla Presidenza del Consiglio in grado di rispondere a questi due atti, anche se mi piacerebbe fosse direttamente lui a farlo. Le interpellanze si riferiscono a un documento elaborato dal Dipartimento per le pari opportunità in collaborazione con l'Ufficio nazionale antidiscriminazioni razziali in ordine al rispetto dell'orientamento sessuale nella comunicazione; tale documento contiene le linee guida per una comunicazione rispettosa degli orientamenti sessuali. Poiché i suoi contenuti presuppongono situazioni che la legge italiana non prevede o addirittura vieta, quali il matrimonio fra persone dello stesso sesso, l'adozione da parte di coppie dello stesso sesso e altre fattispecie, credo sia importante che il Governo fornisca una risposta in merito anche per capire il suo orientamento in questo campo, se si va cioè verso uno sposalizio totale dell'ideologia gender sia in ambito di linee guida e di legislazione, sia nell'attuazione pratica, e di legislazione, oppure se si intende rispettare, almeno provvisoriamente, le leggi oggi vigenti. Siccome ho sollecitato almeno tre volte al precedente Governo lo svolgimento di tali interpellanze, tengo a precisare che il cambio di Governo non rende meno importante queste risposte.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u65">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg133">Saluto le studentesse e gli studenti del Liceo delle scienze umane «Regina Elena» di Acireale, in provincia di Catania, cui do il benvenuto in Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per la risposta scritta ad un'interrogazione</head>
+            <note type="speaker">DONNO (M5S)</note>
+            <u ana="#regular" who="#DonnoDaniela" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u66">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg134">Signora Presidente, lo scorso giovedì 13 marzo si è tenuta a Roma, la Marcia mondiale per l'endometriosi, una marcia silenziosa e dignitosa in cui hanno sfilato per le vie della città molte persone, non solo donne, sebbene la malattia colpisca soltanto loro. L'endometriosi è una patologia cronica della parte interna dell'utero che colpisce una donna su dieci; solo in Italia tre milioni di donne ne sono affette, ma poche sanno di essere malate, essendo questa patologia poco conosciuta. Questo ci lascia particolarmente allibiti, perché il silenzio intorno a questa malattia è veramente terrificante. Questa scarsa conoscenza porta anche alla scoperta della malattia in tempi troppo prolungati, il che significa che si potrebbero ricevere delle cure non in tempo; si stima un ritardo di circa nove anni dalla comparsa dei primi sintesi e la diagnosi. Troppe donne per troppo tempo rimangono quindi incomprese nel loro male. Lo scorso 22 novembre, il Movimento 5 Stelle ha presentato un'interrogazione a risposta scritta su questo argomento, alla quale ancora non abbiamo avuto risposta. Abbiamo domandato ai Ministri della salute, del lavoro e delle pari opportunità di dichiarare in maniera unanime l'endometriosi una malattia cronica ed invalidante a livello clinico, sociale e professionale. Abbiamo chiesto di fare informazione e di sensibilizzare coloro che ignorano le conseguenze di una simile affezione. Il silenzio assoluto ad oggi: i Ministri ancora non hanno risposto. Abbiamo chiesto l'inserimento dell'endometriosi all'interno della tabella nazionale delle malattie invalidanti, perché è una malattia che necessita di essere conosciuta per essere riconosciuta in tempo. Sollecito pertanto la risposta all'interrogazione 4-01159 , che abbiamo presentato. Lo Stato deve garantire il diritto alla salute, il diritto alla cura, il diritto all'informazione, ma soprattutto alla prevenzione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u67">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg135">Senatrice Donno, solleciteremo la risposta alla vostra interrogazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg136">Colleghi, in attesa della determinazione della Conferenza dei Capigruppo, la seduta è sospesa. (La seduta, sospesa alle ore 12,29, è ripresa alle ore 12,50).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u68">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg137">Colleghi, riprendiamo i nostri lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg138">La Conferenza dei Capigruppo, riunitasi questa mattina, ha approvato a maggioranza modifiche e integrazioni al calendario corrente e il nuovo calendario dei lavori fino al 3 aprile.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg139">Questa mattina, dopo la lettura del calendario, la seduta sarà tolta, in relazione ai lavori della Commissione affari costituzionali sul disegno di legge in materia di province e città metropolitane. L'esame del provvedimento inizierà in Assemblea nella seduta pomeridiana di martedì 25 marzo, a partire dalle ore 15.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg140">Per la discussione del provvedimento, i tempi sono stati ripartiti per complessive 11 ore, nel presupposto che la Commissione abbia concluso l'esame. Le dichiarazioni di voto inizieranno intorno alle ore 16,30 di mercoledì 26, pertanto il voto finale avrà luogo alle ore 18 circa.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg141">Seguirà la discussione del decreto-legge sul rientro dei capitali detenuti all'estero, approvato dalla Camera dei deputati. Per consentire la conclusione del provvedimento, in scadenza il 30 marzo, sono state previste sedute con votazioni nel pomeriggio di giovedì 27 e, se necessario, nella mattina di venerdì 28.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg142">Il calendario della settimana dal 1ª al 3 aprile prevede il seguito del disegno di legge di modifica della disciplina delle misure cautelari personali, la discussione delle mozioni sull'attività di ricerca di idrocarburi nel Mare Adriatico e sul sistema di telecomunicazioni MUOS.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg143">Saranno inoltre esaminate ratifiche di accordi internazionali, i disegni di legge in materia di esercizio abusivo delle professioni e di ammissione al reclutamento nelle Forze armate, nonché le mozioni sul popolo Saharawi e sulle iniziative a sostegno dei territori confinanti con la Svizzera.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg144">Nel pomeriggio di giovedì 3 aprile si svolgerà il question time con il Ministro delle politiche agricole, alimentari e forestali. Ricordo infine che nella mattinata di giovedì 27 marzo nell'Aula del Senato si terrà una cerimonia in occasione della «Giornata mondiale del teatro».</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Programma dei lavori dell'Assemblea, integrazioni</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u69">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg145">La Conferenza dei Presidenti dei Gruppi parlamentari, riunitasi questa mattina con la presenza dei Vice presidenti del Senato e con l'intervento del rappresentante del Governo, ha adottato - ai sensi dell'articolo 53 del Regolamento - la seguente integrazione al programma dei lavori del Senato per i mesi di gennaio, febbraio e marzo 2014: - Disegno di legge n. 1212 e connessi - Disposizioni sulle Città metropolitane, sulle Province, sulle unioni e fusioni di Comuni (Approvato dalla Camera dei deputati).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Calendario dei lavori dell'Assemblea Discussione e reiezione di proposta di modifica</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u70">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg146">Nel corso della stessa riunione, la Conferenza dei Presidenti dei Gruppi parlamentari ha altresì adottato a maggioranza - ai sensi dell'articolo 55 del Regolamento - modifiche e integrazioni al calendario vigente e il nuovo calendario dell'Assemblea fino al 3 aprile 2014:</seg>
+               <note type="summary">Giovedì 20 marzo ant. h. 9,30 - Seguito disegni di legge n. 1224 e connessi - Equilibrio di genere elezioni Parlamento europeo (Voto finale con la presenza del numero legale) - Comunicazioni del Presidente, ai sensi dell'articolo 126- bis comma 2- bis , del Regolamento, sul ddl n. 1328 - Competitività settore agricolo (Collegato alla manovra finanziaria) Giovedì 20 marzo pom. h. 16 - Interpellanze e interrogazioni</note>
+               <note type="summary">Martedì 25 marzo pom. h. 15-21 - Disegno di legge n. 1212 e connessi - Province e città metropolitane (Approvato dalla Camera dei deputati) - Disegno di legge n. ... - Decreto-legge n. 4, rientro capitali detenuti all'estero (Approvato dalla Camera dei deputati) (Scade il 30 marzo 2014) Mercoledì 26 " ant. h. 9,30-13,30 " " " pom. h. 15 Giovedì 27 " pom. h. 15 Venerdì 28 " ant. h. 9,30 (se necessaria)</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg147">Gli emendamenti al disegno di legge n. 1212 e connessi (Province e città metropolitane) dovranno essere presentati entro le ore 12 di martedì 25 marzo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg148">Il termine per la presentazione di emendamenti al disegno di legge n. ... (Decreto-legge n. 4, rientro capitali detenuti all'estero) sarà stabilito in relazione ai tempi di trasmissione dalla Camera dei deputati.</seg>
+               <note type="summary">- Seguito disegno di legge n. 1232 e connessi - Modifiche disciplina misure cautelari personali (Approvato dalla Camera dei deputati) - Mozioni sull'attività di ricerca di idrocarburi nel Mare Adriatico - Seguito mozioni sul sistema di telecomunicazioni satellitari MUOS - Ratifiche di Accordi internazionali definite dalla Commissione esteri - Disegno di legge n. 471 e connessi - Esercizio abusivo delle professioni - Disegno di legge n. 733 e connessi - ammissione reclutamento Forze armate - Mozione n. 129, Vaccari, sulle iniziative a favore del popolo Saharawi - Mozione n. 214, Bitonci, su iniziative a sostegno dei territori confinanti con la Svizzera Martedì 1° aprile ant. h. 11-13,30 " " " pom. h. 16,30-20 Mercoledì 2 " ant. h. 9,30-13,30 " " " pom. h. 16,30-20 Giovedì 3 " ant. h. 9,30-14 Giovedì 3 aprile pom. h. 16 - Interrogazioni a risposta immediata ai sensi dell'art. 151- bis del Regolamento al Ministro delle politiche agricole alimentari e forestali</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg149">Ripartizione dei tempi per la discussione del disegno di legge n. 1212 (Province e città metropolitane) (11 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 1 h. Governo 1 h. Votazioni 1 h. Gruppi 8 ore, di cui: PD 1 h 45' FI-PdL XVII 1 h. 09' M5S 55' NCD 48' Misto 40' LN-Aut 35' Aut (SVP, UV, PATT, UPT) - PSI-MAIE 33' PI 32' GAL 32' SCpI 30' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg150">Ripartizione dei tempi per la discussione del disegno di legge n. ...</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg151">(Decreto-legge n. 4, rientro capitali detenuti all'estero) (7 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 40' Governo 40' Votazioni 40' Gruppi 5 ore, di cui: PD 1 h 06' FI-PdL XVII 43' M5S 34' NCD 30' Misto 25' LN-Aut 22' Aut (SVP, UV, PATT, UPT) - PSI-MAIE 21' PI 20' GAL 20' SCpI 19' Dissenzienti 5'</note>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u71">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg152">Signora Presidente, signori colleghi, naturalmente riteniamo che questo calendario non vada bene. Rimarchiamo il fatto che al Senato della Repubblica si lavori dal martedì pomeriggio fino al giovedì mattina, cosa che in nessuna azienda in Italia, e forse nel mondo, succede. Chiediamo dunque gentilmente ai colleghi di buona volontà di continuare i lavori nel seguente modo. Chiediamo di mettere in discussione per la seduta antimeridiana di venerdì 21 la mozione di sfiducia nei confronti del ministro del lavoro e delle politiche sociali Poletti nonché, sempre nella stessa seduta, la mozione di sfiducia nei confronti del ministro dello sviluppo economico Guidi. A seguire, sabato 22, chiediamo di mettere in discussione, nella seduta antimeridiana, la mozione di censura nei confronti del sottosegretario per i beni e le attività culturali Barracciu e, nella seduta pomeridiana, la mozione di censura nei confronti del vice ministro dell'interno Bubbico. Inoltre, signora Presidente, il Regolamento del Senato parla chiaro ed è previsto dall'articolo 151- bis che una volta al mese abbia luogo il cosiddetto question time. Poiché nel mese di marzo non si è svolto, come Gruppo parlamentare Movimento 5 Stelle chiediamo che il prossimo giovedì 27 il Governo, nella persona del presidente del Consiglio, signor Renzi, venga a rispondere e a chiarire la sua posizione relativamente all'utilizzo da parte sua di un appartamento sito nel Comune di Firenze, con particolare riferimento ai suoi rapporti con l'imprenditore fiorentino Carrai e agli eventuali appalti o lavori da quest'ultimo effettuati per l'amministrazione comunale fiorentina. Sempre per non intralciare i lavori del Senato, chiederei la cortesia a lei, signora Presidente, e a tutti i colleghi di impegnare sempre le giornate del venerdì e del sabato per portare avanti altri lavori. Le chiedo quindi, sempre cortesemente, di inserire nella seduta antimeridiana di venerdì 28 la mozione di sfiducia nei confronti del ministro delle infrastrutture e dei trasporti Lupi, nella seduta pomeridiana sempre di venerdì 28 la mozione di censura nei confronti del sottosegretario per le infrastrutture e i trasporti Del Basso De Caro, e nella seduta antimeridiana di sabato 29 la mozione di censura nei confronti del sottosegretario per la salute De Filippo. Infine, proponiamo la discussione di mozioni, in primo luogo quelle in materia di idrocarburi nel mare Adriatico, la cui discussione è stata nuovamente spostata, perché ormai la parola «urgenza» è utilizzata impropriamente anche da questo Senato della Repubblica. Chiediamo quindi, sempre con la buona volontà di tutti i colleghi, di svolgere nella seduta antimeridiana di lunedì 24 marzo la discussione delle mozioni sull'attività di ricerca di idrocarburi nel mare Adriatico. Considerando infatti che la discussione di queste mozioni viene rinviata da quasi un anno, forse è arrivato il momento di parlarne. Dopo di che, signora Presidente, chiediamo che nella seduta pomeridiana di lunedì 24 vengano finalmente discusse le mozioni sul sistema di telecomunicazioni satellitari MUOS. In particolare la mozione 1-00125 è stata presentata nell'agosto 2013, quindi ormai anche per questa accenderemo la candelina del primo anno. Poiché nello specifico si tratta di gravi problematiche legate alla salute dei cittadini di Niscemi e siciliani in generale, chiediamo che se ne parli e che le forze politiche, in maniera serena, si assumano la responsabilità di un voto favorevole o contrario. Chiediamo solo un po' di buonsenso e che la mozione venga votata favorevolmente da tutti. Ringrazio per l'attenzione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u72">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg153">Signora Presidente, intervengo per fare una precisazione rispetto allo speech di cui ha dato lettura, che conferma quanto è accaduto all'interno della Conferenza dei Presidenti dei Gruppi parlamentari. Vorrei rimanesse agli atti una specificazione. Con riferimento al disegno di legge in materia di province e città metropolitane sicuramente lei ha precisato «ove concluso l'esame in Commissione», per cui si intenderebbe che senza l'esame in Commissione il provvedimento non giungerebbe in Aula. Vorrei, però, specificare che, se non dovesse concludersi l'esame in Commissione, non scatterebbe il cosiddetto contingentamento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u73">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg154">Senatore Calderoli, le preciso subito che è come dice lei.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u74">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg155">Signora Presidente, solo per una questione di cortesia, le preannuncio che chiederò la controprova della votazione relativa alla proposta di modifica del calendario.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u75">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg156">Intanto, sappiamo che dobbiamo innanzitutto votare la proposta per alzata di mano.</seg>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u76">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg157">Signora Presidente, preciso ulteriormente la precisazione del senatore Calderoli. La Conferenza dei Capigruppo ha concluso che, nell'ipotesi in cui la Commissione non dovesse terminare i lavori e non dovesse dare il mandato al relatore, verrebbe nuovamente convocata la Capigruppo per decidere quale sarà a quel punto il calendario dell'Assemblea. Questa è stata l'esatta conclusione della Conferenza dei Capigruppo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u77">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg158">Abbiamo perfezionato tutto, affinché sia ben chiaro quanto deciso dalla Conferenza dei Capigruppo.</seg>
+            </u>
+            <note type="speaker">ICHINO (SCpI)</note>
+            <u ana="#regular" who="#IchinoPietro" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u78">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg159">Signora Presidente, colgo l'occasione offerta dall'intervento del collega Santangelo per svolgere un'osservazione e, in particolare, per manifestare un netto e marcato dissenso rispetto all'idea che il lavoro del parlamentare si misuri dal numero di ore o di giornate trascorse in Aula e in Commissione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi SCpI, PD, NCD e FI-PdL XVII.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg160">Il collega Santangelo evidentemente ha una concezione del lavoro e del parlamentare molto misera, se si considera che per un'ora passata qui dentro ne sarebbero necessarie almeno quattro volte tanto di contatti con il Paese e di studio di ciò che si deve esaminare in questa sede. La sua idea del nostro lavoro presupporrebbe, riferita all'attività di un professore, che si faccia lezione senza averla preparata, o, riferita all'attività di un avvocato, che si vada in udienza senza aver studiato la causa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi SCpI, PD, NCD e FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg161">Io considero questa concezione del nostro lavoro, che pure viene ripresa diffusamente da una parte della stampa, come una grave distorsione del concetto del Parlamento e del suo rapporto con la società civile.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg162">Credo, quindi, sia molto importante che noi stessi per primi sottolineiamo la rilevanza di tutto quanto - ed è moltissimo - facciamo ogni settimana, ogni giorno, anche al di fuori di quest'Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi SCpI, PD, NCD e FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u79">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg163">PRESIDENTE. Anche se non vorrei aprire una discussione su questo, le do la parola per qualche minuto. Poi dobbiamo votare, perché, come lei avrà notato, sono le 13.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg164">Signora Presidente, naturalmente rispetto la posizione espressa dal senatore Ichino. Egli, però, non deve venire qui dentro a strappare facili applausi, perché la sua concezione del lavoro è molto piccola.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dai Gruppi SCpI e PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg165">Lo deve spiegare agli italiani!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg166">MANCONI (PD). Fordista!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u80">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg167">Senatore Santangelo, la prego di fare attenzione alle parole che si utilizzano. Su questo insisto con tutti in quest'Aula. Ciascuno esprime un'opinione con un linguaggio proprio e degno di quest'Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg168">La prego, senatore Santangelo, e concluda il suo intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg169">Signora Presidente, mi faccia capire qual è il problema nell'utilizzare la parola piccolo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg170">PRESIDENTE. Potremmo aprire un dibattito sul vocabolario italiano, ma non lo voglio fare. Prego, concluda il suo intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg171">Dicevo che il concetto del senatore Ichino dei lavori dell'Assemblea è realmente piccolo. Egli dovrebbe confrontarsi con i cittadini e verificare il frutto della sua concezione dei lavori dell'Assemblea!</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dai Gruppi SCpI, PD, NCD e FI-PdL XVII.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg172">Chiedete ai cittadini!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u81">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg173">Metto ai voti la proposta complessiva, presentata dal senatore Santangelo, di modifica del calendario dei lavori dell'Assemblea e di effettuare sedute nelle giornate di venerdì e sabato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg174">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg175">Poiché la richiesta della controprova è già stata precedentemente avanzata dal senatore Santangelo, ordino la chiusura delle porte. Procediamo alla controprova, mediante procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg176">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg177">Resta pertanto definitivo il Calendario dei lavori adottato a maggioranza dalla Conferenza dei Capigruppo e da me comunicato all'Assemblea.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.u82">
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg178">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg179">Ricordo che il Senato tornerà a riunirsi in seduta pubblica oggi, alle ore 16, con l'ordine del giorno già stampato e distribuito.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-20-LEG17-Sed-214.seg180">La seduta è tolta (ore 13,04).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

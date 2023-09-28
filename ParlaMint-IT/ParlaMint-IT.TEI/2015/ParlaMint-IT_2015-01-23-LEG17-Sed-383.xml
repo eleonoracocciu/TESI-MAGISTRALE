@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 383 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 383 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 383, giorno (2015-01-23)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 383, Day (2015-01-23)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="383-upper">383 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="120" unit="speeches" xml:lang="it">120 discorsi</measure>
+            <measure quantity="120" unit="speeches" xml:lang="en">120 speeches</measure>
+            <measure quantity="11620" unit="words" xml:lang="it">11.620 parole</measure>
+            <measure quantity="11620" unit="words" xml:lang="en">11,620 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0898502</idno>
+               <date when="2015-01-23">23.01.2015</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="8"/>
+               <tagUsage gi="head" occurs="6"/>
+               <tagUsage gi="note" occurs="117"/>
+               <tagUsage gi="seg" occurs="120"/>
+               <tagUsage gi="u" occurs="52"/>
+               <tagUsage gi="vocal" occurs="4"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="29"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="desc" occurs="34"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2015-01-23">23.01.2015</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u1">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg1">La seduta è aperta (ore 9,35). Si dia lettura del processo verbale. BARANI, segretario, dà lettura del processo verbale della seduta del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg2">Signor Presidente, intervengo sul processo verbale. Il verbale della seduta di ieri è lunghissimo e chiaramente ho avuto un po' di difficoltà a poterlo esaminare tutto, cosa che ho fatto durante la notte, per verificare se fosse stato trascritto tutto quanto avvenuto; ciò nonostante abbiamo fatto anche questo tipo di lavoro, pur di essere precisi questa mattina. Vorrei pertanto sollevare l'attenzione in merito ad alcuni contenuti del processo verbale. Nel corso della seduta, in più di un'occasione, abbiamo sollevato delle eccezioni in merito alle decisioni prese dalla Presidenza relativamente, in particolare, alla non ammissibilità, per estraneità di materia, di alcuni emendamenti; successivamente, invece, sono stati ammessi, senza eccepire l'estraneità di materia, altri emendamenti di natura analoga, se non identica. Abbiamo eccepito varie questioni, ma nel verbale non risultano - almeno dalla prima verifica che abbiamo potuto fare - le risposte della Presidenza: mi riferisco al "vabbè", utilizzato in più di un'occasione, prima dalla Presidenza Calderoli - ricordo anche ieri mattina - poi dalla Presidenza Fedeli e poi, se non ricordo male, anche dalla Presidenza Lanzillotta. La nostra richiesta, quindi, è stata in più di un'occasione liquidata con una risposta molto laconica come un "vabbè", e andiamo avanti. Quell'espressione, detta un po' fuori microfono e così percepita, non risulta in alcuna parte del verbale. Pertanto, chiedo la rettifica del verbale, con l'introduzione, in particolare dopo il mio intervento nel quale ho sollevato l'eccezione sull'emendamento 1.9, dichiarato inammissibile per estraneità di materia, della risposta della Presidenza esplicitata con un "vabbè". Questo per ricordare meglio qual è stato il termine utilizzato dalla Presidenza.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u3">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg3">Senatore Crimi, per ricordarlo innanzitutto a me stesso, leggo il comma 1 dell'articolo 60 del Regolamento, che recita come segue: «Di ogni seduta si redige il processo verbale, che deve contenere soltanto gli atti» - e ci sono - «e le deliberazioni, indicando per le discussioni l'oggetto e i nomi di coloro che vi hanno partecipato».</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg4">Quello che lei, senatore Crimi, invece, ha eccepito in questa occasione viene riportato nel Resoconto stenografico.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u4">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg5">Signor Presidente, vediamo se io riesco ad essere più preciso. Facendo riferimento proprio all'articolo 60, comma 1, del Regolamento, da lei appena citato, le chiedo gentilmente di modificare il processo verbale che è stato appena letto ed esaminato, proprio nella notte, dal Gruppo Movimento 5 Stelle. Si tratta di una modifica sostanziale. Ieri, proprio nella fase del dibattito di una parte importante di questo procedimento, l'emendamento 1.12221, a prima firma del senatore Zeller, è stato trasformato, come era nelle possibilità del senatore Zeller, in ordine del giorno. Ad oggi, questo testo è stato accolto con parere favorevole del Governo, ma nessuno in Aula è stato nelle condizioni di poter leggere la riformulazione di questo emendamento, così importante nei contenuti, così come trasformato in ordine del giorno. Io sono intervenuto per eccepire la modalità non corretta utilizzata per la trasformazione di questo emendamento in ordine del giorno e, quindi, prego che venga inserito questo mio intervento, citando almeno l'emendamento in questione. Chiedo che venga apportata questa modifica al processo verbale, citando proprio l'articolo 60, comma 1, del nostro Regolamento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u5">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg6">Le dichiarazioni che sono state fatte verranno riportate nel Resoconto stenografico della seduta di oggi. Nel processo verbale della seduta di ieri, come specificato dall'articolo 60, comma 1, sono inammissibili, perché non si tratta né di deliberazioni né di interventi.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Santangelo.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg7">Senatore Santangelo, è agli atti.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg8">Chiediamo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u7">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg9">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u8">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg10">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u9">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg11">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg12">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 9,49).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u10">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg13">Colgo l'occasione per salutare gli alunni della Scuola «Santa Maria della Porziuncola» di Roma, che stanno assistendo ai nostri lavori. Li ringraziamo per la loro vivacità e li salutiamo</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione dei disegni di legge: (1385) Disposizioni in materia di elezione della Camera dei deputati</note>
+            <note type="time">09,50</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione di un disegno di legge d'iniziativa popolare e dei disegni di legge d'iniziativa dei deputati Cirielli; Pisicchio; Bersani ed altri; Francesco Saverio Romano; Migliore ed altri; Lenzi; Zampa e Marzano; Zampa e Ghizzoni; Martella; Francesco Sanna; Bobba ed altri; Giachetti ed altri; Giorgia Meloni ed altri; Rigoni ed altri; Rigoni ed altri; Nicoletti ed altri; Martella ed altri; Vargiu; Burtone ed altri; Balduzzi ed altri; Laffranco ed altri; Vargiu; Toninelli ed altri; Porta ed altri; Zaccagnini ed altri; Valiante ed altri; Lauricella; Michele Bordo; Marco Meloni ed altri; Di Battista ed altri)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44128.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1449) BRUNO ed altri. - Disposizioni in materia di elezione della Camera dei deputati</note>
+            <note type="time">09,50</note>
+            <note type="status">(Votazione finale qualificata, ai sensi dell'articolo 120, comma 3, del Regolamento)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44312.htm</note>
+            <note type="time">(ore 9,50)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u11">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg14">L'ordine del giorno reca il seguito della discussione dei disegni di legge nn. 1385, già approvato dalla Camera dei deputati in un testo risultante dall'unificazione di un disegno di legge d'iniziativa popolare e dei disegni di legge d'iniziativa dei deputati Cirielli; Pisicchio; Bersani ed altri; Francesco Saverio Romano; Migliore ed altri; Lenzi; Zampa e Marzano; Zampa e Ghizzoni; Martella; Francesco Sanna; Bobba ed altri; Giachetti ed altri; Giorgia Meloni ed altri; Rigoni ed altri; Rigoni ed altri; Nicoletti ed altri; Martella ed altri; Vargiu; Burtone ed altri; Balduzzi ed altri; Laffranco ed altri; Vargiu; Toninelli ed altri; Porta ed altri; Zaccagnini ed altri; Valiante ed altri; Lauricella; Michele Bordo; Marco Meloni ed altri; Di Battista ed altri, e 1449.</seg>
+            </u>
+            <note>Riprendiamo l'esame degli articoli del disegno di legge n. 1385.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Ricordo che nella seduta di ieri sono proseguite le votazioni degli emendamenti presentati all'articolo 1.</note>
+            <note type="speaker">FINOCCHIARO (PD)</note>
+            <u ana="#regular" who="#FinocchiaroAnna" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg15">Signor Presidente, annuncio che, a seguito di una lettura più attenta dell'emendamento 1.7001, e grazie anche al contributo di moltissime colleghe e colleghi, ritengo di dover apportare due correzioni, che ho già comunicato alla Presidenza, all'emendamento stesso. La prima, che è nata da un confronto con molte colleghe di tutti i Gruppi parlamentari, come le senatrici Chiavaroli e Lanzillotta, corregge una previsione. Come i colleghi ricorderanno, nel testo originario non era prevista nessuna norma di riequilibrio della rappresentanza per quanto riguarda i capilista. Questa norma viene introdotta con l'emendamento 1.7001 nella proporzione di 40 e 60. Sennonché la scrittura, prevedendo che vi fosse la possibilità di arrotondamento all'unità superiore, rischiava di produrre uno scatto che, sommandosi, avrebbe ridotto vistosamente la rappresentanza di genere. Di conseguenza, la correzione che riteniamo di apportare è di sostituire, alla fine del paragrafo di cui al punto 4), alle parole «unità superiore», le parole «unità più prossima», espressione matematica che appunto indica che, quanto più ci si avvicina all'unità, tanto più è possibile effettuare l'arrotondamento. La seconda correzione è piuttosto una norma di chiusura. Essa si riferisce alle ipotesi previste puntualmente al punto 8) di nullità nell'espressione del voto: la norma finale del paragrafo, il comma 6, recita: «Ogni altro modo di espressione del voto difforme dalle disposizioni previste dall'articolo 58, secondo comma, e dal presente articolo ne determina la nullità». Aggiungeremmo: «nel caso in cui sia manifesta l'intenzione di annullare la scheda o di rendere riconoscibile il voto». Ritengo sia un modo per chiudere l'ambito delle ipotesi in cui il voto può essere dichiarato nullo, avendo riguardo alla necessità che nella scheda l'espressione del voto non sia riconoscibile né vi sia volontà di annullare la scheda.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u13">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg16">Senatrice Finocchiaro, mi scusi se mi permetto di sottoporle possibili correzioni da un punto di vista non matematico ma grammaticale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg17">Là dove, al comma 4, si dice «all'unità più prossima», mi chiedo se il termine «più vicina» non sia forse più corretto.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg18">In effetti è l'espressione matematica, non so se in una legge possa andar bene. PRESIDENTE. Credo che, trattandosi di una legge, il termine «più vicina» sia meglio di «più prossima», che è termine matematico. FINOCCHIARO (PD). Sì, perché «più» è «prossimo» e, quindi, in realtà, ci troveremmo ad avere «prossimissimo». PRESIDENTE. Inoltre, con riguardo alla seconda correzione, al comma 6: dopo «ne determina la nullità"» forse aggiungerei un «anche». Provi a rileggerlo nel suo insieme.</seg>
+            </u>
+            <note type="speaker">FINOCCHIARO (PD)</note>
+            <u ana="#regular" who="#FinocchiaroAnna" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u14">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg19">L'ho riletto e ho capito la sua obiezione, su cui penserò un attimo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg20">Tuttavia, a me pare che il comma 6 riguardi tutte le altre modalità di espressione del voto, oltre quelle puntualmente elencate ai punti precedenti, difformi dalle previsioni di legge. A me pare che proprio a questo ambito, vasto e non regolato, facciamo riferimento con questa norma di chiusura che, sarebbe bene precisare, scatta ogniqualvolta questa difformità, che non è tra quelle che determinano espressamente nullità, manifesti l'intenzione di annullare la scheda o di rendere riconoscibile il voto.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg21">Secondo me, quindi, l'«anche» non ci va, ma mi riservo di riflettere sulle sue osservazioni perché normalmente sono molto pertinenti.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg22">Signor Presidente, visto che la presidente Finocchiaro ha sollevato due questioni di non poco conto, in particolare quella relativa alla nullità del voto, che sappiamo bene essere uno dei punti più delicati in materia elettorale, e considerati anche i suoi suggerimenti, che dimostrano come il testo possa forse essere migliorato con qualche suggerimento, le chiederei un margine di tempo, ciò al fine di poter valutare e avere la possibilità di presentare qualche subemendamento, volto all'introduzione di preposizioni o avverbi che potrebbero aiutare la migliore comprensione del testo. Vorremmo essere sicuri di non incorrere in situazioni in cui i Presidenti di seggio, che sappiamo essere i soggetti finali che si troveranno a dover interpretare in ultima istanza queste norme e sappiamo essere cittadini normali, e quindi non necessariamente esperti di materie giuridiche o così capaci di giostrarsi tra tutte le norme, se il testo non fosse scritto in maniera chiara, potrebbero avere qualche difficoltà di interpretazione. Sappiamo che spesso, trattandosi in particolare di una legge che prevederà le preferenze in seconda battuta dopo i capilista in collegi piccoli, potremo avere situazioni in cui ce la si gioca al limite della preferenza. E quindi, potrebbero essere presentati ricorsi di tipo amministrativo a pioggia, che renderebbero vana l'elezione della Camera dei deputati.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u16">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg23">Senatore Crimi, se non vi sono eccezioni, io reputo corretta la sua richiesta, ridimensionando però i termini della possibilità, perché stiamo parlando di interventi che - come da lettura della senatrice Finocchiaro - sembrano anche più ampi rispetto a quello che sono nella realtà, perché vanno ad aggiungersi ad una frase che è già compresa nel testo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg24">Pertanto, considerando che bisogna far decorrere i venti minuti dal preavviso, sospenderei la seduta fino alle ore 10,30, per dare modo ai colleghi di poter predisporre i relativi subemendamenti.</seg>
+            </u>
+            <note type="speaker">MARTELLI (M5S)</note>
+            <u ana="#regular" who="#MartelliCarlo" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg25">Signor Presidente, bisognerebbe riformulare meglio il testo degli emendamenti in esame, e i presentatori ci possono pensare durante questa pausa. Scrivere «all'unità» è sbagliato matematicamente, perché l'unità è 1, punto e basta. Si dovrebbe scrivere invece «all'intero positivo» e, quindi, tali parole andrebbero inserite in sostituzione in tutti i luoghi in cui ricorrono le parole «all'unità».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u18">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg26">La ringraziamo per il contributo, senatore Martelli, vista la sua esperienza professionale. Stiamo specializzandoci in ogni genere di materia.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg27">La seduta è sospesa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. La seduta, sospesa alle ore 9,57, è ripresa alle ore 10,36</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg28">La seduta è ripresa.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg29">Colleghi, comunico che dal prescritto numero di senatori è stata avanzata la richiesta di un voto segreto, che verrà valutata dalla Presidenza. Il riferimento numerico al subemendamento per cui la richiesta è stata fatta verrà comunicato appena sarà stato disposto l'ordine numerico dei subemendamenti.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg30">Nel frattempo, passiamo ai subemendamenti riferiti all'emendamento 1.7000.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg31">Passiamo alla votazione dell'emendamento 1.7000/1 (testo 2)/100.</seg>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u19">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg32">Signor Presidente, intervengo solo per fare una precisazione. Mi scuso con la Presidenza e con i colleghi per il fatto che ieri, nella giornata convulsa e nei tempi ristretti, purtroppo ho commesso un mero errore materiale nello scrivere l'emendamento. Alla nona riga, là dove esso recita: «(...) in cui essa ha le maggiori parti decimali dei quozienti di attribuzione non utilizzati», ho usato il plurale mentre avrei dovuto usare il singolare. In questo senso chiedo una correzione, in modo che risulti: «(...) in cui essa ha la maggiore parte decimale del quoziente di attribuzione non utilizzato». Mi scuso per questo, sia con lei che con tutti i colleghi. PRESIDENTE. Mi sembra grammaticalmente corretto, senatore Marcucci.</seg>
+            </u>
+            <note type="speaker">FORNARO (PD)</note>
+            <u ana="#regular" who="#FornaroFederico" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u20">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg33">Signor Presidente, ieri, per chiarezza e tranquillità di tutti avevo chiesto, se era possibile, di avere, così come è stato alla Camera dei deputati, una simulazione degli effetti del subemendamento Marcucci. Il Governo, in via informale, sentiti i tecnici, ha risposto che questa simulazione non è possibile per un problema molto semplice: i 100 collegi, a differenza del testo Camera (dove erano 120, allegati), non sono definiti e, quindi, di fatto, in assenza dei collegi, non è possibile fare la simulazione. Capisco e comprendo l'obiezione. Tuttavia, dal momento che non abbiamo ancora votato e che non siamo al testo definitivo, chiederei che, di qui al passaggio alla Camera dei deputati, si compia una sforzo di simulazione per poter comprendere gli effetti di questa modifica. In assenza della simulazione, però, chiedo al Governo e al presentatore la conferma di un'interpretazione, perché nel frattempo è nata un'altra preoccupazione, e chiedo scusa se tedio i colleghi su un aspetto tecnico. Il meccanismo così correttamente descritto dal collega Quagliariello e che personalmente condivido efficienta e consente, alla fine, nei deficitari, non di limitare la casualità (perché, a priori, non sarà comunque possibile sapere dove andrà a cadere), ma, all'interno della circoscrizione, di andare a premiare la lista di quel partito che ottiene un maggior consenso all'interno della circoscrizione. Faccio un esempio concreto: nella circoscrizione Piemonte 2 NCD ottiene un seggio. Con il vecchio sistema, se quel seggio era perso in Provincia di Alessandria - cito casa mia, così faccio un calcolo più veloce - con il vecchio sistema si sarebbe recuperato ad Alessandria, dove l'NCD prende il 2 per cento. Con questo sistema, con ogni probabilità, quel seggio eccedentario il PD lo perde sempre in Provincia di Alessandria, ma l'NCD lo viene a recuperare a Cuneo, dove ha un radicamento storico e prende il 10 per cento. Quindi, c'è sempre una casualità: a priori non sai dove avrai raggiunto il migliore risultato, ma a quel punto eviti di procedere. La preoccupazione che ho introdotto era un'altra ancora: mi riferisco al fatto che questo meccanismo non potesse nel caso limite determinare che a quel punto il seggio eccedentario del PD fosse l'unico e, quindi, in un caso estremo, che ci si trovasse a non avere rappresentanti di un intero territorio in Parlamento. La mia interpretazione è che questo problema sia risolto dal fatto che l'attribuzione, così come descritta dal subemendamento, riguardi soltanto i seggi attribuiti alle liste con le parti decimali dei quozienti; quindi, non è matematicamente possibile, in ragione del premio di maggioranza assegnato alla lista. Infatti, se non ci fosse il premio di maggioranza alla lista, questo potrebbe portare al caso limite di una coalizione di nanoliste. Se si andrà nella direzione indicata dagli emendamenti della senatrice Finocchiaro e da quanto espresso a più riprese (cioè con il premio alla lista), questo problema è risolto, perché, di fatto, abbiamo la certezza dell'attribuzione del quoziente intero per la lista che ottiene il premio di maggioranza in tutti i collegi. Aggiungo una seconda richiesta. Qualora (perché non si è ancora votato) non si prevedesse il premio di lista e si rimanesse al premio di coalizione, questa norma va rivista, inserendo una norma di chiusura che sostanzialmente escluda dal calcolo della graduatoria degli eccedentari quei collegi dove è stato attribuito un solo seggio. Chiedo quindi un impegno formale del Governo in questa direzione e cioè di effettuare, prima del passaggio alla Camera dei deputati, una simulazione; in secondo luogo, qualora venisse confermato il testo approvato dalla Camera dei deputati che prevede il premio di coalizione, chiedo di inserire una norma di chiusura per garantire - e lo sottolineo - oltre ad un migliore efficientamento (per evitare non tanto l'effetto flipper ma ciò che ho detto poc'anzi rispetto ai piccoli partiti) che ci sia un rappresentante per ogni collegio, perché - lo ricordo - non stiamo parlando di piccoli collegi. Fino al 1992 nel Senato era possibile che ci fossero, per le graduatorie di liste, collegi senza alcun rappresentante. Qui non stiamo parlando di piccoli collegi, ma di collegi che ragionevolmente, escluse le grandi città, saranno provinciali o pluriprovinciali. Pur aderendo all'impostazione del subemendamento e condividendo le preoccupazioni e la logica che lo supporta (in coerenza anche con quanto affermava il collega Quagliariello), mi sembra una preoccupazione legittima. Se il Governo dichiara di volersi assumere questi due impegni io annuncio che esprimerò un voto favorevole.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u21">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg34">Senatore Fornaro, credo che le sue preoccupazioni siano legittime da un punto di vista matematico, però le ricordo che abbiamo votato l'emendamento presentato dal senatore Stefano Esposito che prevede che il premio vada alla lista. Pertanto, nell'ipotesi non dovesse essere approvato l'emendamento 1.7001, presentato dalla senatrice Finocchiaro, che recepisce quel principio, credo che quello sia l'ultimo dei problemi perché assisteremmo all'esplosione dell'intera legge elettorale in quanto non vi sarebbe più coincidenza fra i presupposti e ciò che si scrive.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg35">Ha chiesto di intervenire la rappresentante del Governo. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">BOSCHI</note>
+            <note type="role">ministro per le riforme costituzionali e i rapporti con il Parlamento</note>
+            <u ana="#guest" who="#BoschiMariaElena" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u22">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg36">Ovviamente condivido la spiegazione che ha appena fornito il presidente Calderoli poiché è naturale che, laddove dovessero cambiare alcuni presupposti nella scelta della legge elettorale che stiamo approvando in Senato, dovrebbero necessariamente essere apportati dei correttivi. Questo è nelle cose.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg37">Quindi, verificheremo al termine dell'esame del provvedimento se dovesse esserci la necessità di apportare correttivi di questo tipo, ma è presumibile che non si ponga il problema.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u23">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg38">Signor Presidente, le sarei grato se, appena possibile, ci facesse un sunto di come procederemo con i lavori questa mattina. Collegandomi alle affermazioni del senatore Fornaro, vorrei sottolineare che il provvedimento al nostro esame presenta delle criticità, che sono evidenti, nel suo impianto base che prevede la distribuzione in circoscrizioni e collegi e poi la distribuzione dei seggi per circoscrizioni per poi suddividerli ulteriormente in collegi, senza tener conto in maniera diretta del risultato conseguito presso i collegi. Avrebbe avuto forse una logica il provvedimento se i cento collegi fossero stati direttamente investiti dall'ufficio centrale nazionale del numero dei seggi da assegnare. Se l'ufficio centrale nazionale invece di dividere i seggi per il numero delle circoscrizioni e dividere poi le circoscrizioni in collegi avesse attribuito direttamente ad ogni collegio il numero dei seggi spettanti per ogni lista, anche in quel caso si sarebbero potuti verificare dei piccoli effetti distorsivi, ma il tutto avrebbe avuto una sua semplicità. Già immagino le complicazione che ci saranno nei calcoli e nei sottocalcoli, per non parlare poi dei casi delle preferenze e di nullità di cui parleremo dopo. Il collega Fornaro ha sollevato un problema che noi abbiamo posto fin dall'inizio dell'esame di questa legge in Commissione. Non era solo una questione ostruzionistica. Ricordo che anche in Commissione avevamo presentato pochi emendamenti (25). In particolare avevamo presentato un ordine del giorno che impegnava il Governo a fornire un'ipotesi di collegi prima di procedere al voto finale. Ho reiterato la richiesta ieri e la ripresento ancora una volta: prima di procedere al voto finale sarebbe opportuno che tutti in quest'Aula, tutti, chiedessimo al Governo di mettere nero su bianco un'ipotesi di distribuzione dei collegi da allegare al disegno di legge che verrà sottoposto al voto. Diversamente andremo a votare un provvedimento mancante di qualcosa, mancante di tabelle. Alla Camera ricordo che le hanno tirate fuori all'ultimo momento, in una notte, su un foglio pasticciato. Mentre non sono d'accordo con il collega Fornaro quando dice che bisogna chiedere al Governo un impegno (poi corretto dal presidente Calderoli nel senso che l'emendamento Esposito ha messo ormai la tagliola su questa legge), perché purtroppo questa è la dimostrazione di ciò che sta accadendo. In sostanza, un Governo - tra l'altro illegittimo, messo in piedi scacciando un altro Governo illegittimo (quindi una serie di figli illegittimi di questa Legislatura) - sta imponendo questa legge elettorale. Infatti lei, collega Fornaro, è stato costretto, suo malgrado, a chiedere al Governo di essere pronto a intervenire con correttivi qualora siano necessari. Ciò descrive semplicemente la situazione di imbarazzo in cui lei, ma anche tutti noi, ci troviamo perché siamo qui a chiedere al Governo, anche in assenza di un relatore, di fare le funzioni di tutti: Governo, relatore ed estensore di questa legge. Ecco perché questa legge non può andare avanti in questo modo: perché ha delle criticità evidenti che non si possono correggere continuando ad aggiungere righe. Questa è anche la schizofrenia legislativa cui siamo abituati: per sanare errori su errori continuiamo ad aggiungere righe e righe alla legge. E non sarà finita qui perché anche dopo l'emendamento della presidente Finocchiaro relativo ai casi di nullità si sono dovute aggiungere altre righe per specificare ancora meglio; ma non sarà sufficiente e vedrete che sarà necessaria una ulteriore specificazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg39">Questa è la tipica schizofrenia legislativa in cui ci troviamo coinvolti ormai da decenni per cui invece di semplificare le norme le andiamo a stratificare una sull'altra, rendendo sempre più incomprensibili le leggi per i cittadini, magari non per gli addetti ai lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg40">Anche riguardo a tutta la sua spiegazione, collega Fornaro, io sfido chiunque a comprendere i dettagli del suo calcolo e della sua simulazione senza avere qualcosa alla mano. Sfido chiunque in quest'Aula che non sia avvezzo a giocare con le leggi elettorali, con i calcoli e le distribuzioni dei seggi, a capire quali sono gli effetti possibili. E così ci si affida, mio malgrado come sempre, a tecnici, a manine che propongono e inseriscono altro. Ma ricordiamoci che è nelle pieghe delle leggi elettorali, nei particolari, che si annida la trappola. Questa legge elettorale è troppo, troppo complessa e articolata in questi meccanismi che prevedono i collegi dentro le circoscrizioni, seggi eccedentari e situazioni da sanare per dire che sia una legge chiara e semplice.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg41">La legge elettorale, come avete detto voi, non io, deve fare in modo di rendere chiaro chi ha vinto la sera stessa delle elezioni. A voi interessa solo quello: sapere chi ha vinto. Ha vinto Renzi. Quello vi interessa, poi com'è composto il Parlamento non ve ne frega niente, diciamocelo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg42">Vi interessa sapere solo chi vince. Ma allora cambiamo il modello di questo Stato, facciamolo diventare una monarchia elettiva.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg43">L'ho detto in altre occasioni e lo ribadisco: questo è un atto eversivo che utilizza una legge elettorale per cambiare il modello di Stato previsto dalla nostra Costituzione e per cambiare il modello istituzionale esistente. Ma questa non è una vera e propria legge elettorale, perché dovrebbe adattarsi al modello istituzionale in vigore.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg44">Pertanto, per il prossimo passaggio in Senato della riforma costituzionale, vi propongo di aggiungere due righe: l'Italia è una monarchia elettiva.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u24">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg45">Signor Presidente, già ieri, in quest'Aula, ho spiegato le difficoltà a intervenire su questo meccanismo. Rimando al fatto che francamente è davvero inusuale che si faccia una legge elettorale, con tutti i relativi problemi tecnici di carattere particolare, cui ne seguiranno altri, in Assemblea plenaria, senza un'istruttoria in Commissione, necessaria per effettuare attente verifiche anche dal punto di vista tecnico. L'impianto di questa legge rende totalmente imprevedibile il meccanismo di attribuzione dei seggi, soprattutto per i partiti più piccoli. Il meccanismo di attribuzione dei seggi eccedentari e deficitari è ancora più complicato. L'ho già spiegato ieri. Nella legge vigente abbiamo soltanto 26 circoscrizioni e quindi il meccanismo è molto più facile. Anche lì c'é una piccola percentuale di imprevedibilità, ma è ridotta. Ora, con il meccanismo dei cento collegi plurinominali diventa davvero una roulette. Questo ci dimostra che l'impianto della legge, da noi contestato, rende davvero molto complicato, per una serie di meccanismi, far comprendere all'elettore - che è il soggetto che a noi interessa - dove va a finire il suo voto. Questo è il problema essenziale. Ne abbiamo discusso sia per quanto riguarda direttamente la scelta del rappresentante sia in ordine ai voti espressi in favore dei partiti, dal momento che non si sa dove vanno a finire proprio per la presenza di questo meccanismo; tant'è che si deve intervenire per cercare di ridurre il danno. Ora, il subemendamento in esame cerca proprio di fare questo: tenta cioè di intervenire per ridurre il danno, ovvero questa imprevedibilità circoscrivendola, anche se continua ad essere sempre imprevedibile capire in quali seggi scatterà il meccanismo. Per questo motivo il subemendamento in esame efficienta in qualche modo il sistema, ma ciò che dal nostro punto di vista è contestabile è proprio il meccanismo, il sistema stesso. Nell'ottica di una riduzione del danno questo subemendamento infatti può funzionare, ma sfido chiunque - e lo dico ai colleghi - a dire, nel momento in cui si arriva a votare, di aver ben compreso (essendo entrati nell'analisi dei particolari tecnici cui ne seguiranno altri) in che direzione si sta esprimendo il voto e quale sarà il risultato finale della legge. Da questo punto di vista, quindi, credo che noi dovremmo riflettere. Non chiedo di fare autocritica, ma i senatori non sono stati messi nelle condizioni di essere tranquilli e la tranquillità vi sarebbe stata soltanto se si fosse arrivati in Aula con un testo elaborato dalla Commissione, dopo una discussione e verifiche tecniche molto attente. Infatti, il lavoro in Commissione ci avrebbe dato la possibilità di audire tecnici, di poter fare, con più chiarezza, una simulazione, di discutere sulla questione dei collegi (perché quelli previsti alla Camera, 120, erano orientativi, ma sono stati ridotti). Questo è il vulnus generale, la fretta con cui si è voluto procedere, che, tra l'altro, abbiamo sottoposto all'attenzione dell'Assemblea già ieri, con il voto sul calendario dei lavori, quando avevamo avanzato una proposta di assoluto buonsenso. Tuttavia, nell'ottica della riduzione del danno, esprimeremo un voto di astensione sul subemendamento 1.7000/1 (testo 2)/100, proprio perché dà un piccolo contributo per efficientare un sistema di riduzione del danno; ma è evidente a tutti che esso non modifica e non può modificare la realtà di un sistema che rende non più collegabile il voto del cittadino all'effetto che quel cittadino vorrebbe dare sia nell'esprimere la scelta sul candidato, sia, come in questo caso, sulla forza politica.</seg>
+            </u>
+            <note type="speaker">CANDIANI (LN-Aut)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u25">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg46">Signor Presidente, la discussione sta mettendo in evidenza tutta la difficoltà di una legge che dovrebbe, invece (almeno negli auspici che leggiamo negli articoli sui quotidiani e negli annunci fatti in televisione), dare chiarezza ai cittadini e agli elettori. Mi permetto, signor Presidente, di portare all'attenzione dell'Assemblea il testo stesso del subemendamento 1.7000/1 (testo 2)/100 che, come diceva correttamente la collega De Petris, è già un limitare il danno, che è nella stessa descrizione di quanto deve essere fatto. Il testo recita quanto segue: «In caso negativo, determina la lista che ha il maggior numero di seggi eccedentari e, a parità di questi, la lista che tra queste ha ottenuto il seggio eccedentario con la minore parte decimale del quoziente; sottrae quindi il seggio a tale lista nel collegio in cui è stato ottenuto con la minore parte decimale dei quozienti di attribuzione e lo assegna alla lista deficitaria che ha il maggior numero di seggi deficitari e, a parità di questi, alla lista che tra queste ha la maggiore parte decimale del quoziente che non ha dato luogo alla assegnazione di seggio; il seggio è assegnato alla lista deficitaria nel collegio plurinominale in cui essa ha le maggiori parti decimali dei quozienti di attribuzione non utilizzati; ripete quindi, in successione, tali operazioni sino alla assegnazione di tutti i seggi eccedentari alle liste deficitarie». Ma questo sembra un rebus da settimana enigmistica!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Morra</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg47">Non voglio buttarla in burla, ma lo dico seriamente: forse sarebbe stato più corretto metterci dentro le parole crociate, con sotto le soluzioni, in modo da poter vedere se, interpretando, si riesca anche a capire ciò che è scritto. Questo è ciò che sta avvenendo, in effetti.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg48">Nel desiderio di dare una legge elettorale al Paese, si stanno dando ulteriori esempi di incapacità di semplificare le norme, costruendo dei sistemi che hanno bisogno, per essere un minimo accettabili, di controbilanciamenti, pesi e contrappesi, di aggiungere un grammo, di togliere un centesimo: sono cose spaventose.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg49">Il senatore Fornaro prima chiedeva di fare una proiezione e di esaminare cosa ne derivi, per capire, anche da un esempio materiale, quale sia l'effetto pratico reale: non è mica un'operazione tanto complicata. Dal momento che la si vuole fare, il Governo sa già cosa ne viene fuori. Altrimenti, signor Presidente, mi viene davvero il dubbio che il Governo stia facendo un esperimento.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg50">Fino a quando potremo sopportare che si facciano esperimenti sui cittadini? Questo è un Paese che ha bisogno - come dice qualcuno - di ritmo, di scelte chiare; ma qui si continuano ad avanzare proposte che, invece, sembrano (anzi, lo sono senza dubbio) modificate continuamente, perché presentano in ogni occasione ulteriori asperità che devono essere limate.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg51">Signor Presidente, non è mica colpa nostra se il Governo ha voluto presentare tutto in Aula senza concludere il lavoro in Commissione, alle 7,40 del mattino, dopo aver affrontato, durante la notte, la legge di stabilità.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg52">Questo è sicuramente un errore, anche nei confronti di quell'elettorato che sta a casa, che ha sfiducia nei confronti della politica e dei partiti politici, perché qui - lo ripeto - con questi bizantinismi si dà solo una certezza ai cittadini: che di tutto ci si occupa fuorché del loro interesse.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg53">È stato correttamente detto che ormai, interessa solo chi vince le elezioni. Bene, si istituisca il premierato forte, si decida che il Premier è colui che viene eletto e tutti gli altri sono conseguenti, diciamo pure irrilevanti rispetto alla scelta dei cittadini. Ma lo si faccia in maniera chiara. Con questi arzigogoli non si possono dare ai cittadini certezze riguardo alla politica e quello che sta facendo, perché ricordiamoci che fuori il Paese non riesce più a vivere con una economia strozzata. Lavoreranno i tipografi perché ci sono da fare le elezioni? Viva Dio! Ma è questa la risposta che merita il Paese? Si approvi una legge elettorale semplice che dia chiarezza e, per favore, diamo risposta al senatore Fornaro, che chiede semplicemente una proiezione di quello che sarebbe il risultato, anche se egli sa bene che quello che uscirà da questa Camera, passato alla Camera dei deputati non sarà più toccato, per dichiarazione stessa del Presidente del Consiglio. Quindi o si procede ora a fare una simulazione, oppure l'ultima verifica che potremo fare sarà sul campo e un'altra volta risulterà tardiva rispetto alla disillusione dei cittadini!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e della senatrice Mussini.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MAURO Mario (GAL (GS, LA-nS, MpA, NPSI, PpI))</note>
+            <u ana="#regular" who="#MauroMario" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg54">Signor Presidente, prendendo atto delle difficoltà esposte sul piano tecnico dal senatore Fornaro e rilevate un po' da tutti, avanzo una proposta molto concreta. È vero che, come chiede il senatore Fornaro, si può chiedere l'impegno del Governo a correggere quanto indicato come critico, ma considerando che sono le 11,05 e ci siamo impegnati a lavorare fino a mezzogiorno, senza variare in nulla il calendario anzi, consentendo un'ulteriore accelerazione, non sarebbe meglio che venisse data la facoltà - chiedo in questo anche il parere della presidente Finocchiaro - che gli emendamenti accantonati possano essere valutati in Commissione fino ad oggi pomeriggio o lunedì mattina, per i problemi critici di carattere tecnico che comportano, in modo che, proseguendo il lavoro, potremo far votare al Parlamento qualcosa di comprensibile e che il testo non debba tornare, dopo, sotto l'iniziativa del Governo per essere corretto? Sto dicendo: senza modificare in nulla il calendario e quindi garantendo i tempi che il Governo ha proposto alla Capigruppo, su cui si è convenuto, non sarebbe meglio che questa materia venisse consolidata in Commissione di modo che il testo del senatore Marcucci o quelli degli altri emendamenti possano essere meglio configurati al fine di fare una più corretta votazione? Così il Parlamento fa adesso questo lavoro entrando nel merito di ciò che potrebbe essere problematico. Lunedì, quando riprenderemo le votazioni, voteremo celermente su una materia che è comprensibile e può ritrovare la possibilità di superare le difficoltà tecniche.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u27">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg55">Colleghi, visto che stiamo parlando di un emendamento ad un testo che è stato subemendato, poi il medesimo emendamento è stato riformulato, poi è stato presentato un subemendamento correttivo e siamo ora giunti alla quarta modifica, credo che a questo punto si debba procedere e definire la questione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg56">Dalla lettura a me sembra che così come impostato, per la minima esperienza che ho della materia, la cosa "giri": all'inizio sono stato il primo ad eccepire che la macchina, nella prima formulazione, potesse anche non girare.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg57">Invito dunque il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">BOSCHI</note>
+            <note type="role">ministro per le riforme costituzionali e i rapporti con il Parlamento</note>
+            <u ana="#guest" who="#BoschiMariaElena" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u28">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg58">Il parere del Governo è favorevole sul subemendamento 1.7000/1 (testo 2)/100 (testo corretto) e sul subemendamento 1.7000/1 (testo 2), così come formulato. Il parere è, contrario sui restanti subemendamenti, mentre è favorevole sul subemendamento 1.7001/204 che poi seguirà...</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u29">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg59">Rimaniamo adesso ai subemendamenti riferiti all'emendamento 1.7000. Passiamo alla votazione dell'emendamento 1.7000/1 (testo 2)/100 (testo corretto).</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg60">GAETTI (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.7000/1 (testo 2)/100 (testo corretto), presentato dal senatore Marcucci. (Segue la votazione). Il Senato approva. (v. Allegato B). Risultano pertanto preclusi gli emendamenti da 1.7000/1 (testo 2)/101 a 1.7000/1 (testo 2)/103. Passiamo alla votazione dell'emendamento 1.7000/1 (testo 2), nel testo emendato.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u30">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg61">Signor Presidente, vorrei intervenire dichiarazione di voto; l'ho fatto sul sub-sub-subemendamento e vuole che non la faccia su un subemendamento? Lo dico giusto per essere chiari. Stiamo votando il subemendamento 1.7000/1 (testo 2), modificato dal sub-subemendamento del senatore Marcucci. Io ho sollevato una questione già all'inizio nella formulazione di questa legge per come è scritta. L'ho detto parlando del subemendamento di prima e adesso mi riferisco all'intero testo del disegno di legge, in cui questo emendamento si innesta. Oltre a essere incomprensibile questo testo, come ha già ampiamente dimostrato il senatore Candiani, immaginatelo inserito nell'ambito di questo disegno di legge, che è tutto incomprensibile anche alla lettura. Non so se qualcuno di voi ha avuto l'ardire di esercitarsi nel cercare il riferimento al numero 4). Il testo infatti recita: «(...) dopo il numero 4) inserire il seguente: (...)». Non so chi di voi ha cercato questo numero 4) e se è riuscito a identificarlo facilmente, perché di numeri 4) all'interno di questo testo ce ne è una marea e sono uno dentro l'altro, scritti in una maniera incomprensibile anche per chi ha provato con attenzione a cercare di leggerli. Questo perché ovviamente il disegno di legge elettorale, invece di essere composto di articoli, ha un unico articolo (sembra quasi una legge di stabilità) e una marea di commi, poi lettere e poi di nuovi commi e poi lettere. La cosa più curiosa, però, è che all'interno di ogni comma e di ogni lettera si fa riferimento al testo unico, richiamandone commi e lettere. Ma veramente, se provate a prendere il testo originale della legge avrete difficoltà a reperire i punti esatti di cui stiamo discutendo. Sfiderei chiunque a trovare con facilità il punto esatto in cui questo emendamento si andrà a introdurre all'interno della legge elettorale. Dico questo anche perché non è irrilevante il punto in cui si inserisce un emendamento, perché nel momento in cui interviene, lo fa in un momento temporale rispetto ai calcoli elettorali che si fanno ai seggi e poi presso gli uffici centrali circoscrizionali e poi nazionali appositamente per rispondere a situazioni in caso negativo (bisognerebbe poi andare a capire negativo rispetto a cosa). Ecco perché risolleviamo nuovamente la questione sollevata all'inizio e riproponiamo che, al termine di questo iter, prima di procedere all'approvazione finale, si provveda - invito la Presidenza a trovare le modalità regolamentari che lo possano consentire - a riscrivere totalmente questo disegno di legge, nel testo definitivo, in un modo più leggibile, almeno dal punto di vista della sinossi e dell'organizzazione degli articoli e dei commi. So che non è una cosa immediatamente fattibile. Però almeno questo impegno il Parlamento, non dico il Governo, dovrebbe prenderlo. Alla fine di questo iter si dovrebbe riuscire a trovare un metodo, anche presentando un unico maxiemendamento finale che raggruppi tutto e che suddivida il testo in articoli. Ci possiamo inventare qualunque cosa, tanto ormai siamo in dismissione, quindi osiamo, andiamo oltre, gettiamo il cuore oltre l'ostacolo - come dice qualcuno - e proviamo a violare l'ultima frontiera dei Regolamenti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Bottici.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg62">L'articolo 1 lo spezziamo in mille articoli, in modo che ogni articolo abbia una sua dignità e possa essere facilmente letto da ogni cittadino.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg63">Questo è il motivo per cui voteremo contro questo emendamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FORNARO (PD)</note>
+            <u ana="#regular" who="#FornaroFederico" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u31">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg64">Signor Presidente, vorrei chiedere un chiarimento velocissimo. Ovviamente, avendo approvato il subemendamento 1.7000/1 (testo 2)/100 (testo corretto) del senatore Marcucci, tutta la parte da «Al» fino a «deficitarie» è sostituita da tale subemendamento. Quindi, il " conseguentemente ", è semplicemente una conseguenza dell'approvazione del subemendamento. PRESIDENTE. Integra tale parte.</seg>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u32">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg65">Signor Presidente, mi sto chiedendo se noi parlamentari abbiamo le stesse tutele di cui godono altri soggetti in questo Paese. Abbiamo scritto delle norme sulla trasparenza, per obbligare tutto il sistema civilistico a far sì che ogni cittadino sia messo in grado di sapere cosa sta facendo. Esiste un codice del consumatore che tutela il consumatore, al punto che, se si deve sottoscrivere un modulo predeterminato e preconfezionato e vi sono delle postille e delle clausole particolarmente caotiche o penalizzanti (definite "vessatorie"), queste vanno addirittura firmate a parte e in modo ripetuto. La sostanza è che noi diamo ai cittadini la garanzia che ognuno deve sapere cosa sta facendo e conoscere le conseguenze che provocano le sue azioni. Bene, noi lo stiamo garantendo a tutti, ma non lo stiamo garantendo in primis ai parlamentari e, in secondo luogo, ai candidati. Un candidato potrebbe voler sapere cosa sta accadendo; io sfido le migliaia di candidati che si troveranno in competizione nella prossima campagna elettorale a sapere, sempre che non siano capilista, se hanno o no la fortuna di rientrare in questo grande gioco, flipper o roulette (definito in vari modi). Già il fatto di scriverlo in questa maniera («la lista che ha il maggior numero di seggi eccedentari e, a parità di questi, la lista che tra queste ha ottenuto il seggio eccedentario con la minore parte decimale del quoziente; sottrae quindi il seggio a tale lista in quel collegio (...) e lo assegna alla lista deficitaria che ha il maggior numero di seggi deficitari e, a parità di questi,...») fa sì che noi si sia già sostanzialmente nel pallone. Secondo la codicistica questo obbligherebbe a far precedere una norma di questo tipo da un glossario, per far capire cosa sia la lista eccedentaria e cosa sia il seggio deficitario.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg66">Stiamo operando nel modo più caotico e io credo che nessun Paese al mondo abbia mai elaborato una legge elettorale con queste dinamiche e con queste complessità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">D'ANNA (GAL (GS, LA-nS, MpA, NPSI, PpI))</note>
+            <u ana="#regular" who="#DAnnaVincenzo" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u33">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg67">Signor Presidente, ricordo che il ministro Bassanini si distinse, con grande clamore sulla stampa, per avere imposto alla pubblica amministrazione l'obbligo di usare una terminologia accessibile agli utenti dei suoi servizi. Invece, noi che stiamo scrivendo un testo che non disciplina un ufficio, un servizio, l'erogazione di qualsivoglia funzione gestita dalla pubblica amministrazione, stiamo utilizzando, come dice il collega Divina, una terminologia ermeneutica, che poi deve essere interpretata, tanto è che ci sarebbe bisogno di un glossario. Voi mi insegnate che tutte le religioni sono ermeneutiche e traggono la loro interpretazione, appunto, dalla lettura di quello che viene scritto: così è il Corano ed è anche il Vangelo. Noi avremmo bisogno di ermeneuti che, interpretando questa semantica oscura e oracolare, facciano un po' come la Sibilla, la quale così rispose a un soldato che andava in guerra: « Ibis et redibis non morieris in bello », "andrai e ritornerai. Non morirai in guerra". Quando poi la vedova del guerriero, che invece era morto, tornò da lei, la Sibilla così disse: tu hai sbagliato a capire, perché io ho detto: « Ibis et redibis non, morieris in bello », "andrai e non ritornerai. Morirai in guerra". Invero, noi siamo nella stessa condizione oracolare delle Sibille. È vero che il mio partito si accinge a far scendere in campo Antonio Zequila, detto "er Mutanda", onde per cui tutto ormai è possibile...</seg>
+               <incident type="sound">
+                  <desc>Il microfono si disattiva automaticamente.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg68">PRESIDENTE. Le chiedo scusa, senatore D'Anna, si è trattato di un piccolo guasto tecnico.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg69">Questione di mutande. PRESIDENTE. O forse si è trattato di una censura automatica. Può proseguire, senatore D'Anna. D'ANNA (GAL (GS, LA-nS, MpA, NPSI, PpI)). Quindi, con "er Mutanda", nel prossimo Parlamento noi certamente avremo la plastica applicazione di questo vademecum e di questo Zibaldone. Ma volevo chiedere al ministro Boschi quanto segue. Questo sforzo compiuto per avvolgere il mistero in un enigma, cioè chiarire quello che è possibile chiarire, non potevate farlo un po' prima? Siamo arrivati qui avendo la data del 10 agosto scorso per la riforma costituzionale. Adesso, ci avete dato la data antecedente alla elezione del Capo dello Stato. Noi dovremmo mostrare i muscoli e, quindi, dire di avervi condizionato. O, viceversa, voi ci fregate sull'Italicum e poi fate come volete, ma non è la mia testa che ballerà se questa seconda evenianza dovesse concretizzarsi. Poi, però, diamo ai miei dottissimi e stimatissimi colleghi Finocchiaro, Zanda, Sacconi, Zeller, Susta e Paolo Romani, l'incombenza di chiarire o di interpretare l'oracolo. Scusate, ma non sarebbe stato meglio fare un po' di ripetizioni da Bassanini o coinvolgere questi senatori, uno dei quali è Presidente della Commissione, perché arrivasse in Aula un testo intellegibile? Se in un piccolo comune della Campania (il che è tutto dire) un sindaco proponesse un regolamento siffatto, che ha bisogno di un emendamento di quattro pagine per essere chiarito in alcuni punti e di una serie di subemendamenti, verrebbe preso a calci e cacciato fuori. Pertanto siamo al dilettantismo. Non voglio fare prediche inutili e so che chi mi ascolta è tetragono, perché dietro questa legge elettorale si presuppone addirittura la palingenesi del sistema politico nazionale, cioè il taglio delle ali e la creazione di questo nuovo magmatico partito in cui i liberali pentiti e i comunisti pentiti si dovrebbero mettere insieme per costituire un grande partito di centro. C'è un piccolo particolare, per la verità, se il ministro Boschi volesse ascoltarmi: in genere, i movimenti politici nascono dall'orizzonte valoriale, dai contenuti, da ciò in cui gli individui credono come modello di Stato e di società; non nascono facendo lo Zibaldone o un «Frankstein junior» prendendo la testa di Verdini e mettendola sul tronco della Boschi</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai GruppiGAL (GS, LA-nS, MpA, NPSI, PpI), M5S, LN-Aut e Misto-MovX</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg70">, perché sarebbe, in questo caso, dotare la Boschi di particolare acume, ma Verdini di una bellezza inusitata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi e ilarità dai Gruppi GAL (GS, LA-nS, MpA, NPSI, PpI), M5S, LN-Aut e Misto-MovX.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg71">Ciò detto, stiamo attenti con questi mostri. Io per la verità direi che Anna Finocchiaro aveva le capacità per scriverla bene, questa legge, senza bisogno dell'una o dell'altra correzione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg72">Faccio allora una proposta a mo' di provocazione, ma voi dovete sapere che il paradosso era usato da Socrate per la maieutica, per l'arte di far partorire le menti, e si condiva dell'ironia, che significa, dal greco, interrogare dissimulando. Lasciate perdere i costituzionalisti e i politici e chiamate un professore di diritto elettorale.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Tonini.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg73">Io ne conosco uno molto bravo a Vicenza, al quale mi dovetti rivolgere nel 2008 per farmi fare una formuletta, perché quelli del mio partito in Campania navigavano e annaspavano nella maniera più assoluta, con la quale si introducevano i voti e si assegnavano i seggi: molto semplice.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg74">Facciamo così, metteteci una bella formula qua dentro, perché questo è possibile, la matematica lo consente; una formula con cui gli uffici elettorali e anche il più fesso dei candidati - all'epoca fui io a confessare di non capire niente - inseriscono i voti ed ottengono i seggi. Questo è il primo sistema per evitare truffe, per evitare che si faccia notte in prefettura, per evitare che il buon candidato, come sosteneva il senatore Divina, non abbia neanche i diritti che ha il più elementare consumatore. Anche le lavoratrici o gli aspirapolvere sono dotati di un manuale di manutenzione e d'uso.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg75">Fate in modo che in questa legge elettorale, che è diventata tanto complessa e - ripeto - ermeneutica, abbia una formula molte semplice che, sulla base degli arcani che sono qua dentro, converta i voti delle singole liste nei seggi, tenendo conto del meccanismo che qua dentro è previsto.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg76">E se vi ho disturbato, scusatemi. Sapete, diceva Manzoni, non lo si è fatto apposta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi GAL (GS, LA-nS, MpA, NPSI, PpI), M5S, LN-Aut e Misto-MovX.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FINOCCHIARO (PD)</note>
+            <u ana="#regular" who="#FinocchiaroAnna" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u34">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg77">Signor Presidente, intervengo per rendere noto ai colleghi che il modo in cui si sta procedendo è esattamente quello in cui si è proceduto in Commissione, poiché gli emendamenti a mia firma, con l'aggiunta della questione che riguarda la cosiddetta norma anti- flipper e l'aggiunta che riguarda la data di applicazione della presente legge elettorale, sono gli emendamenti della Commissione. Si è dovuto procedere così, perché noi stiamo agendo sul Testo unico delle leggi elettorali. Questo significa che abbiamo l'obbligo di agire in via emendativa sul Testo unico e significa altresì che, approvata la legge, dal mattino dopo, su qualunque raccolta - penso, ad esempio, a «Leggi d'Italia» De Agostini - si troverà il Testo unico delle leggi elettorali, interpolato con il contenuto di questi emendamenti. La lettura sarà dunque piana e agevole per chiunque, candidato, cittadino o studioso voglia farlo. In nota ci sarà il riferimento alle interpretazioni recate dalla legge, quando verrà approvata definitivamente. Dico questo perché l'attenzione alle fonti e alla chiarezza delle stesse è ovviamente la prima preoccupazione di ciascun parlamentare, tanto più quando aveva la responsabilità in Commissione di curare l'approvazione di una legge elettorale.</seg>
+            </u>
+            <note type="speaker">MORRA (M5S)</note>
+            <u ana="#regular" who="#MorraNicola" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u35">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg78">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg79">Signor Presidente, come ho già annunciato, voterò in dissenso dal mio Gruppo. Sono entrato qui perché i cittadini potessero imporre la loro logica al palazzo e alle istituzioni che da troppo tempo avevano abbandonato la strada percorsa da cittadini normali, da persone che - lo dico anche con orgoglio - come il famoso Renzo, visto che il collega D'Anna ha citato Manzoni, hanno un senso semplice ed ingenuo della giustizia, anche se ogni tanto vengono ad incontrare degli azzeccagarbugli che, attraverso il ricorso al latinorum, cercano di ingenerare confusione. La legge elettorale, che è legge importantissima, doveva rispondere innanzitutto a criteri di semplicità, e non per vincere, ma per garantire partecipazione dei cittadini al voto, perché una vera democrazia non è quella che in cui qualcuno vince, ma quella in cui tutti si sentono coinvolti. Con questa legge elettorale, con emendamenti e subemendamenti che, al contrario, ingenerano ulteriori elementi di complessità e, dunque, «effetto flipper», effetti distorsivi, difficoltà di calcolo (esattamente, come ribadiva ieri il collega Crimi), problemi che nessuna norma potrà risolvere in merito all'attribuzione dei seggi, voi state producendo un testo che avrà come esplicito scopo, e forse questo rientra negli obiettivi del Patto del Nazareno, quello di allontanare sempre più i cittadini della politica. A questo noi tenevamo ad opporci. Per questo motivo, nello specifico, non parteciperò al voto, perché questa è un'ulteriore dimostrazione di come la politica possa - se lo vuole - dimostrare la propria raffinatezza intellettuale, ma non per avvicinarsi ai cittadini, quanto piuttosto per allontanarsi dagli stessi. Questo non lo accetto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CAMPANELLA (Misto-ILC)</note>
+            <u ana="#regular" who="#CampanellaFrancesco" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u36">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg80">Signor Presidente, intervengo per esprimere la mia contrarietà a questo emendamento, sulla scorta delle considerazioni fatte dai colleghi in precedenza. Non è chiaro - come diceva un comico in televisione in uno sketch qualche tempo fa - e rimane poco chiaro, tanto che, come la presidente Finocchiaro poc'anzi diceva, affinché gli operatori del diritto, non i cittadini, possano agevolmente districarsi in mezzo a norme di questo genere, debbono far riferimento al concorso di operatori privati come la De Agostini, che edita la raccolta di norme «Leggi d'Italia». Il punto su cui volevo invitare i colleghi a soffermare l'attenzione è il principio di diritto per cui l'ignoranza del diritto non scusa: questo principio risulta sostanzialmente incompatibile con il modo con cui noi produciamo norme. Noi produciamo norme così, perché chi le propone ha un disegno contorto. Do atto alla presidente Finocchiaro dell'enorme sforzo fatto in Commissione per riuscire a mettere in chiaro un disegno che veniva da fuori e che era contorto e che tale è rimasto: ci devono essere i capilista bloccati, perché dobbiamo dare la sensazione ai cittadini che, effettivamente, conti il loro voto (però non deve contare). Questo tipo di impostazione, che è contorta, è come l'acciaio: lo si può piegare, ma fino a un certo punto. Con tutti gli sforzi possibili, alla fine rimane qualcosa di difficilmente leggibile, che necessita di interpretazione e che, quindi, dà degli spazi. A chi dà degli spazi? Immagino che i presidenti dei seggi, quando dovranno leggere il prodotto del nostro lavoro, dovranno affidarsi a circolari del Ministero perché la legge, in sé, non si capisce. Possiamo motivare in diverso modo; possiamo giustificare o no, però non si capisce. Mettendolo insieme con il principio per cui l'ignoranza del diritto non giustifica chi al diritto contravvenisse, ci rendiamo conto di quanto è ingiusto il nostro modo di operare e di quanto - sostanzialmente - non stiamo facendo un buon lavoro: non lo stiamo facendo nella forma, perché, sostanzialmente, chi ha voluto questa legge un buon lavoro non voleva farlo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-ILC.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MARTON (M5S)</note>
+            <u ana="#regular" who="#MartonBruno" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u37">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg81">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg82">Signor Presidente, anche io, come il collega Morra, non parteciperò al voto. In questo momento mi sento molto come Claudio Bisio nel film «Benvenuto presidente!» (non so se l'avete visto).</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Bocchino</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg83">Vado a leggere dei testi di cui veramente non comprendo una singola parola, si può dire. Sfido il senatore Marcucci a spiegarmi, con un esempio, il testo che ha proposto. La senatrice Finocchiaro ha appena detto che questo andrà ad inserirsi ed innestarsi in un quadro più ampio, ma se io inserisco questo testo (mi riferisco alla disposizione per cui: «In caso negativo, determina la lista che ha il maggior numero di seggi eccedentari (...)»; posso andare avanti nella lettura, ma non lo farò perché l'ha già fatto il collega Candiani), vado semplicemente ad innestare una gran porcata.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg84">Mi perdonino la senatrice Finocchiaro ed anche il collega Marcucci, ma, prima di votare, gradirei avere un esempio chiaro su cosa succederebbe applicando questa disposizione. Infatti, come ha detto il collega Campanella, quando il presidente di seggio andrà ad interpretare qualcosa con questo testo, verranno fuori delle belle barzellette ai seggi. Il risultato del voto non si saprà la sera stessa: il risultato del voto si saprà dopo mesi, perché chi andrà a cercare di capire cosa si sarà votato non ci riuscirà. Ci saranno, quindi, impugnazioni su impugnazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg85">Pertanto, invito veramente a fare un testo decente e a riportarlo in Commissione. So che è impossibile, ma vi invito ancora a farlo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PUGLIA (M5S)</note>
+            <u ana="#regular" who="#PugliaSergio" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u38">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg86">PRESIDENTE. Quanto dissenso oggi.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg87">Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg88">Signor Presidente, in realtà dissento dal Gruppo e voterò favorevolmente a questo emendamento, anche perché la norma non ammette ignoranza. Ne do lettura: «In caso negativo, determina la lista che ha il maggior numero di seggi eccedentari (...)». Chiaro, no? Ancora: «A parità di questi, la lista che tra queste ha ottenuto il seggio eccedentario con la minore parte decimale del quoziente; sottrae quindi il seggio a tale lista» nel collegio in cui è stato ottenuto con la minore parte decimale del quoziente di attribuzione e lo assegna alla lista deficitaria che ha il maggior numero di seggi deficitari e, a parità di questi, la lista che tra queste ha ottenuto il seggio eccedentario con la minore parte decimale del quoziente; sottrae quindi il seggio a tale lista - nel collegio in cui è stato ottenuto con la minore parte decimale dei quozienti di attribuzione - «e lo assegna alla lista deficitaria che ha il maggior numero di seggi deficitati e, a parità di questi, alla lista che tra queste ha la maggiore parte decimale del quoziente che non ha dato luogo alla assegnazione di seggio; il seggio è assegnato alla lista deficitaria in quel collegio plurinominale;» - in cui essa ha la maggior parte decimale del quoziente di attribuzione non utilizzata - «ripete quindi,» - ovvio, no? - «in successione, tali operazioni sino alla assegnazione di tutti i seggi eccedentari alle liste deficitarie». Chi non capisce questo è una persona che non può votare, quindi a questo punto annuncio il mio voto favorevole.</seg>
+               <kinesic type="applause">
+                  <desc>Ilarità e applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MARTELLI (M5S)</note>
+            <u ana="#regular" who="#MartelliCarlo" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u39">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg89">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg90">Signor Presidente, annuncio che non parteciperò al voto perché per me questo emendamento non merita proprio un voto. Come dice un noto adagio: «se ti metti a discutere con un (...) ti porta al suo livello e ti batte con l'esperienza». Il conte Raffaello Mascetti, inventore della supercazzola, sarebbe fiero di leggere questo emendamento, che per me è chiarissimo, ma proprio perché è chiarissimo non merita assolutamente il voto perché è una truffa vera e propria ai danni dei cittadini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg91">È un modo per cercare di distorcere una legge elettorale, anche con questi emendamenti, in modo da cancellare, di fatto, il volere popolare. Alla fine questo disegno di legge elettorale ha un solo scopo: far sì che possiate piazzare quelli che volete voi nei posti che volete voi.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg92">Per quanto riguarda poi l'osservazione del senatore D'Anna, vorrei precisare che non si può prevedere una formula. Una formula è un oggetto con tante caselline nelle quali mettere un valore, invece qui ci sono un sacco di «se». Al limite, avreste potuto fare un bel diagramma di flusso con tutte le biforcazioni relative alle varie casistiche. Provate a farlo, poi consegnate lo schema a qualcuno e chiedete se ha voglia di capirci qualcosa. È possibile farlo, ma non ha senso e proprio perché non ha senso non merita neanche la fatica che potrei fare nello schiacciare il bottone per votarlo e quindi non la farò.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u40">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg93">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg94">Signor Presidente, anch'io non parteciperò al voto perché immagino un cittadino che, andrà a votare con questa legge elettorale convinto di votare un proprio candidato e di vederlo eletto e poi, con questo meccanismo, si renderà conto che sarà stato eletto un altro candidato in un altra circoscrizione in base ai resti e quant'altro (perché, magari, non si è raggiunto nel suo collegio il quoziente intero e ci sarà un quoziente indotto); a quel punto gli dovremo una spiegazione. Siccome la mia avventura di parlamentare finisce con questa legislatura, alla prossima tornata elettorale parteciperò a molti dei vostri comizi e vi chiederò di spiegare ai cittadini proprio questo particolare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Campanella</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg95">A chi di voi parteciperà alla campagna elettorale chiederò spiegazioni su questo punto e spero sia in grado di spiegarlo in maniera esaustiva perché una persona di cultura normale non può capirlo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg96">PRESIDENTE. Se vuole, mi contatti che cercherò di dare un contributo.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u41">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg97">Signor Presidente, vorrei ricordare che durante le audizioni che si sono svolte in 1ᵃ Commissione non solo sulla legge elettorale ma anche in sede di riforma costituzionale molti dei nostri auditi avevano posto una questione molto seria, che questa Aula sta in qualche modo nuovamente affrontando nel corso della discussione del subemendamento 1.7000/1 (testo 2), relativamente al modo di legiferare del nostro Parlamento: una stratificazione di norme che si modificano nel giro di pochissimi minuti o di ore con subemendamenti, con interventi, con i «conseguentemente», cioè un modo di legiferare che rende assolutamente oscuro il testo. Questo problema riguarda il disegno di legge elettorale, che è la legge principe di un sistema democratico, ma potremmo applicare lo stesso parametro se esaminassimo, ad esempio, la legge di stabilità o altre norme. In proposito avevo molto apprezzato una serie di studiosi, di costituzionalisti, che abbiamo ascoltato in sede di audizione sulle riforme costituzionali e che hanno posto la questione anche nel corso della discussione sul superamento del bicameralismo perfetto, sul ruolo del Senato e quant'altro. Dunque si tratta di adottare un modo di legiferare completamente diverso, per materia, che si prefigga di arrivare alla formazione e alla realizzazione di una serie di codici, in modo tale che anche tutte le modifiche, magari successive, possano trovarsi all'interno di un contesto assolutamente leggibile e quindi con una sistematicità che certamente avrebbe fatto il bene del nostro Paese. Dico questo in risposta a chi ci proponeva come unico parametro delle riforme il mito della velocità, quando il problema del nostro Paese, come si vede e come si ripropone puntualmente, è quello di trovare una modalità di legiferare ordinata, tale che non soltanto gli addetti ai lavori ma qualsiasi cittadino possa comprendere esattamente ciò che è scritto in una legge. Tale problema, che come vedete si ripropone puntualmente, è una delle questioni vere, lo dico alla ministra Boschi. Si tratta di un tema che, come si è visto, sarebbe stato - questo sì - di profonda innovazione del sistema politico italiano e del sistema costituzionale, che certamente con la riforma costituzionale non si è voluto assolutamente esaminare. Anche durante le audizioni nel corso dell'esame del disegno di legge elettorale sono stati ascoltati alcuni esperti; vorrei citare, ad esempio, Besostri che, tra l'altro, è l'autore del ricorso che ha portato alla sentenza n. 1 del 2014 della Corte costituzionale relativa alla questione della legge elettorale. I colleghi lo ricorderanno (e d'altronde i curiosi possono prendere visione degli atti della sua audizione), ma non fu soltanto il professor avvocato Besostri a proporre che in materia elettorale si arrivasse finalmente ad un codice che riunificasse, e quindi rendesse in qualche modo assolutamente leggibili e comprensibili, tutte le leggi elettorali dato che in Italia ne abbiamo molte: abbiamo quella per i Comuni, per l'elezione diretta del sindaco (alla quale si ambisce di arrivare anche per l'elezione del Parlamento), abbiamo la legge per le elezioni regionali, abbiamo poi una differenza tra la legge per i Comuni al di sopra di un totale di abitanti e Comuni al di sotto. Dunque abbiamo la necessità effettiva di arrivare alla realizzazione di un codice. Ora, come si evince, è assolutamente necessario affrontare in qualche modo la questione. Avevo chiesto al senatore Marcucci se non fosse stato meglio presentare un emendamento interamente sostitutivo ma evidentemente ormai la malattia ha preso tutti per cui si vota la sostanza prima, poi si vota una seconda parte, il «conseguentemente: al numero 1) sopprimere l'ultimo periodo;». Credo sia diventata veramente una malattia genetica ed è così grave questa malattia, lo dico anche al senatore Campanella, che purtroppo, a proposito del principio che lei ha citato prima, persino la Corte costituzionale ha dovuto dire che davanti alla complessità e al modo oscuro con cui vengono confezionate e scritte le leggi, quel principio, in realtà, ormai ha difficoltà ad essere rispettato e ritenuto valido. Quindi, siamo addirittura arrivati al punto che la Corte giustifica l'ignoranza della legge, perché la stessa Corte si è pronunciata su questo davanti ad un ricorso che poneva la questione della non intelligibilità della legge.</seg>
+               <vocal type="noise">
+                  <desc>Brusio in Aula</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg98">Signor Presidente, in questo momento tutti sono molto distratti, ma le questioni poste dall'emendamento in discussione, che possiamo applicare anche agli emendamenti successivi, sono evidentemente di portata più generale, quasi sistemica. Il tutto aggravato dal fatto - e non posso non ripeterlo, perché è vero - che l'emendamento a prima firma della presidente Finocchiaro era una parte dell'altro maxiemendamento (scusate se uso questa espressione ma ormai la questione di fiducia mi perseguita) presentato sempre dalla relatrice.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi delle senatrici Taverna e Mussini.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg99">È evidente però che in Commissione - torno a ripeterlo - sarebbe stato possibile chiedere anche la consulenza, per esempio, del senatore Martelli, che di matematica se ne intende moltissimo, per avere la possibilità di capire gli effetti prodotti dalla legge; tuttavia non è stato dato modo di farlo, non so se volutamente o meno, e certamente il risultato è questo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg100">Personalmente faccio un appello per il prosieguo dei lavori. L'emendamento principe, l'1.7000, è stato separato dagli altri e mi chiedo per quale ragione. Avevo proposto di presentare un unico emendamento, anche perché, tra l'altro, il problema con Forza Italia ora si è risolto e quindi si poteva arrivare ad un emendamento unico, interamente sostitutivo e con tutte le modifiche apportate. Invece, si inseriscono nell'emendamento 1.7000 una serie di subemendamenti che intervengono su una parte del testo. L'emendamento 1.700 è quello che originariamente non era stato firmato dal senatore Paolo Romani per la questione relativa alla cancellazione delle coalizioni e all'attribuzione del premio soltanto alle liste, trattandosi dell'ultimo punto di contrattazione con Forza Italia.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg101">Ora, però, il problema è stato risolto. Quindi si poteva presentare un unico emendamento che riformulasse organicamente il testo risparmiando a tutti noi queste divisioni artificiose, che mettendo insieme troppi elementi - e anticipo una questione seria - impediscono all'Aula e ai singoli senatori di poter esprimere voti diversi sulla base dei diversi punti di vista sulle singole questioni. Mi riferisco all'inserimento nel punto successivo dell'indicazione del Premier, dell'abbassamento dello sbarramento e dell'attribuzione del premio alla lista e non più alla coalizione. PRESIDENTE. Concluda, senatrice De Petris. DE PETRIS (Misto-SEL). Signor Presidente, concludo affermando che spero ardentemente - e rivolgo un appello a quest'Aula - di fare davvero una riforma utile al Paese e che cominciamo a fare delle leggi semplici, scritte bene e comprensibili a tutti i cittadini.</seg>
+            </u>
+            <note type="speaker">BUCCARELLA (M5S)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u42">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg102">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg103">Signor Presidente, intervengo per annunciare la mia non partecipazione al voto, come altri colleghi del mio Gruppo hanno già preannunciato. Ho svolto la funzione di presidente di seggio molte volte, fino a pochi anni fa. Quindi, le osservazioni svolte prima dal senatore Marton e poi da altri colleghi intervenuti sono fondatissime. L'incomprensibilità e la difficoltà interpretativa di un testo di legge formulato nella maniera in cui state per fare renderanno obiettivamente le operazioni di interpretazione e di spoglio dei voti piccole tragedie, anche umane, a carico degli uffici elettorali che dovranno attuarle. Ricordo, quando vi è stata la prima applicazione della legge sulle elezioni amministrative dei sindaci, la quantità di telegrammi e di cablogrammi che arrivavano continuamente dalla prefettura, cercando di dare supporto, nella prima fase applicativa di quella legge, alla comprensione delle disposizioni che erano senz'altro innovative, ma anche abbastanza complicate (il voto disgiunto e quant'altro). Se è vero - come io credo - quanto il mio capogruppo Cioffi ieri ha ricordato, ossia che questo voto imposto entro martedì prossimo è la prima delle due scarpe, che il patto del Nazareno evidentemente sta imponendo, da consegnare al vostro capo, il Presidente del Consiglio (la seconda scarpa delle riforme costituzionali dovrebbe arrivare, ci dicono, dopo il giuramento del nuovo Presidente della Repubblica), mi voglio sottrarre a questo gioco e annuncio di non partecipare al voto sull'emendamento 1.7000/1 (testo 2).</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CIOFFI (M5S)</note>
+            <u ana="#regular" who="#CioffiAndrea" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u43">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg104">Signor Presidente, credo vi sia un errore di scrittura, perché l'emendamento 1.7000/1 (testo 2) inizia dicendo «Al subemendamento 1.7000/1». Credo che, quantomeno, vi sia un errore, visto che il subemendamento emenda lo stesso emendamento. Queste cose che succedono... PRESIDENTE. Quindi lei vota in dissenso dal suo Gruppo? CIOFFI (M5S). No, io le sto facendo notare quantomeno un errore scritto nel testo. PRESIDENTE. Ma quella parte l'abbiamo già approvata, senatore Cioffi, perché abbiamo approvato l'emendamento Marcucci 1.7000/1 (testo 2)/100. CIOFFI (M5S). Rimane comunque il concetto generale, ossia che noi continuamente legiferiamo e continuamente facciamo confusione. Qualsiasi legge dovrebbe essere chiara, qualsiasi cittadino che si trova a dover eseguire e rispettare la legge (perché, come sappiamo, in generale la legge non ammette ignoranza) si trova a dover applicare una legge senza capirne il significato. Non l'ho detto solo io, ma mi sembra l'abbiano detto tutti quanti. Il concetto vero è che ci troviamo sempre in questa confusione legislativa. Noi, come legislatori, dovremmo avere il compito di rendere chiaro e intelligibile un testo a coloro che lo devono applicare, che, in questo caso, non sono tutti i cittadini, ma una parte. In generale, comunque, siccome (ricordiamo), come ci viene detto da autorevoli giornali, nel testo delle «Leggi d'Italia» (considerando anche le leggi regionali e tutti i regolamenti attuativi) la parola «deroga» o «eccezione» compare 60.000 volte, questo crea un oggettivo problema per i cittadini che devono applicare la legge e soprattutto rispettarla. In questo caso mi sembra che, ancora una volta, il legislatore non faccia bene il suo compito. Penso, quindi, che sia il caso di fermarsi un attimo su questo emendamento e cercare di renderlo intelligibile e chiaro. Penso che questo sia il nostro compito. Chiedo dunque se questo emendamento possa essere riscritto affinché sia intelligibile per coloro che lo devono applicare.</seg>
+            </u>
+            <note type="speaker">CASTALDI (M5S)</note>
+            <u ana="#regular" who="#CastaldiGianluca" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u44">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u45">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg105">Ne prendo atto. Prima di dare la parola al senatore Castaldi, vorrei fare un richiamo ai colleghi. Comprendo che è assolutamente legittimo qualunque tipo di intervento nei limiti che sono stati posti, ma credo che l'approvazione per lo meno del subemendamento Finocchiaro ci consenta di vedere realizzata una parte del percorso, che magari eviterebbe la convocazione di una Conferenza dei Capigruppo che porterebbe ad un contingentamento dei tempi; mi piacerebbe arrivare alla conclusione dell'esame di tutto senza dover arrivare a questo. Poi l'Assemblea deciderà come ritiene.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg106">Le do la parola, senatore Castaldi.</seg>
+            </u>
+            <note type="speaker">CASTALDI (M5S)</note>
+            <u ana="#regular" who="#CastaldiGianluca" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u46">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg107">Signor Presidente, lungi da me fare ostruzionismo becero.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg108">Quando reputa di togliermi la parola per far votare l'emendamento, lo faccia.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg109">Tuttavia, vorrei che rimanesse agli atti la mia astensione, non per altro, ma perché ieri sera ho fatto notare come i partiti scrivono i programmi per dimostrare di fare qualcosa, ma poi fanno l'esatto contrario. I programmi, poi, vengono enunciati e c'è chi li legge e chi non li legge. Ieri il senatore Stefano Esposito ce ne ha dato una dimostrazione: ha presentato un disegno di legge elettorale contro i nominati e lui stesso, con l'Espositum, ripropone l'84 per cento di nominati alla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg110">Però vi faccio notare, in particolare a chi è iscritto ai partiti (che fintamente si suddividevano, con i loro programmi, rubando il voto a chi era di destra e a chi era di sinistra), che così, oltre a togliere la democrazia ai cittadini, la state togliendo anche ai vostri iscritti, ai quali non permettete più di candidarsi perché con questa legge elettorale qua dentro vi siederete sempre e solo voi. Lo voglio far notare a chi è iscritto ai partiti, perché i poveri sindaci si ritrovano come il sindaco PD di Tollo, un piccolo Comune della mia Provincia, che davanti ad un cittadino che adesso sa cosa fate davvero, grazie alla presenza dei cittadini in Parlamento e alla rete, non sapeva più cosa dire o cosa fare - poverino - quando voleva giustificare le trivellazioni. È lo stesso concetto che ha espresso il senatore Gaetti, con l'onestà che ha, visto che se non sbaglio lui è già stato consigliere comunale e quindi è al suo secondo mandato, e ultimo, secondo la prassi del Movimento 5 Stelle - senza leggi - ed io lo ringrazio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg111">Ognuno di noi qui - e anche i cittadini che ci ascoltano da casa - ha il dovere di informare le persone e mettere questi qui davanti ai fatti. Quando non avranno più risposte, non so cosa potrà accadere!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u47">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg112">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg113">Signor Presidente, credo debba essere posto un problema, anche perché chi conosce il funzionamento del Parlamento sa benissimo che alla Camera c'è un Comitato per la legislazione che è molto attento a come vengono formulate le norme. Da questo punto di vista, credo che il modo in cui è stato formulato l'emendamento in esame renderà necessario un intervento di quel Comitato, perché non è assolutamente comprensibile ed è una circostanza su cui invito tutti a riflettere. Signor Presidente, lei è stato Ministro per la semplificazione e credo possa capire come effettivamente stanno le cose e qual è l'attenzione che la Camera porrà e dovrà porre a questo testo. Quando venne approvata l'iniziativa di inserire nel Regolamento della Camera il Comitato per la legislazione, dall'allora presidente Violante, si cercava di dare al cittadino la possibilità di comprendere quello che realmente era scritto all'interno delle norme. Ricordo numerosi interventi svolti su norme non così complesse, complicate e scritte in modo - passatemi il termine - difficilmente leggibile ed astruso come queste, ad esempio sulle vecchie leggi finanziarie - oggi leggi di stabilità - che hanno portato il Comitato ad esprimere un parere che ha obbligato a cambiare il testo che poi veniva portato all'attenzione dell'Aula. Vi rassegno questa riflessione e questa preoccupazione con l'intenzione di invitare tutti voi ad evitare che questo, a differenza di quanto detto dal Presidente del Consiglio, sia il testo finale della norma. Sarà infatti necessario da parte vostra - giacché non è la Lega che vota questa legge - intervenire nuovamente alla Camera per modificare la norma recependo il parere del Comitato per la legislazione, che è vero che non è vincolante, ma rende le cose molto piè chiare e cerca di avvicinarle ai cittadini. È un invito. Per questo motivo, il mio Gruppo ha detto che si asterrà, mentre io non parteciperò al voto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u48">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg114">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.7000/1 (testo 2), nel testo emendato, presentato dalla senatrice Finocchiaro. (Segue la votazione). VOCI DAL GRUPPO M5S. Presidente, tempo! (Alcuni senatori del Gruppo M5S indicano l'orologio). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">CENTINAIO (LN-Aut)</note>
+            <u ana="#regular" who="#CentinaioGianMarco" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u49">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg115">Signor Presidente, capisco l'autorità e l'autorevolezza del Presidente, ma è passato mezzogiorno!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u50">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg116">Senatore Centinaio, avendo iniziato la dichiarazioni di voto era bene concluderle - non essendovene più - con la votazione dell'emendamento cui le stesse erano state riferite.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg117">Rinvio il seguito della discussione dei disegni di legge in titolo ad altra seduta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg118">Visto l'orario che abbiamo raggiunto non possiamo svolgere gli interventi di fine seduta, che verranno rinviati alla settimana prossima.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u51">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg119">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di lunedì 26 gennaio 2015</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.u52">
+               <seg xml:id="ParlaMint-IT_2015-01-23-LEG17-Sed-383.seg120">Il Senato tornerà a riunirsi in seduta pubblica lunedì 26 gennaio, alle ore 15, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 12,04).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

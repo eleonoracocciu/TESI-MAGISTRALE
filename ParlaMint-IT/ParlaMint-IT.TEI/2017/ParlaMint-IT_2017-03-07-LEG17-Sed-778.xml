@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 778 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 778 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 778, giorno (2017-03-07)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 778, Day (2017-03-07)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="778-upper">778 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="138" unit="speeches" xml:lang="it">138 discorsi</measure>
+            <measure quantity="138" unit="speeches" xml:lang="en">138 speeches</measure>
+            <measure quantity="14669" unit="words" xml:lang="it">14.669 parole</measure>
+            <measure quantity="14669" unit="words" xml:lang="en">14,669 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=1008135</idno>
+               <date when="2017-03-07">07.03.2017</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="13"/>
+               <tagUsage gi="head" occurs="9"/>
+               <tagUsage gi="note" occurs="209"/>
+               <tagUsage gi="seg" occurs="138"/>
+               <tagUsage gi="u" occurs="93"/>
+               <tagUsage gi="vocal" occurs="3"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="25"/>
+               <tagUsage gi="desc" occurs="28"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2017-03-07">07.03.2017</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente GRASSO</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u1">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg1">La seduta è aperta (ore 16,31). Si dia lettura del processo verbale. PEGORER, segretario, dà lettura del processo verbale della seduta pomeridiana del 2 marzo. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u2">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u3">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg3">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg4">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,32).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u4">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg5">La Conferenza dei Capigruppo, riunitasi oggi, tenuto conto dei diversi argomenti già previsti e non conclusi nelle precedenti settimane, ha rimodulato gli orari delle sedute di questa settimana.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg6">Oggi pomeriggio proseguirà la discussione del disegno di legge collegato sulla povertà fino alla conclusione dei voti sugli emendamenti; le dichiarazioni di voto e il voto finale sul provvedimento avranno luogo nella seduta antimeridiana di giovedì 9 marzo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg7">La discussione della risoluzione delle Commissioni riunite esteri e difesa sulla partecipazione dell'Italia alle missioni internazionali si svolgerà, fino alla sua conclusione, nella seduta pomeridiana di domani. In apertura di seduta, alle ore 16, i Gruppi ricorderanno la giornata dell'8 marzo con interventi di cinque minuti ciascuno. Restano confermati gli altri argomenti previsti dal calendario.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg8">L'ordine del giorno delle sedute di mercoledì 15 marzo potrà essere integrato, previ accordi con la Camera dei deputati, con la discussione sulla mozione di sfiducia individuale nei confronti del Ministro dello sport.</seg>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u5">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg9">Signor Presidente, mi pare che ci debba essere un voto sul calendario, considerato che siamo usciti dalla Conferenza dei Capigruppo senza che vi sia stata una decisione unanime, quindi credo che innanzi tutto lo si debba mettere in votazione. In secondo luogo, come lei ben sa, non sono assolutamente d'accordo sul fatto che mercoledì prossimo sarà calendarizzata la mozione di sfiducia nei confronti del ministro Lotti «previa intesa», perché su questo punto dobbiamo fare chiarezza. La ringrazio anzitutto per avere convocato la Conferenza dei Capigruppo, ma in quella sede il senatore Zanda ha posto una questione a mio avviso del tutto pretestuosa, perché ha evidenziato il problema che la nostra mozione di sfiducia sia stata depositata in ambo i rami del Parlamento, cosa che è avvenuta già molte altre volte eppure questa obiezione non è mai stata sollevata quando si è richiesto di calendarizzare mozioni di sfiducia in altre occasioni. Lo posso ben dire perché, quando mi è capitato di sostituire il Capogruppo come vice capogruppo vicario in Conferenza dei Capigruppo, ho richiesto io stessa almeno due volte la calendarizzazione di una mozione di sfiducia individuale che era stata presentata anche alla Camera dei deputati e questa obiezione non è stata sollevata. È quindi chiaro che da parte del Partito Democratico ci sono intenti pretestuosi, perché evidentemente non ci sono argomenti per essere contrari a una calendarizzazione chiara e pulita di questa mozione di sfiducia. Ciò detto, per quel che ci riguarda la mozione di sfiducia è calendarizzata per mercoledì prossimo, in quanto, a nostro avviso, non c'è alcuna questione sulla quale si debba trovare un'intesa. Ci pare infatti chiaro e lapalissiano che dal primo momento in cui una forza politica chiede la convocazione di una Conferenza dei Capigruppo all'interno della quale richiede la calendarizzazione di un provvedimento, il suo intento sia calendarizzare quell'atto, discuterlo e votarlo in Aula e che non ci siano altri intenti. La prego quindi, signor Presidente, di non farsi portare a passeggio dal senatore Zanda, perché è chiaro che l'intento dell'obiezione da lui sollevata era quello di portare a passeggio i Capigruppo presenti in quella sede, facendo perder tempo a tutti noi quando si poteva calendarizzare la mozione di sfiducia per il 15 marzo senza alcuna clausola. Vorrei dunque un chiarimento e un ragguaglio in merito, perché quello che è successo è grave.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u6">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg10">Senatrice Montevecchi, mi piacerebbe andare a passeggio, ma siamo qui a dover decidere su questi temi.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg11">Essendo stata presentata la mozione di sfiducia in entrambi i rami del Parlamento, è sufficiente il ritiro della stessa in una Camera per rendere l'altra automaticamente investita della questione, senza alcun equivoco. In ogni caso, finché ciò non avviene o se questo non avviene, è prassi che quando due temi giacciono in due Camere, ci sia un contatto, un previo accordo, un'intesa da parte dei Presidenti. L'eventuale conflitto si può quindi risolvere immediatamente con il ritiro della mozione in una delle due Camere.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg12">Comunque la mozione di sfiducia è già fissata per mercoledì della prossima settimana. Questo è il chiarimento che mi pare lei abbia chiesto.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg13">Signor Presidente, oltre all'istanza della collega, vorrei aggiungere un'ulteriore richiesta di modifica del calendario.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u8">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg14">Senatore Crimi, la devo interrompere perché il calendario non è stato modificato, quindi non è aperta la possibilità di inserire altre modifiche o variazioni. Naturalmente può esprimere le sue istanze, però è mio compito avvisarla.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg15">Signor Presidente, fino a prova contraria, da quello che ho sentito da lei, sono stati inseriti nuovi argomenti nel calendario. PRESIDENTE. Assolutamente no. CRIMI (M5S). Stiamo parlando della stessa mozione di sfiducia al ministro Lotti. PRESIDENTE. Previa intesa, previo accordo, quindi ufficialmente non è inserita. CRIMI (M5S). Signor Presidente, lei lo ha detto poc'anzi, rispondendo alla mia collega. PRESIDENTE. Mi scusi se la interrompo, ma la senatrice Montevecchi sa benissimo che uscendo dalla Conferenza dei Capigruppo ho precisato che non c'era alcuna modifica del calendario, quindi questo è stato precisato nell'ambito di quella riunione. Naturalmente do la parola perché le istanze vengano recepite, anche in funzione del proseguo dei lavori.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u9">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg16">Io adesso le dico qual era la mia istanza, perché mi sembra ancora di non comprendere: poco fa lei ha detto che è calendarizzata a prescindere dell'intesa, mentre adesso ha parlato dell'intesa.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg17">PRESIDENTE. Non sono stato chiaro: ho detto che se la mozione viene ritirata alla Camera non c'è alcun problema perché sarebbe pendente presso una sola Camera, cioè presso il Senato.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg18">Signor Presidente, ancora non riesco a comprendere - è un mio limite, evidentemente - la logica del «se è inserito» o «se non è inserito» in calendario. Vuol dire che, se dovessimo ritirare la mozione alla Camera, si intenderà inserita qui e, in quel momento, potrò fare una richiesta di modifica del calendario, magari domani o dopo domani. Dal momento che è inserita, infatti, lei deve dare la possibilità di fare la richiesta di modifica. Detto questo signor Presidente, ritengo ancora una volta di sollecitare con urgenza la trattazione della decadenza del senatore Minzolini. Sono passati sette mesi e questo argomento è sempre in coda. In ogni Conferenza dei Capigruppo c'è sempre, ma in coda e in ogni Capigruppo viene rimesso in coda, perché arrivano altri provvedimenti, non sempre urgenti. Mi permetto di leggere due parole. Nel caso dell'onorevole Previti, nel 2007, queste parole sono state pronunciate in Aula alla Camera: «Si tratta di un adempimento che rientra nei nostri doveri e a cui dobbiamo provvedere per il rispetto che si deve alle regole della Costituzione e della legge, rispetto fondamentale per la vita democratica e per la convivenza civile. Tale è il punto che ha motivato e che deve motivare le nostre determinazioni, le nostre motivazioni: il rispetto delle regole, questo e soltanto questo è ciò cui facciamo riferimento. (...) Quello che oggi in questa Aula celebriamo non è un giudizio nel merito delle accuse formulate nei processi all'onorevole Previti. Non ci compete. Siamo chiamati a prendere atto di una decisione formulata dalla magistratura in tre gradi di giudizio, e passata in giudicato con la pronunzia della Corte di cassazione. Ne dobbiamo prendere atto e assumerci la responsabilità delle conseguenti decisioni che competono soltanto a questa Camera. (...) Non è possibile in alcun modo, con nessun argomento, complicare la realtà dei fatti che è, al contrario, estremamente semplice: un cittadino interdetto in perpetuo dai pubblici uffici non è più titolare dei diritti elettorali, non può più votare e di conseguenza non può più essere eletto, e se è già stato eletto ed è parlamentare decade dal suo mandato ai sensi dell'articolo 66 della Costituzione, ovvero si dimette. Non si tratta, colleghi, della vittoria di una parte sull'altra, si tratta semplicemente della verità dei fatti e di adempiere al dovere - al nostro dovere in questa circostanza - di rispettare le regole poste dalla Costituzione e dalla legge». Queste sono le parole pronunziate dal presidente Mattarella il 31 luglio 2007 nel caso della decadenza dell'onorevole Previti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg19">PRESIDENTE. Invece di questa citazione, poteva far sue le parole, tanto il tema è lo stesso.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg20">Signor Presidente, lei giustamente ci ha riportato che il calendario non è stato cambiato, ma io non posso esimermi dal ricordare di nuovo in Aula - perché l'Assemblea ne deve essere assolutamente al corrente - che, ancora una volta, noi abbiamo avanzato la richiesta di poter finalmente avere una qualche certezza che possa arrivare in discussione in Assemblea il provvedimento sulla cittadinanza, che continua a essere presente solo con la dizione «ove concluso». Mi spiace molto dirlo, signor Presidente, ma sono giorni, settimane, mesi che molti esponenti del Senato si espongono facendo promesse, anche a manifestazioni di bambini e quando, poi, si arriva alla riunione dei Capigruppo l'assunzione di responsabilità di togliere la dizione «ove concluso» non si fa. Lei dice che è una questione di lana caprina; non lo è, signor Presidente, perché è un anno che questo provvedimento giace al Senato, dopo che è stato approvato alla Camera, in Commissione sono stati presentati molti emendamenti, la situazione non si sblocca e il provvedimento neanche viene posto all'ordine del giorno e ho sempre ritenuto - perché così è sempre andata in questa legislatura - che ogni volta che i provvedimenti sono stati comunque inseriti in calendario, per poter essere affrontati, anche se non conclusi in Commissione, alla fine si sono sbloccati, in un modo o nell'altro. Alla fine, comunque, ognuno si assume le proprie responsabilità. Quindi, signor Presidente, so che non è possibile metterlo in votazione, ma credo che sia assolutamente necessario - lo dico anche alla relatrice, senatrice Lo Moro - che si abbia coscienza di quello che sta accadendo, perché stiamo giocando con la vita di circa un milione di donne, uomini, bambine e bambini, che sono nati in questo Paese, che si considerano italiani a tutti gli effetti, che danno il loro contributo, ma che non riescono ad avere la possibilità di ottenere una pienezza di diritti e la cittadinanza della loro Patria, di quello che loro ritengono il loro Paese. Allora, fuori da ogni ipocrisia, ognuno si assuma la propria responsabilità, perché non posso permettere che anche questa legislatura passi senza che sia finalmente approvata una legge seria e degna di un Paese civile, come quella che stiamo esaminando sulla cittadinanza. Ognuno ha fatto dei sacrifici e anche noi la volevamo migliore, ma abbiamo accettato, come è successo nel caso del provvedimento sui minori non accompagnati, di dare il nostro contributo per accelerare, però altri Gruppi, di maggioranza, che hanno ben maggiori responsabilità, evidentemente preferiscono dare propaganda fuori, mentre qui operano esattamente in senso contrario.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SI-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u11">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg21">Senatrice De Petris, terremo presenti le sue istanze nella prossima Conferenza dei Capigruppo.</seg>
+            </u>
+            <note type="speaker">BOTTICI (M5S)</note>
+            <u ana="#regular" who="#BotticiLaura" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg22">Signor Presidente, non ho colto e non ho capito - forse ero distratta - quando verrà esaminato in Assemblea il provvedimento per l'istituzione di una Commissione d'inchiesta sul sistema bancario. Tale esame è previsto in calendario dal 21 febbraio, ma, in effetti, poi noi arriviamo in Aula e il provvedimento non viene mai esaminato. Vorrei capire quando in realtà si svolgerà il dibattito sull'istituzione di una Commissione d'inchiesta sul sistema bancario. Chiedo inoltre - e su questo vi assillerò ogni giorno, perché ho deciso che ogni giorno farò un intervento in Aula - quando verrà esaminato il provvedimento per l'istituzione di una Commissione d'inchiesta su Il Forteto. Ricordo che c'è stata una votazione per dichiarare l'urgenza di tale provvedimento e che sono già passati i 30 giorni in Commissione giustizia. Chiedo pertanto che il prossimo calendario preveda anche l'esame del provvedimento per l'istituzione di una Commissione d'inchiesta su Il Forteto. Ci vediamo stasera per il mio intervento in Assemblea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Paglini</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg23">PRESIDENTE. Terremo conto delle sue istanze, senatrice Bottici.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione dei disegni di legge: (2494) Delega recante norme relative al contrasto della povertà, al riordino delle prestazioni e al sistema degli interventi e dei servizi sociali</note>
+            <note type="time">16,49</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Collegato alla manovra finanziaria)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/47148.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (2241) BUEMI. - Istituzione del reddito minimo garantito e delega al Governo in materia di riordino di tutte le prestazioni assistenziali e del welfare</note>
+            <note type="time">16,49</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Collegato alla manovra finanziaria)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46522.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (2437) LEPRI ed altri. - Delega al Governo per la definizione e la realizzazione di misure integrate di contrasto alla povertà</note>
+            <note type="time">16,49</note>
+            <note type="status">(Votazione finale qualificata ai sensi dell'articolo 120, comma 3, del Regolamento) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46998.htm</note>
+            <note type="time">(ore 16,48)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u13">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg24">L'ordine del giorno reca il seguito della discussione dei disegni di legge nn. 2494, già approvato dalla Camera dei deputati, 2241 e 2437.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg25">Ricordo che nella seduta antimeridiana del 2 marzo si è conclusa la discussione generale e hanno avuto luogo le repliche della relatrice, della relatrice di minoranza e del rappresentante del Governo.</seg>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u14">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg26">Signor Presidente, gli emendamenti che abbiamo presentato sono più di uno, ma ciò che si voleva far passare è che non è opportuno cancellare ciò che funziona. L'introduzione della norma generale da gestire a livello nazionale significherebbe infatti che a livello territoriale o regionale tutte le strutture che già prestano egregiamente assistenza verrebbero sostanzialmente espropriate. Saremmo dell'idea che ciò che funziona deve essere lasciato e ciò che non funziona viene eventualmente cambiato. Far rimanere una o più misure regionali, almeno in quelle Regioni dove il sistema assistenziale funziona, a noi sembrava una cosa più che ragionevole.</seg>
+            </u>
+            <note type="speaker">MANDELLI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MandelliAndrea" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u15">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg27">Signor Presidente, vorrei illustrare in particolare l'emendamento 1.116, concentrandomi su di esso.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg28">Uno dei più grandi problemi che la crisi economica attuale sta evidenziando è proprio legato all'assistenza sanitaria e all'impossibilità, per molte persone, di avere accesso al farmaco, che è il bene essenziale con cui ci curiamo. Proprio l'eccessiva frammentarietà del nostro sistema sanitario è una delle principali cause degli sprechi e dei disservizi che caratterizzano la rete assistenziale del Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg29">Propongo con l'emendamento 1.116 alcune cose molto semplici. Per razionalizzare le nostre risorse è opportuno che il paziente sia messo nelle condizioni di seguire al meglio la terapia che viene prescritta dal medico, con un controllo che il farmacista, nella farmacia di comunità, può effettuare a tutto vantaggio del cittadino. Infatti, la terapia e la stessa funzione del medico nel determinare una diagnosi possono essere vanificate dal fatto che il paziente non prende in concreto e nella maniera giusta il farmaco. Riuscire a mettere il paziente al centro della rete sanitaria è la certezza assoluta che quella prescrizione medica, che ha sicuramente un costo importante, non sia sprecata, nella consapevolezza che la riduzione degli sprechi consente di trovare gli spazi anche per dare più assistenza.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u16">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg30">I restanti emendamenti e ordini del giorno si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg31">Invito la relatrice e la rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">PARENTE</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#ParenteAnnamaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u17">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg32">Signor Presidente, esprimo parere contrario su tutti gli emendamenti.</seg>
+            </u>
+            <note type="speaker">BIONDELLI</note>
+            <note type="role">sottosegretario di Stato per il lavoro e le politiche sociali</note>
+            <u ana="#guest" who="#BiondelliFranca" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u18">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg33">Signor Presidente, il parere del Governo è conforme a quello della relatrice.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u19">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg34">Passiamo alla votazione dell'emendamento 1.3.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg35">SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. Per gli emendamenti successivi, se necessario, avanzerò nuovamente, volta per volta la richiesta. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.3, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.4. CUOMO (PD). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.4, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.5, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.6, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.7, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.8, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.9, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.10, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.11, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 1.14, presentato dal senatore Divina e da altri senatori, fino alle parole «o più misure». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte e l'emendamento 1.13. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.15, presentato dal senatore Divina e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.18, presentato dal senatore Divina e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.19.</seg>
+            </u>
+            <note type="speaker">CATALFO (M5S)</note>
+            <u ana="#regular" who="#CatalfoNunzia" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u20">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg36">Signor Presidente, intervengo su questo emendamento che vuole inserire all'interno del provvedimento, dopo le parole: «livello di vita dignitoso», le parole «come indicato nella risoluzione del 2010/2039 del Parlamento europeo». È un po' strano che questo provvedimento, un disegno di legge delega, arrivi in Senato dopo un solo passaggio alla Camera e che qui si è sia espresso parere contrario su tutti gli emendamenti sia in Commissione che in Aula. In pratica, credo che si stia dicendo che questo Senato, dopo sette mesi di stazionamento del provvedimento in Commissione, non deve proferir parola su un provvedimento che dovrebbe riguardare non il nulla assoluto, ma ben 4,6 milioni di italiani che vivono sotto la soglia di povertà assoluta e 9 milioni di italiani che vivono sotto la soglia di povertà relativa. Eppure tale provvedimento non tocca minimamente questi italiani. Perché dico che non li tocca minimamente? Perché non solo non è indicata la soglia alla quale si fa riferimento, non solo si va a guardare l'ISEE, ma si dice no a un emendamento che va a riproporre e a inserire un criterio generale stabilito dagli stessi italiani e sancito in una risoluzione del Parlamento europeo scritta nel 2010. Quindi, sette anni dopo l'Italia decide che la povertà e la lotta alla povertà non sono una priorità per questo Governo, per questa maggioranza e per questo Parlamento e i cittadini italiani questo lo devono sapere. Nella risoluzione del Parlamento europeo ci sono criteri e soglie ben precisi che si rifanno non a una soglia qualsiasi, ma ai dati dell'Istituto europeo di statistica e ancora questo Governo non ne tiene conto. Sono passati sette anni e gli italiani continuano ad essere presi in giro da queste Aule, da questa maggioranza, da questo Governo e - me lo consenta, presidente Grasso - da queste prassi o consuetudini che poco hanno di democrazia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u21">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg37">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.19, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.21, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.23.</seg>
+            </u>
+            <note type="speaker">PUGLIA (M5S)</note>
+            <u ana="#regular" who="#PugliaSergio" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u22">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg38">Signor Presidente, con l'emendamento 1.23 vogliamo introdurre specifiche norme «di natura sanzionatoria a carico di tutti i soggetti percettori o responsabili dei processi amministrativi di erogazione» di questo eventuale reddito di inclusione sociale «che compiano atti illeciti».</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg39">(ore 17,01) ( Segue PUGLIA) . Ritengo sia fondamentale, infatti, prevenire, attraverso una specifica e puntuale sanzione, i comportamenti illeciti. Gli italiani non possono infatti trovarsi ancora una volta dinanzi a persone che percepiscono indennità a loro non dovute, a causa delle quali a rimetterci sono le persone oneste. Mi riferisco, ad esempio, alle indennità dovute ai soggetti disabili: negli anni non abbiamo sanzionato i furbetti e poi ci siamo dovuti arrabattare, restringendo purtroppo i benefici anche a favore delle persone oneste che hanno davvero problemi. Così come è accaduto per le false disabilità, lo stesso fenomeno si può verificare anche per le misure in materia di contrasto alla povertà. Sarebbe dunque opportuno, a nostro avviso, introdurre specifiche normative e farlo immediatamente e pertanto invitiamo a votare a favore dell'emendamento in esame.</seg>
+            </u>
+            <note type="president">Presidenza della vice presidente DI GIORGI</note>
+            <note type="time">17,01</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u23">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg40">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.23, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.25.</seg>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u24">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg41">Signora Presidente, in base all'articolo 92, comma 1, del Regolamento del Senato chiedo di poter intervenire sull'ordine dei lavori. Dalla Camera dei deputati ci hanno infatti appena informati del fatto che la mozione di sfiducia presentata dal Movimento 5 Stelle e depositata alla Camera dei deputati è stata ritirata e, quindi, dobbiamo ufficialmente prendere atto del fatto che il calendario è stato modificato. Pertanto, chiedo di mettere in votazione la proposta avanzata dal senatore Crimi in precedenza in merito al documento III della Giunta delle elezioni e delle immunità parlamentari sulla decadenza dalla carica di senatore del senatore Augusto Minzolini.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u25">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg42">Senatrice Montevecchi, mi pare che già il presidente Grasso, in precedenza, abbia detto con chiarezza che, in questo momento della discussione, tale richiesta non è ammissibile. Prendiamo atto della notizia che ci ha dato rispetto a quanto accaduto presso la Camera dei deputati, ma dobbiamo andare avanti con il nostro lavoro.</seg>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà, ma solo per un'ulteriore precisazione.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg43">Signora Presidente, le chiedo se gentilmente può citare l'articolo del Regolamento del Senato che corrobora la sua risposta. Noi ci appelliamo infatti ad un articolo del Regolamento e vorrei capire a quale articolo del Regolamento si sta appellando lei per rispondermi così.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u27">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg44">Abbiamo già detto, anche prima, in Conferenza dei Capigruppo, che questa è una competenza della Conferenza dei Capigruppo. Direi quindi che, da questo punto di vista, non possiamo fare diversamente.</seg>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u28">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg45">Allora chiediamo una convocazione immediata della Conferenza dei Capigruppo per prendere atto del fatto che c'è stata questa intesa e quindi sancire definitivamente la calendarizzazione della mozione di sfiducia al ministro Lotti per mercoledì 15 marzo 2017, come deciso in Conferenza dei Capigruppo, essendo decaduta la clausola che non permetteva la calendarizzazione ufficiale di tale mozione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u29">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg46">Sarà mia cura riferire al Presidente.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg47">Intanto proseguiamo con i nostri lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg48">ENDRIZZI (M5S). È lei la Presidente, adesso. PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.25, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u30">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg49">Signora Presidente, le chiedo l'annullamento di questa votazione e di tutte le votazioni precedenti perché, ai sensi dell'articolo 118, comma 1, del Regolamento le votazioni si possono ritenere nulle in quanto ci sono diverse schede inserite in postazioni dove non sono presenti i senatori. Siccome, a livello nazionale, il tema dei furbetti del tesserino è seguito da tutti e su di esso facciamo le nostre considerazioni, in questo caso addirittura sui banchi del Governo è posizionata dall'inizio della discussione una scheda e questo inficia la validità del voto.</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg50">Le chiedo quindi di annullare immediatamente tutti i voti, perché in diversi banchi sono inserite varie schede in modo non regolare. Le chiedo, inoltre, che una volta per tutte vengano resi pubblici i nomi dei senatori e dei componenti del Governo che mettono le loro schede e vanno via, pappandosi la diaria.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Proteste dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg51">CARDINALI (PD). Smettila! Stai zitto! ALBANO (PD). Basta!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u31">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg52">La invito ad usare termini consoni all'Aula, senatore Santangelo, altrimenti dovrò toglierle la parola.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Santangelo.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg53">Chiedo ai senatori Segretari di fare un controllo. Vi prego di collaborare. Chi ha accanto postazioni vuote con schede inserite, le consegni ai senatori Segretari che stanno venendo a recuperarle.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg54">Ora iniziamo! PRESIDENTE. Fate una verifica. Chiedo la collaborazione dei senatori seduti e degli assistenti d'Aula. Per favore, ritirate le schede inserite nelle postazioni vuote perché è giusto che tali schede non siano inserite nel momento in cui stiamo votando. Abbiamo ritirato tutte le schede o ce ne sono altre? SANTANGELO (M5S). No, Presidente! PRESIDENTE. Naturalmente non annullo la votazione precedente. Lo abbiamo fatto anche in altre occasioni. SANTANGELO (M5S). Non è così! Deve annullarle! PRESIDENTE. Non mi pare, tra l'altro, di avere individuato alcun senatore che abbia votato al posto dell'altro, quindi abbiamo preso atto della sua osservazione e ora perseguiamo con i lavori. Direi che l'argomento può essere chiuso.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u32">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg55">PRESIDENTE. Su quale argomento, senatore Santangelo? SANTANGELO (M5S). Signora Presidente, decida lei su quale articolo: ai sensi dell'articolo 92, comma 1, sull'ordine dei lavori se le va bene, ma il discorso precedente non è assolutamente concluso perché ho fatto riferimento all'articolo 118, comma 1 del Regolamento che, nello specifico, dice che «In ogni caso di irregolarità delle votazioni,» - e quindi anche in questo caso - «il Presidente, apprezzate le circostanze, può annullarle o disporne l'immediata rinnovazione, con o senza procedimento elettronico». Ora se, nonostante l'aver verificato non la votazione da parte di qualche senatore assente perché non è questo che le ho sottolineato, bensì la presenza di tessere in postazioni di senatori assenti, per il Presidente questa non è una violazione, allora lei si assumerà la responsabilità del mancato annullamento delle votazioni ma anche della creazione di un precedente molto importante e chiedo che ciò venga messo agli atti, in modo tale che i cittadini, fuori, possano realmente capire che se vieni al Senato, metti la tessera e vai via, puoi tranquillamente prendere la diaria senza votare, quindi senza svolgere le tue funzioni. Quindi, a lei la scelta, signora Presidente, perché a lei tocca.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u33">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg56">Molto volentieri mi prendo la responsabilità di quanto sto dichiarando. Non è stata denunciata alcuna violazione, in quanto non mi è stato detto da parte di alcuno che un senatore abbia votato al posto del vicino di banco. Ho fatto rimuovere tutte le tessere. Pertanto, per me si va avanti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e FI-PdL XVII e del senatore Liuzzi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg57">Dichiarerei chiusa la questione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg58">Invito, comunque, tutti i colleghi a consegnare le schede, a portarle con sé quando si allontanano dall'Aula, in modo che siffatte contestazioni, che sono legittime, non avvengano più. Con un'attenzione da parte di tutti credo che i lavori possano continuare tranquillamente. Andiamo avanti.</seg>
+            </u>
+            <note type="speaker">BOTTICI (M5S)</note>
+            <u ana="#regular" who="#BotticiLaura" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u34">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg59">Signora Presidente, intervengo sempre sullo stesso argomento. Per la precisione, la delibera del Consiglio di Presidenza dice che, in caso di votazione, quando il senatore ha la scheda inserita nel meccanismo di votazione, ma non è presente, lo stesso Presidente deve dire il nome del senatore assente per metterlo a verbale. Considerato che non è stato possibile fare ciò perché sono state ritirate le tessere, credo che l'annullamento di una votazione chiuderebbe il discorso e potremmo andare avanti con i lavori.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u35">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg60">Prendo atto del suo intervento. Effettivamente non potremmo fare quanto lei chiede. Ne prediamo atto e lo mettiamo a verbale. Tecnicamente non si può più fare e andrei avanti con i lavori. La discussione è chiusa.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg61">SANTANGELO (M5S). Io ho chiesto di farlo! PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.26, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.27, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.28, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.30, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.29, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.31, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.33, presentato dal senatore Divina e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.34, presentato dal senatore Divina e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.35, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione della prima parte dell'emendamento 1.36.</seg>
+            </u>
+            <note type="speaker">CATALFO (M5S)</note>
+            <u ana="#regular" who="#CatalfoNunzia" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u36">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg62">Signora Presidente, intervengo per dichiarare il mio voto contrario sugli emendamenti 1.33 e 1.34 e per svolgere la dichiarazione di voto sull'emendamento 1.36. Con l'emendamento 1.36 si intende eliminare il parametro attraverso il quale questo Governo vuole quantificare la povertà in Italia, ossia l'Indicatore della situazione economica equivalente (ISEE). Invito tutti a leggere la relazione dell'Istat, da cui emerge in modo specifico quanto l'ISEE sia uno strumento inadeguato per percepire e quantificare il disagio dei cittadini italiani. Noi, quindi, proponiamo un altro indicatore, quello dell'Eurostat, che indica la soglia di rischio di povertà e che è ripreso anche dal Parlamento europeo e dall'Istat. Con la misura messa in atto utilizzando l'ISEE si riuscirà a dare un sostegno molto, ma molto basso e ad aiutare davvero poche persone. Per il momento parliamo della sola povertà assoluta, ossia di 4,5 milioni di persone povere e di circa 1,5 - 1,6 milioni di bambini. Desidero raccontarvi velocemente la storia di una famiglia per farvi capire ciò di cui stiamo parlando, perché ogni virgola, parola e congiunzione che si scrive in una norma influisce sul destino di un bambino, di una famiglia, di un nonno, di un cittadino italiano. Vi voglio raccontare quanto la misura del Sostegno per l'inclusione attiva (SIA), messa in atto da questo Governo, sia inadeguata e abbia lasciato a piedi e abbandonata una delle tante famiglie italiane, addirittura con un ISEE che le avrebbe consentito di accedere alla misura.</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg63">Capisco che stiamo parlando di poveri e che per quest'Assemblea le priorità sono altre, come appalti, banche e assicurazioni. Capisco che le priorità non sono le persone a rischio di povertà e in povertà in Italia, i lavoratori e i cittadini italiani. Non comprendo però perché in quest'Aula si continui a parlare in barba a tutto, pensando solo ai propri interessi e non rispettando un senatore della Repubblica che sta intervenendo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg64">Una famiglia di Palermo, come tante famiglie italiane, è rimasta purtroppo abbandonata perché non ha acquisito il punteggio sufficiente previsto dal SIA per ottenere quel minimo sostegno al reddito (circa 100 euro) per poter fare la spesa. Stiamo parlando di padre disoccupato e disabile al 50 per cento, madre disoccupata e disabile al 50 per cento, ISEE pari a 3.000 euro. Siccome la figlia minore ha dodici anni e non ha, quindi, un'età inferiore a trentasei mesi, per l'Italia, per questo Governo e per questa maggioranza questa famiglia non ha diritto neanche alla miseria prevista dal SIA, né avrà diritto a quella miseria prevista dal provvedimento topolino in esame che dovrebbe scalare la montagna.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg65">Questa è l'Italia. E questa è la maggioranza che pensa a tutelare i poteri forti e non a tutelare i propri cittadini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto a rappresentanze di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u37">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg66">Saluto a nome dell'Assemblea i docenti e gli studenti di due istituti superiori che stanno assistendo ai nostri lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg67">Diamo il benvenuto agli studenti dell'Istituto di istruzione superiore «Filippo Bottazzi» di Casarano, in provincia di Lecce, e agli studenti della Scuola enologica «Giovanni Battista Cerletti» di Conegliano, in provincia di Treviso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2494</note>
+            <note type="time">17,21</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/47148.htm</note>
+            <note>e</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2241</note>
+            <note type="time">17,21</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46522.htm</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2437</note>
+            <note type="time">17,21</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46998.htm</note>
+            <note type="time">(ore 17,21)</note>
+            <note type="speaker">BONFRISCO (Misto)</note>
+            <u ana="#regular" who="#BonfriscoAnnaCinzia" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u38">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg68">Signora Presidente, intervengo per una brevissima dichiarazione di voto. L'Assemblea del Senato è impegnata da giorni sul provvedimento in discussione, che io considero importante e positivo. Certamente è un provvedimento che avrebbe potuto e dovuto affrontare di più. Tuttavia, se mai si comincia, mai si interviene su un tema così centrale per la vita della nostra società. Quella messa in evidenza dalla senatrice Catalfo nel suo intervento è probabilmente una delle questioni centrali e vere di questo ampio dispositivo, che non può vedere e fotografare tutto perché non ne ha gli strumenti e quei pochi strumenti di cui dispone sono vecchi e risentono di un'impostazione ormai vecchissima, che fa riferimento, ancorché con le piccole riforme che negli anni si sono prodotte, a quell'ISEE che fotografa la nostra situazione di ricchezza e povertà, ma che è l'unico strumento che consente a molte famiglie e a molti cittadini di accedere a servizi sussidiari. È arrivato allora il momento di mettere mano definitivamente a quello strumento, riprendendo una discussione mai sufficientemente aperta sulla fiscalità. È attraverso la fiscalità che possiamo rivedere quello strumento. È attraverso una lettura moderna della proporzionalità della nostra partecipazione alla vita sociale e collettiva che possiamo risolvere il tema nevralgico e centrale della fotografia di ciò che una persona possiede o no, così da mettere in moto il giusto processo richiamato dalla senatrice Catalfo. Dissento da alcune valutazioni della senatrice Catalfo, ma certo è che quell'ISEE negli anni ha prodotto persino distorsioni. Penso ai bambini italiani, che la Commissione parlamentare per l'infanzia e l'adolescenza della Camera con una mirabile ricerca ha fotografato come sempre più deboli nell'affrontare ciò che i bambini della nostra generazione hanno invece potuto affrontare in un processo di crescita del Paese. Se noi non lavoriamo sulla proporzionalità del nostro contributo alla vita collettiva e, quindi, anche sulla corretta proporzionalità di ciò che non abbiamo e che ci deve essere garantito, non ne verremo mai a capo. Signora Presidente, essendo stata amministratore locale, lei sa bene come in questi anni, in virtù di quel meccanismo, abbiamo garantito costosissimi, importanti e necessari servizi - gli asili e altri servizi in capo ai Comuni - a bambini che rientravano magari in quella vecchia fotografia, mentre non abbiamo potuto garantirli ai bambini italiani che in quella vecchia fotografia non rientravano più. Abbiamo quindi distorto l'utilizzo e l'accesso a quei servizi, non guardando la verità e cioè che gli italiani diventavano sempre più poveri, ma non per l'ISEE: per l'ISEE gli unici poveri erano coloro che non la avevano, arrivati magari da poco nel nostro Paese e che potevano contare su importanti e necessari servizi che noi dobbiamo poter garantire a tutti, soprattutto a quelli che, per il nostro ritardo e per la nostra pigrizia, non sono più dentro la fotografia dell'ISEE. Io voto a favore di questo emendamento, signora Presidente, sapendo che non è solo quella la strada: quella di Eurostat è importante, ma è più importante la fiscalità. Le tasse devono essere riviste alla luce delle nuove povertà: quella sarà la vera fotografia di un ISEE che funzioni.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u39">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg69">Signora Presidente, vorrei solo precisare che sugli emendamenti 1.33 e 1.34 il voto del Gruppo è contrario e non favorevole.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u40">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg70">La Presidenza ne prende atto.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg71">Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 1.36, presentato dalla senatrice Catalfo e da altri senatori, fino alle parole «2, lettera a), del presente articolo;». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte e l'emendamento 1.37. Passiamo alla votazione dell'emendamento 1.38.</seg>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u41">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg72">Signora Presidente, per stabilire chi ha diritto a delle prestazioni assistenziali bisogna indubbiamente avere un metodo, ma quello che sta usando il Governo è punitivo verso le attività virtuose. Mi spiego. È un'aberrazione adottare l'ISEE, cioè l'Indicatore della situazione economica equivalente, in cui entra il risparmio di una famiglia, e cioè l'abitazione principale. Noi proponiamo invece di adottare altri sistemi, come l'indicatore della situazione reddituale, che lascia da parte la prima casa, in quanto i mattoni con cui una famiglia ha realizzato la propria tranquillità per il futuro non sono commestibili, quello non è reddito. Per lo più, per tanti italiani la prima casa è stata una fonte di indebitamento, perché pagano dei mutui. Le persone che hanno deciso di risparmiare e di comportarsi come la nostra storia e tradizione ci hanno insegnato, costruendosi a fatica l'abitazione principale e magari dovendola ancora pagare, sono punite rispetto a chi non ha fatto niente, ha dissipato tutto e si trova nella situazione di chiedere la casa all'ente locale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi LN-Aut e Misto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg73">Questo indicatore disincentiva comportamenti virtuosi che, invece, andrebbero premiati, mentre il secondo è sicuramente più equo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg74">Con tante misure giuste o sbagliate contenute nel presente provvedimento, noi vorremmo almeno correggerlo in modo da non penalizzare le persone che hanno scelto di costruirsi la propria casa, pagandosela, indebitandosi, ma facendo qualcosa che tutto sommato è utile a tutta la società, in quanto non graveranno più per tutta la vita sull'assistenza pubblica almeno per la casa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CIOFFI (M5S)</note>
+            <u ana="#regular" who="#CioffiAndrea" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u42">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg75">Signora Presidente, l'emendamento che ci propone il senatore Divina sembra molto corretto, perché effettivamente interveniamo su quello che sappiamo escludendo l'abitazione principale dalla situazione reddituale. Molte persone, infatti, per loro fortuna rispetto a chi non ha proprio una casa, si trovano nelle condizioni di avere una casa e riescono a non essere in una situazione di estremo disagio rispetto ad altre, ma sono comunque molto disagiate. E poi bisogna vedere le dimensioni della casa e l'intera situazione. Sembra, però, molto corretto utilizzare l'indice di situazione reddituale invece dell'ISEE, riprendendo sempre il discorso che abbiamo fatto: se vogliamo intervenire realmente a favore del problema n. 1 che attanaglia le persone, dobbiamo essere efficaci nell'intervento e, per far ciò, dobbiamo decidere come fare. La senatrice Catalfo vi ha testé spiegato che dobbiamo variare la situazione dell'indice sul quale lavoriamo, ossia il livello di reddito sul quale dobbiamo intervenire. E questo è un altro modo che possiamo utilizzare. Il vero problema rimane sempre lo stesso: noi vogliamo fare la rivoluzione senza soldi. Siccome quella che si continua a fare e che il Governo vuole portare avanti sarà una delle tante cose per cui i cittadini italiani vi chiederanno il conto, noi restiamo alla finestra, seduti in platea a vedere lo show di un Governo che agisce contro i propri cittadini. I cittadini gliene chiederanno conto. Non c'è dubbio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Scibona.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u43">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg76">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.38, presentato dal senatore Divina e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.39, presentato dai senatori Fucksia e Serafini. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.40, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.41, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.42, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.44, presentato dai senatori Fucksia e Serafini. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.45, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.46, presentato dai senatori Fucksia e Serafini. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.47, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.48, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.51, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.52, presentato dai senatori Fucksia e Serafini. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.53, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.54, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.70, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.71.</seg>
+            </u>
+            <note type="speaker">PUGLIA (M5S)</note>
+            <u ana="#regular" who="#PugliaSergio" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u44">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg77">Signora Presidente, con l'emendamento 1.71 vogliamo inserire delle soglie oggettive di povertà, cosa che in realtà non possiamo ritrovare semplicemente prendendo l'ISEE. Per cui, se mi consente signora Presidente, andiamo a correggere siffatta anomalia inserendo, con l'emendamento 1.71, proprio ciò che a nostro parere ci vuole. Si tratta di normative di buonsenso, che poi sono inserite all'interno del reddito di cittadinanza del Movimento 5 Stelle.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u45">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg78">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.71, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 1.73, presentato dal senatore Divina e da altri senatori, fino alle parole «o più misure». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte e l'emendamento 1.72. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.74, presentato dal senatore Divina e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.75, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.76, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione della prima parte dell'emendamento 1.77.</seg>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u46">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg79">Signora Presidente, non nascondiamo che per noi questa manovra doveva servire a dare risposte sostanzialmente ai cittadini italiani. È indubbio che il problema della povertà non toccherà solo i cittadini italiani. Ma, dal momento che si prendono risorse sostanzialmente dei cittadini italiani, la prima nostra responsabilità, come rappresentanti eletti dai cittadini italiani, è di dare risposta a questi ultimi. Introdurre almeno una dizione relativa ai cittadini italiani o dell'Unione europea - ormai i cittadini italiani sono tutti cittadini dell'Unione europea - o comunque ai cittadini stranieri residenti sul territorio nazionale da un certo numero di anni dovrebbe essere il minimo. Noi diciamo dieci anni, ma abbiamo sentito, anche durante l'esame del provvedimento in Commissione, che sembrava un periodo di residenza eccessivamente lungo. Adottiamo allora la misura che è stata adottata in Gran Bretagna. La Corte europea dei diritti dell'uomo è stata chiamata a esprimersi su una manovra restrittiva del Governo della Gran Bretagna che limitava la prestazioni assistenziali ai cittadini residenti nell'Unione europea per un periodo pari o comunque non inferiore a cinque anni. Poiché la norma è stata avallata e dichiarata legittima, in Gran Bretagna, per avere diritto alle prestazioni assistenziali, bisogna essere cittadini inglesi, comunitari o quantomeno residenti nell'Unione per un periodo non inferiore a cinque anni. Ebbene, se la Corte di giustizia dell'Unione europea ha stabilito che questa è una norma legittima che risponde all' acquis communautaire, non travalica e non pregiudica i diritti di alcuno, chiediamo che la stessa norma, o quantomeno una norma parallela, sia introdotta nell'ordinamento italiano per dire che non basta attraversare l'Italia per avere i diritti dei cittadini italiani, ma bisogna aver contribuito a costruire qualcosa, dimostrare l'interesse a fermarsi sul territorio e avere un minimo di stabilità: in questo modo, dopo cinque anni, si matura il pieno diritto anche a prestazioni di natura assistenziale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Candiani.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u47">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg80">Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 1.77, presentato dal senatore Divina e da altri senatori, fino alle parole «italiana o comunitaria,». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte e gli emendamenti 1.79 e 1.78. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.80, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 1.83, presentato dal senatore Divina e da altri senatori, fino alle parole «cittadini italiani o». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte e gli emendamenti 1.82 e 1.81. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.84, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.85, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.86, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.88, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.89, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.92, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.93, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.94, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.95.</seg>
+            </u>
+            <note type="speaker">CATALFO (M5S)</note>
+            <u ana="#regular" who="#CatalfoNunzia" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u48">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg81">Signora Presidente, in questo emendamento noi riproponiamo ciò che abbiamo già previsto nella nostra proposta sul reddito di cittadinanza e che nello specifico riguarda la presa in carico dei cittadini che usufruirebbero della misura e il progetto personalizzato. Già nel corso della relazione di minoranza che ho tenuto in quest'Aula ho spiegato le perplessità del Movimento 5 Stelle inerenti al progetto personalizzato, così come previsto dal disegno di legge del Governo, in quanto viene affidato ai servizi sociali dei Comuni italiani che, in questo momento - e a detta non solo del Movimento 5 Stelle, ma anche dell'ANCI, che è stata audita in Senato e ci ha spiegato le sue perplessità - sono inadeguati dal punto di vista delle risorse a seguire e svolgerne uno vero per le famiglie prendendole in carico finché non escono dalla emarginazione sociale. Noi, in questo emendamento, oltre a spiegare nello specifico come dovrebbe essere seguita la famiglia, diciamo che il progetto personalizzato, proprio perché cerchiamo di far sì che ogni cittadino italiano possa essere reinserito nel contesto lavorativo e sociale del Paese, deve essere svolto dai servizi e dai centri per l'impiego. Questi ultimi seguono il cittadino, fanno il bilancio delle competenze e svolgono i colloqui personalizzati; capiscono se il cittadino lavoratore deve essere riqualificato e lo aiutano nella ricerca attiva del lavoro. Insomma, si tratta di un vero sistema di aiuto e tutoraggio che, in tutti gli altri Paesi europei, viene svolto investendo sulle politiche attive del lavoro, mentre in Italia non viene ancora messo in atto. Ricordo che proprio il mancato investimento sulle politiche attive del lavoro e sul progetto personalizzato seguito dalle amministrazioni comunali ha costituito il fallimento di una misura ben più ambiziosa di questo disegno di legge, ossia il reddito minimo di inserimento: è fallito perché i Comuni non sono riusciti ad affrontarlo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u49">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg82">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.95, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.96, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.97.</seg>
+            </u>
+            <note type="speaker">CATALFO (M5S)</note>
+            <u ana="#regular" who="#CatalfoNunzia" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u50">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg83">Signora Presidente, come avviene in Francia, in Germania e negli altri Paesi, nell'ottica di reale aiuto al reinserimento nel contesto sociale e lavorativo del cittadino, e proprio perché questo Governo e questa maggioranza non hanno mai posto l'attenzione necessaria al rafforzamento dei servizi per l'impiego e quindi delle politiche attive del lavoro, in questo emendamento proponiamo il rafforzamento dei centri per l'impiego italiani, affinché possano seguire davvero il reinserimento lavorativo. Diversamente, tutto ciò che viene messo in atto rimane una mera misura di beneficenza e non si riesce davvero a formare e aiutare il cittadino italiano a reinserirsi nel contesto lavorativo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u51">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg84">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.97, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.103.</seg>
+            </u>
+            <note type="speaker">CATALFO (M5S)</note>
+            <u ana="#regular" who="#CatalfoNunzia" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u52">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg85">Signora Presidente, con l'emendamento in esame chiediamo che l'esito del progetto personalizzato, messo in atto dai servizi sociali, «sia valutato periodicamente tramite strumenti di misurazione dell'impatto sociale». Stiamo ancora aspettando la valutazione d'impatto dei progetti personalizzati messi in atto dai Comuni per quanto riguarda il sostegno all'inclusione attiva (SIA). Proprio perché manca la misurazione di quell'impatto sociale, non si sa se davvero chi ha percepito il sostegno all'inclusione sia davvero riuscito ad uscire dalla povertà: personalmente ne dubito, per come è strutturata la misura, per quanto basso è il sostegno al reddito e per tutte le difficoltà che hanno i servizi sociali. La valutazione dell'impatto della misura proposta, dunque, non c'è. Per capire se la misura funziona o no, se aiuta o no il cittadino, abbiamo bisogno di capirne l'impatto. Memori di ciò che avvenne con il reddito minimo di inserimento e di quanto ha relazionato la Commissione, dicendo che l'impatto non c'è stato, che i progetti personalizzati non hanno funzionato e che quindi i destinatari della misura, nella maggior parte dei casi, sono rimasti nella trappola della povertà, l'emendamento in esame non solo è di buonsenso, ma è necessario e importante.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatoreGirotto.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u53">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg86">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.103, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.104, presentato dai senatori Fucksia e Serafini. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.105, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.106, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.107, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.108, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.109, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.110, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.112.</seg>
+            </u>
+            <note type="speaker">BERTACCO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#BertaccoStefano" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u54">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg87">Signora Presidente, intervengo brevemente per invitare a votare a favore dell'emendamento in esame. In un periodo in cui si continua a parlare di furbetti, la proposta emendativa in esame voleva a mio avviso essere uno stimolo a controllare con maggiore efficacia, specialmente quando si tratta di un tema come quello della povertà, che nessuno possa fare il furbetto, per evitare che si ripeta quello a cui abbiamo assistito varie volte - e chi frequenta i servizi sociali dei Comuni lo sa - ovvero finte separazioni per avere agevolazione sull'iscrizione alle scuole materne, per avere valori dell'ISEE ridotti. Tutto, ovviamente, a scapito delle persone oneste che presentano dichiarazioni veritiere. Mi sembrava, quindi, una norma di buonsenso che poteva essere inserita nel testo del disegno di legge. Purtroppo, anche questa volta non c'è stata disponibilità da parte del Governo ad accettare una proposta emendativa che non sconvolgeva i principi di questo disegno di legge, ma che aiutava sicuramente a predisporre successivamente i decreti legislativi con forme di controllo efficaci nei confronti delle persone disoneste.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Amidei.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u55">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg88">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.112, presentato dai senatori Bertacco e Serafini. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.113, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.114, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.115, presentato dal senatore Mandelli e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.116, presentato dal senatore Mandelli e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione della prima parte dell'emendamento 1.119.</seg>
+            </u>
+            <note type="speaker">CATALFO (M5S)</note>
+            <u ana="#regular" who="#CatalfoNunzia" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u56">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg89">Signor Presidente, il Governo e la maggioranza si sono inventati l'ennesimo organismo che dovrebbe occuparsi della povertà e di monitoraggio. Innanzitutto la cosa che mi preme dire è che si continua a giocare al gioco delle tre carte e, anziché sopprimere gli enti inutili, se ne creano di nuovi e non si capisce bene per quale motivo si debba fare ciò se esiste già l'INAPP (Istituto Nazionale per l'Analisi delle Politiche Pubbliche), ex ISFOL. Quindi abbiamo l'ANPAL, l'ANPAL SpA, abbiamo la nuova Agenzia di somministrazione che si dovrebbe occupare dei lavoratori portuali, adesso abbiamo questo ulteriore organismo che si dovrebbe occupare del monitoraggio, abbiamo l'INAPP e quindi, anziché cercare di accorpare, si frammentano ancora e ancora i servizi, si frammentano ancora e ancora i monitoraggi e, nella confusione generale, non si arriva mai a capire se si sta mettendo in atto qualcosa di corretto o di sbagliato. Esiste già, lo ripeto, un ente di ricerca nazionale - l'INAPP - che si occupa, appunto, di monitoraggio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Fucksia.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u57">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg90">Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 1.119, presentato dalla senatrice Catalfo e da altri senatori, fino alle parole « lettere a)». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte e gli emendamenti 1.118 e 1.120. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.121, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.122, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u58">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg91">Signora Presidente, volevo capire che fine ha fatto l'emendamento 1.120, che non abbiamo votato.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u59">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg92">L'emendamento 1.120 è precluso dalla votazione dell'emendamento 1.119, di cui abbiamo respinto la prima parte: essendo rimasti preclusi gli emendamenti 1.118 e 1.120, siamo passati alla votazione dell'emendamento 1.121.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg93">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.123, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.124, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.125, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.126, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.129, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.130, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.131, presentato dal senatore Divina e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.132, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.133, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.134, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.137, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.135, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.136, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u60">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg94">Saluto a nome dell'Assemblea i docenti e gli studenti dell'Istituto di istruzione secondaria superiore «Carlo Maria Carafa» di Mazzarino e Riesi, in provincia di Caltanissetta, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2494</note>
+            <note type="time">18,05</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/47148.htm</note>
+            <note>e</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2241</note>
+            <note type="time">18,05</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46522.htm</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2437</note>
+            <note type="time">18,05</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46998.htm</note>
+            <note type="time">(ore 18,05)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u61">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg95">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.139, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.138, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.140, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.141, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.142, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.143, identico all'emendamento 1.144.</seg>
+            </u>
+            <note type="speaker">PUGLIA (M5S)</note>
+            <u ana="#regular" who="#PugliaSergio" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u62">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg96">Signora Presidente, l'emendamento 1.143 è volto a sopprimere la lettera h) del comma 4 dell'articolo 1. Nel corso della discussione generale dissi che, leggendo il provvedimento, di bello c'è soltanto il titolo. Infatti, nel momento in cui andiamo a leggere le norme contenute nel provvedimento ci accorgiamo che esse delegano il Governo a emettere uno o più decreti legislativi. Ma non solo. Poiché è previsto l'intervento di una serie di enti terzi che dovranno giocoforza interagire tra loro, che cosa succederà? Il provvedimento si perderà nei meandri della burocrazia italiana. Quanto ai principi e criteri direttivi cui il Governo deve attenersi, alla lettera h) si parla di «promozione di accordi territoriali tra i servizi sociali e gli altri enti od organismi competenti per l'inserimento lavorativo, l'istruzione e la formazione, le politiche abitative e la salute, nonché attivazione delle risorse della comunità (...)». Quindi, in pratica, si inseriscono altri organismi ed enti che, magari, interpreteranno le disposizioni chi in un modo e chi in un altro. Parliamoci chiaramente: voi della maggioranza avete fatto tutto questo per non fare nulla e solo per andare in televisione a dire di aver adottato il provvedimento sul reddito di inclusione di cui però, nella pratica, non ne beneficia nessuno.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u63">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg97">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.143, presentato dalla senatrice Catalfo e da altri senatori, identico all'emendamento 1.144, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.146, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.147, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.148, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.149.</seg>
+            </u>
+            <note type="speaker">CATALFO (M5S)</note>
+            <u ana="#regular" who="#CatalfoNunzia" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u64">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg98">Signora Presidente l'emendamento in titolo vorrebbe modificare il testo al fine di realizzare un'offerta integrata di interventi e servizi ai destinatari di questo beneficio. Non riusciamo a comprendere per quale motivo si debba necessariamente inserire in questo contesto il terzo settore, se questo già di per sé è accreditato per svolgere servizi sociali. È perciò davvero incomprensibile, a meno che non si voglia sostituire l'erogazione del servizio pubblico con servizi privati; ma quella è un'altra questione. Se, invece, l'ottica è dare servizi integrati non si comprende il motivo di questo inserimento all'interno del testo, ragion per cui l'emendamento 1.149 è volto proprio a evitare che si faccia un errore di questo genere, già messo in atto con il reddito minimo di inserimento, che si rivelò un vero e proprio fallimento per l'Italia.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u65">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg99">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.149, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.150, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.151, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.152, presentato dai senatori Fucksia e Serafini. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.153.</seg>
+            </u>
+            <note type="speaker">PUGLIA (M5S)</note>
+            <u ana="#regular" who="#PugliaSergio" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u66">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg100">Signora Presidente, non riesco a capire perché il Governo abbia espresso parere contrario su questo emendamento che mira semplicemente a ottimizzare il testo normativo. Infatti, nel testo attuale si parla di rafforzamento del sistema informativo dei servizi sociali, e in particolare del casellario dell'assistenza e di una sua integrazione con i sistemi informativi sanitari e del lavoro. Ebbene, quali sono i sistemi informativi del lavoro? L'emendamento 1.153 semplicemente precisa che si tratta di quelli di cui all'articolo 13 del decreto legislativo n. 150 del 2015. È un sistema specifico - abbiamo lavorato insieme per inserirla - quindi a questo punto utilizziamolo, altrimenti - ribadisco - mi viene ancora di più il dubbio che alla fine non vogliate che queste previsioni vengano attivate, preferendo che si perdano e questo non è neanche giusto, signora Presidente. Sarebbe pertanto opportuno che il Governo, almeno su questo emendamento, esprimesse un parere favorevole perché inserire questa dicitura è fondamentale.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u67">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg101">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.153, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.154, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.155, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.156, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.157, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg102">(ore 18,16) ( Segue PRESIDENTE). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.158, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.159, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.160, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.161, presentato dai senatori Zizza e Serafini, identico agli emendamenti 1.162, presentato dai senatori Bertacco e Serafini, e 1.163, presentato dal senatore Divina e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.164, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.165.</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+            <note type="time">18,16</note>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u68">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg103">Signor Presidente, visto che è cambiata la Presidenza, ai sensi dell'articolo 118, comma 1, del Regolamento, le chiedo l'annullamento quanto meno dell'ultima votazione, perché ci sono numerose schede inserite anche se i senatori cui appartengono sono assenti. Rimetto la questione anche a lei, in modo che sul Resoconto risulti questo modus operandi; vorrei inoltre sapere se è possibile conoscere pubblicamente i nomi associati a tessere cui corrispondono senatori assenti.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u69">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg104">Senatore Candiani, mi può aiutare? Alla sua estrema sinistra c'è un'altra scheda. Non rilevo altre irregolarità. Ce n'era una.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg105">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.165, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.166, presentato dal senatore Barozzino e da altri senatori, identico all'emendamento 1.167, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.168, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.171, presentato dal senatore Barozzino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Invito la relatrice e la rappresentante del Governo a pronunziarsi sugli ordini del giorno in esame.</seg>
+            </u>
+            <note type="speaker">PARENTE</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#ParenteAnnamaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u70">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg106">Signor Presidente, esprimo parere contrario sull'ordine del giorno G1.100, mentre all'ordine G1.101 si propone la seguente riformulazione della parte dispositiva: «impegna il Governo a valutare l'adozione nell'esercizio della delega di un indicatore preciso di povertà con riferimento a quelli esistenti, anche tenuto conto del reddito mediano equivalente del nucleo famigliare, composto anche da un solo individuo definito povero in rapporto al livello economico medio di vita locale o nazionale».</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg107">Esprimo parere favorevole sull'ordine del giorno G1.102, ove accolta una riformulazione tendente ad aggiungere alla fine del testo le seguenti parole: «Fatto salvo il rispetto dei livelli minimi essenziali delle prestazioni».</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg108">Esprimo parere contrario sull'ordine del giorno G1.103, mentre il parere è favorevole sull'ordine del giorno G1.104, ove accolta una riformulazione volta a sostituire la parola: «debba» con la parola: «possa» e ad aggiungere, dopo la parola: «avvenire », la parola: «anche».</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg109">Esprimo parere contrario sui restanti ordini del giorno.</seg>
+            </u>
+            <note type="speaker">BIONDELLI</note>
+            <note type="role">sottosegretario di Stato per il lavoro e le politiche sociali</note>
+            <u ana="#guest" who="#BiondelliFranca" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u71">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg110">Signor Presidente, esprimo parere conforme a quello della relatrice.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u72">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg111">Senatrice Catalfo, accoglie la riformulazione dell'ordine del giorno G1.101?</seg>
+            </u>
+            <note type="speaker">CATALFO (M5S)</note>
+            <u ana="#regular" who="#CatalfoNunzia" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u73">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg112">Signor Presidente, davvero non so se ridere o cos'altro. Non si sono accolti emendamenti; non si è accettato il dibattito; è un disegno di legge delega e una Camera del Parlamento non può dire nulla, non può cambiare niente, neanche nel merito, nel piccolissimo merito. Stiamo parlando di un topolino che scala la montagna e la montagna è il grande problema dei cittadini italiani, per quanto sta avvenendo, avviene ed è avvenuto anche negli ultimi giorni (leggete i fatti di cronaca). E qui stiamo a sindacare e a parlare del cambiamento di un ordine del giorno? Ma, con tutto rispetto, grazie, no: non lo accetto e chiedo che entrambi gli ordini del giorno, a mia prima firma, vengano votati.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg113">PRESIDENTE. Senatore Berger, accoglie la riformulazione dell'ordine del giorno G1.102?</seg>
+            </u>
+            <note type="speaker">BERGER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BergerHans" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u74">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg114">Signor Presidente, accetto la riformulazione e chiedo che l'ordine del giorno sia comunque votato.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg115">PRESIDENTE. Senatore Mandelli, vi è un invito al ritiro dell'ordine del giorno G1.103 e una riformulazione dell'ordine del giorno G1.104.</seg>
+            </u>
+            <note type="speaker">MANDELLI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MandelliAndrea" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u75">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg116">Signor Presidente, ritiro l'ordine del giorno G1.103, accetto la riformulazione dell'ordine del giorno G1.104 e chiedo anche io che venga votato.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg117">PRESIDENTE. Senatore Divina, insiste per la votazione dei suoi ordini del giorno?</seg>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u76">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg118">Sì, signor Presidente.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u77">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg119">Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G1.100, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Senatrice Parente, conferma il suo parere contrario sull'ordine del giorno G1.101? PARENTE, relatrice. Sì, signor Presidente. PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G1.101, presentato dalla senatrice Catalfo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G1.102 (testo 2), presentato dal senatore Berger e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). L'ordine del giorno G1.103 è stato ritirato. Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G1.104 (testo 2), presentato dai senatori Mandelli e D'Ambrosio Lettieri. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">DIRINDIN (Art.1-MDP)</note>
+            <u ana="#regular" who="#DirindinNerina" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u78">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg120">Signor Presidente, vorrei segnalare che ho sbagliato a votare. Intendevo votare a favore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u79">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg121">Ne prendiamo atto.</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg122">Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G1.105, presentato dai senatoriDivina e Consiglio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G1.106, presentato dai senatoriDivina e Consiglio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G1.107, presentato dai senatoriDivina e Consiglio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'ordine del giorno G1.108.</seg>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u80">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg123">Signor Presidente, dalla relatrice è stato espresso un parere generico; avrei preferito sentire il parere del Governo. Infatti, con l'ordine del giorno G1.108 chiediamo - e non lo leggo tutto, ma solo il dispositivo - che il Governo si impegni «a rimuovere o comunque a contrastare le cause che concorrono alla condizione di povertà delle famiglie italiane, in primis il carico fiscale che grava sulle famiglie». Se avesse parlato il Governo - al di là del fatto che si tratta di un impegno molto lasco - non avrebbe potuto dire niente, perché tale impegno corrisponde alle dichiarazioni che il presidente del Consiglio Gentiloni ha reso due giorni fa nei vari incontri e momenti televisivi estrapolati. Sostanzialmente diceva che nelle intenzioni del Governo uno dei primi interventi da realizzare (non parlava di povertà) era la riduzione del carico fiscale che grava sulle famiglie. Sentire ora la relatrice esprimere un parere contrario su questo ordine del giorno, che non fa altro che interpretare le dichiarazioni del Presidente del Consiglio (ovviamente questi emendamenti e questi ordini del giorno li abbiamo dovuti presentare qualche settimana or sono), è quanto mai sciocco, contraddittorio e anche poco produttivo, perché si dice no a un intervento che il Governo ha appena annunciato di voler fare.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u81">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg124">Forse, senatore Divina, c'è il terzo punto delle premesse che...</seg>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg125">Intende proporre una riformulazione, senatrice Parente?</seg>
+            </u>
+            <note type="speaker">PARENTE</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#ParenteAnnamaria" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u82">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg126">No, signor Presidente, il parere rimane contrario, perché l'ordine del giorno è generico e non è in linea con lo spirito della delega.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u83">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg127">Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G1.108, presentato dai senatori Divina e Consiglio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G1.109, presentato dai senatori Divina e Consiglio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G1.110, presentato dai senatori Divina e Consiglio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Rinvio il seguito della discussione dei disegni di legge in titolo ad altra seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">ZANONI (PD)</note>
+            <u ana="#regular" who="#ZanoniMagdaAngela" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u84">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg128">Signor Presidente, gentili colleghi, senatrici e senatori, intervengo questa sera con un po' di amarezza, pensando a 178 famiglie che nel pinerolese aspettano ormai da mesi una risposta certa da parte delle istituzioni. Il caso non è solo del pinerolese, perché molte altre aziende potranno trovarsi e si trovano nella stessa condizione. L'azienda ha dichiarato fallimento nel gennaio scorso e nel nostro Paese si è creata una situazione normativa in base alla quale questi lavoratori si trovano senza ammortizzatori sociali. Da mesi si stanno rimbalzando risposte da parte dei Ministeri competenti, per cercare di colmare questo vuoto normativo. Occorre un intervento chiaro e urgente, perché le persone non possono rimandare a domani quanto devono mangiare oggi. Dopo aver presentato sulla questione, nelle settimane scorse, un'interrogazione, con la firma di molti colleghi senatori, ero stata contenta, perché il Governo aveva risposto con celerità e anche in modo innovativo rispetto alle comunicazioni precedenti. Questo, anche dopo aver parlato al Sottosegretario presente in Commissione che ha ribadito le affermazioni espresse in risposta all'interrogazione, ci aveva fatto sperare in una soluzione abbastanza rapida. Oggi si è tenuto un tavolo tecnico di trattativa, ma non è stata ancora trovata una soluzione, che è stata rinviata ad un tavolo successivo. I sindacati hanno espresso perplessità su questo iter. Credo sia importante trovare una soluzione definitiva, che serva sia per i 198 lavoratori che si trovano ora in questa situazione, sia per le aziende che si troveranno in questa situazione nei mesi prossimi. Il Governo intervenga, mostri un atto di coraggio e attenzione verso le popolazioni, anche se non sono qui a dimostrare in piazza o a fare la voce grossa. Abbiate attenzione anche per chi segue l' iter normale, ma vi assicuro che nei territori, anche lontani, è molto difficile fronteggiare la crisi se poi, di fronte a questi episodi, i lavoratori si ritrovano da soli. Non sono soli perché hanno noi a fianco, ma dobbiamo dare loro una risposta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">AIROLA (M5S)</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u85">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg129">Signor Presidente, l'Agcom, l'Autorità per le garanzie nelle comunicazioni, nata per vigilare e regolamentare la corretta funzionalità di settori cruciali quali le telecomunicazioni, è in realtà il poltronificio per politici e amici di politici, strapagati con soldi pubblici, che ovviamente hanno permesso e favorito pratiche criminali di operatori del settore (stampa, giornali e televisioni) o vere e proprie truffe ai danni dei consumatori, depistati e disinformati dal peggior sistema d'informazione d'Europa. Presieduta dal montiano Cardani, uno spregevole individuo inadeguato alla corretta gestione dell' Authority, l'Agcom ha assunto recentemente un nuovo responsabile della comunicazione, dopo un concorso in violazione dei basilari principi di trasparenza e soprattutto senza i requisiti necessari. Si chiama David Nebiolo e presto si dimetterà in seguito alle tenaci mie (e non solo mie) denunce. Non è bastato il mio esposto all'ANAC per denunciare la scorretta prassi di assunzione, non è bastato il ricorso al TAR di altri candidati esclusi, non è bastato il controllo di Cardani, non dei tre commissari Martusciello, Nicita e Posteraro, non del segretario generale Capecchi (nipote dell'ex premier Enrico Letta), non dei due vicesegretari generali Perrucci e Aria, non del capo di gabinetto Annalisa D'Orazio, non del consigliere per le politiche dei consumatori Flaviano: tutti pagati oltre 200.000 euro l'anno (bastava una ricerca su Google tra l'altro) per evitare l'illegittima assunzione di Nebiolo con una delibera del 14 ottobre 2016. David Nebiolo risulta infatti socio e amministratore unico di una società, la Nest, che gestisce un ristorante nel centro di Roma, dove tra piatti succulenti e vino, si sollazzano amici giornalisti e personaggi dello spettacolo (trovate le foto anche su Twitter). Senza citare i soci di Nebiolo, adombrati da indagini e sospette attività corruttive. Nebiolo è inoltre liquidatore di un'altra società di capitale, la PNR Comunicazione Srl in evidente conflitto di interessi con Agcom. Quindi, è un vero peccato, ma David Nebiolo non ha i requisiti, perché la norma recita che il personale dipendente in servizio presso le Autorità non può assumere altro impiego o incarico, né esercitare altra attività professionale, anche se a carattere occasionale; non può avere interessi diretti o indiretti nelle imprese del settore (ma guarda un po'). La violazione di tali divieti costituisce causa di decadenza dall'impiego. Inoltre lo svolgimento di attività d'impresa è anche notoriamente incompatibile con la professione: come recita la legge n. 68 del 1963, recante «Ordinamento della professione di giornalista»: «Il giornalista è cancellato dall'elenco dei professionisti, quando risulti che sia venuto a mancare il requisito dell'esclusività professionale». È appena il caso di ricordare che condizione per la partecipazione al concorso era l'iscrizione all'Albo dei giornalisti professionisti. Forse per far carriera il requisito principale era far mangiare bene gli amici, più che essere un vero giornalista. Quindi Nebiolo si deve dimettere e, già che ci siamo, si dimetta anche Cardani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u86">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg130">Signor Presidente, come avevamo già annunciato la scorsa settimana, ogni fine seduta continuiamo la nostra staffetta per ricordare al Governo che esiste la legge n. 352 del 1970 che è molto chiara e precisa per quanto riguarda le norme sui referendum abrogativi. In essa si dice anche che il Governo deve fissare la data di celebrazione dei referendum entro i sessanta giorni dall'ordinanza - quindi dalla comunicazione di ammissione dei quesiti - da parte della Consulta. Il termine per il referendum su voucher e appalti scade l'11 marzo, quindi noi vorremmo capire dal Governo - ma a fine seduta il Governo è scomparso dai suoi banchi, così com'è scomparso anche su questo tema - quando pensa di ottemperare alle norme previste nel nostro ordinamento. Non ci sarà nessuno a cavargli le castagne dal fuoco, per cui deve assolutamente fissare la data in modo che i cittadini italiani abbiano finalmente la possibilità di esercitare il loro diritto di poter dire no al sistema dei voucher contenuto all'interno del jobs act e di esprimersi anche sulla questione - che riguarda sempre il lavoro e di cui discutiamo poco ma che è altrettanto importante - della responsabilità degli appalti in capo alle amministrazioni pubbliche. Capisco che il Governo abbia paura ed abbia difficoltà, perché credo che i cittadini abbiano già fatto sulla loro pelle il bilancio - anche se devo dire che l'ISTAT ci aiuta in questo - non solo del fallimento del jobs act, ma anche di come queste norme abbiano aggravato ulteriormente le condizioni di lavoro nel nostro Paese. Vorrei tra l'altro ricordare che del sistema dei voucher, su cui oggi si è aperta una disquisizione e una discussione molto interessante, si parla persino all'interno delle primarie del PD: adesso qualche candidato sì rende conto che il jobs act evidentemente ha bisogno di una modifica radicale. Noi invece diciamo con chiarezza che abbiamo lo strumento per fare in modo che i cittadini possano votare ed esprimere la loro opinione. Siamo assolutamente certi che il referendum coprirà il Governo, respingendo ancora una volta una delle cosiddette riforme del Governo Renzi, con una valanga di sì. Aggiungo inoltre che noi non solo continuiamo la staffetta finché non sarà fissata questa data, ma per quanto ci riguarda vigileremo affinché non siano fatti pasticci, leggine o decreti con finte modifiche per far saltare il referendum. Siccome domani è anche l'8 marzo, vorrei ricordare che la proposta di lasciare i voucher soltanto per le famiglie significa un'ulteriore pesantissima discriminazione nei confronti delle donne, perché il lavoro di cura purtroppo riguarda solo le donne. Anche a tale proposito cominciamo a dire con chiarezza che rimandiamo al mittente proposte che non sono serie, ma che sono volte a perpetuare un sistema ingiusto che ha contribuito ulteriormente a distruggere il lavoro e le aspettative dei cittadini italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SI-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">LO MORO (Art.1-MDP)</note>
+            <u ana="#regular" who="#LoMoroDoris" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u87">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg131">Signor Presidente, con questo intervento di fine seduta continuo oggi al Senato una staffetta con cui, assieme a tante senatrici e tanti senatori, ricordiamo ogni donna che viene uccisa per mano di un uomo al quale è o è stata legata da relazione amorosa. Giovedì 2 marzo a Iglesias, nel Sud della Sardegna, una donna di trentadue anni, Federica Madau, è stata uccisa a coltellate dal marito. Qualche mese prima la coppia, che aveva tre bambine di quattro, sei e nove anni, aveva litigato, tanto che era stato necessario l'intervento dei carabinieri. La donna aveva presentato denuncia per percosse e i coniugi si erano separati nel mese di dicembre. Le coltellate inferte sui giovane corpo di Federica hanno posto tragicamente fine a questa storia e reso orfane tre bambine in tenera età. Salgono così a 40 le donne che ricordiamo in questa staffetta, iniziata il 30 giugno 2016; già sei sono le donne che abbiamo ricordato nel solo 2017. Sul piano legislativo abbiamo prodotto dei risultati significativi in questo periodo, prima di tutto con la ratifica della Convenzione di Istanbul e, in attuazione della predetta Convenzione, con la legge n. 119 del 2013 di contrasto alla violenza di genere, con la quale il nostro Paese ha riconosciuto la violenza sulle donne come violazione dei diritti umani e discriminazione di genere. Ma le leggi, anche le migliori, da sole non bastano; serve molto di più. E questo Senato, proprio per maggiore approfondimento di cause e rimedi, ha deliberato l'istituzione di una Commissione d'inchiesta che spero sia avviata con sollecitudine. Un monito ad un maggiore impegno ci è pervenuto nei giorni scorsi da una sentenza della Corte europea dei diritti dell'uomo. Con la sentenza Talpis contro Italia del 2 marzo 2017 la Corte ha infatti condannato l'Italia per la violazione degli articoli 2 (diritto alla vita), 3 (divieto di trattamenti inumani o degradanti) e 14 (divieto di discriminazione) della Convenzione europea per la salvaguardia dei diritti dell'uomo e delle libertà fondamentali (CEDU), sul presupposto che le autorità italiane, omettendo di agire tempestivamente dinanzi alla denuncia della ricorrente - vittima di violenza domestica - e di condurre diligentemente il relativo procedimento penale, hanno determinato una situazione di impunità, che ha favorito la reiterazione delle condotte violente, fino a condurre, nel novembre del 2013, al tentativo di omicidio della ricorrente Talpis, cittadina moldava trasferitasi con la famiglia in Italia nel 2011, e all'omicidio di uno dei suoi due figli. Proprio questo omicidio ha dato forza alla donna di fare causa all'Italia. Secondo la decisione, in materia di violenza domestica il compito dello Stato non si esaurisce nella mera adozione di disposizioni di legge che tutelino i soggetti maggiormente vulnerabili, ma deve estendersi ad assicurare che la protezione di tali soggetti sia effettiva. Nel caso Talpis il ritardo delle autorità procedenti ha non solo privato la ricorrente della protezione immediata che la situazione richiedeva, ma ha anche depotenziato il valore della denuncia presentata dalla ricorrente di ogni efficacia, creando un contesto di impunità favorevole alla reiterazione delle azioni di violenza domestica da parte del marito. La Corte, inoltre, ha ritenuto che le violenze inflitte alla ricorrente, che includevano sia lesioni fisiche, sia pressioni psicologiche, sono state sufficientemente gravi da poter essere qualificate come un trattamento degradante ai sensi dell'articolo 3 della Convenzione. Concludendo, la Corte ha sottolineato come il fallimento dello Stato (si sta parlando dell'Italia) nel fornire protezione alle donne contro la violenza domestica si traduca in una violazione del divieto di discriminazione, ai sensi dell'articolo 14 della CEDU. Questa condanna ci dice che sottolineare la gravità di un fenomeno come il femminicidio e soprattutto offrire e richiedere maggiore impegno è un dovere. Mi piace ancora ricordare, anche perché sto intervenendo alla vigilia dell'8 marzo, che nei giorni scorsi la Camera dei deputati ha approvato all'unanimità una proposta di legge che tutela gli orfani delle vittime del femminicidio. Presto dovremo valutare in questa Assemblea questa proposta e lo faremo pensando alle tante donne uccise che - come Federica Madau - hanno lasciato orfani da tutelare. Riprendo dunque il filo della staffetta, che si conclude sempre allo stesso modo. Riproponiamo con convinzione un appello al Governo tutto e alla Sottosegretaria con delega per le pari opportunità affinché la cabina di regia monitori l'applicazione, i pregi e i limiti della legge n. 119 del 2013 e soprattutto dia piena e accurata attuazione al piano contro la violenza. Rivolgiamo poi un appello ai media : si smetta di giustificare, anche solo con un linguaggio sbagliato, gli assassini e di colpevolizzare le donne. In fine, un appello al Paese, uomini e donne: sono state più di 120 le donne uccise nel 2016, non possiamo più accettare questa mattanza e non possiamo rimanere inermi, ma siamo chiamati ad uno sforzo maggiore, anche come Parlamento italiano.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Art.1-MDP, PD e del senatore Campanella.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u88">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg132">Visto che molti degli interventi di fine seduta contengono delle sollecitazioni al Governo, effettivamente dovremmo pregare il rappresentante del Governo di trattenersi fino alla conclusione dei lavori della seduta stessa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Art.1-MDP e del senatore Campanella.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SERRA (M5S)</note>
+            <u ana="#regular" who="#SerraManuela" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u89">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg133">Signora Presidente, vorrei denunciare l'ennesima mancanza di diritti nei confronti dei cittadini. L'isola della Maddalena sta per avere 30 nuovi cittadini, ma ancor prima di venire alla luce sono costretti a fare i conti con i pasticci vergognosi della burocrazia e con gli assurdi tagli dei servizi pubblici. C'è un protocollo ministeriale che impone una regola netta per tenere aperti i reparti di ostetricia: almeno 500 parti all'anno per garantire la professionalità di medici, infermieri, ostetriche e anestesisti; ma la legge ammette anche una deroga e alla Maddalena ce ne sarebbe bisogno: prima di tutto perché l'isola è circondata da uno dei mari più burrascosi del mondo e perché l'ospedale di Olbia è più lontano rispetto a quanto appaia nelle mappe. La strada è stretta e trafficatissima: autobus e camion vanno quasi a passo d'uomo e anche le ambulanze trovano spesso il passaggio bloccato. La Regione Sardegna promette un trasporto in elicottero per le mamme che devono partorire, ma ci viene da chiedere «Quale elicottero?», visto che la Sardegna è l'unica Regione italiana senza l'elisoccorso. Ho presentato un'interrogazione per chiedere al Governo di verificare la disponibilità a modificare le disposizioni del decreto ministeriale n. 70 del 2015, allo scopo di rendere obbligatorio per le Regioni, e non solo facoltativo, l'istituzione di presidi ospedalieri di base nei luoghi qualificabili come zone particolarmente disagiate, come nel caso del Comune della Maddalena. Inoltre, in considerazione del fatto che le Regioni possono avanzare apposita istanza di deroga, affinché vengano mantenuti in funzione i punti nascita con un numero di parti inferiore alle 500 unità, abbiano chiesto se il Governo, visti i poteri sostitutivi riconosciutigli dalla Costituzione, intenda esercitare tale peculiare potere in luogo della Regione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u90">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg134">Sono stupefatto, senatrice Serra, del fatto che lei ci comunichi che la Regione Sardegna, che essendo un'isola sarebbe forse la zona dove più sarebbe necessario, non sia dotata di un servizio di elisoccorso. È incredibile.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u91">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg135">Saluto a nome dell'Assemblea i docenti e gli studenti dell'Istituto comprensivo «Cesare Zonca» di Treviolo, in provincia di Bergamo, che stanno assistendo ai nostri lavori, ai quali va il mio personale saluto essendo miei concittadini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg136">Devo inoltre comunicargli che, purtroppo, i nostri lavori si sono conclusi e che pertanto mi avvio a togliere la seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u92">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg137">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per le sedute di mercoledì 8 marzo 2017</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.u93">
+               <seg xml:id="ParlaMint-IT_2017-03-07-LEG17-Sed-778.seg138">Il Senato tornerà a riunirsi domani, mercoledì 8 marzo, in due sedute pubbliche, la prima alle ore 9,30 e la seconda alle ore 16, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 18,48).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 350 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 350 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 350, giorno (2014-11-12)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 350, Day (2014-11-12)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="350-upper">350 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="136" unit="speeches" xml:lang="it">136 discorsi</measure>
+            <measure quantity="136" unit="speeches" xml:lang="en">136 speeches</measure>
+            <measure quantity="14953" unit="words" xml:lang="it">14.953 parole</measure>
+            <measure quantity="14953" unit="words" xml:lang="en">14,953 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0813454</idno>
+               <date when="2014-11-12">12.11.2014</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="21"/>
+               <tagUsage gi="head" occurs="20"/>
+               <tagUsage gi="note" occurs="136"/>
+               <tagUsage gi="seg" occurs="136"/>
+               <tagUsage gi="u" occurs="53"/>
+               <tagUsage gi="vocal" occurs="19"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="50"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="desc" occurs="70"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2014-11-12">12.11.2014</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente GASPARRI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u1">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg1">La seduta è aperta (ore 16,33). Si dia lettura del processo verbale. PETRAGLIA, segretario, dà lettura del processo verbale della seduta del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">BARANI (GAL)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg2">Signor Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u3">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione del processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u4">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg4">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u5">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg5">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg6">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,38).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'odierna riunione del Consiglio di Presidenza</head>
+            <note type="speaker">AIROLA (M5S)</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u6">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg7">PRESIDENTE. Senatore Airola, sull'ordine dei lavori? AIROLA (M5S). Sono il Presidente del Gruppo, glielo rammento. PRESIDENTE. Lo so, ma in questa fase può intervenire solo sull'ordine dei lavori. Ne ha facoltà. AIROLA (M5S). Intervengo sull'ordine dei lavori, se vuole, ma comunque su una questione molto grave che la senatrice Bottici mi ha appena comunicato. Voi sapete che il nostro Questore Bottici è trattenuta - perché è stato così comunicato anche al presidente Grasso - a Carrara per una richiesta del questore a causa delle difficoltà che ci sono rispetto alle manifestazioni. Ebbene, mi è stato detto che si è appena riunito il Consiglio di Presidenza, che non si è limitato a determinare le sanzioni. Infatti, sembrava che all'ordine del giorno di oggi fosse prevista solo la discussione delle sanzioni, tanto che la senatrice Bottici ha detto che poteva tranquillamente assentarsi. Ma non è questo il punto; il punto è che sono state anche votate alcune nomine rispetto ai funzionari del Senato. Ritengo che adesso...</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg8">Perdonatemi, ma è una questione importante e gradirei che i colleghi facessero silenzio. In questo momento stiamo votando un senatore Segretario e, peraltro, ricordo che nel Consiglio di Presidenza, per il Movimento 5 Stelle c'è solo la senatrice Bottici e non altri. Adesso voteremo per eleggere un senatore Segretario, che probabilmente sarà un nome di Forza Italia, forse anche indagato, ma questo è secondario. Il problema è che nella riunione non c'era nessun rappresentante del Movimento 5 Stelle.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg9">Questo è gravissimo! Questa è una dichiarazione di guerra democratica e parlamentare a noi: ci state mettendo all'angolo, non ci considerate, e siamo la prima forza politica del Paese.</seg>
+               <vocal type="speaking">
+                  <desc>Vivaci commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg10">Se volete, la seconda. Fate silenzio, vergognatevi! PRESIDENTE. L'ottimismo fa parte della vita.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg11">Questo non cambia il risultato della riunione a cui il Movimento 5 Stelle era assente. Queste decisioni non possono essere prese tagliando fuori noi e i cittadini che rappresentiamo. È gravissimo!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Votazione per l'elezione di un senatore Segretario (Votazione a scrutinio segreto con il sistema delle urne aperte)</head>
+            <note type="time">(ore 16,40)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u7">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg12">L'ordine del giorno reca la votazione per l'elezione di un senatore Segretario.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg13">Ai sensi dell'articolo 5, comma 3, del Regolamento, ciascun senatore o senatrice scriverà sulla propria scheda un solo nominativo. Risulterà eletto colui o colei che otterrà il maggior numero di voti. A parità di voti sarà eletto il più anziano di età.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg14">AIROLA (M5S). Se volete la guerra, guerra avrete!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Vivaci commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg15">PRESIDENTE. Vi prego colleghi, senatrice Amati: vi invito a collaborare nel far procedere ordinatamente i nostri lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg16">AIROLA (M5S). Presidente, lei non ha niente da dirci? PRESIDENTE. Per garantire il più ordinato svolgimento delle operazioni di voto, dinanzi al banco della Presidenza è stata approntata una cabina. I colleghi senatori, immediatamente prima dell'ingresso in cabina, riceveranno dagli assistenti parlamentari la scheda che, dopo il voto, depositeranno nell'apposita urna all'uscita della cabina stessa. La chiama sarà svolta in ordine alfabetico. Dopo l'effettuazione della chiama, le urne resteranno aperte fino alle ore 19, mentre l'Assemblea proseguirà nell'esame del successivo punto all'ordine del giorno. Dichiaro pertanto aperta la votazione e invito il senatore Segretario a procedere all'appello. PETRAGLIA , segretario, fa l'appello. (Seguono le operazioni di voto). La chiama si è così conclusa. Ricordo agli onorevoli colleghi che le urne resteranno aperte fino alle ore 19, per consentire a coloro che non hanno ancora votato di farlo, transitando sotto il banco della Presidenza e comunicando il proprio nominativo ai senatori Segretari. (Le urne restano aperte).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'11° anniversario della strage di Nassiriya</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u8">
+               <incident type="action">
+                  <desc>Si leva in piedi e con lui tutta l'Assemblea.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg17">Colleghi, ricorre oggi l'11° anniversario della strage di Nassiriya e, in occasione dell'11 novembre, è stato deciso da tutte le istituzioni della Repubblica di dedicare questa giornata al ricordo dei caduti militari e civili nelle missioni di pace.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg18">Tutti ricordiamo quelle drammatiche ore di Nassiriya, dove è stato sferrato il più grave attacco alle Forze armate italiane del dopoguerra, nel quale perirono carabinieri appartenenti all'Esercito ed anche civili.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg19">Tanti sono stati gli italiani che hanno immolato la loro vita nelle operazioni di pace ed al loro ricordo è dedicata la giornata odierna, con le celebrazioni che hanno avuto luogo, ricordo a cui si unisce il Senato della Repubblica con i sensi di gratitudine a tutti i nostri militari anche oggi impegnati in tanti luoghi del mondo per assicurare la pace e la libertà dei popoli.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg20">In ricordo dei nostri caduti, vi prego di osservare un minuto di silenzio.</seg>
+               <kinesic type="applause">
+                  <desc>L'Assemblea osserva un minuto di silenzio. Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Deliberazioni del Consiglio di Presidenza in ordine ai comportamenti tenuti da alcuni senatori nella seduta pomeridiana del 5 novembre</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u9">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg21">Il Consiglio di Presidenza, esaminati gli incidenti accaduti in Aula nel corso della seduta pomeridiana di mercoledì 5 novembre, ha assunto le seguenti decisioni.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg22">Delibera la sanzione della interdizione di partecipare ai lavori dell'Assemblea per dieci giorni di seduta ai senatori Puglia e Blundo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg23">Delibera la sanzione della interdizione di partecipare ai lavori dell'Assemblea per sette giorni di seduta ai senatori Santangelo, Taverna, Airola, Catalfo, Bulgarelli, Fattori, Castaldi, Moronese e Paglini.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg24">Delibera la sanzione della censura nei confronti delle senatrici Montevecchi, Simeoni e Serra.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg25">Le sanzioni concernenti la interdizione di partecipare ai lavori dell'Assemblea decorreranno dalla seduta antimeridiana di domani, giovedì 13 novembre.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg26">Il Consiglio di Presidenza ha altresì deliberato all'unanimità la revoca della deplorazione precedentemente pronunciata nei confronti del senatore Palma.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg27">PETROCELLI (M5S). Bravi, bravi!</seg>
+            </u>
+            <note type="speaker">FALANGA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg28">Signor Presidente, nella nota da me inviata al Consiglio di Presidenza, avente ad oggetto l'impugnativa del provvedimento di censura irrogato nei miei confronti, al pari di quella del presidente Palma, si contestava l' iter procedimentale con il quale il Consiglio di Presidenza infliggeva le sanzioni. Oggi, con i provvedimenti che avete annunciato, avete continuato a irrogare sanzioni in violazione del Regolamento. Così facendo, avete depauperato l'Aula per le prossime sedute di un numero consistente di senatori che con la loro elezione rappresentano il popolo italiano. Voi questo non lo potete fare!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Simeoni</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg29">Voi di questo vi dovete vergognare!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg30">PRESIDENTE. Senatore Falanga, il Consiglio di Presidenza ha preso delle decisioni. Lei può non essere d'accordo, non può però insultare.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg31">TAVERNA (M5S). Lei faccia il Vice Presidente e faccia parlare il senatore Falanga. FALANGA (FI-PdL XVII). Esimio Presidente, non a caso ho usato l'espressione: «Vi dovete vergognare». La stessa è stata usata dal presidente Nitto Palma e, in un primo momento, è stata emessa una sanzione inesistente, ma poi questa è stata revocata. Ciò mi abilita e legittima nell'affermazione, che ribadisco e che - credetemi - ribadirò di volta in volta nei miei interventi in questa Aula: «Vi dovete vergognare»!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u11">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg32">Signor Presidente, volevo aggiungere un altro elemento. Se queste sanzioni sono dovute all'aver ostacolato l'esercizio del diritto di voto, vorrei far presente che anch'io e molti altri abbiamo subito un torto: non ci sono stati consegnati gli schemi di convenzione che il Governo aveva promesso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg33">Dunque, anche io ho subito un torto e pretendo, a questo punto, che ci sia una sanzione per chi non ha soddisfatto un mio diritto!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">TAVERNA (M5S)</note>
+            <u ana="#regular" who="#TavernaPaola" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg34">Signor Presidente, se difendere la democrazia comporta sette giorni di sospensione dai lavori di un'Aula esautorata da qualsiasi potere, ben venga il provvedimento. E, comunque, mi domando: com'è possibile che vengano dati dieci giorni perché ci si siede a terra, sette perché si rimane in piedi e cinque perché si lancia un libro? Mi domando: se la progressione è questa, quale deve essere il prossimo intervento del Movimento 5 Stelle per prendere meno giorni di sospensione ma essere più incisivi? Il tirare un libro in faccia al Presidente del Senato è un comportamento punito con cinque giorni; posso capire il momento concitato e la reazione del senatore Centinaio, comunque a me sembra più grave che sedersi a terra. Ma se questo è il vostro metro di giudizio, la prossima protesta sarà equiparata alla vostra sanzione! Vedremo come ci dovremo comportare!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg35">Inoltre, faccia presente al presidente Grasso che, se noi abbiamo impedito l'esercizio del diritto di voto, lui sta impedendo da quasi due anni lo svolgimento dei lavori parlamentari!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FATTORI (M5S)</note>
+            <u ana="#regular" who="#FattoriElena" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg36">Vorrei fare ammenda e chiedere scusa. In particolare, vorrei chiedere scusa ai cittadini perché, nonostante tutto, non siamo riusciti a bloccare questo scempio! Quindi, le mie scuse vanno ai cittadini!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg37">Voglio comunicare, sempre ai cittadini, che noi dedichiamo questo a loro e non ci arrendiamo e, come dice la senatrice Taverna, la prossima volta riusciremo a fare meglio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PUGLIA (M5S)</note>
+            <u ana="#regular" who="#PugliaSergio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u14">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg38">Signor Presidente, ho preso il massimo della pena</seg>
+               <vocal type="laughter">
+                  <desc>Ilarità</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg39">per aver difeso il nostro Paese dalle trivelle e dall'acqua privata!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg40">Questa è la mia colpa. Allora, se difendere il proprio Paese vuol dire stare dieci giorni fuori, che ben venga. Starò con i miei cittadini, con il mio popolo!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CASTALDI (M5S)</note>
+            <u ana="#regular" who="#CastaldiGianluca" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà, senatore Castaldo.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg41">Grazie, Gasparro, ma mi chiamo Castaldi. PRESIDENTE. Castaldi, chiedo scusa. CASTALDI (M5S). Ci mancherebbe. Volevo ringraziare tutti i cittadini italiani che, fuori di qui, hanno combattuto nei territori per fermare lo sblocca Italia e tutti i nostri colleghi - perché siamo stati tutti, anche se ne avete pescato solo qualcuno - che hanno combattuto in quest'Aula, dove siamo pagati per guardare le vostre facce. I cittadini qui fuori, quindi, che non hanno nemmeno la retribuzione, sono più bravi di noi a combattere, da fuori, le porcherie che combinate qui dentro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u16">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg42">Signor Presidente, colleghi, vorrei ricordare a tutti i colleghi che sono intervenuti che, oltre ad esprimere le nostre libere opinioni, abbiamo l'obbligo tutti quanti, in quanto cittadini, di rispettare le leggi dello Stato, in vigore anche all'interno di quest'Aula, ed il Regolamento interno del Senato.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg43">Credo pertanto che dovremo far riferimento non soltanto agli adempimenti previsti dal Regolamento del Senato e adottati dal Consiglio di Presidenza, ma anche agli adempimenti previsti per infrazione dell'articolo 289 del codice penale, la cui competenza ricade sulla procura della Repubblica e sui tribunali ordinari.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo M5S.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">CIAMPOLILLO (M5S)</note>
+            <u ana="#regular" who="#CiampolilloLello" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg44">Signor Presidente, volevo rispondere al senatore Buemi, che parlava di legalità, ma proprio ieri il senatore Fravezzi che siede accanto a lui ha votato al posto suo, per avere la diaria. Si vergogni! Quella è una truffa, fatta per i soldi! Vergognatevi tutti e due! In quel caso, zero sanzioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg45">Noi aspettiamo dalla Presidenza, caro presidente Gasparri, le sanzioni per tutti i pianisti di quest'Aula, che sono trasversali, perché ce ne sono nel PD, come in Forza Italia, come in tutti i Gruppi! E per tutti, zero sanzioni! Buemi, si vergogni lei e si vergogni il suo collega Fravezzi, pianista.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Proteste del senatore Buemi. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg46">Buemi, ho il video! Domani lo pubblico su YouTube!</seg>
+            </u>
+            <note type="speaker">D'ANNA (GAL)</note>
+            <u ana="#regular" who="#DAnnaVincenzo" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg47">Signor Presidente, non intendo mettere in discussione il rispetto del Regolamento, però mi pare che il senatore Gaetti, l'altra sera, abbia più volte richiesto al Governo, presente in Aula, la copia dello schema di contratto riguardante il rinnovo, senza gara ad evidenza pubblica e per un importo di 3 miliardi di euro, delle concessioni autostradali alla ditta Gavio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Fucksia.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg48">Se vale, come vale, il Regolamento, dovrebbe valere anche l'altra sua parte che prevede che atti incompleti e non confacenti per le deliberazioni non dovrebbero essere ammessi all'esame dell'Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg49">Mi domando quindi: quis custodiet custodes ? Chi controllerà i controllori che hanno sanzionato i colleghi e poi ammettono in quest'Aula dei pateracchi per i quali noi non siamo stati messi nella condizione di sapere con quali modalità contrattuali sia stata svolta una gara senza avviso pubblico del valore di 3 miliardi?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u19">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg50">Grazie, Gaspardi. Quello che è accaduto oggi serve da monito per tutti, perché oggi è accaduto a noi, domani speriamo che non accada a voi, però guardate che non è una situazione normale. Questi provvedimenti sono stati adottati da un Consiglio di Presidenza in cui non c'era nessun rappresentante del Gruppo del Movimento 5 Stelle. Gasparri, abbiamo manifestato il nostro dissenso non impedendo ad alcuno di votare. Se così dovesse essere, non basterebbero sette giorni. Fa bene il senatore Buemi a dire che sono delle cose molto più gravi che vanno sanzionate in maniera assolutamente diversa. Non va bene l'atteggiamento del presidente Grasso, che manda i suoi prestanome, in questo caso Calderoli, ad eseguire il lavoro sporco e poi nell'oscurità, quindi senza farsi vedere in Aula, prende delle decisioni insieme a tutti gli altri compari che compongono il Consiglio di Presidenza e lei, Gasparri, non ha nemmeno letto le motivazioni di questa sanzione. CROSIO (LN-Aut). Vai a cagare! SANTANGELO (M5S). In questo momento ci sono dei colleghi che mi stanno rivolgendo la seguente frase: «Vai a cagare», e lei lo sta sentendo. PRESIDENTE. Non lo sento perché i colleghi sono di spalle; inviterei i colleghi a non stare di spalle e a non utilizzare espressioni improprie SANTANGELO (M5S). Questo, Presidente, non fa parte né della Costituzione, né del Regolamento, come non fa parte della Costituzione approvare dei decreti omnibus che voi vi siete rivotati per l'ennesima volta. Sto parlando dello sblocca Italia. È quello lo scempio. Ad ognuno di voi, signori, ho mostrato le mani sporche di nero: quelle che nella vostra coscienza, ogni notte, dovrete sognare. Quelle mani nere saranno le mani che vi mostreranno i cittadini italiani subito, immediatamente. Ricordatevelo. E tu, Gasparri... PRESIDENTE. Guardi, non è che mi spavento se usa il «tu». Sono abituato a confronti liberi e normali. Concluda, senatore Santangelo. SANTANGELO (M5S). Ci mancherebbe. Ti chiedo gentilmente, Gasparri, di leggere le motivazioni delle decisioni che il Consiglio di Presidenza ha preso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u20">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg51">Signor Presidente, la logica mi dice che forse, presentando documenti incompleti e chiedendo di votarli, si voleva arrivare a questo. La logica mi dice che si voleva arrivare a questo perché lo stesso presidente Calderoli quella sera disse che, se la situazione era quella, non c'era problema, perché si poteva mettere in atto una modalità alternativa di voto: allora, se un'alternativa c'era, il voto non lo abbiamo impedito noi. Detto questo, io credo che, se vogliamo rilevare profili penali nella condotta del nostro Gruppo parlamentare, dovremmo rilevare profili penali anche a carico del Governo, che ci ha presentato un emendamento incompleto, dove addirittura c'erano i puntini di sospensione anziché i numeri dovuti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg52">E noi - dico «noi», ma certamente il Movimento 5 Stelle non ha votato a favore - ci siamo trovati ad esprimere un voto su un documento nel quale il numero sarebbe stato apposto in un secondo momento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg53">Voglio allora spiegare ai cittadini quello che ha argomentato poco fa il senatore D'Anna, perché sappiano cosa significa quello che ha detto. Significa che qui dentro ci hanno detto di votare come si potrebbe consegnare un assegno postdatato. Questo è il falso che, da una parte e dall'altra, è stato votato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg54">Noi ci siamo rifiutati di farlo e abbiamo denunciato questa impossibilità. Il risultato, com'è successo recentemente anche in un processo per mafia, è stato che i colpevoli sono stati assolti e ad essere condannati sono stati altri.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DONNO (M5S)</note>
+            <u ana="#regular" who="#DonnoDaniela" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u21">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg55">Signor Presidente, ho ascoltato prima dei ringraziamenti fatti ai cittadini. Anch'io voglio esprimere un ringraziamento: ragazzi del mio Gruppo, sì, è così, permettetemi di farlo. Voglio ringraziare questa Presidenza che ha deciso di dare queste sanzioni perché è giusto che sia così, è giusto questo comportamento. Cercate di capirlo anche voi! Lo so, ve la prenderete con me per quello che sto dicendo; ma di solito, in questo Stato italiano si punisce chi è nel giusto e, allora, grazie per aver punito il Movimento 5 Stelle; grazie per aver dato tutto questo perché significa che siamo nel giusto e vi diamo fastidio e continueremo a farlo fino a che non ci butterete fuori da qui a calci! Quindi, ancora una volta, grazie alla Presidenza, grazie al presidente Grasso, grazie a chiunque ha preso questa decisione oggi, grazie a tutti voi che ci state dando ancora una volta la certezza di dover andare avanti qui dentro a combattervi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BLUNDO (M5S)</note>
+            <u ana="#regular" who="#BlundoRosettaEnza" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u22">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg56">Signor Presidente, grazie da parte mia per questa giusta sanzione che è stata inflitta a chi impedisce di votare, perché è giustissimo che vengano fatte rispettare le regole. Ma queste regole andrebbero estese, come ha detto anche prima il collega Ciampolillo, e questa estensione non si vede. Io ringrazio perché voi, così, avete sottoscritto il dovere di dare delle giuste punizioni a chi interrompe i lavori e a chi impedisce di votare. Però, io intanto mi domando e chiedo a voi: come mai nel primo Resoconto, nel primo elenco, il mio nome non figurava, ma figura adesso, dopo che i giornali ne hanno parlato? Allora, io sono orgogliosa di essere stata sanzionata</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg57">da uno Stato che protegge sé stesso, strumentalizza i mass media e li usa a suo comodo; da uno Stato che non si occupa di far lavorare il Parlamento. Sono orgogliosa e lo sarò sempre, davanti ai miei figli e ai posteri</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg58">, di aver ricevuto una sanzione per aver chiesto il riconoscimento dei diritti dentro questo Parlamento: i diritti di discussione parlamentare e non di fiducie imposte, e i diritti di valutare un decreto così dannoso come quello da voi definito sblocca Italia</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg59">, ma di cui presto i cittadini vedranno tutte le conseguenze! Bene, sono orgogliosa di questo e vi ringrazio ancora una volta per avermi sanzionato, ma mi chiarirete cortesemente come mai tra i due Resoconti avete avuto questo cambiamento di opinione e vi siete resi conto che ero stata fotografata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">NUGNES (M5S)</note>
+            <u ana="#regular" who="#NugnesPaola" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u23">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg60">Signor Presidente, vorrei innanzitutto sottolineare che non è stato impedito il voto, ma è stato ritardato il voto. Infatti, lo sblocca Italia è passato con la fiducia così come ci si aspettava che succedesse. Noi rivendichiamo però il diritto alla resistenza; anzi, dirò di più, il diritto-dovere alla resistenza</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg61">, di cui parlava quel famoso articolo 3 che non fu introdotto in Costituzione. Poiché in queste Aule si stanno sistematicamente violando i diritti garantiti dalla Costituzione e nessun garante alza la voce per far sì che questi diritti vengano rispettati, noi, come diceva appunto quell'articolo 3, rivendichiamo la resistenza individuale e collettiva agli atti dei pubblici poteri, che violino le libertà fondamentali e i diritti garantiti dalla nostra Costituzione. È diritto e dovere di ogni cittadino.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PETROCELLI (M5S)</note>
+            <u ana="#regular" who="#PetrocelliVitoRosario" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u24">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg62">Signor Presidente, colleghi, io mi riconosco in quanto hanno detto i miei compagni e amici del Movimento 5 Stelle. Vorrei fare una riflessione di carattere più generale che non comprende solo quanto accaduto durante il voto per il decreto sblocca Italia, per il quale rivendico tutto quanto ho fatto e per il quale non sono stato sanzionato. Fin dal primo giorno successivo alle elezioni politiche, la situazione del mio Gruppo al Senato è stata davvero anomala. A differenza di quanto accaduto alla Camera, è partita dal primo giorno dopo le elezioni una campagna occulta, e neanche tanto, di scouting da parte del Partito Democratico nei confronti dei senatori del Movimento 5 Stelle che, a torto o a ragione, venivano ritenuti più vicini alle posizioni cosiddette di sinistra che il Partito Democratico della gestione Bersani intendeva rappresentare. Da quel momento in poi, a seconda della risposta che i singoli senatori del mio Gruppo hanno dato, ovverosia quanto hanno reso pubblico l'abboccamento avuto con il boss locale del Partito Democratico e che conseguenze ha avuto quella reazione, la campagna di scouting è continuata fino ad arrivare alla paradossale situazione odierna nella quale il nostro Gruppo ha perso dei colleghi (che sono passati al Gruppo Misto, o componenti del Gruppo Misto o in altri Gruppi) che però mi sento francamente di imputare all'azione strisciante e continua avvenuta - lo ripeto - dal primo giorno dopo le elezioni del 2013 da parte del Partito Democratico. Se, come è accaduto per lo sblocca Italia, come è accaduto per le riforme costituzionali e per la riforma del Senato, la maggioranza qui nell'Aula del Senato intende continuare con l'atteggiamento che vuole provocare, artificiosamente o meno, il muro contro muro (lo ripeto, come ho già detto), noi non ci tireremo indietro. Sarebbe però opportuno che questo atteggiamento da parte di un'istituzione morente ormai per volere del ducetto Renzi cambiasse. E questo atteggiamento può cambiare solo e soltanto se le operazioni condotte in quest'Aula avranno la stessa trasparenza che hanno avuto quelle svolte per l'elezione dell'ultimo membro del Consiglio superiore della magistratura e dell'ultimo membro eletto della Consulta. L'invito quindi che formulo personalmente è di considerare nella maniera giusta e opportuna i rappresentanti del Gruppo Movimento 5 Stelle in quest'Aula del Senato come avviene alla Camera dei deputati, dove la compravendita di parlamentari del Movimento 5 Stelle non era necessaria e dove chi, come me, all'adescamento fatto dal senatore Bubbico la sera successiva alle elezioni del 2013 ha detto «non ci sto» e l'ha denunciato pubblicamente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg63">Altri del mio Gruppo non lo hanno fatto e si è visto che fine hanno fatto e che cosa è successo. Questa è la riflessione che lascio ai cittadini e a quest'Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BIGNAMI (Misto-MovX)</note>
+            <u ana="#regular" who="#BignamiLaura" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u25">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg64">Signor Presidente, vorrei raccontare anche la mia versione. Credo che in quest'Aula si stia facendo un po' di confusione. I miei ex compagni, o colleghi (come si dice) 5 Stelle hanno tutte le ragioni nel merito: su questo non voglio discutere. Ma esiste la parola «metodo» e il metodo costituisce la modalità di rappresentare quella che noi chiamiamo democrazia. Democraticamente si possono fare anche cose non giuste, così come l'utilizzo di un metodo non democratico non può essere giustificato dal fatto che si fanno cose giuste. Loro hanno peccato nel metodo: il metodo non era democratico perché a noi è stato impedito di votare. Di questo mi dispiaccio e questo è stato il loro errore: un errore di metodo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Bocchino, Buemi e Campanella.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg65">NUGNES (M5S). Non è vero. È falso. BIGNAMI (Misto-MovX). Noi, in un sistema democratico siamo chiamati anche a dare un esempio perché siamo portatori di esempi e fuori di qua dobbiamo dare un esempio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Bocchino, Buemi, Campanella e Sonego.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg66">Vorrei ora formulare una domanda. Nel mio intervento non voglio rispondere alle provocazioni dei colleghi del Gruppo M5S, né discutere delle sanzioni. Voglio però parlare di equilibri e di rispetto delle minoranze. In un Senato in cui le minoranze e le maggioranze hanno degli equilibri veramente minimi togliere dieci persone significa fare altro, non solo infliggere delle sanzioni: significa anche darsi delle belle maggioranze.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg67">Quindi, io mi chiedo, per il rispetto delle minoranze, se è possibile - questo non lo so e glielo chiedo - effettuare una votazione d'Aula per fare in modo che siano meno - magari due o tre - a pagare per tutti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg68">PRESIDENTE. No, non è possibile, senatrice Bignami. Non è previsto.</seg>
+            </u>
+            <note type="speaker">MUSSINI (Misto-MovX)</note>
+            <u ana="#regular" who="#MussiniMaria" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg69">Signor Presidente, nell'associarmi a quanto detto dalla collega Bignami, vorrei fare anche una precisazione, perché ho sentito parlare di scouting e vorrei sottolineare che quest'Aula conosce benissimo quali sono state le ragioni, perché nel momento della discussione delle dimissioni mie e della collega Bignami sono state portate con grande chiarezza all'attenzione di tutta l'Aula le ragioni per cui noi ci siamo ritrovati fuori dal Gruppo parlamentare Movimento 5 Stelle. Vorrei che rimanesse agli atti questa mia dichiarazione: non uno di noi è entrato nel Gruppo del PD, così come lasciato intendere poc'anzi dal discorso del senatore Petrocelli.</seg>
+            </u>
+            <note type="speaker">SCIBONA (M5S)</note>
+            <u ana="#regular" who="#ScibonaMarco" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u27">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg70">Signor Presidente, intervengo brevemente e non ripeto quanto detto dai colleghi. Devo però fare una dichiarazione per me, per la mia persona, perché mi ritengo offeso dalle decisioni prese dal Consiglio di Presidenza, sia nel merito, che nel metodo, in quanto uno dei punti di forza del nostro Gruppo è: nessuno deve rimanere indietro. Io rivendico le medesime punizioni anche nei miei confronti, in quanto parte di questo Gruppo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CAMPANELLA (Misto-ILC)</note>
+            <u ana="#regular" who="#CampanellaFrancesco" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u28">
+               <note>Domando di parlare.</note>
+               <vocal type="speaking">
+                  <desc>Proteste dal gruppo M5S. Commenti dei senatori Buemi e Marino Luigi</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg71">PRESIDENTE. Calma. Senatore Buemi, la prego; stia al suo posto. Senatore Marino, lei che è un uomo saggio, faccia il saggio.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg72">Senatore Campanella, ha facoltà di parlare.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg73">Signor Presidente, desidero fare una precisazione. Siccome so che gli interventi in Aula verranno poi replicati sul web e, quindi, quello che passa in Aula viene riproposto, è giusto che venga riproposta anche la nostra visione. Poc'anzi il collega Scibona diceva che il motto del Movimento 5 Stelle era: nessuno deve rimanere indietro. È vero, però, che, per una serie di scelte che non dipendono dai colleghi, ma dai vertici che sono esterni al Parlamento, alcuni - anzi, un bel po' di noi - sono rimasti non indietro, ma fuori. Detto questo, chiudiamo il ragionamento sullo scouting, perché i problemi per cui noi siamo usciti dal Movimento 5 Stelle sono tutti interni al Movimento 5 Stelle e non esterni. Per quanto riguarda il comportamento in Aula, così come ho avuto modo di dire direttamente a loro durante i fatti, ritengo che sia assolutamente inammissibile bloccare il voto dell'Aula (o anche tentare di bloccarlo), così come hanno fatto la scorsa volta. Ritengo altresì che parlamentari che sono stati eletti sulla scorta dell'idea che le regole sono sacre, debbano rispettarle sempre e in ogni occasione.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del Gruppo M5S all'indirizzo del senatore Campanella.</desc>
+               </vocal>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Seguito della discussione delle mozioni 1-00300 (testo 2), 1-00327 (testo 2), 1-00338, 1-00339 e 1-00341 - Futuro stabilimento AST</head>
+            <note>(ore 18,18) Approvazione della mozione n. 300 (testo 3), della premessa e dei punti 1), 6), 7), 8), 9) e 10) della mozione n. 327 (testo 4), e delle mozioni nn. 338 (testo 2), 339 (testo 2) e 341 (testo 2). Reiezione dei punti 2), 3), 4) e 5) della mozione n. 327 (testo 4)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u29">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg74">L'ordine del giorno reca il seguito della discussione delle mozioni 1-00300 (testo 2) , presentata dal senatore Rossi Gianluca e da altri senatori, 1-00327 (testo 3), presentata dal senatore Lucidi e da altri senatori, 1-00338 , presentata dalla senatrice De Petris e da altri senatori, 1-00339 , presentata dal senatore Consiglio e da altri senatori, e 1-00341 , presentata dalla senatrice Pelino e da altri senatori, sul futuro dello stabilimento Acciai Speciali Terni-AST.</seg>
+            </u>
+            <note>Ricordo che nella seduta antimeridiana sono state illustrate le mozioni e ha avuto inizio la discussione.</note>
+            <note type="discussion">DISCUSSIONE</note>
+            <note>È iscritto a parlare il senatore Santini. Ne ha facoltà.</note>
+            <note type="speaker">SANTINI (PD)</note>
+            <u ana="#regular" who="#SantiniGiorgio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u30">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg75">Signor Presidente, onorevoli colleghi, la mozione illustrata dal senatore Rossi, insieme alle altre mozioni, dà conto della gravità della situazione economica e sociale e della complessità che si vive all'AST di Terni.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg76">(ore 18,19) ( Segue SANTINI). È necessario un intervento forte e coordinato delle Istituzioni territoriali, nazionali ed europee, unito al senso di responsabilità dell'azienda, per affrontare con capacità risolutiva i diversi aspetti critici e socialmente inaccettabili della vicenda di Acciai Speciali Terni. Innanzitutto serve, nel brevissimo termine, la soluzione equilibrata e socialmente sostenibile della durissima vertenza sugli assetti industriali di Acciai Speciali Terni, sugli investimenti, sul mantenimento della capacità produttiva del settore a caldo e del settore a freddo e sugli assetti occupazionali, riducendo l'impatto negativo e attuando tutte le vie contrattuali possibili, in particolare con il ricorso ai contratti di solidarietà, che potrebbero anche essere estesi al settore dell'indotto, che ha una composizione molto articolata ed è un elemento portante nell'economia del territorio ternano; inoltre, è necessario attuare anche in questo campo alcune innovazioni normative, tra cui, ad esempio, i contratti di solidarietà territoriali o i contratti diretti d'impresa delle aziende dell'indotto. Va fatto ogni sforzo - lo chiediamo al Governo - per arrivare prestissimo, speriamo già domani, ad una conclusione della vicenda, valorizzando i tanti passi avanti compiuti nel corso del negoziato e sciogliendo gli ultimi nodi rimasti. Oltre a questo punto - che, ripeto, ha la priorità - ci sono però altri aspetti da affrontare contestualmente nelle prossime settimane, innanzitutto sul piano dei fattori di contesto e del territorio. Il problema del costo dell'energia, in particolare, che sarà affrontato a breve con interventi proposti dal Governo, deve trovare anche nel prossimo futuro soluzioni strutturali. Occorre rafforzare le infrastrutture, soprattutto quelle viabilistiche, per permettere e garantire collegamenti rapidi del sito di Terni con la portualità. Su questi temi - lo ricordo anche per averlo vissuto in prima persona - è stato fatto dieci anni fa un accordo di programma molto importante, che deve adesso trovare una rapida, rapidissima attuazione. La vicenda dell'AST parla anche del problema del settore siderurgico italiano, sottoposto a livello nazionale a rapidi processi disgregativi. La vicenda AST segue quelle di Piombino e di Taranto. L'Italia, il secondo Paese manifatturiero d'Europa, non può perdere - com'è avvenuto già in altri settori di base quale, ad esempio, quello della chimica - la struttura portante in un settore di base, perché ciò è decisivo per la qualità e per i costi. Una grande parte del settore manifatturiero italiano perderebbe in questo modo uno dei fattori di successo, ma avremmo anche subito un impatto devastante sulle importazioni, destinate a crescere e a compromettere, anche sul piano macroeconomico, il saldo positivo import-export. Per dare quindi una prospettiva alla vicenda dell'AST va costruito in tempi rapidi un futuro per il settore siderurgico italiano, attuando tutti gli interventi necessari a non perdere il controllo e la consistenza nazionale del settore, facendo di certo anche alleanze internazionali, ma in un quadro di controllo del nostro Paese. Infine, la vicenda dell'AST ha anche un risvolto europeo. Le «regole europee» hanno contribuito non poco a determinare la grande criticità dell'AST di Terni, com'è ben raccontato nella mozione. La domanda da porci non è né banale, né retorica: si può sanare una presunta irregolarità creando un grande guaio? Si può farlo in un settore portante dell'economia industriale europea, nel momento in cui si assiste nel mondo a processi di redistribuzione molto importanti, con il rischio altissimo di una totale fuoriuscita dell'Europa dal settore stesso? Se la risposta a questa domanda è un ragionevole no, dobbiamo allora allestire rapidamente un'azione convinta come Governo nazionale in sede europea, innanzitutto per chiedere conto alle aziende dei loro progetti industriali, in questo caso alla ThyssenKrupp; in secondo luogo, per correggere quelle regole e per renderle più flessibili in una regolazione non punitiva dei settori produttivi, che dovranno essere il punto di forza di una nuova politica industriale europea, elemento indispensabile di una strategia di crescita che il nostro Paese sta da tempo chiedendo ma che, purtroppo, è ancora mancante. Concludo, allora, dicendo che questi quattro aspetti (la soluzione rapida della vertenza AST, un contratto territoriale, il contesto siderurgico nazionale e le regole europee) sono aspetti diversi ma strettamente intrecciati l'uno all'altro e che c'è bisogno di una forza importante, un impegno straordinario perché, a partire dal nostro Governo, in sede europea si riescano a sciogliere nei tempi più brevi, perché questa vertenza sta creando troppi danni ad un settore e soprattutto a moltissime famiglie italiane.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e del senatore Buemi.</desc>
+               </kinesic>
+            </u>
+            <note type="president">Presidenza della vice presidente FEDELI</note>
+            <note type="time">18,19</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u31">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg77">Dichiaro chiusa la discussione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg78">Ha facoltà di parlare il vice ministro dello sviluppo economico, professor De Vincenti, al quale chiedo anche di esprimere il parere sulle mozioni presentate.</seg>
+            </u>
+            <note type="speaker">DE VINCENTI</note>
+            <note type="role">vice ministro dello sviluppo economico</note>
+            <u ana="#guest" who="#DeVincentiClaudio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u32">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg79">Signora Presidente, la vicenda della Acciai Speciali Terni è da tempo all'attenzione del Governo. Mi permetterete di ricostruire brevemente, come in parte fanno le stesse mozioni nelle premesse, alcuni punti chiave dell'evoluzione che questa vicenda ha fatto registrare.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg80">A inizio 2012 ci fu la cessione da parte di ThyssenKrupp di tutta la divisione Inoxum dell'inossidabile alla Outokumpu, grande multinazionale finlandese. All'interno della divisione inossidabile era naturalmente presente, come punto di forza, la Acciai Speciali Terni. L'Outokumpu ha progettato all'epoca un inserimento della Acciai Speciali Terni all'interno del complesso del sistema industriale Outokumpu, presentando un piano industriale che aveva il consenso del Governo italiano dell'epoca.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg81">Nell'estate del 2012 è cominciata un'analisi della Commissione europea-DG Comp per verificare se l'acquisizione della divisione inossidabile da parte di Outokumpu potesse configurare un eccesso di concentrazione. La scelta maturata nel corso di quei mesi, che poi ha portato alla decisione della Commissione nell'autunno del 2012, è che ci sarebbe stato un eccesso di concentrazione. Venne scelto come mercato rilevante, rispetto al quale giudicare della concentrazione, il mercato europeo, nonostante segnalassimo che mercato rilevante, a nostro giudizio, dovesse essere considerato il mercato mondiale, la concorrenza sull'inossidabile a livello mondiale. Sul mercato europeo come mercato rilevante la Commissione europea giudicò troppo elevata la quota raggiunta da Outokumpu. A seguito di questa decisione, la Commissione europea ha imposto ad Outokumpu la cessione di AST ad altro operatore. Abbiamo seguito con molta attenzione, nel corso dell'inverno e della primavera-estate del 2013, il processo di cessione; non abbiamo condiviso la scelta della Commissione europea di concedere delle proroghe ad Outokumpu, quando erano presenti due offerte che potevano costituire un'interessante opportunità per AST.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg82">Le proroghe concesse dalla Commissione europea hanno portato alla fine, nel dicembre 2013, ad un accordo tra Outokumpu e Thyssen, in cui la AST ritornava a Thyssen. Questa situazione ha sollevato le preoccupazioni del Governo italiano, perché Thyssen, non a caso, era all'epoca uscita dall'inossidabile. Questo ci ha condotto a convocare la ThyssenKrupp ad un incontro con il Governo italiano.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg83">Un primo incontro ci fu nel gennaio del 2014 e poi, nel marzo del 2014, la ThyssenKrupp, di nuovo presente con il suo board centrale qui a Roma, ha comunicato che aveva avviato la preparazione di un piano industriale per l'AST e che entro la metà del mese di luglio lo avrebbe comunicato al Governo, alle istituzioni territoriali e alle organizzazioni sindacali. Così è avvenuto il 17 luglio scorso quando, sempre alla Presidenza del Consiglio, la ThyssenKrupp ha presentato le linee generali del piano industriale, che poi, poche ore dopo, sono state sviluppate dall'amministratore delegato dell'AST, nel corso di un incontro con le organizzazioni sindacali svoltosi al Ministero dello sviluppo economico. Il piano illustrato muoveva dalla constatazione che, nell'ultimo quinquennio, l'AST ha accumulato perdite significative, per circa 900 milioni di euro, quindi anche dalla necessità di recuperare l'efficienza e la competitività dell'AST. A questo scopo l'azienda dichiarava di voler raggiungere l'obiettivo del recupero di competitività, con una forte riduzione dei costi, sia per l'acquisto di beni intermedi e semilavorati sia del costo del lavoro, in particolare con una riduzione di 550 posti di lavoro, nonché con la possibile chiusura prospettica di uno dei due forni dell'area a caldo di Terni. Il Governo e le istituzioni territoriali hanno immediatamente giudicato negativamente il piano industriale presentato dalla ThyssenKrupp, in quanto lo abbiamo giudicato un piano industriale incapace di garantire il futuro produttivo e occupazionale dell'AST, dal momento che prospettava sostanzialmente una riduzione delle capacità produttive dell'AST. Accogliendo il giudizio critico anche delle organizzazioni sindacali, abbiamo invitato le parti ad attivare immediatamente un tavolo di confronto che portasse a una modifica del piano industriale e che consentisse di riaprire una prospettiva migliore per l'AST. Il tavolo si è purtroppo potuto avviare solo all'inizio del mese di settembre di quest'anno, dopo che il Ministro dello sviluppo economico è intervenuto per riportare nell'alveo delle normali relazioni sindacali un confronto che in più occasioni era scivolato nel terreno della contrapposizione frontale. Dall'inizio di settembre è ripartito il confronto, che si è sviluppato su due piani. Per un verso il Governo ha puntato a determinare una modifica del piano industriale di ThyssenKrupp nei confronti dell'AST e, per altro verso, ha sollecitato l'azienda e i sindacati a sviluppare il confronto sull'organizzazione del lavoro e sul contratto integrativo aziendale. Tra fine settembre e inizio ottobre scorso si è manifestata una nuova contrapposizione, una distanza tra le parti, e il Governo ha cercato di avvicinare le posizioni, proponendo una soluzione di compromesso l'8 ottobre scorso, che a nostro giudizio avrebbe preservato le prospettive industriali dell'azienda e consentito di trovare un punto di equilibrio. Quella soluzione non è stata accettata dalle parti e, immediatamente dopo, la ThyssenKrupp ha annunciato l'apertura della procedura di mobilità e la disdetta di tutti gli accordi aziendali. Il Governo ha continuato a lavorare sulla possibilità di riaprire il confronto: il 16 ottobre, in una riunione presso la Presidenza del Consiglio con la Regione Umbria, la Provincia e il Comune di Terni, oltre a stigmatizzare le iniziative unilaterali prese dall'azienda, ha riconvocato le parti per riaprire il confronto. Lo scorso 6 novembre si è tenuto un incontro presso il Ministero dello sviluppo economico, dove la Thyssen e la direzione dell'AST, nella persona dell'amministratore delegato, hanno dato disponibilità ad una modifica significativa del piano industriale, prevedendo: il mantenimento delle capacità produttive dell'area a caldo; l'operatività di ambedue i forni (anche se il secondo forno, per condizioni di mercato, ha un livello a cinque settimi del livello di produzione potenziale, mentre il primo forno ha pieno utilizzo); investimenti potenziati rispetto al piano originario, attraverso l'investimento necessario a portare la linea di laminazione, presente ancora oggi a Torino e ferma da anni - come sapete - a Terni; ulteriori possibili investimenti sull'area a caldo. Gli stessi soggetti hanno dato disponibilità ad una riduzione significativa degli esuberi, rispetto ai 550 inizialmente dichiarati e ai 537 della procedura di mobilità, e ad un potenziamento della struttura commerciale di Terni dell'AST, al fine di dare sbocco di mercato ad una produzione più elevata di quella inizialmente dichiarata nel piano di luglio. Il 6 novembre scorso l'azienda ha dichiarato di voler mantenere un livello di produzione di almeno un milione di tonnellate di colato: ciò garantisce, appunto, l'operatività di ambedue i forni. Inoltre, l'azienda ha accettato l'invito del Governo a procedere al pagamento degli stipendi, naturalmente chiedendo - ed ottenendo dalle organizzazioni sindacali - la sospensione dello sciopero nelle aree amministrative laddove, appunto, si devono svolgere le procedure per il pagamento degli stipendi. In base a questa disponibilità dell'azienda, il Governo ha riconvocato per lo scorso 10 novembre il tavolo per riavviare il confronto tra azienda e sindacati. Anche in questo caso ci si è trovati di nuovo in una situazione di rigidità contrapposte: rigidità che non hanno consentito di riprendere a pieno il confronto. Nella giornata di ieri abbiamo convocato di nuovo il tavolo. L'azienda ha presentato delle slide, attraverso le quali ha confermato la disponibilità alle modifiche del piano industriale, e su questa base il Governo ha riconvocato di nuovo, per la prossima settimana, l'ulteriore sede di confronto. D'altra parte, sappiamo che la situazione a Terni è di tensione, per cui abbiamo comunque dato nuovamente la nostra disponibilità a partire già da domani ad un confronto Governo-sindacati, Governo-parti sociali, che consenta di superare le rigidità di fronte alle quali ci troviamo. Ora credo che dobbiamo fare di tutto per evitare una escalation pericolosa. Per onestà intellettuale, non si può non vedere che il Governo ha ottenuto dalla Thyssen la disponibilità a cambiare il piano industriale e questo nell'interesse del futuro produttivo ed occupazionale dell'AST di Terni, che è il punto chiave che deve essere a cuore di tutti noi. Quello dell'AST è, infatti, uno stabilimento di importanza strategica per l'industria italiana e di grande rilevanza per il territorio di Terni e per tutta l'Umbria. Pensiamo che proprio la riapertura del discorso sul piano industriale sia il passaggio chiave per far ripartire il confronto fra azienda e sindacati sull'organizzazione del lavoro e sul contratto integrativo aziendale, con l'obiettivo di contribuire al recupero di efficienza e competitività della AST. Finora, a fronte di questa evoluzione promossa dal Governo, riscontriamo ancora una rigidità di posizioni che non aiuta a sbloccare la vertenza e l'episodio di oggi, l'occupazione dell'autostrada A1, ne è un chiaro esempio. Credo che dobbiamo sollecitare tutte le parti - e sottolineo tutte - ad un'assunzione di responsabilità per garantire il futuro produttivo ed occupazionale di questa azienda, questo per il bene del nostro Paese e dei lavoratori della AST, che sono la prima cosa che ci deve stare a cuore, nonché per il bene del territorio di Terni. Alla luce di questa mia risposta agli interventi che ho ascoltato nella giornata di oggi in quest'Aula, passo ad illustrare le risposte del Governo rispetto agli impegni previsti dalle mozioni presentate. Con riferimento alla mozione n. 300 (testo 2), presentata dal senatore Gianluca Rossi e da altri senatori, contenente cinque impegni, il Governo accoglie il primo impegno, quello «ad adottare ed attivare ogni utile iniziativa finalizzata a promuovere la realizzazione di un piano industriale da parte della multinazionale tedesca che, a partire dall'accordo quadro proposto dal Governo in data 8 ottobre 2014, preveda» e i quattro punti sviluppati nel testo della mozione, con la sola avvertenza di riformulare quello di cui alla lettera c) come segue: «di rafforzare il posizionamento di AST, dal punto di vista commerciale, in modo da potenziare la rete commerciale al fine di rivolgersi a nuovi mercati». Il Governo accoglie poi gli impegni di cui ai punti 2), 3) e 4) del dispositivo della mozione n. 300 (testo 2), mentre per poter accogliere l'impegno di cui al punto 5) ne chiede una riformulazione volta a inserire, dopo le parole: «a valutare l'opportunità di», le parole: «un possibile coinvolgimento di». Con riferimento alla mozione n. 327 (testo 3), presentata dal senatore Lucidi e da altri senatori, il Governo è disposto ad accogliere il primo impegno se riformulato nei termini seguenti: «a mantenere costantemente aperto il tavolo istituzionale» - perché il tavolo c'è già - «tra Governo, Regioni, istituzioni locali al fine di risolvere quanto prima, con una prospettiva di lungo termine, una vicenda le cui ripercussioni di carattere economico, sociale ed occupazionale rischiano di provocare un forte impatto depressivo per il tessuto sociale sia umbro che italiano». Il secondo impegno previsto dalla mozione n. 327 (testo 3) non può essere accolto perché il decreto-legge n. 207 del 2012 prevede che si stia parlando di stabilimenti che hanno anche problemi di tipo ambientale che il sito di Terni non presenta. Anche l'impegno di cui al punto 3) della stessa mozione non è accolto dal Governo perché prevede problematiche ambientali che in quel sito non si pongono. L'impegno di cui al punto 4) è accolto dal Governo con una breve riformulazione, e cioè togliendo la parte finale, dalle parole «in maniera sostenibile» fino al termine del periodo. Per quanto riguarda l'impegno di cui al punto 5), è accolto con la stessa riformulazione: si toglie la parte finale, dalle parole «in maniera sostenibile» fino al termine del periodo. L'impegno di cui al punto 6) è accolto con riformulazione eliminando le parole «e privilegiata»; l'impegno quindi diventa: «a promuovere iniziative volte a favorire l'utilizzo dell'energia idroelettrica quale fonte primaria di approvvigionamento energetico (...)». L'impegno di cui al punto 7) è accolto con riformulazione: «a valutare l'opportunità di prevedere l'utilizzo delle risorse e degli strumenti previsti dal Fondo strategico italiano». Gli impegni di cui ai punti 8), 9) e 10) sono accolti. Per quanto riguarda la mozione n. 338, l'impegno di cui al punto 1) del dispositivo è accolto. L'impegno di cui al punto 2) è accolto con una riformulazione: «a richiedere alla Commissione europea di verificare - non «di censurare» - il comportamento della ThyssenKrupp relativamente al rispetto degli impegni (...)». Anche l'impegno di cui al punto 3) è accolto con una riformulazione. Anzitutto occorre togliere le parole «senza timidezze o tentennamenti». Posso garantire i senatori che presentano questa mozione che non vi sono mai state timidezze e tentennamenti e non sono disponibile a sentirmi dire una cosa del genere. Occorre poi togliere, sempre nell'impegno al punto 3), l'ultima frase: «attraverso la garanzia degli aumenti salariali integrativi già concordati», che invece è rimessa alla trattativa tra le parti. Quindi, non c'è un impegno del Governo su questo punto; l'impegno del Governo è a favorire la trattativa. Infine, l'impegno di cui al punto 4) è accolto con riformulazione, che consiste nel modificare la parte finale della lettera a) nel modo seguente: «raggiungere a regime una produzione di tonnellate di fuso in grado di confermare l'assetto impiantistico con i 2 forni elettrici». La lettera b) del punto 4) sulla garanzia della strategicità del sito di Terni è accolto. Vengo ora alla mozione n. 339. Nel dispositivo c'è un primo impegno articolato in tre lettere: a), b) e c). La lettera a) è accolta; la lettera b) è accolta con riformulazione della parte iniziale nel modo seguente: «a valutare la possibilità di adottare modalità»; il punto c) è accolto con riformulazione: «ad intervenire sul versante dell'approvvigionamento energetico, sfruttando le risorse esistenti nel nostro territorio e favorendo il ricorso a fonti di energia rinnovabile in modo tale da poter abbattere i relativi costi». L'impegno di cui al punto 2) è accolto. L'impegno di cui al punto 3) è accolto con riformulazione: «ad adottare ogni iniziativa utile, eventualmente anche di natura finanziaria, (...)». C'è l'aggiunta della parola «eventualmente». L'impegno di cui al punto 4) è accolto. Passo ora alla mozione n. 341. Il primo impegno del dispositivo è accolto con riformulazione: «ad adottare un'azione incisiva e complessa tesa a rimuovere le iniziative unilaterali dell'azienda e a operare ogni sforzo per scongiurare i licenziamenti». Anche l'impegno di cui al punto 2) è accolto con riformulazione: «ad instradare un confronto con i vertici della ThyssenKrupp ed il management di AST al fine di salvaguardare le produzioni e i volumi, nonché l'unitarietà ed integrità del sito e dei livelli occupazionali». La riformulazione è minima, com'è chiaro ai presentatori. L'impegno di cui al punto 3) è accolto con una profonda riformulazione: «a sollecitare in sede europea una discussione sull'interazione tra politiche della concorrenza e politica industriale, in particolare nel settore siderurgico, al fine di rilanciare la competitività dell'industria europea». L'impegno di cui al punto 4) è accolto. Infine, l'impegno di cui al punto 5) viene accolto con una riformulazione che è la seguente: «a scongiurare la possibilità di nuovi scontri di piazza fra le forze dell'ordine e i lavoratori», eliminando le restanti parole.</seg>
+            </u>
+            <note type="speaker">CANDIANI (LN-Aut)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u33">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg84">Signora Presidente, vorrei richiamare l'attenzione del Sottosegretario sulla mozione 1-00339, presentata dal senatore Consiglio e da altri senatori. Non ho colto la volontà del Governo sull'impegno di cui al punto 1), lettera b) : «a valutare l'adozione di modalità contrattuali alternative, rispetto agli esuberi, quali l'adozione di contratti di solidarietà, adottati per lo stabilimento in Germania e che, invece, sono stati rifiutati per lo stabilimento ternano».</seg>
+            </u>
+            <note type="speaker">DE VINCENTI</note>
+            <note type="role">vice ministro dello sviluppo economico</note>
+            <u ana="#guest" who="#DeVincentiClaudio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u34">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg85">Il Governo propone di modificare la parte iniziale dell'impegno in questo senso: «a valutare la possibilità di adottare». Il motivo di questa richiesta è semplice: i contratti di solidarietà possono essere adottati a condizioni molto precise, che per ora, in questa situazione, non si sono presentate. L'impegno dovrebbe quindi essere a valutare la possibilità a seconda dell'evoluzione della situazione.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulle deliberazioni del Consiglio di Presidenza in ordine ai comportamenti tenuti da alcuni senatori nella seduta pomeridiana del 5 novembre</head>
+            <note type="speaker">FALANGA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u35">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg86">Signora Presidente, vorrei avanzare alla Presidenza una formale istanza di convocazione urgente della Giunta per il Regolamento, perché intervenga, stante il vuoto normativo regolamentare in caso di esecuzione delle sanzioni disciplinari, al fine di evitare che l'Aula del Senato si ritrovi nei prossimi giorni con un consistente numero di senatori assenti. Poiché in tema di esecuzione delle sanzioni il Regolamento nulla dice, sarebbe opportuno che la Giunta regolamentasse anche questo aspetto, prevedendo un differimento tra l'una e l'altra, così garantendo la presenza in Aula dei vari Gruppi parlamentari. Sostanzialmente, è la richiesta che ha avanzato anche la senatrice Bignami nel suo intervento, ma che io ho ritenuto di formalizzare in termini normativi. PRESIDENTE. La Presidenza prende atto della richiesta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ripresa della discussione delle mozioni 1-00300 (testo 2), 1-00327 (testo 3), 1-00338, 1-00339 e 1-00341 - Futuro stabilimento AST</head>
+            <note type="time">(ore 18,53)</note>
+            <note type="voting">VOTAZIONE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u36">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg87">Passiamo dunque alla votazione.</seg>
+            </u>
+            <note type="speaker">CANDIANI (LN-Aut)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u37">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà. Colleghi, essendo quasi le ore 19 e - immagino - volendo tutti concludere l'esame di tali mozioni nella seduta di questa sera, invito tutti coloro che interverranno in dichiarazione di voto a regolarsi di conseguenza.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg88">Signora Presidente, innanzitutto ritengo corretta l'impostazione data al nostro lavoro e che comunque siano stati considerati positivamente gli impegni richiesti da parte nostra al Governo. Non sono impegni dissimili da quelli presentati dalla maggioranza dei Gruppi all'interno di quest'Aula, il che significa che forse - questo è un appello e una considerazione che rivolgo al Governo - vale la pena di fare la voce grossa, in senso positivo, per far rispettare questa nostra emergenza industriale a livello europeo. Sappiamo infatti, e lo abbiamo ben capito dalla discussione, signora Presidente, che questa non è, al contrario di quello che dice il Commissario europeo, una questione esclusivamente e tipicamente italiana. Noi negli anni abbiamo condiviso scelte europee e l'Europa in questo momento deve condividere le difficoltà di un sistema industriale del quale tutti dobbiamo giovarci. Credo che una scelta che vada a punire l'industria siderurgica italiana semplicemente assecondando assetti industriali multinazionali non sia certamente nell'interesse di un Governo che si spende per il rilancio del Paese e chiaramente non gioverebbe nemmeno a quella credibilità sulla quale l'Europa continua ad insistere presso i cittadini europei. Abbiamo chiesto al Governo di impegnarsi opportunamente su questo fronte e accogliamo positivamente quanto detto dal vice ministro De Vincenti. Sappiamo bene che il lavoro non è difficile se ci si mette tutti insieme; diventa invece impossibile se ci si frantuma e ci si fraziona. Occorre coscienza anche da parte dell'impresa che questo non è un Paese che ha iniziato un strada di dismissione industriale, per la quale c'è remissività e per la quale le stesse scelte della ThyssenKrupp possono essere disgiunte rispetto all'interesse nazionale. Parlando in maniera semplicistica, non condividiamo indicazioni che possono portare ad una nazionalizzazione dell'impresa; no, non è questa la soluzione di mercato che auspichiamo. Riteniamo che debbano essere invece garantiti i diritti dei lavoratori e debba essere garantito il diritto di un'impresa di poter lavorare in concorrenza con altre imprese. In merito, verificheremo che l'impegno del Governo vada nella direzione, ad esempio, non solo per ThyssenKrupp, ma per tutto il resto del sistema industriale, dell'abbassamento dei costi dell'energia: è inutile pensare di rimanere sul mercato se i costi dell'energia, oltre a quelli del lavoro, sono così elevati. Insisto ancora con il Vice Ministro affermando che non può nemmeno essere presa una soluzione che trascuri l'assetto sociale e i riverberi sociali che il licenziamento di così tante persone ha all'interno della struttura ternana. I contratti di solidarietà, come è stato detto prima, possono essere attivati solo in condizioni particolari; sta al Governo gestire il tavolo di concertazione affinché, se non dovessero essere recuperate tutte le persone, queste condizioni siano verificate. Non si può accettare che ThyssenKrupp faccia il proprio interesse, chiudendo semplicemente l'impianto e traslocando le produzioni all'estero, solo in base ad una ragione di profitto. Dobbiamo ricordarci che l'industria siderurgica di Terni, come le altre del Paese, ci garantisce autonomia e indipendenza. Come è stato ricordato questa mattina nella discussione, negli anni addietro l'Italia veniva rimproverata di avere un esubero di produzione di acciaio. Oggi ci troviamo ad avere gli impianti in chiusura; ci troviamo ThyssenKrupp, industria tedesca, proprietaria delle acciaierie di Terni. Tutto questo non può essere visto in un'ottica provinciale e localistica: non è un problema di Terni, è un problema nazionale; non è un problema italiano, è un problema europeo. Signor Vice Ministro, non la faccio lunga; è questo che dovete andare a dire al Commissario europeo: la questione non si risolve se la si relega ad un problema nazionale italiano. Non vogliamo che si segua la stessa impostazione che ha lasciato l'Italia a gestire situazioni come quella di Mare nostrum. Problema italiano? No, noi non siamo la frontiera dispersa e se questa è l'impostazione della nuova Commissione europea, il Governo dimostri di interpretare, almeno nell'ultimo scampolo di semestre europeo, l'interesse della Nazione e di non essere remissivo su posizioni che non sono in alcun modo rispettose di chi lavora e di chi, rispettando l'articolo 1 della Costituzione, fa la propria parte di cittadinanza; ternana, italiana ed europea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Crosio.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Chiusura di votazione</head>
+            <note type="time">(ore 19)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u38">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg89">. Dichiaro chiusa la votazione per l'elezione di un senatore Segretario. Invito i senatori Segretari a procedere allo spoglio delle schede e al computo dei voti nell'adiacente Sala Pannini. (I senatori Segretari procedono al computo dei voti). Hanno preso parte alla votazione i senatori: Aiello, Airola, Albano, Albertini, Alicata, Amati, Amidei, Amoruso, Angioni, Anitori, Aracri, Arrigoni, Astorre, Augello, Auricchio, Azzollini Barani, Barozzino, Battista, Bellot, Bencini, Berger, Bernini, Bertacco, Bertorotta, Bertuzzi, Bianco, Bianconi, Bignami, Bisinella, Blundo, Bocca, Bocchino, Bonaiuti, Bonfrisco, Borioli, Broglia, Bruni, Bruno, Buccarella, Buemi, Bulgarelli Calderoli, Caleo, Caliendo, Campanella, Candiani, Cantini, Capacchione, Cappelletti, Cardinali, Caridi, Carraro, Casini, Castaldi, Catalfo, Centinaio, Ceroni, Cervellini, Chiavaroli, Chiti, Ciampolillo, Cioffi, Cirinnà, Cociancich, Collina, Colucci, Comaroli, Compagnone, Consiglio, Conte, Conti, Corsini, Cotti, Crosio, Cucca D'Adda, D'Alì, Dalla Tor, Dalla Zuanna, D'Ambrosio Lettieri, D'Anna, De Cristofaro, De Petris, De Pin, De Poli, De Siano, Del Barba, Di Biagio, Di Giacomo, Di Maggio, Divina, Donno Endrizzi, Esposito Stefano Fabbri, Falanga, Fasiolo, Fattori, Fattorini, Favero, Fazzone, Fedeli, Ferrara Elena, Ferrara Mario, Filippi, Filippin, Finocchiaro, Fissore, Floris, Formigoni, Fornaro, Fravezzi, Fucksia Gaetti, Galimberti, Gambaro, Gasparri, Gatti, Gibiino, Ginetti, Giovanardi, Giro, Girotto, Gotor, Granaiola, Gualdani, Guerra Ichino, Idem Lai, Langella, Laniece, Lanzillotta, Latorre, Lepri, Lezzi, Liuzzi, Lo Giudice, Lo Moro, Longo Eva, Longo Fausto Guilherme, Lucherini, Lucidi, Lumia Malan, Manassero, Manconi, Mancuso, Mandelli, Mangili, Maran, Marcucci, Margiotta, Marin, Marinello, Marino Luigi, Marino Mauro Maria, Martelli, Martini, Matteoli, Mattesini, Mauro Giovanni, Mauro Mario Walter, Mazzoni, Merloni, Messina, Micheloni, Migliavacca, Milo, Mineo, Minzolini, Mirabelli, Montevecchi, Morgoni, Moronese, Moscardelli, Munerato, Mussini Naccarato, Nugnes Orellana, Orrù Padua, Pagano, Pagliari, Pagnoncelli, Palma, Panizza, Parente, Pegorer, Pelino, Pepe, Perrone, Petraglia, Petrocelli, Pezzopane, Piccinelli, Piccoli, Pignedoli, Pizzetti, Puglia, Puglisi Ranucci, Razzi, Ricchiuti, Rizzotti, Romani Maurizio, Romani Paolo, Romano, Rossi Gianluca, Rossi Luciano, Rossi Mariarosaria, Rossi Maurizio Giuseppe, Russo, Ruta Saggese, Sangalli, Santangelo, Santini, Scalia, Scavone, Schifani, Sciascia, Scibona, Scilipoti Isgrò, Scoma, Serra, Sibilia, Silvestro, Simeoni, Sollo, Sonego, Spilabotte, Sposetti, Stefani Tarquinio, Taverna, Tocci, Tomaselli, Tonini, Torrisi, Tosato, Tronti, Turano Uras Vaccari, Vacciano, Valdinosi, Valentini, Vattuone, Verducci, Viceconte, Villari Zanda, Zanoni, Zin, Zizza, Zuffada.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ripresa della discussione delle mozioni 1-00300 (testo 2), 1-00327 (testo 3), 1-00338, 1-00339 e 1-00341 - Futuro stabilimento AST</head>
+            <note type="time">(ore 19,01)</note>
+            <note type="speaker">BAROZZINO (Misto-SEL)</note>
+            <u ana="#regular" who="#BarozzinoGiovanni" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u39">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg90">Signor Ministro, lei ha ricordato l'azione che hanno fatto i lavoratori; mi dispiace però che non abbia ricordato l'azione che ha fatto l'azienda, sigillando con le saldature gli ingressi dei cancelli. Siamo sempre alle solite. Alla luce della discussione avvenuta in quest'Aula e delle ultime dichiarazioni del presidente di Federacciai, mi pare evidente che i problemi che abbiamo di fronte sono gravi. Se si vuole dare realmente una soluzione alla ripresa dell'attività e della produzione dell'AST di Terni, la prima cosa da fare deve essere il totale ed attivo impegno del Governo nella trattativa, possibilmente con un ruolo che sia soprattutto dalla parte degli interessi dei lavoratori. Fino ad ora, da ciò di cui siamo a conoscenza, il Ministro delegato alla trattativa ha giocato un ruolo di comprimario o, nel migliore dei casi, di sostenitore delle proposte inaccettabili che l'azienda ha presentato al tavolo della trattativa. Noi, concordi con la FIOM e con i lavoratori, non possiamo condividere il piano industriale presentato ancora ieri dall'AST, perché riteniamo che tale piano sia debole, inefficace e non dia garanzie reali di effettiva ripresa di prospettive della produzione dell'acciaio. Oltretutto, lo stanziamento proposto dall'azienda ancora nella giornata di ieri risulta del tutto insufficiente: ci si limita ad un piano industriale di quattro anni programmato dall'azienda, ma presumibilmente con questi stanziamenti la produzione potrebbe fermarsi dopo il primo biennio. È paventata la chiusura di uno dei due forni: è un sintomo di mancanza di programmazione e di volontà di continuare la produzione a Terni. Da parte delle organizzazioni sindacali presenti al tavolo della trattativa c'è la massima disponibilità alla soluzione della questione, perché è interesse primario del sindacato fare gli interessi dei lavoratori, ma è evidente che non si possono accettare i ricatti solitamente usati nelle vertenze da parte padronale per creare divisioni tra i lavoratori, come sta succedendo all'AST. Il ruolo del Governo non dovrebbe essere perciò quello di fomentare tali divisioni, proponendo ad esempio di scavalcare le rappresentanze sindacali, mettendo i lavoratori in una situazione di conflitto con i propri compagni di lavoro - vi assicuro che non ci riuscirete - e permettendo addirittura, come ho detto prima, che l'azienda continui a fare provocazioni, come la saldatura dei cancelli d'ingresso. Pertanto, dato che finora i risultati della trattativa sono stati pressoché nulli, tant'è che lunedì prossimo una delegazione di sindacati e di lavoratori andrà in Germania a trattare direttamente con la Thyssen, riteniamo che debba essere direttamente il Presidente del Consiglio a farsi carico della questione, da considerarsi come questione nazionale che vada oltre l'AST di Terni, al fine di dare una soluzione alla produzione dell'acciaio come tema strategico per lo sviluppo industriale del nostro Paese. Questo deve essere l'impegno del Governo: un impegno per garantire i lavoratori, la loro dignità e la loro lotta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ROSSI Luciano (NCD)</note>
+            <u ana="#regular" who="#RossiLuciano" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u40">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg91">Signora Presidente, ho condiviso e ho voluto sottoscrivere la mozione del collega Gianluca Rossi, insieme al mio Capogruppo e ai colleghi del Nuovo Centrodestra. Lo abbiamo fatto convintamente leggendo un concentrato di storia e di verità che vi invito ad attenzionare entrando nel merito, perché sono storie vissute di verità e lavoro. Dentro questa condivisione non c'è solo una città, ma una storia di eccellenza dell'Italia, dell'Umbria e della città di Terni. È stato detto e scritto in maniera precisa e puntuale che questa azienda incide per il 20 per cento nel prodotto lordo della nostra Regione e per il 30 per cento dell' export dell'Umbria. Sono percentuali di eccellenza, sono numeri, ma dentro e dietro di essi ci sono storie di donne, di uomini, di impegno, di lavoro, di aziende, di famiglie: un qualcosa che merita un'attenzione che non mi sembra sia stata finora riservata a questo argomento. Il messaggio forte e chiaro alla neocommissaria Vestager, una gentile signora danese, ha trovato una risposta insufficiente e inadeguata, essendo probabilmente disinformata sul tema che stava trattando. Si tratta di un problema europeo, e spiegherò che è anche un problema nazionale sul quale bisognerebbe avere un'unità di intenti (e, lasciatemi dire, anche un'unità di mozioni), ove possibile. È un problema europeo che il Governo, con il ministro Guidi e il vice ministro De Vincenti (che, a differenza di qualcun altro, ritengo stiano facendo un ottimo lavoro), deve rappresentare a livelli nazionali e, soprattutto, alla Commissione europea. Il nostro premier, Matteo Renzi, dovrebbe andare direttamente dalla Merkel e ricordarle (questo è un passaggio che merita attenzione) come fu concessa alla ThyssenKrupp questa storica azienda di eccellenza. Andrebbe ricordato nei modi e nei termini: fu quasi un regalo. Ricordo che gli utili del primo anno sono stati sufficienti a compensare l'intero costo dell'operazione. Questo deve essere ricordato agli amici tedeschi, i quali, grazie alla complicità con Outokumpu, stanno di fatto rimettendo in ordine due stabilimenti importanti (quelli di Bochum e Krefeld) che nel programma sottoscritto dovevano vedere una progressiva riduzione in termini di produzione, mentre stanno vedendo investimenti, attenzioni e capacità produttiva. Ciò non può essere accettato. Questa tematica è stata giustamente evidenziata. Attenzione ai nervosismi crescenti, come ha ben detto il vice ministro De Vincenti, perché c'è una esasperazione dettata dalla consapevole ingiustizia che Terni, l'Umbria e, lasciatemi dire, l'Italia stanno vivendo. Abbiamo convintamente sottoscritto la mozione n. 300 (testo 2), di cui è primo firmatario il senatore Gianluca Rossi, a cui mi lega l'origine, auspicando - in tal senso vorrei consegnare anche un messaggio al Governo - che si riesca anche in questi pochi minuti a determinare una coesione, perché fin quando l'Italia si presenterà con mozioni diverse non andrà da nessuna parte. Dobbiamo avere la capacità e il coraggio all'interno di quest'Aula di trovare una grande condivisione da rappresentare all'Italia e, nello stesso tempo, all'Europa, dentro la quale vogliamo rimanere, ma non da gregari e non da marginali anche nel settore della siderurgia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo NCD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MARTELLI (M5S)</note>
+            <u ana="#regular" who="#MartelliCarlo" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u41">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg92">Signora Presidente, ho letto le vostre mozioni e se la vostra risposta alle crisi di Terni, ma anche di Taranto, della Ferriera di Servola o di Piombino sono quelle mozioni (magari con un po' di manganellate agli operai che protestano) allora posso dire che non avete proprio capito la domanda, perché date una risposta sbagliata. E perché la risposta sbagliata? Perché, prima di tutto, non avete centrato il problema fondamentale che si traduce in «benvenuti in Europa, benvenuti nell'Unione europea», la stessa Unione europea che ci disse tempo fa di chiudere il sito di Bagnoli perché produceva troppo acciaio. In nome e per conto di chi l'Unione europea ce lo disse? In nome e per conto della ThyssenKrupp che ai tempi era costituita da due colossi della siderurgia, uno tedesco e uno olandese. Benvenuti, quindi, nell'Europa dove si fanno gli interessi del più grosso e non quelli dei cittadini. Questa è la prima osservazione da fare. La seconda domanda che non vi fate mai è: qual è lo scopo che ha un compratore estero più grosso nell'acquistare qualcosa di più piccolo? È semplice; succede sempre così: il grosso mangia il piccolo e lo svuota del suo contenuto tecnologico magari spostandolo altrove. Che caso! È esattamente quello che ha fatto la ThyssenKrupp con le acciaierie di Terni: ha spostato le produzioni nobili in Germania e in Messico e ha lasciato quelle meno nobile. Ma naturalmente nessuno si è posto questa domanda. Sicuramente non se la pongono gli illustri scienziati dei Ministeri. Eppure, è una regola del mercato: non bisogna mai cedere il business principale. Pensate al caso dell'IBM. Quando ha venduto il settore PC lo ha fatto perché non rappresentava più il nucleo principale della sua produzione: era marginale, non vi era più un contenuto tecnologico che si potesse cedere ai cinesi della Lenovo. Era solo una rogna ed è stata ceduta a qualcuno che poteva assicurare la produzione ad un costo minore. Quella fu una buona operazione. Cedere invece le acciaierie di Terni prima ai finlandesi e poi ai tedesco-olandesi non è stata una grande decisione. Ma bisognava che ci pensaste prima. In secondo luogo, con il contenuto delle vostre mozione dimostrate di non conoscere neppure la realtà di Terni perché non sapete neanche quanta gente ci lavora. Eppure si tratta di un numero intero positivo, finito. Il PD, nella sua mozione, ha scritto che sono 2.900. Il Gruppo Misto-SEL ha scritto 2.900, ma anche 2.600. Facciamo una media? La Lega Nord ha detto 2.800, così come Forza Italia. Il numero preciso è 2.303: quello è il numero, sommando i dirigenti, i quadri e gli operai. Se volete, ci sono altre 549 persone che lavorano nelle società controllate. La somma fa, comunque, un numero diverso da tutti quelli che avete elencato. Mi dispiace, ma non sapete neanche contare quante persone lavorano nello stabilimento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg93">Ma è il contenuto di queste mozioni (soprattutto nella versione modificata dal Governo) ad essere agghiacciante, perché esso riassume una visione industriale che è un misto tra videogioco e dinosauro, nel senso che voi vedete una realtà che è congelata; è quella. La vostra visione, la vostra prospettiva per uno stabilimento siderurgico è la stessa, come se questa produzione potesse andare avanti all'infinito. Questa è una prospettiva completamente sbagliata, perché vuol dire bloccare completamente il processo tecnologico. In questo modo voi vincolate risorse ed iniziativa al fine di mantenere una produzione, a prescindere da tutte le altre. Questa è, di per sé, una politica sbagliata, perché anche noi avremmo dovuto imparare da situazioni precedenti che ostinarsi a fare questo è uno spreco di risorse e, comunque, non porta al mantenimento occupazionale. Un esempio? Lo stabilimento Alfa Romeo di Arese, che occupava 19.000 persone. Adesso vi lavorano zero persone. In compenso, la FIAT, dal 1977 al 2013, si è pappata 7,6 miliardi in sussidi di Stato: ha preso i soldi e ha comunque licenziato le persone.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e dei senatori Campanella e Bencini</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg94">Quindi la risposta (questo è un cambio di paradigma che voi dovreste avere) - ve la butto lì, magari la cogliete - non sta nel mantenimento dell'occupazione, ma nella salvaguardia del reddito, che sono due cose profondamente diverse.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg95">Impariamo ad usare le parole esattamente per il senso che hanno. Detto che non ha senso mantenere industrialmente un sito quando la natura stessa di questo sito lo porta in un'altra direzione, quello che la nostra mozione vuole trasmettervi - spero che qualcuno l'abbia letta - è uno slancio in avanti, perché l'alternativa ad una situazione bloccata è una prospettiva, cioè una strategia di uscita (io a trent'anni voglio essere lì), e un percorso con cui si arriva a quella posizione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg96">Questo è il lavoro del politico, che non deve essere quello del commissario o dell'imprenditore che dice come deve essere gestito uno stabilimento: questo lavoro lo deve fare l'imprenditore. Lo Stato ha un'altra funzione e voi, con queste mozioni, abdicate alla funzione di Stato e vi improvvisate Stato imprenditore. Anche questa è una cosa fondamentalmente sbagliata. Lo Stato deve dare l'idea di dove si deve andare, deve creare la cornice. L'imprenditore o sta dentro quella cornice, oppure ne esce perché non è più competitivo. La storia è piena di aziende che sono uscite perché non erano più competitive, oppure si sono reinventate, come la Suez, la società che gestiva il canale omonimo, che adesso ovviamente non gestisce più niente perché il canale è stato nazionalizzato. Non è che sia morta; adesso, sventuratamente, fa profitto sull'acqua pubblica insieme con Lyonnaise des Eaux. Questo è però il sintomo di come un imprenditore non debba essere sempre lì a dire allo Stato: fammi questo. L'imprenditore deve essere colui che si adegua o, addirittura, crea la tendenza e gli altri gli vanno dietro. L'imprenditore è questo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg97">Queste crisi devono anche essere considerate come opportunità. Il senso della mozione è questo, e voi non lo avete minimamente colto. Anzi, le riformulazioni proposte sono ancora più reazionarie. Mi sembrate l'agente Smith di Matrix: il custode dell'ortodossia di Matrix, colui che interviene tutte le volte che c'è una piccola anomalia del programma. Non è così che funziona.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg98">Un altro sintomo che non può funzionare così è stato detto precedentemente dal Sottosegretario: nell'ultimo quinquennio le acciaierie di Terni hanno perso 900 milioni, di cui 150 solo nell'ultimo anno. Questo va raffrontato con un dato che mi fu fatto osservare dall'allora e tuttora commissario alle acciaierie di Piombino: mi riferisco al monte stipendi che le acciaierie di Terni pagano a tutte le loro maestranze (sempre i famosi 2.849), pari a 67 milioni. Perdo 150 milioni e ne pago 67 di stipendi. Il commissario di allora definì immorale un'azienda che perdeva più soldi di quanti ne pagasse per le proprie maestranze.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg99">Il paradosso infatti è sempre lo stesso, nel senso che all'azienda converrebbe di più pagare la gente per non fare nulla e chiudere la produzione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg100">Dalla nostra mozione è stata depennata tutta la parte in materia sanitaria e ambientale, come se la questione non esistesse; anzi, è stato detto addirittura che nel sito di Terni le questioni ambientali e sanitarie non si pongono. Questo però è falso, perché Terni è una delle città più inquinate d'Italia: a dirlo sono, ad esempio, l'Istituto superiore di sanità o lo Studio SENTIERI (Studio epidemiologico nazionale dei territori e degli insediamenti esposti a rischio da inquinamento). In particolare, in entrambi i casi gli inquinanti individuati sono - sempre casualmente - quelli connessi alla lavorazione di acciai legati, cioè quegli acciai che hanno al loro interno dei materiali di lega, che solitamente sono metalli nobili, i cosiddetti metalli pesanti, che danno all'acciaio tutte le caratteristiche che si desidera chiedere: cromo, per esempio, per l'acciaio inossidabile; vanadio, molibdeno. Tutti questi metalli sono presenti nell'aria e nel terreno e non si può dire che questo non sia direttamente correlato con l'impianto siderurgico: chiedere quindi di depennare dalla nostra mozione queste parti è - dal mio punto di vista, ma non solo dal mio - negazionismo ambientale: negate un problema, ben sapendo che esso si ripresenterà.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg101">Ormai abbiamo sentito che cosa ha detto il Governo, ma potreste comunque avere un momento di resipiscenza e di responsabilità. Vi invito dunque a riflettere, provate a leggere le mozioni e i dispositivi: rendetevi conto che, alla fine, un'azienda deve essere responsabile per quello che fa, deve essere ambientalmente compatibile. Non esiste il concetto di costo sostenibile per un'azienda che alla fine avvelena noi e tutta la nostra discendenza.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg102">Nell'eterno conflitto dovete mettere sul piatto della bilancia due cose. Con questo non sto dicendo che l'azienda debba chiudere; quello che voglio dire però è che all'interno di quell'azienda lavorano 2.849 persone, ma ce ne sono altre 123.000 tutte attorno, che non lavorano lì dentro. Allora il mio invito è a mettere sul piatto della bilancia entrambe le questioni: chi ci lavora e chi subisce.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg103">Un altro esempio storico è il sito Eternit di Casale Monferrato: la gente moriva più fuori che dentro e la maggior parte della gente era fuori, non dentro. Questo però non fu mai soppesato perché ai tempi c'era un'altra mentalità, che adesso non ci dovrebbe più essere. Eppure il ragionamento permane lo stesso.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg104">L'altra considerazione riguarda gli extracosti sanitari che vengono sempre considerati, ma mai prezzati in questo tipo di ragionamenti: ancora una volta non si considerano e si fa un'analisi puramente industriale, che è una cosa sbagliata.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg105">L'ultima cosa la dico, invece, ai signori di Sinistra Ecologia e Libertà. A dispetto del nome del vostro partito e Gruppo, la mozione che avete presentato è proprio di stampo industrialista. Voi dite: «Più acciaio, più lavoro». Sembra un piano quinquennale di staliniana memoria, lasciatemelo dire, che va peraltro del tutto in contrasto con la posizione che voi assumete rispetto all'Ilva di Taranto, dove siete favorevoli alla chiusura dell'area a caldo. Vi chiederei di acquistare almeno un minimo di coerenza: se l'area a caldo va chiusa, questo va fatto solo da una parte e non dall'altra? In nome di che cosa fate questa totale separazione di ragionamento tra una parte e l'altra? Non voglio suggerirvi la risposta, ma almeno rifletteteci.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg106">PRESIDENTE. Senatore Martelli, la invito a concludere il suo intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg107">Concludo. Vi chiediamo, quindi di leggere la nostra mozione e di votarla poi favorevolmente</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Di Maggio.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u42">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg108">Signora Presidente, la produzione dell'acciaio in Italia non è un tema che finisce sulle prime pagine dei giornali, se non quando si verificano fatti incresciosi come quelli della scorsa settimana, con gli scontri e con gli operai che hanno incontrato un eccesso di zelo da parte della polizia o quando, come sta accadendo in queste ore, vengono bloccate incresciosamente autostrade e mezzi di comunicazione. In altre circostanze, come dicevo, la produzione dell'acciaio non fa i titoli, non è oggetto di dibattiti: non c'è competizione, da questo punto di vista, con temi come la riforma della legge elettorale, con l'ultimo proclama del giorno. Invece la produzione dell'acciaio è importantissima nel nostro Paese. L'Italia è tra i leader mondiali in questo settore, con tre grandi unità produttive: a Terni, a Taranto (l'Ilva) e a Piombino. Si tratta di realtà molto importanti, di lunga tradizione, che subiscono, insieme all'intera produzione di acciaio europea, la concorrenza anche in questo caso dell'Asia, oltre che - c'è il rischio che emergano - di ulteriori produttori. Ebbene, in un settore così importante, strategico, occorre fare di tutto perché quello che riesce a sopravvivere alla difficile concorrenza, alla crisi che, bene o male, investe, sia pure in misura diversa, tutto il Pianeta, quindi che almeno coloro che riescono a sopravvivere a questi ostacoli difficilissimi, creati evidentemente dal mercato, non si trovino ad essere vittime di un'interpretazione troppo restrittiva delle regolamentazioni contro la concorrenza, o che, in particolare gli impianti italiani, non vengano penalizzati a beneficio di impianti, ad esempio presenti in Germania, della stessa grande azienda. Pertanto, è importantissimo che il Governo si adoperi, come gli chiediamo nella nostra mozione, per facilitare un accordo tra l'azienda e le parti sindacali, ma anche che il Governo si adoperi presso l'Unione europea, anche se questo, ripeto, non fa la prima pagina (ma fa posti di lavoro), perché si cambi l'approccio. Non si può pensare di considerare un eccesso di posizione dominante il fatto che un'azienda sia leader in Europa, quando nel mondo globale la concorrenza è di colossi molto più grandi che usufruiscono - per esempio, in Cina - di ogni tipo di agevolazione da parte dello Stato, in Paesi dove i problemi giusti che noi ci facciamo sull'ambiente sono del tutto ignorati (evidentemente l'abuso di posizione dominante in Cina non è neppure una parola conosciuta). Bisogna fare in modo che l'Europa allarghi il suo orizzonte e non punisca chi cerca di avere dimensioni tali da poter competere al livello globale. Credo sia importante avere fatto questa discussione. A volte le mozioni danno un po' la sensazione di avere riempito una mattinata, in questo caso un pomeriggio, ma in questo caso è importante dare al Governo un forte sostegno e un forte stimolo ad agire, sia per la parte naturalmente che riguarda l'Italia sia per la parte che riguarda un'azione internazionale. Questa è una questione vitale per il nostro Paese. È uno dei pochi settori industriali dove ancora siamo una realtà significativa e importante: dobbiamo avere una forte posizione. Il Governo non deve considerarla una questione secondaria - non è un'ordinaria vertenza sindacale; non è una crisi qualsiasi, benché tutte le crisi siano degne di grande attenzione - e deve trovare una soluzione che non sia tampone o di compromesso, magari per tenere calmo qualcuno oggi e la settimana prossima, ma sia una soluzione strategica. La produzione dell'acciaio in Italia non può essere trattata come un fatto secondario: deve restare in Italia, deve progredire per essere competitiva e deve anche essere dato modo a questo settore di sopravvivere senza subire penalizzazioni irragionevoli, che magari vanno a beneficio di altri Paesi europei, che fanno forse meno proclami ma che riescono ad essere più influenti sulle decisioni dell'Unione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">TOMASELLI (PD)</note>
+            <u ana="#regular" who="#TomaselliSalvatore" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u43">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg109">Signora Presidente, credo che la discussione che abbiamo svolto in questa giornata sul futuro dello stabilimento AST di Terni sia l'occasione importante per focalizzare l'impegno del Parlamento e del Governo del nostro Paese su uno dei settori strategici della manifattura italiana. Parliamo di un settore - è stato richiamato nel corso del dibattito - che occupa 70.000 addetti, 34 miliardi di fatturato, il due per cento del prodotto interno lordo del nostro Paese. Un settore strategico per questi numeri, e un settore decisivo per mantenere una solida presenza della manifattura del nostro Paese nella competizione globale, ogni giorno sempre più vorticosamente esposta ai venti di una concorrenza sempre più sfidante. Abbiamo discusso di Terni, una delle realtà più antiche e importanti del nostro Paese; una realtà in cui sono coinvolti centinaia e migliaia di lavoratori. Uno stabilimento che produce il 40 per cento della produzione nazionale dei laminati piani inox, dentro una filiera nazionale, che utilizza questo tipo di materia assolutamente storica e imprescindibile per il nostro Paese. La meticolosa ricostruzione del lungo travaglio passato e futuro di questo stabilimento, che abbiamo letto nelle varie mozioni, a cominciare da quella del Gruppo del Partito Democratico, illustrata dal collega senatore Gianluca Rossi, e che è stata testimoniata nella replica dal vice ministro De Vincenti, che ha seguito e continua a seguire con grandissima tensione e passione questo lavoro così delicato e meticoloso, ci dà l'idea che il nostro Paese, il Governo e il Parlamento abbiano deciso di seguire non solo l'impatto sociale gravissimo di questa così grave vicenda di futuro industriale. Le tensioni di queste ultime settimane, che anche oggi si sono manifestate, con i lavoratori che ancora una volta sono scesi in piazza, danno il segno chiaro non solo del fatto che i lavoratori non intendono arrendersi - e a loro va la nostra totale solidarietà, completa e assoluta, per quanto stanno compiendo nel tenere in piedi una mobilitazione così costosa per loro stessi e per le loro famiglie - ma danno anche l'idea di un impegno, alla cui testa ci sono quegli stessi lavoratori, oltre che il Governo e il Parlamento, affinché si possa costruire un futuro sostenibile, dal punto di vista industriale e delle prospettive future, per lo stabilimento di Terni. Questo lavoro ha bisogno di trovare uno sbocco nelle prossime ore e nei prossimi giorni. Il vice ministro De Vincenti ha annunciato qui la convocazione, già da lunedì, di un ulteriore tentativo e io credo che ci siano i contenuti e le idee perché si possa ottenere un risultato positivo. Si tratta delle idee e dei contenuti presenti nella nostra mozione, che ovviamente voteremo, che vanno non solo nell'ottica del mantenimento della base occupazionale. Vorrei dire ai colleghi del Movimento 5 Stelle, che hanno concluso il loro intervento dicendo sostanzialmente che l'auspicio di chiudere quello stabilimento in fondo è in qualche modo ragionevole e nelle cose, che noi continueremo a lavorare, fino alla fine, non solo perché si mantengano quei livelli occupazionali, ma soprattutto perché si mantenga una capacità produttiva integrata, innovativa, frutto dell'ammodernamento degli impianti e di uno sforzo verso la ricerca e lo sviluppo, di un adeguamento della rete commerciale e di vendita dei prodotti, perché ci sia, cioè, non un futuro assistito per quello stabilimento, ma un futuro competitivo per quella parte di siderurgia italiana. Non basta l'impegno del Parlamento e del Governo italiano, di cui abbiamo ben chiara la portata. C'è bisogno che l'Europa, su questo singolo aspetto di crisi aziendale, faccia sentire la sua voce, al di là delle battute infelici della commissaria europea Vestager dei giorni scorsi. Abbiamo la necessità che sul tema del futuro della siderurgia europea, e in particolare di quella italiana, per il ruolo che essa ha nel complesso europeo, per le crisi gravissime con cui siamo alle prese da anni in questo settore (da Terni, a Piombino, all'Ilva di Taranto, il più grande stabilimento siderurgico d'Europa) l' action plan, il piano di azione per il rilancio dell'acciaio europeo non resti lettera morta, non resti semplicemente un bel documento, ma sia un documento a cui seguono proposte concrete, impegni e investimenti. Esso deve costituire una parte consistente di quei 300 miliardi di investimento annunciati dal Presidente della Commissione europea Juncker, in modo di accelerare il processo di innovazione e di competitività della siderurgia europea, e quindi italiana. C'è infatti il tema dell'innovazione e di un più corretto funzionamento del mercato interno. C'è il tema rilevante della sostenibilità ambientale delle produzioni. C'è il tema dell'accesso alle materie prime e del costo dell'energia. Si tratta, quindi, di temi complessi attraverso i quali passa il futuro della siderurgia italiana e anche dello stabilimento di Terni, di cui ci siamo in questa sede occupati. Abbiamo bisogno - e lo diciamo al Governo italiano perché se ne faccia carico, ma sappiamo di sfondare porte aperte e di parlare ad orecchie assolutamente sensibili - proprio in queste settimane che volgono al termine della guida del semestre italiano dell'Unione europea, che la stessa Unione svolga un ruolo attivo, e non solo nell'essere garante formale della concorrenza. La vicenda dello stabilimento di Terni è il simbolo che l'Europa ha svolto un ruolo attivo, mettendo mani e piedi quando si è trattato di porre un limite a Outokumpu che voleva rilevare Terni e vi era un problema di aumento di quota di mercato. Chiediamo che l'Europa svolga un ruolo attivo anche nell'indirizzo economico e nello svolgimento di politiche industriali, che non possono più essere meramente nazionali, ma hanno bisogno di nutrirsi di una visione comunitaria davvero integrata. Questa è la discussione che abbiamo svolto oggi. Questa è Terni per noi. Non si tratta solo di una grande sfida per mantenere le migliaia di posti di lavoro e il futuro solido di una città operosa e industriale come Terni, ma anche di un pezzo di politica industriale, del futuro della manifattura italiana a cui noi crediamo non si possa e non si debba rinunciare, in una logica giammai di conservazione, bensì di fortissima innovazione e di rilancio della competizione, a cui il nostro Paese può tornare a guardare con fiducia e speranza. Per queste ragioni sosterremo la mozione presentata dal PD a prima firma del senatore Gianluca Rossi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u44">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg110">Prima di passare alle votazioni, avverto che, in linea con una prassi consolidata, le mozioni saranno poste ai voti secondo l'ordine di presentazione e per le parti non precluse né assorbite da precedenti votazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg111">Chiedo al primo firmatario e agli altri presentatori della mozione n. 300 (testo 2) se accolgono le riformulazioni proposte dal Governo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg112">ROSSI Gianluca (PD). Signora Presidente, accogliamo le riformulazioni proposte. PRESIDENTE. Metto ai voti la mozione n. 300 (testo 3), presentata dal senatore Rossi Gianluca e da altri senatori. È approvata. GAETTI (M5S). Signora Presidente, siccome abbiamo fatto confusione, chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. È approvata. Senatore Lucidi, accoglie le proposte di riformulazione del Governo alla mozione n. 327 (testo 3)? LUCIDI (M5S). Signora Presidente, chiediamo la votazione per parti separate della mozione, in quanto accogliamo le riformulazioni proposte dal Governo ai punti 1), 6), 7), 8), 9) e 10) e chiediamo in ogni caso la votazione dei punti 2), 3), 4) e 5) del dispositivo che non sono stati accolti dal Governo o di cui non accogliamo le riformulazioni. In sostanza, chiediamo due votazioni della mozione. PRESIDENTE. Se non ci sono osservazioni, passiamo alla votazione per parti separate della mozione n. 327 (testo 4). BARANI (GAL). Domando di parlare. PRESIDENTE. Ne ha facoltà. BARANI (GAL). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo la prima parte della mozione n. 327 (testo 4), presentata dal senatore Lucidi e da altri senatori, comprendente la premessa e i punti 1), 6), 7), 8), 9) e 10) del dispositivo. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo della restante parte della mozione n. 327 (testo 4), presentata dal senatore Lucidi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Senatrice De Petris, accoglie le proposte di riformulazione avanzate dal Governo sulla mozione n. 338? DE PETRIS (Misto-SEL). Sì, signora Presidente, le accogliamo. PRESIDENTE. Passiamo alla votazione della mozione n. 338 (testo 2). BARANI (GAL). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo della mozione n. 338 (testo 2), presentata dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). I presentatori accettano le riformulazioni proposte dal Governo sulla mozione n. 339? CANDIANI (LN-Aut). Sì, signora Presidente. PRESIDENTE. Passiamo alla votazione della mozione n. 339 (testo 2). BARANI (GAL). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo della mozione n. 339 (testo 2), presentata dal senatore Consiglio e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Senatrice Pelino, accoglie le riformulazioni richieste dal Governo sulla mozione n. 341? PELINO (FI-PdL XVII). Le accogliamo, signora Presidente. PRESIDENTE. Passiamo alla votazione della mozione n. 341 (testo 2). BARANI (GAL). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo della mozione n. 341 (testo 2), presentata dalla senatrice Pelino e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Risultato di votazione</head>
+            <note type="time">(ore 19,36)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u45">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg113">Comunico il risultato della votazione a scrutinio segreto per l'elezione di un senatore Segretario:</seg>
+               <note type="voting">Senatori presenti 259 Senatori votanti 259</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg114">Hanno ottenuto voti i senatori:</seg>
+               <note type="summary">Scoma 74 Mussini 37 Vacciano 11 Vaccari 3 Zin 3 Scilipoti Isgrò 2 Cardinali 2 Razzi 2 Ceroni 2 Dispersi 5 Schede bianche 99 Schede nulle 17</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg115">Proclamo eletto Segretario il senatore Francesco Scoma, cui vanno i nostri migliori auguri di buon lavoro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, FI-PdL XVII e NCD. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla missione spaziale «Rosetta»</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u46">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg116">Colleghi, desideriamo socializzare in Aula un evento importante avvenuto oggi pomeriggio: nell'ambito della missione spaziale «Rosetta» con tecnologia italiana, il lander si è staccato dal modulo ed è arrivato sulla cometa. È un evento importante che spero ci unisca tutti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla votazione per l'elezione di un senatore Segretario</head>
+            <note type="speaker">CENTINAIO (LN-Aut)</note>
+            <u ana="#regular" who="#CentinaioGianMarco" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u47">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg117">Signora Presidente, per dignità del mio voto desidero sottolineare che non posso considerare il mio un voto disperso, quindi chiedo che venga elencato insieme agli altri! PRESIDENTE. Va bene, senatore Centinaio, ne prendiamo atto.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulle votazioni delle mozioni sul futuro dello stabilimento Acciai Speciali Terni-AST</head>
+            <note type="speaker">CIAMPOLILLO (M5S)</note>
+            <u ana="#regular" who="#CiampolilloLello" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u48">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg118">Signora Presidente, intervengo sull'ordine dei lavori. Anche oggi il premio del pianista del giorno va al senatore Milo, che ha nuovamente votato le mozioni anche per il senatore Falanga. Attendiamo sempre le sanzioni nei confronti dei senatori di quei Gruppi che non sono il Movimento 5 Stelle. Attendiamo!</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">FAVERO (PD)</note>
+            <u ana="#regular" who="#FaveroNicoletta" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u49">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg119">Chiedo per favore ai colleghi, senatrici e senatori, di abbandonare l'Aula senza fare troppo rumore.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg120">CIAMPOLILLO (M5S). É una vergogna! Prenda provvedimenti! PRESIDENTE. Senatore Ciampolillo, per favore, ha già avuto la parola, si sieda. Prego, senatrice Favero. FAVERO (PD). Grazie, signora Presidente. Ho chiesto di intervenire per esprimere vicinanza e cordoglio alla famiglia di Brunello Canuto, che questa mattina è stato ucciso a Crevacuore nella provincia di Biella da una frana nei pressi della sua abitazione. Nello stesso tragico evento è rimasta ferita in modo grave un'altra persona che mi auguro, anzi, ci auguriamo, si riprenda presto. La situazione a Biella e nel biellese è seria. I torrenti stanno esondando e molte strade della valle Sessera sono chiuse. I vigili del fuoco, la protezione civile e i sindaci sono sul campo e stanno lavorando instancabilmente. Nelle ultime 12 ore sono caduti 115 millimetri di pioggia nelle Alpi tra Piedicavallo e Sabbia (Vercelli), quindi, in tutto l'arco alpino. È stata inoltre colpita la valle Elvo e sono state chiuse molte strade anche tra Occhieppo e Sordevolo. Alcune abitazioni sono state evacuate. Tutte le zone collinari del territorio sono a rischio frane e vengono monitorate. C'è timore soprattutto nella valle di Mosso, dove il torrente Strona si è gonfiato. È vivo ancora negli abitanti della zona e non solo il ricordo della terribile alluvione del 1968 che provocò 64 morti, di cui 58 solo nella zona della valle Strona. Cento fabbriche furono danneggiate e si verificarono 30 miliardi di danni ingenti nelle fabbriche. Le aziende sono state chiuse. I dati ci dicono che negli ultimi 20 anni sono morte quasi mille persone a causa del dissenso idraulico e geologico e l'Italia ha speso circa tre miliardi e mezzo di euro all'anno in gestione per la sola emergenza. Auspichiamo che le misure presenti nello sblocca Italia funzionino, impiegando gli oltre quattro miliardi finora colpevolmente non utilizzati per mantenere il territorio e affrontare il dissesto idrogeologico e depurare le acque. Ci vuole, dopo la discussione in Aula delle mozioni sui rischi di dissesto idrogeologico, un vero cambio di passo per far sì che alle parole seguono fatti concreti. È stato chiesto dalla Provincia lo stato di calamità. Le scuole superiori domani sono chiuse, proprio per i pericoli connessi alla chiusura delle strade. Per fortuna non piove più e, quindi, lo stato di allerta è sceso a giallo, ma ritengo sia doveroso, dopo aver sentito anche la Regione, il riconoscimento tempestivo dello stato di calamità per tutta la zona.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg121">PRESIDENTE. La ringrazio, senatrice Favero. Le Presidenza si associa e si dispiace che l'Assemblea sia stata un po' distratta.</seg>
+            </u>
+            <note type="speaker">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u50">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg122">Signora Presidente, colleghi, vorrei richiamare la vostra attenzione sui toni, i metodi e le parole usate dall'onorevole deputato Di Battista ieri alla Camera nei confronti del sindaco di Carrara Zubbani. Da un parlamentare ci aspettiamo di più e meglio e, in primo luogo, il rispetto istituzionale dovuto a chiunque svolge una funzione pubblica.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg123">PRESIDENTE. No, state tranquilli. Senatore, si rivolga all'Aula. Negli interventi di fine seduta ne sentiamo sempre di ogni tipo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti delle senatrici Lezzi e Donno</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg124">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE). Quello che inquieta coloro che ancora credono nella democrazia e nell'onore delle istituzioni...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Lezzi</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg125">PRESIDENTE. Senatore, si rivolga all'Aula. Faccia il suo intervento di tre minuti e la senatrice Lezzi che stava uscendo decida se vuol star dentro in silenzio o fuori.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste delle senatrici Lezzi e Catalfo</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg126">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE). Come ho già avuto modo di ricordare poc'anzi, in quest'Aula il rispetto delle regole è semplicemente un'illusione.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg127">LEZZI (M5S). Deve sempre fare un attacco al giorno. PRESIDENTE. Le regole è giusto che le rispettiamo tutti. Chiedo ai senatori e alle senatrici di lasciar parlare il senatore Buemi per esprimere la propria opinione.</seg>
+               <vocal type="speaking">
+                  <desc>Vivaci commenti dei senatori Castaldi e Ciampolillo</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg128">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE). Esprimo nei confronti del sindaco di Carrara Zubbani la mia solidarietà e il mio appoggio incondizionato rispetto all'azione che sta svolgendo in quel territorio, contrariamente a coloro che puntano a demolire le istituzioni e a impedire che sia effettuata un'azione di recupero di quel territorio</seg>
+               <vocal type="speaking">
+                  <desc>Vivaci commenti dal Gruppo M5S all'indirizzo del senatore Buemi</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg129">Le responsabilità devono essere accertate dalla magistratura, ma è certo che il sindaco di Carrara non è responsabile per un'opera costruita da un'altra istituzione e verso la quale le sue responsabilità non esistono.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg130">Voi siete degli strumentalizzatori.</seg>
+               <vocal type="speaking">
+                  <desc>Vivaci e reiterati commenti della senatrice Lezzi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg131">PRESIDENTE. Senatore, fuori da quest'Aula si sente la sua voce e non quella della senatrice Lezzi. Vada avanti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg132">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE). Forza Zubbani! Avanti sindaco! Forza carraresi!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP, UV, PATT, UPT)-PSI-MAIE, PD e FI-PdL XVII. Proteste dal Gruppo M5S. Commenti del senatore Buemi all'indirizzo di alcuni senatori del Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg133">PRESIDENTE. Senatore, in quest'Aula ciascuno ha il diritto di esprimere la propria opinione. Lei non si preoccupi, valuteremo tutto.</seg>
+               <vocal type="speaking">
+                  <desc>Vivaci commenti della senatrice Lezzi all'indirizzo del senatore Buemi.</desc>
+               </vocal>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Disegno di legge (1670) fatto proprio da Gruppo parlamentare</head>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u51">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg134">Signora Presidente, intervengo per comunicare che il mio Gruppo fa proprio il disegno di legge n. 1670, a norma dell'articolo 79 del regolamento del Senato. PRESIDENTE. La Presidenza ne prende atto a tutti i conseguenti effetti regolamentari.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u52">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg135">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per le sedute di giovedì 13 novembre 2014</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#FedeliValeria" xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.u53">
+               <seg xml:id="ParlaMint-IT_2014-11-12-LEG17-Sed-350.seg136">Il Senato tornerà a riunirsi domani, giovedì 13 novembre, in due sedute pubbliche, la prima alle ore 9,30 e la seconda alle ore 16, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 19,46).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

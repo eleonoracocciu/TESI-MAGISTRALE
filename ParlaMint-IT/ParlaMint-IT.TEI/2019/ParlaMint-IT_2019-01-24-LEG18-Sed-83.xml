@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 83 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 83 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 83, giorno (2019-01-24)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 83, Day (2019-01-24)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="83-upper">83 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="163" unit="speeches" xml:lang="it">163 discorsi</measure>
+            <measure quantity="163" unit="speeches" xml:lang="en">163 speeches</measure>
+            <measure quantity="12089" unit="words" xml:lang="it">12.089 parole</measure>
+            <measure quantity="12089" unit="words" xml:lang="en">12,089 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1097814</idno>
+               <date when="2019-01-24">24.01.2019</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="13"/>
+               <tagUsage gi="head" occurs="12"/>
+               <tagUsage gi="note" occurs="135"/>
+               <tagUsage gi="seg" occurs="163"/>
+               <tagUsage gi="u" occurs="62"/>
+               <tagUsage gi="vocal" occurs="11"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="51"/>
+               <tagUsage gi="incident" occurs="2"/>
+               <tagUsage gi="desc" occurs="64"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2019-01-24">24.01.2019</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente LA RUSSA</note>
+            <note type="time">09,43</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u1">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg1">La seduta è aperta (ore 9,43). Si dia lettura del processo verbale. LAFORGIA , segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u2">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u3">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg3">Onorevoli colleghi, vi informo che la Conferenza dei Capigruppo è stata temporaneamente sospesa e riprenderà alle ore 10,15.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla crisi politica in Venezuela</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u4">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg4">Abbiamo mezz'ora di tempo per affrontare un tema che considero molto rilevante e che la Conferenza dei Capigruppo ha autorizzato a trattare subito, in apertura di seduta, ovvero la crisi politica in Venezuela.</seg>
+            </u>
+            <note type="speaker">CASINI (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#CasiniPierFerdinando" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u5">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg5">Signor Presidente, anzitutto vorrei iniziare questo breve intervento esprimendo un pensiero affettuoso e sincero, spero rappresentativo di tutto il Parlamento, agli italiani che vivono in Venezuela</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg6">e che in questo momento soffrono pesantemente le conseguenze di una situazione che si protrae da diversi anni.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg7">Onorevoli colleghi, credo che tutti abbiamo assistito con apprensione a quello che sta accadendo in Venezuela. Vorrei dire una cosa in premessa. Sul Venezuela la politica italiana negli anni passati si è divisa pesantemente: del Venezuela abbiamo dato giudizi diversi; storicamente del chavismo sono stati dati giudizi diversi. Ma oggi non è il momento di riaprire la pagina delle discussioni storico-politiche. Oggi è il momento di guardare in faccia la realtà e di vedere come uno dei Paesi che negli anni Settanta era tra i più ricchi del mondo, ai vertici di tutte le statistiche mondiali, oggi si è ridotto ad essere un Paese in cui un decimo della popolazione è scappato, il 90 per cento vive sotto i livelli di dignità, la maggior parte dei bambini non va più a scuola perché alla ricerca, tra i bidoni della spazzatura, di qualcosa da mangiare per sé e per la famiglia, essendo il cibo razionato; la produzione petrolifera è scesa da 3 milioni di barili a 900.000 e, probabilmente, nei prossimi mesi si arresterà, per la semplice ragione che non sono state adeguate le attrezzature in tutti questi anni, e quindi anche l'unica risorsa di cui il Paese dispone si sta inaridendo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg8">Davanti a questa situazione, colleghi, sapete benissimo che negli anni scorsi sono intervenute le autorità internazionali, dall'ONU all'Organizzazione degli Stati americani, dal Mercosur a quella che è la principale risorsa spirituale del Venezuela, la Chiesa cattolica con la Conferenza episcopale. Non solo. Il Santo Padre, Papa Francesco, e il Vaticano sono intervenuti più volte anche per cercare di proporsi - poiché avevano il consenso di tutti, del regime e dell'opposizione - come elemento di dialogo politico.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg9">Ricordo ai colleghi - molti di voi erano appena arrivati - che un anno e mezzo fa il Senato approvò a larghissima maggioranza una mozione e con parere favorevole del Governo. Faccio solo notare che, allora, il Ministro degli affari esteri venne in quest'Aula a ricordarci che i nostri connazionali volevano medicinali; alcuni nostri funzionari dell'ambasciata avevano avuto congiunti morti per malattie abbastanza banali e non c'erano medicinali. Ma davanti alla richiesta delle autorità italiane di fare arrivare i medicinali alla nostra comunità, il Ministro degli esteri venezuelano aveva detto al nostro Ministro degli esteri che in Venezuela le cose andavano bene, che dei medicinali non ce n'era bisogno, che se avessimo avuto bisogno di medicinali per i nostri connazionali, li avrebbero forniti loro e che avremmo dovuto solo fornire un elenco.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg10">La nostra diplomazia, e ancora prima il presidente Gentiloni Silveri, l'allora nostro ministro degli affari esteri e poi il ministro Alfano si sono umiliati - e hanno fatto bene, del resto non potevano fare altrimenti - addirittura a fornire l'elenco dei medicinali e delle persone bisognose. Ebbene, tutto questo naturalmente non ha prodotto nulla, perché era una scusa per non accettare medicinali dall'estero.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg11">Vi dico di più. C'è stata la proposta della Chiesa di ergersi a mediatrice, ma si chiedeva la liberazione dei prigionieri politici e il ripristino delle tappe elettorali, le elezioni liberamente convocate. Ebbene, tutto questo ha prodotto un muro di diniego, al punto che il Santo Padre e la Chiesa cattolica si sono ritirati rispetto a qualsiasi ipotesi di lavoro, perché non c'era la possibilità di proseguire.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg12">In questi ultimi giorni la situazione è degenerata: è stata costituita un'Assemblea costituente priva di basi giuridiche pur di mettere una "zeppa". A cosa, colleghi? Siamo in Parlamento, siamo il Senato della Repubblica italiana, uno dei Paesi più democratici del mondo, pur con tutti i suoi limiti, con i nostri dibattiti tra maggioranza e opposizione, che, alla luce di ciò che accade in Venezuela, sono straordinari esempi di palestra democratica: ebbene, l'unica istituzione venezuelana legittimata democraticamente è il Parlamento di quel Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg13">Cosa è stato fatto, dunque, al Parlamento venezuelano? I parlamentari sono stati privati dello stipendio ed è stato addirittura blindato l'accesso al Parlamento, per cui sono state tolte luce, elettricità e tutto ciò che era necessario per il suo funzionamento. Il Parlamento è stato paralizzato e, nonostante questo, i nostri colleghi hanno continuato nella loro azione, nell'isolamento internazionale, fino ad arrivare a ieri, giornata storica per il Venezuela, nella quale però tutti noi - se crediamo ancora nel valore della parola democrazia e nel suo significato - non possiamo per far finta di non aver visto quanto sta accadendo. Non possiamo nasconderci ancora una volta dietro alle frasi nella diplomazia astrusa: qui dobbiamo prendere posizione, non si può dire né con gli uni né con gli altri; è troppo semplice, colleghi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg14">Lasciando perdere gli Stati Uniti, perché qualcuno potrebbe metterla sull'ideologico, guardiamo all'Organizzazione degli Stati americani, al Brasile di Bolsonaro, all'Argentina, alla Colombia, all'Ecuador, storicamente non di certo allineato con il fronte dei conservatori: nella giornata di ieri, tutti questi Paesi, compreso il Canada, hanno riconosciuto la legittimità istituzionale e politica non di chi si è autoproclamato Presidente dello Stato, ma di chi semplicemente ha offerto il proprio mandato come Presidente a tempo, come ha fatto Guaidó, nel tentativo di favorire un processo democratico e uscire da quest'incubo, il cui primo e unico attore è quel Maduro che continua a far finta di rappresentare il Venezuela come fosse un Paese nella piena normalità. Naturalmente è una cosa che contrasta con tutto, il buonsenso per primo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg15">Colleghi, credo che l'Italia debba battere un colpo: lo deve fare in nome e per conto dei connazionali che ho visto due anni fa a Caracas, che soffrono pesantemente. Molti di loro naturalmente sono scappati, ma tanti hanno le loro attività e i loro figli lì (e altrettanti, a dire il vero, li hanno già mandati a studiare all'estero, anche in Italia).</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg16">Non possiamo non battere un colpo e in queste ore - da italiano, da membro del Senato, partecipe della vita democratica di quest'istituzione - chiedo al Ministro degli affari esteri di esprimersi, evitando di prendere tempo, e di collocare l'Italia nella posizione della comunità dei Paesi liberi che in queste ore si stanno esprimendo, a partire da quelli dell'Unione europea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), FI-BP e PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg17">So che possono esserci divisioni, ma mi rivolgo ai colleghi del Governo, che hanno tutto il mio rispetto, perché non sono usurpatori, in quanto sono lì per il voto espresso dagli italiani: posso contrappormi a voi, ma vi debbo rispettare. Chiedo a voi, interpreti primari della volontà popolare, in quanto maggioranza, di stare al fianco della comunità degli uomini e delle donne liberi di questo mondo, di Guaidó e del Presidente del Parlamento del Venezuela nel presente drammatico trapasso per quel Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg18">Viva l'Italia, ma viva il Venezuela!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), FI-BP e PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">URSO (FdI)</note>
+            <u ana="#regular" who="#UrsoAdolfo" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg19">Signor Presidente, questo non è un momento qualunque nei rapporti tra l'Italia e il Venezuela e non è uno dei tanti dibattiti che si sono svolti nei mesi e negli anni passati. Prima il presidente Casini diceva giustamente che nel passato, anche recente, il nostro comportamento è stato diverso nei confronti del Venezuela e del suo Governo. Io stesso, nel mio mandato di Governo, pur non avendo alcuna simpatia per i Governi politici di Chavez e poi di Maduro, sono stato in missione ufficiale in Venezuela, per tutelare la rappresentanza della comunità italiana e per tutelare le imprese italiane, e ho incontrato l'allora presidente Chavez, come tanti tra noi. Un rapporto giusto e legittimo tra le istituzioni di Stati liberamente riconosciuti e i loro Governi liberamente eletti. Ma qui è un'altra storia. Maduro è stato eletto con un plebiscito non riconosciuto dalla comunità internazionale, un anno fa. È un usurpatore, mentre il presidente Guaidó è espressione dell'unico Parlamento eletto liberamente e costituzionalmente dai cittadini venezuelani; egli, sulla base di un articolo della Costituzione venezuelana (il 233), ha assunto la Presidenza, destituendo l'usurpatore. Il Governo legittimo, secondo la stessa Costituzione venezuelana e secondo tutta la comunità internazionale, è quello che Guaidó ha espresso ieri, come espressione dell'unico Parlamento eletto. Nello scorso anno, per aggiungere qualche elemento a questa Assemblea, venti milioni di venezuelani hanno attraversato il confine con la Colombia e con altri Paesi confinanti, per potersi nutrire, curare, acquistare medicine e poi rientrare nel proprio Paese. Ripeto, venti milioni di persone hanno attraversato il confine per poter sopperire alle proprie necessità di sopravvivenza, anche sanitaria. La mortalità infantile è aumentata del 30 per cento. Un milione di venezuelani sono già nei campi profughi all'estero. Il crollo dell'economia venezuelana, una volta florida, è evidente a tutti. La povertà ormai riguarda tre quarti della popolazione: tre quarti della popolazione non riesce a nutrirsi a sufficienza e un abitante su tre non riesce a mangiare tutti i giorni. La situazione è drammatica. Di fronte a questa situazione drammatica, l'evento di ieri è una svolta. Ma noi dobbiamo essere tempestivi (lo dico al Parlamento e al Governo): se l'Italia interviene riconoscendo il Governo legittimo di Guaidó facendo capire all'usurpatore e, soprattutto all'esercito venezuelano, che un'eventuale repressione sanguinosa (come potrebbe verificarsi nelle prossime ore, se noi restassimo silenti) della rivolta legittima del popolo venezuelano verrebbe sanzionata con gli strumenti della comunità internazionale con il rischio di essere portati davanti al tribunale internazionale per crimini contro l'umanità, la repressione non ci sarà. Il nuovo Governo ha già garantito (il presidente Guaidó è stato intelligente in tal senso) l'amnistia per qualunque uomo militare in divisa, qualunque crimine abbia commesso nel passato, purché si schieri con il Governo legittimo, cioè con quello dell'Assemblea nazionale elettiva. Siamo a un momento di svolta ed è opportuno che la comunità internazionale si comporti come hanno fatto ieri praticamente quasi tutti gli Stati dell'America meridionale. È emblematico e significativo che, qualunque sia stato e qualunque sia il Governo degli Stati dell'America meridionale, si siano schierati tutti con il Governo legittimo di Guaidó e contro ogni repressione. Se anche l'Europa lo farà (come noi ci auguriamo) - e l'Europa è l'America latina, per cui è più importante quello che sceglie l'Europa piuttosto che quello che sceglie il Canada per l'America Latina - se l'Unione europea, se il commissario europeo Mogherini, se il Parlamento europeo con il Parlamento italiano si schiereranno con il nuovo Governo legittimo riconoscendolo immediatamente, allora la repressione sarà fermata. Altrimenti i morti di Caracas peseranno sulla coscienza di ciascuno di noi. Possiamo fermare la repressione facendo capire chiaramente a quel regime che è finita, che la comunità internazionale non perdonerà mai coloro che dovessero schierarsi per la repressione interna. Questo è importante; in questo momento la diplomazia e la cautela di coloro che dicono di aspettare ancora favoriscono in qualche misura la repressione. In questo momento il silenzio è complicità di quello che accadrà. Dobbiamo saperlo e soprattutto lo sanno i 2 milioni di oriundi italiani che vivono e soffrono in Venezuela. Non possiamo lasciarli soli. Chiediamo al Parlamento, al Senato in questo momento e, tramite la Presidenza del Senato, al Governo italiano, di dichiarare immediatamente il riconoscimento del Governo di Guaidó. Senza se e senza ma tutte le forze politiche in questo Parlamento devono dichiararsi e schierarsi. Chi tace favorisce la repressione e porta con sé, nella sua coscienza, anche quello che accadrà.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e FI-BP.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ALFIERI (PD)</note>
+            <u ana="#regular" who="#AlfieriAlessandro" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg20">Signor Presidente, le ultime notizie che arrivano dal Venezuela non sono certo incoraggianti, per usare un eufemismo; parlano di 14 morti e di 218 arresti. Si tratta però solamente del primo bilancio, purtroppo annunciato nelle scorse settimane. Era chiaro che con il giuramento di Maduro le provocazioni rispetto a quella che non è l'opposizione, ma che ha vinto le elezioni ed è legittimata dal punto di vista parlamentare, ci fossero delle manifestazioni che chiedessero di rispettare l'esito parlamentare e denunciassero quanto era accaduto con le elezioni di Maduro. La reazione dei Paesi europei e dell'Unione europea è stata blanda. Il ministro Moavero si è limitato a scrivere una letterina insieme ai colleghi spagnoli e francesi per chiedere la formazione di un gruppo di contatto. Riteniamo che ciò non sia sufficiente e che sia necessaria una reazione più assertiva. È chiaro infatti che il bilancio di cui parlavo prima può aumentare. I dittatori sono soliti fare delle prove per capire che spazi hanno nella loro reazione, che può essere sanguinaria. È evidente che è il momento di dire da che parte si sta. Ho apprezzato le parole di un avversario politico, che oggi è Presidente del Parlamento europeo, che con coraggio nei giorni scorsi ha denunciato con forza quanto stava succedendo in Venezuela. Penso che altrettanto debbano fare il Parlamento e il Senato italiani senza timidezze; è il momento di dire da che parte si sta. I Paesi dell'Organizzazione degli Stati americani (OSA) lo hanno fatto con estrema velocità, anche maggiore rispetto al passato. Si sa che in quei Paesi è molto importante capire cosa fanno le forze di polizia e che cosa fa l'esercito. Sono altresì sensibili a capire come si muovono anche le opinioni pubbliche del mondo occidentale ed europee. È chiaro che il Governo italiano deve compiere una scelta chiara, ma da solo probabilmente non lo farà perché nella maggioranza c'è un partito che nel recente passato, solo nell'agosto scorso, ha dimostrato un'attrazione fatale verso il modello venezuelano. Il fondatore del MoVimento 5 Stelle ha parlato infatti, durante un momento tragico per il nostro Paese, nell'agosto scorso, di espropri proletari, riferendosi al modello venezuelano. Capisco quindi l'imbarazzo del MoVimento 5 Stelle, ma oggi è il momento di decidere se si sta dalla parte della libertà o dalla parte della repressione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg21">E stare dalla parte della libertà vuol dire dare con forza il nostro sostegno al presidente dell'Assemblea nazionale Guaidó. Da questo punto di vista penso che anche il Senato possa far sentire la propria voce e chiedere al Governo di intervenire tempestivamente per mettere in campo tutte le iniziative per garantire la sicurezza della nostra comunità italiana presente in Venezuela ma, allo stesso tempo, per dare un segnale politico qui, dentro l'Assemblea, perché il Governo lo dia all'Unione europea.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg22">L'Unione europea non può restare neutrale e deve dire anche lei che sta dalla parte dei princìpi e dei valori che sono iscritti nella Costituzione e nei trattati europei. Per questo noi chiediamo che anche questa Assemblea possa esprimersi al più presto per dire che noi stiamo dalla parte della libertà.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CRAXI (FI-BP)</note>
+            <u ana="#regular" who="#CraxiStefaniaGabriellaAnastasia" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg23">Signor Presidente, da anni il Venezuela sta attraversando una grave crisi economica, umanitaria e politica; da ieri rischia anche di andare incontro a un conflitto civile, con effetti devastanti che sarebbero pagati dal popolo. Il regime di Nicolas Maduro è da tempo in guerra contro il suo popolo, cancellando tutti i diritti democratici. I venezuelani soffrono la fame per l'iper-inflazione e, come se non bastasse, ogni giorno, da mesi, muoiono persone per mancanza di cure mediche: non soltanto perché è stato smantellato il sistema sanitario nazionale, ma anche per la mancanza di attrezzature e medicine. Il 24 per cento dei bambini è a rischio di morte per la malnutrizione acuta. La violenza è allarmante. Non solo la criminalità organizzata è sotto controllo, ma la repressione governativa è sempre più violenta: si parla di oltre settemila casi di tortura, oltre settemila processi per dissidenza. Vorremmo inoltre ricordare che il Venezuela accoglie la terza comunità italiana in ordine di importanza in tutto il Sudamerica e, se si calcolano i discendenti, parliamo di oltre due milioni di persone. Il Governo italiano deve far sentire la sua voce e prestare immediatamente soccorso ai connazionali in pericolo. Chiedo, anche per questo, che il Senato costituisca da subito il Comitato per le questioni degli italiani all'estero, già costituito dalla Camera dei deputati.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg24">Nonostante una delle componenti politiche del Governo abbia fatto mesi fa un sorprendente endorsement verso il dittatore Maduro, Forza Italia sarà sempre dalla parte di chi soffre per la privazione delle libertà. Nonostante questo, un Paese serio non si divide sulla politica estera. Facciamo, maggioranza e opposizione, un appello congiunto al dialogo per evitare la guerra civile e chiediamo a gran voce che in quel Paese si ripristinino immediatamente i diritti democratici e i diritti umani. Sappia, il popolo venezuelano che l'Italia sarà sempre al suo fianco. Que viva Venezuela!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">VESCOVI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#VescoviManuel" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u9">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg25">Signor Presidente, noi vogliamo invece esprimere tutta la nostra vicinanza e il nostro pensiero per il popolo venezuelano, i bambini, e la nostra comunità nel Venezuela. Oggi non è il giorno per parlare della dichiarazione fatta da un collega del MoVimento 5 Stelle o della richiesta di costituire il Comitato per le questioni degli italiani all'estero: oggi è il giorno di pensare a cosa possiamo fare per il popolo venezuelano, a come possiamo aiutarlo, e di lasciare lavorare la diplomazia nella speranza di raggiungere una soluzione in modo democratico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg26">FAZZOLARI (FdI). Vergogna! Non si vergognano! PRESIDENTE. La ringrazio della estrema sintesi.</seg>
+            </u>
+            <note type="speaker">LUCIDI (M5S)</note>
+            <u ana="#regular" who="#LucidiStefano" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg27">Signor Presidente, ringrazio i nostri Capigruppo per avere inserito questo argomento in questo momento di pausa (e che pausa, abbiamo visto, non è). Ovviamente anche il MoVimento 5 Stelle esprime solidarietà e vicinanza alle popolazioni del Venezuela tutto e, in particolare, ai nostri concittadini che sono o residenti all'estero oppure che si trovano lì in questo momento per i motivi più disparati, tipicamente a seguito di un'emigrazione a scopo lavorativo. Credo sia importante sottolineare alcune parole e dare delle prime risposte al dibattito di questa mattina. È chiaro che questo è un momento importante per l'Italia e il Governo del cambiamento ha dato un segnale importante, anche e soprattutto in politica estera. Ritengo di parlare a nome di tutta la maggioranza e possiamo ribadire il concetto che il Governo del cambiamento ha dato un segnale di cambiamento anche in politica estera e, soprattutto, con posizioni di autorevolezza.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Urso.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg28">Colgo l'occasione - non era assolutamente preparato - per menzionare all'Assemblea...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Urso</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg29">Se il collega ha la cortesia di ascoltare, magari posso comunicare una cosa importante e cioè che la Farnesina, non più tardi di tre giorni fa (quindi senza nessuna presa di posizione o, come si suol dire, senza mettere le mani avanti), ha stipulato un accordo con il Governo venezuelano per la messa a disposizione dei cittadini italiani di medicinali, quelli che avete menzionato questa mattina.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Commenti del senatore Aimi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg30">URSO (FdI). Stanno morendo in piazza! PRESIDENTE. Onorevole Urso, è abbastanza chiaro l'intervento e si commenta da solo. Non ha bisogno del suo commento. LUCIDI (M5S). La Farnesina ha stipulato un accordo con il Governo venezuelano per la fornitura di medicinali per le popolazioni italiane. Esiste un numero telefonico che gli italiani residenti iscritti all'anagrafe degli italiani residenti all'estero (AIRE) possono utilizzare. Possono andare nei nostri consolati - in particolare, il consolato responsabile è quello di Maracaibo - per prendere i medicinali. Questo avete chiesto e questo il Governo italiano ha fatto. Che cosa vuole di più?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <vocal type="speaking">
+                  <desc>Commenti dei senatori Aimi e Taricco</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg31">URSO (FdI). Vergogna! PRESIDENTE. Senatore Lucidi, non si rivolga ai colleghi. Cosa vogliono di più lo hanno detto e quindi lei intervenga liberamente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg32">Se non è questo un segnale di vicinanza a quelle popolazioni cosa dobbiamo dire? Non ho capito. MALPEZZI (PD). Che siete in difficoltà. LUCIDI (M5S). Purtroppo ci troviamo di fronte all'ennesima constatazione della situazione del Sudamerica, che per troppi anni è stato dimenticato: ce ne ricordiamo soltanto quando accadono episodi di questo tipo. Sicuramente sarà il momento per riaprire un grande dibattito parlamentare su come intervenire anche in maniera molto immediata. SACCONE (FI-BP). Stai zitto che è meglio, fai più bella figura. Lascia perdere! LUCIDI (M5S). La Commissione affari esteri sta facendo il suo lavoro, è iniziato in questi giorni l'esame di un affare assegnato per capire la condizione dei nostri cittadini italiani all'estero e quindi sarà questo il momento anche per approfondire questo tema in maniera molto più concreta e - ripeto - urgente. Sinceramente non ho capito quali sono le motivazioni di questo disappunto perché, secondo me, stiamo lavorando in maniera assolutamente unanime e condivisa. Quindi, tutte queste polemiche sinceramente non le capisco. Dovremmo invece chiedere e capire cosa hanno fatto, per esempio, in Europa rispetto a questo tema. MALAN (FI-BP). Vergogna! LUCIDI (M5S). Abbiamo un commissario dell'Unione europea - fortunatamente in scadenza - nominato dal Governo precedente.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Faraone</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg33">Ci piacerebbe capire cosa ha fatto il nostro alto rappresentante per gli affari esteri nell'Unione europea nei confronti di questo argomento. Prima di fare tante polemiche, quindi, cominciate a farvi un esame di coscienza.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Urso</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg34">Venite qui a raccontarci cosa avete fatto prima di contestare il Governo del cambiamento che, come vi ho raccontato, anche se non avete voluto ascoltare, sta iniziando a dare dei segnali e a portare degli elementi concreti di cambiamento anche per quelle popolazioni e per quei cittadini italiani che da troppo tempo stanno chiedendo aiuto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Faraone</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg35">URSO (FdI). Vergognati!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u11">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg36">Non ho altri iscritti a parlare (non ho ridato la parola a senatori dello stesso Gruppo). Il senatore Urso mi aveva chiesto nuovamente la parola, ma gli ho risposto che avrei trasmesso io la richiesta al ministro Moavero Milanesi di venire a riferire in Assemblea. Appena possibile inoltrerò la richiesta al Presidente del Senato.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg37">URSO (FdI). Domando di parlare sull'ordine dei lavori. PRESIDENTE. Senatore Urso, non le ho dato la parola. Non si può riaprire il dibattito. Voglio solo dire che la passione che il Senato ha espresso in questa occasione credo sia comunque considerata da parte di tutti estremamente positiva. Penso inoltre che non possiamo terminare questo breve dibattito se non con un'espressione di grande vicinanza, prima di tutto agli italiani in Venezuela ma anche a tutti i venezuelani che in questo momento stanno soffrendo per le vicende che voi tutti avete illustrato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg38">Sospendo la seduta fino alle ore 10,45. (La seduta, sospesa alle ore 10,17, è ripresa alle ore 11,05).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u12">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg39">La Conferenza dei Capigruppo ha approvato modifiche al calendario corrente in relazione all' iter del decreto-legge semplificazioni. La discussione del provvedimento in Assemblea avrà inizio nella seduta di lunedì 28 gennaio a partire dalle ore 10, per proseguire, ove necessario, martedì 29. Le sedute non prevedono orario di chiusura. La Commissione bilancio è autorizzata a riunirsi nelle fasi di discussione che non prevedano votazioni. Il calendario della settimana dal 5 al 7 febbraio potrà essere integrato con una informativa del Ministro degli affari esteri sui più recenti eventi della politica internazionale, come richiesto nel dibattito che si è svolto in apertura di seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Calendario dei lavori dell'Assemblea, variazioni Discussione e approvazione di proposta di modifica; discussione e reiezione di ulteriori proposte</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u13">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg40">La Conferenza dei Presidenti dei Gruppi parlamentari, riunitasi oggi, con la presenza dei Vice Presidenti del Senato e con l'intervento del rappresentante del Governo, ha adottato - ai sensi dell'articolo 55 del Regolamento - modifiche al calendario corrente:</seg>
+               <note type="summary">Lunedì 28 gennaio h. 10 - Disegno di legge n. 989 - Decreto-legge n. 135, Semplificazioni (scade il 12 febbraio 2019) Martedì 29 " h. 9,30 (se necessaria)</note>
+               <note type="summary">Martedì 5 febbraio h. 9,30-20 - Disegno di legge costituzionale n. 214 e connessi - Riduzione numero parlamentari (prima deliberazione del Senato) (voto finale con la presenza del numero legale) - Disegno di legge n. 881 - Applicabilità delle leggi elettorali (ove concluso dalla Commissione) - Disegno di legge n. 897 e connessi - Videosorveglianza (approvato dalla Camera dei deputati) (ove conclusi dalla Commissione) - Disegni di legge nn. 257 e 702 - Ratifica convenzione di Faro sul patrimonio culturale (ove conclusi dalla Commissione) - Sindacato ispettivo - Interrogazioni a risposta immediata, ai sensi dell'articolo 151- bis del Regolamento (giovedì 7, ore 15) Mercoledì 6 " h. 9,30-20 Giovedì 7 " h. 9,30</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg41">Il calendario della settimana dal 5 al 7 febbraio potrà essere integrato con un'informativa del Ministro degli affari esteri sui più recenti eventi di politica internazionale.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg42">Gli emendamenti ai disegni di legge n. 214 e connessi (Riduzione numero parlamentari) dovranno essere presentati entro le ore 13 di giovedì 31 gennaio 2019.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg43">I termini per la presentazione degli emendamenti ai disegni di legge n. 881 (Applicabilità delle leggi elettorali) e nn. 897 e connessi (Videosorveglianza) saranno stabiliti in relazione ai lavori della Commissione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg44">Ripartizione dei tempi per la discussione del disegno di legge n. 989 (Decreto-legge n. 135, Semplificazioni) (11 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori di maggioranza 45' Relatori di minoranza 45' Governo 30' Votazioni 1 h. Gruppi 8 ore, di cui: M5S 1 h. 30' FI-BP 1 h. 40' L-SP-PSd'Az 1 h. PD 1 h. 34' FdI 52' Misto 48' Aut (SVP-PATT, UV) 40' Dissenzienti 5'</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u14">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg45">Saluto a nome dell'Assemblea i docenti e gli studenti l'Istituto paritario «Vincenzo Pallotti» di Roma, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ripresa della discussione sul calendario dei lavori dell'Assemblea</head>
+            <note type="speaker">MALAN (FI-BP)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg46">Signor Presidente, avremmo naturalmente preferito un iter più normale del decreto-legge sulle semplificazioni. A questo punto il lavoro è rinviato alla settimana prossima; ne prendiamo atto sottolineando che ciò è stato determinato unicamente da questioni interne alla maggioranza e non certo da un atteggiamento non collaborativo da parte delle opposizioni, che invece hanno lavorato con la massima collaborazione. Per la verità, hanno lavorato anche con la collaborazione da parte della maggioranza in Commissione. Tuttavia, per problemi esterni alle dinamiche parlamentari, dipendenti unicamente dalla maggioranza, i lavori sono andati nel modo che abbiamo constatato. Voglio però fare una proposta di modifica rispetto al calendario dei lavori. Sono stati svolti prima alcuni interventi sulla questione del Venezuela, dove la situazione è drammatica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg47">Non è che, svolti questi interventi, dobbiamo dire che è tutto a posto. La situazione è drammatica e moltissimi italiani vivono in situazioni difficilissime, nel senso che non devono affrontare solo il problema di andare a prendere i farmaci al consolato. Non possiamo pensare di rinviare di settimane quando i generali - a quanto pare - in queste ore si stanno muovendo. Tra due settimane rischiamo di fare la commemorazione del capo dell'opposizione che si propone e che è stato riconosciuto da importanti Paesi come legittimo Capo dello Stato in Venezuela. Ripeto che rischiamo tra due settimane di fare la commemorazione di questa persona anziché cercare di dare un supporto.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg48">Pertanto, propongo che il Ministro degli affari esteri venga oggi pomeriggio in Aula per un'informativa. Si può benissimo trovare il tempo e si possono limitare temporalmente anche gli interventi dei Gruppi, per cui nulla impedisce alla Commissione o di continuare a lavorare, se lo si ritiene, o di partecipare con i suoi membri ai lavori d'Assemblea, senza stravolgere i tempi di approvazione del decreto-legge sulle semplificazioni. Se però non c'è oggi questa possibilità e viene rinviata la presenza del Ministro in Aula, noi chiediamo che venga al più presto e non tra due settimane, visto che la settimana prossima comunque ci si riunisce per l'esame del decreto-legge sulle semplificazioni, in modo da dedicare del tempo all'importantissima questione del Venezuela. Si può fare benissimo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg49">In ogni caso, se la questione del Venezuela non verrà portata all'attenzione dell'Assemblea questa settimana con la presenza del Ministro degli affari esteri, noi chiediamo che si dia luogo a delle comunicazioni e non a una semplice informativa, in modo che sia possibile per i vari Gruppi presentare delle risoluzioni o mozioni per potersi esprimere in modo compiuto. Non credo infatti che possiamo limitarci a un ruolo di spettatori in una vicenda che coinvolge davvero tanti italiani.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u16">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg50">Ringrazio il senatore Malan, per aver ripreso la mia proposta, avanzata in Conferenza dei Capigruppo, di valutare oggi l'intervento del Ministro degli affari esteri. Intanto è stata avanzata una proposta di modifica del calendario dei lavori di questa settimana per chiedere che sia oggi presente in Aula il Ministro.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg51">Poiché ci sono ulteriori richieste di intervento, pregherei di non riaprire il dibattito, ma di rimanere esclusivamente nell'ambito della modifica del calendario e di essere brevi.</seg>
+            </u>
+            <note type="speaker">URSO (FdI)</note>
+            <u ana="#regular" who="#UrsoAdolfo" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg52">Signor Presidente, come lei ha detto prima concludendo il dibattito, noi abbiamo già chiesto - e lo ribadiamo in questa sede - che oggi pomeriggio, e non lunedì quando potrebbe essere troppo tardi, il ministro degli affari esteri Moavero Milanesi, o comunque un rappresentante del Governo - ad esempio il Presidente del Consiglio, ma certamente Moavero Milanesi sarebbe la persona adatta - venga in Aula per rendere un'informativa al Parlamento e dire se il Governo italiano intende rispondere all'appello lanciato dai Paesi - possiamo definirli liberi? - dell'America Latina. Quasi tutti i Paesi dell'America Latina si sono già espressi. PRESIDENTE. Parliamo del calendario dei lavori. URSO (FdI). Noi vorremmo che questo dibattito si svolgesse oggi. Non si può assolutamente rinviare. PRESIDENTE. Quindi, lei si associa alla richiesta di modifica del calendario dei lavori.</seg>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà e prego anche lei, se può, di essere breve.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg53">Signor Presidente, sarò brevissimo. Alla fine, abbiamo accolto favorevolmente le decisioni della Conferenza dei Capigruppo e abbiamo condotto una battaglia affinché le Commissioni avessero il tempo di approfondire tutti i testi. Tale richiesta finalmente è stata accolta e, pertanto, andiamo in questa direzione. C'è però la richiesta esplicita di esprimersi su proposte di modifica e il nostro Gruppo intende farlo. Anche noi ieri abbiamo chiesto la presenza in Aula del ministro Moavero Milanesi, perché ci sono grandi turbamenti, difficoltà e contrasti rispetto a una nuova politica estera del nostro Paese. È corretto quindi che il ministro Moavero Milanesi venga a riferire sui rapporti tra il Governo italiano e la Francia - come abbiamo chiesto oggi - vicenda così importante nonché sui recenti accadimenti in Venezuela. Il ministro Moavero Milanesi, come tutto il Governo, deve comprendere che il Parlamento è parte essenziale della struttura istituzionale del nostro Paese e non può declinare ogni volta... PRESIDENTE. Credo che lo sappiano entrambi. MARCUCCI (PD). Forse, però, ricordarglielo da parte della Presidenza del Senato potrebbe avere una sua utilità. Non so se il Ministro degli affari esteri potrà venire oggi in Aula, ma che vi sia l'esigenza molto forte da parte del Parlamento di ascoltarlo su questioni così rilevanti è ovvio. Chiediamo, quindi, alla Presidenza del Senato di farsene carico. Nel frattempo, voteremo a favore della richiesta di modifica del calendario avanzata dal Gruppo Forza Italia.</seg>
+            </u>
+            <note type="speaker">CASINI (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#CasiniPierFerdinando" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u19">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg54">Signor Presidente, intervengo rapidamente a mia volta: sono d'accordo con la proposta del senatore Malan, ribadita dai colleghi Urso e Marcucci. Dato, però, che so come funzionano situazioni del genere e a volte mettere una sola fiche sul tavolo è autolesionista, vorrei dire una cosa alla Presidenza, in modo costruttivo. Se oggi pomeriggio, per qualche ragione, il Ministro degli affari esteri non fosse disponibile e poiché il tempo in questo caso non è una variabile indipendente, chiedo che il Ministro venga in Senato almeno domani mattina, perché non possiamo prenderci tempi biblici. Il Gruppo delle Autonomie, pertanto, appoggerà la proposta avanzata dal senatore Malan, che forse è meglio riformulare nel senso di chiedere che il Ministro, in alternativa a oggi pomeriggio, venga domani mattina. MALAN (FI-BP). Per me va bene, signor Presidente.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u20">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg55">Ne prendiamo atto.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg56">Se non vi sono ulteriori interventi in proposito, per cercare di procedere con ordine, la richiesta del senatore Malan comprende anche l'eventualità, ove non fosse possibile per il Ministro di venire a riferire in Aula oggi, di posticipare le comunicazioni del Governo alla prossima settimana.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg57">Chiedo intanto ai colleghi se vi sono altre richieste di intervento sul calendario che esulino da questo argomento.</seg>
+            </u>
+            <note type="speaker">RAUTI (FdI)</note>
+            <u ana="#regular" who="#RautiIsabella" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u21">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg58">Signor Presidente, ho chiesto di intervenire sul calendario dei lavori perché sulla richiesta della presenza in Aula del ministro Moavero Milanesi ci siamo già espressi in maniera favorevole. Voglio intervenire sul calendario per stigmatizzare un metodo che ormai si sta consolidando e ribadire qui quanto ho già detto durante la Conferenza dei Capigruppo usando l'adagio musicale «era già tutto previsto». Ed era previsto anche in occasione della Conferenza dei Capigruppo di martedì scorso, quando abbiamo chiesto al Governo di sapere con certezza se il provvedimento sarebbe arrivato o no in Aula. Il risultato è stato un rinvio continuo e lasciatemi dire che la settimana corrente qui in Assemblea non ha prodotto alcun frutto, poiché è stata un'inutile perdita di tempo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e FI-BP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg59">In Commissione abbiamo perso tempo e c'è stata da parte delle opposizioni la più ampia collaborazione - com'è giusto che sia - perché il decreto-legge è importante. A fronte di questo, però, c'è stato un problema politico di cui non si parla più. Non nascondiamoci dietro a un dito: i lavori della Commissione sono andati avanti tra stop and go, mentre un Ministro ha minacciato di dimettersi e sulla stampa a un certo punto si è paventata addirittura l'idea che il decreto-legge non si potesse affrontare e si è parlato quasi di crisi di Governo. Abbiamo dimenticato tutto, ma ciò è accaduto tra ieri pomeriggio e stanotte. C'è stato un problema politico all'interno di questa maggioranza e non è un caso che in Commissione la maggioranza continui a presentare emendamenti a se stessa. In genere sono le opposizioni che presentano gli emendamenti e non la maggioranza, che ne ha presentati una montagna. C'è stato un problema politico sulle trivelle ed è stato risolto: benissimo. Questo, però, non ha corretto, ancora una volta, il metodo dei lavori di questa Aula. Inoltre, abbiamo anche cercato di inaugurare una sorta di alternanza tra i lavori dell'Assemblea e quelli delle Commissioni. Se però non utilizziamo la settimana dedicata ai lavori dell'Assemblea, cominciamo veramente a rasentare il ridicolo e sicuramente ciò dimostra una mancanza di rispetto. Noi abbiamo votato contro questo calendario dei lavori, per attirare l'attenzione su un metodo che respingiamo. Come ieri ha detto anche il nostro capogruppo Ciriani, la pazienza è finita. Noi vogliamo lavorare e vogliamo farlo bene. Abbiamo avanzato la controproposta di continuare a lavorare fino a domani e poi ricominciare martedì. È stato inteso dare un altro calendario: ne prendiamo atto, ma voteremo contro per le ragioni che ho appena enunciato e perché è veramente inaccettabile continuare a procedere con questa mancanza di rispetto per l'Assemblea e per l'istituzione che essa rappresenta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e FI-BP e del senatore Steger.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u22">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg60">Comunico, ad integrazione della precedente comunicazione, che i subemendamenti agli emendamenti delle Commissioni riunite dovranno essere presentati nel termine di due ore lavorative dal momento della trasmissione dei testi ai Gruppi. Ciò vuol dire che, se il testo viene trasmesso alle ore 23, il termine naturalmente scade l'indomani. Questo mi pare chiaro.</seg>
+            </u>
+            <note type="speaker">UNTERBERGER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#UnterbergerJulia" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u23">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg61">Signor Presidente, desidero associarmi a quanto ha detto la senatrice Rauti. Il Gruppo Per le Autonomie, come ha detto la collega Rauti, ritiene questi continui rinvii non accettabili. Io sollecito il Governo del cambiamento a darsi un po' da fare e a non tenere in ostaggio l'Aula per un paio di giorni, senza che succeda nulla. È questa una perdita di tempo per tutti noi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u24">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg62">Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta a richiedere la presenza in Aula entro oggi - o, se oggi non fosse possibile, al più presto - del ministro Moavero Milanesi o di altro esponente del Governo, avanzata dal senatore Malan e da altri senatori. (Segue la votazione). Non è approvata. FARAONE (PD). Vergogna! PRESIDENTE. Dispongo la controprova. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici dal Gruppo FI-BP e PD, e del senatore Casini</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg63">Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta a procedere alla discussione del disegno di legge n. 989 domani, venerdì, con la ripresa dei lavori martedì prossimo, avanzata dalla senatrice Rauti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg64">Non è approvata.</seg>
+            </u>
+            <note type="speaker">GASPARRI (FI-BP)</note>
+            <u ana="#regular" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u25">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg65">Signor Presidente, voglio esprimere indignazione perché l'Assemblea ha votato perché non si discuta dei misfatti di Maduro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP, PD e Aut (SVP-PATT, UV)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg66">Vi dovete vergognare di un Parlamento che sta dalla parte di Maduro. Vergognatevi!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP, PD e Aut (SVP-PATT, UV)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg67">Noi non c'entriamo niente con voi e con Maduro! Viva il popolo del Venezuela!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP FI-BP, PD e Aut (SVP-PATT, UV).</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg68">PRESIDENTE. La ringrazio. Si è associato alle parole del senatore Faraone.</seg>
+            </u>
+            <note type="speaker">ROMEO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#RomeoMassimiliano" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg69">Signor Presidente, intervengo solo per dire che non è vero quello che state dicendo. Abbiamo solo detto che non possiamo né oggi, né domani e neanche la settimana prossima per ovvi motivi. Alla prima data utile, però, chiediamo anche noi che il ministro Moavero Milanesi venga a riferire in Assemblea</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dai Gruppi PD, FI-BP e FdI</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg70">e che si discuta della Francia e di Maduro.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u27">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg71">Senatore Romeo, questo è chiaro ed è già scritto nel calendario dei lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg72">Allora non si possono fare dichiarazioni... PRESIDENTE. Siete contrari alla modifica proposta. È semplice. I toni con cui sono stati commentati i voti di alcuni Gruppi - lo riconosco - non sono stati normali, perché la votazione è comunque libera.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Urso.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg73">Senatore Urso, mi pare molto chiaro: è stato chiesto che il Ministro venga al più presto a riferire in Aula e alcuni Gruppi hanno votato contro. Intelligenti pauca. URSO (FdI). La prossima settimana quando ci saranno morti.</seg>
+            </u>
+            <note type="speaker">MALAN (FI-BP)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u28">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg74">PRESIDENTE. Senatore Malan, dica in modo chiaro che cosa vuole mettere in votazione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg75">Signor Presidente, l'ho detto in modo chiaro prima, ma evidentemente non lo sono stato.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u29">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg76">Non tanto. Lei vuole chiedere, essendo stata respinta la sua proposta, che quando verrà - Dio volendo - un rappresentante del Governo in Assemblea, si tratti non più di un'informativa, ma di una comunicazione. È questa la sua richiesta?</seg>
+            </u>
+            <note type="speaker">MALAN (FI-BP)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u30">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg77">Quasi. Propongo che il Ministro venga in Senato la settimana prossima perché, visto che l'Assemblea si riunisce, non si capisce per quale motivo non si possano aggiungere due ore alle discussioni già programmate.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg78">PRESIDENTE. Quindi nella settimana precedente a quella indicata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg79">E comunque dicono che quando verrà, se lei crede si possano fare due votazioni, si tratti di comunicazioni e non di un'informativa, in modo che i Gruppi si possano esprimere e quanto già emerso nel corso degli ultimi due interventi possa essere esposto in modo proprio.</seg>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u31">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà. Mai il calendario fu così controverso.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg80">Signor Presidente, non è controverso, ma il Regolamento prevede si possa fare una dichiarazione di voto sulle proposte di calendario. Capisco l'intervento del collega Capogruppo della Lega, ma la verità è evidente. Noi abbiamo chiesto ieri di sentire il ministro Moavero Milanesi sul tema rilevante dei rapporti internazionali all'interno dell'Europa. PRESIDENTE. Questo argomento è superato. MARCUCCI (PD). No, non è superato. Signor Presidente, faccio come voglio la dichiarazione di voto. Non mi può dire come farla. PRESIDENTE. Senatore Marcucci, fa la dichiarazione di voto dopo che abbiamo detto che cosa votiamo. MARCUCCI (PD). Io argomento come voglio. VERDUCCI (PD). Non può sindacare sugli argomenti.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u32">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg81">Le do la parola dopo.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del senatore Marcucci.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg82">Le faccio fare l'intervento, ma prima diciamo su che cosa.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg83">Il senatore Malan ha avanzato la proposta di integrare il calendario dei lavori richiedendo la presenza in Aula del Governo non nella settimana dal 5 al 7 febbraio, ma nella settimana precedente.</seg>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u33">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà. Ora può intervenire, senatore Marcucci. Basta procedere in maniera ordinata.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg84">Signor Presidente, io sono a favore del procedere in maniera ordinata. Proprio perché la maggioranza e il Governo si stanno, con costanza, rifiutando di portare in quest'Aula il tema della politica estera scellerata che la maggioranza e il Governo stanno conducendo in Europa e fuori dall'Europa, noi siamo d'accordo affinché il ministro Moavero Milanesi venga il prima possibile a riferirci che cosa sta combinando questo Governo!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e FI-BP e della senatrice Unterberger.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg85">Noi abbiamo sentito che cosa ha detto questa mattina il senatore del MoVimento 5 Stelle in quest'Aula. Le posizioni folli di questa maggioranza sono quelle? È quella la posizione del ministro Moavero Milanesi? Noi lo vogliamo sapere! Il Senato ha il diritto di saperlo! Il Governo ha il dovere di venire a riferire al Parlamento! Ha il dovere!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, FI-BP e Aut (SVP-PATT, UV)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg86">Non può schivare questo che capisco essere, con il loro modo di fare, un ingombro. Per noi il Parlamento non è un ingombro. Il Parlamento è il luogo dove la democrazia si identifica nelle istituzioni. Quindi, il Governo se ne faccia carico. La maggioranza si assuma la responsabilità e faccia venire in Aula il ministro Moavero Milanesi a spiegarci che cosa stanno facendo in politica estera!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, FI-BP e Aut (SVP-PATT, UV).</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CASINI (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#CasiniPierFerdinando" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u34">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg87">Signor Presidente, la Capogruppo del Gruppo Per le Autonomie ha spiegato bene che cosa è accaduto, e lo vediamo tutti. Colleghi, io vi dico sinceramente che il tema dell'esproprio del Parlamento sta diventando una questione seria.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), PD e FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg88">Aldilà di questo, però, qui c'è un problema aggiuntivo. Senatore Romeo, io la stimo e capisco benissimo che lei, naturalmente, fa la parte sua. Capisco anche che su un provvedimento come quello in discussione ci possano essere questioni di maggioranza, perché non sarebbero le prime capitate nel mondo. In Italia, in passato, ne abbiamo avute. Pertanto, capisco perfettamente che vi siano dei problemi tra i partiti della maggioranza, che il provvedimento in questione sia più controverso di altri e che, pertanto, abbiamo uno slittamento dei tempi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg89">Qui, però, c'è una questione diversa. Qui c'è una questione di attualità politica su cui noi chiediamo che il Governo venga a riferire. È una cosa che tradizionalmente non si è mai negata. Senatore Romeo, lei è troppo intelligente per venirci a dire che prima o poi il Governo verrà: ci mancherebbe altro! In questo modo, ella fa un insulto alla nostra intelligenza. Qui ci sono dei problemi - come il senatore Gasparri ha sottolineato - che sono di questo momento. Quindi, se il Governo non può venire oggi pomeriggio, noi chiediamo che venga domani mattina, ma non si può certo dire che il Governo verrà.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg90">Tra parentesi, vorrei anche dire al senatore Marcucci, che ieri, prima degli ultimi avvenimenti, aveva fatto una richiesta giusta sul tema della Francia e che il tema del Venezuela è un problema di oggi, di ieri, delle ultime ore. Non può essere rinviato, come discussione politica, tra una settimana, perché la situazione cambierebbe sostanzialmente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), FI-BP e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg91">AIROLA (M5S). La situazione del Venezuela è la stessa da due anni!</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-BP)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u35">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg92">Signor Presidente, avevo chiesto di intervenire prima, ma ora mi riporto a quanto ha chiesto il collega Malan. Io mi auguro che tutti votiamo insieme, per gli italiani che vivono in Venezuela, la richiesta di comunicazioni da parte del Governo, da svolgersi lunedì o martedì (quando volete) ma comunque al più presto possibile, perché è l'unico modo per recuperare quel voto contrario di poc'anzi.</seg>
+            </u>
+            <note type="speaker">ROMEO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#RomeoMassimiliano" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u36">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg93">Signor Presidente, visto che il tema è molto importante e vogliamo discuterlo per non portarlo alle calende greche, perché altrimenti non sarebbe più di attualità, abbiamo in questo momento deciso in Conferenza dei Capigruppo di dare, su richiesta delle minoranze, tutto il tempo necessario in Commissione per poter lavorare sul decreto-legge semplificazioni. Se la Commissione è convocata e deve lavorare per il decreto semplificazione oggi e probabilmente anche domani, non abbiamo i tempi per poter affrontare questo tema in Assemblea oggi o domani. BELLANOVA (PD). Ma cosa dice? ROMEO (L-SP-PSd'Az). La nostra proposta è la seguente: visto che il calendario... BELLANOVA (PD). È un insulto all'intelligenza. PRESIDENTE. Collega, la pregherei di lasciar parlare il senatore Romeo che sta avanzando una proposta. Come fa a contestare una proposta che deve ancora essere fatta? ROMEO (L-SP-PSd'Az). La proposta è la seguente: visto che, secondo il calendario dei lavori, lunedì e martedì della settimana prossima avremo la votazione del decreto-legge semplificazioni, appena finito tale provvedimento faremo tutto il possibile perché il Ministro venga in Aula per un'informativa, che era poi l'idea originaria. Questa è la proposta che avanziamo e che vogliamo venga messa ai voti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg94">CALIENDO (FI-BP). No.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u37">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg95">Mi pare che la questione sia abbastanza chiara.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg96">La prima proposta è stata avanzata dai senatori Urso e Malan ed è volta a chiedere che l'audizione avvenga non nella settimana che va dal 5 al 7 febbraio, ma nella prossima settimana.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg97">MALAN (FI-BP). La comunicazione. PRESIDENTE. La proposta corrisponde come tempi a quella avanzata dalla Lega. Non mi riferisco alla qualità dell'intervento. Votiamo su questo. Ci sono due argomenti separati. Al momento il calendario dei lavori prevede che l'informativa sia prevista nella settimana che va dal 5 al 7 febbraio. Se siete d'accordo, farei votare la proposta di anticipare alla settimana precedente, per poi mettere in votazione che sia una comunicazione. Se respinta, senza bisogno di votazione diventa automaticamente un'informativa, così come era previsto nel calendario. La prima votazione, quindi, è volta ad anticipare, rispetto al calendario che vi è stato proposto, la richiesta di intervento del Governo sulla vicenda venezuelana alla prossima settimana. CALIENDO (FI-BP). Martedì. PRESIDENTE. Può essere lunedì, martedì o mercoledì. Ho parlato di settimana. Appena sarà possibile. Dopo l'esame del decreto-legge semplificazioni, c'è un giorno preciso nella vostra richiesta o mi riferisco semplicemente alla settimana che comincia da lunedì 28 gennaio? Sto dicendo di votare l'anticipo dell'intervento del Governo dalla settimana dal 5 al 7 febbraio a quella che inizia il 28 gennaio. È giusto? Mi pare non sia stata avanzata la richiesta di un giorno preciso, ma si sia detto dopo l'esame del decreto-legge semplificazioni.</seg>
+            </u>
+            <note type="speaker">CASINI (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#CasiniPierFerdinando" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u38">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg98">Presidente, non va bene. Dopo la conversione del decreto-legge significa che stiamo prendendo in giro la gente, perché ci sono sei giorni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, FI-BP e Aut (SVP-PATT, UV)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg99">La presenza non potrà esserci dopo la conversione del decreto-legge: almeno si dica lunedì mattina.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u39">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg100">Senatore Casini, abbiamo appena votato e l'Assemblea ha respinto la proposta di chiedere che il Ministro venga oggi e, quindi, ciò non potrà avvenire prima di lunedì. Chi ha detto, poi, dopo la conversione del decreto-legge? Io ho detto che la proposta è di anticipare la richiesta di presenza del Ministro alla settimana che inizia il 28 gennaio e, quindi, il primo giorno possibile per me è il 28 gennaio, a meno che non mi proponiate un giorno preciso. Nessuno ha detto il giorno preciso. La proposta è quella del senatore Malan.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg101">Passiamo quindi alla votazione della proposta del senatore Malan volta a inserire le comunicazioni del ministro Moavero Milanesi nel calendario dei lavori della settimana che va dal 28 gennaio al 1° febbraio.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg102">MALAN (FI-BP). No! CASINI (Aut (SVP-PATT, UV)). Non votiamo questa cosa. PRESIDENTE. Era questa la proposta. Non si possono cambiare le proposte ogni due minuti.</seg>
+            </u>
+            <note type="speaker">MALAN (FI-BP)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u40">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg103">Signor Presidente, a parte che bisogna regolare il volume dell'amplificazione, perché siamo molto oltre l'amplificazione... PRESIDENTE. Va bene, mi lasci stare adesso. MALAN (FI-BP). Non lascio stare, perché ci sono dei lavoratori qui. Noi non siamo considerati tali, ma ci sono delle persone che hanno diritto alla tutela della sicurezza sul posto di lavoro e non può esserci costantemente in quest'Aula un volume superiore a quello consentito nei posti di lavoro, incluse le officine meccaniche.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg104">Premesso questo, la mia proposta - l'ho anche formulata due volte, perché lei ha ritenuto correttamente che non fosse chiara - era che le comunicazioni avessero luogo lunedì o martedì della prossima settimana. Comprendo il presidente Casini, ma ammetto che prima ho chiesto che fosse lunedì o martedì. Il presidente Casini adesso ha detto che martedì è troppo tardi, ma voglio ribadire che non ho detto da lunedì a sabato, ma ho detto o lunedì o martedì: questo è quello che ho proposto.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u41">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg105">D'accordo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg106">Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta a inserire nell'ordine del giorno delle sedute di lunedì 28 o martedì 29 gennaio le comunicazioni del ministro Moavero Milanesi, avanzata dal senatore Malan.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg107">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg108">CALIENDO (FI-BP). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata. Passiamo ora alla proposta del senatore Romeo volta a inserire l'informativa del ministro Moavero Milanesi nel calendario della settimana che va dal 28 gennaio al 1° febbraio, non appena si sia concluso l'esame del disegno di legge n. 989 di conversione del decreto-legge 14 dicembre 2018, n. 135, in materia di semplificazioni.</seg>
+            </u>
+            <note type="speaker">QUAGLIARIELLO (FI-BP)</note>
+            <u ana="#regular" who="#QuagliarielloGaetano" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u42">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg109">Su questa proposta il Gruppo Forza Italia probabilmente si asterrà, ma vorrei chiarire definitivamente che qui non stiamo parlando di un problema di tempi: qui si sono confrontate due concezioni della politica estera. Chiunque ha un minimo di cognizione di cosa sia la politica estera, sa che il tempo in questo caso ha una geometria variabile. Voglio dire che, mentre un decreto-legge può essere votato oggi o la settimana prossima, in politica estera ci sono eventi che avvengono in alcune fasi e addirittura sono condizionati dalle ore o dai minuti. Dire che si discute dopo aver finito l'esame di un provvedimento, significa una cosa ben chiara e basta che ognuno di noi lo sappia: vuol dire che quella materia è considerata un problema che viene dopo i nostri affari interni e non vogliamo intervenire nel momento nel quale il problema si definisce. Un colpo di Stato o una situazione di difficoltà, se presi in considerazione dopo tre o quattro giorni - come si direbbe da queste parti "a babbo morto" - vuol dire che vengono commentati. Non si interviene sull'azione di un Paese nel momento nel quale una questione si verifica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg110">Questa è la differenza. Questo è il problema. Con molta pacatezza: non c'è difficoltà a prenderne atto, ma questo è quanto stiamo votando.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg111">Noi abbiamo chiesto di sapere qual è il nostro intervento. Ci è stato detto che il Parlamento non deve saperlo e verrà informato quando i fatti si saranno svolti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg112">Pertanto, noi votiamo contro per questo motivo e non già per una ripicca o un problema solamente di tempi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u43">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg113">PRESIDENTE. Ricordo che il Senato ha già votato contro le altre proposte. Rimane da votare solo quella avanzata dal senatore Romeo, su cui è consentito l'intervento del senatore Marcucci. Ne ha pertanto facoltà.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg114">Signor Presidente, onorevoli colleghi, con la stessa pacatezza e anche con la speranza che si possa fare un passo in avanti - parlo in particolare al collega, senatore Romeo - prendiamo atto delle votazioni appena svolte e non torniamo sull'argomento. Chiediamo però, quanto meno, che il Ministro degli affari esteri e della cooperazione internazionale intervenga in questa sede per rendere delle comunicazioni e ci sia l'impegno della maggioranza e del Governo a far sì che ciò avvenga martedì sera o mercoledì mattina della prossima settimana. Ricordo che il Venezuela è un Paese dove gli italiani hanno una storia rilevante e dove vivono e hanno interessi tanti nostri concittadini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg115">Si tratta di un tema pregnante per l'interesse del nostro Paese e della nostra comunità nazionale. Ed è questo il motivo per cui chiedo al senatore Romeo che la prevista informativa del Ministro venga trasformata in comunicazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg116">Vorremmo inoltre avere l'impegno del Governo sulla sollecitazione da fare al ministro Moavero Milanesi. Ma quanto avrà mai da fare questo Ministro che non è mai disponibile per il Senato della Repubblica?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg117">Capisco che è impegnato, ma - forse - qualche diritto il Senato lo ha. Durante il weekend manderemo al Ministro una Costituzione per chiarirsi le idee sull'equilibrio istituzionale e su cosa è una democrazia parlamentare. Detto ciò, chiediamo al senatore Romeo di trasformare l'informativa in comunicazioni e al Governo di impegnarsi affinché martedì sera, o - al più tardi - mercoledì mattina il ministro Moavero Milanesi intervenga in questa sede per illustrare la posizione del Governo. Le comunicazioni sono importanti. A differenza dell'informativa, le comunicazioni daranno l'opportunità ai singoli parlamentari e ai Gruppi di entrare nel dettaglio della questione e assumere delle posizioni precise. Il Governo italiano deve prendere delle posizioni precise insieme al Parlamento su un tema delicato come questo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">URSO (FdI)</note>
+            <u ana="#regular" who="#UrsoAdolfo" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u44">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg118">Signor Presidente, in queste ore - e non la prossima settimana, o tra due settimane, senatore Romeo - tutti i Governi... DE PETRIS (Misto-LeU). I Governi! URSO (FdI)....si stanno esprimendo al riguardo. Senatore Romeo, in queste ore, mentre qui discutiamo se il Governo italiano debba rendere un'informativa o una comunicazione tra due settimane, tutti gli altri Governi si stanno esprimendo. C'è chi, come Erdogan, si schiera con Maduro e chi, come Bolsonaro, si schiera con la libertà dei cittadini venezuelani. Tutti i Governi si stanno esprimendo. L'Italia non si esprime perché questo argomento non è nel contratto di Governo?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, PD, FI-BP e Aut (SVP-PATT, UV)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg119">Stiamo parlando dell'Italia, che, a differenza della Turchia, ha due milioni di concittadini che vivono in Venezuela, parenti di qualche decina di milioni di italiani che stanno qui.</seg>
+               <kinesic type="applause">
+                  <desc>Applauso dal Gruppo FI-BP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg120">Più di qualunque altro Paese al mondo abbiamo il dovere di esprimerci e non di rinviare di due settimane, dopo l'esame del cosiddetto decreto semplificazioni. Ci avete convocato per settimane in quest'Assemblea, in attesa di un accordo da fare sulle trivelle. Anche oggi siamo qui. Perché non procedere all'esame oggi? Siamo qui. Perché non domani? Perché non domenica? In qualunque momento il Governo ha il dovere, meglio se con comunicazioni, di venire in questa sede a dirci se si schiera da una parte o dall'altra, perché non schierarsi oggi significa dare il via libera alla repressione sanguinosa di Maduro. Vogliamo capire o meno che due milioni di italiani rischiano la vita in quel Paese? Dobbiamo esprimerci subito. Il Governo deve scegliere da che parte stare. L'Italia sta con gli italiani in Venezuela.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FI-BP e PD e della senatrice Unterberger.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">NENCINI (Misto-PSI)</note>
+            <u ana="#regular" who="#NenciniRiccardo" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u45">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg121">Signor Presidente, intervengo per richiamare l'attenzione dell'Assemblea. Stamattina abbiamo fissato un criterio il cui effetto è pari, perlomeno, a quello avuto nella scienza dalla rivoluzione copernicana: abbiamo cioè fissato il principio che la politica estera è atemporale e che, in alternativa, le trivelle sono superiori per rilievo e importanza a due milioni di italiani che vivono in Venezuela.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e FI-BP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg122">Questo principio è stravolgente, perché se la loro vita o quella di cittadini che votano per questo Parlamento è meno importante e quindi non porta in Aula il Ministro competente, fissiamo un criterio che non ha uguali nella storia, non della Repubblica italiana, ma dell'Italia unita, dal 1860 fino a questa mattina, ed è giusto che l'Assemblea lo sappia e si richiami ad una responsabilità che in centocinquanta anni in quest'Aula non è mai venuta meno, salvo nella giornata di oggi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto, FI-BP, PD e FdI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GASPARRI (FI-BP)</note>
+            <u ana="#regular" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u46">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg123">Signor Presidente, a me questa discussione sembra un po' surreale: tra poco qualcuno chiederà se c'è il parere della Commissione bilancio sulla guerra civile in Venezuela, perché stiamo mischiando delle drammatiche vicende dell'umanità col calendario dei lavori, l'attività della Commissione, le comunicazioni e l'informativa, cose che fuori da qui nessuno capirebbe. Noi abbiamo posto un problema che la storia si pone: non è che l'ordine del giorno del Senato della Repubblica italiana viene prima di quello che accade nell'umanità. I liberi Parlamenti non possono determinare l'andamento della storia. Non mi illudo che se noi facciamo una discussione oggi, domani mattina o lunedì il mondo cambi, ma i liberi Parlamenti sono un presidio di libertà, per se stessi e per il mondo: questo stiamo dicendo in quest'Aula, quindi è opportuno parlare di quello che accade. Poi si può discutere. Ci sono Governi che hanno riconosciuto questa nuova istituzione, come quello degli Stati Uniti d'America. Siamo o non siamo alleati degli Stati Uniti? Non è che la decisione degli Stati Uniti di non riconoscere Maduro e di riconoscere gli altri sia irrilevante e questo vale per altri Paesi ancora. Invito pertanto i colleghi della maggioranza ad avere saggezza, poi si potrà discutere quando sarà, ma questo atteggiamento di mischiare i drammi della storia con la miseria delle trivelle e degli emendamenti è un errore che il Senato non può tollerare. Viva il Venezuela del popolo venezuelano! È questo che dobbiamo dire in questa sede oggi, perché c'è gente che rischia di andare sotto i carri armati e cosa verrà detto loro? Aspettate, sospendiamo la guerra civile, perché a Roma devono sapere quando ne parleranno? Non ci dobbiamo coprire di questa vergogna.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e FdI.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u47">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg124">Saluto a nome dell'Assemblea i docenti e gli studenti dell'Istituto tecnico industriale «Giovanni Caso», di Piedimonte Matese, in provincia di Caserta, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ripresa della discussione sul calendario dei lavori dell'Assemblea</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u48">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg125">A questo punto, esauriti gli interventi, metto ai voti la proposta di modifica del calendario dei lavori volta a procedere all'informativa del Governo sul Venezuela la settimana prossima non appena esaurito l'esame del decreto-legge semplificazioni, avanzata dal senatore Romeo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg126">È approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg127">Dispongo la controprova.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg128">Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg129">È approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg130">Ciò comporta che potrà esservi l'esigenza di aggiungere un'altra giornata nel calendario della prossima settimana, che invece prevedeva solo l'esame del decreto-legge semplificazioni. Ove occorresse, l'Assemblea potrà esser convocata anche mercoledì o un altro giorno.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg131">CASINI (Aut (SVP-PATT, UV)). Abbiamo detto lunedì o martedì! PRESIDENTE. Sì, quando sarà esaurito l'esame del decreto-legge semplificazioni, occorrerà prevedere un'altra seduta. Abbiamo dunque esaurito la questione e prendo atto che il Venezuela, per fortuna, è stato considerato più importante di come ai miei tempi veniva considerato il Bangladesh.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">FEDELI (PD)</note>
+            <u ana="#regular" who="#FedeliValeria" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u49">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg132">Signor Presidente, non credo che il mio sia proprio un intervento di fine seduta, ma prendo atto dell'andamento del dibattito odierno. PRESIDENTE. No, senatrice, il suo è un intervento di fine seduta. Ha tre minuti. FEDELI (PD). Va bene, la ringrazio di avermi dato la parola. Voglio solo ricordare in quest'Aula, che mi sembra un luogo importante, che secondo me merita rispetto, la figura di Guido Rossa.</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg133">PRESIDENTE. Colleghi, chi non è interessato alla commemorazione di Guido Rossa è pregato di uscire dall'Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg134">Spero che almeno lei lo sia, signor Presidente. Esattamente la mattina del 24 gennaio del 1979, 40 anni fa, le Brigate Rosse colpirono a morte Guido Rossa, dopo averlo prelevato con forza mentre entrava in fabbrica. Guido Rossa era un operaio iscritto alla CGIL.</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u50">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg135">Mi scusi, senatrice.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg136">Colleghi, credo che il ricordo di una vittima delle Brigate Rosse meriti una maggiore attenzione. La collega sta ricordando una delle tante vittime delle BR, che segnò però una svolta nella politica italiana, per cui credo che meriti attenzione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg137">Prego, senatrice, a lei la parola.</seg>
+            </u>
+            <note type="speaker">FEDELI (PD)</note>
+            <u ana="#regular" who="#FedeliValeria" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u51">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg138">La ringrazio, Presidente.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg139">Come dicevo, Guido Rossa era un operaio iscritto alla CGIL, un operaio militante del Partito Comunista Italiano, un operaio che non ebbe dubbi a schierarsi, a decidere da che parte stare e ad agire di conseguenza, anche in un momento storico - lo voglio ricordare - in cui lo scontro politico era tanto violento da mettere in gioco e a rischio la propria vita. Era un operaio e un sindacalista che lottava per la sua gente, per rendere più giuste e dignitose le condizioni di lavoro e quindi di vita, che credeva nella democrazia ed era pronto a battersi per difenderla da chi voleva annientare la Repubblica, colpendone i valori, gli spazi di convivenza democratica, il senso di comunità.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg140">Non ebbe dubbi a denunciare un collega di fabbrica dell'Italsider, che diffondeva volantini inneggianti alla lotta armata: Rossa fu il primo a farlo in questo Paese. Fece ciò che la sua coscienza gli indicò come giusto, quello che la sua comunità di riferimento, la CGIL, riteneva fosse una responsabilità di tutti i lavoratori per fermare i tentativi di infiltrazione brigatista nelle fabbriche e contrastare in ogni modo il terrorismo, che Luciano Lama definì nemico mortale della classe operaia.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg141">Come sapete, mai in CGIL ci furono atteggiamenti di comprensione verso quelli che qualcuno definiva «compagni che sbagliano»; mai ci fu un tentennamento di fronte a chi diceva di stare né con lo Stato, né con le BR. Non erano «compagni» quelli che uccidevano: non c'era nessuna altra parte dove i lavoratori e i sindacalisti potessero stare che non fosse quella dello Stato e della democrazia.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg142">Guido Rossa era fortemente convinto di questo, umanamente e politicamente; così convinto da agire, da rischiare, da non temere per la propria vita e per la propria famiglia; così convinto da essere scelto dai terroristi come uno di quelli che andava punito, colpito, ucciso.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg143">Quando Luciano Lama prese la parola nel giorno dei funerali, davanti a quasi 250.000 donne e uomini venuti a rendere omaggio a quell'operaio che aveva dato la vita per la democrazia, ribadì con fermezza la condanna di ogni forma di violenza e l'impegno del sindacato contro il terrorismo, a difesa della libertà e della Repubblica. Disse Luciano Lama: «Se il gesto di coraggio civile compiuto dal compagno Rossa non fosse rimasto troppo isolato, se (...) noi tutti (…) fossimo stati un solo grande testimone schierato contro il nemico della democrazia, forse la vita di questo nostro compagno non sarebbe stata spezzata».</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg144">Parole cui fecero eco quelle di un compagno di fabbrica di Guido, Paolo Perugino, dell'esecutivo del consiglio di fabbrica dell'Italsider: «Guido Rossa è stato ucciso perché non si è piegato, perché non ha ignorato, perché non ha avuto paura e ha voluto vivere fino in fondo, con coerenza, la sua scelta politica. Coloro che speravano, con questo assassinio, di chiuderci sgomenti nelle nostre fabbriche si sono sbagliati. Non sanno di quale ostinata rabbia e determinazione noi siamo capaci».</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg145">Di quella mattina del 24 febbraio del 1979 e dei giorni successivi io ricordo personalmente, insieme a tanti altri, lo sgomento e l'infinita tristezza, certo, di un primo momento, ma poi la rabbia e la determinazione; la rabbia e la determinazione di tutto il movimento sindacale, di CGIL, CISL e UIL, e di tutto lo schieramento politico democratico che era stato vicino alle idee e alle battaglie di Guido.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg146">Per tutta l'Italia, quel giorno qualcosa cambiò, anche grazie a quella rabbia e a quella determinazione; la rabbia e la determinazione delle operaie e degli operai. Iniziò, così, la fine del terrorismo, che pur non risparmierà, purtroppo, altre vittime, ma che si ritrovò improvvisamente più isolato nelle sue deliranti rivendicazioni e nelle sue folli violenze.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg147">Ricordare oggi Guido Rossa qui significa, allora, ricordare e riaffermare il suo esempio e voglio con forza condannare le scritte apparse ieri, che sono un insulto non solo a lui, ma a tutta la memoria e a tutta l'Italia democratica della nostra storia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg148">Ricordiamo Guido nell'anniversario del giorno in cui è stato ucciso, ma lo ricordiamo soprattutto per l'esempio della sua vita, per la forza morale, per il senso di giustizia e di uguaglianza, per lo spirito di solidarietà.</seg>
+               <incident type="sound">
+                  <desc>Il microfono della senatrice Fedeli si disattiva automaticamente</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg149">PRESIDENTE. Collega, le ho concesso già più del doppio del tempo consentito. Come vede, non l'ho interrotta, però la pregherei di sintetizzare l'intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg150">Per lo spirito di solidarietà, la generosità e il coraggio che l'hanno sempre caratterizzato, fino alla fine. Il suo non è, quindi, l'esempio di un martire, ma di un eroe civile. Certo, come ha ricordato ieri il presidente Mattarella nella cerimonia di ricordo a Genova, Guido non si proponeva di diventare un eroe, ma voleva essere fedele a se stesso, a ciò che intendeva costruire per il domani della sua famiglia, del quartiere in cui abitava, della fabbrica in cui lavorava, dell'intera società. «Non indugiò», sono ancora parole del Presidente, «a chiedersi se toccasse proprio a lui contrastare il terrorismo. Seppe però battersi per tutti». Ringraziare oggi Guido Rossa e tutta la sua famiglia per quello che ha patito credo che sia un atto doveroso; lo ritengo giusto e un grande insegnamento per le giovani generazioni. Sono contenta che siano in Aula anche dei ragazzi che assistono ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi. Molte congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u52">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg151">Mi unisco, senza se e senza ma, al ricordo di Guido Rossa e lo faccio con un trasporto maggiore in quanto a me toccò essere presente ai funerali delle prime vittime delle Brigate Rosse, Giralucci e Mazzola, che vennero assassinati nella sede del Movimento Sociale Italiano a Padova. La mia solidarietà è quindi completa e vicina.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg152">Su questo argomento alcuni colleghi hanno chiesto di esprimere una breve adesione.</seg>
+            </u>
+            <note type="speaker">BRUZZONE (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BruzzoneFrancesco" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u53">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà, anche se oggi stiamo andando contro tutte le regole sui tempi.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg153">Lei ha perfettamente ragione, ma il tema è rilevante e lo è ancora di più per chi è genovese come me e per chi, come me, ha radici familiari profonde all'interno di quella fabbrica, dove sono avvenuti i fatti ricordati. Mi associo, quindi, alle considerazioni fatte dalla senatrice Fedeli e, anche da parte nostra, credo sia stato corretto e giusto ricordare quei tempi, anche sotto forma di insegnamento per il futuro, come è avvenuto oggi all'interno del Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ERRANI (Misto-LeU)</note>
+            <u ana="#regular" who="#ErraniVasco" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u54">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg154">Signor Presidente, ringrazio la senatrice Fedeli e chiedo che la Presidenza valuti di ragionare se aprire i lavori, lunedì prossimo, con un momento di tutto il Senato, dedicato al riconoscimento di questa personalità che, come ha ricordato il Presidente della Repubblica ieri, è e rappresenta un momento di svolta di questo Paese e della nostra storia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg155">Chiedo davvero alla Presidenza di aprire, lunedì, non con un dibattito, ma con un momento solenne in quest'Assemblea in ricordo di Guido Rossa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u55">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg156">Trasmetterò senz'altro questa richiesta, a cui - lei capisce - si potrebbero unire le richieste di altri Gruppi, per lui e per altre vittime delle Brigate Rosse.</seg>
+            </u>
+            <note type="speaker">DI NICOLA (M5S)</note>
+            <u ana="#regular" who="#DiNicolaPrimo" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u56">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg157">Signor Presidente, onorevoli colleghi, intervengo brevemente per associarmi, anche a nome del Gruppo MoVimento 5 Stelle, al ricordo di questo lavoratore, sindacalista e cittadino che diventò, in uno dei momenti più drammatici del fenomeno terroristico, una riscossa autentica di cittadini comuni e lavoratori, che riaffermarono in quel momento il valore della democrazia e il rifiuto della violenza. Un saluto alla famiglia è doveroso, ricordando l'esempio fulgido di Guido Rossa, che è anche l'impegno di tutti i cittadini italiani per difendere i valori della democrazia e per fare in modo, se ce ne sarà occasione anche approfondendo il tema con dei dibattiti, perché sbornie di violenza, sbornie ideologiche di quel tipo non abbiano a ripetersi nel nostro Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PESCO (M5S)</note>
+            <u ana="#regular" who="#PescoDaniele" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u57">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg158">Signor Presidente, con infinita delicatezza, pacatezza e chiarezza, intendo ricordare a questa Assemblea e al Presidente che nel 2011 l'Agenzia delle dogane ha indetto un concorso per 69 posti per dirigente di seconda fascia. Di questo concorso si è parlato molto nelle aule dei tribunali amministrativi, ma soprattutto nelle Aule parlamentari, perché è un concorso che ha riportato molti vizi, a partire dalla correzione dei temi d'esame, che è stata svolta in modo personale da un membro della commissione e non in modo collegiale. Oltre a questo, sono successi degli scandali ben più gravi, tant'è che all'interno delle Gazzette Ufficiali che sono state distribuite durante il concorso vi erano le prove scritte svolte del concorso stesso, una cosa gravissima. Ne sono nate quindi indagini, anche di carattere penale, e il 1° febbraio ci sarà l'udienza davanti al giudice per le indagini preliminari. Ebbene, ne sono susseguiti ricorsi, molti dei quali sono stati rigettati, ma in una sentenza di rigetto di uno di questi ricorsi si fa riferimento alla possibilità dell'Amministrazione di ritirare il concorso in autotutela. Poiché sono sicuro e certo di far parte di un Paese civile, forse è il caso che questo concorso venga veramente ritirato, perché non possiamo avere il dubbio che alcuni possano passare questo concorso così pieno di vizi. La mia preghiera è questa, veramente più che una preghiera è un auspicio, che volevo comunicare a tutta l'Assemblea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CORRADO (M5S)</note>
+            <u ana="#regular" who="#CorradoMargherita" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u58">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg159">Signor Presidente, gentili colleghi, l'abbandono del carbone e la sostituzione delle fonti fossili con energie rinnovabili, contestuali ad uno sforzo in direzione dell'efficientamento energetico, sono nel programma del Governo. In tema di rinnovabili, però, in Calabria si assiste ad una proliferazione abnorme di parchi eolici, complice la giunta Oliverio, naturalmente disposta a concedere VIA favorevoli e troppo spesso spalleggiata da certi dirigenti del Ministero per i beni e le attività culturali pronti, in materia di tutela del paesaggio, a chiudere anch'essi non uno, ma entrambi gli occhi. Per lo stesso motivo e con le stesse complicità, in una Regione che si spopola a ritmo serrato, la mamma delle discariche (siano esse per rifiuti del ciclo pubblico o speciali) è più prolifica della celebre scrofa bianca di Enea. Ciò mette a rischio la salute dei cittadini e attenta ai valori paesaggistici di un territorio di per sé votato invece all'agroalimentare di qualità e al turismo sostenibile. Non si può che solidarizzare, pertanto, con il gruppo Ambiente e Territorio di Mongrassano, nel Cosentino, oggi impegnato nella giusta battaglia contro l'impianto per la produzione di energia elettrica da fonte eolica denominato Aria del vento, progettato dalla Gamesa energia Italia SpA (oggi Siemens Gamesa), contrastato dai residenti non per un rifiuto preconcetto della modernità, ma per ragioni sensate e condivisibili. Personalmente non finirò mai di deplorare la distorsione del linguaggio, per cui i nomi non rispecchiano più la sostanza delle cose: penso a «parco eolico» ma anche, nel campo del trattamento dei rifiuti, all'uso del termine «valorizzazione» per termovalorizzazione, cioè incenerimento, uso ormai talmente radicato che pure la tentata distruzione del patrimonio culturale materiale e immateriale del Paese, consciamente o no equiparati a rifiuti, mediante le cosiddette riforme Franceschini, chiama se stessa «valorizzazione». Suscita l'apprensione dei cittadini il fatto che il parco eolico insista sulla dorsale appenninica che sovrasta l'abitato di Mongrassano, per interessare anche aree afferenti ai Comuni limitrofi di San Marco Argentano e Cervicati, alcune delle quali percorse dal fuoco negli anni scorsi. Ebbene, è notorio che detta dorsale è attraversata da un'importante frattura della crosta terrestre: la faglia San Fili-San Marco Argentano. Non basta, perché l'intera macroarea denominata Catena costiera e fascia pedemontana, come si legge nell'aggiornamento del programma di previsione e di prevenzione dei rischi e del piano di emergenza della Provincia di Cosenza, adottato nel 2014, si caratterizza anche per un elevatissimo rischio di frana. Abbiamo ancora tutti negli occhi la cancellazione dell'abitato e le gravi conseguenze per tutto il circondario causate dalla frana che ha interessato la vicina frazione Cavallerizzo del Comune di Cerzeto. In un territorio così fragile dal punto di vista geologico, il parco eolico Aria del vento si segnala negativamente anche sul piano ambientale, sia per il mancato rispetto delle distanze prescritte dalle più vicine aree naturali protette della rete Natura 2000, sia per la coincidenza con uno dei sentieri di crinale inseriti dalla Regione Calabria nel progetto di valorizzazione...</seg>
+               <incident type="sound">
+                  <desc>Il microfono si disattiva automaticamente.</desc>
+               </incident>
+            </u>
+            <note type="speaker">TARICCO (PD)</note>
+            <u ana="#regular" who="#TariccoMino" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u59">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg160">Signor Presidente, il mio intervento è diretto a sollecitare una risposta all'interrogazione 3-00116 , presentata il 19 luglio 2018. Con questa interrogazione noi chiedevamo a che punto fossero le vicende che riguardavano il completamento del collegamento autostradale Asti-Cuneo, che da vent'anni il territorio della Provincia di Cuneo chiede, dato che la città di Cuneo è ancora l'unico capoluogo di Provincia in Italia non collegata ad un'autostrada. Alla fine della passata legislatura, il ministro Delrio aveva concordato un cross financing autorizzato dall'Unione europea, per il quale a fronte di un prolungamento di concessione di quattro anni della Torino-Milano, la società concessionaria avrebbe realizzato questo completamento. Il nuovo ministro Toninelli aveva chiesto di poter esaminare le carte per fare una valutazione e a gennaio di quest'anno una deputata del MoVimento 5 Stelle ha rilasciato una dichiarazione, nella quale ha detto che la porta del Ministro era sempre aperta e se qualcuno avesse voluto parlare col Ministro sarebbe stato ben accetto, in qualche misura certificando che il Ministro non aveva fatto nulla per completare l'accordo con la società concessionaria. La scorsa settimana, il vice presidente del Consiglio Di Maio ha detto che stavano valutando di sospendere tutto il percorso fatto e di fare sì il completamento, ma con fondi dello Stato. Sono quindi qui a sollecitare la risposta all'interrogazione (e nella giornata di ieri ne abbiamo presentata una ulteriore, alla luce dei nuovi elementi sopraggiunti), ma soprattutto a chiedere che il Governo ci dica cosa intende fare. Sotto questo profilo, ho sentito il ministro Toninelli dire che rifaranno tutti gli accordi, perché li faranno decisamente migliori e maggiormente nell'interesse del territorio e delle comunità. Sono qui solo a dire, sommessamente, che dai conti fatti dalle forze economiche del nostro territorio emerge che quel mancato completamento costa all'economia del territorio da 8 a 10 milioni di euro al mese. Detto questo, non vorremmo che, per risparmiare magari 10 o 20 milioni di spesa pubblica e non fare l'accordo di cross financing, la menassimo altri due anni, con un costo di qualche centinaia di milioni di euro per l'economia del territorio. Non capiamo quale possa essere la logica che sta dietro a quest'approccio folle alle infrastrutture del territorio. Chiediamo sicuramente una risposta all'interrogazione, ma anche, sommessamente, che quantomeno non si distrugga ciò che era stato fatto. Poi, se vorranno fare di meglio, saremo tutti ad applaudire, ove ciò accada.</seg>
+            </u>
+            <note type="speaker">FANTETTI (FI-BP)</note>
+            <u ana="#regular" who="#FantettiRaffaele" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u60">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg161">Signor Presidente, intervengo con riferimento anche al dibattito sul Venezuela per sollecitare a nome del mio Gruppo, ancora una volta, la costituzione del Comitato per le questioni degli italiani all'estero, che solo in questa legislatura e solo in questo ramo del Parlamento non è ancora stato ricostituito. Si sono citati gli italiani che vivono in Venezuela, che sono in grande numero: ebbene, il luogo deputato istituzionalmente per approfondire e avanzare proposte relative a tali tematiche è il Comitato per le questioni degli italiani all'estero. Da un anno non viene ricostituito e negare agli italiani all'estero eletti democraticamente nella circoscrizione estero il diritto di avanzare proposte su questi temi in sede di Comitato è una grave responsabilità dell'attuale maggioranza. Ne sollecito quindi la costituzione, facendo notare che nell'ambito della circoscrizione estero, in questo ramo del Parlamento, sono stati eletti ben due rappresentanti, uno dei quali siede a nome del Gruppo MAIE al Governo, con una responsabilità di Sottosegretario di Stato, è molto attivo sul territorio e ha compiuto anche missioni in Venezuela. Perché non audire quindi il sottosegretario Merlo sulla situazione specifica degli italiani in Venezuela? Potrebbe essere opportuno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u61">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg162">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di lunedì 28 gennaio 2019</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.u62">
+               <seg xml:id="ParlaMint-IT_2019-01-24-LEG18-Sed-83.seg163">Il Senato tornerà a riunirsi in seduta pubblica lunedì 28 gennaio, alle ore 10, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 12,16).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

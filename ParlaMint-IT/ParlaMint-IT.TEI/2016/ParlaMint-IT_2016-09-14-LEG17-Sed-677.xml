@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 677 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 677 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 677, giorno (2016-09-14)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 677, Day (2016-09-14)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="677-upper">677 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="176" unit="speeches" xml:lang="it">176 discorsi</measure>
+            <measure quantity="176" unit="speeches" xml:lang="en">176 speeches</measure>
+            <measure quantity="18226" unit="words" xml:lang="it">18.226 parole</measure>
+            <measure quantity="18226" unit="words" xml:lang="en">18,226 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0988614</idno>
+               <date when="2016-09-14">14.09.2016</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="9"/>
+               <tagUsage gi="head" occurs="6"/>
+               <tagUsage gi="note" occurs="283"/>
+               <tagUsage gi="seg" occurs="176"/>
+               <tagUsage gi="u" occurs="109"/>
+               <tagUsage gi="vocal" occurs="7"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="19"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="desc" occurs="27"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2016-09-14">14.09.2016</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente GASPARRI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u1">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg1">La seduta è aperta (ore 9,36). Si dia lettura del processo verbale. AMATI, segretario, dà lettura del processo verbale della seduta del 4 agosto. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u2">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u3">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg3">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg4">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 9,39).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione dei disegni di legge: (2271) Deputati COSCIA ed altri. - Istituzione del Fondo per il pluralismo e l'innovazione dell'informazione e deleghe al Governo per la ridefinizione della disciplina del sostegno pubblico per il settore dell'editoria, della disciplina di profili pensionistici dei giornalisti e della composizione e delle competenze del Consiglio nazionale dell'Ordine dei giornalisti</note>
+            <note type="time">09,40</note>
+            <note type="status">(Approvato dalla Camera dei deputati)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46581.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (282) MARINELLO ed altri. - Modifica all'articolo 2 del decreto legislativo 24 aprile 2001, n. 170, in materia di punti di vendita della stampa quotidiana e periodica</note>
+            <note type="time">09,40</note>
+            <note type="status">(Approvato dalla Camera dei deputati)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39963.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (453) CRIMI ed altri. - Disposizioni volte alla abolizione del finanziamento pubblico all'editoria</note>
+            <note type="time">09,40</note>
+            <note type="status">(Approvato dalla Camera dei deputati)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40423.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (454) CRIMI ed altri. - Abrogazione della legge 3 febbraio 1963, n. 69, sull'ordinamento della professione di giornalista</note>
+            <note type="time">09,40</note>
+            <note type="status">(Approvato dalla Camera dei deputati)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40426.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1236) BUEMI ed altri. - Delega al Governo per la definizione di nuove forme di sostegno all'editoria e l'abolizione dei contributi diretti ai giornali</note>
+            <note type="time">09,40</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43736.htm</note>
+            <note type="time">(ore 9,40)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u4">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg5">L'ordine del giorno reca il seguito della discussione dei disegni di legge nn. 2271, già approvato dalla Camera dei deputati, 282, 453, 454 e 1236.</seg>
+            </u>
+            <note>Riprendiamo l'esame degli articoli del disegno di legge n. 2271, nel testo proposto dalla Commissione.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Ricordo che nella seduta di ieri ha avuto inizio l'esame dell'articolo 2 e degli emendamenti e ordine del giorno ad esso presentati. Passiamo all'emendamento 2.130, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. MALAN</note>
+            <note>(FI-PdL XVII)</note>
+            <note>Chiediamo la votazione, ai sensi dell'articolo 102-</note>
+            <note>bis</note>
+            <note>del Regolamento, di tutti gli emendamenti su cui la 5ᵃ Commissione ha espresso parere contrario. Chiediamo inoltre che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata).</note>
+            <note>In attesa che decorrano i venti minuti dal preavviso di cui all'articolo 119, comma 1, del Regolamento, sospendo la seduta.</note>
+            <note>(La seduta, sospesa alle ore 9,41, è ripresa alle ore 9,59)</note>
+            <note>La seduta è ripresa. Prego i colleghi di prendere posto perché riprendiamo i lavori dalle votazioni. A tale proposito, la Presidenza avverte l'Assemblea e gli onorevoli colleghi che il sostegno alla richiesta di voto elettronico sugli emendamenti riferiti ad un determinato articolo si intenderà estesa anche agli emendamenti improcedibili, ove ne venga richiesta la votazione: è un modo per semplificare nel caso di emendamenti improcedibili, salvo che il proponente non ritenga di ritirare l'emendamento. Pertanto, ai sensi dell'articolo 102-</note>
+            <note>bis</note>
+            <note>del Regolamento, indico la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 2.130, presentato dalla senatrice Bernini e da altri senatori, fino alla parola «operanti».</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato non approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Risultano pertanto preclusi la restante parte e gli emendamenti da 2.133 a 2.132. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.357, presentato dal senatore Bertacco.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato non approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.134, presentato dal senatore Morra e da altri senatori.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato non approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 2.135, presentato dal senatore Gasparri e da altri senatori, fino alle parole «attribuzioni del Consiglio Nazionale dell'Ordine dei giornalisti».</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato non approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Risultano pertanto preclusi la restante parte e gli emendamenti 2.136 e 2.137. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.138, presentato dal senatore Crimi e da altri senatori.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato non approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.139, presentato dalla senatrice De Petris e da altri senatori, identico agli emendamenti 2.140, presentato dai senatori Bencini e Romani Maurizio, e 2.141, presentato dal senatore Calderoli e da altri senatori.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato non approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'emendamento 2.142, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</note>
+            <note type="speaker">MORRA (M5S)</note>
+            <u ana="#regular" who="#MorraNicola" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u5">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg6">Signor Presidente, chiedo che l'emendamento venga preso in seria considerazione da chi ritiene di dover far qualcosa per i giovani che si offrono all'importante professione del giornalista e poi vengono mortificati da condizioni di lavoro umilianti pressoché in tutta Italia, ma in particolare in alcuni contesti. Sappiamo tutti cosa sia il precariato, ma nell'ambito dell'editoria e, in particolare, in quella stampata vi sono forme straordinarie di precariato. Sentire di ragazzi laureati, che frequentano anche corsi particolarmente costosi per le famiglie e superano test di accesso a scuole più o meno prestigiose, che poi vengono costretti dalle cosiddette condizioni di mercato a vendersi - di questo si tratta - per pochissimi centesimi di euro perché si contano le battute è francamente inaccettabile. Pertanto è necessario un intervento che possa favorire il cosiddetto turnover - adesso bisogno parlare soltanto in inglese - di personale anziano, che ha vissuto un altro giornalismo, con giovani che hanno tanto da imparare, ma anche tanto entusiasmo da mettere a disposizione di questa importante funzione, prima ancora che professione. A noi questo sembra il minimo sindacale per i giovani, perché questo è un Paese che sta condannando alla morte professionale - per non dire all'emigrazione - migliaia di giovani che, altrimenti, non hanno alcuna speranza. Chiedo all'Assemblea di prestare quantomeno attenzione a questo emendamento. Insisto pertanto per la votazione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u6">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg7">Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.142, presentato dal senatore Morra e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 2.358, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. BERNINI (FI-PdL XVII). Ne chiediamo la votazione. PRESIDENTE. Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.358, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 2.359, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. BERNINI (FI-PdL XVII). Ne chiediamo la votazione. PRESIDENTE. Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.359, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 2.143 è stato ritirato. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.144, presentato dal senatore Airola e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.145, presentato dai senatori Bencini e Romani Maurizio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.146, presentato dai senatori Bencini e Romani Maurizio, identico agli emendamenti 2.147, presentato dai senatori Bruni e Liuzzi, e 2.360, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.148, presentato dai senatori Bencini e Romani Maurizio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.361, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.362, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">GIARRUSSO (M5S)</note>
+            <u ana="#regular" who="#GiarrussoMarioMichele" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg8">Signor Presidente, intervengo solo perché vorrei fosse registrata la mia intenzione di votare favorevolmente all'emendamento 2.362. Mi scusi, ma sono arrivato in ritardo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u8">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg9">Ne prendiamo atto.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg10">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.150, presentato dal senatore Airola e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.154 (testo 2), presentato dai senatori Bruni e Liuzzi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.155, presentato dal senatore Calderoli e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.363, presentato dal senatore Calderoli e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 2.364.</seg>
+            </u>
+            <note type="speaker">AIROLA (M5S)</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u9">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg11">Signor Presidente, l'emendamento 2.364 è molto semplice e tende a diminuire il numero dei componenti del Consiglio nazionale dell'Ordine dei giornalisti: visto che abolirlo proprio non si può, che almeno si diminuisca il numero dei componenti, anche alla luce del fatto che quest'Assemblea sta cercando di diminuire il numero di senatori. Teoricamente il Governo (penso che il sottosegretario Giacomelli sia d'accordo con me) esprime l'intenzione o comunque l'indirizzo politico di ridurre i poltronifici e questo è un organo che rappresenta un altro poltronificio, perché tutte queste persone prendono i gettoni di presenza e sono veramente troppe. Pensiamo anche agli organi provinciali, agli istituti locali: sono tutti poltronifici. Visto e considerato che l'emendamento prevede una semplicissima riduzione da 60 a 30 membri, penso che se voi non dimostrate la solita cialtroneria con cui dichiarate...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg12">PRESIDENTE. Senatore Airola, svolga la sua dichiarazione di voto senza insultare i colleghi, perché questo non è proprio previsto.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg13">Non è un insulto, è una modalità di comportamento, soprattutto del PD, abituale. PRESIDENTE. Questo non è consentito. AIROLA (M5S). Sono giudizi politici, signor Presidente. PRESIDENTE. Non sono giudizi, sono insulti. Concluda il suo intervento. AIROLA (M5S). Cialtroni, ipocriti, falsi, bugiardi!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg14">Potreste votarlo.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg15">PRESIDENTE. Senatore Airola, concluda il suo intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg16">Potreste votarlo, cari signori, ma non lo voterete perché siete niente, siete solo aria, chiacchiere: questa è la verità e...</seg>
+               <vocal type="shouting">
+                  <desc>Il microfono si disattiva automaticamente. Proteste dal Gruppo PD.</desc>
+               </vocal>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u10">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg17">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.364, presentato dal senatore Airola e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.365, presentato dai senatori Bencini e Romani Maurizio. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.162, presentato dal senatore Calderoli e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.366, presentato dai senatori Bencini e Romani Maurizio.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Airola. Segue la votazione</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg18">Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.165, presentato dal senatore Calderoli e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.367, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 2.368 è stato ritirato dal senatore Ruta e trasformato nell'ordine del giorno G2.368, recante l'impegno per il Governo a prevedere, nell'esercizio della delega per il riordino e la razionalizzazione delle norme concernenti il Consiglio nazionale dell'Ordine dei giornalisti, che almeno il 33 per cento dei componenti del Consiglio stesso siano eletti su base regionale, per garantire una più ampia rappresentatività. Avendo il relatore espresso parere favorevole ed essendo stato accolto dal Governo, l'ordine del giorno G2.368 non verrà posto ai voti. Passiamo alla votazione dell'emendamento 2.166, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. BRUNI (CoR). Ne chiediamo la votazione. PRESIDENTE. Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 2.166, presentato dai senatori Bruni e Liuzzi, fino alle parole «all'Albo». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte e gli emendamenti da 2.167 a 2.369. Passiamo alla votazione dell'emendamento 2.170, sostanzialmente identico agli emendamenti 2.172 e 2.370, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+            </u>
+            <note type="speaker">BERNINI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#BerniniAnnaMaria" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u11">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg19">Signor Presidente, l'emendamento 2.170, di cui abbiamo discusso anche in Commissione, ha per noi un significato particolare, perché prevede una valutazione, una disanima preliminare rispetto ai ricorsi giurisdizionali delle querele e richieste risarcitorie temerarie. Ne abbiamo parlato con il Sottosegretario, che ha dimostrato una sensibilità sul punto, ma purtroppo l'emendamento non è stato accolto. In una fase in cui, a seguito dell'afflusso della domanda di giustizia a una magistratura ordinaria purtroppo non in grado di risolvere in maniera sufficientemente efficiente e veloce il contenzioso, per noi è importante interporre degli organi a valenza extragiudiziale (comunque con una natura persuasiva, etica, non vincolante, ma fortemente significativa per la categoria che la rappresenta) che siano in grado di rappresentare una deflazione del contenzioso stesso. Ciò ha una doppia valenza: da un lato quella di dimostrare alla categoria che esiste un organo di autodisciplina in grado di garantire all'utenza (non solo ai giornalisti, ma a tutti coloro che si interfacciano con il mondo dell'informazione) l'esistenza di una barra che va tenuta dritta, per usare in maniera non pretestuosa uno strumento importante qual è quello dell'informazione; dall'altro, naturalmente (e il dato non è irrilevante) di evitare che il giudice, già sufficientemente oberato e sommerso da pratiche, si trovi sul suo tavolo fortemente appesantito dalle questioni di diritto relative a liti temerarie. Oltretutto - e questo lo abbiamo fatto presente al Sottosegretario e ci dispiace che non sia stato sensibile sul punto - questa è una tradizione che non abbiamo inventato noi, anzi è una tradizione a cui ci siamo avvicinati troppo tardi. I modelli extragiudiziali non vincolanti di composizione delle controversie, in un'ottica anche etica e deontologica di autodisciplina della categoria, in altri ordinamenti (certamente nell'ordinamento anglosassone e in quello americano, ma anche in altri ordinamenti europei molto contigui al nostro), esistono dagli anni '70. Esistono ed hanno un forte successo, non solamente rispetto alla categoria stessa, ma anche agli occhi di tutti coloro che alla categoria si avvicinano, ingenerando un rapporto mutuamente fiduciario: la categoria si autodisciplina e coloro i quali accedono allo strumento dell'informazione si sentono tutelati. Ancora una volta - signor Presidente, mi appello all'Assemblea e non solamente al Sottosegretario - noi forniamo dei suggerimenti utili, che oltretutto vanno nella direzione di quanto il Governo dice di voler fare, cioè potenziare e valorizzare - l'ho sentito dire tante volte dal ministro Orlando - modelli extragiudiziali di composizione delle controversie, in sede di autodisciplina e di autocontrollo deontologico della categoria; però poi, all'atto pratico e allo stato dei fatti, quando ci si trova al momento di applicarli concretamente non lo si fa. E questo francamente ci dispiace. Chiediamo quindi la votazione dell'emendamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u12">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg20">Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.170, presentato dal senatore Gasparri e da altri senatori, identico agli emendamenti 2.172, presentato dai senatori Bruni e Liuzzi, e 2.370, presentato dal senatore Mandelli e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 2.371, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. BERNINI (FI-PdL XVII). Ne chiediamo la votazione. PRESIDENTE. Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.371, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">MANDELLI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MandelliAndrea" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg21">Signor Presidente, le segnalo che era mia intenzione intervenire in dichiarazione di voto sull'emendamento 2.370, a mia prima firma, ma ho capito che non c'era spazio per farlo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u14">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg22">Mi dispiace, senatore Mandelli. D'altra parte, l'emendamento 2.370 è identico all'emendamento 2.170, su cui per il suo Gruppo è intervenuta la senatrice Bernini, quindi un intervento da parte del suo Gruppo c'è stato.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg23">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.174, presentato dai senatori Bruni e Liuzzi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 2.372, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. BERNINI (FI-PdL XVII). Ne chiediamo la votazione. PRESIDENTE. Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.372, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 2.373, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. BERNINI (FI-PdL XVII). Ne chiediamo la votazione. PRESIDENTE. Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.373, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 2.175 è inammissibile. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.176, presentato dai senatori Bruni e Liuzzi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Invito il relatore e il rappresentante del Governo a pronunziarsi sull'ordine del giorno G2.300.</seg>
+            </u>
+            <note type="speaker">COCIANCICH</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CociancichRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u15">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg24">Esprimo parere favorevole sull'ordine del giorno G2.300.</seg>
+            </u>
+            <note type="speaker">GIACOMELLI</note>
+            <note type="role">sottosegretario di Stato per lo sviluppo economico</note>
+            <u ana="#guest" who="#GiacomelliAntonello" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u16">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg25">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u17">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg26">Essendo stato accolto dal Governo, l'ordine del giorno G2.300 non verrà posto ai voti.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg27">Passiamo ora all'emendamento 2.23 (testo 2), precedentemente accantonato, ora divenuto un testo 3 di cui do lettura: «All'articolo 2, comma 2, lettera e), dopo il numero 3) aggiungere il seguente: "3- bis) previsione di una riduzione per le imprese che superano, nei confronti del proprio personale, dei propri collaboratori e amministratori il limite massimo retributivo di cui all'articolo 13, comma 1, del decreto-legge 24 aprile 2014, n. 66, convertito, con modificazioni, dalla legge 23 giugno 2014, n. 89;"». Si tratta della questione di cui abbiamo discusso ieri, riguardante i tetti di compenso per coloro che fruiscono di pubbliche erogazioni. Vi era stata una richiesta di accantonamento dell'emendamento 2.23 (testo 2), del quale è stata ora presentata una nuova stesura, corrispondente appunto all'emendamento 2.23 (testo 3), sul quale invito il relatore ed il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">COCIANCICH</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CociancichRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u18">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg28">Esprimo parere favorevole.</seg>
+            </u>
+            <note type="speaker">GIACOMELLI</note>
+            <note type="role">sottosegretario di Stato per lo sviluppo economico</note>
+            <u ana="#guest" who="#GiacomelliAntonello" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u19">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg29">Esprimo parere conforme al relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u20">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg30">Prima di passare alla votazione dell'emendamento 2.23 (testo 3), chiedo cortesemente agli Uffici di procedere alla distribuzione del testo. Passiamo dunque alla votazione dell'emendamento 2.23 (testo 3).</seg>
+            </u>
+            <note type="speaker">D'ALI' (FI-PdL XVII)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u21">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg31">Signor Presidente, a parte il fatto che non mi sembra che questo testo 3 abbia una connessione logica con il testo 1 dell'emendamento in questione (ma forse esiste un testo 2 dell'emendamento, intermedio, che lo avvicina al testo 3), la riduzione non è quantificata, neanche in un arco discrezionale. È una riduzione indiscriminata, che potrebbe andare dall'1 al 100 per cento degli importi. A me sembra essere una indicazione troppo generica e questo argomento dovrebbe essere ulteriormente approfondito perché, anche nei confronti del proprio personale e dei propri collaboratori e amministratori, esiste un limite massimo retributivo. Mi pare che ci sia ancora da chiarire la portata di questo emendamento, perché l'eccessiva discrezionalità lasciata a chi poi deve attuare la norma potrebbe vanificare l'intento di queste proposte emendative.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u22">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg32">Senatore Palma, anche se per il suo Gruppo è già intervenuto il senatore D'Alì, le do brevemente la parola, visto che la nuova stesura di questo emendamento è giunta all'improvviso.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg33">Signor Presidente, leggendo adesso il testo dell'emendamento e ascoltando l'intervento del senatore D'Alì ritengo che un approfondimento sul punto specifico debba essere fatto, richiamando anche in parte l'intervento svolto nella seduta di ieri dalla senatrice Finocchiaro. Se è vero, come è vero (o in parte), che il settore interessa la libertà di informazione, credo - come giustamente ha detto prima il senatore D'Alì - che la previsione di una riduzione debba essere accompagnata, fin dalla delega, dall'individuazione dei criteri oggettivi in virtù dei quali la riduzione stessa deve essere fatta. In caso contrario, daremmo al legislatore delegato una sorta di delega in bianco, per la totale assenza di criteri, in una materia garantita sotto il profilo costituzionale. Pur non essendovi - come diceva prima sempre il senatore D'Alì - alcuna contrarietà in ordine a questo emendamento, credo che un ulteriore approfondimento dello stesso, con l'individuazione di una maggiore specificazione dei criteri in virtù dei quali operare la riduzione, possa essere senz'altro utile.</seg>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u23">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg34">Signor Presidente, vorrei ricordare le dinamiche e l' iter che l'emendamento in esame ha avuto tra ieri e oggi. La questione è se sia legittimo dare contributi pubblici a chi applica ai propri dipendenti, consulenti e amministratori retribuzioni esorbitanti, che si scaricano, poi, sui cittadini, dal momento che esse vanno ad incidere sui costi. Dobbiamo accollarci noi quei costi? Poiché il Governo ha sbandierato di voler mettere un tetto alle retribuzioni nella pubblica amministrazione, quando abbiamo a che fare con imprese che ricevono contributi statali dobbiamo assoggettarle ai medesimi criteri. Il testo era chiaro: se dai retribuzioni d'oro, non hai diritto a contributi. E questo era condivisibile e chiaro anche ai cittadini che ci ascoltano da casa. Su quel testo Governo e relatore si erano rimessi all'Assemblea, nel caso non fosse stata accettata la proposta di conversione in ordine del giorno. Un ordine del giorno in una legge delega a me fa veramente ribrezzo e per fortuna la proposta non è stata accettata. Ma non è possibile accettare che vi sia ipocrisia nell'Assemblea, alla quale relatore e Governo si rimettono, e che il Senato si rifiuti di decidere volendo l'avallo del Governo, che prima si rimette all'Assemblea e poi cerca una soluzione di compromesso impalpabile. Senza una determinazione della riduzione del finanziamento, noi abbiamo aperto la strada a una beffa, a una farsa. Si dica dimezzamento, si dica riduzione dell'80 per cento, si dica riduzione pari all'eccesso nelle retribuzioni: se dai 100.000 euro in più rispetto al tetto, ti do 100.000 euro in meno. Questo è chiaro ed è un criterio prescrittivo. In caso contrario, siamo alle chiacchiere. Poiché in questo caso c'è un buon intento ma, fatta la legge, è già studiato l'inganno, noi allora ci asterremo e vorremmo veramente che ci pensaste prima di passare a votare un fatto del genere.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u24">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg35">L'emendamento è già stato accantonato nella seduta di ieri ed è stato riformulato. Poiché è l'ultimo emendamento presentato all'articolo 2, fatti salvi gli interventi svolti, procediamo con la votazione. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.23 (testo 3), presentato dal senatore Calderoli. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 2.0.1, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. BRUNI (CoR). Ne chiediamo la votazione. PRESIDENTE. Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 2.0.1, presentato dai senatori Bruni e Liuzzi, fino al numero «3.000». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte e gli emendamenti 2.0.5 e 2.0.6. Passiamo alla votazione dell'emendamento 2.0.3, identico agli emendamenti 2.0.4 e 2.0.300 su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+            </u>
+            <note type="speaker">BERNINI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#BerniniAnnaMaria" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u25">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg36">Signor Presidente, intervengo per svolgere una breve dichiarazione di voto al fine di spiegare il senso del nostro emendamento. L'idea di creare, slatentizzare e identificare, attraverso un registro delle imprese, i soggetti operanti nel settore dell'editoria non è peregrina. Come abbiamo detto a più riprese e in diverse occasioni, noi vogliamo incardinare nel provvedimento in esame un principio di trasparenza che, per quanto ci riguarda, troppe volte è stato esaltato, decantato e promesso, ma mai incardinato nel testo, nelle parole e nel senso del provvedimento stesso. Si tratta di una finalità importante ed erga omnes, non legata solamente alle imprese editoriali o al senso stretto del provvedimento in esame. Il senso è lato ed è quello di garantire ai cittadini la possibilità di conoscere quali sono gli interessi. Ancora una volta, come già accaduto troppe volte, abbiamo parlato senza dire fino in fondo gli interessi di chi controlla, in tutto o in parte, i mezzi di comunicazione. È giusto valorizzare e rendere il più possibile ampio, diffuso e diffondibile il diritto all'informazione, a informare, informarsi ed essere informato, ma è altrettanto giusto che si sappia chi informa, sulla base di quali presupposti e con quali obiettivi, pensieri e, eventualmente, retropensieri. È questo il motivo per cui un provvedimento come quello in esame ha per noi un significato. Si parla molto - lo stiamo facendo anche adesso in Commissione - di conflitto e rappresentanza di interessi e di identificazione - è il nostro compito - di una netta linea di demarcazione - ripeto che deve essere netta e non evanescente - tra il conflitto e la rappresentanza di interessi. Ed è questo il motivo per cui riteniamo che un registro delle imprese operanti nel settore della comunicazione rappresenti un segnale chiaro rispetto a un utilizzo deteriore, in chiave più lobbistica che informativa, delle testate a livello anche locale. Per disincentivare ed evitare tutto questo, riteniamo che la disposizione in esame debba essere inserita nel testo. Lo abbiamo affermato, lo ripetiamo e lo mettiamo agli atti, dicendolo al relatore e al Sottosegretario a futura memoria: il criterio di trasparenza, di cui tanto si parla, dovrebbe avere - secondo noi - un'identificazione e una rappresentazione il più possibile nette e chiare, anche attraverso questo disposto. Chiediamo quindi la votazione dell'emendamento.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u26">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg37">Signor Presidente, intervengo per segnalare, anche al relatore e alla collega Bernini, che all'articolo 2 era stato presentato l'emendamento 2.9, identico e a mia prima firma, che è stato trasformato in un ordine del giorno che abbiamo già approvato. Si tratta di una pura notazione, che serve però a ricordare che, anche se adesso è stato espresso parere contrario, abbiamo già approvato un ordine del giorno sul tema dell'istituzione presso la Presidenza del Consiglio dei Ministri del Registro delle imprese operanti nel settore dell'editoria.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u27">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg38">Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.0.3, presentato dal senatore Gasparri e da altri senatori, identico agli emendamenti 2.0.4, presentato dai senatori Bruni e Liuzzi, e 2.0.300, presentato dal senatore Mandelli e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 2.0.9, identico all'emendamento 2.0.10, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. BERNINI (FI-PdL XVII). Ne chiediamo la votazione. PRESIDENTE. Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.0.9, presentato dal senatore Gasparri e da altri senatori, sostanzialmente identico all'emendamento 2.0.10, presentato dai senatori Bruni e Liuzzi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'esame dell'articolo 3, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">MANDELLI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MandelliAndrea" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u28">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg39">Signor Presidente, spesso nel Consiglio nazionale sono state poste all'ordine del giorno tematiche riguardanti i praticanti pubblicisti e professionisti che, pur prestando la loro opera presso imprese editrici che fruivano di significativi contributi statali, non avevano poi percepito i compensi dichiarati dalla proprietà per accedere al finanziamento stesso.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg40">L'emendamento 3.303 consentirebbe di accertare non solo quanti sono i giornalisti che collaborano con la testata, ma anche la congruità dei loro compensi. È il tema sul quale questa mattina in tanti si sono esercitati. A tal riguardo credo che sia davvero doveroso per quest'Assemblea fare chiarezza e questo emendamento potrebbe essere valutato favorevolmente dal relatore e dal Governo perché fare chiarezza - lo ripeto - è una necessità, nel momento in cui mettiamo mano ad una materia così delicata. I mezzi di comunicazione sono tantissimi. La gente è in una posizione asimmetrica rispetto alla grande messe di informazioni esistente. Quindi, fare chiarezza su questo argomento significa anche aiutare la gente a capire bene cosa scegliere, nel momento in cui si vuole informare.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg41">Lascio quindi alla valutazione del relatore l'emendamento 3.303.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u29">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg42">Signor Presidente, l'emendamento 3.309 è volto a regolamentare la definizione di quotidiano online. Invito il relatore a valutare positivamente questo emendamento, perché lo scopo che si prefigge è di definire con chiarezza cosa è quotidiano online e cosa non lo è. La finalità è consentire che eventuali obblighi legati alla professione e all'esercizio dell'attività giornalistica siano esclusivamente addebitabili a chi esercita quel tipo di attività come quotidiano online e non ai blogger, e cioè a coloro che liberamente esprimono il proprio pensiero su Internet. Ancora oggi, infatti, la linea di separazione tra le due fattispecie è abbastanza blanda, per cui spesso il libero esercizio del proprio pensiero e l'espressione delle proprie idee, riflessioni o critiche, magari anche con una certa periodicità - un blog a volte è come un diario - vengono confusi ed equiparati a tutti gli effetti all'attività giornalistica che invece ha caratteristiche diverse. Per questo è importante distinguere con chiarezza a chi vanno applicate le norme relative al giornalismo e a chi va lasciata libertà di pensiero e di espressione delle proprie opinioni su Internet.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u30">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg43">I restanti emendamenti si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg44">Invito il relatore ed il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">COCIANCICH</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CociancichRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u31">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg45">Signor Presidente, esprimo parere favorevole sull'emendamento 3.309, previa richiesta di riformulazione: chiedo ai presentatori di espungere dal testo i punti d ) e g ). Esprimo altresì parere contrario su tutti gli altri emendamenti presentati all'articolo 3.</seg>
+            </u>
+            <note type="speaker">GIACOMELLI</note>
+            <note type="role">sottosegretario di Stato per lo sviluppo economico</note>
+            <u ana="#guest" who="#GiacomelliAntonello" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u32">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg46">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u33">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg47">Passiamo all'emendamento 3.300, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg48">BERNINI (FI-PdL XVII). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. Il sostegno alla richiesta di votazione si estende ad eventuali casi analoghi, ai sensi della precedente deliberazione. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.300, presentato dal senatore Gasparri e da altri senatori.</seg>
+               <incident type="action">
+                  <desc>Il senatore Casini fa cenno di voler intervenire.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg49">Che succede, senatore Casini? CASINI (AP (NCD-UDC)). Non funziona il mio rilevatore di voto. PRESIDENTE. Proseguiamo con la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 3.301, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. BERNINI (FI-PdL XVII). Ne chiediamo la votazione. PRESIDENTE. Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.301, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Dobbiamo sostituire la tessera, senatore Casini? CASINI (AP (NCD-UDC)). No, adesso funziona. PRESIDENTE. Il Senato non approva. (v. Allegato B). Passiamo alla votazione della prima parte dell'emendamento 3.2.</seg>
+            </u>
+            <note type="speaker">MORRA (M5S)</note>
+            <u ana="#regular" who="#MorraNicola" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u34">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg50">Signor Presidente, con l'emendamento 3.2 si chiede di ridurre dal 50 al 25 per cento la percentuale di finanziamento massimo alle imprese editrici. La ratio della nostra proposta emendativa è volta a rendere tutti quanti consapevoli che non si può continuare in questo modo. Nello stesso momento in cui mancano soldi per finanziare lo Stato sociale, non si possono (per quanto si debba sempre portare rispetto per chi vi lavora) mantenere in vita esperienze imprenditoriali che hanno come unico obiettivo gestire e manipolare l'informazione: attraverso il controllo dell'informazione, infatti, il potere condiziona la cosiddetta opinione pubblica. Vorrei ricordare a tutti quanti che il nostro è l'unico Paese in cui sono risuscitate esperienze editoriali defunte. È arrivato qualcuno, cioè lo Stato italiano, che ha detto: «Lazzaro, alzati e cammina», e un giornale a caso, «l'Unità», ha ripreso a editare, ma è uno tra i tanti. A nostro avviso, tutto il rispetto nei confronti di forme di attività economica rispettabili in altri casi non va portato, perché altrimenti dovremmo egualmente finanziarie, con la stessa attenzione - anzi, aggiungo, con la stessa sudditanza - altre esperienze produttive che generano lavoro, ma che non sono così sussidiate dal potere. Per cui, ribadendo come il web sia la dimensione all'interno della quale con assoluta libertà tutti possono fare informazione, chiedo all'Assemblea di poter quantomeno ridurre l'entità dei finanziamenti, a meno che non ci si voglia ritenere all'altezza di Gesù Cristo e far risuscitare anche i morti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u35">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg51">Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 3.2, presentato dal senatore Morra e da altri senatori fino alle parole: « la seguente ». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte e l'emendamento 3.3. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.6, presentato dalla senatrice Bisinella e da altre senatrici. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 3.302, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. BERNINI (FI-PdL XVII). Ne chiediamo la votazione. PRESIDENTE. Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.302, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.12, presentato dalla senatrice De Petris e da altri senatori, sostanzialmente identico agli emendamenti 3.13, presentato dai senatori Bencini e Romani Maurizio, e 3.14, presentato dal senatore Calderoli e altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 3.16, identico agli emendamenti 3.303 e 3.17.</seg>
+            </u>
+            <note type="speaker">D'ALI' (FI-PdL XVII)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u36">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg52">Signor Presidente, sono rimasto molto sorpreso dal parere contrario espresso dal Governo e dal relatore, per conto della maggioranza, sull'emendamento in votazione. Mi chiedo se esista effettivamente una parificazione tra imprese nel nostro Paese e mi pare che le imprese editoriali siano imprese. A qualsiasi altra impresa di altra natura che debba partecipare a una gara con il settore pubblico - non si parla di ricevere contributi - viene chiesto il famoso documento unico di regolarità contributiva (DURC). Nel nostro caso parliamo non di partecipare a una gara, ma addirittura di ricevere un contributo pubblico e non vogliamo prevedere che sia esibita eguale certificazione? Il DURC è stato per molti anni uno dei cavalli di battaglia della sinistra e, quando la sua previsione è stata approvata, è stata salutata come il raggiungimento di un grande strumento di civiltà. Adesso invece creiamo una zona franca per imprese che, evidentemente, non sono tali o sono qualcos'altro. Se l'impresa editoriale è un'impresa, deve essere parificata a tutte le altre imprese edili, commerciali, industriali e di fornitura che operano nel nostro Paese con il settore pubblico. Ribadisco che si tratta non di partecipare ad una gara, ma addirittura di percepire un contributo statale e non si vuole prescrivere che queste imprese esibiscano un documento che certifichi la regolarità stipendiale e contributiva? Sono veramente molto preoccupato per questo: vuol dire che tra maggioranza, Governo e imprese editoriali c'è un accordo tale per cui si arriva addirittura a sovvertire un principio che da anni è patrimonio assoluto della gestione dei rapporti tra pubblica amministrazione e imprese private nel nostro Paese. Vorrei allora pregare - se non lo vogliono fare il Governo e il relatore - i colleghi della maggioranza di sinistra, che sui temi della regolarità contributiva sono sempre stati molto attenti, di riflettere sull'opportunità di respingere l'emendamento, a meno che non sia ritenuto ultroneo, in quanto per il Governo e il relatore è già nei principi generali della legge. Ma un'ulteriore specificazione sarebbe opportuna. Credo occorra fare una piccola riflessione su questi principi.</seg>
+            </u>
+            <note type="speaker">COCIANCICH</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CociancichRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u37">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg53">, relatore. Signor Presidente, in relazione all'osservazione appena svolta dal senatore D'Alì, vorrei attrarre la sua attenzione sulla formulazione del comma 7 -bis, dove viene precisato che: «All'atto dei pagamenti, l'impresa deve essere in regola con le attestazioni rilasciate dall'Autorità per le garanzie nelle comunicazioni e con i versamenti dei contributi previdenziali e non deve risultare inadempiente in esito alla verifica di cui all'articolo 48- bis del decreto del Presidente della Repubblica 29 settembre 1973, n. 602». A me pare che il punto che viene sollevato sia già previsto nella norma che andiamo ad approvare.</seg>
+            </u>
+            <note type="speaker">MANDELLI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MandelliAndrea" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u38">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg54">Signor Presidente, anche alla luce di quanto testé detto dal senatore D'Alì e dal relatore, sicuramente non fa male prevedere una trasformazione dell'emendamento in un ordine del giorno che impegni il Governo a proseguire sulla via volta ad accertare che tutte le cose funzionino. Può essere previsto almeno un ordine del giorno che impegna il Governo a valutare una tale possibilità.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u39">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg55">Il senatore Mandelli, quindi, vorrebbe una trasformazione in ordine del giorno dell'emendamento 3.303, mentre il relatore ha sostenuto che il principio è sostanzialmente già affermato nella lettera c) del comma 1 del medesimo articolo, al capoverso che inizia con «7- bis ». Chiedo al relatore se ha qualcosa da aggiungere rispetto alla richiesta di trasformazione in ordine del giorno.</seg>
+            </u>
+            <note type="speaker">COCIANCICH</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CociancichRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u40">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg56">Signor Presidente, si indebolirebbe la previsione contenuta nel capoverso 7- bis se si aggiungesse un ordine del giorno, perché sembrerebbe non sufficientemente cogente e che ci sia la necessità di aggiungere qualcos'altro. Per cercare di interpretare al meglio l'esigenza formulata, sarei dell'avviso di esprimere parere contrario alla trasformazione dell'emendamento in ordine del giorno.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u41">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg57">Quindi il relatore, sostenendo che il principio viene ripreso più avanti, invita a non procedere alla votazione.</seg>
+            </u>
+            <note type="speaker">BERNINI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#BerniniAnnaMaria" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u42">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg58">Signor Presidente, mi permetto di reiterare la richiesta, perché sarebbe come dire che la previsione dell'Autorità per le garanzie nelle comunicazioni, che è generica e non di carattere contabile (è semplicemente una verifica), applicata in termini generali renderebbe inutile un documento di regolarità contributiva, che è ciò che noi chiediamo in questo caso. E non lo chiediamo in maniera peregrina. Lo chiediamo perché al Consiglio dell'ordine sono pervenute numerose segnalazioni da parte di giornalisti, praticanti pubblicisti e professionisti, che, pur avendo prestato la loro opera presso imprese editrici che usufruivano di contributi statali, non hanno percepito i compensi dichiarati dalla proprietà per accedere al finanziamento. Pertanto, collega relatore, noi chiediamo qualcosa in più. Non si tratta della verifica standard, quella classica attestata nella legge, che prevede il controllo dell'Autorità per le garanzie nelle comunicazioni. Prevediamo un provvedimento, su cui insistiamo con il relatore e con il sottosegretario Giacomelli, che abbia la stessa valenza e la stessa capacità di controllo pervasivo che ha il documento di regolarità contributiva (DURC).</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u43">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg59">A questo punto non rimane altro che procedere alla votazione. Il relatore è intervenuto due volte e permane il parere contrario, alla luce delle spiegazioni date.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg60">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.16, presentato dal senatore Gasparri e da altri senatori, identico agli emendamenti 3.303, presentato dal senatore Mandelli e da altri senatori, e 3.17, presentato dai senatori Bruni e Liuzzi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.304, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.305, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.306, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.307, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.308, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Senatore Crimi, il relatore ha formulato la richiesta di sopprimere le lettere d) e g) dell'emendamento 3.309. Accoglie tale richiesta?</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u44">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg61">Signor Presidente, ringrazio il relatore per la possibilità offerta e per aver valutato positivamente l'intento dell'emendamento.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg62">Purtroppo, devo dire che avrei preferito eliminare gli altri punti dell'emendamento piuttosto che le due lettere d) e g). L'intento dell'emendamento è, infatti, di definire cosa sia un quotidiano online, al fine di tutelare il libero pensiero e il libero esercizio del pensiero su Internet, e non quello, eventuale e potenziale, di allargare la platea dei fruitori di finanziamento pubblico. Sopprimendo le lettere d) e g) si corre il rischio che la platea dei fruitori del finanziamento pubblico, esteso anche ai quotidiani online, si estenda anche alle due voci che verrebbero escluse da questo emendamento, che sarebbero supplementi o versione telematica di una testata cartacea. Sopprimendo queste lettere si correrebbe il rischio che un supplemento, una versione telematica di una testata cartacea, potrebbe acquisire la definizione di quotidiano online e, quindi, una indipendente possibilità di accedere ad ulteriori finanziamenti pubblici. Per questo l'obiettivo era di escludere una tale possibilità: un supplemento o una versione telematica di una testata cartacea non possono essere considerati un quotidiano online, perché si tratta solo della trasposizione online di un quotidiano cartaceo. Il quotidiano online è una testata esclusivamente online. Lo stesso ragionamento vale per l'aggregatore di notizie. Oggi esistono strumenti informatici molto semplici, con i quali basta un attimo per aggregare notizie. Ad esempio, nel momento in cui si effettua una ricerca su Google notizie, non escludendo una tale possibilità, lo stesso Google potrebbe identificarsi come quotidiano online - questa possibilità non viene infatti esclusa - e, quindi, chiedere di accedere ai contributi pubblici in quanto quotidiano online. Ciò potrebbe aprire uno spiraglio che non era nel nostro intento. Per questo motivo non accetto la riformulazione proposta dal relatore, ringraziandolo comunque per aver almeno provato a comprendere l'intento dell'emendamento 3.309, ma evidentemente andiamo su strade diverse.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u45">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg63">Non essendo state accolte le proposte di riformulazione avanzate, il parere diventa contrario.</seg>
+            </u>
+            <note type="speaker">D'ALI' (FI-PdL XVII)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u46">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg64">Signor Presidente, poiché l'esigenza di regolamentare la contribuzione pubblica sui siti online mi sembra assolutamente condivisibile, vorrei chiedere al senatore Crimi se non ha nulla in contrario a che, anche sentito il parere del relatore e del Governo, l'emendamento 3.309 venga votato per parti separate. In tal modo, infatti, se non dovessero essere approvati i punti che lui ha sostenuto, almeno cominceremmo ad avere un minimo di regolamentazione su una situazione che ha le caratteristiche di una giungla - come lui stesso ha indicato - e che può diventare anche abbastanza negativa per la gestione dei contributi pubblici. È una proposta che rimetto alla sua volontà e intelligenza.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u47">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg65">Il senatore D'Alì ha quindi proposto di votare l'emendamento 3.309 per parti separate, omettendo le lettere d ) e g ) dal rimanente testo.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u48">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg66">Signor Presidente, non posso accettare questa proposta e cerco di spiegare nuovamente la ragione. PRESIDENTE. La proposta è rivolta all'Assemblea. Lei può spiegare le sue ragioni. CRIMI (M5S). Sto dando le motivazioni per cui penso che l'emendamento non vada votato per parti separate. Si corre infatti il rischio di aprire un nuovo filone, e cioè l'idea per cui potenzialmente possano accedere ai finanziamenti pubblici per i quotidiani online anche tutte quelle strutture che di fatto non lo sono.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u49">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg67">In ogni caso la richiesta di votazione dell'emendamento 3.309 per parti separate, avanzata dal senatore D'Alì e conforme al parere espresso dal relatore, è rivolta all'Assemblea.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg68">Metto quindi ai voti la proposta di votazione per parti separate dell'emendamento 3.309, avanzata dal senatore D'Alì.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg69">È approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg70">Passiamo quindi alla votazione per parti separate dell'emendamento 3.309.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u50">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg71">Vorrei chiedere se posso ritirare l'emendamento. PRESIDENTE. Verrebbe fatto proprio.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg72">Allora lo trasformiamo in ordine del giorno, chiedendo al Governo di impegnarsi ad andare verso questa direzione</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg73">E, cioè, chiedo che il Governo valuti l'opportunità di definire i quotidiani online con tutte le caratteristiche che ho appena indicato.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u51">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg74">Se si trasforma l'emendamento in un ordine del giorno, credo che il parere del relatore sarà analogo, nel senso che chiederà che l'ordine del giorno non contenga determinati punti.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg75">Prego, senatore Cociancich.</seg>
+            </u>
+            <note type="speaker">COCIANCICH</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CociancichRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u52">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg76">Signor Presidente, credo si possa accogliere la proposta di trasformazione dell'emendamento in un ordine del giorno, che chiederei di formulare in termini tali da poter svolgere un approfondimento.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg77">La questione che solleva il senatore Crimi è reale e gliene do volentieri atto. È chiaro tuttavia che, se già si individuano dei criteri così stringenti come quelli indicati dal senatore Crimi nell'emendamento, non sarà possibile svolgere un adeguato approfondimento. Quindi, chiederei al senatore Crimi di formulare un ordine del giorno che consenta un approfondimento del tema, che è reale, ma su cui si deve svolgere un dibattito più ampio: inserire la questione ora in questo testo, è come se la si volesse in qualche modo "appiccicare".</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg78">Chiederei pertanto di poter leggere il testo dell'ordine del giorno che il senatore Crimi formulerà. Se lo dovesse riproporre tale e quale, con i due punti dell'emendamento 3.309, d) e g), che avevo prima chiesto di espungere, non potrei esprimere un parere favorevole, perché mi contraddirei rispetto a quanto ho detto poc'anzi. Se invece si andasse verso un approfondimento più ampio, il mio parere sarebbe favorevole.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u53">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg79">Poiché abbiamo quasi finito l'esame l'articolo 3, se il senatore Crimi ha una proposta di trasformazione dell'emendamento in ordine del giorno che possa tener conto delle osservazioni svolte dal relatore, la faccia pervenire alla Presidenza.</seg>
+            </u>
+            <note type="speaker">BARANI (AL-A)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u54">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg80">Signor Presidente, mi rivolgo a lei, che conosce molto bene il Regolamento. Dopo che l'Assemblea si è espressa per il voto per parti separate, lei non può tornare indietro, altrimenti qui stiamo giocando; l'Aula, infatti, si è espressa per votare per parti separate una proposta: ora lei non può dirci che non la si vota più. PRESIDENTE. Poi c'è stata la dichiarazione di ritiro e il senatore D'Alì ha fatto cenno alla Presidenza che non avrebbe inteso farlo proprio. BARANI (AL-A). Da un punto di vista regolamentare, l'Aula si è pronunciata. Poi faccia lei, signor Presidente. PRESIDENTE. La ringrazio del consiglio, senatore Barani, ma abbiamo anche tenuto conto delle varie prese di posizione.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u55">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg81">Signor Presidente, intervengo per confermare la bontà della sua scelta, perché il Regolamento dice che, prima della votazione, ciascun senatore può ritirare l'emendamento e trasformarlo in un ordine del giorno. Non avevamo ancora votato e, quindi, è lecito il ritiro. PRESIDENTE. La ringrazio per questa riunione della Giunta per il Regolamento en plen air. Io avevo addirittura chiesto se qualcuno intendesse farlo proprio e il senatore D'Alì, non intervenendo, ma con un cenno, aveva espresso un diniego.</seg>
+            </u>
+            <note type="speaker">MAZZONI (AL-A)</note>
+            <u ana="#regular" who="#MazzoniRiccardo" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u56">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg82">Signor Presidente, vorrei intervenire sull'emendamento 3.309. PRESIDENTE. Non è più un emendamento, perché è stato ritirato e siamo in attesa di un ordine del giorno che il senatore Crimi sta formulando. MAZZONI (AL-A). Intervengo allora sull'ordine del giorno. Io credo si sia persa un'occasione importante, perché quanto sostenuto dall'emendamento Crimi va nella direzione giusta, perché si sente assolutamente la mancanza di una regolamentazione di tutto quello che va online. Chiunque, però, abbia lavorato in un giornale (anche cartaceo) sa bene che non è mai possibile fare una pubblicazione integrale di contenuti originali, perché si prendono le agenzie di stampa e si mettono online i comunicati. Non è mai possibile rielaborare e non lo era neanche ai tempi d'oro del giornalismo, quando le redazioni erano piene di giornalisti. Ora, con l'attuale crisi occupazionale, si è costretti a mettere in rete le agenzie direttamente come arrivano, a volte senza nemmeno verificarle. Quindi, per quanto riguarda il purismo del punto g), che verrà poi trasposto nell'ordine del giorno, invito a valutare pragmaticamente l'opportunità di toglierlo, perché è una condizione irrealizzabile e chi lavora o ha lavorato nella redazione di un giornale lo sa bene.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo AL-A</desc>
+               </kinesic>
+               <note>PRESIDENTE. Ha chiesto di intervenire il rappresentante del Governo. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">GIACOMELLI</note>
+            <note type="role">sottosegretario di Stato per lo sviluppo economico</note>
+            <u ana="#guest" who="#GiacomelliAntonello" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u57">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg83">Signor Presidente, riprendendo la linea che il relatore ha già esposto e che io condivido, vorrei provare a interloquire con il senatore Crimi.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg84">Anche io trovo, come ha appena detto il senatore Mazzoni, che questa sia una occasione importante. Tuttavia, nel merito dei due punti specifici di cui il relatore ha chiesto la soppressione, non so se sia possibile immaginare una versione di un quotidiano online interamente autonoma da un punto di vista editoriale e se questo, in natura, si dia come attività sostenibile. Se così non fosse (e per l'esperienza che io ho non esiste una attività editoriale online interamente autonoma e economicamente sostenibile), ciò finirebbe per escludere totalmente ogni possibilità. Se, invece, ci fosse la possibilità di dire che il quotidiano online non può essere l'integrale, automatica e esclusiva trasposizione in rete di un quotidiano cartaceo, questo è già un concetto sul quale io mi troverei d'accordo e potrei condividere. È evidente, infatti, che possa esserci un utilizzo di una parte di notizie (come, ad esempio, una inchiesta esclusiva che il gruppo conduce), ma deve esserci anche una elaborazione autonoma e specifica online che renda quella testata tale, cioè autonoma rispetto all'altra. Quindi, su questo punto in particolare, se l'intenzione del senatore Crimi è quella di dire che il quotidiano online non può essere semplicemente, a mo' di specchio tecnologico, una automatica ed esclusiva trasposizione, io sono d'accordo. Impedire però totalmente l'utilizzo e la contaminazione a me pare, in realtà, porre un vincolo eccessivo. Quanto all'aggregatore di notizie, nella mia esperienza (e io vengo politicamente dal "Vecchio Testamento"), ricordo una specie di quotidiano, di attività, che raccoglieva esattamente articoli e notizie relative a un certo filone culturale. Anche in questo caso, capisco la ratio, e sono d'accordo: un aggregatore automatico che, sulla base di algoritmi neutri, metta insieme notizie, non ha la dignità editoriale e giornalistica per essere considerato una testata. Ma non tutto quello che è attività di raccolta di articoli, di agenzie e di notizie ha questa natura indeterminata, casuale o meramente tecnologica; può esservi benissimo una iniziativa editoriale in grado di raccogliere, su un argomento, su un tema, su un filone o su un personaggio tutta una serie di notizie. Da giornalista, - il mio amico, senatore Mazzoni, sarà d'accordo e anche lei, senatore Crimi comprenderà - mi si lasci dire che oggi, per la verità, più che preoccuparci dell'assemblaggio dei lanci di agenzia, bisogna preoccuparci dell'influenza che i post su Facebook o su altri social hanno sui giornali. Ormai, infatti, chi lavora nelle agenzie e nelle redazioni dei giornali sta più attento a quello che ciascuno di noi scrive sui social, che ai comunicati stampa. È vero, quindi, quanto si sostiene su una automatica trasposizione di un comunicato o di un'agenzia, ma è vero pure che vi è un divenire che rende quegli stessi strumenti a rischio, e paradossalmente questo provvedimento si occupa esattamente anche dei rischi che questa evoluzione determina. Trovo pertanto, senatore Crimi, che la sua proposta di emendamento, da lei ora annunciata nella forma dell'ordine del giorno, sia un'occasione importante e complessivamente, come intuizione, condivisibile. Mi piacerebbe sapere se lei ritenga vi sia la possibilità di una determinazione nel merito di quei punti, non per venir meno rispetto alla linea della sua proposta, ma per cogliere di più quella che io ritengo una maggiore capacità di comprensione della realtà attuale e che ho ritrovato nella posizione del relatore.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u58">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg85">Signor Presidente, comprendo le indicazioni arrivate dal relatore e dal Governo. Imposterei l'ordine del giorno invitando il Governo a valutare l'opportunità di definire il concetto di quotidiano online rispetto ai punti a), b), c), e agli altri sui quali il relatore ha espresso parere favorevole. Sul punto d) proverei ad accogliere le indicazioni in questo senso: che non sia una mera trasposizione telematica di una testata cartacea. Questo è il senso, perché la trasposizione telematica di una testata cartacea può essere anche un semplice PDF, la copia del giornale cartaceo messa online; bisogna escludere la possibilità che sia una mera trasposizione telematica dalla versione cartacea. Definirei poi il punto g) in maniera molto sintetica: che non sia esclusivamente un aggregatore di notizie, ossia che abbia anche dei contenuti, senza specificare la pubblicazione quotidiana e senza andare nello specifico. Questa formulazione potrebbe anche tornare ad essere un emendamento, qualora il relatore e il Governo fossero favorevoli a tale formulazione, e credo che risolverebbe il problema. Se in questi termini si potesse esprimere il parere favorevole, sarei pertanto disponibile a ripresentare tale proposta come emendamento, in un nuovo testo che vada in questa direzione. Questa è la mia proposta. Non so se sia il caso di accantonarla e di approfondire la questione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u59">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg86">Intanto, senatore, lei faccia pervenire il testo alla Presidenza; stiamo facendo un discorso importante, ma in questa sede dobbiamo approvare norme o ordini del giorno. Da quanto ho capito, lei intende addirittura tornare, eventualmente, a una riformulazione dell'emendamento, qualora ricevesse il parere favorevole, ma bisogna parlare sulla base di testi scritti. Accantoniamo pertanto l'emendamento 3.309.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg87">L'emendamento 3.20 è stato ritirato.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg88">Essendo stata accantonata la questione relativa all'emendamento 3.309, non possiamo votare l'articolo 3. Passiamo pertanto alla votazione degli emendamenti volti ad inserire articoli aggiuntivi dopo l'articolo 3.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg89">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.0.1, presentato dal senatore Calderoli e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.0.2, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.0.3, presentato dal senatore Calderoli e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'emendamento 3.0.4, sostanzialmente identico all'emendamento 3.0.5, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. DE PETRIS (Misto-SI-SEL). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.0.4, presentato dalla senatrice De Petris e da altri senatori, identico all'emendamento 3.0.5, presentato dal senatore Calderoli e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Stiamo ancora attendendo il testo della riformulazione dell'emendamento o dell'ordine del giorno del senatore Crimi, quindi non possiamo procedere alla votazione dell'articolo 3, pendente tale questione.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u60">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg90">Onorevoli colleghi, avverto che la seduta pomeridiana di oggi si concluderà alle ore 19 su richiesta del Presidente del Gruppo Forza Italia, per esigenze di riunione del Gruppo medesimo. Non facendosi osservazioni, così rimane stabilito.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2271</note>
+            <note type="time">HH,MM</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46581.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 282</note>
+            <note type="time">HH,MM</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39963.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 453</note>
+            <note type="time">HH,MM</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40423.htm</note>
+            <note>e</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 454</note>
+            <note type="time">HH,MM</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40426.htm</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1236</note>
+            <note type="time">HH,MM</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43736.htm</note>
+            <note type="time">(ore 11,17)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u61">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg91">Passiamo all'esame dell'articolo 4, sul quale è stato presentato un emendamento che invito i presentatori ad illustrare.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg92">(ore 11,17)</seg>
+            </u>
+            <note type="president">Presidenza della vice presidente LANZILLOTTA</note>
+            <note type="time">11,17</note>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u62">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg93">Signora Presidente, sottoponiamo all'attenzione dell'Assemblea l'emendamento 4.3, con il quale vorremmo che si definisse un'azione periodica per la commissione che definisce l'equo compenso. Ricordiamo da dove nasce questa misura. Essa è contenuta nella legge 31 dicembre 2012, n. 233, che stabilisce che i compensi dei giornalisti non titolari di un contratto di lavoro subordinato devono essere parametrati a quelli dei colleghi titolari di un contratto subordinato. Inoltre, la legge prevedeva che venisse istituito un registro delle società editrici che pagano correttamente questo compenso, stabilendo la perdita del diritto ai benefici pubblici come sanzione per chi ne fosse rimasto al di fuori per sei mesi.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg94">Confermando la nostra contrarietà a questa forma di finanziamenti, rimane il fatto che questa - semmai - deve essere esercitata in maniera corretta ed equa. Quali sono i rischi di una commissione che questo provvedimento proroga fino alla nuova definizione? Il rischio è che, una volta definito l'elenco e l'equo compenso, questi rimangono fissati, senza nemmeno adeguamenti ISTAT, per un tempo indeterminato. Ci troveremmo così a dover intervenire in un secondo momento e avere quella situazione di precarietà, che tanto piace al Governo delle mille proroghe, ma che non è compatibile con la trasparenza e l'affidamento alla legge da parte del cittadino.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg95">Abbiamo così due conseguenze pratiche. Da un lato, l'impossibilità di adeguare questo giusto compenso dei giornalisti e il perpetrarsi di quelle situazioni di sfruttamento che erano avversate dalla richiamata legge del 2012; dall'altro, il fatto che se l'elenco degli editori virtuosi rimane fissato una volta per tutte, quelli che nel frattempo potrebbero realizzare la convenienza ad adeguarsi a questi principi, a vantaggio della categoria dei giornalisti, non avrebbero più questo incentivo (cosa fatta, capo ha), mentre chi risulta iscritto potrebbe tranquillamente poi modificare la propria policy perché nessuno avrebbe più titolo per aggiornare questo elenco. Noi chiediamo semplicemente che, ogni due anni, la commissione continui a tenere aggiornati l'elenco degli editori virtuosi e l'equo compenso per i giornalisti. La legge è senza termine e senza termine dovrebbe essere anche l'operatività della commissione. Colleghi, sottopongo questo emendamento al vostro buon senso, confidando in un recepimento positivo anche da parte del relatore e del rappresentante del Governo. PRESIDENTE. Invito il relatore e il rappresentante del Governo a pronunziarsi sull'emendamento in esame.</seg>
+            </u>
+            <note type="speaker">COCIANCICH</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CociancichRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u63">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg96">Esprimo parere è contrario.</seg>
+            </u>
+            <note type="speaker">GIACOMELLI</note>
+            <note type="role">sottosegretario di Stato per lo sviluppo economico</note>
+            <u ana="#guest" who="#GiacomelliAntonello" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u64">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg97">Esprimo parere conforme a quello espresso dal relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u65">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg98">L'emendamento 4.1 è stato ritirato.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg99">Passiamo alla votazione dell'emendamento 4.3.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg100">SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.3, presentato dai senatori Endrizzi e Cioffi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 5, sul quale sono stati presentati emendamenti e un ordine del giorno che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u66">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg101">Signora Presidente, forse sarebbe più opportuna una breve interruzione, altrimenti il collega Crimi non potrà partecipare ai lavori né votare. Trattandosi di qualche minuto probabilmente non sarebbe neanche impattante sui lavori dell'Aula.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u67">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg102">Credo che il collega Crimi abbia risolto il problema. Senatore Crimi, intende illustrare il suo emendamento all'articolo 5? CRIMI (M5S). Interverrò in fase di dichiarazione di voto, signora Presidente.</seg>
+            </u>
+            <note type="speaker">MAZZONI (AL-A)</note>
+            <u ana="#regular" who="#MazzoniRiccardo" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u68">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg103">Signora Presidente, vorrei soffermare l'attenzione sull'emendamento 5.6 e chiedo l'attenzione del relatore.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg104">PRESIDENTE. Senatore Russo, la prego di non disturbare il relatore perché dovrebbe ascoltare l'intervento del collega Mazzoni.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg105">La disposizione contenuta nell'articolo 5, prevede che chi esercita abusivamente l'attività di giornalista venga incriminato ai sensi dell'articolo 348 del codice penale. Ora, prima di tutto va sottolineata l'incongruenza di un processo legislativo che, nato sotto la spinta che abbiamo avvertito anche nel dibattito in quest'Aula di una richiesta di abolizione tout court dell'Ordine dei giornalisti, si conclude poi con un arroccamento corporativo qual è la previsione di sanzioni penali per l'esercizio abusivo della professione. Nel merito credo sia utile ricordare che tentativi di addebitare il reato di cui all'articolo 348 del codice penale, esercizio abusivo di una professione, ai giornalisti non iscritti all'albo ci sono stati solo negli anni Sessanta ma si sono conclusi con una sentenza della Corte di cassazione del 1971 che ha sottolineato la difficoltà di applicare l'incriminazione rispetto ad una attività che è comunque segnata dal principio di libertà di manifestazione del pensiero. Da allora nella giurisprudenza non si trovano più tracce, nei repertori, di procedimenti penali a carico di giornalisti cosiddetti abusivi. Un'ultima considerazione, Presidente: per la professione giornalistica, come sa bene il sottosegretario Giacomelli, la legge ordinamentale del 1963 prevede la possibilità di conseguire l'iscrizione all'elenco dei pubblicisti per coloro che possono dimostrare di avere svolto un'attività non occasionale e retribuita da almeno un biennio per testate regolarmente registrate. Ora, questa è una modalità di accesso della quale il legislatore, e quindi noi, dovremmo tenere conto, perché chiunque non sia ancora iscritto all'albo dei pubblicisti e scriva per un giornale per ottenere la tessera di pubblicista rischia di essere incriminato. Io credo che questa sia una norma illiberale che dovrebbe essere espunta da questo provvedimento.</seg>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u69">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg106">Signora Presidente, anche se sono intervenuto poco fa sull'ordine dei lavori, chiedo di poter illustrare ora l'emendamento 5.3. PRESIDENTE. Ne ha facoltà, senatore Endrizzi. ENDRIZZI (M5S). L'emendamento 5.3 prevede l'impossibilità di essere iscritti all'albo per i politici o gli appartenenti alle organizzazioni sindacali che hanno rivestito tali incarichi nei tre anni precedenti. Questa è una misura di trasparenza. È difficile immaginare che un politico che prima rappresentava ragioni di parte poi, improvvisamente, possa essere credibile nel rappresentare i fatti in maniera oggettiva. A parte questo, dobbiamo anche evitare come senatori di incorrere in un conflitto di interessi. È stata infatti votata da quest'Assemblea una riforma che riduce il numero dei senatori, e per quanto ci riguarda lo riduce totalmente, perché noi non siamo e non saremo nell'immediato consiglieri regionali per cui ci troveremo ad essere serenamente disoccupati. Non vorrei che ci trovassimo di fronte una serie di provvedimenti che consentano o addirittura istituiscano le carriere successive alle persone che hanno votato questa riforma. Faccio un esempio: nella legge sulla normativa del lobbismo, cioè dell'attività di rappresentanza di interessi, si prevede l'istituzione di una sorta di patentino per chi svolge questa attività. Ebbene, in quella legge è previsto un periodo di "raffreddamento": se si è fatto il parlamentare fino a ieri, si deve aspettare un po' prima di andare a fare il lobbista che preme sui parlamentari. E così dovrebbe essere nel campo del giornalismo: dovrebbe esserci un periodo di raffreddamento, di pausa e di vacatio. Noi lo individuiamo nei tre anni. Rappresentiamo pertanto all'Assemblea l'opportunità di evitare di essere considerati in conflitto di interessi votando contro questo emendamento e chiedo al Governo e al relatore di avere una particolare attenzione nell'esprimere un parere. PRESIDENTE. I restanti emendamenti e l'ordine del giorno si intendono illustrati. Invito il relatore e il rappresentante del Governo a pronunziarsi sugli emendamenti e sull'ordine del giorno in esame.</seg>
+            </u>
+            <note type="speaker">COCIANCICH</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CociancichRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u70">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg107">Esprimo parere contrario su tutti gli emendamenti e sull'ordine del giorno.</seg>
+            </u>
+            <note type="speaker">GIACOMELLI</note>
+            <note type="role">sottosegretario di Stato per lo sviluppo economico</note>
+            <u ana="#guest" who="#GiacomelliAntonello" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u71">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg108">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u72">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg109">Passiamo alla votazione dell'emendamento 5.1, identico all'emendamento 5.300.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg110">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.1, presentato dal senatore Crimi e da altri senatori, identico all'emendamento 5.300, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.2, presentato dal senatore Crimi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 5.3.</seg>
+            </u>
+            <note type="speaker">AIROLA (M5S)</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u73">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg111">Signora Presidente, come dichiarato spesso anche dal Premier, occorre togliere il più possibile il controllo degli organi di informazione e soprattutto anche degli organi di controllo e di gestione dell'informazione come, per esempio, con il Sottosegretario proponemmo per quanto riguarda la legge sulla RAI rispetto al suo consiglio di amministrazione. Con l'emendamento 5.3 si chiede almeno di lasciare del tempo o comunque limitare il passaggio rapido dalla politica all'ordine dei giornalisti, alle organizzazioni sindacali o alle segreterie. Questo semplicemente per evitare che i partiti gestiscano direttamente l'informazione. Mi rendo conto che non avendolo votato nella legge sulla governance della RAI, non lo farete neanche in questa, ribadisco però la discrasia, la lontananza, la mancanza di coerenza rispetto a certe dichiarazioni del Presidente del Consiglio quando auspica una stampa libera e lo stato davvero penoso della libertà d'informazione in Italia e l'assoluto silenzio di quest'Aula ogni volta che ci si pone tali questioni.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u74">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg112">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.3, presentato dal senatore Endrizzi e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.5, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.6, presentato dal senatore Mazzoni. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.7, presentato dai senatori Bruni e Liuzzi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'esame dell'ordine del giorno G5.300.</seg>
+            </u>
+            <note type="speaker">COMAROLI (LN-Aut)</note>
+            <u ana="#regular" who="#ComaroliSilvanaAndreina" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u75">
+               <note>Domando di parlare.</note>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u76">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg113">Senatrice Comaroli, mentre lei interviene, prego i senatori Segretari di disporre l'estrazione delle schede perché vedo molte schede in posti non occupati per evitare equivoci e polemiche successive.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg114">Ha facoltà di parlare la senatrice Comaroli.</seg>
+            </u>
+            <note type="speaker">COMAROLI (LN-Aut)</note>
+            <u ana="#regular" who="#ComaroliSilvanaAndreina" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u77">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg115">Signora Presidente, saremmo disponibili a ritirare l'ordine del giorno in presenza di un parere favorevole del relatore sull'emendamento aggiuntivo 5.0.300 perché l'argomento è simile. L'ordine del giorno non sarebbe più necessario e, quindi, lo ritireremmo.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg116">PRESIDENTE. Quindi insiste per la votazione? COMAROLI (LN-Aut). Signora Presidente, dipende dal parere del relatore sull'emendamento aggiuntivo 5.0.300. PRESIDENTE. Accantoniamo pertanto momentaneamente l'ordine del giorno G5.300. Indìco la votazione nominale con scrutinio simultaneo dell'articolo 5. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">ASTORRE (PD)</note>
+            <u ana="#regular" who="#AstorreBruno" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u78">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg117">Signora Presidente, ho sbagliato a votare sull'articolo: ho votato contro, ma intendevo votare a favore. PRESIDENTE. La Presidenza ne prende atto.</seg>
+            </u>
+            <note type="speaker">CUOMO (PD)</note>
+            <u ana="#regular" who="#CuomoVincenzo" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u79">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg118">Signora Presidente, non ho sbagliato a votare, ma non sono riuscito proprio a farlo. Volevo segnalare il mio voto favorevole.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u80">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg119">Ne prendiamo atto.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg120">Passiamo all'esame degli emendamenti volti ad inserire articoli aggiuntivi dopo l'articolo 5, che si intendono illustrati e su cui invito il relatore e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">COCIANCICH</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CociancichRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u81">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg121">Signora Presidente, esprimo parere favorevole sugli emendamenti 5.0.1 e sul 5.0.300 cui faceva riferimento la senatrice Comaroli. Voglio però ricordare che la 5ᵃ Commissione aveva espresso parere non ostativo ma condizionato, ai sensi dell'articolo 81 della Costituzione, all'inserimento, alla fine, delle parole: «nell'ambito delle risorse già destinate a questo scopo nel bilancio degli enti interessati». Quindi, il mio parere favorevole naturalmente è subordinato al recepimento di tale aggiunta.</seg>
+            </u>
+            <note type="speaker">GIACOMELLI</note>
+            <note type="role">sottosegretario di Stato per lo sviluppo economico</note>
+            <u ana="#guest" who="#GiacomelliAntonello" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u82">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg122">Signora Presidente, esprimo parere conforme a quello espresso dal relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u83">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg123">Senatrice Comaroli, ritira l'ordine del giorno G5.300 e accoglie la riformulazione dell'emendamento proposta dalla Commissione bilancio? COMAROLI (LN-Aut). Sì. PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.0.1, presentato dal senatore Zeller e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">D'ALI' (FI-PdL XVII)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u84">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg124">Signora Presidente, non ho compreso cosa è accaduto all'ordine del giorno G5.300.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u85">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg125">È stato ritirato dalla senatrice Comaroli, poiché è stato espresso parere favorevole al suo emendamento aggiuntivo che ci accingiamo a votare.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg126">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.0.300 (testo 2), presentato dal senatore Calderoli e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Siccome abbiamo risolto il problema dell'emendamento 3.309 con la presentazione di un testo 2, evidentemente concordato, riprendiamo l'esame dell'articolo 3 precedentemente accantonato. Chiedo al senatore Crimi di illustrare la modifica apportata al testo dell'emendamento.</seg>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u86">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg127">Signora Presidente, sulla base dei suggerimenti e delle interlocuzioni con il Governo e con il relatore, si è arrivati a definire un nuovo testo delle lettere d) e g) dell'emendamento 3.309, che a questo punto non viene più trasformato in ordine del giorno. La lettera d) è stata modificata con la seguente formulazione: «che non sia esclusivamente una mera trasposizione telematica di una testata cartacea»; la nuova formulazione della lettera g) è invece la seguente: «che non si configuri esclusivamente come aggregatore di notizie». Chiedo inoltre in questo momento se sia possibile modificare la lettera f) aggiungendo la parola «almeno» dopo la parola «aggiornamento». La formulazione della lettera f) sarebbe quindi la seguente: «che abbia una frequenza di aggiornamento almeno quotidiana». PRESIDENTE. Invito il relatore e il rappresentante del Governo a pronunziarsi su tali modifiche.</seg>
+            </u>
+            <note type="speaker">COCIANCICH</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CociancichRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u87">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg128">Signora Presidente, esprimo parere favorevole.</seg>
+            </u>
+            <note type="speaker">GIACOMELLI</note>
+            <note type="role">sottosegretario di Stato per lo sviluppo economico</note>
+            <u ana="#guest" who="#GiacomelliAntonello" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u88">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg129">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u89">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg130">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.309 (testo 2 corretto), presentato dal senatore Crimi e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 6, sul quale sono stati presentati emendamenti, che si intendono illustrati, su cui invito il relatore e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">COCIANCICH</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CociancichRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u90">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg131">Signora Presidente, esprimo parere contrario su tutti gli emendamenti presentati all'articolo 6. Esprimo parere favorevole sull'ordine del giorno G6- bis.300 se viene recepita l'introduzione nel dispositivo, dopo le parole «impegna il Governo», delle parole « a valutare l'opportunità di».</seg>
+            </u>
+            <note type="speaker">CROSIO (LN-Aut)</note>
+            <u ana="#regular" who="#CrosioJonny" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u91">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg132">Signora Presidente, non ha visto che avrei voluto intervenire in sede di illustrazione degli emendamenti aggiuntivi all'articolo 6? PRESIDENTE. Senatore Crosio, non siamo ancora arrivati agli emendamenti aggiuntivi all'articolo 6; il relatore però ha anticipato il parere sull'ordine del giorno G6- bis.300. CROSIO (LN-Aut). Ha ragione, signora Presidente. PRESIDENTE. Passiamo comunque all'esame anche degli emendamenti volti a introdurre articoli aggiuntivi dopo l'articolo 6, che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u92">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg133">Signora Presidente, noi abbiamo presentato due emendamenti sul tema molto delicato e serio della concessione del servizio pubblico radiotelevisivo. È evidente a tutti che noi stiamo facendo riferimento all'emendamento presentato dal Governo in Commissione e relativo alla procedura per l'affidamento in concessione del servizio pubblico alla RAI. Pertanto, da questo punto di vista, il nostro emendamento 6- bis.300 rende chiaro il passaggio, è molto preciso e stabilisce che la concessione del servizio pubblico radiofonico, televisivo e multimediale è affidata, fino al 31 dicembre 2026 (quindi per dieci anni), alla RAI-Radiotelevisione italiana SpA. Invito inoltre il Governo e il relatore a valutare bene l'emendamento 6- bis. 310, che intende diminuire il periodo di transizione, nel senso che vorrebbe ridurre da novanta a sessanta giorni il periodo che intercorre tra il vecchio contratto, quindi la vecchia convenzione, e quello nuovo disposto attraverso il nuovo affidamento.</seg>
+            </u>
+            <note type="speaker">CROSIO (LN-Aut)</note>
+            <u ana="#regular" who="#CrosioJonny" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u93">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg134">Signora Presidente, vorrei illustrare gli emendamenti presentati dal Gruppo della Lega Nord all'articolo 6- bis, con cui prevalentemente vogliamo aiutare il Governo in relazione al servizio pubblico, alla RAI, alla cosiddetta mamma RAI. Il momento che stiamo vivendo è davanti agli occhi di tutti. La confusione presente nel servizio pubblico per diversi motivi è figlia della riforma, da noi non condivisa, che innanzitutto avrebbe dovuto garantire un pluralismo rafforzato all'interno del servizio pubblico nazionale e che invece ci ha consegnato un qualcosa che è esattamente l'opposto del pluralismo tanto sbandierato dall'Esecutivo e che invece di fatto si è tradotto in un monismo, come concetto filosofico, ma anche nella sua essenza, perché secondo noi è proprio una monata. Ad aver creato molta confusione nei mesi scorsi è anche la questione del canone, che, come tutti ben sappiamo, è stato inserito, in maniera dal nostro punto di vista inopportuna, nella bolletta elettrica e ha generato una serie di confusioni che, a nostro modesto parere, non crediamo possano essere terminate. Pertanto, in sostanza con questi emendamenti noi vogliamo parlare di privatizzazione della RAI, di abolizione del canone con proposte alternative di finanziamento (consapevoli che l'articolo 81 della Costituzione non può essere saltato a piè pari nel nostro ordinamento), o altrimenti proponendo all'Esecutivo delle regole per un'alternativa alla riscossione e alla gestione del canone RAI. Più specificamente, con l'emendamento 6- bis.302 chiediamo semplicemente l'abolizione del canone RAI, come abbiamo sempre proposto, prevedendo un finanziamento alla concessionaria attraverso il pagamento di un compenso di chi fabbrica o importa nel nostro territorio per fini commerciali apparecchi e supporti per la ricezione e la decodificazione del segnale pubblico. Con l'emendamento 6- bis.303 avanziamo un'altra proposta volta alla privatizzazione della RAI, imponendo a tutte le televisioni private di trasmettere una parte di programmazione di servizio pubblico, cosa che peraltro già fanno, senza essere di fatto adeguatamente ricompensate. Noi abbiamo infatti diverse televisioni locali che svolgono servizio pubblico e che, spesso e volentieri, lo fanno meglio della RAI, in primo luogo perché almeno si ricevono, mentre nelle zone ai confini dell'impero il segnale della RAI tante volte non lo riceviamo, e in secondo luogo perché garantiscono un servizio molto più plurale di quello che offre la RAI. Per cui passare in maniera strutturale un po' di servizio pubblico alle emittenti locali sarebbe opportuno. Come? Eliminando nel contempo il canone e disponendo che questi programmi pubblici siano finanziati attraverso i ricavi pubblicitari che l'emittente ottiene dalla vendita degli spot e dei programmi stessi. Capisco che forse questa è una proposta un tantino provocatoria, signor Sottosegretario; però credo che possa esserci la volontà da parte dell'Esecutivo, ma anche da parte del relatore, di svolgere una riflessione sulla questione. Un'alternativa potrebbe essere, come spesso abbiamo constatato parlando con i nostri cittadini negli ultimi mesi sulla questione del canone, quella di stabilire una regola più chiara, partendo dal presupposto che noi dobbiamo offrire un'informazione pubblica. Il Ministro che si occupa delle telecomunicazioni faccia allora un bel provvedimento in cui si indicano i programmi di pubblico interesse che la concessionaria del servizio pubblico non può trasmettere in modalità criptata; di conseguenza, andiamo a criptare tutti gli altri programmi che non sono definiti tali. A questo punto, paga il canone chi mette il decoder, anche nel servizio pubblico, e noi invece andiamo a garantire il servizio pubblico per tutti, in maniera aperta e senza il pagamento e la riscossione di quello che non è un canone, ma una tassa. Infatti, se voglio comprare l'abbonamento per andare a vedere la domenica la mia squadra del cuore, che è l'Inter, lo pagherò; ma se qualcuno mi impone di pagare l'abbonamento, allora è una tassa. Per cui l'abbonamento non esiste: è la tassa della RAI, perché l'abbonamento è un'altra cosa a casa mia. Ci sono poi altri emendamenti, che spaziano sempre in direzione dell'abolizione del canone RAI. Tra questi ce n'è uno che ci sta particolarmente a cuore, signor Sottosegretario, sempre per quanto riguarda l'abolizione del canone RAI. Si tratta del 6- bis.313 con cui noi chiediamo di abolire il canone tout court. E come andiamo a finanziarlo? Qui sta la chiave di volta, perché prendiamo due piccioni con una fava: aboliamo il canone RAI e andiamo a finanziarlo con la legalizzazione della prostituzione. Con questa legalizzazione andiamo finalmente a sanare un aspetto importante. Non è questa la sede per specificare quali vantaggi sicuramente deriverebbero da una simile misura: il nostro Gruppo ha presentato numerose proposte di legge in tal senso. A questo punto, con la legalizzazione della prostituzione, aboliremmo questa odiosa tassa del canone RAI e siamo certi che ne avrebbe beneficio l'intero Paese, non solo sotto l'aspetto dell'ordine pubblico, ma anche dell'informazione. Ci sono anche altri emendamenti sul finanziamento dell'emittenza televisiva locale, in cui chiediamo che il 90 per cento del canone vada alle Regioni, in conformità alla normativa sul federalismo fiscale per le televisioni locali. È chiaro che questa sembri una utopia, ma con lo scenario che si presenta ai nostri occhi anche molti colleghi del PD stanno rimpiangendo quella riforma costituzionale proposta dall'allora ministro Calderoli, con la quale si prevedeva anche di andare a rivedere tutte le questioni riguardanti l'informazione, immaginando di demandare alla periferia, cioè all'ente locale, le risorse e la gestione pure del servizio pubblico locale. Non ho ascoltato i pareri espressi dal relatore e dal rappresentante del Governo, ma su questi emendamenti dovrebbe sostanzialmente esserci una convergenza, a mio modesto parere come espressione della volontà di portare un giusto contributo in questo momento in cui la RAI, come anche tutto il servizio pubblico del nostro Paese, è in grave difficoltà. Sarà il collega Calderoli, in qualità di primo firmatario di questi emendamenti, a valutare quali possano essere i termini di trattativa del nostro Gruppo sulla questione, ma io ritengo vi siano sicuramente le condizioni per portare un beneficio e per dare, a un servizio pubblico che in questo momento versa in una situazione di grande sofferenza nel nostro Paese, un giusto contributo al pluralismo che, di fatto, poco era presente prima e che, sicuramente, ora lo è ancor meno.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u94">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg135">Il senatore Crosio ha illustrato alcuni degli emendamenti del nostro Gruppo, ma ci sono anche i miei. Sarò forse ripetitivo, ma una certa moralità all'interno di questo provvedimento credo sia necessaria introdurla.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg136">Prima il senatore Crosio ha parlato dell'introduzione del canone RAI nella bolletta elettrica. Il canone RAI ha avuto un maggiore gettito di 500 milioni di euro. Di questi, 165 sono quelli finalizzati in parte al fondo e in parte alle agevolazioni fiscali. È evidente, però, che ne restano 335 che vanno al concessionario radiotelevisivo.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg137">Nell'articolo 6- bis è previsto il rinnovo della concessione radiotelevisiva pubblica che, tra l'altro, avviene senza una gara. Lo stato delle cose, quindi, obbliga a rivolgersi a questo unico soggetto. Io non posso però dimenticare tutte le polemiche nate nei mesi scorsi, e adesso un po' attenuatesi, rispetto agli stipendi di coloro che svolgono funzioni di amministrazione o di giornalismo all'interno del sistema della RAI. Ricordo qui il decreto-legge n. 201 del 2011, a firma mia e dell'allora ministro Tremonti in cui per la prima volta si stabilì che «il limite dei compensi massimi al quale» le «società devono fare riferimento (...) per la determinazione del trattamento economico onnicomprensivo da corrispondere agli amministratori, ai dirigenti e ai dipendenti (...) non potrà comunque eccedere il limite massimo di euro 240.000». Vi era la previsione che questo limite interessasse le società direttamente o indirettamente controllate sia da amministrazioni dello Stato sia da altre amministrazioni pubbliche, ad esclusione delle società emittenti strumenti finanziari quotati nei mercati regolamentati. Era evidente che questa esclusione fosse rivolta alle società quotate, come l'ENI e le Poste, cui forse sarebbe stato da irresponsabile porre un tetto. Cosa accadde? Giustamente in questo caso, il Governo Renzi anticipò l'entrata in vigore, anziché a maggio 2016, a maggio 2014 e, a un anno di distanza (finalmente, si può dire), nel giugno 2015, il consiglio di amministrazione della RAI aveva deliberato che a tutta l'azienda si applicasse il tetto fissato dalla legge per la pubblica amministrazione, cosa assolutamente sacrosanta perché è una legge dello Stato. Ma era il consiglio uscente. Dopo pochi giorni il nuovo consiglio ha avviato il collocamento di 350 milioni di bond. È chiaro che le quotazioni azionarie e i bond non c'entrano assolutamente nulla: è stato il trucco con cui aggirare l'ostacolo; conseguentemente a questo trucco, il giorno dopo gli stipendi hanno ripreso a salire. Ricordo a me stesso e all'Assemblea il direttore generale Campo Dall'Orto, che si vede garantiti 650.000 euro annui, e la presidente Maggioni, che ne riceve 336.000. Il problema è che c'è anche un certo numero di giornalisti che percepiscono stipendi superiori al tetto fissato da quel decreto-legge e che non stanno neanche lavorando. Per quanto mi riguarda, è una vera vergogna che vi siano soggetti che da anni percepiscono 300.000 euro per non fare assolutamente niente</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg138">Non è che tutte le volte vale il detto «fatta la legge, trovato l'inganno», non pretendo di intervenire su vecchi decreti-legge; dico solo - come si dice nel nostro emendamento - e pregherei il Sottosegretario di prestare la massima attenzione...</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg139">È il senatore Russo che disturba.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg140">PRESIDENTE. Sottosegretario Giacomelli, è pregato di ascoltare il senatore Calderoli.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg141">Ed è anche recidivo! PRESIDENTE. Senatore Russo, la prego. CALDEROLI (LN-Aut). Nel nostro emendamento vi è la previsione del rinnovo della convenzione; ci sarà uno schema di convenzione che deve prevedere che la questa possa essere stipulata con un soggetto che applichi i limiti stipendiali che si applicano a tutta la pubblica amministrazione</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Candiani</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg142">, indipendentemente dal fatto che lo stesso soggetto abbia quotato dei bond, perché si è trattato di un trucco per aggirare il tetto stipendiale. È una questione di giustizia e di equità; l'abbiamo parzialmente introdotta rispetto a tutti i soggetti che riceveranno dei soldi pubblici per editare, mi sembra ancor più obbligatorio rispetto a un concessionario che assumerà la concessione per affidamento diretto, perché non c'è alcuna gara</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GASPARRI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u95">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg143">Signora Presidente, il nostro Gruppo convintamente sostiene, tra gli altri emendamenti, un emendamento aggiuntivo. Intervengo in sede di illustrazione dopodiché interverremo nel merito, perché la questione dei tetti alle retribuzioni è stata posta da diversi Gruppi, ma la scansione degli emendamenti fa sì che, poi, questi intervengano in discussione in fasi diverse.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg144">L'emendamento 6- bis.0.301, da me presentato, sottoscritto dalla senatrice Bernini e che il Gruppo sostiene nella sua interezza, è collocato, se non sbaglio, tra gli emendamenti aggiuntivi all'articolo 6- bis, quindi probabilmente noi sosterremo altri emendamenti.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u96">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg145">Scusi, senatore Gasparri, vi sono degli equivoci sulla numerazione e vale la pena di precisare. Ora stiamo discutendo l'articolo 6- bis, perché tale era la numerazione originaria, ma si tratta dell'articolo 7. Lo ricordo per chiarezza nei confronti dei colleghi che consultano il fascicolo. GASPARRI (FI-PdL XVII). Seguiremo quello che dirà la Presidenza, ma la sostanza è che il Gruppo Forza Italia condivide la questione del tetto retributivo. Il senatore Calderoli ha già detto molte cose; aggiungo, anche per la mia esperienza di membro della Commissione parlamentare di vigilanza RAI, una serie di circostanze e smentisco le cose non vere dette in Parlamento. L'attuale direttore generale della RAI, Campo Dall'Orto, è stato ascoltato in occasione di una recente audizione in Commissione, in cui si è parlato di questo. Ricordo che lo stipendio di Campo Dall'Orto sfora abbondantemente il tetto dei 240.000 euro (penso che siamo intorno ai 600.000 euro, dimensioni gigantesche). Noi qui siamo la casta vilipesa (giustamente, perché la gente ce l'ha con la politica) e Campo Dall'Orto vale tre o quattro senatori (o forse vale tutto il Senato come intelligenza, ma ha tutta una vita per dimostrarlo e al momento ancora non si sa).</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Rizzotti</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg146">Quello della stipendio, però, è un dato.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg147">In occasione dell'ultimo incontro in Commissione di vigilanza RAI Campo Dall'Orto ha detto una cosa che riporto, perché tra poco in questa sede discuteremo di questo tema e voteremo (mi rivolgo anche al senatore Zanda, che è esperto di vicende RAI per via della sua partecipazione, in passato, anche a consigli di amministrazione). Campo Dall'Orto ha detto: non ho chiesto niente, mi hanno dato uno stipendio pari a quello del mio predecessore. A molti è sembrata un'affermazione corretta. Quando si viene chiamati ad assumere un incarico è giusto sapere quanto si verrà pagati. Tra l'altro, quello del direttore generale della RAI non è un incarico banale (manco fare il parlamentare, in realtà, però sapete bene quanto oggi il tema delle retribuzioni sia sensibile).</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg148">Abbiamo poi verificato che il precedente direttore generale, Luigi Gubitosi, prendeva molto, però alla fine del mandato si è ridotto il proprio trattamento economico al di sotto del tetto (forse perché sapeva che non gli sarebbe stato rinnovato il mandato o perché, con un comportamento virtuoso, sperava di avere altri incarichi che però non mi pare abbia avuto). Ci saranno stati dei colloqui, in quanto mi pare assolutamente normale che in occasione della nomina del direttore generale si parli con l'interessato anche del trattamento economico (non è che venga estratto a sorte o preso un incapace a cui affidare il ruolo di direttore generale). È giusto perché bisogna riconoscere un merito. Campo Dall'Orto non ci ha detto però la verità, perché il suo predecessore si è tagliato lo stipendio.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg149">Sottosegretario Giacomelli, il nostro emendamento, al pari di altri, aggira anche l'inganno. Infatti, si disse: se una società emette dei bond, è fuori dal tetto nell'ambito del perimetro pubblico. Tuttavia, l'emissione di bond RAI è apparsa a tutti strumentale per poter uscire dal recinto del tetto retributivo. Il nostro emendamento prevede che se una società, anche pubblica, ha natura prevalentemente finanziaria, allora emette dei bond ed è giusto che non abbia il tetto. Ma qual è il compito prioritario della RAI? Di certo non quello di operare sui mercati finanziari, ma di produrre informazione, intrattenimento e cultura. Quindi, la RAI non è una società finanziaria, pur essendo chiaro che ha anche delle attività finanziarie (parlo di debiti, introiti e investimenti). La radio, la televisione e l'attività sulla rete non si fanno mica gratis. Questo problema è stato discusso in Commissione parlamentare di vigilanza RAI e abbiamo votato all'unanimità. Colleghi del Partito Democratico, voi avete ovviamente una larga maggioranza nella Commissione parlamentare di vigilanza RAI, che è formata in proporzione alla consistenza dei Gruppi parlamentari. Essendo una Commissione bicamerale, la vostra numerosa presenza alla Camera dei deputati rende la composizione della Commissione largamente orientata dal peso politico e parlamentare del Partito Democratico. Ebbene, abbiamo votato all'unanimità e, quindi, non sono stati il senatore Gasparri o il senatore Crosio, che pure fanno parte dalla Commissione, ad aver fatto un colpo di mano. Senatore Crosio, molti mesi fa c'è stata una deliberazione (non ricordo la data, ma è agli atti parlamentari) che prevede che bisogna rispettare il tetto. Siccome qualcuno dice che occorre un atto di indirizzo della Commissione parlamentare di vigilanza RAI, ricordo - mi rivolgo al rappresentante del Governo - che c'è stato. Però, nulla quaestio. Poi certo, mi si obietterà che esiste il problema di come ingaggiare star e cantanti. A parte che alla RAI hanno assunto Pippo Baudo, che credo ormai si porti a casa con pochi soldi, noi stiamo però parlando dei dirigenti. Mi rivolgo ai colleghi dell'Assemblea (senatore Calderoli, lei non fa parte della Commissione parlamentare di vigilanza RAI): ad agosto abbiamo chiesto al direttore generale perché il direttore di Rai 1 guadagna 200.000 euro (potrei sbagliare, ma mi pare di ricordare che sia questa la cifra) e il direttore di Rai 3 - Daria Bignardi - 300.000 euro. Si dovrebbe immaginare infatti, che il direttore di Rai 1 guadagni più di quello di Rai 3 perché - è normale - si tratta della rete principale e, quindi, ha più ascoltatori, fa più fatturato e, come si usa dire nel mondo radiotelevisivo, paga gli stipendi all'intera azienda. Però, stranamente il direttore di Rai 1 guadagna meno di quello di Rai 3. Il direttore generale ci ha risposto che il direttore di Rai 1 è un giovane in carriera e quindi non gli si può dare uno stipendio troppo alto all'inizio. Il direttore ha trentanove-quarant'anni e il ragionamento potrebbe essere anche sensato, ma la direttrice di Rai 3 non ha mica ottant'anni! Inoltre, il direttore di Rai 1 era un interno RAI, e quindi aveva già una carriera, per quanto agli inizi o non proprio agli inizi perché se lo fai direttore di Rai 1 a trentanove anni lo si reputa capace. Certo non è necessario avere trecento anni per fare il direttore di Rai 1. Pippo Baudo tornerà a «Domenica in» a ottant'anni, e gli faccio gli auguri, ma il direttore di Rai 1 ne ha trentanove. Perché allora la Bignardi prende 300.000 euro e il direttore di Rai 1 150.000? Ci è stato risposto sostanzialmente perché è più giovane, lo ricordate, senatore Crosio, senatore Verducci e altri colleghi della Commissione di vigilanza? Quindi qual è questa regola? Perché i due direttori del telegiornale X prendono uno 150.000 euro e l'altro 300.000? Perché il secondo è più bravo? Ma fanno la stessa cosa. Poi capisco se si strappa sul mercato per chissà chi. Comunque questo tetto ci vuole per i dirigenti. Non è un tetto disprezzabile, 240.000 euro. Poi se qualcuno prenderà in esclusiva Messi a condurre «La domenica sportiva» o non so quale star canora, in quel caso subentrano altre logiche, ma questo lo sappiamo. Noi parliamo di dirigenti incardinati. Su questa vicenda c'è una giungla che si è formata nel tempo, non è che adesso è arrivato il direttore generale nuovo o il Governo e ha fatto disordine, siamo chiari. Sperequazioni, stipendi diversi: ci sono delle stratificazioni. Dopo di che, siccome viviamo in un'epoca di trasparenza (un po' sospesa al Comune di Roma negli ultimi tempi, ma tendenzialmente viviamo in un'era di trasparenza), di streaming, di stipendi e retribuzioni online, di scontrini, se qualcuno prende l'aranciata e non fa la fattura viene lapidato. L'altro giorno hanno scagionato 55 consiglieri regionali delle Marche, di tutti i partiti, perché hanno dimostrato che avevano pagato regolarmente.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Giovanardi</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg150">E lasciamo perdere altre vicende di cui discuteremo in altre occasioni relative a colleghi che fanno parte di quest'Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg151">Noi riteniamo in sostanza che questo emendamento sia coerente con le norme che abbiamo approvato per la pubblica amministrazione, con la deliberazione che la Commissione parlamentare di vigilanza ha votato all'unanimità diversi mesi fa, forse un anno fa. Il senatore Margiotta qui presente lo ricorderà. C'è questa confusione per cui un direttore è giovane e prende 200.000 euro, l'altra è giovane pure lei, però ne prende 300.000, forse perché è più chic, è più snob, non so quale sia la ragione, non lo capisco nemmeno io che pure seguo queste materie - ahimè - è noto a tutti, da qualche tempo. Quindi diamo un segnale, dopodiché non si guasta niente: con 240.000 si campa lo stesso. Noi siamo la casta, ne prendiamo di meno e siamo dei privilegiati, io me ne rendo conto, rispetto alla massa dei cittadini. Lo dico ben consapevole di questo e dobbiamo sicuramente fare di più per ridurli. Poi chi guadagnava zero e ora guadagna 5.000 e fa la parte dell'eroe è passato da zero a 5.000, ma lasciamo perdere anche se anche in questo caso ci sarebbe da fare una discussione spinosa. Approviamo dunque questi emendamenti in coerenza con quello che abbiamo deliberato in Commissione vigilanza. Poi verrà prima quello di Calderoli, dopo quello aggiuntivo, il 7 o il 6, come diceva il film di Ficarra e Picone («Il sette e l'otto»), alla fine l'importante è il tetto. Con 240.000 euro si campa lo stesso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u97">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg152">Signora Presidente, vorrei illustrare l'emendamento 6- bis.314. Noi abbiamo in Italia 1.582.000 famiglie in povertà assoluta. Sono 4.598.000 persone secondo il rapporto ISTAT e nel Mezzogiorno quattro famiglie su dieci sono in condizioni di povertà relativa. Dieci milioni di persone hanno difficoltà ad accedere alle cure, però anche i poveri pagano le imposte, per esempio il canone RAI per cui è prevista, è bene dirlo, un'esenzione per i redditi annui fino a circa 6.700 euro (poco al di sopra). In altri termini, al di sotto della soglia di povertà relativa si è obbligati (perché si tratta di un'imposizione) a pagare il canone RAI. E questo non vale ovviamente se il cittadino ha meno di settantacinque anni. Mi chiedo: ci arriveranno i poveri a settantacinque anni, quando hanno difficoltà ad acquistare cibi proteici e a sottoporsi agli esami clinici preventivi per la salute? Bene, questo è come il Governo ricompensa i cittadini che - poveri - si tolgono il sangue obbligatoriamente per pagare il canone RAI, garantendo ai dirigenti stipendi da 600.000 euro l'anno, come al direttore generale Campo Dall'Orto. Come mai così tanto? Come mai così tanto, se è stata fissata una norma per i dirigenti pubblici con un tetto a 240.000 euro? Ad inizio 2014 veniva fissato questo tetto, però con una postilla; il tetto non vale per le società che emettono titoli negoziati su mercati regolamentati. Un cittadino si chiede cosa vuol dire. Io a questo cittadino voglio dire che quando un partito ti propone una norma che non capisci, tu non sai il perché, ma lui sì.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Cappelletti.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg153">Ciò vale anche per le riforme costituzionali: prendiamo ad esempio l'articolo 70.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg154">Siamo arrivati allo scandalo degli stipendi d'oro perché poi, a maggio 2015, è arrivato il via libera del consiglio di amministrazione RAI all'emissione di quelle obbligazioni. Prima il tetto vigeva, poi non più. Questo lo denunciava un esponente del Partito Democratico, Michele Anzaldi, che strepitava dicendo che è scandaloso e di cattivo gusto, in questo momento molto difficile per il Paese, che la RAI non abbia trovato un minuto per rassicurare gli italiani che il tetto agli stipendi dei dirigenti non sarà aggirato.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg155">Si arriva ad ottobre 2015 e, puntualmente, si vota la legge di riforma della governance RAI e quando il Movimento 5 Stelle dice di togliere quella postilla dal sapore vagamente truffaldino, tutto il Partito Democratico vota contro, salvo poi battersi il petto quando lo scandalo esplode. Nel luglio 2016 infatti, poco tempo fa, emergono le indiscrezioni sui mega stipendi. Siamo allora al momento di chiudere questa saga, questa farsa che suscita sdegno nei cittadini e porta vergogna alle istituzioni. Dobbiamo semplicemente ripristinare questo tetto anche per la RAI e per tutte le società. Dobbiamo togliere questo distinguo. Nell'emendamento 6- bis.315 proponiamo anche una soluzione di secondo livello. Sappiamo bene infatti che le ragioni c'erano, perché se Antonio Campo Dall'Orto è stato scelto e assunto da Renzi, forse questo è il motivo che spiega come mai gli vengono garantiti 600.000 euro. Forse il motivo lo vediamo anche nei palinsesti, nel minutaggio che viene dato alle istanze, per esempio, per il no al referendum costituzionale invece che al sì. Lo abbiamo visto già in precedenza su come è stato trattato il tema del referendum contro le trivellazioni in mare. Bene, allora quando si è votata la legge di riforma della governance RAI, 257 parlamentari, cioè la stragrande maggioranza del PD, si sono presi la responsabilità di mantenere quel cavillo, affossando l'emendamento del Movimento 5 Stelle che ne prevedeva l'eliminazione. Abbiamo fatto i conti e quei parlamentari hanno sulla coscienza due milioni di euro degli italiani; dividendo per 257, viene fuori una mensilità dello stipendio. O noi togliamo oggi quel cavillo ed eliminiamo la norma secondo cui emettendo obbligazioni si può aggirare il tetto oppure chiediamo ai parlamentari del Partito Democratico di decurtarsi lo stipendio. Non si vive male, come ha detto poco fa il collega Gasparri, con 240.000 euro. Si vive benino. Ebbene, si vive benino anche con i nostri stipendi, anche se per un motivo di coscienza, intendiamo restituire ai cittadini almeno le conseguenze delle nostre azioni. Mi si dirà che è poca cosa perché, se andiamo a vedere quanto costa un politico per le scelte scellerate che porta avanti, allora non abbiamo solo il caso del canone RAI o dei mega stipendi, ma molti altri. Però ci accontenteremmo di un piccolo gesto che dimostri la credibilità: chi sta dalla parte dei cittadini e chi non ci sta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">TREMONTI (GAL (GS, PpI, M, Id, ApI, E-E, MPL))</note>
+            <u ana="#regular" who="#TremontiGiulio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u98">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg156">Signora Presidente, signori senatori, la sequenza oggetto di questa discussione in questo momento è la seguente: tempo 1) si applica con anticipo il tetto agli stipendi; tempo 2) viene formulata un'emissione di bond; tempo 3) si delimita il campo di esclusione, perché si perfeziona la fattispecie delle società emittenti strumenti finanziari quotati. Credo che per qualificare ciò che è successo sia fondamentale avere evidente - se non in questa sede, almeno in altre - quanto segue: la RAI SpA ha mai fatto emissione di bond o è la prima volta che fa un'emissione di bond quotati?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg157">Ho memoria di posizioni attive della RAI e poi di progressivamente indebitamento, ma fatto per linee bancarie e non per emissione di titoli. In secondo luogo, se non ho cattiva informazione, l'importo dell'emissione è assolutamente elevato. Credo siano 400 milioni, che sono un'emissione di enorme rilievo per un soggetto che non ne ha mai fatte. Inoltre, dovrebbe essere noto in questa sede il costo di quella emissione in termini di interessi, il costo delle commissioni per piazzare quei titoli e, infine, la gestione successiva di quella posizione finanziaria. Ho l'impressione che ci sia un enorme squilibrio tra la dimensione di costo dell'operazione (evidentemente strumentale), i particolari vantaggi tratti da quella emissione e fondamentalmente - forse non per questa sede, ma per altre, importanti - il danno erariale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">AIROLA (M5S)</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u99">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg158">Signora Presidente, intervengo solo per un chiarimento. Abbiamo illustrato gli emendamenti all'articolo 6-bis, ma andremo a fare dichiarazione di voto sull'articolo 7?</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u100">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg159">In sede di drafting gli emendamenti denominati 6- bis saranno inclusi in quello che nello stampato è l'articolo 7. Manteniamo la numerazione presente nel fascicolo, altrimenti non capiamo più niente. Quindi, adesso voteremo gli emendamenti presentati all'articolo 6, poi passeremo agli emendamenti aggiuntivi denominati «6- bis », che si incorporano nel testo dell'Atto successivamente all'articolo 6 che nell'atto è l'articolo 7. Votati gli emendamenti presentati all'articolo 6, passeremo quindi ai pareri sugli emendamenti presentati all'articolo 6- bis, in modo da dare maggiore ordine alla nostra discussione. Passiamo dunque alla votazione dell'emendamento 6.1, identico all'emendamento 6.300. SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.1, presentato dal senatore Bruni e da altri senatori, identico all'emendamento 6.300, presentato dal senatore Gasparri e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 6.3 è stato ritirato. Passiamo all'emendamento 6.4, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. BRUNI (CoR). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 6.4, presentato dai senatori Bruni e Liuzzi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 6. (Segue la votazione). Il Senato approva. (v. Allegato B). L'emendamento 6.0.1 è stato ritirato. Passiamo all'esame dell'articolo 6- bis, sul quale sono stati presentati emendamenti, che devono intendersi riferiti all'articolo 7 della formulazione corretta del testo proposto dalla Commissione, che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u101">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg160">Signora Presidente, non intendo illustrare nulla, ma vorrei sottoporre una riflessione all'Assemblea rispetto agli interventi che abbiamo ascoltato. Visto il rilievo dell'articolo 6- bis e dei relativi emendamenti, considerata la discussione che credo non sarà breve con riguardo alla questione della RAI, visto il numero degli emendamenti e anche il numero dei Gruppi che li ha presentati, chiedo al relatore e al Governo se non ritengano opportuno che l'espressione dei pareri, visto anche l'orario, avvenga nel corso della seduta pomeridiana, anche alla luce di una riflessione che si potrebbe fare nell'intervallo tra le due sedute.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u102">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg161">Mi sembra che sulla sua proposta ci sia un generale consenso.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg162">Rinvio pertanto il seguito della discussione dei disegni di legge in titolo ad altra seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">BENCINI (Misto-Idv)</note>
+            <u ana="#regular" who="#BenciniAlessandra" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u103">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg163">Signora Presidente, intervengo sulla tragica vicenda della fine dell'esistenza di Tiziana, morta suicida a trentun anni, che dovrebbe portare a un'attenta riflessione su un fenomeno...</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg164">PRESIDENTE. Mi scusi, senatrice Bencini.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg165">Colleghi, se volete abbandonare l'Aula, defluite con rapidità oppure garantite il silenzio necessario a consentirci di ascoltare l'intervento della senatrice Bencini.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg166">Continui pure il suo intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg167">Come dicevo, intervengo sulla tragica vicenda di Tiziana, una ragazza di trentun anni morta suicida, che dovrebbe portare a un'attenta riflessione su un fenomeno non solo dilagante ma oramai costante, che anche in questo caso specifico dev'essere chiamato femminicidio. Tiziana, la cui rovinosa vicenda, ossia la circolazione dei filmati hard diventati virali sul web, non necessita in questa sede di essere ripercorsa, è stata di fatto però impossibilitata a condurre un'esistenza dignitosa. L'interruzione di tutti i rapporti sociali, la vergogna, lo stato di depressione, il primo tentativo di suicidio, un peso insostenibile, una morte annunciata e quindi anche prevedibile: Tiziana ha subito una violazione della privacy, una violazione a tutti gli effetti che l'ha costretta a cambiare dapprima identità e poi a rivolgersi alle competenti autorità al fine di ottenere ristoro e giustizia nei confronti di chi ha reso pubbliche le immagini, quanto dei social responsabili anch'essi di aver diffuso il video in questione. Mi riferisco ai vari social come Facebook, Yahoo, Google e YouTube. Il giudice incaricato del caso in esame ha riconosciuto la lesione del diritto alla privacy della donna, contestando nello specifico ai social la non immediata rimozione dei contenuti lesivi della reputazione. Ma questo non può bastare, ovviamente. Ebbene, i contenitori web non posso racchiudere e veicolare ogni tipo di dato, senza apporre quei filtri che tutelano la dimensione umana. Occorre tenere ben presente che la libertà di ognuno termina laddove comincia quella altrui. Bisogna trasmettere l'importanza delle relazioni umane. È necessario a tal fine far comprendere come il sostrato delle relazioni sia necessariamente il rispetto della vita altrui. Vi deve essere una cabina di regia che coinvolga, nei casi analoghi, simili o similari a quello di cui si sta discutendo, anche i contenitori e diffusori presenti sul web. La cabina di regia sul territorio deve ricomprendere servizi come la sanità e l'area della giustizia, ma in primis anche le misure necessarie per promuovere i cambiamenti e quei comportamenti socioculturali delle donne e degli uomini. I dati sul fenomeno del femminicidio sono sconcertanti, come sappiamo: le donne morte negli anni sono più di 2.000, eppure la livellazione di statistiche ufficiali non registra il fenomeno del femminicidio che passa anche attraverso il web. Occorre comprendere nel dettaglio come la società affronta e vive il fenomeno della violenza di genere contro le donne e quali misure e investimenti adottare in termini di prevenzione e contrasto alla violenza di genere e ancora quanto e come, a fronte dei sopracitati investimenti, gli italiani percepiscono il fenomeno della violenza di genere e sono liberi da stereotipi e pregiudizi che costituiscono fattori di rischio della violenza stessa. Gli uomini e i ragazzi devono essere resi consapevoli dell'importanza del ruolo e conseguentemente devono essere posti in prima linea nella lotta alla violenza contro le donne come attori principali del necessario cambiamento culturale. Ribadisco anche in questa sede la necessità di avviare un intervento strategico che renda responsabili i politici più consapevoli dell'importanza e dell'efficacia della prevenzione e che renda maggiormente evidente la portata di un fenomeno nella sua dimensione sociale. Per la sua matrice culturale, la violenza sulle donne non può essere contrastata prescindendo da un'analisi di ciò che muove la nostra società. La violenza contro le donne è percepita come un fenomeno diffuso e in aumento, ma che resta ancora una questione relativa alla sfera privata, non emerge nella sua dimensione pubblica e totale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e Misto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg168">PRESIDENTE. La Presidenza si associa al cordoglio per la morte drammatica di questa ragazza.</seg>
+            </u>
+            <note type="speaker">*PAGLIARI (PD)</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u104">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg169">Signora Presidente, con questo intervento di fine seduta continuo oggi in Senato una staffetta con cui, assieme a tante senatrici e tanti senatori, ricordiamo ogni donna che viene uccisa per mano di un uomo a cui è o è stata legata da relazione amorosa. Lo faremo fino a che sarà necessario ricordare al Parlamento e al nostro Paese l'urgenza di arginare la violenza nei confronti delle donne. Nell'intervento di oggi dobbiamo ricordare quattro donne uccise, che si aggiungono alle dieci che abbiamo ricordato dal 30 giugno, quando questa staffetta ha avuto inizio. A Parma, il 10 settembre, Elisa Pavarani, di trentanove anni, è stata uccisa a coltellate; per l'omicidio è stato arrestato ed è indagato l'ex fidanzato. Mi si lasci poi aggiungere a questo episodio il ricordo Michelle Campos Verde, 20 anni, assassinata tre anni fa, purtroppo sempre a Parma, dall'ex fidanzato: la madre era oggi in Senato per la legge sulla cittadinanza. Il 29 agosto a Seregno, in provincia di Monza, Carmela Aparo di 64 anni è stata uccisa a colpi di pistola dal suo compagno. Sempre il 29 agosto a Caramagna Piemonte, in provincia di Cuneo, è stata uccisa a coltellate Pashke Babaj. Il marito è stato fermato per omicidio. L'ISTAT ci informa che in Italia ogni 2,2 giorni viene uccisa una donna; il 46,3 per cento delle donne muore per mano del partner. La gravità delle violenze sessuali e fisiche è aumentata. Sono in crescita anche i casi di violenza assistita. Il femminicidio è quasi sempre l'estremo risultato di una serie di comportamenti violenti di lunga data e vorrei aggiungere che si inserisce in un contesto sociale che troppo spesso è troppo violento, troppo caratterizzato da un confronto che si basa sull'odio e sulla contrapposizione anziché sulla capacità di confronto e sul rispetto delle persone. Il femminicidio è quasi sempre l'estremo risultato di una serie di comportamenti violenti di lunga data. Con la legge n. 119 del 2013 di contrasto alla violenza di genere, che questo Parlamento ha approvato in attuazione della Convenzione di Istanbul, il nostro Paese ha riconosciuto la violenza sulle donne come violazione dei diritti umani e discriminazione di genere; ha riconosciuto che la violenza sulle donne è un fenomeno sociale che ha le proprie radici nella relazione di potere asimmetrica fra uomini e donne. Per questo la si può prevenire, intervenendo sui fattori che la determinano. Per questo è stato proposto ed approvato un piano contro la violenza sulle donne e, nel frattempo, sono stati rafforzati strumenti di protezione per garantire maggiore sicurezza alle donne minacciate. Bisogna però monitorare che queste misure funzionino e che il piano sia attuato. Per questo abbiamo accolto con favore la notizia che l'8 settembre si è riunita la cabina di regia interistituzionale prevista dal Piano contro la violenza. Riproponiamo infine con convinzione il nostro appello, un appello alla Ministra per le Pari Opportunità e al Governo tutto: la cabina di regia monitori l'applicazione, i pregi e i limiti della legge n. 119 del 2013 e soprattutto dia piena ed accurata attuazione al Piano contro la violenza. Un appello rivolgiamo ai media : si smetta di giustificare gli assassini e di colpevolizzare le donne. Un appello a tutto il Paese, agli uomini e alle donne: sono 160 le donne uccise ogni anno, non possiamo più accettare questa mattanza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u105">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg170">Grazie, senatore Pagliari. Sono numeri e vicende impressionanti: io credo si debba continuare nel senso che lei diceva e suggerirei anche delle iniziative molto forti nella scuola, perché è da lì che io credo si debba cominciare per cambiare la cultura degli uomini e delle donne.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SCAVONE (AL-A)</note>
+            <u ana="#regular" who="#ScavoneAntonio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u106">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg171">Signora Presidente, prendo la parola per parlare ancora una volta dei problemi gravi che vengono a determinarsi nella mia Regione, la Regione Siciliana. Ciò che accade in Sicilia nel settore della sanità è veramente paradossale. Purtroppo, torniamo a immagini pirandelliane, nell'accezione più deteriore, che alcune volte comprimono la possibilità di sviluppo, di ordine e di prospettiva serena cui avrebbe diritto il popolo della Sicilia. Siamo alla vigilia del riassetto della rete ospedaliera in Sicilia, per la verità con qualche ritardo. La Sicilia non ha accolto interamente la cosiddetta legge Balduzzi, rispetto alla quale siamo in ritardo di tre anni, e neanche il decreto ministeriale 2 aprile 2015, n. 70. Nel frattempo quest'estate sono avvenuti alcuni fatti. Ad esempio, l'assessore regionale si è presentato al Ministero il 4 agosto con un piano, salutato dai funzionari del Ministero come aderente al decreto ministeriale n. 70. Lo stesso assessore dichiara, con soddisfazione, che la Sicilia ha superato l'esame del Ministero. Non si ha però ancora alcuna conseguenza, nel percorso amministrativo, in termini di atti concreti. Addirittura, quando esplode la tensione perché le prime carte di questa sorta di atto carbonaro iniziano a girare, con una mortificazione incredibili di territori e anche di grandi realtà ospedaliere, il Presidente della Regione, nei suoi originali e malcelati tentativi di coprire alcuni aspetti che potevano causare ostilità da un punto di vista del consenso elettorale, si affretta a dichiarare che la Sicilia non ha presentato alcun atto di rimodulazione della rete ospedaliera e che, piuttosto, è il Governo centrale ad aver imposto, con il decreto ministeriale n. 70 (affermazione evidentemente falsa), una condizione in virtù della quale la Sicilia è costretta ad accettare questo piano. La verità è che, purtroppo, se non fosse drammatico, sarebbe esilarante osservare che, dopo mezz'ora, il Presidente dell'Assemblea della nostra Regione si affretta a dichiarare che nessun atto è stato presentato in Assemblea mentre l'assessore afferma che più di altro, si tratta di una bozza. Nel frattempo, l'8 settembre scorso questo assessore incontra formalmente i direttori generali, ricordando probabilmente loro la prossima scadenza del mandato e dando loro una parte di documentazione relativa ai territori da ciascuno gestiti, tra l'altro richiamandoli a un rigoroso silenzio rispetto alle carte ricevute. La misura è colma. In Sicilia la sanità è bloccata dal 2009. Il mancato recepimento della legge Balduzzi fa tornare indietro di due anni la Sicilia rispetto al resto del Paese, anche nella possibilità delle stabilizzazioni. Mi viene da pensare, signora Presidente, e sono qui a dichiararlo, che questo piano sia stato trascinato nel corso di questi anni, arrivando alla vigilia delle prossime elezioni regionali del 2017, per essere utilizzato come occasione per sbloccare i concorsi in una terra dove il posto di lavoro è il bene di cui la popolazione ha più fame, dopo otto anni, e in una condizione nella quale l'assenza di un allineamento delle assunzioni nel mondo del lavoro e della sanità ha portato a un detrimento complessivo delle erogazioni. C'è stata una attività ispettiva da parte mia nei confronti del Ministero, che spero faccia chiarezza una volta per tutte su quanto sta avvenendo in Sicilia con l'augurio, tra l'altro, che l'invito da me esteso ai parlamentari di tutti i Gruppi di occuparsi della Sicilia e della sanità possa essere accolto, al di là delle posizioni politiche di ciascuno.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per lo svolgimento di un'interrogazione</head>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u107">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg172">Signora Presidente, ho già sollecitato prima della pausa di agosto la risposta ad un'interrogazione, da me presentata a luglio, sul fatto che il Ministero dell'ambiente e della tutela del territorio e del mare risulta tra i donatori della Clinton Foundation. Ora, l'invasione di campo di sua eccellenza l'ambasciatore americano in Italia, che pensa di spiegare agli italiani come devono votare, unita a questo fatto, rende particolarmente opportuno che il Governo risponda. Ricordo che tutti i governi del mondo e tutti i governi degli enti territoriali italiani rispondono alle interrogazioni. Solo il Governo italiano risponde solo ad alcune interrogazioni e solo questo Governo ha ulteriormente ridotto il numero di interrogazioni alle quali risponde, per di più scegliendole in modo spudorato solo tra quelle che gli fanno comodo. Pertanto, non solo sono poche quelle cui risponde, ma oltretutto il Governo non fa più come in passato quando, dopo un po' di sollecitazioni, rispondeva alle interrogazioni. Ho presentato interrogazioni su argomenti anche molto pesanti: regali fatti ai concessionari autostradali che poi finanziano il Partito Democratico italiano (non quello americano), regali di miliardi fatti andando contro le procedure. Anche su questo non ho avuto risposte e, quando ci sono state, sono state totalmente evasive, non rispondendo specificamente alle domande fatte. Chiedo pertanto che su tale punto, in questo momento di rapporti particolarmente intensi tra l'Italia e gli Stati Uniti d'America (che mi auguro siano sempre più intensi, ma rispettosi della rispettiva indipendenza), il Ministero dell'ambiente spieghi perché ha dato più di 100.000 euro alla Fondazione che si chiama Bill, Hillary and Chelsea Clinton Foundation, che guarda caso ha una certa influenza sul Governo degli Stati Uniti, per cui mi sembra che questo do ut des non vada molto bene. Ci vuole trasparenza. Il Ministero dell'ambiente non può usare i soldi suoi. Se il Ministro dell'ambiente vuole dare soldi alla signora Clinton è libero di farlo; non alla sua campagna elettorale, perché è vietato dalla legge degli Stati Uniti, ma alla sua fondazione lo può fare. Tuttavia, se lo fa come Ministero, deve per lo meno renderlo noto. Questa omertà è inaccettabile ed è una totale mancanza di rispetto per il Parlamento e per gli italiani. Non vuole rispondere in Parlamento? Vada a «Porta a Porta» a spiegarlo, visto che il signor Presidente del Consiglio umilia il Parlamento e fa le comunicazioni che dovrebbe fare in Parlamento nelle trasmissioni televisive.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u108">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg173">Credo che sia più opportuno rispondere in Parlamento. La sua sollecitazione sarà rappresentata, senatore Malan. Comunque - come lei sa - già domani, come ci si era ripromessi, ci sarà una lunga seduta dedicata alle interrogazioni e poi probabilmente i Gruppi potranno raccomandare alla Presidenza un rispetto rigoroso del Regolamento per quanto riguarda l'iscrizione all'ordine del giorno delle interrogazioni.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.u109">
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg174">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg175">Ricordo che il Senato tornerà a riunirsi in seduta pubblica oggi, alle ore 16,30, con lo stesso ordine del giorno.</seg>
+               <seg xml:id="ParlaMint-IT_2016-09-14-LEG17-Sed-677.seg176">La seduta è tolta (ore 12,41).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

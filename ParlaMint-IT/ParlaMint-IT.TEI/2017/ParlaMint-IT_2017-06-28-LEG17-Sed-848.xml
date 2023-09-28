@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 848 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 848 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 848, giorno (2017-06-28)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 848, Day (2017-06-28)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="848-upper">848 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="195" unit="speeches" xml:lang="it">195 discorsi</measure>
+            <measure quantity="195" unit="speeches" xml:lang="en">195 speeches</measure>
+            <measure quantity="19309" unit="words" xml:lang="it">19.309 parole</measure>
+            <measure quantity="19309" unit="words" xml:lang="en">19,309 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=1028637</idno>
+               <date when="2017-06-28">28.06.2017</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="9"/>
+               <tagUsage gi="head" occurs="7"/>
+               <tagUsage gi="note" occurs="286"/>
+               <tagUsage gi="seg" occurs="195"/>
+               <tagUsage gi="u" occurs="118"/>
+               <tagUsage gi="vocal" occurs="7"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="21"/>
+               <tagUsage gi="incident" occurs="5"/>
+               <tagUsage gi="desc" occurs="33"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2017-06-28">28.06.2017</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente GRASSO</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u1">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg1">La seduta è aperta (ore 16,33). Si dia lettura del processo verbale. AMATI, segretario, dà lettura del processo verbale della seduta pomeridiana del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">TOSATO (LN-Aut)</note>
+            <u ana="#regular" who="#TosatoPaolo" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg2">Signor Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u3">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u4">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg4">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u5">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg5">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg6">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,37).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione dei disegni di legge: (2134) Modifiche al codice delle leggi antimafia e delle misure di prevenzione, di cui al decreto legislativo 6 settembre 2011, n. 159, al codice penale e alle norme di attuazione, di coordinamento e transitorie del codice di procedura penale e altre disposizioni. Delega al Governo per la tutela del lavoro nelle aziende sequestrate e confiscate</note>
+            <note type="time">16,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46203.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (456) AMATI ed altri. - Norme in materia di destinazione dei beni confiscati alle organizzazioni criminali a finalità di tutela dell'infanzia e dell'adolescenza</note>
+            <note type="time">16,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40437.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (799) CARDIELLO ed altri. - Interventi urgenti in materia di beni della criminalità organizzata e a favore dell'agenzia nazionale per i beni sequestrati e confiscati alla criminalità organizzata</note>
+            <note type="time">16,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41247.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1180) GASPARRI. - Norme per la utilizzazione dei beni confiscati alla criminalità organizzata al fine di agevolare lo sviluppo di attività produttive e favorire l'occupazione</note>
+            <note type="time">16,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43158.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1210) RICCHIUTI ed altri. - Istituzione dell'Albo nazionale degli amministratori giudiziari e degli amministratori dei beni confiscati alla criminalità organizzata</note>
+            <note type="time">16,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43660.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1225) FINOCCHIARO. - Modifiche al codice delle leggi antimafia in materia di trasferimento di beni confiscati al patrimonio degli enti territoriali</note>
+            <note type="time">16,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43707.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1366) RICCHIUTI ed altri. - Modifiche al codice delle leggi antimafia di cui al decreto legislativo 6 settembre 2011, n. 159, in materia di competenza del tribunale distrettuale per l'applicazione di misure di prevenzione</note>
+            <note type="time">16,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44085.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1431) FALANGA ed altri. - Modifiche agli effetti inibitori ed escludenti derivanti dal procedimento di prevenzione nei confronti dell'attività di impresa</note>
+            <note type="time">16,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44284.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1687) FALANGA ed altri. - Misure volte a rafforzare il contrasto alla criminalità organizzata e ai patrimoni illeciti</note>
+            <note type="time">16,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45012.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1690) MIRABELLI ed altri. - Modificazioni al decreto legislativo 6 settembre 2011, n. 159, recante codice delle leggi antimafia e delle misure di prevenzione</note>
+            <note type="time">16,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45027.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1957) DAVICO. - Modifiche al codice delle leggi antimafia e delle misure di prevenzione, di cui al decreto legislativo 6 settembre 2011, n. 159, volte a rendere più efficiente l'attività dell'Agenzia nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata, a favorire la vendita dei beni confiscati e il reimpiego del ricavato per finalità sociali nonché a rendere produttive le aziende confiscate. Delega al Governo per la disciplina della gestione delle aziende confiscate</note>
+            <note type="time">16,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45742.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (2060) BENCINI ed altri. - Modifiche al codice delle leggi antimafia e delle misure di prevenzione, di cui al decreto legislativo 6 settembre 2011, n. 159, volte a rendere più efficiente l'attività dell'Agenzia nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata, a favorire la vendita dei beni confiscati e il reimpiego del ricavato per finalità sociali nonché a rendere produttive le aziende confiscate. Delega al Governo per la disciplina della gestione delle aziende confiscate</note>
+            <note type="time">16,36</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45999.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (2089) CAMPANELLA ed altri. - Modifiche al codice delle leggi antimafia e delle misure di prevenzione, di cui al decreto legislativo 6 settembre 2011, n. 159, in materia di misure di prevenzione personali e patrimoniali in relazione ai delitti dei pubblici ufficiali contro la pubblica amministrazione</note>
+            <note type="time">16,36</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46076.htm</note>
+            <note type="time">(ore 16,37)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u6">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg7">L'ordine del giorno reca il seguito della discussione dei disegni di legge nn. 2134, già approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare, 456, 799, 1180, 1210, 1225, 1366, 1431, 1687, 1690, 1957, 2060 e 2089.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg8">Ricordo che nella seduta antimeridiana hanno avuto luogo le repliche dei relatori e del rappresentante del Governo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg9">Comunico che sono pervenuti alla Presidenza - e sono in distribuzione - i pareri espressi dalla 1ᵃ e dalla 5ᵃ Commissione permanente sul disegno di legge in esame e sugli emendamenti, che verranno pubblicati in allegato al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg10">La Presidenza dichiara inammissibili i subemendamenti 1.500/1, 1.500/14, 1.500/15 e 1.500/16, in quanto tali proposte sono dirette a modificare il testo del disegno di legge e non l'emendamento al quale si riferiscono.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg11">Procediamo all'esame dell'articolo 1, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u7">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg12">Signor Presidente, con l'emendamento 1.500/5 chiedo che, al capoverso i-bis), alle parole «ai soggetti indiziati» siano premesse le seguenti: «a condizione che permangano i presupposti di cui all'articolo 1,». Si tratta, signor Presidente, della questione che riguarda l'attualità della pericolosità sociale, che è richiesta da tutte le sentenze della Corte di cassazione, secondo un'interpretazione conforme e uniforme, cui ha fatto riferimento lo stesso senatore Lumia nella sua replica. Con l'emendamento 1.500/7 propongo un'integrazione dell'emendamento dei relatori: «al capoverso i-bis) dopo le parole "640- bis " inserire le seguenti: "nonché dei delitti di cui agli articoli 314, primo comma, 316, 316- bis, 316- ter, 317, 318, 319, 3219- ter, 319- quater, 320, 321, 322 e 322- bis codice penale, commessi avvalendosi delle condizioni previste dall'articolo 416- bis del codice penale o al fine di agevolare l'attività delle associazioni previste dallo stesso articolo"». Credo che, per l'intelligenza da parte di tutti, abbiamo discusso in questi giorni del fatto che stiamo ragionando di un codice antimafia. Per cui noi siamo d'accordo, signor Presidente, che per tutti reati cosiddetti spia, che riguardano i reati contro la pubblica amministrazione, ove siano stati commessi avvalendosi delle condizioni previste dall'articolo 416- bis oppure al fine di agevolare l'attività delle associazioni mafiose, vadano correttamente applicate queste norme. L'emendamento 1.500/13 prevede in effetti la stessa cosa, ma scritta in modo diverso. Richiamo l'attenzione dei relatori, in quanto si propone di aggiungere al loro testo le parole: «ove ricorra l'aggravante di cui all'articolo 7 del decreto-legge 13 maggio 1991, n. 152, convertito, con modificazioni, dalla legge 12 luglio 1901, n. 203». In effetti si tratta di quell'aggravante antimafia, che correttamente a mio avviso avevamo richiamato nel precedente emendamento, del testo descrittivo per richiamare qual era la condotta che giustificasse quell'emendamento. Ove i relatori ritenessero di dover accogliere, per una maggiore semplicità, questo secondo emendamento, che ha lo stesso contenuto, io non ho problemi. L'emendamento 1.500/14, signor Presidente, non ho capito se è ammissibile o meno. PRESIDENTE. Prego, senatore Caliendo. CALIENDO (FI-PdL XVII). Allora, al comma 1, lettera a), chiediamo che siano applicati...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Pagliari</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg13">Ah, è inammissibile? PRESIDENTE. Gli emendamenti 1.500/14, 1.500/15, 1.500/16 sono inammissibili.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg14">Mi scusi, signor Presidente, vorrei solo richiamare la sua attenzione, oltre a quella dei relatori. Noi abbiamo scritto in Commissione che, nell'ipotesi in cui si verifichi evasione fiscale, ne può essere sottoposto a misura di prevenzione il frutto anche se impegnato nell'acquisto di un appartamento, di un immobile o quello che sia. Non si è tenuto conto del fatto che esistono soggetti che hanno sì commesso un'evasione fiscale, ma che, in base alla legge, sono poi diventati legittimi possessori di quelle somme. Mi riferisco ai provvedimenti legislativi che riguardano lo scudo fiscale e altro. Domando: com'è possibile pensare che una somma che è diventata di legittima detenzione non possa essere impegnata.</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg15">Signor Presidente, questo emendamento è stato dichiarato inammissibile, ma la questione è delicata. Io non chiedo di modificare quello che è stato fatto dalla Commissione, ma di aggiungere la dizione: «salvo che non risultino legittimamente posseduti in esecuzione di successivi provvedimenti legislativi». È una norma che serve per evitare un assurdo: si continuerà a non tenere conto dei soldi provenienti dall'evasione, che invece sono diventati ormai legittimi. Pertanto, la giustificazione di aver acquistato un determinato immobile con quei soldi diventa un accertamento successivo con una perdita di tempo dei magistrati e delle organizzazioni giudiziari. Mi sembra assurdo non inserire questa ulteriore giustificazione. Ci troveremo, infatti, in una situazione kafkiana perché, da un lato, il Parlamento e la legge autorizzano la legittima utilizzabilità di quei soldi e, dall'altro, non ne teniamo conto. Alla fine, è evidente che il giudice arriverà a quella soluzione, ma dopo un periodo di tempo che non sarà chiara.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg16">Con un chiarimento di questo tipo, credo, signor Presidente, che una sua riconsiderazione sulla dichiarazione di inammissibilità del subemendamento 1.500/16 vada effettuata perché significherebbe togliere valore alla legge che il Parlamento ha approvato. Ciò mi sembra abbastanza folle.</seg>
+            </u>
+            <note type="speaker">SACCONI (AP-CpE-NCD)</note>
+            <u ana="#regular" who="#SacconiMaurizio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u8">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg17">Signor Presidente, i subemendamenti che ho presentato hanno lo scopo di circoscrivere l'ambito di applicazione della disposizione di cui si tratta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg18">Credo sia presente in molti di noi la preoccupazione circa gli abusi di potere che ne possono conseguire perché si tratta di misure cautelari che agirebbero in presenza di un avvio d'indagine anche per mere intenzioni delittuose, senza che queste abbiano una qualificazione riferibile al metodo mafioso o alla finalità di favorire un'organizzazione mafiosa. Non è difficile immaginare come queste misure cautelari possano essere ampiamente impiegate al di là della stessa finalità del legislatore. Pertanto, il subemendamento 1.500/2 prevede esplicitamente che si possa configurare un metodo mafioso nella commissione dei delitti indicati e che almeno uno di questi delitti sia effettivamente realizzato. Allo stesso tempo, altri subemendamenti sempre dedicati a circoscrivere la possibilità di applicare le misure cautelari fanno riferimento ai soggetti imputati e non soltanto indiziati, affinché queste misure a carattere cautelare siano rivolte a persone per le quali non vi sia stato un giudicato definitivo, ma vi sia almeno la condizione successiva al rinvio a giudizio e non solo la fase d'indagine preliminare.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg19">Invito l'Assemblea, al di là di ogni posizione preconcetta o di schieramento, a valutare i profili di libertà che qui sono compresi e che attengono alla dimensione cautelare delle azioni disposte. Recentemente abbiamo potuto persino assistere alla sottoposizione a indagine di atti legislativi - lo vorrei segnalare con particolare forza alle colleghe e ai colleghi - che, al di là di ogni loro valutazione di carattere etico-politico, dovrebbero essere insindacabili. Quindi, perfino l'atto legislativo è stato considerato tra quelli configurabili nella qualificazione della corruzione. Credo che, anche in presenza di un'interpretazione espansiva del reato di cui trattatasi, sia doverosa una cautela nel nome della libertà della persona, nel nome dell' habeas corpus, nel nome di diritti fondamentali che non possono essere conculcati solo perché il relativo provvedimento può dare qualche immediata notizia positiva. Ho la sensazione che spesso, in questo tempo, si stiano producendo atti legislativi come fossero comunicati stampa, con finalità di mera comunicazione politica, laddove sono atti destinati poi a incidere sulla vita delle persone e delle loro famiglie.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo AP-CpE-NCD e dei senatori Volpi, D'Ambrosio Lettieri e Giovanardi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FALANGA (ALA-SCCLP)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u9">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg20">Signor Presidente, ho presentato un solo subemendamento che ritenevo essere correttivo poiché ho immaginato che i relatori, nello stendere il loro emendamento, si fossero sbagliati nel ritenere distinta l'ipotesi dell'articolo 640 -bis da quelle successive e collegate all'articolo 416, tant'è che mi sono limitato a inserire anche l'articolo 640 -bis insieme agli altri collegati all'articolo 416. Mi si dice, però, che non è stato un errore ma che l'articolo 640 -bis, cioè la truffa aggravata, è stato volutamente messo da parte perché già di per sé è un reato che va consumato in forma associativa. Ebbene, invito il sottosegretario Migliore, se ha un minuto di tempo, a inserire nel dischetto che contiene i precedenti in materia di giustizia penale l'articolo 640 -bis : troverà una miriade di sentenze che vedono condannata, ai sensi dell'articolo 640 -bis, una sola persona che ha consumato il delitto in forma individuale. Vi faccio un esempio, perché uno l'ho scorto immediatamente: la truffa comunitaria. Il soggetto che, ai fini di ottenere un finanziamento dall'Europa, produce una serie di falsi documenti, sta operando da solo e la giurisprudenza lo vede condannato ai sensi dell'articolo 640 -bis. Quindi, come vedete, non è affatto vero che l'articolo 640 -bis presuppone necessariamente la forma associativa perché il delitto sia consumato. Vi chiedo allora di fare una riflessione. D'altra parte, che cosa vi costa? Il più comprende il meno, seppur fosse discutibile la questione che pongo. Accogliendo il mio subemendamento si andrebbe ad inserire, rispetto ai soggetti indiziati del delitto di cui all'articolo 416 del codice penale, finalizzato alla commissione di taluno dei delitti di cui agli articoli 314, primo comma, 316, eccetera eccetera, anche l'articolo 640 -bis. Per la verità, ho inserito nel subemendamento anche l'articolo 640 secondo comma, n. 1, che concerne le classiche truffe per invalidi civili. La procura napoletana è piena di indagini su organizzazioni che mirano a realizzare una sorta di invalidità civili. Ebbene, quelle sono associazioni, ma il 640- bis può essere consumato anche in forma individuale. Sul punto, dunque, se il senatore Lumia non fosse distratto e mi ascoltasse, io mi permetterei di suggerire che fosse effettuato un controllo. Perché se io, dopo che quest'Aula avrà deliberato, gli portassi il precedente che vede condannato un soggetto che individualmente è stato condannato in base all'articolo 640- bis e individualmente ha commesso il reato di truffa, per la verità penso che la politica non farebbe una bella figura.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GIOVANARDI (FL (Id-PL, PLI))</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u10">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg21">Signor Presidente, io vorrei richiamare ancora una volta i colleghi al succo politico di questo provvedimento, illustrando il mio emendamento, 1.500/4. Esso prevede che per tutti i pubblici amministratori, per i reati che elenco: peculato mediante profitto dell'errore altrui, malversazione a danno dello Stato, concussione per un atto d'ufficio, corruzione per un atto contrario ai doveri di ufficio, corruzione in atti giudiziari, induzione indebita a dare o promettere utilità, indebita percezione di erogazioni, basti un indizio per arrivare al sequestro e alla confisca di tutti i beni. In altri termini, il sospetto verso un amministratore o l'accusa, sia pure in forma associata (tre o più persone), di avere compiuto una di queste fattispecie comporta la confisca, anche se l'amministratore arriva ad essere assolto da questa accusa e anche se arriva la prescrizione e si viene assolti ai termini del secondo comma della vecchia norma del codice penale che riguardava l'insufficienza di prove.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg22">Noi stiamo quindi introducendo una legislazione speciale, che finora era riservata alle associazioni mafiose (e giustamente era eccezionale, era ai limiti o fuori della Costituzione, perché la piovra malavitosa in qualche modo andava, e va, colpita in maniera determinata), e la estendiamo a migliaia di fattispecie: ai consiglieri comunali, agli assessori e ai sindaci, che, per una accusa o anche per fatti pregressi risalenti ad anni prima, possono vedersi sequestrare tutto il patrimonio.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg23">E tale previsione la colleghiamo anche all'altra norma, che è già legge, per cui per questi reati la prescrizione si da dopo i trent'anni. Quindi, si parte con il sequestro dei beni e poi vi sono trent'anni di tempo (primo grado, appello e Cassazione) che lo Stato prende per determinare se quel pubblico amministratore è o no colpevole degli addebiti che sono stati avanzati nei suoi confronti.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg24">Ve lo dico perché, quando non succeda a uno di voi, a uno dei vostri amici, al consigliere comunale o all'amministratore (che verrebbe, con gli occhi fuori dalla testa, a dirvi che gli hanno confiscato tutto sulla base di un'accusa, ma che lui non è mai stato condannato), di dover ricordare il giorno in cui questo Parlamento aveva votato questa norma.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg25">Allora, in una prospettiva di riduzione del danno, io mi sono limitato, per quanto si poteva fare, subemendando l'emendamento dei relatori, innanzitutto, come ha detto il collega Falanga, ad aggiungere agli altri reati anche la truffa aggravata per il conseguimento di erogazioni pubbliche. Non si capisce, infatti, perché questo reato deve restare fuori dall'associazione, Oltretutto, è punito molto più blandamente di altri reati che invece richiedono l'associazione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg26">In secondo luogo, mi sono permesso di togliere dall'elenco dei reati per i quali è prevista la confisca dei beni preventiva il peculato mediante profitto dell'errore, la malversazione a danno dello Stato e la indebita percezione di una erogazione, perché, se andate a vedere, sono reati puniti con pene da sei mesi a due anni. Cioè, rispetto ai reati di corruzione, sono fattispecie di cui, fra le altre cose, è facilissimo essere accusati.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg27">Come ho detto ieri, se non ci fosse il sindaco di Napoli, che è quello che è, se non vi fosse il presidente della Regione Puglia, che è quello che è, se non ci fosse il dottor Woodcock, che è quello che è, se non ci fosse una magistratura italiana, specialmente quella fatta dai pubblici ministeri, che ci hanno abituato, come leggiamo sui giornali, a determinate iniziative, che finiscono, nella maggior parte dei casi, nella assoluzione di coloro che sono stati accusati e sono vittime di anni e anni di processi, io potrei stare tranquillo. Mi interrogo però su uno strumento di questo tipo, se non viene corretto, messo nelle mani di certi magistrati. Scusate, ma la Costituzione non afferma che una persona non è considerata colpevole fino a sentenza passata in giudicato? E noi non solo fin dal momento dell'indizio la consideriamo colpevole, ma le sequestriamo i beni, glieli confischiamo; non al mafioso o allo 'ndranghetista, ma a migliaia di pubblici amministratori e funzionari che, se questo disegno di legge viene approvato, vivranno con questa spada di Damocle sulla testa. Secondo voi troveremo volontari che vanno a fare i pubblici amministratori se non i delinquenti che mettono già in conto di essere incriminati? Pensate che le persone perbene metteranno a rischio la loro vita, la loro famiglia, il loro patrimonio, il loro onore quando possono essere soggetti a misure di questo tipo?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo GAL (DI, GS, MPL, RI)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg28">Il Senato si rende conto di quello che fa contro la Costituzione e contro il buonsenso? Certo, il relatore invita a stare attenti perché l'Europa boccerà queste misure. Certo che l'Europa è preoccupata da questa tendenza.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg29">In ultimo noi indeboliamo la lotta alla mafia, alla 'ndrangheta e alla camorra, perché estendendo a migliaia o a decine di migliaia di possibili fattispecie questa normativa speciale, evidentemente lo sforzo diretto dei tribunali e delle procure a combattere la mafia viene diluito e annacquato. Un conto è Totò Riina e un conto è il peculato mediante profitto dell'errore. Noi li mettiamo sullo stesso piano? La nostra normativa diventa tutta speciale e va al di fuori delle regole dell'ordinamento? Spero almeno che questi emendamenti di riduzione del danno vengano accolti, fermo restando un giudizio finale che esprimeremo su una norma che comunque si pone sicuramente al di fuori delle regole costituzionali e soprattutto del buonsenso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo GAL (DI, GS, MPL, RI).</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DI MAGGIO (GAL (DI, GS, MPL, RI))</note>
+            <u ana="#regular" who="#DiMaggioSalvatoreTito" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u11">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg30">Signor Presidente, credo che il dibattito sia servito a molto, anche perché i relatori sono tornati sui loro passi e hanno preso spunto da alcune considerazioni che abbiamo fatto in Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg31">Io non ci voglio credere, perché conosco bene i relatori avendoli ben frequentati in Commissione, ma mi sembra che l'emendamento 1.500 abbia fatto il gioco delle tre carte. Da una parte, cioè, si ha l'intenzione di rispondere sempre alla pancia del Paese, dall'altra parte ci sono le tirate di giacca della magistratura e dall'altra parte ancora io mi chiedo se finalmente questo Parlamento voglia invece tornare a ragionare con la testa e ad approvare provvedimenti dei quali un domani non ci si debba pentire.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg32">In buona sostanza i relatori restringono la platea dei soggetti destinatari delle misure di prevenzione. Infatti, mentre il testo originario prevedeva che le misure di prevenzione fossero applicabili ai soggetti indiziati di uno dei delitti di cui agli articoli 314, 316, 316- bis, 316- ter, 317, 318, 319, 319- ter, 319- quater, 320, 321, 322, 322- bis e 640- bis del codice penale, l'emendamento 1.500 dei relatori limita l'applicabilità delle misure di prevenzione ai casi di cui all'articolo 640- bis (truffa aggravata per il conseguimento di erogazioni pubbliche) e all'articolo 416 del codice penale, se finalizzati alla commissione dei reati previsti nella precedente versione. Pertanto, i reati contro la pubblica amministrazione diventano reati di scopo e ad essi non si applicano direttamente le misure di prevenzione. Dopo l'intervento fatto autorevolmente in Aula dal senatore Falanga viene escluso il peculato d'uso, quindi vedo che c'è la possibilità di prendere atto del buonsenso, però nella sostanza nella maggioranza vi è una posizione più morbida nell'applicazione delle misure di prevenzione per i reati contro la pubblica amministrazione, ma è come se tutto rientrasse dalla finestra. Pertanto, per evitare questa ipocrisia ho presentato l'emendamento 1.500/9 volto a sostituire le parole: «finalizzato alla commissione di taluno dei» con le seguenti: «ovvero dei», facendo rimarcare ai relatori che sostanzialmente questo emendamento non ha cambiato i principi su cui ci siamo battuti in Aula e che sono stati autorevolmente sostenuti dal collega Giovanardi. Le finalità cui facciamo riferimento riguardano infatti esattamente lo scontro nel quale qualsiasi pubblico amministratore, con un provvedimento di questo tipo, è assolutamente soggetto a trovarsi, con delle situazioni che non possono essere sanate se non con un lungo periodo in cui il diritto viene sostanzialmente meno e la tutela della difesa viene assolutamente a mancare. Per questo motivo, signor Presidente, ho presentato questo emendamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Tarquinio.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MUSSINI (Misto)</note>
+            <u ana="#regular" who="#MussiniMaria" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u12">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg33">Signor Presidente, riprendo in parte il discorso di chi mi ha preceduta. L'emendamento 1.500/10, a mia prima firma, si colloca infatti esattamente sulla stessa scia, in quanto, sebbene proponga una soluzione leggermente diversa, è identico nel contenuto. Onestamente, devo esprimere lo stesso stupore che ha espresso poc'anzi il senatore Di Maggio, alla luce di una discussione generale nella quale è stato messo in rilievo come un aspetto qualificante di queste modifiche che sono state apportate alla Camera - che sono state ribadite qui in Senato addirittura nel senso di incrementarle - il fatto che si sia voluto iscrivere all'interno del complesso di queste misure, che andiamo a rivedere con il codice antimafia e che mirano soprattutto a scoraggiare, a limitare, a perseguire e infine a prevedere tutta una serie di delitti legati alla mafia, anche tutto quanto poi ricade sulla pubblica amministrazione e sullo Stato in termini di reati contro l'amministrazione. Nel corso della discussione generale, ho sentito molti colleghi, tra cui anche la senatrice Ricchiuti, che si sono compiaciuti del fatto che all'interno di questo disegno di legge venissero ricomprese anche queste misure, proprio per bloccare, perseguire e mettere nel mirino una serie di comportamenti e di reati che sono estremamente dannosi per la salute del nostro Stato. Ebbene, dopo una discussione generale in cui ci si è vantati della presenza di questo elemento all'interno del testo, ecco che qui viene fatto quello che il senatore Di Maggio ha definito "il gioco delle tre carte", perché con una trasposizione e con un ribaltamento di drafting legislativo, tutti questi articoli e tutti questi reati, che erano stati aggiunti e di cui ci si era gloriati in quanto ulteriore elemento di contrasto alla criminalità ed a reati odiosi allo Stato e ai cittadini, incredibilmente è come se si volessero far passare in un imbuto che termina con un filtro a maglie talmente strette per cui, ribaltando le circostanze, invece di allargare restringiamo. Elenchiamo una serie di articoli del codice per poi dire che tutti questi articoli del codice sono validi solo se passano attraverso un forellino piccolissimo. Credo che sia necessaria un'operazione d trasparenza e di verità: dobbiamo stabilire se introduciamo o no un riferimento a questi articoli, perché se li introduciamo formalmente a livello di drafting per poi impedirne la reale applicazione perché li facciamo passare attraverso un filtro a maglie strette, allora forse sarebbe più onesto intellettualmente ed anche più trasparente e più pulito nei confronti di chi ci ascolta e di chi ci guarda redigere le leggi, eliminarli completamente.</seg>
+            </u>
+            <note type="speaker">MOLINARI (Misto-Idv)</note>
+            <u ana="#regular" who="#MolinariFrancesco" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg34">Signor Presidente, chiedo di sottoscrivere, anche a nome dei colleghi Romani e Bencini, l'emendamento 1.500/10 della collega Mussini. Vorrei evidenziare che, anche a nostro parere, la riscrittura proposta del capoverso i- bis) al nostro esame, in realtà, diminuisce l'impatto che si voleva dare alla norma che abbiamo tanto raccontato in giro, cioè l'allargamento delle misure di prevenzione personali e patrimoniali anche ai reati di corruzione. Il rischio, con questa riscrittura, è che si faccia un passo indietro e si elimini tale effetto, considerando la sottrazione di democrazia, e il conseguente allarme sociale, che anche questi reati provocano.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u14">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg35">Signor Presidente, abbiamo ascoltato il dibattito relativo all'emendamento 1.500 che rileggo: «i- bis) ai soggetti indiziati del delitto di cui agli articoli 640- bis o del delitto di cui all'articolo 416- bis del codice penale, finalizzato alla commissione di taluno dei delitti di cui all'articolo 314, primo comma, 316, 316- bis, 316- ter, 317, 318, 319, 319- ter, 319- quater, 320, 321, 322 e 322- bis del codice penale». Questo emendamento puntualizza la disciplina ma credo che vada esattamente inquadrato. Per farlo vorrei partire dalle considerazioni del procuratore nazionale antimafia, il quale ha testualmente affermato, proprio con riferimento al testo del codice antimafia e alle proposte di emendamento: «Non sembra in linea con la natura del procedimento di prevenzione, l'estensione della categoria dei destinatari agli indiziati dei delitti previsti dagli articoli 314 e seguenti in materia di pubblica amministrazione che, secondo l'attuale interpretazione giurisprudenziale, se caratterizzati dal requisito dell'abitualità, sono già compresi nella più ampia categoria di soggetti previsti dall'articolo 1, lettere a) e b), del codice antimafia, articolo richiamato alla lettera c) dell'articolo 4.». Il procuratore nazionale antimafia Roberti aggiunge: «merita di essere segnalato il recente notevole incremento del ricorso alle misure di prevenzione personali e patrimoniali nei confronti dei soggetti di cui all'articolo 1 del decreto legislativo 6 settembre 2011 n. 159. L'efficacia del sistema della prevenzione patrimoniale ha determinato una progressiva e crescente estensione della confisca a diverse tipologie di reati, se ed in quanto espressione di una abitualità a traffici illeciti ovvero produttivi di proventi tali da ritenere che i proposti vivano abitualmente con gli stessi». Ora, credo che se si vuole fare una lettura obiettiva si deve constatare che il quadro in cui si è mossa questa riforma del codice antimafia prevedeva già ampiamente la possibilità di applicare le misure di prevenzione per coloro che fossero stati indiziati di reati contro la pubblica amministrazione. Quindi, quando sento parlare nel dibattito di aggravamento o di esasperazione della situazione, non vedo prove di questa affermazione. Con l'emendamento 1.500 si vuole semplicemente puntualizzare una fattispecie peculiare che riguarda i casi previsti dell'articolo 4 e si è quindi delimitata una specifica ipotesi legata ai reati contro la pubblica amministrazione quando questi fossero compiuti nel contesto di una truffa ai danni dello Stato o di una associazione per delinquere. Questo anche sulla base del fatto che, come emerge anche dall'evidenza giurisprudenziale, i reati contro la pubblica amministrazione risultano essere sempre di più il frutto di un accordo criminale che porta alla loro commissione, la quale è quindi legata all'iniziativa non più del singolo, ma di un gruppo. Quindi in queste fattispecie più facilmente si annidano l'attività criminale associativa e anche l'elemento dell'associazione di stampo mafioso. La ragione che ha portato alla presentazione dell'emendamento è quindi questa, in un'ottica di completamento e sistematizzazione della previsione introdotta dalla Camera dei deputati. Non vi è alcuna limitazione; vi è invece attenzione a ricondurre la previsione a criteri di razionalità, logicità e proporzionalità, in armonia con i principi più volte ribaditi dalla Corte costituzionale. È in questa chiave che viene letto dai relatori il contenuto dei subemendamenti presentati, su cui il parere è negativo, in quanto essi vanno a travisare l'impianto dell'emendamento 1.500 oppure introducono elementi che sono già in parte presenti nel sistema (comportando così un inutile appesantimento), ovvero determinano fattispecie diverse da quella che abbiamo ritenuto di proporre.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg36">Signor Presidente, vorrei una delucidazione. Se non ho capito male, l'emendamento 1.500/1 è stato dichiarato inammissibile. Almeno così mi è parso di capire. PRESIDENTE. Sì, esatto. PALMA (FI-PdL XVII). Signor Presidente, non comprendo la ragione di questa dichiarazione di inammissibilità, in quanto il subemendamento non è soppressivo dell'emendamento 1.500, presentato dal relatore, ma prevede una modifica. Con questo emendamento torniamo sostanzialmente al testo base, con la specificazione finale delle ultime righe. Pertanto, non comprendo la ragione della inammissibilità. Così come il relatore ha inteso modificare la lettera i -bis), anche io, utilizzando l'emendamento del relatore, posso proporne una modifica. Davvero non comprendo la ragione della dichiarazione di inammissibilità.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u16">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg37">Senatore Palma, penso di essere stato chiaro. Siccome lei si riferisce al testo originario, il suo non è un subemendamento ma un emendamento e, quindi, come tale, inammissibile.</seg>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg38">Signor Presidente, chiedo una precisazione al relatore Pagliari. Nel suo intervento di poco egli fa ha dato lettura del testo dell'emendamento 1.500 e mi pare che ci fosse una piccola differenza rispetto al testo stampato che è stato distribuito.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u18">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg39">Senatore Malan, anche la Presidenza ha rilevato questa discrepanza, ma penso si sia trattato di un lapsus. Nel suo intervento il senatore Pagliari ha fatto riferimento all'articolo 416- bis del codice penale, ma, avendo tutti il testo dell'emendamento, sappiamo che il riferimento esatto è all'articolo 416. Ad ogni modo, invito il senatore Pagliari a fornire una precisazione, affinché resti agli atti.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u19">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg40">Signor Presidente, chiedo scusa, ma si è trattato di un lapsus. Il riferimento corretto è all'articolo 416 del codice penale, quindi all'associazione per delinquere semplice.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u20">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg41">Abbiamo tanti «- bis » nel nostro ordinamento. I restanti emendamenti si intendono illustrati. Mi pare che il relatore abbia già espresso, in termini generali, un parere contrario a tutti gli emendamenti presentati. Invito pertanto il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">MIGLIORE</note>
+            <note type="role">sottosegretario di Stato per la giustizia</note>
+            <u ana="#guest" who="#MiglioreGennaro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u21">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg42">Esprimo parere conforme al relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u22">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg43">Onorevoli colleghi, è pervenuta alla Presidenza una richiesta di votazione a scrutinio segreto riferita ad alcuni subemendamenti all'emendamento 1.500, al voto degli articoli 1, 2, 5, 29 e 34, nonché al voto finale del provvedimento.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg44">Le richieste di voto segreto relative agli articoli 2, 5, 29 e 34 non sono ammissibili in quanto non ricomprese tra le fattispecie previste dall'articolo 113, comma 4, del Regolamento. Inoltre, le richieste di votazione a scrutinio segreto su tali articoli sarebbero comunque risultate inammissibili a causa della loro tardività. Com'è noto, per prassi consolidata, le richieste di votazione a scrutinio segreto devono essere presentate in tempo utile affinché la Presidenza possa valutarle nel merito. Questo per ribadire il principio.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg45">La Presidenza ritiene invece ammissibili e tempestivamente presentate le richieste di voto segreto con riguardo agli emendamenti 1.500/2, 1.500/3, 1.500/4. 1.500/5, 1.500/6, 1.500/7, 1.500/8, 1.500/9, 1.500/11, 1.500/12 e 1.500/13, nonché all'articolo 1 nel suo complesso, in quanto tale disposizione estende l'ambito dei soggetti destinatari delle misure di prevenzione personali.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg46">Non è infine ammissibile, ai sensi dell'articolo 113, comma 7, del Regolamento, lo scrutinio segreto sul voto finale, in quanto le materie oggetto del disegno di legge risultano, per la maggior parte, al di fuori del novero di cui al precedente comma 4.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg47">L'emendamento 1.500/1 è inammissibile.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg48">Passiamo alla votazione dell'emendamento 1.500/2, sul quale da parte del prescritto numero di senatori è stata presentata richiesta di votazione a scrutinio segreto.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg49">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 113, comma 4, del Regolamento, indìco la votazione a scrutinio segreto dell'emendamento 1.500/2, presentato dal senatore Sacconi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.500/3, sul quale da parte del prescritto numero di senatori è stata presentata richiesta di votazione a scrutinio segreto. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 113, comma 4, del Regolamento, indìco la votazione a scrutinio segreto dell'emendamento 1.500/3, presentato dal senatore Falanga. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.500/4, sul quale da parte del prescritto numero di senatori è stata presentata richiesta di votazione a scrutinio segreto.</seg>
+               <incident type="action">
+                  <desc>Il senatore Giovanardi fa cenno di voler intervenire</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg50">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 113, comma 4, del Regolamento, indìco la votazione a scrutinio segreto dell'emendamento 1.500/4, presentato dal senatore Giovanardi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.500/5, sul quale da parte del prescritto numero di senatori è stata presentata richiesta di votazione a scrutinio segreto. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u23">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Giovanardi. Proteste dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg51">Senatore Giovanardi, quando lei lo richiede, noi, con la collaborazione di tutti...</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg52">GIOVANARDI (FL (Id-PL, PLI)). Che devo fare? Non lo so. PRESIDENTE. Annulliamo intanto la verifica dell'appoggio alla richiesta di voto segreto. Prego, senatore Palma. PALMA (FI-PdL XVII). Signor Presidente, poc'anzi il senatore Pagliari, nel suo intervento, ha evidenziato che il procuratore nazionale antimafia ha mostrato la sua contrarietà all'allargamento della platea delle misure di prevenzione, ricordando come tutti i soggetti dediti a reati contro la pubblica amministrazione siano già destinatari di dette misure. Il relatore ha altresì affermato che il suo emendamento nasceva dalla constatazione che una cosa è commettere singolarmente il reato di corruzione e una cosa è, invece, commetterlo all'interno di un plesso associativo. Si può condividere o no questa impostazione, ma essa non può essere asistematica, cioè non può essere calata all'interno di un complesso dottrinario e giurisprudenziale che, per l'appunto, riguarda le misure di prevenzione. L'emendamento 1.500/5 che proponiamo all'Assemblea non tocca in nulla l'emendamento del relatore; si limita semplicemente a dire che quelle misure di prevenzione possono essere attivate nei confronti di chi è associato a un'associazione finalizzata al compimento di reati contro la pubblica amministrazione, a condizione che permangano i presupposti generali di cui all'articolo 1 del codice antimafia. Tradotto in chiaro, questo vuol dire che, mentre sostanzialmente per l'associazione mafiosa, in assenza di taluni comportamenti (dissociazione o quant'altro), vi è una presunzione della pericolosità e dell'attualità, come dice la Corte di cassazione, ripetutamente e con un orientamento costante, per reati diversi da quelli squisitamente mafiosi è necessario che il giudice motivi sulla persistenza dei requisiti di cui all'articolo 1. Tutto qua, nient'altro che questo. In altri termini, si vuole rendere normativamente cogente per il giudice ciò che al momento è affermato solo dalla giurisprudenza, cioè sostanzialmente che per i reati diversi dall'associazione mafiosa e dai reati tipicamente mafiosi il giudice non deve muoversi per presunzione, ma deve motivare sulla sussistenza degli elementi probatori della pericolosità e dell'attualità. Pertanto, visto che non tocchiamo l'emendamento dei relatori e che ci richiamiamo semplicemente alla giurisprudenza della Corte di cassazione, non capisco davvero la necessità di un parere contrario, a meno che la riserva mentale non sia quella di allargare alle misure di prevenzione per gli associati a delinquere normali le modalità indicate dalla giurisprudenza della Suprema corte per le procedure delle misure di prevenzione antimafia. Tutto qua. Davvero non riesco a comprendere la ragione del parere contrario. Pertanto invito i senatori, sia quelli che mi hanno ascoltato sia quelli che non mi hanno ascoltato, a votare favorevolmente sull'emendamento.</seg>
+            </u>
+            <note type="speaker">FALANGA (ALA-SCCLP)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u24">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg53">Signor Presidente, chiedo ai senatori Caliendo e Palma di autorizzarmi ad apporre la firma a questo emendamento. PRESIDENTE. Senatore Palma, da parte del senatore Falanga c'è una richiesta di autorizzazione ad apporre la firma all'emendamento 1.500/5. PALMA (FI-PdL XVII). Signor Presidente, ogni volta che il senatore Falanga esprime un desiderio di tal fatta, per me è un piacere accoglierlo.</seg>
+            </u>
+            <note type="speaker">D'ASCOLA (AP-CpE-NCD)</note>
+            <u ana="#regular" who="#DAscolaNico" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u25">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg54">Signor Presidente, vorrei fare un intervento che funzioni da chiarimento, ammesso che io ne sia capace. Intanto tutte le volte che si inserisce, quanto all'applicazione delle misure di prevenzione, non soltanto il riferimento all'articolo 416- bis, ma anche il riferimento all'aggravante di cui all'articolo 7 del decreto-legge n. 152 del 1991 sostanzialmente non si introduce alcuna innovazione, perché l'articolo 416- bis sta all'interno dell'articolo 4, cioè è una disposizione la quale rende già immediatamente applicabili le misure di prevenzione. Analogamente si deve dire per l'articolo 7, ossia l'aggravante della finalità di agevolare le organizzazioni mafiose, ovvero dell'avere agito con metodo mafioso, in quanto è contenuto nell'articolo 51, comma 3- bis del codice di procedura penale richiamato dall'articolo 4. Quindi tutte le disposizioni che introducono il riferimento o all'associazione di stampo mafioso ovvero all'aggravante in realtà non fanno altro che replicare quanto già oggi esiste, quindi non sono dotate di capacità modificativa del testo in quanto già oggi, in presenza di questi presupposti, le misure di prevenzione sono applicabili.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u26">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg55">Invito il senatore Segretario a verificare se la richiesta di votazione a scrutinio segreto risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 113, comma 4, del Regolamento, indìco la votazione a scrutinio segreto dell'emendamento 1.500/5, presentato dal senatore Caliendo e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.500/6, sul quale da parte del prescritto numero di senatori è stata presentata richiesta di votazione a scrutinio segreto.</seg>
+            </u>
+            <note type="speaker">SACCONI (AP-CpE-NCD)</note>
+            <u ana="#regular" who="#SacconiMaurizio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u27">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg56">Signor Presidente, prego le colleghe e i colleghi di riflettere in coscienza su questo emendamento e su quelli che seguiranno immediatamente, perché hanno l'obiettivo essenziale di circoscrivere misure significative come quelle rivolte a limitare la libertà della persona e il suo diritto di proprietà in relazione a una mera fase indiziaria. Qui si propone di sostituire il termine «indiziati» con il termine «imputati» affinché vi sia almeno una condizione più avanzata nello stato di accertamento della verità dei fatti, che trasforma un indiziato in imputato.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u28">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg57">Signor Presidente, ringrazio il senatore Sacconi perché il suo emendamento probabilmente dà la possibilità di chiarire di che cosa stiamo parlando a chi, per ovvie ragioni del tutto proprie, non ha dimestichezza con il diritto. Il senatore Sacconi dice che si devono attivare le misure di prevenzione nei confronti degli imputati e non nei confronti degli indiziati, così come invece accade secondo questa disposizione. Ma la realtà di fondo, signori, è che la categoria degli indiziati è una categoria diversa rispetto a quella degli indagati e a quella degli imputati. E allora chiariamo chi sono. L'indagato è un soggetto nei cui confronti ci sono degli elementi per iscriverlo al registro notizie di reato e promuovere nei suoi confronti un'indagine. L'imputato è una persona nei cui confronti viene esercitata l'azione penale, che quindi sostanzialmente avrà un suo sfogo dibattimentale. L'indiziato non è un indagato e non è un soggetto nei cui confronti si sia aperto un procedimento penale, ma è un'altra cosa. Il che evidentemente credo - e ringrazio il senatore Sacconi per questo emendamento - disvela una grande verità: queste misure di prevenzione si muovono nei confronti di un sospettato. Quanto poi questa azione possa essere sintonica con uno Stato di diritto, come almeno a parole continuiamo ad affermare di essere, questo non è chiaro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Alicata.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CASSON (Art.1-MDP)</note>
+            <u ana="#regular" who="#CassonFelice" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u29">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg58">Signor Presidente, credo che vada ricordato come l'impostazione del sistema delle misure di prevenzione abbia ormai superato il vaglio della Corte di cassazione, della Corte costituzionale e di tutte le corti europee, perché viene impostato proprio sulla necessità di una tutela avanzata e di una tutela preventiva nei confronti di reati particolarmente gravi. Relativamente a questi reati particolarmente gravi di mafia, di grande criminalità organizzata, di terrorismo e alcune tipologie che sono indicate, è già stata ammessa la possibilità di questa sorta di cosiddetto doppio binario, a tutela della società, a tutela della sicurezza dei cittadini e della nostra collettività. Quindi questa proposta di rispostare in avanti la tipologia dei reati per i quali siano ammesse le misure di prevenzione è assolutamente da non accettare, proprio per quello che è lo stato della nostra legislazione antimafia e antiterrorismo e per quella che è la giurisprudenza ordinaria e costituzionale.</seg>
+            </u>
+            <note type="speaker">FUCKSIA (FL (Id-PL, PLI))</note>
+            <u ana="#regular" who="#FucksiaSerenella" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u30">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg59">Signor Presidente, intervengo per sottoscrivere l'emendamento 1.500/6 del senatore Sacconi, per sottolinearlo con forza e per invitare anche gli altri a sottoscriverlo, sia per il discorso che è stato fatto sullo Stato di diritto, sia perché mi viene anche un po' da sorridere, perché poi quando le incertezze prendono il sopravvento si vedono le cose diversamente. La giustizia è una ruota che gira, signori miei; quindi certi impulsi giustizialisti, che poi spesso si ritorcono contro nel tempo e provocano una revisione delle cose, aggravano anche la confusione e la sfiducia dei cittadini. Quindi sottoscrivo convintamente questo emendamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">TARQUINIO (GAL (DI, GS, MPL, RI))</note>
+            <u ana="#regular" who="#TarquinioLucio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u31">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg60">Signor Presidente, credo che l'Assemblea stia affrontando questi problemi con una leggerezza fuori dal comune. Infatti si continua tranquillamente a parlare, perché in Italia pensiamo a ben altro e non ai veri problemi che attanagliano questo Paese, e uno di questi problemi è la giustizia. E li affrontiamo nella maniera più sbagliata, perseverando in un giustizialismo incontrollato. È sacrosanto l'emendamento del senatore Sacconi, ma è sempre al ribasso. Sembra che siamo in un Paese perfetto, in cui la giustizia non ha problemi e il male è tutto al fuori di essa. Così non è; lo sapete tutti e lo sappiamo tutti. Continuiamo a consegnare i cittadini nelle mani chi si alza storto la mattina e decide che sono indiziati.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII e della senatrice Fucksia</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg61">Vi sembra normale questo? E per questo gli viene confiscato tutto? A quanta gente è accaduto? A quanti amministratori? Io certamente d'ora in poi non consiglierò a nessun mio amico di fare il consigliere comunale o altro, perché lo mando incontro forse alla fine della sua vita.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg62">Con tanta leggerezza votiamo e siamo contenti di assecondare i desideri di chi vuole sovvertire le regole di questo Paese. C'è un ordine che è superiore a un Parlamento, questo è il dato reale, e chi in quell'ordine è garantista viene messo sotto i piedi. Qua non si tratta di garantismo, ma di diritti dei cittadini, che stiamo calpestando. Come ha detto il collega Nitto Palma, per il semplice fatto di essere sospettato mi viene confiscata casa o qualsiasi altra cosa. Ci state riflettendo? Ci pensate? Ma dove stiamo andando? La gente ha perso il buonsenso. Non si tratta di parti politiche; noi qui dovremmo difendere i cittadini ma ogni atto è fatto per colpire semmai gli innocenti, perché al delinquente incallito sapeste quanto gliene importa poco di quanto stiamo facendo. Come diceva qualcuno, meglio mille ladri fuori che un solo innocente dentro. Questa massima non vi appartiene. Siamo fuori: lavoriamo per i cittadini o per le fisime? Lavoriamo per assecondare chi vuole sempre ottenere qualcosa? Dobbiamo tutelare chi fa reati dalla mattina alla sera e, magari, viene da altri Paesi? Dobbiamo essere caritatevoli verso questi e dare mazzate ai cittadini italiani? Stiamo eliminando con grande leggerezza ogni diritto; non ve ne accorgete? Perché ognuno di voi non riflette? Il momento è grave e serio. Una discussione di questo tipo in altri tempi avrebbe richiesto giornate e, invece, ora votiamo e andiamo avanti. Anche dagli interventi ci accorgiamo chi sta da una parte non istituzionale ma di un ordine che vuole sempre di più.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg63">Non credo che la politica e i rappresentanti dei cittadini debbano delegare ad altri il futuro e la serena vita di cittadini che fanno il loro dovere. Riflettete bene. Un giorno vi verranno dei rimorsi di coscienza perché vedremo quanta gente si ammazzerà per provvedimenti assurdi come questo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII e GAL (DI, GS, MPL, RI) e della senatrice Fucksia.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u32">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg64">Signor Presidente, sulla questione vorrei ricordare al senatore Casson che già nella passata legislatura abbiamo usato il termine «indiziati» volutamente solo per la mafia. Correttamente la Corte di cassazione ci ha successivamente seguito dicendo che per la mafia non era necessario un elemento di accertamento. Per il terrorismo avevamo usato un'espressione - che poi ci è stata confermata in Commissione - del tipo: coloro che, operanti in gruppo o isolatamente, pongono in essere atti preparatori obiettivamente rilevanti. Non abbiamo usato il termine «indiziati» vi rendete conto che, usando il termine «indiziati» per i reati contro la pubblica amministrazione, si potrà verificare l'ipotesi di un rapporto di polizia in cui si dice che tizio è indiziato di uno dei reati verso la pubblica amministrazione ed è indiziato anche per il 416? Pertanto, se il pubblico ministero non ritiene che gli indizi siano talmente gravi da iscriverlo nel registro degli indagati, ci troveremo di fronte a un tizio indiziato nei cui confronti potrà essere posto in essere un provvedimento di prevenzione, ma che non potrà essere iscritto nel registro degli indagati. Volete farmi credere che questo risponde a principi di civiltà giuridica? Leggete quanto hanno scritto sulla questione i professori universitari e gli interpreti del diritto in questo fine settimana. Signor Presidente, proprio per la sua storia, avevo presentato un emendamento - ce ne sarà un altro subito dopo - per riscrivere questo testo. Un conto è dire che quelli sono i reati spia della mafia, per cui dobbiamo combatterla e dobbiamo far sì che quei reati siano colpiti quando vengono posti in essere per agevolare le associazioni mafiose. Ma, quando si tratta di un cittadino comune e di un reato comune, che cosa risolviamo? Con parole come «indiziati» abbiamo un embrione di uno stato di polizia contrario a quelle che sono le regole della nostra democrazia, contrario a quelle che sono le regole del processo penale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII, FL (Id-PL, PLI) e GAL (DI, GS, MPL, RI)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg65">Non posso accettare - e non so come lei possa ammetterle - alcune soluzioni rispetto alle regole base del diritto.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg66">Lei mi ha aiutato - non faceva parte di questa Assemblea nella passata legislatura - quando per cinque mesi scrissi questo codice insieme ad altri. E questo codice doveva servire a combattere la mafia. Non facciamo quello che diceva Giovanni Falcone: se tutto è mafia, poi niente diventa mafia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII,FL (Id-PL, PLI) e GAL (DI, GS, MPL, RI)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg67">Dobbiamo realizzare una soluzione corretta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg68">Allora, sarà forse esagerata la dizione «imputati», ma, se lasciamo «indiziati», anche con l'accorgimento dell'articolo 416, significa né più né meno che ritrovarsi con quel pericolo a cui ho fatto riferimento prima.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII, LN-Aut, FL (Id-PL, PLI) e GAL (DI, GS, MPL, RI).</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u33">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg69">Senatore Caliendo, è inutile che lei richiami la mia precedente funzione perché adesso è un'altra. Non posso esprimermi nel merito, ma il presidente D'Ascola ha già detto cos'è nel nostro ordinamento e non c'è nemmeno bisogno di chiarire o ulteriormente approfondire.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg70">PALMA (FI-PdL XVII). Ha espresso le sue idee.</seg>
+            </u>
+            <note type="speaker">D'ASCOLA (AP-CpE-NCD)</note>
+            <u ana="#regular" who="#DAscolaNico" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u34">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg71">Signor Presidente, intervengo ancora una volta per introdurre elementi a chiarimento. L'espressione «indiziato» compare già nel testo della legge n. 575 del 1965, come modificata dalla legge n. 646 del 1982. È pertanto un'espressione storica che ha una sua giustificazione precisa, perché nel processo di prevenzione non esiste uno standard probatorio e, quindi, il legislatore si esprime con un termine intermedio che, per l'appunto, è il termine indiziato, che è sempre esistito. Quanto poi alla distinzione tra indagato e imputato, è una distinzione fondamentale - non credo di dover intervenire - perché riguarda soltanto la fase processuale: si diventa imputati quando c'è un rinvio a giudizio pronunciato dal giudice. Mi permetto, però, di intervenire ulteriormente. Il sistema delle misure di prevenzione si regge sostanzialmente su un doppio canale di accesso. Sul versante dell'articolo 1, si può essere sottoposti a misure di prevenzione se si è dediti a delitti, ovvero se si viva, anche soltanto in parte, dei proventi di attività illecite. Trascuro ovviamente il successivo articolo 3, perché poco rilevante su questo versante. In sostanza, le misure di prevenzione, per quanto riguarda l'articolo 1, implicano attività reiterate. C'è poi l'articolo 4, che riguarda un sistema per cataloghi di reati. L'articolo 4, cioè, che è collegato all'articolo 1, anche in virtù dell'articolo 16, al contrario, prevede singoli reati. Storico è l'articolo 416 -bis, ma ovviamente sul punto nessuno può esprimere alcuna osservazione. Devo poi notare che nel 2008 e nel 2009, con i pacchetti sicurezza, si è dilatata la categoria numerica dei reati che singolarmente possono comportare l'applicazione delle misure di prevenzione, introducendo il tifo violento e la ricostituzione del partito fascista. Quindi, il fatto che il cosiddetto codice antimafia non sia poi del tutto un codice antimafia nasce già nel 2008-2009 ed è poi reiterato con la versione definitiva del 2011. Vi è tutta una serie di osservazioni e di riserve di natura sistematica per quanto riguarda la dilatazione per categorie di singoli reati del cosiddetto sistema antimafia, del codice antimafia. Potrei dire che dipende dal fatto che non si distinguono le misure di prevenzione dalle misure di sicurezza, perché è difficile il giudizio di pericolosità sociale e quant'altro. Il punto giuridico, ma anche politico, di questa mia affermazione è che l'emendamento presentato dai relatori si giustifica proprio su questo versante. Proprio per non aver voluto accedere a un codice antimafia per titoli di reato, per come era nella soluzione consegnataci dalla Camera, i relatori hanno presentato un emendamento il quale, al contrario, lega la misura di prevenzione a un contesto organizzato di tipo criminale, ancorché non di tipo mafioso. Ma quello non lo si poteva fare e io l'ho già detto poco prima perché, se lo si fosse fatto, si sarebbe introdotta una norma esistente, e ovviamente non lo si poteva fare. Immagino che nelle scelte fatte dai relatori si sia dovuto individuare quel contesto associativo non di stampo mafioso, e che quindi introduce una disposizione innovativa, che lega i delitti contro la pubblica amministrazione a un contesto associativo. È chiaro che poi il Senato si regolerà nelle sua massima libertà morale nello scegliere l'una versione o l'altra. Il contesto associativo, intanto, introduce una componente temporale tipica di un sistema che impone la reiterazione delle condotte. L'articolo 416 del codice penale prevede un reato per l'appunto permanente, dove la componente cronologica temporale la fa da padrona. Quindi, in un certo senso, è un sistema assonante sia con l'articolo 4 nella parte in cui richiama l'articolo 416- bis, sia con l'articolo 1, nella parte in cui impone condotte reiterate. E non dico altro al riguardo. Gli onorevoli senatori possono vedere come il codice antimafia non possa sfuggire alla sua taratura preventiva. Se noi, infatti, sbilanciamo il codice antimafia sul versante repressivo, otterremo probabilmente un prodotto viziato sul versante costituzionale. Recentemente la Corte europea ci ha richiamato su determinati aspetti, che riguardano non questo settore, ma l'articolo 1. In sostanza, intervenire su un reato associativo, il quale implica un programma indeterminato di delinquenza, significa agire proprio nella direzione della prevenzione, ossia della interdizione di una struttura associativa funzionale alla commissione di un numero indeterminato di delitti che, se interdetta, non commetterà più quei delitti. Questo per dire che l'emendamento presentato dai relatori è conforme allo spirito del codice antimafia. Non lo sarebbe stato se fosse stato un sistema per singoli titoli di reato, per come i relatori hanno ritenuto di dover impedire che fosse, perché in quel caso si pongono problemi di sovrapposizione tra misure di prevenzione e misure di sicurezza, che è un grosso problema giuridico, e soprattutto quella difficoltà di selezionare il concetto di pericolosità sociale che, sulla base della commissione di un unico reato, ovviamente sarebbe stato difficile individuare. Ciò, però, non è per le fattispecie associative, le quali sono la concretizzazione proprio dell'idea del pericolo. Per queste ragioni mi permetto di esprimere una parola a sostegno dell'emendamento presentato dai relatori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e Misto.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GIOVANARDI (FL (Id-PL, PLI))</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u35">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg72">Signor Presidente, cerco di tradurre in maniera comprensibile ciò che ha appena detto il Presidente della Commissione giustizia. Confermo, quindi, una progressiva dilatazione di una strumentazione eccezionale, nata per combattere la mafia e poi estesa ad alcuni settori minori dal punto di vista della incidenza pubblica - come, ad esempio la ricostituzione del partito fascista, che sicuramente non è un reato oggi di grande attualità - la quale - come giustamente ha detto il senatore Casson, che se ne intende - si pone però all'interno di una logica di difesa avanzata. Per cui, come nell'Unione Sovietica per i reati contro il socialismo si poteva finire in galera, perché sospettati di voler colpire le istituzioni; o come, durante il fascismo, c'erano le leggi speciali, qui si introduce il concetto che un cittadino amministratore può essere espropriato di tutti suoi beni - e richiamo la sostanza - non perché imputato, non perché indagato, ma perché sospettato di aver commesso un reato. Questa è la sostanza. E questo comporta l'estensione della norma a decine di migliaia di amministratori. Non so se qualcuno ha letto la lettera mandata dalla nostra ex collega Ilaria Capua, ex deputata e ricercatrice, travolta da accuse infamanti riguardanti la pubblica amministrazione, accusata di aver lucrato o di voler lucrare non so quanti miliardi sulla pelle della salute degli italiani e fatta oggetto di una campagna scandalistica de «L'Espresso»? Dimessosi da deputato, adesso dagli Stati Uniti ha scritto di stare alla larga dall'Italia, alla larga da un Paese in cui oltre al calvario subito, avrebbe visto i propri beni espropriati, perché le accuse nei suoi confronti erano talmente gravi da portare - nella logica di Casson - a prendere la decisione di adottare misure preventive che l'avrebbero colpita nel patrimonio, a prescindere dal fatto che qualcuno avesse mai dimostrato la sua colpevolezza. È questo che mi sconvolge. Come si fa a non capire che le misure eccezionali che riguardano la mafia, la 'ndrangheta e la camorra non possono essere applicate sulla base di un sospetto? Come ripetutamente leggiamo nelle informative di polizia: non si può escludere che tizio abbia commesso questo. Siamo arrivati al «non si può escludere» e non al fatto che abbia fatto qualcosa, ma che non lo abbia fatto. Pertanto, si fa riferimento all'indizio e si parla non dell'indagato ma del sospettato. E sulla base di questo scatta la misura patrimoniale e c'è la confisca, anche se successivamente viene assolto. Ditelo, perché con la norma in discussione questa è la realtà. Mi sembra che ne ce ne sia abbastanza per una riflessione su un chiarimento. E, se si decide di scrivere la parola «imputato», si rientra nel novero dei Paesi civili dell'Occidente; ci si allontana dal comunismo, dal fascismo, dalle leggi speciali e si rientra nell'ambito di un concetto di giustizia per il quale anche la pena più severa (patrimoniale o meno, detentiva o meno) viene applicata a una persona riconosciuta colpevole di aver commesso un reato e non soltanto sospettato, in una posizione difficile come quella dei pubblici amministratori. Andate a vedere le vicende che hanno coinvolto amministratori di tutti i partiti, da Sesto San Giovani a Roma, al Sud, e gli anni di calvario giudiziario per l'assoluzione e, vi accorgerete che, se fin dall'inizio cominciamo con l'esproprio e la confisca dei beni, nel 60 per cento dei casi facciamo qualcosa che già in maniera pregiudiziale ha distrutto una persona, a prescindere dal fatto se poi verrà riconosciuta colpevole o innocente. Volete che il Parlamento italiano voti una disposizione del genere? Correggiamo almeno la norma. Scriviamo almeno la parola: «imputato», così sapremo che c'è un vaglio per il quale non basta l'indizio, ma sulla persona che dovrebbe essere colpita da queste misure comunque c'è un fumus che abbia commesso qualcosa che non andava. Certo, se i casi come quello della nostra collega Capua non insegnano niente, c'è veramente da essere disperati sul futuro del nostro Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Rizzotti e Sacconi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FALANGA (ALA-SCCLP)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u36">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg73">Signor Presidente, pochi minuti fa ho suggerito al sottosegretario Migliore e al relatore Lumia di andare a controllare il repertorio della giustizia penale per vedere in quante sentenze il reato ex articolo 640- bis del codice penale viene contestato a una sola persona e non già in forma associativa. Non hanno voluto farlo e hanno bocciato il mio emendamento. E, quindi, mi sono permesso di far stampare solo due sentenze - ma ce ne sono migliaia nel repertorio della Cassazione italiana - dove c'è la condanna ai sensi dell'articolo 640- bis di un solo soggetto. Non avete neanche l'umiltà di andare a controllare, non fosse altro per la funzione istituzionale che ricoprite. Avete l'obbligo di studiare perché, se non lo fate e restate ignoranti, danneggiate il nostro Paese e gli italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u37">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg74">Senatore Falanga, lei però è partito dalla premessa che qualcuno le avrebbe detto quello che lei sta contestando, ma glielo avrà riferito privatamente, perché in Aula nessuno glielo ha detto</seg>
+               <vocal type="speaking">
+                  <desc>Il senatore Falanga consegna dei fogli al rappresentante del Governo. Commenti del senatore Giovanardi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg75">Senatore Falanga, mi pare che lei adesso stia esagerando. Sappiamo tutti ciò che lei afferma, ma non è questo il problema.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg76">Invito il senatore Segretario a verificare se la richiesta di votazione a scrutinio segreto risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 113, comma 4, del Regolamento, indìco la votazione a scrutinio segreto dell'emendamento 1.500/6, presentato dai senatori Sacconi e Fucksia. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.500/7, sul quale da parte del prescritto numero di senatori è stata presentata richiesta di votazione a scrutinio segreto.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u38">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg77">Signor Presidente, senza che questo in alcun modo voglia rischiare di rasentare il voto di scambio, vorrei proporre un accordo ai colleghi dell'Assemblea: voi mi prestate attenzione per questo intervento e dopo io non interverrò più sul tema. Ho ascoltato delle cose singolari, come il fatto che i relatori hanno preparato questo emendamento per ancorare le misure di prevenzione a un reato associativo di carattere permanente che, in quanto tale, manifesta la sua pericolosità. Non comprendo - devo dire la verità - la prima questione: se il problema è il reato associativo, perché le misure di prevenzione antimafia si applicano ai reati contro la pubblica amministrazione e non vengono applicati per colpire le associazioni a delinquere per rapine, estorsioni e tanti altri reati gravissimi forieri di profitti criminali? Ho quindi l'impressione che l'aspetto associativo sia - per così dire - uno zuccherino che viene propinato all'Assemblea per far varare il provvedimento in esame. Un secondo aspetto è - come diceva il senatore Caliendo, citando un collega - che, se tutto è mafia, nulla è mafia. Il problema - secondo me - non è neanche questo. Il problema è che, se noi utilizziamo gli strumenti non ordinari per il contrasto alla criminalità mafiosa per tante altre forme di criminalità, andiamo a indebolire il contrasto alla criminalità mafiosa stessa. Ciascuno di noi sa quanto tempo occorre per svolgere in maniera corretta gli accertamenti patrimoniali e bancari, che sono il presupposto per la misura patrimoniale antimafia. E tutti quanti noi sappiamo come purtroppo spesso le Forze dell'ordine impegnate nel settore, con la loro specificità, patiscono dei ritardi nelle risposte proprio in ragione della massa di lavoro rispetto alla quantità di energie investigative. Non vi rendete conto che dare la possibilità di attivare una misura di prevenzione antimafia nei confronti di criminali - senz'altro - che però con la criminalità mafiosa nulla c'entrano, significa consentire a qualsiasi ufficio giudiziario d'Italia di impegnare le Forze dell'ordine - penso in particolare alla Guardia di finanza - in attività che forse potrebbero essere con maggior profitto spese nel contrasto alla criminalità organizzata. Ho sentito discussioni su indiziato e indagato e sulle leggi del 1965 e del 1982. Nel nostro codice, però, noi abbiamo - come dicevo prima - l'indagato e l'imputato; l'indiziato è una categoria a parte. Sicché si potrebbe verificare la seguente situazione: un soggetto iscritto a registro notizia di reato, e quindi indagato per il reato di corruzione, indiziato in ragione di una denuncia della polizia giudiziaria per associazione a delinquere, può essere sottoposto a misura di prevenzione anche se non ha mai subito un procedimento per il reato di associazione a delinquere, essendo pacifico che è indiziato per lo stesso. Con tutto questo voglio dire che probabilmente allargare le misure di prevenzione antimafia a dismisura, al di fuori dell'obiettivo che deve essere focalizzato, significa in qualche modo indebolire la lotta alla mafia. Ed è per questo che abbiamo proposto l'emendamento in esame. Va bene prevedere di prendere misure di prevenzione antimafia nei confronti degli indiziati che hanno commesso reati contro la pubblica amministrazione, in quanto spesso sono reati spia, e cioè sostanzialmente segnalano la vicinanza tra l'amministratore pubblico e la criminalità organizzata mafiosa. Apro e chiudo una parentesi: senatore Zanda, se c'è un reato spia, è esattamente quello che voi - a mio avviso, forse giustamente - a tutela dei sindaci non avete inserito, ed è l'abuso in atti d'ufficio patrimoniale. Il vero reato spia è esattamente quello che stranamente non vedo tra quelli previsti. Allora gli indiziati devono essere perseguiti? Benissimo, ma quantomeno si faccia in modo che vengano perseguiti quando i reati di cui sono indiziati sono in qualche modo correlati alla criminalità mafiosa, e cioè se vengono posti in essere secondo le modalità di cui all'articolo 416- bis, ovvero se sono finalizzati alla vita di quella associazione. Nient'altro che questo. Io credo che, nel votare a favore di questo emendamento, noi faremmo un grande favore al contrasto alla criminalità organizzata in quanto, puntando - sì - sui reati contro la pubblica amministrazione, ma qualificati dalla loro correlazione con la criminalità organizzata, spenderemmo bene le energie investigative a disposizione. Infine, senatore Zanda, lei ha precedentemente detto che questo è un provvedimento strategico per il Partito Democratico. Immaginavo che fosse così. Noto che è un provvedimento strategico per la maggioranza, dal momento che non ho visto alzarsi i senatori del Partito Democratico a sua difesa.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u39">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg78">Invito il senatore Segretario a verificare se la richiesta di votazione a scrutinio segreto risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 113, comma 4, del Regolamento, indìco la votazione a scrutinio segreto dell'emendamento 1.500/7, presentato dai senatori Caliendo e Palma. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.500/8, sul quale da parte del prescritto numero di senatori è stata presentata richiesta di votazione a scrutinio segreto. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 113, comma 4, del Regolamento, indìco la votazione a scrutinio segreto dell'emendamento 1.500/8, presentato dal senatore Sacconi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.500/9, sul quale la richiesta di votazione a scrutinio segreto è stata ritirata.</seg>
+            </u>
+            <note type="speaker">DI MAGGIO (GAL (DI, GS, MPL, RI))</note>
+            <u ana="#regular" who="#DiMaggioSalvatoreTito" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u40">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg79">Signor Presidente, l'emendamento presentato dai relatori è il frutto di un tentativo di mediazione operato in Assemblea fra le istanze dell'opposizione e quelle della maggioranza. Prima ho avuto modo di dire che questo, in realtà, è il gioco delle tre carte e ho presentato l'emendamento 1.500/9 per far capire quanto ipocrita fosse la proposta emendativa dei relatori. Per tali motivi, ritiro l'emendamento 1.500/9 per evitare alla maggioranza di dover votare contro il suo emendamento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u41">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg80">L'emendamento 1.500/9 è quindi ritirato.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg81">Passiamo alla votazione dell'emendamento 1.500/10.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg82">SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.500/10, presentato dalla senatrice Mussini e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.500/11, sul quale da parte del prescritto numero di senatori è stata presentata richiesta di votazione a scrutinio segreto.</seg>
+            </u>
+            <note type="speaker">SACCONI (AP-CpE-NCD)</note>
+            <u ana="#regular" who="#SacconiMaurizio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u42">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg83">Signor Presidente, come prima ho detto, prego le colleghe e i colleghi di considerare i miei emendamenti volti a circoscrivere l'ambito di applicazione delle misure straordinarie. Con l'emendamento in oggetto si fa riferimento al metodo mafioso con cui si dovrebbe realizzare il processo criminoso che viene ipotizzato, così da ricondurre la disciplina all'ambito proprio del codice. Questo metodo mafioso farebbe la differenza rispetto a ipotesi di reati contro le cose che non hanno quella qualificazione straordinaria che può legittimare misure altrettanto straordinarie. Prego le colleghe e i colleghi di riflettere davvero su ciò che stiamo decidendo per il futuro della nostra società.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u43">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg84">Invito il senatore Segretario a verificare se la richiesta di votazione a scrutinio segreto risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 113, comma 4, del Regolamento, indìco la votazione a scrutinio segreto dell'emendamento 1.500/11, presentato dal senatore Sacconi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.500/12, sul quale da parte del prescritto numero di senatori è stata presentata richiesta di votazione a scrutinio segreto.</seg>
+            </u>
+            <note type="speaker">SACCONI (AP-CpE-NCD)</note>
+            <u ana="#regular" who="#SacconiMaurizio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u44">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg85">Signor Presidente, in questo caso l'emendamento ha una modesta, ma ancora significativa portata, ossia quella di richiedere che, per l'attivazione delle misure straordinarie previste, almeno uno dei delitti indicati sia effettivamente realizzato. In altre parole, si richiede che si tratti non soltanto di un contesto indiziario fondato su generiche intenzioni criminose, ma che almeno - e sottolineo almeno - uno dei delitti di cui trattasi sia effettivamente realizzato. Non mi sembra di chiedere cosa che faccia venir meno la rilevanza delle misure che si vogliono consentire.</seg>
+            </u>
+            <note type="speaker">GIOVANARDI (FL (Id-PL, PLI))</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u45">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg86">Signor Presidente, intervengo molto brevemente per chiedere di sottoscrivere il subemendamento 1.500/12 e ringraziare il collega Sacconi che proviene dalla grande tradizione socialista di questo Paese; altri, come me, vengono da una tradizione democratico-cristiana, altri ancora dalla tradizione liberale, ma sono tutte tradizioni che hanno difeso la libertà nel nostro Paese. Forse nella prossima legislatura, se questo disegno di legge sarà approvato, sarà possibile tornare a far trionfare le culture della libertà e della garanzia dei diritti del cittadino. Prendo atto, dai voti che sono stati espressi, che la tradizione antica e totalitaria, con l'aggiunta del Movimento 5 Stelle, sta prevalendo, cancellando cinquant'anni di civiltà giuridica, faticosamente conquistata in questo Paese con la Resistenza. E tutti gli emendamenti che cercano di collegare, con buon senso, i diritti dei cittadini a qualcosa che abbiano commesso di reale e penalmente rilevante, vengono cancellati sulla base dell'antica teoria che il diritto del singolo, anche se innocente, va sacrificato alla società. Ce l'hanno già raccontato il nazismo, il fascismo, il comunismo e oggi ce la raccontate di nuovo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u46">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg87">Invito il senatore Segretario a verificare se la richiesta di votazione a scrutinio segreto risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 113, comma 4, del Regolamento, indìco la votazione a scrutinio segreto del subemendamento 1.500/12, presentato dai senatori Sacconi e Giovanardi. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 1.500/13, sul quale da parte del prescritto numero di senatori è stata presentata richiesta di votazione a scrutinio segreto.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u47">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg88">Signor Presidente, forse sarà inutile anche la mia dichiarazione di voto, ma vorrei invitare tutti a prendere in considerazione non ciò che dico, ma ciò che hanno scritto nell'ultimo fine settimana accademici, magistrati e le camere penali, perché voi state ritoccando le minime garanzie di uno Stato democratico. Se si tratta di fare la lotta alla mafia e alle organizzazioni criminali, Forza Italia è non solo in prima linea, ma ha scritto il codice antimafia e ha portato alla stabilizzazione dell'articolo 41- bis, e il presidente Grasso lo ricorda benissimo. Con l'emendamento 1.500/13 voglio fare un ultimo tentativo per rendere funzionale e coerente con il sistema l'emendamento dei relatori. Non lo modifico, ma aggiungo le seguenti parole: «ove ricorra l'aggravante di cui all'articolo 7 del decreto-legge 13 maggio 1991, n.152», con riferimento all'aggravante della mafia. Tale aggravante ricorre quando qualcuno compie un reato per agevolare associazioni mafiose, camorriste o 'ndranghetiste. Domando: è necessario? Badate, non tocco l'indiziato. Lascio la parola «indiziato», che già è grave, ma vorrei che l'indiziato di quei reati fosse almeno collegato all'aggravante di mafia, perché, se così non è, aprite un varco enorme. Nessuno farà più politica. Nessuno avrà più il coraggio di candidarsi alle elezioni amministrative nel nostro Paese. Già così trovate difficoltà. Non devo nemmeno dirvi di stare attenti, perché questo è un altro argomento di campagna elettorale e perché voi state attentando ai diritti dei cittadini e alle garanzie previste dalla nostra Costituzione. Qui mantengo in piedi l'emendamento dei relatori. Non ne chiedo la modifica. Vi chiedo di aggiungere che quei reati devono essere commessi con l'aggravante mafiosa e cioè per favorire associazioni criminose, e non dopo l'accertamento, ma all'inizio. Ma nemmeno questo votate. A differenza vostra, noi faremo la battaglia contro la mafia e, anche se l'emendamento dei relatori non è corretto, è sbagliato, noi voteremo a suo favore, perché avremo la necessità di garantire comunque un intervento. Allora, se avete una coscienza, nel voto segreto ragionate sulla possibilità di aggiungere questa aggravante. Se così non sarà, ci troveremo di fronte a quello che ha detto il procuratore nazionale antimafia Roberti: non dobbiamo allargare le ipotesi di prevenzione in maniera esponenziale, perché altrimenti non si riuscirà ad applicarle. Ciò significherà abbassare la lotta alla mafia, quando avrete realizzato un'operazione di questo tipo. L'aggravante serve soltanto a dare un ulteriore, forte potere alla Direzione nazionale antimafia e alle attività di polizia e di contrasto alle organizzazioni criminali. Voi volete avere, invece, la bandierina, che vi si ritorcerà contro, perché è contro le persone perbene.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Fucksia</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg89">È contro coloro che non sono mafiosi, né appartenenti alle organizzazioni criminali, ma che, anzi, le combattono dalla mattina alla sera.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII e dei senatori Fucksia e D'Ambrosio Lettieri.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u48">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg90">Invito il senatore Segretario a verificare se la richiesta di votazione a scrutinio segreto risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 113, comma 4, del Regolamento, indìco la votazione a scrutinio segreto dell'emendamento 1.500/13, presentato dai senatori Caliendo e Palma. (Segue la votazione). Il Senato non approva. (v. Allegato B). Gli emendamenti 1.500/14, 1.500/15 e 1.500/16 sono inammissibili. Passiamo alla votazione dell'emendamento 1.500.</seg>
+            </u>
+            <note type="speaker">CAPPELLETTI (M5S)</note>
+            <u ana="#regular" who="#CappellettiEnrico" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u49">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg91">Signor Presidente, il Movimento 5 Stelle è contrario all'emendamento 1.500, perché la previsione del reato associativo restringe di molto l'ambito di applicazione della norma, così come è stata approvata in Commissione. Il fenomeno corruttivo è un'emergenza nazionale ed è inutile che lo ribadisca, ma lo è non per colpa del Movimento 5 Stelle. È giusto intervenire con priorità e il provvedimento in esame va in quella direzione, soprattutto l'articolo 1. L'emendamento dei relatori, però, è troppo restrittivo, rispetto - ad esempio - ai responsabili di singole e gravi condotte di appropriazioni di soldi pubblici. Inoltre, renderà molto difficile provare l'associazione finalizzata, come - ad esempio - il peculato. Non so a favore di chi venga fatto il depotenziamento della norma. Non lo so. So che la previsione approvata dalla Commissione, essendo più ampia, è sicuramente più rispondente a quanto da noi richiesto per dare un segnale al Paese di un passo in avanti nei confronti del contrasto ai fenomeni corruttivi. Voteremo, quindi, contro l'emendamento 1.500.</seg>
+            </u>
+            <note type="speaker">MUSSINI (Misto)</note>
+            <u ana="#regular" who="#MussiniMaria" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u50">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg92">Signor Presidente, desidero dichiarare il mio voto contrario all'emendamento dei relatori, che inficia il testo arrivato dalla Camera. Ritengo sia preferibile il testo così come uscito dalla Commissione. Mi domando come mai il Movimento 5 Stelle, che giustamente ritiene che l'emendamento dei relatori sia restrittivo, si sia astenuto, esprimendo sostanzialmente voto contrario, su un subemendamento che lo riportava a una maggiore ampiezza. Così come è curioso che l'emendamento che riportava una maggiore ampiezza sia stato votato favorevolmente da Forza Italia, che ora immagino accetterà altrettanto questa restrizione che l'emendamento dei relatori implica. Io credo che tutti questi giochetti non facciano bene alla lotta contro la mafia.</seg>
+            </u>
+            <note type="speaker">SACCONI (AP-CpE-NCD)</note>
+            <u ana="#regular" who="#SacconiMaurizio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u51">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg93">Signor Presidente, vorrei dichiarare il mio voto di astensione, consapevole del significato che esso ha in quest'Assemblea, perché considero l'emendamento dei relatori sostanzialmente ininfluente dal punto di vista della limitazione delle libertà che con questo provvedimento si produrrà. Penso davvero che non abbiano luogo le preoccupazioni che ho sentito esprimere dalla collega del Gruppo Misto. Non sfuggirà la notevole discrezionalità con la quale possono essere definiti gli indizi in base ai quali un soggetto verrà imputato di mere intenzioni che vorrebbe realizzare attraverso un'associazione a delinquere per la quale non serviranno molti argomenti, ma solo labilissime indicazioni.</seg>
+            </u>
+            <note type="speaker">FALANGA (ALA-SCCLP)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u52">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg94">Signor Presidente, vorrei dichiarare il voto favorevole del Gruppo perché, sebbene sia stato fatto uno sforzo per correggere l'emendamento dei relatori e - ahimè - tale tentativo non sia riuscito, avendo accolto almeno l'esclusione dell'ipotesi del peculato d'uso, che poi sarebbe potuta capitare a un nostro amministratore, possiamo affermare che se questo non ci soddisfa almeno elimina qualche danno che davvero si poteva procurare al nostro Paese.</seg>
+            </u>
+            <note type="speaker">MOLINARI (Misto-Idv)</note>
+            <u ana="#regular" who="#MolinariFrancesco" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u53">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg95">Signor Presidente, intervengo per dichiarare il voto contrario sia mio che della componente IdV del Gruppo Misto su questo emendamento, perché non poteva essere altrimenti, vista la sottoscrizione del subemendamento della collega Mussini. Noi ribadiamo che la soluzione individuata dai relatori aggravi la situazione, nel senso che restringa il campo di applicazione e credo pertanto che sia un grave errore dei relatori.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u54">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg96">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u55">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg97">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.500, presentato dai relatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Risulta pertanto precluso l'emendamento 1.100. Passiamo alla votazione dell'articolo 1, sul quale da parte del prescritto numero di senatori è stata presentata richiesta di votazione a scrutinio segreto. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 113, comma 4, del Regolamento, indìco la votazione a scrutinio segreto dell'articolo 1, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 2, sul quale sono stati presentati emendamenti, che si intendono illustrati, su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">LUMIA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LumiaGiuseppe" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u56">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg98">Signor Presidente, esprimo parere contrario sull'emendamento 2.100 e parere favorevole sugli emendamenti 2.300, 2.302 (testo corretto) e 2.301.</seg>
+            </u>
+            <note type="speaker">MIGLIORE</note>
+            <note type="role">sottosegretario di Stato per la giustizia</note>
+            <u ana="#guest" who="#MiglioreGennaro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u57">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg99">Signor Presidente, il parere è conforme a quello del relatore, a condizione che venga apportata una riformulazione all'emendamento 2.300, che, se mi consente, leggerei.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg100">PRESIDENTE. Prego, signor Sottosegretario.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg101">, sottosegretario di Stato per la giustizia. All'ultimo rigo dell'emendamento 2.300, dopo la parola «Conseguentemente,» aggiungere le altre «all'articolo 2, comma 3, sopprimere la lettera d) e». In continuazione, «all'articolo 12 sopprimere il comma 2».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u58">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg102">Mi scusi, sottosegretario Migliore, questo sarebbe un ulteriore emendamento.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg103">, sottosegretario di Stato per la giustizia. È una riformulazione, signor Presidente. PRESIDENTE. L'emendamento 2.300, all'ultimo rigo, recita: «Conseguentemente, all'articolo 12 sopprimere il comma 2». Lei ha chiesto di poterlo riformulare con l'aggiunta della soppressione di altri commi? MIGLIORE, sottosegretario di Stato per la giustizia. Sì, signor Presidente: «all'articolo 2, comma 3, sopprimere la lettera d) e all'articolo 12 sopprimere il comma 2», essendoci un «Conseguentemente (...)». PRESIDENTE. Sentiamo il parere dei relatori.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u59">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg104">Signor Presidente, esprimo parere conforme.</seg>
+            </u>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u60">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg105">Signor Presidente, mi scusi, non ho capito come l'ha considerato, se è una riformulazione o un emendamento. Questo è indubbiamente un emendamento, quindi credo che si debba fare il procedimento corretto per un emendamento. Oltre tutto, se non si parlano prima il Governo e i relatori, non è colpa dell'opposizione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u61">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg106">Senatore Volpi, la Presidenza è rimasta assolutamente sorpresa dal fatto che tra relatori e Governo non ci sia questa possibilità di comunicazione, in maniera tale che si possa introdurre prima in un emendamento del relatore. Per la Presidenza questo è un ulteriore emendamento.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u62">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg107">, relatore. Signor Presidente, la valutazione della proposta di riformulazione è un'altra questione. Quello che assolutamente non possiamo accettare è che si dica che non ci si sia parlati tra Governo e relatori. Non lo dico tanto a lei, quanto al senatore... PRESIDENTE. Mi riferivo solo a questo punto, evidentemente, perché altrimenti non ci sarebbe stata una proposta di modifica del Governo su un emendamento dei relatori. PAGLIARI, relatore. No, semplicemente noi sapevamo che avrebbe fatto questa proposta di riformulazione del «Conseguentemente (...)» e quindi il senatore Lumia ha espresso il parere sapendo che sarebbe arrivata questa riformulazione, che è un «Conseguentemente (...)», quindi ha una funzione di coordinamento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u63">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg108">Il problema è anche quello del rapporto con la Presidenza. Noi avremmo potuto valutare per tempo se si trattava di una riformulazione o di un nuovo emendamento.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg109">Dispongo pertanto l'accantonamento ai fini della rivalutazione.</seg>
+               <incident type="action">
+                  <desc>Il senatore Falanga fa cenno di voler intervenire</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg110">Senatore Falanga, abbiamo accantonato l'emendamento 2.300.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg111">Chiedo al Governo se ci sono altre riformulazioni.</seg>
+            </u>
+            <note type="speaker">MIGLIORE</note>
+            <note type="role">sottosegretario di Stato per la giustizia</note>
+            <u ana="#guest" who="#MiglioreGennaro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u64">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg112">Signor Presidente, ci sono riformulazioni su altri articoli.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u65">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg113">Se il Governo ci può fornire anticipatamente queste richieste di riformulazione, abbiamo la possibilità di valutarle.</seg>
+               <incident type="action">
+                  <desc>Il senatore Falanga fa cenno di voler intervenire</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg114">Senatore Falanga, mi dia un attimo; vede che sono in interlocuzione con il Governo? Il Governo può fornire ora le proposte di riformulazioni non solo su questo articolo?</seg>
+            </u>
+            <note type="speaker">MIGLIORE</note>
+            <note type="role">sottosegretario di Stato per la giustizia</note>
+            <u ana="#guest" who="#MiglioreGennaro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u66">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg115">Signor Presidente, le fornirò tutte le riformulazioni che abbiamo intenzione di proporre.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg116">PRESIDENTE. Le dovrebbe fornire ora; forse non mi sono spiegato.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg117">, sottosegretario di Stato per la giustizia. Sono su altri articoli.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u67">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg118">Se ci sono proposte di riformulazioni, le può anticipare alla Presidenza in modo che possa valutare se sono effettivamente tali o se si configurano come nuovi emendamenti? Se si apre una nuova breccia negli emendamenti, c'è la facoltà del subemendamento. Questo è il motivo per cui dobbiamo valutare. Non so se sono stato chiaro. Se è un nuovo emendamento, c'è la facoltà di subemendare; se è una riformulazione, si può accettare, ma è una valutazione della Presidenza.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg119">FERRARA Mario (GAL (DI, GS, MPL, RI)). Non è possibile! Sospenda la seduta e dia una lezione di diritto parlamentare! PRESIDENTE. Senatore Ferrara, non do lezioni a nessuno. FERRARA Mario (GAL (DI, GS, MPL, RI)). Mi dia la parola sull'ordine dei lavori! PRESIDENTE. Senatore, con questo tono...</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del senatore Ferrara</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg120">Stava parlando il Governo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg121">FERRARA Mario (GAL (DI, GS, MPL, RI)). Lei mi dia la parola! PRESIDENTE. Abbiamo chiarito. FERRARA Mario (GAL (DI, GS, MPL, RI)). No, lei mi dia la parola! PRESIDENTE. Le do la parola dopo il Governo. FERRARA Mario (GAL (DI, GS, MPL, RI)). Non ci sono condizioni! PRESIDENTE. Senatore Ferrara, le do la parola come Capogruppo. FERRARA Mario (GAL (DI, GS, MPL, RI)). Lei mi da la parola senza alcuna giustificazione. PRESIDENTE. Le do la parola come Capogruppo, secondo la prassi. Non c'è scritto nel Regolamento. Le do la parola come Capogruppo che interrompe l'interlocuzione del Presidente con il Governo.</seg>
+            </u>
+            <note type="speaker">FERRARA Mario (GAL (DI, GS, MPL, RI))</note>
+            <u ana="#regular" who="#FerraraMario" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u68">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg122">Presidente, la storia repubblicana era abituata in quanto a giustizia a un altro Migliore. Questo non mi sembra si possa paragonare con il Migliore.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg123">Detto questo, se il Governo sta facendo degli errori, lei non può interloquire privatamente ponendo una domanda al rappresentante del Governo che non può girarsi e parlare con lei. Non è ammesso. Non è possibile. Se c'è un problema che riguarda i banchi del Governo, interrompa la seduta. Non può dare suggerimenti nel senso che domanda al Sottosegretario se ci sono altri emendamenti e il rappresentante del Governo si gira e le dice una cosa che non sentiamo. Interrompa la seduta. Questo è il Regolamento. Poi faccia come vuole perché la storia di questa Assemblea ha registrato già dei gravi inconvenienti in quanto a direzione dei lavori d'Aula e a questo punto mi zittisco. Già bastano per passare alla storia questi gravi inconvenienti e non mi voglio incavolare per colpa della sua disattenzione e per un'impreparazione e inefficacia del Governo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u69">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg124">Per quanto riguarda la mia disattenzione, non mi pare; anzi, c'è un eccesso di attenzione. Per quanto riguarda, poi, il problema del rapporto privato con il Governo, mi domando, visto che siamo in un'Aula pubblica, come possano esserci rapporti privati.</seg>
+               <incident type="action">
+                  <desc>Il senatore Volpi fa cenno di voler intervenire.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg125">Detto questo, sentiamo il senatore Volpi. Per cosa vuole intervenire? VOLPI (LN-Aut). Se vuole, intervengo sull'ordine dei lavori, Presidente. PRESIDENTE. Non se lo voglio io; io preferirei andare avanti. VOLPI (LN-Aut). So che ogni tanto lei interpreta quello che pensiamo, quindi le dico... PRESIDENTE. Prego, sull'ordine dei lavori.</seg>
+            </u>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u70">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg126">Signor Presidente, c'è stata una proposta diretta del Governo di un emendamento. Si tratta di emendamenti: che non si facciano le furbate di far proporre in modo diverso le stesse cose, perché questa Assemblea si sentirebbe presa in giro. Il Governo ha fatto una proposta, che è una proposta emendativa, ragion per cui si segue la procedura prevista, con tutto quello che si deve fare, compreso il passaggio in Commissione bilancio.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg127">Non la diffido, Presidente, non mi permetterei, però si ricordi che quando qualche volta mi arrabbio non è mai per la politica, perché in politica si vince e si perde, ma le regole sono regole, e lei è l'arbitro. (Il senatore Centinaio gesticola).</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u71">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg128">Senatore Volpi, lasciando perdere i gesti del suo capogruppo Centineo, che non sono certamente apprezzabili, mi può dare atto...</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg129">CENTINAIO (LN-Aut). Presidente, non sa ancora come mi chiamo? Centinaio! PRESIDENTE. Ho posto io il problema e ho necessità di tempo per valutare. Ho già proposto un accantonamento, quindi dov'è la procedura? FERRARA Mario (GAL (DI, GS, MPL, RI)). Lei non può proporre, Presidente: o dispone o non dispone. PRESIDENTE. Mamma mia, ma che succede? È il caldo o l'aria condizionata?</seg>
+            </u>
+            <note type="speaker">CASSON (Art.1-MDP)</note>
+            <u ana="#regular" who="#CassonFelice" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u72">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg130">Signor Presidente, intervengo sull'ordine dei lavori perché non ho capito a che punto siamo e che cosa si è deciso. Di fronte al parere dato dal rappresentante del Governo in ordine alla dizione «Conseguentemente, all'articolo 12 sopprimere il comma 2», c'è stata una proposta, sempre da parte dello stesso rappresentante del Governo, di modificare o introdurre - non ho capito bene - un comma 3, un comma 4. Ripeto, non ho capito se questa è la proposta del Governo o se è un invito ai relatori a modificare il proprio emendamento, perché credo che la proposta del Governo, così come formulata, non sia ammissibile; non si possa fare. Si tratta di identità di materia tra quello che riguarda l'emendamento dei relatori 2.300 e l'articolo 12, comma 2; quindi è una cosa. Le altre cose sono aggiuntive, sono qualcosa in più che non capisco perché vengano proposte. A questo punto vorrei capire se il Governo fa una proposta di riformulazione, se non la fa, se si dà un testo, perché di fronte a un eventuale testo dovremmo poterlo esaminare tutti quanti, presentare subemendamenti e poi andare avanti con i pareri; ma credo che il Governo per primo debba sciogliere il nodo.</seg>
+            </u>
+            <note type="speaker">FALANGA (ALA-SCCLP)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u73">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg131">Signor Presidente, ella ha disposto l'accantonamento dell'articolo 2 per le ragioni cui abbiamo assistito, però mi pare che l'articolo 100, commi 10 e 11, del nostro Regolamento, dove viene regolamentato l'accantonamento di un articolo nel corso delle votazioni, attribuisca questo potere alla Presidenza, indubbiamente, ma su espressa richiesta del Governo o della Commissione. In questo caso non mi pare che il Governo abbia chiesto l'accantonamento né mi pare che l'abbiano chiesto i relatori. Secondo i citati commi, la Commissione competente, il Governo e, nell'ipotesi di cui al comma 7, la 5ᵃ Commissione permanente possono richiedere che la discussione degli emendamenti sia accantonata. Nell'interesse della discussione, il Presidente può decidere l'accantonamento e il rinvio. Quindi, il Presidente può decidere l'accantonamento ma sospendendo la seduta e rimandando il provvedimento eventualmente in Commissione. Mi pare che questa sia la corretta interpretazione dei commi 10 e 11 dell'articolo 100 del nostro Regolamento. Poi è lei che presiede l'Assemblea e l'interpretazione più autentica è di certo la sua.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u74">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg132">Signor Presidente, l'emendamento dei relatori 2.300 si conclude con: «Conseguentemente, all'articolo 12 sopprimere il comma 2 ». Domando a lei, che ha ammesso l'emendamento: a quale comma 2 si riferisce? Dal momento che all'articolo 12 esistono due commi 2, se per caso è il comma 2 proprio, cioè il secondo comma, questo non ha nulla a che fare con la norma appena introdotta dall'emendamento. Potrebbe avere qualcosa a che fare con il comma 3, se il secondo comma 2 diventasse appunto il comma 3, anche se come interpretazione è un po' tirata. Vorrei quindi sapere, innanzitutto dai relatori, a cosa si riferisce questa parte conclusiva dell'emendamento 2.300.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u75">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg133">Senatore Caliendo, tagliamo la testa al toro.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg134">La Presidenza dispone, e lo può fare, l'accantonamento di tutto l'articolo 2. Quando sarà chiaro che cosa vogliamo eventualmente riformulare o modificare, allora potremo avere la chiarezza per andare avanti e decidere di conseguenza.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg135">L'articolo 2 è dunque accantonato. Passiamo alla votazione dell'articolo 3.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg136">SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 4. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 5, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u76">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg137">Signor Presidente, l'emendamento 5.100 tratta una questione che i relatori conoscono benissimo. Mi aspettavo un parere favorevole dei relatori e del Governo su di esso.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg138">PRESIDENTE. Ancora non lo hanno espresso, senatore Caliendo, abbia speranza.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg139">Allora il mio è un preannuncio. Nell'attuale codice, per quanto riguarda le misure di prevenzione antimafia, vi è una competenza propria del procuratore distrettuale, del procuratore anche del luogo della dimora e, volutamente, come lei ricorda meglio di me, fu introdotta la disposizione che, per gli altri tipi di reato di cui all'articolo 4, veniva delegato a svolgere quelle funzioni il procuratore circondariale. Questa è la soluzione più corretta, perché, altrimenti, si grava il procuratore distrettuale antimafia di una serie di compiti che, invece, vengono svolti dal procuratore circondariale. Qui si dice, invece, che le funzioni del procuratore della Repubblica presso il tribunale del capoluogo del distretto sono attribuite al procuratore della Repubblica presso il tribunale del circondario, previo coordinamento con il procuratore della Repubblica distrettuale. Perché? Quale coordinamento? Era stata avanzata, infatti, una prima osservazione, nel senso che era stata prevista senza coordinamento. In proposito avevo detto che se tutti e due potevano svolgere la stessa funzione si sarebbe aggravato il lavoro di entrambi, perché l'uno non sapeva quello che faceva l'altro. La questione è la seguente: l'attuale sistema garantiva al procuratore distrettuale una maggiore attenzione e libertà di movimento sulla mafia, lasciando al procuratore circondariale questa attività. L'emendamento non incide su queste prerogative, ma rimette al procuratore circondariale le competenza che ha oggi. Non riesco pertanto a capire la volontà di mantenere questa doppia funzione con un previa concertazione che non è necessaria, a meno che attraverso procedure burocratiche non si voglia rallentare l'intervento in tema di mafia.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u77">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg140">I restanti emendamenti si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg141">Invito i relatori e il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">PAGLIARI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#PagliariGiorgio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u78">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg142">Signor Presidente, esprimo parere contrario sugli emendamenti 5.100 e 5.101. Invito invece ad accogliere l'emendamento 5.300.</seg>
+            </u>
+            <note type="speaker">MIGLIORE</note>
+            <note type="role">sottosegretario di Stato per la giustizia</note>
+            <u ana="#guest" who="#MiglioreGennaro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u79">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg143">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u80">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg144">Passiamo alla votazione dell'emendamento 5.100.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg145">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.100, presentato dai senatori Caliendo e Palma. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.300, presentato dai relatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.101, presentato dal senatore Cappelletti e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 5, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Poiché la votazione dell'articolo 6 è connessa all'articolo 2 già accantonato, ne dispongo l'accantonamento. Avendo altresì verificato che anche la votazione dell'articolo 3 è connessa all'articolo 2, annullo la votazione dell'articolo 3.</seg>
+            </u>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u81">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg146">Signor Presidente, io prima volevo chiedere, ma non mi sono permesso, se eravamo certi che le votazioni che stavamo facendo non avessero una connessione. Mi permetto di dire che o risolviamo il problema relativo alle difficoltà che abbiamo con l'articolo 2, o probabilmente rischiamo di inficiare il nostro lavoro e mi permetto di dirlo anche rispetto al lavoro degli Uffici del Senato, che credo abbiano bisogno di porre in essere un'azione di drafting rispetto a ciò che si deciderà sull'articolo 2.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u82">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg147">Senatore Volpi, accolgo la sua richiesta. Sospendo pertanto la seduta, affinché la Presidenza possa verificare le richieste del Governo. (La seduta, sospesa alle ore 18,55, è ripresa alle ore 19,17). Riprendiamo l'esame degli emendamenti relativi all'articolo 2, precedentemente accantonato. Invito nuovamente il rappresentante del Governo a pronunciarsi sull'emendamento 2.300, presentato dai relatori. Sottosegretario Migliore, può anche non girarsi verso di me perché pare che sia antiparlamentare rivolgersi al Presidente. FERRARA Mario (GAL (DI, GS, MPL, RI)). È scritto sul Regolamento!</seg>
+            </u>
+            <note type="speaker">MIGLIORE</note>
+            <note type="role">sottosegretario di Stato per la giustizia</note>
+            <u ana="#guest" who="#MiglioreGennaro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u83">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg148">È stato solo un modo per alzarmi, era un movimento.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg149">Signor Presidente, sulla base dei chiarimenti, cioè del fatto che si interpreta questa nostra proposta come un nuovo emendamento, ritiro la proposta di riformulazione ed esprimo parere favorevole sull'emendamento 2.300 dei relatori.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u84">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg150">Signor Presidente, il ritiro di una riformulazione dovrebbe essere un semplice «esprimo parere favorevole sull'emendamento dei relatori». A parte ciò, alla luce non tanto della riconsiderazione da parte del Governo, quanto del fatto che l'emendamento era tecnicamente sbagliato (diciamolo, perché forse non tutti lo sanno, ma c'erano almeno due errori macroscopici), prima di incorrere in votazioni per cui poi l'errore resta nel testo, non sarebbe più opportuno, considerata l'ora, far passare una notte di riflessione per valutare i testi e avere la certezza di votare cose corrette? Alcuni dicono che bisogna fare in fretta, ma io so che il Presidente tiene molto a questo disegno di legge, e lo sanno tutti; credo che anche all'Assemblea interessi, ma interessi votare un certo testo. Abbiamo fatto una serie di votazioni successive all'accantonamento, di cui adesso dobbiamo disporre la cancellazione. Io non credo sia una buona cosa varare le leggi votando degli articoli e cancellandone l'approvazione perché era subordinata all'approvazione dell'articolo 2.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u85">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg151">Senatore Calderoli, apprezzo la sua proposta di riflessione, però è meglio continuare adesso che abbiamo presenti tutti i temi. Poi interromperemo nel momento in cui avremo ristabilito l'ordine normale. Apprezzo la sua proposta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg152">Passiamo dunque all'emendamento 2.100, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg153">SANTANGELO (M5S). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.100, presentato dal senatore Giarrusso e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 2.300.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u86">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg154">Signor Presidente, vorrei un chiarimento in merito a quanto scritto in calce all'emendamento 2.300. «Conseguentemente, all'articolo 12 (...)», quale comma si intende sopprimere? PRESIDENTE. Il comma 2. Rimane così com'è. CALIENDO (FI-PdL XVII). Signor Presidente, all'articolo 12 nel testo sono menzionati due commi 2. PRESIDENTE. Senatore Caliendo, lei non ha l'occhio attento, perché il primo numero 2 riguarda il paragrafo precedente, mentre l'altro numero 2 è il numero del comma. Bisogna avere un occhio attento per riuscire a distinguere il 2 in corsivo dal 2 scritto in tondo. Non so se si sia convinto. CALIENDO (FI-PdL XVII). Ho capito, signor Presidente, però non capisco la soppressione. Noi stiamo parlando dell'indisponibilità di mezzi tecnici idonei, mentre nel vecchio testo, quello che si vuole sopprimere, ci si riferisce all'interessato quando è detenuto o internato. Noi con l'emendamento 2.300 interveniamo soltanto sul comma 3, lettera b), capoverso 4: «Se l'interessato è detenuto o internato in luogo posto fuori della circoscrizione del giudice e ne fa tempestiva richiesta, la partecipazione all'udienza è assicurata a distanza». L'ultima riga del capoverso 4 recita: « Solo in caso di indisponibilità di mezzi tecnici idonei, il presidente dispone la traduzione dell'interessato detenuto». Rispetto all'attuale disciplina che riguarda non solo - lo sappiamo - internati e detenuti, ma anche gli ammalati e l'impossibilità di essere presenti, perché sopprimiamo anche l'ultimo aspetto che viene ancora preso in considerazione? Non riesco a raccapezzarmi e mi sembra che sia inutile sopprimere. Non ho qui il codice, ma si dovrebbe fare una verifica per capire se ci siano altri casi che vengono eliminati.</seg>
+            </u>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u87">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg155">Signor Presidente, poi vedremo con il Gruppo come votare su questo emendamento, ma una cosa sinceramente non riesco a comprendere. Il Governo presenta un emendamento, quindi io immagino che nella testa di chi l'ha presentato questo fosse in qualche modo migliorativo. Signor Sottosegretario, penso che sia così, altrimenti non avrebbe presentato una correzione. Come può politicamente sostenere che lei ritira l'emendamento perché era considerato un emendamento e quindi non serve più? O serve oppure non serve. Guardi che politicamente non è che sta facendo una bella figura. Signor Sottosegretario, lei presenta una proposta di modifica - e le posso dire che non ho nessuna ragione di pensare alla malafede della sua intenzione di migliorare il provvedimento - e poi non dice che ci ha ripensato perché forse la proposta era errata, ma dice che lo ritira perché, essendo stato considerato un emendamento, si sarebbe dovuto seguire tutto il procedimento relativo a un nuovo emendamento. Ebbene, si metta un po' d'accordo con se stesso; non mi riferisco a lei personalmente, ma al Governo. Se il Governo presenta un emendamento e poi lo ritira con queste motivazioni, credo che sia un fatto estremamente grave. E lo dico anche ai colleghi della maggioranza. Signor Sottosegretario ci spieghi, ci faccia il favore di spiegarci cosa voleva fare prima e perché adesso non vale più. Solo perché non potevamo fermarci per portarlo in Commissione bilancio e per presentare i subemendamenti? È per questo motivo che lei ritira un emendamento che riteneva importante? Veda lei; la figura la fa lei, non la faccio io.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u88">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg156">La richiesta da parte del Governo era stata quella di una riformulazione, per la precisione. Il problema poi è la valutazione nel merito, che spetta alla Presidenza. Adesso il Governo ha ritenuto di ritirarla. Io apprezzo la sua valutazione dal punto di vista politico, senatore Volpi, però la sua rimane una valutazione.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u89">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg157">Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u90">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg158">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.300, presentato dai relatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.302 (testo corretto), presentato dai relatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.301, presentato dai relatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 3. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3. (Segue la votazione). Il Senato approva. (v. Allegato B). Gli articoli 4 e 5 sono stati già votati. Passiamo alla votazione dell'articolo 6. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 6. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 7. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 7. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 8. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 8. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 9. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 9. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 10. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 10. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 11. SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 11. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 12, sul quale è stato presentato un emendamento, che si intende illustrato, su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal senatore Calderoli.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">LUMIA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LumiaGiuseppe" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u91">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg159">Signor Presidente, esprimo parere contrario.</seg>
+            </u>
+            <note type="speaker">MIGLIORE</note>
+            <note type="role">sottosegretario di Stato per la giustizia</note>
+            <u ana="#guest" who="#MiglioreGennaro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u92">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg160">Signor Presidente, esprimo parere contrario.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u93">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg161">Passiamo alla votazione dell'emendamento 12.100.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg162">SANTANGELO (M5S). Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata) Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 12.100, presentato dal senatore Giarrusso e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 12, nel testo emendato, in virtù dell'approvazione dell'emendamento 2.300. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 13, sul quale sono stati presentati emendamenti, che si intendono illustrati, su cui invito i relatori e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">LUMIA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#LumiaGiuseppe" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u94">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg163">Signor Presidente, esprimo parere contrario sugli emendamenti 13.100, 13.101, 13.102 e 13.103. Sull'emendamento 13.104 ci sono due precisazioni tecniche da fare: al penultimo rigo, dopo la parola «conviventi», penso ci sia un refuso e andrebbe scritto: «creditori».</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg164">PRESIDENTE. Senatore Buccarella, riconosce l'errore di stampa? BUCCARELLA (M5S). Sì. LUMIA, relatore. La seconda precisazione è una riformulazione, nel senso che all'ultima riga, proponiamo di sostituire le parole «del personale» con le seguenti «del dirigente». PRESIDENTE. Senatore Buccarella, accetta la riformulazione? BUCCARELLA (M5S). Sì. LUMIA, relatore. Sull'emendamento 13.105 il parere è contrario, ma segnalo che, all'inizio, invece che «Al comma 3» andrebbe scritto: «Al comma 5». Mi rivolgo ai presentatori.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice De Petris</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg165">PRESIDENTE. È un refuso, ma il parere è contrario.</seg>
+            </u>
+            <note type="speaker">MIGLIORE</note>
+            <note type="role">sottosegretario di Stato per la giustizia</note>
+            <u ana="#guest" who="#MiglioreGennaro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u95">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg166">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="speaker">FALANGA (ALA-SCCLP)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u96">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg167">PRESIDENTE. Votiamo e poi le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg168">Attiene a questo. PRESIDENTE. Attiene a cosa? FALANGA (ALA-SCCLP). Signor Presidente, il relatore ha chiesto al senatore Buccarella di riformulare l'emendamento. PRESIDENTE. Ha proposto una riformulazione. FALANGA (ALA-SCCLP). Ha proposto una riformulazione individuando come destinatario della norma soltanto il direttore di cancelleria, ovvero ha modificato la platea dei destinatari della norma. A me non pare che possa trattarsi di una riformulazione. Si va a ridurre il numero dei soggetti destinatari della norma cui il provvedimento mirava.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u97">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg169">Siccome è riduttiva si può considerare una riformulazione; non è aggiuntiva, quindi mi pare che questo sia il senso che il senatore Buccarella ha colto. Anche perché, come lei sa, senatore Falanga, adesso si chiamano dirigenti di cancelleria e sono personale di cancelleria.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg170">Non so se è riduttivo. PRESIDENTE. Quello precedente era un evidente errore di stampa: «i ereditari» stava per «i creditori». FALANGA (ALA-SCCLP). Quello era un errore di stampa; questa è una questione di sostanza. Valuti lei.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u98">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg171">Signor Presidente, vorrei ricordarle che il Regolamento e la relativa prassi introdotta al Senato prevedono che prima degli emendamenti ad ogni articolo venga richiamato il presentatore. Questo serve per richiamare anche l'attenzione dei senatori presenti sui presentatori dei vari emendamenti e dei relativi Gruppi di appartenenza. Mi sembra che non seguire questa prassi introduca una maggiore confusione, anche se sono d'accordo che forse quel continuo richiamo possa essere eccessivo, però quest'oggi abbiamo cambiato la consueta prassi.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u99">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg172">Veramente io ho imparato dal suo modo di condurre i lavori d'Aula, perché è di una velocità tale che si riesce a stento a capire il numero degli emendamenti. Forse oggi c'era bisogno di una ulteriore precisazione. Prendo atto di questo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg173">Credo che convenga sempre rispettare il Regolamento. PRESIDENTE. D'accordo. La ringrazio. Passiamo all'emendamento 13.100, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. SANTANGELO (M5S). Ne chiediamo la votazione e chiediamo altresì che le votazioni sui successivi emendamenti vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 13.100, presentato dal senatore Giarrusso e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'emendamento 13.101, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. MALAN (FI-PdL XVII). Ne chiediamo la votazione. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Passiamo alla votazione dell'emendamento 13.101.</seg>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u100">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg174">Signor Presidente, credo che questo sia un emendamento interessante: in un contesto dove si procede con grandissima generosità a sequestri, a blocchi, questo emendamento, nella sua stessa formulazione, ricorda che non sono cose indolore. Non è che più si sequestra, meglio è; più si bloccano aziende e meglio è; più si rovinano persone, magari sulla base del sospetto, e meglio è. Questo non soltanto per ragioni di giustizia, e lo Stato dovrebbe nascere, nelle sue origini legittime, dal fatto di rendere giustizia ai cittadini e non dal fatto di esercitare il potere nei confronti dei cittadini - sono due concezioni diverse dello Stato su cui temo che ancora non ci sia concordia in quest'Assemblea - ma per il fatto che, bloccando questo e quell'altro ancora, si danneggia l'economia. Sorpresa, sorpresa e poi ci si sorprende che, a forza di approvare leggi che aumentano a dismisura le pene, a forza di approvare leggi come questa, che causa con grandissima facilità blocco, sequestro, confisca dei beni anche sulla base di semplici sospetti, stranamente il nostro prodotto interno lordo sale a livello più basso di tutta l'Europa. Strano, davvero strano. Si minacciano tutte le attività economiche in ogni modo: si pensi ai reati ambientali, che è giusto siano considerati reati, ma non formulati in modo che non ci sia differenza tra chi fa una svista e il criminale che avvelena ettari di territori; o a tanti altri provvedimenti, come il falso in bilancio. Per il falso in bilancio, anche qui è la stessa cosa: chiunque può essere colpevole. La senatrice De Petris ha rilevato che vi sono, in particolare in alcune zone (ma in realtà dappertutto), casi in cui è particolarmente problematico che vi sia questo blocco. Il suo emendamento propone che, nel caso in cui il sequestro abbia ad oggetto aziende ubicate in territori a maggiore intensità mafiosa e particolarmente fragili dal punto di vista economico, si nomini come amministratore giudiziario il presidente della cooperativa di lavoratori dell'impresa sequestrata, che si costituisce su richiesta e senza oneri a carico dello Stato. A me pare interessante questo aspetto. Io non credo che la soluzione proposta sia idonea, perché si rischia un ulteriore blocco e si rischia di terrorizzare ulteriormente gli imprenditori. Il problema, però, c'è. Il problema c'è: sequestra, sequestra, sequestra e poi, stranamente, in certe zone l'unico datore di lavoro magari è la mafia. Per forza: tutte le altre attività vengono bloccate. E poi si trova strano il fatto che la mafia riesca ancora a reclutare qualcuno, nonostante i colpi, pesantissimi, che meritoriamente sono stati dati a queste organizzazioni criminali. Io ho chiesto il voto su questo emendamento perché esso richiama l'attenzione su un problema vero, pur dando una soluzione a mio parere non idonea. Pertanto, credo che noi su di esso ci asterremo. Il problema, però, è reale. Bisogna chiedersi perché, nonostante tutte le misure economiche che erano state annunciate come risolutive, la nostra economia arranca. Purtroppo, questi territori a particolare fragilità economica e sociale, come detto nell'emendamento, coincidono ormai con l'intero nostro Paese. Vorrei infatti sapere quale territorio del nostro Paese non presenti particolari fragilità economiche e sociali. E noi lo aiutiamo rendendo possibile il sequestro e il blocco dei beni e rovinando le persone. Perché, se per qualcuno questo può essere solo un gravissimo disagio, per un imprenditore il blocco dei beni, il sequestro, l'obbligo di risiedere in una certa località o di non risiedere in una certa località significa distruggere la sua azienda. Qualcuno si è il posto il problema, e rendo merito alla collega che ha presentato l'emendamento. Altri, evidentemente, questo problema non se lo pongono, perché non importa se si aumenta la disoccupazione; non importa se si deviano ulteriori investimenti in altri Paesi; non importa se si scoraggiano gli investimenti. L'importante è dare il segnale. Ma il segnale lo si dà facendo le leggi buone e non facendo leggi manifesto che colpiscono le persone per bene e quindi rendono più difficile colpire i veri criminali.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u101">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg175">Ai sensi dell'articolo 102- bis del Regolamento, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 13.101, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 13.102, presentato dalla senatrice Mussini e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 13.103.</seg>
+            </u>
+            <note type="speaker">BUCCARELLA (M5S)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u102">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg176">Signor Presidente, ritiro l'emendamento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u103">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg177">La Presidenza ne prende atto.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg178">Passiamo alla votazione dell'emendamento 13.104.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u104">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg179">Signor Presidente, la riformulazione dell'emendamento 13.104 è sbagliata. Non credo, infatti, di dover insegnare a nessuno che gli uffici giudiziari hanno necessità di indipendenza e imparzialità, che riguardano non solo i magistrati ma l'ufficio giudiziario nel suo complesso. Quando il senatore Lumia dice che vuole sostituire le parole: «personale di cancelleria» con le parole: «dirigente di cancelleria» sapendo benissimo che raramente, quasi mai (forse mai) il dirigente assiste il magistrato che compie quell'attività, vuol dire che intende escludere il personale di cancelleria dalle persone che possono essere tali da condizionare quel procedimento attraverso propri creditori, debitori, eccetera. Per me è opportuno lasciare le parole: «personale di cancelleria»; tuttavia se, oltre al personale di cancelleria che assiste il magistrato, si vuole aggiungere anche il dirigente della cancelleria o il presidente del tribunale mi va benissimo. Tuttavia togliere il personale di cancelleria significa né più né meno che tutte queste operazioni, come è avvenuto in qualche caso, possono essere realizzate attraverso il personale di segreteria addetto al magistrato. Signor Presidente, credo sia opportuna un'attenzione anche da parte sua perché sia suggerito un rispetto alle regole dell'indipendenza dell'ufficio giudiziario, che non può riguardare solo il magistrato, ma anche il personale di cancelleria. Se vogliamo inserire il dirigente e il presidente del tribunale sono d'accordo, ancorché non svolgano attività diretta. Altrimenti, togliere il personale che assiste e prevedere il dirigente significa non avere nessuna certezza delle incompatibilità previste nello stesso emendamento proposto dal senatore Buccarella. Per tale ragione ritengo opportuna una resipiscenza da parte dei relatori e non perché vogliamo fare ostruzionismo. Vi rendete conto che scrivere la parola: «dirigente» non ha senso rispetto all'obiettivo che vogliamo raggiungere? Signor Presidente, in Sicilia abbiamo avuto alcune situazioni. PRESIDENTE. Il dirigente che assiste lo stesso magistrato. CALIENDO (FI-PdL XVII). Signor Presidente, lei mi insegna che la locuzione: «il dirigente di cancelleria che assiste» significa limitare a forse un caso di dirigente che assiste il magistrato. La dicitura: «personale di cancelleria che assiste», indipendentemente dalla qualifica, comprende sia il dirigente sia il personale che normalmente assiste il magistrato.</seg>
+            </u>
+            <note type="speaker">BUCCARELLA (M5S)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u105">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg180">Signor Presidente, l'idea di proporre l'emendamento 13.104 è venuta all'esito di una discussione che abbiamo avuto in Commissione giustizia quando abbiamo analizzato i tantissimi risvolti del provvedimento che sono stati oggetto di confronto e di discussione. Ricordo che in tema di incompatibilità degli amministratori giudiziari e dei rapporti che tra questi intercorrono, o possono intercorrere, con i magistrati affidanti si era sviluppato un dibattito e io avevo anche proposto - non so se lo si ricorda - l'adozione di un sistema di incompatibilità pari a quello dell'astensione obbligatoria previsto dall'articolo 51 del codice di procedura civile, che era il senso dell'emendamento che ho ritirato. Il ritiro dell'emendamento 13.103 è avvenuto all'esito del parere favorevole sull'emendamento 13.104 che, come ha notato il senatore Caliendo, oltre a trattare la questione dei magistrati che conferiscono l'incarico di amministratore giudiziario, riguarda anche originariamente il personale. Ho ritenuto di dover accogliere la proposta di riformulazione perché con il richiamo al ruolo apicale, cioè alla necessità di trasparenza nella fase dell'affidamento di incarichi, che spesso hanno una rilevanza notevole dal punto di vista economico, mi sembrava più che accettabile e pertanto ho ritenuto di aderirvi. Comunque, i colleghi Caliendo e Falanga mi consentano di dire che se se tanta attenzione hanno ritenuto di dover rivolgere nei confronti di questo emendamento, mi chiedo perché non hanno a loro volta formulato proposte emendative atte a regolare uno dei tanti punti che sono stati oggetto di dibattito. Mantengo quindi ferma l'intenzione di accettare la riformulazione anche con la parola: «dirigente» al posto di della parola: «personale».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u106">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg181">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 13.104 (testo 2), presentato dal senatore Buccarella. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 13.105.</seg>
+            </u>
+            <note type="speaker">CAMPANELLA (Art.1-MDP)</note>
+            <u ana="#regular" who="#CampanellaFrancesco" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u107">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg182">Signor Presidente, l'emendamento 13.105, insieme all'emendamento 13.101, è stato proposto in seguito ad una serie di discussioni con delle organizzazione sindacali in Sicilia, che lamentavano la rovina cui spesso andavano incontro le aziende che venivano confiscate, con le conseguenze che possiamo immaginare sul personale che in quelle aziende lavorava. L'emendamento 13.105 fa riferimento ad un aspetto in particolare: nel dettato dell'articolo nel testo originario, è previsto che l'Agenzia, entro un mese dalla comunicazione della confisca definitiva, pubblichi sul proprio sito Internet l'elenco dei beni immobili oggetto di confisca. Nell'emendamento si propone di aggiungere, oltre a quello dei beni immobili, anche l'elenco delle aziende confiscate con l'indicazione analitica ed estimativa delle attività e della situazione patrimoniale, economica, finanziaria e produttiva. Il motivo di questa proposta sta nel fatto che, oltre ad essere piuttosto manchevole e carente la pubblicazione sul sito Internet, per quanto ho avuto modo di rilevare personalmente, esiste anche il problema, per quanto riguarda le aziende, che la gestione, per come è stata condotta in questi anni, viene assegnata spesso ad un amministratore giudiziario unico per più aziende, quindi è una gestione obiettivamente fatta male, in modo negligente, per l'impossibilità oggettiva di seguire tante aziende da parte di un unico soggetto. Per tale motivo, si veniva a determinare la rovina di queste aziende, con il licenziamento del personale, la perdita di posti di lavoro e tutto il resto. Si tenga conto che su questo tema ho già presentato in più occasioni delle segnalazioni al Governo, in cui ho avuto modo di rilevare che la gestione di queste aziende è negligente o manchevole, come dicevo prima, o particolarmente fantasiosa, tanto che si venivano a creare delle condizioni per cui delle aziende funzionanti, efficienti e produttive diventavano, dopo un paio d'anni di gestione siffatta, masse di beni non più coordinati e di operai licenziati. Se noi riuscissimo ad avere la possibilità di una valutazione precisa del bene che va ad essere confiscato, diventerebbe più semplice individuare le responsabilità di chi lo ha fatto deperire.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u108">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg183">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 13.105, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'articolo 13.</seg>
+            </u>
+            <note type="speaker">CIAMPOLILLO (M5S)</note>
+            <u ana="#regular" who="#CiampolilloLello" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u109">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg184">PRESIDENTE. Senatore Ciampolillo, siamo in fase di votazione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg185">Vorrei proporre ai colleghi una colletta in favore del senatore Pagnoncelli che non è presente in Aula e ha dovuto lasciare una pallina di carta a votare al suo posto. Il furbetto del cartellino di oggi è il senatore Pagnoncelli. Sono certo che lei vorrà prendere provvedimenti e sanzionare questo comportamento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u110">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg186">Prego i senatori Segretari di verificare.</seg>
+               <incident type="action">
+                  <desc>Il senatore Falanga fa cenno di voler intervenire</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg187">Indìco la votazione nominale con scrutinio simultaneo dell'articolo 13, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">FALANGA (ALA-SCCLP)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u111">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg188">Signor Presidente, prima di votare un articolo, se io le chiedo a nome del mio Gruppo di fare una dichiarazione di voto sull'articolo stesso, perché non mi viene data la parola? PRESIDENTE. Non l'ho vista, mi dispiace. FALANGA (ALA-SCCLP). No, lei mi ha visto, Presidente.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u112">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg189">Rinvio il seguito della discussione dei disegni di legge in titolo ad altra seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per lo svolgimento di un'interpellanza e la risposta scritta ad un'interrogazione</head>
+            <note type="speaker">GIROTTO (M5S)</note>
+            <u ana="#regular" who="#GirottoGianniPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u113">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg190">Signor Presidente, volevo sollecitare la risposta alla mia interrogazione 4-06338 che concerne il naufragio della Costa Concordia all'Isola del Giglio. Meglio ancora, concerne il fatto che abbiamo una situazione di grave pericolo di inquinamento di una perla della nostra struttura ambientale. Per le operazioni di ripristino, infatti, sono stati utilizzati dei sacchi di cemento del peso di 20 tonnellate. Ora, abbiamo notizia del fatto che questo cemento si sta depositando sui fondali dell'Isola del Giglio con danni ambientali estremamente gravi. Abbiamo presentato un'interrogazione un anno fa su queste problematiche. A distanza di un anno le uniche notizie che abbiamo è che queste tonnellate e tonnellate di polvere di cemento si stanno depositando sui fondali danneggiandoli in maniera irreparabile e gli esperti dicono che non sarà possibile ripristinare la situazione ex ante. Mi appello quindi al Governo affinché prenda provvedimenti immediati e chiedo ai parlamentari toscani di prendere a cuore la situazione che è gravissima.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PIGNEDOLI (PD)</note>
+            <u ana="#regular" who="#PignedoliLeana" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u114">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg191">Signor Presidente, intervengo per sollecitare la risposta ad un'interpellanza urgente che ho presentato assieme a diversi colleghi del Gruppo PD, la 2-00467 che si riferisce alla crisi delle cooperative di costruzione che ha determinato grossi problemi in termini di occupazione e di mancata restituzione del prestito sociale. È un problema di grandi dimensioni che impone sia misure che risposte urgenti ma anche risposte di indirizzo che il Governo deve dare per rivedere i nuovi strumenti di controllo affinché non capiti più che vi siano risparmi di intere famiglie che non vengono restituiti. Serve una riflessione. Chiedo che questa interpellanza, che è stata depositata il 16 maggio scorso, venga calendarizzata in Aula al più presto.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla mancata nomina dei componenti della Commissione parlamentare di inchiesta sulla ricostruzione della città dell'Aquila e degli altri Comuni interessati dal sisma del 6 aprile 2009</head>
+            <note type="speaker">BLUNDO (M5S)</note>
+            <u ana="#regular" who="#BlundoRosettaEnza" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u115">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg192">Signor Presidente, intervengo brevemente in Aula, per l'ennesima volta, e lo farò ogni settimana fino quando non avrò una risposta chiara. Voglio sollecitare a procedere velocemente alla nomina dei senatori che devono comporre la Commissione monocamerale d'inchiesta sulla ricostruzione postsisma dell'Aquila. In tutti i miei interventi ho sempre evidenziato l'urgenza dei lavori di tale Commissione, che è stata votata all'unanimità il 9 gennaio 2016. Ricordo alla Presidenza che la Commissione d'inchiesta è stata deliberata da quest'Assemblea il 10 novembre scorso, con l'approvazione del relativo documento a mia prima firma. Da allora è trascorso un lasso di tempo durante il quale sarebbe stato molto importante per fare un lavoro incisivo, oltre che per chiarire alcune vicende poco trasparenti legate alla ricostruzione e all'utilizzo dei fondi stanziati. La collega Montevecchi, che allora ricopriva la carica di Capogruppo, su richiesta, indicò il mio nome e quello del senatore Castaldi come componenti della Commissione d'inchiesta in rappresentanza del Movimento 5 Stelle. Nulla si è ancora saputo dei nominativi indicati dagli altri Gruppi. Non si sa se tutti abbiano dato le loro indicazioni e se alcuni ancora non hanno trasmesso l'indicazione dei nominativi forse per meri calcoli elettoralistici, legati alla tornata di elezioni amministrative appena passata. Speriamo che adesso si sentano più liberi - ovviamente la mia è un'ironia - e procedano a dare le loro indicazioni. Questa dilazione dei tempi è molto difficile da giustificare e motivare con ragioni diverse da una totale assenza di volontà politica. Con il mio intervento, pertanto, le chiedo, signor Presidente, ai sensi dell'articolo 2, comma 1, del documento che istituisce la Commissione d'inchiesta, di procedere il prima possibile alla nomina dei componenti, sollecitando i Gruppi parlamentari a proporre i senatori che intendono far parte della Commissione o, in alternativa, di indicare le ragioni o i Gruppi parlamentari che finora hanno di fatto impedito l'avvio di questa importante Commissione d'inchiesta. Avviarne rapidamente i lavori era ed è un atto doveroso verso i cittadini aquilani e la legalità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Moronese.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u116">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg193">Senatrice Blundo, la Presidenza ha già sollecitato e solleciterà ancora una volta i due soli Gruppi che non hanno presentato le designazioni. Sarà cura della Presidenza cercare di acquisire tutte le designazioni.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u117">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg194">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di giovedì 29 giugno 2017</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.u118">
+               <seg xml:id="ParlaMint-IT_2017-06-28-LEG17-Sed-848.seg195">Il Senato tornerà a riunirsi in seduta pubblica domani, giovedì 29 giugno, alle ore 9,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 20,02).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

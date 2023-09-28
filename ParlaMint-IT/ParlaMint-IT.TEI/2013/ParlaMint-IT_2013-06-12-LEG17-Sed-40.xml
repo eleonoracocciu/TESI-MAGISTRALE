@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 40 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 40 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 40, giorno (2013-06-12)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 40, Day (2013-06-12)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="40-upper">40 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="107" unit="speeches" xml:lang="it">107 discorsi</measure>
+            <measure quantity="107" unit="speeches" xml:lang="en">107 speeches</measure>
+            <measure quantity="10087" unit="words" xml:lang="it">10.087 parole</measure>
+            <measure quantity="10087" unit="words" xml:lang="en">10,087 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0703374</idno>
+               <date when="2013-06-12">12.06.2013</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="12"/>
+               <tagUsage gi="head" occurs="10"/>
+               <tagUsage gi="note" occurs="107"/>
+               <tagUsage gi="seg" occurs="107"/>
+               <tagUsage gi="u" occurs="46"/>
+               <tagUsage gi="vocal" occurs="2"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="29"/>
+               <tagUsage gi="desc" occurs="31"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2013-06-12">12.06.2013</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente GRASSO</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u1">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg1">La seduta è aperta (ore 16,35). Si dia lettura del processo verbale. PIZZETTI, segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u2">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u3">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg3">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg4">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,40).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u4">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg5">La Conferenza dei Capigruppo ha approvato modifiche e integrazioni al calendario corrente e, se c'è interesse da parte dell'Aula, il nuovo calendario dei lavori fino al 4 luglio 2013.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg6">Domani mattina, alle ore 9.30, 1'Assemblea delibererà sulla richiesta di dichiarazione d'urgenza, presentata dal Governo ai sensi dell'articolo 77 del Regolamento, sul disegno di legge costituzionale di istituzione del Comitato parlamentare per le riforme costituzionali.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg7">Nella seduta di question time prevista per domani pomeriggio alle ore 16, con trasmissione diretta televisiva, il Ministro dell'economia e delle finanze risponderà a quesiti sulle iniziative del Governo relative all'aumento dell'IVA, sulla disciplina dell'IMU, nonché sull'attuazione delle disposizioni in materia di pagamento dei debiti delle pubbliche amministrazioni. La prossima settimana, a partire dalla seduta pomeridiana di martedì 18 giugno, saranno discussi i seguenti argomenti, già previsti nel calendario di questa settimana: ratifica della Convenzione di Istanbul sulla prevenzione e lotta alla violenza contro le donne, unitamente alle mozioni ad essa correlate; ratifica del protocollo d'intesa tra Italia e UNESCO sul Segretariato del Programma mondiale di valutazione delle acque; mozioni sui consigli di amministrazione delle società a partecipazione pubblica e mozione Tomaselli sul corridoio ferroviario adriatico. Nella seduta pomeridiana di martedì 25 giugno il Presidente del Consiglio dei Ministri renderà comunicazioni sul Consiglio europeo del 27 e 28 giugno prossimi. Al termine del dibattito potranno essere votati strumenti di indirizzo. A partire dalla seduta antimeridiana di mercoledì 26 giugno verrà discusso il decreto-legge in materia di efficienza energetica e misure fiscali. La seduta pomeridiana di giovedì 27 giugno sarà dedicata al question time. Il calendario della settimana dal 2 al 4 luglio prevede, oltre all'eventuale seguito del decreto-legge in materia di efficienza energetica e misure fiscali, la discussione congiunta del disegno dì legge di delegazione europea 2013, della Legge europea 2013 e della Relazione sulla partecipazione dell'Italia all'Unione europea per l'anno 2013. Il calendario potrà essere altresì integrato con informative del Governo sul recente attentato in Afghanistan che ha causato la morte del maggiore La Rosa, sugli sviluppi della situazione in Turchia e sugli incidenti avvenuti a Terni in occasione della manifestazione degli operai dell'ex Thyssen.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Programma dei lavori dell'Assemblea, integrazioni</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u5">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg8">La Conferenza dei Presidenti dei Gruppi parlamentari, riunitasi oggi con la presenza dei Vice presidenti del Senato e con l'intervento del rappresentante del Governo, ha adottato - ai sensi dell'articolo 53 del Regolamento - le seguenti integrazioni al programma dei lavori del Senato per i mesi di maggio, giugno e luglio 2013: - Disegno di legge n. 587 - Delega al Governo per il recepimento delle direttive europee e l'attuazione di altri atti dell'Unione europea - Legge di delegazione europea 2013 (Voto finale con la presenza del numero legale) - Disegno di legge n. 588 - Disposizioni per l'adempimento degli obblighi derivanti dall'appartenenza dell'Italia all'Unione europea - Legge europea 2013 (Voto finale con la presenza del numero legale) - Documento LXXXVII- bis, n. 1 - Relazione programmatica sulla partecipazione dell'Italia all'Unione Europea, per l'anno 2013.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Calendario dei lavori dell'Assemblea</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u6">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg9">Nel corso della stessa riunione, la Conferenza dei Presidenti dei Gruppi parlamentari ha altresì adottato - ai sensi dell'articolo 55 del Regolamento - modifiche e integrazioni al calendario corrente e il nuovo calendario dei lavori dell'Assemblea fino al 4 luglio:</seg>
+               <note type="summary">Mercoledì 12 giugno pom. h. 16,30-20 - Seguito disegno di legge n. 576 - Decreto-legge n. 43, emergenze ambientali e altre misure urgenti (Scade il 25 giugno 2013) - Deliberazione sulla richiesta di dichiarazione d'urgenza, ai sensi dell'articolo 77, del Regolamento, sul disegno di legge costituzionale n. 813 - Istituzione del Comitato parlamentare per le riforme costituzionali (giovedì, ore 9.30) Giovedì 13 " ant. h. 9,30-14 Giovedì 13 giugno pom. h. 16 - Interrogazioni a risposta immediata ai sensi dell'articolo 151- bis del Regolamento al Ministro dell'economia e delle finanze sulle iniziative del Governo relative all'aumento dell'IVA, sulla disciplina dell'IMU nonché sull'attuazione delle disposizioni in materia di pagamento dei debiti delle pubbliche amministrazioni</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg10">Il calendario potrà essere integrato con informative del Governo sul recente attentato in Afghanistan che ha causato la morte del maggiore Giuseppe La Rosa nonché il ferimento di altri tre militari italiani; sugli sviluppi della situazione in Turchia; sugli incidenti avvenuti a Terni in occasione della manifestazione degli operai dell'ex Thyssen.</seg>
+               <note type="summary">Martedì 18 giugno pom. h. 16,30-20 - Disegno di legge n. 720 e connessi - Ratifica ed esecuzione Convenzione di Istanbul sulla prevenzione e lotta alla violenza contro le donne (Approvato dalla Camera dei deputati) e mozioni correlate - Disegno di legge n. 590 - Ratifica ed esecuzione Protocollo d'intesa Repubblica italiana e UNESCO sul Segretariato del World Water Assessment Programme - Mozioni sui consigli di amministrazione delle società a partecipazione pubblica - Mozione n. 37, Tomaselli, sul corridoio ferroviario Adriatico Mercoledì 19 " ant. h. 9,30-13 " " " pom. h. 16,30-20 Giovedì 20 " ant. h. 9,30-14 Giovedì 20 giugno pom. h. 16 - Interpellanze e interrogazioni</note>
+               <note type="summary">Martedì 25 giugno pom. h. 16 - Comunicazioni del Presidente del Consiglio dei ministri in vista del Consiglio europeo del 27 e 28 giugno 2013 Mercoledì 26 giugno ant. h. 9,30-13 - Disegno di legge n. 783 - Decreto-legge n. 63, in materia di efficienza energetica e misure fiscali (Presentato al Senato - voto finale entro il 5 luglio - scade il 4 agosto) (Ove concluso dalle Commissioni) " " " pom. h. 16,30-20 Giovedì 27 " ant. h. 9,30-14 Giovedì 27 giugno pom. h. 16 - Interrogazioni a risposta immediata ai sensi dell'articolo 151- bis del Regolamento</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg11">Gli emendamenti al disegno di legge n. 783 (Decreto-legge in materia di efficienza energetica e misure fiscali) dovranno essere presentati entro le ore 19 di giovedì 20 giugno.</seg>
+               <note type="summary">Martedì 2 luglio pom. h. 16,30-20 - Eventuale seguito disegno di legge n. 783 - Decreto-legge n. 63, in materia di efficienza energetica e misure fiscali (Presentato al Senato - scade il 4 agosto) - Disegno di legge n. 587 - Legge di delegazione europea 2013 (Voto finale con la presenza del numero legale) - Disegno di legge n. 588 - Legge europea 2013 (Voto finale con la presenza del numero legale) - Doc . LXXXVII- bis , n. 1 - Relazione sulla partecipazione dell'Italia all'Unione europea per l'anno 2013 Mercoledì 3 " ant. h. 9,30-13,30 " " " pom. h. 16,30-20 Giovedì 4 " ant. h. 9,30-13,30 Giovedì 4 luglio pom. h. 16 - Interpellanze e interrogazioni</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg12">Il termine per la presentazione degli emendamenti ai disegni di legge nn. 587 e 588 (Legge di delegazione europea 2013 e Legge europea 2013) saranno stabiliti in relazione ai lavori della Commissione.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg13">Ripartizione dei tempi per la discussione del disegno di legge n. 576 (Decreto-legge n. 43, emergenze ambientali e altre misure urgenti) (8 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 1 h. Governo 1 h. Votazioni 1 h. Gruppi 5 ore, di cui : PD 1 h. 10' PdL 1 h. 02' M5S 44' SCpI 29' LN-Aut 26' Aut (SVP, UV, PATT, UPT) - PSI 23' GAL 23' Misto 23' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg14">Ripartizione dei tempi per la discussione del disegno di legge n. 783 (Decreto-legge n. 63, efficienza energetica e misure fiscali) (8 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 1 h. Governo 1 h. Votazioni 1 h. Gruppi 5 ore, di cui : PD 1 h. 10' PdL 1 h. 02' M5S 44' SCpI 29' LN-Aut 26' Aut (SVP, UV, PATT, UPT) - PSI 23' GAL 23' Misto 23' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg15">Ripartizione dei tempi per la discussione congiunta dei disegni di legge nn. 587 (Legge di delegazione europea 2013), 588 (Legge europea 2013) e Doc. LXXXVII- bis, n. 1 (Relazione sulla partecipazione dell'Italia all'Unione europea per l'anno 2013) (10 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 1 h. Governo 1 h. Votazioni 1 h. Gruppi 7 ore, di cui : PD 2 h. 19' PdL 2 h. 03' M5S 1 h. 27' SCpI 57' LN-Aut 53' Aut (SVP, UV, PATT, UPT) - PSI 47' GAL 47' Misto 46' Dissenzienti 5'</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione del disegno di legge: (576) Conversione in legge del decreto-legge 26 aprile 2013, n. 43, recante disposizioni urgenti per il rilancio dell'area industriale di Piombino, di contrasto ad emergenze ambientali, in favore delle zone terremotate del maggio 2012 e per accelerare la ricostruzione in Abruzzo e la realizzazione degli interventi per Expo 2015</note>
+            <note type="time">16,44</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40632.htm</note>
+            <note>(ore 16,44) Approvazione, con modificazioni, con il seguente titolo:</note>
+            <note>Conversione in legge, con modificazioni,del decreto-legge 26 aprile 2013, n. 43, recante disposizioni urgenti per il rilancio dell'area industriale di Piombino, di contrasto ad emergenze ambientali, in favore delle zone terremotate del maggio 2012 e per accelerare la ricostruzione in Abruzzo e la realizzazione degli interventi per Expo 2015. Trasferimento di funzioni in materia di turismo e disposizioni sulla composizione del CIPE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u7">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg16">L'ordine del giorno reca il seguito della discussione del disegno di legge n. 576.</seg>
+            </u>
+            <note>Riprendiamo l'esame dell'articolo 1 del disegno di legge.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Avverto che gli emendamenti si intendono riferiti agli articoli del decreto-legge da convertire. Ricordo che nella seduta antimeridiana si è concluso l'esame degli emendamenti e degli ordini del giorno riferiti agli articoli del decreto-legge, ad eccezione degli emendamenti 7.0.1000 (testo 2), 8.0.500/100 e 8.0.500, che sono stati accantonati. Invito il senatore Segretario a dare lettura dell'ulteriore parere espresso dalla 5ᵃ Commissione permanente.</note>
+            <note type="speaker">PIZZETTI</note>
+            <note type="role">segretario</note>
+            <u ana="#regular" who="#PizzettiLuciano" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u8">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg17">«La Commissione programmazione economica, bilancio, esaminato l'ulteriore emendamento trasmesso dall'Assemblea 7.0.1000 (testo 2), esprime, per quanto di propria competenza, parere di semplice contrarietà sull'ultimo periodo del capoverso "Art. 7- bis, comma 1", condizionato, ai sensi dell'articolo 81 della Costituzione, all'inserimento, in fine, delle seguenti parole: ", fermo restando, comunque, lo stanziamento complessivo di cui al citato punto 1.3". Pertanto, qualora tale riformulazione non dovesse essere accolta, il parere su tale parte dell'emendamento sarebbe contrario, ai sensi dell'articolo 81 della Costituzione. Sulle restanti parti dell'emendamento il parere è di nulla osta».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u9">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg18">Passiamo all'esame dell'emendamento 7.0.1000 (testo 2), su cui invito il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">CIRILLO</note>
+            <note type="role">sottosegretario di Stato per l'ambiente e la tutela del territorio e del mare</note>
+            <u ana="#guest" who="#CirilloMarcoFlavio" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u10">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg19">Signor Presidente, chiedo di passare al successivo emendamento 8.0.500/100.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u11">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg20">Passiamo quindi all'esame dell'emendamento 8.0.500/100, su cui invito il relatore ed il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">ESPOSITO Stefano</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#EspositoStefano" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u12">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg21">Signor Presidente, la mia proposta è che l'emendamento 8.0.500 assorba come comma 2 l'intero testo del subemendamento 8.0.500/100. Si avrebbe quindi un unico articolo composto di due commi: il primo è quello rappresentato dal testo dell'emendamento 8.0.500 e il secondo risulta dall'assorbimento del subemendamento 8.0.500/100. Si avrebbe così un unico emendamento su cui il parere del relatore è favorevole.</seg>
+            </u>
+            <note type="speaker">CIRILLO</note>
+            <note type="role">sottosegretario di Stato per l'ambiente e la tutela del territorio e del mare</note>
+            <u ana="#guest" who="#CirilloMarcoFlavio" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u13">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg22">Signor Presidente, il parere del Governo è conforme a quello del relatore sull'emendamento 8.0.500 (testo 2).</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u14">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg23">Passiamo alla votazione dell'emendamento 8.0.500 (testo 2).</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg24">SANTANGELO (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dal senatore Santangelo, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Colleghi, in attesa che decorra il termine di venti minuti dal preavviso di cui all'articolo 119, comma 1, del Regolamento, sospendo la seduta. (La seduta, sospesa alle ore 16,48, è ripresa alle ore 17,01). Colleghi, riprendiamo i nostri lavori.</seg>
+            </u>
+            <note type="speaker">ESPOSITO Stefano</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#EspositoStefano" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg25">, relatore. Signor Presidente, preannuncio che dopo lo svolgimento della prossima votazione saremo costretti a chiedere un'altra breve sospensione perché l'emendamento 7.0.1000 (testo 2) richiede un approfondimento a tutela del provvedimento. L'Assemblea e la Presidenza mi perdoneranno, ma credo sarà utile concedere un'ulteriore sospensione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u16">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg26">Invito nuovamente il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, precedentemente avanzata dal senatore Santangelo, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco pertanto la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 8.0.500 (testo 2), presentato dai relatori, il cui secondo comma recepisce il contenuto dell'emendamento 8.0.500/100. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 576</seg>
+            </u>
+            <note type="speaker">PALERMO (Aut (SVP, UV, PATT, UPT) - PSI)</note>
+            <u ana="#regular" who="#PalermoFrancesco" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg27">Signor Presidente, vorrei far rilevare che il dispositivo di votazione non ha funzionato e pertanto non sono riuscito ad esprimere il mio voto.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u18">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg28">Ne prendo atto.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg29">Come anticipato dal relatore, sospendo la seduta...</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u19">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg30">Signor Presidente, le rubo solo 30 secondi. È chiaro che una sospensione non si nega a nessuno, ma nasce in me il dubbio e il timore che possa concludersi prima la legislatura che l'esame di questo provvedimento da parte dell'Aula. Alla ripresa dei lavori gradiremmo, dunque, arrivare a concludere l'esame del disegno di legge.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u20">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg31">La ringrazio, senatore Calderoli.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg32">Voglio chiarire, rispetto a eventuali valutazioni su quanto è avvenuto prima e sui tempi che sono stati adottati, che le scelte compiute sono giustificate dall'esigenza di concludere aspettando il Governo, i relatori e le Commissioni. Quindi non posso che prendere atto di tale situazione.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg33">Sospendo dunque la seduta fino alle ore 17,30. (La seduta, sospesa alle ore 17,05, è ripresa alle ore 17,32).</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg34">Riprendiamo i nostri lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg35">Invito i relatori a dirci se accettano la riformulazione dell'emendamento 7.0.1000 (testo 2) con le osservazioni della Commissione bilancio.</seg>
+            </u>
+            <note type="president">Presidenza della vice presidente LANZILLOTTA</note>
+            <note type="speaker">ESPOSITO Stefano</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#EspositoStefano" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u21">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg36">Signor Presidente, chiedo ancora scusa ai colleghi, ma abbiamo percorso l'ultimo miglio in modo puntuale. Esprimo, quindi, parere favorevole alla modifica proposta dalla 5ᵃ Commissione e riformulo in tal senso l'emendamento.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg37">PRESIDENTE. Invito il rappresentante del Governo a pronunziarsi sull'emendamento 7.0.1000 (testo 3).</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg38">CIRILLO, sottosegretario di Stato per l'ambiente e la tutela del territorio e del mare. Esprimo parere favorevole.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u22">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg39">Passiamo alla votazione dell'emendamento 7.0.1000 (testo 3).</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg40">SANTANGELO (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dal senatore Santangelo, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco pertanto la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 7.0.1000 (testo 3), presentato dalle Commissioni riunite. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 576</seg>
+            </u>
+            <note type="speaker">CASTALDI (M5S)</note>
+            <u ana="#regular" who="#CastaldiGianluca" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u23">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg41">Signora Presidente, chiedo di poter avere una scheda sostitutiva. Non ho potuto votare precedentemente.</seg>
+            </u>
+            <note type="speaker">SPOSETTI (PD)</note>
+            <u ana="#regular" who="#SposettiUgo" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u24">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg42">Signora Presidente, anch'io non ho potuto votare e chiedo che sia registrato il mio voto.</seg>
+            </u>
+            <note type="speaker">AUGELLO (PdL)</note>
+            <u ana="#regular" who="#AugelloAndrea" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u25">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg43">Signora Presidente, anch'io non ho potuto votare e chiedo che sia registrato il mio voto.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u26">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg44">La Presidenza ne prende atto.</seg>
+            </u>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u27">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg45">Signora Presidente, possiamo dire che arriviamo finalmente a conclusione di questo decreto, che ha lungamente impegnato le Commissioni riunite e quest'Assemblea. Il Gruppo Misto-SEL si asterrà su questo decreto, per una serie di motivi. Ripeto in questa sede le questioni che mi è capitato di sollevare anche questa mattina e nel corso della discussione a proposito del fatto che il decreto nasceva già un po' come un decreto omnibus, abbastanza eterogeneo; esso aveva, però, una mission fondamentale, che era quella di intervenire e trovare soluzioni adeguate per quanto riguarda il terremoto in Emilia Romagna. Per quanto ci riguarda, noi come Gruppo ci siamo molto spesi... (Brusìo).</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u28">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg46">In questo brusìo credo sia impossibile per la senatrice De Petris parlare. Invito chi intende conversare ad accomodarsi fuori dall'Aula. Rispettiamo la senatrice che sta parlando.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u29">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg47">Grazie, signora Presidente. Capisco che siamo tutti stanchi, io per prima.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg48">Noi ci siamo molto spesi e abbiamo presentato molti emendamenti per tentare, non dico di risolvere totalmente, ma almeno di dare un contributo reale e fattivo per quanto riguarda la ricostruzione in Abruzzo. Riteniamo che la situazione dell'Aquila e di tutti i Comuni del cratere - lo voglio ripetere in dichiarazione di voto - sia una questione nazionale. Il nostro Paese, complessivamente, dovrebbe ritenere prioritario affrontare e risolvere tale problematica.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg49">Avevamo svolto anche una discussione, prima della presentazione del decreto in quest'Aula, in cui l'allora ministro Barca ci aveva presentato una relazione molto dettagliata su quali fossero le risorse necessarie. Allo stesso modo, anche le audizioni del sindaco Cialente, così come dei rappresentanti e dei sindaci degli altri Comuni del cratere, ci avevano dato un quadro molto chiaro della situazione. Quelle erano le risorse: niente di più e niente di meno. Era necessario investire almeno 1 miliardo di euro l'anno per dieci anni per garantire la possibilità di un intervento adeguato. L'Aquila rappresenta un patrimonio e non solo del nostro Paese. Quindi, è doveroso per l'Italia restituire soprattutto il centro storico dell'Aquila alla possibilità, appunto, di tornare ad essere il cuore di quella città e - mi permetto di dire - anche di quella Regione.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg50">Ci sono state molte difficoltà su questi temi. L'emendamento che abbiamo appena votato risolve in parte la questione e stanzia delle risorse, ma sappiamo tutti quanti perfettamente che non sono sufficienti. È stato approvato anche un ordine del giorno che impegna il Governo a individuare altre risorse: spero che non faccia la fine di molti altri ordini del giorno votati in quest'Aula e che sia stato assunto qui oggi un impegno politico e morale, teso a individuare successivamente, nella legge di stabilità e in altri decreti, ulteriori risorse.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg51">Noi ci siamo adoperati con interventi sicuramente migliorativi sul decreto, che è intervenuto anche su altri aspetti, certamente non secondari, ma torno a ripetere che sono stati introdotti, a nostro avviso, delle norme e degli emendamenti che non avevano niente a che fare con l'oggetto del provvedimento. Mi riferisco in particolare alla questione, che è stata oggetto di discussione ieri, del Terzo valico e alle compensazioni per l'Alta Velocità. Abbiamo approvato emendamenti, ad esempio quello presentato dal Governo, che trasferisce la competenza sul turismo ai Beni culturali, che è giusto nel merito, ma è assolutamente estraneo a questo decreto. Si è seguita quindi una modalità di operare, che molti di noi hanno conosciuto anche in quest'Aula, tipica magari delle ultime notti della manovra finanziaria, con la quale ognuno ha tentato di inserire nel decreto delle norme, oppure dei finanziamenti, per questioni che certamente non erano urgenti.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg52">Per questi motivi, signora Presidente (so che lei è molto sensibile a questo argomento), ritengo che non sia più possibile continuare a trattare in questo modo lo strumento dei decreti, che dovrebbero possedere i previsti requisiti di necessità ed urgenza, affrontando e immettendo al loro interno una eterogeneità di materie assolutamente estranee. Siamo stati già richiamati varie volte da pronunciamenti della Corte costituzionale e dallo stesso Presidente della Repubblica per questo motivo, ma continuiamo ad agire in questo modo.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg53">Forse questo decreto ha dovuto farsi carico anche del compito di sopperire - lo dico con molta franchezza - ad una sorta di carenza d'iniziativa del Governo attuale. Questo è un decreto di iniziativa, appunto, del Governo Monti e, quindi, in corsa, il Governo attuale, non avendo una grande produzione di provvedimenti, ha inserito al suo interno una serie di esigenze e di iniziative che forse dovevano essere affrontate con provvedimenti a sé stanti.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg54">Credo che si sarebbe potuto fare molto meglio e non è solo una questione di risorse, perché, tra le altre cose, sono stati dichiarati improcedibili ex articolo 81, alcuni emendamenti senza che questi avessero alcun rilievo dal punto di vista del bilancio. Quindi, sono state fatte delle scelte assolutamente non chiare anche per quanto riguarda la conduzione del lavoro di approfondimento e l'attività sia delle Commissioni che dell'Assemblea. Sono stati sicuramente introdotti dei miglioramenti rispetto al decreto-legge originario: penso ad esempio alla questione dell'area industriale di Piombino e alla necessità di procedere ad interventi ambientali, anche attraverso l'opera di caratterizzazione. Da questo punto di vista un miglioramento sicuramente c'è stato. Vi è una carenza, a nostro avviso, di riflessione in generale sulle necessità delle opere infrastrutturali di questo Paese. Questo lo dico anche per quanto riguarda Piombino. Ripeto, noi siamo assolutamente d'accordo sulla necessità della bretella, ma francamente continuiamo a non comprendere la necessità di considerare una priorità l'altra infrastruttura, che comunque viene richiamata, ossia l'autostrada Cecina-Civitavecchia, e lo stesso vale per la questione che ieri abbiamo posto con molta chiarezza a proposito dell'emendamento sul Terzo valico. Abbiamo un'assoluta necessità - ripeto: assoluta - di ristabilire le priorità per quanto riguarda le infrastrutture necessarie del Paese. Ciò è ancor più necessario perché abbiamo un problema molto serio di risorse; pertanto, e a maggior ragione, le poche risorse nella nostra disponibilità debbono trovare una collocazione e una gradazione legata agli interessi dei territori e alla priorità di intervento. Signora Presidente, colleghi, avremmo potuto esprimere un voto a favore, ma - lo ripeto - le modalità di intervento, l'inserimento di una serie di emendamenti, l'insoddisfazione relativamente, ad esempio, al completamento dell'intervento in Abruzzo ci costringono ad esprimere un voto di astensione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">COMPAGNONE (GAL)</note>
+            <u ana="#regular" who="#CompagnoneGiuseppe" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u30">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg55">Signora Presidente, il decreto-legge che ci apprestiamo a convertire è certamente ampio e complesso, poiché pone rimedio a una serie di emergenze e problematiche in tema di ambiente e di infrastrutture, ma interviene anche per il rilancio di siti industriali, in materia di ricostruzione post sisma, nonché per accelerare la realizzazione dell'Expo 2015. Va sottolineato che le Commissioni hanno lavorato tantissimo e con grande spirito di collaborazione. Un ringraziamento va rivolto senz'altro ai presidenti di Commissione Marinello e Matteoli e ai relatori. Ciò a dimostrazione del fatto che quando gli interessi dei territori predominano sugli interessi di parte, della politica, si riescono ad ottenere dei buoni risultati. Qual è, secondo noi, il denominatore comune di una normativa così eterogenea? Queste emergenze e problematiche derivano sempre da ostacoli burocratici, da normative spesso inadeguate e comunque denunciano l'inadeguatezza delle istituzioni. In questo Paese, purtroppo, se si vuole vedere realizzata un'opera, bisogna emanare norme che rechino deroghe a una serie di vincoli contenuti nella normativa vigente e i commissariamenti sono spesso la leva che si utilizza per giungere a qualche risultato. Le parole chiave di questo decreto-legge diventano quindi le seguenti: deroga e commissariamento. Noi siamo convinti che uno Stato è efficiente e adeguatamente organizzato se sa rispondere con ordinarietà alle emergenze. Non è possibile affrontare carenze strutturali con strumenti emergenziali. È il caso per esempio della mia Regione, la Sicilia, dove, come da più parti è stato notato, si continua ad ampliare le discariche. Questo ci può stare nell'emergenza, ma non vi è dubbio che è indispensabile realizzare tutte quelle infrastrutture volte alla prevenzione dell'emergenza stessa. E ci sarà un'emergenza dopo l'altra, se non si realizzano tutti quegli interventi già previsti dalla legge e dal Piano regionale dei rifiuti. Il Gruppo Grandi Autonomie e Libertà voterà favorevolmente al decreto-legge in esame, perché, al di là delle considerazioni fatte e di tutti i limiti del decreto, esso risponde certamente alle esigenze reali e talvolta drammatiche dei territori. Ci auguriamo comunque che questo Governo sia un buon Governo e che si attivi affinché non si debbano più affrontare interventi straordinari. A tal proposito ci affidiamo al buon senso del Governo, con riguardo all'emendamento 8.0.200 (testo 2), in cui si fa riferimento al personale precario dell'Ufficio sisma della Sicilia orientale, affinché possa essere giudiziosamente stabilizzato. Tale personale serve a fare prevenzione per un evento, quale il sisma in Sicilia e nella zona dell'Etna, che come tutti sanno costituisce un problema importante e cronico: attraverso la prevenzione si possono certamente evitare disastri ambientali e anche dei morti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo GAL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PANIZZA (Aut (SVP, UV, PATT, UPT) - PSI)</note>
+            <u ana="#regular" who="#PanizzaFranco" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u31">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg56">Signora Presidente, prendo la parola per dichiarare il voto favorevole del Gruppo Per le Autonomie-PSI (Partito Socialista Italiano) ad un provvedimento atteso da molte comunità. Ho seguito direttamente l' iter del provvedimento nelle due Commissioni riunite e ho ben presente anche l'estrema urgenza che ne è alla base e che è stata peraltro percepita da tutti i membri delle Commissioni, sia di maggioranza che di opposizione. In particolare le audizioni degli amministratori locali ci hanno fatto tutti partecipi dell'estrema emergenza di questo provvedimento. Sicuramente il lavoro delle Commissioni ha molto migliorato il contenuto del decreto-legge e devo ringraziare tutti i commissari e i due relatori, che hanno lavorato in maniera molto convinta, perché il provvedimento era complesso e devo dire che non è stato facile riuscire a far sì che contenesse tutte le norme, peraltro fra di loro molto diverse e anche riferite a situazioni e casistiche diverse. Credo ne sia uscito un provvedimento sicuramente eterogeneo, ma che ha affrontato anche alcune tematiche che, se affrontate con le normali procedure di legge avrebbero richiesto tempi molto più lunghi, che le amministrazioni locali non avrebbero potuto sopportare. Credo dunque che alcune forzature, che in realtà sono state fatte all'interno di questo provvedimento, siano più che giustificate dagli obiettivi che si volevano ottenere. Voglio in questa sede sottolineare anche alcuni aspetti secondari del decreto-legge, che riteniamo particolarmente importanti. In primo luogo la revisione del Patto di stabilità interno, che è stato rivisto per alcune situazioni particolari, ma che crediamo debba essere rivisto per tutti, quantomeno per i piccoli Comuni. Oggi il decreto introduce alcune deroghe positive, ma che non sono sufficienti. Ci auguriamo che quest'Aula affronti questo tema quanto prima, perché molte amministrazioni non riescono ad andare avanti nella loro attività e non sono purtroppo solo i Comuni terremotati ad avere questo problema. Non mi soffermo sul problema delle cosiddette rocce e terre da scavo, perché l'abbiamo appena risolto con un emendamento. Mi limito a ringraziare i relatori, il Governo e tutta l'Aula per averlo sostenuto, perché abbiamo risolto un problema che si trascina da anni e che metteva e mette in difficoltà molte amministrazioni e molte ditte private, soprattutto artigianali: si tratta quindi di una proposta che va nel senso di favorire il rilancio del settore edilizio, che oggi è fortemente in crisi. Salutiamo anche con soddisfazione l'approvazione dell'emendamento che introduce finanziamenti per il quadruplicamento della linea ferroviaria Fortezza-Verona, di accesso Sud alla galleria di base del Brennero. Per il nostro movimento, ma anche per i territori che rappresentiamo, l'investimento ferroviario è strategico e l'opzione viaria ormai va sulle rotaie. Per noi quindi è assolutamente importante aver previsto tale disposizione all'interno del provvedimento in esame. Avevo espresso un parere positivo anche sull'emendamento - che per la verità era forzato - che prevedeva la detrazione fiscale integrale per le erogazioni liberali a favore di soggetti - compresi quelli pubblici - che organizzano eventi culturali, artistici, musicali e turistici o per l'organizzazione di mostre ed esposizioni. È vero che l'emendamento affrontava un tema molto ampio, ma è altrettanto vero che anche questa è un'emergenza e mi auguro che il Senato la voglia considerare quanto prima. Sto peraltro predisponendo un'iniziativa di legge, perché sono convinto che i nostri beni culturali si possano salvare solo prevedendo la detrazione fiscale integrale per chi sostiene il loro restauro e la loro valorizzazione. Rimarco anche positivamente la novità del nuovo Ministero dei beni e delle attività culturali e del turismo: si tratta di un binomio strategico, in particolare per l'Italia, che conserva un enorme patrimonio culturale. Il poter valorizzare la nostra offerta turistica con un patrimonio storico, archeologico, culturale e architettonico che nessuno al mondo possiede credo costituisca assolutamente una direzione strategica. Il Gruppo Per le Autonomie-PSI si augura quindi che il disegno di legge di conversione sia approvato e si vada incontro alle legittime aspettative delle popolazioni colpite dal terremoto, che oggi sono esasperate. Il Gruppo auspica inoltre che si dia avvio ad alcune norme attese per l'Expo 2015 di Milano, che hanno lo scopo di rafforzare l'immagine economica del nostro Paese. Soprattutto dopo aver assistito alle audizioni, che hanno illustrato una situazione drammatica, voglio invece rimarcare che purtroppo le emergenze in Italia sono destinate a rimanere tali per troppo tempo: sarebbe invece l'ora che potessero essere affrontate nei tempi brevi che giustamente questo tipo di situazioni richiede.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Aut (SVP, UV, PATT, UPT) - PSI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CROSIO (LN-Aut)</note>
+            <u ana="#regular" who="#CrosioJonny" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u32">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg57">Signora Presidente, con la nostra dichiarazione di voto ci vogliamo riferire direttamente al presidente del Consiglio, onorevole Letta, perché senza indugio intendiamo chiarire la posizione del Gruppo della Lega Nord su quest'urgente decreto. Si tratta di un pasticcio, disordinato e confuso, che purtroppo riteniamo anche un ricatto verso il Parlamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg58">Questo provvedimento porta con sé il peccato originale generato da chi l'ha concepito, ossia il Governo Monti, ma pesa anche sulla coscienza di questa maggioranza, come un'eredità scomoda e sicuramente imbarazzante.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg59">Lei sa benissimo, presidente Letta, che non siamo gli unici a lamentarci di questo provvedimento, ma siamo in buona ed autorevole compagnia: anche il Presidente della Repubblica, infatti, non ha mai nascosto la propria netta contrarietà ed il proprio imbarazzo quando i cosiddetti decreti d'urgenza vengono trasformati in decreti omnibus, all'interno dei quali viene inserito di tutto e di più, alla faccia della coerenza e della tanto auspicata congruità di materia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg60">D'altronde, questo tipo di decreto è stato la specialità del Governo Monti, roba vostra, e quello di oggi ne è la prova lampante (mancava solo la fiducia, ma ci siamo andati vicini).</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg61">È però la distorsione peggiore di questo provvedimento, o meglio, il palese ricatto in esso contenuto a lasciarci attoniti: come possono coesistere nello stesso decreto l'impegno a favore delle zone terremotate e la vergogna dei rifiuti di Napoli?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg62">Spiegateci come sia possibile valutare serenamente l'assistenza ai terremotati dell'Aquila - dovuta e necessaria - accomunando questa tragedia alla cronica emergenza dei rifiuti di Napoli, figlia non di una calamità naturale, bensì di malagestione e disinteresse. Questo modo di fare è un chiaro ricatto al Parlamento e agli italiani!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg63">In queste parole, presidente Letta, anche se dovessero sembrarle eccessivamente amare, le chiediamo di ritrovarsi, poiché sono in linea con le sue parole, quelle con cui, rivolgendosi al Parlamento, ha accolto l'appello del Presidente della Repubblica: «Questo è il linguaggio sovversivo della verità».</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg64">Passando agli articoli, all'interno del provvedimento vediamo con favore le disposizioni all'articolo 5, volte ad agevolare la realizzazione degli interventi previsti per l'Esposizione universale di Milano, come da lei stesso definita, «una grande occasione, che non dobbiamo mancare». Ma allora, perché non riconoscere la nostra proposta ai fini dell'immediato completamente della Pedemontana lombarda, quale opera necessaria allo svolgimento dell'Expo 2015? Non lo sappiamo.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg65">Noi non ci opponiamo al riconoscimento dell'area industriale di Piombino come area di crisi complessa e alle disposizioni previste e necessarie al suo rilancio. Prendiamo solo atto con amarezza che la nostra richiesta, con la quale chiedevamo di valutare allo stesso modo altre importanti aree industriali nel Nord del Paese, non è stata considerata. Come spesso accade nel nostro Paese ci sono figli e figliastri e, guarda caso, quando c'è da incassare i figliastri stanno sempre al Nord!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg66">Vorrei soffermarmi sull'articolo 4: l'acquedotto pugliese è l'unico sulla faccia della terra che, prima di soddisfare la sete, soddisfa la fame e questo articolo, dal punto di vista dell'urgenza, avrebbe una logica se mirasse a risolvere definitivamente la gestione commissariale che non è riuscita in tanti anni a portare a termine le opere necessarie per il suo corretto funzionamento. La Lega Nord in più occasioni in passato ha dimostrato la propria contrarietà alle gestione allegra dell'acquedotto pugliese.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg67">Signora Presidente, abbiamo valutato con attenzione il provvedimento, con l'intenzione di trovare al suo interno quel valore aggiunto che potesse dare un pretesto al nostro Gruppo per poterci esprimere con un giudizio positivo e, a tal proposito, con spirito collaborativo abbiamo pensato di proporre noi al Governo qualche valore aggiunto. Visto che parliamo di emergenze ambientali, trovate fuori luogo inserire quelle Regioni che sono state interessate da eventi alluvionali nel recente mese di maggio e, in modo particolare, il Veneto?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e della senatrice Bulgarelli.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg68">È o non è emergenza il disastro che solo nella regione Veneto ha causato oltre mezzo miliardi di danni?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e del senatore Airola</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg69">No, per voi non è emergenza. Per voi l'emergenza è un articolo aggiuntivo con il quale pensate di passare le competenze sul turismo da un organismo all'altro. Solo il fatto di proporlo alla Commissione è imbarazzante; è vergognoso!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg70">Basterebbe comunque una sola considerazione per valutare in maniera positiva la nostra proposta, anche alla luce delle valutazioni fatte sui rifiuti di Napoli e di Palermo. Presidente Letta, diamoli, e in fretta, i soldi agli emiliani, ai piemontesi, ai lombardi e ai veneti, proprio per un semplice motivo: offrono la garanzia di non rubarli.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg71">Piaccia o no, è così.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg72">Non ci siamo mai fatti grosse illusioni sul fatto che questo Governo potesse continuare a tollerare sacche di privilegio - da lei stesso così definite - cercando di colmare l'atavico divario fra Nord e Sud del Paese. Come richiamato dallo stesso Capo dello Stato, speravamo in una nuova apertura, in un nuovo slancio della società, in un colpo di reni del Mezzogiorno stesso al fine di sollevarsi da una spirale di arretramento ed impoverimento.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg73">Questo provvedimento è ancora una volta una medicina amara; sarà per il richiamato peccato originale dovuto alla sua genesi, ma essendo il primo vero provvedimento presentato dal suo Governo, se il buongiorno si vede dal mattino, forse è meglio non svegliarsi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg74">Senza polemica, ma con estrema franchezza, le diciamo che da questo Governo ci aspettiamo ben altro; se lo aspettano gli italiani e i milioni di giovani che vedono ogni giorno di più assottigliarsi la speranza di un futuro più sereno. Sono urgenti provvedimenti con politiche per la ripresa; per i provvedimenti sòla ci saranno tempi migliori!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e della senatrice Bulgarelli.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg75">Alla luce di tutto questo, è d'obbligo una considerazione. La linea di credito, aperta dalla Lega Nord a questo Governo, si riduce progressivamente ogni giorno che passa. Ci siamo presi l'impegno di valutare ogni proposta del Governo e, nel caso, di diventare anche i primi sostenitori di quelli che fanno gli interessi del Paese. In questo provvedimento ci sono troppe questioni che, camuffate dall'emergenza, si infrangono con i principi di rigore e sono piegate, ancora una volta, a logiche di puro spreco di denaro pubblico!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg76">Concludo, signora Presidente, dichiarando che il voto della Lega Nord sarà un voto di astensione. Un'astensione non di certo riconducibile ad una volontà di collaborazione con il Governo, collaborazione già sulla via del tramonto, ma solo per responsabilità e rispetto di quei cittadini per i quali l'emergenza ambientale è una questione vitale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DALLA ZUANNA (SCpI)</note>
+            <u ana="#regular" who="#DallaZuannaGianpiero" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u33">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg77">Signora Presidente, onorevoli colleghi, il provvedimento discusso in quest'Aula potrà dare una spinta economica rilevante al Paese, perché mette a disposizione risorse importanti, sia con stanziamenti diretti, sia permettendo l'intervento degli enti locali attraverso deroghe al Patto di stabilità. Quindi, la nostra valutazione complessiva è positiva. Certo, Scelta Civica avrebbe preferito che alcune misure fossero state prese con un iter diverso, più rispettoso della natura dei decreti legge. La differenza fra emergenza e intervento strutturale - in questo disegno di legge - si è oggettivamente attenuata, fin quasi a scomparire. Questo modo di procedere rischia di compromettere la serenità e la linearità del processo legislativo. A parziale giustificazione, c'è la difficoltà di mettere in atto procedimenti legislativi ordinari in modo spedito ed efficiente, stante la normativa vigente. Scelta Civica si sta impegnando a rimuovere questi problemi, in particolare proponendo modifiche ai Regolamenti della Camera e del Senato. Per questi motivi ci siamo astenuti sull'inserimento nel provvedimento del passaggio delle competenze sul turismo al Ministero dei beni e delle attività culturali. Con tutta la buona volontà, in questo caso si è violato in modo troppo palese qualsiasi principio di coerenza legislativa. Una parola su un aspetto di merito. Non siamo soddisfatti delle modalità con cui sono stati reperiti i fondi per L'Aquila. Un miliardo di euro in cinque anni, anzi, forse un miliardo e duecento milioni, per la ricostruzione verranno garantiti da modesti, ma definitivi, aumenti delle imposte di bollo. A nostro avviso, sarebbe stato più opportuno reperire i fondi mediante risparmi di spesa, ad esempio rivedendo il sistema dei contributi alle imprese, come recentemente suggerito anche dal ministro Saccomanni. Dal punto di vista politico, constatiamo la forte convergenza e la fattiva collaborazione fra i Gruppi che appoggiano il Governo nella costruzione di questa legge. Questo è l'atteggiamento che preferiamo, in contrasto con alcune posizioni di pura propaganda elettoralistica sulle ipotesi di politica fiscale del Governo, espresse in questi giorni da alcuni esponenti della maggioranza, e riecheggiate anche in quest'Aula durante la discussione generale. Il Paese ha bisogno di concretezza, ed è stanco di fanfare e bandiere.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo SCpI e del senatore Berger.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CIOFFI (M5S)</note>
+            <u ana="#regular" who="#CioffiAndrea" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u34">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg78">Cittadini del Senato, buon pomeriggio, avremmo potuto dire se fosse stato un giorno buono piuttosto che uno cattivo. Infatti questo decreto che ci apprestiamo a convertire ha avuto un iter così complesso e tortuoso che ci ha dato l'impressione di essere entrati in un porto delle nebbie. Abbiamo passato 25 giorni a studiare, ascoltare, emendare, valutare, votare emendamenti ed ordini del giorno con una serie impressionante di stop and go da far invidia ad una macchina ingolfata. Quando eravamo fuori di qua ci è capitato spesso di descrivere il Parlamento come una macchina altamente inefficiente, come un carro armato che consuma quattro litri di carburante per fare un chilometro. Siamo entrati nel Palazzo con la ferrea intenzione di trasformarlo in un'autovettura che fa venti al litro o ancora meglio in un'auto elettrica efficiente e silenziosa, ed a questo dovremmo tendere; ma l' iter di questo decreto è stato quello dell'immersione in una melassa. L'imbarazzo dei Presidenti delle Commissioni 8ᵃ e 13ᵃ la dice lunga sulla irritualità di percorso di un provvedimento che nasce dal Governo Monti e termina con il Governo Letta. Un Governo diverso che approva un provvedimento di un altro Governo sembrerebbe una cosa sui generis se non fosse che le forze politiche che sostengono i due Governi sono esattamente le stesse.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg79">Siamo di fronte alla continuità di un sistema che perpetua se stesso, a cominciare dalle più alte cariche dello Stato, per giungere all'approvazione di questo disegno di legge n. 576.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg80">Perché i cittadini che siedono su questi scranni hanno perso la voglia di cambiare? Gli italiani ve l'hanno chiesto e voi non avete fatto altro che replicare voi stessi.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg81">Perché non avete avuto il coraggio di accogliere le istanze di normalizzazione di un decreto-legge drogato da deroghe, proroghe, eccezioni per restituire un iter di ordinarietà ad un Paese stremato dal non rispetto delle regole? È il mondo alla rovescia, cari colleghi: un mondo dove l'azione rivoluzionaria si attua rispettando le regole. Ecco, siamo diventati cittadini che camminano a testa in giù, sospesi al soffitto, ma nella convinzione di essere diritti sui propri piedi. Dovremo iniziare a guardarci dal di fuori, dovremo iniziare a riprendere una visione sghemba. Come diceva il professor John Keating, dobbiamo salire sul banco per ricordare a noi stessi che dobbiamo sempre guardare le cose da un'angolazione diversa. È proprio quando crediamo di sapere qualcosa che dobbiamo guardarla da un'altra prospettiva. È questo il senso della nostra presenza in queste Aule: quello cioè di dirvi che dobbiamo pensare ed agire per cambiare lo status quo. Fuori dal Palazzo la crisi sociale è fortissima e noi abbiamo il dovere di agire senza cincischiare; eppure nel decreto-legge in esame, detto delle "emergenze", le spinte tra i parlamentari e il Governo hanno prodotto quasi una paralisi: Piombino, rifiuti di Palermo, depuratori della Campania, Expo, terremoto, insomma un fritto misto di problemi eterogenei. Per l'Expo, ad esempio, si richiede di approvare una sospensione delle prerogative e della normativa dello Stato per consentire ad un unico soggetto, un commissario unico, e a tre vice commissari di gestire in totale autonomia e assenza di controllo i fondi necessari a realizzare una manifestazione paragonabile, per impegno di spesa e complessità, ad una olimpiade. Così com'è, questo provvedimento noi non possiamo approvarlo, perché, cari cittadini del Senato, è un atto di resa incondizionata. Con questo decreto-legge noi scriviamo a caratteri cubitali e per l'ennesima volta che questo Paese non è in grado - e forse non lo sarà mai - di gestire una grande manifestazione con mezzi ordinari, programmando per tempo e costruendo un percorso condiviso con i cittadini. Quando abbiamo perso questa capacità? Non è dato saperlo. Tuttavia, i miei amici del Movimento ed io abbiamo avuto una sensazione anche peggiore: la sensazione che in quest'Aula non si sia persa la fiducia nelle capacità degli italiani, semplicemente li si considera un ostacolo, un inutile orpello di cui si farebbe volentieri a meno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg82">Vedo che siete molto attenti. Vi ho appena detto che consideriamo i cittadini un orpello e non ve ne frega niente? Scusate il termine.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Centinaio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg83">Complimenti per l'espressione, collega.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg84">Questo perché i cittadini italiani non sono stupidi, sono persone generalmente di buon senso, che si fanno domande sensate, come ad esempio la seguente: perché l'organizzazione dell'Expo parte con enorme ritardo? Se l'Expo è tanto importante, se rappresenta un'occasione tanto irripetibile (sono parole già sentite in quest'Aula), perché non partire per tempo, coordinando gli interventi necessari alla riuscita dell'evento? Perché scegliere ancora una volta, dopo gli innumerevoli precedenti fallimentari, la strada della gestione commissariale? Perché è di questo che si tratta: di un'immensa gestione commissariale, una di quelle che, beninteso, la legge esclude categoricamente. Forse perché la torta da spartirsi è grossa e fa gola a molti? Lo chiedo a voi, ma non ci aspettiamo una risposta, e non se l'aspettano gli italiani, non più.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg85">Avete persino riesumato la competenza della Protezione civile per i grandi eventi, che pure tanti danni ha provocato; vi siete inventati il commissario unico e gli avete dato un potere smisurato, per l'ennesima volta.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg86">Può un commissariamento durare dal 1994? Tutti saremo portati a dire di no, ma è stato presentato in Commissione un emendamento, a firma del relatore, per la proroga della gestione commissariale di una serie di depuratori siti nella regione Puglia. È possibile che dopo vent'anni si continui a chiedere la proroga di un commissariamento? Per non parlare poi della richiesta, proveniente da più parti, del superamento dei limiti legati al Patto di stabilità interno, che ha assunto nel 2012, durante il Governo Monti, sostenuto dalla stessa maggioranza che sostiene l'attuale Esecutivo, carattere costituzionale nella parte che precisa che gli enti territoriali, oltre che lo Stato, sono tenuti a concorrere ad assicurare l'osservanza dei vincoli economici e finanziari derivanti dall'ordinamento dell'Unione europea. Se gli stessi Gruppi politici che hanno inserito il pareggio di bilancio in Costituzione modificando l'articolo 119 adesso chiedono di poter utilizzare somme al di fuori delle regole che loro stessi si sono dati, con che faccia si presentano davanti a coloro che sono fuori dai Palazzi? Con quale coerenza? Già, la coerenza: quella coerenza che si evince anche dal tentativo di inserire in un decreto-legge temi che sono estranei al corpo del testo, come ad esempio alcune norme riguardanti i dirigenti del Ministero delle infrastrutture e dei trasporti, norme che non rivestono assolutamente il carattere dell'urgenza che deve caratterizzare tale genere di provvedimento. Nella scorsa seduta del 6 giugno un collega della Lega Nord ha detto: «Abbiamo fatto tutti finta, dal momento che contiene elementi importanti ed inderogabili, che vi fossero i presupposti costituzionali di necessità ed urgenza». Abbiamo fatto finta: è stato detto in quest'Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg87">Ecco, ancora una volta si porta il potere legislativo dal luogo che ne è il titolare, il Parlamento, al luogo che dovrebbe curarne l'esecuzione, il Governo. Questo per superare le lentezze del processo legislativo, dicono i più, ma in questo modo si tende sempre più ad esautorare il Parlamento delle sue funzioni primarie.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg88">Già dalla stagione dei sindaci, cominciata nel 1993, si è andati verso l'accentramento del potere dagli organismi eletti a quelli nominati, le giunte comunali, con il conseguente svuotamento delle funzioni del consiglio comunale. A livello centrale sempre più si è fatto ricorso allo strumento della decretazione d'urgenza e i parlamentari si sono seduti comodamente senza ribellarsi. L'animo umano è fatto così: tende sempre a privilegiare la comodità piuttosto che la fatica, la via in discesa piuttosto che quella in salita. E così in Parlamento e in Commissione ci si limita ad alzare una mano e si è abbandonato il pensiero critico.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg89">La capacità di lottare per il rispetto delle regole democratiche richiede fatica ed impegno. Richiede di essere una voce fuori dal coro. Richiede di dire, di gridare che una ragazza non può essere la nipote di Mubarak: uno dei momenti più degradanti dell'autonomia del pensiero.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg90">Continuiamo così, con gli emendamenti presentati al decreto-legge in esame, a infilare in esso norme, regole ed argomenti estranei al solo fine di fare presto, al solo fine di soddisfare aspetti ed appetiti localistici.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg91">Signori, se riuscissimo a riportare il focus di chi siede in questa Assemblea sui reali problemi delle persone, forse si potrebbe essere celeri nella valutazione e nell'approvazione dei disegni di legge e finalmente si riporterebbe alla normalità il sistema. Le deroghe che si continuano a fare sulla struttura legislativa sono anch'esse figlie di una logica da condannare, da eliminare. L'esercizio democratico è faticoso e non può essere esaurito dalla velocità con la quale si esaminano e si votano gli emendamenti e gli ordini del giorno e dalla lentezza con cui rimbalzano tra il Governo, la Commissione bilancio e la Commissione lavori pubblici. In conclusione, egregi colleghi, pur apprezzando gli sforzi fatti per apportare miglioramenti e liberare risorse in favore dei terremotati dell'Aquila e dell'Emilia, dichiariamo il nostro voto contrario al provvedimento, augurandoci di non dover più partecipare a questa gara all'arraffo, a questa gara di esasperante lentezza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MATTEOLI (PdL)</note>
+            <u ana="#regular" who="#MatteoliAltero" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u35">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg92">Signora Presidente, come Presidente della 8ᵃ Commissione desidero innanzitutto ringraziare tutti i suoi membri nonché i componenti della 13ᵃ Commissione, anche coloro che fanno parte di movimenti politici di opposizione. Devo dire infatti che, a differenza di quanto accaduto in Assemblea, nell'ambito delle Commissioni si è registrata una certa collaborazione. Desidero poi ringraziare i relatori, in modo particolare il senatore Stefano Esposito, il quale si è accollato il maggior lavoro di questo complesso provvedimento. Ringrazio altresì gli esponenti del Governo che si sono susseguiti nei rapporti con la Commissione, che ho trovato tutti molto collaborativi. Il decreto-legge n. 43 del 26 aprile 2013 è una sorta di provvedimento omnibus, emergenziale, ereditato dal Governo precedente, che la Commissione lavori pubblici, che ho l'onore di presiedere, ha modificato ampiamente insieme alla Commissione ambiente, presieduta dal collega Marinello, e all'attuale Esecutivo. Se andiamo a leggere il titolo del provvedimento, che riporta le parole "emergenze ambientali", e poi consideriamo tutto quanto abbiamo in esso inserito, rileviamo che l'aspetto ambientale è diventato secondario rispetto alle disposizioni che man mano l'Assemblea del Senato ha approvato. Si tratta quindi di un provvedimento molto complesso e complicato, il cui esame ha impegnato assiduamente le Commissioni e i rappresentanti del Governo. Posso dire con assoluta sincerità che il lavoro prodotto è positivo. Quando si lavora con reciproca collaborazione si raccolgono i frutti, e questo è senz'altro un buon segnale per il Governo, per la sua maggioranza, ma soprattutto per il Paese. È un provvedimento complesso, si è detto (tutti coloro che sono intervenuti lo hanno sottolineato), che poteva anche essere esaminato privilegiando le convinzioni ideologiche dei vari colleghi senatori. Non dico che questo non sia stato a volte presente nel dibattito e nella presentazione degli emendamenti, ma sostanzialmente il Governo al primo serio appuntamento con il Parlamento ha retto bene ed è stato correttamente supportato dalla sua maggioranza. E questo è l'aspetto politico più rilevante. Le misure più importanti hanno riguardato l'area industriale di Piombino (rispetto alla quale ho sentito tante sciocchezze), l'Expo 2015 di Milano (anche al riguardo sono state dette tante inesattezze), l'emergenza ambientale in Campania, la gestione dei rifiuti nella città di Palermo, il provvedimento in favore delle zone colpite dal sisma in Abruzzo, in Emilia-Romagna, in Molise. Riguardo Piombino non abbiamo potuto risolvere tutte le questioni aperte che riguardano la città toscana, dove si rischia una ancor più forte sofferenza occupazionale e produttiva non solo nello stabilimento siderurgico. Ho sentito critiche che non ho remora a definire assurde. Evidentemente non si conosce la storia di quella zona, di ciò che da un punto di vista occupazionale ha rappresentato Piombino, che - badate bene - dal punto di vista politico-elettorale non ha mai dato soddisfazione né a me né al mio partito, poiché si è sempre votato dall'altra parte. Rivolgendomi ai tanti colleghi che sono entrati in Parlamento in maniera anche un po' aggressiva, dico che si deve tener conto delle esigenze dei cittadini. Non si ha però consapevolezza di cosa si parla quando si critica il fatto che il Parlamento assume un certo provvedimento per una data città. Prima con l'ILVA, poi con l'Italsider: oltre 10.000 dipendenti più i 10.000 nell'indotto. Quando è arrivato il privato (Lucchini), che garantiva poco più di 2.000 posti di lavoro rispetto a 10.000-12.000, tutta la città di Piombino, che votava per il 60-70 per cento a sinistra, ha applaudito il nuovo padrone ringraziandolo perché assicurava 2.000 posti di lavoro. Ma ci sono anche la Magona d'Italia, altro stabilimento che contava migliaia di dipendenti, oggi ridotto a poche centinaia; la centrale ENEL di Torre del Sale, che l'ENEL vorrebbe riconvertire a carbone. Ma la città protesta e la centrale rischia la chiusura: altri posti di lavoro a rischio. Piombino ha anche bei posti che potevano essere sfruttati dal punto di vista turistico, vedi il Golfo di Baratti. Purtroppo, però, il numero degli addetti ricoprirebbe poche decine di posti di lavoro. E potrei continuare. Questo decreto-legge apre quindi qualche possibilità e prospettiva per quanto riguarda il rilancio occupazionale partendo dalla infrastruttura portuale. Sappiamo che per Piombino occorrevano provvedimenti ancora più sostanziali, ma è un primo passo importante e mi sorprendono le critiche che abbiamo ascoltato. Quanto all'Expo 2015, con il provvedimento si mira a semplificare la struttura commissariale convogliandola in un'unica figura per rendere più agevoli le procedure. Il Gruppo del PdL guarda a questo appuntamento con grande attenzione perché si tratta di una grande occasione non solo per Milano e la Lombardia, ma per tutto il Paese. Il Governo di centrodestra ha lavorato con grande impegno per l'Expo. È giusto però ricordare un sindaco di centrodestra, che lo ha fortemente voluto, ed un sindaco di sinistra, che lo porta avanti. È questa l'Italia che vogliamo: un'Italia che la pensa in grande. Cosa vuol dire Expo 2015? Sono state già dette dal senatore Mirabelli alcune cose importanti, che condivido. Non si tratterà solo di nuove infrastrutture, che resteranno a disposizione dei cittadini. Pensate che l'Expo di Singapore ha avuto 60 milioni di visitatori. Nel 2015 i visitatori non si fermeranno soltanto a Milano, ma avranno la possibilità di visitare il nostro bel Paese e di portare quindi ricchezza non solo a Milano e alla Lombardia, ma a tutte le città che hanno caratteristiche turistiche. L'Expo è dunque sicuramente da volere, cercando di fare in modo che abbia il successo migliore, perché è l'Italia che si presenta al mondo attraverso l'Expo 2015. Per la parte del decreto riguardante gli interventi per il terremoto in Abruzzo, sappiamo perfettamente che il decreto non poteva risolvere tutte le problematiche, soprattutto finanziarie, che si frappongono alla ricostruzione delle zone ricadenti nel cratere del sisma. Siamo consapevoli che i fondi stanziati non sono risolutivi, ma è altrettanto vero che le Commissioni riunite 8ᵃ e 13ᵃ, prima, e l'Aula, dopo, hanno lavorato con i rappresentanti del Governo per cercare di andare incontro alle giuste richieste delle popolazioni abruzzesi. Auspichiamo - e vigileremo perché ciò avvenga - che il Governo prenda in ulteriore considerazione la situazione dell'Aquila. La ricostruzione del centro storico per le sue bellezze non può essere un problema abruzzese o aquilano: è un problema di tutta l'Italia, riguarda tutta l'Italia. D'altra parte, subito dopo il sisma, si riuscì in tempi di record a costruire un tetto per migliaia di persone. Ora occorre altrettanta forza e determinazione per la ricostruzione ed auspico che l'attuale Governo, che ha una forza parlamentare fortissima, riesca a dipanare una matassa che per le responsabilità diffuse si è aggrovigliata. Il Gruppo del Popolo della Libertà, pertanto, voterà convintamene a favore di questo provvedimento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PdL e della senatrice Bulgarelli. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FILIPPI (PD)</note>
+            <u ana="#regular" who="#FilippiMarco" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u36">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg93">Signora Presidente, onorevoli colleghi, signor rappresentante del Governo, con l'approvazione di questo provvedimento il Governo Letta, pur ereditando uno schema di decreto dal precedente Governo, ha avuto l'opportunità di approntare le prime significative risposte alle situazioni di maggiore emergenza presenti oggi nel Paese. Si va dal riconoscimento della situazione di crisi industriale complessa per la realtà industriale di Piombino - con questo provvedimento estesa anche a quella di Trieste - alle emergenze ambientali idriche e di smaltimento dei rifiuti della Sicilia e della Campania, a quella dei recenti eventi sismici dell'Abruzzo e dell'Emilia, estesa con questo provvedimento anche al Molise, oltre agli impegni assunti per la Basilicata, la Calabria e l'Umbria, fino alla soluzione - speriamo di assoluta garanzia - per gli impegni internazionali che sono stati assunti dal nostro Paese per la realizzazione dell'Expo 2015, che riteniamo da sempre una grande opportunità per l'Italia, come ha ben espresso il collega Mirabelli. In ultimo, vi è anche un primo significativo risarcimento, intervenuto davvero a tempo di record, per la tragedia consumata nel porto di Genova, dimostrando, una volta tanto, di unire alla necessaria sensibilità anche l'immediata concretezza. Insomma, ce n'è abbastanza per guardare agevolmente, direi senza neppure troppo sforzo, al bicchiere mezzo pieno contenuto in questo provvedimento. In sede di dichiarazione di voto, però, sono anche altre le valutazioni che ritengo di segnalare all'attenzione dell'Assemblea, per un giudizio più compiuto sul provvedimento, che possa anche andare oltre al solo merito del contenuto, del quale ci riteniamo comunque soddisfatti, grazie soprattutto al lavoro fatto in Commissione, che ha consentito di migliorarlo non di poco. Una prima doverosa riflessione penso debba essere aperta a partire dalla metodologia usata per l'esame di questo atto, che ha manifestato anche evidenti limiti che sarebbe sbagliato ignorare. Pur confermando infatti la validità di un modello sperimentato utilmente nella scorsa legislatura con il Governo Monti, come abbiamo apprezzato, non tutto è filato liscio. Un modello che probabilmente merita comunque di essere preservato, perché al momento l'unico capace di regolare un rapporto non sempre facile da definire tra Parlamento e Governo nell'esame dei decreti, ossia provvedimenti di urgenza in cui la centralità del Parlamento si scontra spesso con le prerogative del Governo; però, in questo specifico caso, come è stato ricordato, senza il maxiemendamento su cui nel passato generalmente veniva posta la fiducia e che chiudeva nei fatti il provvedimento, si sono manifestate importanti difficoltà nella relazione con la Commissione bilancio e all'interno dello stesso Governo. Nonostante ciò, ancora una volta, pur con tutti i limiti della circostanza che ho richiamato, anche per questo provvedimento è stato comunque dimostrato che i decreti del Governo nati sotto l'impulso della necessità e dell'urgenza possono poi essere ulteriormente migliorati nelle Aule parlamentari, laddove si registra volontà di ascolto e di confronto. Siamo di questo sinceramente grati al Governo! Un provvedimento, sia detto fino in fondo, che pur circoscritto all'ambito di alcune delle principali emergenze presenti nel Paese, ad esse però non ha corrisposto pienamente in termini risolutivi e talvolta neppure in termini pienamente soddisfacenti. Un provvedimento che si caratterizza infatti prevalentemente con misure di deroga alle norme ordinarie e di proroga termini delle scadenze previste, unendo a ciò richieste di risorse non reperibili nei mercati di riferimento o in quelli potenziali. Proprio per questo, necessitando di risorse straordinarie ed eccezionali, ha conosciuto le sue naturali torsioni proprio nel reperimento delle risorse inizialmente non previste. Se ciò è sicuramente fisiologico per situazioni di emergenza o di calamità, probabilmente lo è meno quando deroghe e proroghe vengono richieste e previste anche per la realizzazione dei grandi eventi o per affrontare aree di crisi complessa o emergenze ambientali in corso da anni. E ciò avviene, non paradossalmente, purtroppo, proprio quando anche recenti provvedimenti assunti dal Parlamento avevano escluso la possibilità di ricorrervi, oppure quando per altri versi si ricorre a risorse straordinarie per cercare di realizzare dotazioni infrastrutturali che avrebbero dovuto invece già essere nelle disponibilità di quelle realtà, specie nei siti dove da tempo dovevano costituirne un elemento essenziale di sviluppo. Anche da questo provvedimento comunque si parte, per questa nuova legislatura, in un percorso che, come sappiamo, si preannuncia incerto, tormentato e fragile, ma proprio per questo anche affascinante per la posta che è in gioco: un obiettivo rappresentato dalla necessità di restituire normalità ad un Paese che si accorge troppo spesso di esistere e di reclamare attenzione solo nell'eclatanza delle sue rappresentazioni. Un Paese che ha bisogno di emergenze per funzionare, giustificando deroghe e proroghe e con esse recuperando risorse altrimenti indisponibili, come sappiamo bene, è un Paese malato! E a questo malato è bene che noi rivolgiamo con più attenzione le nostre cure. E allora, a partire da questo provvedimento, occorre davvero che nei nostri prossimi lavori parlamentari possa scattare un comune e ulteriore sussulto di responsabilità, non tanto e non solo per cercare (e magari trovare) soluzioni più soddisfacenti alle situazioni di crisi eccezionale o alle emergenze calamitose che ci hanno così segnati in questi anni e che ovviamente speriamo non abbiano a ripetersi, ma soprattutto per cercare di riformare quegli strumenti essenziali per dare funzionalità ad un Paese che nella quotidianità conosce l'aspetto più profondo della propria crisi attuale: quella di uno Stato che da tempo non è più in grado di dare ad ogni livello risposte adeguate ai bisogni concreti dei propri cittadini. Da questo provvedimento credo si imponga almeno la necessità di prendere in seria considerazione una rigorosa legge delega per la riforma del codice degli appalti, ormai divenuto, insieme al codice della strada, tanto per fare un esempio, uno dei tanti codici lunari di questo Paese: illeggibile, incomprensibile e non più emendabile. E stiamo parlando dei codici più diffusi nella loro quotidiana applicazione e nel loro utilizzo. Se questo Governo, insieme ad una migliore funzionalità, sempre da registrare in una fase di avvio tanto tormentata come quella in questione, deciderà di allungare lo sguardo anche alle riforme strutturali, deve sapere che troverà un Parlamento attento, competente e sensibile alle necessità vere del Paese e forse insieme troveremo anche la chiave per l'uscita da questa crisi, che da troppo tempo perdura senza trovare soluzioni adeguate e convincenti. Per noi le soluzioni non possono essere costituite da contesti in cui gli scenari dell'azione di Governo siano caratterizzati dal ricorso sistematico a pur bravi e stimati commissari straordinari, siano essi i Presidenti delle nostre Regioni o specchiati e stimabili tecnici. Noi non possiamo e non vogliamo smettere di sognare - e per questo pretendere - un Paese in cui l'eccezionalità e la straordinarietà trovino risposta con gli strumenti ordinari della buona amministrazione e con l'operato trasparente di persone per bene, che antepongono il bene comune agli interessi di parte e, massimamente, a quelli individuali. Siamo convinti che questo Governo abbia nelle proprie corde il timbro di questi registri, che non vogliamo solo evocare per facile retorica, ma perché possano davvero costituire la stella polare dell'azione di governo. Per tutto questo, pur nella consapevolezza dei limiti che questo provvedimento ancora contiene, soprattutto rispetto alle attese, ma anche nella consapevolezza dei molti correttivi e integrazioni prodotte, in termini sia ordinamentali sia di risorse apportate, di certo non faremo mancare il nostro convinto voto favorevole. Sia permesso, infine, anche a me di ringraziare tutti coloro che, nella ristrettezza dei tempi e in quella maggiore delle risorse che la situazione economica attuale ci ha imposto, hanno permesso con il loro lavoro e con la loro dedizione di contribuire così significativamente al miglioramento del provvedimento, a partire dal lavoro svolto dal relatore, Stefano Esposito, che è stato il vero custode del provvedimento, alla serietà e dedizione dimostrata dai Sottosegretari, che hanno scortato il provvedimento nelle Commissioni parlamentari e in Assemblea, alla sensibilità dei presidenti delle Commissioni Matteoli e Marinello e al lavoro serio e responsabile davvero di tutti - nessuno escluso - i senatori delle Commissioni di merito, che hanno reso possibile il risultato che si è determinato. In ultimo, consentitemi un sincero e forse il più doveroso dei ringraziamenti a coloro che in ogni momento hanno coadiuvato il nostro non facile lavoro dietro le quinte: mi riferisco alle funzionarie e ai funzionari del Senato, del Governo e dei nostri Gruppi parlamentari.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u37">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg94">Comunico che è stata presentata la proposta di coordinamento C1, che è in distribuzione e che invito il relatore ad illustrare.</seg>
+            </u>
+            <note type="speaker">ESPOSITO Stefano</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#EspositoStefano" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u38">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg95">Signora Presidente, se non ci sono obiezioni, non illustro la proposta di coordinamento, visto che è stata distribuita. Tengo tuttavia a dare lettura dell'integrazione del titolo del disegno di legge di conversione, che si aggiunge al titolo del provvedimento che è stato trasmesso al Senato: «Trasferimento di funzioni in materia di turismo e disposizioni sulla composizione del CIPE».</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg96">Signora Presidente, intendo ribadire, a nome di tutto il Senato, il ringraziamento, che avevo già espresso in sede di apertura di seduta e che credo meriti di essere ripetuto per il lavoro svolto anche in Aula, agli uffici delle Commissioni 8ᵃ e 13ᵃ, agli uffici dell'Assemblea e a tutti i funzionari e i dirigenti che ci hanno assecondato e coadiuvato, consentendoci di portare a termine questo provvedimento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u39">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg97">Metto ai voti la proposta di coordinamento C1, presentata dai relatori.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg98">È approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg99">Con l'avvertenza che la Presidenza si intenderà autorizzata ad effettuare le eventuali ulteriori modifiche di coordinamento formale che dovessero risultare necessarie, metto ai voti il disegno di legge, composto del solo articolo 1, nel testo emendato, con il seguente titolo: «Conversione in legge, con modificazioni, del decreto-legge 26 aprile 2013, n. 43, recante disposizioni urgenti per il rilancio dell'area industriale di Piombino, di contrasto ad emergenze ambientali, in favore delle zone terremotate del maggio 2012 e per accelerare la ricostruzione in Abruzzo e la realizzazione degli interventi per Expo 2015. Trasferimento di funzioni in materia di turismo e disposizioni sulla composizione del CIPE».</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg100">È approvato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e PdL.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul fenomeno del bullismo nelle scuole</head>
+            <note type="speaker">DI GIORGI (PD)</note>
+            <u ana="#regular" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u40">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà. (Brusìo). Chiederei ai colleghi di lasciare l'Aula con un po' di silenzio per consentire alla senatrice di intervenire. DI GIORGI (PD). Signora Presidente, vorrei porre all'attenzione dell'Assemblea una questione che interessa i bambini e le famiglie: è un episodio molto grave, direi gravissimo, che è successo in una scuola di Firenze. Questo fa sorgere forse ulteriori perplessità, considerando il contesto sociale, appunto, di quella città. L'episodio si è verificato nei giorni scorsi e si è consumato ai danni di un bambino di dieci anni durante il momento della ricreazione: quindi, a scuola durante l'orario scolastico. Secondo la prima ricostruzione giornalistica, il bambino, vittima dei soprusi, è alunno di un istituto primario della città ed era da tempo oggetto di violenze psicologiche, fisiche e verbali da parte di un gruppo di una decina di coetanei, compagni di scuola: un fatto gravissimo, come lo è ogni azione di coercizione, forma di violenza o sopraffazione. Questo è ancora più intollerabile... (Brusìo). PRESIDENTE. Scusate, colleghi, vi chiedo di defluire dall'Aula in silenzio perché la senatrice De Giorgi ha veramente difficoltà a far prevalere la sua voce sul brusìo. DI GIORGI (PD). Capisco la stanchezza dei colleghi dopo l'esame del provvedimento che abbiamo appena terminato, ma vi prego di ascoltare il mio breve intervento, perché si tratta di un fenomeno che coinvolge direttamente tante famiglie in tutta Italia. Ci sono alcuni elementi di gravità che probabilmente spesso non sono nemmeno denunciati. Tante famiglie vivono questi episodi in silenzio, in assoluto silenzio, e anche in solitudine, e i bambini purtroppo riportano danni che qualche volta si fanno sentire a lungo negli anni: parlo di bambini e di ragazzi, perché si tratta spesso di adolescenti o addirittura di studenti delle scuole superiori. Questo succede in orario scolastico. La scuola dovrebbe rappresentare lo spazio della convivenza e della crescita civile e sociale. Come sapete, l'episodio in questione è proprio brutto: il bambino è stato legato e poi aggredito con pugni e morsi. Quindi, qualcosa di veramente brutto anche da sentire e da leggere nelle cronache. Il dato naturalmente non è soltanto italiano; noi stiamo parlando della Toscana, ma i dati sono molto pesanti anche a livello europeo. Dall' European bullying research, che è parte di un progetto europeo contro il bullismo, emerge che il 15,9 (quindi quasi il 16 per cento) degli studenti intervistati è stato vittima di bullismo e che la maggior parte dei bulli sono compagni di classe (il 48 per cento) o comunque studenti della stessa scuola (il 23 per cento). Analogamente, secondo l'indagine sulle condizioni dell'infanzia e dell'adolescenza in Italia condotta da Telefono Azzurro ed Eurispes nel 2011 su un campione di quasi 1.500 studenti di età compresa tra i 12 e i 18 anni (questa è la fascia più alta di età), le forme di prevaricazione comunemente messe in atto sono la diffusione di informazioni false o cattive tramite il web. Questa è una novità, un'altra forma di violenza, diversa dai pugni e dai morsi, ma comunque un tipo di violenza - come sappiamo - che ha condotto (e ne abbiamo parlato anche in quest'Aula recentemente) al suicidio di un adolescente. Credo che tutto ciò possa essere combattuto con un grosso investimento all'interno della scuola.</note>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e M5S e del senatore Minzolini.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg101">Gli insegnanti devono essere formati per poter lavorare su questo fronte e devono avere gli strumenti: questo dipende anche da noi, colleghi. Dovremo provare ad immettere nuovi finanziamenti nella nostra futura azione politica e parlamentare di supporto al Governo, se potremo farlo, proprio perché ci siano gli strumenti a disposizione della nostra scuola per opporsi a tale fenomeno. Perché è una questione di...</seg>
+               <kinesic type="applause">
+                  <desc>Il microfono si disattiva automaticamente. Applausi dai Gruppi PD e M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla crisi occupazionale della DDway di Torino</head>
+            <note type="speaker">ESPOSITO Stefano (PD)</note>
+            <u ana="#regular" who="#EspositoStefano" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u41">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg102">Signora Presidente, vorrei portare all'attenzione dell'Assemblea e del Governo - e spero che la Presidenza se ne possa fare latrice - l'ennesima situazione di crisi dell'azienda DDway, del gruppo Dedagroup, che ha annunciato recentemente 119 esuberi, sui 294 previsti, solo nella città di Torino. Si tratta dell'ennesimo durissimo colpo per il sistema dell'ICT (Information and communication technology) torinese, già duramente colpito dalla crisi della grande struttura del CSI (Consorzio per il Sistema Informativo). Questa azienda nel dicembre dello scorso anno era stata ceduta dalla multinazionale americana CSC a Dedagroup con la solita promessa, non mantenuta evidentemente, di sviluppo e conservazione dell'occupazione. Ci troviamo di fronte all'ennesimo durissimo taglio. Fino a questo momento la trattativa era rimasta a livello di Assolombarda, perché la sede legale dell'azienda è a Milano, ma di fronte alla trattativa l'azienda ha chiuso qualunque spiraglio. Chiedo che il Governo ponga particolare attenzione su questo tema, in stretta relazione con la Regione Piemonte che se ne sta occupando, per aprire finalmente un tavolo nazionale. Forse è arrivato il momento - e penso che questo sarà oggetto di un'iniziativa parlamentare - di affrontare una discussione serissima sulla crisi di una delle Regioni più importanti per il nostro Paese, una delle Regioni che produce ancora grandi quote di PIL. Il Piemonte ha un insediamento industriale tradizionale, ma importantissimo anche rispetto all'ICT, e sta subendo giorno dopo giorno durissimi colpi. Forse è arrivato il momento di un confronto all'interno delle Aule parlamentari con il Governo per comprendere se non siano necessarie iniziative straordinarie per bloccare questo tipo di decadimento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Di Giorgi e del senatore Caleo.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u42">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg103">Senatore, rappresenteremo al Governo la sua sollecitazione.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulle votazioni del disegno di legge n. 576</head>
+            <note type="speaker">PUGLIA (M5S)</note>
+            <u ana="#regular" who="#PugliaSergio" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u43">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg104">Signora Presidente, vorrei soltanto precisare che ieri ero presente in Aula ed ho sempre partecipato alle votazioni, ma mi è sembrato di percepire che il dispositivo non abbia recepito due mie votazioni. Ci tenevo a precisare questa particolarità.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u44">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg105">Ne prendiamo atto ai fini della verbalizzazione.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u45">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg106">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per le sedute di giovedì 13 giugno 2013</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.u46">
+               <seg xml:id="ParlaMint-IT_2013-06-12-LEG17-Sed-40.seg107">Il Senato tornerà a riunirsi domani, giovedì 13 giugno, in due sedute pubbliche, la prima alle ore 9,30 e la seconda alle ore 16, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 18,46).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

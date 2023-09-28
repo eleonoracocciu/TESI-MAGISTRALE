@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 74 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 74 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 74, giorno (2018-12-19)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 74, Day (2018-12-19)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="74-upper">74 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="125" unit="speeches" xml:lang="it">125 discorsi</measure>
+            <measure quantity="125" unit="speeches" xml:lang="en">125 speeches</measure>
+            <measure quantity="8992" unit="words" xml:lang="it">8.992 parole</measure>
+            <measure quantity="8992" unit="words" xml:lang="en">8,992 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1089595</idno>
+               <date when="2018-12-19">19.12.2018</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="8"/>
+               <tagUsage gi="head" occurs="7"/>
+               <tagUsage gi="note" occurs="41"/>
+               <tagUsage gi="seg" occurs="125"/>
+               <tagUsage gi="u" occurs="22"/>
+               <tagUsage gi="vocal" occurs="20"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="67"/>
+               <tagUsage gi="desc" occurs="87"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2018-12-19">19.12.2018</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente ROSSOMANDO</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u1">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg1">La seduta è aperta (ore 12,01). Si dia lettura del processo verbale. LAFORGIA, segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u2">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg3">Onorevoli colleghi, comunico che l'informativa del Presidente del Consiglio dei ministri sulla manovra economica, già prevista per le ore 12, avrà luogo alle ore 13.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg4">Sospendo pertanto la seduta fino alle ore 13. (La seduta, sospesa alle ore 12,04, è ripresa alle ore 13,14).</seg>
+            </u>
+            <note type="president">Presidenza del presidente ALBERTI CASELLATI</note>
+         </div>
+         <div type="debateSection">
+            <head>Informativa del Presidente del Consiglio dei ministri sulla manovra economica e conseguente discussione</head>
+            <note type="time">(ore 13,14)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u3">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg5">L'ordine del giorno reca: «Informativa del Presidente del Consiglio dei ministri sulla manovra economica».</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg6">Ha facoltà di parlare il presidente del Consiglio dei ministri, professor Conte.</seg>
+            </u>
+            <note type="speaker">CONTE</note>
+            <note type="role">presidente del Consiglio dei ministri</note>
+            <u ana="#guest" who="#ConteGiuseppe" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u4">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg7">Gentile Presidente, onorevoli senatrici e senatori, nel riferire al Parlamento sugli esiti del dialogo con la Commissione europea, desidero in primo luogo esprimere il mio sentito ringraziamento a tutti voi, di maggioranza ma anche di opposizione, per la comprensione mostrata in questi giorni durante i quali l' iter di esame del disegno di legge di bilancio ha proceduto con lentezza, scontando un ritardo rispetto ai tempi previsti. I rinvii non sono stati causati - come sapete - da incertezze interne alla maggioranza di Governo. Nei giorni scorsi, si è imposto un rallentamento del vostro esame, così determinando una inevitabile compressione del dibattito in Commissione a causa della complessa interlocuzione che è intercorsa con l'estensione dell'Unione europea, alla quale abbiamo dedicato le nostre più risolute energie e il nostro più intenso impegno. Questa interlocuzione ci ha richiesto inesorabilmente molto tempo - come è inevitabile, d'altra parte - in un negoziato caratterizzato da forti connotazioni politiche, seppur dipanate lungo il binario di un serrato confronto tecnico di natura finanziaria e contabile. In queste settimane, durante le quali i canali del dialogo non si sono mai interrotti, abbiamo lavorato per avvicinare le posizioni, senza mai arretrare - desidero rimarcarlo - rispetto agli obiettivi che, con il voto del 4 marzo, gli italiani hanno ritenuto prioritari nell'azione di Governo. Come è noto, allo scopo di rispondere alle urgenze e ai bisogni avvertiti dai cittadini e dalle imprese, abbiamo realizzato interventi di equità sociale, di inclusione e di sostegno al reddito che, in base a una stima iniziale, hanno determinato, insieme alle altre misure anche di investimento, un deficit del 2,4 per cento. A fronte della decisione del Governo, la Commissione europea ha espresso le proprie riserve, preannunciando l'avvio, nei confronti dell'Italia, di una procedura di infrazione per disavanzo eccessivo. Si profilava così per il nostro Paese una prospettiva che andava evitata. Abbiamo lavorato con la massima determinazione per evitare la procedura di infrazione, dialogando a più riprese con il Presidente e alcuni componenti della Commissione europea in particolare, ma anche con vari Capi di Stato e di Governo di singoli Paesi membri, al fine di illustrare ai nostri interlocutori il più ampio disegno riformatore e di persuaderli sulla opportunità di giungere, nel reciproco interesse, a una soluzione condivisa. Abbiamo pienamente salvaguardato la nostra impostazione della manovra di bilancio. Non abbiamo ceduto sui contenuti, certi degli affetti virtuosi... (Si verificano dei malfunzionamenti nel sistema audio).</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u5">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg8">È preferibile cambiare microfono. Proviamo a usarne un altro.</seg>
+               <kinesic type="applause">
+                  <desc>Commenti dal Gruppo PD. Applausi ironici dal Gruppo FI-BP. Commenti della senatrice Pucciarelli.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg9">MARCUCCI (PD). Non te la prendere con me! PRESIDENTE. Presidente, mi scusi, ma le suggerisco di usare un altro microfono.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg10">, presidente del Consiglio dei ministri. Non abbiamo ceduto sui contenuti, certi degli effetti virtuosi che nel medio periodo una manovra espansiva potrà determinare sul tessuto economico e sociale e comunque fermi nelle determinazioni... BELLANOVA (PD). È in crescita!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg11">FARAONE (PD). State buoni! Calma. PRESIDENTE. È stata richiesta più volte in Conferenza dei Capigruppo l'informativa. Adesso, allora, abbiate tutti la pazienza di ascoltare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP-PSd'Az e FI-BP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg12">AIROLA (M5S). State zitti e ascoltate!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg13">PRESIDENTE. Per favore, non mi pare sia il momento della polemica. Lasciamo terminare il Presidente del Consiglio. Presidente, prego.</seg>
+            </u>
+            <note type="speaker">CONTE</note>
+            <note type="role">presidente del Consiglio dei ministri</note>
+            <u ana="#guest" who="#ConteGiuseppe" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u6">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg14">...fermi nelle determinazioni assunte con il contratto di Governo, cioè rispondere all'esigenza, fortemente avvertita, di invertire le politiche di rigore che negli anni passati hanno aggravato la crisi, determinando una forte compressione dei redditi, una riduzione dei consumi, un generale impoverimento di ampie fasce della popolazione.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg15">BELLANOVA (PD). Infatti la fiducia cresce!</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo M5S.</desc>
+               </vocal>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u7">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg16">Senatrice, se interviene ancora, deve uscire dall'Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP-PSd'Az, FI-BP e FdI.</desc>
+               </kinesic>
+               <kinesic type="applause">
+                  <desc>Commenti e applausi ironici della senatrice Bellanova.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg17">Se interviene ancora, esce. La diffido. Deve stare zitta!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Buccarella.</desc>
+               </kinesic>
+               <kinesic type="applause">
+                  <desc>Applausi ironici della senatrice Bellanova.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg18">Prego, presidente Conte.</seg>
+            </u>
+            <note type="speaker">CONTE</note>
+            <note type="role">presidente del Consiglio dei ministri</note>
+            <u ana="#guest" who="#ConteGiuseppe" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u8">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg19">Quando il 21 novembre scorso la Commissione ha formalizzato le sue riserve sulla versione rivista...</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg20">BELLANOVA (PD). Non mi faccio mettere il bavaglio!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dai Gruppi M5S e FI-BP.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg21">AIROLA (M5S). Fuori! CONTE , presidente del Consiglio dei ministri. Quando la Commissione ha formalizzato le sue riserve sulla versione rivista del documento programmatico di bilancio presentato dall'Italia, i margini di negoziazione sono risultati subito davvero contenuti ed esegui. È stato allora che, con il sostegno dei Vice Presidenti, dei Ministri, e del Ministro dell'economia in particolare, mi sono assunto l'onere e anche la responsabilità di riannodare i fili del dialogo affinché non fosse compromesso il processo riformatore che il Governo intendeva realizzare già con questa sua prima manovra economica. Ho dunque insistito con il presidente Junker perché si rendesse disponibile a un ulteriore incontro, che si è svolto sabato 24 novembre, nel corso di una cena di lavoro a cui hanno partecipato anche il ministro Tria, il vice presidente della Commissione e responsabile per l'euro e per il dialogo sociale Dombrovskis, e il commissario degli affari economici e monetari Moscovici. In quell'occasione ho presentato l'ampio progetto riformatore del Governo, chiedendo ai miei interlocutori che la manovra economica fosse valutata non solo al filtro dei vari saldi contabili, ma più ampiamente alla luce dell'articolato spettro di interventi - alcuni già realizzati, altri in fase di avanzata elaborazione - tutti tesi a semplificare, migliorandoli, i rapporti tra Stato, cittadini e imprese. In quella sede - come pure in ulteriori incontri avvenuti informalmente a margine del G20 a Buenos Aires - ho potuto registrare alcune rigidità di posizioni, ma allo stesso tempo - devo dirlo - anche alcune significative aperture al dialogo. All'esito di queste interlocuzioni, si è reso necessario uno sforzo ulteriore da parte del Governo per verificare la percorribilità di interventi utili a migliorare i saldi finali contenuti nella legge di bilancio, in adesione ai rilievi formulati dalla Commissione. Abbiamo quindi lavorato affinché fosse puntualmente quantificata, con apposite relazioni tecniche, la stima economico-finanziaria delle misure, soprattutto di quelle a carattere sociale e previdenziale, che avevano maggiormente attirato l'attenzione dei nostri interlocutori europei. Queste valutazioni, che hanno richiesto tempo, hanno rivelato che le risorse effettivamente necessarie per la realizzazione dei due principali interventi erano - e sono - inferiori a quelle inizialmente previste. Ciò ha permesso di ridurre il disavanzo dal valore inizialmente stimato del 2,4 per cento ad un valore attestato intorno al 2,04 per cento, senza per questo modificare, né nei contenuti - attenzione! - né con riguardo alla platea dei destinatari, né con riguardo ai tempi di attuazione già originariamente previsti</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dei senatori Faraone e Malan</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg22">gli interventi più importanti programmati. Desidero ribadirlo: reddito di cittadinanza e quota 100 partiranno nei tempi che avevamo previsto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Commenti della senatrice Malpezzi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg23">MARCUCCI (PD). Ma chi ci crede? CONTE , presidente del Consiglio dei ministri. Con queste nuove quantificazioni mi sono recato a Bruxelles mercoledì scorso, 12 dicembre, per un nuovo confronto con il presidente Juncker e con i commissari Dombrovskis e Moscovici. In quella sede, come pure nel corso di alcuni colloqui con vari leader europei a margine del Consiglio che si è tenuto il 13 e il 14 dicembre scorsi, ho ribadito la necessità che lo sforzo compiuto dal Governo italiano per giungere a un punto di equilibrio e di convergenza non fosse frustrato da un approccio che tenesse in esclusiva considerazione il rigido computo degli scostamenti. All'esito di ulteriori interlocuzioni, fino ai risolutivi colloqui di ieri mattina, che hanno portato ad un significativo avanzamento nella trattativa, ho formalizzato la posizione dell'Italia con una lettera ai vertici della Commissione europea, sottoscritta insieme al ministro Tria, che mi ha affiancato in questa complessa trattativa. Nella lettera, oltre a riferire sulle nuove quantificazioni delle misure di spesa, ho rilevato che le modifiche dovranno necessariamente tenere conto dell'evoluzione del quadro macroeconomico, che evidenzia, ahimè, un conseguente peggioramento, principalmente dovuto al cattivo andamento del commercio internazionale. Il rallentamento del ciclo economico impone adesso un aggiornamento delle previsioni di crescita, con l'indicazione di un PIL programmatico all'uno per cento per l'anno prossimo, con una variazione che si ripercuote - attenzione: per certi versi anche positivamente -</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Bernini</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg24">sui saldi di bilancio e sull'entità della correzione strutturale richiesta dal Patto di stabilità e di crescita.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg25">Nell'ambito delle misure adottate per la riduzione dei saldi di bilancio, indicati dalla manovra di finanza pubblica, prevista nel disegno di legge di bilancio per il triennio 2019-2021, al fine di corrispondere alle richieste formulate dalla Commissione europea in sede di esame del documento programmatico di bilancio, in primo luogo, come già ricordato, sono state affinate le misure contenute nel disegno di legge di bilancio, anche al fine di determinare con maggiore precisione l'esatta portata degli interventi predisposti e delle coperture individuate. Grazie a questa attività è stato possibile rivedere l'onere annuo delle misure di cui al fondo per il reddito di cittadinanza e quello per gli interventi pensionistici, mantenendo integro - lo ribadisco - l'impatto concreto di queste due misure.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg26">Sono state poi previste misure di contenimento della spesa pensionistica, che si sostanziano nel raffreddamento dello schema di indicizzazione dei trattamenti pensionistici di più cospicuo importo. Inoltre, si interviene sulle cosiddette pensioni d'oro, con una riduzione dei trattamenti più elevati, attraverso la previsione di un contributo di solidarietà temporaneo e progressivo per scaglioni di reddito: una misura di equità sociale, da cui abbiamo ricavato ulteriori risorse. Sono stati quindi quantificati gli effetti dell'utilizzo in via prioritaria da parte delle Regioni delle risorse già stanziate nei programmi cofinanziati dai fondi strutturali e di investimento europei per la realizzazione degli interventi di mitigazione dei rischi ambientali e idrogeologici. Si introducono, inoltre, misure per favorire la realizzazione del piano straordinario di dismissioni immobiliari.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg27">Sul lato delle entrate si prevede la revisione delle clausole di salvaguardia IVA per gli anni 2020-2021, l'istituzione di un'imposta sui servizi digitali gravante sui soggetti che, nell'esercizio di attività di impresa, prestino servizi digitali e che superino determinate soglie di ricavi, l'abrogazione anche del credito d'imposta relativo alle deduzioni forfettarie in materia di IRAP riconosciute in favore di soggetti passivi che impiegano lavoratori dipendenti a tempo indeterminato in alcune Regioni; e ancora, si prevedono l'abrogazione del credito d'imposta in favore di soggetti che compiono investimenti in beni strumentali nuovi, l'abrogazione dell'aliquota ridotta IRES in favore degli enti non commerciali, un pacchetto di misure che incrementa il prelievo nel settore dei giochi attraverso l'aumento del prelievo erariale unico (PREU) applicabile agli apparecchi da divertimento e intrattenimento e la riduzione delle percentuali minime di pay-out. Si introduce, inoltre, dal 1° gennaio 2019 l'imposta unica sui concorsi pronostici e sulle scommesse. Per le amministrazioni centrali si prevede un rinvio della presa di servizio degli assunti al 15 novembre 2019, ma limitato alle assunzioni derivanti dal turnover ordinario dell'anno precedente. Si è tenuto conto, inoltre, della stima di maggiori entrate contributive per 150 milioni di euro per ciascuno degli anni 2019, 2020 e 2021 in relazione alle quote di risorse stanziate per l'attribuzione al reddito di cittadinanza e destinazione all'assunzione di personale destinato a rafforzare le attività dei centri dell'impiego. Sono state, altresì, inserite alcune riduzioni e riprogrammazioni della spesa che non necessitano di modifiche alla sezione 1 del disegno di legge sul bilancio. In particolare, nello stato di previsione della spesa del Ministero dell'economia e delle finanze sono previste misure volte a definanziare le risorse del fondo per favorire lo sviluppo del capitale immateriale, la competitività e la produttività di 75 milioni di euro per l'anno 2019 e di 25 milioni di euro per l'anno 2020. Abbiamo, inoltre, programmato una rimodulazione delle disponibilità di cassa del fondo per lo sviluppo e la coesione territoriale destinato a misure per il superamento degli squilibri socio-economici-territoriali per 800 milioni di euro per l'anno 2019. Tengo a chiarire che questa riprogrammazione coinvolgerà la concreta spendibilità e non pregiudicherà in alcun modo la realizzazione di tutti i progetti già programmati e anche dei nuovi che potranno tranquillamente essere programmati. Su questo punto c'è l'impegno pieno - come sapete - di tutto il Governo e la responsabilità mia personale anche a intervenire in corso di anno per recuperare eventuali risorse suppletive che, casomai, dovessero rivelarsi necessarie. Allo stesso modo, abbiamo programmato una rimodulazione delle risorse finanziarie per 600 milioni di euro per l'anno 2019 prevedendo un incremento, per ciascuno degli anni dal 2022 al 2024, di 200 milioni di euro delle risorse destinate alla società Ferrovie dello Stato per la realizzazione di progetti previsti. Abbiamo previsto, infine, una rimodulazione con riduzione di 850 milioni di euro per l'anno 2019 e un incremento progressivo per ciascuno degli anni dal 2020 al 2024 di 150 milioni di euro e per l'anno 2025 di 100 milioni di euro della quota nazionale per il finanziamento delle politiche comunitarie. Tengo a precisare che anche per queste due ultime voci vi è il pieno impegno del Governo e ribadisco la mia personale responsabilità affinché tutti gli interventi già programmati siano realizzati, se necessario, anche attraverso interventi di recupero di risorse suppletive. L'ammontare dei saldi, così ridefiniti, è, dunque, pari a 10.254 milioni nel 2019, a 12.242 milioni nel 2020 e a 15.997 milioni nel 2021. Oltre alle modifiche individuate con gli emendamenti al disegno di legge di bilancio, che verranno presentati (immagino ad horas ) presso la competente Commissione bilancio, ho rappresentato anche l'esigenza di approntare un piano di interventi straordinari per la messa in sicurezza delle infrastrutture viarie (viadotti, ponti, strade, gallerie) e la gestione dei rischi connessi al dissesto idrogeologico. Per questi interventi il Governo ha chiesto e ottenuto che sia applicata la flessibilità prevista dal Patto di stabilità e crescita, in misura - pensate - corrispondente a quasi lo 0,2 per cento del PIL. Questo piano straordinario ci consentirà di tutelare più efficacemente l'incolumità dei cittadini e di mettere in piena sicurezza il territorio della nostra penisola, realizzando una sequela di rapidi interventi secondo un cronoprogramma prestabilito. A tale piano saranno dedicate risorse già appostate in bilancio negli esercizi precedenti, per vari investimenti, e anche parte delle nuove risorse disponibili dalla legge di bilancio in corso di approvazione e dal decreto-legge in materia fiscale collegato alla manovra economica.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Collina</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg28">Nel 2019 si utilizzeranno complessivamente risorse per 2 miliardi e 600 milioni circa. Per gli anni successivi si prevede di spendere, fra risorse già appostate in bilancio e nuove risorse, circa 3,7 miliardi nel 2020 e oltre 4 miliardi e 200 milioni nel 2021, per un totale di 10 miliardi e 500 milioni.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Marcucci</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg29">Relativamente alla rete viaria e di collegamenti italiana, il crollo del ponte Morandi a Genova ha evidenziato la necessità di intraprendere un programma di manutenzione straordinaria. Nel 2019 saranno dedicati a tal fine 1 miliardo e 100 milioni di euro fra risorse nuove e risorse già appostate in bilancio. L'implementazione effettiva degli interventi sarà oggetto di uno specifico e attento monitoraggio, secondo le stesse modalità previste per la generalità delle opere pubbliche e delle opere in particolar modo cofinanziate dall'Unione europea.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg30">Infine, allo scopo di assicurare il conseguimento degli obiettivi programmatici di bilancio, il Governo italiano sottoporrà al Parlamento una norma che dispone l'accantonamento temporaneo di una parte di alcuni specifici stanziamenti, per l'importo complessivo di 2 miliardi. Le somme accantonate saranno rese disponibili nel caso in cui, in corso d'anno, il monitoraggio dell'andamento dei conti evidenzi che esso è coerente con gli obiettivi programmatici. Abbiamo sempre detto che la nostra manovra è rigorosa e conseguentemente rigoroso sarà anche il monitoraggio.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg31">Questo, in sintesi, è il quadro compiuto e definito degli interventi che hanno determinato un miglioramento dei saldi finali contenuti nel disegno di legge di bilancio, passando dal 2,4 per cento al 2,04 del rapporto deficit -PIL per il prossimo anno, con previsione dell'1,8 per cento per l'anno 2020 e dell'1,5 per cento per l'anno 2021. Il Parlamento, che è sovrano, potrà ora giudicare i contenuti della manovra</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Collina</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg32">e, nel medio termine, valutare gli effetti delle misure adottate, il loro impatto sul tessuto non solo economico e produttivo, ma, se mi permettete, anche sociale del Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg33">Possiamo dire in coscienza di aver realizzato appieno il mandato conferito dai cittadini, dimostrando determinazione nell'esercizio delle prerogative di politica economica che spettano al Governo italiano, di avere perseguito con pieno senso di responsabilità una soluzione condivisa, buona per gli italiani e soddisfacente anche per l'Europa</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg34">A fronte dello scostamento inizialmente consentito, inidoneo al raggiungimento degli obiettivi programmati, abbiamo varato una manovra economica espansiva che prefigurava uno scostamento di molto superiore.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg35">MARCUCCI (PD). Ma dove? CONTE , presidente del Consiglio dei ministri. All'esito di una trattativa serrata, condotta con tenacia e determinazione con le istituzioni dell'Unione europea, abbiamo raggiunto un punto di equilibrio sostenibile, attestandoci su uno scostamento che rimarca oggettivamente un valore comunque superiore a quello che la Commissione riteneva idoneo per chiudere la trattativa senza rischiare l'avvio della procedura d'infrazione. La Commissione ha risposto questa mattina trasmettendo, pochi minuti prima delle ore 12 (ed è la ragione della richiesta di rinvio di questa informativa), una comunicazione nella quale, prendendo atto delle misure di bilancio che il Governo intende sottoporre al Parlamento, assicura che l'adozione di queste misure permette alla Commissione stessa di non raccomandare l'avvio di una procedura per disavanzo eccessivo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Applausi ironici del senatore Marcucci</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg36">Ho ritenuto doveroso intervenire in Senato immediatamente dopo l'invio formale della comunicazione e riferire a questo consesso l'informazione appena ricevuta.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg37">MARCUCCI (PD). Perché lo abbiamo chiesto! BERNINI (FI-BP). Lo abbiamo chiesto noi. PRESIDENTE. Se lo avete chiesto fatelo parlare!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg38">Non è possibile interrompere continuamente.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg39">LONARDO (FI-BP). Non sta dicendo il vero. CONTE , presidente del Consiglio dei ministri. L'azione di Governo può adesso proseguire a ritmo pieno, senza gli effetti pregiudizievoli che una procedura d'infrazione avrebbe comportato per l'esercizio delle prerogative di politica economica che legittimamente spettano a un Governo che voglia realizzare un significativo cambiamento nell'ambito della vita politica, economica e sociale del Paese. LAUS (PD). Abbiamo visto il cambiamento! CONTE , presidente del Consiglio dei ministri. Non abbiamo tradito la fiducia che i cittadini hanno riposto in noi.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg40">, né mai lo faremo fino a quando continueremo a esercitare la responsabilità di Governo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg41">Formulo a tutti voi l'augurio di buon lavoro e, vista l'imminenza delle festività, anche gli auguri di buon Natale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az, i cui senatori si levano in piedi. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto a rappresentanze di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u9">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg42">Saluto a nome dell'Assemblea i docenti e gli studenti dell'Istituto comprensivo «Ludwig Van Beethoven» di Casaluce, in provincia di Caserta, e del Liceo classico «Giovanni Colosimo» di Corigliano Calabro, in provincia di Cosenza, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ripresa della discussione sull'informativa del Presidente del Consiglio dei ministri sulla manovra economica</head>
+            <note type="time">(ore 13,45)</note>
+            <note type="discussion">DISCUSSIONE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u10">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg43">Dichiaro aperta la discussione sull'informativa del Presidente del Consiglio dei ministri.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg44">È iscritto a parlare il senatore Steger. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STEGER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#StegerDieter" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u11">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg45">Signor Presidente, signor Presidente del Consiglio, siamo sollevati dal raggiunto accordo con l'Europa, che speriamo sia formalizzato il prima possibile e sentiamo di ringraziarla per la tenacia con cui lei e il ministro Tria avete portato avanti questo delicatissimo negoziato.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg46">La procedura d'infrazione sarebbe stata una mazzata micidiale per la tenuta dei conti pubblici e la fiducia degli investitori e dei risparmiatori. Tuttavia, non possiamo dimenticare come si sia giunti a questo punto, a cominciare dalla scena sul balcone di Palazzo Chigi la sera del 27 settembre.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), FI-BP e PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg47">Già allora l'Italia avrebbe potuto ottenere il 2 per cento, ma si è scelta una strada diversa, che ha avuto come conseguenza l'aumento dello spread, il quale, come ci ricorda l'ABI, ha già avuto effetti sulla vita reale delle persone, con un aumento del tasso medio dei nuovi mutui e del credito per le imprese. Senza il braccio di ferro, non ci sarebbe stato il fatto che un ramo del Parlamento sia stato costretto ad approvare una manovra provvisoria e che il Senato, a dodici giorni della fine dell'anno, non sia ancora stato messo nella possibilità di discutere il nuovo provvedimento che perverrà nelle prossime ore. Questo tempo sarebbe stato essenziale per costruire una manovra che guardasse con grande convinzione alla crescita e allo sviluppo, una necessità quanto mai impellente, davanti a un orizzonte macroeconomico che non lascia ben sperare. Per noi questo resta il punto più dolente dell'intera manovra. È vero che alla Camera sono state apportate migliorie, ma, come ha calcolato la CGIA di Mestre, è una manovra che nel complesso sottrae risorse al sistema produttivo. La Commissione bilancio, della quale faccio parte anch'io, avrà solo quarantotto ore per lavorare sul testo. Ci comporteremo con responsabilità, la stessa che abbiamo avuto in questi giorni, quando abbiamo atteso in vano che la Commissione potesse svolgere i propri lavori. Nelle poche ore a disposizione, ci impegneremo per consolidare quelle parti della manovra e del testo che guardano alla crescita e allo sviluppo. Lo faremo per quella stessa responsabilità che lei, signor presidente Conte, ha mostrato nella trattativa con l'Europa e che ci aspettiamo - e che continueremo ad aspettare - da parte di tutti gli esponenti del suo Esecutivo, ringraziando i sottosegretari Garavaglia e Castelli per l'attenzione mostrata negli ultimi giorni anche verso le minoranze politiche, nei tanti colloqui che abbiamo avuto in 5ᵃ Commissione nelle ultime ore. Signor Presidente, non è mai troppo tardi per agire con responsabilità, soprattutto quando in ballo vi siano i conti e la credibilità di un Paese intero.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), PD e FI-BP</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Errani. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">ERRANI (Misto-LeU)</note>
+            <u ana="#regular" who="#ErraniVasco" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u12">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg48">Signor Presidente, signor Presidente del Consiglio, vorrei fare una premessa. Siamo contenti che si sia evitata, per ora, la procedura d'infrazione per deficit eccessivo. Non siamo mai stati tifosi dello spread, ma siamo favorevoli a tutelare gli interessi del nostro Paese e non condividiamo la politiche a volte burocratiche e sbagliate di austerità della Commissione europea. Abbiamo dimostrato grande senso di responsabilità in questi giorni, a fronte del fatto che non era e non è stato possibile discutere di nulla in relazione alla legge più importante per il nostro Paese. Tuttavia, lo stesso senso di responsabilità, non possiamo non sottolineare come siamo arrivati qua per un insieme di gravissimi errori che il Governo ha scaricato sul Paese e sulla credibilità dell'Italia, mettendo il Parlamento nelle condizioni di votare alla Camera una legge che non c'era e di non discutere qui al Senato. Sinceramente, signor Presidente del Consiglio, capisco il suo imbarazzo a fronte del fatto che il Ministro dell'interno fa le politiche degli esteri, a fronte di dichiarazioni che lei deve inseguire. Capisco il suo imbarazzo, tuttavia, dall'avvocato del popolo ci saremmo aspettati un soprassalto, un esercizio di verità. E invece no: continua la stucchevole retorica del Governo del cambiamento, degli impegni elettorali e della campagna elettorale senza soluzione di continuità, tutto sulla pelle degli italiani. Presidente, se vi siete sbagliati a fare i conti sui costi di quota 100 e reddito di cittadinanza, vi siete assunti una responsabilità gravissima perché tutto ciò è costato un miliardo e mezzo di interessi, e questa cifra è stata pagata dagli italiani, dalle imprese, dai risparmiatori!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-LeU, FI-BP e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg49">Chiedete scusa agli italiani. Gliela chiedete? Oppure, se non è così (e non è così) allora, Presidente, quando direte la verità? Quando direte che non siete in grado di corrispondere alla propaganda?</seg>
+               <vocal type="noise">
+                  <desc>Commenti del senatore De Vecchis. Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg50">PRESIDENTE. Ognuno ha il diritto di esprimere quello che vuole.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg51">Vada avanti, senatore Errani.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg52">Scusate colleghi, continuo e dico quello che penso. Non ho mai interrotto nessuno in quest'Aula. Calma e ascoltate perché è una cosa seria, l'ascolto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-LeU, PD e FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg53">Andiamo avanti. Gli annunci dati dai balconi sul bilancio dicevano: non ci sposteremo di un millimetro; senza il 2,4 per cento di deficit non corrisponderemo agli interessi dei cittadini e agli impegni presi. Non sono parole mie, come lei sa meglio di me, signor Presidente del Consiglio, bensì parole dei suoi vicepresidenti. Adesso fate un miracolo, un esercizio di magia ed è come se cambiasse tutto, come se cambiasse il denominatore, come se cambiassero le risorse, ma in realtà non cambia niente. Tutti avranno tutto quello che è stato detto. Io vi consiglierei, anche per un fatto di propaganda, di dire di più: non 4 miliardi e mezzo per il reddito di cittadinanza ma 6,7.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg54">Presidente, è un problema la verità. La verità è un valore di riferimento proprio a fronte di ciò che è accaduto il 4 marzo. A raccontarla, poi, arriverà il boomerang e non sarebbe un grave problema se arrivasse solo per questa maggioranza. Il boomerang arriverà sull'Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Biti.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg55">Ci vuole un esercizio di verità.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg56">Vede, noi abbiamo ascoltato e valuteremo il disegno di legge di bilancio con grande serietà e grande impegno, senza far perdere un'ora perché noi l'esercizio provvisorio non lo vogliamo: prima di tutto l'Italia. Tuttavia, voi avete perso una grande occasione perché quello che avete fatto da ultimo si poteva fare qualche settimana fa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg57">Si poteva accogliere il ragionamento di ridurre il deficit, di cambiare il denominatore. Tutti gli istituti del mondo vi hanno detto che l'1,5 per cento era un obiettivo irrealizzabile, tutti gli istituti del mondo, e voi avete risposto di no, che non avevano capito.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg58">E ora si dice, Presidente, che è un vantaggio, che ridurre all'1 per cento dall'1,5 è un vantaggio. Ma vogliamo dire le cose come stanno? Avevamo un bel piano di investimenti, che sarebbe stato opportuno presentare, con un deficit del 2 per cento e un piano di investimenti di 5, 6, 7 miliardi per l'ambiente, per la messa in sicurezza. Su questi temi, Presidente, avremmo fatto una battaglia con lei per metterli fuori dal Patto di stabilità</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg59">e avremmo insieme, come Italia, cercato di affermare i valori del Paese. Non ce l'avete consentito, pensando di giocare al gioco delle tre carte, ma gli italiani, Presidente, lo capiranno e purtroppo dovremo a quel punto verificare cosa significa l'accantonamento di 2 miliardi e cosa sarà la salvaguardia nel 2020 e nel 2021. Purtroppo lo vedremo presto e temo che non saranno buone notizie per gli italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-LeU, FI-BP e PD</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Urso. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">URSO (FdI)</note>
+            <u ana="#regular" who="#UrsoAdolfo" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u13">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg60">Signor Presidente, ringrazio il Presidente del Consiglio e il suo collaboratore, ministro dell'economia e delle finanze Tria, per aver evitato una procedura d'infrazione sul debito che avrebbe significato consegnare l'Italia nella prigionia per sette anni della Troika europea.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg61">Vi ringrazio e noto che vi stanno ringraziando anche i due Vice Premier, i due capi politici Di Maio e Salvini, che le sono accanto per congratularsi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg62">L'assenza pesa molto più delle false parole dette e delle false promesse annunciate, ripetute e dei falsi numeri circolati per mesi in quest'Assemblea, a Palazzo Chigi e anche nei documenti ufficiali. Le assenze pesano.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg63">Abbiamo evitato la prigionia, ma siamo in libertà vigilata perché ora siamo monitorati dalle istituzioni europee per gli impegni che la sottoscritta in questi giorni per una manovra inesistente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg64">Una manovra inesistente, una manovrina da quattro soldi; non c'è nulla in questa manovra. Abbiamo già pagato un prezzo altissimo in termini di spread; 5 miliardi in più il prossimo anno il costo per lo Stato, in termini di risparmio, di mutuo e di credito alle imprese. Un prezzo altissimo per nulla. Mi spieghi, Presidente, come può ancora definire questa manovra espansiva se lei stesso prevede che il prossimo anno la crescita del PIL sarà forse dell'uno per cento. A quanto ammonterà la crescita quest'anno? Secondo le ultime previsioni, sarà pari all'uno per cento. Ebbene, può esserci una manovra espansiva senza crescita? Per i provvedimenti di cui parlate (per quel provvedimento che ha fatto esultare il Vice Premier, qui assente, che aveva addirittura annunciato la fine della povertà in Italia, la fine della corruzione e aveva annunciato di aver abolito anche la mafia), abolita la povertà dal balcone, ricordo che nei documenti del Movimento 5 Stelle il reddito cittadinanza costava 17 miliardi. L'avete detto voi per anni ai cittadini, avete preso i voti su questo punto, parlando di 17 miliardi per il reddito cittadinanza. A quanto sono ridotti? Avete aumentato la destinazione, incamerando anche i due miliardi del reddito di inclusione (REI). Sapete a quanto ammonta l'aumento? A 4 miliardi. Con i soldi del REI, 2 più 4, si arriva a 6. Non sono 17 miliardi, ma 6, compresi i due che già venivano dati per sopperire alla povertà; una mancia elettorale pari a quella che il governo Renzi ha dato in campagna elettorale cinque anni fa come scarpa per strappare un voto agli elettori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg65">La stessa cifra. Avete copiato il provvedimento nella speranza di gabbare gli elettori come ha fatto Renzi. Questo non è il Governo del cambiamento, questo è il Governo che ha tradito gli elettori.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg66">Nel suo intervento, signor Presidente del Consiglio, lei ci ha fatto un elenco di nuove tasse. Colleghi della Lega, quando si parla di definanziare, quando si parla di tassare le pensioni del ceto medio, cioè di chi ha lavorato, prodotto e pagato i contributi, quando si parla di rimodulare bonus e detrazioni fiscali, si parla di nuove tasse per le imprese, per le famiglie e per i cittadini, oltre a quelle già conteggiate nella manovra della Camera. Lì abbiamo calcolato 5 miliardi in più di tasse per le imprese; con quelle che qui dobbiamo dedurre, da quanto già annunciato, andiamo ben oltre. Questa è una manovra che tassa chi produce, che tassa chi ha prodotto, scippando della propria pensione chi ha pagato i contributi, che tassa l'Italia che lavora per fare cosa? Appena un decimo delle risorse è destinato agli investimenti. Sapete quanto avete destinato alla ricerca, al futuro? 64 milioni di euro. Sapete quanto avete destinato all'università? 54 milioni di euro. È una manovra finta, inesistente, fatta sulle spalle del futuro degli italiani, solo per dispensare promesse elettorali. Ciò che conta per voi è che sia in vigore per aprile. Perché per aprile? Perché inizia la campagna elettorale. E che cosa leggiamo sui giornali? Che i due Vice Premier sono convinti, non dai numeri, ma dai sondaggi: guardate solo ai sondaggi e alla campagna elettorale, svendendo il Paese. PRESIDENTE. Concluda, per favore, senatore Urso. URSO (FdI). Signor Primo Ministro, non avete abolito la povertà, non avete abolito la corruzione, non avete abolito la mafia: avete abolito la verità. Fate un decreto in cui abolite la verità. D'altra parte questa manovra, nella sua inesistenza, per quel poco che fa, tassando chi produce e cercando di distribuire qualcosa a chi non lavora - e lo dico misurando le parole - è la prima manovra comunista della storia d'Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e FI-BP. Commenti dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg67">PRESIDENTE. Senatore, deve chiudere, per cortesia.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg68">Ripeto, è la prima manovra comunista della storia d'Italia e, come tale, finirà per abolire la verità. Ma la verità non può essere abolita: si ritorce contro tutti e contro l'Italia e la recessione che è alle porte è tutt'altro che espansione, significa decrescita triste e infelice. Dobbiamo cambiare: rispetto alla Caporetto che si è profilata, bisogna il prima possibile fare una linea del Piave.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg69">Dobbiamo farlo per la necessità del Paese, dobbiamo farlo per il futuro del Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e FI-BP. Congratulazioni</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Ferrari. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">FERRARI (PD)</note>
+            <u ana="#regular" who="#FerrariAlan" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u14">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg70">Signor Presidente, ogni falsità è una maschera e, per quanto la maschera sia ben fatta, si arriva sempre a distinguerla dal volto. Per la prima volta, signor Presidente del Consiglio, per quanto lei si sforzi, lei qui è nudo, senza la maschera.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg71">Lei è qui, peraltro, perché noi l'abbiamo obbligata a venire. L'abbiamo obbligata a rispettare il Parlamento italiano, l'unico luogo deputato ad approvare la legge di bilancio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e della senatrice Lonardo</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg72">Lo sa che giorno è oggi, presidente Conte? Oggi è il 19 dicembre: questo significa che, per ben due mesi, il Parlamento non ha visto nemmeno una riga della legge di bilancio, non ne ha approvato neanche mezzo articolo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg73">Riavvolgiamo allora il nastro di questa pellicola, che - ahimè - non vincerà alcun premio. Era il 28 settembre quando il suo vice presidente Luigi Di Maio si affacciava dal balcone di Palazzo Chigi, con la faccia stravolta, per festeggiare l'intesa raggiunta sulla manovra al 2,4 per cento del PIL. Di Maio la definì la «manovra del popolo», che per la prima volta nella storia di questo Paese avrebbe cancellato la povertà grazie al reddito di cittadinanza (per il quale c'erano 10 miliardi di euro). Per Salvini, l'altro suo vice presidente, era la «manovra del cambiamento», con tasse diminuite al 15 per cento per più di un milione di lavoratori e diritto alla pensione per almeno 400.000 persone. Le parole d'ordine erano tutte contro l'Europa.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg74">Di Maio, forte della sua arroganza politica, disse addirittura: «Il 2,4 non si tocca, altrimenti faremo cadere il Governo». Lei, presidente Conte, ricorda che cosa è accaduto dal giorno dopo? È successo che i mercati sono impazziti, che lo spread è schizzato alle stelle superando costantemente quota 300 punti base. Lo ricorda, Presidente? Mi permetta quindi una domanda, forse ingenua: chi paga i danni che avete prodotto in quei giorni di follia allo stato puro?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e FI-BP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg75">Perché avete ingaggiato un braccio di ferro con l'Europa intestardendovi su dei valori che non potevate permettervi e sapevate di non potervi permettere? L'avete voluta definire «manovra del popolo»: preciso. Mai più precisi, signor Presidente: è proprio la manovra del popolo, perché mai come oggi è proprio il popolo a pagare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg76">Ha il coraggio di dire agli italiani che, nel bel mezzo di questa vostra irresponsabile recita, ci sono 50.000 posti di lavoro in meno in questo Paese? Che stiamo pagando un miliardo e mezzo in più di interessi sul debito e che sono aumentati di conseguenza i mutui per le imprese e le famiglie? Ha il coraggio di dire che la produzione industriale è calata e che l'Italia tende alla decrescita? Ecco, mentre accadeva tutto ciò in questi mesi, voi siete passati dalla guerra all'Europa al cappello in mano. È successa una cosa incredibile: dai Diktat fortissimi e feroci contro l'Europa, siete finiti a farvi scrivere la manovra, virgole comprese, da quelli che chiamavate i tecnocrati di Bruxelles. Avete avviato una prima lettura alla Camera completamente falsa, un testo ancorato ancora al 2,4 per cento che, dal giorno successivo all'approvazione a Montecitorio, è diventato carta straccia. Poi siete venuti a balbettare al Senato. Bruxelles non vi aveva ancora corretto il compitino e intanto i giorni passavano e voi non sapevate cosa dire di fronte ad un ritardo che aveva e che ha dell'incredibile. È letteralmente la prima volta che la legge più importante dello Stato ha una natura completamente extraparlamentare e viene scritta riga per riga dall'istituzione europea; è la prima volta. Altro che sovranisti, altro che mai arretrare, presidente Conte!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e dei senatori Floris e Giro</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg77">È così vero, guarda caso, che i due vice presidenti Salvini e Di Maio oggi non sono al suo fianco in questa informativa cruciale per la storia di questo Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e FI-BP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg78">Ed ora eccoci qui. Ieri la nostra richiesta, del Partito Democratico e delle opposizioni, l'ha costretta a rivedere la sua agenda, ed a venire in quest'Aula, a venire in Parlamento. Sa, questo luogo si chiama «Senato della Repubblica», presidente Conte, e questo luogo aspetta ancora le risposte che fino ad ora lei non ha dato. Lei ci deve dire chi paga i miliardi dati in fumo per la vostra follia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e FI-BP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg79">Ci deve dire quali tagli avete operato per rispettare gli ordini della Commissione europea: 10 miliardi in meno di quanto avevate propagandato nei giorni scorsi.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg80">A breve avremo forse l'onore, finalmente, di poter leggere la vostra manovra (più che vostra, quella di Junker). Ne parleremo nelle prossime ore, però nulla potrà più cambiare il giudizio del Partito Democratico su questa pagina nerissima del Governo: un giudizio drastico, perché il suo, presidente Conte, lo dico con rispetto, senza maschera è il volto di un pugile affaticato che non è finito al tappeto semplicemente perché ha lasciato il ring; il problema è che ha lasciato l'Italia fuori dal ring, a scappare da quel ring.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg81">PRESIDENTE. Concluda il suo intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg82">Sto concludendo, Presidente. Nella vita tutto è perdonabile, ma lei è il Presidente del Consiglio, e al Presidente del Consiglio del nostro Paese non potremo mai perdonare di avere in soli sei mesi compromesso l'immagine di un Paese stimato da tutto il mondo per la sua umanità</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg83">, di aver isolato l'Italia in un mondo che corre, di aver soprattutto preso in giro ogni giorno gli italiani, perlopiù rendendoli più poveri.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e del senatore Giro</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg84">Noi non glielo perdoneremo e l'Italia non lo permetterà più!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppo PD e del senatore Giro. Commenti del senatore Ripamonti.</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Romeo. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">ROMEO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#RomeoMassimiliano" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u15">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg85">Signor Presidente, ringraziamo innanzitutto il Presidente del Consiglio e il Governo per questa informativa. Ci viene da dire che finalmente ci siamo trovati davanti a un negoziato con l'Europa e anche questo è un segno importante di cambiamento dei tempi, visto che eravamo abituati, in passato, a seguire con troppa remissività le decisioni della Commissione europea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg86">Il negoziato è stato intenso, è durato anche per un lungo periodo ed è la testimonianza che l'Italia ha giocato la sua partita senza sottomettersi.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg87">Devo fare il discorso che ha fatto il senatore Errani?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg88">Cosa ci dà la misura del fatto che non ci siamo sottomessi? La circostanza che i commissari europei oggi, durante la conferenza stampa, abbiano detto che è stata evitata la procedura di infrazione ma la soluzione adottata non è proprio quella ideale per l'Europa. Questa è la testimonianza che anche l'Unione europea è dovuta venire incontro alle esigenze di questo Governo, altrimenti non lo avrebbero detto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg89">Complimenti, Presidente del Consiglio, complimenti anche al ministro Tria, perché avete dovuto ovviamente subire notevoli pressioni - anche esterne - in questo periodo, perché avete dovuto tenere fermi i principi e i capisaldi della nostra manovra. Siete stati bravi a tenere duro sui tagli strutturali, che potevano certamente compromettere le misure più care al nostro Esecutivo (ovviamente mi riferisco a quota 100 e al reddito di cittadinanza). Grazie per aver ridato dignità - ed è questo che il popolo oggi sente, dopo aver seguito tutte queste trattative - ad un Paese abituato a subire le scelte dell'Unione europea e che invece oggi viene considerato con maggiore rispetto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg90">Ricordiamo che siamo partiti dall'1,6 per cento, poi diventato 1,8 per cento, noi siamo arrivati al 2,4 e alla fine la giusta mediazione è stato il 2,04. Inoltre non abbiamo sbagliato i conti, signori, perché se è vero il detto melius abundare quam deficere, quando si fanno le manovre, bisogna farle con intelligenza.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo FI-BP.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg91">Anche su questo abbiamo cambiato: nel previsionale della vecchia manovra si parlava di un rapporto deficit -PIL all'1,6 per cento ma poi, a consuntivo abbiamo verificato che questo era salito a 2,4: esattamente l'opposto di quello che facciamo noi!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg92">Noi invece siamo persone serie: quello è il numero che diciamo all'Europa e quello è il numero che troverete a consuntivo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg93">MIRABELLI (PD). Ma cosa dici? ROMEO (L-SP-PSd'Az). Anche questo è un segnale del Governo del cambiamento. Poi non venitemi a chiedere chi paga i danni di questa trattativa, con lo spread che è salito e quant'altro. Scusatemi, mi sono annotato i famosi dialoghi con l'Europa degli ultimi sette anni. Mi viene allora da chiedere: chi paga i danni della riforma Fornero?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg94">Chi li ha pagati? Chi ha pagato i danni delle politiche di austerity che hanno eliminato la classe media del nostro Paese?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg95">Chi ha pagato i danni derivati dal farsi carico dell'onere di 600.000 immigrati per gli 80 euro? Chi li paga e chi li ha pagati?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg96">COLLINA (PD). Vergognatevi! ROMEO (L-SP-PSd'Az). Ma potremmo parlare del fiscal compact, potremmo parlare dell'aumento della tassazione, della riduzione dei tagli fatti ai nostri enti locali. Sì, il senatore Errani questo se lo ricorderà bene. MARCUCCI (PD). Parla dei 49 milioni! PRESIDENTE. Per favore, termini. ROMEO (L-SP-PSd'Az). Scusate, colleghi, avete parlato di manovra inesistente. Ne parlavamo anche ieri con il Capogruppo dei 5 Stelle. Ma come manovra inesistente? La manovra c'è. Avete presentato 2400 emendamenti come minoranza su una manovra che non esiste?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S. Ilarità.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg97">Non offendiamo l'intelligenza delle minoranze; noi non lo facciamo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg98">Chi pensava che fossimo dei dilettanti allo sbaraglio oggi si deve ricredere.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti ironici dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg99">MARCUCCI (PD). Ci avete convinti! ROMEO (L-SP-PSd'Az). Evitiamo la procedura di infrazione senza rinunciare alle nostre priorità: già e, sapete, è anche un bel segnale all'Europa ed ai mercati che tutte le balle che avete raccontato sul fatto che vogliamo uscire dall'Europa non sono vere. Noi non vogliamo uscire dall'Europa; vogliamo cambiare le regole comuni che miglioreranno la nostra Europa, che è ben diverso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg100">Allo stesso modo, vi dovete ricredere sul ruolo del Presidente del Consiglio: quanta facile ironia è stata fatta nei suoi confronti, come se fosse una sorta di comparsa nell'Esecutivo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg101">Bene, oggi bisognerà riconoscere - perché questo è ciò che il popolo italiano farà, e lo dovrete riconoscere anche voi - le sue doti di ottimo mediatore e negoziatore, per aver giocato un ruolo decisivo per il nostro Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S. Molte congratulazioni</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Cangini. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">CANGINI (FI-BP)</note>
+            <u ana="#regular" who="#CanginiAndrea" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u16">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg102">Signor Presidente, illustri colleghi senatori, sinceramente mi sarei aspettato da parte del signor Presidente del Consiglio parole di meno frettoloso riconoscimento dell'atteggiamento posto in essere in quest'Aula dalle opposizioni in generale e da Forza Italia in particolare. Avremmo potuto facilmente approfittare del vostro evidente momento di difficoltà: difficoltà politica interna di maggioranza, difficoltà di Governo e di rapporti internazionali. Avremmo potuto facilmente mettere in scena manovre ostruzionistiche; avremmo voluto occupare quest'Aula del Senato per protestare contro l'evidente spoliazione del Parlamento e delle sue funzioni. Il Parlamento, presidente Conte, è il popolo, quel popolo che tanto - spesso - a torto viene invocato in quest'Aula dai partiti che sostengono il suo Governo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg103">In nome della sovranità nazionale - pensi un po' - avremmo voluto occupare quest'Aula, perché è evidente che la manovra che l'Assemblea dovrà frettolosamente approvare a scatola chiusa, sotto forma di maxiemendamento - persino con un voto di fiducia - non è la manovra che avreste voluto fare. È la manovra che vi è stata dettata negli uffici e nelle stanze della Commissione europea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg104">Non lo abbiamo fatto perché siamo responsabili; non l'abbiamo fatto perché l'Italia rischiava - e temo tuttora rischi - una procedura di infrazione; il che vuol dire consegnare le chiavi della politica economica del Paese per i prossimi anni a signori che vivono a Bruxelles, piuttosto che a Francoforte. Non lo abbiamo fatto - forse avremmo dovuto farlo - per amor di Patria, lo stesso amor di Patria che oggi ci obbliga a porle delle domande, presidente Conte.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg105">Sapendo che abbiamo alle spalle tre trimestri di crescita negativa, e sapendo che il quarto trimestre ragionevolmente non sarà di segno diverso rispetto ai tre che l'hanno preceduto, perché non si è preoccupato di fare una manovra espansiva, con investimenti che creassero sviluppo che a sua volta creasse posti di lavoro?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg106">Èdi questo che il Paese ha bisogno ed è questo che forse avrebbe colpito e impressionato la Commissione europea. Invece no. Invece avete fatto una manovra puramente clientelare, volta unicamente a massimizzare i risultati elettorali dei due partiti che sostengono questo innaturale Governo in vista delle prossime elezioni europee. Questa, presidente Conte, è una colpa che non può essere taciuta in questa Aula; una colpa che temo risuonerà nelle strade e nelle piazze del Paese nei prossimi mesi, probabilmente nei prossimi anni. Perché poi, sapendo - per esperienza storica e per intelligenza politica - che picchiare i pugni non serve e che isolarsi nel contesto europeo per difendere l'interesse nazionale non porta i frutti sperati? Lo sappiamo, lo sapete, avreste dovuto capirlo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg107">Tsipras in Grecia e il grande Hollande in Francia non hanno fatto gli interessi del loro popolo; hanno danneggiato i loro popoli. Perché allora quando si scriveva il DEF i suoi due Vice premier - oggi stranamente assenti - ancora teorizzavano di sfondare il 3 per cento di deficit ? Perché nelle interviste continuavano a dichiarare guerra all'Europa? Perché non avete scritto una manovra di sviluppo? Perché avete continuato con questo atteggiamento di aggressione rispetto alla Commissione europea, che tanto è sembrato essere strumentale, come per avere un nemico oggettivo, un argomento da campagna elettorale? Perché avete sistematicamente ignorato i mercati finanziari per poi finire per accucciarvi a Bruxelles e farvi dettare, rigo per rigo, le misure di politica economica che questa Assemblea dovrà passivamente votare?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg108">Presidente Conte, questa non è politica. La sua inesperienza politica non giustifica tanto pressapochismo. Temo che tutto questo lo pagherete. Voi avete venduto la vostra anima politica al diavolo di Bruxelles e non per questo troverete una nuova identità politica perché l'antieuropeismo, il cosiddetto sovranismo, era l'unico collante che teneva insieme due partiti evidentemente tesi a tirare in direzioni opposte come la Lega Nord - ammesso che «Nord» si possa ancora dire - e il MoVimento 5 Stelle. Ora manca il collante, mancano l'identità e il futuro.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg109">Io la penso come il ministro Paolo Savona che non credo sia un pericoloso vassallo dell'Europa, un servo dei cosiddetti poteri forti. Paolo Savona ha cercato all'inizio, evidentemente senza riuscirci, di violare i parametri europei e di rompere i Diktat europei ma in ragione di una manovra che creasse effettivamente sviluppo; non essendoci riuscito, è arrivato alla conclusione che, non potendo cambiare la manovra, l'unica cosa sarà cambiare il Governo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg110">Noi di Forza Italia attendiamo ardentemente che questo cambiamento, l'unico cambiamento di cui il Paese ha bisogno, si consumi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e FdI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg111">. Molte congratulazioni). PRESIDENTE. È iscritto a parlare il senatore Patuanelli. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">PATUANELLI (M5S)</note>
+            <u ana="#regular" who="#PatuanelliStefano" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u17">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg112">Signor Presidente, Signor Presidente del Consiglio, colleghi, io ho invece la sensazione che per vedere cambiare questo Governo dovremo aspettare almeno altri quattro anni e mezzo, perché anche in questa circostanza il Governo ne è uscito rafforzato portando gli interessi dei cittadini sui tavoli europei.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg113">Ho sentito anche nei ragionamenti di oggi parlare di spread, termine che è aleggiato in questa Aula come fosse un fantasma. È stato detto che la manovra ne ha provocato un rialzo e pertanto essa è pericolosa. A fine maggio era di 300 punti base e questo Governo ancora non esisteva. Quindi, lo spread non ha niente a che fare con la manovra economica che il Governo ha portato avanti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg114">Ho sentito chiedere «Chi paga per questa situazione?». Io aggiungo all'elenco di qualcun altro: chi paga per i 5 milioni di poveri che ci sono in questo Paese?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg115">Chi paga per gli anziani che non riescono ad accendere il riscaldamento perché non arrivano a fine mese?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg116">Cari colleghi, chi paga per i 12,5 miliardi di sterilizzazione dell'aumento IVA che abbiamo ereditato e che sono stati oggetto del primo intervento economico che abbiamo dovuto fare per evitare che ci fossero 12,5 miliardi di aumento di IVA per tutti i cittadini?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg117">VOCE DAL GRUPPO PD. Non è un comizio! PATUANELLI (M5S). Avremo modo nelle prossime ore di entrare nei dettagli della manovra, ma voglio sottolineare una questione perché le recenti cronache dei nostri vicini - mi riferisco a quanto capitato in Francia - ci dimostrano che quando le istanze dei cittadini, le loro preoccupazioni e le loro frustrazioni non vengono intercettate dalla politica si tramutano poi in tumulti di piazza, in difficoltà e città assediate. Invece, il Governo ha portato le istanze dei cittadini all'interno della manovra e delle politiche di Governo. Non esiste infatti un saldo contabile e finanziario che non tenga conto del saldo sociale; non esiste l'equilibrio finanziario, senza un equilibrio sociale che sia possibile.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg118">Credo allora che questa manovra dimostri invece che si possono tenere assieme le necessità di bilancio e le necessità economiche di un Paese. La limitazione della crescita all'un per cento non è una questione di espansività della manovra, come ha spiegato bene prima il presidente Conte. Arrivare a un rapporto deficit -PIL del 2 per cento è poco importante rispetto al 2,4 per cento se poi all'interno della manovra non si soddisfano quelle richieste dei cittadini nei confronti della politica che ci consentono di tenere insieme il saldo del bilancio e il saldo sociale. E ciò avviene all'interno di questa manovra, perché c'è il reddito di cittadinanza, c'è il superamento della legge Fornero con la quota 100, ma ci sono poi tante altre cose, nei tanti emendamenti che anche le forze di maggioranza hanno proposto all'interno del disegno complessivo della legge. C'è la questione dell'abbattimento delle tabelle INAIL, che dà un grandissimo segnale di abbattimento del costo del lavoro; c'è ovviamente la flat tax, che consentirà a 900.000 partite IVA di avere un'imposizione fiscale inferiore; c'è un miliardo e mezzo per i truffati dalle banche. Ci sono tante cose e tanti segnali, che abbiamo messo all'interno di questa manovra proprio per rispondere alle istanze dei cittadini che hanno voluto questo Governo e che hanno grande fiducia in questo Esecutivo e nel suo operato, signor Presidente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg119">Una volta finita questa seduta, dopo aver sentito le sue parole, ci riuniremo in Commissione bilancio e inizieremo l'analisi del dettaglio della manovra di bilancio. Però lo facciamo con una consapevolezza in più: la consapevolezza che quando lei in quest'Aula ha detto di essere l'avvocato dei cittadini le sue non erano soltanto parole. Lei ha dimostrato, in queste trattative, che aveva come primo obiettivo quello di essere a difesa dei diritti dei nostri cittadini che hanno scelto questo Governo. Grazie, signor Presidente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S, i cui senatori si levano in piedi. Molte congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u18">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg120">Dichiaro chiusa la discussione sull'informativa del Presidente del Consiglio dei ministri.</seg>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg121">(ore 14,28)</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente ROSSOMANDO</note>
+            <note type="time">14,28</note>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">LANIECE (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#LanieceAlbert" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u19">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg122">Signor Presidente, esattamente settantacinque anni fa, il 19 dicembre 1943, quando iniziava la fase più feroce del regime nazifascista, i rappresentanti della resistenza valdostana e piemontese delle valli alpine (Emilio Chanoux, Ernesto Page, Osvaldo Coïsson, Gustavo Malan delle valli valdesi piemontesi, Giorgio Peyronel e Mario Rollier) si ritrovarono clandestinamente a Chivasso, in Provincia di Torino, con l'intento di ragionare sul futuro assetto dell'Italia e dell'Europa. Il loro lavoro produsse un importantissimo documento, la Dichiarazione dei rappresentanti delle valli alpine (o Dichiarazione o Carta di Chivasso), che preconizzava la caduta dei regimi nazifascisti in Europa e proponeva la creazione di un sistema politico federale e repubblicano su base regionale e cantonale, nell'insieme di una nuova Europa, anch'essa una federazione di genti, costruita sul rispetto e sulla valorizzazione di tutte le culture e di tutte le minoranze. In questo senso, una vera e propria Ventotene delle Alpi. Il senso quindi di ricordare oggi questo avvenimento nell'Aula di questo Senato della Repubblica è quello di rimarcare la necessità di riprendere i valori fondanti di libertà e rispetto, i valori della Resistenza, che sono poi i princìpi della nostra Costituzione repubblicana, per ridare vigore a una nuova azione politica, soprattutto in previsione dell'appuntamento elettorale europeo e in un momento storico nel quale i principi e i valori sui quali si dovrebbe basare l'azione politica stanno evaporando. Quindi, una nuova spinta a valorizzare le esperienze e le culture di tutti i territori del nostro Continente, come elemento indispensabile per una nuova e più robusta azione politica, che si orienti verso un vero e proprio federalismo dei popoli. Condizione indispensabile per garantire dignità, giustizia, rispetto e democrazia a tutte le espressioni umane dei territori del nostro Paese e della nostra Europa. Che la Carta di Chivasso, quindi, contribuisca a scuotere le nostre coscienze, in un momento storico di grandi incertezze, di violenza e di iniquità verso un mondo di pace e di giustizia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Rojc.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CASTIELLO (M5S)</note>
+            <u ana="#regular" who="#CastielloFrancesco" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u20">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg123">Signor Presidente, colleghi senatori, il 12 novembre 2018 sul Bollettino ufficiale della Regione Campania appariva un provvedimento sconcertante: la chiusura dei punti nascita dei presidi ospedalieri di Polla, di Sapri e di Vallo della Lucania; vale a dire lo smembramento di questi presidi ospedalieri che insistono in aree perlopiù interne della provincia di Salerno, aree corrose da un fenomeno di spopolamento che sta determinando un'irreversibile destrutturazione demografica di questi territori. Firmatario di quei provvedimenti, il governatore della Regione Campania De Luca. La reazione popolare è stata tanto incisiva quanto diffusa ed ha preso, per fortuna, un canale legalitario, non sconfinando in atti di violenza ed illegalità, proprio perché il Senato è stato vicino a queste popolazioni nella persona del presidente della Commissione igiene e sanità, professor Pierpaolo Sileri. Questi, a differenza del governatore De Luca, che non ha mai visitato quei presidi ospedalieri, vi si è recato in visita ispettiva, ha verificato la casistica clinica, che non offriva nessun rischio per le partorienti, per i nascituri e per i neonati, ha interagito con i direttori sanitari, ha dialogato con il personale medico e paramedico, si è reso conto delle condizioni orografiche di quei territori, dell'isolamento e dei tempi di percorrenza che esponevano le partorienti e i nascituri - essi sì - a grave rischio della salute e ha concluso la visita con una relazione consegnata al Ministro della salute. Dopodiché, il governatore De Luca, messo alle strette, è stato costretto a rimangiarsi i provvedimenti e si è salvata la continuità operativa dei presidi ospedalieri. La cosa che più sconvolge, signor Presidente, è che la Corte costituzionale, con la sentenza n. 199 del 15 novembre 2018, censura la Regione Campania, nella persona del Governatore commissario, per non avere centrato l'obiettivo del risanamento finanziario: un pieno fallimento! Contemporaneamente, e mi avvio alle conclusioni, in data 9 marzo la Corte dei conti contesta la mancata spesa di 1.187 milioni, il 68 per cento delle risorse disponibili: un fallimento totale della sanità nella Regione Campania. Rivolgo quindi un plauso al professor Sileri per l'opera che ha svolto con tanta efficienza, dimostrando la vicinanza del Senato a queste popolazioni emarginate.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u21">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg124">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di giovedì 20 dicembre 2018</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.u22">
+               <seg xml:id="ParlaMint-IT_2018-12-19-LEG18-Sed-74.seg125">Il Senato tornerà a riunirsi in seduta pubblica domani, giovedì 20 dicembre, alle ore 17, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 14,37).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

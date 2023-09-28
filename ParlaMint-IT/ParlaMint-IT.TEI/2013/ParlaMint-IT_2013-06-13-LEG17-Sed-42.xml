@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 42 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 42 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 42, giorno (2013-06-13)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 42, Day (2013-06-13)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="42-upper">42 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="83" unit="speeches" xml:lang="it">83 discorsi</measure>
+            <measure quantity="83" unit="speeches" xml:lang="en">83 speeches</measure>
+            <measure quantity="10389" unit="words" xml:lang="it">10.389 parole</measure>
+            <measure quantity="10389" unit="words" xml:lang="en">10,389 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0703403</idno>
+               <date when="2013-06-13">13.06.2013</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="7"/>
+               <tagUsage gi="head" occurs="6"/>
+               <tagUsage gi="note" occurs="155"/>
+               <tagUsage gi="seg" occurs="83"/>
+               <tagUsage gi="u" occurs="59"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="desc" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2013-06-13">13.06.2013</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente GASPARRI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u1">
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg1">La seduta è aperta (ore 16,01). Si dia lettura del processo verbale. STUCCHI, segretario, dà lettura del processo verbale della seduta pomeridiana del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u2">
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Question time sulle iniziative del Governo relative all'aumento dell'IVA</head>
+            <note type="time">(ore 16,05)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u3">
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg3">L'ordine del giorno reca lo svolgimento di interrogazioni a risposta immediata (cosiddetto question time ) sulle iniziative del Governo relative all'aumento dell'IVA, sulla disciplina dell'IMU nonché sull'attuazione delle disposizioni in materia di pagamento dei debiti delle pubbliche amministrazioni, cui risponderà il ministro dell'economia e delle finanze, dottor Saccomanni. Avverto che è in corso la diretta televisiva con la RAI. Passiamo dunque alle interrogazioni sulle iniziative del Governo relative all'aumento dell'IVA. I senatori hanno facoltà di rivolgere le loro domande al Ministro per due minuti ciascuno.</seg>
+            </u>
+            <note type="speaker">GUERRIERI PALEOTTI (PD)</note>
+            <u ana="#regular" who="#GuerrieriPaleottiPaolo" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u4">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg4">Signor Ministro, è ormai prossima la data del 1° luglio 2013 che, in assenza di interventi, sancirà un aumento dell'aliquota IVA dal 21 al 22 per cento. Ora, in riferimento alle decisioni che il Governo potrà o meno prendere, vorrei ricordare che i dati più recenti mostrano come la recessione della economia italiana nel primo trimestre di quest'anno sia stata ancora più grave di quanto previsto nei documenti ufficiali. C'è un dato favorevole, tuttavia: c'è un rallentamento in atto nella dinamica recessiva. Questo significa un'opportunità, se si interverrà a sostegno, soprattutto della domanda interna, che è in caduta libera ormai da più di due anni, mentre, se questa dovesse peggiorare, il rallentamento si potrebbe trasformare addirittura in un perdurante ristagno. È proprio alla luce di queste evidenze che l'aumento dell'IVA dal 21 al 22 per cento rappresenta un rischio, perché potrebbe trasformarsi in un elemento di penalizzazione della domanda e dei consumi interni, peggiorando quindi la situazione economica. Naturalmente, sappiamo che per evitare questo rischio il grande problema è dove reperire i fondi e, allo stesso tempo, è molto importante chiederci se il Governo può e sta ipotizzando un intervento in questa direzione, volto ad evitare tale aumento o, in subordine, la decisione di un suo rinvio di tre o sei mesi, che potrebbe assicurare il tempo sia per trovare le risorse sia per avere un quadro più completo di tutte le esigenze finanziarie, tenuto conto anche della riforma dell'IMU che, come sappiamo, si sta sviluppando in parallelo. Secondo calcoli che sono stati fatti, proprio la riforma dell'IMU</seg>
+               <incident type="sound">
+                  <desc>. (Il microfono si disattiva automaticamente.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg5">PRESIDENTE. La ringrazio, senatore Guerrieri Paleotti. La diretta televisiva impone il rispetto rigoroso dei tempi.</seg>
+            </u>
+            <note type="speaker">D'ALI' (PdL)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u5">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg6">Signor Presidente, vorremmo sapere se il signor Ministro condivida la valutazione, fatta da più parti, che il progressivo aumento dell'IVA possa avere un effetto negativo, oltre che sull'economia del Paese, anche sullo stesso gettito e quindi produca un doppio effetto negativo, in considerazione del fatto che segnerebbe una contrazione dei consumi, e quindi se non ritenga, pertanto, di dover soprassedere all'aumento previsto dal 1° luglio. In considerazione di ciò vorremmo sapere se il Ministero dell'economia abbia maturato l'idea di dover modificare le sue valutazioni sul calcolo degli effetti finanziari sul bilancio dello Stato di nuove norme fiscali eccessivamente gravose, nel senso che ogni ulteriore aumento di tassazione non può che determinare anche una diminuzione dello stesso gettito.</seg>
+            </u>
+            <note type="speaker">PEPE (M5S)</note>
+            <u ana="#regular" who="#PepeBartolomeo" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg7">Signor Presidente, l'aliquota IVA nel corso dei decenni è stata aumentata ben otto volte; proprio di recente è passata dal 20 al 21 per cento, un record forse destinato ad aumentare fra pochi giorni. L'aliquota è aumentata l'ultima volta due anni fa, nel 2011: la misura faceva parte del pacchetto introdotto al fine di fronteggiare la crescente crisi economica. Malgrado questo incremento, il gettito tra metà settembre del 2011 ed il dicembre del 2012 si è ridotto di 3,5 miliardi di euro e si è ottenuto l'effetto contrario a quello sperato. Dall'inizio della crisi alla fine del 2012 il PIL nazionale è diminuito di 7 punti percentuali e la spesa delle famiglie di 5. Quanto successo serva da monito. Questa caduta di 5 punti corrisponde, in termini assoluti, ad una diminuzione media della spesa pari a circa 3.700 euro a famiglia. Se non si evita l'aumento previsto, si corre il rischio di penalizzare ancora la domanda e di peggiorare la situazione economica: quella delle famiglie, quella delle piccole e medie imprese e quella dei lavoratori autonomi, che vivono quasi esclusivamente di consumi interni. La gravità della situazione è stata evidenziata anche dalla Banca d'Italia. Nella relazione annuale, l'istituto di via Nazionale, segnala che in termini pro capite la spesa è tornata ai valori del 1998, quella di quattordici anni fa, quattordici anni persi. Se l'aumento previsto diventa effettivo, se si aumenta ancora l'IVA, gli italiani si troveranno a subire l'aliquota IVA ordinaria più elevata tra tutti i principali Paesi dell'aerea dell'euro. Ricordo che tra l'aumento di un punto percentuale dell'IVA, l'aumento della TARES e quello dell'IMU sui capannoni, si stima una stangata di 9,4 miliardi di euro in più nel 2013 rispetto al 2012; una stangata che peserà sulle imprese e soprattutto sulle famiglie. La domanda che rivolgo quindi al Governo è se intenda rispettare quanto promesso dal presidente Letta nel suo discorso di insediamento alle Camere, cioè non aumentare l'IVA dal 21 al 22 per cento, e anzi, visti gli effetti che il precedente aumento ha comportato, chiedo se non sia il caso di riportare tale imposta al 20 per cento.</seg>
+            </u>
+            <note type="speaker">LANZILLOTTA (SCpI)</note>
+            <u ana="#regular" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg8">Signor Presidente, signor Ministro, ovviamente tutti siamo d'accordo che bisognerebbe abbassare tutte le tasse per sostenere la crescita e rilanciare l'economia, ma il sentiero è stretto, e dunque occorre essere selettivi e fare delle scelte. La domanda dunque è la seguente: vorrei sapere qual è il giudizio del Ministro sul carattere di priorità di questa misura, cioè del blocco dell'aumento di un punto di IVA, rispetto all'obiettivo primario di sostenere le imprese e di detassare il lavoro. Vorrei altresì chiedere se l'eventuale intervento per bloccare questo aumento è eventualmente prefigurato come il precedente, mediante riduzione di spesa e non aumento di altre entrate, come era stato ipotizzato da alcuni in campagna elettorale.</seg>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg9">Signor Presidente, come il signor Ministro può vedere, è un coro: centrodestra e centrosinistra fanno gli stessi ragionamenti. L'azione impostata dal Governo Monti era tutta tesa a un estremo rigore, che però, alla luce dei fatti, possiamo definire eccessivo. Questo ha determinato un peggioramento complessivo di tutta l'economia italiana, una fase recessiva visibile chiaramente da un trend di crescita al ribasso causato principalmente dalla riduzione del reddito disponibile delle famiglie e, di conseguenza, da una contrazione dei consumi. Il previsto aumento dell'IVA a partire da luglio determinerebbe un ulteriore deterioramento del potere d'acquisto delle famiglie italiane e un ulteriore peggioramento della già debole domanda interna, così da determinare a caduta anche un aggravio del gettito, nonostante l'incremento dell'aliquota di prelievo. Gli appelli a scongiurare questo aumento ormai non si contano più, ma meriterebbero di essere ricordati almeno quelli degli ultimi due giorni di Confartigianato, Confindustria e Confcommercio, dove l'omonimo del nostro collega Sangalli ha paragonato l'aumento dell'IVA all'azione di chi versa benzina sul fuoco. Pertanto, signor Ministro, anche al fine di sterilizzare il preventivato aumento dell'IVA, le chiediamo quali provvedimenti intende adottare e dove troverà eventualmente le necessarie coperture finanziarie, che noi - lo diciamo fin da adesso - auspichiamo non siano penalizzanti per i comparti produttivi, altrimenti l'operazione si risolverebbe in una sommatoria a saldo zero.</seg>
+            </u>
+            <note type="speaker">PANIZZA (Aut (SVP, UV, PATT, UPT) - PSI)</note>
+            <u ana="#regular" who="#PanizzaFranco" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u9">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg10">Signor Presidente, gentile Ministro, la legge di stabilità del 2013 è intervenuta sulla disciplina IVA delle prestazioni sociali a soggetti svantaggiati rese da cooperative e da loro consorzi, aumentando l'aliquota dal 4 al 10 per cento per i contratti a partire dal 1° gennaio 2014. Nella relazione del Governo, l'aumento viene giustificato con il timore di una procedura d'infrazione da parte della Commissione europea e quindi il Governo, in via precauzionale, propone la soppressione immediata della tariffa agevolata. La Commissione, in realtà, ha semplicemente posto la questione ed è del tutto da vedere se la procedura andrà avanti, e in ogni caso ciò non avverrà in tempi brevi. Considerata l'importanza sociale, ma anche economica, per le circa 12.000 cooperative sociali, che peraltro danno lavoro a circa 380.000 persone e la cui rete di servizi raggiunge circa 6 milioni di cittadini, e considerato che l'impatto dell'aliquota si ripercuoterà innanzitutto sugli enti e le istituzioni locali che erogano i servizi (ma per una quota parte sulle famiglie che ne usufruiscono), le chiedo se non ritenga opportuno ripristinare l'aliquota precedente, anche in considerazione del fatto che quest'anno l'Unione europea darà vita a una ristrutturazione complessiva del regime IVA e quindi occorrerà che anche il nostro Paese si adegui di conseguenza: pertanto non mancheranno le occasioni per rivedere la materia e adeguarsi al nuovo regime IVA.</seg>
+            </u>
+            <note type="speaker">FERRARA Mario (GAL)</note>
+            <u ana="#regular" who="#FerraraMario" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg11">Signor Ministro, l'aumento dell'IVA è una decisione che l'attuale Governo si ritrova in quanto assunta dal Governo precedente e che può evitare, rinviare o attuare; ad ogni modo, c'è bisogno di individuare le risorse alternative o, comunque, la destinazione dei tributi prelevati. Il problema che mi pongo però è un altro: non quello relativo alla decisione che dovrà essere presa a breve e che compete alla responsabilità del Governo e alla nostra in ordine all'iniziativa sulla produzione, bensì il problema relativo alla politica fiscale che il Governo vuole proporre. Ritiene il Governo di procedere richiedendo l'approvazione della delega fiscale così come era stata congegnata, ideata e proposta dal precedente Esecutivo o intende procedere ad una sua modifica? Ricordando Colbert che sosteneva che l'attività più fine da parte di un Ministro è quella di spennare l'oca senza farle sentire dolore, dal momento che non ci sono più le penne dell'oca, cosa deve fare a questo punto il Governo in proposito, per sua proposta, iniziativa, pensiero, meditazione? In base alla sua passata esperienza in Banca d'Italia, qual è la migliore politica fiscale per l'Italia nel prossimo futuro?</seg>
+            </u>
+            <note type="speaker">URAS (Misto-SEL)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u11">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg12">Signor Ministro, a noi fa piacere che oggi tutti sostengano la tesi della sospensione o della rimozione dell'ipotesi dell'aumento dell'IVA di un punto percentuale. Abbiamo però approvato - anzi, avete approvato - non più tardi di qualche settimana fa, il Documento di economia e finanza del Governo Monti: lì sono definiti i saldi, così come anche le modalità per poter ottenere le disponibilità finanziarie in ordine alle questioni da affrontare. Non pensa quindi che l'incremento dell'IVA debba essere rimosso e, quindi, debba essere corretto in questa direzione - così come ci aspettavamo si facesse - il Documento di economia e finanza? In ogni caso, non pensa si debba procedere ad una selezione dei prodotti da sottoporre ad incremento IVA tale da difendere le produzioni nazionali, e quindi sostenere la domanda a favore della produttività e dell'occupazione italiana? PRESIDENTE. Ha facoltà di rispondere congiuntamente il ministro dell'economia e delle finanze, dottor Saccomanni.</seg>
+            </u>
+            <note type="speaker">SACCOMANNI</note>
+            <note type="role">ministro dell'economia e delle finanze</note>
+            <u ana="#guest" who="#SaccomanniFabrizio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u12">
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg13">Signor Presidente, onorevoli senatori, ringrazio per le domande, molto dettagliate. Vorrei però fare una premessa di carattere generale prima di rispondere nei limiti del possibile ad esse.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg14">Rispetto a qualche settimana fa la situazione in cui ci troviamo a gestire la politica economica e fiscale mostra dei segni non precisamente incoraggianti. Come è stato già ricordato, i dati riguardanti il primo trimestre dell'anno mostrano un quadro peggiore: questo significa non solo una decrescita ancora seria, ma evidentemente comporta anche effetti negativi in ordine al gettito delle imposte, in particolare quello dell'IVA, che è lo strumento che può consentire un monitoraggio più rapido rispetto ad altre forme di imposizione.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg15">Un altro importante fattore è rappresentato dal fatto che, purtroppo, in queste ultime settimane, per motivi del tutto estranei alla situazione economica italiana, si sono riprodotte delle tensioni sui mercati finanziari; sono essenzialmente tensioni di origine americana e giapponese che riguardano il senso e l'intensità della politica monetaria che questi Paesi hanno in animo di intraprendere. Ciò comporta forti ripercussioni sui mercati, che si aspettano un rialzo dei tassi d'interesse. Ciò sta provocando una serie di operazioni di tipo compensativo da parte degli intermediari, che stanno vendendo obbligazioni emesse anche da vari Paesi emergenti, e naturalmente da Paesi europei, con un effetto negativo sulle quotazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg16">Un terzo fattore che non posso dimenticare di ricordare è il fatto che la procedura di disavanzo eccessivo, ancorché in via di superamento grazie alla posizione favorevole assunta dalla Commissione il 29 maggio scorso, non è però ancora conclusa: ci vorrà una decisione da parte del Consiglio Ecofin, da adottare nella prossima riunione, e poi una decisione finale da parte del Consiglio europeo, a luglio.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg17">Tutto ciò spiega la ragione per cui il Governo si sta muovendo con estrema cautela nella formulazione e nell'elaborazione delle misure di politica fiscale. Il Governo - lo posso confermare, ed è stato ricordato più volte - è al lavoro su tutti i temi che fanno parte degli impegni programmatici assunti a proposito della riduzione della pressione fiscale, sia sui consumi che sulla proprietà immobiliare, in particolare per quanto riguarda l'IMU. È in corso, anche alla luce di questi sviluppi che si stanno verificando, una quantificazione globale delle esigenze di finanziamento per rispondere agli obiettivi di carattere programmatico. Evidentemente, il reperimento di coperture che non intacchino l'impegno assunto a livello europeo comporta essenzialmente l'introduzione di tagli alla spesa e, in alcuni casi, di ritocchi alla tassazione. Ripeto, stiamo studiando ogni tipo di possibile soluzione.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg18">Questo è il quadro in cui ci muoviamo per quanto riguarda in particolare l'IVA. Naturalmente, siamo assolutamente consapevoli degli effetti negativi che un suo aumento può provocare in questo momento, anche se il reperimento di coperture alternative potrebbe essere non meno gravoso; si tratta quindi di valutare quali siano le alternative. Posso confermare che tra le alternative che vengono studiate c'è sostanzialmente tutto un ventaglio di possibilità, compresa l'eliminazione di un punto di aumento, che implica la necessità di trovare un finanziamento addizionale di 2 miliardi di euro e comporterà poi la necessità di reperire un finanziamento di 4 miliardi di euro per ciascuno degli anni successivi. L'IVA cioè svolge un ruolo fondamentale nella costruzione delle misure che hanno consentito all'Italia di uscire dalla procedura di disavanzo eccessivo. È all'esame anche la possibilità di ridurla di tre mesi o di rinviarla per un periodo di tempo che consenta, come sosteneva il senatore Guerrieri Paleotti, di guardare con un po' più chiarezza all'evoluzione della situazione economica che, superata questa fase di incertezza, potrebbe mostrare qualche segnale di miglioramento, dato che tutti gli istituti di analisi continuano a proiettare una ripresa dell'attività economica verso la seconda parte dell'anno.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg19">È evidente che il discorso dell'impatto dell'aliquota sul gettito dell'imposta va visto in un contesto più ampio. Certamente, ceteris paribus, un aumento dell'aliquota può deprimere i consumi, ma dipende anche dalla situazione generale dell'economia. Effettivamente ci siamo trovati in una congiuntura negativa, che si è mantenuta più severa del previsto, ma pensiamo che in questo non vi sia necessariamente un rapporto di causalità uno a uno tra andamento dell'aliquota e andamento del gettito: sono fattori di carattere macroeconomico che hanno un'influenza più generale su tale punto. Tutti abbiamo ben chiare le prese di posizioni pubbliche di importanti segmenti dell'economia e - ripeto - l'impegno di evitare aggravi di imposta inutili o peggio dannosi è certamente all'attenzione massima del Governo. Passo ora ad alcuni aspetti più specifici. Ad esempio, rispetto al punto sollevato dal senatore Panizza, purtroppo credo che per una direttiva comunitaria non sia possibile ripristinare un'aliquota che era stata ridotta in connessione con la tassazione delle prestazioni a soggetti svantaggiati. Per concludere, sottolineo che per i prossimi mesi abbiamo in animo di guardare al complesso della politica fiscale. Rispondo così, in particolare, alla domanda del senatore Ferrara evidenziando che - come abbiamo più volte indicato - l'obiettivo è quello di ridurre l'imposizione sul lavoro e sulle imprese reperendo le fonti di finanziamento essenzialmente attraverso una revisione strutturale dei meccanismi di spesa ed attaccando il capitolo delle agevolazioni di carattere fiscale. In linea teorica queste sono una fonte abbastanza ampia di possibili finanziamenti, ma richiedono provvedimenti specifici per rimuovere le cause originarie del provvedimento legislativo da cui ciascuna di queste agevolazioni o sussidi trae origine: non sono cioè questioni decise a livello amministrativo. Mi rendo conto che, come ha sottolineato la senatrice Lanzillotta, il sentiero è stretto. Inoltre, abbiamo ben chiaro che l'ampiezza di tale sentiero tende un po' a ridursi, anche per effetto dell'evoluzione congiunturale; tuttavia l'obiettivo resta sempre quello di agire sul fronte dei tagli alla spesa. Signor Presidente, penso di avere esaurito il mio intervento su questo tema. PRESIDENTE. Hanno adesso facoltà di replicare gli interroganti, per un minuto ciascuno.</seg>
+            </u>
+            <note type="speaker">GUERRIERI PALEOTTI (PD)</note>
+            <u ana="#regular" who="#GuerrieriPaleottiPaolo" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg20">Ringraziando il ministro Saccomanni per le chiarificazioni che ci ha offerto, vorrei svolgere due brevissime considerazioni. Il problema verificatosi negli ultimi due anni è rappresentato dal fatto che l'aumento dell'IVA ha sempre dato molto meno di quanto prometteva perché la caduta della domanda interna e dell'attività produttiva bruciava quegli introiti. Quanto all'ipotesi di rinvio, ritengo sia molto importante disporre del quadro complessivo, giacché le risorse sono scarse e vanno ottimizzate.</seg>
+            </u>
+            <note type="speaker">D'ALI' (PdL)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u14">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg21">Signor Ministro, quanto da lei riferito ci conferma, come Popolo della Libertà, nell'assoluta determinazione di far si che non si proceda a questo aumento dell'IVA. Infatti, ne avremmo un effetto assolutamente negativo sul gettito, e quindi anche la cifra appostata cartolarmente per riequilibrare il bilancio dello Stato sarebbe doppiamente negativa a consuntivo.</seg>
+            </u>
+            <note type="speaker">PEPE (M5S)</note>
+            <u ana="#regular" who="#PepeBartolomeo" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg22">Prendiamo atto che, di fatto, il Governo vuole aumentare l'aliquota dell'IVA e quindi ci dichiariamo insoddisfatti.</seg>
+            </u>
+            <note type="speaker">LANZILLOTTA (SCpI)</note>
+            <u ana="#regular" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u16">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg23">Signor Ministro, prendiamo atto della preoccupazione per il peggioramento della situazione economica e finanziaria e della conseguente cautela anche nei confronti dell'Europa. Non è quindi il caso di accreditare l'idea che la crisi è alle nostre spalle o - peggio ancora - che si possa tornare a non avere preoccupazioni finanziarie, a spendere o a fare riduzioni fiscali. Proprio per questo l'invito è ancora una volta, signor Ministro, ad adottare misure che non cedano alla propaganda, ma siano coerenti con l'esigenza di contrastare l'andamento negativo del ciclo economico.</seg>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg24">Signor ministro, non siamo molto soddisfatti, perché percepiamo poca determinazione da parte del Governo su questo argomento che dovrebbe invece essere una pista da bob, ossia un sentiero obbligato. Le ricordo che il Senato, nella scorsa legislatura, vedendo il calo dei consumi medi delle famiglie, ha messo in piedi una propria macchina, una Commissione, per monitorare proprio prezzi, tariffe ed incrementi anomali, al fine di evitare che la sempre maggiore compressione del potere d'acquisto non si ripercuotesse poi su un calo della domanda interna. Lei è un economista, per cui non le dobbiamo spiegare da economisti che cosa sia la curva di Laffer. Abbiamo però superato il suo punto critico: pur credendo di aumentare il gettito incrementando la pressione fiscale, rischiamo invece, così facendo, di ridurre il gettito complessivo. Se - come gli studi dicono - l'aumento sarà di 140 euro a famiglia, le famiglie che non hanno propensione al risparmio necessiteranno di tutto il reddito per poter vivere.</seg>
+            </u>
+            <note type="speaker">FERRARA Mario (GAL)</note>
+            <u ana="#regular" who="#FerraraMario" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg25">Signor Presidente, signor Ministro, mi dichiaro soddisfatto, anche per la considerazione implicita che ella ha fatto, signor Ministro, con la riservatezza che le è congeniale, anche per la sua provenienza, che l'IVA è stata pensata in un momento in cui era necessario portare la parte impositiva dei tributi da diretta a indiretta; oggi, al contrario, tutto questo finisce per essere un controsenso, perché la necessità è di agire in modo anticiclico, ossia di non prelevare quello che non c'è.</seg>
+            </u>
+            <note type="speaker">URAS (Misto-SEL)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u19">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg26">Signor Ministro, rimane la preoccupazione. Riteniamo, infatti, che il sistema delle dilazioni non tranquillizzi, ma anzi crei timori. La sospensione di per sé non è una soluzione. Sarebbe meglio non attivare l'incremento ed intervenire invece con un progetto complessivo, che garantisca le nostre produzioni, sostenga la domanda interna di produzione italiana, per sostenere anche l'occupazione.</seg>
+            </u>
+            <note type="speaker">PANIZZA (Aut (SVP, UV, PATT, UPT) - PSI)</note>
+            <u ana="#regular" who="#PanizzaFranco" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u20">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg27">Signor Presidente, non sono molto soddisfatto della risposta del Ministro, perché credo che noi italiani siamo sempre più realisti del re. In realtà, risponde al vero che la Direzione generale della fiscalità e dell'unione doganale della Commissione europea ha posto, con il sistema EU-Pilot, la questione della compatibilità con il diritto comunitario del regime agevolato dell'IVA, ma è altrettanto vero che si tratta di una procedura meramente conoscitiva, oltre che lunghissima, che non è detto poi produca anche procedure di infrazione. Inoltre, interviene contemporaneamente a un ulteriore e molto più importante percorso europeo di modifica dei regimi IVA, avviato con la comunicazione della Commissione: «Sul futuro dell'IVA. Verso un sistema dell'IVA più semplice, solido ed efficiente adattato al mercato unico», del 6 dicembre 2011. Quindi, Ministro, la invito davvero a riconsiderare questa posizione, perché credo si tratti di una prudenza in questo momento davvero eccessiva.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Question time sulla disciplina dell'IMU</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u21">
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg28">Passiamo ora alle interrogazioni riguardanti la disciplina dell'IMU, cui risponderà il ministro dell'economia e delle finanze, dottor Saccomanni.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg29">I senatori hanno facoltà di rivolgere le loro domande al Ministro per due minuti ciascuno.</seg>
+            </u>
+            <note type="speaker">SANTINI (PD)</note>
+            <u ana="#regular" who="#SantiniGiorgio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u22">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg30">Signor Ministro, dopo il rinvio del versamento della prima rata dell'IMU, il decreto-legge prevede ora una complessiva riforma dell'imposizione fiscale sul patrimonio immobiliare, ivi compresa anche la disciplina del tributo comunale sui rifiuti e dei tributi sui servizi. Il Governo ha più volte dichiarato il suo obiettivo di riduzione fiscale senza produrre indebitamento ulteriore. Le chiedo, quindi, come intenda operare il Governo per una rimodulazione dell'IMU sulla prima casa nel segno dell'equità, prevedendo in particolare un'esenzione per le famiglie meno abbienti e per gli stabili di minor pregio utilizzati come prima casa. Le chiedo inoltre se il Governo prevede, come noi riteniamo necessario, una riduzione dell'IMU sugli immobili ad uso strettamente produttivo, nel senso di sostenere, ai fini dello sviluppo, da un lato la domanda interna, non comprimendo ulteriormente i redditi più bassi, e, dall'altro, la produzione. Le chiedo inoltre, in tema di riordino, se il Governo intende accorpare in un'unica imposta comunale il tributo sui rifiuti e sui servizi, se intende inserire una maggiore progressività dell'imposizione fiscale sul patrimonio immobiliare e, infine, come intende accelerare la revisione del catasto, strumento essenziale per una giusta applicazione dell'IMU.</seg>
+            </u>
+            <note type="speaker">D'ALI' (PdL)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u23">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg31">Signor Ministro, i decreti attuativi di fine 2011 relativi all'IMU hanno distinto tra prima e seconda casa e sono stati assunti come obbligo per i Comuni di realizzare un determinato gettito. Quei due comparti sono stati tenuti separati, e quindi alcuni Comuni che non hanno raggiunto il gettito con l'IMU sulla prima casa hanno dovuto integrare con risorse proprie, mentre altri che hanno superato il gettito sulla seconda casa non sono stati ammessi a compensazione. Vorrei sapere se questa rilevazione è esatta e come intende il Governo eventualmente ovviare a tale grave prevaricazione nei confronti dei Comuni. In secondo luogo, vorrei sapere se l'IMU 2012 non abbia determinato per lo Stato un gettito superiore alle previsioni. In tal caso desidererei conoscere qual è stata la destinazione di questo gettito e se esso non venga preso in considerazione anche per la riforma dell'imposta che il Governo sta predisponendo. Infine, la TARES, con lamaggiorazione di 0,30 euro al metro quadro costituisce per noi un'addizionale IMU che bisogna assolutamente evitare. Vorremmo sapere se il Governo è nello stesso ordine di idee, perché la TARES è una tariffa che dovrebbe essere tutta in capo ai Comuni ed essendo tariffa va a compensazione dei servizi e quindi non può divenire una nuova patrimoniale.</seg>
+            </u>
+            <note type="speaker">LEZZI (M5S)</note>
+            <u ana="#regular" who="#LezziBarbara" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u24">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg32">Signor Ministro, l'IMU, inizialmente introdotta per il biennio 2013-2015, non si sa ancora se diventerà un'imposta permanente. Ora la parola è passata a lei, al Governo Letta, che ha sospeso la prima rata di giugno sugli immobili adibiti ad abitazione principale, sui terreni, sui fabbricati agricoli, sugli immobili delle cooperative edilizie e le case popolari IACP. Di fatto questo Governo ha somministrato un'anestesia temporanea al popolo italiano, perché nel frattempo non è ancora chiaro se si andrà avanti con gli anestetici o ci si pone davvero l'obiettivo di una riforma complessiva della materia. Fino a questo momento il Governo si è limitato alla formulazione di diverse ipotesi: rimborso dell'IMU, eliminazione, rimodulazione, una riforma complessiva con l'introduzione di una service tax. Il passaggio al modello della service tax, che includa nel suo perimetro anche la TARES, per il M5S determinerebbe il trasferimento di parte del prelievo dai proprietari agli inquilini, con effetti redistributivi indesiderati e, per la componente relativa ai rifiuti, sarebbe incompatibile con il principio comunitario del «chi inquina paga». Quello che si chiede al Governo è se non sia il caso di cambiare logica, di capire che oggi la pressione fiscale in Italia è insostenibile, che gli aumenti, sia dell'imposizione diretta che indiretta, stanno producendo una distorsione del gettito. Ricordo che l'IMU, per le piccole e medie imprese, ha rappresentato una triplicazione del carico fiscale. Quello che si chiede è un atto di coraggio, una riforma complessiva del fisco che preveda una riduzione del carico fiscale di 4-5 punti percentuali, una revisione complessiva della spesa pubblica, un intervento sull'ammontare del debito pubblico, una seria lotta all'evasione fiscale, lasciando stare strumenti di contrasto burocratici quali sono il redditometro e gli studi di settore. Visto che non si riesce a capire in che direzione intenda muoversi il Governo, se vi è una linea condivisa nel determinare le sorti dell'IMU, si chiede se la si vuole abolire, rimodulare o riformare.</seg>
+            </u>
+            <note type="speaker">LANZILLOTTA (SCpI)</note>
+            <u ana="#regular" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u25">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg33">Signor Ministro, i dati forniti oggi dall'ASSONIME, già indicati da Banca d'Italia nei giorni scorsi, confermano che in Italia la pressione fiscale sulla proprietà immobiliare è tra le più basse in Europa e anche nel mondo occidentale e che, quindi, l'abolizione dell'IMU da taluni richiesta è un lusso che non ci possiamo permettere e sarebbe anche una misura inefficiente. Chiedo di conoscere se il Governo pensa semplicemente ad un'accentuazione della già notevole progressività che l'imposta ha e di focalizzare l'intervento eventualmente sugli immobili adibiti ad attività di impresa che distorcono anche la tassazione sui fattori della produzione.</seg>
+            </u>
+            <note type="speaker">ARRIGONI (LN-Aut)</note>
+            <u ana="#regular" who="#ArrigoniPaolo" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg34">Signor Ministro, la situazione della finanza dei Comuni si è particolarmente aggravata dal 2011 a causa dei pesanti tagli alle risorse operati mediante la riduzione del Fondo sperimentale di riequilibrio. Proprio per sopperire a tali deficit, numerose amministrazioni sono dovute ricorrere all'aumento delle imposte locali, a partire dall'IMU introdotta dal Governo Monti, elevando le aliquote rispetto a quelle base, già di per sé causa di più che un raddoppio dei costi sostenuti da famiglie e attività economiche. L'attuale Governo ha recentemente disposto la sospensione del pagamento della prima rata sulle abitazioni principali, il cui gettito è destinato ai Comuni, riservandosi di intervenire a breve sul complesso dell'imposta al fine di stabilire in modo più chiaro il quadro normativo di riferimento. La sospensione dell'lMU, unita alle forti criticità introdotte dalla TARES e al perdurare degli assurdi vincoli del Patto di stabilità, peggiora il già incerto ed instabile quadro normativo, accrescendo le difficoltà dei sindaci. Le minori risorse a favore dei Comuni, anche a causa della predetta sospensione, avranno certamente pesanti ripercussioni sugli equilibri finanziari degli enti, i quali potrebbero vedersi costretti ad aumentare ulteriormente i tributi locali, ovvero diminuire il livello di spesa corrente, e dunque i servizi. Pertanto, signor Ministro, chiediamo di sapere se non ritenga opportuno intervenire urgentemente per ridefinire in modo complessivo ed organico il quadro normativo della fiscalità locale, provvedendo nello specifico ad una globale revisione dell'IMU in grado di alleviare il carico fiscale delle famiglie, in ordine all'abitazione principale; alleggerire il carico fiscale delle attività economiche per le quali il capannone, il laboratorio, il negozio devono essere considerati un bene strumentale non gravato dal tributo; garantire ai Comuni il medesimo gettito incassato negli anni precedenti e, al contempo, conferire una maggiore autonomia finanziaria così da responsabilizzare maggiormente gli amministratori locali.</seg>
+            </u>
+            <note type="speaker">PANIZZA (Aut (SVP, UV, PATT, UPT) - PSI)</note>
+            <u ana="#regular" who="#PanizzaFranco" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u27">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg35">Signor Ministro, il quesito che le sottopongo riguarda i contratti di locazione a canone agevolato o concordato. Come lei sa, questi contratti rappresentano l'unico strumento esistente per calmierare il mercato a favore degli inquilini più deboli e sono un'opportunità essenziale per i locatori che intendono affittare a condizioni agevolate. Negli scorsi anni, infatti, i canoni concordati avevano permesso di dare una casa a tanti italiani non abbienti: si parla di quasi 220.000 affitti e di quasi il 6 per cento del totale (all'incirca un milione di italiani). Quando era in vigore il regime dell'ICI era prevista un'aliquota ridotta del 4 per mille. D'altronde, l'introduzione di questi contratti era anche in funzione dei vantaggi fiscali che essi comportavano. Con l'introduzione dell'IMU - faccio l'esempio del Comune di Trento, stiamo parlando del 7,83 per mille indifferenziato - questi strumenti sono stati davvero messi in pericolo, e quindi rischiamo di vanificare questa grande risorsa. Le chiedo, quindi, Ministro, di ripristinare l'aliquota ridotta del 4 per mille per tali contratti. Il secondo quesito che le pongo riguarda l'esenzione dal pagamento dell'IMU per gli immobili strumentali delle imprese, un argomento che è già stato affrontato da chi mi ha preceduto, in particolare dal senatore Santini. Condividiamo il fatto che questa è una tassa occulta sul lavoro, in quanto va a tassare un vero e proprio strumento del lavoro; mi auguro pertanto che questo nuovo Governo voglia esentare di fatto tali immobili, anche nell'ottica della volontà, degli sforzi, delle politiche che si stanno mettendo in campo per liberare il nostro tessuto produttivo e rilanciare l'economia.</seg>
+            </u>
+            <note type="speaker">FERRARA Mario (GAL)</note>
+            <u ana="#regular" who="#FerraraMario" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u28">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg36">Signor Presidente, non sono molto d'accordo nel distinguere la parte del question time riguardante l'IVA da quella sull'IMU perché, per quanto mi riguarda, il tema è sempre lo stesso: il coordinamento dei tributi e quindi la politica fiscale del Governo. Prendiamo il coordinamento tra la TARES e l'IMU, due tributi che comunque dovrebbero andare a finanziare l'attività dei Comuni: la parte della TARES si può coordinare con quella dell'IMU e la sospensione dell'IMU va influire sul totale delle risorse che vengono a mancare ai Comuni. Vorrei a questo punto puntualizzare una mia curiosità in proposito, e cioè se il Governo con la sua autorevolezza e l'ampia maggioranza che lo supporta, abbia intenzione di sollecitare un'interlocuzione con l'ANCI per vedere se, almeno questa volta, i Comuni abbiamo intenzione di farsi carico di una parte dei tagli che le loro a volte costosissime attività non hanno consentito di poter effettuare.</seg>
+            </u>
+            <note type="speaker">URAS (Misto-SEL)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u29">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg37">Signor Ministro, noi riteniamo che gli enti locali siano stati già colpiti abbastanza dalle politiche di austerità poste in essere dal Governo precedente e proseguite dal Governo attuale. Riteniamo che sia molto preoccupante la politica del rinvio delle questioni relative alla riforma del sistema impositivo sugli immobili. Riteniamo che il rinvio già disposto della TARES complichi ancora di più la situazione. Abbiamo la preoccupazione che il Natale degli italiani possa essere disastroso, ossia che si arrivi all'appuntamento delle feste natalizie con il sacco di Babbo Natale organizzato con le imposte che non abbiamo pagato in corso d'anno, con i rinvii da assolvere a fine anno, quando cioè gli italiani prendono la tredicesima, almeno i lavoratori dipendenti, che sono quelli che più di altri partecipano con i contributi fiscali alla finanza pubblica. Per questo, signor Ministro, vorremmo capire come intende procedere il Governo. PRESIDENTE. Ha facoltà di rispondere congiuntamente il ministro dell'economia e delle finanze, dottor Saccomanni.</seg>
+            </u>
+            <note type="speaker">SACCOMANNI</note>
+            <note type="role">ministro dell'economia e delle finanze</note>
+            <u ana="#guest" who="#SaccomanniFabrizio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u30">
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg38">Signor Presidente, non penso di dover ripetere le premesse di carattere macroeconomico che ho già indicato in precedenza, che però si applicano anche a questo importante comparto della tassazione. Su questo punto vorrei sottolineare che nel decreto con il quale è stato approvato il rinvio della rata dell'IMU prevista era chiaramente indicato il percorso che il Governo intendeva svolgere, dandosi come termine ultimo per completare una riforma molto ampia e molto dettagliata, già forse nel testo del decreto stesso, il prossimo 31 agosto.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg39">Il Governo intende rispettare questa scadenza. Ripeto: stiamo analizzando anche in questo caso tutte le possibili alternative, con l'obiettivo di tenere conto delle esigenze che sono state espresse da tutte le forze politiche in maggiore o minore misura e che hanno attirato l'attenzione sulla necessità di un intervento in questo campo delicato.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg40">Quelle che abbiamo preso sono state effettivamente misure di rinvio, ma di rinvio meditato nel riconoscimento della complessità della materia; quindi, nell'esercizio di riesame che stiamo compiendo dobbiamo certamente tenere conto delle indicazioni che sono emerse anche in questa occasione qui in Senato.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg41">È chiaro che, per come ci siamo impegnati, questo riordino riguarderà non soltanto l'IMU, ma anche la TARES. È chiaro anche che, come abbiamo sempre evidenziato nel decreto, c'è attenzione alla situazione delle imprese e alla tassazione sui capannoni industriali, come era stato indicato, con una misura che, almeno per quanto riguarda le possibilità di consultazione che abbiamo avuto al Ministero dell'economia, sembrava rispondere alle esigenze delle imprese quasi addirittura meglio che non l'esenzione dall'IMU. Quindi, la possibilità di dedurre il pagamento dell'IMU dal reddito d'impresa è una delle opzioni che stiamo attentamente valutando.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg42">Siamo consapevoli che le misure prese possono essere considerate come un anestetico temporaneo, ma ciò non vuol dire che non sia in corso un intervento di ridisegno e di ristrutturazione di questa imposta. Pertanto, l'osservazione che la TARES si caratterizza come un'addizionale IMU e quindi debba essere esaminata in quel contesto rappresenta un fattore importante.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg43">Desidero chiarire un punto relativamente al gettito dell'IMU, dal momento che è stato chiesto se vi è stato o no un extragettito. Posso qui riferire che, sulla base di dati molto recenti (14 marzo 2013), l'introito totale derivante dall'IMU è stato di 23 miliardi e 792 milioni, di cui 20 miliardi e 329 milioni relativi all'IMU calcolata sull'aliquota base, quella pianificata dagli uffici del Ministero delle finanze sulla base dei dati disponibili, non sapendo quale sarebbe stata l'aliquota effettiva adottata dai singoli Comuni. Per effetto delle manovre comunali assunte separatamente c'è stato poi un ulteriore gettito di 3 miliardi e 462 milioni. Questo è il totale delle entrate derivanti da tale voce di imposta.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg44">È assolutamente vero, quindi, che il gettito dell'IMU sia stato superiore al previsto. È stato uno dei cardini fondamentali della manovra di finanza pubblica che ci ha consentito di uscire dalla procedura di disavanzo eccessivo. Peraltro l'extragettito - se si può definire tale, dal momento che la differenza è data dall'importo calcolato ex ante non sapendo quale sarebbe stata la misura delle manovre a livello comunale - è certamente confluito nelle entrate generali dello Stato ed ha dato un contributo importante a sostegno del totale delle entrate in un anno in cui il reddito si è ridotto del 2,4 per cento, come purtroppo è stato certificato. Si tratta di un punto importante che desidero chiarire, perché dimostra che questo tipo di imposta ha consentito di assorbire i contraccolpi di un'accelerazione della recessione. Aggiungo che nel lavoro di riordino e di riesame di questo tipo di imposizione terremo certamente conto della necessità di garantire ai Comuni un'autonomia impositiva, del resto costituzionalmente garantita, prevedendo che essa si traduca in un'effettiva autonomia di entrata. È un fattore che dovremo tenere presente nella prospettiva di riordino. Tutti hanno sottolineato la necessità di ridurre l'imposizione su determinati cespiti. Abbiamo tenuto ben conto di quanto ricordava la senatrice Lanzillotta circa l'opportunità di confrontare, a livello internazionale, la tassazione sulla casa. Il Governo intende esaminare questi problemi in piena collaborazione con il Parlamento e con le Commissioni parlamentari. In quella sede, tenendo conto delle esigenze di finanziamento, dovranno essere stabilite le opportune priorità, considerando gli impatti relativi di certi strumenti di politica fiscale. Il nostro impegno, come Ministero dell'economia e delle finanze, sarà quello di fornire al Parlamento tutti i parametri per poter prendere una decisione motivata sulle priorità. È chiaro che si tratta, anche in questo caso, di un'imposta che, se dovesse essere eliminata definitivamente, comporterebbe un onere di finanziamento nell'ordine di 4 miliardi di euro all'anno, cifra che, se si aggiunge ai 4 miliardi di cui si parlava poc'anzi per quanto riguarda l'IVA, fa ipotizzare la necessità di interventi di tipo compensativo di estrema severità, che al momento attuale non sono rinvenibili. Abbiamo ben presente il punto sollevato dal senatore Uras. Certamente non vogliamo spingere tutti i rinvii verso la fine dell'anno. Se possibile, vorremmo completare questa revisione - si tratta di una mia speranza personale - ben prima della fine di agosto, in modo da poter dare il massimo di chiarezza. PRESIDENTE. Signor Ministro, la prego di concludere. SACCOMANNI, ministro dell'economia e delle finanze. Signor Presidente, la ringrazio, ma avevo comunque finito. PRESIDENTE. Hanno adesso facoltà di replicare gli interroganti, per un minuto ciascuno.</seg>
+            </u>
+            <note type="speaker">SANTINI (PD)</note>
+            <u ana="#regular" who="#SantiniGiorgio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u31">
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg45">Signor Ministro, la ringrazio per il suo intervento. Mi ritengo soddisfatto soprattutto per l'impegno a mantenere i tempi, che noi consideriamo un fatto molto importante per dare certezza. Così come sono soddisfatto per la risposta sulla deducibilità per i capannoni di tipo industriale e anche sulla TARES.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg46">Per quanto riguarda le priorità di cui tener conto nella riforma, lei dice, giustamente, che intende concordarle con il Parlamento. Noi, come Partito Democratico, sottolineiamo che la nostra priorità è rappresentata dalle famiglie meno abbienti; quindi, anche per questa via auspichiamo un sostegno ai redditi delle persone più in difficoltà.</seg>
+            </u>
+            <note type="speaker">D'ALI' (PdL)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u32">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg47">Signor Ministro, grazie per i dati che ci ha fornito in merito al gettito dell'IMU per il 2012, che ci confortano del fatto che il Governo abbia un margine di manovra. Sarei infatti molto preoccupato se il maggior gettito venisse destinato, a regime, al ripianamento generico dei conti pubblici. È un maggior gettito che deriva da un comparto e a ristrutturare l'imposta su tale comporto deve essere destinato. In particolare rilevo che l'aumento di 30 centesimi a metro quadro nella TARES quota un miliardo nella valutazione del Ministero dell'economia, quindi al di sotto di un terzo del maggiore gettito dell'IMU. C'è materia per lavorare.</seg>
+            </u>
+            <note type="speaker">LEZZI (M5S)</note>
+            <u ana="#regular" who="#LezziBarbara" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u33">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg48">Signor Presidente, innanzitutto prendiamo atto dell'ottimismo del Ministro, che prevede che si possa dedurre l'IMU del reddito d'impresa, quando sappiamo bene che questo ora è quasi pari a zero. In merito poi alle risorse da recuperare per abolire l'IMU per intero, vorremmo richiamare l'attenzione sull'evasione fiscale: anziché umiliare i cittadini e le imprese che lavorano in trasparenza, preferiremmo che finalmente si recuperasse questa evasione da chi la genera nella sua parte più consistente, ovvero - come voi sicuramente saprete - la criminalità.</seg>
+            </u>
+            <note type="speaker">LANZILLOTTA (SCpI)</note>
+            <u ana="#regular" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u34">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg49">Signor Presidente, mi dichiaro soddisfatta, perché la risposta del Ministro è stata analitica e indica la problematicità dell'intervento complessivo di politica fiscale. Per quanto riguarda la TARES, raccomando una riflessione sul fatto che passare dalla tariffa alla tassa fa venir meno la logica della tariffa, cioè quella di legare il pagamento all'efficienza e al costo effettivo dei servizi, e quindi dare trasparenza alle modalità di gestione dei servizi locali.</seg>
+            </u>
+            <note type="speaker">ARRIGONI (LN-Aut)</note>
+            <u ana="#regular" who="#ArrigoniPaolo" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u35">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg50">Signor Ministro, la Lega Nord si dichiara parzialmente soddisfatta. Ci sono degli impegni - peraltro includendo anche la riforma della TARES, che è in linea con un ordine del giorno presentato dalla Lega Nord - ma non ci sono certezze. Ecco, non vorremmo che alla fine del percorso, alla fine di agosto, si dovesse registrare un altro ulteriore calo del PIL che andrebbe ad inficiare queste buone intenzioni. Prendiamo atto dell'attenzione di tutti Gruppi in ordine all'alleggerimento del carico fiscale sulle famiglie e confidiamo che tale alleggerimento ci sia anche in ordine alle attività economiche. Soprattutto chiediamo che questa riforma non gravi sul già critico bilancio dei Comuni.</seg>
+            </u>
+            <note type="speaker">PANIZZA (Aut (SVP, UV, PATT, UPT) - PSI)</note>
+            <u ana="#regular" who="#PanizzaFranco" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u36">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg51">Signor Ministro, abbiamo apprezzato la sua apertura e anche la sua disponibilità, disponibilità che peraltro questo Governo sta dimostrando ogni giorno, anche condividendo con il Senato e con il Parlamento in genere le sue proposte. Prendo atto, in particolare, della disponibilità a considerare l'IMU sugli immobili strumentali o capannoni, che dir si voglia. Sul secondo argomento che le ho sottoposto non ho avuto una risposta precisa e vorrei invitarla a considerare che vi sono sacche di bisogno nel nostro Paese. Mi riferisco ai canoni concordati o agevolati, che interessano categorie che hanno effettivamente bisogno. Forse, anzi sicuramente, nel momento in cui dovremo tassare dovremo pensare ai redditi alti, alle pensioni d'oro e ai patrimoni più elevati, cercando di andare a recuperare l'imposizione dove effettivamente vi è la possibilità di pagarla.</seg>
+            </u>
+            <note type="speaker">FERRARA Mario (GAL)</note>
+            <u ana="#regular" who="#FerraraMario" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u37">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg52">Signor Ministro, mi dichiaro soddisfatto anche per il sotteso giuridico del suo intervento, ovvero la necessità di meglio coniugare potere e responsabilità, nel senso che là dove c'è potere, cioè i Comuni, ci sia anche la responsabilità di vedere come questo potere debba essere esercitato, e là dove il potere, mi riferisco al Governo, deve essere esercitato, ci possano essere le risorse per farlo.</seg>
+            </u>
+            <note type="speaker">URAS (Misto-SEL)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u38">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg53">Signor Ministro, sono parzialmente soddisfatto. Vedo che la preoccupazione sulla dimensione delle questioni da affrontare, anche dal punto di vista dell'entità delle risorse da reperire, è presente in modo molto autorevole nella sua persona. Ebbene, noi ci chiediamo se con l'Unione europea forse non vada concordato qualcosa di diverso, perché sennò sarà difficile poter esercitare ambiti di manovra.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Question time sull'attuazione delle disposizioni in materia di pagamento dei debiti delle pubbliche amministrazioni</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u39">
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg54">Passiamo ora alle interrogazioni riguardanti l'attuazione delle disposizioni in materia di pagamento dei debiti delle pubbliche amministrazioni, cui risponderà il ministro dell'economia e delle finanze, dottor Saccomanni.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg55">I senatori hanno facoltà di rivolgere le loro domande al Ministro per due minuti ciascuno.</seg>
+            </u>
+            <note type="speaker">SANGALLI (PD)</note>
+            <u ana="#regular" who="#SangalliGianCarlo" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u40">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg56">Signor Presidente, signor Ministro, il disegno di legge sul pagamento dei debiti rappresenta certamente una tra le più rilevanti manovre di politica economica che siano state messe in campo e di cui si sente una assoluta necessità. Le pongo quindi tre questioni, che sono relative all'andamento di questo pagamento. La prima riguarda la verifica rispetto ai tempi e alle modalità, secondo i criteri individuati dalla normativa che è stata approvata dal Parlamento, che ha una sua complessità e il cui monitoraggio ci pare sia assolutamente indispensabile. La seconda questione concerne la verifica che non si stiano generando ulteriori debiti - lo dico in relazione alla direttiva europea sui pagamenti a 30 e a 60 giorni - e che quindi si proceda nelle pubbliche amministrazioni con modalità che non ricostruiscano lo stock di debito che così gravosamente stiamo cercando di abbattere con questo provvedimento così importante. Da ultimo, il Governo è nella condizione di smaltire lo stock di debito complessivo. Infatti, il provvedimento che abbiamo votato in Parlamento consente la possibilità di attivare intermediari finanziari (anche la Cassa depositi e prestiti), godendo delle garanzie di ultima istanza dello Stato, novità che è stata introdotta proprio dall'esame del provvedimento al Senato. Mi chiedo se, in virtù di questa possibilità, possiamo pensare di aggredire il complesso del debito che si è generato negli anni e che rappresenta lo stock di debito delle pubbliche amministrazioni verso le imprese.</seg>
+            </u>
+            <note type="speaker">D'ALI' (PdL)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u41">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg57">Signor Presidente, intervengo sugli stessi quesiti, grosso modo. Signor Ministro, ormai il decreto-legge n. 35 del 2013 è ampiamente operativo: qual è stata la rilevazione emersa a seguito del primo meccanismo del decreto-legge, che si è avviato immediatamente dopo la sua approvazione, riguardo lo stock del debito? Qual è la sua previsione finale sul complesso dei debiti della pubblica amministrazione nei confronti di imprese, fornitori e professionisti al 31 dicembre 2012? Vorremmo poi sapere se ella non ritenga di dare immediatamente corso alla norma ricordata dal senatore Sangalli, introdotta in Senato, sulla possibilità della concessione di garanzia dello Stato sugli intermediari finanziari per completare la manovra in ordine ai pagamenti, e se quindi oggi non ci possa già dire se nel 2014 l'intero debito al 31 dicembre 2012 potrà essere interamente pagato. Chiedo infine cosa intenda proporre perché la pubblica amministrazione non maturi nuovi debiti oltre i 60 giorni, cosa che dovrebbe essere impedita (o quanto meno non è prevista) dalla direttiva comunitaria in ordine all'andamento dei pagamenti dei debiti della pubblica amministrazione. Ciò è riconosciuto essere nell'assoluto interesse della nostra economia.</seg>
+            </u>
+            <note type="speaker">BULGARELLI (M5S)</note>
+            <u ana="#regular" who="#BulgarelliElisa" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u42">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg58">Onorevole Ministro, il problema dei mancati pagamenti della pubblica amministrazione, soprattutto verso le imprese, è veramente grave perché coinvolge la gente e delle volte fa la differenza fra la vita e la morte, ma anche perché è praticamente una dichiarazione di inconsistenza della solidità dei conti dello Stato ed è la dimostrazione del fatto che di questo sistema non ci si può fidare più tanto. Visto che comunque qui in Senato è stato dichiarato che nel 2014 verrà pagato tutto lo stock del debito, che ricordo ammonta a 140 miliardi se comprendiamo le aziende con meno di 20 dipendenti, che sono quelle che stanno morendo giorno dopo giorno, chiedo a lei e al Governo quali provvedimenti urgenti abbiate intenzione di attuare per pagare tutti i debiti entro il 2014, considerando anche l'apertura arrivata dall'Unione europea. Chiediamo altresì se è garantito l'accesso ai fondi previsti per tutti in eguale misura. Vi chiediamo di fare in fretta perché veramente non c'è più tempo.</seg>
+            </u>
+            <note type="speaker">LANZILLOTTA (SCpI)</note>
+            <u ana="#regular" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u43">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg59">Signor Ministro, l'articolo 5 -bis, a cui hanno già fatto riferimento i colleghi Sangalli e D'Alì, introdotto dal Senato anche su nostra iniziativa insieme ad altri Gruppi, del disegno di legge di conversione del decreto-legge n. 35 del 2013, adottato a suo tempo dal Governo Monti per il pagamento dei debiti della pubblica amministrazione, consente ora al Governo di procedere già nel 2013 e nei primi mesi del 2014 al pagamento integrale di tutti i debiti di parte corrente, in quanto la loro liquidazione non inciderebbe sull'indebitamento netto. Si tratterebbe complessivamente di immettere nell'economia circa 85 miliardi di euro. Questa sembra oggi essere l'unica vera possibile manovra di politica economica di sostegno alla crescita: immettere liquidità nel sistema, riattivare il circuito del credito all'impresa, salvare aziende che per assenza di liquidità stanno morendo. Vorrei quindi chiedere a che punto è la certificazione e come, quando e in che misura il Governo - e in particolare il Ministero dell'economia e delle finanze - intende dare corso all'operazione prevista dall'articolo 5 -bis.</seg>
+            </u>
+            <note type="speaker">CANDIANI (LN-Aut)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u44">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg60">Signor Presidente, signor Ministro, nei giorni scorsi abbiamo tutti partecipato all'approvazione del cosiddetto decreto sblocca pagamenti, un provvedimento importante rispetto al quale, però, la Lega ha dichiarato la propria non totale soddisfazione proprio in quanto non consente di pagare totalmente lo stock del debito, di cui peraltro neppure c'è completa certezza. Da parte del Governo occorre pertanto una più efficace azione nel mettere a disposizione le necessarie risorse affinché, come è stato appena ricordato, quella prevista dal citato provvedimento possa essere una seria manovra in grado di riattivare l'economia. Sappiamo benissimo che la credibilità dell'amministrazione pubblica passa attraverso la regolazione dei debiti: non può essere un'amministrazione seria quella che contrae debiti e poi non paga i propri fornitori. Abbiamo messo a disposizione risorse per poter rimanere nel Patto di stabilità europeo, ma certamente anche per dare risorse ai Comuni per pagare i debiti contratti. Occorre in questo caso - e chiediamo che il Governo ce ne dia certezza - una rimodulazione del patto di stabilità europeo; bisogna essere consapevoli che di debiti le amministrazioni comunali ne hanno contratti, di soldi ne hanno accumulati, questi debiti devono essere pagati, ma certamente anche l'Italia deve essere messa in condizione di ridiscutere con l'Europa, tramite una forte azione di Governo, affinché quel rapporto 3 per cento tra deficit e PIL che è stato rispettato quest'anno non diventi un ulteriore cappio l'anno prossimo. Chiediamo quindi al Governo di conoscere quali risorse intende mettere a disposizione perché l'intero stock di debito delle pubbliche amministrazioni possa essere pagato e certamente quali azioni intende mettere in campo affinché l'Europa sia opportunamente sensibilizzata. Riteniamo che tali azioni debbano rientrare nell'ottica di un allentamento del Patto di stabilità che, così come è costruito, abbiamo visto non servire ad altro se non ad alimentare la finanza, ma certamente non l'economia.</seg>
+            </u>
+            <note type="speaker">PANIZZA (Aut (SVP, UV, PATT, UPT) - PSI)</note>
+            <u ana="#regular" who="#PanizzaFranco" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u45">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg61">Signor Presidente, non sto a ripetere quanto già detto dai colleghi sul tema che è di stringente attualità, anche perché i danni prodotti alle imprese, soprattutto a quelle piccole, sono davvero incalcolabili. Non le nascondo che abbiamo anche provato una certa vergogna nell'approvare le ultime disposizioni: infatti, non dovrebbe esserci bisogno di una legge perché la pubblica amministrazione onori i propri debiti. Ma tant'è. Le chiedo, quindi, in primo luogo quali azioni questo Governo intende mettere in campo per impedire che si mantenga questa strana abitudine tutta italiana e per fare in modo che finalmente le pubbliche amministrazioni, quando assumono degli impegni, siano consapevoli di doverli onorare e siamo poi effettivamente in grado di farlo. In secondo luogo, facendo anche riferimento alla richiesta proveniente dall'ultima assemblea di Confartigianato per bocca del proprio presidente, le chiedo se ritenga percorribile la proposta di consentire alle imprese di chiedere la compensazione universale dei propri crediti commerciali verso la pubblica amministrazione con quanto dovuto allo Stato in termini di tasse e contributi. A me personalmente questo sembra un atto di civiltà oltre che di giustizia che potrebbe risolvere molti problemi relativi ai pagamenti. Ripeto, credo che, rispetto alla strana abitudine di ritardare i pagamenti, se non addirittura di farli saltare, questo potrebbe essere davvero un atto di giustizia che le imprese, e non solo loro, si aspettano.</seg>
+            </u>
+            <note type="speaker">FERRARA Mario (GAL)</note>
+            <u ana="#regular" who="#FerraraMario" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u46">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg62">Signor Presidente, il decreto-legge recante disposizioni urgenti per il pagamento dei debiti scaduti della pubblica amministrazione è stato convertito, e di questo siamo stati molto contenti, anche perché, di fatto, è stato possibile varare il provvedimento con una copertura sul debito. Nella decisione presa siamo stati peraltro confortati anche dai giudizi manifestati in sede europea. C'è però un particolare aspetto che ancora non mi è chiaro, anche perché sappiamo che gran parte di questi debiti è stata contratta dalle Regioni nei confronti di terzi nel comparto della sanità. Per questa tipologia di debiti sono già stati assegnati 14 miliardi: 5 già stanziati e 9 da ripartire entro il prossimo novembre. Sappiamo anche che una parte dei soldi che le Regioni avevano ricevuto è stata utilizzata per coprire altre spese e che, quindi, nell'effettuare i trasferimenti si dovranno considerare le risorse già trasferite. Di questo le amministrazioni locali dovranno poi tener conto perché per poter pagare i debiti che rientrerebbero in quella fattispecie dovranno poi richiedere un'ulteriore ripartizione. Come si fa a coordinare tutto questo? Rimarranno dei debiti non pagati, purtroppo?</seg>
+            </u>
+            <note type="speaker">URAS (Misto-SEL)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u47">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg63">Signor Ministro, il Gruppo Misto-SEL, all'atto della conversione in legge del decreto-legge n. 35 in Senato si è espresso con un voto di astensione perché nutre preoccupazioni non tanto sull'obiettivo del provvedimento (che è tutto da perseguire, anzi da integrare, se pensiamo a quanti debiti 40 miliardi non riescono a soddisfare) quanto soprattutto sulle procedure: oggi infatti vediamo un trasferimento di risorse, una dotazione di disponibilità agli enti territoriali, ma il passaggio successivo è capire come questi enti territoriali pongano tali risorse nella disponibilità del sistema delle imprese. Questo passaggio ha bisogno di un monitoraggio sistematico che ci consenta di capire subito dov'è che il provvedimento non funziona, in modo tale da intervenire puntualmente e tempestivamente. Quindi, vorrei sapere, signor Ministro, se questo monitoraggio è in atto, quali intenzioni ha in merito il Governo. PRESIDENTE. Ha facoltà di rispondere congiuntamente il ministro dell'economia e delle finanze, dottor Saccomanni.</seg>
+            </u>
+            <note type="speaker">SACCOMANNI</note>
+            <note type="role">ministro dell'economia e delle finanze</note>
+            <u ana="#guest" who="#SaccomanniFabrizio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u48">
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg64">Signor Presidente, anche in questo caso le domande poste sono molto interessanti.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg65">Personalmente condivido il giudizio della senatrice Lanzillotta: in effetti, questa manovra di 40 miliardi è una megamanovra e quindi a volte rimango un po' male nel vedere come sia stata già dimenticata sulle pagine dei giornali e come invece si pensi sempre all'incremento quotidiano che si può ottenere.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg66">Credo che questa sia una manovra molto forte, che purtroppo non è stata spesso computata nelle stime che gli organi di analisi economica e di previsione fanno, perché purtroppo in Italia c'è sempre il dubbio su quando verranno fatti questi pagamenti. Quindi è troppo presto per un freddo economista computarli nelle previsioni.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg67">In realtà, credo sia importante sottolineare che questo decreto-legge è stato convertito con grande rapidità dal Parlamento, è efficace e stiamo già attuando il meccanismo di pagamento. Sono previsti per gli enti locali 6,8 miliardi; per le Regioni e le Province autonome 10 miliardi; per i pagamenti dei debiti dei Ministeri sono già stati erogati 500 milioni; 2,5 miliardi sono per l'incremento di rimborsi fiscali. Questo significa una cifra di 20 miliardi per i sei mesi che restano del 2013.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg68">Si è parlato della necessità di monitorare. Credo che noi ci stiamo impegnando a monitorare attentamente, soprattutto per assicurare che i rimborsi vengano effettuati alle amministrazioni che li devono percepire e vadano poi ai creditori che sono stati per tanto tempo in attesa. Purtroppo non è sempre vero che le ragioni di credito siano inoppugnabili: in alcuni di questi casi, quindi, qualche ulteriore verifica è necessaria.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg69">Per quanto riguarda gli importi, purtroppo un computo effettivo dell'ammontare del debito delle pubbliche amministrazioni non c'è. Il numero che è stato fornito in Parlamento dalla Banca d'Italia, quando ancora lavoravo lì, è basato, come abbiamo spiegato in maniera molto chiara, su stime derivanti da sondaggi di opinione dal lato dei creditori. Non era possibile fare una verifica, che invece è adesso in corso. L'ammontare che era stato indicato (80-90 miliardi) era stimato; in più comprendeva una parte non trascurabile di quello che deve essere ritenuto il debito fisiologico. Se si fa la fotografia del debito ad oggi, in quell'ammontare totale ci sono dei debiti che scadono tra 30 giorni e che quindi non devono essere pagati oggi.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg70">Se si toglie un ammontare precauzionale - ma, ripeto, vedremo di essere in grado di stimarlo una volta che avremo completato il monitoraggio - probabilmente l'importo, oltre i 40 miliardi già stanziati, dovrebbe essere dell'ordine di 20-30 miliardi. Ribadisco che si tratta di stime, ma esse non sono dovute all'inadeguatezza dei mezzi di monitoraggio, che stiamo affinando. C'è una piattaforma che è funzionante alla quale è arrivato un numero molto elevato di segnalazioni, però è importante farsi un'idea della cosiddetta parte di tipo fisiologico di questo indebitamento. Da parte nostra c'è l'impegno di fare in fretta e di fare il più possibile.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg71">Molti senatori hanno domandato che cosa succede per questo residuo debito. Vorrei precisare due cose. In primo luogo, è chiaro che il pagamento accelerato di questo debito è certamente un obiettivo che anche il Governo condivide. Però, come è già successo per la parte il cui rimborso è al momento in atto, c'è una quota che riguarda le spese in conto capitale che comunque va a gravare sull'indebitamento netto. Nel caso del 2013, noi con questa misura rimborseremo 20 miliardi di debiti, ma lo 0,5 per cento del PIL pesa sull'indebitamento netto, che in effetti è passato dal 2,4 al 2,9 per cento. Quindi, anche per il futuro bisognerà discutere con la Commissione europea in relazione all'ampiezza effettiva del margine che avremo sotto il 3 per cento; soprattutto quando avremo completato la prima fase del monitoraggio (cosa che dovrebbe avvenire entro il 15 settembre), saremo in grado, in connessione con la legge di stabilità, di formulare una previsione sull'ammontare addizionale di debito che potrà essere già anticipatamente saldato a valere sul 2013.</seg>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg72">Dunque, questo è l'obiettivo che ci poniamo. Certamente abbiamo ben presente l'obiettivo di aggredire lo stock del debito in generale, però qui si apre il capitolo delle privatizzazioni o della valorizzazione degli attivi pubblici, che va al di là della materia di cui stiamo parlando. Passando ora ad un aspetto più tecnico, credo ci siano problemi per l'amministrazione fiscale ad adottare un meccanismo di compensazione universale dei debiti e dei crediti nei confronti della pubblica amministrazione; vi è la necessità di una certificazione effettiva dei crediti e dei debiti di imposta. Peraltro, si tratta di un tema che abbiamo anche discusso nelle strutture interne del Ministero e che potrà essere preso in considerazione per accelerare gli ulteriori snellimenti. Inoltre, è stato fatto riferimento alla possibilità di utilizzare strumenti alternativi per il pagamento dei debiti. Finora questi debiti sono stati pagati essenzialmente dallo Stato con una nuova emissione di titoli di Stato. In futuro, non ci sono obiezioni a che il sistema bancario intervenga fornendo anticipazioni per riscontare questo tipo di credito. Naturalmente ciò può avere un costo, però in quel contesto si potrà anche valutare la possibilità di utilizzare forme di garanzia statale (quali quelle menzionate anche nel decreto in relazione alla possibilità di avvalersi di finanziamenti della Banca europea per gli investimenti). Quindi, in quel contesto - cui mi sono poc'anzi riferito, cioè quello dell'eventuale accelerazione o aggiunta di rimborso di debiti nella seconda parte dell'anno - potranno essere utilizzate anche queste modalità. Mi pare che complessivamente io abbia risposto a tutte le domande poste.</seg>
+            </u>
+            <note type="speaker">SANGALLI (PD)</note>
+            <u ana="#regular" who="#SangalliGianCarlo" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u49">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg73">Signor Ministro, la ringrazio anche per l'attenzione che pone al provvedimento sui debiti delle pubbliche amministrazioni, che anch'io considero un provvedimento fondamentale di politica economica e di grandissima dimensione. Non mi avventuro, aspettando i dati finali del Ministero, sull'ammontare complessivo del debito perché negli ultimi mesi di lavoro con il Governo precedente, con quello attuale e con tutti i diversi stakeholder istituzionali abbiamo sentito cifre molte differenti. Eppure si sta compiendo uno sforzo di trasparenza del debito; tale sforzo sarà sicuramente molto utile nei confronti dei nostri interlocutori internazionali, anche a livello di Unione europea. Ricordo che nel lavoro parlamentare, con la modifica all'articolo 5 e l'introduzione dell'articolo 5- bis, abbiamo individuato modalità, condivise con il Governo, affinché l'Esecutivo potesse fare fronte alla quota eccedente i 40 miliardi di debito con altre modalità.</seg>
+            </u>
+            <note type="speaker">D'ALI' (PdL)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u50">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg74">Signor Ministro, la ringraziamo per questa estremamente interessante tornata di question time sui temi dell'economia. Vorremmo che lei condividesse con noi le seguenti considerazioni. La diminuzione della pressione fiscale è diventata indispensabile per essere anche strumento di aumento della base imponibile e quindi non produrrebbe una diminuzione di gettito, se non dal punto di vista cartolare, concezione che vorremmo si abbandonasse. Il pagamento dei debiti alle imprese costituisce un'altra possibilità di aumento della base imponibile e quindi anche un riequilibrio dei conti fiscali si basa sull'immissione di liquidità. Andiamo in Europa a difendere questi concetti.</seg>
+            </u>
+            <note type="speaker">BULGARELLI (M5S)</note>
+            <u ana="#regular" who="#BulgarelliElisa" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u51">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg75">Signor Ministro, per quanto riguarda la quantificazione del debito, rileviamo che lei è molto ottimista. A noi non risultavano le cifre da lei esplicitate; peraltro, le nostre erano cifre ufficiali sia della Banca d'Italia che della CGIA di Mestre. Confidiamo in ogni caso nel suo ottimismo. Saremo ottimisti anche sperando che non dovranno essere necessari gli istituti finanziari esteri per coprire i debiti.</seg>
+            </u>
+            <note type="speaker">LANZILLOTTA (SCpI)</note>
+            <u ana="#regular" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u52">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg76">Signor Ministro, siamo soddisfatti per la rassicurazione che lei ci ha dato in merito all'impegno ad attuare il decreto, almeno per quanto riguarda i primi 40 miliardi. Ci rimane qualche dubbio ancora su che cosa si intende fare sulla seconda tranche. Infine, ci auguriamo che si intervenga con determinazione sui sistemi di gestione contabile, perché sicuramente la scarsa conoscenza dell'ammontare dei debiti è qualcosa che bisogna superare e che reputo non degna di un Paese avanzato come l'Italia.</seg>
+            </u>
+            <note type="speaker">CANDIANI (LN-Aut)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u53">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg77">Signor Ministro, non se ne abbia a male, ma potremo esprimere la vera soddisfazione quando dalle parole si passerà ai fatti. Questa è la vera soddisfazione che vorremmo esprimere a lei e a tutto il Governo. Bisogna essere consapevoli che, per recuperare il dato di occupazione precedente la crisi, solo oggi occorrerebbero quasi un milione e 700.000 posti di lavoro. Occorre una iniezione di denaro forte all'interno dell'economia. Dica al Governo, a tutta la compagine che bisogna essere più forti: occorre andare in Europa e ridiscutere il tutto, perché il Patto di stabilità europeo così com'è uccide certamente la nostra economia.</seg>
+            </u>
+            <note type="speaker">PANIZZA (Aut (SVP, UV, PATT, UPT) - PSI)</note>
+            <u ana="#regular" who="#PanizzaFranco" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u54">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg78">Signor Ministro, la ringrazio per quanto ha detto, per il modo responsabile e puntuale con cui ha risposto alle nostre domande, nonché per l'attenzione che presterà - così lei ha detto - al monitoraggio di come proseguiranno, nei prossimi mesi, le operazioni di recupero, anche al fine di evitare che si ripetano le situazioni di oggi. Per quanto riguarda la specifica questione che le ho posto, le assicuro che l'ho verificata con alcuni responsabili degli uffici. Il problema delle certificazioni può essere superato, e ritengo che sia possibile farlo, non dico in modo universale - forse è esagerato - ma almeno parzialmente. Credo sia questo un segnale di buona volontà e di correttezza di rapporti fra pubblico e privato, fra istituzioni e imprese. Ci vuole questo segnale, perché le imprese sono quelle che comunque tengono in piedi lo Stato, costituiscono oggi la base da cui prelevare le risorse per poi fornire servizi. Quindi, un segnale necessario di fiducia credo vada dato.</seg>
+            </u>
+            <u ana="#regular" who="#FerraraElena" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u55">
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg79">FERRARA Mario (PdL). Domando di parlare. PRESIDENTE. Ne ha facoltà. FERRARA Mario (PdL). Signor Ministro, sono Capogruppo di maggioranza per cui, per definizione, debbo dirmi soddisfatto. Ma poiché da gentiluomo come ella è, Ministro, all'ultimo ha detto: «mi pare di aver risposto quasi a tutto». Ecco: «quasi», perché come dovranno fare le Regioni per quella parte che hanno speso, che non possono quindi avere trasferita? Dovremo probabilmente ancora vederlo. PRESIDENTE. Quindi il senatore Ferrara è quasi soddisfatto.</seg>
+            </u>
+            <note type="speaker">URAS (Misto-SEL)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u56">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg80">Signor Ministro, sono quasi soddisfatto, perché rimane in noi la preoccupazione per il fatto che sono troppi i soggetti pubblici che intervengono (Regioni, ASL, Comuni, Province e Ministeri) e sono molte le forme che sono state adottate (compensazioni, attingere credito presso la Cassa depositi prestiti, coinvolgimento degli istituti di credito e via dicendo). Il monitoraggio richiede un passo ulteriore, una sorta di osservatorio tra imprese, Governo e Parlamento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u57">
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg81">Lo svolgimento delle interrogazioni a risposta immediata ( question time ) all'ordine del giorno è così esaurito. Ringrazio il ministro Saccomanni per la sua disponibilità.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u58">
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg82">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di martedì 18 giugno 2013</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.u59">
+               <seg xml:id="ParlaMint-IT_2013-06-13-LEG17-Sed-42.seg83">Il Senato tornerà a riunirsi in seduta pubblica martedì 18 giugno, alle ore 16,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 17,30).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

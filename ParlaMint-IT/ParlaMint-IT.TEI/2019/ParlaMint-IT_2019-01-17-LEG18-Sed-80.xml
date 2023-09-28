@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 80 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 80 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 80, giorno (2019-01-17)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 80, Day (2019-01-17)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="80-upper">80 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="114" unit="speeches" xml:lang="it">114 discorsi</measure>
+            <measure quantity="114" unit="speeches" xml:lang="en">114 speeches</measure>
+            <measure quantity="9996" unit="words" xml:lang="it">9.996 parole</measure>
+            <measure quantity="9996" unit="words" xml:lang="en">9,996 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1097240</idno>
+               <date when="2019-01-17">17.01.2019</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="13"/>
+               <tagUsage gi="head" occurs="11"/>
+               <tagUsage gi="note" occurs="56"/>
+               <tagUsage gi="seg" occurs="114"/>
+               <tagUsage gi="u" occurs="38"/>
+               <tagUsage gi="vocal" occurs="2"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="29"/>
+               <tagUsage gi="desc" occurs="31"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2019-01-17">17.01.2019</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente ALBERTI CASELLATI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u1">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg1">La seduta è aperta (ore 15,03). Si dia lettura del processo verbale. CASTALDI, segretario, dà lettura del processo verbale della seduta del 15 gennaio. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u2">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00509) - Question time su riserva posti per personale bilingue nelle Forze di polizia in provincia di Bolzano</head>
+            <note type="time">(ore 15,05)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u3">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg3">L'ordine del giorno reca lo svolgimento di interrogazioni a risposta immediata (cosiddetto question time ), ai sensi dell'articolo 151- bis del Regolamento, alle quali risponderanno il Ministro dell'interno e il Ministro dell'istruzione, dell'università e della ricerca. Invito gli oratori a un rigoroso rispetto dei tempi, considerata la diretta televisiva in corso. Il senatore Durnwalder ha facoltà di illustrare l'interrogazione 3-00509 sulla riserva di posti per il personale bilingue nelle Forze di polizia in provincia di Bolzano, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DURNWALDER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#DurnwalderMeinhard" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u4">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg4">Signor Presidente, diamo per già letta la richiesta e, quindi, attendo la risposta del Ministro.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u5">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg5">Il ministro dell'interno, senatore Salvini, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">SALVINI</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dell'interno</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u6">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg6">Signor Presidente, apprezzo la sintesi teutonica e auguro buon lavoro al rieletto oggi Presidente della Provincia autonoma di Bolzano. In bocca al lupo! Signor Presidente, signori senatori, in relazione a quanto richiesto dagli onorevoli interroganti desidero sottolineare come in più occasioni io abbia pubblicamente sostenuto la ferma intenzione di potenziare gli organici delle Forze di polizia su tutto il territorio nazionale attraverso nuove assunzioni. Ricordo gli 8.000 uomini e donne in divisa che, a far data da questo 2019, andranno a garantire più sicurezza in tutte le città italiane, da Bolzano a Catania. Nella legge di bilancio approvata, infatti, questa intenzione si è concretizzata con la previsione di un piano straordinario di potenziamento che si svilupperà, a partire dal 2019, nell'arco del triennio.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg7">Il Ministero dell'interno, oltre al doveroso rispetto degli obblighi di legge, riserva particolare attenzione all'esigenza di garantire, anche attraverso le assegnazioni di personale bilingue, la massima cornice di collaborazione tra le Forze di polizia e le popolazioni dell'Alto Adige. In tal senso, le procedure che saranno avviate per le nuove assunzioni terranno conto delle disposizioni normative che disciplinano la riserva di posti in favore dei candidati in possesso dell'attestato di bilinguismo. Relativamente alle procedure in corso, informo che l'8 novembre scorso è stato avviato il 204° corso di formazione iniziale per 491 allievi agenti, che verranno assegnati nel corso dell'anno 2019 ai rispettivi reparti. Alcuni candidati hanno partecipato al concorso avvalendosi della riserva di cui ho parlato prima.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg8">È nato, inoltre, un concorso per altri 654 allievi agenti della Polizia di Stato riservato ai volontari delle Forze armate, in relazione al quale due ulteriori posti sono riservati ai possessori dell'attestato di bilinguismo. Infine, con le leggi di bilancio degli anni 2017 e 2018 è stata autorizzata l'assunzione di 589 allievi e nell'ambito di tale procedura altri quattro posti sono stati riservati al personale bilingue.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg9">La percentuale della riserva è sempre indicata nei bandi di concorso ed è individuata in base alle vacanze di organico, secondo le disposizioni vigenti. Tale criterio non fondato su mero automatismo consente di contemperare nel modo più efficace i diritti degli interessati e le esigenze dell'amministrazione connesse alla più razionale ed efficiente distribuzione sul territorio degli uomini delle Forze dell'ordine.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg10">In sostanza, dopo anni di blocchi delle assunzioni, non solo per quanto richiede lei ma per quanto richiedono tutti i cittadini e i questori italiani, penso di poter rispondere affermativamente: i soldi ci sono, la volontà politica c'è.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az e del senatore Steger</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg11">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Durnwalder, per due minuti.</seg>
+            </u>
+            <note type="speaker">DURNWALDER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#DurnwalderMeinhard" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u7">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg12">Signor Ministro, la ringrazio per la sua preziosa risposta e anche per il riconoscimento dell'importanza del bilinguismo e del personale bilingue nel territorio della Provincia di Bolzano.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00514) - Question time su agguato mafioso avvenuto a Pesaro il 25 dicembre 2018</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u8">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg13">Il senatore Grasso ha facoltà di illustrare l'interrogazione 3-00514 sull'agguato mafioso avvenuto a Pesaro il 25 dicembre 2018, per tre minuti.</seg>
+            </u>
+            <note type="speaker">GRASSO (Misto-LeU)</note>
+            <u ana="#regular" who="#GrassoPietro" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u9">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg14">Signor Ministro, il 25 dicembre 2018, nel centro di Pesaro, si è consumato un agguato in puro stile mafioso che ha causato la morte di Marcello Bruzzese, sottoposto a speciale programma di protezione in quanto fratello di Girolamo Bruzzese, il quale nel 2003, dopo aver tentato di uccidere il capo della 'ndrangheta di Rizziconi, Teodoro Crea, si costituì iniziando a collaborare con la giustizia e fornendo alla direzione distrettuale antimafia di Reggio Calabria informazioni circa gli affari della cosca di Rizziconi e i suoi legami con l'imprenditoria e la politica locale, che portarono all'arresto di importanti esponenti del clan e allo scioglimento del Consiglio comunale.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg15">Dopo l'inizio di tale collaborazione vennero uccisi il suocero e uno zio del collaboratore e il fratello Marcello, vittima dell'attentato di Pesaro, venne sottoposto a un programma speciale di protezione. Marcello Bruzzese viveva a Pesaro con la sua famiglia in domicilio protetto, procurato dal Ministero dell'interno. Dalle modalità di esecuzione risulta evidente che i sicari lo hanno aspettato mentre rientrava nell'abitazione, in teoria segreta, e lo hanno ucciso. È notorio che le mafie non dimenticano e che le vendette e le faide non hanno scadenza.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg16">Quello che è accaduto a Pesaro è un fatto gravissimo e, per quel che risulta, senza precedenti. Sorprende il fatto che recentemente siano stati adottati provvedimenti di revoca di misure di protezione che pongono in evidenza un abbassamento dei livelli di sicurezza e di attenzione al fenomeno, come per esempio l'avere tolto la scorta al capitano Ultimo, provvedimento poi bloccato dal TAR, e all'imprenditore palermitano Vincenzo Conticello, proprio quando i mafiosi condannati a seguito delle sue accuse hanno finito di scontare la pena e oggi sono in libertà.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg17">Le chiedo, Ministro, come spiega che tutto ciò sia potuto accadere; se sia stata presa in considerazione l'attualità del pericolo di vendette trasversali a seguito delle dure condanne del 2017 al clan Crea; se ritenga adeguate le risorse umane e materiali per il Servizio centrale di protezione a fronte di un aumento della popolazione protetta del 26 per cento rispetto al 2010; se fossero stati disposti il cambio di generalità dei congiunti del collaboratore di giustizia; se fossero stati forniti documenti di copertura o predisposto un polo di residenza fittizio per la posta e le notifiche; infine, quali iniziative il Ministro intenda adottare per garantire la massima protezione a quanti, siano essi collaboratori di giustizia, testimoni di giustizia, giornalisti, magistrati o esponenti politici, siano sotto la tutela dello Stato e del Ministero dell'interno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Errani</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg18">PRESIDENTE. Il ministro dell'interno, senatore Salvini, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">SALVINI</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dell'interno</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u10">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg19">Signor Presidente, ringrazio il senatore Grasso per la domanda. Al 31 dicembre 2018 risultano sottoposte a speciali misure di protezione, nel nostro Paese, complessivamente 6.031 persone, tra collaboratori di giustizia, testimoni di giustizia e loro familiari. Le relative attività, com'è intuibile, rivestono particolare delicatezza, complessità e riservatezza.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg20">La responsabilità in sede locale in ordine ai profili di tutela dei collaboratori e dei testimoni di giustizia è affidata agli organi di polizia territorialmente competenti, mentre i Nuclei operativi di protezione, articolazioni periferiche del Servizio centrale di protezione di cui lei parlava, sono preposti alla cura degli aspetti di assistenza. È attualmente in corso una procedura di riorganizzazione del Servizio centrale di protezione, come previsto dalla legge di conversione del decreto sicurezza e immigrazione, approvata lo scorso 1° dicembre, al fine di assicurare la migliore razionalizzazione delle attività e la gestione separata dei testimoni e dei collaboratori di giustizia e conto di riferire in proposito a quest'Aula il prima possibile, appena, tecnicamente parlando, gli uffici della Polizia di Stato avranno concluso questo percorso, che ovviamente e fortunatamente prescinde dalla volontà politica.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg21">Quanto all'omicidio di Marcello Bruzzese, informo che lo stesso era stato ammesso nel 2003 al piano provvisorio di protezione. Si era trasferito nel suo primo domicilio protetto, nella provincia di Pesaro e Urbino, nel 2008 e nell'ultimo domicilio protetto è stato trasferito nel 2014. In merito a quanto accaduto esprimo il mio personale rammarico e confido che le indagini in corso possano fare piena chiarezza e ne ho discreta certezza.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg22">Sono molteplici le attività poste in essere ai fini della tutela. È comunque sempre necessaria la ferma volontà da parte dei destinatari del programma di protezione di assumere tutte quelle forme di mimetizzazione, nel contesto ove vivono, che non consentano il loro disvelamento. In tal senso, gli stessi protetti sottoscrivono apposito atto con cui si obbligano al rispetto delle norme comportamentali previste dalla legge (di più, ovviamente, non possiamo loro imporre). Né Marcello Bruzzese, né il fratello, hanno mai fatto richiesta di cambiamento delle generalità. Per quanto concerne i documenti di copertura, Marcello Bruzzese li ha utilizzati fino al 2009, rinunciandovi poi per sua espressa volontà, mentre il fratello non ha mai chiesto di usufruirne.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg23">Dal momento del trasferimento del predetto e dei suoi familiari nella provincia di Pesaro e Urbino, non sono mai stati segnalati episodi o situazioni particolari dalle quali si potesse desumere un innalzamento dell'esposizione al rischio. L'attività investigativa successiva all'omicidio è svolta dal comando provinciale dell'Arma dei carabinieri di Pesaro e Urbino ed è tuttora in corso e coperta da segreto.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg24">Mi permetto di ricordare che la volontà di combattere ogni tipo di mafia presente in Italia penso appartenga a tutta quest'Aula e nel decreto sicurezza, di cui ho parlato prima, è previsto il raddoppio degli uomini, dei mezzi, delle risorse e dei poteri a disposizione dell'Agenzia nazionale per i beni confiscati e sequestrati ai mafiosi, perché questo Governo, e penso tutto questo Parlamento, della lotta alla mafia fanno una loro priorità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg25">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Grasso, per due minuti.</seg>
+            </u>
+            <note type="speaker">GRASSO (Misto-LeU)</note>
+            <u ana="#regular" who="#GrassoPietro" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u11">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg26">Signor Ministro, le sue parole non possono essere considerate soddisfacenti, se si considera che c'è stata una segnalazione della procura di Reggio Calabria circa il pericolo di vendette trasversali e, soprattutto, dopo il tentato omicidio, a pochi mesi dalla sentenza che condannava i Crea, di un testimone d'accusa, tale Pasquale Inzitari. Queste segnalazioni dovevano portare a una maggiore attenzione. Due le alternative: o si spostava il domicilio protetto del collaboratore o si avvisavano, per particolari misure di vigilanza, gli organi territoriali, che, appunto, hanno la responsabilità della vigilanza.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg27">Ricordo che il rigoroso rispetto della regola dell'omertà, la legge del silenzio, è sempre stato fondamentale per garantire la segretezza delle associazioni criminali, l'impunità dei capi, degli affiliati, dei soggetti esterni collegati e, quindi, la stessa sopravvivenza dell'intera struttura criminale. Per questo, i collaboratori e i testimoni di giustizia rimangono uno strumento irrinunciabile per il contrasto alle mafie. Le loro rivelazioni, e non sta a me ricordarlo, hanno fatto naufragare piani di omicidio, salvato vite umane, individuare beni confiscati, identificare gli autori di un numero impressionante di traffici illeciti, delle stragi in cui persero la vita Falcone e Borsellino e le persone coinvolte nelle stragi di Firenze e di Milano. Un episodio come quello di Pesaro costituisce un vulnus difficilmente recuperabile nel sistema di protezione, che può generare anche uno stallo nelle collaborazioni a tutto vantaggio delle mafie. Mi lasci dire, signor Ministro, che le incaute affermazioni secondo le quali le mafie saranno cancellate tra qualche mese o qualche anno, contrastano con la realtà dei fatti, con l'episodio di Pesaro, ma non solo, anche con gli agguati in Calabria, con le bombe ad Afragola, con l'esplosione della pizzeria Sorbillo e con la latitanza di Matteo Messina Denaro, tutti segnali - ahimè - della loro funerea presenza e pericolosità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Errani.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00510) - Question time su realizzazione piano straordinario per la sicurezza dell'area di Castelvolturno</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u12">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg28">Il senatore Iannone ha facoltà di illustrare l'interrogazione 3-00510 sulla realizzazione di un piano straordinario per la sicurezza dell'area di Castelvolturno, per tre minuti.</seg>
+            </u>
+            <note type="speaker">IANNONE (FdI)</note>
+            <u ana="#regular" who="#IannoneAntonio" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u13">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg29">Signor Presidente, signor Ministro, colleghi, Fratelli d'Italia è sentinella in servizio permanente effettivo quando si tratta di difendere la legalità e di garantire sicurezza ai cittadini italiani.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg30">Da mesi stiamo denunciando il rischio che la nostra nazione corre con la mafia nigeriana, allarme che viene segnalato da tutte le fonti di intelligence, dalla stampa internazionale e dalle nostre strutture antimafia. La mafia nigeriana è una mafia particolarmente feroce, dedita al traffico di droga, di esseri umani, allo sfruttamento della prostituzione, al gioco d'azzardo e, di recente, gli organi di informazione riferiscono notizie molto preoccupanti circa il traffico degli organi. Castelvolturno è diventata la Gotham City del Sud. È diventata la centrale della mafia nigeriana, una città che è stata martoriata, prima dalla camorra e ora da questo fenomeno. Vede la presenza di oltre 25.000 immigrati, che rappresentano i carcerieri di quei cittadini italiani onesti, che fanno il proprio dovere e che sono assediati dalla criminalità. Lei ha annunciato che domani, doverosamente, sarà a Napoli. Mi chiedo se intenda essere, in divisa o in borghese, anche a Castelvolturno e soprattutto le chiedo se sia intenzione del Governo - visto che la sua collega ministro Trenta, ieri, rispondendo a un'interrogazione del nostro leader nazionale, onorevole Giorgia Meloni, si è detta disponibile - predisporre in concreto un piano che possa portare l'Esercito a Castelvolturno, per garantire nuovamente la legalità e la sicurezza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg31">PRESIDENTE. Il ministro dell'interno, senatore Salvini, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">SALVINI</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dell'interno</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u14">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg32">Ringrazio per la domanda: sì, è vero, domani mattina sarò a Rigopiano e poi, nel pomeriggio, ad Afragola. Penso che indosserò un golfino beige e auspico che in proposito il Parlamento riesca a trovare una sua unità di intenti, senza che questo dia fastidio a nessuno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg33">MALPEZZI (PD). Deve rispettare la legge! SALVINI , vice presidente del Consiglio dei ministri e ministro dell'interno. Ne ho anche uno amaranto, volendo. I gruppi criminali nigeriani che operano nel nostro Paese presentano una struttura verticistica, con caratteristiche organizzative e comportamentali tipiche del sistema mafioso, quali la forza di intimidazione del vincolo associativo, la condizione di assoggettamento e di omertà, il ricorso alla violenza. La mafia nigeriana ha mostrato estrema versatilità e capacità di penetrazione in diverse Regioni, anche dove sono già presenti organizzazioni criminali autoctone. Ringrazio, ad esempio, le Forze dell'ordine di Cagliari, che ho visitato ieri, perché a fine anno hanno arrestato 27 esponenti della mafia nigeriana, che controllavano il mercato della prostituzione e della droga in provincia di Cagliari. In particolare nell'area domiziana, nella provincia di Caserta, i predetti gruppi criminali hanno acquisito da tempo una posizione competitiva in molte attività illegali. Per quanto concerne la specifica situazione del Comune di Castelvolturno, è stata accertata l'esistenza di rapporti strutturati tra gruppi criminali nigeriani e criminalità camorristica italiana, soprattutto nella gestione nel traffico di droga. Questo Governo, come già detto, fa della lotta alle mafie un punto qualificante della propria azione politica. Posso assicurare che nei confronti della mafia nigeriana vi è una costante attenzione da parte delle Forze dell'ordine, tradottasi negli ultimi mesi in diversi interventi di Polizia giudiziaria, che hanno riguardato diverse Regioni e, più specificamente, proprio Castelvolturno e la provincia di Caserta. L'area di Castelvolturno è oggi oggetto di particolare attenzione. Il prefetto di Caserta sta coordinando uno specifico progetto, che prevede un piano di interventi per la riqualificazione dell'area interessata e che ha già prodotto importanti risultati. Le recenti disposizioni legislative in materia di sicurezza e immigrazione prevedono poi ulteriori strumenti, che possono essere utilizzati efficacemente; penso ad esempio all'incremento della videosorveglianza. Quanto all'utilizzo delle Forze armate a sostegno delle attività di controllo del territorio, è già attivo il piano nazionale di impiego relativo all'operazione Strade sicure. Tale piano assegna al prefetto di Caserta un'aliquota complessiva di 230 militari, già impiegati in servizi di vigilanza a obiettivi sensibili, che possono essere rimodulati e potenziati sulla base di valutazioni tecnico-operative. Quindi la disponibilità a incrementare la difesa del territorio è assolutamente totale. Permettetemi di chiudere con un dato: se nel 2016 e nel 2017 gli sbarchi avevano superato quota 300.000 e nel 2018 si sono fermati a quota 23.000, evidentemente un contributo alla sicurezza della provincia di Caserta e di tutto il nostro Paese l'abbiamo dato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg34">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Iannone, per due minuti.</seg>
+            </u>
+            <note type="speaker">IANNONE (FdI)</note>
+            <u ana="#regular" who="#IannoneAntonio" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u15">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg35">Grazie, signor Ministro. Il maglioncino va bene anche granata, perché io sono di Salerno. Battute a parte, credo ci sia necessità di un impegno forte e deciso, come lei annuncia, perché ormai sono rimasti soltanto Saviano e De Magistris ad essere rifugiati nella retorica del «buon selvaggio» di Rousseau: solo di recente, si è accorto del problema anche il governatore De Luca.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg36">Noi ci siamo battuti e ci continueremo a battere, come abbiamo fatto con gli emendamenti concernenti l'operazione Strade sicure, affinché questo non sia soltanto un programma di sorveglianza degli obiettivi sensibili, ma sia anche pattugliamento e controllo del territorio.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg37">Così come aspettiamo risposta a un'interrogazione per sapere quali risultati abbia prodotto ciò che il suo predecessore, il ministro Minniti, aveva stabilito con ingenti risorse per Castelvolturno, perché i cittadini non hanno visto alcun risultato.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg38">Ci aspettiamo altresì che lei prossimamente, se non può domani, sia a Castelvolturno, che sia impiegato l'Esercito, che non serve a tappare le buche (quello lo deve fare la capacità degli amministratori), e che sia finalizzato a garantire la nostra Patria, la nostra terra, il nostro territorio. Ci aspettiamo anche una legge speciale per Castelvolturno, con la quale i cittadini devono essere indennizzati da questo esproprio di sovranità che hanno subito.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00508) - Question time su arresto di Cesare Battisti e su ricerca dei latitanti all'estero</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u16">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg39">Il senatore Pellegrini Emanuele ha facoltà di illustrare l'interrogazione 3-00508 sull'arresto di Cesare Battisti e sulla ricerca dei latitanti all'estero, per tre minuti.</seg>
+            </u>
+            <note type="speaker">PELLEGRINI Emanuele (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#PellegriniEmanuele" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u17">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg40">Signor Presidente, nel pomeriggio di sabato 12 gennaio 2019 Cesare Battisti è stato arrestato a Santa Cruz de la Sierra, una città al centro della Bolivia. A portare a termine l'operazione, secondo quanto si apprende dagli organi di stampa, sarebbe stata una squadra speciale dell'Interpol, composta da agenti boliviani, italiani e brasiliani. L'ex terrorista, già evaso dal carcere di Frosinone nel 1981 e successivamente condannato in contumacia per il coinvolgimento in alcuni omicidi commessi negli anni Settanta, è fuggito dall'Italia da tempo ed ha vissuto in tutti questi anni all'estero. Recatosi in Brasile, è stato arrestato una prima volta nel 2007, ha chiesto e ottenuto lo status di rifugiato politico fino a quando il tribunale supremo federale brasiliano, nel 2009, ha dichiarato illegittimo tale status, esprimendosi a favore dell'estradizione in Italia. Il presidente pro tempore Lula Da Silva, nel dicembre 2010, ha però deciso di non concedere l'estradizione. L'ex terrorista aveva fatto perdere le sue tracce nel mese di dicembre del 2018, dopo che era stato spiccato nei suoi confronti un ordine di cattura. Il neopresidente brasiliano Bolsonaro, appena entrato in carica, nei primi giorni di gennaio, ha dichiarato di essere però favorevole all'estradizione di Battisti in Italia. A seguito dell'arresto, l'ex terrorista è stato condotto in Italia, dove è atterrato, finalmente, presso l'aeroporto di Ciampino ed è stato successivamente trasferito nel carcere di Massama. Oggi qui si chiede di sapere se le ricostruzioni fornite dalla stampa sulla vicenda, che hanno portato all'arresto di Battisti, siano conformi al vero e quali iniziative il Ministro in indirizzo intenda assumere nei confronti di altri individui condannati, con sentenza definitiva, che si siano resi latitanti fuggendo all'estero.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg41">PRESIDENTE. Il ministro dell'interno, senatore Salvini, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">SALVINI</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dell'interno</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u18">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg42">Signor Presidente, permettetemi di dedicare questo intervento ad Alberto Torregiani, che è presente in tribuna e a tutti i familiari delle vittime.</seg>
+               <kinesic type="applause">
+                  <desc>L'Assemblea si leva in piedi. Applausi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg43">Penso che sia stata una bella pagina per l'Italia, per tutti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg44">La cattura di Battisti, avvenuta a coronamento di una sinergica attività investigativa della Polizia di Stato, che ringrazio di cuore, in collaborazione con l'AISE, che ringrazio di cuore, e la polizia boliviana, che ringrazio di cuore, ha dimostrato l'efficienza degli apparati di sicurezza italiani e il livello eccellente di collaborazione internazionale tra le diverse polizie e intelligence. In particolare, l'individuazione del latitante a Santa Cruz de la Sierra è stata effettuata dall'ufficio Interpol della Bolivia, che in una prima fase ha inviato agli operatori italiani un filmato riproducente un sospetto, individuato nel corso di un'attività di pattugliamento in quell'area della città. A seguito di verifiche effettuate tra la riproduzione video e alcune fotografie del latitante, e avendone constatata la possibile corrispondenza, è stato richiesto all'ufficio Interpol boliviano un immediato controllo del sospettato, che è stato fermato e trattenuto. Nella mattina del 13 gennaio è stata formalizzata l'espulsione del Battisti, notificata al medesimo a cura di operatori di polizia boliviani. Tutto questo è successo anche e soprattutto grazie all'intervento del presidente brasiliano Jair Bolsonaro, che tengo, a nome di 60 milioni di italiani, a ringraziare pubblicamente per aver cambiato la rotta che i Governi precedenti avevano tenuto. Al Battisti, giunto in Italia il 14 gennaio presso l'aeroporto di Ciampino, è stato quindi notificato il provvedimento che lo vedrà espiare la pena dell'ergastolo. Per il Governo la cattura di Battisti rappresenta un cambio di passo nella ricerca di tutti i latitanti che si sono sottratti alla giustizia italiana riparando all'estero e lavoreremo perché siano riconsegnati al nostro Paese per scontare le pene cui sono stati condannati. Consideriamo tale impegno, che dovrebbe unire e non dividere, doveroso per assicurare la certezza della pena, ma anche e soprattutto un obbligo morale nei confronti delle vittime e dei loro familiari che dopo decenni meritano giustizia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP-PSd'Az e FI-BP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg45">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Pellegrini Emanuele, per due minuti.</seg>
+            </u>
+            <note type="speaker">PELLEGRINI Emanuele (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#PellegriniEmanuele" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u19">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg46">Signor Ministro, la ringrazio per la esauriente risposta e per l'informativa. Ovviamente, siamo soddisfatti, perché grazie a queste indicazioni e soprattutto grazie all'attività del Governo, con la cooperazione dell'Esecutivo brasiliano, abbiamo dimostrato una volta di più quanto questo Governo abbia un passo decisamente diverso e abbiamo ricordato al popolo italiano che questo è veramente uno Stato di diritto.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg47">Questo è un atto dovuto, non da tutti considerato tale, ma credo sia soprattutto un atto di rispetto verso chi ha subito e subisce ancora gli effetti di atti ignobili e vergognosi. Giustamente lei ha ricordato la presenza di Alberto Torregiani, che salutiamo e cerchiamo di supportare. Questi atti non verranno mai dimenticati e non bisognerà mai smettere di condannarli.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg48">Nel ringraziare le Forze dell'ordine, che hanno portato a questo risultato, mi auguro che questo sia il primo di una lunga serie di atti diretti al ripristino pieno della giustizia, laddove questa è stata colpevolmente dimenticata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u20">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg49">La senatrice Iori ha facoltà di illustrare l'interrogazione 3-00511 sul fabbisogno di docenti di sostegno nel primo ciclo di istruzione, per tre minuti.</seg>
+            </u>
+            <note type="speaker">IORI (PD)</note>
+            <u ana="#regular" who="#IoriVanna" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u21">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg50">Signor Ministro, nella legge di bilancio 2019, nello stato di previsione del MIUR, si riduce notevolmente, rispetto alla legge di bilancio 2018, la spesa per la voce, che cito testualmente: «Interventi di integrazione scolastica degli studenti con bisogni educativi speciali, incluse le spese del personale (docenti di sostegno)». Abbiamo infatti una riduzione di 73 milioni per il 2019 e 230 milioni per il 2020 e, di fatto, questo calo si traduce nella impossibilità di assumere gli oltre 40.000 insegnanti specializzati promessi dal Governo e quindi si penalizzano i 240.500 alunni con disabilità che quotidianamente vivono difficoltà, proprio a causa della mancanza di personale specializzato a loro destinato.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg51">L'Istat ci ha recentemente fornito la cifra del 36 per cento degli insegnanti che ottengono supplenza sul sostegno e che sono privi del titolo di specializzazione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg52">Signor Ministro, noi abbiamo avuto modo più volte di apprezzare il suo interesse e le sue affermazioni, che hanno sempre ribadito la sua attenzione al tema degli alunni con disabilità. Lei ha affermato di non aver tagliato il sostegno, ma di aver avviato un percorso che puntasse sulla formazione di 40.000 insegnanti in tre anni: questo conferma che non vi saranno dunque nuove assunzioni. Naturalmente, noi siamo ben contenti e condividiamo pienamente l'impostazione di investire sulla formazione degli insegnanti di sostegno, ma è certamente cosa ben diversa dal colmare le lacune degli organici con i piani di assunzione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg53">Per quanto riguarda, poi, le dichiarazioni concernenti l'intenzione futura, anno per anno, di investire ulteriori risorse, queste non trovano riscontro nella riduzione sopra richiamata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg54">Dunque, il senso di questa interrogazione è conoscere quali provvedimenti si intendano perseguire, e in quali tempi, se vogliamo davvero investire su una scuola inclusiva e accogliente per gli alunni con bisogni speciali o se invece siamo di fronte a tagli che vanno a colpire proprio quegli alunni che, più di tutti, sono in condizioni di fragilità, nelle nostre scuole.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg55">PRESIDENTE. Il ministro dell'istruzione, dell'università e della ricerca, dottor Bussetti, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">BUSSETTI</note>
+            <note type="role">ministro dell'istruzione, dell'università e della ricerca</note>
+            <u ana="#guest" who="#BussettiMarco" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u22">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg56">Senatrice Iori, rispondo alla sua interrogazione affermando, in modo fermo, che non corrisponde al vero che la legge di bilancio 2019 abbia ridotto le risorse finanziarie destinate ai docenti di sostegno.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg57">L'attribuzione dei docenti di sostegno è fondata, come dovrebbe esserle ben noto, sui principi affermati dalle sentenze della Corte costituzionale nn. 80 del 2010 e 275 del 2006, che hanno stabilito che il nucleo invalicabile di garanzie minime per rendere effettivo il diritto allo studio e all'educazione degli alunni disabili non può essere finanziariamente condizionato in termini assoluti e generali; è la garanzia dei diritti incomprimibili ad incidere sul bilancio, e non l'equilibrio di questo a condizionarne la doverosa erogazione. Pertanto, il Ministero continuerà ad assegnare il necessario sostegno a tutti gli alunni con disabilità certificata, nessuno escluso; ciò in quanto il diritto all'istruzione dello studente con disabilità è oggetto di specifica tutela sia nell'ordinamento internazionale che in quello interno e si configura, come lei ha ricordato, come diritto fondamentale.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg58">Il bilancio approvato con la legge n. 145 del 2018 non contraddice quanto ho appena affermato. Per mera convenzione contabile, la quota della spesa per il sostegno, che riguarda docenti a tempo determinato, è stata iscritta in bilancio solo per un anno, ed è per questo che, solo apparentemente, vi è una riduzione degli stanziamenti per il sostegno negli anni successivi. Peraltro, la particolare attenzione che, dal giorno del mio insediamento, il Ministero sta dedicando al tema della disabilità, è dimostrata da fatti incontrovertibili, come lei ha ricordato: abbiamo riunito più volte l'Osservatorio permanente per l'inclusione scolastica, che non si riuniva ormai da moltissimo tempo (la prima convocazione è datata 27 giugno 2018); abbiamo avviato il terzo ciclo di specializzazione sul sostegno per la scuola dell'infanzia e primaria e richiesto al MEF, per la prima volta, di autorizzare ben 40.000 posti per i prossimi corsi di specializzazione, anche per la scuola secondaria: i nuovi corsi potrebbero partire già nella prossima primavera; nella legge di bilancio appena approvata abbiamo inoltre semplificato l'accesso ai corsi di specializzazione, prevedendo che possano parteciparvi anche i giovani laureati, siano essi abilitati o meno.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg59">Riguardo, poi, al decreto legislativo n. 66 del 2017 e al differimento dell'entrata in vigore di alcune disposizioni dello stesso, previsto dalla legge di bilancio 2019, non posso esimermi dall'evidenziare che il predetto decreto legislativo prevede ben dieci provvedimenti attuativi, con termine di centottanta giorni dalla sua entrata in vigore, per l'emanazione degli stessi. Ebbene, a un anno dalla sua approvazione, il precedente Governo ne aveva adottati soltanto due.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg60">All'atto del mio insediamento, ho dato pertanto una particolare priorità proprio all'attuazione delle disposizioni in tema di inclusione scolastica, tant'è che, già il 24 luglio 2018, ho presentato all'Osservatorio permanente per l'inclusione scolastica gli schemi di tutti i provvedimenti attuativi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg61">Entro breve tempo, porteremo all'attenzione delle Commissioni parlamentari competenti - per acquisirne il prescritto parere - anche il decreto correttivo del decreto legislativo n. 66 del 2017, costruito con il fondamentale apporto delle organizzazioni rappresentative delle persone con disabilità, alle quali, lo scorso mese di dicembre, è già stata presentata una prima bozza del provvedimento.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg62">Queste sono le iniziative che, in aggiunta alla creazione di un Dicastero per la disabilità, dimostrano, anzi confermano, il concreto impegno del Governo, e mio personale - mi creda - per la promozione di una effettiva inclusione scolastica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg63">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice Malpezzi, per due minuti.</seg>
+            </u>
+            <note type="speaker">MALPEZZI (PD)</note>
+            <u ana="#regular" who="#MalpezziSimonaFlavia" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u23">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg64">Signor Ministro, a me dispiace perché lei è un uomo di scuola e riconosco quello che ha fatto a capo dell'Ufficio scolastico territoriale di Milano. Tuttavia, un uomo di scuola non può difendere l'indifendibile. Lei qui ci ha raccontato, ancora una volta, una serie di buone intenzioni che sono smentite dalla legge di bilancio votata dall'attuale Governo. La risposta semplice, da uomo chiaro quale lei è, sarebbe dovuta essere una sola: non abbiamo messo un euro per le assunzioni degli insegnanti di sostegno. Questo avete fatto.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg65">Lei, che è persona coerente, più di una volta ha detto che la scuola deve fare con quello che ha e deve razionalizzare. Ministro Bussetti, sa quando il termine «razionalizzare» è stato utilizzato l'ultima volta? Quando è stato fatto un taglio di 11 miliardi di euro a danno della scuola da parte di una compagine di Governo in cui - guarda caso - c'era la Lega, che voleva razionalizzare in questo senso.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg66">Vi chiamate Governo del cambiamento, ma avete cambiato solo la semantica. Formare i 40.000 insegnanti di sostegno significa assumere e invece no, voi non assumete.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg67">A settembre non ci saranno nuove assunzioni di insegnanti di sostegno a tempo indeterminato. Questo lo voglio dire, perché l'unico tempo indeterminato che questo Governo riconosce nell'ambito della scuola è quello di - quando e chissà - verranno stanziati dei fondi, cosa che fino a oggi non è stata fatta. Nell'ultima legge di bilancio avete addirittura previsto una garanzia di 130 milioni per il 2019. Qualora i conti pubblici non torneranno, automaticamente ci sarà il taglio, perché tanto quello poteva essere messo in garanzia.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg68">Allora, raccontiamola chiaramente: voi starete facendo tanto per il sostegno a parole, ma nei fatti l'unico cambiamento che avete apportato è quello del lessico, del vocabolario.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad un membro del Parlamento australiano</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u24">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg69">A nome dell'Assemblea, saluto l'onorevole Rick Mazza, del Parliament of Western Australia, presente in tribuna.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00512) - Question time su mancato funzionamento impianti di riscaldamento aule scolastiche</head>
+            <note type="time">(ore 15,42)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u25">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg70">La senatrice Masini ha facoltà di illustrare l'interrogazione 3-00512 sul mancato funzionamento degli impianti di riscaldamento delle aule scolastiche, per tre minuti.</seg>
+            </u>
+            <note type="speaker">MASINI (FI-BP)</note>
+            <u ana="#regular" who="#MasiniBarbara" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u26">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg71">Signor Ministro, la ringrazio di essere qui a rispondere alla nostra interrogazione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg72">Lei sa sicuramente quanto noi - forse meglio - in che situazione versano gli istituti scolastici italiani. Stampa, televisioni e mobilitazioni degli studenti ci testimoniano tutti i giorni la grave situazione del riscaldamento negli edifici scolastici italiani. Questo vale per tutte le Regioni, da Nord a Sud. Mi si consenta di citare la mia Regione - la Toscana - un tempo terra di efficienza, che negli ultimi tempi soffre anch'essa di queste gravi carenze. Cito anche la mia città, Pistoia, che di recente è stata testimone della situazione, sulle televisioni nazionali, in ragione dell'importante mobilitazione fatta dagli studenti in merito a tale questione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg73">Le scuole - molte, purtroppo - si trovano al freddo e sono pericolose e ciò è molto grave. Le scuole sono vecchie e questa cosa non è degna di un Paese che vuole dirsi civile.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg74">Quando i ragazzi (penso a uno degli studenti che ha testimoniato l'altro giorno) ci dicono che in classe la temperatura è di 10 gradi, noi non possiamo sorprenderci se i nostri ragazzi non vogliono andare a scuola. Ripeto, non ci possiamo sorprendere se preferiscono saltare le lezioni - ma non perché sono vagabondi - così venendo meno a un percorso di formazione che li porterà a un futuro migliore, che - forse - non renderà nemmeno necessario dover ricorrere a redditi sussidiari, come quello di dignità.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg75">Sappiamo bene che il problema è annoso, non è recente e che è dovuto anche alla sciagurata riforma delle Province fatta da Graziano Delrio e non da voi. Tuttavia, sta di fatto che questa è una riforma infelice a cui dobbiamo quanto prima mettere mano, perché le Province, insieme ad altri enti, sono i soggetti che gestiscono il settore scolastico. Dobbiamo quanto meno avere molta premura nel correggere questa situazione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg76">Va detto che le scuole che fanno capo agli enti locali sono oltre 40.000 e che il problema è veramente grave, visto che oltre 22.000 hanno più di quarant'anni. Signor Ministro, apprezziamo il fatto che lei, una volta insediato, ha promosso l'istituzione di un'anagrafe delle scuole, da cui emergono però dei dati - sono parole sue - desolanti. Sono emerse situazioni di grave inadeguatezza per una scuola su quattro, e la mancanza di risorse si ripercuote soprattutto sugli impianti di riscaldamento. Il quadro è desolante.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg77">Di fronte a questi dati serve un piano di edilizia scolastica per cui occorrono investimenti molto importanti; investimenti che purtroppo, a nostro avviso, l'ultima legge di bilancio non ha sostenuto nella maniera opportuna.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg78">Le rivolgerò dunque delle domande concrete, signor Ministro, visto che lei ha detto di avere a disposizione 7 miliardi per l'edilizia scolastica, attribuendo risorse direttamente agli enti locali. Sarò rapida.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg79">Come verranno utilizzati durante il 2019 questi 1,7 miliardi già destinati alla messa in sicurezza degli edifici? C'è anche un miliardo per l'antisismica, già sbloccato. Quanto di questa cifra verrà concretizzato nel corso di quest'anno? Rimangono oltre 4 miliardi, rispetto ai 7 miliardi di cui ci parlava, e quanto di questi verrà utilizzato per problemi semplici come quelli dell'adeguamento degli impianti di cui si parlava, ossia riscaldamento, condizionamento, sistema elettrico, idraulico, controsoffitti, cioè i problemi che quotidianamente arrivano alla cronaca e fanno apparire le nostre scuole veramente in uno stato penoso rispetto a quanto troviamo dall'altra parte delle Alpi, per esempio? Infine, ci si rende conto che un serio piano di edilizia scolastica, di rigenerazione degli edifici e degli impianti delle scuole, oltre a porre i nostri giovani nelle condizioni di poter studiare meglio, può essere un efficace innesco per la crescita economica del Paese e per la creazione di nuovi posti di lavoro, così magari risparmieremo anche un po' sul reddito di cittadinanza?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg80">PRESIDENTE. Il ministro dell'istruzione, dell'università e della ricerca, dottor Bussetti, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">BUSSETTI</note>
+            <note type="role">ministro dell'istruzione, dell'università e della ricerca</note>
+            <u ana="#guest" who="#BussettiMarco" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u27">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg81">Senatrice Masini, nel rispondere alla sua interrogazione, debbo preliminarmente ricordare - lo ha fatto anche lei - che sono gli enti locali i proprietari degli edifici scolastici, che debbono assicurare il riscaldamento delle aule e, più in generale, di tutti i locali delle scuole. Ciò non significa che la problematica da lei segnalata non sia di interesse del Ministero dell'istruzione, dell'università e della ricerca, che può peraltro solo richiamare l'attenzione di Comuni e Province perché pongano in essere ogni iniziativa idonea ad evitare che i problemi connessi al non corretto funzionamento degli impianti di riscaldamento possano pregiudicare il regolare svolgimento dell'attività didattica.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg82">A proposito, ricordo come gli enti locali, proprietari degli edifici scolastici, possano accedere, anche con riferimento agli interventi relativi all'adeguamento degli impianti di riscaldamento, ai finanziamenti statali ordinari, presentando a tale fine istanza di inserimento di tali interventi nella programmazione triennale nazionale 2018-2020.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg83">Quanto poi, più in generale, allo stato di salute dei nostri edifici scolastici, non posso che concordare sul fatto che i dati in nostro possesso non siano confortanti soprattutto in considerazione delle ingenti risorse finanziarie che lo Stato ha messo a disposizione degli enti locali negli ultimi anni.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg84">Ecco perché, essendo fermamente convinto che la sicurezza delle nostre studentesse, dei nostri studenti e di tutto il personale scolastico costituisce una priorità assoluta, ho operato fin dai primissimi giorni del mio insediamento perché la gestione dell'edilizia scolastica fosse improntata, oltre che alla massima trasparenza, ad una significativa semplificazione e accelerazione delle relative procedure amministrative.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg85">Grazie ad alcuni mirati interventi legislativi di cui ho ottenuto l'inserimento in alcuni recenti provvedimenti legislativi anche di natura urgente, e grazie ad un accordo stipulato in Conferenza unificata il 6 settembre 2018 con il mondo delle Regioni e degli enti locali, siamo stati in grado di sbloccare oltre 3 miliardi di euro di finanziamenti e di autorizzare circa 2.000 nuovi interventi di risanamento di altrettanti edifici scolastici.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg86">Abbiamo inoltre approvato, sempre nel settembre 2018, la programmazione triennale 2018-2020 che tiene conto di tutto il fabbisogno segnalato da Comuni, Province e Città metropolitane anche relativamente alla manutenzione degli impianti e all'efficientamento energetico.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg87">Con questi interventi (ai quali ne seguiranno altri nei prossimi mesi) abbiamo finalmente messo in condizione gli enti locali di utilizzare quelle risorse finanziarie che, in passato, ci si era limitati a stanziare senza preoccuparsi che venissero tradotte in concreti interventi a tutela della sicurezza dei nostri studenti, delle nostre studentesse e di tutto il personale che lavora nei nostri istituti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg88">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice Masini, per due minuti.</seg>
+            </u>
+            <note type="speaker">MASINI (FI-BP)</note>
+            <u ana="#regular" who="#MasiniBarbara" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u28">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg89">Signor Ministro, apprezzo le sue parole, ma non possiamo ritenerci soddisfatti. La situazione delle scuole italiane è prioritaria da subito, lo era da ieri. Non bastano un tweet, un post su Facebook; dobbiamo agire veramente. Dobbiamo - sono parole a voi molto care - essere concreti e dignitosi. Niente deve stare più a cuore della concretezza e della dignità delle scuole italiane, in cui i nostri ragazzi costruiscono il loro futuro. Non possiamo lasciare la responsabilità solo agli enti locali e alle Province. Sono stata io la prima a riconoscere questa situazione, ma dal Governo vogliamo atti forti, concreti. Non c'è niente di più importante del futuro di questi ragazzi; non c'è niente di più importante di andare a scuola in condizioni di sicurezza; non c'è niente di più importante di dare legittimità agli insegnanti, a chi fa questo lavoro tanto complesso, in condizioni di difficoltà ambientali e salariali, tutte situazioni che conosciamo. I ragazzi che vogliono andare a scuola devono poterci andare; non devono andarci con i guanti, non devono preferire stare per strada. Auspico, a nome del mio Gruppo, un impegno veramente fortissimo su questo fronte. Fino a quando non lo constateremo, anima e cuore, non saremo soddisfatti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00507) - Question time su insegnamento di strumenti jazz in licei musicali</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u29">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg90">La senatrice Russo ha facoltà di illustrare l'interrogazione 3-00507 sull'insegnamento degli strumenti jazz nei licei musicali, per tre minuti.</seg>
+            </u>
+            <note type="speaker">RUSSO (M5S)</note>
+            <u ana="#regular" who="#RussoLoredana" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u30">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg91">Signor Presidente, ringrazio il ministro Bussetti, al quale mi rivolgo, per l'attenzione. Premetto che, antecedentemente al decreto del Presidente della Repubblica n. 19 del 2016, non erano state previste distinte classi di concorso per ogni strumento insegnato nei licei musicali e che i docenti erano impiegati sulla base delle abilitazioni nelle classi A031, A032, A077, facendo valere, per l'individuazione dell'avente titolo rispetto ai singoli strumenti, l'abilitazione strumentale per la A077, ovvero il titolo AFAM (Alta formazione artistica musicale e coreutica). Le segreterie scolastiche dovevano poi procedere ad inserimenti manuali delle specificazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg92">Con il decreto del Presidente della Repubblica n. 19 del 2016, recante «Regolamento recante disposizioni per la razionalizzazione ed accorpamento delle classi di concorso a cattedre e a posti di insegnamento», promosso dal primo Governo pro tempore Renzi, le classi di concorso sono state razionalizzate e accorpate. Il decreto del Presidente della Repubblica in parte appare, però, lacunoso e privo di criteri direttivi univoci. Infatti, nella tabella A, codice A-55, relativa all'insegnamento degli strumenti musicali nei licei, sono confluiti indistintamente i titoli AFAM relativi, sia alla «Musica classica», sia alla «Musica jazz», senza operare una necessaria e specifica distinzione. All'attuale stato dei fatti, gli strumenti di musica classica hanno una loro classe di concorso specifica (ad esempio AB55 per la chitarra, AC55 per il clarinetto) mentre gli strumenti jazz non sono stati disciplinati. Considerate che, a causa di tale lacuna normativa, non è garantita agli studenti la possibilità di scegliere di improntare il proprio percorso scolastico sullo studio di uno strumento jazz e che, in assenza di classi di concorso specifiche, i docenti di strumento jazz non possono partecipare a concorsi a cattedra e quindi nemmeno acquisire l'abilitazione all'insegnamento. Infatti non è stato bandito alcun posto a cattedra in occasione del concorso 2016, come si evince dal contingente allegato al bando. Inoltre, l'articolo 4, comma 1, del decreto legislativo n. 59 del 2017, prevede che, con decreto, il Ministro dell'istruzione, dell'università e della ricerca riordini e aggiorni periodicamente le classi di concorso «al fine di assicurare la coerenza tra gli insegnamenti impartiti, le classi disciplinari di titolarità dei docenti e le classi dei corsi di laurea». Con decreto ministeriale n. 259 del 2017, il ministro pro tempore Fedeli ha revisionato il decreto del Presidente della Repubblica n. 19 del 2016, ma in quell'occasione non ha provveduto a risolvere il problema delle classi di concorso di strumento jazz. Si chiede, pertanto, di sapere se il Ministro in indirizzo sia a conoscenza della situazione e quali iniziative intenda eventualmente adottare per confermare la musica jazz negli ordinamenti del liceo musicale e, di conseguenza, procedere con tutte le iniziative legislative opportune per garantire che, già dal prossimo anno scolastico, sia possibile iscriversi a una classe di strumento jazz. PRESIDENTE. Il ministro dell'istruzione, dell'università e della ricerca, dottor Bussetti, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">BUSSETTI</note>
+            <note type="role">ministro dell'istruzione, dell'università e della ricerca</note>
+            <u ana="#guest" who="#BussettiMarco" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u31">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg93">Senatrice Russo, rispondo alla sua interrogazione evidenziando preliminarmente che gli ordinamenti dei licei musicali non prevedono indirizzi o sezioni specificamente dedicati all'insegnamento della musica jazz.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg94">Nei cinque anni del percorso del liceo musicale gli studenti debbono, infatti, sviluppare capacità esecutive e interpretative riferite a brani e autori di diversi contesti e momenti della storia della musica.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg95">Si tratta, con tutta evidenza, di una preparazione ad ampio raggio che non può, quindi, essere dedicata in modo esclusivo ad un solo momento, ad un solo stile e ad una sola tecnica musicale. Ed è proprio per questo motivo che le indicazioni nazionali per i licei non prevedono, con riferimento ai licei musicali, la creazione di un codice per ogni specifico strumento di jazz, proprio in considerazione del fatto che il docente di strumento musicale deve formare le allieve e gli allievi nel senso (leggo un virgolettato) della: «acquisizione di un ricca specifica letteratura strumentale (autori, metodi e composizioni), solistica e d'insieme, rappresentativa dei diversi momenti e contesti della storia della musica (nell'evoluzione dei suoi linguaggi) fino all'età contemporanea».</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg96">Ciò premesso, l'eventuale introduzione di specifiche classi di concorso dedicate all'insegnamento della musica jazz necessiterebbe, in ogni caso, di un'attenta riflessione sull'opportunità di apportare modifiche ordinamentali che dovrebbero necessariamente passare attraverso la revisione delle indicazioni nazionali per i licei musicali.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg97">Pertanto, solo in conseguenza di tale adattamento ordinamentale potrebbe pervenirsi, compatibilmente con la disponibilità delle relative risorse finanziarie, alla creazione di un organico ad hoc ed anche di graduatorie distinte, come da lei auspicato. Quanto, invece, alla circostanza da lei segnalata che il decreto del Presidente della Repubblica n. 19 del 2016, «Regolamento recante disposizioni per la razionalizzazione ed accorpamento delle classi di concorso a cattedre e a posti di insegnamento», come modificato e integrato dal decreto ministeriale n. 259 del 2017, non prevede i diplomi accademici di II livello relativi agli strumenti jazz (come ad esempio, pianoforte jazz, chitarra jazz o violino jazz) quali titoli di accesso alla classe di concorso A-55 (Strumento musicale negli istituti di istruzione secondaria di II grado), rappresento che, nell'ambito di una più ampia revisione delle previsioni del Regolamento adottato nel 2016, il gruppo di lavoro appositamente costituito ha proposto di colmare tale lacuna inserendo i diplomi accademici di II livello relativi agli strumenti jazz tra i titoli di accesso alla classe di concorso A-55. Concludo, garantendo che dedicherò la massima attenzione alla tematica segnalata in considerazione dell'importanza che la conoscenza di fenomeni musicali come il jazz ha nella formazione degli studenti e delle studentesse che frequentano i licei musicali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg98">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice Russo, per due minuti.</seg>
+            </u>
+            <note type="speaker">RUSSO (M5S)</note>
+            <u ana="#regular" who="#RussoLoredana" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u32">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg99">Signor Ministro, mi dichiaro parzialmente soddisfatta. La sua proposta, infatti, dà la possibilità ai laureati nelle specializzazioni jazz di essere inseriti nelle classi di concorso e questa è una cosa importantissima perché hanno acquisito un titolo di studio specifico, una laurea conseguita regolarmente come nello strumento classico e quindi, partecipando ad un concorso a cattedra, possono abilitarsi e accedere anche all'insegnamento. Inoltre, i ragazzi che scelgono una specializzazione del genere dovranno frequentare cinque anni di liceo, forse otto se provengono dalla scuola media ad indirizzo musicale, prima di avviarsi ad una specializzazione in un percorso di studi che comunque ha delle specificità proprie, un percorso che si basa più su abilità audio-tattili che di lettura della partitura. Quindi probabilmente questi ragazzi, nell'accesso al triennio superiore, potrebbero avere anche delle difficoltà. Sono comunque molto contenta di sentire che si pensa ad un nuovo ordinamento dei licei che possa in qualche modo far rientrare manifestazioni della cultura musicale che ormai a ben diritto possono definirsi colte.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg100">PRESIDENTE. Lo svolgimento delle interrogazioni a risposta immediata ( question time ) all'ordine del giorno è così esaurito.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">CORRADO (M5S)</note>
+            <u ana="#regular" who="#CorradoMargherita" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u33">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg101">Signor Presidente, gentili colleghi, in un intervento analogo dello scorso novembre ho deplorato gli abusi di potere propiziati dal decreto ministeriale del 23 dicembre 2015, che proibisce ai dipendenti del Ministero per i beni e le attività culturali (MIBAC) di criticare le decisioni dei dirigenti. Torno oggi sul cosiddetto decreto bavaglio, perché è utilizzato come deterrente per impedire agli archeologi in forza al MIBAC di manifestare apertamente il loro dissenso nei confronti della riforma organizzativa attuata dall'ex ministro Franceschini. L'occasione è data da un appello agli archeologi, lanciato il 20 dicembre, dell'Istituto italiano per l'archeologia e la storia dell'arte. Rivolto a tutti gli archeologi, fuori e dentro i ranghi del MIBAC, il documento, che ha in calce le firme di 13 tra ex direttori generali ed ex soprintendenti, dopo l'analisi dei «danni devastanti» - cito alla lettera - procurati all'archeologia dalla seconda fase della riforma Franceschini, avanza con forza cinque richieste. In primo luogo restituire autonomia e sedi originarie alle Soprintendenze archeologiche; in secondo luogo restituire autonomia alla relativa Direzione generale; in terzo luogo riassociare alle Soprintendenze archeologiche i musei archeologici e le aree archeologiche non autonomi; in quarto luogo attribuire a commissioni di concorso composte da esperti in archeologia la scelta dei direttori dei principali musei e parchi archeologici; infine normare, in base ai titoli universitari posseduti, «la qualità, la dignità, i diritti scientifici e le responsabilità» degli archeologi, sia della pubblica amministrazione, che liberi professionisti. Personalmente ho risposto all'appello appena è stato pubblicato. Tanti colleghi hanno fatto lo stesso e oggi le firme sono oltre un migliaio: nomi altisonanti come quelli degli accademici dei Lincei, autori anche di un proprio documento, o semi-sconosciuti come quelli degli iscritti al coordinamento "Mi riconosci? Sono un professionista dei beni culturali". Sono tutti nomi non di nostalgici del tempo che fu, ma di professionisti intellettualmente onesti e liberi e che esercitano la propria libertà di espressione nonostante gli inviti pressanti al silenzio. Nelle università, infatti, molti ricercatori di fascia B in attesa di conferma sono di fatto "imbavagliati" e lo stesso accade a molti dipendenti della pubblica amministrazione. Aggiungo però che l'API e più d'una importante confederazione sindacale hanno aderito all'appello. Il cosiddetto decreto bavaglio è infatti usato a fini intimidatori da dirigenti che, così facendo, tentano di impedire agli archeologi del MIBAC di certificare il fallimento della riforma Franceschini. Pur rispettando chi in buona fede ha creduto nella riforma e chi finge di crederci tuttora, il Paese non può permettersi di assecondare le resistenze dei tanti "miracolati", proiettati in prima fila nelle Soprintendenze olistiche e nei Poli museali durante la passata gestione, toscano-centrica e tetragona a premiare il merito, le doti intellettuali e la dirittura morale. Né può permettersi, fuori dal Ministero, di lasciar spazio ai baroni delle Università, che con l'opportunistico contro-appello bocciano come sentimentale ritorno al passato ogni ipotesi di messa in sicurezza dei resti fumanti del MIBAC. Non possono, costoro, decidere il futuro del patrimonio storico e artistico della Nazione, che lo Stato si è impegnato prioritariamente a tutelare, per promuovere la cultura. La tutela, appunto, è il compito precipuo del MIBAC; gli va restituito se vogliamo che sopravviva alla nefasta riforma Franceschini e che la sua esistenza torni ad avere senso. Il 10 gennaio il ministro Bonisoli ha annunciato che lo sforzo riorganizzativo in atto produrrà, nelle prossime settimane, un nuovo assetto del Ministero con riguardo a ruolo, numero e articolazione delle Soprintendenze. Non posso che augurarmi, con tutti i colleghi, la restituzione all'archeologia dell'autonomia e della dignità perdute.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PIRRO (M5S)</note>
+            <u ana="#regular" who="#PirroElisa" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u34">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg102">Signor Presidente, colleghe e colleghi, in quest'Aula solo due giorni fa abbiamo sentito argomentare sul perché la TAV Torino Lione sia opera fondamentale, non solo per il Piemonte, ma per tutto il Paese. Se non sapessi come stanno le cose e mi basassi su quanto qui detto e su quello che si racconta in TV o sui giornali potrei essere quasi d'accordo con voi. Peccato che la realtà sia un'altra. Inizio però il mio intervento da un fatto di cronaca, che apparentemente non c'entra: ieri, il procuratore di Arezzo ha disposto la chiusura di un viadotto della E45, perché a rischio collasso. Quanti viadotti avremmo potuto manutenere se non stessimo accantonando da anni centinaia di milioni di euro per un'opera di cui ad oggi non è stato realizzato neanche un chilometro</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg103">, né un metro e neppure un centimetro? Si continua infatti a raccontare che l'opera sia in fase di realizzazione e, secondo i più fantasiosi, anche in stato avanzato di realizzazione. In realtà non c'è nulla: ci sono solo alcuni chilometri di gallerie geognostiche trasversali</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Airola</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg104">: 7 in Italia, 12 in Francia e una galleria geognostica di 6 chilometri in Francia, nell'asse del futuro tunnel, ma che non è, né può diventare una parte del tunnel. Dei 57 più 57 chilometri della doppia canna del tunnel di base in trent'anni nulla è stato realizzato. Ma i treni da Torino a Parigi vanno e portano persone e merci perché la Val di Susa è già attraversata da una ferrovia, utilizzata solo per il 16 per cento della sua capacità. Con il TAV si risparmierebbero solo quaranta minuti su un tragitto di cinque ore e per questo da trenta anni la valle è militarizzata, un museo archeologico è stato reso inaccessibile, le persone non possono muoversi liberamente sulle loro strade e non possono percorrere i loro boschi. Alcuni imprenditori sono costretti a percorsi assurdamente lunghi e tortuosi per raggiungere i propri terreni. Si tratta di una parte di territorio con caratteristiche uniche, sede di tre parchi naturali e due aree protette, di luoghi da favola come la Goja del Pis, che rischia la devastazione per far arrivare delle merci sempre più scarse con quaranta minuti di anticipo a Parigi, ma non domani; se va bene tra vent'anni. I politici esperti che ci hanno governato negli ultimi vent'anni continuano a raccontare che senza quest'opera (un doppione) il Piemonte sarebbe tagliato fuori, mentre nel frattempo hanno lasciato crollare il ponte Morandi e ridotto a rischio di crollo decine di altri ponti e cavalcavia. Vogliono creare un doppione in una stretta valle già attraversata da ferrovia e autostrada, mentre in altre zone d'Italia mancano le infrastrutture minime per definirci un Paese civile. Vi rendete conto che per andare da Palermo a Ragusa (260 chilometri) ci vogliono più di cinque ore e che Matera, capitale della cultura, non è collegata a Roma? Nessuno vuole impedire di costruire grandi opere, ma quelle necessarie allo sviluppo e al benessere di tutti i cittadini e non solo di quelli che guadagnerebbero dalla loro costruzione!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DI NICOLA (M5S)</note>
+            <u ana="#regular" who="#DiNicolaPrimo" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u35">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg105">Signor Presidente, onorevoli colleghi, il 18 gennaio 2017 l'esistenza di 29 cittadini inconsapevoli e innocenti è stata rubata alla vita dei loro cari nella strage dell'hotel Rigopiano, nel Comune di Farindola, in provincia di Pescara. In occasione del secondo anniversario che ricorre domani, alle vittime va il nostro ricordo e alle famiglie la nostra solidarietà. Parlo di strage e non di incidente perché quanto avvenuto quel giorno non era un evento inatteso, bensì largamente prevedibile, dati i precedenti di caduta valanghe in quei luoghi e, come tale, evitabile se gli organi preposti della pubblica amministrazione, a cominciare dai vertici della Regione Abruzzo, si fossero dotati per tempo, come peraltro avrebbero dovuto fare secondo le prescrizioni di legge, di quello strumento semplice e fondamentale ai fini della prevenzione costituito dalla carta delle valanghe. Tale documento è stato purtroppo dimenticato dal governo regionale. Per tutto questo, insieme a numerosi amministratori e funzionari, la procura di Pescara ha iscritto nel registro degli indagati anche ben tre Presidenti della Regione Abruzzo (Ottaviano Del Turco, Gianni Chiodi e Luciano D'Alfonso). Sembrava così che le esigenze di giustizia reclamate dai familiari delle vittime potessero trovare risposta in una ricerca a tutto campo della verità sulla strage e delle relative responsabilità, se nonché inaspettatamente, con decisione che ha suscitato proteste dei familiari delle vittime e dei loro legali, la stessa procura di Pescara ha chiesto l'archiviazione delle posizioni dei tre ex governatori della Regione, soggetti responsabili della Protezione civile e delle emergenze, scaricando le responsabilità per la mancata realizzazione della stessa carta valanghe sui soli funzionari tecnici della Regione Abruzzo. L'importanza della scelta fatta dalla procura di Pescara ci spinge a sottoporre l'accaduto all'attenzione di questo Parlamento. La carta di localizzazione delle valanghe è, infatti, l'unico strumento scientifico di prevenzione del rischio valanghe in quanto individua le aree potenzialmente interessate da fenomeni di questo tipo. Se la Regione Abruzzo avesse adottato questo strumento, è lecito ipotizzare che il 18 gennaio 2017 quelle che oggi piangiamo come vittime non si sarebbero trovate lì, in quanto non sarebbe stato possibile costruire una struttura alberghiera in quella zona ad alto rischio o quantomeno, in presenza delle abbondanti nevicate di quei giorni, le stesse sarebbero state evacuate per tempo. Per la verità l'amministrazione regionale aveva avviato in anni lontani le procedure per la realizzazione di quel fondamentale strumento, così come confermato dall'ex assessore Gianfranco Giuliante nel corso dell'interrogatorio di garanzia. Ricorda infatti Giuliante che il 17 marzo 2014 con delibera della Giunta regionale n. 170 è stata approvata la carta storica delle valanghe ed era stato conferito l'incarico per la realizzazione e la successiva divulgazione della carta di localizzazione. Era dunque stato fatto un passo importante, ma sciolto il consiglio regionale nel 2014 e insediatasi la nuova Giunta guidata dal presidente Luciano D'Alfonso il procedimento si arenava, lasciando l'Abruzzo privo di quel fondamentale strumento. Di chi è la responsabilità? Dei semplici funzionari o dei vertici regionali politici che avrebbero dovuto imprimere il necessario indirizzo e la spinta per realizzare quel documento?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg106">Nel documento dell'indagine sono ricostruiti tutti i passaggi di questa vergognosa inadempienza e nell'atto di opposizione all'archiviazione decisa dalla procura di Pescara l'avvocato Francesco Trapella, legale del comune di Farindola, denuncia come, insediatasi la Giunta D'Alfonso, nella programmazione del bilancio regionale risulta scomparso ogni impegno di spesa per quanto programmato.</seg>
+               <vocal type="shouting">
+                  <desc>Richiami del Presidente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg107">Finisco, signor Presidente.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg108">Sorprende dunque che la procura di Pescara abbia deciso di richiedere l'archiviazione per la posizione degli ex governatori e soprattutto quella di D'Alfonso, alienandosi così la possibilità di approfondire la questione e far emergere le eventuali responsabilità politiche, responsabilità la cui individuazione è ancora più necessaria alla luce delle rivelazioni contenute nell'inchiesta di Antonio Massari, oggi pubblicata su «il Fatto Quotidiano», nella quale traspare ancora più evidente l'incidenza che ha avuto il presidente D'Alfonso, stando anche alle testimonianze dei suoi più diretti collaboratori, pure nella caotica e disastrosa gestione della macchina... (</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Grimani).</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg109">PRESIDENTE. Concluda, senatore, perché ha già doppiato il tempo a sua disposizione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg110">Un'ultima frase, Presidente: la debbo ai cittadini abruzzesi e alle vittime di questa strage. Per tutto questo chiediamo che sulla strage di Rigopiano si torni ad indagare a trecentosessanta gradi sulle disfunzioni burocratiche, ma anche sulle responsabilità di livello politico regionale. È l'unico modo per assicurare a coloro che sono coinvolti di potersi difendere, ma anche e soprattutto per assicurare piena giustizia alle vittime e alle loro famiglie. Diversamente, Presidente, si potrebbe avere l'impressione di una giustizia monca, ingiustificabile, persino alla luce delle risultanze dell'indagine e degli stessi documenti raccolti nell'inchiesta. PRESIDENTE. Non faccia che le debba togliere la parola, perché non sono abituata a farlo. DI NICOLA (M5S). Presidente, a nome dell'Abruzzo, la ringrazio per avermi concesso qualche minuto in più.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg111">PRESIDENTE. Di solito i giornalisti sono sintetici.</seg>
+            </u>
+            <note type="speaker">GRANATO (M5S)</note>
+            <u ana="#regular" who="#GranatoBiancaLaura" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u36">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg112">Signor Presidente, la Calabria, la cui sanità è commissariata ormai da un decennio, dopo la sciagurata parentesi del governo di centrodestra a guida Scopelliti, tuttora in carcere, sta vivendo un'altra stagione politica nefasta, stavolta grazie all'attuale presidente Mario Oliverio, del Partito Democratico. A seguito di un'inchiesta coordinata dal procuratore Gratteri è stata disposta per Oliverio dal GIP, confermata dal tribunale del riesame, la misura cautelare dell'obbligo di dimora a San Giovanni in Fiore, suo Comune di residenza. Tuttavia, né la presenza dei commissari alla sanità nominati da circa un mese dal ministro Grillo, né la misura restrittiva che gli impedisce di recarsi nelle sedi istituzionali di Reggio Calabria e Catanzaro per svolgere il suo mandato politico, sono riusciti a dissuaderlo dal procedere imperterrito alla nomina di ben sette dirigenti su dieci alla sanità. Il tutto senza alcun passaggio, se non meramente informativo, dai commissari ministeriali. Accadeva lo scorso 14 gennaio che la giunta calabrese procedesse alla nomina, nonostante le diffide del Ministro della salute, di alcuni degli artefici del dissesto finanziario e di una new entry, la moglie del consulente di Oliverio. Come al solito, a pagare saranno i calabresi, rei di aver incautamente dato fiducia nel 2014 ad un governatore che sta usando la Regione come cosa sua, nel disperato tentativo di mantenere in piedi la propria carriera politica, attraverso prebende e incarichi ai suoi fedelissimi, in spregio a qualsiasi principio di buon andamento e di disciplina ed onore prescritti dalla nostra Costituzione. Dal 2014 ad oggi il disavanzo sanitario della Calabria è passato da 30 a 160 milioni di euro. Una cifra spaventosa, in larga misura determinata da una gestione disinvolta delle aziende sanitarie da parte proprio di quei direttori generali nominati da Oliverio, che egli stesso avrebbe dovuto sottoporre alla procedura di decadenza imposta dalla legge regionale n. 11 del 2004. Nonostante le denunce dei parlamentari del MoVimento 5 Stelle ciò, ovviamente, non è mai avvenuto. Anzi, i direttori generali in questione, malgrado le perdite milionarie provocate, sono stati perfino premiati con bonus di migliaia di euro. Alcuni di loro, addirittura, sono stati riconfermati alla guida di aziende sanitarie in veste di commissari. Nel frattempo, nonostante un disavanzo in esponenziale aumento, la sanità calabrese ha toccato vette da terzo mondo, fino alle ingessature effettuate con cartoni da imballaggio. A fronte di questa mala gestio, ovviamente, l'emigrazione sanitaria dalla Calabria raggiunge i 320 milioni di spesa all'anno, facendo registrare il peggior dato in Italia. E cosa dobbiamo dire delle immancabili regalie ad alcuni privati interni al sistema politico, con rischio di infiltrazioni mafiose e interessi delle cosche sempre dietro l'angolo? Un quadro drammatico, le cui responsabilità sono, chiaramente, politiche. In considerazione dei danni incalcolabili della gestione Oliverio, messo in un angolo e ormai fuori controllo, auspico da calabrese e da parlamentare eletta in Calabria che, finalmente, abbia un sussulto di orgoglio personale e si dimetta. In alternativa, sarebbe opportuno valutare la possibilità di sospenderlo dal suo incarico in applicazione della legge Severino, in quanto gli effetti delle restrizioni del suo provvedimento cautelare sono identici a quelli per i quali la legge contempla la pena della sospensione dalla carica. La Calabria, dopo il cambiamento di rotta del 4 marzo, non chiede soldi ma solo di essere salvata dalla sua classe dirigente e politica con interventi che mettano in primo piano l'onestà, la lealtà istituzionale, la giustizia e il lavoro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u37">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg113">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di martedì 22 gennaio 2019</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.u38">
+               <seg xml:id="ParlaMint-IT_2019-01-17-LEG18-Sed-80.seg114">Il Senato tornerà a riunirsi in seduta pubblica martedì 22 gennaio, alle ore 9,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 16,18).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

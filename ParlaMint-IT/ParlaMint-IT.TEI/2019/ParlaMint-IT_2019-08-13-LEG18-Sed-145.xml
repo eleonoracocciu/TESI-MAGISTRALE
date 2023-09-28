@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 145 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 145 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 145, giorno (2019-08-13)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 145, Day (2019-08-13)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="145-upper">145 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="162" unit="speeches" xml:lang="it">162 discorsi</measure>
+            <measure quantity="162" unit="speeches" xml:lang="en">162 speeches</measure>
+            <measure quantity="6838" unit="words" xml:lang="it">6.838 parole</measure>
+            <measure quantity="6838" unit="words" xml:lang="en">6,838 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1123280</idno>
+               <date when="2019-08-13">13.08.2019</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="6"/>
+               <tagUsage gi="head" occurs="5"/>
+               <tagUsage gi="note" occurs="45"/>
+               <tagUsage gi="seg" occurs="162"/>
+               <tagUsage gi="u" occurs="20"/>
+               <tagUsage gi="vocal" occurs="31"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="74"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="desc" occurs="106"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2019-08-13">13.08.2019</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente ALBERTI CASELLATI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u1">
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg1">La seduta è aperta (ore 18,06). Si dia lettura del processo verbale. CASTALDI, segretario, dà lettura del processo verbale della seduta del 7 agosto. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u2">
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni del Presidente sul calendario dei lavori</head>
+            <note type="time">(ore 18,07)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u3">
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg3">L'ordine del giorno reca: «Comunicazioni del Presidente sul calendario dei lavori».</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg4">La Conferenza dei Capigruppo, riunitasi ieri pomeriggio, ha approvato modifiche al calendario corrente stabilendo, a maggioranza, che martedì 20 agosto, alle ore 15, il Presidente del Consiglio dei ministri renderà comunicazione sulla crisi politica in atto.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Calendario dei lavori dell'Assemblea, variazioni Discussione e reiezione di proposte di modifica</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u4">
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg5">La Conferenza dei Presidenti dei Gruppi parlamentari, riunitasi il 12 agosto 2019, con la presenza dei Vice Presidenti del Senato e con l'intervento del rappresentante del Governo, ha adottato - ai sensi dell'articolo 55 del Regolamento - modifiche al calendario corrente:</seg>
+               <note type="summary">Martedì 13 agosto 18 - Comunicazioni del Presidente sul calendario dei lavori</note>
+               <note type="summary">Martedì 20 Agosto 15 - Comunicazioni del Presidente del Consiglio dei ministri</note>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg6">L'attività ordinaria delle Commissioni riprenderà a partire da lunedì 2 settembre, ferma restando l'autorizzazione a convocarsi nel mese di agosto in qualunque momento in relazione a sopravvenute esigenze nelle materie di propria competenza.</seg>
+               <note type="summary">Martedì 10 settembre 12,30-20 - Disegno di legge n. 1144 e connessi - Distacco comuni di Montecopiolo e Sassofeltrio dalla regione Marche e aggregazione alla regione Emilia-Romagna ( approvato dalla Camera dei deputati) - Disegno di legge n. 728 - Valorizzazioni piccole produzioni alimentari di origine locale (dalla sede redigente) - Disegno di legge n. 1110 - Partecipazioni in società del settore lattiero-caseario (approvato dalla Camera dei deputati) (dalla sede redigente) - Disegno di legge costituzionale n. 1124 - Abrogazione delle disposizioni costituzionali relative al CNEL (prima deliberazione del Senato) - Ratifiche di accordi internazionali definite dalla Commissione affari esteri - Disegno di legge n. 787 - Mezzi elettrici negli hub aeroportuali (dalla sede redigente) - Disegno di legge n. 867 - Sicurezza per gli esercenti le professioni sanitarie (dalla sede redigente) - Sindacato ispettivo - Interrogazioni a risposta immediata, ai sensi dell'articolo 151- bis del Regolamento (giovedì 12, ore 15) Mercoledì 11 " 9,30-20 Giovedì 12 " 9,30-20</note>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg7">La settimana dal 16 al 20 sarà dedicata ai lavori delle Commissioni permanenti.</seg>
+            </u>
+            <note type="speaker">ROMEO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#RomeoMassimiliano" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u5">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg8">Signor Presidente, la Lega conferma quello che abbiamo ribadito già ieri in Conferenza dei Capigruppo, nel senso che chiediamo all'Assemblea di votare un calendario diverso, perché riteniamo che, vista la crisi politica in atto, molto importante, sia necessario votare la nostra mozione di sfiducia nella giornata di domani e, per rispetto delle cerimonie sulla tragedia del ponte Morandi, chiediamo di svolgere la seduta intorno alle ore 16.</seg>
+            </u>
+            <note type="speaker">LA RUSSA (FdI)</note>
+            <u ana="#regular" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg9">Signor Presidente, ieri nella riunione dei Capigruppo, a cui ho partecipato assieme agli altri Vice Presidenti del Senato, abbiamo preso atto dell'assoluta indisponibilità di una nuova - occasionale (mi auguro) - maggioranza di postergare il momento in cui si potesse votare la sfiducia, e abbiamo anche appreso della volontà di non calendarizzare né per domani né per il prossimo 20 agosto le mozioni di sfiducia esistenti. Al di là dell'esito della votazione che mi vede schierato - come spiegherà meglio il mio Capogruppo - decisamente in linea con la proposta del presidente Romeo, credo che non si possa fare a meno di modificare nel contenuto l'ordine del giorno, qualunque sia l'esito del risultato (14 agosto o 20 agosto). Al momento recita che vi saranno solo comunicazioni del Presidente, quasi non fosse certo e assodato che questo Governo, comunque vada, non esiste più, e comunque facendo finta che non sia stata presentata, anzi non siano state presentate delle mozioni di sfiducia, delle quali non c'è traccia nell'ordine del giorno. Conseguentemente, la proposta che mi permetto di avanzare, signor Presidente, è quella di aggiungere alla dizione «comunicazioni del Presidente del Consiglio» le parole «e connesse mozioni di sfiducia al Governo», che esistono. Non vorrei che poi dovessimo fare un'altra Capigruppo, nell'ipotesi - non probabile, ma possibile - in cui il presidente Conte, magari, nonostante le risoluzioni e nonostante le dimissioni o quello che volete, decida di dire che non è ancora sfiduciato. Credo che domani (se passerà domani) o il 20 (se passerà il 20) sia opportuno, in coda alle sue dichiarazioni, prevedere la votazione sulla mozione di sfiducia al Governo. Questa è la proposta che mi permetto di formalizzare.</seg>
+            </u>
+            <note type="speaker">BERNINI (FI-BP)</note>
+            <u ana="#regular" who="#BerniniAnnaMaria" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg10">Signor Presidente, prima di tutto grazie per averci dato l'opportunità di essere qui.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici dai Gruppi M5S e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg11">PRESIDENTE. Prego, senatrice Bernini. Vada avanti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg12">Grazie per averci dato l'opportunità di essere qui e manifestare chi veramente vuole votare la mozione di sfiducia a questo Governo, cioè chi è vera opposizione e chi invece sta preparando nuovi progetti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP. Commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg13">Progetti assolutamente contrari alla volontà popolare e alieni al voto in questo Parlamento. Grazie a voi. Dico veramente grazie a voi, per avere reso palese quello che tutti noi già conoscevamo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg14">Presidente, come ho già detto in Capigruppo, non vedo per quale motivo aspettare, essendo l'Italia ormai chiaramente in preda a una crisi di Governo, che dovrebbe essere il più velocemente possibile calendarizzata e non portata alle calende greche: qui dobbiamo parlare di calendario, non di calende, non di ritardi e non di traccheggiamenti che hanno evidentemente obiettivi molto diversi da quelli che vengono dichiarati. Tutto ciò premesso, Presidente, vogliamo votare il più velocemente possibile la mozione di sfiducia che è già stata depositata, presentata a questo Parlamento.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg15">Vede, Presidente, noi tutti ormai siamo schiavi felici della comunicazione, perché in parte la subiamo e in parte ce ne serviamo. Ebbene, io sento manifestare da chi dovrebbe essere opposizione, ma in realtà si rifiuta di votare contro o a favore di questa mozione di sfiducia (quindi contro il Governo e a favore della mozione di sfiducia), che c'è grande preoccupazione per la crisi che potrebbe attanagliare un'Italia preda di una crisi di Governo, c'è una grande preoccupazione per i fondamentali economici che potrebbero essere turbati dalla mancanza di trasparenza e di chiarezza che caratterizza un periodo di crisi di Governo. Sono tutti molto preoccupati (tutti quelli che dicono di voler votare a favore di questa mozione di sfiducia, ma in realtà non la vogliono calendarizzare) per quello che potrebbe succedere all'Italia se aumentasse l'IVA, come già previsto in legge di bilancio, che una parte di questo emiciclo ha peraltro predisposto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg16">Ecco, Presidente, noi siamo qui - e siamo in 55 - per votare da subito a favore di questa mozione di sfiducia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg17">Noi chiediamo, Presidente, che questo calendario sia seguito dalla votazione sulla mozione di sfiducia, perché noi siamo vera opposizione e il modo migliore per evitare l'esercizio provvisorio e l'aumento dell'IVA è fare subito chiarezza.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg18">VOCE DAL GRUPPO PD. È una barzelletta! BERNINI (FI-BP). La barzelletta, amici, si vedrà la prossima settimana, quando il partito di Bibbiano e il partito del "Vaffa Day" si metteranno insieme per governare l'Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP. Commenti dai Gruppi M5S e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg19">FEDELI (PD). Vergognati! Vergognati! BERNINI (FI-BP). Quella sarà la vera barzelletta! Quella sarà veramente la proposta tutta da ridere.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg20">Ma ci sarà poco da ridere, amici, perché ancora una volta voi taglierete la parola in bocca agli italiani. Impedirete agli italiani di votare come sarebbe giusto che facessero: è questo il risultato che voi volete ottenere!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg21">Presidente, noi allora voteremo a favore delle due proposte precedenti e proponiamo di votare la mozione di sfiducia. E qui, amici delle barzellette, noi vi sfidiamo a votare la mozione di sfiducia in coda alla votazione sul calendario. Chi è vera opposizione dimostri di esserlo e voti nella maniera giusta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e FdI. Molte congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">UNTERBERGER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#UnterbergerJulia" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg22">Signor Presidente, il Gruppo Per le Autonomie voterà per la proposta che ha incontrato la maggioranza nella Conferenza dei Capigruppo e questo per semplici motivi di buon senso. Lo stesso partito che adesso chiede con urgenza che venga votata la mozione di sfiducia per Conte, solo una settimana fa ha chiesto a quest'Aula la fiducia in occasione dell'approvazione della legge di conversione del decreto sicurezza-</seg>
+               <kinesic type="applause">
+                  <desc>bis. (Applausi dai Gruppi Aut (SVP-PATT, UV), M5S, PD e Misto.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg23">VOCI DAL GRUPPO PD. Brava! Brava! PRESIDENTE. Prego, senatrice, prosegua pure.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg24">Non si capisce che cosa sia successo in due giorni di così urgente da chiamare tutti i senatori nella settimana di Ferragosto, durante le ferie, per essere qui a votare il calendario. Il secondo motivo è che il presidente del Consiglio Conte, come sappiamo, ha chiesto di essere sentito dal Parlamento e io ritengo che sia una questione di rispetto dare al Presidente del Consiglio la possibilità di spiegare le sue ragioni prima che si voti la mozione di sfiducia, perché potrebbe anche darsi che diventi superflua. Il terzo motivo è che domani, come tutti sappiamo, è l'anniversario del crollo del ponte di Genova e penso che il Paese darebbe un'immagine molto brutta se, proprio domani, il Paese si dividesse e venisse votata la mozione di sfiducia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), M5S e PD, e del senatore Errani</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg25">Pertanto andiamo al 20 agosto, convochiamo l'Assemblea, sentiamo il Presidente del Consiglio e poi si vedrà se è ancora necessaria la mozione di sfiducia.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg26">Vi ringrazio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SALVINI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u9">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg27">Signor Presidente, come sono lontani i riti della politica dal Paese reale, che non capisce perché - lo abbiamo anche sentito - non si debbano «disturbare» i poveri parlamentari a Ferragosto.</seg>
+               <vocal type="shouting">
+                  <desc>Vivaci proteste dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg28">FERRARI (PD). Buffone! PRESIDENTE. Per favore, non interrompete.</seg>
+               <incident type="entering">
+                  <desc>La senatrice Cirinnà espone sul suo scranno un cartello recante la scritta: «Salvini basta voli di Stato. Le vacanze pagatele. #DIMETTITI» che viene rimosso dagli assistenti.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg29">Nessun cartello!</seg>
+               <vocal type="shouting">
+                  <desc>Proteste della senatrice Cirinnà.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg30">Senatrice Cirinnà, per cortesia.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg31">Colleghi, fate parlare. Ognuno ha il diritto di esprimere quello che crede.</seg>
+               <vocal type="shouting">
+                  <desc>Vivaci proteste dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg32">Prego, senatore Salvini.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg33">Visto che per bocca del senatore Renzi avete già vinto, non capisco tutta questa agitazione, tutto questo nervosismo e tutta questa maleducazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e FI-BP. Vivaci proteste dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg34">VALENTE (PD). Rispetti il Parlamento! FARAONE (PD). È in vacanza da due mesi! DE PETRIS (Misto-LeU). In vacanza con i mezzi della polizia! SALVINI (L-SP-PSd'Az). Ascoltate due minuti, due minuti di pazienza, tutto qua. A parte il fatto che invidio un po' di abbronzature che sono lì, ma fa niente.</seg>
+               <vocal type="speaking">
+                  <desc>Vivaci commenti dai Gruppi PD e Misto. Richiami del Presidente</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg35">MALPEZZI (PD). Ma pensa alle tue: eri al Papeete fino adesso! SALVINI (L-SP-PSd'Az). Stavo dicendo...</seg>
+               <vocal type="speaking">
+                  <desc>Vivaci commenti dai Gruppi PD e Misto. Richiami del Presidente</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg36">PRESIDENTE. Potete poi replicare.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg37">Io ho tempo fino a tardi.</seg>
+               <vocal type="speaking">
+                  <desc>Vivaci commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg38">PRESIDENTE. Avete poi il diritto di replicare. Si è già prenotato il senatore Marcucci, avrà il diritto di replicare quello che crede.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg39">MALPEZZI (PD). Non mi interessa, non si può permettere. È stato in spiaggia fino all'altro giorno. Ma si vergogni. PRESIDENTE. Si è già prenotato. Fate parlare.</seg>
+               <vocal type="speaking">
+                  <desc>Vivaci commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg40">Non è possibile. Prego.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg41">Grazie, Presidente, ma io non mi offendo, li lasci pure fare quello che ritengono di fare, non è un problema.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg42">Posso? Almeno altri dieci secondi ce li ho a disposizione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg43">L'Italia vuole avere certezze e cosa di più bello, democratico, trasparente, lineare, dignitoso che...</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg44">CRUCIOLI (M5S). Stracciare un contratto. SALVINI (L-SP-PSd'Az). ...dare la parola al popolo?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg45">Dare la parola al popolo: cosa c'è di più bello?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg46">Io non capisco questa paura, questo terrore, questa disperazione. Le capisco da parte del senatore Renzi: comprensibilissimo. Fossi in lui mi agiterei nella stessa maniera, perché, con i disastri che ha fatto, sa che al voto gli italiani lo mandano a casa sicuramente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg47">Quindi piuttosto che mollare la poltrona sto qua col Vinavil ventiquattr'ore su ventiquattro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg48">Comprensibile, umanamente comprensibile.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg49">Sono arrivate alcune proposte: le raccolgo. Ho sentito l'amico e collega Luigi Di Maio ribadire più di una volta in questi giorni: votiamo il taglio di 345 parlamentari e poi andiamo subito al voto. Prendo e rilancio: ai Capigruppo della Camera il Capogruppo della Lega voterà per anticipare il taglio dei parlamentari, si chiude in bellezza con la promessa che avevamo fatto agli italiani, si tagliano 345 parlamentari e poi, per dignità, onestà e coerenza, si va subito al voto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg50">Noi ci siamo. Noi ci siamo. Noi ci siamo. Affare fatto. Affare fatto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg51">Vedo che adesso dai banchi del Partito Democratico non applaudono più, evidentemente. Hanno smesso di applaudire.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg52">E anche qualche abbronzatura si sta stingendo.</seg>
+               <vocal type="laughter">
+                  <desc>Ilarità dal Gruppo L-SP-PSd'Az. Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg53">Andiamo a votare. Tagliamo la settimana prossima 345 parlamentari e poi, senatore Renzi, il mio mandato non lo metto nelle mani sue, perché non mi fido, ma lo metto nelle mani degli elettori italiani, che sono gli unici proprietari e depositari del consenso di questo Parlamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e FdI. Commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg54">CIRINNA' (PD). Nelle mani di Mattarella. SALVINI (L-SP-PSd'Az). Pronti, non chiediamo di meglio, anche perché prima si vota, prima c'è un Parlamento che nomina un Governo che va avanti cinque anni</seg>
+               <vocal type="laughter">
+                  <desc>Ilarità dai Gruppi PD e Misto</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg55">, prima si sterilizzano - e questa è un'altra cosa incredibile - gli aumenti dell'IVA che avete inventato voi coi Governi del Partito Democratico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az. Proteste dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg56">VOCI DAL GRUPPO PD. Vergogna! COMINCINI (PD). La tua manovra li ha inventati! SALVINI (L-SP-PSd'Az). Un po' di memoria storica. Un po' di memoria storica.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Faraone.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg57">TARICCO (PD). Un altro mojito per parlare meglio.</seg>
+               <vocal type="shouting">
+                  <desc>Richiami del Presidente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg58">PRESIDENTE. Così non si capisce nulla.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg59">Posso? PRESIDENTE. Prego. SALVINI (L-SP-PSd'Az). Fortuna che abbiamo reintrodotto l'educazione civica come materia di studio obbligatoria sui banchi di scuola. A scoppio ritardato, però potrebbe servire a qualcuno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg60">VALENTE (PD). Studia il diritto costituzionale, piuttosto! SALVINI (L-SP-PSd'Az). Io in questi giorni, per scelta, non ho risposto alla marea di insulti, di calunnie, di minacce. Sono abituato.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg61">Sono abituato. Quando uno, coscientemente, e l'ho fatto con orgoglio, insieme al Presidente della Regione Lazio, Nicola Zingaretti, ha dato il primo colpo di ruspa alla villa dei Casamonica, raccogliendo in cambio minacce di morte dai Casamonica, voi potete dire quello che volete, ma non mi spaventate per niente!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az, FI-BP e FdI. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg62">Potete urlare. Potete sbraitare. Potete insultare: liberi tutti! Liberi tutti! Qualche testimonianza dal pianeta Terra, differente dal pianeta Renzi: sono due fusi diversi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg63">VOCI DAL GRUPPO PD. Ma sei ossessionato! SALVINI (L-SP-PSd'Az). Marco Bonometti, Presidente di Confindustria Lombardia: "Bisogna tornare alle urne. Farlo al più presto possibile". Maurizio Casasco, Presidente della Confederazione italiana della piccola e media industria privata: "Abbiamo bisogno di certezze e di misure coraggiose. Meglio andare subito alle elezioni". Paolo Agnelli, Presidente di Confimi Industria: "Se vogliamo uscire da questa crisi ci vuole una manovra forte. Subito alle elezioni". VOCI DAL GRUPPO PD. Tempo! SALVINI (L-SP-PSd'Az). Chiedono tempo! E il bello è che saremmo noi gli antidemocratici, i fascisti, ma sono loro che non vogliono andare a votare e non vogliono far parlare la gente. Mettetevi d'accordo voi stessi! Non ho mai conosciuto un fascista che vuole andare alle elezioni e vuole dare la parola al popolo. Mettetevi d'accordo con voi stessi!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg64">Ma ho quasi finito. Leopoldo Destro, Presidente di Assindustria Veneto Centro: "Voto subito. No giochini. Lo stallo non serve". Giovanna Ferrara, Presidente di Unimpresa: "Meglio il voto rispetto ad accordicchi improduttivi". Potrei andare avanti per tre quarti d'ora.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg65">Faccio appello a quest'Aula, alla dignità di quest'Aula: possiamo avere posizioni diverse, potrò rimproverare io qualcosa a qualcuno e avete sicuramente tutto il diritto voi di rimproverare tantissimo a me; non sono una persona perfetta, anzi, nella vita faccio tantissimi errori, quotidianamente, e cerco di farli in buona fede. E quando me ne accorgo, chiedo scusa. Una cosa non temo, una, da quando ho cominciato a fare il consigliere comunale a Milano nel 1993, senza mai avere un seggio sicuro, come qualcuno che dalla Toscana si faceva eleggere a Bolzano, bensì prendendo i voti dei cittadini. Sempre prendendo i voti dei cittadini, non scappando da Arezzo per andare in Tirolo, che non sapevo neanche dove fosse!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg66">Quindi, è questo il senso: mai paura di ascoltare la gente. Se poi la gente ridarà l'incarico di Governo a Matteo Renzi, non penso, ma questa è la democrazia: buon lavoro presidente Renzi, anche se gli italiani le sue cure le hanno già provate e non mi sembra che le abbiano apprezzate!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg67">Lo dico e concludo. Capisco la disperazione di qualcuno che sta facendo guerra all'interno del suo partito e ha il terrore di tornare a confrontarsi con gli elettori. Ma se hai paura di andare davanti agli elettori, vuol dire che hai la coscienza sporca e vuol dire che hai paura di non essere rieletto!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg68">Chi ha paura del voto, ha la coscienza sporca e ha paura e, allora, si inventa l'IVA, i marziani, i fascisti, il mojito, il Papeete Beach. Non sapevo che fosse reato andare in spiaggia. Però, ho imparato anche questo. D'altronde, se non avessi avuto la richiesta di dimissione quotidiana del Partito Democratico, non mi sarei sentito all'altezza di fare il Ministro di questo Paese, cosa che ho fatto con orgoglio, onestà e coraggio, dal primo all'ultimo giorno.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Valente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg69">Capisco la disperazione di Renzi e dei suoi amici, però mi rivolgo a voi, amici dei 5 Stelle: ci avete chiesto una cosa e tutti davano per scontato che non avremmo mai detto sì, per chissà quali paure e calcolini politici. Missione accettata, sfida accettata: tagliamo per la prima volta nella storia, insieme, 345 parlamentari e poi si voti il giorno dopo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e FdI. Commenti dei senatori Malpezzi e Mirabelli.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg70">Se voi siete pronti, noi siamo pronti. Altrimenti...</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dei senatori del Gruppo PD, che indicano l'orologio. Il senatore Marcucci fa cenno di voler intervenire.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg71">MARCUCCI (PD). Domando di parlare.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u10">
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg72">Presidente Marcucci, ha chiesto di parlare. Devo dire che lei sfora sempre e il tempo con lei non l'ho mai considerato</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dei senatori Bellanova, Malpezzi e Verducci.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg73">L'intervento del presidente Salvini è stato nei termini, tant'è che lampeggiava il microfono. D'accordo? COMINCINI (PD). Non è ancora Presidente! MARCUCCI (PD). Non è così Presidente. PRESIDENTE. Lei lo sa bene, perché ogni volta si confronta con il nostro orologio.</seg>
+               <vocal type="shouting">
+                  <desc>Vive, reiterate proteste della senatrice Bellanova.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg74">Quindi sono tranquilla di aver rispettato i tempi e non mi piace questa polemica pretestuosa. Prego, parli.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg75">BELLANOVA (PD). Lei è inadeguata, Presidente! SALVINI (L-SP-PSd'Az). Domando nuovamente di parlare, signor Presidente: volevo solo chiudere, se gli amici del Partito Democratico permettono. PRESIDENTE. Scusi, non avevo capito. Ne ha facoltà.</seg>
+               <vocal type="shouting">
+                  <desc>Vivissime proteste dei senatori Bellanova e Faraone.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg76">MARCUCCI (PD). Mi aveva dato la parola, signor Presidente! PRESIDENTE. La do sempre a tutti. Presidente Salvini, la invito a concludere, per cortesia. Avevo ritenuto che avesse concluso.</seg>
+               <vocal type="shouting">
+                  <desc>Reiterate proteste del Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg77">Se ritengo di aggiungere del tempo, lo faccio e lo faccio con tutti sistematicamente, compreso il vostro Gruppo: smettetela. La volta scorsa avete parlato 15 minuti e non vi ho interrotto.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg78">VALENTE (PD). Salvini, sei un buffone! PRESIDENTE. Lo trovo intollerabile.</seg>
+            </u>
+            <note type="speaker">SALVINI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u11">
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg79">Signor Presidente, da una senatrice il «buffone» è tollerabile: non me la prendo, ci mancherebbe altro.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg80">Era questo il ragionamento, quindi spero che quest'Assemblea sia composta da donne e uomini che passeranno la prossima settimana pensando al futuro e preparandolo, ma non il loro, bensì quello del Paese. Mi risulta infatti che ci sia gente attaccata al telefono dalla mattina alla sera promettendo la qualunque, pur di non alzare il sedere da queste poltrone.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste della senatrice Bellanova.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg81">È irrispettoso nei confronti non tanto e non solo del Senato, ma di 60 milioni di italiani. Concludo, se possibile.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo PD e della senatrice Nugnes.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg82">Mamma mia che fatica, però: per essere antifascisti, sono belli frizzantelli gli amici del Partito Democratico.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg83">VALENTE (PD). Il Parlamento non è il tuo salotto! SALVINI (L-SP-PSd'Az). Ma cosa le ho fatto?</seg>
+               <vocal type="speaking">
+                  <desc>Commenti delle senatrici Bellanova e Biti.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg84">Ah, è sempre così? MALPEZZI (PD). Dovrebbe presiedere questo Senato, Presidente! PRESIDENTE. Prego, concluda, senatore Salvini. SALVINI (L-SP-PSd'Az). Amici dei 5 Stelle, prima di allearvi con questa squadra, pensateci tre volte: è il mio consiglio. E poi auguri, fate quello che ritenete di fare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg85">FARAONE (PD). Presidente, per quanto ancora parlerà? SALVINI (L-SP-PSd'Az). Mamma mia, che fatica. Noi andiamo a testa alta a chiedere agli italiani la possibilità di prendere per mano questo Paese per i prossimi cinque anni e non abbiamo paura di alzarci dalle poltrone dei Ministeri o del Senato. MALPEZZI (PD). Fallo! COLLINA (PD). Dimettiti, allora! SALVINI (L-SP-PSd'Az). Chi ha paura muore ogni giorno; chi non ha paura muore una volta sola: viva la libertà, viva l'Italia, viva la democrazia!</seg>
+               <kinesic type="applause">
+                  <desc>Vivi e prolungati applausi dai Gruppi L-SP-PSd'Az e FdI. Molte congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg86">Signor Presidente, intanto le chiedo di dare al Partito Democratico lo stesso tempo che ha dato alla Lega.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg87">PRESIDENTE. Come lei sa, lo faccio costantemente.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg88">MIRABELLI (PD). Quello ha parlato di spiagge e non lo ha interrotto. LA RUSSA (FdI). Bisognerebbe considerare le interruzioni! MARCUCCI (PD). Presidente, ma lei non mi deve rispondere, lei mi deve far parlare. Le chiedo di dare lo stesso tempo che ha dato alla Lega al partito democratico e non sono dieci minuti.</seg>
+               <kinesic type="applause">
+                  <desc>Commenti del senatore Gasparri. Applausi dai Gruppi FI-BP e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg89">Signor Presidente, li deve richiamare anche nello stesso modo, sa? Dovrebbe richiamare i parlamentari che interrompono nello stesso modo, ma mi lasci parlare.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dai Gruppi FI-BP e L-SP-PSd'Az</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg90">Se vuole la avverto io quando rumoreggiano.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg91">PRESIDENTE. Mi avverta anche quando urla la senatrice Bellanova, perché la sento costantemente.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Bellanova</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg92">Signor Presidente, gentilmente, mi permette di fare il mio intervento? Intanto esordisco scusandomi perché ieri è stata una giornata difficile. I toni che si sono assunti durante la riunione dei Capigruppo sono stati pesanti e, lo dico da parte mia, anche eccessivi, quindi le chiedo scusa perché non era quello, forse, il modo corretto di porsi ma ovviamente i temi da discutere sono delicati, le regole vengono interpretate. Evidentemente il Partito Democratico e la Presidenza del Senato avevano una visione rispetto al Regolamento molto diversa, però i toni non sono stati comunque degni di una riunione così delicata. Detto ciò, signor Presidente, cari e autorevoli colleghi rappresentanti del Governo, il momento è molto delicato per il Paese.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore La Russa</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg93">Non credo che si possa ascoltare una dose così intensa e importante, in termini quantitativi, di bugie e di offese nell'Aula del Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg94">A parte i dati estetici che sono incontrovertibili, ministro Salvini: lei è sicuramente il più abbronzato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg95">È il più abbronzato perché è l'unico che è stato molte settimane in vacanza, però non è questo il tema che mi appassiona, come non mi appassiona l'acquascooter della polizia utilizzato per il divertimento e quant'altro. Quello che mi appassiona è che il pulpito dal quale viene la predica, per esempio rispetto alla quantità di lavoro, sia quello del ministro Salvini, il più assenteista del Parlamento europeo - quando c'è stato - e assenteista nel Parlamento italiano.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg96">Capisco che anche che non conosca bene le regole, i tempi, i meccanismi (del resto non li ha mai frequentati). Assenteista al Viminale, perché le sue giornate passate a lavorare per garantire la sicurezza degli italiani sono pochissime; del resto doveva fare la campagna elettorale full time, doveva fare campagna elettorale e non aveva quindi tempo a disposizione per gli italiani e per la loro sicurezza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg97">Credo siano brutte abitudini, credo siano esempi terrificanti per il nostro Paese. Per noi oggi è una bella giornata perché mettere fine alla vita di questo Governo a trazione Salvini e Lega è una benedizione per l'Italia, è una liberazione per l'Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg98">È una liberazione. Hanno governato male e l'agenda dettata da Salvini ha precipitato l'Italia esattamente dove siamo oggi. È sua la responsabilità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg99">Capisco che abbia l'ansia dell'antirenzismo, un'ansia talmente forte che si è dimenticato di essere stato lui il Capo del Governo per un anno e quattro mesi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg100">È lui che ha la responsabilità, in particolare di quello che è successo alla nostra economia, all'occupazione nel Paese, alle nostre istituzioni che ha continuamente deriso e calpestato</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg101">, anche nelle ultime ore con minacce pesanti nei confronti del Parlamento e delle istituzioni. Basti pensare al modo con cui si è posto oggi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg102">Ieri c'è stata una Conferenza dei Capigruppo nella quale ha prevalso una richiesta a maggioranza, ovvero quella di rispettare il Presidente del Consiglio che noi abbiamo fortemente avversato. Ha chiesto di essere ascoltato, di dare comunicazioni alle Assemblee e noi riteniamo sia giusto ascoltarlo e diamo per scontato che, dopo quelle comunicazioni, ci sarà finalmente la crisi di questo Governo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg103">Credo che addossare ad altri la responsabilità dei danni fatti sia un falso pubblico molto grave nei confronti degli italiani. Credo che essere sommersi continuamente da una mendace e pericolosa disinformazione sia - da parte di un Ministro dell'interno - un fatto gravissimo. Credo che altrettanto grave sia aver fatto un subdolo tentativo di andare immediatamente alle elezioni nell'interesse di parte, gestendo come Ministro dell'interno di parte le elezioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e dei senatori Marilotti e Nugnes</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg104">Le sue parole, ministro Salvini, ci hanno preoccupato e continuano a preoccuparci. Lei, ministro Salvini, non ha paura di noi, e fa bene perché noi crediamo nelle istituzioni e nella democrazia; però, mi permetta, ministro Salvini, quando la ascolto, quando fa le dichiarazioni al Paese io invece qualche volta ho paura di lei.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e Misto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg105">Ho paura dei suoi modi; ho paura di quello che dice, degli obiettivi che ha; ho paura dell'Italia che lei vorrebbe. Quindi, difendo le istituzioni, difendo il Parlamento, difendo le regole.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg106">Apriremo questa crisi con i tempi e con i modi dovuti, nel rispetto della democrazia, nel rispetto del nostro Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg107">Signor Presidente, la Costituzione è il nostro faro e io le chiedo, con il cuore e con il senso dello Stato che deve caratterizzare tutti i membri di questo Senato e del Parlamento e come cittadino italiano, di svolgere fino in fondo la sua funzione di Presidente del Senato, di seconda carica dello Stato: di essere al di fuori della partita, di garantire le regole.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg108">Abbiamo votato: il Partito Democratico è a favore della decisione presa a maggioranza ieri nella Conferenza dei Capigruppo, quindi ci comporteremo di conseguenza nella votazione del calendario da parte dell'Assemblea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg109">Signor Presidente, una delle questioni che in tutti i nostri dibattiti ho voluto ricordare innanzi tutto a me stessa - ma è bene che lo ricordiamo anche in questa Aula, specie dopo gli interventi che ci sono stati - è che noi siamo in una democrazia parlamentare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg110">La democrazia parlamentare, come ci è stata consegnata dal patto repubblicano e costituzionale, ha regole ben precise, la prima delle quali è che la democrazia parlamentare va rispettata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg111">Faccio questa premessa, signor Presidente, perché è evidente a tutti che, proprio perché siamo in una Repubblica parlamentare, non esposta a tutti gli eventi, e non in una democrazia sondaggista (per cui ogni due mesi, se cambiano i sondaggi, ci dobbiamo adeguare), se il Presidente del Consiglio chiede di venire a rendere comunicazioni al Senato e alla Camera indubbiamente è correttezza istituzionale - Presidente, lei lo sa meglio di me - che si mettano all'ordine del giorno le comunicazioni del Presidente del Consiglio. Peraltro, non sono comunicazioni generiche; la lettera del Presidente del Consiglio è molto chiara: per la crisi politica. Quindi, è giusto - e fino in fondo deve essere così - che la crisi sia parlamentarizzata, perché siamo una Repubblica parlamentare, e che quindi quest'Assemblea - è evidente - ne discuta con i tempi e i modi dovuti. Perché noi non siamo convocati da nessuno, signor Presidente. Noi non possiamo essere convocati da uno stabilimento balneare o da una spiaggia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto, PD e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg112">Noi siamo dei senatori eletti dal popolo, come l'altro senatore che ha parlato prima; siamo tutti eletti dal popolo. Ci sono le regole e queste regole innanzitutto debbono essere rispettate; le regole non sono un fatto formale, ma la sostanza e l'essenza della democrazia.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg113">Nessuno ci può rivolgere epiteti, che lei, signor Presidente, ancora una volta oggi non ha voluto censurare. Siamo stati convocati e, come vede, siamo tutti qui a fare il nostro dovere, anche coloro che magari non hanno potuto partecipare perché non erano in grado di poter venire in ventiquattr'ore. Noi siamo qui per esercitare fino in fondo il nostro mandato. E per questo motivo, con i tempi e i modi, la posizione che abbiamo assunto alla riunione dei Capigruppo, come lei sa, è di avere il 20 agosto - ripeto, il 20 e non il 14 agosto - in Aula il Presidente del Consiglio con le comunicazioni, la discussione e quello che ci sarà: questo fa parte della discussione, dell'autonomia e del rapporto tra i senatori in quest'Aula; solo e unicamente questo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg114">Torno a ripetere che non si può neanche lontanamente accettare che qualcuno, dai giornali o tra le cubiste, con tutto quello che ha fatto parte di questo spettacolo inaudito, ci insulti e che gli insulti vengano peraltro ripetuti in quest'Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto e PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg115">Non siamo qui a discutere di abbronzature; o meglio, forse dovremmo discutere se alcune abbronzature magari sono state fatte a spese degli italiani (ma questo è un altro conto e lo vedremo).</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg116">Il senatore Salvini, anzi il Ministro, perché ancora non ha dichiarato di lasciare il Viminale (forse non l'ho capito bene, a proposito di correttezza istituzionale), invoca le elezioni, ma pensa di poter gestire le elezioni magari dal Viminale: anche questa cosa inaudita.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto e PD e della senatrice Agostinelli.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg117">Il senatore ministro Salvini è venuto qui e non dubitiamo che non abbia paura del voto: lei non ha paura del voto; lei ha paura solo dei processi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto e PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg118">Lei ha paura solo dei processi! Il «capitano coraggioso»! Il «capitano coraggioso» che però si è degnato di venire qui, sotto dettatura del suo avvocato, il ministro Bongiorno, per venire a chiedere di avere la protezione, l'immunità. L'uomo del popolo!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto e PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg119">L'uomo che si rimette al popolo, ma non ai magistrati! Visto che allora è venuto qui a proporci di votare subito la riforma sulla riduzione del numero dei parlamentari - e vedremo alla Camera - io le propongo, se è uomo d'onore: facciamo un passo indietro e venga qui in Aula, così riportiamo tutti i documenti della Giunta delle elezioni e delle immunità parlamentari. Venga qui, con coraggio questa volta, a subire il giusto processo (perché dai processi, come qualcuno ci ha insegnato, non ci si difende: ci si sta, nei processi).</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg120">Lei, senatore Salvini, in questi mesi ha avuto un ruolo nefasto per questo Paese - io mi assumo tutte le responsabilità di ciò che dichiaro - perché ha alimentato odio, rancore e tutti i sentimenti peggiori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto e PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg121">Per questo, per quanto ci riguarda, noi riteniamo che lei non abbia affatto rispetto né dello spirito repubblicano, né della democrazia, né soprattutto dei nostri valori costituzionali (a partire dagli articoli 1, 2 e 3), visto tutto ciò che lei ha fatto, non da ultimo, anche con il decreto sicurezza- bis. Per tutti questi motivi - richiamando tutti al fatto che siamo una democrazia parlamentare, ancorata ai valori costituzionali, che qualcuno evidentemente non ricorda - noi non possiamo che confermare la nostra proposta di calendarizzare una seduta il 20 agosto con le comunicazioni del Presidente del Consiglio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto e PD, e del senatore Marco Pellegrini.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u14">
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg122">Senatrice De Petris, vorrei dire che, proprio perché ho rispettato la democrazia parlamentare, ho convocato oggi questa seduta di Assemblea per rispettare la centralità del Parlamento che avrebbe dovuto decidere.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppi PD e Misto</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg123">VOCI DAL GRUPPO PD. No! No! PRESIDENTE. Non doveva decidere il Presidente, ma questa Assemblea, quella che doveva essere la parlamentarizzazione della crisi.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg124">Voglio ancora dirle, senatrice De Petris, che la convocazione non è stata fatta da uno stabilimento balneare, ma dal Presidente del Senato e da questa Assemblea.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg125">E questo significa avere rispetto delle istituzioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e L-SP-PSd'Az. Vivaci commenti dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CIRIANI (FdI)</note>
+            <u ana="#regular" who="#CirianiLuca" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg126">Signor Presidente, la posizione che esprimerà il Gruppo di Fratelli d'Italia è molto semplice, netta e lineare: noi chiediamo ancora una volta di votare subito la mozione di sfiducia al Governo Conte; stasera, domani, quando volete ma facciamolo subito. Il Governo Conte sopravvive a se stesso, Presidente e colleghi: continua a esercitare i suoi poteri nonostante una mozione di sfiducia, nonostante le parole del vice presidente del consiglio Salvini e nonostante l'assenza dal banco del Governo di tutti i Ministri della Lega. Quindi non c'è altro da fare che votare subito la mozione di sfiducia, andare subito alle urne e avere presto un nuovo Governo. Rispetto a quanto ha appena affermato il ministro Salvini, se l'alibi da togliere è quello della riduzione dei parlamentari, noi siamo prontissimi. L'abbiamo già fatto, abbiamo già votato tre volte e lo possiamo fare anche una quarta volta, purché questo non diventi un alibi per allungare la vita della legislatura, come qualche furbetto intende fare. Taglio dei parlamentari sì, ma certezza della data del voto; niente giochetti e niente furbizie</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e L-SP-PSd'Az),</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg127">soprattutto da parte di coloro che si sono presentati alle elezioni come i rinnovatori della politica! Noi ci possiamo permettere queste parole, Presidente e colleghi, perché avremo tanti difetti, ma Fratelli d'Italia ha sempre praticato la coerenza politica. Lo abbiamo fatto prima del voto e lo abbiamo fatto successivamente, rimanendo coerenti con il nostro programma elettorale e facendo un'opposizione patriottica: votando a favore quando ritenevamo fosse giusto farlo e facendo opposizione dura quando ritenevamo giusto fare opposizione dura e intransigente. Adesso però ci rendiamo conto - anzi forse è meglio dire «constatiamo» - che l'esperimento governativo è fallito, com'era facile immaginare e come avevamo detto mille volte, e che quindi era impossibile tenere insieme partiti così diversi. E se posso aggiungere anche un'altra breve considerazione di natura tutta politica, se c'è un rammarico è che forse la spina andava staccata prima: forse qualche mese fa sarebbe stato meglio, dopo le elezioni europee.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg128">Avremmo avuto il tempo giusto e necessario per evitare che qualche furbetto potesse appellarsi alla Costituzione, ai diritti e alle libertà per evitare che il popolo si esprimesse liberamente, com'è suo diritto. Ma prendiamo atto di quello che è successo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg129">Presidente, leggiamo e abbiamo anche appena ascoltato tante persone, sicuramente più istruite e intelligenti di noi, spiegarci quello che persino noi sappiamo: persino noi di Fratelli d'Italia sappiamo che viviamo in una Repubblica parlamentare e che quindi il Parlamento ha la piena libertà di trovarsi un'altra maggioranza, quale che sia. Se esiste questa libertà ed esiste questo diritto - ed è sicuro che esistano - dobbiamo anche riconoscere che c'è sempre per qualche politico spregiudicato una buona ragione per cercare di dare nobiltà alle scelte peggiori. E sappiamo anche che, se esiste la Costituzione, esiste anche il buon senso ed esiste anche il dovere da parte nostra che rappresentiamo il popolo di ascoltarlo e dargli voce, perché l'opinione pubblica non va presa in giro. Non possiamo pensare che gli italiani siano un gregge di sprovveduti che ogni giorno si beve una verità diversa a seconda della convenienza del momento, come state facendo voi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg130">Amici, colleghi delle opposizioni - opposizioni ancora per poco - vi accingete a dare un voto non sul calendario, che è poca cosa, ma ad esprimere un voto politico. Noi non votiamo banalmente una data del calendario, ma decidiamo se convocare il presidente Conte per affrontare una mozione di sfiducia o semplicemente per delle comunicazioni che gli consentiranno di prendere tempo (e di perdere tempo per altri giochini che naturalmente si profilano e che tutti noi riusciamo a intuire).</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg131">Oggi probabilmente - spero di no, ma credo di sì - nascerà una nuova maggioranza che, come ieri in Conferenza dei Capigruppo, metterà insieme il Gruppo Misto-LeU, il Partito Democratico, il MoVimento 5 Stelle e altri pezzi di maggioranza, chissà quali. Se dovesse nascere questa nuova maggioranza, noi riteniamo che sia una mostruosità politica scandalosa. Scandalosa!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FI-BP e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg132">In questi mesi avete litigato su tutto: non c'è un argomento su cui non abbiate litigato; anzi, mi correggo, perché non avete litigato, piuttosto vi siete insultati su ogni argomento.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg133">Non più tardi di una settimana fa il Partito Democratico ha occupato i banchi del Governo per denunciare la scelta eversiva del MoVimento 5 Stelle di far eleggere un senatore che non ne aveva diritto e ora ci raccontate che potete governare insieme questo Paese per salvarlo, ma per salvarlo da che cosa?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FI-BP e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg134">Chi può credere a una favola di questo genere, colleghi? Signor Presidente, solo in Italia, solo per alcuni saggi Soloni che vivono in questo Paese, che scrivono sui giornali e che intervengono in TV, si può pensare che sia logico, accettabile e sensato che Gruppi politici "alla frutta" si mettano insieme, uniti soltanto dalla disperazione e dal timore delle urne e che, invece, la richiesta del voto popolare sia considerata una scelta estremista, demagogica e pericolosa. Questo è inaccettabile: il voto è libero e la fondamentale libertà dei cittadini si esprime attraverso il voto, che voi volete negare: e voi sareste i democratici.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg135">In conclusione, signor Presidente, ribadiamo ancora una volta la nostra posizione: mozione di sfiducia, voto subito e un nuovo Governo per l'Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MALAN (FI-BP)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u16">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg136">Signor Presidente, il Gruppo Forza Italia voterà a favore delle proposte di modifica del calendario che sono state presentate. Immaginiamo che la prima ad essere messa in votazione sarà quella presentata dalla nostra presidente, senatrice Bernini, in quanto la più distante dal calendario, così com'è stato approvato dalla Conferenza dei Capigruppo: si tratta della proposta di votare oggi stesso. Ove la nostra proposta - come temiamo - fosse respinta, voteremo anche per quella del presidente del Gruppo della Lega Romeo di votare domani, così come voteremo anche per quella del senatore La Russa di aggiungere all'ordine del giorno la mozione (o le mozioni) di sfiducia al Governo. Noi riteniamo infatti che, a questo punto della situazione, sia chiara la necessità di accelerare i tempi: non c'è altro da constatare se non che questo Governo non c'è più (e lo si vede anche da chi occupa giustamente i banchi del Governo e cioè solo i rappresentanti del MoVimento 5 Stelle), non c'è più l'attuale maggioranza. Che cosa cambia, dunque, se ci ritroviamo in quest'Aula a votare il 20 agosto (o in una data intorno al 20 agosto) o farlo invece subito o domani stesso? Non cambia nulla.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP e del senatore Romeo</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg137">Si fanno solo perdere cinque, sei, sette giorni di tempo. E perché si fa perdere questo tempo? Per tentare di mettere in piedi un Governo basato su un'alleanza innaturale (e in quest'Aula abbiamo visto plasticamente gli scontri tra i due presunti protagonisti di questo nuovo Governo).</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg138">Di Governi innaturali ne abbiamo già avuti diversi. Anche l'ultimo, quello che conclude in questi giorni la sua avventura era, evidentemente, un Governo innaturale e viene certificato dagli atteggiamenti che ci sono tra i due movimenti che l'hanno sostenuto: sia le Lega, sia il MoVimento 5 Stelle evidentemente non sono soddisfatti di questo Governo. Si pensa allora di formare un altro Governo, ancora più innaturale, che faccia perdere altro tempo agli italiani; noi diciamo davvero no: dobbiamo rispondere agli italiani che hanno bisogno di politiche chiare.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg139">Noi riteniamo che queste politiche chiare siano quelle che è in grado di mettere in campo il centrodestra, di cui Forza Italia è fondatore e parte decisiva.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg140">Se gli italiani dovessero decidere diversamente, sarà diversamente, ma facciamo decidere agli italiani, perché c'è bisogno non di chiacchiere, non di equilibrismi, ma di una politica seria per le imprese, per le famiglie, per il lavoro, per l'Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PATUANELLI (M5S)</note>
+            <u ana="#regular" who="#PatuanelliStefano" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg141">Signor Presidente, credo sia abbastanza evidente che questo è un voto sul calendario ma anche il voto sul calendario più importante della storia della Repubblica italiana: non ho mai visto tanta tensione per un voto su un calendario. È stata data grande evidenza politica a questo voto. Mi rivolgo alla presidente Bernini, che ha citato anche la presenza di 55 senatori di Forza Italia; in effetti, alcuni di questi non li avevo ancora quasi mai visti in Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e PD e della senatrice De Petris</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg142">Lo dico con simpatia alla presidente Bernini e rispondo in questo modo anche ad alcune provocazioni del ministro Salvini, che non vedo più. Chiedo a lui se è sicuro di quello che sta facendo e dove sta tornando. Io credo che ci penserei un po'. Noi alleanze non abbiamo in previsione di farne con nessuno; non credo che si possa dire altrettanto se guardo l'altra parte dell'emiciclo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg143">Voglio dire una cosa e darò un'unica risposta alle molte sollecitazioni ricevute. Personalmente, come uomo, ho diverse paure: penso a una malattia di un figlio o all'incertezza del futuro (ciascuno di noi ha paure); l'unica cosa che sicuramente non ci intimorisce è andare al voto in qualsiasi momento. Il MoVimento 5 Stelle non ha mai paura di chiedere il parere agli elettori. Mai!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Commenti dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg144">La proposta di calendarizzare la mozione di sfiducia domani noi l'abbiamo criticata per diversi motivi. Innanzitutto perché è uno sgarbo istituzionale nei confronti di un Presidente del Consiglio che è ancora Presidente del Consiglio di questo Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e Misto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg145">La ritengo irricevibile anche perché domani è la giornata in cui si celebra il primo anno dalla tragedia del ponte Morandi. Noi avremmo dovuto avere in quest'Assemblea un dibattito sulla revoca delle concessioni, che il Presidente del Consiglio, il vice presidente Di Maio e il vice presidente Salvini si erano impegnati a fare e non la discussione della mozione di sfiducia!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e Misto e del senatore D'Alfonso</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg146">Questo doveva esserci in calendario domani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e Misto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg147">Da ultimo credo che il ministro Salvini abbia tolto qualsiasi valenza politica al dibattito in corso. Infatti, la proposta di votare alla Camera immediatamente, la prossima settimana o nei prossimi giorni, in sede di quarto esame della riforma costituzionale che porta a tagliare 345 parlamentari, è possibile esclusivamente se domani non viene votata la sfiducia al Governo; altrimenti non è proprio possibile procedere su quella strada.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e Misto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg148">Mi aspetto quindi che venga ritirata la proposta del presidente Romeo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo L-SP-PSd'Az. Alcuni senatori del Gruppo L-SP-PSd'Az fanno segno di no con il dito</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg149">In alternativa, ovviamente, noi voteremo contro a tutte le modifiche del calendario e continueremo con la proposta di convocare l'Assemblea il 20 agosto, con le comunicazioni del Presidente del Consiglio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e Misto.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u18">
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg150">Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta a procedere alla votazione della mozione di sfiducia al Governo questa sera, al termine della discussione sul calendario dei lavori, avanzata dalla senatrice Bernini.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg151">Non è approvata.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo FI-BP.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg152">Dispongo la controprova.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg153">Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg154">Non è approvata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, PD e Misto. Applausi ironici dal Gruppo FdI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg155">. Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta a procedere alla votazione della mozione di sfiducia al Governo domani 14 agosto, alle ore 16, avanzata dal senatore Romeo. Non è approvata. LA RUSSA (FdI). Il dibattito della poltrona! PRESIDENTE. Dispongo la controprova. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, PD e Misto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg156">Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta a procedere alla votazione di tutte le mozioni di sfiducia presentate insieme alle comunicazioni del Presidente del Consiglio dei ministri al prossimo ordine del giorno dei lavori, avanzata dal senatore La Russa.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg157">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg158">PRESIDENTE. Dispongo la controprova.</seg>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg159">LA RUSSA (FdI). Vi voglio vedere in faccia! PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei Gruppi PD e Misto.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg160">LA RUSSA (FdI). Il Governo è vivo! Non esiste la sfiducia!</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u19">
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg161">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di martedì 20 agosto 2019</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.u20">
+               <seg xml:id="ParlaMint-IT_2019-08-13-LEG18-Sed-145.seg162">Il Senato tornerà a riunirsi in seduta pubblica martedì 20 agosto, alle ore 15, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 19,10).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

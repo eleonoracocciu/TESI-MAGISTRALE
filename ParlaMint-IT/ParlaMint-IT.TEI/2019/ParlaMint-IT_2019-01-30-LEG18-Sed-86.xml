@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 86 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 86 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 86, giorno (2019-01-30)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 86, Day (2019-01-30)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="86-upper">86 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="109" unit="speeches" xml:lang="it">109 discorsi</measure>
+            <measure quantity="109" unit="speeches" xml:lang="en">109 speeches</measure>
+            <measure quantity="10780" unit="words" xml:lang="it">10.780 parole</measure>
+            <measure quantity="10780" unit="words" xml:lang="en">10,780 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1098546</idno>
+               <date when="2019-01-30">30.01.2019</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="9"/>
+               <tagUsage gi="head" occurs="8"/>
+               <tagUsage gi="note" occurs="39"/>
+               <tagUsage gi="seg" occurs="109"/>
+               <tagUsage gi="u" occurs="20"/>
+               <tagUsage gi="vocal" occurs="10"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="46"/>
+               <tagUsage gi="desc" occurs="56"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2019-01-30">30.01.2019</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u1">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg1">La seduta è aperta (ore 18,04). Si dia lettura del processo verbale. PUGLIA, segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u2">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Informativa del Ministro degli affari esteri e della cooperazione internazionale sulla situazione in Venezuela e conseguente discussione</head>
+            <note type="time">(ore 18,13)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u3">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg3">L'ordine del giorno reca: «Informativa del Ministro degli affari esteri e della cooperazione internazionale sulla situazione in Venezuela».</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg4">Ha facoltà di parlare il ministro degli affari esteri e della cooperazione internazionale, professor Moavero Milanesi.</seg>
+            </u>
+            <note type="speaker">MOAVERO MILANESI</note>
+            <note type="role">ministro degli affari esteri e della cooperazione internazionale</note>
+            <u ana="#guest" who="#MoaveroMilanesiEnzo" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u4">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg5">Signor Presidente, senatrici e senatori, la situazione in Venezuela merita tutta la nostra attenzione e preoccupazione. Se posso fare una sintesi estrema, sono tre i fattori di preoccupazione: la deriva politica in atto, la crisi economica e sociale molto grave che sta colpendo la popolazione del Venezuela e, terzo fattore, per noi italiani, la presenza di una comunità molto importante di nostri compatrioti, discendenti di italiani e anche cittadini italiani presenti in Venezuela. Siamo sempre stati fautori di una risposta europea a questa crisi, come peraltro alle altre crisi con le quali ci confrontiamo nello scenario mondiale. Riteniamo che sia giusto perseguire - è quanto l'Italia ha sempre fatto e quanto sta facendo il Governo - una soluzione pacifica e democratica per questo Paese a noi così vicino.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg6">Se mi consentite, passo a una ricostruzione degli eventi che hanno portato alla situazione attuale. Nel maggio dello scorso anno si sono svolte elezioni presidenziali anticipate, che hanno portato alla riconferma dell'attuale presidente, Nicolás Maduro. Queste elezioni sono state giudicate dalla comunità internazionale e dagli osservatori come non libere e non trasparenti. Di conseguenza, la legittimità dell'attuale Presidente del Venezuela ne è uscita fortemente inficiata. I fattori che hanno determinato questo giudizio possono schematicamente riepilogarsi nei seguenti: la partecipazione degli elettori al voto è stata bassa - inusualmente bassa - in un Paese dove normalmente è elevata; ci sono state delle decisioni giudiziarie quantomeno discutibili, che hanno portato a escludere svariati esponenti dell'opposizione dalla competizione elettorale; vi sono state numerose denunce di irregolarità e il risultato non è stato riconosciuto dalla coalizione di opposizione, né dall'Organizzazione degli Stati americani, né dall'Unione europea. Queste organizzazioni internazionali - ovviamente non hanno un potere di intervento diretto, ma possono liberamente esprimere il loro punto di vista - si sono immediatamente pronunciate a favore di nuove elezioni, purché libere e trasparenti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg7">Nel giugno dello scorso anno, di fronte a un'assenza di progressi, a livello di Unione europea è stato approvato un pacchetto di misure sanzionatorie cosiddette individuali, perché colpiscono singole persone: 11 esponenti dell'attuale regime di Governo in Venezuela sono stati ritenuti responsabili e, quindi, sanzionati per violazioni che riguardano i diritti umani e le regole democratiche. L'obiettivo delle violazioni era mantenere una forma di stimolo, di pressione, affinché si procedesse a un dialogo tra le forze politiche venezuelane e possibilmente a un ristabilimento pieno del quadro di legittimità democratica. In realtà, è accaduto che, il 5 agosto sempre del 2018, c'è stato un presunto attentato in presenza del presidente Maduro e questo ha causato una serie di interventi che sono stati portati avanti nei confronti delle opposizioni, che venivano indicate dal regime come colpevoli. Ciò, naturalmente, ha comportato a sua volta un'ulteriore reazione a livello di comunità internazionale. In particolare, alcuni Paesi dell'America latina - Argentina, Cile, Colombia, Paraguay e Perù, ai quali si è aggiunto il Canada - hanno preso una decisione molto rara nelle relazioni internazionali, vale a dire il deferimento del Venezuela alla Corte penale internazionale per crimini contro l'umanità. Si tratta di un atto d'accusa di una gravità all'evidenza molto forte.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg8">L'Unione europea, dal canto suo, con il pieno sostegno e la partecipazione dell'Italia, ha sempre insistito su cinque punti che - sempre nel tentativo di essere chiaro - mi permetto di schematizzare: il primo, il pieno ripristino e il rispetto dei poteri dell'Assemblea nazionale democraticamente eletta in elezioni giudicate valide dalla comunità internazionale e dagli osservatori; il secondo, l'indizione di nuove elezioni presidenziali credibili (il punto costante di questa vicenda nella posizione dell'Unione europea); il terzo, il rilascio di tutti i prigionieri qualificabili come prigionieri politici; il quarto, la piena garanzia della libertà di espressione e di informazione (quindi, siamo alle libertà basilari); il quinto, l'apertura di appositi corridoi umanitari per consentire l'afflusso di aiuti internazionali a favore della popolazione. Vi ricordo che uno dei tre elementi gravi di questa situazione è proprio l'emergenza sociale che tocca strati diversi della popolazione venezuelana. Questo è peraltro l'ulteriore sviluppo degli ultimi mesi: una vera e propria crisi di rifugiati, persone che lasciano il Venezuela per cercare rifugio e situazioni migliori in Paesi confinanti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg9">L'Italia è intervenuta a questo riguardo - lo segnalo come esempio particolare - con un finanziamento di 500.000 euro all'Alto commissariato delle Nazioni Unite per i rifugiati, e si è fatta promotrice - a fine ottobre 2018 - di un inizio di fase esplorativa dell'Unione europea, insieme a Paesi latino-americani, per cercare di facilitare il dialogo tra Governo e opposizione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg10">Arriviamo agli sviluppi più recenti. Il 10 gennaio il presidente Maduro si è insediato - nella situazione di non piena legittimità democratica di cui abbiamo già detto - per il suo secondo mandato. Gli ambasciatori degli Stati dell'Unione europea non sono stati presenti alla cerimonia cosiddetta di insediamento, per decisione evidentemente coordinata a livello di Unione. Successivamente sono state assunte delle iniziative, da parte del Governo, per restringere la piena possibilità di operare del Parlamento, che nel frattempo aveva eletto come proprio presidente Juan Guaidó.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg11">Lo scorso 23 gennaio il Presidente dell'Assemblea nazionale del Venezuela - è il Presidente del Parlamento - sulla base degli articoli della Costituzione venezuelana - per chi ama i numeri, si tratta degli articoli 233 e 333 - ha giurato come Presidente ad interim e si è quindi arrivati a una rottura del quadro istituzionale interno. A seguito di questo suo pronunciamento, sono arrivati dei riconoscimenti al Presidente dell'Assemblea da parte degli Stati Uniti e di sette dei Paesi del cosiddetto Gruppo di Lima, che riunisce i Paesi dell'America del Sud. Sono rimasti fuori da questo supporto Messico e Uruguay, che hanno espresso una posizione comune per un negoziato fra Governo e opposizione in Venezuela. Viceversa, sul fronte opposto di sostegno al presidente Maduro troviamo Cuba, Russia, Cina, Turchia, Nicaragua e Bolivia. Ci sono state espressioni di preoccupazione da parte della Santa Sede e, per quanto riguarda l'Unione europea, al Consiglio affari esteri del 21 gennaio scorso è stato discusso, ancora una volta, lo stato della situazione in Venezuela. Un piccolo gruppo di Paesi (Italia, Francia, Spagna, Portogallo e Paesi Bassi) ha fatto una dichiarazione insieme - sempre il 21 gennaio - per rendere più veloce la costituzione del cosiddetto gruppo di contatto internazionale, che dovrebbe riunire Paesi dell'America latina e Paesi europei, per cercare di ristabilire i fili del dialogo - o del negoziato, se vogliamo chiamarlo così - tra Governo e opposizione e, possibilmente - quanto meno negli intenti dei Paesi europei e dell'America latina - portare a un ristabilimento pieno della legittimità democratica. Successivamente, il 23 gennaio scorso c'è stata una prima dichiarazione a 28 - tutti gli Stati attualmente membri dell'Unione europea - contro l'uso della forza da parte della polizia e a sostegno della libertà di manifestazione, perché era in atto una repressione delle manifestazioni contrarie al Governo. Arriviamo infine agli ultimissimi avvenimenti. Tra venerdì 25 e sabato 26 gennaio è stata discussa, a livello di contatti intensi tra gli Stati membri dell'Unione europea, una dichiarazione comune - alla redazione della quale, come Governo italiano, abbiamo contribuito più che attivamente - che è stata adottata e diffusa al pubblico sabato 26, in cui si sottolinea la necessità di arrivare a una soluzione democratica. In particolare, anche in questo caso mi permetto un riassunto nei cinque punti più rilevanti. Vi sono anzitutto la condanna delle morti provocate dalla repressione e il sostegno all'Assemblea nazionale, organo democraticamente legittimato. Come terzo elemento, vi è un pressante appello per la convocazione di elezioni, con un annuncio da farsi già nei prossimi giorni, rispetto a questo sabato 26. Come quarto elemento, nel caso in cui non ci dovesse essere detto annuncio e non si dovesse procedere verso nuove elezioni, i Paesi dell'Unione europea si riservano ulteriori iniziative. Viene menzionato come esempio, con la terminologia «ivi inclusa», la questione del riconoscimento di una diversa leadership nel Paese, secondo quanto previsto dall'articolo 233 - già da me citato - della Costituzione venezuelana. Come quinto elemento, vi è il sostegno a un credibile processo che impegni il Venezuela e i Paesi vicini, attraverso la costituzione del gruppo di contatto internazionale, di cui dovrebbero far parte - ripeto - Paesi latino-americani e Stati membri dell'Unione europea. Alcuni degli Stati membri dell'Unione europea - 6 su 28 e, nello specifico, Francia, Spagna, Regno Unito, Germania, Paesi Bassi e Portogallo - hanno ritenuto di dover esprimere una posizione più netta rispetto alla posizione comune di cui vi ho detto. In particolare, hanno indicato esplicitamente un termine perentorio di otto giorni entro il quale fare l'annuncio, allo scadere del quale si riservano azioni. Queste dichiarazioni sono state diffuse sostanzialmente nella medesima giornata di sabato 26 ed esprimono chiaramente un appoggio al Presidente dell'Assemblea e alla sua attuale posizione di autoproclamazione, ai sensi della Costituzione venezuelana, come capo del Governo. Per quanto riguarda la posizione italiana, ci riconosciamo pienamente nella dichiarazione dell'Unione europea, in particolare l'ultima, quella di sabato 26 gennaio; una posizione che ribadisce un obiettivo di risultato: arrivare a elezioni libere, democraticamente riconoscibili e trasparenti per il Presidente della Repubblica. Ci riconosciamo anche nella indicazione di un termine di giorni entro i quali debba arrivare l'annuncio delle nuove elezioni, anche se nella dichiarazione europea questo termine non è cifrato, a differenza di ciò che, invece, avviene nella dichiarazione dei sei Paesi di cui vi ho detto. Teniamo presente che la situazione in Venezuela si può definire, con un termine neutrale, fluida; è una situazione tesa, in cui non dobbiamo dimenticare che la priorità deve essere quella di evitare che possano aumentare le violenze e prevenire uno scontro. C'è chi teme anche la possibilità di una guerra civile. Su questo - come ho detto all'inizio - bisogna riflettere con un occhio alla presenza di una forte comunità di compatrioti italiani. L'obiettivo fondamentale della linea del Governo è restituire la scelta democratica al popolo venezuelano. Su questo non ci devono essere dubbi. L'opzione di arrivare a nuove elezioni, libere e trasparenti, pienamente riconoscibili dalla comunità internazionale, non è assolutamente da mettere in dubbio. Pensiamo che occorra lavorare per favorire siffatto processo nel migliore dei modi. Rispetto a questo, rimaniamo impegnati e troviamo che la costituzione del gruppo internazionale di contatto rappresenterebbe un passo importante, perché permetterebbe di avere un gruppo permanente, nella misura in cui sarebbe stabile rispetto all'attuale crisi, che può fungere da stimolo e da osservatore, anche per rendere note pubblicamente eventuali derive. Ci possono essere dei margini. Ci sono elementi che possono far pensare che si possa intraprendere questo percorso, ma ancora non ci siamo arrivati. Il tema resta tra le priorità nelle discussioni a livello europeo. Domani mattina mi recherò a Bucarest, dove è previsto un Consiglio dei ministri dell'Unione europea a Presidenza rumena (si svolge in questa forma nella capitale della Romania). Il Venezuela è il primo punto all'ordine del giorno e, quindi, il dibattito odierno in quest'Aula è quanto mai opportuno dal punto di vista della tempistica. Siamo fortemente impegnati per gli italiani e i cittadini venezuelani di origine italiana che si trovano nel Paese, così come riserviamo particolare attenzione alle nostre aziende. Abbiamo preso alcune misure puntuali, che cito brevemente a titolo di esempio e naturalmente siamo a disposizione per dare maggiori dettagli. Abbiamo provveduto a intervenire sull'integrazione del minimo pensionistico. Tenete conto che vi è un'emergenza sociale: possono sembrare misure del tutto fuori luogo, inadeguate rispetto all'emergenza politica, ma stiamo parlando dell'emergenza sociale. Siamo, quindi, intervenuti su un tasso di cambio più vantaggioso per chi si trova in Venezuela e con un piano straordinario di assistenza ai gruppi più vulnerabili, stanziando per i nostri compatrioti più bisognosi che si trovano in Venezuela la somma di circa due milioni di euro. Abbiamo provveduto a stabilire un fondo in grado di provvedere alla fornitura diretta di medicinali che non sono più reperibili sul mercato locale e, sempre nell'ordine di questi esempi, abbiamo sospeso l'adeguamento automatico della tariffa percepita per i servizi consolari, che viene adeguata automaticamente alla svalutazione della moneta venezuelana. Questa è una misura importante, perché la svalutazione ha raggiunto dei ritmi di grande rilievo. I nostri servizi consolari e di ambasciata operano a pieno ritmo, in assistenza agli italiani e ai cittadini di origine italiana. Abbiamo rafforzato le misure atte a garantire la sicurezza, potenziando, tra le varie cose, il contingente di carabinieri in servizio presso le nostre sedi. Nel sito della Farnesina Viaggiare Sicuri, che ha l'obiettivo di fornire il massimo delle informazioni, vengono fornite tutte le informazioni necessarie. Un'ultima parola pronuncio sul caso della cittadina italo-venezuelana Laura Beatriz Gallo, attivista dell'opposizione, che è stata tratta in arresto nel corso delle manifestazioni di protesta del 23 gennaio scorso. La nostra ambasciata ha preso tutte le informazioni e sta fornendo assistenza, in particolare per verificare le sue condizioni di salute e di detenzione. Siamo in contatto con i familiari e con i legali, naturalmente, come sempre accade quando ci sono queste situazioni di difficoltà per gli italiani all'estero. La situazione processuale è la seguente: il giudice aveva disposto una libertà condizionata, c'è stata un'opposizione in appello da parte della pubblica accusa e ora si deve pronunciare il giudice di appello. Questo è il quadro, mi auguro utile. Avremo ulteriori aggiornamenti sulle posizioni europee a valle della riunione di cui vi ho già detto, domani e dopodomani a Bucarest.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u5">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg12">Saluto a nome dell'Assemblea i docenti e gli studenti dell'Istituto magistrale statale «Carlo Baudi di Vesme» di Iglesias, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ripresa della discussione sull'informativa del Ministro degli affari esteri e della cooperazione internazionale</head>
+            <note>(ore 18,34) PRESIDENTE. È iscritto a parlare il senatore Casini. Ne ha facoltà.</note>
+            <note type="speaker">CASINI (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#CasiniPierFerdinando" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u6">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg13">Signor Presidente, anzitutto consentitemi di rivolgere un saluto agli italiani in Venezuela, che sono sicuramente in questo momento - come ci hanno segnalato già da qualche giorno - in contatto con questa Aula in modo materiale, nel senso che stanno seguendo il dibattito che avviene qui al Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg14">Lo hanno aspettato con ansia. Il Governo finalmente si è presentato, dopo quattro o cinque giorni dalle nostre richieste, secondo me tardivamente. Vorrei anche dire a quegli italiani che tanti di coloro che sono presenti in quest'Aula saranno sabato in piazza con la comunità venezuelana in Italia, a manifestare per la libertà di quel Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg15">Lo voglio dire e voglio sgomberare il campo da un problema: tutti voi sapete in quest'Aula, per la mia lunga militanza, che sono considerato quasi sempre un mediatore, anche in eccesso, una persona che cerca e rifugge gli estremismi. È vero, sono così, è la mia natura e non solo la mia vocazione politica. E sono anche uno che non fa mai delle polemiche personali. Voglio infatti dire al ministro Moavero Milanesi, che stimo, che mi rendo conto della sua situazione e vorrei sgomberare il campo anche dal fatto che le considerazioni che farò siano rivolte personalmente al Ministro. Siamo tutti troppo intelligenti per non capire che il Ministro siede in un Governo dove, sul tema dell'Afghanistan, il Ministro della difesa ha spiegato che non era tenuto ad avvertire il Ministro degli affari esteri. Ripeto, egli siede in un Governo in cui il Ministro della difesa, davanti a un tema come quello del ritiro dall'Afghanistan, dice che non era mica tenuto a parlare con il Ministro degli affari esteri.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD e del senatore De Bertoldi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg16">Francamente, non mi meraviglio, dopo questa premessa, nel sentire quello che il Ministro degli affari esteri ha detto adesso, che è una comunicazione burocratica ineccepibile sulla burocratica posizione che il Governo italiano ha assunto, che peraltro è stata burocraticamente anticipata dal Presidente del Consiglio dei ministri, che qualche ora fa - è su tutte le agenzie - ci ha spiegato che noi siamo per il dialogo; che noi siamo per la pace in Venezuela, e che noi vogliamo che le parti dialoghino tra di loro. Guardate: è molto difficile non essere d'accordo con questo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), PD e FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg17">Il problema vero è che questo dialogo si è ricercato da anni. Il Vaticano ha fatto in prima persona una mediazione chiamando al tavolo tutti, e tutti hanno capito che il dialogo serviva unicamente a Maduro per prendere tempo e reprimere brutalmente l'opposizione in quello che è diventato un regime narcotrafficante, perché i collegamenti tra il traffico della droga e il regime venezuelano ormai li conoscono anche i bambini dell'asilo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), PD e FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg18">E non è un caso che tutti i Paesi del blocco dell'America del Sud, o quasi tutti - certo non il Nicaragua, ma forse uno di questi giorni dovremmo parlare del Nicaragua - abbiano espresso una posizione univoca.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg19">Io vi dico sinceramente che non è vero che il Governo italiano non si sia espresso. No, perché, se noi diciamo che questa comunicazione burocratica non è chiara, sbagliamo: è chiarissima. Una volta tanto consentitemi di dire che Salvini - lo critichiamo sempre e lo critico anch'io in prima persona - aveva ragione. Salvini ha detto: «Sto con il popolo venezuelano e contro i regimi come quello di Maduro, fondato su violenza, paura e fame. Quanto prima cade, senza ulteriori scontri, meglio è».</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg20">Io speravo che almeno in questa circostanza, visto che Salvini conta molto nel Governo, avesse impresso questa linea al Governo italiano, che è la linea che hanno espresso non alcuni Paesi che non hanno interessi in Venezuela. Anche in questo, per favore, non siamo così ipocriti da dire che noi non prendiamo posizione per paura dei nostri connazionali. I nostri connazionali in Venezuela oggi vogliono che prendiamo posizione. La Spagna mi risulta che non abbia meno connazionali di noi in Venezuela. E io devo ringraziare il Governo spagnolo, quello francese, quello del Regno Unito, quello dei Paesi Bassi , che hanno con coraggio assunto una posizione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), FI-BP e PD e del senatore De Bertoldi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg21">Noi abbiamo una posizione; non è vero che noi non l'abbiamo. Noi abbiamo una posizione chiarissima: il Governo italiano è per una equidistanza tra Maduro e l'Assemblea legislativa. In sostanza, il Governo italiano ci spiega che devono dialogare; che i due ragazzi che litigano si mettano al tavolo, perché per noi ci sono il Presidente e il Parlamento; noi non sappiamo da che parte stare; sappiamo che devono dialogare.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg22">No, no, i conti non tornano. Io so da che parte stare, il Gruppo per le Autonomie sa da che parte stare: noi scegliamo l'unico organismo legittimato dal voto popolare, quello vero, che è l'Assemblea legislativa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), FI-BP e PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg23">Noi scegliamo di essere solidali con i nostri colleghi venezuelani che sono stati privati dello stipendio, che sono stati privati della sede. Se non vi è chiaro, vi vorrei dire che il regime ha provveduto anche a tagliare la luce, il gas e tutto il resto all'Assemblea nazionale venezuelana. Almeno per solidarietà tra parlamentari, io credo che noi dovremmo esprimerci con chiarezza su questo. E invece noi scegliamo l'equidistanza.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg24">Colleghi, sui cinque punti prima citati dal Ministro siamo tutti d'accordo. Avete visto che anche Maduro dice che occorre fare le elezioni. Oggi Maduro ha detto di essere d'accordo con la richiesta di fare elezioni garantite democraticamente, ma dell'Assemblea nazionale! Si è dimenticato le sue elezioni</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), FI-BP e PD),</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg25">perché tanto ha già incassato le elezioni. Lui è per rinnovare l'Assemblea nazionale. Se non fosse una vicenda tragica, se non fosse che noi parliamo del Paese che negli anni Settanta era l'Eldorado - era tra i Paesi più ricchi del mondo, secondo tutte le statistiche, mentre oggi è invece ridotto al livello dei Paesi più scalcagnati del nostro Pianeta - ci sarebbe quasi da sorridere davanti a queste cose.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg26">Bene, io credo e spero che il Governo italiano cambi posizione. Spero che il Governo italiano decida da che parte stare. Spero che il Governo italiano scelga di stare dalla parte di coloro che oggi sono in piazza e sono affamati da un regime illiberale e dispotico. Spero che il Governo italiano esca dalla stucchevole idea dell'equidistanza come se ci fossero due parti egualmente legittimate moralmente e democraticamente. No! Non sono uguali. Non sono uguali perché da una parte c'è il bene; c'è una politica che comunque cerca di lavorare nell'interesse della gente e rischia in prima persona per affermare le proprie idee e, dall'altra parte, c'è un regime che sta in piedi con i militari. E sapete perché i militari tengono i piedi questo regime? Sono compromessi fin sopra la testa con i traffici, non ultimi i narcotraffici, ormai completamente connessi con il regime venezuelano. Questa è la realtà.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg27">Io non sono un pericoloso estremista che cerca di andare in giro. Sono una persona obiettiva che in gran parte, con questo discorso, è in connessione con tutte le persone che conoscono la situazione del Venezuela e che hanno, in questi anni, seguito attentamente la situazione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg28">Cari colleghi, è un'occasione mancata per l'Italia, l'ennesima. Non mi meraviglio perché, considerate le premesse che ho fatto sull'Afghanistan, il minimo è che succeda anche questo. Speriamo che nelle prossime ore ci sia un sussulto di dignità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), FI-BP e PD.</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Grasso. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">GRASSO (Misto-LeU)</note>
+            <u ana="#regular" who="#GrassoPietro" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u7">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg29">Onorevole ministro Moavero Milanesi, la ringrazio per aver informato quest'Assemblea sui propositi del Governo rispetto alla crisi venezuelana. Abbiamo ascoltato con grande attenzione le sue parole e vogliamo credere che esse rappresentino davvero la posizione del Governo. Dico questo perché nei giorni scorsi, come spesso accade, diversi esponenti della maggioranza hanno espresso posizioni diverse, in certi casi addirittura contraddittorie.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg30">Io penso che la politica estera dell'Italia meriti un comportamento più serio, maggiore prudenza nelle dichiarazioni e una linea condivisa almeno a livello di Governo. Non parliamo poi delle quasi dichiarazioni di guerra a Germania, Francia e Olanda, ma soprattutto di quelle sull'impegno dei nostri militari che non possono e non devono essere esposti a maggiori rischi per le beghe di una maggioranza traballante.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg31">Voglio approfittare di questa occasione per far giungere al Presidente Conte la mia sincera solidarietà. Piuttosto che governare il Paese, il Presidente del Consiglio sembra costretto a passare la maggior parte del suo tempo a riconciliare le litigiose fazioni della sua maggioranza o a proporsi come scudo per responsabilità altrui.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg32">Seguiamo con apprensione l'evoluzione di una situazione di grande tensione: l'aggravarsi del braccio di ferro tra Nicolás Maduro e Juan Guaidó sta portando il Paese nel caos, mentre il popolo venezuelano è già profondamente sfiancato da condizioni economiche e sociali davvero drammatiche che lei stesso ha illustrato, con carenze di cibo, di medicine e di acqua, con decine di morti a seguito delle manifestazioni di protesta.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg33">Riteniamo che a questo punto l'Italia, di concerto con i Paesi dell'Unione europea e in conformità con il diritto internazionale, debba promuovere una forte iniziativa diplomatica utile a evitare che su questa crisi si consumi uno scontro di natura geopolitica e geoeconomica che nulla ha a che fare con la vera urgenza di queste ore: evitare innanzi tutto una guerra civile e scongiurare spargimenti di sangue, nel supremo interesse di tutti i cittadini venezuelani, molti dei quali di origine italiana. Bisogna allora ricondurre lo scontro dentro i limiti della legittimità democratica, lavorando affinché siano i cittadini a scegliere autonomamente e democraticamente, mediante nuove elezioni, il futuro del loro Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg34">Noi di Liberi e Uguali crediamo che la comunità internazionale debba accompagnare questa fase attraverso osservatori internazionali che vigilino sul corretto svolgimento di nuove elezioni da convocare il prima possibile, attraverso il negoziato e la diplomazia con tutti i mezzi possibili, evitando che gli ultimatum si risolvano in occasioni di violenza fratricida. Come opposizione, sosterremo lealmente il Governo italiano in questa prospettiva e contestualmente chiediamo a lei, ministro Moavero Milanesi, di riferire tempestivamente al Parlamento le ulteriori iniziative che ella vorrà intraprendere per tutelare la comunità italiana che vive in Venezuela e che ci sta seguendo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto e PD.</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Urso. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">URSO (FdI)</note>
+            <u ana="#regular" who="#UrsoAdolfo" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u8">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg35">Signor Presidente, avevamo chiesto in quest'Aula l'intervento del nostro Governo una settimana fa: è dunque passata una settimana prima di avere una tardiva, confusa e approssimativa informativa.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg36">Nel frattempo, a noi tutti sono arrivate centinaia, migliaia di commoventi richieste d'aiuto da parte della nostra comunità in Venezuela. Due milioni di cittadini italiani - o oriundi italiani - ci hanno guardato e ci guardano anche in questi minuti: grazie a Internet e al canale satellitare, infatti, siamo seguiti da quella comunità proprio in queste ore, mentre a Caracas e in altre città la gente scende in piazza per manifestare e chiedere libertà.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg37">Quella gente aspettava dal Governo della Patria d'origine una chiara presa di posizione. In questa settimana, invece, secondo il giornale più vicino al Governo, «il Fatto Quotidiano», l'Italia ha espresso quattro diverse posizioni.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg38">La prima posizione è quella da lei ribadita in quest'Aula, vicina, o meglio, al seguito dell'Unione europea, dato che lei ha parlato solo di seguire l'Unione europea: l'Italia, che, insieme alla Spagna, è il Paese che ha più connazionali in Venezuela di chiunque altro, è al seguito dell'Unione europea.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg39">In secondo luogo, lo stesso giornale parla di Salvini contro Maduro. Finalmente, dopo il primo giorno, in cui la Lega è rimasta imbarazzata e silente, senza prendere posizioni in quest'Aula, l'ha fatto il ministro dell'interno Salvini, e in maniera netta, contro il dittatore Maduro, a capo di una giunta e di un regime militare che si reggono anche sul narcotraffico. Quanto di peggio vi possa essere al mondo in questo momento.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg40">Una terza posizione, contro gli Stati Uniti, è stata espressa dal Ministro degli affari esteri in pectore - o ombra - il signor Di Battista, peraltro appena tornato dal Nicaragua. Una quarta posizione - lo dice lo stesso giornale - è stata espressa dal Premier, essendo in mezzo a tutti gli altri. Aggiungo, signor Ministro degli affari esteri, che una quinta posizione è stata espressa pochi minuti fa dal Gruppo di maggioranza relativa che in un comunicato ufficiale - che anticipa quanto ha detto lei - dice esattamente un'altra cosa. Nel comunicato ufficiale espresso dal Gruppo dei senatori del MoVimento 5 Stelle pochi minuti fa in un'agenzia, infatti, è stata espressa una quinta posizione poco prima che lei parlasse, che è la posizione della Grecia; di questa "grande potenza" che evidentemente avrà anch'essa milioni di connazionali in Venezuela e che, a differenza di quello che pensano le popolazioni dell'America latina (brasiliani, argentini, cileni, colombiani e tutti gli altri o quasi tutti gli altri), esprime un'altra posizione, perché la Grecia è molto vicina a quel Paese, ne sa molto di Venezuela, più della Spagna, più di noi, più degli americani, più dei venezuelani. Siamo quindi già a cinque diverse posizioni in vista del vertice di domani, in cui non si capisce cosa lei dirà a nome dell'Italia. E non si capisce il momento di estrema gravità, in cui a noi appare chiarissima la situazione: da una parte c'è un regime militare che si regge sul terrore. Secondo le Nazioni Unite, già in questa settimana di silenzio e latitanza da Ponzio Pilato del Governo italiano, ci sono stati 40 morti, 850 arresti (700 solo nella giornata di mercoledì scorso). Ci sono video che mostrano le torture e gli assassinii perpetrati dalla polizia segreta venezuelana; ci sono italiani arrestati; un milione di persone è fuggito all'estero; ci sono disperazione e morte, anche e soprattutto nelle zone come le borgate di Caracas, che tanto avevano sperato nel regime di Chavez e che oggi sono piombate nel buio di Maduro. C'è un regime militare che è stato eletto in un'elezione definita una farsa dalla comunità internazionale, con un regime che è stato deferito dagli Stati - non è un evento raro, ma è la prima volta che accade - alla Corte penale internazionale. La gravità è questa. Da una parte vi è un regime intollerante, l'elezione di Maduro che è stata dichiarata una farsa; e dall'altra parte vi è un'Assemblea nazionale liberamente eletta che, in base alla Costituzione venezuelana e al diritto internazionale, elegge un Presidente ad interim, sia sulla base del diritto venezuelano (articolo 233 della Costituzione) sia sulla base del diritto internazionale. Non c'è dubbio da che parte stare. Non comprendiamo il dubbio del Governo, e non dell'Italia, perché essa sta dalla parte della comunità italiana in Venezuela, per la libertà del Venezuela.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FI-BP, PD e Aut (SVP-PATT, UV)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg41">È il Governo italiano che non sta né con la comunità italiana, né con la comunità internazionale, e nemmeno col popolo italiano, che ha molti parenti in Venezuela.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Ferrara.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg42">Dall'altra parte, c'è un Governo eletto da un Parlamento liberamente scelto dagli elettori. Cosa ha risposto Maduro? Lei non ce l'ha detto in quest'Aula. Maduro ha risposto già oggi alle richieste della comunità internazionale, dicendo che resterà in carica fino al 2025 - si è fatto rieleggere fino al 2025 - e che semmai scioglierà l'Assemblea nazionale per eleggerne un'altra. La risposta c'è già stata. Ora tocca all'Europa e toccherebbe anche all'Italia - prima dell'Europa e non dopo l'Europa, non coprendosi con l'Europa, ma scoprendo il proprio volto di Paese e di Nazione - dire cosa pensa. Noi crediamo che l'Italia debba dire soltanto una cosa: quello che chiedono gli italiani in Venezuela, e cioè garantire la loro libertà e la loro sopravvivenza e per la loro libertà e la loro sopravvivenza ci vogliono elezioni libere e democratiche garantite dalla comunità internazionale; elezioni presidenziali (che sono quelle illegittime), ed è quello che deve chiedere immediatamente il Governo italiano per dare conforto alla comunità internazionale e alla comunità italiana. Più forte è la nostra voce - noi non siamo né la Grecia né la Tunisia, ma siamo l'Italia - più forti sono i diritti degli italiani che stanno in Venezuela e più forti sono i diritti dei venezuelani che guardano all'Italia come madrepatria.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg43">Per questo crediamo che il suo intervento sia stato giustificato dalle condizioni di questo Governo e dell'attuale maggioranza, ma pensiamo - se permette - che esso sia inadeguato rispetto alle richieste di aiuto che ci vengono dal Venezuela e anche dagli altri Paesi dell'Unione europea, che chiedono all'Italia di schierarsi insieme e uniti per reclamare libertà e democrazia per tutto il Venezuela e certamente per la nostra comunità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e FI-BP e del senatore Steger</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Alfieri. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">ALFIERI (PD)</note>
+            <u ana="#regular" who="#AlfieriAlessandro" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u9">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg44">Signor Presidente, come sa, avremmo voluto questo incontro già la scorsa settimana, dinanzi agli eventi che si succedevano con un'intensità senza precedenti e che avevano cambiato il quadro politico in Venezuela. Purtroppo non è stato possibile per le evidenti difficoltà di una maggioranza mai divisa come in politica estera: lo abbiamo visto in questo caso, così come nel caso delle missioni in Afghanistan. Serve un chiarimento e io penso che non basti un'informativa; credo che servano delle comunicazioni, con delle risoluzioni sulla politica estera, perché la nostra preoccupazione è che la politica estera italiana stia cambiando radicalmente.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg45">Faccio il primo esempio concreto. La comunità italiana in Venezuela, una delle più importanti in America latina, si aspettava una risposta chiara, netta e di vicinanza dal Parlamento, che parlasse con una voce unica; questa voce non c'è stata e questo è l'elemento più grave. Parliamo di un Paese che ha conosciuto negli ultimi anni un innalzamento del 10 per cento della mortalità infantile, un'inflazione a tre cifre, una svalutazione del 95 per cento in nome del sovranismo, con una nuova moneta che ha portato ad incrementare il costo delle importazioni - lo sanno bene i nostri italiani - e dove trovare delle medicine è maledettamente complicato. Menomale che, come abbiamo sentito dal Ministro, grazie ai diplomatici che stanno lavorando, avete ripristinato quel fondo che l'attuale maggioranza ha tagliato nella legge di bilancio e che noi invece avevamo previsto lo scorso anno, con due milioni utili in questa occasione come non mai.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg46">Lo dico perché sappiamo distinguere il lavoro prezioso che fa la diplomazia per stare vicino alla nostra comunità italiana rispetto alle dichiarazioni dissennate dei leader della maggioranza che governa in questo momento il nostro Paese. Lo dico perché noi rischiamo di abbandonare la comunità internazionale, la comunità delle democrazie liberali: è questo il principale rischio che vedo in questo momento, di non stare dalla parte di chi ha patito in questi anni la dittatura di Maduro. Parliamo di tre milioni di rifugiati, con i leader dei principali partiti di opposizione - penso a Volontà Popolare - sono stati arrestati o sono in esilio o hanno chiesto asilo nelle principali ambasciate dei Paesi latino-americani. Credo dunque che, davanti ad un episodio come quello che è accaduto nelle settimane scorse, con il fermo del Presidente dell'Assemblea nazionale e il successivo congelamento dei beni e il divieto di espatrio, il Governo del nostro Paese dovesse esprimere con chiarezza solidarietà e vicinanza al presidente Guaidó. Questo non voleva dire riconoscerlo; voleva dire che noi stiamo dalla parte delle democrazie liberali, stiamo con la comunità internazionale che ha deciso di condannare quegli eventi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e Aut (SVP-PATT, UV)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg47">L'altro grande rischio che io vedo è la rottura del nostro protagonismo e della solidarietà all'interno dell'Unione europea. Mai come con il Venezuela si era misurata la capacità dell'Unione europea di parlare con una voce sola.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg48">È vero o non è vero, signor Ministro, che, dopo le elezioni del maggio 2018, elezioni contestate con forza dall'Unione europea per l'assenza di osservatori internazionali, vi eravate trovati al Consiglio affari esteri e avevate detto in maniera netta che bisognava prendere misure restrittive, mentre al contempo la Russia - che sembra essere diventata un punto di riferimento di una parte della maggioranza - riconosceva Maduro, gli faceva i complimenti e lo invitava al Cremlino? È vero o non è vero che a dicembre, quando lei ha appoggiato con il suo autorevole parere, il parere del Governo italiano, le misure dell'alto rappresentante dell'Unione per gli affari esteri e la politica di sicurezza Mogherini per la conferma dell'embargo delle armi al Venezuela, nonché le misure restrittive nei confronti di 18 personaggi del Governo di Maduro - gli stessi responsabili delle repressioni nei confronti delle manifestazioni legittime e democratiche dell'opposizione - nello stesso momento Mosca inviava due bombardieri strategici Tupolev 160 a Caracas? E nel momento in cui, a gennaio, la Mogherini riconfermava la sua preoccupazione per la situazione in Venezuela, «Reuters» e «The Guardian» pubblicavano articoli in cui dicevano che mercenari russi legati al gruppo Wagner arrivavano al fianco di Maduro in Venezuela.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg49">Davanti a questa situazione così maledettamente complicata noi dobbiamo dire da che parte stiamo; non si può tentennare: o si sta dalla parte di Russia, Cuba e dei loro amici o si sta dalla parte della comunità internazionale e delle democrazie liberali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e Aut (SVP-PATT, UV)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg50">Conosco il lavoro che viene fatto al Consiglio affari esteri e il lavoro che fa lei come Ministro, ma - non me ne voglia - nella costruzione e nella definizione degli elementi essenziali della politica estera incidono di più le dichiarazioni dei principali leader della maggioranza. Centinaia di migliaia di persone sono scese in piazza, ed è stato quello il momento di frattura fondamentale che ha aperto una nuova fase che la comunità internazionale ha colto, perlomeno i principali Paesi democratici: in testa l'Unione europea con la Francia, la Spagna e la Germania, e dovevamo esserci noi a costruire quella posizione comune. Ebbene, davanti a quel tentativo di costruire e aprire una nuova fase, l'Italia è stata silente. Anzi, no, non è stata silente: magari fosse stata silente. Abbiamo invece sentito voci diverse: da una parte, abbiamo sentito Salvini dire subito che era dalla parte di Trump - perché dire dalla parte dell'Unione europea evidentemente gli fa fatica; è troppo - e, dall'altra parte, il nuovo capo politico del MoVimento 5 Stelle Di Battista, onnipresente in televisione, ha definito la posizione dell'Unione europea, che sarebbe stata avallata da Salvini, una «stronzata megagalattica»: una fine definizione diplomatica che dà il senso di quello che oggi è il messaggio che va all'estero dell'Italia. Penso, allora, che il Governo italiano debba recuperare. Non mi hanno rassicurato le dichiarazioni del presidente del Consiglio Conte di questa mattina: ha parlato di elezioni libere e democratiche e ha detto che non c'è bisogno di investiture. Penso che in questo momento le posizioni ambigue e gli equilibrismi non siano sinonimo di un'attenzione equilibrata o di un tentativo di mediazione, ma rischino di essere una vicinanza pericolosa a un regime repressivo, e noi abbiamo il dovere di dire con chiarezza da che parte stiamo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, FI-BP e Aut (SVP-PATT, UV). Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">IWOBI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#IwobiTonyChike" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg51">Signor Presidente, onorevoli senatori, signor Ministro degli affari esteri, credo che di fronte a un popolo in sofferenza non ci debba mai essere spazio per le polemiche, specialmente in quest'Aula, ma una ricerca di proposte condivise al fine di trovare una soluzione adeguata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg52">Detto questo, anzitutto esprimo la mia preoccupazione per quanto sta accadendo in questi giorni in Venezuela.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg53">La situazione attuale è la conseguenza di un pesante conflitto istituzionale tra i poteri dello Stato venezuelano. Gli equilibri tra potere esecutivo e potere legislativo, infatti, sono compromessi a causa di una consolidazione dei rapporti tra Governo e Tribunale supremo di giustizia, che ha portato quest'ultimo - nel marzo 2017 - a dichiarare nulli gli atti dell'Assemblea nazionale per evidenti ragioni politiche e ad affidare le prerogative parlamentari al capo del Governo. L'autoproclamazione del capo dell'opposizione, nonché leader dell'Assemblea nazionale, Juan Guaidó, è quindi solo l'ultimo atto di uno scontro che mostra una democrazia ferita e un popolo tutt'altro che libero di esprimere la propria sovranità. La qualità di un ordinamento democratico dipende dal rispetto, da parte delle istituzioni, della libera volontà popolare e cioè dal saper accettare la sconfitta elettorale e dal rispettare l'opposizione, perché necessaria affinché sia data voce a tutti i cittadini. In questo difficile scenario vogliamo esprimere la nostra piena solidarietà al popolo venezuelano e soprattutto ai nostri concittadini che vivono in Venezuela. Signor Ministro, il nostro impegno, come Paese democratico, dovrà essere indirizzato urgentemente a sostegno del ripristino della democrazia e dei giusti equilibri istituzionali, nel rispetto della dignità e della sicurezza del popolo venezuelano. Mi avvio dunque a concludere questo mio breve intervento, signor Ministro. Vista la sofferenza che ha raggiunto un livello critico e insostenibile per la popolazione del Paese, ribadisco la necessità che nel rispetto della dignità umana e della persona, oltre agli interventi tempestivi già effettuati e di cui dobbiamo prendere atto - siamo infatti orgogliosi di aver fatto qualcosa e di esserci espressi come si deve</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg54">- si debba intervenire ulteriormente contro un regime che ha portato, o sta portando, verso la guerra civile un popolo pacifico come quelle venezuelano. Tutto ciò ovviamente deve essere fatto rispettando la volontà democratica e la libertà, per porre fine al dolore e all'infelicità del popolo venezuelano.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg55">È vero che il nostro Paese ha agito ed è intervenuto tempestivamente per arginare la sofferenza di questo popolo e dei nostri concittadini che vivono in Venezuela, ma è altrettanto vero che deve continuare ad agire nei confronti del regime, che sta infliggendo al Paese una sofferenza inaccettabile. Credo che questo sia il momento in cui dobbiamo guardare la realtà in faccia e fare ciò che è in nostro potere, come Paese democratico. L'Italia è un Paese democratico che deve far sentire la propria voce, come sta facendo in questi ultimi tempi. Dobbiamo infatti prendere atto che le cose stanno cambiando: credo che il nostro Paese e il nostro Governo in questo momento stiano operando, non soltanto di fronte a un popolo che soffre, ma negli scenari internazionali. Quindi, signor Ministro, per concludere, chiedo un ulteriore sforzo affinché questa sofferenza cessi in modo democratico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az, M5S e Aut (SVP-PATT, UV). Congratulazioni.</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Malan. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">MALAN (FI-BP)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u11">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg56">Signor Presidente, colleghi senatori, signor Ministro degli affari esteri, abbiamo dovuto aspettare sei giorni e qualche ora per averla in Aula. Certamente lei ha un'agenda molto fitta e ha sicuramente avuto molti incontri importanti, però, lasci che citi anch'io il Ministro dell'interno: «Prima gli italiani».</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg57">Non soltanto prima i senatori italiani, ma prima gli italiani che sono in Venezuela e che, ora dopo ora, in questi sei giorni in cui abbiamo aspettato, rischiano la vita a causa di condizioni drammatiche per tutti. I nostri connazionali in Venezuela vivono in un Paese in cui non c'è la libertà e in cui è difficile approvvigionarsi di cibo e di acqua. I farmaci si comprano al mercato nero. Riceviamo dei messaggi: le colleghe Minuto, Lonardo e altri ci fanno vedere i messaggi che ricevono da persone che sono lì. I farmaci li trovano - se li trovano, e spesso non ci sono - al mercato nero, con degli esborsi spaventosi. I bambini in stato di denutrizione sono numerosissimi, come nei peggiori Paesi poveri. Stiamo parlando di un Paese che, pochi decenni fa, era tra i più ricchi del mondo e che ha tutt'ora le potenzialità per essere tra i Paesi più ricchi, con un sottosuolo ricchissimo e una struttura economica che era forte. Oggi c'è invece un'inflazione che - è difficile addirittura dirlo - è pari a 10 milioni per cento. In pratica vuol dire che, in media ogni ventidue giorni, i prezzi raddoppiano. Questo vuol dire la distruzione dell'economia La situazione è talmente disperata che anche coloro che altrimenti non avrebbero intrapreso la via dell'impegno e della discesa in piazza hanno avuto il coraggio di farlo, con la pancia vuota e il rischio che a casa magari arrivino le squadracce a portare via qualche parente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP e del senatore Steger</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg58">Ho letto quanto ci ha scritto un nostro nazionale: «Avevo cinque parenti spariti, e poi abbiamo trovato i loro corpi: uccisi dal regime. Fino a qualche tempo fa portavo, una volta alla settimana, un fiore su queste cinque tombe, ora non posso più fare neppure questo».</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e Aut (SVP-PATT, UV)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg59">Questa è la situazione e ciò avveniva un anno fa.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg60">L'opposizione democratica in Venezuela ha aspettato tantissimo. Quella del presidente dell'Assemblea nazionale Juan Guaidó non è stato un colpo di testa: ha aspettato mesi e mesi prima di assumere tale decisione, nella speranza che il famoso dialogo desse qualche frutto. Dopo un anno e più di situazione insostenibile, dopo otto mesi dalle elezioni farsa del Presidente della Repubblica e dopo che sono stati tagliati la luce, l'acqua e ogni tipo di supporto all'Assemblea nazionale, il presidente Guaidó, con il consenso dell'Assemblea, ha applicato la Costituzione del Venezuela, che all'articolo 233 stabilisce chiaramente che, in mancanza del Presidente - e un Presidente eletto con elezioni farsa non è un Presidente - il Presidente dell'Assemblea nazionale assume provvisoriamente il ruolo di Presidente della Repubblica per garantire di arrivare a delle elezioni.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg61">Signor Ministro, dopo sei giorni e dopo aver fatto comunicati sempre parecchio ambigui, parlando di un'attesa per le posizioni comuni dell'Unione europea, lei viene in questa sede e torna a riproporci, accanto a un dettaglio burocratico - di cui comunque la ringraziamo - una posizione che è ambigua nella forma - ovvero nell'apparenza - ma, come ha detto il presidente Casini, chiara nella sostanza: l'Italia non si schiera. L'Italia non riesce a schierarsi e a prendere una posizione tra il dittatore e chi - invece - forte della Costituzione e del sostegno popolare che ha eletto l'Assemblea nazionale, ha fatto un atto coraggioso di cui dobbiamo essere riconoscenti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e Aut (SVP-PATT, UV) ) e dei senatori De Bertoldi e Ferrari</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg62">Signor Ministro, lei ci ha detto delle cose interessanti e ci ha parlato delle dichiarazioni comuni fatte a livello di Unione europea, cui però è sempre mancato quel passo decisivo fatto da tanti altri Paesi - lei stesso ci ha parlato di sei Paesi dell'Unione europea - cioè riconoscere il presidente Juan Guaidó come Presidente temporaneo per arrivare a elezioni democratiche.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg63">La domanda cui lei avrebbe dovuto rispondere, senza che gliela si facesse, è la seguente: come mai nei comunicati ufficiali l'Unione europea non ha fatto questo passo, mentre lo hanno fatto Francia, Germania, Spagna, Paesi Bassi, Regno Unito e altri?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e Aut (SVP-PATT, UV) e dei senatori De Bertoldi e Ferrari</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg64">Come mai? Il sospetto che sia proprio a causa della posizione italiana, che si è espressa contro quelle condizioni, è forte. Allo stesso modo, è forte il sospetto che sia stata la posizione italiana - forse accanto a quella greca, con cui c'è stata una comunanza di intenti da parte dei senatori del MoVimento 5 Stelle - a portare alla mancata espressione del termine entro cui devono essere proclamate nuove elezioni.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg65">Le nuove elezioni non possono essere gestite da Nicolás Maduro, da chi ha tenuto il comportamento di cui abbiamo parlato, esautorando, contro la Costituzione e ogni garanzia costituzionale, l'Assemblea nazionale democraticamente eletta per affidare i poteri legislativi a un organo di giustizia controllato da lui stesso. Possiamo metterli sullo stesso piano? No, non possiamo farlo. Possiamo fidarci di un presidente come Maduro quale garante delle elezioni democratiche? Possiamo fidarci di un Presidente, eletto con elezioni farsa, che adesso chiede le elezioni dell'unico organo che è legittimamente rappresentante della volontà popolare e cioè l'Assemblea nazionale? Non possiamo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg66">Che l'Italia venga superata da tutti gli organi, dagli organismi dell'Unione europea e da tanti altri Paesi; che l'Italia, con tanti cittadini italiani (200.000 con la cittadinanza italiana) che vivono lì (alcuni iscritti all'AIRE e altri no) e che in Venezuela ha forse un paio di milioni di cittadini di origine italiana, non si schieri quando i nostri concittadini ce lo chiedono (lo chiedono ai nostri rappresentanti, quando riescono ad andare in Venezuela) fa davvero cadere le braccia e ci fa dire che questo non è il Governo che rappresenta davvero gli italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg67">Perché ha aspettato così a lungo, signor Ministro? Ma il peggio è che noi di Forza Italia e tutta l'opposizione avevamo chiesto che, quando lei fosse venuto (e avremmo voluto che venisse molto prima), le sue fossero comunicazioni, cioè che il Senato potesse votare. La maggioranza l'ha impedito e il perché lo capiamo dalla posizione che lei ha illustrato, perché votare vuol dire prendere posizioni chiare e non stare nell'ambiguità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e Aut (SVP-PATT, UV) e dei senatori Ferrari e De Bertoldi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg68">Da quello che abbiamo ascoltato - per la verità, più da quanto abbiamo sentito fuori dal Parlamento che da quanto abbiamo sentito in questa sede - in quest'Assemblea ci dovrebbe essere una vasta maggioranza favorevole al riconoscimento di Juan Guaidó e alla richiesta che sotto la sua Presidenza si arrivi a elezioni democratiche in Venezuela. Tuttavia ci viene impedito di votare. Dico che ci sarebbe una vasta maggioranza perché il ministro Salvini è stato piuttosto chiaro. Viene, però, impedito di votare, un po' come in Venezuela.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP, PD e Aut (SVP-PATT, UV)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg69">Non voglio dire che sia la stessa cosa, naturalmente, ma se accettiamo, come posizioni parimenti ammissibili, quella del presidente Maduro e quella del presidente Guaidó, se accettiamo che il Parlamento venga esautorato a beneficio di un organo nominato da un signore che è stato eletto tramite elezioni farsa, se lo accettiamo all'estero, c'è il rischio che un giorno lo si accetti anche nel nostro Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg70">Noi difendiamo la libertà dell'Italia, difendiamo la libertà dei venezuelani e soprattutto difendiamo la libertà, il benessere e la sopravvivenza dei nostri concittadini che vivono in Venezuela.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg71">In questi giorni il Parlamento europeo ha esaminato la questione; ieri il presidente del Parlamento europeo Antonio Tajani ha annunciato di essere in costante contatto telefonico col presidente Juan Guaidó; io avrei voluto ascoltare qualcosa del genere anche da lei o dal Presidente del Consiglio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg72">Evidentemente invece si scelgono altre vie. Domani verrà di nuovo affrontato il tema del Venezuela dal Parlamento europeo, che ha parecchie altre cose da fare, però ha trovato il tempo. Noi, in sei giorni, invece, riusciamo solo ad avere una comunicazione, senza poter esprimere un voto. Domani il Parlamento europeo voterà delle mozioni, tra le quali penso che passeranno sicuramente quelle del Partito Popolare Europeo, che chiedono esplicitamente il riconoscimento di Juan Guaidó come Presidente legittimo del Venezuela, in attesa di democratiche elezioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP e del senatore Steger</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg73">Il Parlamento europeo lo farà domani; noi non solo non lo facciamo, ma non abbiamo neanche il diritto di votare. Questo non va bene!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e Aut (SVP-PATT, UV)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg74">Questo ci copre di vergogna, in particolare di fronte ai nostri connazionali che soffrono in Venezuela e che hanno il coraggio di opporsi a un regime criminale, affamatore, complice dei trafficanti di droga</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP, PD, FdI e Aut (SVP-PATT, UV</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg75">e che poi dà a prezzo di favore il petrolio a una certa grande potenza asiatica. Questo è inaccettabile ed è vergognoso per il nostro Paese!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP, PD, FdI e Aut (SVP-PATT, UV). Molte congratulazioni</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Lucidi. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">LUCIDI (M5S)</note>
+            <u ana="#regular" who="#LucidiStefano" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u12">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg76">Signor Presidente, onorevoli colleghi, vorrei innanzi tutto ringraziare il signor Ministro per la sua costante disponibilità nel venire sempre in Parlamento ogni volta che lo richiediamo. Mi permetto di evidenziare che si tratta di una disponibilità costante e soprattutto seria, nel senso che gli permette di arrivare in Aula con una posizione politica certa, analitica e compiuta, checché ne dicano i nostri oppositori.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg77">Il MoVimento 5 Stelle sostiene la maggioranza e quindi l'azione di Governo; quel Governo del cambiamento che ha portato l'Italia come capofila in Europa - vorrei ribadirlo, come capofila</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg78">- nel promuovere la linea unitaria del dialogo, della riconciliazione nazionale nel Venezuela e della soluzione politica e diplomatica e soprattutto nel chiedere con forza all'Unione europea e all'Alto rappresentante dell'Unione per gli affari esteri e la politica di sicurezza di impegnarsi, finalmente e concretamente, in politica estera europea. Ci sembra, infatti, che finora non lo abbia mai fatto.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg79">Abbiamo appreso dalle sue parole che sulla crisi venezuelana il Governo italiano conferma di aver scelto una posizione responsabile, in linea anche con quanto espresso pochi giorni fa da Papa Francesco; credo che questo sia un punto da sottolineare.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg80">La crisi venezuelana, cari signori, non è una crisi dell'ultim'ora, come volete farci credere; è solo l'ennesima escalation di un contesto geopolitico caratterizzato da una condizione di instabilità interna che dura da almeno un ventennio. Nel 2015 questa crisi si è acuita enormemente, anche purtroppo grazie al calo del prezzo del petrolio; una parola che nessuno di voi però ha nominato in quest'Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg81">E allora lo faccio io: il prezzo del barile crollò nel 2015 da 100 dollari a circa 40 dollari; questo ovviamente ha condotto il Paese in un'inesorabile crisi, anche economica. È la verità.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg82">Il mio collega senatore Grassi, insieme al nostro ufficio legislativo, ci ha spiegato - e il Ministro l'ha confermato - come in realtà in questo momento, a fronte di una grande crisi sociale, ci sia anche una grave crisi costituzionale, che vede appunto la Carta costituzionale venezuelana forzata e interpretata da tutti gli attori a proprio favore, traendone rispettivamente legittimità. Proprio da questo fatto nascono le ultime novità di questi giorni.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg83">La mia collega senatrice Pacifico mi faceva invece notare che, a fronte di una grave instabilità politica e di scenari di politica interna instabili, come purtroppo spesso accade nei Paesi sudamericani, in realtà esistono dei sistemi elettorali rigidi, consolidati, efficienti e monitorati, come avviene in Venezuela. Speriamo pertanto che questi sistemi elettorali potranno essere usati a breve - come vi ha detto il Ministro - se il Paese finalmente deciderà di andare a nuove elezioni libere che consentano ai venezuelani di decidere il loro futuro, rifiutando pericolosi ultimatum e ingerenze internazionali...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dai Gruppi PD e FI-BP</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg84">FERRARI (PD). Cosa dici? Vergognati! LUCIDI (M5S). ...che, come ci insegna la storia, portano a destabilizzazioni, spargimenti di sangue e guerre, che altro non fanno se non creare altro caos e violenza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg85">Chiaramente noi riteniamo che il Governo italiano debba essere legato responsabilmente alle sorti dei nostri connazionali, ma non solo, quindi anche al popolo venezuelano (ricordo che ci sono 150.000 italiani residenti e oltre 2 milioni di italo-venezuelani), nel fornire - e questo il Ministro ce l'ha raccontato - un sostegno diplomatico e logistico ai nostri concittadini. Non da ultimo, non ho capito il motivo per cui rifiutate di accettare il fatto che abbiamo messo a disposizione fondi e medicinali per i nostri concittadini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg86">MALPEZZI (PD). Dovete dire da che parte state! PRESIDENTE. Senatrice Malpezzi. LUCIDI (M5S). Però vorrei citare un dato. Io ho fatto una verifica, oggi pomeriggio, e ho scoperto che noi abbiamo in politica estera 35 trattati internazionali con il Venezuela; si tratta di accordi firmati con il Venezuela e ratificati dal nostro Governo. Il più recente, senatore Casini, è del 2010, quindi di qualche anno fa, mentre il più datato è addirittura del 1861. Quindi io le dico che, invece di gridare all'urgenza, dovremmo farci tutti un esame di coscienza. Fatevi un esame di coscienza su quello che non avete fatto nelle scorse legislature per questo Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg87">È facile mettersi delle spillette colorate oggi; ma nella scorsa legislatura abbiamo fatto poco e niente per quel Paese.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD e del senatore Casini</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg88">PRESIDENTE. Senatore Casini, faccia il bravo. Senatore Lucidi, torniamo ad oggi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg89">Sì, torniamo ad oggi. Noi non stiamo sostenendo lo status quo in Venezuela; noi stiamo semplicemente dicendo quello che diciamo da sempre, cioè che rifiutiamo ogni tipo di ingerenza esterna, in virtù di quel principio di autodeterminazione che sempre abbiamo sostenuto.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg90">FERRARI (PD). C'è un regime! PRESIDENTE. Democrazia è saper parlare e saper ascoltare. Ci sono stati sei interventi consecutivi, con un'educazione che mi è sembrata strana in quest'Aula. Concludiamo in bellezza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg91">Signor Presidente, la democrazia è un bene...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg92">FERRARI (PD). È responsabilità! LUCIDI (M5S). E non mi sorprende il fatto che, anche quando abbiamo citato la nostra vicinanza di comuni intenti con la Grecia, siano tutti "esplosi". Guarda un po'; pensiamo un po' a chi l'ha inventata, la democrazia. Dovrebbero riflettere anche su questo, questi signori.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg93">Chiudo semplicemente ringraziando il Ministro e userò le parole del mio collega, senatore Ferrara, il quale mi suggerisce una cosa molto di buon senso (quello che secondo me a voi manca). La posizione dell'Italia è molto delicata: centinaia di migliaia di nostri connazionali rischiano di trovarsi coinvolti in un conflitto dagli esiti incerti. Questo ci impone ancora di più la massima responsabilità e moderazione, e non certo toni da ultrà, come abbiamo sentito in quest'Aula oggi e pochi giorni fa.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg94">MALPEZZI (PD). Ultrà? LUCIDI (M5S). Oggi noi non sappiamo cosa accadrà nel prossimo futuro in quel Paese, ma abbiamo in testa nomi e luoghi. Tutti li abbiamo in testa, questi nomi e luoghi, e sono: Afghanistan, Iraq, Libia, Siria e Ucraina, solo per citarne alcuni. In nessuno di questi casi precedenti la ricetta degli Stati che vengono posti a guardia dei principi di democrazia e prosperità ha ottenuto gli effetti desiderati. Ovunque, purtroppo, le ingerenze esterne hanno scatenato sanguinose guerre civili che durano da anni, devastazioni delle infrastrutture e delle città, distruzione delle istituzioni e dell'ordine che, seppur precario, permetteva una vita sicuramente migliore rispetto a quella che è venuta dopo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg95">URSO (FdI). Come Cuba e la Corea del Nord! LUCIDI (M5S). Sono persuaso che il popolo venezuelano saprà presto risollevarsi pacificamente da questa crisi economica e istituzionale, ma dobbiamo fare in modo...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg96">URSO (FdI). Ma che state dicendo? Anche in Corea del Nord allora c'è la pace. PRESIDENTE. Senatore Urso, stia tranquillo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Urso.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg97">Senatore Urso, per la seconda volta.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg98">LUCIDI (M5S). Ma dobbiamo fare in modo che ciò possa verificarsi, e che un eventuale cambio di regime, un cambio istituzionale, sia ordinato e pacifico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg99">MALPEZZI (PD). E allora vadano a votare. Elezioni! FERRARI (PD). È imbarazzante. PRESIDENTE. Colleghi, è ancora in corso la seduta. AIROLA (M5S). State zitti! Basta!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg100">PRESIDENTE. Senatore Airola, per favore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u13">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg101">Dichiaro chiusa la discussione sull'informativa del Ministro degli affari esteri e della cooperazione internazionale, che ringrazio per la disponibilità.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u14">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg102">Comunico che, previi accordi intercorsi fra i Capigruppo, la seduta di martedì 5 febbraio avrà inizio alle ore 16,30 e non alle 9,30.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">PIRRO (M5S)</note>
+            <u ana="#regular" who="#PirroElisa" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg103">Signor Presidente, gentili colleghe e colleghi, questa sera vorrei portare all'attenzione di questa Assemblea una questione inerente la sanità. Penserete che mi riferisca a qualche Regione del Sud, ma vi sbagliate: anche al Nord ci sono problemi, o ci potrebbero essere, per scelte scellerate. In questo caso mi riferisco al Piemonte, che solo di recente è uscito da un commissariamento della sanità. Nonostante i problemi che ci sono (nei giorni scorsi molte notizie parlavano di Pronto soccorso sovraffollati e pazienti costretti in barella per giorni), abbiamo però delle eccellenze riconosciute a livello non solo nazionale, ma europeo. Mi riferisco al polo materno-infantile del Sant'Anna e dell'ospedale Regina Margherita, attualmente confluiti nell'azienda unica della Città della salute con le Molinette, ed altri presidi della città di Torino. Ebbene, l'attuale governo regionale ha previsto di ricollocare tutte le strutture presso il futuro Parco della salute, che intende realizzare nell'area del Lingotto. Potrebbe anche essere una buona idea costruire una nuova struttura con degli edifici moderni e sicuri dove allocare il meglio della sanità torinese, se non fosse che negli anni questo progetto ha visto scendere il numero dei posti letto complessivi ed in particolare quelli dell'area materno-infantile, che passerebbero dagli attuali 656 a 284, con una riduzione superiore al 55 per cento. È inaccettabile pensare che tra qualche anno i cittadini torinesi debbano trovarsi nella condizione di non poter far nascere i propri figli nella loro città o che, una volta nati, debbano portarli altrove per ricevere cure indispensabili. Dopo aver assistito, negli ultimi anni, alla chiusura di ospedali e punti nascita, ora il Partito Democratico piemontese si appresta ad infliggere un ennesimo colpo alla sanità pubblica regionale, ma noi non ci stiamo. Il MoVimento 5 Stelle si è sempre opposto a questa politica distruttiva e continuerà a farlo. Per questo segnalo a tutti i torinesi, e non solo a loro, che sono in corso iniziative per manifestare chiaramente al governatore Chiamparino e a tutto il PD la contrarietà a questo progetto devastante ed in particolare l'invito, questo sabato alle 15, in Piazza Castello alla manifestazione «Un fiocco per il Regina Margherita e il Sant'Anna» perché le eccellenze vanno difese, potenziate e non smantellate.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PELLEGRINI Marco (M5S)</note>
+            <u ana="#regular" who="#PellegriniMarco" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u16">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg104">Signor Presidente, colleghe e colleghi, dall'inizio della legislatura prendo periodicamente la parola per denunciare ed evidenziare, purtroppo, fatti criminosi di matrice mafiosa che avvengono a Foggia e nella sua provincia, dove opera da decenni quella che ormai è nota ovunque come la quarta mafia italiana. È una mafia feroce che ha un controllo pervicace del territorio e che incute un profondo timore tra i cittadini e gli operatori economici. Questo clima di vero e proprio terrore è finalizzato a perpetrare traffici di stupefacenti e di armi, nonché ad assoggettare gli operatori economici alle estorsioni, oltre ad altri delitti. Negli ultimi mesi, le indagini della magistratura e delle Forze dell'ordine hanno portato all'arresto di numerosi e apicali esponenti dei clan della città capoluogo, oltre ad altri arresti che hanno colpito i clan di San Severo e di Manfredonia. Ma ciononostante, o forse anche in conseguenza di questi arresti e quindi del conseguente vuoto di potere criminale, si sono verificati in queste ultime settimane ben sette attentati dinamitardi ai danni di attività commerciali, di cui ben tre negli ultimi sei giorni e l'ultimo la notte passata. La volontà criminale è chiara: prostrare psicologicamente la cittadinanza, incutere il terrore tra i commercianti al fine di poterli taglieggiare comodamente. Questi episodi fanno seguito a una lunga serie di bombe che volevano intimidire anche i Carabinieri, perché vi ricordo che ci sono stati nei mesi scorsi degli attentati a due carabinieri, uno a Cerignola e uno a Corato, o anche a dirigenti comunali: vi ricordo quello ai danni di un dirigente di Monte Sant'Angelo che è un Comune che era stato sciolto per mafia ed era tornato al voto. In questo momento stanno operando le commissioni di accesso a Manfredonia e a Cerignola per verificare eventuali infiltrazioni mafiose in queste amministrazioni. La situazione, come ho cercato di spiegarvi, è gravissima e credo sia arrivato il momento per lo Stato di mettere in campo tutti i presidi e anche gli uomini necessari a contrastare questa mafia feroce. È necessario, a nostro giudizio, istituire al più presto una sezione di corte d'appello a Foggia e della DDA e a questo scopo il MoVimento 5 Stelle ha presentato un disegno di legge di cui sono primo firmatario. È altresì necessario istituire una sezione dislocata della DIA, la direzione investigativa antimafia, come il MoVimento 5 Stelle chiede sin dal gennaio del 2016. Concludo facendo appello al Ministro dell'interno, al Governo e a tutte le forze politiche presenti nel Parlamento: chiedo a tutti voi di prendere atto di questa situazione gravissima e di concorrere all'adozione di tutti i provvedimenti del caso. Ogni giorno che passa è un giorno perso nel contrasto alle mafie, a queste feroci mafie foggiane, e ogni giorno che passa senza agire è un favore ai criminali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Buccarella.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PIARULLI (M5S)</note>
+            <u ana="#regular" who="#PiarulliAngelaAnnaBruna" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg105">Signor Presidente, onorevoli colleghi, voglio rinnovare l'invito a prestare attenzione alle tematiche dell'agricoltura pugliese, in particolare al tema delle gelate di fine febbraio-inizio marzo che hanno colpito la Puglia. È una problematica ancora attuale perché il relativo emendamento presentato da me e da altri parlamentari pugliesi al decreto semplificazioni è stato dichiarato inammissibile per mancata attinenza all'oggetto del decreto stesso. Sono rammaricata per gli agricoltori, che rappresentano una categoria di lavoratori silenziosa, elemento portante dell'economia pugliese. Ferme restando le presunte responsabilità addebitabili alla Regione Puglia, occorre comunque trovare soluzioni alternative al fine di ristorarli dai danni subiti in tempi brevi, essendo stati danneggiati circa 90.000 ettari di aree agricole ubicate nelle province di Bari, Barletta, Andria, Trani e Foggia. Il settore oleario, nell'anno 2018, ha perso circa 117 milioni di euro di produzione lorda vendibile, con il conseguente degrado delle infrastrutture connesse a tale attività. Riconoscendo pertanto la sensibilità del Presidente del Senato, del ministro Centinaio e del presidente del Consiglio Conte, chiedo un autorevole intervento, al fine di superare definitivamente questa gravosa questione, a sostegno degli agricoltori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Buccarella.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MIRABELLI (PD)</note>
+            <u ana="#regular" who="#MirabelliFranco" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg106">Signor Presidente, intervengo per parlare della mia città, Milano. Qualche giorno fa, il ministro Salvini vi si è recato e pensavo che, a quattro mesi dagli impegni presi, si sarebbe occupato di spiegare come intenda intervenire in via Bolla, dove c'è una situazione di degrado e illegalità ormai inaccettabile. Il Ministro si era impegnato a fare alcune cose, ma non sta succedendo niente e siamo arrivati al punto che i cittadini di quel quartiere hanno fatto un esposto per chiedere il sequestro di un intero condominio occupato da molte attività illegali e occupanti abusivi. Oppure, visto che in quest'Aula non abbiamo ancora avuto la possibilità di ricevere una risposta all'interrogazione presentata in merito - e ne approfitto per segnalarglielo, signor Presidente - speravo che, venendo, ci avrebbe finalmente spiegato cosa intenda fare per compiere l'ultimo passo - che purtroppo spetta alle Forze di polizia - dell'intervento necessario a risanare la zona di Rogoredo, in cui si trova quel famoso boschetto che è diventato la centrale di spaccio di tutta la Regione Lombardia. Servono le Forze dell'ordine per liberarlo definitivamente, perché ormai il Comune di Milano si è impegnato a risanare tutto l'ambiente, insieme a Italia Nostra, ma il Ministro non ne ha parlato. Il Ministro invece è venuto ed ha parlato dell'aumento del biglietto dell'ATM proposto dal sindaco di Milano, tra l'altro facendo riferimento a una cosa di cui evidentemente non è a conoscenza. Non sa infatti che i biglietti rappresentano una tariffa che serve a coprire i costi di un sistema di trasporto pubblico che a Milano mi pare funzioni bene, né che i pendolari non sarebbero coinvolti da tale aumento dato che gli abbonamenti rimarrebbero a costo invariato o che ci sarebbe anche la possibilità di un biglietto unico per andare oltre i confini della città, dove oggi costa di più viaggiare. Insomma, forse sarebbe meglio se il Ministro dell'interno, prima o poi, decidesse di svolgere il proprio ruolo e, invece di occuparsi di porti, ATM e tariffe, lasciasse fare a ognuno il proprio lavoro e si occupasse d'intervenire per garantire la sicurezza ai cittadini, in questo caso milanesi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi delle senatrici Malpezzi e Valente.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg107">So che sta sfuggendo tra una conferenza stampa e l'altra, ma questo è il compito del Ministro dell'interno: questo è il suo lavoro, se vuole davvero garantire la sicurezza ai cittadini; se invece vuole usare il tema in modo esclusivamente propagandistico, sappia che d'ora in avanti ogni volta saremo qui a ricordargli i problemi di sicurezza che ha promesso di impegnarsi a risolvere sul territorio. Non sarebbe difficile farlo, basterebbe un po' di volontà da parte sua, ma lui non li risolve.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u19">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg108">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di martedì 5 febbraio 2019</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.u20">
+               <seg xml:id="ParlaMint-IT_2019-01-30-LEG18-Sed-86.seg109">Il Senato tornerà a riunirsi in seduta pubblica martedì 5 febbraio, alle ore 16,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 19,42).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

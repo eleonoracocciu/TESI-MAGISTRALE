@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 709 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 709 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 709, giorno (2016-10-26)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 709, Day (2016-10-26)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="709-upper">709 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="176" unit="speeches" xml:lang="it">176 discorsi</measure>
+            <measure quantity="176" unit="speeches" xml:lang="en">176 speeches</measure>
+            <measure quantity="17136" unit="words" xml:lang="it">17.136 parole</measure>
+            <measure quantity="17136" unit="words" xml:lang="en">17,136 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0992823</idno>
+               <date when="2016-10-26">26.10.2016</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="18"/>
+               <tagUsage gi="head" occurs="12"/>
+               <tagUsage gi="note" occurs="165"/>
+               <tagUsage gi="seg" occurs="176"/>
+               <tagUsage gi="u" occurs="73"/>
+               <tagUsage gi="vocal" occurs="6"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="45"/>
+               <tagUsage gi="incident" occurs="2"/>
+               <tagUsage gi="desc" occurs="53"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2016-10-26">26.10.2016</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza della vice presidente LANZILLOTTA</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u1">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg1">La seduta è aperta (ore 9,30). Si dia lettura del processo verbale. AMATI, segretario, dà lettura del processo verbale della seduta antimeridiana del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">COMAROLI (LN-Aut)</note>
+            <u ana="#regular" who="#ComaroliSilvanaAndreina" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg2">Signora Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Verifica del numero legale</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u3">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato non è in numero legale. Sospendo pertanto la seduta fino alle ore 9,54. (La seduta, sospesa alle ore 9,34, è ripresa alle ore 9,54).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ripresa della discussione sul processo verbale</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u4">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg4">Passiamo nuovamente alla votazione del processo verbale.</seg>
+            </u>
+            <note type="speaker">COMAROLI (LN-Aut)</note>
+            <u ana="#regular" who="#ComaroliSilvanaAndreina" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u5">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg5">Signora Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u6">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg6">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u7">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg7">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u8">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg8">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg9">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 9,55).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="speaker">BULGARELLI (M5S)</note>
+            <u ana="#regular" who="#BulgarelliElisa" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u9">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg10">Signora Presidente, intervengo sulla questione della convocazione della Conferenza dei Capigruppo. Ho visto che è stata indetta per inserire in calendario il disegno di legge di ratifica dell'Accordo di Parigi. La questione è molto semplice.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg11">PRESIDENTE. In realtà, al momento la Conferenza è stata convocata senza una motivazione precisa.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg12">Così non risulta. Comunque, è inutile che continuiate a programmare i lavori d'Assemblea senza tenere conto dei lavori delle Commissioni, in particolare della Commissione bilancio (e poi a posteriori dire che è colpa della Commissione bilancio se i lavori vengono rallentati). Le Commissioni non possono lavorare senza i pareri della Commissione bilancio, non perché lo dico io ma perché avete voluto inserire il pareggio di bilancio in Costituzione. È allora inutile che inserite dei provvedimenti nel calendario dell'Assemblea senza tener conto della tempistica dei lavori della Commissione bilancio. È ovvio che non riusciamo a stare dietro a tutto. PRESIDENTE. In genere se ne tiene conto nel corso della Conferenza dei Capigruppo. Vedremo di fare il possibile.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg13">Signora Presidente, intervengo per sottoporre al Presidente del Senato, quale potenziale vicario del Presidente della Repubblica, un quesito. Su «la Repubblica» di domenica, Scalfari riferisce nel suo editoriale di un colloquio privato in cui il presidente della Repubblica Mattarella gli avrebbe confidato il proprio sì alle riforme costituzionali. Io ho atteso qualche giorno per sottoporre il quesito al Presidente del Senato, perché mi sarei augurato che prontamente il Quirinale smentisse questa notizia. Così non è avvenuto. La prego quindi di rappresentare la situazione al Presidente del Senato - cosa che farò anche io, oggi, nella Conferenza dei Capigruppo - al fine di verificare se la notizia sia attendibile e fondata e di sollecitare una smentita da parte del Presidente della Repubblica. PRESIDENTE. Senatore Calderoli, come lei sa la questione in oggetto non è materia di questa Assemblea. CALDEROLI (LN-Aut). Il presidente Grasso ha sempre assunto una posizione terza nelle conferenze stampa e nei comunicati e la stessa cosa deve fare il presidente Mattarella.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi LN-Aut e M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Seguito della discussione delle mozioni 1-00555 e 1-00648 - Somministrazione farmaci</head>
+            <note type="time">(ore 9,58)</note>
+            <note type="document">Approvazione delle mozioni nn. 555 (testo 2) e 648 (testo 2)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u11">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg14">L'ordine del giorno reca il seguito della discussione delle mozioni 1-00555 , presentata dal senatore D'Ambrosio Lettieri e da altri senatori, e 1-00648 , presentata dal senatore Orellana e da altri senatori, sulla somministrazione dei farmaci. Ricordo che nella seduta pomeridiana di ieri sono state illustrate le mozioni e ha avuto luogo la discussione. Ha facoltà di parlare la rappresentante del Governo, alla quale chiedo di esprimere il parere sulle mozioni presentate.</seg>
+            </u>
+            <note type="speaker">D'ONGHIA</note>
+            <note type="role">sottosegretario di Stato per l'istruzione, l'università e la ricerca</note>
+            <u ana="#regular" who="#DOnghiaAngela" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u12">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg15">Signora Presidente, sulla mozione 1-00555 esprimo parere favorevole ai punti 1) e 2) del dispositivo. Sul punto 3) il parere è favorevole con una riformulazione: va eliminato il riferimento al decreto direttoriale. Quindi, va soppresso il periodo dalle parole «secondo quanto previsto» fino alle parole «n. 14». Il resto rimane uguale.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg16">Chiedo al senatore D'Ambrosio Lettieri di accettare la riformulazione proposta.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u13">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg17">Senatore D'Ambrosio Lettieri, accetta la riformulazione? D'AMBROSIO LETTIERI (CoR). Sì, signora Presidente, la accetto.</seg>
+            </u>
+            <note type="speaker">D'ONGHIA</note>
+            <note type="role">sottosegretario di Stato per l'istruzione, l'università e la ricerca</note>
+            <u ana="#regular" who="#DOnghiaAngela" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u14">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg18">Signora Presidente, sulla mozione 1-00648 esprimo parere favorevole al punto 1) del dispositivo. Sul punto 2), lettera a), il parere è favorevole a condizione che siano soppresse le parole «tramite personale infermieristico» e aggiunte, alla fine della lettera a), le parole: «tra i soggetti interessati e competenti». La lettera b) va poi soppressa e sulla lettera c) esprimo parere favorevole, come per tutti i punti successivi del dispositivo. Chiedo al senatore Orellana di accettare tale riformulazione della mozione a sua prima firma.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u15">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg19">Senatore Orellana, accetta tale riformulazione? ORELLANA (Aut (SVP, UV, PATT, UPT)-PSI-MAIE). Sì, signora Presidente, la accetto. PRESIDENTE.</seg>
+            </u>
+            <note type="speaker">D'AMBROSIO LETTIERI (CoR)</note>
+            <u ana="#regular" who="#DAmbrosioLettieriLuigi" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u16">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg20">Signora Presidente, colleghe, colleghi, signor Sottosegretario, la discussione che si è svolta ieri, oltre all'illustrazione delle mozioni, compresa quella puntuale e competente che ha fatto il collega Orellana, induce a fare due riflessioni. La prima riflessione è che vi è un problema di grave criticità all'interno dei percorsi che garantiscono la continuità assistenziale sul versante della garanzia della somministrazione dei farmaci nelle scuole. È un problema che con sfumature differenti, finanche quelle che con toni precisi e puntuali dell'attualità ha presentato la collega Emilia De Biasi con tono appassionato, dimostra che in effetti c'è un grave vulnus e che la continuità assistenziale nella scuola non trova adeguati livelli di risposta, di garanzia e di appropriatezza per una domanda elementare e basilare che lì si rappresenta con riferimento ad una platea di soggetti, proprio i bambini, che sono affetti, come emerso dal comitato paritetico, in particolare da tre patologie: dal diabete, dall'asma e dall'epilessia. È un problema che va risolto. La seconda riflessione è che non ho sentito voci dissonanti in merito alla valutazione delle varie circostanze, al racconto, se mi si consente, che è stato fatto da tutti i colleghi intervenuti - e ringrazio anche coloro i quali hanno espresso il proprio consenso sottoscrivendo la mia mozione - nel rappresentare con sfumature differenti l'esistenza del problema. Vi è quindi un problema e vi è l'unanime volontà, signor Sottosegretario, da parte di quest'Assemblea, di porvi rimedio e di farlo con delle richieste che vengono affrontate. Ho accettato la riformulazione che lei, Sottosegretario, ha chiesto; credo che sia di natura meramente formale e non alteri in termini sostanziali il senso della mia richiesta. Voterò altresì a favore della mozione del collega Orellana, che ha il merito di recuperare al punto tre del suo dispositivo uno degli aspetti importanti che il Governo deve affrontare con riferimento alla necessità di garantire l'accesso ai presidi inseriti nell'ambito dei medical device che consentono un più rapido ed efficace accertamento dei riferimenti glicemici. Credo quindi che l'accoglimento di queste mozioni pacifichi il conflitto che si è creato e la frattura che si è evidenziata anche nel dibattito dell'Assemblea con gli articoli 32, 33 e 34 della Costituzione, proprio perché il diritto alla salute deve necessariamente trovare una migliore e più efficace declinazione dei principi costituzionali con riferimento al diritto alla formazione e allo studio. Credo che con questi presupposti il dibattito abbia oggi consentito di consegnare, con il voto favorevole che ci sarà, un impegno che il Governo assume e che è destinato a consentire il conseguimento degli auspicati risultati che saranno risolutivi delle criticità evidenziate. Ciò a beneficio della nostra sanità, ma soprattutto dei diritti della persona, dei bambini e delle loro famiglie che recuperano una condizione di fiducia nelle istituzioni e anche di certezza nel fatto che un bambino a scuola non sia mai in una condizione di abbandono, ma trovi anche nel personale scolastico - attraverso quella generosa vocazione al servizio che noi nella scuola abbiamo sempre considerato fondamentale e che apprezziamo come gesto di vicinanza e di disponibilità del corpo docente e non solo - un presupposto fondamentale per conseguire i risultati che noi tutti abbiamo individuato come necessari per dare una risposta definitiva al problema. Con questi presupposti annuncio il voto favorevole del Gruppo Conservatori e Riformisti alle due mozioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo CoR.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BARANI (AL-A)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u17">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg21">Signora Presidente, annuncio il voto favorevole del nostro Gruppo a tutte e due le mozioni. Già ieri ho avuto modo di dire che forse sarebbe stato meglio trovare una soluzione per una mozione unica. Per parte nostra, invitiamo il Sottosegretario a intervenire. Ci rendiamo conto delle difficoltà: stiamo dicendo che dobbiamo formare il personale docente (e non) a fare gli infermieri e i medici. Mi metto nei loro panni quando dovranno iniettare dell'insulina; mi auguro e prego il Signore che non sbaglino il dosaggio: tra «unità» e «cc» basta sbagliare un'unità di misura che bisogna dargli anche l'immunità contro l'accusa di danno, se non di peggio. La questione è molto seria, forse rientra piuttosto nella medicina scolastica. Forse è più opportuno che siano medici e infermieri ad afferire alle scuole, e non investire solo il personale docente oppure lasciare tutto all'autosomministrazione, come diciamo nelle mozioni, o alla venuta dei genitori in quelle scuole interessate (sono oltre 2.000 che hanno avuto questi problemi). Faccio un'ultima considerazione su un punto che non abbiamo citato, ma che voglio rimarcare e continuerò a farlo fino alla fine della legislatura: il costo. Siamo in pediatria: abbiamo un'AIFA con costi del farmaco più alti d'Europa e i familiari non riescono a curare i loro figli per mancanza di risorse. Ho parlato ieri di «banda bassotti» e lo ripeto: bisogna calmierare l'AIFA.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi AL-A e CoR e del senatore Zuffada.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u18">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg22">Signora Presidente, ribadisco il voto favorevole del Gruppo Lega Nord Autonomie. Sono state avanzate anche giuste obiezioni, che, tuttavia, riteniamo superabili. Nel corso della discussione si è detto che indubbiamente servirà un percorso di formazione, poiché il docente non è personale sanitario. Deve sicuramente rimanere la volontarietà da parte dei docenti di assumersi un carico di responsabilità non ordinaria, che non gli compete, ma la cosa è assolutamente fattibile. Potrebbe anche esserci un ausilio di personale idoneo, specifico per questo tipo di operazioni. La nota di fondo, però, è consentire a ragazzi del tutto normali - abbiamo visto che i numeri sono importanti: 6.000 ragazzi - e in grado di seguire un corso di formazione scolastico ordinario - impediti soltanto da una patologia che li obbliga a seguire terapie anche in orario scolastico - di poterlo fare senza problemi. Le due cose non sono impossibili o incompatibili. Auspichiamo che si possa permettere a tutti i ragazzi italiani di esercitare veramente il loro diritto allo studio. Avremmo, poi, voluto che nella mozione ci fosse una qualche perentorietà, operatività, nel senso che, non fissando un termine entro il quale il comitato paritetico debba arrivare a una conclusione dei lavori - per poi dare linee guida a tutti i territori, affinché tutte le Regioni seguano determinati protocolli - non vorremmo che questa sia stata un'interessante discussione, uno scambiarci opinioni e manifestare grandi e importanti principi che però alla fine resteranno sulla carta. Speriamo che, alla fine di questo dibattito, la questione venga definita e concretizzata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e del senatore Orellana.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">LANIECE (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#LanieceAlbert" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u19">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg23">Signora Presidente, la discussione svolta ieri ci ha permesso di approfondire in modo importante la problematica riguardante il diritto allo studio e la salute di ragazzi e bambini affetti da patologie croniche. Si tratta di un argomento molto delicato e difficile. Nella mia esperienza di diabetologo e medico di famiglia ho perfettamente chiaro cosa vuol dire gestire ragazzini e bambini diabetici, in particolare durante le ore di lezione. La discussione ci ha permesso di ricordare l'esistenza di un comitato paritetico nazionale che ha prodotto linee guida già nel 2005. Non a caso, ad oggi tali linee guida non sono ancora state pubblicate perché si tratta di una questione estremamente delicata e difficile. Capisco la richiesta del sottosegretario D'Onghia di andare a mitigare i punti indicati nelle mozioni come meritevoli di indicazioni al Governo per essere attuate. La situazione è infatti difficile quando si parla di microinfusori, che non sono facilmente gestibili e hanno un costo importante, o quando si parla di personale sanitario nelle scuole, di infermieri e di medici, che rappresenta una questione non facile dal punto di vista sia economico che gestionale. Per carità, se si vogliono istituire dei presidi sanitari nelle grandi scuole, io sono il più contento perché dovremmo poi impiegarli soprattutto per fare prevenzione ed educazione sanitaria a tutti i ragazzi e non solo a quelli più sfortunati. Alla luce di tali considerazioni, annuncio il voto favorevole del Gruppo Per Le Autonomie-PSI-MAIE a tutte e due le mozioni presentate.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Aut (SVP, UV, PATT, UPT)-PSI-MAIE e della senatrice Bignami.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PETRAGLIA (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#PetragliaAlessia" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u20">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg24">Signora Presidente, desidero ringraziare i senatori che hanno presentato le due mozioni in esame, perché abbiamo così avuto modo di affrontare il tema - come è stato detto da tutti, particolarmente delicato - di garantire il diritto allo studio e, nello stesso tempo, il diritto sulla salute ai bambini e alle bambine, ai ragazzi e alle ragazze affetti da patologie croniche (in maniera particolare, in questo caso, da diabete). Proprio perché si tratta di conciliare diritto alla salute e diritto allo studio ci sarebbe piaciuto vedere in quest'Aula, oltre alla sottosegretaria D'Onghia, che ringraziamo, anche qualche rappresentante del Ministero della salute, in linea peraltro con tutti gli interventi fatti da molti senatori e senatrici membri della Commissione igiene e sanità. Dico questo perché il tema in questione riguarda sicuramente le campagne di prevenzione del diabete giovanile e l'educazione alimentare da fare nelle scuole. Il tema riguarda, per esempio, la grande battaglia che in Italia tantissime scuole stanno facendo per una maggiore attenzione ai menù e anche quella per rimuovere dai licei - prima o poi ce la faremo - le famose macchinette distributrici di cibi non adatti, non solo a chi è affetto da patologie come il diabete, ma forse, più in generale, proprio a nessuno. L'altro tema è quello di come garantire il diritto alla salute. Non si può pensare che a garantire la somministrazione dei farmaci siano gli insegnanti, i quali devono ovviamente ricevere una particolare formazione obbligatoria. Ci piacerebbe che questa formazione fosse a carico e a spese non degli insegnanti, bensì dello Stato (ricordo che la famosa formazione ai sensi della legge 13 luglio 2015, n. 107 è a carico degli insegnanti). Il tema è quello di quante risorse il sistema sanitario nazionale investe nella sanità territoriale, perché non si tratta di aprire dei presidi medici all'interno delle scuole, bensì di garantire, ad esempio, la figura dell'infermiere del territorio che garantisce il diritto allo studio e alla salute nelle scuole. Quindi il punto è quante risorse vengono dedicate dallo Stato alla sanità nazionale e soprattutto alla sanità deospedalizzata e quindi al territorio che in questi anni, in seguito ai tagli e alle scelte del Sistema sanitario nazionale e delle Regioni, purtroppo è stato fortemente penalizzato e continuerà ad esserlo anche con la vostra riforma costituzionale. Infatti, anche se ci avete raccontato che riporterete la sanità allo Stato per centralizzare i livelli e fare in modo che la sanità sia uguale per tutti, in realtà lascerete poi alle Regioni la programmazione dei servizi. Questo vuol dire che la Regione Toscana - scusate se utilizzo la regione dove vivo per fare un esempio - magari investirà nella sanità territoriale (e non lo sta facendo) per garantire l'infermiere nelle scuole mentre altre Regioni non lo faranno. Si tratta dunque di un tema serio che non riguarda solo il Ministero dell'istruzione, ma moltissimo la sanità e le scelte che si fanno. Oggi rafforzare la sanità sul territorio (sarebbe un discorso lunghissimo quindi scusatemi per la brevità) potrebbe aiutare anche a ridurre gli accessi agli ospedali di cui troppo spesso tutti noi ci lamentiamo, quando non sono necessari. Non si può pretendere di scaricare per un'ennesima volta sugli insegnanti un problema di carattere sociosanitario, perché stiamo parlando di due diritti che devono essere ugualmente garantiti ma con competenze totalmente diverse. Dichiaro quindi il voto di astensione del mio Gruppo sulla mozione del senatore D'Ambrosio Lettieri, mentre il voto sarà favorevole sulla mozione del senatore Orellana.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SI-SEL e del senatore Orellana.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">AIELLO (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#AielloPiero" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u21">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg25">Signora Presidente, ieri, nel corso della discussione generale sulle mozioni, tra le varie criticità che sono emerse ne abbiamo riscontrata una che, secondo noi, merita anche oggi una piccola precisazione ed è quella relativa al fatto che sia nelle scuole elementari che nelle scuole medie molte volte vengono richiesti interventi d'urgenza, così com'è stato prima sottolineato, per alcune patologie importanti come l'epilessia o le reazioni allergiche che provocano asma bronchiale, ma soprattutto sono stati chiesti interventi d'urgenza per soggetti in tenera età affetti da diabete. Vede, signor Sottosegretario, questa patologia, come già abbiamo avuto modo di sottolineare quando abbiamo discusso sull'obesità, secondo noi anche in questo provvedimento meriterebbe particolare attenzione per il semplice fatto che ormai è noto a tutti, non solo per le direttive dell'Organizzazione mondiale della sanità ma anche per le direttive delle organizzazioni medico-scientifiche, da cui emerge che l'obesità infantile costituisce un quadro prodromico importante, pericolosissimo per quanto riguarda l'obesità in età adulta e quindi con costi enormi per il Sistema sanitario nazionale. Per questo riteniamo che gli interventi di prevenzione siano importanti, soprattutto nel caso di specie, e che debbano partire dalla riorganizzazione e dalla rimodulazione del sistema della prevenzione, soprattutto nelle scuole. Amo citare ancora una volta l'esperienza passata che introduceva nei dipartimenti di prevenzione le unità operative di educazione sanitaria e soprattutto di medicina scolastica che puntualmente, poi, nel corso delle varie riorganizzazioni del sistema sanitario nazionale sono state cambiate e sono state stravolte, con una manchevolezza secondo noi importante relativa soprattutto all'assenza della medicina scolastica. Su questo punto, nel dichiarare il nostro voto favorevole sulle mozioni al nostro esame - soprattutto sulla mozione del senatore D'Ambrosio Lettieri la cui proposta di riformulazione del Governo è stata accettata - immaginiamo un percorso che possa finalmente rimodulare l'organizzazione dei dipartimenti di prevenzione, proprio in virtù del fatto che molte risorse potrebbero essere risparmiate e reinvestite per migliorare l'organizzazione del sistema sanitario ma anche la riorganizzazione dei rapporti tra sistema scolastico e sistema sanitario.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo AP (NCD-UDC) e del senatore Di Giacomo.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u22">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg26">Signora Presidente, desidero anche io ringraziare il collega D'Ambrosio Lettieri per averci sottoposto la sua proposta di mozione in Commissione, che ho subito sottoscritto, perché ritengo che quello al nostro esame sia un problema davvero importante, non solo per il numero degli allievi, ma anche per il numero delle scuole coinvolte. Credo dunque che un buon lavoro sia già stato fatto, tanto che le linee guida per la somministrazione dei farmaci a scuola sono già state condivise dall'Autorità garante per l'infanzia e l'adolescenza. Un buon lavoro è già stato fatto e quindi chiedo che il Governo si faccia davvero carico della soluzione del problema, ovviamente anche diversificandola in base al tipo di strutture scolastiche coinvolte. Nel nostro Paese ci sono infatti sia delle piccole scuole, che hanno un numero limitato di ragazzi, così come ci sono dei grandi centri scolastici: il trattamento che si potrà fare in una grande scuola, dotata di un presidio interno, potrà essere di un certo tipo e anche comprensivo di tutta la parte relativa all'educazione sanitaria, mentre nelle piccole scuole ciò non sarà possibile. Voglio anche fare presente che i nostri insegnanti hanno già potuto frequentare diversi corsi di formazione, come quelli di primo soccorso del 118 e per l'utilizzo di strumentazioni abbastanza complesse, come i defibrillatori. Credo che il personale sia qualificato e che andrebbe ulteriormente qualificato, anche in virtù del fatto che oggi ci sono dei dispositivi un po' costosi, ma che sono anche particolarmente sicuri. Ci sono infatti strumenti preconfezionati, contenenti già l'esatta quantità di insulina necessaria, per cui l'insegnante non dovrà valutare la quantità da inserire, ma dovrà solo fare un'iniezione sottocute. Quindi, con un'opportuna educazione, a mio avviso si riusciranno a superare anche questi problemi. Annuncio dunque il voto favorevole del Gruppo su entrambe le mozioni, perché trattano un problema importante, che deve certamente trovare una soluzione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ZUFFADA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#ZuffadaSante" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u23">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg27">Signora Presidente, sono rimasto abbastanza sorpreso e preoccupato dalla discussione che si è svolta nella giornata di ieri e, soprattutto, sono preoccupato e sorpreso dalla mancata presenza in Aula del Ministro dell'istruzione, dell'università e della ricerca e del Ministro della salute.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII e della senatrice Bignami.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg28">Il metodo che seguono questi Ministri, abbastanza eterei nella loro presenza, è il seguente: si fanno merito degli onori quando devono andare a tagliare i nastri e cioè raccogliere gli applausi e, al contrario, scappano quando ci devono mettere la faccia. Questo è uno degli esempi.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg29">Il Governo sostiene che le riforme devono essere attuate e approvate per velocizzare il procedimento amministrativo e, soprattutto, le risposte ai cittadini. Ebbene, in una seduta di ieri si è detto che nel 2005 sono state emanate delle linee guida e che il Governo, allora, fece la propria parte. Dopodiché, nell'ottobre del 2012 (la medicina subisce infatti modificazioni notevoli), venne istituito un Comitato paritetico nazionale per le malattie croniche e la somministrazione dei farmaci a scuola; ciò si è reso necessario per superare il fatto che la somministrazione nelle scuole venga affidata alla buona volontà del personale scolastico e, soprattutto, all'impegno delle famiglie, i cui membri spesso per assicurare questo tipo di trattamento devono prendere lunghi periodi di aspettativa e, in alcuni casi, lasciare il posto di lavoro. Dunque, lo Stato deve farsi carico di tutto questo. Ora, non si capisce però perché, nel 2016, malgrado questo Comitato paritetico abbia concluso i propri lavori e malgrado le associazioni di categoria, sia delle famiglie che del corpo scolastico, abbiano sollecitato l'approvazione di queste linee guida, il Governo non abbia ancora approvato e fatto pubblicare le linee guida fondamentali, lasciando ancora una volta le famiglie e il personale a dover rispondere a queste esigenze.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg30">Ha ragione la senatrice Petraglia a dire che tutto questo comporta anche l'impiego di risorse economiche. È vero, questo intervento richiede anche l'aumento delle risorse economiche per la medicina scolastica. Non ci si può fare sempre portavoce della difesa del sistema sanitario nazionale, dell'universalità del sistema sanitario nazionale, per cui nessuno viene lasciato solo, e poi, al contrario, non mettere le risorse, come fa il Governo. Disporre di linee guida, infatti, vuol dire avere anche maggiore risorse. Questo è l'impegno pratico che il Governo dovrebbe assumere, e non le solite buone intenzioni delle scuole belle.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg31">Per queste motivazioni, il voto di Forza Italia sarà favorevole ad entrambe le mozioni perché, almeno, hanno manifestato la volontà di un superamento delle difficoltà, cosa che il Governo non fa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GRANAIOLA (PD)</note>
+            <u ana="#regular" who="#GranaiolaManuela" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u24">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg32">Signora Presidente, sono state presentate e discusse due mozioni che prendono lo spunto da uno stesso problema: entrambe pongono all'attenzione un grande problema che si trascina da anni, che molte Regioni hanno saputo risolvere da tempo, con ottimi risultati, ma per il quale in altre Regioni ancora tutto è lasciato indefinito. Si tratta dell'inserimento a scuola del bambino con il diabete di tipo 1 e della relativa gestione durante l'orario scolastico, problema che tocca aspetti come la somministrazione del farmaco indispensabile (ovvero l'insulina) e la somministrazione al bisogno del farmaco salvavita (il glucagone): evento, quest'ultimo, che in realtà si verifica molto raramente, in particolare durante l'orario scolastico. Non dimentichiamo poi che tale questione tocca anche aspetti psicologici, quelli propri di una patologia come il diabete di tipo 1 che, tipicamente, non si vede, se non nel momento della misurazione della glicemia e nella somministrazione dell'insulina. Si tratta di un problema, dunque, che non si esaurisce individuando tout court chi debba somministrare un farmaco, ma che richiede l'elaborazione di un percorso che tenga conto anche dei risvolti psicologici propri dei bambini, indipendentemente dalla patologia di cui sono portatori. (</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg33">PRESIDENTE. Colleghi, vi invito a ridurre il brusio in Aula così da lasciar proseguire la senatrice Granaiola.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg34">Grazie, signora Presidente. Si tratta di un problema che interessa tanti bambini e, quindi, di un problema che interessa a monte anche le loro famiglie, già provate da una diagnosi di esordio di diabete, che all'inizio porta a nascondere il proprio figlio dietro ad un muro di numeri (quelli delle misurazioni della glicemia), che non ti fa dormire la notte, anche per pensare a come poter gestire il figlio anche durante l'affidamento alla scuola, districandosi con il lavoro, per chi ha la fortuna ancora di averne uno. Il ruolo della scuola è fondamentale per consegnare alla società un bambino o una bambina che diventano ogni giorno che passa un uomo o una donna; è fondamentale anche per rompere quel muro di ignoranza, di disinformazione e di paura che impedisce un sereno inserimento a scuola.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg35">Per i motivi sopraesposti il senatore D'Ambrosio Lettieri ed io, con la firma di ben ottanta senatori, abbiamo presentato una mozione. Gli impegni al Governo in essa contenuti li ha spiegati bene il senatore D'Ambrosio Lettieri, ma mi preme ricordarne uno.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg36">Si impegna il Governo a procedere quanto prima all'assunzione dell'atto definitivo delle linee guida, onde consentire il recepimento e l'attuazione delle stesse in via definitiva da parte dì tutte le Regioni.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg37">La demedicalizzazione della somministrazione è fondamentale per non far sentire il bambino diverso dagli altri e garantirgli la piena inclusione scolastica.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg38">Immaginiamo come possa sentirti un bambino se al momento della ricreazione, mentre tutti escono dalla classe, debba attendere l'infermiere per fare merenda. Immaginiamo come possa sentirsi un bambino a mensa se, mentre gli altri mangiano, ridono e scherzano, lui, dopo magari avere atteso sulla porta della scuola che si materializzasse all'orizzonte l'auto medica, vincitrice degli ingorghi dell'ora di punta, debba poi sedersi a tavola accanto ad un infermiere con la bilancina pesa-alimenti. Cosa gli resta di quel pasto al bambino? Il sistema sanitario ha a disposizione 10.000 infermieri che ogni giorno possano espletare questo servizio? Ma è questo quello che i genitori vogliono? È questo quello che ai bambini serve? Signora Presidente, nel chiederle di poter allegare il testo integrale della mia dichiarazione di voto al Resoconto della seduta odierna, vorrei ringraziare il sottosegretario D'Onghia per aver recepito le istanze contenute nelle due mozioni, che noi voteremo convintamente a seguito delle riformulazioni proposte dal Governo. Credo davvero che sia importante, per i motivi già esposti da tanti colleghi molto compiutamente, perché credo che non possiamo attendere un minuto di più. Le famiglie ce lo chiedono, le famiglie lo attendono e i bambini ne hanno assolutamente diritto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u25">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg39">La Presidenza l'autorizza in tal senso.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg40">Prima di passare alla votazione, avverto che, in linea con una prassi consolidata, le mozioni saranno poste ai voti secondo l'ordine di presentazione.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg41">Passiamo alla votazione della mozione n. 555 (testo 2).</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg42">SANTANGELO (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo della mozione n. 555 (testo 2), presentata dal senatore D'Ambrosio Lettieri e da altri senatori. (Segue la votazione). Il Senato approva. ( v. Allegato B ). Passiamo alla votazione della mozione n. 648 (testo 2). FAZZONE (FI-PdL XVII). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo della mozione n. 648 (testo 2), presentata dal senatore Orellana e da altri senatori. (Segue la votazione). Il Senato approva. ( v. Allegato B ).</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut e PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione, con modificazioni, del disegno di legge: (1892) Deputato MARIANI ed altri - Interventi per il sostegno della formazione e della ricerca nelle scienze geologiche</note>
+            <note type="time">10,33</note>
+            <note type="status">(Approvato dalla Camera dei deputati)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45579.htm</note>
+            <note type="time">(ore 10,33)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u26">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg43">L'ordine del giorno reca la discussione del disegno di legge n. 1892, già approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg44">La relazione è stata già stampata e distribuita. Chiedo alla relatrice se intende integrarla.</seg>
+            </u>
+            <note type="speaker">DI GIORGI</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u27">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg45">Signora Presidente, onorevoli colleghi, oggi esaminiamo il disegno di legge n. 1892 recante interventi per il sostegno della formazione della ricerca nelle scienze geologiche. È un provvedimento per l'università, per incentivare i dipartimenti di geologia che spesso hanno pochi professori e anche pochi iscritti. In un momento come questo, in cui, come tutti sappiamo, vi è la necessità di favorire la ricerca nel campo della geologia e di avere più persone e professionisti che si occupano di tale ambito, con questo provvedimento noi incentiviamo i ragazzi ad iscriversi a quelle facoltà e, nello stesso tempo, semplifichiamo alcuni percorsi all'interno degli atenei in modo tale che si possano costituire dei dipartimenti anche con un numero di professori inferiore rispetto a quello richiesto per tutti gli altri dipartimenti. Questo è un po' il senso del disegno di legge in esame.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg46">In particolare, questo provvedimento è stato già approvato in prima lettura dalla Camera dei deputati e assegnato alla 7ᵃ Commissione, che ha svolto un lavoro molto approfondito ridefinendo alcuni elementi di natura finanziaria, poi condivisi con la Commissione bilancio. Ciò ha consentito di predisporre un provvedimento che, a questo punto, riteniamo possa essere di sufficiente soddisfazione rispetto alle finalità che si proponeva.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg47">Esso è breve. Si compone di tre articoli ed intende sostenere la formazione e la ricerca nel campo delle scienze geologiche e, più in generale, delle scienze della terra.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg48">Il testo promuove gli studi in materia di scienze geologiche attraverso incentivi per i nuovi iscritti (anche questo è stato introdotto), per la realizzazione di specifici progetti e per l'acquisizione di strumentazioni specialistiche da parte dei dipartimenti e degli enti di ricerca che si occupano di studi e innovazione in quell'ambito.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg49">Il miglioramento dell'ambiente e la messa in sicurezza del territorio sono stati inseriti tra gli obiettivi dell'agenda possibile del gruppo di lavoro in materia economico-sociale ed europea istituito dal Presidente della Repubblica nel 2013. Nel corso dell'esame nella nostra Commissione, sono stati compiuti approfondimenti sulle proposte emendative e sulla copertura finanziaria prevista dal provvedimento, su cui sussistevano alcuni problemi posti dalla Ragioneria generale dello Stato; da qui anche i tempi un po' più lunghi - lo voglio dire qui in Aula - per riuscire a trovare comunque le coperture. Questi emendamenti sono stati approvati in sede di Commissione e ulteriori emendamenti sono stati presentati in sede di Commissione bilancio; quindi diciamo che oggi siamo in grado di esaminarlo in Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg50">Nello specifico, al fine di incentivare l'iscrizione di studenti capaci e meritevoli ai corsi di laurea appartenenti alla classe e L34 (scienze geologiche) e ai corsi di laurea magistrale appartenenti alle classi LM74 (scienze e tecnologie geologiche) e LM79 (scienze geofisiche), l'articolo 1 («Incentivi per l'iscrizione a specifici corsi di studio»), in seguito alle modifiche apportate in Commissione, prevede che venga destinata una quota almeno pari a 150.000 euro del Fondo per il finanziamento ordinario delle università statali, nonché del contributo statale erogato alle università non statali legalmente riconosciute, per l'anno 2017. Tali incentivi sono cumulabili con le borse di studio assegnate ai sensi del decreto legislativo n. 68 del 29 marzo 2012.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg51">L'articolo 2 riguarda «Risorse per progetti di ricerca e acquisto di strumentazione tecnica» ed intende sostenere - come dicevo prima - la ricerca per la previsione e prevenzione del rischio idrogeologico, con due diverse tipologie di finanziamento. Per quanto concerne la prima tipologia, si parla di una percentuale del fondo per la prevenzione del rischio sismico che è riservata al finanziamento dell'acquisto, da parte delle università e degli enti pubblici di ricerca, della strumentazione tecnica necessaria per attività di ricerca finalizzate alla previsione e prevenzione dei rischi geologici, a seguito di appositi bandi pubblici emanati ogni anno dal Dipartimento della protezione civile della Presidenza del Consiglio dei ministri. Si precisa, al riguardo, che tale fondo risulta istituito nello stato di previsione del Ministero dell'economia e delle finanze e che quindi questi fondi possono presumibilmente essere messi a disposizione anche per il futuro. La seconda tipologia di finanziamento consiste in un'autorizzazione di spesa di un milione di euro per l'anno 2016. Qui ci sarà una modifica, perché la previsione di spesa era per l'anno 2016 ma, visto che siamo a novembre e che avremo una condizione evidentemente non utile per attivare i bandi, viene consentito di poterli attivare entro il primo trimestre del 2017.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg52">Passiamo quindi all'articolo 3, che reca «Disposizioni in materia di organizzazione degli atenei». Qui c'è una modifica dell'articolo 2, comma 2, lettera b), della legge n. 240 del 30 dicembre 2010, che stabilisce che per la costituzione di un dipartimento universitario è necessario un numero minimo di 35 unità tra professori, ricercatori di ruolo e ricercatori a tempo determinato, che viene elevato a 40 nel caso di atenei con oltre 1.000 professori, ricercatori di ruolo e ricercatori a tempo determinato, appartenenti a settori scientifico-disciplinari omogenei. Con il provvedimento al nostro esame disponiamo che si possano costituire dipartimenti universitari con la presenza anche di soli 20 professori, ricercatori di ruolo e ricercatori a tempo determinato (quindi, non più di 35), specificamente per questo ambito disciplinare (si tratta di un cambiamento importante), purché gli stessi costituiscano almeno l'80 per cento del totale. Questo articolo, come comprendete bene, colleghi, è finalizzato a consentire la costituzione di dipartimenti universitari anche nel caso in cui afferisca ad essi un numero minore di docenti e ricercatori. Questa è stata la richiesta e abbiamo considerato di voler attuare questa disposizione proprio perché i dipartimenti di scienza della terra da molti anni presentano tali caratteristiche. In conclusione, signora Presidente, il provvedimento risolve, quindi, una situazione di grave criticità delle università italiane, in quanto il combinato disposto dei limiti al turnover e dei vincoli numerici per la costituzione dei dipartimenti ha determinato una notevole contrazione del numero di dipartimenti di scienze della terra nei vari atenei d'Italia (esattamente il contrario di quello che servirebbe al nostro Paese) e quindi il conseguente accorpamento con altre discipline non appartenenti alla medesima area disciplinare. Vogliamo, invece, dare nuovamente un'identità forte a questo settore disciplinare, proprio per le necessità che abbiamo nel nostro Paese, così esposto a rischi di varia natura (idrogeologici, sismici e simili). Si tratta, in conclusione, di un provvedimento che, anche nel settore degli studi e delle ricerche, può supportare il nostro Paese nello sviluppo di certe strategie. In questo senso, credo sia utile e opportuno portarlo alla vostra, alla nostra attenzione, affinché si possa esprimere un parere positivo sulle importanti misure in esso contenute nell'ambito dell'università.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u28">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg53">Poiché vedo la senatrice Serra molto festeggiata dal suo Gruppo, mi associo agli auguri per il suo compleanno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg54">È iscritto a parlare il senatore Liuzzi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">LIUZZI (CoR)</note>
+            <u ana="#regular" who="#LiuzziPietro" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u29">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg55">Signora Presidente, giunge in Aula un provvedimento che, di per sé, presenta aspetti positivi che devono essere sicuramente evidenziati e che meritano l'attenzione dell'Assemblea, non fosse altro per la cogente necessità di provvedere a dotare il Paese di ulteriori intelligenze, capacità e competenze nello studio delle scienze della terra e, particolarmente, della geologia. Provvedere, però, con un apposito provvedimento ad hoc alla incentivazione degli studi geologici, quindi anche delle professioni della scienza della terra, significa anche denunciare all'opinione pubblica e al sistema Paese (dal punto di vista di chi ha l'obbligo, se non la responsabilità, di provvedervi) un vuoto di pianificazione, una carenza di collegamenti tra i fabbisogni reali del Paese e le tendenze e gli orientamenti. In questo provvedimento si incide su due fondi. Il primo è il Fondo per il finanziamento ordinario delle università statali e il secondo è il Fondo per la prevenzione del rischio sismico. Sul primo si incide con finanziamenti necessari a dotare gli istituti universitari e i centri di ricerca nel campo delle scienze geologiche di macchinari e quant'altro sia utile per poter accogliere nuovi studenti potenziando le tecnologie. I nuovi studenti devono essere ricercati, appunto, nel potenziamento del Fondo per la prevenzione del rischio sismico. Ricordiamo quanto importante sia oggi per la penisola italiana, dal punto di vista dell'assetto idrogeologico e rispetto alla drammatica situazione in cui il Paese viene periodicamente immerso (come l'emergenza sismica), la necessità di dotarsi di professionalità ad hoc. Ricordo a tal proposito che, tra qualche giorno, il 4 novembre prossimo, ricorrono ben cinquant'anni dalla tragica alluvione di Firenze e della Toscana e anche del Veneto e di Venezia, che comportò tanti lutti e tanta distruzione anche per il nostro straordinario patrimonio culturale e dei beni culturali. Ebbene, anche per la preservazione dei beni culturali e dell'integrità fisica e morale del Paese servono geologi ed esperti nel settore delle scienze della terra. Io avrei previsto ulteriori fondi per l'orientamento e l'incentivazione dello studio della geologia. In particolare, 150.000 euro all'anno sono destinati al reclutamento. Sono pochi e andrebbero aumentati in quanto una seria azione di reclutamento prevede un orientamento specifico ricorrendo al marketing, che è importante venga messo in campo. Allo stesso tempo, vi sarebbe la necessità di aumentare l'importo delle borse di studio e di diminuire le tasse universitarie. Posto in questi termini il provvedimento è carente e, forse, andrebbe migliorato. Ritengo, comunque, che vada incentivata la strada intrapresa, affinché la situazione possa migliorare a vantaggio di tutto il sistema Paese. PRESIDENTE. È iscritta a parlare la senatrice Anitori. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">ANITORI (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#AnitoriFabiola" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u30">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg56">Signora Presidente, onorevoli senatori, il recente sisma che ha funestato i Comuni di Amatrice, Accumoli e Arquata del Tronto ha nuovamente riportato al centro dell'attenzione generale la fragilità del territorio italiano e la sua elevata esposizione ai rischi geologici. Periodicamente gli eventi naturali che funestano con regolare puntualità il nostro Paese riportano alla ribalta l'importanza del ruolo del geologo. È triste pensare che ci si ricordi di questa figura professionale e scientifica sempre a disastro avvenuto, nel momento della conta delle vittime e della valutazione dei danni materiali alle attività economiche, agli edifici ed alle infrastrutture.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg57">Nella certezza che finalmente si sia raggiunto un punto di svolta culturale - e di questo è testimone l'impegno profuso dal Governo con il varo del progetto Casa Italia - va ricordato quanto sia importante la prevenzione nella mitigazione dei rischi rappresentati da eventi calamitosi di origine geologica. Per attuare una corretta ed efficace attività di prevenzione dai rischi geologici è fondamentale il ruolo della conoscenza del territorio che permette di formare un cittadino consapevole del contesto in cui vive. La capillare presenza di dipartimenti di scienze geologiche distribuiti sul territorio nazionale riveste quindi un ruolo fondamentale per la formazione sia di professionisti geologi esperti in materia sia di insegnanti che possano divulgare la conoscenza geologica nelle scuole di ogni ordine e grado, dove si dovrebbe avviare la formazione consapevole dei cittadini di domani.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg58">Il disegno di legge n. 1892, che ci apprestiamo a votare, una volta divenuto legge dello Stato italiano sicuramente non risolverà di colpo tutte le condizioni di rischio geologico del Paese, ma potrà essere un primo strumento utile per rilanciare il ruolo del geologo a tutti i livelli nella comunità tecnico-scientifica nazionale e per contrastare la forte contrazione che la comunità accademica delle scienze geologiche sta subendo da diversi anni, nella speranza che queste poche risorse e strumenti che stiamo mettendo a disposizione non siano un intervento ormai tardivo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo AP (NCD-UDC)</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Dalla Zuanna. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">DALLA ZUANNA (PD)</note>
+            <u ana="#regular" who="#DallaZuannaGianpiero" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u31">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg59">Signora Presidente, ritengo che quello al nostro esame sia un disegno di legge molto opportuno e importante. Ho tuttavia qualche perplessità sull'articolo 3 che prevede la possibilità di fare dei dipartimenti di scienze della terra e di geologia anche con 20 professori. È una vexata quaestio dell'università italiana; ricordo che anche quando facevo il professore e il preside arrivavano di continuo delle richieste di settori e sottosettori volte alla costituzione di dipartimenti in eccezione al numero di 35-40 professori. Credo che consentendo questa eccezione per scienza della terra, sia pur motivata, si apra la stura alla possibilità di richieste di vario genere, variamente motivate che, a mio avviso, sono poco sostenibili. Ritengo infatti che in dipartimenti più vasti sia possibile garantire probabilmente meglio lo sviluppo di alcune discipline che riguardano pochi docenti, proprio perché l'interazione e la prossimità con altre discipline permettono uno sviluppo migliore. Voterò quindi questo provvedimento, ma visto che dovrà tornare all'esame della Camera dei deputati, chiederei che in quella sede si svolga una riflessione ulteriore su questo tema.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Gatti.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u32">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg60">Dichiaro chiusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg61">Poiché la relatrice e il rappresentante del Governo non intendono intervenire in sede di replica, comunico che sono pervenuti alla Presidenza - e sono in distribuzione - i pareri espressi dalla 1ᵃ e dalla 5ᵃ Commissione permanente sul disegno di legge in esame e sugli emendamenti, che verranno pubblicati in allegato al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg62">Spero che i colleghi rientrino in Aula perché stiamo passando al voto degli articoli. Procediamo alla votazione dell'articolo 1.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Verifica del numero legale</head>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u33">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg63">Chiediamo la verifica del numero legale.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u34">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg64">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato non è in numero legale. Sospendo pertanto la seduta per almeno venti minuti. (La seduta, sospesa alle ore 10,55, è ripresa alle ore 11,16).</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente GASPARRI</note>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 1892</note>
+            <note type="time">HH,MM</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45579.htm</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u35">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg65">La seduta è ripresa.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg66">Metto ai voti l'articolo 1.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg67">È approvato.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg68">SANTANGELO (M5S). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. È approvata. Passiamo all'esame dell'articolo 2, sul quale sono stati presentati emendamenti, che si intendono illustrati, su cui invito la rappresentante del Governo a pronunziarsi. D'ONGHIA, sottosegretario di Stato per l'istruzione, l'università e la ricerca. Il parere del Governo è favorevole. PRESIDENTE. Passiamo alla votazione dell'emendamento 2.500 (testo 2). SANTANGELO (M5S). Chiediamo, anche per i successivi articoli, che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.500 (testo 2), presentato dalla relatrice. (Segue la votazione). Il Senato approva. (v. Allegato B). L'emendamento 2.100 è stato ritirato. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 2.501, presentato dalla relatrice. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'articolo 3. Invito il senatore Segretario a verificare se la richiesta di votazione a scrutinio simultaneo mediante procedimento elettronico risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+            <note type="speaker">LIUZZI (CoR)</note>
+            <u ana="#regular" who="#LiuzziPietro" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u36">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg69">Signor Presidente, preannuncio il voto favorevole del Gruppo Conservatori e Riformisti al provvedimento in esame, anche in relazione alle modifiche apportate dagli emendamenti della relatrice che, in buona sostanza, soddisfano il nostro orientamento e le contraddizioni da noi messe in evidenza. Riteniamo che il disegno di legge in esame giunga opportuno nel recepire le istanze provenienti dal mondo delle professioni del Paese allo scopo di poter incentivare studi, ricerche e professionalità nell'ambito complesso delle scienze della terra. Inoltre, con un idoneo sistema di orientamento, che va messo in atto sin dalle scuole secondarie superiori, si può orientare buona parte delle intelligenze e dei talenti che insistono nel nostro Paese verso questo tipo di studi.</seg>
+            </u>
+            <note type="speaker">BARANI (AL-A)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u37">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg70">Signor Presidente, ovviamente anche il nostro Gruppo darà il suo contributo con il voto favorevole al disegno di legge in esame che riteniamo necessario. Già il collega Liuzzi che mi ha preceduto, signora Sottosegretario rappresentante del Governo, ha parlato di inserire nei programmi scolastici, nelle scuole di primo e secondo grado, alcuni riferimenti alla scienza geologica per formare e sensibilizzare gli studenti che poi, una volta giunti ai corsi universitari, potrebbero arrivare a iscriversi a questa importantissima facoltà, ormai indispensabile. Infatti, non si può più far nulla dato che il nostro territorio è geomorfologicamente in frana e idraulicamente a rischio di esondazioni. Quindi, bene ha fatto la relatrice a prevedere premi e buoni studio per incentivare, fino all'anno scolastico 2020, le iscrizioni alle facoltà di scienze e tecnologie geologiche, scienze geologiche e scienze geofisiche, ma soprattutto a destinare risorse, ancora più necessarie, per i bandi per i progetti di prevenzione dei rischi geologici, geomorfologici e idraulici alle università per la ricerca. E ciò permetterà di avere effettivamente dei professionisti all'altezza della situazione, capaci di risolvere i problemi del territorio che non sono da sottovalutare, perché tutto ciò che si impegna nella ricerca e nella prevenzione si guadagnerà, ovviamente, nel limitare i danni ad evento avvenuto. Quindi, come in medicina si dice che prevenire è molto meglio che curare, questo disegno di legge stanzia risorse e dà le impostazioni legislative per prevenire i disagi e i danni geomorfologici e idrogeologici sul nostro territorio. Correttamente, quindi, anche il nostro Gruppo darà il suo contributo positivo affinché venga approvato.</seg>
+            </u>
+            <note type="speaker">BOCCHINO (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#BocchinoFabrizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u38">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg71">Signor Presidente, il percorso di questo disegno di legge potrebbe apparire piuttosto facile, e lo abbiamo visto anche con le votazioni sugli emendamenti e gli articoli che sono stati approvati all'unanimità. In effetti, nessuno oggigiorno avrebbe il coraggio di opporsi a un provvedimento che prevede qualche spicciolo in più per un settore strategico per il nostro Paese, e cioè quello della prevenzione dei rischi legati all'attività sismica sul nostro territorio, che è in gran parte a rischio sismico. E, quindi, naturalmente, il voto sul disegno di legge al nostro esame non può che essere favorevole e il sostegno del Gruppo di Sinistra Italiana naturalmente non mancherà. In realtà, però, signor Presidente, non si tratta di un disegno di legge che si approva con facilità, perché dietro esso manca - come ha in parte evidenziato anche il collega Liuzzi - la capacità strategica del nostro Paese nel disporre e programmare la ricerca, lo sviluppo e l'innovazione secondo le priorità nazionali, secondo linee strategiche. Manca quindi una visione d'insieme. Ecco, quindi, che siamo costretti ad analizzare un disegno di legge che trova qualche spicciolo in più per il settore delle scienze geologiche quando, probabilmente, per alcune disposizioni che stiamo ora esaminando, non ce ne era neanche bisogno. Si tratta di trovare 150.000 euro per incentivare il diritto allo studio, che tra l'altro sono risorse non aggiuntive ma comunque gravanti sul fondo di funzionamento dell'università. E, quindi, forse, non c'era neanche bisogno di una legge per poter disporre di qualche ulteriore spicciolo per i laureati in scienze geologiche. Probabilmente bastava una decisione ministeriale, così come probabilmente non c'era neanche bisogno di una legge per disporre di destinare una piccola parte del Fondo di prevenzione del rischio sismico, pari all'uno per cento, all'acquisto di strumentazioni. Anzi, sono sorpreso nell'apprendere che non sia già così, ovvero che nel Fondo di prevenzione del rischio sismico non sia prevista, di per sé (senza bisogna di statuirlo per legge), la possibilità di acquistare la strumentazione, che serve proprio a prevenire il rischio sismico. Per quanto riguarda il finanziamento dei progetti di ricerca, c'è qualche spicciolo in più. Ancora una volta accogliamo questo fatto con molto favore, e la filosofia è quella del meglio di niente. E dico chiaramente alla relatrice e al rappresentante del Governo che è meglio di niente e il niente, ancora una volta, è rappresentato dalla mancanza di programmazione strategica. Perché interventi di questo tipo non vengono previsti a livello di programma nazionale della ricerca? Perché abbiamo bisogno di stanziare spiccioli per un settore così strategico? Questo interrogativo rimane inevaso e lo vogliamo sottolineare, pur dando il nostro pieno appoggio. Tutto il settore della ricerca italiana, signor Presidente, e non solo quello delle scienze geologiche, vive un momento di grande sofferenza e di contrazione dei finanziamenti. Non dimentichiamo, a tal proposito, che il Governo preferisce finanziare per decreto una fondazione di diritto privato, per aprire un importante centro di ricerca nell'area post Expo. In queste condizioni, piuttosto deteriorate, il provvedimento in esame non può che incontrare il nostro favore, ma è la lampante dimostrazione che il Governo manca di capacità strategica, e non solo per le grandi linee, ma anche per le piccole cose. Non mancherà, quindi, il nostro supporto al provvedimento, su cui annuncio il voto favorevole, ma spero che ciò rappresenti la possibilità per ripartire con rinnovato vigore verso una programmazione strategica, che è compito del Governo e del Ministero dell'istruzione, dell'università e della ricerca (MIUR) e che fino ad ora è sempre mancata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SI-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CONTE (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#ConteFranco" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u39">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg72">Signor Presidente, il disegno di legge che stiamo per votare affronta due temi che rispondono alla stessa ratio. Il primo tema è favorire e incentivare lo studio delle scienze geologiche, facilitandone l'accesso universitario agli studenti capaci e meritevoli. Si tratta di un settore di studio molto specialistico, apparentemente con non grandi prospettive occupazionali per chi consegue questo tipo di laurea. Su questo, però, è opportuna una riflessione. Gli eventi sismici che hanno interessato l'Italia poche settimane fa, ma anche negli anni scorsi e in tempi più lontani e che periodicamente interessano l'intero globo terrestre, inducono a una riflessione su come sia necessario poter disporre di tecnici adeguatamente formati. Conoscere i processi che determinano l'evoluzione tettonica del nostro Pianeta, i processi di modellamento dei versanti, il ciclo litologico e le dinamiche alla base dei fenomeni sismici e vulcanici significa comprendere i rischi intrinseci al Pianeta. La Terra è un sistema assai complesso, in cui le variabili fisiche, chimiche e biologiche agiscono profondamente sull'ambiente, alterandone in misura spesso significativa i processi evolutivi. Comprendere quali siano i rischi legati alla costruzione in zone sismiche, o in aree ad alto rischio idrogeologico, è utile per prevenire le catastrofi a cui ho appena fatto riferimento. Studiare quindi i processi che plasmano e cambiano la Terra assume grande rilievo se viene visto nell'ottica di poter prevenire i rischi che periodicamente si presentano. La geologia è scienza importante anche per la previsione e la comprensione dei pericoli naturali, per l'individuazione e il risanamento dei problemi ambientali, per la pianificazione territoriale, per la realizzazione di opere pubbliche e private e per lo studio sui mutamenti del clima e dell'ambiente. Molteplici sono quindi i campi di applicazione e favorirne lo studio diventa un investimento per il futuro, sia dell'ambiente che dei singoli territori. Il secondo tema affrontato dal disegno di legge è il finanziamento per l'acquisto da parte delle università e degli enti pubblici di ricerca di strumentazioni tecniche moderne che consentano di approfondire gli studi per la previsione e la prevenzione dei rischi geologici. È un campo, quello dei laboratori e delle strumentazioni nelle scuole, molto delicato, per la precarietà che spesso si incontra, e non solo nelle scuole superiori di indirizzo tecnico, ma anche nelle università. È previsto inoltre il finanziamento di progetti di ricerca presentati dalle università e dagli enti pubblici di ricerca e questo non può che essere di grande importanza in un momento in cui spesso, e forse troppo spesso, parliamo di cervelli in fuga, a causa della limitatezza dei fondi destinati alla professionalizzazione dei ricercatori e ai progetti di ricerca. Da rilevare, poi, è l'aspetto di carattere normativo, che ha lo scopo di consentire la costituzione di dipartimenti di scienze geologiche anche nelle università minori per facilitare la frequenza degli studenti, senza costringerli a spostamenti eccessivi, su cui è stato sollecitata una perplessità da parte del senatore Dalla Zuanna. Condividendone lo spirito, e proprio per evitare che quanto approviamo oggi inneschi un meccanismo di emulazione di tale previsione, credo sia necessario ribadire la specificità e le motivazioni contingenti di tale opportunità. Nonostante la semplicità e la condivisione del disegno di legge - come ricordato anche da parte di altri Gruppi - il provvedimento ha avuto un iter lungo, se pensiamo che è stato assegnato alla 7ᵃ Commissione a maggio dello scorso anno; il parere non favorevole da parte della Ragioneria generale dello Stato ha poi reso necessario modificarne in parte i contenuti. Auspichiamo, quindi, che finalmente si possa concludere il percorso con l'approvazione e annunciamo il voto favorevole del Gruppo Area Popolare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo AP (NCD-UDC).</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BLUNDO (M5S)</note>
+            <u ana="#regular" who="#BlundoRosettaEnza" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u40">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg73">Signor Presidente, colleghi, questo disegno di legge ha una sua rilevanza, perché vuole sostenere la formazione e la ricerca nel campo delle scienze geologiche, e più in generale delle scienze della Terra, promuovendo queste ultime nel mondo studentesco, anche con il finanziamento per la realizzazione di progetti ad hoc. La tutela dell'ambiente e la messa in sicurezza del territorio dovrebbero essere una priorità di qualsiasi Governo, ma negli ultimi anni non è stato così, nonostante l'Italia sia purtroppo un Paese riconosciuto ad alto rischio geologico e idrogeologico, con il 36 per cento della popolazione che vive in zone ad alto rischio sismico e ben 6 milioni in aree pericolose dal punto di vista idrogeologico. Non meno eloquenti e allarmanti risultano i dati pubblicati dall'ISPRA: il 7,3 per cento del territorio nazionale è stato interessato da frane. Terremoti e frane causano vittime, feriti e danni a edifici, abitazioni, infrastrutture e beni culturali. Addirittura, nel biennio 2014-2015, oltre i gravi terremoti, si sono verificati più di 200 eventi franosi, per non parlare del rischio idraulico, associato inevitabilmente al verificarsi di frane e smottamenti: ben 12.218 chilometri quadrati di territorio nazionale sono caratterizzati da elevata pericolosità idraulica. Ben venga, quindi, la volontà, presente in questo disegno di legge, di incentivare l'iscrizione di studenti, capaci e meritevoli, ai corsi di laurea in scienze geologiche, scienze e tecnologie geologiche e scienze geofisiche, attraverso la destinazione ad hoc, a decorrere dal 2017, di una quota pari a 150.000 euro del fondo per il finanziamento ordinario delle università statali e del contributo statale erogato alle università non statali legalmente riconosciute. Ben venga questo, perché andiamo a valorizzare la meritocrazia. E ben venga anche la destinazione dell'uno per cento del fondo per la prevenzione del rischio sismico al finanziamento dell'acquisto, da parte delle università e degli enti pubblici di ricerca, della strumentazione necessaria per attività di ricerca finalizzate alla previsione e prevenzione dei rischi geologici. Si sarebbe potuto e dovuto fare uno sforzo finanziario maggiore, visto che le risorse impiegate vanno nella direzione della prevenzione e anche la collega, relatrice Di Giorgi, avrebbe auspicato un maggior impegno, ma il Governo è stato un pochino corto di manica. È un aspetto questo che, dopo il verificarsi di eventi calamitosi, come quello di Amatrice, è sempre stato considerato prioritario nelle intenzioni, ma è stato poi disatteso nei fatti. Nel disegno di legge in esame c'è un'ulteriore forma di finanziamento per i progetti di ricerca voluti da università ed enti pubblici di ricerca, come stabilito dal comma 2 dell'articolo 2, con una spesa di 1 milione di euro per il 2016 (che poi è stato spostato) e di 2 milioni di euro per ciascun anno, fino al 2018. Si tratta di una disposizione importante, così come nell'articolo si consente di porre fine all'accorpamento dei dipartimenti di scienze della Terra con altri dipartimenti non afferenti alla medesima area disciplinare, consentendo di recuperare una specificità che, a causa delle limitazioni imposte dal turnover e a quelle previste dalla legge 30 dicembre 2010, n. 240, per la costituzione di un dipartimento universitario, era ormai andata perduta. L'articolo 3, infatti, permette la costituzione di dipartimenti universitari di soli venti professori, ricercatori di ruolo e ricercatori a tempo determinato (e non necessariamente di 35, come stabilito dalla legge n. 240 del 2010), purché gli stessi costituiscano almeno l'80 per cento del totale del corpo docenti e ricercatori di quell'indirizzo universitario, consentendo quindi anche la ricostituzione di quei dipartimenti, come scienze della Terra, che erano scomparsi o accorpati ad altri dipartimenti. Condividiamo pienamente, quindi, nel complesso la ratio del disegno di legge, anche se abbiamo dovuto evidenziare una mancanza di fondi più incisivi e strutturali. Ad ogni modo, con il nostro Gruppo ci auguriamo che fra tre anni le risorse siano nuovamente stanziate ed esprimiamo voto favorevole.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u41">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg74">Salutiamo gli studenti e i docenti dell'Istituto comprensivo «Guglielmo Marconi» di Terni, che stanno assistendo ai nostri lavori. Benvenuti al Senato e grazie della vostra visita.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 1892</note>
+            <note type="time">11,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45579.htm</note>
+            <note type="time">(ore 11,38)</note>
+            <note type="speaker">GIRO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#GiroFrancescoMaria" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u42">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg75">Signor Presidente, vorrei annunciare il voto certamente favorevole di Forza Italia a un altro provvedimento inserito in fretta all'ordine del giorno. Assistiamo infatti da qualche settimana ad un congelamento dei nostri lavori in attesa dell'esito referendario. Nelle more, stiamo approvando in maniera abbastanza rapida e concitata molti provvedimenti di spesa, tutti positivi, sacrosanti e da lungo tempo attesi, ma che certamente risentono dell'improvvisazione e della rapidità con cui abbiamo affrontato temi peraltro molto importanti: stiamo parlando del rischio geologico dopo un evento doloroso che ci ha colpito e che ha colpito in modo particolare la mia Regione, il Lazio. Il nuovo evento sismico ha dimostrato la necessità di provvedere nell'attività molto intensa, ma spesso trascurata, di prevenzione, studio e previsione del rischio geologico. Noi stanziamo molti soldi - e credo sia anche positivo - ma si tratta non di nuove risorse, bensì di un'allocazione diversa di risorse già esistenti. Quello che stupisce - mi associo alle perplessità del collega Bocchino - è che si debba ridurre una questione così delicata in un provvedimento di tre articoli senza prevedere forse un ripensamento sul benedetto fondo per la prevenzione del rischio sismico, che è nelle dirette disponibilità del Ministero dell'economia e delle finanze, che peraltro è in larga misura gestito dal Dipartimento della protezione civile e che è ripartito tra le Regioni a seconda del rischio sismico che le riguarda. Questo fondo, però, come viene utilizzato? Noi scopriamo, infatti, che le università sono completamente tagliate fuori. Ma ora, grazie a questo provvedimento fortemente sostenuto dalla senatrice Di Giorgi, fortunatamente vengono di nuovo coinvolte. I dipartimenti di scienze e tecnologie geologiche, di scienze geologiche e di scienze geofisiche finalmente trovano un beneficio dalla ripartizione dei fondi e finalmente le università possono veder finanziati i loro progetti sulla valutazione, sulla previsione e sulla prevenzione del rischio sismico e idrogeologico. Tutto questo, però, evidentemente non era stato previsto nell'organizzazione del fondo nazionale. Vorrei quindi una maggiore trasparenza sulla gestione del fondo - è una la richiesta che il nostro Gruppo di Forza Italia fa da tempo - e un maggiore coinvolgimento delle Commissioni di merito. E soprattutto vorrei più trasparenza sul lavoro del Dipartimento della protezione civile, perché vogliamo capire esattamente come i soldi vengono gestiti, ripartiti, allocati e destinati. Mi domando e mi chiedo inoltre perché il mondo accademico nazionale, che eccelle per lo studio in questa materia, non sia stato coinvolto in maniera più incisiva e perché ci sia stato bisogno di un articolato scritto e pensato rapidamente dalla nostra Commissione e dalla relatrice Di Giorgi. Sono tutti interrogativi che ci poniamo e che vengono in parte soddisfatti dal provvedimento che abbiamo sostenuto in Commissione e che abbiamo anche emendato e migliorato - ha ragione su questo il senatore Liuzzi - dimostrando che il Parlamento funziona e funziona bene, quando c'è la volontà politica di farlo funzionare. Rimane però, da parte mia e del mio Gruppo, quella perplessità che ho cercato di illustrare in questo breve intervento. Cerchiamo di essere più coerenti nei nostri interventi legislativi. Cerchiamo di sostenere il mondo della ricerca e di implementare e promuovere davvero la prevenzione, senza attendere sempre, purtroppo, la successiva catastrofe. Cerchiamo di sostenere il mondo accademico e i nostri ricercatori, che sono peraltro giovanissimi e molto richiesti all'estero. Confermo quindi il voto favorevole di Forza Italia su questo provvedimento e ringrazio in modo particolare gli uffici della Commissione e la senatrice Di Giorgi, che con grande passione, con grande rigore e determinazione hanno favorito la sua rapida approvazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII e CoR. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PUGLISI (PD)</note>
+            <u ana="#regular" who="#PuglisiFrancesca" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u43">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg76">Signor Presidente, il Governo Renzi ha scelto la strada della prevenzione del rischio sismico e idrogeologico, superando la logica della rincorsa delle emergenze, in questo settore particolarmente importante per l'attività sociale ed economica. Voglio ricordare che il Governo ha istituito presso la Presidenza del Consiglio dei ministri un'unità di missione dedicata proprio alla prevenzione dei gravi rischi cui è sottoposto in modo costante il nostro Paese, anche a causa dell'opera dell'uomo. Sono rilevanti gli investimenti che sono stati fatti in questi anni, a partire dal 2014, dallo sblocco del Patto di stabilità per i Comuni e gli enti locali che intervengono a prevenire con le loro opere i rischi alla sburocratizzazione dei processi che spesso rischiano di bloccare i cantieri, mettendo poi a serio rischio anche quelle zone dove appunto si era intervenuti. Basta ricordare la tragedia di Genova, tra le altre che si sono succedute nel tempo. C'è poi l'investimento cospicuo - dico finalmente, che non è mai abbastanza, ma senz'altro rilevante - sulla sicurezza dell'edilizia scolastica: oltre 4 miliardi di euro destinati alla messa in sicurezza delle nostre scuole. Con questo intervento il Governo fa un ulteriore passo avanti, accogliendo una legge di iniziativa parlamentare che ha iniziato il proprio percorso alla Camera. Ringrazio la relatrice Di Giorgi e tutti i Gruppi che hanno collaborato e che confermeranno, con il proprio voto favorevole, l'importanza del provvedimento, il quale assegna una grande rilevanza anche a quell'attività di ricerca svolta negli atenei e che è essenziale per progredire nella prevenzione del dissesto e del rischio sismico. Lo studio della geologia, infatti, è a rischio estinzione nelle università italiane e ciò è dovuto al blocco del turnover e a quei vincoli troppo stretti posti dalla legge n. 240 del 2010, che ha imposto il limite minimo di almeno 40 tra professori e ricercatori del settore scientifico per la costituzione dei dipartimenti universitari. Ma le scienze della Terra sono un'area disciplinare piccola e i docenti del settore sono meno di un migliaio, in costante diminuzione. Secondo i dati del Consiglio universitario nazionale, dal 2000 al 2014 il numero di docenti in questo settore è crollato del 44,4 per cento e i dipartimenti privi della facoltà di geologia sono scesi da 29 (quanti erano in tutta Italia nel 2000) a solo 8. È per questo - e voglio dirlo al senatore Dalla Zuanna - che noi interveniamo in questo settore, così importante e rilevante per la sicurezza del nostro Paese, proprio per sbloccare i vincoli e permettere di sostenere l'attività di ricerca che viene svolta in quei dipartimenti. È proprio la ricerca che nutre la formazione superiore e che permette di trovare soluzioni e metodi sempre più efficaci di prevenzione e di intervento sul nostro territorio. Il disegno di legge in esame, quindi, che allenta i vincoli numerici della "legge Gelmini" e apre alla costituzione di dipartimenti omogenei per settore disciplinare con la scienza della Terra, serve proprio a non indebolire la conoscenza degli aspetti geologici e a sostenere la ricerca per la difesa e la prevenzione. Senza professionisti in questo campo avremmo nel futuro costi immensi in termini di vite umane e di denaro, per i frequenti disastri naturali che abbiamo visto susseguirsi negli anni. Per rispondere all'intervento del senatore Bocchino, è proprio in una visione strategica di intervento e non di rincorsa continua delle emergenze che il Partito Democratico dichiara il proprio voto favorevole su questo provvedimento. Un'altra cosa importante da non sottovalutare è l'incentivazione, in un'ottica anche di orientamento dei nostri giovani, a iscriversi ai corsi di laurea grazie a borse di studio, che si aggiungono al diritto allo studio che finalmente, nella prossima legge di stabilità che arriverà in Assemblea, troverà nuovamente risorse importanti a sostegno dei ragazzi. È anche importante che, con gli incentivi previsti nel provvedimento di legge in esame, noi diciamo ai nostri ragazzi che questo è uno di quei settori in cui è importante incrementare le forze di lavoro e le attività di ricerca.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u44">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg77">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u45">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg78">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Prendo atto dell'approvazione all'unanimità del provvedimento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e FI-PdL XVII e del senatore Liuzzi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DI GIORGI</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#DiGiorgiRosaMaria" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u46">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg79">, relatrice. Signor Presidente, intervengo solo per ringraziare davvero la Commissione, i colleghi e tutte le opposizioni che hanno lavorato in modo molto fattivo su questo provvedimento che ha avuto alcuni ritardi per problemi di copertura, che ci hanno impedito di portarlo in votazione prima dell'inizio dell'anno accademico, come da nostro obiettivo. Comunque, abbiamo trovato le soluzioni e credo che sia stato un bel passaggio. Tenevo dunque a ringraziare tutti, perché il nostro lavoro è stato produttivo e c'è stata grande positività all'interno della Commissione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Martini</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg80">PRESIDENTE. Come relatrice non è la prima volta che ottiene ampi consensi dall'Assemblea.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione del disegno di legge: (2342) Deputato PES ed altri - Dichiarazione di monumento nazionale della Casa Museo Gramsci in Ghilarza</note>
+            <note type="time">11,51</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46764.htm</note>
+            <note type="time">(ore 11,51)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u47">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg81">L'ordine del giorno reca la discussione del disegno di legge n. 2342, già approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg82">Il relatore, senatore Martini, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg83">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">MARTINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#MartiniClaudio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u48">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg84">Signor Presidente, farò una breve relazione.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg85">Vorrei ribadire che il Senato è riunito oggi per approvare in via definitiva il disegno di legge per la dichiarazione di monumento nazionale della Casa Museo Gramsci in Ghilarza. La 7ᵃ Commissione propone all'Assemblea di votare il testo così com'è uscito dalla Camera, senza ulteriori modifiche, per accelerare e completare l' iter di approvazione. Intorno all'oggetto del provvedimento si è sviluppata una discussione costruttiva e collaborativa da parte di tutti i Gruppi, che ha consentito di mettere a fuoco alcuni punti interessanti. Il primo riguarda la figura di Antonio Gramsci, sulla quale non credo sia necessario tornare a lungo, in quanto personaggio che tutte le culture politiche e tutti i Gruppi considerano tra le più importanti del Novecento italiano in termini politici e anche resistenziali. Posso solo aggiungere una breve nota sull'attualità del suo pensiero legato al fatto che Gramsci visse in tempi tempestosi e di grandi cambiamenti: subito dopo la fine della Prima guerra mondiale, ci fu la vittoria della rivoluzione bolscevica, la scissione del mondo socialista e l'avvento del fascismo. Tutto era in grande movimento, con un sconvolgimento continuo dello scenario politico e culturale. Anche noi viviamo tempi abbastanza simili, con grandi cambiamenti e la messa in discussione di pilastri fondamentali della nostra cultura e della nostra civiltà. In ciò ravvedo un'indubbia attualità. Gramsci affrontò questi tempi con la forza del pensiero e con un'attenta analisi dei fenomeni. Il suo pensiero andò e va ancora oggi molto oltre il marxismo e credo sia riconosciuto come pensiero valido da tutte le correnti politiche e culturali del nostro tempo. È una risorsa utilissima anche ai nostri giorni. È giusta l'esigenza di velocità e prontezza, ma è anche grande il bisogno di pensiero e di profondità. Ciò mi sembra oggi la necessità principale. La dichiarazione di monumento nazionale della Casa Museo sarà un modo per rendere omaggio a questa figura in una data importante: il prossimo 8 novembre, tra pochi giorni, saranno esattamente novant'anni dall'arresto che Gramsci subì dal regime fascista e sarebbe un modo degno per ricordare la sua battaglia contro la dittatura. Una seconda questione emersa nella nostra discussione ha riguardato l'inserimento nel disegno di legge del carcere di Turi, ove Antonio Gramsci scrisse i suoi famosi Quaderni. È stato, in particolare, il collega Liuzzi ad avanzare questa proposta e a presentare emendamenti al riguardo. Anch'esso è indubbiamente un luogo altamente simbolico. La Commissione ha ritenuto giusto non modificare il testo per renderlo immediatamente vigente impegnando, invece, il Governo (tramite un ordine del giorno), a trovare altri modi e occasioni per riconoscere e valorizzare comunque un luogo sicuramente simbolico. L'emendamento è stato ripresentato in Assemblea, ma credo dovrebbe essere trattato allo stesso modo in cui l'abbiamo trattato in Commissione e, cioè, non ritenendolo accoglibile e valutando l'opportunità di trasformarlo eventualmente in un ordine del giorno. Una terza questione ha riguardato la discussione sulla necessità o no di sostegni finanziari a queste iniziative; è prevalsa l'idea di confermare la linea scelta alla Camera e, quindi, di non stanziare fondi in occasione di questo riconoscimento al fine di rimarcare il carattere simbolico e di messaggio culturale di tale scelta, per sottrarre questo riconoscimento a possibili polemiche politiche sull'attribuzione di risorse a questa o altra fondazione e per non ritornare alla Camera e creare imbarazzi, visto che in quella sede era stata chiaramente scelta la via di non appostare risorse intorno a questo riconoscimento. Vi è stata infine nella nostra discussione una riflessione sulla legislazione relativa alle dichiarazioni di monumenti nazionali. È stata evidenziata - in particolare grazie ad un'iniziativa dei colleghi del Movimento 5 stelle, ma anche di altri colleghi - la necessità di darsi una normativa chiara, non aleatoria e definitiva sul riconoscimento di questi monumenti. In effetti, il problema si pone e la Commissione ha approvato un ordine del giorno, che il Governo ha fatto proprio, che va nella direzione di aprire una riflessione sul tema e di definire quindi una nuova, complessiva modalità. In conclusione, Presidente, vorrei ringraziare anch'io, come si fa in queste occasioni (ma lo faccio veramente di cuore), tutti i colleghi della Commissione per i contributi che sono stati dati, per il clima positivo che si è instaurato tra di noi, che ha portato alla decisione della Commissione di non modificare il testo. Ringrazio anche il Governo per aver accolto le sollecitazioni volte ad aprire una riflessione su tutta la legislazione relativa ai monumenti nazionali e per aver partecipato attivamente alla nostra discussione. Auspico quindi che si possa oggi con un largo consenso, come già avvenuto alla Camera, concludere l' iter di questa legge, che non è sicuramente un grande atto normativo, ma un significativo riconoscimento simbolico in un momento in cui anche i simboli hanno la loro importanza. Questo disegno di legge potrà essere inoltre un prologo ad un altro anno gramsciano, che sarà sicuramente il 2017, in cui ricorreranno gli ottanta anni dalla morte. A questo proposito il collega Uras ha avanzato un ordine del giorno con il quale propone al Governo di attivarsi in questa direzione ed io esprimo, sin da ora, la mia condivisione rispetto a tale proposta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u49">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg86">Dichiaro aperta la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg87">È iscritta a parlare la senatrice Albano. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">ALBANO (PD)</note>
+            <u ana="#regular" who="#AlbanoDonatella" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u50">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg88">Signor Presidente, onorevoli colleghi, dovrebbe essere un onore e un privilegio per tutti noi trovarci qui per ricordare e rendere omaggio ad Antonio Gramsci, uno dei più importanti intellettuali italiani del ventesimo secolo. Filosofo, storico, giornalista e politico, l'eredità che Gramsci, nel corso della sua breve esistenza, ha lasciato all'Italia è assolutamente impareggiabile. Grazie alle sue grandissime capacità, alla sua profondità di pensiero, all'accuratezza delle sue analisi sociologiche, politiche ed economiche, e alla sua capacità divulgativa, ogni suo scritto, ogni sua idea è ancora oggi fonte di riflessione per tutti noi.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg89">L'anno prossimo ricorrerà l'ottantesimo anniversario della sua scomparsa e voglio augurarmi che la decisione di dichiarare la Casa Museo di Antonio Gramsci in Ghilarza, un monumento nazionale, dopo essere stata dichiarata dalla commissione regionale per il patrimonio culturale della Sardegna bene di interesse culturale, storico e artistico, sia il primo passo di una serie di celebrazioni che nel 2017 possano ricordare la figura di questo eminente intellettuale italiano.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg90">Egemonia, società civile, riforma intellettuale e morale, intellettuale organico, blocco storico, nazionalpopolare: tutte queste locuzioni, tutte questi modi di dire vengono da Gramsci e ancora oggi sono di uso comune, seppur non sempre nell'accezione originaria da egli pensata e voluta. Questo testimonia come il suo pensiero giunga sino ai giorni nostri, fino ad influenzare in maniera determinante il linguaggio di tutte le categorie, giornalisti, politici, storici, filosofi, che Gramsci riassumeva in un'unica persona.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg91">Vorrei soffermarmi in particolare sul concetto di egemonia, termine introdotto nel linguaggio comune proprio da Gramsci, non solo in Italia, ma in tutto il mondo, dove ancora oggi i suoi scritti vengono studiati: basti pensare che la bibliografia internazionale a lui dedicata conta oltre 20.000 pubblicazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg92">L'egemonia culturale teorizzata da Gramsci indicava che, attraverso la capacità di orientare la mentalità, l'elaborazione simbolica, gli stili di vita e i linguaggi delle masse, i gruppi dirigenti consolidano e stabilizzano la loro supremazia. Vorrei, allora, fare una riflessione sulla democrazia del presente e del futuro: una democrazia che, purtroppo, deve fare troppo spesso i conti con il populismo, la manipolazione del consenso, la semplificazione dei messaggi, la suddivisione tra buoni e cattivi. Questo scivolamento della democrazia può essere arginato solo attraverso l'educazione delle masse e lo sviluppo di una cultura democratica e popolare di cui Gramsci è stato il primo teorizzatore. Le sue riflessioni sul consenso, sulla necessità di formulare un linguaggio e un progetto politico culturale in grado di tradurre i progetti politici in idee semplici e accessibili anche all'ultimo dei cittadini devono essere la stella polare della politica odierna, così come l'accrescimento della cultura, principale strumento di emancipazione e di libertà.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg93">L'Italia, allora, ha ancora oggi molto bisogno di Antonio Gramsci perché egli - come hanno già ricordato i colleghi della Camera dei deputati - è un monumento, ma non è una statua, e il suo non è un pensiero pietrificato nel Novecento, ma un complesso di idee in continuo movimento e di profonda attualità.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg94">Dichiarare monumento nazionale la casa di Ghilarza, dove egli visse, a partire dal 1898, gli anni dell'infanzia e dell'adolescenza, ovvero gran parte della sua breve esistenza, serve a rafforzare la memoria di chi deve ricordare. In questo caso, è la Nazione tutta che deve ricordare un personaggio che l'ha fatta grande, non soltanto perché egli stesso è stato grande, ma perché in un mondo di oggi, in cui ci si divide più per appartenenza che per reale confronto delle idee, faremmo un torto alla memoria di chi è stato esponente di una cultura di parte, che però è divenuta nel corso dei decenni un patrimonio condiviso della Nazione.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg95">Antonio Gramsci rientra tra le grandi personalità del Novecento: come Gobetti, Einaudi, Pertini che, pur essendo figure di parte, sono diventate un simbolo per tutti gli italiani. Non vi è quindi alcun bisogno di essere gramsciani, di essere di sinistra per comprendere le ragioni alla base di questo disegno di legge. Non serve condividerne l'ideologia per trovare giusto, e addirittura necessario, approvare questo provvedimento, perché ritengo sia giusto e necessario che una Nazione compiuta celebri e ricordi tutti i suoi grandi uomini. Mi auguro che la politica odierna, certo molto lontana da quella che voleva Gramsci, possa essere promotrice di cultura e memoria condivisa.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg96">Concludo questo mio breve intervento augurandomi che quest'Assemblea proceda con lo stesso spirito di condivisione che si è manifestato alla Camera dei deputati. È anche con i simboli, infatti, che si nutre una cultura nazionale condivisa. Per la Repubblica italiana la casa di Ghilarza è importante, perché Antonio Gramsci rappresenta una figura indimenticata e indimenticabile della nostra storia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Liuzzi. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">LIUZZI (CoR)</note>
+            <u ana="#regular" who="#LiuzziPietro" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u51">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg97">Signor Presidente, ho ascoltato con attenzione la relazione svolta dal senatore Martini, incaricato di essere relatore di questo provvedimento, e trovo che gli argomenti, ma anche gli spunti di riflessione, siano tutti condivisibili. Tra l'altro, il senatore Martini ha rimarcato la grande capacità della Commissione di convergere su tematiche condivise, quale, appunto, quella all'ordine del giorno.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg98">Da questo punto di vista ritengo che il nostro voto non potrà che essere favorevole, non fosse altro affinché il riconoscimento del carisma, ma anche del valore storico, filosofico e culturale in senso lato della figura e dell'opera di questo grande pensatore del Novecento, possa informare, anche nel cogente momento, la discussione sull'autenticità del Paese e sulle riflessioni più importanti che oggi tornano di attualità. Lo studio del pensiero di Gramsci, sebbene appartenente a una determinata corrente politica, può sicuramente essere da noi incentivato per favorirne la memoria.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg99">Da questo punto di vista, ritengo che il riconoscimento e l'intitolazione della sua Casa natale in Sardegna rappresentino un dovere da parte del Senato e della Camera dei deputati affinché si giunga, nell'immediatezza, alla determinazione di quanto è all'ordine del giorno.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg100">Come ricordato dal relatore Martini, vi è anche la proposta emendativa volta ad elevare a dignità di monumento nazionale anche la cella di detenzione a Turi, in provincia di Bari, in cui Gramsci è stato detenuto per almeno cinque anni e all'interno della quale sono maturate le sue riflessioni forse più importanti dal punto di vista della letteratura e del riconoscimento del suo pensiero, contenute nell'opera «Quaderni del carcere». Ci sono tutti i presupposti affinché quella cella possa essere intitolata e quanto meno riconosciuta con un apposito provvedimento istituzionale, quindi formale, affinché se ne preservi la memoria.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg101">Signor Presidente, ritengo che l'emendamento da me presentato in Commissione e poi convertito in quella stessa sede in ordine del giorno possa essere messo a conoscenza dell'intera Assemblea del Senato. Pertanto, concordo con la proposta del relatore Martini di trasformarlo, anche in questa sede, in un ordine del giorno che impegnerebbe il Governo a provvedere quanto prima ad adottare misure volte a tale riconoscimento.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg102">Mi sembra di poter concludere, signor Presidente, invitando il Governo a un'attenta riflessione sul sistema complesso, e in alcuni punti controverso, di riconoscimento dei beni monumentali che possono essere elevati alla dignità di monumento nazionale. Su questo tema esistono una letteratura giuridica e un trascorso abbastanza complesso. Potrebbe essere questa l'occasione per sollecitare il Governo ad addivenire a un sistema definito, armonico e condiviso di riconoscimento di tali monumenti nel Paese, con l'esatta definizione di prescrizioni e relativi benefici.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo CoR</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Giovanardi. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">GIOVANARDI (GAL (GS, PpI, M, Id, ApI, E-E, MPL))</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u52">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg103">Signor Presidente, mi associo alle parole dei colleghi per quanto riguarda l'esigenza di dichiarare monumento nazionale le realtà che sono al centro della storia e della cultura del nostro Paese, così valorizzandole e facendole conoscere.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg104">Approfitto anche degli spunti emersi sulla farraginosità di questa procedura, per ricordare i dibattiti che abbiamo tenuto recentissimamente su un'altra parte della cultura italiana che riguarda Verdi e per segnalare (lo dico anche perché è presente il sottosegretario e vorrei che l'Assemblea servisse anche a questo, cioè ad assumere impegni per il futuro) che esiste in Italia, esattamente a Villanova sull'Arda, la casa in cui Verdi abitò per cinquanta anni.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg105">Verdi è nato a Busseto, dall'altra parte del fiume, ma in realtà ha passato tutta la vita in questa straordinaria villa dove fu anche imprenditore agricolo. Nella villa vivono ancora gli eredi, i Carrara Verdi, ed è a disposizione dei visitatori tutta la storia di Verdi, la stanza di Giuseppina Strepponi, la sua, tutto il patrimonio musicale, il pianoforte, il famoso busto di Gemito che rappresenta Verdi pensoso, il letto di morte, gli autografi del Manzoni e il carteggio tra Manzoni e Verdi. Credo che se c'è un luogo che merita di diventare monumento nazionale sia quella casa dove è condensata la storia di Verdi che vi visse per cinquant'anni. Qualche volta, scherzando, io, che sono emiliano e modenese, dico ai miei amici di Parma che sono stati bravissimi perché effettivamente, e casualmente, Verdi è nato al di là dell'Arda, ma ci è nato e basta. Ho fatto proprio ora una verifica, perché non vorrei sbagliare, e la casa dove è nato è monumento nazionale mentre non lo è la casa dove ha vissuto per cinquant'anni e dove è conservata tutta la documentazione, la storia, perfino il mobilio originale d'epoca acquistato da lui oltre a tutti i suoi scritti agrari, e ricordo che era un grande imprenditore, un grande innovatore anche dal punto di vista dei fondi che gestiva personalmente.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg106">Quindi, visto che è presente un rappresentante del Governo, penso che possa assumere un impegno morale per presentare un disegno di legge in merito. Purtroppo, infatti, oggi non è più possibile definire un monumento nazionale se non con una legge specifica. Quindi, proprio nel momento in cui c'è il Festival verdiano e ci si ricorda di lui, ritengo che Giuseppe Verdi meriti la possibilità che la casa in cui è vissuto e dove ci sono tutti i suoi cimeli diventi monumento nazionale.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg107">PRESIDENTE. Ne prendiamo atto, senatore Giovanardi. Se ne discuterà in un altro momento.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg108">È iscritto a parlare il senatore Uras, il quale nel corso del suo intervento illustrerà anche l'ordine del giorno G.100. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">URAS (Misto)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u53">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg109">Signor Presidente, intervengo molto brevemente anche per illustrare l'ordine del giorno G100 che ho presentato e che, come annunciava il senatore Martini nel corso della sua relazione, accompagna la legge di cui stiamo discutendo che proclama monumento nazionale la Casa Museo di Antonio Gramsci, che non è la sua casa natale che si trova ad Ales. Peraltro, della casa natale è rimasto un muro originario e vi è stato realizzato un centro, sostenuto con finanziamenti della Regione sarda, di discussione, dibattito culturale e di memoria dello stesso Gramsci.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg110">Vorrei sottolineare il contenuto dell'ordine del giorno.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg111">Innanzitutto la Regione sarda ha programmato l'anno gramsciano, a partire dal 22 gennaio 2016 perché in tale data si è celebrato il 125° anniversario dalla nascita di Antonio Gramsci, che si chiuderà il 27 aprile 2017, giorno in cui ricorrerà l'80° anniversario dalla morte.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg112">A tale proposito vorrei fare una piccola considerazione su questo personaggio che fu un grande intellettuale. In questa sede ci sono persone che molto meglio di me potrebbero descrivere le qualità intellettuali, letterarie e filosofiche e la grande qualità del pensiero di Antonio Gramsci, oltre alla sua attualità. Voglio però fare una riflessione su questa personalità: è un giovane povero di un Paese poverissimo e periferico di una regione periferica come la Sardegna. Nasce ad Ales e vive una serie di vicende negative relative alla sua famiglia. Il padre è colpito da un provvedimento dell'autorità giudiziaria.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg113">Le condizioni di povertà della sua famiglia sono di una precarietà assoluta. Nonostante questo, avvalendosi di pochissimi aiuti, Antonio Gramsci studia, in una difficoltà che diventa anche difficoltà fisica nell'affrontare gli studi. Il suo corpo è lacerato da malattie, che ne condizionano la capacità produttiva e, nonostante tutto, studia, si diploma al Liceo classico Dettori di Cagliari e si iscrive all'università di Torino, dove partecipa ai moti condotti dal partito socialista. Diventa giornalista e scrive, nella rivista «L'Ordine Nuovo» e poi nel giornale che fonderà «l'Unità» così come in tante altre pubblicazioni, scritti di una profondità e di una capacità di analisi assoluta. Diventa un martire del ventennio fascista e della Seconda guerra mondiale. Muore a quarantasette anni, in una condizione disperata, scarcerato perché alla vigilia della morte.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg114">È quindi impressionante la qualità e la capacità di pensiero e di elaborazione, anche letteraria, di una personalità di questo tipo, maturate in una condizione che è la più disperata. Passa i suoi anni in carcere, dove scrive con pezzettini di matita, su quaderni che gli vengono consegnati dal direttore del carcere, in una condizione assolutamente fuori dal comune. Eppure egli è uno degli autori italiani più tradotti al mondo, condividendo questo primato, forse, con Niccolò Machiavelli. Questo è Gramsci. Se non si capisce che dalle situazioni di maggiore difficoltà possono nascere spiriti, personalità culturali e intellettuali di questo spessore, non si capisce neppure la realtà dei nostri giorni. Quando vediamo le moltitudini dei disperati, poniamoci il problema che forse, tra quelle moltitudini, ci sono tanti Gramsci, ovvero tanti giovani in grado di dare un contributo intellettuale nella storia del mondo, come ha fatto Gramsci.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-SI-SEL e PD e del senatore Liuzzi</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritta a parlare la senatrice Blundo. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">BLUNDO (M5S)</note>
+            <u ana="#regular" who="#BlundoRosettaEnza" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u54">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg115">Signor Presidente, il provvedimento in esame, costituito da un solo articolo, dichiara monumento nazionale la Casa Museo di Gramsci sita a Ghilarza in Provincia di Oristano. Si tratta del museo che ha raccolto tutta la documentazione relativa ad Antonio Gramsci e, come centro di documentazione, ha dato impulso anche alle ricerche sulla sua vita e sul suo pensiero, facendo così conoscere la storia del movimento operaio italiano e internazionale. Oggi, a fruire di questo bene di inestimabile valore sono soprattutto gli studenti, che in questo modo possono scoprire il valore che la figura di Antonio Gramsci ha avuto, sia dal punto di vista del pensiero politico, sia come giornalista impegnato nell'edizione piemontese dell'«Avanti» ed in seguito dell'«Ordine Nuovo», che divenne «il giornale dei Consigli di fabbrica». Nei suoi articoli gli operai ritrovavano «la parte migliore di se stessi», perché contenevano e trasmettevano sentimenti, volontà, passioni reali di chi voleva diventare libero.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg116">Nel presente disegno di legge si intende dichiarare monumento nazionale la Casa Museo di Gramsci. Questa posizione è condivisibile, ma risulta esserci un vuoto normativo.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg117">L'istituzione dei primi monumenti nazionali risale addirittura alla legge n. 3096 del 7 luglio 1866, nella quale veniva sancito l'obbligo per lo Stato italiano appena formato di conservare alcuni siti monumentali ecclesiastici di notevole importanza, al fine di escluderli da possibili vendite o conversione in altri usi.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg118">Inoltre le prime leggi di tutela dei beni di interesse storico-artistico non facevano alcun riferimento a beni qualificati come monumenti nazionali: in particolare, la legge n. 1089 del 1939 introduceva la nuova nozione di interesse storico-relazionale, sulla quale anche il Ministero dei beni e delle attività culturali ha espresso le proprie perplessità nel parere del 6 marzo 2006.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg119">È pertanto necessario procedere alla definizione di una legislazione nazionale, che istituisca un quadro normativo di riferimento e una precisa definizione di monumento nazionale, superando l'attuale incongruenza normativa, idonea solo a garantire il riconoscimento di mere onorificenze, nonché a produrre provvedimenti circoscritti come questo in esame.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg120">Quando si parla di patrimonio culturale, quindi, il quadro normativo presenta quasi sempre delle lacune che inficiano la piena e coordinata fruibilità dei beni culturali. Per tutta risposta neanche la riforma costituzionale Boschi-Renzi-Verdini (contrariamente a quanto viene sbandierato negli spot e negli interventi televisivi dai membri del Governo) risolve il problema, perché nella revisione del Titolo V, sulla quale andremo a votare il prossimo 4 dicembre, la valorizzazione del patrimonio culturale è una materia che viene assegnata in capo allo Stato, mentre la sua promozione viene assegnata agli enti locali. Questa impostazione produrrà innumerevoli conflitti di competenza davanti alla Corte costituzionale, che sarà impegnata a dirimere il sottile e difficilissimo confine tra «promozione» e «valorizzazione». Ritornando alla definizione di «monumento nazionale» apprezziamo che il Governo abbia riconosciuto l'importanza di una legislazione nazionale e abbia accolto in 7ᵃ Commissione un ordine del giorno che disciplini coerentemente le dichiarazioni di monumento nazionale, visto che il decreto legislativo n. 42 del 22 gennaio 2004, meglio conosciuto come codice dei beni culturali e del paesaggio si limita a fornire, all'articolo 10, solo una nozione di bene culturale e a stabilire «l'inalienabilità degli immobili dichiarati monumenti nazionali secondo la normativa vigente» (articolo 54, comma 1, lettera b). C'è da considerare inoltre l'appartenenza della Casa Museo al patrimonio immobiliare della Fondazione Berlinguer, che è strettamente legata ad una storia e ad una tradizione politica ben specifica e poiché il prossimo anno sarà celebrato l'ottantesimo anniversario della morte di Gramsci filosofo, politico e giornalista appartenente a tutti gli italiani, con questo disegno di legge, la Fondazione potrebbe accedere in modo privilegiato ai fondi pubblici. Pertanto, auspichiamo che il Governo predisponga rapidamente, in ottemperanza all'ordine del giorno accolto, tali norme, istituendo un quadro normativo di riferimento e fornendo una precisa definizione di monumento nazionale, al fine di evitare iniziative legislative circoscritte come quella in esame che, seppur lodevoli dal punto di vista storico-culturale, potrebbero essere mosse anche da ben altri interessi, nonché garantire l'inalienabilità dei monumenti nazionali e la necessaria trasparenza delle risorse finanziarie che vengono ad essi destinate.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Lai. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">LAI (PD)</note>
+            <u ana="#regular" who="#LaiBachisioSilvio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u55">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg121">Signor Presidente, colleghe e colleghi, è nell'indifferenza che sono nati e si sono consumati i fatti più tragici della nostra storia. Non è certo un caso che Antonio Gramsci, con le parole chiare e forti di chi ha vissuto in prima persona il drammatico evolversi della dittatura nazifascista, ha voluto significare il suo odio verso gli indifferenti, perché, come scrisse Gramsci, «l'indifferenza è abulia, è parassitismo, è vigliaccheria, non è vita». E forse oggi avrebbe aggiunto che è conformismo.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg122">Quel monito, quella sua distanza ostile verso gli indifferenti, resta un lucido insegnamento anche per la fase storica che viviamo, nella quale proviamo a combattere il distacco e la disaffezione, consapevoli anche del ruolo e delle responsabilità della politica, ma coscienti che solo dalla buona politica, dalla politica che consente la partecipazione, che spinge alla responsabilità e che stimola la passione, può arrivare il contrasto all'indifferenza, che oggi confina con la rassegnazione; coscienti che la politica ha un indifferibile bisogno di rafforzarsi in quelle fondamenta valoriali, di libertà e di democrazia, che sono la premessa per mantenere coesa la comunità nazionale e forse, oggi, quella europea.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg123">Questo è certamente un cuore pulsante del pensiero e dell'insegnamento di Gramsci. Per questo, pur nella consapevolezza della diversità di opinioni che si possono manifestare sul pensiero di Antonio Gramsci, ritengo che sarebbe riduttivo affrancare solo come simbolico il provvedimento sul quale siamo stati chiamati a esprimerci.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg124">Per noi sardi Gramsci è prima di tutto un sardo, parte del nostro orgoglioso essere e sentirci popolo. Ma sappiamo che Gramsci è un intellettuale nazionale, ne siamo consapevoli. Il suo pensiero e la sua opera rappresentano un patrimonio inestimabile per la nostra storia, la nostra cultura e il nostro vivere in un Paese che ha molto ben chiari i valori della democrazia, della libertà e dell'antifascismo e non li vuole dimenticare.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg125">Gramsci è parte della cultura nazionale e parte fondante di un pensiero che si è diffuso oltre i confini nazionali. Come ha ricordato un collega, Gramsci è uno degli autori italiani più tradotti nel mondo. Gramsci è soprattutto un punto di riferimento per chi vuole dare valore all'idea che si possa aiutare la formazione della coscienza civica di ogni singolo cittadino. Il suo pensiero rende chiara l'idea del significato più puro e concreto del concetto di militanza politica, ma anche del vivere, da cittadino semplice, al servizio del proprio Paese e della comunità, anche nel nostro tempo.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg126">Oggi, dunque, discutiamo sulla proposta di dichiarare monumento nazionale la casa nella quale è nato e vissuto. Quella casa è già un simbolo, sicuramente per tutti i sardi ma anche per tutti gli italiani che vogliono vivere e respirare i luoghi in cui lui si è formato. Quella di oggi è un'occasione per riconoscere a quel luogo l'importanza che merita Gramsci anche per il Parlamento, vale a dire per ciò che rappresenta la nostra istituzione e per ciò che ha rappresentato Gramsci come deputato.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg127">Come è stato ricordato, l'8 novembre sarà il 90° anniversario dell'arresto di Antonio Gramsci da parte del regime fascista. È una data che deve far parte della nostra storia e dobbiamo compiere ogni sforzo possibile perché rimanga sempre viva. Ci ricorda un atto che ha colpito non solo l'uomo in sé, ma anche l'istituzione che rappresentava: quello stesso Parlamento che oggi può restituire una parte della dignità violentata, con la privazione della libertà, al deputato Gramsci.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg128">La Casa Museo di Ghilarza rappresenta il luogo nel quale Gramsci non ha solo vissuto, ma ha anche studiato e si è formato come uomo e come politico. Il legame con la sua terra, dove era nato e cresciuto, era fortissimo: lo si capisce anche solo guardando quei Quaderni, presentati quest'anno in diverse città italiane grazie ai contributi della Fondazione Istituto Gramsci (e invito i colleghi che non ne hanno avuto ancora occasione di andarli a vedere), ma lo si può capire anche entrando in contatto con quell'abitazione, con i luoghi, gli oggetti e la documentazione, che non solo si può visionare, ma è a disposizione di chiunque voglia conoscere bene, profondamente, il pensiero di Gramsci.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg129">Con il provvedimento che oggi esaminiamo possiamo dare a tutto questo un significato ancora più profondo, riconoscendo la memoria dei luoghi come spazio ideale dal quale trarre insegnamento per il nostro vivere in un Paese democratico e libero.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg130">Lo dobbiamo a quello che ancora oggi Gramsci rappresenta e per quello che può rappresentare in futuro, anche grazie al fatto che quella casa può diventare, con il nostro voto, monumento nazionale. Se questo contribuirà anche solo in minima parte a tenere sempre vivo e accessibile a tutti quello che Gramsci ci ha lasciato in eredità vorrà dire che avremo compiuto un atto che sarebbe riduttivo definire simbolico.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg131">Finite le ideologie del Novecento resta nel pensiero, nella sua storia, nel suo esempio, nella sua vita, un insegnamento sulla libertà e sulla democrazia che merita di arrivare integro alle generazioni più giovani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e Misto, e del senatore Liuzzi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u56">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg132">Salutiamo gli studenti e i docenti della Scuola media «Guglielmo Marconi» di Casalecchio di Reno, in provincia di Bologna, a lui giustamente intitolata. Benvenuti al Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 2342</note>
+            <note type="time">12,31</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46764.htm</note>
+            <note type="time">(ore 12,31)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u57">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg133">Dichiaro chiusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg134">Poiché il relatore non intende intervenire in sede di replica, ha facoltà di parlare la rappresentante del Governo.</seg>
+            </u>
+            <note type="speaker">BORLETTI DELL'ACQUA BUITONI</note>
+            <note type="role">sottosegretario di Stato per i beni e le attività culturali e per il turismo</note>
+            <u ana="#guest" who="#BorlettiDellAcquaBuitoniIlaria" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u58">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg135">Signor Presidente, non voglio ripetere quanto è già stato detto molto bene dal relatore e dai colleghi che mi hanno preceduto sull'importanza storica, intellettuale, politica e letteraria di Antonio Gramsci e sull'alto valore simbolico che ha questo riconoscimento. Vorrei solo riprendere un pensiero che è stato, anche questo, molto ben esposto dal senatore Lai nell'ultimo intervento: un Paese che non ha una memoria storica è un Paese facilmente esposto a qualunque genere di estremismo, qualunque genere di estremismo che non può che vedere qualunque cittadino democratico opporvisi. E un modo per fare un'opposizione reale, che si radichi anche nelle future generazioni, è quello di mantenere viva questa memoria storica. Ecco quindi che il provvedimento che oggi viene portato all'esame del Senato assume un significato, particolarmente nei tempi che stiamo vivendo, profondo, ampio ed anche necessario.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg136">Vorrei altresì raccogliere due sollecitazioni arrivate dal senatore Liuzzi e dalla senatrice Blundo riguardo alla necessità che ci si doti di strumenti per poter decidere quali beni rientrino tra i monumenti nazionali: quali siano i criteri, in che modo si debba procedere. Non userei il termine «trasparenza», senatrice Blundo, perché credo che nella decisione che oggi il Senato si appresta a prendere non ci sia alcunché di non trasparente se non il riconoscimento di una grande e importante figura della nostra storia. Ma è giusto pensare che il nostro Ministero, anche con l'aiuto e il sostegno delle Commissioni parlamentari, presto si attivi per cercare di definire quali siano questi criteri, per facilitare non solo il nostro lavoro nel futuro, ma anche il lavoro del Parlamento quando viene chiamato a decidere sulla definizione di monumento nazionale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e del senatore Liuzzi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u59">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg137">Comunico che sono pervenuti alla Presidenza - e sono in distribuzione - i pareri espressi dalla 1ᵃ e dalla 5ᵃ Commissione permanente sul disegno di legge in esame, sull'ordine del giorno e sull'emendamento, che verranno pubblicati in allegato al Resoconto della seduta odierna.</seg>
+            </u>
+            <note type="speaker">LIUZZI (CoR)</note>
+            <u ana="#regular" who="#LiuzziPietro" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u60">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg138">Signor Presidente, vorrei illustrare l'ordine del giorno G1.1.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg139">Il Senato, in sede di esame del disegno di legge n. 2342, recante dichiarazione di monumento nazionale della Casa Museo di Gramsci in Ghilarza, premesso che il riconoscimento di monumento nazionale di un sito assume valore testimoniale di esperienza mnemonica; attesa la valenza culturale, storica, politica, letteraria dell'opera «Quaderni del carcere», elaborata da Antonio Gramsci negli anni 1928-1933 presso la cella di detenzione dell'Istituto di pena di Turi, in Provincia di Bari; riconosciuto l'intento filosofico, pedagogico, morale, civile dei «Quaderni» scritti nella dolorosa condizione penitenziaria; impegna il Governo: a valutare la possibilità di applicare sin d'ora la norma per la tutela e la valorizzazione del sito nella prospettiva della sua qualificazione come monumento nazionale; a riferire sollecitamente al Parlamento sull'attuazione del presente ordine del giorno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo CoR. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">STEFANO (Misto-MovPugliaPiù)</note>
+            <u ana="#regular" who="#StefanoDario" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u61">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg140">STEFANO (Misto). Signor Presidente, intento aggiungere la mia firma agli ordini del giorno G100 e G1.1.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u62">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg141">La Presidenza ne prende atto.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg142">Anche il senatore Boccardi, essendo di Turi, si riterrà onorato di apporre la propria firma all'ordine del giorno del senatore Liuzzi.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg143">Invito il relatore e la rappresentante del Governo a pronunziarsi sugli ordini del giorno in esame.</seg>
+            </u>
+            <note type="speaker">MARTINI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#MartiniClaudio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u63">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg144">Signor Presidente, esprimo parere favorevole sull'ordine del giorno G1.1 del senatore Liuzzi, che era già stato presentato ed approvato nella stessa forma in Commissione. Esprimo altresì parere favorevole sull'ordine del giorno G100 del senatore Uras, come già anticipato nel mio precedente intervento.</seg>
+            </u>
+            <note type="speaker">BORLETTI DELL'ACQUA BUITONI</note>
+            <note type="role">sottosegretario di Stato per i beni e le attività culturali e per il turismo</note>
+            <u ana="#guest" who="#BorlettiDellAcquaBuitoniIlaria" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u64">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg145">Esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u65">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg146">Insiste per la votazione dell'ordine del giorno G100, senatore Uras? URAS (Misto). Sì, signor Presidente. PRESIDENTE. Passiamo dunque alla votazione dell'ordine del giorno G100.</seg>
+            </u>
+            <note type="speaker">COTTI (M5S)</note>
+            <u ana="#regular" who="#CottiRoberto" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u66">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg147">Signor Presidente, proprio per il riconoscimento del valore e della figura di Antonio Gramsci, il Movimento 5 Stelle voterà a favore di questo ordine del giorno. Vorrei ricordare che la figura di Gramsci è apprezzata anche da parti politiche molto distanti dalla sua, come ho avuto modo di appurare, avendo frequentato, sia io che la senatrice Serra, lo stesso liceo di Gramsci, ovvero il liceo «Dettori» di Cagliari, e conoscendo la sua fama e il suo apprezzamento già da molti anni.</seg>
+            </u>
+            <note type="speaker">URAS (Misto)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u67">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg148">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u68">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg149">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo dell'ordine del giorno G100, presentati dai senatori Uras e Stefano. (Segue la votazione). Il Senato approva. (v. Allegato B). Prendo atto dell'approvazione all'unanimità del provvedimento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg150">Essendo stato accolto dal Governo, l'ordine del giorno G1.1 non verrà posto ai voti.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg151">Rinvio il seguito della discussione del disegno di legge in titolo ad altra seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">AIROLA (M5S)</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u69">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg152">Signor Presidente, colleghi, prima di fare rumore e di abbandonare l'Aula, vorrei attirare la vostra attenzione su un fatto inaudito che è successo domenica, quando, sul quotidiano «la Repubblica» (di cui tra l'altro l'Agcom ha appena autorizzato la fusione con «La Stampa», cosa che mi sembra un po' eccessiva come concentrazione editoriale), è stata pubblicata la notizia di Scalfari secondo cui il Presidente della Repubblica voterebbe sì al referendum sulla riforma costituzionale. Ora, spero conveniate con me che questa sia una cosa inaudita, ossia che venga data questa notizia senza che poi avvenga un chiarimento, in un momento in cui, nella Commissione di vigilanza RAI e su altri fronti, siamo tutti impegnati a cercare di mantenere un equilibrio dell'informazione. Non mi resta che appellarmi alla seconda carica dello Stato affinché chiarisca istituzionalmente questa situazione. Non possiamo vivere in un Paese in cui viene detta questa cosa su uno dei giornali a diffusione nazionale</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg153">e si lascia cadere tutto nel silenzio. Dopo che il sì al referendum è stato favorito già da RAI, Mediaset , Sky, da Obama, dall'Unione europea , da Goldman Sachs, dalla finanza e dal presidente emerito Napolitano (che ogni volta che apre bocca viene riportato su tutte le prime pagine), trovo inaudito che vi sia il silenzio su un fatto del genere, peraltro anche dal portavoce del Quirinale, che non ha smentito la notizia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg154">Non capisco come Scalfari si permetta di fare una cosa del genere. Senza poi soffermarmi sull'elogio dell'oligarchia come forma di Governo, che proviene da una persona che dovrebbe arrivare da una certa area culturale.</seg>
+               <incident type="action">
+                  <desc>Il senatore Zanda fa cenno di voler intervenire</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg155">Peraltro voi sapete (Zanda, chiedi pure la parola) che «la Repubblica» è roba del Partito Democratico. Voi anche dovreste dire qualcosa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg156">PRESIDENTE. Grazie, senatore Airola, ha espresso il suo pensiero.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg157">FEDELI (PD). Presidente, deve bloccarlo! AIROLA (M5S). Non si otterrà un equilibrio se l'arbitro unico e superiore di questa Nazione viene coinvolto in una cosa del genere.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg158">PRESIDENTE. La ringrazio per il suo intervento.</seg>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u70">
+               <note>Domando di parlare.</note>
+               <vocal type="speaking">
+                  <desc>Vivaci commenti dal Gruppo M5S.</desc>
+               </vocal>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg159">Signor presidente Gasparri...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Nugnes. Proteste della senatrice Fedeli.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg160">AIROLA (M5S). Cosa gridi: sei Vice Presidente del Senato! PRESIDENTE. Colleghi, fate parlare il senatore Zanda. Gli interventi di fine seduta, come vedete, sono utilizzati anche con molta libertà. Senatore Airola, per favore. ZANDA (PD). Signor Presidente, in questa legislatura, per la prima volta a mia memoria, è stata istituita la prassi degli interventi di fine seduta. È una prassi di cui il Parlamento non aveva mai sentito l'esigenza ed è stata - io ritengo - istituita per dare modo ai parlamentari di sollevare questioni che durante i lavori dell'Assemblea non è possibile sollevare. Le ragioni per cui noi conserviamo questa pratica sono in totale contraddizione con interventi della volgarità che ha contraddistinto l'intervento che ho appena ascoltato di un senatore del Movimento 5 Stelle</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e AL-A.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg161">Il senatore Airola, quando parla del Presidente della Repubblica...</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg162">AIROLA (M5S). Parlavo di Scalfari. ZANDA (PD). ...o del presidente Napolitano, si deve sciacquare la bocca…</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e AL-A. Vivaci commenti del Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg163">SANTANGELO. (M5S). Rispondi! Vergogna! Sei un provocatore! ZANDA. (PD).... e questo schiamazzo conferma il suo livello. Devo dire che, se pensa veramente di fare un servizio alle istituzioni con queste volgarità nell'Aula del Parlamento...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg164">SANTANGELO (M5S). Volgare sarai te e quelli come te! PRESIDENTE. Senatore Santangelo! Prego senatore Zanda, concluda, ma il suo intervento è stato chiaro. ZANDA (PD). Il Gruppo Partito Democratico, che in questo Parlamento ha la maggioranza relativa, non è mai intervenuto con questi schiamazzi, anche quando da quei banchi vengono a noi insulti gravissimi e ingiustificati</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg165">). Ma non è tollerabile che il Partito Democratico non possa parlare in Aula perché viene interrotto continuamente da persone che stanno in Parlamento senza meritare di esserci</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg166">. Vivaci</seg>
+               <vocal type="speaking">
+                  <desc>commenti dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg167">, solo perché hanno avuto 20 click sul blog del loro movimento! Questa è la ragione per cui stanno in Parlamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Vivaci commenti dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg168">AIROLA (M5S). Vi brucia, eh, Zanda? Ci vediamo il 5!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u71">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg169">Presidente Zanda, colleghi, per quanto riguarda il contenuto degli interventi di fine seduta, ho opinioni molto conservatrici.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg170">Presidente Zanda, questa prassi ha preso piede già nella precedente legislatura. Lei è un autorevole membro della Conferenza dei Capigruppo e, in quella sede, potrà introdurre l'argomento. Mi rendo conto che gli interventi di fine seduta sono un succedaneo di dibattiti politici e questo è opinabile. Detto questo, tutti coloro che sono in questa Assemblea meritano di esserci, perché qualcuno ha votato perché ci fossero: di questo la Presidenza non può che prendere atto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Mangili</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg171">. I senatori del Gruppo PD si avvicinano ai senatori del Gruppo M5S e discutono animatamente). Presidente Zanda, casomai proseguite la discussione in maniera amichevole fuori dall'Aula. CUOMO (PD). Presidente, c'è anche un senatore Questore! PRESIDENTE. Sì, i senatori Questori sono lì ovviamente per mettere ordine. Gli interventi di fine seduta andrebbero utilizzati in maniera diversa. Non si può neanche dire che i colleghi del Partito Democratico non possono svolgere i loro interventi. Tutti noi che presiediamo i lavori sappiamo che gli interventi si svolgono tutti, anche se a volte in condizioni più problematiche.</seg>
+               <incident type="action">
+                  <desc>Il senatore Candiani fa cenno di voler intervenire</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg172">Se il senatore Candiani svolgesse il suo intervento, ci aiuterebbe a chiudere la sua seduta, tanto il collega ci parlerà di Tradate.</seg>
+            </u>
+            <note type="speaker">CANDIANI (LN-Aut)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u72">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg173">CASTALDI (M5S). Pagano 30.000 euro per essere messi in lista e fare il deputato! PRESIDENTE. Senatore, faccia parlare il collega Candiani. CANDIANI (LN-Aut). Signor Presidente, rinuncio all'intervento.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.u73">
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg174">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg175">Ricordo che il Senato tornerà a riunirsi in seduta pubblica oggi, alle ore 16,30, con lo stesso ordine del giorno.</seg>
+               <seg xml:id="ParlaMint-IT_2016-10-26-LEG17-Sed-709.seg176">La seduta è tolta (ore 12,49).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

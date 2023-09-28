@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 386 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 386 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 386, giorno (2015-02-04)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 386, Day (2015-02-04)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="386-upper">386 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="199" unit="speeches" xml:lang="it">199 discorsi</measure>
+            <measure quantity="199" unit="speeches" xml:lang="en">199 speeches</measure>
+            <measure quantity="14819" unit="words" xml:lang="it">14.819 parole</measure>
+            <measure quantity="14819" unit="words" xml:lang="en">14,819 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0902245</idno>
+               <date when="2015-02-04">04.02.2015</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="22"/>
+               <tagUsage gi="head" occurs="15"/>
+               <tagUsage gi="note" occurs="410"/>
+               <tagUsage gi="seg" occurs="199"/>
+               <tagUsage gi="u" occurs="88"/>
+               <tagUsage gi="vocal" occurs="2"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="20"/>
+               <tagUsage gi="desc" occurs="22"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2015-02-04">04.02.2015</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente GRASSO</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u1">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg1">La seduta è aperta (ore 9,35). Si dia lettura del processo verbale. PETRAGLIA, segretario, dà lettura del processo verbale della seduta del 27 gennaio.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg2">Signor Presidente, le do innanzitutto il benvenuto o, meglio, il bentornato. Chiedo quindi la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u3">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u4">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg4">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u5">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg5">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg6">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 9,40).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto al Presidente della Repubblica Sergio Mattarella</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u6">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg7">Onorevoli colleghi, un attimo di attenzione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg8">Alla ripresa dei nostri lavori desidero rinnovare, a nome mio personale e di tutto il Senato, il saluto più affettuoso e cordiale al neoeletto presidente della Repubblica Sergio Mattarella, augurandogli buon lavoro.</seg>
+               <kinesic type="applause">
+                  <desc>Numerosi senatori si levano in piedi. Vivi applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg9">Siamo certi che saprà interpretare al meglio il suo ruolo di garante e di rappresentante dell'unità nazionale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg10">Voglio inoltre porgere il mio più vivo ringraziamento alla vice presidente Valeria Fedeli</seg>
+               <kinesic type="applause">
+                  <desc>Vivi applausi),</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg11">che è stata mia vicaria e che ha esercitato con dedizione e competenza le funzioni vicarie di Presidente del Senato, nonché agli altri Vice Presidenti</seg>
+               <kinesic type="applause">
+                  <desc>Vivi applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg12">, che si sono alternati in mia assenza e che hanno affrontato dei momenti piuttosto impegnativi nella conduzione dell'Assemblea. Li ringrazio.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni del Presidente sul calendario dei lavori</head>
+            <note type="time">(ore 9,42)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u7">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg13">L'ordine del giorno reca: «Comunicazioni del Presidente sul calendario dei lavori».</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg14">Colleghi, la Conferenza dei Capigruppo ha approvato a maggioranza il nuovo calendario dei lavori fino al 12 febbraio. L'ordine del giorno della seduta unica di oggi prevede l'esame di ratifiche di accordi internazionali, la deliberazione sulla costituzione in giudizio del Senato per resistere in un conflitto d'attribuzione, nonché il sindacato ispettivo. La Presidenza potrà valutare una sospensione della seduta in relazione all'andamento dei lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg15">La giornata di domani sarà dedicata al lavoro delle Commissioni, con particolare riguardo all'esame dei decreti-legge. La prossima settimana l'Assemblea tornerà a riunirsi a partire dal pomeriggio di martedì 10 febbraio. Il calendario prevede la discussione dei disegni di legge sul reato di negazionismo, in materia di delitti contro l'ambiente, il decreto-legge Ilva e sviluppo di Taranto, ove concluso dalle Commissioni, e il seguito del disegno di legge in materia di traffico di organi destinati al trapianto, la cui discussione è rimasta interrotta. Infine, nel pomeriggio di giovedì 12 febbraio si terrà il question time.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Programma dei lavori dell'Assemblea, integrazioni</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u8">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg16">La Conferenza dei Presidenti dei Gruppi parlamentari, riunitasi ieri con la presenza dei Vice Presidenti del Senato e con l'intervento del rappresentante del Governo, ha adottato - ai sensi dell'articolo 53 del Regolamento - le seguenti integrazioni al programma dei lavori del Senato per i mesi di gennaio, febbraio e marzo 2015: - Disegno di legge n. 54 - Modifica all'articolo 3 della legge 13 ottobre 1975, n. 654, in materia di contrasto e repressione dei crimini di genocidio, crimini contro l'umanità e crimini di guerra, come definiti dagli articoli 6, 7 e 8 dello statuto della Corte penale internazionale - Disegno di legge n. 1345 e connessi - Disposizioni in materia di delitti contro l'ambiente (Approvato dalla Camera dei deputati)</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Calendario dei lavori dell'Assemblea Discussione e reiezione di proposte di modifica</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u9">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg17">Nel corso della stessa riunione, la Conferenza dei Presidenti dei Gruppi parlamentari ha altresì adottato - ai sensi dell'articolo 55 del Regolamento - il calendario dei lavori dell'Assemblea dal 4 al 12 febbraio 2015:</seg>
+               <note type="summary">Mercoledì 4 febbraio ant. h. 9,30 - Ratifiche di accordi internazionali concluse dalla Commissione affari esteri - Deliberazione sulla costituzione in giudizio del Senato della Repubblica per resistere in un conflitto di attribuzione - Interpellanze e interrogazioni</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg18">La giornata di giovedì 5 febbraio sarà riservata ai lavori delle Commissioni, con particolare riguardo all'esame dei decreti-legge.</seg>
+               <note type="summary">Martedì 10 febbraio pom. h. 16,30-20 - Disegno di legge n. 54 - Reato di negazionismo - Disegno di legge n. 1345 e connessi - Delitti contro l'ambiente (Approvato dalla Camera dei deputati) - Disegno di legge n. 1733 - Decreto-legge n. 1 - ILVA e sviluppo di Taranto (Scade il 6 marzo 2015) (Ove concluso dalle Commissioni) - Seguito disegno di legge n. 922 - Traffico organi destinati al trapianto Mercoledì 11 " ant. h. 9,30-13 " " " pom. h. 16,30-20 Giovedì 12 " ant. h. 9,30-14 Giovedì 12 febbraio pom. h. 16 - Interrogazioni a risposta immediata ai sensi dell'articolo 151- bis del Regolamento</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg19">Gli emendamenti ai disegni di legge n. 54 (Reato di negazionismo) e n. 1345 e connessi (Delitti contro l'ambiente) dovranno essere presentati entro le ore 15 di giovedì 5 febbraio.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg20">Il termine per la presentazione degli emendamenti al disegno di legge n. 1733 (Decreto-legge n. 1, ILVA e sviluppo di Taranto) sarà stabilito in relazione ai lavori delle Commissioni.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg21">Ripartizione dei tempi per la discussione del disegno di legge n. 1733 (Decreto-legge n. 1 - ILVA e sviluppo di Taranto) (10 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 1 h. Governo 1 h. Votazioni 1 h. Gruppi 7 ore, di cui: PD 1 h. 34' FI-PdL XVII 1 h. 3' M5S 47' AP (NCD-UDC) 47' Misto 41' Aut (SVP, UV, PATT, UPT) - PSI-MAIE 34' LN-Aut 33' GAL (GS, LA-nS, MpA, NPSI, PpI) 33' SCpI 28' Dissenzienti 5'</note>
+            </u>
+            <note type="speaker">CIOFFI (M5S)</note>
+            <u ana="#regular" who="#CioffiAndrea" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg22">Signor Presidente, ieri durante la riunione della Conferenza dei Capigruppo abbiamo chiesto di inserire un nuovo argomento e lo ribadiamo adesso in Assemblea: questo è il motivo per cui il calendario non è stato approvato all'unanimità. Lo abbiamo fatto perché in Assemblea, anche in questo momento, abbiamo tutti applaudito il nuovo Presidente della Repubblica. Ma il nuovo Presidente della Repubblica, ieri, nel suo discorso ha detto delle cose importanti: ha reso omaggio alla Corte costituzionale, al CSM e a tutte le magistrature. Penso dunque sia il caso di rendere omaggio a lui e di essere coerenti con gli applausi che ha ricevuto durante il suo discorso. Quindi vogliamo verificare se siamo tutti coerentemente convinti di quegli applausi. Cosa ha detto il Presidente della Repubblica durante il suo discorso? Leggo testualmente un pezzo brevissimo del suo discorso: «Garantire la Costituzione significa affermare e diffondere un forte senso di legalità. La lotta alla mafia e quella alla corruzione sono priorità assolute. La corruzione ha raggiunto un livello inaccettabile, divora risorse che potrebbero essere destinate ai cittadini, impedisce la corretta esplicazione delle regole di mercato, favorisce le consorterie e penalizza gli onesti e i capaci». Questo ha detto ieri il presidente Mattarella. Tutti ci siamo alzati, siamo stati molto felici, abbiamo parlato di quel discorso. Tutti quanti sono stati prodighi di parole di elogio per il Presidente. Chiediamo, allora, di essere coerenti con quelle parole e di calendarizzare per la prossima settimana il disegno di legge di iniziativa del Parlamento - ribadendo, quindi, il fatto che questa è una Repubblica parlamentare e non siamo ancora arrivati al premierato assoluto (parola che è stata detta qualche giorno fa da qualcuno in quest'Aula, quando lei non c'era, Presidente) - recante disposizioni contro la corruzione. Se siete coerenti, se tutti siamo coerenti, se rispettiamo la Repubblica di cui diciamo di far parte e se veramente vogliamo tutelare l'interesse reale dei cittadini e di questa Repubblica, e vogliamo rendere omaggio al Presidente della Repubblica, dobbiamo portare in Aula il disegno di legge anticorruzione. È lì che vedremo se siamo davvero contro la corruzione oppure no.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e della senatrice Simeoni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">AIROLA (M5S)</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u11">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg23">Signor Presidente, voglio anzitutto ribadire gli impegni che sono stati presi, anche quando ero Capigruppo io, sui disegni di legge delle opposizioni. Non voglio difendere quelli di altre opposizioni, ma intanto definire quello sul negazionismo quale provvedimento delle opposizioni, con i cambiamenti di maggioranza che ci sono, già è un po' borderline. Intanto c'è il nostro disegno di legge sul reddito di cittadinanza, che è in Commissione, ed è giusto che sia lì, di cui chiederemo la calendarizzazione prevedibilmente a fine marzo, ma c'è anche quello di SEL, che riguarda i codici identificativi delle Forze dell'ordine, che abbiamo presentato anche noi, che non si è mai visto, è sparito. Ora che lei è tornato, Presidente, sono contento che sia di nuovo qui, soprattutto perché tenga fede agli impegni che abbiamo preso in Conferenza dei Capigruppo a dicembre, se lo ricorderà. D'altra parte, sempre in quella sede avevo chiesto un'attenzione ai diritti civili, che stanno a cuore a tanti qui dentro. Ebbene, è successo - e lo riporta il giornale - che la senatrice Cirinnà, relatrice di un testo sulle unioni civili, si sia sentita rispondere dal ministro Boschi che dobbiamo aspettare per trattare il tema perché ci sono problemi forse all'interno della maggioranza. Allora, mi domando perché non portare avanti il discorso sui diritti civili con il divorzio breve, che è un disegno di legge che votiamo in due ore. Lo sapete tutti. Presumo che anche il senatore Lumia, che era con me in un programma a Radio radicale, e si era impegnato ad inserire il provvedimento in calendario, abbia interesse a spingerne la calendarizzazione. Il problema, però, Presidente - lei lo sa, lo sapete tutti - è che la questione che riporta il ministro Boschi è vera, e cioè che voi, prima di mettere il turbo, dovreste fare uscire la macchina dal garage</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg24">e assicurarvi di avere una maggioranza di Governo che possa affrontare anche questi provvedimenti così importanti per il Paese che in molti aspettano. Chiedo, quindi, alla maggioranza e a lei, Presidente, di cambiare il calendario e la settimana prossima, in un ritaglio di tempo - tanto basta pochissimo tempo - votare e portare finalmente a casa una norma che aspetta da decenni, come quella del divorzio breve.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e della senatrice Simeoni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg25">Signor Presidente, vorrei richiedere un'integrazione del calendario proposto dal nostro Capigruppo, chiedendo che finalmente sia calendarizzata la mozione di sfiducia nei confronti del ministro Lorenzin.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg26">Domenica è apparso l'ennesimo articolo su «Il Fatto Quotidiano». Il professor Pitruzzella, a capo dell'Antitrust, ha mandato una lettera al Ministro ravvisando la violazione delle norme sulla libera concorrenza per il decreto che prevede l'utilizzo di Avastin solo nelle strutture pubbliche e non in quelle private. Mi chiedo, allora, che cosa debba ancora fare il ministro Lorenzin perché quest'Assemblea calendarizzi la mozione di sfiducia nei suoi confronti. Ormai l'incompetenza è palese, manifesta. Noi aspettiamo questa calendarizzazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u13">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg27">Metto ai voti la proposta di modifica del calendario, avanzata dal senatore Cioffi, volta a prevedere la discussione del disegno di legge anticorruzione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg28">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg29">AIROLA (M5S). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata. Metto ai voti la proposta di modifica del calendario, avanzata dal senatore Airola, volta a prevedere la discussione del disegno di legge sul divorzio breve. Non è approvata. CAPPELLETTI (M5S). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata. Metto ai voti la proposta di modifica del calendario, avanzata dalla senatrice Montevecchi, volta a prevedere la discussione di una mozione di sfiducia nei confronti del Ministro Lorenzin. Non è approvata. Dispongo la controprova. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata. Resta pertanto definitivo il calendario adottato a maggioranza dalla Conferenza dei Capigruppo e da me comunicato all'Assemblea.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (1549) Ratifica ed esecuzione dell'Accordo tra il Governo della Repubblica italiana e il Governo dell'Isola di Man sullo scambio di informazioni in materia fiscale, fatto a Londra il 16 settembre 2013</note>
+            <note type="time">09,53</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44618.htm</note>
+            <note type="time">(ore 9,53)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u14">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg30">L'ordine del giorno reca la discussione del disegno di legge n. 1549, già approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg31">Ilrelatore, senatore Airola, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg32">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">AIROLA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u15">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg33">Signor Presidente, colleghi, il primo dei due disegni di legge di ratifica di accordi internazionali contro l'evasione e l'elusione di capitali all'estero e lo scambio di informazioni è il disegno di legge n. 1549 che reca la ratifica e l'esecuzione dell'Accordo tra il Governo della Repubblica italiana e il Governo dell'Isola di Man (una piccola isola tra la Gran Bretagna e l'Irlanda) sullo scambio di informazioni in materia fiscale, fatto a Londra il 16 settembre 2013. L'Accordo bilaterale, firmato a Londra nel settembre 2013, ricalca il modello predisposto dall'Organizzazione per la cooperazione e lo sviluppo economico, nel quadro delle iniziative per la trasparenza fiscale ed appare in linea con gli orientamenti condivisi dall'Italia nelle diverse sedi multilaterali per il rafforzamento degli strumenti di contrasto al fenomeno dell'evasione fiscale internazionale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg34">L'intesa ha lo scopo di favorire la cooperazione fra le amministrazioni fiscali delle due parti attraverso uno scambio di informazioni in materia fiscale necessario a garantire il raggiungimento di adeguati livelli di trasparenza: un fattore molto importante.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg35">Si è evitato peraltro il ricorso alla stipula di una vera e propria Convenzione contro le doppie imposizioni, stante il ridotto interscambio commerciale fra i due Paesi. In tal senso l'Accordo si inserisce nel quadro di quelle intese negoziate, previste dalla legge finanziaria del 2008, quali strumenti utili per l'individuazione degli Stati aventi un regime fiscale conforme agli standard di legalità adottati dall'Unione europea, importanti soprattutto per le ricadute che potrebbero derivarne nella lotta all'elusione ed all'evasione fiscale. Più in dettaglio, l'Accordo si compone di 13 articoli, i primi dei quali definiscono l'oggetto ed il campo di applicazione dell'intesa bilaterale, le linee guida e gli ambiti giurisdizionali (articoli 1 e 2) e le imposte oggetto del possibile scambio informativo (articolo 3). L'articolo 4 offre un quadro di definizioni necessarie ad eliminare possibili difformità interpretative, mentre l'articolo 5 regola le modalità di svolgimento dello scambio di informazioni, disciplinando nel dettaglio le tipologie di informazioni che possano essere richieste e prevedendo, fra l'altro, il superamento del segreto bancario. I successivi articoli 6 e 7 disciplinano la possibilità per le parti di effettuare verifiche fiscali nei rispettivi territori, nonché le circostanziate ipotesi in cui sia possibile per una delle parti sottrarsi alla richiesta informativa. L'articolo 8 pone un rigido principio di riservatezza nella gestione e nello scambio delle informazioni, mentre l'articolo 9 stabilisce che i costi ordinari sostenuti per fornire l'assistenza informativa siano a carico della parte interpellata, quelli straordinari a carico della richiedente, prevedendo altresì un impegno alla occasionale consultazione fra le autorità competenti su tali aspetti. Gli articoli conclusivi dispongono l'obbligo per le parti di adottare le modifiche legislative interne necessarie per dare attuazione all'intesa (articolo 10), le procedure per la risoluzione amichevole delle eventuali controversie (articolo 11) e i termini per l'entrata in vigore e l'eventuale denuncia dell'Accordo (articoli 12 e 13). Il disegno di legge di ratifica si compone di 3 articoli che dispongono, rispettivamente, l'autorizzazione alla ratifica, l'ordine di esecuzione e l'entrata in vigore. Non sono previsti oneri finanziari. L'Accordo non presenta profili di incompatibilità con la normativa nazionale, né con l'ordinamento comunitario, ponendosi al contrario a completamento degli obblighi internazionali già assunti dal nostro Paese in materia di cooperazione amministrativa. Quindi, si evidenzia all'Assemblea come una rapida approvazione di questo accordo rappresenterebbe un significativo passo in avanti per aggredire il nodo dell'evasione e dell'elusione fiscale nei paradisi fiscali, consentendo di inserire anche il Governo dell'Isola di Man, quale parte estera contraente, nelle white list degli Stati e territori con un regime fiscale conforme agli standard di legalità e trasparenza adottati dall'Unione europea. In conclusione, si propone l'approvazione del presente disegno di legge da parte dell'Assemblea.</seg>
+            </u>
+            <note type="generalDiscussion">DISCUSSIONE GENERALE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u16">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg36">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u17">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg37">Signor Presidente, ritengo che la relazione del collega Airola sia stata esaustiva. Desidero solo sottolineare un passaggio e magari in dichiarazione di voto dirò qualcosa in più. È vero che l'interscambio commerciale è ridotto, ma il problema non è tanto questo bensì quello del segreto bancario, nel senso che pur essendovi un interscambio commerciale ridotto ci sono comunque interessi finanziari rilevanti coperti, a volte, dallo strumento del segreto bancario che finalmente, in termini di prevenzione dell'evasione fiscale, viene rimosso.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg38">Quindi, riassumendo quanto detto dal collega Airola, è importante l'approvazione del provvedimento in esame proprio con la specifica finalità di dare un indirizzo chiaro in favore della lotta all'evasione fiscale.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u18">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg39">Dichiaro chiusa la discussione generale.</seg>
+            </u>
+            <note>Poiché il relatore ed il rappresentante del Governo non intendono intervenire in sede di replica, passiamo all'esame degli articoli.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Passiamo alla votazione dell'articolo 1. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 3. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u19">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg40">Signor Presidente, per economia dei nostri lavori, vorrei rifarmi a quanto già detto nel corso dell'esame del provvedimento in Commissione, dove è stato già espresso un parere favorevole.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u20">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg41">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u21">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg42">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (1550) Ratifica ed esecuzione dell'Accordo tra il Governo della Repubblica italiana e il Baliato di Guernsey sullo scambio di informazioni in materia fiscale, fatto a Londra il 5 settembre 2012</note>
+            <note type="time">10,03</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44619.htm</note>
+            <note type="time">(ore 10,03)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u22">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg43">L'ordine del giorno reca la discussione del disegno di legge n. 1550, già approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg44">Ilrelatore, senatore Airola, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg45">Pertanto, ha facoltà di parlare il relatore.</seg>
+            </u>
+            <note type="speaker">AIROLA</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u23">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg46">Signor Presidente, il disegno di legge in esame, già approvato dalla Camera dei deputati, reca la ratifica dell'Accordo tra l'Italia e il Baliato di Guernsey sullo scambio di informazioni in materia fiscale. Il testo in esame ha un contenuto sostanzialmente analogo a quello che abbiamo appena esaminato, relativo all'intesa fra il nostro Paese e l'Isola di Man.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg47">L'Accordo bilaterale, firmato a Londra nel settembre 2012, infatti ricalca anch'esso il modello predisposto dall'OCSE nel quadro delle iniziative per la trasparenza fiscale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg48">L'intesa ha lo scopo di favorire la cooperazione fra le amministrazioni fiscali delle due parti attraverso uno scambio di informazioni in materia fiscale necessario a garantire il raggiungimento di adeguati livelli di trasparenza.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg49">Più in dettaglio, l'accordo oggetto di ratifica si compone di 13 articoli i primi dei quali definiscono l'oggetto ed il campo di applicazione dell'intesa bilaterale e le imposte oggetto del possibile scambio informativo. L'articolo 4 offre un quadro di definizioni necessarie, mentre l'articolo 5 regola le modalità di svolgimento dello scambio di informazioni. I successivi articoli 6 e 7 dettano disposizioni in merito alla possibilità per le parti di effettuare verifiche fiscali nei rispettivi territori, nonché alle circostanziate ipotesi in cui sia possibile per una delle parti sottrarsi alla richiesta informativa. L'articolo 8 pone un rigido principio di riservatezza nella gestione e nello scambio delle informazioni, mentre l'articolo 9 stabilisce che i costi ordinari sostenuti per fornire l'assistenza informativa siano a carico della parte interpellata, mentre quelli straordinari a carico della richiedente, prevedendo altresì un impegno alla occasionale consultazione fra le autorità competenti su tali aspetti. Gli articoli conclusivi dell'accordo dispongono l'obbligo per le parti di adottare le modifiche legislative interne necessarie (articolo 10) e le procedure per la risoluzione amichevole delle eventuali controversie.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg50">Il disegno di legge di ratifica dell'Accordo in esame si compone dei consueti tre articoli, che dispongono l'autorizzazione alla ratifica, l'ordine di esecuzione e l'entrata in vigore. Nessun articolo è espressamente dedicato alla copertura finanziaria, rientrando il provvedimento in esame tra quelli che non comportano spese o istituzione di nuovi uffici.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg51">Anche in questo caso l'Accordo non presenta profili di incompatibilità con la normativa nazionale, né con l'ordinamento comunitario, ponendosi invece a completamento degli obblighi internazionali già assunti dal nostro Paese in materia di cooperazione amministrativa.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg52">Una rapida approvazione di questo accordo rappresenterebbe un significativo passo avanti, come per il precedente, nella lotta contro l'evasione e l'elusione fiscale nei paradisi fiscali, consentendo di inserire anche il Baliato di Guernsey nelle white list degli Stati e territori con un regime fiscale conforme agli standard di legalità dell'Unione europea. In conclusione, quindi, si propone l'approvazione del presente disegno di legge da parte dell'Assemblea.</seg>
+            </u>
+            <note type="generalDiscussion">DISCUSSIONE GENERALE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u24">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg53">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u25">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg54">Signor Presidente, desidero ricordare l'importanza di questa ratifica per quanto riguarda l'ambito fiscale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg55">Le isole normanne in questione, che sono piccole e da sempre vocate all'agricoltura, sono diventate negli ultimi anni sede di importanti realtà off-shore soggette ad una tassazione agevolata. La ratifica dell'Accordo in esame va a sistemare una situazione che oggi permette a grandi imprese di godere di una tassazione agevolata che, per un senso di equità, risulta inaccettabile in un momento come questo, nel quale tutti sono chiamati a contribuire e a pagare le imposte, mentre c'è qualcuno che, fino all'approvazione di questa ratifica, ha pensato di poter essere esentato da tale onere. È questo il punto centrale dell'Accordo in esame ed è per questo che preannuncio il voto favorevole che dichiarerò tra poco, in sede di dichiarazione di voto.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u26">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg56">Dichiaro chiusa la discussione generale.</seg>
+            </u>
+            <note>Poiché il relatore ed il rappresentante del Governo non intendono intervenire in sede di replica, passiamo all'esame degli articoli.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Passiamo alla votazione dell'articolo 1. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 3. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u27">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg57">Signor Presidente, desidero ribadire il mio voto favorevole sul disegno di legge in esame.</seg>
+            </u>
+            <note type="speaker">MANCUSO (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#MancusoBruno" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u28">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg58">Annuncio il voto favorevole sul disegno di legge di ratifica in esame.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u29">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg59">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (1551) Ratifica ed esecuzione dell'Accordo di cooperazione tra il Governo della Repubblica italiana ed il Governo della Repubblica islamica dell'Afghanistan in materia di prevenzione e contrasto al traffico illecito di stupefacenti, sostanze psicotrope e loro precursori, fatto a Roma il 2 giugno 2011</note>
+            <note type="time">10,09</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44620.htm</note>
+            <note type="time">(ore 10,09)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u30">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg60">L'ordine del giorno reca la discussione del disegno di legge n. 1551, già approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg61">La relatrice, senatrice Bertuzzi, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg62">Pertanto, ha facoltà di parlare la relatrice.</seg>
+            </u>
+            <note type="speaker">BERTUZZI</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#BertuzziMariaTeresa" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u31">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg63">Signor Presidente, il disegno di legge, già approvato dalla Camera dei deputati, reca la ratifica e l'esecuzione dell'Accordo fra l'Italia e l'Afghanistan in materia di prevenzione e contrasto al traffico illecito di stupefacenti e di sostanze psicotrope.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg64">Esso sancisce l'impegno dei due Paesi a rafforzare la collaborazione operativa e l'assistenza reciproca in materia. L'intesa, in mancanza di accordi quadro di riferimento in materia di sicurezza, risulta necessaria per realizzare una cooperazione bilaterale fra gli omologhi organismi impegnati nell'azione di contrasto al narcotraffico, nel rispetto di quanto previsto dai rispettivi ordinamenti giuridici e dagli obblighi internazionali. Con tale Accordo, le parti si impegnano a cooperare, attraverso uno scambio di informazioni, tecniche investigative, studi, ricerche ed analisi congiunte sulle organizzazioni criminali dedite al narcotraffico.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg65">L'Afghanistan - come è noto - è uno dei maggiori produttori al mondo di sostanze cannabinoidi. Negli ultimi anni si registra una proliferazione di laboratori mobili di raffinazione, diffusi soprattutto nelle aree più remote del Paese, ed un flusso di precursori chimici non controllabili provenienti dalle frontiere del Pakistan e dei Paesi centro-asiatici. Questi aspetti impongono, dunque, una costante attività di monitoraggio e di controllo per evitare la diversione di tali sostanze verso i mercati illeciti.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg66">I negoziati per la definizione dell'Accordo vennero avviati a febbraio 2009, su proposta della Direzione centrale per i servizi antidroga, in un periodo nel quale l'Italia era alla guida del progetto europeo COSPOL, per il controllo del traffico illecito di droga proveniente dall'Afghanistan verso l'Europa.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg67">L'Accordo in esame, di fatto, detta le definizioni dei termini "stupefacenti", "sostanze psicotrope" e "precursori chimici" ed estende, già da oggi, l'ambito di applicazione anche alle droghe sintetiche che si inventeranno nel futuro, nonché a qualsiasi sostanza stupefacente dichiarata illegale dai competenti organismi internazionali.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg68">Si sancisce, in particolare, l'impegno delle parti a promuovere la cooperazione in materia di prevenzione e contrasto del traffico illecito di droghe, nei limiti di quanto previsto dai rispettivi ordinamenti giuridici, nonché dagli obblighi internazionali, e con l'esclusione di aspetti legati all'assistenza giudiziaria penale e all'estradizione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg69">Le aree di cooperazione fra le parti si estendono alla prevenzione e al contrasto al traffico illecito, allo studio e all'analisi congiunta sulle organizzazioni criminali dedite al narcotraffico, all'eventuale pianificazione di mirate strategie di intervento, all'aggiornamento reciproco sui fenomeni delittuosi, alla formazione del personale impiegato nell'attività antidroga, alle tecniche investigative e all'informazione aggiornata sulle norme e sulle procedure operative.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg70">Vengono poi individuate le modalità di cooperazione, quali lo scambio delle informazioni, anche di natura operativa, sulla situazione della droga e la minaccia criminale nei rispettivi Paesi; l'adozione delle misure necessarie per l'esecuzione di speciali tecniche investigative; l'assistenza tecnica e giuridica; la costituzione di gruppi di lavoro comuni e lo scambio di esperti, nonché l'organizzazione di riunioni periodiche per la valutazione dello stato della collaborazione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg71">Si definiscono, inoltre, le modalità di formulazione e di trasmissione delle richieste di cooperazione ed assistenza, nonché i requisiti formali e sostanziali per il loro inoltro.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg72">L'Accordo regola, altresì, il trattamento dei dati personali sensibili contenuti nell'ambito delle informazioni e dei documenti trasmessi e definisce la ripartizione degli oneri finanziari.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg73">L'organismo preposto all'applicazione dell'Accordo, per l'Italia, è il Ministero dell'interno, e precisamente la Direzione centrale per i servizi antidroga presso il Dipartimento della pubblica sicurezza.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg74">L'Accordo dispone poi sugli strumenti di verifica dello stato di attuazione dell'intesa, dei risultati della collaborazione e del miglioramento dell'efficacia, stabilendo altresì che la soluzione di eventuali controversie, in ordine all'interpretazione e all'applicazione dell'atto, sia oggetto di negoziati e incontri tra le parti, e definisce le procedure per la revisione eventuale dell'Accordo stesso.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg75">Il disegno di legge di ratifica, oggi oggetto della votazione in Assemblea, si compone di quattro articoli che dispongono, rispettivamente, l'autorizzazione alla ratifica, l'ordine di esecuzione, la copertura finanziaria e l'entrata in vigore dell'Atto bilaterale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg76">Gli oneri sono valutati in circa 100.000 euro annui.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg77">L'intervento normativo non segnala criticità di ordine costituzionale o comunitario e tiene conto delle disposizioni del diritto internazionale in materia, richiamando esplicitamente nel preambolo, fra le altre, la Convenzione contro il traffico di stupefacenti del 1988 e la Convenzione delle Nazioni Unite contro il crimine organizzato transnazionale del 2000.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg78">Si propone dunque, in conclusione, l'approvazione del presente disegno di legge di ratifica da parte dell'Assemblea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e del senatore Casini.</desc>
+               </kinesic>
+            </u>
+            <note type="generalDiscussion">DISCUSSIONE GENERALE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u32">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg79">Dichiaro aperta la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg80">È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u33">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg81">Signor Presidente, in questa sede come anche in Commissione il disegno di legge in esame è stato affrontato ed illustrato in modo pieno e compiuto.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg82">Mi rimetto pertanto alla relazione della collega, sottolineando che si tratta di approvare un provvedimento che cerca di porre rimedio ad un problema davvero rilevante, ben sapendo che questa non è la panacea di tutti i mali. Ad ogni modo, la strada intrapresa è quella giusta e bisogna continuare con questo tipo di accordi anche con altri Paesi. Per fortuna alcuni Stati hanno capito l'importanza di utilizzare gli strumenti degli accordi di cooperazione. Auspico, dunque, che anche altri Paesi produttori di sostanze che vanno a rovinare la vita di tante persone accettino di approfondire un confronto che porti alla stessa soluzione.</seg>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Cioffi. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">CIOFFI (M5S)</note>
+            <u ana="#regular" who="#CioffiAndrea" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u34">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg83">Signor Presidente, intervengo solo perché - come mi è capitato già di dire in quest'Aula - nella mia precedente esperienza, prima di diventare senatore, sono stato in Afghanistan con Emergency in qualità di cooperante e, quindi, ho visto una serie di situazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg84">Noi ratifichiamo un Accordo per il contrasto alla droga e alle sostanze psicotrope, ma dovremmo ricordarci cosa è successo prima: prima del 2001 la produzione di oppio in Afghanistan è stata compressa, e poi, nel 2001, siamo arrivati noi. Per noi intendo gli occidentali, noi illuminati, noi che siamo da questa parte dell'emisfero rispetto a quella parte, l'Afghanistan dove - vorrei ricordarlo e dovremmo farlo sempre - tanto per avere un ordine di grandezza un afgano consuma circa un millesimo dell'energia che consumiamo noi. Pertanto - come ho già avuto modo di dire - forse anche gli afgani possono essere un tantinello arrabbiati nei confronti degli occidentali, e forse ci sarebbe qualcosa da dire al riguardo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg85">Tornando al tema della droga, quando del 2001 siamo andati a combattere il terrorismo, in seguito all'incredibile e tristissimo attacco alle Torri gemelle, non siamo mica andati a dire ai contadini afgani di non continuare a produrre oppio, che li avremmo sovvenzionati noi. No, questo non lo abbiamo fatto, perché ci siamo occupati di altre cose: ci siamo occupati di dar loro la democrazia, o quella che noi crediamo sia democrazia. Se non ricordo male, noi italiani abbiamo avuto il compito di istruire gli afgani supportando il sistema giudiziario. Forse l'Italia ha un primato: noi siamo molto bravi nel campo delle leggi, del sistema penale e del sistema civile (a parte quanto è successo mezz'ora fa), e avevamo questo compito.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg86">Non ci siamo efficacemente occupati del fatto che in Afghanistan si poteva smettere di produrre oppio se solo l'Occidente avesse pensato di farlo. I famosi Paesi evoluti, noi che siamo gli illuminati, noi che siamo dall'altra parte del mondo, noi che sappiamo tutto ed esportiamo la pace con le bombe, non siamo stati capaci di dire ai contadini afgani di non coltivare più oppio perché li avremmo sovvenzionati noi. Eppure, siamo capaci di sovvenzionare la nostra agricoltura.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg87">Allora noi sovvenzioniamo la nostra agricoltura, ma non sovvenzioniamo l'agricoltura afgana per non farle più produrre oppio. Se noi non cambieremo l'approccio, la mentalità e il modo con cui vogliamo contrastare queste cose, non ne usciremo mai, perché non risolviamo il problema facendo gli accordi. Noi dobbiamo intervenire sul posto per impedire certe produzioni.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg88">Queste cose dovremmo ricordarle tutti in questa sede. Non possiamo solo premere il pulsante e liberarci in tal modo la coscienza. Non potevo non intervenire per ricordare a noi tutti questa cosa, perché altrimenti non svolgeremmo bene il nostro compito.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg89">Poi ci lamentiamo degli immigrati che invadono le nostre coste. Se ne parla tanto di questi fatti ma, quando dobbiamo intervenire sul posto per far sì che non accadano più e per risolvere una serie di problemi, non abbiamo certo il coraggio di farlo. Siamo capaci di spendere tutti i soldi per finanziare l'industria delle armi, ma non abbiamo il coraggio per finanziare i contadini afgani affinché non producano più oppio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u35">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg90">Dichiaro chiusa la discussione generale.</seg>
+            </u>
+            <note>Poiché la relatrice ed il rappresentante del Governo non intendono intervenire in sede di replica, passiamo all'esame degli articoli.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Passiamo alla votazione dell'articolo 1. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 3. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 4. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u36">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg91">Signor Presidente, come ho detto prima, questo è un provvedimento importante e lo abbiamo capito tutti nel corso della discussione generale. Per questo ribadisco il voto favorevole del Gruppo della Lega.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MANCUSO (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#MancusoBruno" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u37">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg92">Signor Presidente, annuncio il voto favorevole del mio Gruppo a questo provvedimento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Cuomo.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u38">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg93">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u39">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg94">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (1621) Ratifica ed esecuzione dell'Accordo fra il Governo della Repubblica italiana e il Governo della Repubblica federativa del Brasile riguardante lo svolgimento di attività lavorativa da parte dei familiari conviventi del personale diplomatico, consolare e tecnico-amministrativo, fatto a Roma l'11 novembre 2008, con Scambio di lettere interpretativo, fatto a Roma il 28 agosto e il 12 ottobre 2012</note>
+            <note type="time">10,25</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44842.htm</note>
+            <note type="time">(ore 10,25)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u40">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg95">L'ordine del giorno reca la discussione del disegno di legge n. 1621, già approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg96">Lasenatrice Bertuzzi, che svolge la funzione di relatrice, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg97">Pertanto, ha facoltà di parlare la relatrice facente funzioni.</seg>
+            </u>
+            <note type="speaker">BERTUZZI</note>
+            <note type="role">f. f. relatrice</note>
+            <u ana="#regular" who="#BertuzziMariaTeresa" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u41">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg98">Signor Presidente, il disegno di legge reca la ratifica dell'Accordo che è stato sottoscritto nel 2008 fra l'Italia e il Brasile per consentire l'esercizio di attività lavorative ai familiari del personale delle rispettive missioni diplomatiche.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg99">L'Accordo è elaborato sulla base del modello genericamente impiegato in materia ed è composto di sette articoli. Si definisce in via preliminare l'ambito e l'oggetto di applicazione dell'intesa che viene estesa anche ai familiari delle rappresentanze accreditate presso la Santa Sede e gli organismi internazionali aventi sede nei rispettivi territori.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg100">L'Accordo si applica ai coniugi non separati, ai figli non coniugati minori di 21 anni o minori di 25 anni se studenti a tempo pieno. Si prescinde dal requisito dell'età in caso di disabilità fisica o mentale, come definite dalla normativa locale.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg101">I successivi articoli definiscono le procedure autorizzative in Italia e in Brasile con modalità pressoché simmetriche.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg102">Si stabiliscono poi rispettivamente l'applicabilità della normativa locale in materia tributaria e di sicurezza sociale, la non applicabilità delle immunità con riferimento a qualunque atto riguardante l'esercizio dell'attività lavorativa e, infine, i limiti posti alla potestà autorizzativa. Da ultimo, l'articolo 7 disciplina l'entrata in vigore, la durata e la possibilità di denuncia dell'Accordo in esame.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg103">Il disegno di legge di ratifica si compone di tre articoli necessari a disporre l'autorizzazione alla ratifica, l'ordine di esecuzione e l'entrata in vigore. Dall'applicazione del provvedimento non sono previsti oneri o minore entrate a carico del bilancio dello Stato.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg104">In conclusione, si propone, quindi, l'approvazione da parte dell'Assemblea del provvedimento in esame.</seg>
+            </u>
+            <note type="generalDiscussion">DISCUSSIONE GENERALE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u42">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg105">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u43">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg106">Signor Presidente, intervengo solo per pronunciare la parola "finalmente", che è quella che mi hanno detto i nostri diplomatici quando hanno saputo che la ratifica di questo Accordo sarebbe stata iscritta all'ordine del giorno di questa seduta, perché finalmente si pone rimedio ad un'ingiustizia.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u44">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg107">Dichiaro chiusa la discussione generale.</seg>
+            </u>
+            <note>Poiché la relatrice ed il rappresentante del Governo non intendono intervenire in sede di replica, passiamo all'esame degli articoli.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Passiamo alla votazione dell'articolo 1. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 3. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u45">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg108">Signor Presidente, visto che il disegno di legge è stato approvato alla Camera, ratifica un Accordo di buonsenso e c'è urgenza di approvarlo, mi limito a dichiarare il voto favorevole della Lega.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u46">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg109">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u47">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg110">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione dei disegni di legge: (1622) Ratifica ed esecuzione del Trattato sul trasferimento delle persone condannate tra il Governo della Repubblica italiana ed il Governo della Repubblica federativa del Brasile, fatto a Brasilia il 27 marzo 2008</note>
+            <note type="time">10,28</note>
+            <note type="status">(Approvato dalla Camera dei deputati)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44843.htm</note>
+            <note>Discussione dei disegni di legge: (1520) LONGO Fausto Guilherme. - Ratifica ed esecuzione del Trattato sul trasferimento delle persone condannate tra il Governo della Repubblica italiana e il Governo della Repubblica federativa del Brasile, fatto a Brasilia il 27 marzo 2008</note>
+            <note type="time">10,28</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44545.htm</note>
+            <note>(ore 10,28) Approvazione del disegno di legge n. 1622</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u48">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg111">L'ordine del giorno reca la discussione dei disegni di legge nn. 1622, già approvato dalla Camera dei deputati, e 1520.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg112">La relatrice facente funzioni, senatrice Bertuzzi, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg113">Pertanto, ha facoltà di parlare la relatrice facente funzioni.</seg>
+            </u>
+            <note type="speaker">BERTUZZI</note>
+            <note type="role">f. f. relatrice</note>
+            <u ana="#regular" who="#BertuzziMariaTeresa" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u49">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg114">Il disegno di legge n. 1622, d'iniziativa governativa, già approvato dalla Camera dei deputati, reca la ratifica ed esecuzione del Trattato sul trasferimento delle persone condannate, sottoscritto fra l'Italia ed il Brasile nel 2008. Contenuto pressoché identico reca anche il disegno di legge n. 1520, di iniziativa del senatore Longo, presentato, come precisa la relazione introduttiva, con l'intento di sollecitare il Governo alla ratifica dell'Accordo. Nel corso dell'esame in Commissione si è convenuto di adottare il testo governativo, già approvato dalla Camera dei deputati, come testo base.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg115">L'Accordo è finalizzato allo sviluppo della cooperazione tra l'Italia ed il Brasile nel trasferimento dei cittadini detenuti nel territorio dell'altro Stato, in modo che tali soggetti possano scontare la pena nel proprio Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg116">Composto di 19 articoli, il Trattato offre innanzitutto una definizione dei termini utilizzati (articolo 1) ed individua poi i principi generali dell'accordo (articolo 2).</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg117">L'articolo 3 detta le condizioni per il trasferimento, prevedendo che il condannato sia cittadino dello Stato ricevente (o abbia la residenza permanente in quel territorio) e che i fatti costituiscano reato anche per la legge dello Stato ricevente. Si prevede, altresì, che la sentenza che ha determinato la detenzione sia definitiva, che il condannato debba scontare una pena di almeno dodici mesi, che non sia stata comminata la pena di morte e che via sia accordo in merito al provvedimento di trasferimento tra i due Stati. Le autorità centrali preposte all'attuazione delle misure sono la Direzione generale della giustizia penale del Ministero della giustizia per l'Italia ed il Ministero della giustizia per il Brasile.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg118">I successivi articoli delineano la procedura per il trasferimento, stabiliscono la necessità del consenso da parte della persona condannata e dettano norme sui fondamenti per la decisione di trasferimento, a partire da alcuni fattori, quali la gravità del reato e gli eventuali precedenti penali.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg119">Gli articoli 9 e 10 disciplinano gli effetti del trasferimento della persona condannata, e l'articolo 15 regola gli aspetti finanziari dell'Accordo, precisando che le spese siano a carico dello Stato ricevente, ad eccezione di quelle sostenute esclusivamente nel territorio dello Stato trasferente.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg120">Il Trattato precisa che esso potrà trovare applicazione anche per condanne precedenti alla sua entrata in vigore e dispone che le controversie fra le parti debbano essere risolte per via diplomatica.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg121">Il disegno di legge di ratifica di iniziativa governativa n. 1622 si compone di quattro articoli che dispongono, rispettivamente, l'autorizzazione alla ratifica, l'ordine di esecuzione, la copertura finanziaria dei relativi oneri e l'entrata in vigore del testo di legge. Gli oneri (essenzialmente per spese di viaggio per il trasferimento dei detenuti e per costi di traduzione) sono quantificati in poco più di 37.000 euro annui.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg122">In conclusione, si propone quindi di procedere, da parte dell'Assemblea, all'approvazione del disegno di iniziativa governativa, previo assorbimento del disegno di legge n. 1520.</seg>
+            </u>
+            <note type="generalDiscussion">DISCUSSIONE GENERALE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u50">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg123">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u51">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg124">Signor Presidente, chiederò un minuto in più di pazienza ai colleghi, anche perché c'è una questione su cui invito tutti a riflettere.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg125">L'Accordo ha sicuramente delle finalità condivisibili ed è la strada da seguire anche con altri Paesi. Il problema del consenso della persona condannata rappresenta però un limite - è inutile nasconderlo - nel senso che, anche nella relazione del collega, senatore Longo, si evidenzia come il vero problema non sia tanto il sistema carcerario nel nostro Paese, quanto le condizioni dei detenuti in generale (non solo quelli italiani e stranieri) nelle carceri brasiliane.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg126">Potremmo, quindi, trovarci di fronte non solo ad un aiuto reale e doveroso nei confronti di nostri connazionali detenuti in Brasile, per permettere loro di scontare la pena in Italia, ma anche ad una risposta sostanzialmente negativa. In sostanza, non si tratta di risolvere il problema dell'affollamento carcerario nei confronti dei soggetti brasiliani detenuti nelle nostri carceri, che non sono assolutamente interessati a peggiorare le loro condizioni di detenzione andando a scontare la pena nelle carceri brasiliane.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg127">C'è poi una parentesi. Qualcuno vuole...</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg128">Continuo, se il collega Barani mi lascia finire l'intervento.</seg>
+               <vocal type="shouting">
+                  <desc>Richiami del Presidente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg129">Su questo provvedimento qualcuno pone la questione legata al caso Battisti e ad una fattispecie diversa, perché quella persona che dovrebbe essere assicurata alla nostra giustizia e dovrebbe scontare la sua pena nel nostro Paese non può essere ricondotta all'interno delle fattispecie previste da questo provvedimento, in quanto in Brasile non è soggetta a detenzione. Dovremmo, però, sfruttare l'occasione di questi accordi, visto che sostanzialmente andiamo ad aiutare un Paese (in questo caso, il Brasile), per fare giustizia anche di alcune questioni aperte che, ancora oggi, rappresentano ferite non chiuse e che tutta l'opinione pubblica ci chiede di seguire con attenzione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg130">Forse, più che cogliere l'occasione di fare una cosa giusta, stiamo perdendo l'occasione di farla al 100 per cento, cioè in modo completo. È una questione che esula dal contenuto del disegno di legge in esame, ma che va posta in quest'Aula in questo momento, seppur consapevoli del fatto che ora stiamo discutendo di un Accordo che riguarda persone detenute in un Paese piuttosto che in un altro.</seg>
+               <note>PRESIDENTE. È iscritto a parlare il senatore D'Alì. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">D'ALI' (FI-PdL XVII)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u52">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg131">Signor Presidente, intervengo su quanto ha già detto il senatore Stucchi riguardo al caso Battisti.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg132">Comprendo che questo disegno di legge è prevalentemente indirizzato a consentire ai nostri connazionali di avere condizioni carcerarie sicuramente più tollerabili, quali quelle che si vivono nelle nostre pur disagiate carceri, rispetto alle condizioni che si vivono nelle carceri brasiliane. Detto Accordo data ormai al 2008, ossia ad un'epoca precedente a quanto è accaduto successivamente riguardo ai rapporti tra la Repubblica italiana e quella del Brasile in ordine al caso Battisti. Non so quante residue speranze ancora abbiamo che quella vicenda si risolva. Io riterrei che il Governo, proprio nel momento in cui discutiamo di materia carceraria con la Repubblica del Brasile, dovrebbe aggiornarci su quelle vicende e dirci - come osservava il senatore Stucchi - quali sono le possibilità non dico di ulteriori modifiche del Trattato (dal momento che questo è già in ratifica), ma almeno di ulteriori ragionamenti con la Repubblica del Brasile, per evitare che si possano verificare di nuovo casi come quello di Battisti e fare in modo che quel caso venga definitivamente risolto.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg133">Capisco che queste vicende, che interessano i nostri concittadini, sono importanti. Ma, se lo sono veramente, certo otto anni di distanza per la ratifica di questo Trattato stridono un po' con la celerità con cui si fanno invece altre ratifiche, che sono senz'altro assolutamente condivise (tant'è che le abbiamo votate), come quelle riguardanti gli accordi fiscali o le condizioni lavorative dei familiari del personale diplomatico.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg134">Vorrei, quindi, che il Governo ci relazionasse su questo aspetto, in maniera tale che il nostro voto sia ancora più convinto. Esso sarà comunque certamente favorevole, perché - come ha fatto osservare il senatore Stucchi - questo Trattato sarà sicuramente utilizzato da molti cittadini italiani. Non sappiamo se lo sarà anche dai cittadini brasiliani, ma noi dobbiamo guardare agli interessi individuali delle condizioni carcerarie dei nostri concittadini. Se poi i cittadini brasiliani non vorranno usufruirne, vuol dire che avranno i loro motivi in relazione alle condizioni di vita che si patiscono in quei presidi carcerari.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u53">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg135">Dichiaro chiusa la discussione generale.</seg>
+            </u>
+            <note>Poiché la relatrice ed il rappresentante del Governo non intendono intervenire in sede di replica, passiamo all'esame degli articoli del disegno di legge n. 1622.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Passiamo alla votazione dell'articolo 1. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 3. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 4. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u54">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg136">Signor Presidente, ringrazio il senatore D'Alì, che ha corroborato alcune delle tesi che ho illustrato, che non sono, però, attinenti al provvedimento al nostro esame. Quindi, con alcune perplessità - con forti perplessità, a dire il vero - confermo il voto favorevole del Gruppo della Lega.</seg>
+            </u>
+            <note type="speaker">MANCUSO (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#MancusoBruno" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u55">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg137">Signor Presidente, annuncio il voto favorevole del nostro Gruppo e approfitto per chiedere alla Presidenza di allegare al Resoconto della seduta odierna il testo scritto della dichiarazione di voto sul disegno di legge in esame e anche quello delle dichiarazioni di voto sui disegni di legge precedentemente esaminati. Non sono intervenuto in precedenza per non tediare l'Assemblea, vista la solidità degli argomenti e anche la grande condivisione sulle ratifiche in esame. PRESIDENTE. La Presidenza l'autorizza in tal senso. Per il prosieguo, la prego di formulare la richiesta di volta in volta.</seg>
+            </u>
+            <note type="speaker">ORELLANA (Misto)</note>
+            <u ana="#regular" who="#OrellanaLuisAlberto" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u56">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg138">Signor Presidente, dichiaro il mio voto favorevole, anche se, nonostante il Trattato sia stato votato da poco tempo, esso non preveda che i cittadini italiani eventualmente condannati alla pena di morte in Brasile possano essere trasferiti in Italia. Mi dispiace molto che l'Italia abbia dovuto accettare nel 2008 queste condizioni: per un Paese come il nostro, tradizionalmente contrario alla pena di morte e che si adopera tanto all'estero, ciò rappresenta un rammarico. Mi rendo conto che, quando si stipulano trattati tra due Stati, si accetta quello che è possibile. Penso che il Trattato sia comunque positivo e, quindi, lo voterò. Mi sarebbe piaciuto che questo punto fosse stato eliminato: magari si può riprendere in futuro il Trattato con il Brasile.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u57">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg139">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u58">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg140">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge n. 1622. (Segue la votazione). Il Senato approva. (v. Allegato B). Risulta pertanto assorbito il disegno di legge n. 1520.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (1624) Ratifica ed esecuzione dell'Accordo di cooperazione nel campo della cultura e dell'istruzione e dello sport fra il Governo della Repubblica italiana ed il Consiglio dei Ministri della Bosnia Erzegovina, fatto a Mostar il 19 luglio 2004</note>
+            <note type="time">10,43</note>
+            <note type="status">(Approvato dalla Camera dei deputati) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44845.htm</note>
+            <note type="time">(ore 10,43)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u59">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg141">L'ordine del giorno reca la discussione del disegno di legge n. 1624, già approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg142">La relatrice, senatrice Bertuzzi, ha chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg143">Pertanto, ha facoltà di parlare la relatrice.</seg>
+            </u>
+            <note type="speaker">BERTUZZI</note>
+            <note type="role">relatrice</note>
+            <u ana="#regular" who="#BertuzziMariaTeresa" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u60">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg144">Signor Presidente, il disegno di legge in esame reca la ratifica e l'esecuzione dell'Accordo di cooperazione nel campo della cultura, dell'istruzione e dello sport, sottoscritto nel 2004 tra l'Italia e la Bosnia Erzegovina.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg145">L'Accordo è finalizzato a costituire, promuovere ed aggiornare iniziative comuni tra i due Paesi nel campo culturale e dell'istruzione, anche tenendo conto degli specifici programmi dell'Unione europea e degli organismi internazionali a carattere regionale, con particolare riguardo all'Iniziativa Centro Europea e all'Iniziativa Adriatico-Ionica.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg146">Il documento rappresenta, inoltre, un valido strumento per la promozione della salvaguardia dei diritti umani e la lotta contro ogni forma di discriminazione, in un contesto ancora segnato dal recente conflitto e dalle tensioni fra le diverse popolazioni residenti in Bosnia Erzegovina.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg147">Si tratta di un Paese con cui l'Italia intrattiene da anni rapporti molto vivaci e nel quale è forte la richiesta di fruibilità della lingua e della cultura italiane. A tale riguardo si ricorda che l'insegnamento della lingua italiana è incoraggiato tramite l'erogazione di un contributo annuale fornito dal Ministero degli affari esteri, a sostegno delle attività dei lettorati e delle cattedre di italiano attivi presso le università di Sarajevo e Zenica. Questa attività di promozione ha reso già da alcuni anni l'italiano la seconda lingua straniera più studiata in Bosnia Erzegovina, dopo l'inglese.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg148">L'intesa, peraltro, è volta anche a favorire l'integrazione del Paese balcanico nei processi d'integrazione europea e nel quadro della cooperazione regionale, incoraggiando la sua partecipazione nel contesto di programmi multilaterali promossi dall'Unione europea e dagli altri organismi regionali. L'intento è altresì quello di rendere più agevole operare in modo congiunto fra i due Paesi per la conservazione, la tutela e la valorizzazione del patrimonio artistico e culturale, contrastando - anche mediante scambio di informazioni fra le rispettive forze di polizia - i trasferimenti illeciti di beni culturali.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg149">In dettaglio, l'accordo di 19 articoli definisce innanzi tutto gli scopi e gli ambiti della collaborazione, oltre alle modalità di organizzazione dei rapporti fra i competenti Ministeri ed enti. Si definisce l'impegno delle parti a sviluppare la cooperazione nei settori della musica, della danza, delle arti visive, del teatro e del cinema, a diffondere la conoscenza reciproca del patrimonio artistico e culturale dei due Stati, a favorire la collaborazione nel campo dell'istruzione e dei rapporti fra i giovani, a rafforzare la cooperazione nel campo editoriale e della stampa ed in quello della tutela dei diritti d'autore.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg150">L'impegno per una cooperazione nel settore della tutela dei beni ambientali, artistici, architettonici ed archeologici è previsto dall'articolo 13, mentre il successivo 14 pone l'obiettivo di intensificare la cooperazione anche nel campo dello sport.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg151">I successivi articoli definiscono le modalità operative per l'implementazione della cooperazione, attraverso la facilitazione degli ingressi e dei soggiorni delle persone dell'altra parte contraente, e la costituzione di una commissione mista per la redazione di appositi programmi pluriennali di cooperazione e la verifica dei risultati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg152">II disegno di legge di ratifica si compone di 4 articoli che dispongono, rispettivamente, l'autorizzazione alla ratifica, l'ordine di esecuzione, la copertura finanziaria e l'entrata in vigore. Gli oneri di missione sono valutati in 30.000 euro annui; le spese ulteriori sono quantificate in ulteriori 415.000 euro circa all'anno.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg153">L'articolo 3 provvede alle relative coperture, e stabilisce altresì un meccanismo di informazione alle Camere per situazioni che dovessero comportare scostamenti di bilancio rispetto alle previsioni attese. In conclusione, quindi, si propone l'approvazione da parte dell'Assemblea.</seg>
+            </u>
+            <note type="generalDiscussion">DISCUSSIONE GENERALE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u61">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg154">Dichiaro aperta la discussione generale. È iscritto a parlare il senatore Stucchi. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u62">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg155">Signor Presidente, mi stavo confrontando con i colleghi su questo provvedimento e il senatore Consiglio, che è un esperto per quanto riguarda le tematiche dello sport, ha confermato la bontà di questa ratifica che la senatrice Bertuzzi ha illustrato benissimo.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg156">Le finalità sono da noi condivise ed è per questa ragione che mi limito in questo momento a preannunciare il voto favorevole del nostro Gruppo.</seg>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Uras. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">URAS (Misto-SEL)</note>
+            <u ana="#regular" who="#UrasLuciano" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u63">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg157">Signor Presidente, vorrei sottolineare che questo è un accordo stipulato "appena" undici anni fa e che il Parlamento ratifica solo adesso. La motivazione della ratifica ritardata riguarda la copertura finanziaria di 500.000 euro, cioè poco più di una miseria nell'ambito delle disponibilità e delle dotazioni finanziarie dello Stato.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg158">Il Governo faccia pure accordi con altri Stati, ma almeno li porti alla ratifica dopo tre mesi. Se deve procedere alla ratifica dopo undici anni perché non trova una copertura finanziaria di 500.000 euro, è meglio che non faccia accordi.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u64">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg159">Dichiaro chiusa la discussione generale.</seg>
+            </u>
+            <note>Poiché la relatrice ed il rappresentante del Governo non intendono intervenire in sede di replica, passiamo all'esame degli articoli.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Passiamo alla votazione dell'articolo 1. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 2. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 3. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>Passiamo alla votazione dell'articolo 4. GAETTI</note>
+            <note>(M5S)</note>
+            <note>Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori.</note>
+            <note>(La richiesta risulta appoggiata)</note>
+            <note>Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4.</note>
+            <note>(Segue la votazione)</note>
+            <note>Il Senato approva.</note>
+            <note>(v. Allegato B)</note>
+            <note>.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">STUCCHI (LN-Aut)</note>
+            <u ana="#regular" who="#StucchiGiacomo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u65">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg160">Signor Presidente, confrontandomi con i colleghi, ribadisco il voto favorevole del Gruppo della Lega condiviso da tutti.</seg>
+            </u>
+            <note type="speaker">MANCUSO (AP (NCD-UDC))</note>
+            <u ana="#regular" who="#MancusoBruno" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u66">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg161">Signor Presidente, annuncio il voto favorevole del Gruppo e chiedo l'autorizzazione ad allegare il testo scritto della mia dichiarazione di voto al Resoconto della seduta odierna. PRESIDENTE. La Presidenza l'autorizza in tal senso.</seg>
+            </u>
+            <note type="speaker">BERTOROTTA (M5S)</note>
+            <u ana="#regular" who="#BertorottaOrnella" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u67">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg162">Signor Presidente, intervengo solo per dichiarare il voto favorevole del nostro Gruppo, anche se gradiremmo che si facesse un monitoraggio più attento sulle somme stanziate anche a favore dei Paesi stranieri. Questo monitoraggio, a nostro avviso, è inesistente, quindi ci auguriamo che per il futuro, anche se si parla di poche centinaia di migliaia di euro, a volte di milioni, sarebbe bene che si sapesse precisamente come vengono spesi.</seg>
+            </u>
+            <note type="speaker">GAETTI (M5S)</note>
+            <u ana="#regular" who="#GaettiLuigi" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u68">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg163">Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u69">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg164">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, nel suo complesso. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Costituzione in giudizio del Senato della Repubblica in un conflitto di attribuzione</head>
+            <note>(ore 10,52) Discussione e approvazione delle conclusioni della Giunta delle elezioni e delle immunità parlamentari</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u70">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg165">L'ordine del giorno reca la costituzione in giudizio del Senato della Repubblica in un conflitto di attribuzione sollevato dalla corte di appello di Palermo - sezione I civile.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg166">Con ricorso depositato il 9 maggio 2014, la corte di appello di Palermo, sezione I civile, ha sollevato conflitto di attribuzione tra poteri dello Stato nei confronti del Senato della Repubblica in relazione alla deliberazione con la quale l'Assemblea, nella seduta del 29 gennaio 2009, ha dichiarato che i fatti, oggetto di un procedimento civile, per i quali il signor Costantino Garraffa, senatore all'epoca dei fatti, è stato chiamato a rispondere, riguardano opinioni espresse da un membro del Parlamento nell'esercizio delle sue funzioni, ai sensi dell'articolo 68, primo comma, della Costituzione ( Doc. IV- ter, n. 5-A/XVI leg.). Il ricorso è stato dichiarato ammissibile dalla Corte costituzionale con ordinanza del 18 novembre 2014, n. 271, depositata in cancelleria il successivo 3 dicembre. Nella seduta del 14 gennaio 2015, la Giunta delle elezioni e delle immunità parlamentari ha espresso, all'unanimità, parere favorevole alla costituzione in giudizio del Senato dinanzi alla Corte costituzionale per resistere nel citato conflitto di attribuzione. Sulle conclusioni della Giunta può prendere la parola un oratore per Gruppo per non più di dieci minuti. Poiché nessuno chiede di intervenire, passiamo alla votazione delle conclusioni della Giunta delle elezioni e delle immunità parlamentari. GAETTI (M5S). Chiediamo che la votazione venga effettuata a scrutinio simultaneo mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori. (La richiesta risulta appoggiata). Metto ai voti le conclusioni della Giunta delle elezioni e delle immunità parlamentari in senso favorevole alla costituzione in giudizio del Senato della Repubblica dinanzi alla Corte costituzionale per resistere nel predetto conflitto di attribuzione sollevato dalla corte di appello di Palermo - sezione I civile. È approvata. La Presidenza è pertanto autorizzata a conferire mandato per la costituzione e la rappresentanza in giudizio del Senato ad uno o più avvocati del libero Foro.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Svolgimento di interpellanze e di interrogazioni: (2-00235, con procedimento abbreviato ex articolo 156-bis Regolamento) - Circolare Regione Veneto ai dirigenti scolastici su attacco terroristico a giornale Charlie Hebdo</head>
+            <note type="time">(ore 10,55)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u71">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg167">L'ordine del giorno reca lo svolgimento di un'interpellanza e di un'interrogazione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg168">Sarà svolta per prima l'interpellanza 2-00235 , con procedimento abbreviato, ai sensi dell'articolo 156- bis del Regolamento, su una circolare della Regione Veneto inviata ai dirigenti scolastici a seguito dell'attacco terroristico al giornale «Charlie Hebdo». Ha facoltà di parlare la senatrice Puppato per illustrare tale interpellanza.</seg>
+            </u>
+            <note type="speaker">PUPPATO (PD)</note>
+            <u ana="#regular" who="#PuppatoLaura" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u72">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg169">Signor Presidente, il giorno 8 gennaio 2015, in seguito all'attacco terroristico alla redazione del giornale «Charlie Hebdo», che ha sconvolto Parigi e l'Europa intera, l'assessore all'istruzione della Regione Veneto, Elena Donazzan, ha inviato una circolare a tutti i dirigenti scolastici in cui veniva loro richiesto di adoperarsi perché i genitori dei bambini musulmani presenti nelle scuole venete prendessero apertamente posizione contro la strage che si era appena consumata in quel di Parigi.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg170">Nella circolare si legge: «È stata colpita una capitale dell'Europa in uno dei simboli della nostra civiltà: la libertà di stampa e di espressione. Libertà sconosciute in altri Paesi del mondo, certamente impedite in quegli Stati a matrice islamica distanti culturalmente da noi, ma così pericolosamente vicini sia geograficamente che nelle comunicazioni sulla rete. Non può più essere un alibi per non affrontare il problema. Se non si può dire che tutti gli islamici sono terroristi, è evidente che tutti i terroristi sono islamici e che molta violenza viene giustificata in nome di una appartenenza religiosa e culturale..» Questo scrive Elena Donazzan ai dirigenti scolastici della Regione Veneto e chiede la condanna di tali atti, perché se alcuni islamici «hanno deciso di venire a vivere in Europa, in Italia, in Veneto è giusto che sappiano adeguarsi alle regole e alle consuetudini del nostro popolo e della nostra civiltà». Elena Donazzan dice inoltre: «Abbiamo visto in queste ore fallire il modello di integrazione finora adottato in Europa (...). Certamente il primo cambio di rotta è una ferma condanna senza alcun distinguo tra italiani, francesi o islamici, se questi ultimi vogliono veramente essere considerati diversi dai terroristi che agiscono gridando "Allah è grande"» dovranno esprimerlo nelle scuole.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg171">È evidente che, a giudizio degli interpellanti, l'utilizzo di circolari con espressioni di tale gravità, inadeguate in merito ad un problema complesso e delicato, lasci basiti e preoccupati. Le strumentalizzazioni politiche fatte sulla pelle di ragazzi, giovani studenti, e delle loro famiglie, in un momento delicato come quello attuale non sono solo gravi ma anche irresponsabili e vanno condannate senza appello.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg172">Nelle scuole non dovrebbe mai prevalere l'intolleranza dettata dalla paura e dall'ignoranza, ma il senso di responsabilità e di comunanza; è necessario che i ragazzi vengano coinvolti in discussioni e iniziative che insegnino loro gli ideali di pace e fratellanza, proprio a prescindere dalle confessioni religiose.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg173">Si tratta di una colpevolizzazione senza ragioni di ragazzi, certamente scossi emotivamente dalla drammaticità di questi fatti e che potrebbero vivere con angoscia, preoccupazione e dolore la richiesta fatta alle loro famiglie di scusarsi pubblicamente e condannare atti da loro non commessi né condivisi. Sono quegli stessi ragazzi che a Conegliano, Treviso, Oderzo e Montebelluna, la mia città, hanno dato origine per diversi sabati e in molte piazze a flash mob di solidarietà per tutte le vittime della strage di Parigi. Sono ragazzi di ogni nazionalità, cultura, lingua e religione e si sono tutti uniti sotto l'insegna «Je suis Charlie». La tragedia di Parigi esige, al contrario, una forte risposta di coesione e unità tra le diverse culture presenti nella nostra società e nelle nostre scuole; tanto vale prenderne atto. È indispensabile che le istituzioni e chi le rappresenta siano in grado di gestire le differenze culturali e religiose tanto più nei delicatissimi contesti scolastici. Si ritiene, pertanto, maturo il tempo per una nuova edizione da parte del Ministero dell'istruzione, dell'università e della ricerca delle linee guida per l'integrazione degli studenti stranieri, che possa offrire indicazioni specifiche ed aggiornate dal punto di vista normativo, ma anche nuovi orientamenti didattici che vedano nella gestione delle classi eterogenee la vera sfida per la scuola di oggi. Considerato tutto questo si chiede, invece di promuovere iniziative come quella dell'assessore Donazzan, che nel nostro Paese, fin dalle prime presenze di studenti con cittadinanza non italiana, dirigenti e docenti lavorino per costruire un dialogo continuo, nonostante le difficoltà di bilancio in cui versano molte scuole, per la realizzazione di tutti i progetti volti al miglioramento dell'offerta formativa. Si chiede di sapere se il Governo sia a conoscenza del contenuto dell'assurda, pericolosa circolare dell'assessore all'istruzione della regione Veneto, quali siano le sue valutazioni in merito e come intenda intervenire in questa truce vicenda. Si chiede, altresì, quali iniziative intenda promuovere per impedire che si verifichino nuovamente interferenze di tale gravità, connotate da approcci fortemente ideologici, non culturali e che per questo non possono che nuocere ai nostri studenti e, in primis, alle loro famiglie, nonché al lavoro di dirigenti scolastici e docenti che da tempo operano in condizioni difficili per fornire ai ragazzi quell'educazione interculturale che la globalizzazione, a prescindere dalle ideologie, rende ormai fattore indispensabile per una coesione comune, come ha detto il nuovo Presidente della Repubblica qualche giorno fa, fondamentale per far crescere una comunità di diversi che si rispettano l'un l'altro. PRESIDENTE. Il rappresentante del Governo ha facoltà di rispondere all'interpellanza testé svolta.</seg>
+            </u>
+            <note type="speaker">TOCCAFONDI</note>
+            <note type="role">sottosegretario di Stato per l'istruzione, l'università e la ricerca</note>
+            <u ana="#guest" who="#ToccafondiGabriele" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u73">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg174">Signor Presidente, la delicatezza delle questioni oggetto dell'interpellanza richiede una risposta che, in primo luogo, prenda in considerazione i rapporti tra gli uffici scolastici regionali, la Regione con il suo assessorato, i dirigenti scolastici e, quindi, il MIUR.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg175">Infatti, la delicatezza dei contenuti della lettera dell'assessore regionale all'istruzione della Regione Veneto è data dal fatto che questi appaiono frutto di una travalicazione delle funzioni proprie. Se è vero che l'assessorato regionale, a mente dei principi costituzionali, ha voce e competenza per la definizione delle reti di scuola e dell'offerta formativa, è pur vero che le direttive e gli indirizzi che riguardano la didattica esorbitano dalle competenze dell'assessorato, facendo capo invece alle scuole, agli uffici scolastici regionali e, quindi, a questo Ministero.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg176">Tanto si evidenzia in premessa, proprio perché è importante chiarire, anche formalmente, come l'invito dell'assessore ai dirigenti scolastici della Regione Veneto non può che essere valutato come un'esternazione personale non ricompresa nei compiti che istituzionalmente riguardano i rapporti tra scuole e le Regioni.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg177">A conferma di ciò, si sottolinea che la trasmissione della lettera a firma dell'assessore è avvenuta attraverso una casella di posta elettronica della Regione stessa, con propria mailing list. Per quanto di conoscenza del Ministero, difatti, non è stato informato, né coinvolto l'Ufficio scolastico regionale del Veneto. Ciò posto, si condivide in linea generale quanto indicato nell'interpellanza, considerata la fase complessa e delicata che vive il Paese e l'intera Europa dopo la tragedia di Parigi a fronte della quale l'impatto sulle scuole è determinante. Proprio in considerazione dell'importanza nella formazione degli studenti di tutte quelle attività finalizzate all'integrazione degli alunni con cittadinanza non italiana, questo Ministero, già da tempo, attua politiche di inclusione. Ricordo, infatti, che nell'anno 2006 il Ministero ha emanato le linee guida per l'accoglienza e l'integrazione degli alunni stranieri che sono state aggiornate lo scorso anno riconsiderando la realtà del mondo dei migranti, nella società odierna profondamente cambiata, nell'ottica di una via interculturale all'integrazione e offrendo alle scuole strumenti metodologici più appropriati per un reale inserimento. A tal proposito, sarà avviata un'azione di peer education in contesti multiculturali che coinvolgerà studenti stranieri di seconda generazione come tutor di studenti appena giunti nel nostro Paese. Con il recente decreto ministeriale n. 718 del settembre 2014 è stato costituito l'Osservatorio nazionale per l'integrazione degli alunni stranieri e l'educazione interculturale, che si propone il monitoraggio dei processi d'integrazione in atto, la formulazione di proposte e la diffusione delle migliori pratiche al riguardo già presenti sul territorio. Lo scorso 18 dicembre sono state trasmesse le Linee di indirizzo per favorire il diritto allo studio degli alunni adottati, ciò al fine di fornire conoscenze e linee di indirizzo teorico-metodologiche; lo strumento prescelto mira quindi anche ad aiutare i bambini e i ragazzi giunti in Italia tramite l'adozione internazionale, le loro famiglie e le istituzioni scolastiche che li accolgono. Il prossimo 17 febbraio sarà presentato il nuovo Rapporto nazionale sugli alunni con cittadinanza non italiana. Infine, sono tutt'ora in corso iniziative per la formazione dedicata ai dirigenti scolastici che operano in contesti multiculturali e di grande complessità. Per quanto riguarda la Regione Veneto, si sottolinea che questo territorio è, dopo la Lombardia, la Regione che registra il più alto numero di studenti con cittadinanza non italiana. Nello scorso anno scolastico se ne contano 90.664. Ad oggi la percentuale degli alunni con cittadinanza non italiana sul totale della popolazione scolastica si attesta intorno al 12,7 per cento. A testimonianza delle politiche di integrazione e inclusione intraprese da tempo nel sistema scolastico anche Veneto, i dati confermano l'equità complessiva degli esiti degli scrutini e dei risultati negli apprendimenti degli studenti veneti. I risultati degli alunni di seconda generazione, soprattutto a partire dalla scuola secondaria di primo grado, tendono a discostarsi meno col progredire degli anni, segno di una politica scolastica relativa all'integrazione costante, diffusa e anche di qualità. In particolare, al fine di utilizzare nel modo più efficace tutte le risorse umane e finanziarie disponibili presenti e le collaborazioni offerte nel territorio da enti locali ed associazioni, le scuole venete hanno operato, sotto l'egida dell'Ufficio scolastico regionale, con una logica sistemica nella realizzazione delle azioni, con la diffusione ed il mantenimento di ben 48 reti di scuole autonome per l'integrazione, distribuite su tutto il territorio, nonché di patti educativi territoriali. L'Ufficio scolastico regionale attesta che nel Veneto sono stati approvati e realizzati 613 progetti d'integrazione, gli alunni con cittadinanza non italiana coinvolti nelle azioni sono stati pari a 79.650, mentre i docenti formati e/o esperti anche nell'insegnamento di L2 sono stati 359. In conclusione, così come sancito dall'articolo 3 della nostra Costituzione, questo Ministero è costantemente impegnato a garantire che ad ogni alunno sia assicurata la possibilità di ottenere i più elevati livelli di apprendimento indipendentemente dalle sue condizioni di partenza e di origine, nella piena convinzione che solo un politica educativa basata sull'integrazione e sull'inclusione sociale possa concorrere al progresso di una comunità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PUPPATO (PD)</note>
+            <u ana="#regular" who="#PuppatoLaura" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u74">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg178">Signor Presidente, ringrazio moltissimo il Sottosegretario per la risposta, che mette in evidenza un'attività davvero consistente. A maggior ragione è censurabile il comportamento dell'assessore all'istruzione della Regione Veneto, per le espressioni usate e per la volontà di incidere negativamente nell'enorme lavoro che i docenti stanno svolgendo e di cui abbiamo preso atto attraverso i dati che il Sottosegretario ha oggi fornito, rispetto al grande ed importante tema dell'integrazione. L'attività che sta svolgendo il Ministero dell'istruzione, dell'università e della ricerca nell'ambito dell'Osservatorio e delle politiche di aggiornamento delle linee guida, così come l'aver dichiarato di voler procedere ad un'attentissima valutazione dei risultati che vengono via via conseguiti anche dal punto di vista scolastico dagli stessi ragazzi che arrivano in Italia, sia come migranti, sia come bambini adottati da famiglie venete, ritengo diano certezza della volontà autentica e sicuramente estesissima di procedere puntando moltissimo su questo aspetto, per far crescere questo Paese con una cultura dell'unità e, nel contempo, della solidarietà e dell'assoluta attenzione verso le culture che si inseriscono nella cultura occidentale ed europea nella quale viviamo. Credo che questa sia la strada giusta. È per noi un motivo, per alcuni aspetti, di sofferenza e anche di forte disagio (ragione per la quale abbiamo inteso rappresentare questo disagio in questa interpellanza) vivere in una Regione che è - ahinoi - governata, dal punto di vista dell'istruzione, da un'assessore che non fa mistero delle sue simpatie fasciste e che, purtroppo, coglie (e non è la prima volta: ne abbiamo avuto esempi anche nel recente passato) ogni significativo evento per riuscire a promuovere tensioni e divisioni e a mettere in luce quella, per fortuna, solitaria - e quindi molto, molto minoritaria, anche nella società veneta - cultura del rifiuto e della divisione. Pertanto, Sottosegretario, la ringrazio particolarmente e ringrazio il Ministro e tutto il Ministero per ciò che stanno facendo affinché si continui nella politica di intervento attivo e proattivo per le politiche d'integrazione. Auspichiamo che questa sia l'ultima occasione di questo genere che dobbiamo vivere. Voglio anche rappresentarle, signor Sottosegretario, che questa interpellanza è nata, per la verità, da un disagio profondo che hanno vissuto i dirigenti scolastici e gli stessi docenti, che ci hanno rappresentato immediatamente questa circolare come un atto violento contro la loro politica educativa e didattica. La ringrazio, quindi, per la vicinanza, anche a nome di tutti coloro che lavorano quotidianamente e non blaterano, invece, in maniera ideologica e superficiale come l'assessore Donazzan.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-01317) - Tutela diritto del lavoro persone disabili in provincia di Ancona</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u75">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg179">Segue l'interrogazione 3-01317 sulla tutela del diritto al lavoro delle persone disabili in provincia di Ancona. Il rappresentante del Governo ha facoltà di rispondere a tale interrogazione.</seg>
+            </u>
+            <note type="speaker">TOCCAFONDI</note>
+            <note type="role">sottosegretario di Stato per l'istruzione, l'università e la ricerca</note>
+            <u ana="#guest" who="#ToccafondiGabriele" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u76">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg180">Signor Presidente, gli onorevoli interroganti - con il presente atto parlamentare - richiamano l'attenzione del Governo sulla richiesta di accesso agli atti formulata dall'associazione «Luca Coscioni» al Centro per l'impiego di Ancona al fine di conoscere lo stato dell'attuazione della legge n. 68 del 1999 sul diritto al lavoro dei disabili.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg181">Al riguardo, rappresento che la Provincia di Ancona - espressamente interpellata sulla questione dai competenti uffici del Ministero del lavoro e delle politiche sociali - ha reso noto che il Centro per l'impiego di Ancona ha dato seguito alle istanze di accesso agli atti presentate, il 4 luglio 2014 e il 20 ottobre 2014, dall'associazione «Luca Coscioni», con nota del 4 novembre 2014.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg182">Nello specifico, il predetto Centro per l'impiego ha comunicato che, al 31 dicembre 2013, risultavano essere 1.997 i disabili iscritti nella graduatoria prevista dalla legge n. 68 del 1999, sebbene solo una parte di essi era interessata all'inserimento in azienda. Erano, invece, 52 i soggetti iscritti nelle graduatorie previste dal comma 2 dell'articolo 18 della legge n. 68 del 1999 (profughi, orfani, coniugi superstiti di coloro che siano deceduti per causa di lavoro, di guerra o di servizio).</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg183">Il Centro per l'impiego di Ancona ha, inoltre, precisato che, alla data del 27 ottobre 2014, sono stati effettuati nelle aziende obbligate un numero di inserimenti di lavoratori disabili, tramite assunzioni e tirocini, pari a: 224 per l'anno 2010; 199 per l'anno 2011; 173 per l'anno 2012; 144 per l'anno 2013; 157 per l'anno 2014. Pertanto, la questione segnalata dall'onorevole interrogante ha già ottenuto una soluzione positiva nei termini pocanzi rappresentati.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg184">Per completezza d'informazione, inoltre, passo ad illustrare gli ulteriori dati -aggiornati al 31 dicembre 2014 - forniti dal competente Centro per l'impiego di Ancona in ordine alle tematiche in esame. In particolare, il predetto centro per l'impiego ha comunicato che - al 31 dicembre 2014 - risultano essere 2.253 i disabili iscritti nella graduatoria prevista dalla legge n. 68 del 1999, mentre 62 sono i soggetti iscritti nelle graduatorie previste dal comma 2 dell'articolo 18 della legge n. 68 del 1999. Informo altresì che, ad oggi, presso il Centro per l'impiego di Ancona prosegue l'attività di collocamento obbligatorio per l'anno 2014 attraverso lo strumento della selezione.</seg>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg185">Da ultimo, non posso che ribadire l'attenzione riservata dal Ministero del lavoro e delle politiche sociali al tema delle disabilità ed, in particolare, a quello del collocamento mirato dei disabili.</seg>
+            </u>
+            <note type="speaker">FUCKSIA (M5S)</note>
+            <u ana="#regular" who="#FucksiaSerenella" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u77">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg186">Signor Presidente, ringrazio il Sottosegretario per la sollecita risposta alla mia interrogazione, anche se mi lascia parzialmente soddisfatta. Purtroppo, il tema dell'inserimento lavorativo delle persone disabili nel nostro Paese è una questione aperta che urge soluzioni. Partiamo da alcuni numeri relativi proprio alla Provincia di Ancona, di cui lei ha parlato. Nella famosa documentazione consegnata dal Centro per l'impiego di Ancona al segretario dell'associazione «Luca Coscioni», peraltro cinque mesi dopo la sua richiesta, emergono dati allarmanti sul rispetto della legge n. 68 del 1999: nel settore privato, per l'anno 2014, su 273 persone invalide da assumere per obbligo di legge, ne sono state inserite solo 116; per il pubblico non abbiamo dati chiari, dunque non è possibile precisare gli inserimenti effettuati. Il problema, però, non è limitato alla Provincia di Ancona, ma è purtroppo di carattere nazionale; non sono io a dirlo, ma gli ultimi dati della 7ᵃ relazione al Parlamento sullo stato di attuazione della legge n. 68 del 1999 per gli anni 2012-2013. Il documento ci consegna un quadro sconfortante: si riconferma che su 267.000 iscritti in elenco fino al 2013, abbiamo un trend di inserimento negativo, come testimoniano anche i dati riferiti dal Sottosegretario. Stiamo parlando di una forza lavoro inutilizzata, che potrebbe incidere sulla crescita del nostro Paese. Infatti, l'Organizzazione internazionale per il lavoro (ILO), nel suo rapporto 2012 sull'occupazione, segnalava che il non impiego dei portatori di handicap fa perdere complessivamente dall'1 al 7 per cento del PIL mondiale. Questo è un potenziale di capitale umano sprecato che, oltre a far perdere punti sul PIL, rappresenta per l'Italia un costo sociale non trascurabile! L'Italia deve impegnarsi su questo tema e subito. Ricordo, inoltre, che il 4 luglio 2013 la Corte di giustizia europea ha condannato il nostro Paese per non aver adottato regole che garantiscono un adeguato inserimento professionale delle persone disabili. La Corte ha definito parziale ed insufficiente la nostra normativa a tutela dei lavoratori disabili. Siamo nel 2015 e nulla è stato fatto. Faccio presente la legge quadro n. 104 del 1992, la legge n. 381 del 1991 sulla disciplina delle cooperative sociali, la legge n. 68 del 1999, la legge n. 216 del 2003 per la parità di trattamento in materia di occupazione, ma siamo ancora carenti. Signor Sottosegretario, le chiedo, dunque, di sollecitare il suo Ministero ad adeguare quanto prima la normativa italiana agli standard europei di tutela del lavoro delle persone disabili. L'Italia non ha bisogno di un'altra procedura d'infrazione e sopratutto di altre multe salate da corrispondere all'Europa. Naturalmente, non bisogna fermarsi ad una rivisitazione normativa; bisogna promuovere una cultura ed una promozione della tutela dei disabili e soprattutto una politica nazionale che investa e valorizzi il lavoro dei disabili. Il nostro Paese non può continuare a sprecare importanti risorse e con esse opportunità importanti anche per la ripresa. PRESIDENTE. Lo svolgimento di interpellanze e di interrogazioni all'ordine del giorno è così esaurito.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">PICCOLI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PiccoliGiovanni" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u78">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg187">Signor Presidente, intervengo brevemente, riprendendo la risposta del Sottosegretario e il merito dell'interpellanza svolta questa mattina a proposito della lettera dell'assessore Donazzan ai dirigenti scolastici della Regione Veneto. Io credo che la risposta del Sottosegretario abbia posto in evidenza come la Regione Veneto abbia messo in atto una molteplicità di interventi e di progetti che vanno proprio in direzione dell'integrazione. Dopo aver ricordato che ciò si iscrive nella tradizione dell'accoglienza veneta, passo ad evidenziare due aspetti: in primo luogo, mi pare che la lettera della Donazzan non ponga un problema di coercizione, di strumentalizzazione e di denigrazione, come sembra essere stato detto, ma pone invece due questioni essenziali: la prima che attiene alla libertà di stampa e, a partire da questa, alla libertà in senso lato che va tutelata con ogni attenzione e, in secondo luogo, la criticità del modello multiculturale che proprio in Francia, qualche settimana fa, ha visto un punto di debolezza o quantomeno ha mostrato la necessità di un progetto di integrazione che interpella e pone dei problemi importanti alla nostra comunità. Dunque io credo che la difesa dei valori e delle peculiarità della nostra comunità vada attuata assolutamente attraverso azioni coraggiose. Concludo, Presidente, dicendo che contrariamente all'obiettivo dell'interpellanza, l'assessore Donazzan vada ringraziata perché ha posto con chiarezza un obiettivo educativo a partire dal quale è necessario difendere con coraggio la nostra millenaria civiltà da attacchi che lo stesso Presidente della Repubblica ha evidenziato nel suo discorso di insediamento.</seg>
+            </u>
+            <note type="speaker">PAGLINI (M5S)</note>
+            <u ana="#regular" who="#PagliniSara" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u79">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg188">Signor Presidente, chiedo fin da subito l'autorizzazione affinché il mio intervento completo venga allegato al resoconto stenografico della seduta odierna dato che probabilmente non riuscirò ad esporre la questione integralmente. Parlerò della pineta di Castagneto Carducci a proposito della quale sono già intervenuta lo scorso dicembre. Questa bellissima pineta, dove recentemente ho fatto un sopralluogo, sorge sopra le dune della Marina di Castagneto Carducci su cui sono stati piantati, fin dal periodo granducale, pini che sono diventati parte integrante del paesaggio toscano. Aree come la pineta di Castagneto Carducci sono, giustamente, soggette al PIT (Piano paesaggistico della Toscana) in cui si legge: «Non è ammessa la realizzazione di nuovi campeggi e villaggi turistici, così come l'ampliamento di quelli esistenti all'interno delle pinete costiere, nei sistemi dunali e nelle aree caratterizzate dalla presenza di sistemi forestali di valore paesaggistico e naturalistico». È una norma cristallina e di facile comprensione per tutti perché volta alla tutela di un bene paesaggistico che è patrimonio comune di tutti i cittadini, di quelli di oggi e di quelli che verranno. Il piano attuativo, così come è stato concepito e approvato dal consiglio comunale di Castagneto Carducci, prevede un ampliamento a favore dei camping in un'area retrodunale boscata in contrasto con le norme del piano regionale. L'amministrazione comunale avrebbe dovuto confrontarsi con gli uffici tecnici e politici della Regione Toscana. Ci chiediamo: il Comune si è confrontato con la Regione per la conferenza dei servizi prevista dalle salvaguardie dell'articolo 38 del Piano paesaggistico? Ricordiamo che l'area di Marina di Castagneto Carducci è sotto osservazione da parte della stessa Regione Toscana, tant' è che nella scheda dell'ambito numero 13, Val di Cecina, allegata al piano paesaggistico, la Regione nota con preoccupazione che in questo territorio lo sviluppo di case per vacanze e campeggi è associato a un pesante carico turistico estivo sul sistema dunale, già fortemente alterato dai processi di erosione costiera, e segnala come territori a rischio proprio le zone costiere di Marina di Castagneto Carducci. Nuove urbanizzazioni di quest'area sono state vietate in favore del recupero e della riqualificazione di quel patrimonio paesaggistico che fa della Toscana il fiore all'occhiello dell'offerta turistica italiana nel mondo. Offerta turistica e quindi occupazione che va protetta da un malinteso sviluppo che prospetta la deformazione di quell'ecosistema e di quel paesaggio le cui radici sono storiche e sono proprio il valore aggiunto dell'offerta dell'imprenditoria turistica italiana sul mercato internazionale. Il Movimento 5 Stelle è da sempre fautore di uno sviluppo sostenibile e rispettoso dell'ambiente. Non è possibile stare in silenzio di fronte a quanto avviene sul territorio, per questo ribadisco la richiesta di consegnare alla Presidenza il mio intervento completo perché resti agli atti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg189">PRESIDENTE. La Presidenza ne prende atto e l'autorizza in tal senso.</seg>
+            </u>
+            <note type="speaker">CASTALDI (M5S)</note>
+            <u ana="#regular" who="#CastaldiGianluca" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u80">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg190">Signor Presidente, purtroppo il 24 gennaio si è verificato il cedimento del muro di contenimento dei giardini napoletani di palazzo D'Avalos a Vasto, la mia città. Per intenderci, lo storico palazzo del marchese D'Avalos è entrato nelle pagine della storia recente per la famosa «foto di Vasto», foto il cui significato è crollato da tempo. È sede di importanti eventi culturali e anche internazionali, come la mostra «I Rossetti tra Vasto e Londra». Il danno non è solo per la comunità vastese ma per l'intero Abruzzo e tutto il Meridione d'Italia, che si vede mutilato di un monumento che ne rappresenta la storia e la cultura. È inutile elencare le pagine di storia, che puntualmente mi ha inviato il cittadino architetto Francescopaolo D'Adamo, che vedono il palazzo D'Avalos protagonista. Già nel 1899 l'ingegnere Laccetti giustificava questi eventi con l'eccessiva dispersione di acqua nel territorio. La tesi fu confermata nel 1956 dai tecnici del genio civile che operarono nella famosa - purtroppo - frana della città del Vasto. Nel 2010 alcuni privati cittadini segnalarono delle criticità. Ancora, nel 2012, si verificò il crollo delle colonnine della ringhiere di protezione della balconata. Ad oggi, nonostante i fenomeni precursori e le proposte del passato, nulla è stato fatto per evitare ciò che purtroppo è accaduto su un edificio di rilevante importanza storica per la città del Vasto e per l'intera Regione Abruzzo essendo sede di musei archeologici, costumi antichi e di una pinacoteca. Nel 2013, nel corso del Consiglio comunale, furono proposti emendamenti per inserire, tra gli obiettivi del piano strategico della macro area Vasto-San Salvo, anche il consolidamento idrogeologico del versante est della città e l'installazione di centraline di monitoraggio. Recentemente in visita a Vasto, Franco Gabrielli, capo della protezione civile, ha ricordato che bisogna assolutamente intervenire. Adesso, come al solito, tutti si affrettano ad inseguire gli eventi. Il presidente della Regione D'Alfonso si è precipitato a visitare la città e, a favore di telecamere e stampa, ha segnalato la necessità di agire immediatamente. Fa un po' sorridere il fatto che gli stessi che hanno "de-vastato" la nostra splendida Vasto oggi a chiacchiere si vogliano impegnare ad attuare misure urgenti. Di atti veri finora in Regione Abruzzo vi è solo la risoluzione del cittadino pentastellato Smargiassi, che impegna la Giunta a stanziare un congruo contributo. Peccato che la successiva delibera, la delibera n. 54 del 27 gennaio 2015, emanata dal pluriimputato presidente D'Alfonso, tesserato PD, rispecchi il "renzusconismo": zero euro ed una marea di inutili chiacchiere, fuffa. Auspico misure urgenti. Mi rivolgo anche a lei, Presidente, che ha visitato la mia città pochi giorni fa. È ora di finire di prendere per i fondelli i cittadini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per lo svolgimento e la risposta scritta ad interrogazioni</head>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u81">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg191">Signor Presidente, colleghi, onorevoli cittadini che ci ascoltate da fuori, sono qui a richiamare l'interrogazione 3-01337 presentata il 22 ottobre del 2014 alla quale, ad oggi, non è stata data risposta. Tratta della storia di un motopeschereccio di Mazara del Vallo, il Chiaraluna, al quale, in data 22 gennaio 2011, è stato ordinato dal comando generale delle Capitanerie di porto e da un aeromobile della Guardia di finanza, di intercettare un barcone con dei migranti a bordo che si trovava in forte difficoltà. Il motopeschereccio ha interrotto la battuta di pesca per dirigersi nella zona indicata. Ha tratto ben 38 persone in salvo e si è diretto verso il porto di Lampedusa. Nella fase di entrata nel porto, a causa delle difficili condizioni meteorologiche, il motopeschereccio subendo vari scarrocciamenti, ha riportato danni ingenti sia alla carena che al motore. Pensi, signor Presidente, che i danni ammontano a circa 250.000 euro. All'epoca dell'accaduto sia il comandante del motopeschereccio che l'armatore hanno ricevuto un encomio per l'azione svolta. Tuttavia, rispetto alla cifra che hanno anticipato, hanno ricevuto soltanto 18.000 euro. Ormai è dal dicembre 2013 che il motopeschereccio è fermo e non può essere messo in mare, con conseguenti gravi ripercussioni per l'armatore e per le famiglie che vi lavorano. Consideri che in data 5 marzo 2012 il Ministero dell'interno si è reso disponibile a risarcire interamente il danno subito dal motopeschereccio. Pertanto, signor Presidente, si tratta di uno di quei casi da prendere immediatamente in considerazione, cercando la soluzione ottimale. Se mi consente la battuta, di encomio non si può vivere.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">AMIDEI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#AmideiBartolomeo" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u82">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg192">Signor Presidente, interverrò riferendo le mie osservazioni anche al Sottosegretario qui presente in merito all'interrogazione della senatrice Puppato. Prima di tutto vorrei segnalare il fatto che oggi la stessa interrogazione della senatrice Puppato, in data 14 gennaio 2015, avanza presso altre interrogazioni, quali le mie, senza avere avuto risposta. Faccio riferimento a due interrogazioni: la 4-02978 dell'11 novembre 2014 e la 4-02923 del 30 ottobre 2014. Tra l'altro, non trattano cose da poco conto: la prima riguarda l'Istituto nazionale «Strampelli», che è il famoso istituto tecnico e agrario sperimentale destinato a chiudere; l'altra interrogazione riguarda invece gli eventi calamitosi che hanno colpito il Veneto. Un'altra interrogazione alla quale intendo far riferimento è la 3-01566 del 15 gennaio 2015 (quindi recente e con carattere d'urgenza) che riguarda invece le vicende dell'ufficio scolastico provinciale di Rovigo. Approfitto della presenza in Aula del Sottosegretario, al quale chiedo gentilmente di prestarmi attenzione (anche se comunque avrà modo di leggere il mio intervento, mi auguro). In sostanza, è previsto l'accorpamento dell'ufficio scolastico provinciale di Rovigo con quello di Padova, che noi reputiamo non essere corretto, né motivato. Pertanto, inviterei il Governo, cortesemente, a dare quanto prima risposta sia alle due interrogazioni che ormai sono datate non poco, che a questa, urgente, del 15 gennaio 2015. Vorrei adesso intervenire sulla questione sollevata in Aula stamattina e dibattuto in merito alla circolare inviata dall'assessore regionale Donazzan. Mi dispiace che la senatrice Puppato non sia in Aula, ma sicuramente avrà modo di leggere il mio intervento e anche quello del senatore Piccoli, che mi ha preceduto. Mi dispiace che la senatrice abbia posto la questione in modo conflittuale, piuttosto che tentare di capire le ragioni con cui è intervenuto l'assessore Donazzan, a seguito di un fatto a dir poco tragico, quale quello inerente «Charlie Hebdo». Dico in modo conflittuale, al punto tale da dire, in un passaggio testuale, che si tratta di una «colpevolizzazione senza ragioni di giovani ragazzi». Vorrei che mi spiegasse dove sta questa colpevolizzazione. Non ho notato in alcun passaggio dell'assessore Donazzan una colpevolizzazione senza ragioni di giovani ragazzi. Non c'è una colpevolizzazione, se non il fatto di trovarsi di fronte a questioni di carattere religioso e culturale che non hanno nulla a che fare, invece, con ragioni di programmi, di sistemi e di azioni di integrazione che, come abbiamo potuto sentire dallo stesso Sottosegretario, sono nel Veneto molto ricercate, al punto che ci troviamo di fronte a 613 progetti di integrazione. Ripeto: 613 progetti, con una percentuale di studenti tra le più alte d'Italia (90.660). PRESIDENTE. La prego di concludere, senatore Amidei, sintetizzando il suo secondo intervento. AMIDEI (FI-PdL XVII). Arrivo alla conclusione, signor Presidente. Mi dispiace - ripeto - che la senatrice Puppato non abbia colto il senso delle parole dell'assessore Donazzan, quando invece queste richiamavano l'attenzione, nell'interesse degli stessi ragazzi e delle famiglie islamiche che hanno deciso di vivere e di costruire una famiglia in Italia - ripeto, nel loro interesse - circa la necessità di arrivare ad una condanna di questi atti, che deve e doveva avvenire. Non si può pensare che questi ragazzi, cui fa riferimento, siano gli stessi ragazzi di Conegliano, Treviso o Oderzo. Non è vero che sono gli stessi ragazzi; saranno una parte di loro. Ma l'attenzione andava richiamata in maniera diffusa, che è quello che l'assessore Donazzan ha fatto. Attendo la risposta alle interrogazioni, signor Presidente.</seg>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u83">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg193">Signor Presidente, spero anche per lei che siamo alla fine di questa sequenza di interventi. Vorrei sollecitare la risposta a due interrogazioni. La prima è l'interrogazione a risposta scritta 4-02972 dell'11 novembre scorso, sulla questione dell'endocardite. Si tratta di una malattia gravissima e mortale, che probabilmente non è sufficientemente monitorata e che ha gravi costi per il Sistema sanitario nazionale (oltre naturalmente a quelli in termini di vite umane e per la salute di molte persone). Sarebbe opportuno diffonderne una maggiore conoscenza, specie perché essa in molti casi è legata a pratiche odontoiatriche. Vorrei inoltre sollecitare la risposta all'interrogazione 3-01418 , del 13 novembre scorso, in cui chiedo spiegazioni al Governo su come mai l'Italia abbia votato contro un documento a favore della famiglia nel Consiglio dei diritti umani delle Nazioni Unite.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">SCIBONA (M5S)</note>
+            <u ana="#regular" who="#ScibonaMarco" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u84">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg194">Signor Presidente, colleghi, la recente sentenza emessa alla fine del processo contro numerosi No TAV per i fatti del 27 giugno e del 3 luglio 2011 è la dimostrazione di come, da molto tempo, il potere esecutivo abbia minato il potere legislativo e tenti, sempre di più, di invadere il campo del potere giudiziario. L'immane mare di miliardi che genera e genererà il TAV conduce - per ovvi motivi, esclusi quelli a favore della collettività - i cosiddetti soggetti decisori (Governo &amp; C.) a reprimere il dissenso, specialmente quello motivato ed informato (cioè quello che fa più paura). E ciò lo ha fatto e continua a farlo - vedi le dichiarazioni di Ministri - condizionando, anche inconsapevolmente, il potere giudiziario. La scelta di mandare centinaia di uomini il 27 giugno 2011 - nonostante l'inesistenza del progetto esecutivo e l'assenza di richieste europee per il TAV - non è forse la prova dell'interferenza del potere esecutivo sugli accadimenti successivi, sulla giusta reazione dei manifestanti contro l'arbitrarietà dell'attacco in assenza delle esigenze internazionali, come ci ha candidamente raccontato il prefetto Di Pace durante la sua testimonianza al processo? Quest'uomo, alto funzionario del potere esecutivo e responsabile dell'ordinanza che ha consentito l'intervento del 27 giugno, ha candidamente ammesso di nulla sapere di CIPE, di progetto esecutivo e di accordi internazionali. Lo ha detto lui, sempre durante la sua testimonianza. Nonostante ciò, ha emesso un'ordinanza in assenza dei presupposti indicati dalla Corte costituzionale, quindi illegittima, così come le successive (siamo ad oltre venti). E poi, lo stesso processo è stato imbastito dal potere esecutivo (Digos, Ministero dell'interno) in quasi totale autonomia, con solo due o tre deleghe di indagini da parte dei pm, embedded del potere esecutivo. I testi ascoltati a carico dei No TAV sono tutti sotto il controllo del potere esecutivo e molti di questi si sono persino costituiti parte civile. È stato un processo bilanciato tra accusa e difesa? Non mi pare. Quindi: prove di controllo del potere esecutivo su chi deve esercitare l'azione penale, magistratura inquirente sotto il controllo del Governo, il tutto accompagnato da informazioni unidirezionali da parte dei media. I risultati sono processi anomali. Forse non è stato un processo politico, ma un processo fortemente voluto e condizionato dal potere esecutivo sì. La volontà era di trasformare un problema politico in un problema di ordine pubblico. Bravi! Per ora questa arma di distrazione di massa ha funzionato, per il prosieguo vedremo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Airola.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg195">Un'altra volta poi parleremo anche dei noleggi a caldo del cantiere.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FUCKSIA (M5S)</note>
+            <u ana="#regular" who="#FucksiaSerenella" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u85">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg196">Signor Presidente, oggi è la giornata della malasanità animale. Ad istituirla sono le associazioni delle vittime della malasanità animale, ovvero quelle persone che, a causa della negligenza e dell'imperizia di alcuni veterinari e di un sistema poco regolamentato, hanno perso un affetto a quattro zampe. Queste persone oggi rivendicano i diritti dei loro amici senza voce, difendendo i loro bisogni e le loro necessità di esseri senzienti. Reclamano per gli animali il diritto a prestazioni sanitarie conformi ai livelli minimi essenziali e ad un accertamento di responsabilità nel caso sia l'errore umano a determinarne la morte o la lesione alla loro integrità fisica. Il filosofo Peter Singer, affrontando la questione animale, affermava: «Quale che sia la natura dell'essere, il principio di uguaglianza richiede che la sua sofferenza sia valutata quanto l'analoga sofferenza di un altro essere». Se misuriamo il grado di tutela degli animali nel nostro ordinamento, usando come metro proprio questa massima, le conclusioni sono abbastanza amare. La modernità vive una strana contraddizione: riteniamo gli animali simili a noi, quando ce ne serviamo, attraverso la sperimentazione, per provare su di essi tutto ciò che può far bene o male al nostro organismo, ma li giudichiamo diversi da noi, quando si tratta di riconoscere loro dei diritti. Questa condizione, come ho più volte ribadito in quest'Aula, è resa evidente in tanti campi: dal diritto penale, dove le sanzioni contro il «sentimento animale» sono poco repressive, al diritto civile, in cui gli animali sono assimilati addirittura a res. In ambito sanitario purtroppo la situazione non cambia. Infatti, nel nostro Paese la sanità animale non è proprio all'avanguardia sopratutto a livello normativo, in cui persistono vuoti di disciplina su aspetti importanti. In particolare, non sono fissati i livelli minimi di assistenza sanitaria e anche sul tema della responsabilità professionale del veterinario il terreno è lacunoso, per usare un eufemismo. Per citare alcuni esempi, non ci sono obblighi per il veterinario di conservare i referti, un proprietario non può pretendere il rilascio della cartella clinica, non esiste l'obbligo del consenso informato in caso di interventi anche rischiosi sugli animali, non vi sono requisiti, anche in termini di strumentazione, per l'apertura di uno studio veterinario. Mi fermo, ma l'elenco potrebbe proseguire. In poche parole, non abbiamo un quadro normativo chiaro, puntuale, in grado di garantire nei confronti degli animali tutele a diritti essenziali come quello alla salute, che dovrebbe essere riconosciuto a tutti gli esseri viventi. Approfitto di questa giornata dedicata agli animali per chiedere la calendarizzazione del nostro disegno di legge in materia di tutela e protezione degli animali, già annunciato in questa Aula. Nella nostra proposta legislativa la sanità animale è disciplinata in diversi aspetti, ma sopratutto vengono fissati precisi obblighi per la professione veterinaria e imposti standard minimi per la qualità delle prestazioni sanitarie erogate. Ritengo che l'ammodernamento di questo Paese possa avvenire solo evolvendosi sul piano dei diritti, a cominciare con la protezione dei più deboli, in particolare di quelli che non hanno voce.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Casaletto.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u86">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg197">Signor Presidente, l'assessore all'istruzione, alla formazione e al lavoro della Regione Veneto, Elena Donazzan, ha avuto l'ardire di inviare una circolare contenente una frase del tipo: se non è vero che tutti i musulmani sono terroristi, è vero che tutti i terroristi sono musulmani. PRESIDENTE. La circolare parlava di islamici e terroristi. ENDRIZZI (M5S). Grazie di questa ulteriore precisazione. Credo che questa frase sia non solo falsa - profondamente falsa - ma vergognosa, considerando come è stata inviata, a chi è stata inviata e l'uso politico che è stato fatto di una vicenda tragica. Su una vicenda di quel tipo, se era scontato, dovuto, immediato, a caldo, contrastare la violenza omicida, era anche necessario poi evitarne strumentalizzazioni. Quando si arriva a dire mezze frasi o quando, come oggi, ho visto in Aula il centrodestra difendere la Donazzan arrampicandosi sugli specchi, stiamo facendo un torto alla verità; la stiamo prostituendo. Su questa vicenda avevamo il dovere, come italiani, come veneti, come cittadini, di capire. Se Papa Francesco si è scagliato contro l'odio e il disprezzo instillati verso le religioni, anche quella cattolica, ricordando le vignette vergognose contro la santissima Trinità - lo dico io che sono un laico - allora credo che tutti potremo capire l'importanza di una convivenza civile, nel rispetto della legalità, con politiche di accoglienza programmate che permettano che non ci sia un far west in questa tragica vicenda, che è l'immigrazione. Soprattutto, ci deve essere il rispetto. Allora dico: viva la Repubblica, viva la democrazia, ma soprattutto viva la verità!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u87">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg198">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di martedì 10 febbraio 2015</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.u88">
+               <seg xml:id="ParlaMint-IT_2015-02-04-LEG17-Sed-386.seg199">Il Senato tornerà a riunirsi in seduta pubblica martedì 10 febbraio, alle ore 16,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 11,46).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

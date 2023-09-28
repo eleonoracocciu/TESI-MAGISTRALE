@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 844 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 844 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 844, giorno (2017-06-21)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 844, Day (2017-06-21)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="844-upper">844 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="79" unit="speeches" xml:lang="it">79 discorsi</measure>
+            <measure quantity="79" unit="speeches" xml:lang="en">79 speeches</measure>
+            <measure quantity="9824" unit="words" xml:lang="it">9.824 parole</measure>
+            <measure quantity="9824" unit="words" xml:lang="en">9,824 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=1028047</idno>
+               <date when="2017-06-21">21.06.2017</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="11"/>
+               <tagUsage gi="head" occurs="8"/>
+               <tagUsage gi="note" occurs="181"/>
+               <tagUsage gi="seg" occurs="79"/>
+               <tagUsage gi="u" occurs="39"/>
+               <tagUsage gi="vocal" occurs="7"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="14"/>
+               <tagUsage gi="desc" occurs="21"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2017-06-21">21.06.2017</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente GRASSO</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u1">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg1">La seduta è aperta (ore 16,31). Si dia lettura del processo verbale. VOLPI, segretario, dà lettura del processo verbale della seduta pomeridiana del giorno precedente.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sul processo verbale</head>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u2">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg2">Signor Presidente, chiedo la votazione del processo verbale, previa verifica del numero legale. Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u3">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg3">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale. Ripresa della discussione sul processo verbale PRESIDENTE. Metto ai voti il processo verbale. È approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u4">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg4">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u5">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg5">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg6">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,38).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla sentenza della Corte di cassazione relativa alla strage di Brescia</head>
+            <note type="speaker">*CORSINI (Art.1-MDP)</note>
+            <u ana="#regular" who="#CorsiniPaolo" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg7">Signor Presidente, innanzitutto la ringrazio per la sua sensibilità. Ieri la Corte di cassazione ha confermato la condanna nei confronti di Carlo Maria Maggi e di Maurizio Tramonte, riconoscendoli colpevoli della efferata strage consumata in piazza della Loggia, nella mia città, il 28 maggio 1974, quarantatre anni fa. Prendo la parola con una qualche emozione perché penso che, finalmente, gli amici e i compagni che sono morti vittime della strage di piazza della Loggia possono riposare in pace. Parlo di amici e compagni perché intrattenevo una frequentazione diretta e personale con molti di loro. Amici e compagni, perché non uso, come fanno altri, la parola compagno come una clava contundente, ma credo che dica di una storia e di una biografia. Per me anche questa sentenza costituisce una sorta di liberazione. Da sindaco della città ho vissuto tutto il travaglio di una dolorosissima assenza di verità e sento anzitutto di portare la mia solidarietà al nostro collega, parlamentare in carica, onorevole Alfredo Bazoli, la cui madre è caduta in piazza della Loggia. Quali considerazioni si possono trarre da questa vicenda? Sono passati quarantatre anni e soltanto dopo una storia fatta di reticenze, omissioni, depistaggi e menzogne, finalmente assistiamo a un'effettiva sovrapposizione fra la verità storica, che era ormai acquisita, e quella giudiziaria. Nel 1994 ho invitato uno dei buoni maestri del pensiero politico italiano, Norberto Bobbio, a sviluppare una riflessione sul tema della memoria. Ebbene, in quella straordinaria occasione il filosofo teorizzò un rapporto strettissimo tra la verità e la giustizia: finalmente abbiamo giustizia perché abbiamo verità e abbiamo verità perché abbiamo giustizia. Questa verità dice di un intreccio perverso e di una cospirazione promossa da soggetti e movimenti che fanno riferimento al radicalismo della destra estrema e anticostituzionale e a settori e apparati dello Stato assolutamente infedeli alla Costituzione. Ma questa storia documenta e testimonia anche di un impegno assunto da uomini delle istituzioni, magistrati, esponenti politici, rappresentanti della vita pubblica, di familiari e sodali delle vittime, di uomini e donne della società civile che non si sono rassegnati alla menzogna e a un'insopportabile assenza di verità. Infine: questa sentenza costituisce certamente un punto di arrivo per molti versi liberatorio, ma può costituire anche un punto di partenza per ulteriori sviluppi della ricerca delle responsabilità di mandanti e di quanti hanno ordito il barbaro eccidio, ricerca che è ancora in corso. Il nostro augurio è pertanto che la verità possa essere acquisita compiutamente e definitivamente affermarsi e trionfare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Art.1-MDP, PD e Misto-SI-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CERVELLINI (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#CervelliniMassimo" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg8">Signor Presidente, desidero anzitutto rivolgere un pensiero alle vittime della strage di piazza della Loggia e ai loro familiari, in particolare a Manlio Milani, leader dell'Associazione delle vittime, la cui moglie rimase uccisa nell'esplosione. Molte delle cose sostenute dal senatore Paolo Corsini, che condivido, mi permettono di soffermarmi su alcuni aspetti che non possono essere taciuti, perché lì vi è stato un elemento straordinario di tenacia civile da parte delle forze democratiche e dei familiari delle vittime, che hanno saputo andare contro tutto quello che poteva apparire il mondo e, soprattutto, lo Stato italiano nei suoi corpi più delicati (corpi armati e servizi). Anche in momenti terribili non sono venute a mancare le condizioni per arrivare in via definitiva alla sentenza e alla condanna, certo di due soli colpevoli in vita. Tuttavia, questo ci indica l'impegno che a me personalmente sembra spettare a noi profondere, a cominciare dalla sentenza. Sì, perché la sentenza di condanna in appello è avvenuta non quando generali dell'Arma dei carabinieri risultarono essere assolutamente collusi con organizzazioni eversive volte a colpire le istituzioni e le associazioni della democrazia, i partiti di sinistra, il movimento sindacale. No. Ancora pochi anni orsono, davanti alla sentenza di condanna contro cui fu presentato ricorso, non si è saputo prendere alcun provvedimento cautelare. Parlo persino di quelli più banali, come il divieto di espatrio e,il ritiro del passaporto; tant'è che poche ore fa uno dei due condannati all'ergastolo, Maurizio Tramonte, è stato arrestato in Portogallo presso la località di Fatima. Questo ci squaderna una responsabilità che non voglio pensare come in quegli anni, con la doppiezza e la servitù degli apparati dello Stato a organizzazioni illegali, clandestine e, eversive; ma di certo ci dice che dobbiamo fare quello che non è stato fatto e che c'è tutto da fare. La catena va interrotta, quella che, poche ore dopo la strage, diede l'ordine al comando dei Vigili del fuoco di pulire la piazza con le pompe idrauliche, per non avere più la possibilità di indizi di qualsiasi tipo, prima ancora che intervenisse la magistratura. Ecco, credo che, davvero, se vogliamo onorare le vittime e i familiari di tutte le tante, troppe vittime delle terribili stragi che hanno costellato quegli anni, dobbiamo impegnarci in maniera scientifica, e rigorosa a far sì che non possa accadere alcun atto violento nei confronti di qualsiasi consesso sociale e associazione che può promuovere attività e manifestazioni, ma soprattutto che non possa accadere mai più che i maggiori vertici del nostro Stato siano non solo collusi, ma facciano parte direttamente e, scientemente, di organizzazioni e di complotti, mettendo addirittura a servizio loro forze, pagate dallo Stato. Sì, perché Maurizio Tramonte era un informatore a libro paga dei nostri Servizi. Ecco, credo che dobbiamo dire «mai più!» in maniera non retorica, con l'impegno di oggi e per il futuro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-SI-SEL e Art.1-MDP.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">VALDINOSI (PD)</note>
+            <u ana="#regular" who="#ValdinosiMara" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg9">Signor Presidente, è molto importante oggi dare notizia e commentare la sentenza della Corte di cassazione che ieri ha confermato la pena dell'ergastolo per due dei responsabili della strage di piazza della Loggia a Brescia, confermando così le condanne emesse nel secondo processo d'appello del 22 luglio 2015 nei confronti di Carlo Maria Maggi, ai tempi capo di Ordine Nuovo nel Veneto, e di Maurizio Tramonte, iscritto nel 1973 a libro paga dei Servizi segreti dello Stato. Due ergastoli, con uno dei condannati già in fuga ieri, ma per fortuna assicurato dalle Forze dell'ordine alla giustizia e al carcere. Vorrei ricordare quanto accaduto quella lontana, lontanissima mattina del 28 maggio 1974 in piazza della Loggia a Brescia: erano tantissimi i cittadini riuniti per una manifestazione antifascista, una manifestazione pacifica indetta dai sindacati e dal Comitato antifascista per protestare contro la violenza neofascista che in quei giorni e in quei mesi stava interessando il Paese. Una bomba nascosta in un cestino, fatta esplodere mentre era in corso la manifestazione, provocò la morte di otto persone e il ferimento di altre centodue. In quella stessa piazza, occorre ricordarlo, il 25 aprile 1969 era stata fatta saltare la lapide dedicata ai partigiani che avevano sacrificato la loro vita nella lotta contro il nazifascismo e per la liberazione del nostro Paese. In quello stesso 25 aprile, dedicato a celebrare la resistenza e la liberazione dell'Italia, sempre a Brescia venne devastata la sede dell'Associazione nazionale partigiani. In quel 1969 vi furono in Italia ben centoquarantacinque attentati dinamitardi, in gran parte di matrice neofascista. Fu un anno tragico, che culminò il 12 dicembre 1969 con la strage di piazza Fontana a Milano, che causò la morte di sedici persone e il ferimento di altre ottantaquattro. Iniziava così un periodo cupo per la nostra Repubblica. Più di un decennio di violenza e di terrore: da piazza Fontana alla strage di Peteano del 31 maggio 1972, poi la strage del treno Italicus il 4 agosto 1974, con dodici morti e quarantaquattro feriti, fino alla strage della stazione di Bologna del 2 agosto 1980 con ottantacinque morti e duecento feriti. Una lunga scia di sangue e di terrore, con centinaia di morti e feriti, per la quale, fino a ieri, non c'erano colpevoli, tante, troppe, stragi impunite. Ora, la sentenza ci consegna finalmente una verità giudiziaria ufficiale e definitiva e con essa la conferma di una verità oramai conclamata sul piano storico. La strage e il suo movente si iscrivono a pieno titolo all'interno di un disegno eversivo più grande, quello della strategia della tensione, che ha condizionato per oltre un decennio la vita della nostra Repubblica e con essa la nostra vita. Una sentenza straordinariamente importante, quindi, perché si tratta del primo attentato ad essere qualificato giuridicamente come strage politica e il peculiare contesto in cui venne realizzato non lasca adito a dubbi sulla connotazione e matrice, come è scritto nella sentenza della corte d'appello ora confermata in Cassazione. La sentenza chiarisce, quindi, in modo irrevocabile che l'attentato di piazza della Loggia è maturato nello stesso ambiente delle altre stragi che hanno caratterizzato la stagione delle bombe tra il 1969 e il 1980. L'individuazione dei due responsabili rappresenta emblematicamente il grave e tragico connubio fra la destra eversiva e pezzi deviati di apparati dello Stato. D'altra parte, dopo cinque istruttorie e 13 dibattimenti, dopo proscioglimenti e assoluzioni, proprio il lungo processo, porta una traccia, cosi è scritto nella sentenza, dell'«opera sotterranea portata avanti con pervicacia da un coacervo di forze individuabili in una parte degli apparati di sicurezza dello Stato, nelle centrali occulte di potere, dai servizi americani alla P2, che hanno prima incoraggiato e supportato lo sviluppo di progetti eversivi della destra estrema e poi hanno sviato l'intervento della magistratura rendendo di fatto impossibile la ricostruzione dell'intera rete di responsabilità». In una riflessione su quegli anni, Aldo Moro affidò al suo Memoriale queste parole: la cosiddetta strategia della tensione ebbe la finalità, anche se fortunatamente non conseguì il suo obiettivo, di rimettere l'Italia nei binari della "normalità " dopo le vicende del '68 e dell'autunno caldo. «È doveroso alla fine rivelare che quello della strategia della tensione» così continua Aldo Moro nel memoriale «fu un periodo di autentica e alta pericolosità, con il rischio di una deviazione costituzionale che la vigilanza delle masse popolari non permise». Si trattò, come sappiamo, di spinte eversive accomunate dall'obiettivo di ostacolare l'avanzata di forze innovative, sia in ambito politico che in ambito sociale. Gli anni Settanta sono stati caratterizzati da una grande partecipazione civile e sono stati anche una stagione di riforme molto importanti per il nostro Paese. Ma quegli anni sono stati anche, anzi proprio per questo, macchiati dal sangue innocente delle vittime delle stragi. Una lunga scia di terrore e di sangue, una storia che occorre insegnare ai giovani; la maggior parte di loro non conosce infatti le vicende tragiche che hanno caratterizzato la storia del nostro Paese negli anni Settanta, con lo stragismo di matrice fascista. Anche per questo è straordinariamente importante l'individuazione delle responsabilità e la sentenza di conferma della Corte di cassazione: una sentenza storica, Presidente, cari colleghi, perche è la prima volta e l'unica (è incredibile che sia così) che vengono condannati due responsabili di una strage politica. Insieme alla soddisfazione per questa sentenza, certamente, rimane l'amarezza e un grande rammarico per un verdetto che arriva dopo quarantatre anni, molto tardi, troppo tardi per dare la giusta punizione agli altri responsabili di quella strage, perché oramai non ci sono più. Infine, vorrei esprimere un sentimento di vicinanza e un ringraziamento a quanti, magistrati, investigatori, istituzioni e cittadini, hanno consentito di arrivare a questa sentenza. In particolare, vorrei esprimere, a nome del Gruppo del Partito Democratico, un sentito ringraziamento all'Associazione dei familiari delle vittime, che non si è mai arresa e che instancabilmente, in questi lunghi decenni, ha chiesto verità e giustizia. Verità e giustizia che finalmente ora abbiamo, almeno per la strage di piazza della Loggia, e che erano dovuti innanzitutto alle vittime innocenti, ai loro familiari, alla città di Brescia e, con essa, a tutto il nostro Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione dei disegni di legge: (2134) Modifiche al codice delle leggi antimafia e delle misure di prevenzione, di cui al decreto legislativo 6 settembre 2011, n. 159, al codice penale e alle norme di attuazione, di coordinamento e transitorie del codice di procedura penale e altre disposizioni. Delega al Governo per la tutela del lavoro nelle aziende sequestrate e confiscate</note>
+            <note type="time">16,57</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46203.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (456) AMATI ed altri. - Norme in materia di destinazione dei beni confiscati alle organizzazioni criminali a finalità di tutela dell'infanzia e dell'adolescenza</note>
+            <note type="time">16,57</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40437.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (799) CARDIELLO ed altri. - Interventi urgenti in materia di beni della criminalità organizzata e a favore dell'agenzia nazionale per i beni sequestrati e confiscati alla criminalità organizzata</note>
+            <note type="time">16,57</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41247.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1180) GASPARRI. - Norme per la utilizzazione dei beni confiscati alla criminalità organizzata al fine di agevolare lo sviluppo di attività produttive e favorire l'occupazione</note>
+            <note type="time">16,57</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43158.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1210) RICCHIUTI ed altri. - Istituzione dell'Albo nazionale degli amministratori giudiziari e degli amministratori dei beni confiscati alla criminalità organizzata</note>
+            <note type="time">16,57</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43660.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1225) FINOCCHIARO. - Modifiche al codice delle leggi antimafia in materia di trasferimento di beni confiscati al patrimonio degli enti territoriali</note>
+            <note type="time">16,57</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43707.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1366) RICCHIUTI ed altri. - Modifiche al codice delle leggi antimafia di cui al decreto legislativo 6 settembre 2011, n. 159, in materia di competenza del tribunale distrettuale per l'applicazione di misure di prevenzione</note>
+            <note type="time">16,57</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44085.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1431) FALANGA ed altri. - Modifiche agli effetti inibitori ed escludenti derivanti dal procedimento di prevenzione nei confronti dell'attività di impresa</note>
+            <note type="time">16,57</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44284.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1687) FALANGA ed altri. - Misure volte a rafforzare il contrasto alla criminalità organizzata e ai patrimoni illeciti</note>
+            <note type="time">16,57</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45012.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1690) MIRABELLI ed altri. - Modificazioni al decreto legislativo 6 settembre 2011, n. 159, recante codice delle leggi antimafia e delle misure di prevenzione</note>
+            <note type="time">16,57</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45027.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (1957) DAVICO. - Modifiche al codice delle leggi antimafia e delle misure di prevenzione, di cui al decreto legislativo 6 settembre 2011, n. 159, volte a rendere più efficiente l'attività dell'Agenzia nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata, a favorire la vendita dei beni confiscati e il reimpiego del ricavato per finalità sociali nonché a rendere produttive le aziende confiscate. Delega al Governo per la disciplina della gestione delle aziende confiscate</note>
+            <note type="time">16,57</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45742.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (2060) BENCINI ed altri. - Modifiche al codice delle leggi antimafia e delle misure di prevenzione, di cui al decreto legislativo 6 settembre 2011, n. 159, volte a rendere più efficiente l'attività dell'Agenzia nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata, a favorire la vendita dei beni confiscati e il reimpiego del ricavato per finalità sociali nonché a rendere produttive le aziende confiscate. Delega al Governo per la disciplina della gestione delle aziende confiscate</note>
+            <note type="time">16,57</note>
+            <note type="status">(Approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45999.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (2089) CAMPANELLA ed altri. - Modifiche al codice delle leggi antimafia e delle misure di prevenzione, di cui al decreto legislativo 6 settembre 2011, n. 159, in materia di misure di prevenzione personali e patrimoniali in relazione ai delitti dei pubblici ufficiali contro la pubblica amministrazione</note>
+            <note type="time">16,57</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46076.htm</note>
+            <note type="time">(ore 16,57)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u9">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg10">L'ordine del giorno reca il seguito della discussione dei disegni di legge nn. 2134, già approvato dalla Camera dei deputati in un testo risultante dall'unificazione dei disegni di legge d'iniziativa dei deputati Gadda ed altri; Garavini ed altri; Vecchio ed altri; Bindi ed altri; Bindi ed altri; Formisano e di un disegno di legge d'iniziativa popolare, 456, 799, 1180, 1210, 1225, 1366, 1431, 1687, 1690, 1957, 2060 e 2089.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg11">Ricordo che nella seduta pomeridiana di ieri i relatori hanno svolto la relazione orale.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u10">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg12">Signor Presidente, onorevoli colleghi, vorrei illustrare una questione pregiudiziale di costituzionalità e una questione sospensiva di identico contenuto.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg13">Vi chiedo un attimo di attenzione, perché è una questione che viene da noi sollevata, nonostante non abbiamo presentato emendamenti in Commissione, né abbiamo fatto ostruzionismo o svolto alcuna altra attività per ritardare l'approvazione del disegno di legge al nostro esame, perché si è verificato un grave vulnus nell' iter di esame di questo provvedimento che pone in discussione la serietà del nostro Parlamento nell'affrontare i problemi di mafia. Nella seduta del 13 giugno ultimo scorso, a seguito di un dibattito riguardante la mancata espressione da parte della 5ª Commissione del parere sul provvedimento in titolo, nel quale sono intervenuti il Presidente, il rappresentante del Governo e alcuni senatori esponenti dei vari Gruppi, la medesima Commissione, su proposta del correlatore, ha deliberato a maggioranza di rinviare il conferimento del mandato ai relatori alla seduta successiva. Nella medesima seduta, come già avvenuto in una precedente convocazione del 1° giugno, il Presidente della Commissione ha ribadito: «La Commissione ha la possibilità di conferire il mandato ai relatori, pure in assenza del parere della Commissione bilancio, essendo ampiamente decorsi i termini regolamentari per l'espressione dello stesso. Poiché nella citata seduta del 1° giugno 2017 la Commissione ha convenuto all'unanimità di rinviare il conferimento del mandato ai relatori alla seduta convocata prima dell'inizio dei lavori della seduta pomeridiana dell'Assemblea di martedì 13 giugno, sul presupposto che nel frattempo sarebbe pervenuto il parere della 5ᵃ Commissione, occorre stabilire quale sia la determinazione della Commissione qualora il parere predetto non dovesse arrivare entro oggi». A tale riguardo ha sottoposto la questione alla valutazione dei membri della Commissione. Il rappresentante del Governo, sottosegretario Migliore, ha dichiarato che il vice ministro Morando avrebbe riferito al Presidente della Commissione bilancio sulla necessità di definire soltanto alcuni aspetti tecnici, evidenziando che la Ragioneria generale dello Stato avrebbe fatto pervenire, nel corso della stessa giornata, una nuova relazione, favorevole, sulla relazione tecnica presentata dal Ministero della giustizia, per consentire alla Commissione bilancio di esaminare ed infine approvare il parere. Su tale aspetto sono stati sollevati, da più parti, dubbi di carattere procedurale e sostanziale, ravvisandosi la necessità di condizionare il conferimento del mandato ai relatori alla previa acquisizione del parere della Commissione bilancio, ciò al fine di evitare che il testo potesse presentare significativi elementi di criticità rispetto al vincolo di bilancio di cui all'articolo 81 della Costituzione. A tal fine occorre richiamare, altresì, l'attenzione sulla singolare vicenda della presentazione, nella giornata di lunedì 12 giugno, di due emendamenti da parte dei relatori, concernenti norme di copertura finanziaria, i quali poi, in serata, sono stati ritirati dai relatori medesimi. Nella seduta del 14 giugno, il Presidente ha dato conto del parere espresso dalla Commissione bilancio, non ostativo con condizioni sul testo approvato dalla Camera dei deputati, e in parte non ostativo e in parte contrario ai sensi dell'articolo 81 sugli emendamenti approvati dalla Commissione, rilevando l'opportunità di apportare modifiche al testo approvato dalla Commissione, per recepire le condizioni imposte dalla Commissione bilancio, mediate presentazione da parte dei relatori di proposte di coordinamento (18.Coord.100, 18.Coord.200, 19.Coord.100, 25.Coord.100, 25.Coord.200, 28.Coord.100, 29.Coord.100 e 33.Coord.100) ai sensi dell'articolo 103 del Regolamento. Quindi la predetta Commissione ha conferito mandato ai relatori a riferire in senso favorevole sul disegno di legge n. 2134, con le modificazioni ad esso apportate nel corso dell'esame, autorizzandoli altresì ad effettuare le citate modifiche di coordinamento e a richiedere lo svolgimento della relazione orale. Come abbiamo osservato in Commissione, le condizioni previste dal parere della Commissione bilancio non avrebbero potuto essere recepite mediante proposte di coordinamento ai sensi dell'articolo 103 del Regolamento, in quanto incidono sostanzialmente sul testo approvato fin a quel momento dalla Commissione giustizia. Secondo i principi generali che regolano il procedimento legislativo, i relatori, per recepire le predette condizioni, avrebbero dovuto presentare ulteriori emendamenti rispetto ai quali, di conseguenza, avrebbe dovuto essere fissato un termine per la presentazione di subemendamenti. Giova, inoltre, rilevare che, trattandosi di un provvedimento complesso e caratterizzato da un lungo iter, sarebbe stato preferibile, come proposto dal sottoscritto, votare il conferimento del mandato ai relatori senza recepire le condizioni di natura finanziaria imposte dalla Commissione bilancio, rinviando al momento della discussione in Assemblea il recepimento delle stesse. Per i motivi suesposti, tale modus procedendi reca una palese violazione dei principi basilari del procedimento legislativo, che espone il nuovo testo del codice antimafia al rischio di declaratoria di illegittimità costituzionale, con ciò indebolendo la legalità, la democrazia e la stessa legittimità delle deliberazioni. Signora Ministra, non devo sottolineare come, trattandosi di mafia, non vorrei consegnare agli avvocati dei processi di mafia un argomento per il blocco delle norme che andiamo ad approvare; non vorrei consegnare agli avvocati dei processi di mafia la possibilità di eccepire costituzionalmente, perché, se fossi ancora magistrato, accoglierei le eccezioni di costituzionalità, tenuto conto delle decisioni già pervenute in altri procedimenti della Corte costituzionale. Per le stesse ragioni, appare arduo inquadrare le modifiche votate nella seduta del 14 giugno in un'opera di coordinamento, ravvisandosi in alcune di esse profili sostanziali, come la proposta di coordinamento 25.Coord.100, concernente la copertura delle spese per lo svolgimento dei compiti attribuiti all'Agenzia nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata. Con riferimento alla proposta di coordinamento 25.Coord.200, richiamo l'attenzione sulle disposizioni in materia di organico dell'Agenzia nazionale per l'amministrazione e la destinazione dei beni sequestrati e confiscati alla criminalità organizzata, di cui all'articolo 113- bis, introdotto dall'articolo 27 del disegno di legge, che dovrebbe essere attribuito all'Agenzia sulla base del principio della mobilità, previsione questa che esula dal principio di efficienza dell'Agenzia nella quale dovrebbe essere incardinato solo personale altamente qualificato. Giova rilevare ancora che la proposta di coordinamento 29.Coord.100 non ha i requisiti di un mero coordinamento di forma, ma di vera e propria modifica sostanziale, che si evince dall'alinea che indica un intervento sostitutivo dell'articolo 29 (ora articolo 32), recante la delega al Governo per la tutela del lavoro nell'ambito delle imprese sequestrate e confiscate. Signor Presidente, nella questione pregiudiziale e nella questione sospensiva viene anche accennato al problema della non facile soluzione della doppia competenza tra procuratore distrettuale e procuratore circondariale. Mi auguro - e qui richiamo la sua attenzione, signor Presidente, e dell' intera Assemblea - che si voglia fare una riflessione seria su quello che ho appena detto, perché anziché procedere a livello di forze muscolari, decidendo se bocciare o meno la questione pregiudiziale, forse sarebbe opportuna una riflessione sull'opportunità di far tornare il provvedimento in Commissione per qualche giorno, perché i relatori ripresentino quegli emendamenti di coordinamento come emendamenti formali: per quanto ci riguarda sarà dato un termine per i subemendamenti, ma non li presenteremo. Quello che ci interessa è che non ci sia un vulnus nell'approvazione della legge in esame, che consenta ai difensori dei mafiosi di sollevare questioni in grado di bloccare l'intera operatività della legge. Per questa ragione, indipendentemente dalla votazione sulla questione pregiudiziale, mi auguro che il ritorno in Commissione possa sanare questo vulnus, per procedere correttamente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Rizzotti.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u11">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg14">Ai sensi dell'articolo 93 del Regolamento, sulle questioni pregiudiziale e sospensiva presentate si svolgerà un'unica discussione, nella quale potrà intervenire un rappresentante per Gruppo, per non più di dieci minuti.</seg>
+            </u>
+            <note type="speaker">FALANGA (ALA-SCCLP)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg15">Signor Presidente, le questioni trattate in questo momento sono due, promosse entrambe dal senatore Caliendo: una attiene ad una valutazione di opportunità, che lascio ovviamente a ciascuno di noi; l'altra invece è più tecnica e attiene alla pregiudiziale di incostituzionalità. Signor Presidente, devo premettere che non tutti i provvedimenti, ancorché costituzionali, meritano il nostro apprezzamento. Il provvedimento in esame, nel merito - lo diremo in maniera acuta, forte e determinata - non può avere il nostro apprezzamento, quindi, conseguentemente, ci sarà un voto in linea con questa considerazione. Il tema della pregiudiziale, però, è un tema squisitamente tecnico. Si solleva un dubbio di costituzionalità per una violazione dell'articolo 77 della Costituzione ovvero del regolare iter legislativo del provvedimento che stiamo esaminando. Il senatore Caliendo è un raffinato giurista e non sono certo io a potermi assumere l'autorità di dargli suggerimenti o indicazioni, ma sommessamente gli segnalo due sentenze della Corte costituzionale: la sentenza n. 9 del 1959 e l'altra, molto più recente, n. 262 del 1998. In buona sostanza, che cosa ha detto la Corte in entrambe le sentenze e che ragionamento ha fatto? Riassumo per i non addetti ai lavori: seppur vi è stato un difetto nel procedimento e nell' iter legislativo che porta all'approvazione di una legge, non attiene alla competenza della Corte costituzionale l'eventuale rilievo di incostituzionalità, in quanto alle Camere e al Parlamento è devoluto ogni giudizio e ogni rimedio avverso eventuali errori di procedimento. Il senatore Caliendo dice che sono state presentate due proposte di coordinamento, che possono ben dirsi anche emendamenti, da parte dei relatori, per le quali andava dato un termine in Commissione per eventuali subemendamenti. La vicenda, tale e quale, è stata esaminata dalla Corte costituzionale proprio con la sentenza n. 262 del 1998. In quella vicenda che esaminò la Consulta si trattò di una questione relativa a due emendamenti dei relatori, ovvero due proposte di coordinamento del relatore, che andavano ad ampliare la sfera dei soggetti destinatari degli articoli 609 quinquies e octies (si parlava di corruzione di minorenni e violenza sessuale di gruppo). Tali proposte di coordinamento non erano formali, ma sostanziali, perché andavano ad incidere sull'ambito di applicabilità della norma. Anche in quel caso la Corte costituzionale ebbe a ribadire il principio che già aveva espresso nel 1959, secondo il quale, seppure vi è una violazione nell' iter legislativo, nel percorso del procedimento del Parlamento, questa irregolarità non può essere risolta dalla Corte costituzionale. Detto ciò, è chiaro che la questione di incostituzionalità non c'è e non vi può essere, e non possiamo ancora disturbare la Corte costituzionale per discutere di una questione che già è stata discussa lontanamente nel 1959 e più recentemente nel 1998. Ciò premesso, rimane la questione di opportunità di rimandare in Commissione il provvedimento. Sul punto che cosa posso dire? Per quanto mi riguarda, il provvedimento è talmente sbagliato in tutto che, secondo me, anche tornando in Commissione non ci possono essere rimedi che possano rendere questo un prodotto accettabile da parte nostra, degli italiani e dei giuristi. Basti semplicemente considerare che le misure di prevenzione vengono estese anche ai reati contro la pubblica amministrazione. Faccio un esempio banale: per un peculato d'uso, cioè per aver utilizzato la macchina impropriamente da parte di un amministratore, ci può essere l'applicazione delle misure di prevenzione, cioè si deve ritirare la sera entro una certa ora e si possono confiscare i suoi beni. Signori, questo è un prodotto che offende tutti gli operatori del diritto. Io mi rifiuto di pensare che ci possa essere un magistrato che dovrà applicare una misura di tal genere, perché obbligato dalla legge con una norma di questo genere. Penso che gli stessi operatori degli diritto, gli stessi magistrati troveranno difficoltà a fare provvedimenti che vanno in questa direzione e che - ahimè - saranno costretti a fare, perché c'è una norma che glielo impone. Io questa norma non voglio che passi il vaglio di questo Parlamento e di quest'Aula. Tornando - e concludo, signor Presidente - alla questione di incostituzionalità, quello è altro tema, squisitamente tecnico. Ho detto e ripeto che non sempre tutto ciò che è costituzionale è bene ed è buono. Questo è costituzionale, ma non è buono.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo ALA-SCCLP.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg16">Signor Presidente, intervengo sull'ordine dei lavori. Se mi consente, signor Presidente, vorrei congratularmi con il senatore Falanga, che mostra una memoria di ferro.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Falanga.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg17">Non si agiti, senatore Falanga, stia sereno. Alla luce dell'esposizione orale, fatta dal senatore Caliendo, delle questioni sospensiva e pregiudiziale, egli ha citato a memoria ben due sentenze della Corte costituzionale; e di questo non posso che compiacermi. Purtroppo dimentica la terza, quella che ha sancito l'incostituzionalità della cosiddetta legge Giovanardi, proprio perché era stato violato il procedimento legislativo con riferimento all'omogeneità della materia su un decreto-legge.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg18">Detto questo, che mi consente solo per l'ennesima volta di congratularmi con il senatore Falanga, vengo al merito della questione, cioè all'ordine dei lavori, signor Presidente. Io credo che le questioni poste dal senatore Caliendo siano molto serie e tecnicamente non di facile lettura. Esse riguardano un provvedimento, il codice antimafia, il quale, al di là della pregressa attività, io sono particolarmente legato, perché ebbi l'onore di firmarlo da Ministro della giustizia.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg19">L'interesse che il senatore Caliendo, io e il Gruppo di Forza Italia abbiamo è quello di andare avanti con un provvedimento che non sia in alcun modo aggredibile in sede giudiziaria, evidentemente con riferimento alla Corte costituzionale. Vorrei cioè stabilire, non con l'emozione e la velocità di una pratica burocratica, se effettivamente vi è stata o non vi è stata una violazione del procedimento legislativo. So bene che vi sono cinque precedenti che consentirebbero questo coordinamento formale, ma dico anche che, a fronte delle osservazioni e delle condizioni che normalmente vengono poste dalla Commissione bilancio, probabilmente cinque precedenti sono pochi per individuare una prassi.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg20">Quindi, signor Presidente, io credo che vi sia la necessità di un momento di riflessione, cioè sostanzialmente di andare al voto su tale questione consentendo a tutti quanti noi di studiarne, per chi lo vorrà fare, il merito, per poi poterci determinare nel modo migliore possibile. Non sarebbe una perdita di tempo, signor Presidente, perché, ove mai noi dovessimo sbagliare su questo, sbaglieremmo su due segmenti, anzi su un articolo, il 32, e su un altro segmento, che riguardano in maniera specifica l'Agenzia per i beni confiscati. Uno strumento, cioè, che si sta cercando di potenziare proprio per rendere più effettivo ed efficace il contrasto patrimoniale alla criminalità organizzata.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg21">Non si tratta, quindi, di una ragione di tipo ostruzionistico, ma di una ragione di prudenza, tutta rapportata all'importanza del provvedimento Io non credo, signor Presidente, che votare questa questione sospensiva oggi o votarla alla ripresa dei lavori martedì sia un forte cedimento da parte della maggioranza o sia una vittoria dell'opposizione. Credo che sia semplicemente la strada del buonsenso.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg22">Lei vede, signor Presidente, che io non tocco, a differenza di quello che pure ha fatto l'esimio giurista senatore Falanga, il merito della questione: non mi interessa verificare se talune soluzioni adottate nel merito siano corrette o meno. Potrei dire, facendo forse l'esempio più eclatante, che si stabilisce una disciplina ad hoc per il tribunale di Trapani e per il tribunale di Santa Maria Capua Vetere, evidentemente immaginando che siano le sedi di riferimento delle criminalità organizzate, ma ci si dimentica, ad esempio, che i casalesi ed il clan dei Moccia fanno riferimento al territorio di Napoli Nord e non di Santa Maria Capua Vetere e che Matteo Messina Denaro, facendo riferimento a Castelvetrano, fa riferimento al tribunale di Marsala e non al tribunale di Trapani. Ma non lo voglio dire, signor Presidente, perché non mi interessa: mi interessa semplicemente che l'Assemblea dia un voto consapevole sul problema sollevato e lo dia con grande serietà e con grande serenità e non per sbrigare rapidamente una faccenda il giorno prima che ciascuno di noi si debba recare sui territori per fare campagna elettorale. Signor Presidente, per quanto riguarda l'ordine dei lavori, chiedo quindi a lei e all'Assemblea di volersi determinare per un piccolo intervallo, così da consentire che il voto abbia luogo martedì alla ripresa dei lavori, un voto che ciascun darà come meglio riterrà, ma che sia un voto in cui ciascuno di noi abbia avuto la possibilità di conoscere e conseguentemente di assumere le proprie responsabilità in maniera consapevole e non in modo inconsapevole.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u14">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg23">Mi scusi, senatore Palma, se non ho capito male, il Gruppo di Forza Italia ha presentato una questione sospensiva ed ora voi chiedete un rinvio della stessa, sostanzialmente una sospensiva della sospensiva. Non è più semplice ritirare la questione sospensiva? Altrimenti non riesco a capire su cosa dovrebbe vertere la riflessione.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Palma</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg24">Cerco di capire cosa sta chiedendo dal punto di vista della procedura prevista per la questione sospensiva.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u15">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg25">Signor Presidente, veramente quello che io chiedo è qualcosa di diverso. Chiedo che si passi a quello che prevede il Regolamento, cioè alle dichiarazioni di un oratore per Gruppo in ordine alla questione sollevata dal senatore Caliendo, non nell'immediatezza, ma martedì della prossima settimana, se è martedì che ci dovremo riunire. Dopo di che, ciascuno di noi, melius re perpensa, voterà o meno. Non chiedo assolutamente la sospensione, ma il rinvio della discussione sulla questione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u16">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg26">Ho capito, ma il senatore Falanga è già intervenuto, quindi è già iniziata la discussione sulla questione sospensiva.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg27">Vedo che il senatore D'Ascola fa cenno di voler intervenire su tali questioni, dopo di che eventualmente voteremo, se l'Assemblea è d'accordo, sul rinvio che lei ha chiesto. Per il momento, quindi, concludiamo la discussione, poi eventualmente, prima di votare la questione sospensiva, sottoporremo la sua richiesta all'Assemblea.</seg>
+            </u>
+            <note type="speaker">D'ASCOLA (AP-CpE-NCD)</note>
+            <u ana="#regular" who="#DAscolaNico" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u17">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg28">Signor Presidente, intervengo proprio partendo dalla questione pregiudiziale. Mi permetto, ovviamente con il massimo rispetto, di definire la questione manifestamente infondata. Non che non lo sia anche la questione sospensiva, ma in questo caso l'infondatezza è evidente, per effetto delle sentenze della Corte costituzionale già citate da parte del senatore Falanga, le quali affermano un principio in maniera assolutamente chiara sin dal 1959, ossia che l'interpretazione e l'applicazione dei Regolamenti parlamentari sfuggono ad ogni controllo di costituzionalità. Per dirla usando un linguaggio di diritto costituzionale, non si tratta di norme interposte. Sul punto è quindi inutile intervenire ulteriormente, se non per sottolineare che non si capisce quale sia il ruolo dell'articolo 77 della Costituzione, secondo il quale il Governo non può emanare atti dotati di valore di legge se non in virtù di una delega che gli venga conferita, per principi e criteri generali, dal Parlamento. Trattandosi di materia di applicazione e interpretazione dei Regolamenti parlamentari, siamo quindi del tutto fuori dalla delega che il Parlamento conferisce al Governo perché emani atti dotati di valore di legge. Vengo alla questione sospensiva e alle tante questioni che vi ruotano attorno. In questo caso sostanzialmente ci si lamenta del fatto che le condizioni imposte dalla 5ᵃ Commissione, ai sensi dell'articolo 81 della nostra Costituzione, siano state recepite ai sensi dell'articolo 103 del nostro Regolamento, quindi con emendamenti singolarmente votati dalla Commissione giustizia e che, al contrario, non si sia conferito, assegnato, un termine per subemendare le condizioni imposte dalla 5ᵃ Commissione. La questione che tratterò sostanzialmente per più aspetti coincide con l'affermazione di un principio: il fatto che le condizioni imposte dalla 5ᵃ Commissione siano sostanzialmente parificabili ad emendamenti e come tali subemendabili. Si affermerebbe cioè un principio, il quale ovviamente non può essere affermato per la evidente ragione che non si tratta di emendamenti, ma di condizioni, le quali oltre tutto devono essere recepite in funzione di un percorso di costituzionalità del disegno di legge. Il paradosso consiste proprio nella circostanza di aver sollevato una questione di legittimità costituzionale con riferimento al recepimento di condizioni che, al contrario, rendono costituzionalmente conforme quel processo di attività legislativa. Non è infatti un caso - e cito il linguaggio della prassi parlamentare, che significa fonte del diritto parlamentare - che gli emendamenti o proposte di coordinamento (perché in questo caso la differenza è soltanto nominalistica) che recepiscono le condizioni imposte dalla 5ᵃ Commissione vengano definite emendamenti necessari e nell'attribuito di necessari c'è la circostanza che non si tratta di veri e propri emendamenti, cioè di interventi di modificazione del testo, ma di recepimenti volti all'adeguamento del testo a principi costituzionali di bilancio. È opportuno chiarire che non si è trattato di emendamenti dei relatori nel senso generalista del termine, ma per l'appunto di emendamenti votati singolarmente dalla Commissione giustizia. Passerò adesso alla norma regolamentare di riferimento, rispetto alla quale si è manifestata la volontà dei componenti della Commissione giustizia. Il vulnus che si sarebbe verificato nel caso in cui la Commissione non fosse stata chiamata a manifestare la sua volontà rispetto a questi strumenti che recepiscono le condizioni della 5ᵃ Commissione, al contrario si è manifestata attraverso l'esercizio del diritto di voto espresso con riferimento ai singoli emendamenti che sul punto sono stati presentati. Mi permetto di sottolineare, sia pur superfluamente (io mi rivolgo al Presidente, ma contestualmente a tutta l'Assemblea) che l'articolo 103 del Regolamento, sotto la vigenza del quale questi emendamenti di recepimento sono stati votati, consente modificazioni sostanziali del testo, dal momento che in quella disposizione compare il riferimento alla necessità di correggere norme rivelatesi incompatibili o inconciliabili con gli scopi assegnati alla legge. Di talché si ha l'evidente manifestazione della portata sostanziale, non formale, delle modificazioni introducibili attraverso il sistema preveduto dall'articolo 103 del nostro Regolamento, che implica non il coordinamento formale, che i relatori compiono in virtù del mandato loro conferito a conclusione del processo legislativo che si svolge in Commissione. Quelle sono proposte di coordinamento formali. Questa è un'altra cosa. L'articolo 103 prevede delle proposte di coordinamento sostanziali perché, per l'appunto, nel rispetto del dato letterale dell'articolo 103, sono funzionali a rendere compatibile e conciliabile il testo legislativo con lo scopo attribuito alla legge. Quindi, è chiaro che, se si deve rendere compatibile ogni disposizione con le finalità assegnate alla legge, si ha un mandato davvero amplissimo alla modificazione sostanziale del testo. Ripeto, però, che questa modificazione sostanziale del testo qui non si è verificata perché la Commissione si è limitata, votando singolarmente gli emendamenti, a recepire quelle condizioni che rendono costituzionalmente conforme il testo. Signor Presidente, io mi sono permesso di fare riferimento alla prassi come fonte del diritto parlamentare. Ne ha parlato il presidente Palma e io sono costretto a farlo in maniera del tutto sintetica, perché noi annoveriamo un precedente della Commissione giustizia del 2015, che decide nel senso nel quale la Commissione ha ritenuto di decidere. Vi è poi un altro precedente del 2005, sempre della 2ᵃ Commissione, che, recependo le indicazioni della Commissione bilancio, procede ai sensi dell'articolo 103; un precedente del 2005 della 1ᵃ Commissione, un precedente del 2005 della 13ᵃ Commissione (gli atti, ovviamente, sono disponibili) e un precedente del 2004 della 7ᵃ Commissione. Soprattutto, vi è un precedente ancor più significativo, riguardante sempre la 2ᵃ Commissione, cioè il disegno di legge n. 2607 in materia di disposizioni concernenti i collaboratori di giustizia. Seguendo la procedura di cui all'articolo 103, con approvazione, mediante votazione, dei singoli emendamenti, si è deciso nella correlativa seduta di introdurre una disposizione che estendeva le disposizioni, fino a quel momento dettate solo per i collaboratori di giustizia, anche ai testimoni di giustizia. Con un coordinamento, quindi, votato ai sensi dell'articolo 103, si è duplicata la portata della disposizione legislativa perché la si è estesa dai collaboratori anche ai testimoni di giustizia. Contestualmente, si è introdotta anche una ulteriore disposizione che rendeva applicabili quelle disposizioni non soltanto a coloro i quali fossero divenuti collaboratori di giustizia dopo l'entrata in vigore della legge, ma anche a coloro i quali lo fossero da prima. Nel contesto delle indicazioni che io ho il dovere di dare all'intera Assemblea ve ne è anche un'altra, che ricalca temi noti del diritto parlamentare sul versante della prassi. Che io avessi posto la questione della eventuale approvazione delle condizioni poste dalla 5ᵃ Commissione, che all'epoca non erano neanche intervenute (parlo della data del 23 maggio), risulta dal Resoconto della seduta della Commissione giustizia del 23 maggio. Quindi, i signori senatori sono stati informati della indicazione che il Presidente si era permesso di fare, secondo la quale, allorquando fossero giunte le condizioni frapposte dalla Commissione bilancio, queste sarebbero state votate con le modalità dell'articolo 103 del Regolamento. Bene. In quel contesto nessuno ha sollevato alcuna obiezione. Cito la prassi parlamentare del nemine contradicente per segnalare la circostanza per cui, in quel contesto, nessuno dei presenti ha obiettato legittimando il ricorso a una procedura che era stata anticipata di tre settimane rispetto al momento in cui poi il problema si è posto. Infatti, il senatore Caliendo ha riferito - ma ne danno conto anche i Resoconti della Commissione giustizia - che il problema si pose il 13 giugno. In quella data si agì con la procedura anticipatamente indicata il 23 maggio. Quindi, abbiamo anzitutto l'affermazione di ordine generale per cui la rilevanza di un vizio procedurale è data dalla misura del pregiudizio che la violazione ha determinato. Non vi è ovviamente alcuna violazione al riguardo... SPOSETTI (PD). Basta parlare! D'ASCOLA (AP-CpE-NCD). Oltre alla violazione mancante di ogni principio, concorre una prassi parlamentare assolutamente... SPOSETTI (PD). Parlano tra loro!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Comaroli).</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg29">PRESIDENTE. Senatore Sposetti, sta parlando il Presidente della Commissione giustizia.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg30">SPOSETTI (PD). Stiamo ascoltando una discussione tra i membri della Commissione giustizia! PRESIDENTE. Stiamo trattando una questione procedurale che è stata posta. Senatore Sposetti, forse lei non è entrato nella procedura, né nel merito della questione. Prego, senatore D'Ascola. D'ASCOLA (AP-CpE-NCD). Signor Presidente, ero arrivato alla conclusione. Per queste ragioni, ritengo manifestamente infondate sia la questione pregiudiziale, che quella sospensiva.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u18">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg31">A nome dell'Assemblea, saluto gli studenti del Seminario di studi e ricerche parlamentari «Silvano Tosi» di Firenze, che assistono ai nostri lavori, impegnati a seguire una questione di procedura parlamentare molto interessante anche ai fini dei loro studi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2134</note>
+            <note type="time">17,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46203.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 456</note>
+            <note type="time">17,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40437.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 799</note>
+            <note type="time">17,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/41247.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1180</note>
+            <note type="time">17,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43158.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1210</note>
+            <note type="time">17,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43660.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1225</note>
+            <note type="time">17,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/43707.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1366</note>
+            <note type="time">17,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44085.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1431</note>
+            <note type="time">17,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/44284.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1687</note>
+            <note type="time">17,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45012.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1690</note>
+            <note type="time">17,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45027.htm</note>
+            <note>,</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 1957</note>
+            <note type="time">17,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45742.htm</note>
+            <note>e</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2060</note>
+            <note type="time">17,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/45999.htm</note>
+            <note>Ripresa della discussione dei disegni di legge nn. 2089</note>
+            <note type="time">17,38</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/46076.htm</note>
+            <note type="time">(ore 17,38)</note>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u19">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg32">Signor Presidente, ho perso il filo dei lavori dell'Assemblea. Stiamo discutendo di una proposta avanzata dal senatore Palma, è così?</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u20">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg33">Riassumo quanto è avvenuto, visto che c'è stata un po' di disattenzione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg34">Il senatore Caliendo ha posto due questioni, una pregiudiziale e l'altra sospensiva. Sulla questione sospensiva si è introdotta un'altra sospensiva (una sospensiva della sospensiva), con la richiesta del senatore Palma di rinviarne il voto. Sulla questione procedurale sono intervenuti il senatore Falanga (su tutte e due le questioni) e, poi, il presidente della Commissione giustizia, senatore D'Ascola. Poi il senatore Sposetti evidentemente non è riuscito a seguire bene queste cose.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici del senatore Martelli.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg35">SPOSETTI (PD). No! No! PRESIDENTE. Scusi la battuta. Prego, senatore Zanda.</seg>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u21">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg36">Avevo ben compreso.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg37">Vorrei dire chiaramente qual è la posizione che ritengo corretta. Questo è un provvedimento strategico del Partito Democratico, nel senso che lo abbiamo promosso e sostenuto sia alla Camera dei deputati, che al Senato e vogliamo che venga approvato in questa legislatura.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg38">Detto questo, siccome la correttezza e la serenità dei lavori di Assemblea sono importanti, se il tema è far iniziare la discussione generale nella seduta di martedì pomeriggio, noi non abbiamo problemi. Se invece il tema è di non terminare quel che abbiamo iniziato (cioè il voto sulla questione sospensiva), questo non è possibile.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg39">Votiamo quel che abbiamo iniziato e se poi c'è una richiesta, un'esigenza di riflessione, per cui la discussione generale inizi nella seduta di martedì pomeriggio, su questo si può consentire.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg40">BULGARELLI (M5S). Lo decide il senatore Zanda se si può consentire?</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u22">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg41">Colleghi, con riguardo alla questione procedurale e alle considerazioni svolte su quanto avvenuto in Commissione, la Presidenza osserva preliminarmente che la proposta di coordinamento costituisce un istituto che il Regolamento prevede per finalità di coerenza logico-formale del testo e per ovviare a eventuali errori materiali. Tuttavia, le proposte di coordinamento approvate in Commissione, pur essendo volte ad adeguare il testo alle condizioni poste dalla Commissione bilancio, recano modifiche di carattere sostanziale che avrebbero dovuto essere più opportunamente introdotte attraverso la presentazione di veri e propri emendamenti. Ciò premesso, però, va osservato come in Commissione le modalità di votazione delle proposte di coordinamento e degli emendamenti risultino del tutto identiche, non sussistendo la possibilità, prevista invece per l'esame in Assemblea, di richiedere per i soli emendamenti modalità aggravate di scrutinio.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg42">Ferma, quindi, la necessità di confermare la linearità procedurale fissata nel Regolamento per i lavori delle Commissioni, si può comunque rilevare che la possibilità di ricorrere a proposte di coordinamento era stata preannunciata dal Presidente della Commissione giustizia nella seduta del 23 maggio scorso, come ci ha appena ricordato, a seguito del protrarsi della mancata espressione del parere della 5ᵃ Commissione ben oltre i termini regolamentari previsti. In tale occasione, peraltro, come è stato ancora una volta ribadito, non si sono registrate obiezioni rispetto alla soluzione procedurale proposta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg43">Sebbene la Presidenza intenda ribadire il carattere del tutto eccezionale della procedura seguita, senza dubbio il procedimento in sede referente si configura come più flessibile e meno formalizzato rispetto alle regole della discussione in Assemblea.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg44">In punto di fatto, la presentazione di una serie di proposte di coordinamento di carattere estremamente puntuale, riferite ciascuna a singoli articoli o porzioni di testo, ha consentito un esame sufficientemente analitico in conformità ai principi dell'economia e della chiarezza delle votazioni sanciti dall'articolo 102, comma 4, del Regolamento.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg45">Anche il rilievo, in ordine alla lamentata compressione della facoltà di presentare subemendamenti determinata dalla scelta di ricorrere allo strumento della proposta di coordinamento non sembra, tuttavia, implicare conseguenze di rilievo sotto il profilo del rispetto dei diritti garantiti a ciascun parlamentare. La formulazione letterale dell'articolo 103, comma 1, del Regolamento, consente infatti a ciascun senatore la presentazione di proposte di coordinamento alternative. La possibilità di intervenire nuovamente sul testo della Commissione attraverso la presentazione di ulteriori proposte di modifica resta in ogni caso pienamente garantita dal successivo esame in Assemblea, come dimostrano gli emendamenti già presentati dai senatori Caliendo e Palma, volti a ripristinare in diversi passaggi il testo originario approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg46">Alla luce di tali considerazioni, in forza dei principi di conservazione degli atti e di economia procedurale, fermo restando che quanto accaduto non può comunque costituire precedente, la Presidenza ritiene di poter proseguire l'esame del provvedimento.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg47">Questo è quanto ha deciso la Presidenza sotto il profilo procedurale.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg48">Andiamo ora alle questioni di merito: pregiudiziale, sotto un profilo, e poi sospensiva. Mi pare che non ci sia alcun ritiro della questione pregiudiziale, che è ancora pendente, e che sia stato chiesto un rinvio solo della sospensiva.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u23">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg49">SPOSETTI (PD). Smettila! Falla finita! PALMA (FI-PdL XVII). A me dispiace, senatore Sposetti, ma - devo dire la verità - non costringo nessuno ad ascoltarmi. PRESIDENTE. Senatore Palma, non intrattenga dialoghi con gli altri senatori. PALMA (FI-PdL XVII). Presidente, non intratterrò dialoghi se lei eviterà... PRESIDENTE. Le ho dato la parola. Svolga il suo intervento. PALMA (FI-PdL XVII). D'accordo, Presidente. Devo dire la verità: ho ascoltato il suo intervento, ma questo mi preoccupa ancora di più. Vorrei che quello che è accaduto fosse chiaro. Lei dice che si tratta di una procedura eccezionale che non può costituire precedente, il che equivale a dire che la Commissione non deve azzardarsi a rifare quello che ha fatto perché quello che il Presidente consente adesso lo consente in via del tutto eccezionale. In un passaggio del suo discorso, lei dice che sarebbe stato preferibile fare degli emendamenti, ma sostanzialmente, essendo state votate le singole proposte di coordinamento, alla fine il risultato è stato lo stesso. No, signor Presidente. Se è vero che non è prevista una procedura aggravata in sede di Commissione, e cioè - per essere chiari - non è prevista la fase subemendativa, è altresì vero, signor Presidente, che sotto il profilo della prassi - le parlo per la 2ᵃ Commissione - ogni qual volta i relatori hanno presentato emendamenti si è sempre aperta la stagione dei subemendamenti. Quindi, se una prassi vi è stata, assolutamente consolidata, in Commissione giustizia, è stata quella di aprire la stagione dei subemendamenti ogni qual volta i relatori presentavano emendamenti. Aggiungo, signor Presidente, che, quando si è arrivati al punto della verifica del coordinamento ai sensi dell'articolo 103 del Regolamento, e cioè quando dalla teoria - vi comunico che faremo il coordinamento - si è passati alla pratica, sia il senatore Caliendo che io abbiamo detto che non accettavamo quelle modifiche come coordinamento formale e pretendevamo che si passasse alla stagione degli emendamenti. Signor Presidente, non conosco tutti i precedenti che sono stati citati dal presidente D'Ascola. Ma, siccome uno riguarda il periodo della mia Presidenza, mi permetto di consigliarle di leggere il Resoconto di quella seduta, nell'ambito del quale lei troverà scritto "all'unanimità dei presenti". E, quindi, non vi è stato alcun contrasto in ordine al passaggio alla sede del coordinamento. Lei comprende che non è una differenza di poco conto. E ho detto questo per una forma di precisione in generale. Aggiungo, signor Presidente, una piccola annotazione sul coordinamento: lei ha letto l'articolo 103 e giustamente ha fatto riferimento all'errore materiale, poi al coordinamento meramente formale e al contrasto con altre disposizioni. Ebbene, non è scritto da nessuna parte che una Commissione deve accedere alle condizioni poste dalla Commissione bilancio. Una Commissione può tranquillamente venire in Aula e addirittura votare un provvedimento in contrasto con il parere della Commissione bilancio e l'organo di garanzia della correttezza del procedimento legislativo è il Presidente della Repubblica, che può rinviare il deliberato alla Camera con un suo messaggio. Dico questo perché affermare che il coordinamento è automatico sulla base delle condizioni poste dalla Commissione bilancio significa dire che la Commissione bilancio ha la capacità di modificare i testi per tutte le Commissioni di questo Senato. E ciò evidentemente, signor Presidente, non mi pare in linea con il Regolamento. Dopo di che il Presidente Zanda ha detto che è un provvedimento strategico che gli esponenti del Partito Democratico vogliano e intendano chiudere in questa legislatura. Sono d'accordo con voi. Solo un piccolo invito, presidente Zanda: chiudetelo bene. Se di qui a un anno il provvedimento dovesse cadere sotto la mannaia della Corte costituzionale, si risolverebbe non in un provvedimento strategico, ma nell'ennesimo strategico spot propagandistico preelettorale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII</desc>
+               </kinesic>
+               <note>PRESIDENTE. Ha chiesto di intervenire il ministro per i rapporti con il Parlamento, senatrice Finocchiaro. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">FINOCCHIARO</note>
+            <note type="role">ministro per i rapporti con il Parlamento</note>
+            <u ana="#regular" who="#FinocchiaroAnna" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u24">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg50">Signor Presidente, so che non è un intervento rituale, ma prendo la parola proprio per l'importanza che il Governo annette al provvedimento e per l'importanza che tutte le forze politiche del Senato gli attribuiscono, altrimenti non spiegheremmo il concorso di tante volontà e il contributo importante venuto da tante parti per la definizione del testo. Mi riferisco anche al contributo dei colleghi Palma e Caliendo, che è stato molto utile per definire e rendere più pertinente il testo in esame.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg51">Intervengo per una questione innanzitutto politica e ovviamente - ci mancherebbe altro - non su quelle che saranno le decisioni che verranno assunte competentemente in ordine al tempo della votazione. Mi permetto però di dire una cosa sostanziale, perché vorrei evitare che gravasse sul provvedimento in esame un'alea che è stata evocata, e cioè che esso avrebbe in sé un vulnus e una fragilità di legittimità costituzionale che lo renderebbero quindi debole rispetto all'intento - che mi pare invece assolutamente condiviso - di farne uno strumento forte, che segna una svolta importante nell'ordinamento in termini di contrasto non solo alle organizzazioni criminali, ma anche a fenomeni gravissimi di corruzione all'interno della pubblica amministrazione e di soggezione di pezzi - speriamo il più possibilmente rari - della pubblica amministrazione al volere di interessi illeciti, talvolta organizzati anche criminalmente. Credo che questa fragilità non esista, e non soltanto per le ragioni che sono state qui dette e per il principio citato dal presidente D'Ascola, ma anche per un motivo che attiene molto più semplicemente al valore e al peso del voto di quest'Assemblea. Nel momento in cui il testo, sia pure composto con tali modalità - ringrazio il presidente Grasso che ha inteso dichiarare che l'evenienza di coordinamento formale non costituisce precedente - viene esaminato e votato dall'Assemblea, esso è pienamente legittimo e non può esserci da alcuna parte la tentazione di attribuirgli una forza diminuita. Lo è per la ragione che il lavoro che è stato fatto in Commissione - agiamo in sede referente, se agissimo in sede deliberante sarebbe altra la valutazione - viene interamente restituito all'Assemblea e perché, in sede di discussione e nel successivo esame dei singoli emendamenti e subemendamenti agli emendamenti dei relatori, possono essere conclamate la piena legittimità e la forza del provvedimento. Solo questo volevo dire, perché francamente mi dispiacerebbe e troverei ingiusto, per il lavoro fatto e per l'intenzione politica versata in questo provvedimento, che una discussione di natura procedurale possa mettere in dubbio l'intenzione, la volontà e la forza che nel disegno di legge si sono espresse da parte delle diverse forze parlamentari.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u25">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg52">Procediamo dunque alle votazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg53">Metto ai voti la questione pregiudiziale QP1, presentata dai senatori Caliendo e Palma.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg54">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg55">Prima di porre in votazione la questione sospensiva, sottopongo al voto dell'Assemblea la proposta di rinvio alla prossima seduta della votazione stessa, avanzata dal senatore Palma.</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg56">Non è approvata.</seg>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg57">Signor Presidente, non so cosa sia stato messo ai voti, ma io avevo compreso che avremmo votato la questione sospensiva e, dopo averla votata, avremmo rinviato a martedì la discussione generale. Non è così?</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u27">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg58">No. È stata avanzata una richiesta di rinvio dell'esame della questione sospensiva, che è stata votata; poi sarà votata la questione sospensiva e, poi, eventualmente la sua richiesta di rinviare il seguito dell'esame del provvedimento ad altra seduta. Queste sono le richieste che sono pervenute alla Presidenza.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg59">Non è stata approvata la proposta di rinvio dell'esame della questione sospensiva e, quindi, mi accingo a porre ai voti la questione sospensiva.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u28">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg60">Signor Presidente, poiché il voto sulla questione pregiudiziale è stato così evidente e le ragioni poste a sostegno della questione sospensiva sono sostanzialmente identiche e siccome non intendo in alcun modo ostacolare i desiderata del Partito Democratico, ritiro la questione sospensiva.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u29">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg61">Ne prendiamo atto.</seg>
+            </u>
+            <note type="speaker">SACCONI (AP-CpE-NCD)</note>
+            <u ana="#regular" who="#SacconiMaurizio" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u30">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg62">Signor Presidente, la faccio mia.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u31">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg63">Metto ai voti la questione sospensiva QS1, presentata dai senatori Palma e Caliendo, successivamente ritirata e fatta propria dal senatore Sacconi.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg64">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg65">Passiamo alla richiesta, avanzata dal senatore Zanda, di rinviare il seguito dell'esame dei disegni di legge in titolo ad altra seduta.</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg66">C'è o non c'è questa richiesta?</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Zanda.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">ROMANI Paolo (FI-PdL XVII)</note>
+            <u ana="#regular" who="#RomaniPaolo" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u32">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg67">Signor Presidente, nella confusione faccio mia la richiesta, precedentemente avanzata dal presidente Zanda, di rinviare la discussione generale alla seduta di martedì pomeriggio.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u33">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg68">Metto dunque ai voti la proposta di rinviare il seguito della discussione dei disegni di legge in titolo ad altra seduta, avanzata dal senatore Romani Paolo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg69">DI MAGGIO (GAL (DI, GS, MPL, RI)). Stiamo votando per scherzo? PRESIDENTE. Senatore Di Maggio, siamo in votazione. Non stiamo facendo uno scherzo. Non interrompa la votazione. Eventualmente, chiede poi di intervenire. DI MAGGIO (GAL (DI, GS, MPL, RI)). Ma abbiamo già votato. PRESIDENTE. No. Stiamo votando una richiesta di rinvio del seguito dell'esame dei disegni di legge in titolo ad altra seduta, su cui chiaramente non c'è l'unanimità. Se ci fosse, non ci sarebbe bisogno di votare. Stiamo votando non la richiesta di rinvio dell'esame della questione sospensiva, ma la richiesta di rinvio dell'esame dei disegni di legge.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Di Maggio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg70">Verifichi sul Resoconto e vedrà che non è così.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg71">È approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg72">SANTANGELO (M5S). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. È approvata. Pertanto rinvio il seguito della discussione dei disegni di legge in titolo ad altra seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">FERRARA Elena (PD)</note>
+            <u ana="#regular" who="#FerraraElena" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u34">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg73">Signor Presidente, onorevoli colleghe e colleghi, oggi è il 21 giugno, giorno del solstizio d'estate e della Festa europea della musica. Siamo alla trentaseiesima edizione di una festa nata nel 1982 in Francia, che pochi anni dopo si è estesa in tutti i Paesi europei e oggi ha contaminato, in senso positivo, molti Paesi nel mondo. Questa mattina in Assemblea abbiamo parlato di Europa e spesso in Europa eventi tragici e stragi terroristiche hanno colpito proprio i luoghi della musica, a cominciare dalla Francia, con il Bataclan, di cui voglio ricordare la vittima italiana, Valeria Solesin. È ancora più vicina a noi la strage di Manchester, visto che proprio oggi ricorre un mese da quel tragico evento. Desidero ricordare come ha reagito la comunità delle famiglie, dei ragazzi di Manchester e i tanti amanti della musica, che, insieme a tanti artisti, il 4 giugno si sono ritrovati nel concerto intitolato «One love Manchester». Ancora una volta la musica è stata rivendicata come un grande antidoto al terrorismo. La musica e le arti sono il migliore deterrente nei confronti della cultura della paura e della minaccia. Proprio il Senato, l'anno scorso, anche grazie all'interessamento del presidente Pietro Grasso, ha ospitato un concerto che ha visto protagonisti le detenute e i detenuti del coro «Papageno» del carcere Dozza di Bologna, e tante erano le personalità presenti. Lunedì è stato presentato in anteprima un documentario, che oggi la RAI ha trasmesso alle ore 10 e che sarà ancora trasmesso sabato alle 12,25 su RAI 5, che si intitola: «Shalom! La musica viene da dentro. Viaggio nel coro Papageno», insieme ad un'altra esperienza molto importante, «Progetto scuola inCanto» di Roma, ancora una volta a testimonianza di quanto questi linguaggi possano aiutare tutti. E lo diciamo da quando abbiamo lanciato un appello, in occasione della scomparsa del maestro Abbado, raccolto in un disegno di legge, che si è trasformato in provvedimenti come il decreto legislativo n. 60, entrato in vigore il 31 maggio di quest'anno, poche settimane fa, che rivendica l'importanza della cultura umanistica, la valorizzazione del patrimonio e il sostegno alla creatività come diritto per tutti i bambini e bambine, i ragazzi e le ragazze e tutti i cittadini europei.</seg>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg74">(ore 18,03) ( Segue FERRARA Elena). L'anno prossimo sarà l'anno del patrimonio e noi, con la nostra sensibilità, proprio qui in Senato - ringrazio ancora una volta la Commissione straordinaria diritti umani e l'Intergruppo parlamentare per la musica, che sta lavorando da tempo su questi temi - possiamo dirci allineati per difendere e promuovere insieme questi linguaggi, che sono alla base di una cultura di pace, di tolleranza e di fraternità, che sicuramente sono parte dei discorsi che oggi il presidente Gentiloni Silveri ha rivolto all'Assemblea. Anche rispetto alla vita nel web, solo questi linguaggi potranno contrastare l'omologazione del web e rendere estetico ciò che oggi è anestetizzante.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e del senatore Laniece. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="president">Presidenza della vice presidente LANZILLOTTA</note>
+            <note type="time">18,03</note>
+            <note type="speaker">BLUNDO (M5S)</note>
+            <u ana="#regular" who="#BlundoRosettaEnza" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u35">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg75">Signora Presidente, intervengo brevemente per l'ennesima volta e lo farò ogni settimana, finché non riusciremo ad avere un risultato, che in realtà abbiamo già ottenuto, avendo quest'Aula il 10 novembre scorso deliberato una Commissione parlamentare d'inchiesta monocamerale per la ricostruzione di L'Aquila. E con la proposta di legge che abbiamo deliberato si intende indagare sia su quanto è stato fatto nell'emergenza sia sulla ricostruzione stessa, per cui è un vero atto dovuto per i cittadini ma anche quella giustizia che tarda ad arrivare. Io intervengo per sapere come mai non vengano ancora nominati i componenti della Commissione. Sollecito pertanto il Presidente a darci notizia di questo impedimento nonché tutti i Gruppi, qualora non abbiano ancora proposto i loro senatori che intendono farne parte, a darci presto risposte al riguardo. Ma soprattutto attendiamo una tempestiva e sicura nomina dei componenti della Commissione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u36">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg76">La Presidenza ne prende atto e solleciterà in questo senso.</seg>
+            </u>
+            <note type="speaker">ESPOSITO Stefano (PD)</note>
+            <u ana="#regular" who="#EspositoStefano" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u37">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg77">Signora Presidente, come è noto, nella serata del 3 giugno Torino è stata colpita da un grave incidente legato alla finale di Champions League, che si svolgeva in Scozia. Le attività parlamentari erano ferme in quel momento e non c'è stata, quindi, occasione di fare una comunicazione al riguardo. È noto a tutti che purtroppo, nei giorni scorsi, è deceduta Erika, una delle ragazze ferite. Il mio intervento vuole sottolineare che, dopo quegli accadimenti, nella serata di ieri a Torino c'è stata purtroppo un'ulteriore coda legata agli avvenimenti di piazza San Carlo, seppur indirettamente. Dopo quegli avvenimenti il sindaco di Torino, in accordo con il prefetto e il questore, ha scelto di emanare una serie di direttive più rigide sulla vendita degli alcolici e sul loro consumo; norme che purtroppo sono state da subito contestate da alcuni settori noti della città, in particolare dal centro sociale Askatasuna, i cui esponenti negli ultimi dieci giorni hanno aggredito a più riprese le Forze dell'ordine. E si è arrivati a registrare ieri, in piazza Santa Giulia, a degli scontri che hanno coinvolto anche degli avventori presenti nei dehor. È evidente, signora Presidente, che si tratta di una vicenda molto grave per Torino, una città abituata da molti anni a ospitare feste di piazza, ad avere intere sue parti dedicate alla cultura, alla musica e all'incontro tra le persone. Quanto è avvenuto in piazza San Carlo è un fatto incredibile: 1.527 feriti. Non credo che, per un momento di svago, sia mai capitata una situazione di siffatto tipo. Ma qui non siamo a cercare delle responsabilità che dovranno essere accertate. Quello che è certo è che è necessaria la piena tutela delle Forze dell'ordine. Ieri dei poliziotti sono stati aggrediti e feriti da esponenti di questo centro sociale, purtroppo tristemente noto. E devo dire che sono preoccupato che ci possa essere, in qualche forza politica, l'idea che la colpa di far rispettare le norme, volute peraltro dal sindaco di Torino e che noi sosteniamo - fino a quando saranno in vigore - possa ricadere sulle Forze dell'ordine e non sul teppismo politico del centro sociale. Credo sia utile che questa comunicazione venga trasmessa anche al Ministro dell'interno e doveroso portare la solidarietà alle Forze dell'ordine. Rivolgo poi un invito all'amministrazione di Torino a proseguire sulla strada della legalità, così come è stata intrapresa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Di Biagio.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u38">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg78">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per le sedute di martedì 27 giugno 2017</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.u39">
+               <seg xml:id="ParlaMint-IT_2017-06-21-LEG17-Sed-844.seg79">Il Senato tornerà a riunirsi martedì 27 giugno, in due sedute pubbliche, la prima alle ore 11 e la seconda alle ore 16,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 18,11).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 11 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 11 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 11, giorno (2018-06-13)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 11, Day (2018-06-13)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="11-upper">11 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="134" unit="speeches" xml:lang="it">134 discorsi</measure>
+            <measure quantity="134" unit="speeches" xml:lang="en">134 speeches</measure>
+            <measure quantity="8958" unit="words" xml:lang="it">8.958 parole</measure>
+            <measure quantity="8958" unit="words" xml:lang="en">8,958 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1067790</idno>
+               <date when="2018-06-13">13.06.2018</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="6"/>
+               <tagUsage gi="head" occurs="5"/>
+               <tagUsage gi="note" occurs="29"/>
+               <tagUsage gi="seg" occurs="134"/>
+               <tagUsage gi="u" occurs="17"/>
+               <tagUsage gi="vocal" occurs="8"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="63"/>
+               <tagUsage gi="desc" occurs="71"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2018-06-13">13.06.2018</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente ALBERTI CASELLATI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u1">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg1">La seduta è aperta (ore 11,14). Si dia lettura del processo verbale. DURNWALDER, segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u2">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Informativa del Ministro dell'interno sulla vicenda della nave Aquarius e conseguente discussione</head>
+            <note type="time">(ore 11,17)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u3">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg3">L'ordine del giorno reca: «Informativa del Ministro dell'interno sulla vicenda della nave Aquarius».</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg4">Dopo l'intervento del rappresentante del Governo, ciascun Gruppo avrà a disposizione cinque minuti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg5">Ha facoltà di parlare il ministro dell'interno, senatore Salvini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP, i cui componenti si levano in piedi, M5S e FdI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SALVINI</note>
+            <note type="role">ministro dell'interno e vice presidente del Consiglio dei ministri</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u4">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg6">Signor Presidente, nel ringraziare per l'applauso preventivo, sulla fiducia, confesso la mia emozione: mai nella vita, quando ho cominciato la mia attività politica, avrei pensato di sedere sui banchi del Governo, ma neanche sui banchi del Parlamento. Sento forte l'onore, l'onere e la responsabilità. È il mio primo intervento, quindi ringrazio voi per l'attenzione - ascolterò tutti - e chi ci sta seguendo da casa. Mi sono fatto dare una documentazione puntuale sui fatti, ovviamente, e mi permetterò di introdurre e concludere con due riflessioni.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg7">Innanzitutto, desidero ringraziare l'ex procuratore di Venezia, Carlo Nordio, che oggi ha scritto un articolo che mi ha confortato, dal titolo «Diritto e diritti: la lezione che nessuno può dare al nostro Paese», che mi impone di dire che intervengo a nome di un Governo e di una maggioranza, ma che arrivo ad avere l'ambizione di parlare a nome di un popolo che in termini di generosità, volontariato, accoglienza e solidarietà non ha niente da imparare da nessuno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP, FI-BP e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg8">Il problema non è il derby Italia-Francia dei mondiali, che peraltro ci vedono esclusi, ma che la nostra storia di solidarietà, generosità e volontariato non merita di essere apostrofata con alcuni termini usati nelle ultime ore da parte di qualche esponente del Governo francese, che spero e penso dia le scuse ufficiali nel più breve tempo possibile.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg9">Carlo Nordio, come dicevo, scrive: «Il diritto internazionale, come tutto il diritto, non è una scienza esatta», quindi abbiamo letto tutto e il contrario di tutto. Aggiunge che «l'emigrazione, da fenomeno relativamente modesto e controllabile, è diventata un'invasione, gestita da criminali», e conclude ricordando che il nostro nuovo Governo «avrà molti difetti» - vero - ma in questo momento, su questo tema, «si sta comportando con coerenza e dignità», alle quali aggiungo l'umanità. Il primo intervento che ho chiesto, infatti, da padre di famiglia, è stato di comunicare con la nave Aquarius per mettere subito in sicurezza le donne e i bambini, lo sottolineo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP, FI-BP e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg10">Non abbiamo avuto risposta: evidentemente, l'emergenza non era così emergenziale. In questo momento, la nave Aquarius, con due navi della Marina e della Guardia costiera, sta navigando serenamente verso le acque di un Paese che si è detto disponibile ad accogliere.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg11">La Francia, come dicevamo, ci dice che siamo cinici, ma - tengo a dare al Senato e a chi ci segue i numeri di questo fenomeno - dal 1º gennaio al 31 maggio di quest'anno i respingimenti alla frontiera tra Italia e Francia hanno visto rispedire a casa nostra 10.249 esseri umani, compresi donne, bambini e disabili.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP, FI-BP e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg12">Sulla base degli accordi sui ricollocamenti del 2015, la Francia si era impegnata ad accogliere 9.816 immigrati e, in tre anni, invece di 9.816 immigrati, ne ha accolti 640. Quindi, chiedo al presidente Macron di passare dalle parole ai fatti e di accogliere domani mattina i 9.000 immigrati che si erano impegnati ad accogliere</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP, FI-BP, FdI e Misto-MAIE</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg13">per dare un segnale di generosità concreta, non solo a parole.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg14">Ricordo che l'Italia, in questo momento, è il secondo Paese per accoglienza in tutta Europa: quindi, di questo stiamo parlando. Stiamo verificando i costi e i tempi, perché il problema su cui dovremo lavorare sono i costi e i tempi: chi mi ha preceduto ha fatto un buon lavoro e noi non siamo qua per smontare il buon lavoro fatto da altri, ma cerchiamo semplicemente di fare un lavoro ancora migliore.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg15">ASTORRE (PD). Richiama Minniti! SALVINI , ministro dell'interno e vice presidente del Consiglio dei ministri. Non siamo particolarmente intelligenti, ma prendiamo atto di quanto è stato fatto di positivo e vedremo di fare ancora meglio. Quel che non funziona e su cui, evidentemente, chi mi ha preceduto non è stato abbastanza fortunato ed efficace, sono i tempi di identificazione, perché dal momento dello sbarco alla chiusura del percorso, compresi i ricorsi, passano fino a circa tre anni, che è un lasso di tempo inaccettabile e incomprensibile. Per quanto riguarda i costi per ogni singolo richiedente asilo, ricordo che i francesi spendono 25 euro al giorno, a cui aggiungono in qualche caso quattro euro di pocket money, i tedeschi 26 euro, i croati 25 euro, gli austriaci 23 euro e via dicendo. Quindi, cercheremo di portare i costi di questa immigrazione, per noi difficilmente sostenibili, al livello dei Paesi nostri simili in Europa. Non si vede perché dobbiamo spendere 35 euro per garantire servizi che in altri Paesi comportano una spesa molto minore. La settimana prossima avrò l'onore di incontrare 250 ragazze e ragazzi formati per far parte delle nuove commissioni di identificazione e riconoscimento, per accelerare ancor di più i tempi di distinzione tra i rifugiati e coloro che rifugiati non sono. Ricordo i numeri - che amo - di questo 2018: fra le 42.000 domande esaminate c'è un rifugiato politico - è stato riconosciuto come tale - in sette casi su 100. Se aggiungiamo i quattro casi su 100 di protezione sussidiaria, arriviamo a un 11 per cento. C'è una maggioranza assoluta delle domande che viene respinta, perché priva di qualsiasi fondamento. Il problema è che dietro c'è un business e lo diciamo ad alta voce: il 99 per cento delle domande respinte è oggetto di ricorso e c'è il business degli avvocati d'ufficio, che fanno milioni di euro sulla pelle di questi disgraziati e occupano le aule dei tribunali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP, FI-BP, FdI e Misto-MAIE e dai banchi del Governo.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg16">Quindi, anche su questo occorre fare qualcosa.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg17">Arrivo alla relazione che i miei uffici mi avevano preparato.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg18">MALPEZZI (PD). Meglio tardi che mai. SALVINI , ministro dell'interno e vice presidente del Consiglio dei ministri. … però ritenevo doveroso, da Ministro... VALENTE (PD). Noi no! SALVINI , ministro dell'interno e vice presidente del Consiglio dei ministri. Mi dispiace che lei non lo ritenga doveroso. Io sono qua come Ministro e come uomo e l'unica cosa che non accetto, avendo due figli, è di pensare che al Governo ci sia qualcuno che vuole il male dei bambini.</seg>
+               <kinesic type="applause">
+                  <desc>Vivi e prolungati applausi dai Gruppi M5S, L-SP, FI-BP, FdI e Misto-MAIE. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg19">Io voglio che questi bambini non siano messi su un gommone in condizioni di morire come bestie in mezzo al Mar Mediterraneo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Malpezzi</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg20">PRESIDENTE. Non interrompete il Ministro! SALVINI , ministro dell'interno e vice presidente del Consiglio dei ministri. Sono stufo dei bambini che muoiono nel Mar Mediterraneo</seg>
+               <kinesic type="applause">
+                  <desc>Vivi e prolungati applausi dai Gruppi M5S, L-SP, FI-BP, FdI e Misto-MAIE),</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg21">perché qualcuno li illude che in Italia e in Europa ci siano casa e lavoro per tutti! Sono stufo di questi morti di Stato! (</seg>
+               <kinesic type="applause">
+                  <desc>Prolungati applausi dai Gruppi M5S, L-SP, FI-BP, FdI e Misto-MAIE.Commenti dei senatori Malpezzi e Verducci</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg22">Sono stufo di questi morti di Stato! PRESIDENTE. Senatrice Malpezzi, la invito a tacere.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg23">, ministro dell'interno e vice presidente del Consiglio dei ministri. Se qualcuno preferisce il business, si accomodi in una cooperativa, non nell'Aula del Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP, FI-BP, FdI e Misto-MAIE. Il senatore Faraone tenta di esibire un cartello. Commenti del senatore Di Nicola.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg24">PRESIDENTE. Non si espongono cartelli in Aula! Abbassi quel cartello, d'accordo? SALVINI , ministro dell'interno e vice presidente del Consiglio dei ministri. Ma non mi danno fastidio i cartelli! Non mi dà fastidio Macron, figuriamoci se mi dà fastidio un cartello. (</seg>
+               <kinesic type="applause">
+                  <desc>Ilarità. Applausi dai Gruppi M5S e L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg25">Collega senatore, tiri su il cartello che ritiene di tirar su: non ho il minimo problema.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg26">È stato richiesto al Governo di riferire nel merito sulla vicenda Aquarius, nel contesto di un'operazione di soccorso, che ha portato al salvataggio di 629 migranti nelle acque del Mediterraneo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg27">Il giorno 9 giugno 2018 si sono verificati, all'interno dell'area di responsabilità dichiarata della Libia, sei eventi distinti per i quali il centro di coordinamento delle capitanerie di porto con sede a Roma ha ricevuto le prime richieste di soccorso. A seguito di tali richieste, il centro di coordinamento di Roma ha provveduto a interessare l'autorità libica. Il primo problema è che, sebbene la Libia abbia ratificato la Convenzione di Amburgo del 1979 e abbia recentemente dichiarato la propria area di ricerca e salvataggio, non ha assunto il coordinamento dei sei eventi. Va peraltro precisato che, con il sostegno delle capitanerie di porto italiane, la Libia sta gradualmente procedendo ad attivare un proprio centro di coordinamento soccorsi. Stiamo lavorando perché io personalmente, entro il mese di giugno, possa andare in Libia per cercare di garantire eguaglianza di diritti e di doveri su entrambe le sponde del Mediterraneo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg28">Dopo il "no" libico è stata altresì contattata l'autorità Search and Rescue (SAR) maltese, in quanto centro di coordinamento e di soccorso responsabile per l'area immediatamente limitrofa a quella degli eventi; tuttavia neppure la predetta autorità maltese ha assunto la responsabilità del coordinamento, come sono abituati a fare da anni. Il fatto che il Governo abbia alzato, per una volta, la voce probabilmente metterà i maltesi di fronte alle loro responsabilità al fine di aiutarci a salvare vite umane. Il centro di coordinamento di Roma ha quindi dovuto proseguire nella direzione delle operazioni di soccorso per i sei eventi sopramenzionati.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg29">L'attività di coordinamento delle operazioni ha portato al salvataggio di 629 persone che sono state riunite sulla nave Aquarius. Completate le operazioni di salvataggio, la nave Aquarius cominciava la sua navigazione verso Nord e, una volta raggiunta l'area SAR maltese, al fine di garantire il prima possibile assistenza ai migranti, la nave della ONG battente bandiera di Gibilterra richiedeva a Malta, tramite il centro di coordinamento di Roma, un porto sicuro dove attraccare in base alla Convenzione internazionale sulla ricerca ed il salvataggio marittimo siglata ad Amburgo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg30">Sul punto è opportuno specificare che la nave Aquarius, alle ore 12 di domenica 10 giugno, quando si trovava a circa 64 miglia nautiche a Sud dell'isola di Malta, ha manifestato problemi di sicurezza a bordo e quindi ha chiesto alle autorità maltesi di poter sbarcare sull'isola le persone soccorse. In attesa di tale riscontro più volte sollecitato e che perdurava per l'intera giornata di domenica 10 giugno, la nave Aquarius continuava a permanere nelle aree di competenza maltese. Nelle prime ore della notte dell'11 giugno, il comandante della nave comunicava al centro di coordinamento di Roma il peggioramento della situazione sanitaria, nonché lo scarseggiare di risorse alimentari. Ancora sollecitati nella mattinata dell'11 giugno, con una comunicazione ufficiale al centro di coordinamento di Roma, Malta negava la propria competenza sull'evento in questione: se ne fregava. In attesa di determinazioni in merito all'individuazione di un porto sicuro di sbarco (POS), la nave Aquarius, che stazionava nella zona di ricerca e soccorso maltese, è stata costantemente affiancata da motovedette della Guardia costiera italiana, con personale medico imbarcato per fornire eventuale assistenza sanitaria. È stata altresì rifornita delle derrate alimentari e di quant'altro necessario per tutte le persone a bordo. Sottolineo, come ho già detto, che è stata offerta al comandante della nave Aquarius per ben due volte, alle ore 12,11 e alle ore 14 dell'11 giugno, la disponibilità delle autorità italiane, su mia indicazione, a far sbarcare sul territorio nazionale le persone eventualmente bisognevoli di assistenza sanitaria, quali ad esempio le donne incinte e i bambini; disponibilità che non è stata accolta dal comandante dell'unità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP, FI-BP e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg31">In questo caso si nota la differenza tra la realtà virtuale e la realtà reale, tra quello che si leggeva sui siti Internet, sui giornali e sui social e quanto noi chiedevamo di fare, a cui veniva risposto con un cortese: no, grazie, non mi interessa. È evidente che se c'è emergenza siamo i primi a voler intervenire; se, a bordo di questa nave di un'ONG, non si ritiene che ci sia un'emergenza, evidentemente qualcuno dice qualcosa che non è così vero, ma tant'è. Nelle prime ore del pomeriggio dell'11 giugno il Governo spagnolo comunicava la propria disponibilità allo sbarco dei 629 migranti presso il porto di Valencia; disponibilità formalizzata successivamente, alle ore 22,48 dello stesso giorno. Io ringrazio gli amici spagnoli, ricordando però i numeri, secondo i quali ad oggi l'Italia ospita nelle strutture italiane circa 170.000 richiedenti asilo. I numeri ci dicono che in Spagna sono 16.000; 16.000 contro 170.000. Ringrazio il buon cuore del presidente Sánchez, il quale ha ampio margine per esercitare la sua generosità e la sua accoglienza anche nelle settimane a venire , visti i numeri da cui partiamo</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP, FI-BP e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg32">Il comandante rappresentava che, per effettuare il viaggio in sicurezza, la nave Aquarius non avrebbe potuto ospitare a bordo più di cento migranti. Bene, ci siamo mossi, nella serata dell'11 giugno si è tenuta una riunione presso la Presidenza del Consiglio dei ministri, con la partecipazione del sottoscritto e dei colleghi (che ringrazio per l'unità di azione e di intenti), il ministro dei trasporti e delle infrastrutture Danilo Toninelli e il ministro della difesa e della marina militare Trenta. Si è deciso di mettere a disposizione due navi, una della Marina e una delle capitanerie di porto, per assistere l'Aquarius e prendere a bordo 250 persone sull'Orione e 273 sulla Dattilo e accompagnare per un viaggio tranquillo e sicuro verso il porto di Valencia la suddetta nave Aquarius.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg33">Questi sono i fatti. Per carità di Dio, siamo un'Assemblea politica, quindi ognuno può darne l'interpretazione che vuole.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg34">Il fenomeno migratorio è senz'altro complesso. Mi riferisco, ad esempio, ai 170.000 immigrati, come detto, in accoglienza in questo momento, il cui numero ha registrato una diminuzione nell'anno scorso, grazie a operazioni utili e intelligenti di chi mi ha preceduto, sul fronte della riduzione del numero degli sbarchi, cosa alla quale cercherò di lavorare ancora di più.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg35">Ci sono alcune stranezze: la prima etnia per sbarchi quest'anno è rappresentata da circa 3.000 cittadini tunisini. Mi premurerò di incontrare il prima possibile anche il mio collega tunisino, perché mi sembra che la Tunisia risulti un Paese libero, dotato di autonome istituzioni, non è vittima di guerre, pestilenze o carestie, quindi cercherò di portare tutto il conforto e l'aiuto necessario da parte del popolo italiano al popolo tunisino per far sì che questi ragazzi e queste ragazze possano crescere e cercare un lavoro e una vita nel loro Paese, piuttosto che mettersi su un barcone.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP, FI-BP, FdI e Misto-MAIE.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg36">Ci sarebbero altre tre, quattro o cinque pagine, ma preferisco dedicare il tempo a voi, piuttosto che a leggere numeri. Ci tengo a dire che in queste ore ho sentito tanti colleghi europei. Leggevo che l'Italia è isolata. Penso che non siamo mai stati così centrali e così ascoltati come in queste ore. Ho parlato con il collega tedesco, con il quale abbiamo condiviso che occorre tornare a ragionare di protezione delle frontiere esterne italiane come frontiere europee e non solo italiane. Non possiamo essere gli unici a fare quello che meritoriamente facciamo nel Mediterraneo, sopportandone costi economici e costi sociali. Se l'Europa c'è, batta un colpo adesso o taccia per sempre. Noi gliene abbiamo dato l'occasione e l'opportunità.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg37">Ho sentito il collega francese, quello ungherese, incontrerò il collega austriaco, ho sentito ambasciate di diversi Paesi, dalla Tunisia alla Libia. Quindi c'è un'attenzione che non c'è mai stata; sta a noi adesso giocarci le carte in maniera propositiva, non solo negativa.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg38">Il regolamento di Dublino oggi evidentemente va superato. Hanno provato a imporci una norma che avrebbe ulteriormente aggravato la situazione in Italia, con una permanenza fino a dieci anni di ulteriori migranti, senza alcuna possibilità di essere accolti in altri Paesi. Abbiamo concordato un no costruttivo e penso che con il collega tedesco e con il collega austriaco - visto che dal 1° luglio la competenza e la presidenza europea sarà dei colleghi austriaci - proporremo una nostra iniziativa, sul fronte interno e sul fronte esterno.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg39">Nelle scorse ore ho avuto un peso notevole sulle spalle. La critica politica ci sta, è giusta, è sana. Il mio obiettivo è salvare vite; il mio obiettivo è far sì che questi bimbi possano crescere nella migliore maniera possibile, senza scappare dai loro villaggi e dalle loro città per mettersi su gommoni, che ormai i delinquenti del business del traffico di esseri umani fanno partire già sgonfi, perché tanto c'è qualcuno che va a recuperare questi disgraziati.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP, FI-BP, FdI e Misto-MAIE.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg40">Vedremo nelle prossime ore. Stanno sbarcando migranti raccolti dalle navi delle autorità militari italiane. È tempo che gli Stati tornino a essere Stati.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP, FI-BP e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg41">Non è possibile che siano associazioni private finanziate da chissà chi a imporre tempi e modi dell'immigrazione. Basta guardare, infatti, da dove arrivano alcuni finanziamenti, anche se questo tema sarà oggetto di una prossima informativa. Io adoro ogni tipo di generosità e di volontariato, sono donatore di sangue e di organi, ma quando leggo che dietro a qualche organismo c'è la Open Society Foundations di George Soros, qualche dubbio inizia a venirmi su quanto sia spontanea questa generosità.</seg>
+               <kinesic type="applause">
+                  <desc>Vivi e prolungati applausi dai Gruppi M5S, L-SP, FI-BP e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg42">Chiudo con una riflessione: «Ama il prossimo tuo come te stesso». Giusto. Il mio prossimo, quindi, sono donne e bambini che fuggono della guerra e che sono le prime vittime della confusione che stiamo vivendo. Quei pochi ragazzi, donne e bambini che scappano dalla guerra devono avere in casa nostra casa loro e non possono essere mischiati ad una immigrazione clandestina che porta semplicemente allo scontro sociale. Però «ama il prossimo tuo come te stesso» significa anche amare i milioni di italiani che in silenzio hanno perso casa, lavoro e speranza. Ripeto: che hanno perso casa, lavoro e speranza.</seg>
+               <kinesic type="applause">
+                  <desc>Vivi e prolungati applausi dai Gruppi M5S, L-SP, FI-BP e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg43">Quindi, con tutti i miei limiti e tutti i miei difetti, farò tutto quello che è umanamente possibile per dare voce ai rifugiati veri, agli immigrati regolari e per bene che vengono qui per costruire per se stessi e per i loro figli un futuro, rispettando la nostra storia, la nostra cultura e le nostre tradizioni, e soprattutto farò di tutto perché a questi italiani che hanno perso la speranza, questa possa tornare e a ciò dedicherò tutti i miei prossimi anni da Ministro ma soprattutto di vita, onorato di poterlo fare a disposizione del popolo italiano.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg44">Grazie a tutti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP, i cui componenti si levano in piedi, M5S, FI-BP e FdI. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="discussion">DISCUSSIONE</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u5">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg45">Dichiaro aperta la discussione sull'informativa del Ministro dell'interno. È iscritto a parlare il senatore Casini. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">CASINI (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#CasiniPierFerdinando" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u6">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg46">Signor Presidente, signor Ministro, questa mattina 932 persone sono state salvate e portate nel porto di Catania dalla nave Diciotti della Guardia costiera italiana. 932 persone che si aggiungo alle tante che abbiamo salvato in tutti questi anni. Apro una parentesi e la chiudo, solo per una piccola correzione al Ministro che ha dimenticato di dire che diverse delle persone che erano sulla nave Aquarius sono state ivi trasportate da imbarcazioni della Guardia costiera italiana.</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg47">Scusatemi, cerco solo di ragionare. In quel caso, quindi, la ONG ha svolto un'azione di supporto anche rispetto a un servizio richiesto dalle autorità italiane. 932 persone che sono sbarcate sono l'ultimo tassello di una catena. Vorrei dire alle autorità estere, agli Stati amici, all'Europa: i Governi passano, gli Stati rimangono. Noi non possiamo non privilegiare sempre, e lo dico anche a voi in quest'Aula, uno spirito di continuità istituzionale, perché su questo principio è fondata la Repubblica. L'Italia non può accettare lezioni e gli insulti che i francesi ci hanno rivolto in queste ore, non sono respinti solo dal Ministro pro tempore Salvini, sono respinti da tutta l'Assemblea del Senato e da tutti gli italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP-PATT, UV), FI-BP, PD e Misto.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg48">Lo voglio dire perché, signor Ministro, lei deve sapere che nessuna polemica politica, anche aspra, che ci potrà dividere nei prossimi anni, ci potrà portare ad assumere un connotato e una veste anti-istituzionale e anti-italiana. Mai, perché questo contrasterebbe con la nostra storia. Tra l'altro, è inutile che si ricordino i comportamenti inumani che i nostri colleghi hanno avuto a Bardonecchia o a Ventimiglia, ma io vorrei aggiungere un aspetto importante: in questi mesi, c'è stato un traffichìo che non mi è piaciuto, in Libia, da parte delle autorità francesi, che sono le stesse che negli anni scorsi hanno lavorato, probabilmente sottobanco, per una tripartizione della Libia, mentre i Governi Renzi e Gentiloni Silveri lavoravano per garantire l'unità della Libia e aiutare il Governo legittimamente insediato dalle Nazioni Unite.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg49">Qui, allora, non si tratta solo dell'inumanità di certi respingimenti, ma anche di un lavoro sottobanco che noi dobbiamo portare all'attenzione della comunità internazionale e dell'Europa, perché non è possibile che i principali attori o player europei giochino parti diverse nella stessa commedia su uno scenario come quello libico. Non è un caso che in queste ore dalla Libia ci segnalino 50.000 persone pronte a partire, mentre questo fenomeno si era attenuato o per lo meno era in qualche modo diminuito. Noi siamo stati lasciati soli, lo ha ricordato la signora Merkel. Signor Ministro, lei fa benissimo a parlare con tutti, perché siamo stati lasciati soli da tutti. Lei ha ricordato i dati della Spagna, io vorrei ricordare gli atteggiamenti delle autorità di Visegrád, quando, davanti all'idea della redistribuzione sono stati i primi a dire: «In casa nostra no».</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg50">Ora, noi oggi cerchiamo alleanze con costoro, è vero che San Paolo si è convertito sulla via di Damasco, io mi auguro che lei sia più bravo di chi ha convertito San Paolo, ma constato che i Paesi di Visegrád sono quelli che dicono no alla riforma dei regolamenti, come noi, ma per motivi diametralmente opposti rispetto a noi. Non so, quindi, come sarà possibile in futuro</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e Aut (SVP-PATT,UV).</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg51">Passo al secondo punto: la continuità istituzionale. Le posso dare un suggerimento? Io sono un vecchio, qualcuno dice anche troppo, ma tollerate anche gli anziani perché la società è fatta di giovani e anziani (dicevano che si difendono le città con le armi dei giovani e con i consigli degli anziani). Le consiglio di offrire un caffè al suo predecessore, proprio nello spirito di continuità istituzionale a cui ho fatto riferimento, perché c'è un portato di esperienza di chi, a mio parere, ha operato bene - perché le statistiche dimostrano che il suo predecessore ha operato bene - che non può essere disperso oggi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg52">Un'ultima cosa vorrei dire.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg53">PRESIDENTE. Senatore Casini, la prego di concludere.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg54">È l'ultima cosa e la dirò solo con un flash. Facciamo tutto quello che vogliamo su questo tema decisivo (50 milioni di persone si muovono nel mondo), ma smettiamola di fare la campagna elettorale, tutti insieme, sulla pelle di questi disgraziati, perché questo non porterà alcun vantaggio all'Italia, al Governo che lei autorevolmente rappresenta, ma anche all'opposizione. Questo è un tema troppo importante per fare su di esso una campagna elettorale permanente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e del senatore Merlo.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg55">PRESIDENTE. Vi pregherei di attenervi ai tempi.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg56">È iscritta a parlare la senatrice De Petris. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u7">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg57">Signor Presidente, innanzitutto sollevo una questione a cui noi teniamo moltissimo e che voglio solennemente ribadire in quest'Aula: esiste e dovrebbe essere condivisa da tutti, signor Ministro, una scala di valori, che è quella che contraddistingue o dovrebbe contraddistinguere l'umanità, senza la quale la politica si riduce solo e unicamente ad un puro e cinico gioco di potere.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg58">Al primo posto in questa scala di valori - non dimentichiamocelo mai - viene sempre il principio dell'umanità che si sostanzia nel rispetto della vita, delle persone e della dignità umana. Questo lo dico perché credo sia la premessa indispensabile di ciò che le dirò con molta franchezza.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg59">Aver ingaggiato un braccio di ferro sulla pelle di 629 persone, utilizzandoli quasi come scudi umani, inclusi molti bambini, donne e persone anche in difficoltà, lo troviamo non grave, ma gravissimo. Non siamo della scuola «il fine giustifica i mezzi» proprio perché i mezzi sono stati utilizzati in questo modo. Potremo discutere a lungo - lei lo sa - di quanto ha detto lei, ovvero se la nave era già entrata o no nelle acque territoriali italiane o se era o no più vicina nel momento in cui ha chiesto il soccorso. Questo avremo possibilità di vederlo dopo. Su questi punti - lo sa meglio di me - e su questa vicenda abbiamo, non credo di doverglielo ricordare, la Convenzione di Londra sulla salvaguardia della vita umana in mare, la Convenzione internazionale sulla ricerca e il salvataggio marittimo e la Convenzione delle Nazioni Unite. Tutte queste convenzioni ribadiscono in che modo si rispetti la vita umana e cosa si deve fare per salvaguardarla. Quando dico che il primo punto è il rispetto della vita umana e la dignità delle persone, ministro Salvini, intendo dire che, per quanto ci riguarda, tale principio vale a Ventimiglia - e siamo stati in molti al confine a protestare per come si comportava e come continua a comportarsi la Francia - e vale sulla vicenda dell'Aquarius. Ciò significa che non siamo consapevoli delle responsabilità dell'Europa? Altroché, se ne siamo consapevoli.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg60">Abbiamo assistito in tutti questi anni a un rimpallo di responsabilità e a uno scaricabarile che possiamo definire assolutamente vergognosi. Tengo a dire che l'Europa, sul fronte dell'immigrazione, è apparsa in tutta la sua miseria per assenza di solidarietà e di unione, come si sta continuando a vedere. Per questo, a maggior ragione, noi non giustifichiamo che, al fine di indurre l'Europa a cambiare atteggiamento, si possa fare il braccio di ferro sulla pelle delle persone. Non accettiamo né gli insulti, né le rampogne della Francia per come si sono comportati e continuano a comportarsi anche sulle Alpi ma, Ministro, non possiamo assolutamente accettare la decisione che lei ha assunto. Chiedere che l'Europa inverta la rotta, modifichi le regole sbagliate, riveda il Trattato di Dublino è giusto e doveroso, ma non si può fare - continuo a ripeterlo - usando persone inermi e innocenti come ostaggi e scudi umani. Questo non possiamo che definirlo a dir poco cinico.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg61">Non possiamo dimenticare però da chi sono state sottoscritte quelle regole sbagliate. Facciamo finta di niente, ma chi ha sottoscritto il regolamento di Dublino? Lei dovrebbe esserne molto al corrente, perché il suo partito era parte integrante di quel Governo che sottoscrisse e ratificò il Regolamento di Dublino. Ora non possiamo neanche ignorare con quali alleanze vuole cambiare quelle regole: con Visegrád e l'Ungheria che sono stati tra i primi a rompere il fronte che voleva condividere l'accoglienza stessa? Questo è il punto. Alla Spagna va la nostra gratitudine, anche se ha le sue responsabilità, però lei ha cantato vittoria, ma, Ministro, le diciamo che esistono le vittorie di Pirro, come dice la collega Bonino, e poi le conseguenze di queste vittorie di Pirro le paghiamo tutti quanti come Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg62">Per il cinismo che è stato dimostrato in questa occasione - torno a ripeterlo, il cinismo - oggi rischiamo di non mettere il nostro Paese nelle condizioni di costruire le migliori alleanze per una vera riforma delle regole europee.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg63">Che cosa succederà quando arriveranno altre navi? Cosa succederà? Queste sono le questioni che noi...</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg64">PRESIDENTE. Per favore, concluda.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg65">Parliamoci chiaro, una volta per tutte. Lei, Ministro, ha chiesto come si sottraggono gli immigrati dagli scafisti: innanzitutto mettendo mano a quella legge criminogena che è la Bossi-Fini, che ha chiuso tutte le possibilità di ingressi regolari. Questo è il punto, e spero che una volta per tutte in quest'Assemblea si possa discutere con serietà della questione immigrazione, e non utilizzarla solo e unicamente a fini elettorali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Misto-LeU e PD e della senatrice Minuto</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore La Russa. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">LA RUSSA (FdI)</note>
+            <u ana="#regular" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u8">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg66">Signor Presidente, onorevoli senatori, sono d'accordo sulla ricostruzione fatta dal Ministro dell'interno, quindi non mi dilungherò perché l'applauso che gli abbiamo riservato, da forza di opposizione, dimostra che quando il Governo si comporta in maniera corretta troverà sempre il sostegno anche di chi non sostiene questo Esecutivo. Ed ho visto con piacere che la stessa accoglienza è stata manifestata da tutto il centrodestra, anche da Forza Italia, oltre che da coloro che sono al Governo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg67">Ebbene, uscendo dalla situazione contingente, che pure è il motivo della sua relazione, Ministro, mi chiedo se la sinistra abbia veramente verificato - lo dico in assoluta buona fede - se a un aumento delle partenze corrisponda un atto umanitario o se invece, tirando le somme di quello che è avvenuto in questi anni, non ci si sia resi conto che, al di là delle buone intenzioni (che io non voglio escludere in partenza) a tale aumento sia corrisposto un aumento dei morti. Anche in relazione al rispetto umano, chiedo alla sinistra se abbia tirato le somme, se non si sia resa conto che, all'aumento degli arrivi, è corrisposta una totale assenza di rispetto per coloro che arrivano. Persone costrette a vivere in maniera miserevole, in molte occasioni peggio di quando sono partiti, tradendo le loro speranze; gente che, magari, guardando la pubblicità in televisione - per chi riesce a vederla - ha immaginato che la nostra realtà fosse tutta d'oro, tutta d'argento.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg68">Signor Presidente del Senato, signor Ministro, senatori, cosa chiede Fratelli d'Italia? Pensa che questa ottima scelta del Ministro possa essere la soluzione? No, questo è un segnale importante all'Europa, agli altri Paesi; non può essere la soluzione. Oddio, per fortuna, la Spagna è diventata socialista, quindi magari fa la politica del PD e se li prende tutti - speriamo! -</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, M5S, FI-BP e L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg69">, ma non ci possiamo contare a lungo, anche perché nel giro di un anno la situazione in Spagna ritornerebbe quella di prima, come è avvenuto peraltro in Italia.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg70">Signor Presidente, riteniamo che allora la soluzione (e se c'è bisogno di fare leggi, facciamole), che peraltro è di minore rischio per chi drammaticamente viene raccolto da quelle navi, sia fare entrare le navi nei porti in futuro, e però, con un quadro normativo adeguato che, secondo me, già c'è - ma se si vuole, lo si può integrare - sequestrare le navi di Soros.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FI-BP e L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg71">E magari denunciare per tratta di uomini, donne e bambini coloro che si prestano a trasportarli, magari in accordo con gli scafisti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg72">Lo dice La Russa? Colleghi, l'allarme non l'ha lanciato Salvini né La Russa, Fratelli d'Italia o la Lega. L'allarme l'ha lanciato una delle persone più stimate nell'ambito della magistratura, di cui ho l'onore di conoscere il percorso: il procuratore capo di Catania, il pubblico ministero Zuccaro, che ha disposto il sequestro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, M5S, FI-BP e L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg73">E non mi pare che il CSM abbia fatto qualcosa contro Zuccaro, che ha pienamente ragione. Ha detto di fare attenzione perché queste ONG - non sempre, ma in certi casi - non sono altro che i tassisti di coloro che trasportano, per un breve tratto, gli immigrati, che magari si muovono con i gommoni bucati perché tanto c'è chi fa da taxi.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg74">Quella è la soluzione e non c'entrano il regolamento di Dublino, né il Gruppo di Visegrád, che - lo dico ai colleghi di sinistra - in ogni caso riguardano l'8 per cento degli immigrati. Studiatevelo. Anche modificando il Trattato di Berlino, il ricollocamento riguarderà i rifugiati riconosciuti come tali e non quell'85 per cento di immigrati clandestini che noi facciamo finta abbiano diritto di stare in Italia.</seg>
+               <vocal type="shouting">
+                  <desc>Richiami del Presidente</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg75">Mi avvio a concludere, signor Presidente. Chiedo che anche a me vengano concessi trenta secondi di tempo in più.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg76">Ci siamo inventati la protezione umanitaria. Abbiamo deciso che in Italia il 25 per cento degli immigrati gode di una protezione che non esiste in alcuna altra parte del mondo. L'abbiamo chiamata «umanitaria» e quindi siamo a posto, come i ciechi che chiamiamo non vedenti e che, improvvisamente, essendo non vedenti e non più ciechi, vedono.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FI-BP e L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg77">Signor Ministro, grazie per questo segnale. Fratelli d'Italia si aspetta che il percorso prosegua nel rispetto delle vite umane e nel desidero di aiutare chi possiamo aiutare, ma nella fermezza che ciò servirà ad aiutare chi ne ha bisogno e a rendere più tranquilli i cittadini italiani che ne hanno diritto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, M5S, FI-BP e L-SP.</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritta a parlare la senatrice Pinotti. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">PINOTTI (PD)</note>
+            <u ana="#regular" who="#PinottiRoberta" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u9">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg78">Signor Presidente, in premessa desidero stigmatizzare, a nome del Partito Democratico, le parole volgari e offensive che un esponente francese ha rivolto all'Italia. Pertanto, ministro Salvini, sottoscrivo la sua premessa e le parole che ho sentito pronunciare dal senatore Casini.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg79">Tuttavia, ciò non ci esime dal dare un giudizio politico.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg80">Ministro Salvini, la vicenda della nave Aquarius sintetizza bene uno stile di Governo mirato più a continuare i toni roboanti della campagna elettorale, che a risolvere davvero i problemi degli italiani, come lei dice di voler fare. Problemi che quanto più sono complessi (la vicenda delle emigrazioni, dopo un periodo di tensioni, turbolenze e guerre che hanno riguardato il Nord Africa e il Medio Oriente, rientra nel novero dei problemi molto complessi), tanto più necessitano di strategia e non di azioni e proclami propagandistici.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg81">Con la cosiddetta chiusura dei porti alla nave Aquarius, lei si è voluto presentare come l'uomo forte, ma in realtà ha manifestato una grande debolezza. Il muro da lei eretto contro più di 600 persone in grave difficoltà non ha fermato gli sbarchi. Il tema non è quello di fare azioni eclatanti, bensì come si continua a governare i flussi. Lei lo sa bene, perché i dati non sono manipolabili, neanche dalla propaganda.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg82">Con l'azione del ministro Minniti i flussi degli arrivi sono diminuiti dell'80 per cento, in generale, e dell'85 per cento per quanto riguarda quelli provenienti dalla Libia. Perché, allora, la chiusura dei porti? I porti si chiudono solo in casi eccezionali, di vera grande emergenza per il Paese. Lo scorso 10 giugno, a urne aperte, quando lei, ministro Salvini, ha ingaggiato la battaglia con Malta, non c'era alcuna emergenza migranti. I numeri degli arrivi erano già stati assai contenuti da chi l'ha preceduta. Perché lo ha fatto, allora? Prima ha parlato di business, si è espresso con parole offensive nei confronti della Tunisia, dicendo che la pacchia è finita, e poi ha chiuso i porti. Il suo gesto è stato solo simbolico e propagandistico; una crudeltà inutile, simbolica e inumana.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo L-SP</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg83">Lasciare più di 600 persone sul ponte di una nave in mare, inclusi donne incinte, bimbi piccoli, minori e persone ustionate solo per fare propaganda è infatti inumano.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg84">E non dica che lo ha fatto perché l'Unione europea si rendesse conto. Che cosa sarebbe successo se la Spagna non avesse dato disponibilità all'accoglienza? La disponibilità data dal Governo spagnolo non è un suo successo. Il Governo Sánchez ha dato dimostrazioni di solidarietà non alle sue posizioni, ma alle persone stipate su quella nave, lasciate sole in mezzo al Mediterraneo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg85">Il muro da lei eretto non ha fermato gli sbarchi (ne è prova ciò che sta avvenendo stamattina a Catania), ma ha isolato l'Italia. Le sue parole e le sue azioni stanno isolando l'Italia in Europa e nel mondo; isolandola perché dalle nostre azioni prendono le distanze la Spagna, la Francia, la Tunisia. Vedremo come procederà la collaborazione che con la Libia avevamo attivato e che aveva dato frutti importanti. Ha ricevuto sostegno solo da alcuni leader del gruppo di Visegrád, peraltro quegli stessi leader che si rifiutano di accettare i ricollocamenti europei.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg86">Neppure un rifugiato avente diritto è stato accettato da chi ora plaude alla sua azione.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg87">Senza una politica per l'Africa, senza i rimpatri, senza i ricollocamenti, cosa rimane di una strategia politica di governo dei flussi, che era un patrimonio dell'Italia, non di un Governo, non di una maggioranza, ma dell'Italia, proprio quella di cui lei ha parlato?</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dai Gruppi FI-BP e FdI</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg88">Lei ha fatto una mossa tutta politica, ma è una direzione senza strategia, è un'azione inconcludente; ma è un'azione rivelatrice.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg89">Noi avevamo chiesto questa mattina al premier Conte di essere qui in Aula. Un Presidente del Consiglio che fino ad ora non ha speso una parola sulla questione di attualità più scottante per il nostro Paese e che avrebbe dovuto fare sintesi dell'azione dei Ministri. La chiusura dei porti, come lei ben sa, non spetta a lei, ma spetta al ministro delle infrastrutture Toninelli. Nulla dal premier Conte, silenzio assordante. Ne dobbiamo dedurre che è il Governo Salvini e non Conte quello che oggi guida l'Italia. Ha questa grande responsabilità? Bene, allora mi dica: è vero, l'Europa deve e può fare di più, ma per ottenerlo si possono usare degli ostaggi? Perché questo è quello che lei ha fatto: lei non ha esitato a prendere in ostaggio più di 600 persone inermi e disperate, per farsi sentire al tavolo europeo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Congratulazioni. Commenti dal Gruppo L-SP.</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Iwobi. Ne ha facoltà.</note>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP, M5S, FI-BP e FdI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">IWOBI (L-SP)</note>
+            <u ana="#regular" who="#IwobiTonyChike" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u10">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg90">Signor Presidente, onorevoli senatrici e senatori, il caso Aquarius segna senza dubbio un cambio di rotta della politica italiana sulla gestione dei flussi migratori. L'attuale Governo ha dato al Paese intero un segnale chiaro di cambiamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg91">E questo è il primo passo del Governo del cambiamento. Quante volte abbiamo assistito, in questi anni, a vertici europei che parlavano di leale collaborazione, di solidarietà (per la gestione dell'immigrazione soprattutto), di una politica comune? Quante strette di mano, quante parole al vento, per fingere l'esistenza di un'Europa unita e solidale! I cittadini italiani alle scorse elezioni hanno capito di essere stati presi in giro da Governi che si sono dimostrati incapaci di passare dalle parole ai fatti nei rapporti con l'Unione europea, in particolare sul tema dell'immigrazione. L'Italia è stata abbandonata ai suoi doveri; la frontiera europea ormai si è spostata a nord dell'Europa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP, M5S e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg92">Qualcuno ha definito vomitevole l'azione politica di questo Governo e questo qualcuno, la Francia, è proprio quel Paese che ha chiuso le frontiere di Ventimiglia e che è responsabile del vergognoso fatto di Bardonecchia, quando le autorità francesi hanno chiuso le porte a una donna nigeriana incinta e malata, poi morta dopo il parto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP, M5S, FI-BP e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg93">Proprio quel Paese si è affrettato a smentire la disponibilità ad accogliere la nave Aquarius la scorsa mattina.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg94">Noi non accettiamo lezioni di civiltà dalla Francia o da qualunque altro Paese, neanche dalla Spagna delle barriere di Ceuta e Melilla, e non accettiamo lezioni di umanità da forze politiche bocciate alle urne dagli elettori e che hanno ridotto questa Nazione allo stato attuale, specialmente in tema immigrazione.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP, M5S, FI-BP e FdI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg95">La gestione incontrollata dei flussi migratori ha portato, negli ultimi quattro anni, a oltre 15.000 morti in mare e ci è costata miliardi e miliardi di euro: quanto accaduto non ha assolutamente nulla a che vedere con l'immigrazione che ho vissuto io. Bisogna essere chiari: l'unico modo per non far morire in mare queste persone è non farli partire attraverso quei tunnel della morte.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP, M5S, FI-BP e FdI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg96">La criminalità organizzata nel Nord Africa continua a gestire la tratta degli esseri umani e noi non possiamo continuare né a gestire da soli questo fenomeno, né ad illudere, con il buonismo, migliaia e migliaia di giovani africani rispetto a un futuro in Italia che è difficile per i nostri stessi giovani.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg97">Questo Governo, a differenza dei Governi precedenti, chiama l'Europa ai suoi doveri, svegliando la coscienza della comunità internazionale e chiedendo con i fatti e a gran voce che l'Italia non sia lasciata da sola ancora una volta: e, chissà perché, quando c'è qualcuno che chiede o decide di cambiare davvero le cose, tutti criticano senza avanzare mezza soluzione al problema.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP, M5S, FI-BP e FdI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg98">Ministro Salvini, apprezziamo profondamente il suo equilibro, la sua saggezza, il suo coraggio e il buonsenso, con i quali ha iniziato finalmente a risolvere questo problema.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg99">PRESIDENTE. La invito a concludere, senatore Iwobi.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg100">Concludo dicendo che finalmente l'Italia ha un Governo che ha a cuore la sicurezza e il benessere del suo Popolo nel rispetto della dignità umana. Io non voglio essere complice del nuovo schiavismo moderno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP, M5S, FI-BP e FdI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg101">. Molte congratulazioni). PRESIDENTE. È iscritto a parlare il senatore Gasparri. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">GASPARRI (FI-BP)</note>
+            <u ana="#regular" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u11">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg102">Signor Presidente, onorevoli colleghi, signor Ministro dell'interno, il Gruppo di Forza Italia condivide, dalla prima all'ultima, le parole che lei ha pronunciato in quest'Aula e non abbiamo difficoltà a ribadire che noi che non abbiamo votato la fiducia a questo Governo, al quale molte cose avremmo da criticare (ma lo faremo quando ci arriveremo), siamo legati al programma che anche lei con noi ha sottoscritto sull'immigrazione: i punti che il centrodestra ha proposto agli italiani. Li ricordo a noi stessi in sintesi: la ripresa del controllo dei confini; il blocco degli sbarchi e i respingimenti assistiti; un piano Marshall per l'Africa; il rimpatrio dei clandestini e l'abolizione di quel singolare istituto della protezione umanitaria, perché i profughi sono profughi e i clandestini sono clandestini e questa terza via italiana non va bene. Noi siamo vincolati a quel programma: se il Governo agirà su quello che è un programma che anche lei, Ministro, conosce e ha sottoscritto, la nostra posizione sarà chiara e trasparente, senza dover essere ipocriti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg103">Dopodiché, signor Ministro, approfitto di questi pochi minuti per indicarle anche alcune cose che vanno fatte.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg104">Noi abbiamo collaborato in Parlamento durante la scorsa legislatura con il Governo dell'epoca - in particolare il senatore Romani e la senatrice Bernini - e rivendico per Forza Italia, anche allora all'opposizione, il merito di aver chiesto un'indagine conoscitiva sulle ONG e di aver determinato un regolamento che ne ha ristretto l'azione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg105">Se gli sbarchi sono diminuiti, e non abbiamo difficoltà a riconoscere la Realpolitik che anche Minniti ha praticato, resta tuttavia l'azione di partito di cultura di governo che Forza Italia ritiene di realizzare in ogni fase della vita politica italiana</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg106">In questo spirito, signor Ministro, richiamo qui il tema dei controlli - lei non ne ha parlato - con l'operazione EUNAVFOR Med o l'operazione Sophia: in quest'Aula abbiamo presentato decine di mozioni e svolto numerosi interventi per chiedere che si passasse alla terza fase di quell'operazione, fatta anche con l'ONU, agendo sulle coste libiche per bloccare gli scafisti alla partenza. Questo va fatto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg107">In caso contrario - signor Ministro, lei è anche Vice Presidente del Consiglio e può dare ordini al ministro Toninelli e ad altri - le navi italiane che stanno in zone in cui il soccorso deve essere fatto dai maltesi, dai libici e da altri, rischiano di riempirsi di clandestini e di sbarcare a Catania, come sta avvenendo in questo momento con una nave della Guardia costiera. Quelle navi, se non servono a combattere il traffico, le mandi a Livorno, a Venezia, a Ventimiglia o dove vuole lei: lei ha il potere di farlo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg108">Come vede, il nostro è un atteggiamento propositivo. Bisogna discutere con l'ONU, con l'Europa e a lei non manca la determinazione: se gliene servisse una dose aggiuntiva, siamo qui per questo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg109">Voglio poi anche dire che non accettiamo lezioni da nessuno: lo hanno detto altri colleghi, ma lo voglio ribadire. Non le accettiamo dalla Spagna, che sparava a Gibilterra; non le accettiamo dalla Francia, che da Ventimiglia a Bardonecchia ha agito come sappiamo. Noi non vogliamo le crisi emetiche della Francia; vogliamo le frontiere ermetiche dell'Europa. Questo è il nostro programma.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg110">Non prendiamo lezioni nemmeno da Malta e non ho il tempo ora per parlare di tutte le cose oscure che accadono a Malta, su cui mi soffermerò in un'altra occasione. Noi prendiamo lezioni dai Governi di centrodestra guidati da Berlusconi, che hanno attuato la Realpolitik sul fronte dell'immigrazione: gli accordi con Gheddafi, che era un bruttissimo soggetto, anche se oggi lei, Ministro, ha tre o quattro Gheddafi con cui deve parlare: i sindaci del Maghreb, Sarraj, Haftar. Non sarà facile la sua missione in Libia, ma dovrà farla. E allora, noi prendiamo lezioni da quei Governi e da quelle politiche che rivendichiamo e lei e il suo partito le avete condivise con quei Governi e quindi come noi può esserne orgoglioso. Non prendiamo lezioni poi, colleghi, neanche dalla sinistra, perché fu Silvio Berlusconi a recarsi nel 1997 sul molo di Brindisi il giorno in cui morirono 81 albanesi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg111">Fu Silvio Berlusconi a portare solidarietà. Quindi, a proposito di porti chiusi, si possono chiudere anche con spirito umanitario.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg112">Potrei dire molte altre cose, ma temo che il tempo sia trascorso.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg113">Sui controlli, l'Europa come vuole spendere i 35 miliardi che ha stanziato? I 21 miliardi alle frontiere sono per chiuderle o per trasportare clandestini? Ne approfitto per ringraziare la posizione autorevole del presidente del Parlamento europeo, Antonio Tajani, che anche in queste ore ha fatto sentire nuovamente forte e chiara la sua voce.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg114">Abbiamo dunque proposte: vogliamo sollecitare Avramopoulos a dire che il problema è europeo e non italiano e c'è il coro che abbiamo sentito, con il capogruppo del PPE Weber che ha dichiarato che si tratta di un problema europeo e non italiano. C'è molto da fare e l'emergenza c'è, perché spendere 5 miliardi in Italia per avere i risultati di San Ferdinando e Foggia vuol dire che c'è un'emergenza con soldi sprecati e con affarismi dilaganti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg115">Concludo, Presidente, dicendo che non c'è nulla di umanitario nell'aiutare trafficanti che lucrano sulla disperazione dell'Africa; non c'è nulla di umanitario nell'auspicare ed applaudire sbarchi che poi preparano lo schiavismo delle campagne pugliesi o calabresi, perché poi quello succede dopo gli sbarchi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg116">È umanitaria la solidarietà possibile che l'Italia ha sempre praticato, ma con la sicurezza necessaria, che per noi è indispensabile.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP. Congratulazioni</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Pesco. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">PESCO (M5S)</note>
+            <u ana="#regular" who="#PescoDaniele" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u12">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg117">Signor presidente Alberti Casellati, signori Ministri presenti, onorevole ministro Salvini, desidero ringraziare per l'attenta analisi riportata in quest'Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg118">La situazione è critica e, a nostro avviso, lei ha agito nel migliore dei modi. Mi scuso in anticipo se userò la seconda persona plurale nel rivolgermi a voi o la prima persona plurale per indicare noi, ma sappia che avrà sempre il nostro appoggio, fino a quando continuerà ad agire in questo modo, mettendo in primis il rispetto e la tutela della vita umana, perché così avete fatto; e se così continuerete a fare, avrete il nostro appoggio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg119">La situazione è critica, ma è stata gestita bene: c'era una nave che non si trovava in acque internazionali di competenza italiana e c'erano delle autorità che sarebbero dovute intervenire, ma non lo hanno fatto. Abbiamo fatto il possibile per garantire la sicurezza di queste persone, attraverso la Marina militare e le altre autorità, e non è successo nulla di cui ci si possa incolpare, quindi su questo siamo assolutamente tranquilli. Siamo riusciti però a fare una cosa grandiosa, cioè a sollevare la questione politica a livello internazionale: ognuno deve fare la propria parte.</seg>
+               <kinesic type="applause">
+                  <desc>Commenti dal Gruppo PD. Applausi dai Gruppi M5S e L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg120">Signor Presidente, chiedo cortesemente che non venga diminuito il volume dell'impianto di amplificazione, altrimenti devo sgolarmi e non riesco a parlare.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg121">È importante, questo: siamo riusciti a sollevare la questione politica a livello internazionale ed è giusto che lo si continui a fare. Siamo stati accusati da diversi Paesi di aver agito in modo cinico e crudele - sono stati addirittura usati termini che non voglio ripetere in quest'Aula - e da quelle stesse autorità che in passato hanno agito invece contro la vita umana, con i respingimenti a Ventimiglia, Bardonecchia e in altri luoghi. Dobbiamo far sì che queste cose vengano quantomeno riconosciute, che non si continui a criticarci in questo modo e che si sia in grado di rispondere in modo adeguato.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg122">Ringraziamo la Spagna per l'esempio che ha dato, un buon esempio che dev'essere copiato dalle altre Nazioni, perché - lo ribadisco - non possiamo continuare a fare tutto noi. Ringraziamo i cittadini, le persone, le associazioni e le fondazioni che aiutano in prima persona questi popoli che arrivano in Italia e hanno bisogno di un primo soccorso. Ringraziamo tutti, ma non possiamo continuare ad accollarci questo fardello, che invece è giusto venga condiviso attraverso le altre Nazioni e gli altri Paese europei.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg123">Signor Presidente, la situazione - lo ribadisco - è critica, ma dobbiamo continuare in questo modo. Siamo un Paese sotto attacco, da parte dello spread e dei flussi migratori: mi viene anche il sospetto che magari le persone che ci attaccano con lo spread siano le stesse che ci attaccano con i flussi migratori.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg124">È un'accusa grave, lo so; può esserlo, però va riconosciuta e va messa sul piatto come uno degli argomenti che dobbiamo trattare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP e FdI.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg125">Signor Presidente, rispettiamo l'Unione europea, che però deve rispettare noi. Dobbiamo preservarla, tramite azioni condivise, che non stanno solo nell'accoglienza, ma anche in investimenti e azioni nei Paesi da cui queste persone partono. Ebbene, dobbiamo farlo tutti insieme: andiamo a parlare con tutti i Paesi europei per capire quali sono queste azioni. La diplomazia sicuramente sarà un lavoro estenuante, ma sappiamo di essere in grado di farlo e lo faremo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg126">Vorrei ricordare una cosa sul passato: certo, i flussi migratori sono stati rallentati, non diminuiti; è questo il fatto: le persone che non sono partite allora, stanno partendo ora e non stavano comodamente a casa in attesa di fare il check-in, ma soffrivano nei campi libici. Dobbiamo riconoscerlo: ci vogliono coerenza e lealtà nel riconoscere queste cose. Partiamo da questo punto. Signor Presidente, non mi dilungo troppo, ma facciamo il possibile affinché l'Unione europea venga preservata e si agisca in modo sempre coerente, leale e preciso, facendo in modo che nessuna vita umana sia messa in pericolo. Continuiamo su questa strada, grazie.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S, L-SP e FdI e del senatore Buccarella.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u13">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg127">Dichiaro chiusa la discussione sull'informativa del Ministro dell'interno, che ringrazio per la disponibilità.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">DRAGO (M5S)</note>
+            <u ana="#regular" who="#DragoTizianaCarmelaRosaria" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u14">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg128">Signor Presidente, impiegherò pochi minuti con il semplice intento di porre l'attenzione su un fatto legato ad una vicenda particolare del Comune di Trecastagni, in provincia di Catania. Gentile Presidente, onorevoli colleghi, i recenti fatti di cronaca avvenuti in Trecastagni, Comune della provincia di Catania, hanno suscitato allarme e preoccupazione all'interno della cittadinanza, e non solo. Mi riferisco in particolare alle vicende che hanno portato allo scioglimento per mafia del Consiglio e della Giunta comunale, lo scorso 8 maggio, conseguenza inevitabile di quanto emerso dalle attività investigative svolte, alla fine dello scorso anno, dai commissari della prefettura, nell'ambito della cosiddetta inchiesta Gorgoni. L'attività investigativa, durata tre mesi, ha accertato il comportamento infedele di un dirigente e di un funzionario del Comune, i quali, nell'ambito delle procedure volte all'affidamento del servizio di raccolta e smaltimento dei rifiuti, avrebbero in più occasioni favorito un imprenditore ritenuto dagli inquirenti vicino ad ambienti malavitosi. Risulta, tra l'altro, che uno dei soggetti interessati sia ritornato in servizio, anche se destinato ad altro ufficio. A tale gravissima circostanza hanno fatto seguito ulteriori avvenimenti, che hanno contribuito ad accrescere la preoccupazione della cittadinanza</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg129">Signor Presidente, mi potrei fermare qua. Credo che sia poco educativo questo atteggiamento, che si ha puntualmente, quando un senatore - un collega - parla o svolge una relazione di qualsiasi tipo. Sono un'insegnante: ospitiamo spesso delle scolaresche, a cui diamo testimonianza di inciviltà.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg130">PRESIDENTE. Senatrice, chi non ha interesse ad ascoltare sta uscendo, quindi qui di incivile non c'è nessuno, francamente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg131">Mi permetto di dire che si educa con la vita e non con le parole: vado avanti. Come dicevo, a tale gravissima circostanza hanno fatto seguito ulteriori avvenimenti, che hanno contribuito ad accrescere la preoccupazione della cittadinanza. In particolare, lo scorso 18 maggio - è questo l'avvenimento particolare a cui vorrei dare risalto, che la stampa, a parte quella locale, non ha evidenziato - ignoti hanno incendiato parte della chiesa della Madonna dell'Aiuto, monumento del XVII secolo, lasciando evidenti tracce della natura dolosa del gesto compiuto, quasi a voler lanciare un chiaro messaggio al destinatario della loro azione criminale. Si è trattato di un atto di intimidazione contro la Chiesa, in un Sud dove sono assenti le istituzioni, dove il folklore religioso si sposa spesso con la mentalità mafiosa, e dove si minimizza il valore del bene pubblico. Tali fatti rendono palese e inderogabile la necessità di potenziare la presenza delle Forze dell'ordine in loco... PRESIDENTE. Concluda, per cortesia. DRAGO (M5S). ...intervento che concorrerebbe a dare un chiaro segnale di vicinanza dello Stato. Non meno incisivo potrebbe essere un intervento di restauro della chiesa, che concorrerebbe a dare agli abitanti un segnale di speranza, in virtù di soluzioni volte a ristabilire lo splendore di Trecastagni, Comune alle pendici dell'Etna.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CIRINNA' (PD)</note>
+            <u ana="#regular" who="#CirinnaMonica" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg132">Signor Presidente, apprendiamo da fonti di stampa dell'inchiesta sul progetto del nuovo stadio della Roma: sottolineo che si tratta del progetto, perché non ci sono ancora neanche i progetti esecutivi, non è stata posata la prima pietra e l'area è ancora sub iudice, per via delle indagini riguardanti l'esondabilità. Abbiamo grandissima fiducia nel lavoro della magistratura e prestiamo la massima attenzione agli sviluppi dell'inchiesta stessa. Ci interessa però ascoltare presto la voce dell'amministrazione comunale, la voce della sindaca, perché è Roma il nostro interesse principale, in questo momento. La preoccupazione è per la nostra città, la nostra capitale e il rischio gravissimo è quello di un nuovo blocco della ripresa economica, che è certamente legata alla rinascita dell'edilizia e agli investimenti privati. Il nuovo stadio è una delle grandi opere che potrebbero contribuire alla ripresa dell'occupazione in questa città. Sotto il Campidoglio pochi giorni fa c'è stata una grande manifestazione dei sindacati che chiedevano lo sblocco delle opere in questa città, quindi la nostra preoccupazione è anche quella di riuscire a ricostruire, a dare una risposta alla grande disoccupazione presente a Roma, che purtroppo è stata travolta dal blocco dell'edilizia. Rispetto all'inchiesta noi abbiamo sicuramente la massima fiducia, ma chiediamo che non si fermino la progettualità e gli investimenti. Ascoltiamo sicuramente con attenzione tutte le voci che verranno su questo, ma ricordiamoci che la ripresa della Capitale deve essere per tutti una priorità e il blocco preventivo di qualcosa che ancora è in progetto ci fa tremare e ci fa riflettere sul fatto che in questa città abbiamo già assistito al blocco delle Olimpiadi e di altre realtà che poi hanno solo portato all'immobilismo</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u16">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg133">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di martedì 19 giugno 2018</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.u17">
+               <seg xml:id="ParlaMint-IT_2018-06-13-LEG18-Sed-11.seg134">Il Senato tornerà a riunirsi in seduta pubblica martedì 19 giugno, alle ore 11, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 12,27).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

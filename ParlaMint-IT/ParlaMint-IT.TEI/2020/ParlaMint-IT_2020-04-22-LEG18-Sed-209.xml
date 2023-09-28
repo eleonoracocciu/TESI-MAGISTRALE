@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #covid" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 209 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 209 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 209, giorno (2020-04-22)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 209, Day (2020-04-22)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="209-upper">209 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="108" unit="speeches" xml:lang="it">108 discorsi</measure>
+            <measure quantity="108" unit="speeches" xml:lang="en">108 speeches</measure>
+            <measure quantity="9482" unit="words" xml:lang="it">9.482 parole</measure>
+            <measure quantity="9482" unit="words" xml:lang="en">9,482 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1150215</idno>
+               <date when="2020-04-22">22.04.2020</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="14"/>
+               <tagUsage gi="head" occurs="12"/>
+               <tagUsage gi="note" occurs="49"/>
+               <tagUsage gi="seg" occurs="108"/>
+               <tagUsage gi="u" occurs="35"/>
+               <tagUsage gi="vocal" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="20"/>
+               <tagUsage gi="desc" occurs="21"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2020-04-22">22.04.2020</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente ALBERTI CASELLATI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u1">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg1">La seduta è aperta (ore 9,32). Si dia lettura del processo verbale. MONTEVECCHI, segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u2">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-01503) - Question time su conseguenze normativa detenzione domiciliare per forze ordine</head>
+            <note type="time">(ore 9,34)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u3">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg3">L'ordine del giorno reca lo svolgimento di interrogazioni a risposta immediata (cosiddetto question time ), ai sensi dell'articolo 151- bis del Regolamento, alle quali risponderanno il Ministro dell'interno, il Ministro delle infrastrutture e dei trasporti e il Ministro per le politiche giovanili e lo sport. Invito gli oratori ad un rigoroso rispetto dei tempi, considerata la diretta televisiva in corso. Il senatore Balboni ha facoltà di illustrare l'interrogazione 3-01503 sulle conseguenze della normativa in tema di detenzione domiciliare per le Forze dell'ordine, per tre minuti.</seg>
+            </u>
+            <note type="speaker">BALBONI (FdI)</note>
+            <u ana="#regular" who="#BalboniAlberto" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u4">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg4">Signor Ministro, come le è certamente noto, in base all'articolo 123 del decreto-legge n. 18 del 17 marzo 2020, nei giorni scorsi numerosi criminali condannati a pene gravissime, sottoposti al regime di alta sicurezza o comunque al regime di cui all'articolo 41- bis dell'ordinamento penitenziario - riguarda, come lei ben sa, i condannati per mafia - sono stati scarcerati con procedura semplificata, la quale nemmeno prevede la relazione in ordine alla pericolosità di tali soggetti e alla probabilità o al rischio che essi, una volta scarcerati, possano commettere ulteriori reati. Costoro - come dicevo - sono stati posti in detenzione domiciliare. Sono numerosi i casi - la stampa ne ha dato conto - credo diverse decine. La motivazione è che la detenzione in carcere potrebbe comportare il rischio che questi detenuti contraggano il Covid-19, trattandosi di persone in genere - ma nemmeno tutte - di età abbastanza elevata. Per evitare tale rischio dette persone vengono messe in detenzione domiciliare, con un rischio che credo sia maggiore, visto che in detenzione di alta sicurezza o in regime di 41- bis - come sappiamo - i detenuti hanno una socialità molto ridotta e non entrano in contatto con gli altri carcerati, stando addirittura in celle singole, mentre in detenzione domiciliare chiaramente possono entrare in contatto con i familiari e i parenti conviventi. Tale situazione comporta conseguenze certamente molto gravi - e questa è la domanda che il Gruppo Fratelli d'Italia le rivolge - sull'impiego di Forze dell'ordine e di Polizia giudiziaria per il controllo di persone altamente pericolose messe in detenzione domiciliare; comporta un aggravio organizzativo e un impiego di mezzi e di uomini nei confronti di persone il cui posto - secondo noi - deve rimanere il carcere, con tutte le cautele e tutte le precauzioni necessarie, ma deve rimanere il carcere.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FIBP-UDC e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg5">Noi le chiediamo quindi di sapere quali misure ella ha disposto per garantire che questi pericolosi criminali, una volta tornati a casa, attraverso i loro parenti non ricomincino a comandare alle cosche e ai loro affiliati ulteriori crimini e ulteriori attività delinquenziali.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg6">PRESIDENTE. Il ministro dell'interno, consigliere di Stato Lamorgese, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">LAMORGESE</note>
+            <note type="role">ministro dell'interno</note>
+            <u ana="#guest" who="#LamorgeseLuciana" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u5">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg7">Signor Presidente, onorevoli senatori, è evidente che l'esigenza di misure straordinarie urgenti per contrastare l'emergenza da Covid-19 ha coinvolto anche l'ambiente carcerario, in considerazione della concentrazione negli istituti penitenziari di detenuti e personale della Polizia penitenziaria.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg8">Va evidenziato che il decreto-legge 17 marzo 2020, n. 18, prevede la detenzione disciplinare nell'ipotesi in cui residui una pena detentiva non superiore a diciotto mesi e detta eventualità è esclusa per i delinquenti abituali, professionali o per tendenza, per i detenuti sottoposti a un regime di sorveglianza particolare, per quelli destinatari di specifici interventi disciplinari e per i condannati per i delitti indicati dall'articolo 4- bis della legge n. 354, cui sono riconducibili i reati che giustificano lo speciale regime detentivo previsto dall'articolo 41- bis. In ogni caso, va segnalato come la disciplina introdotta rimette al magistrato di sorveglianza la valutazione circa l'esclusione dell'applicazione della detenzione domiciliare in tutte le situazioni in cui si ravvisi la sussistenza di gravi motivi. Inoltre, la detenzione domiciliare deve essere accompagnata dall'adozione di procedure di controllo mediante mezzi elettronici, i cosiddetti braccialetti elettronici. L'istituto della detenzione domiciliare è destinato, poi, a trovare applicazione temporanea dall'entrata in vigore del decreto-legge n. 18 e fino al 30 giugno 2020. Quindi, dal quadro delineato, emerge come le misure adottate costituiscono un punto di equilibrio tra la sicurezza dei cittadini e la tutela della salute dei detenuti e del personale penitenziario, riducendo l'affollamento nelle carceri in una situazione di epidemia qual è quella attuale. Il contratto concluso con Fastweb prevede già una disponibilità di 1.200 braccialetti al mese. Con il recente atto aggiuntivo operato dal commissario straordinario per l'emergenza Covid-19 Arcuri, avremo, per i mesi di maggio e giugno, un surplus aggiuntivo di circa 1.700 braccialetti. Sotto il profilo più eminentemente applicativo, la distribuzione tra i diversi istituti degli strumenti di controllo elettronico è stabilita con provvedimento del Capo del DAP con il Capo della Polizia, tenendo conto degli indici di affollamento e delle concrete emergenze sanitarie. Sono state emanate anche due circolari dal Dipartimento della pubblica sicurezza, il 30 marzo e il 7 aprile, che hanno previsto modalità operative che consentono il costante monitoraggio dei soggetti coinvolti da parte delle forze di polizia. Conclusivamente, le cautele sin qui descritte per la concessione della misura della detenzione disciplinare consentono di fugare i dubbi prospettati circa le possibili ricadute sulla sicurezza dei cittadini. PRESIDENTE. Ha facoltà di intervenire in replica il senatore Balboni, per due minuti.</seg>
+            </u>
+            <note type="speaker">BALBONI (FdI)</note>
+            <u ana="#regular" who="#BalboniAlberto" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u6">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg9">Signor Ministro, la ringrazio ma non mi ritengo soddisfatto in pieno dalla sua risposta, innanzitutto perché credo che, anche in caso di affollamento del carcere, si possano trovare misure alternative alla detenzione domiciliare, visto che ci sono tante caserme e tanti ospedali militari inutilizzati dove i criminali in questione potrebbero essere controllati molto più efficacemente di quanto possa succedere con la detenzione domiciliare.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg10">In secondo luogo - e questo è un fatto gravissimo - gli agenti di Polizia penitenziaria sono molto più esposti dei boss mafiosi ed è vergognoso che ci si preoccupi più della salute dei boss mafiosi che di quella degli agenti penitenziari.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FIBP-UDC e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg11">In terzo luogo, signor Ministro, le vorrei sottolineare che emerge da notizie di stampa il fatto che non tutti detti criminali vengono posti alla detenzione domiciliare con lo strumento del controllo attraverso mezzi elettronici, il cosiddetto braccialetto elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg12">Le segnalo in particolare che, da notizie di stampa, il boss mafioso Rocco Santo Filippone, criminale che ha ammazzato a sangue freddo due carabinieri, è stato messo agli arresti domiciliari senza nemmeno il controllo del braccialetto elettronico. Sono fatti gravissimi sui quali le chiedo di approfondire.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FIBP-UDC e L-SP-PSd'Az.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-01507) - Question time su rischi infiltrazione criminale misure ripresa economica</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u7">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg13">Il senatore Mirabelli ha facoltà di illustrare l'interrogazione 3-01507 sui rischi di infiltrazione criminale in occasione delle misure per la ripresa economica, per tre minuti.</seg>
+            </u>
+            <note type="speaker">MIRABELLI (PD)</note>
+            <u ana="#regular" who="#MirabelliFranco" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u8">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg14">Signor Ministro, nelle ultime settimane molte fonti, diversi procuratori della Repubblica, associazioni antimafia, associazioni che combattono l'usura e la Banca d'Italia hanno lanciato un allarme sulla possibilità che le mafie sfruttino questo momento di crisi economica prodotto dal coronavirus per infiltrarsi e assumere maggiore forza nel nostro Paese. Ci sono concreti rischi, e lo sappiamo. Principalmente, si corre il rischio che sui territori più in difficoltà le mafie realizzino un sistema di assistenza alternativa a quello dello Stato. C'è il rischio che il traffico di esseri umani venga utilizzato in carenza di manodopera nei terreni agricoli. C'è il rischio che si impossessino di imprese, immettendo molto denaro - quello che possiedono grazie ai loro traffici illeciti - nell'economia legale. C'è il rischio che si candidino ad acquisire gli appalti della prossima ripartenza.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg15">Credo che il Governo, che si è già dimostrato sensibile sul tema, debba dire quali sono le misure che sta mettendo in campo per presidiare il territorio, per controllare i flussi finanziari, ma anche per riuscire a interdire la possibilità per le mafie di impossessarsi degli appalti. Bisogna trovare un equilibrio tra la necessità di realizzare in fretta le opere e di farle bene, ma non si può ottenere questo stravolgendo e cancellando le regole oggi esistenti che - come con il codice antimafia e il codice degli appalti - continuano a garantire le misure necessarie che non possono essere ora abrogate se si vuole impedire alle mafie di infiltrarsi negli appalti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Messina.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg16">PRESIDENTE. Il ministro dell'interno, consigliere di Stato Lamorgese, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">LAMORGESE</note>
+            <note type="role">ministro dell'interno</note>
+            <u ana="#guest" who="#LamorgeseLuciana" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u9">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg17">Signor Presidente, onorevoli senatori, i senatori interroganti paventano il rischio che l'attuale emergenza sanitaria possa rappresentare un'opportunità di arricchimento per la criminalità organizzata. Come sappiamo, gli appetiti criminali si organizzano alla ricerca di profitti e sfruttano la delicata situazione economica, quale quella attuale, tentando di inserirsi nell'economia legale. Non dissimili opportunità si possono prefigurare nella fase della ripresa, dopo l'epidemia, caratterizzata dal riavvio delle attività economiche e condizionato da un deficit di liquidità e dall'afflusso di ingenti finanziamenti pubblici, sia nazionali che europei, volti a sostenere la ripresa economica. Proprio in quest'ottica, con una mia direttiva emanata il 10 aprile scorso a tutti i prefetti, ho sollecitato un'azione di intelligence sul territorio che valorizzi, in primo luogo, le evidenze di natura info-investigativa e la capacità di analisi dei contesti e dei fenomeni criminali a cura delle forze di polizia, con l'obiettivo di assicurare una ripresa delle attività secondo delle coordinate imprescindibili di legalità. In quest'ambito, ho dato impulso alla creazione, da parte di ciascun prefetto, di apposite cabine di regia a livello provinciale con la partecipazione e il contributo di tutte le associazioni datoriali, imprenditoriali, del mondo finanziario e creditizio, ritenendo che ciò possa costituire un utile elemento di condivisione di tutti gli elementi e delle conoscenze. Le forze di polizia sono impegnate a intercettare e contrastare le nuove dinamiche dell'azione criminale, anche in ragione della spiccata vocazione economica della criminalità organizzata e della sua capacità di repentino adattamento ai cambiamenti sociali e produttivi. Particolare attenzione viene attribuita ai cosiddetti reati spia, indici di fenomeni di infiltrazione criminale, anche mafiosa, nelle pieghe economico-finanziarie, tra i quali l'attività estorsiva, l'usura e l'attività di riciclaggio. Nell'ambito dell'attività di prevenzione, evidenzio il ricorso alle risorse stanziate dal Programma operativo nazionale (PON) legalità e in particolare 14.600.000 euro sono destinati alla realizzazione del progetto «Sistemi evoluti per il monitoraggio e l'aggressione di patrimoni illeciti», che prevede la realizzazione di un sistema informativo finalizzato a rafforzare il sistema di vigilanza, di monitoraggio e di aggressione dei patrimoni illeciti. Ritengo inoltre che l'ingente mole di interventi finanziari renda necessario trovare un punto di equilibrio tra la tempestività delle erogazioni, come diceva l'onorevole interrogante, che è fondamentale in questa fase emergenziale, e i relativi controlli - a mio avviso - irrinunciabili. Non a caso è di prossimo perfezionamento un protocollo di intesa con la Sace SpA, per il rilascio della documentazione antimafia ai soggetti beneficiari di finanziamenti, assistiti da garanzia pubblica. Ritengo necessario individuare un elevato presidio di legalità nelle erogazioni pubbliche, scongiurando anche un uso distorto delle risorse, che saranno erogate a supporto delle attività economiche particolarmente colpite dalle misure emergenziali. Ciò, ovviamente, si potrà ottenere soltanto con il rispetto del quadro ordinamentale antimafia. PRESIDENTE. Ha facoltà di intervenire in replica il senatore Mirabelli, per due minuti.</seg>
+            </u>
+            <note type="speaker">MIRABELLI (PD)</note>
+            <u ana="#regular" who="#MirabelliFranco" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u10">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg18">Ringrazio il Ministro e mi dichiaro pienamente soddisfatto della risposta e delle novità che nella stessa ha introdotto.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg19">Dal punto di vista del metodo ritengo molto importante, in questa fase, coinvolgere tutti i soggetti interessati nel contrasto alle mafie. Vanno quindi benissimo i tavoli insieme alle forze imprenditoriali e a tutti quei soggetti che possono dare una mano a combattere e contrastare le infiltrazioni mafiose. Vanno poi molto bene i provvedimenti, che sono stati ora annunciati, per garantire che i flussi finanziari non siano inquinati dai soldi riciclati dalle mafie.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-01502) - Question time su conseguenze ordine pubblico mancato rispetto ordine chiusura porti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u11">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg20">Il senatore Candiani ha facoltà di illustrare l'interrogazione 3-01502 sulle conseguenze di ordine pubblico del mancato rispetto dell'ordine di chiusura dei porti, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CANDIANI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u12">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg21">Signor Ministro, nell'attuale situazione dovuta al coronavirus si sono viste parecchie incoerenze e incongruenze anche nelle azioni di Governo, soprattutto in quelle poste in essere nell'ambito della gestione della sicurezza. Ci siamo trovati di fronte alla firma, da parte sua e di altri Ministri, di un provvedimento che dichiara non sicuri i porti del nostro Paese e, negli stessi giorni, ci ritroviamo con decine e decine di immigrati clandestinamente introdotti nel Paese, nel territorio siciliano e della penisola, dagli scafisti e quindi a disposizione delle mafie. Addirittura si sono riscontrati dei casi - come è successo nei giorni scorsi - di infetti da coronavirus.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg22">A fronte di questo ci chiediamo quale sia realmente la gestione dell'immigrazione, una volta entrata nel nostro territorio nazionale e, soprattutto, quali sono le azioni che si stanno ponendo in essere per contrastare il traffico delle persone che sta alle spalle. Sappiamo che alle spalle ci sono la mafie e i traffici illeciti, ma sappiamo anche che, in questo momento, la gente che abbiamo chiuso in casa è preoccupata, perché gli immigrati clandestini girano per i paesi, e - come è successo nei giorni scorsi - sono sbarcati senza che neppure le autorità lo sapessero e senza essere sottoposti ad alcun controllo sanitario.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg23">Di fronte a tutto questo ci domandiamo qual è la politica di gestione del Paese. Quale politica il Ministro e il Governo stanno garantendo in merito alla sicurezza dei cittadini, soprattutto per quel che riguarda l'infezione, in questo momento? Ancora: ci domandiamo se sia veramente nell'interesse del Governo - come ha detto il ministro Bellanova - regolarizzare 600.000 immigrati clandestini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppo L-SP-PSd'Az e FIBP-UDC</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg24">Non si possono sostituire gli italiani con i clandestini per realizzare una semplice operazione di abbassamento dei salari.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e FIBP-UDC</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg25">Questo è inaccettabile.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg26">C'è poi il gravissimo fatto relativo alle scarcerazioni delle ultime ore e dei giorni passati. Nei provvedimenti che il Governo sta assumendo sono contenute delle gravi incoerenze. Create confusione tra i cittadini e contraddizione: dite ai cittadini di chiudersi in casa e poi aprite le porte delle galere; dite ai cittadini di intraprendere tutte le azioni che servono per tutelarsi e tutelare gli altri rispetto al contagio e fate poi sbarcare sul territorio nazionale cittadini clandestini di altri Paesi senza neanche sottoporli a una profilassi sanitaria.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg27">A fronte di tutto ciò, noi siamo molto preoccupati e siamo determinati a pretendere chiarezza da parte del Governo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e FIBP-UDC e del senatore La Russa</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg28">PRESIDENTE. Il ministro dell'interno, consigliere di Stato Lamorgese, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">LAMORGESE</note>
+            <note type="role">ministro dell'interno</note>
+            <u ana="#guest" who="#LamorgeseLuciana" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u13">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg29">Signor Presidente, onorevoli senatori, ritengo opportuno premettere che tutte le strutture del Ministero dell'interno, fin dall'inizio dell'epidemia, hanno puntualmente e regolarmente applicato le procedure seguite per lo screening sanitario. A partire dal primo sbarco avvenuto nel periodo dell'emergenza Covid-19, per tutti i migranti sbarcati sono state applicate le misure preventive della sorveglianza della durata minima di quattordici giorni. Segnalo, in ogni caso, come tra tutte le persone sbarcate solo una è risultata positiva al Covid-19 e fa parte dello sbarco di 67 migranti avvenuto in autonomia a Lampedusa. Si tratta di un ragazzo di nazionalità egiziana che è risultato positivo al tampone ed è stato posto in isolamento, ove attualmente si trova. Il soggetto è in buone condizioni e non è stato necessario disporne il ricovero ospedaliero. Come riferito nell'interrogazione, con decreto interministeriale del 7 aprile scorso, è stato stabilito, per tutto il periodo di durata dell'emergenza sanitaria nazionale, che i porti italiani non avessero i requisiti per la classificazione di porto sicuro e ciò in relazione alla situazione di emergenza connessa alla diffusione del virus; situazione che non rende possibile allo stato assicurare sul territorio italiano la disponibilità di luoghi sicuri senza compromettere la funzionalità delle strutture sanitarie, logistiche e di sicurezza dedicate al contenimento del contagio. Devo precisare che dal 7 aprile non è stata data alcuna autorizzazione all'ingresso in porto per le navi che hanno soccorso migranti, tant'è che le navi delle due ONG, Alan Kurdi e Aita Mari, sono state collocate in rada a seguito di un intervento della Croce Rossa che, in qualità di soggetto attuatore, nominato con decreto del capo della Protezione civile, ha trasportato tutti i migranti soccorsi sulla nave Rubattino per il previsto periodo di quarantena. Per quanto riguarda i migranti che raggiungono le nostre coste autonomamente - fenomeno peraltro che è sempre esistito, non è di questi giorni - viene disposta la quarantena una volta che siano stati rintracciati. Con varie circolari il Ministero ha sollecitato agli enti gestori delle strutture di accoglienza, di primo e di secondo livello, e dei centri di trattenimento il rispetto delle disposizioni per il contenimento dell'epidemia. È stato chiesto di garantire adeguata informazione ai migranti sui comportamenti da seguire, sia attraverso i mediatori culturali che con apposite informative scritte. Concludo con riferimento all'ipotesi di regolarizzazione dei migranti, richiamata dall'interrogante, precisando che sul punto vi è una valutazione con i Ministri dell'agricoltura e del lavoro concernente le situazioni di lavoro in nero che possono riguardare sia cittadini italiani, sia cittadini stranieri. In effetti, la questione nasce dall'esigenza di trovare una soluzione specifica ai problemi che stanno emergendo nel settore dell'agricoltura, come in quello della pesca, al fine di sopperire alle carenze di lavoratori in quegli ambiti, senza pregiudicare la produzione italiana. Si tratta di una problematica che viene sollevata da più settori interessati, affrontata ripercorrendo analoghe soluzioni individuate negli anni scorsi che possono rappresentare un elemento di maggiore garanzia della sicurezza pubblica. PRESIDENTE. Ha facoltà di intervenire in replica il senatore Candiani, per due minuti.</seg>
+            </u>
+            <note type="speaker">CANDIANI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u14">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg30">Siete proprio originali, Ministro, in quanto quello che succede in Italia non succede in nessun altro Paese europeo. Negli altri Paesi europei si chiudono le frontiere e si proteggono i cittadini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e FIBP-UDC</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg31">Qui si fanno entrare gli stranieri infetti e dopo ci si domanda anche con chi sono entrati in contatto.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg32">Siete il Governo che, al contrario degli altri Paesi, mette i cittadini nelle proprie case e apre le galere.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg33">Presidente, le leggo un elenco che deve far molto riflettere su quale tipo di azioni stanno mettendo nel cosiddetto decreto cura Italia: Francesco Bonura, uno dei boss mafiosi più influenti imputato nel primo processo di mafia contro cosa nostra e condannato definitivamente per associazione mafiosa a ventitré anni; Leoluca Bagarella, mafioso condannato all'ergastolo, responsabile di alcuni tra i fatti più gravi e gli assassini peggiori di cosa nostra, delle stragi di Capaci e dell'uccisione del piccolo Giuseppe Di Matteo; Pippo Calò, mafioso condannato all'ergastolo per gli omicidi di Piersanti Mattarella, Pio La Torre, Michele Reina, Carlo Alberto dalla Chiesa, Boris Giuliano, Paolo Giaccone, Antonio Scopelliti, Cesare Terranova e per le stragi di Capaci; Benedetto Capizzi; Antonino Cinà; Pasquale Condello; Raffaele Cutolo e potrei continuare per altri 74 gravi ergastolani mafiosi che, con il coronavirus, si stanno prendendo la libertà che voi date loro e che noi invece non vogliamo, perché i mafiosi devono stare in galera.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az E FIBP-UDC</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg34">Questo è quello che voi pensate come cura Italia: fate entrare i clandestini nel nostro Paese e fate uscire dalla galera gli ergastolani e i mafiosi. Su questo non vi daremo tregua.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e FIBP-UDC. Commenti dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-01500) - Question time su applicazione misure che limitano possibilità di allontanarsi da propria abitazione</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u15">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg35">Il senatore Gasparri ha facoltà di illustrare l'interrogazione 3-01500 sull'applicazione delle misure che limitano la possibilità di allontanarsi dalla propria abitazione, per tre minuti.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg36">Colleghi, facciamo intervenire il senatore Gasparri.</seg>
+            </u>
+            <note type="speaker">GASPARRI (FIBP-UDC)</note>
+            <u ana="#regular" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u16">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg37">Signor Ministro, l'interrogazione di Forza Italia riguarda i temi della mobilità sul territorio che sono stati oggetto di indicazioni spesso sovrapposte e a volte contraddittorie.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg38">In primo luogo, invitiamo il Governo a confrontarsi con il Parlamento e di smetterla con l'abuso di decreti del Presidente del Consiglio dei ministri che hanno creato una confusione e un accentramento di poteri da parte del Governo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FIBP-UDC e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg39">Abbiamo anche posto questo problema perché, ben venga la tecnologia - si parla di app per controllare la situazione - ma non si potranno assumere provvedimenti del genere senza un voto del Parlamento sovrano che deve controllare, verificare e decidere. Se saranno utili per la salute dei cittadini, noi li valuteremo con attenzione. A proposito di mobilità, chiediamo quindi un punto della situazione. Voglio anche ringraziare tutto il personale delle forze di polizia, della polizia locale, dell'esercito e delle forze armate che hanno garantito controlli e sicurezza. E devo dire che c'è voluto l'impegno del Gruppo Forza Italia perché si stanziassero più fondi per gli straordinari e si equiparasse l'impegno delle forze armate a quello delle forze di polizia. Senza l'esercito non si sarebbero trasportate neanche le bare in Lombardia. Dobbiamo ricordarci del popolo in divisa anche quando sarà cessata questa emergenza. Chiediamo pertanto chiarimenti sulla mobilità, sulle direttive che vengono date e sui metodi che si debbono seguire, sulla prossimità dagli alloggi e sui bambini. Noi vogliamo che ci siano regole per la sicurezza e la sanità. Vogliamo non il caos, ma maggiore trasparenza e chiarezza perché altrimenti si arriva al paradosso per cui circoleranno più gli extracomunitari che gli altri. E anche sulla regolarizzazione che lei ha annunciato, stia attenta, Ministro, in quanto luoghi come Borgo Mezzanone hanno bisogno di sgomberi e non di sanatorie che potrebbero aumentare il caos e la confusione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FIBP-UDC</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg40">PRESIDENTE. Il ministro dell'interno, consigliere di Stato Lamorgese, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">LAMORGESE</note>
+            <note type="role">ministro dell'interno</note>
+            <u ana="#guest" who="#LamorgeseLuciana" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u17">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg41">Signor Presidente, onorevoli senatori, sul piano generale voglio evidenziare che sin dall'inizio dell'emergenza sanitaria il Ministero dell'interno ha adottato numerosi atti di indirizzo proprio al fine di coordinare gli interventi sul territorio e garantire un'uniforme applicazione delle misure di contenimento dell'epidemia. Si tratta di un lavoro complesso che ha affrontato diverse casistiche, attesa comunque l'atipicità della situazione.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg42">Con la circolare del 31 marzo scorso, cui fanno riferimento gli onorevoli interroganti, si è inteso fornire chiarimenti in merito ad alcuni profili applicativi in tema di divieto di assembramento e di spostamento di persone. È stato, tra l'altro, specificato che la possibilità di uscire con i figli minori era consentita a un solo genitore per brevi percorsi in prossimità della propria abitazione, in occasione di spostamenti motivati da situazioni di necessità o di salute.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg43">Per quanto riguarda l'attività motoria, è stato chiarito che, ferme restando le limitazioni indicate, questa è consentita nei pressi dell'abitazione con esclusione di ogni forma di attività ludica o ricreativa all'aperto e che continua a essere vietato l'accesso ai parchi, alle ville, alle aree gioco e ai giardini pubblici.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg44">Le numerose circolari, direttive e note esplicative sono state trasmesse a tutte le prefetture, a tutti gli uffici sul territorio e sono state pubblicate sui siti istituzionali. È stato raccomandato ai prefetti di comunicare le indicazioni ai sindaci, tenuto conto delle funzioni di controllo espletate anche dalla polizia municipale, e alle camere di commercio per le informazioni delle associazioni e organizzazioni rappresentative delle categorie economiche interessate.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg45">Il monitoraggio dell'attività sanzionatoria ha posto in luce che, a fronte dei controlli effettuati (circa 9 milioni di persone) e del numero delle accertate (circa 330.000), solo un limitatissimo numero di casi ha evidenziato delle criticità applicative per le quali si è proceduto poi in via di autotutela.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg46">Concludo ringraziando le forze di polizia. Anch'io voglio sottolineare il loro impegno in una capillare attività di verifica, ma anche evidenziare come ciascuno di noi in questa delicata fase può contribuire a realizzare, con il proprio comportamento, le condizioni per uscire da questa emergenza, per tornare a una vita normale sotto il profilo sia lavorativo che sociale.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg47">All'attività importante delle forze di polizia hanno lavorato anche le polizie locali e i militari di «Strade sicure» a cui va analogamente il mio ringraziamento.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg48">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Gasparri, per due minuti.</seg>
+            </u>
+            <note type="speaker">GASPARRI (FIBP-UDC)</note>
+            <u ana="#regular" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u18">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg49">Signor Ministro, molto sinteticamente, in vista di riaperture e possibilità maggiori che tutti ci auguriamo da maggio ci potranno essere, chiediamo al Governo direttive chiare e omogenee, perché anche sui minori, sul fatto che si possano accompagnare in attività motoria o di necessità, le circolari hanno spesso detto cose diverse.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg50">Per quanto riguarda l'eventuale uso di app, chiediamo che si passi dal Parlamento, che siano adottate procedure trasparenti e ci sia la certezza che in fasi successive i dati vengano distrutti. Chiediamo che venga attuata la decisione, che il Senato ha assunto con un ordine del giorno, di equiparare l'impegno delle forze armate a quello delle forze di polizia. Tutti i loro componenti vanno ringraziati, assieme anche a quelli dei Vigili del fuoco e delle polizie locali, per straordinari e trattamenti economici. E ricordo l'impegno che è stato votato in Commissione bilancio al Senato della Repubblica. Rivolgendomi a tutti, aggiungo che bisogna ricordarsi del popolo in divisa anche quando questa emergenza sarà finita, perché poi si è invocata la sanità militare, sono stati realizzati gli ospedali da campo, ma poi sono stati smantellati negli anni presidi e stanziamenti per le forze armate e il comparto sicurezza e difesa; di questo dovremo ricordarci.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FIBP-UDC e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg51">Infine, rispetto alla circolazione, per quanto riguarda sanatorie e regolarizzazioni, noi siamo assolutamente contrari. Piuttosto fate i voucher per far lavorare gli italiani nel settore agricolo, o mandate a lavorare coloro che ricevono il reddito di cittadinanza in cambio di nulla, e non i clandestini regolarizzati.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FIBP-UDC e L-SP-PSd'Az.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-01501) - Question time su criticità connesse a dichiarazione non sicurezza porti italiani</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u19">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg52">Il senatore De Falco ha facoltà di illustrare l'interrogazione 3-01501 sulle criticità connesse alla dichiarazione di "non sicurezza" dei porti italiani, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DE FALCO (Misto)</note>
+            <u ana="#regular" who="#DeFalcoGregorio" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u20">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg53">Signor Ministro, l'oggetto dell'interrogazione è il decreto interministeriale del 7 aprile 2020 che dichiara non sicuri ( unsafe ) i porti della Repubblica a causa dell'emergenza in atto. Il provvedimento però, in realtà, che non risulta nemmeno pubblicato e, quindi, non è conoscibile, non riesce a pervenire all'obiettivo che si propone. Preliminarmente, una nave ha diritto di entrare in un porto se è in grave difficoltà o se in difficoltà siano le persone presenti a bordo per forza maggiore o stato di necessità (Convenzione del 1923 sul regime dei porti). Secondo punto: per i possibili richiedenti asilo a bordo di navi in acque interne, lo Stato costiero ha piena giurisdizione e deve quindi verificare il ricorrere - singolarmente - dei requisiti; diversamente, si tratta di respingimento illecito. Terzo punto: negare in modo automatico - lo sottolineo - il diritto di passaggio a tutte le navi che abbiano certe condizioni è illegittimo, perché le convenzioni internazionali fissano questa facoltà in relazione a specifici motivi di pregiudizio che portano la nave alla comunità costiera. In questo caso, il respingimento, cioè il divieto, è automatico e, quindi, illegittimo. Quarto punto: l'ingresso nel mare territoriale collegato all'attività search and rescue è, in quanto tale, legittimo (secondo l'articolo 98 della Convenzione Unclos di Montego Bay) e non può considerarsi attività compiuta in violazione di legge nazionale di immigrazione quella della nave che abbia l'obiettivo di sbarcare naufraghi. Non può essere illecito. Il decreto opera un richiamo erroneo e una grave torsione logico-giuridica delle norme delle Convenzioni internazionali Unclos e SAR, perché stabilisce che si deve limitare l'ingresso di una nave non perché la nave rappresenti un pregiudizio ( ex articolo 19 della convenzione Unclos), ma perché la comunità costiera sarebbe pericolosa per la nave. Ecco la torsione, l'assurdità. Il decreto è pertanto paradossale e non può impedire l'ingresso delle navi soccorritrici. Tuttavia, può mettere in scacco l'intera portualità poiché, assumendo che i porti non sono luoghi sicuri in relazione alla pandemia, si afferma logicamente l'esistenza di un pericolo potenziale per i marittimi comunque presenti in porto. Infatti, i giornali spagnoli hanno diffuso la notizia che i porti italiani probabilmente sono chiusi alle navi straniere fino al 31 luglio. Inoltre, trasbordare i naufraghi su un'altra nave non serve assolutamente a nulla: è una pura e semplice ipocrisia, poiché essi comunque sono in acque interne su navi italiane totalmente soggette alla giurisdizione nazionale: dunque, sono in Italia. Si tratta pertanto di un aggravio di spesa immotivato per i contribuenti. Se si considera poi - come è stato appena detto dal ministro Lamorgese - che non vi è alcun caso di positività su navi ONG - ce n'è uno solo di un egiziano su sbarco autonomo, fantasma - bisogna anche capire che tutto il provvedimento non ha alcun senso. Chiedo al signor Ministro in indirizzo se ritenga che la decisione presa - dichiarare unsafe i porti italiani - abbia come conseguenza logica e giuridica che le strutture italiane non possano essere scalate dalle navi straniere. Chiedo, poi, a questo punto, che senso abbia l'inutile trasbordo dei naufraghi su un'altra nave. È inutile, costoso nonché illegale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg54">PRESIDENTE. Il ministro delle infrastrutture e dei trasporti, onorevole De Micheli, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DE MICHELI</note>
+            <note type="role">ministro delle infrastrutture e dei trasporti</note>
+            <u ana="#guest" who="#DeMicheliPaola" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u21">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg55">Signor Presidente, stimati senatori, la progressiva diffusione del virus Covid-19 ha comportato la sospensione di fatto di tutti gli strumenti volti a un'ordinata e condivisa gestione del fenomeno migratorio a livello europeo. Dunque, si è reso necessario adottare misure urgenti nazionali coerenti con la posizione assunta dall'Italia in ambito comunitario e con le misure di prevenzione e contenimento della pandemia attuate sul territorio nazionale. Tra queste ricordo quella che prevede la sospensione dei servizi di crociera da parte delle navi battenti bandiera italiana e, già dal 19 marzo, il divieto di ingresso nei porti italiani delle navi battenti bandiera estera impiegate negli stessi medesimi servizi.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg56">In tale contesto si inserisce il decreto del 7 aprile del 2020, che ha ribadito alcuni principi fondamentali della Convenzione di Amburgo del 1979 sulla ricerca e sul soccorso in mare. Il primo è quello dell'indispensabile cooperazione fra gli Stati firmatari della Convenzione che si estrinseca anche attraverso l'obbligo degli Stati di bandiera delle unità che prestano soccorso di farsi carico essi stessi dell'assistenza e del collocamento dei migranti, anche ai fini dell'individuazione di un luogo sicuro di sbarco.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg57">Il secondo principio è quello relativo all'individuazione dei place of safety, come luogo in cui è assicurata la sicurezza delle persone soccorse in mare e dove possono essere soddisfatti i bisogni primari, tra cui il cibo, il riparo e le esigenze sanitarie. In applicazione di detti principi e dunque in modo del tutto legittimo, il decreto interministeriale qualifica l'emergenza connessa alla diffusione del coronavirus come una situazione che non rende possibile assicurare sul territorio italiano la disponibilità di tali luoghi sicuri senza compromettere la funzionalità delle strutture nazionali sanitarie, logistiche e di sicurezza dedicate al contenimento del virus; ciò limitatamente ai casi di ricerca e soccorso nei quali lo Stato italiano non abbia svolto alcun ruolo di coordinamento delle operazioni di soccorso e pertanto non abbia assunto alcuno degli obblighi che detto coordinamento gli impone. Al contempo, è stato fatto richiamo alla responsabilità dello Stato di bandiera dell'unità soccorritrice, che, in nome del già ricordato principio di cooperazione previsto dalla Convenzione SAR, è chiamato a collaborare con l'Italia per individuare una soluzione condivisa nella gestione dei naufraghi. Laddove invece il soccorso avvenga in area SAR italiana con il concorso di unità navali nazionali, resta fermo l'obbligo dell'Italia, pur nell'attuale fase emergenziale, di farsi carico dell'individuazione di ogni opportuna soluzione per la salvezza dei naufraghi e dell'individuazione di idonei luoghi di sbarco e di accoglienza. Con il decreto del capo della Protezione civile n. 1287 del 12 aprile sono state individuate le misure organizzative e le procedure per fornire assistenza sanitaria alle persone soccorse in mare ovvero giunte sul territorio nazionale a seguito di sbarchi autonomi, garantendo ad esse anche un luogo dove trascorrere la quarantena prevista dalle nostre disposizioni. Nelle more dello svolgimento delle procedure attuative delle misure previste dal sopra menzionato decreto - di cui ha prima parlato anche il ministro Lamorgese - e in considerazione della necessità di affrontare l'emergenza rappresentata dall'operazione di soccorso della nave Alan Kurdi (una ONG tedesca) al di fuori della zona SAR italiana, su mia richiesta, con decreto del 16 aprile, il capo della Protezione civile ha provveduto a individuare, utilizzando le convenzioni già stipulate dal MIT, un'unità navale immediatamente impiegabile per le esigenze alloggiative e di sorveglianza sanitaria delle persone soccorse dall'ONG, nominando all'uopo come soggetto attuatore la Croce Rossa Italiana. Conseguentemente, i 146 migranti a bordo della nave Alan Kurdi sono stati trasferiti, con l'ausilio delle motovedette della Guardia costiera, a bordo del traghetto Rubattino, attualmente in rada a Palermo, per lo svolgimento del previsto periodo di quarantena, che - ricordo - è una misura di prevenzione applicata a tutti i cittadini italiani e alle persone residenti in Italia, anche se provenienti dall'estero. Identica iniziativa è stata assunta nei confronti dei 34 migranti soccorsi dalla nave spagnola Aita Mari, anch'essi ospitati a bordo del Rubattino. Concludo evidenziando che, anche nel contesto emergenziale determinato dal coronavirus e nonostante le difficoltà che ne sono derivate in maniera non uniforme su tutto il territorio nazionale, il Governo non è mai venuto meno ai propri obblighi, né ai doveri di solidarietà e di soccorso, e continuerà a porre in essere tutte le iniziative necessarie per salvaguardare le vite umane e l'incolumità delle persone, siano esse migranti soccorsi in mare o persone che sono affette da coronavirus, pur ribadendo, in questa autorevolissima sede, agli Stati di bandiera delle unità navali che operano interventi in mare l'ineludibile necessità di una specifica assunzione di corresponsabilità. PRESIDENTE. Ha facoltà di intervenire in replica il senatore De Falco, per due minuti.</seg>
+            </u>
+            <note type="speaker">DE FALCO (Misto)</note>
+            <u ana="#regular" who="#DeFalcoGregorio" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u22">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg58">Signor Ministro, nel ringraziarla devo dichiararmi però totalmente insoddisfatto del suo intervento, perché è erroneo, come erroneo è il decreto. Ci sono due aspetti, quello tecnico e quello politico.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg59">L'aspetto tecnico è semplicemente il seguente, signor Ministro: quel decreto è sbagliato, perché fa anche dei riferimenti erronei. Guardi che non si tratta assolutamente della Convenzione SAR ad essere in gioco, ma si tratta dell'articolo 98 della UNCLOS, ovverosia della Convenzione di Montego Bay, come ho detto prima.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg60">In merito al secondo aspetto, la responsabilità dello Stato di bandiera non esiste; ve la siete inventata. La responsabilità è dello Stato che ha la responsabilità della zona SAR o dello Stato e del centro di soccorso che abbia ricevuto notizia. Questi elementi fissano le responsabilità. Non esiste alcuna responsabilità dello Stato di bandiera, perché altrimenti non avrebbe senso la Convenzione SAR.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg61">Inoltre, mi pare di capire chiaramente qualcosa delle promesse, delle assunzioni di responsabilità, fatte in quest'Aula dal professor Conte quando è venuto a chiedere la fiducia, di discontinuità con la politica precedente e di volerla modificare nel senso indicato dai rilievi mossi dal Presidente della Repubblica; beh, quelle assunzioni di responsabilità, sulle quali ha chiesto anche la mia fiducia, sono totalmente disattese e si sta procedendo in senso inverso. Trarrò, pertanto, le conseguenze politiche di questa vostra terribile posizione, che è, signor Ministro, gravemente erronea, torce le normative e peraltro rende l'Italia un Paese incivile.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u23">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg62">La senatrice Vono ha facoltà di illustrare l'interrogazione 3-01509 sulle iniziative per la riapertura dei cantieri relativi alla rete stradale e all'edilizia scolastica, per tre minuti.</seg>
+            </u>
+            <note type="speaker">VONO (IV-PSI)</note>
+            <u ana="#regular" who="#VonoGelsomina" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u24">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg63">Signor Ministro, vorrei rilevare in premessa che, malgrado le numerose segnalazioni al riguardo della negligenza applicata durante gli interventi di manutenzione del ponte che collega Albiano e Caprigliola, tra Toscana e Liguria, nella mattinata dell'8 aprile sono crollati ben 258 metri di ponte da 10 metri di altezza sul sottostante fiume Magra, una tragedia sfiorata solo grazie alle limitazioni di spostamento imposte dall'emergenza Covid. E pensare che ancora attendiamo l'avvio della procedura di appalto per la realizzazione del ponte tra Ceparano e Santo Stefano, finanziato dal Governo Renzi.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg64">In Italia sono troppe le opere i cui lavori procedono a rilento. Parlo, signor Ministro, di opere immediatamente cantierabili, già finanziate e autorizzate per un complessivo valore di circa 10 miliardi di euro, con elevate potenzialità di occupazioni, come la strada statale 106 jonica, il completamento della Grosseto-Siena, della trasversale delle Serre, della variante di San Donà di Piave, dell'autostrada Palermo-Catania, del potenziamento del Grande raccordo anulare di Roma, e potrei continuare. Sono opere su cui, in questo momento di chiusura o riduzione di attività e trasporti, potrebbero ripartire immediatamente quei cantieri indispensabili a rimettere in moto l'economia del nostro Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg65">Non dimentichiamo poi tutti i lavori di edilizia scolastica con risorse già disponibili per quasi mezzo miliardo di euro e per cui ancora tante sono le denunce di situazioni di pericolosità che giungono da tutto il territorio nazionale.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg66">Come vede, signor Ministro, moltissime sono le opere ferme in ogni parte d'Italia per cui, noi come maggioranza insieme a lei siamo tenuti a dare risposte concrete ai cittadini. Il settore delle infrastrutture deve rivestire nuovamente l'importanza centrale in termini economici e occupazionali; per questo bisogna sburocratizzare immediatamente le procedure senza dover ricorrere sempre in emergenza. Italia Viva lo ribadisce da tempo, proponendo anche la nomina di commissari ad hoc, come sembra che anche il Governo voglia fare per la ricostruzione del ponte di Albiano. Premesso questo, vorrei conoscere le iniziative del suo Ministero di programmazione di un piano nazionale per l'immediata apertura dei cantieri; se ha predisposto o intenda predisporre, per fronteggiare l'emergenza, un piano di interventi prioritari in condivisione con il capo dipartimento della Protezione civile, i Ministeri competenti e magari anche con le Commissioni parlamentari competenti; se intenda, di concerto col Ministro dell'istruzione, ripristinare una struttura di missione per la riqualificazione dell'edilizia scolastica, nominando dei commissari per la semplificazione. PRESIDENTE. Il ministro delle infrastrutture e dei trasporti, onorevole De Micheli, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DE MICHELI</note>
+            <note type="role">ministro delle infrastrutture e dei trasporti</note>
+            <u ana="#guest" who="#DeMicheliPaola" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u25">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg67">Signor Presidente, onorevoli senatori, fin dal primo giorno ho espressamente dato mandato agli uffici di procedere alla ricognizione di tutte le opere pubbliche programmate ed eventualmente bloccate e individuato tutte le iniziative necessarie per il superamento delle problematiche che ne avevano impedito l'avvio.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg68">Alla data del 21 aprile 2020 sono stati resi pienamente utilizzabili circa 11 miliardi di euro, dei quali 4,5 miliardi relativi a opere pubbliche, tra cui 1,3 miliardi per la strada statale 106 jonica e la strada statale 4 salaria, che erano peraltro da molto tempo attese, e oltre 6,5 miliardi sono stati trasferiti agli enti locali per i relativi programmi settoriali di trasporto rapido di massa, rinnovo dei parchi autobus, manutenzione delle strade provinciali (per 995 milioni), sicurezza delle ferrovie non interconnesse agli enti locali. Si tratta, quindi, di 11 miliardi totali.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg69">Per quanto concerne le attività di manutenzione ordinaria e straordinaria di strade, autostrade, ponti, viadotti e gallerie, le stesse sono proseguite, in taluni casi con rallentamenti, anche durante le settimane di lockdown. Per questa ragione il Ministero delle infrastrutture e dei trasporti ha sottoscritto con le organizzazioni sindacali, con le grandi stazioni appaltanti e le associazioni datoriali le linee guida per la sicurezza nei cantieri alla metà di marzo. Nell'ambito dell'aggiornamento del contratto di programma 2018-2019 tra Ministero delle infrastrutture e dei trasporti e ANAS in corso di approvazione, sono stati attribuiti 2,650 miliardi per le manutenzioni sui ponti e sui viadotti gestiti da ANAS, nonché 641 milioni, che si aggiungono ai 440 milioni che il Ministero ha già assegnato, per le manutenzioni straordinarie delle strade provinciali. Nel prossimo decreto provvederemo a chiedere al Parlamento l'accelerazione della procedura di approvazione di questo contratto di programma. Inoltre, sono stati trasferiti 2,6 miliardi per il finanziamento degli interventi manutentivi straordinari della rete viaria provinciale e delle città metropolitane. Nei prossimi giorni manderemo all'approvazione della Conferenza Stato-città e autonomie locali la ripartizione di ulteriori 460 milioni di euro per la manutenzione delle strade provinciali e comunali, risorse quindi immediatamente trasferibili agli enti territoriali. Per quanto riguarda le iniziative in materia di sicurezza, si è provveduto a dotare l'Agenzia nazionale per la sicurezza delle ferrovie e delle infrastrutture stradali e autostradali (ANSFISA), sia dello statuto che del regolamento di amministrazione, che sono indispensabili per assicurarne l'operatività, e sono state avviate le procedure di reclutamento del personale. Parallelamente, il Consiglio superiore dei lavori pubblici ha provveduto ad adottare apposite linee guida per il monitoraggio dinamico, la valutazione del rischio e gli interventi di ripristino di ponti e viadotti, attese da oltre un decennio. Con specifico riguardo al crollo del ponte sul fiume Magra, che collega l'abitato di Santo Stefano Magra con Albiano, lungo la strada provinciale 70 - a partire dal mese di novembre 2018 strada statale 330 di Buonviaggio - abbiamo provveduto a istituire immediatamente una commissione ispettiva, presieduta proprio dal direttore dell'ANSFISA, con il compito di accertare le cause dell'evento, e ho proposto al Presidente del Consiglio dei ministri di nominare il presidente della Regione Toscana Enrico Rossi quale commissario per la ricostruzione del ponte. Più in generale, per quanto concerne la riduzione dei tempi di realizzazione delle opere pubbliche, rappresento che sono sostanzialmente terminati i lavori della commissione per l'elaborazione di un regolamento unico e che abbiamo chiesto l'inserimento nel prossimo decreto-legge di apposite misure di semplificazione e di accelerazione della spesa, tra le quali l'approvazione dell'aggiornamento e contratto di programma RFI e l'approvazione dell'aggiornamento e contratto di programma ANAS. Quanto poi alle iniziative in materia di edilizia scolastica, siamo sempre disponibili a individuare con il Ministero dell'istruzione, che è quello competente per materia, qualunque tipo di collaborazione per accelerare la spesa degli stanziamenti previsti. PRESIDENTE. Ha facoltà di intervenire in replica il senatore Grimani, per due minuti.</seg>
+            </u>
+            <note type="speaker">GRIMANI (IV-PSI)</note>
+            <u ana="#regular" who="#GrimaniLeonardo" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u26">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg70">Ringraziamo il Ministro per la risposta data, della quale siamo soddisfatti.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg71">Crediamo che l'accelerazione dell'apertura dei cantieri sia un tema ormai di rilevanza fondamentale per la nostra economia, soprattutto in un periodo di grande contrazione della domanda, che sarà ancora più forte nei prossimi mesi, come possiamo rilevare dai dati che emergono anche dall'Ufficio parlamentare di bilancio, che stima una contrazione del 15 per cento. È fondamentale, quindi, il rilancio degli investimenti pubblici, come è evidente che sta facendo il Governo. Noi chiediamo un'ulteriore accelerazione affinché le risorse stanziate possano essere subito messe in campo, come è stato spiegato per quanto riguarda gli investimenti, che ammontano a quasi 10 miliardi.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg72">Crediamo si debba lavorare ancora di più sullo snellimento delle procedure, e vedremo i risultati del lavoro svolto dalla Commissione. Pensiamo sia fondamentale contrarre, ad esempio, tutta la fase della progettazione e parlo soprattutto per gli enti locali che spesso, prima di realizzare un'opera, devono fare tre livelli di progettazione. Questo, a nostro avviso, è un problema.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg73">Inoltre, riteniamo fondamentale contrarre i tempi di ricorsi e impugnative, un altro problema cruciale per le opere pubbliche che spesso non partono o si fermano a causa di ricorsi o procedure giudiziarie interminabili.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg74">Chiediamo altresì che vengano ripristinate le unità di missione, che sono state importanti in una fase decisiva dello sviluppo di questo Paese per quanto riguarda Italia Sicura, Casa Italia e l'edilizia scolastica. Soprattutto per quest'ultimo tema è importante che vi sia un'accelerazione, dato che potremmo sfruttare anche i mesi di interruzione forzata delle lezioni.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg75">È fondamentale, quindi, mettere in campo tutte le risorse che sono già state stanziate per renderle operative.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-01508) - Question time su ripresa attività sportive professionistiche e dilettantistiche</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u27">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg76">Il senatore Dessì ha facoltà di illustrare l'interrogazione 3-01508 sulla ripresa delle attività sportive professionistiche e dilettantistiche, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DESSI' (M5S)</note>
+            <u ana="#regular" who="#DessiEmanuele" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u28">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg77">Signor Presidente, gentili colleghi, signor Ministro, oggi è il 22 aprile e sono passati oltre quaranta giorni dai quei terribili primi giorni di marzo in cui tutto sembrò caderci addosso. Oltre quaranta giorni in cui tutti gli sportivi italiani, dai giovanissimi dello sport di base ai professionisti del calcio, hanno dato una grande prova di responsabilità e di rispetto, fermandosi immediatamente. Anche la semplice attività motoria all'aria aperta è scomparsa dalla nostra quotidianità, tutto per evitare assembramenti.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg78">Per ovviare a questo traumatico blocco, tutto il movimento sportivo ha lanciato centinaia di bellissime e riuscitissime iniziative, utili ad incentivare l'allenamento tra le mura domestiche. Ne approfitto, personalmente e a nome del mio Gruppo, per ringraziare tutti gli atleti e gli appassionati che anche in questo momento hanno dimostrato grande competenza e fantasia.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg79">Ora, però, Ministro, si avvicina un'altra data, quella del 4 maggio, che sta creando nel popolo italiano grandi aspettative. Ascoltiamo quotidianamente tanti dei nostri concittadini che immaginano quel giorno come un ritorno alla vita, alla quotidianità persa, al lavoro, ad una socialità che manca da troppo tempo. Viviamo in attesa di quel giorno ponendoci tante domande, con la consapevolezza, acquisita attraverso le informazioni dei medici e degli esperti, che purtroppo tutto non sarà come prima. Sappiamo che questa emergenza sanitaria, non ancora risolta, lascerà il posto ad altre problematiche di tipo economico, sociale e psicologico. Per questo, ogni tanto, la speranza e la positività lasciano spazio a vivi sentimenti di preoccupazione.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg80">Il mondo dello sport, forse più di tanti altri, rischia di pagare un prezzo altissimo. L'obbligo dell'uso dei dispositivi di protezione e soprattutto il mantenimento delle distanze interpersonali, rende impraticabile nell'immediato alcune delle più belle e seguite discipline sportive: penso a sport di squadra come il calcio, il rugby, il basket e a sport individuali come la boxe, il judo, il karate e tanti altri.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg81">Ma il dramma che oltre cinque milioni di praticanti sportivi vive è nulla rispetto a quello che in questo momento stanno vivendo un milione di operatori del settore e ben 63.000 società sportive. Nella stragrande maggioranza dei casi parliamo di uomini e donne che hanno praticato sport tutta la vita, studiato e investito i loro averi in un mondo in cui la fatica è sicura ma i ritorni economici molto meno. Parliamo di uomini e donne, nella maggior parte dei casi molto giovani, che hanno dato vita ad associazioni, fatto investimenti in strutture di altissimo livello e regalato momenti di condivisione e sana allegria quotidiana alla loro utenza che, in moltissimi casi, è un'utenza debole della popolazione. Mi riferisco anche, naturalmente, al mondo della disabilità che fa un enorme affidamento sullo sport per il recupero dei nostri ragazzi, dandogli passione, forza fisica e forza interiore. Ce ne accorgiamo purtroppo solo ogni quattro anni, quando tanti di loro ci inorgogliscono in occasione delle Paraolimpiadi.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg82">A tutte queste persone, signor Ministro, dobbiamo molto, soprattutto vicinanza, trasparenza e sincerità, nella consapevolezza che ognuno di noi sta facendo tutto ciò che è nelle sue disponibilità per permettere, nel più breve tempo possibile e nel rispetto dei protocolli e nella massima sicurezza personale di ognuno, la ripresa delle attività e, ove non fosse possibile, idonee contropartite economiche.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg83">Per questo sono a chiederle quali sono ad oggi le azioni intraprese, di concerto con le parti interessate, per programmare la graduale uscita da questa fase di quiescenza, quali sono le forze di ristoro pensate per l'immediato e quali iniziative sono in cantiere per rilanciare, a crisi finita, tutto il comparto.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg84">PRESIDENTE. Il ministro per le politiche giovanili e lo sport, onorevole Spadafora, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">SPADAFORA</note>
+            <note type="role">ministro per le politiche giovanili e lo sport</note>
+            <u ana="#guest" who="#SpadaforaVincenzo" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u29">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg85">Signor Presidente, onorevoli senatori, il Governo ha piena consapevolezza della drammaticità della situazione esposta dall'interrogante. Tale consapevolezza ci viene data anche da un confronto costante che abbiamo avviato sin dal primo giorno con tutti gli organismi sportivi, dal CONI, al CIP, alle federazioni, agli enti di promozione sportiva, alle discipline sportive associate, alle associazioni dilettantistiche e alle società dilettantistiche.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg86">Soprattutto, abbiamo aperto un canale privilegiato con il territorio per lo sport di base, per ricevere da tutti coloro che quotidianamente vivono con difficoltà la possibilità di gestire centri ed attività sportive dei suggerimenti ed avere anche notizie su quanto sta accadendo in tutte le Regioni italiane.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg87">I media si concentrano prevalentemente in queste ore sul calcio, sulla ripresa o meno dei campionati, ma sappiamo benissimo che, per quanto al calcio vada attribuito quel giusto valore anche di azienda economica per via dei flussi finanziari che produce, lo sport non è solo il calcio e che il calcio non è assolutamente solo la serie A. Proprio consapevoli di questo, nel primo decreto-legge approvato il Governo ha pensato a tutto quel mondo di collaboratori sportivi, che dopo questa emergenza andrà riorganizzato e riformato per consentire loro maggiori tutele, che ora non hanno e che, per la loro particolarità da un punto di vista giuridico-lavoristico, non avrebbero potuto accedere ai fondi previsti dagli altri articoli del decreto. Quindi abbiamo istituito un fondo ad hoc per consentire anche ai collaboratori sportivi di avere un bonus di 600 euro. Sono convinto che nel decreto che ci apprestiamo ad approvare in Consiglio dei ministri troveremo ulteriori risorse per consentire che questo bonus non solo lo abbiano tutti i collaboratori sportivi che a marzo ne hanno fatto richiesta, indipendentemente dal compenso che hanno ricevuto, se sopra o al di sotto dei 10.000 euro (come è stato detto in un primo momento), ma che possa essere esteso anche a tutti i collaboratori per il mese di aprile. Nei giorni scorsi ho inviato al CONI e al CIP una lettera per chiedere che tutte le federazioni si esprimano sulle modalità di applicazione dei protocolli sanitari per poter riprendere in sicurezza le attività sportive. Venerdì prossimo riceverò gli esiti di questo lavoro ed oggi incontrerò alle ore 12 tutti i rappresentanti del mondo del calcio e della FIGC. Tutto questo ci consentirà di valutare, prima del 4 maggio, se saremo o meno in grado di riaprire e cosa. Ma dobbiamo essere consapevoli che è necessario riaprire, perché lo sport è importante non solo come valore economico, ma soprattutto come valore sociale. Ma lo dobbiamo fare nel rispetto assoluto della salute di tutti, quindi gradualmente potremo pensare di riaprire tutta la parte che riguarda gli allenamenti. Per quanto concerne i campionati e ciò che riguarderà le attività motorie all'aperto, tanto richieste dai nostri cittadini, valuteremo insieme al comitato tecnico-scientifico e alla Protezione civile, consapevoli che questa ripartenza va assolutamente spinta, ma allo stesso tempo va tutelata innanzitutto, come sempre e come stiamo facendo in queste settimane, la salute di tutti i cittadini italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg88">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice De Lucia, per due minuti.</seg>
+            </u>
+            <note type="speaker">DE LUCIA (M5S)</note>
+            <u ana="#regular" who="#DeLuciaDanila" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u30">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg89">Signor Presidente, signor Ministro, la sua risposta è stata più esaustiva non soltanto per quello che ha fatto, ma per quanto ci ha detto che farà: non solo, quindi, gli incontri con tutte le federazioni per partire da chi lo sport lo vive in prima persona quotidianamente e capire quale sarà il metodo migliore per poter valutare una ripresa di tutte le discipline sportive, ma anche perché ci ha anticipato che nel prossimo decreto si tornerà a lavorare anche per i collaboratori sportivi, che in questi giorni mi pare stiano cominciando a ricevere i 600 euro. È quindi molto importante quanto lei ci ha riferito oggi.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg90">So che lei ha fatto ricorso anche al senso di disciplina del mondo dello sport, nel momento in cui ha scelto di far raccontare dagli sportivi delle varie discipline in che modo si potessero placare gli animi degli appassionati del mondo dello sport. So che lei ha spinto perché si potesse mettere in piedi uno spot televisivo, che ha avuto un grande successo e un'ottima presa, soprattutto sui bambini. I bambini sono probabilmente i più penalizzati, nel momento in cui non solo devono far parte del gruppo di italiani costretti a vivere in lockdown, ma anche perché possono soddisfare poco le necessità di movimento, proprie della giovane età. Pertanto, insieme ai colleghi del Gruppo MoVimento 5 Stelle, mi ritengo estremamente soddisfatta, non solo della sua risposta, ma anche del suo impegno e della sua attività.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg91">PRESIDENTE. Lo svolgimento delle interrogazioni a risposta immediata ( question time ) all'ordine del giorno è così esaurito.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u31">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg92">La Conferenza dei Capigruppo, riunitasi ieri, ha approvato il calendario della prossima settimana.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg93">Martedì 28 aprile, alle ore 15, sarà ricordata la figura dell'ex senatore a vita Emilio Colombo in occasione del centenario della nascita.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg94">Inoltre, ove modificato dalla Camera dei deputati, l'Assemblea discuterà il decreto-legge cosiddetto cura Italia, già approvato dal Senato.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg95">Il calendario dei lavori prevede altresì la discussione congiunta del Documento di economia e finanza 2020 e dell'annessa Relazione sullo scostamento dall'obiettivo programmatico strutturale, la cui presentazione è stata annunciata dal Governo. I tempi per la discussione, pari a circa sette ore, sono stati ripartiti tra i Gruppi, in base a specifiche richieste.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg96">Per le dichiarazioni di voto finale è prevista la diretta televisiva.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg97">Le proposte di risoluzione ai provvedimenti dovranno essere presentate entro la conclusione della discussione generale. Gli emendamenti alla risoluzione accolta dal Governo sul Documento di economia e finanza dovranno essere presentati entro mezz'ora dall'espressione del parere.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg98">Si ricorda che, per l'approvazione della risoluzione sulla Relazione sullo scostamento, è necessaria la maggioranza assoluta dei componenti del Senato.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg99">I Capigruppo hanno altresì convenuto che, in via transitoria, gli interventi di fine seduta saranno limitati ad un rappresentante per Gruppo, ad eccezione del MoVimento 5 Stelle, al quale è data la possibilità di svolgere due interventi.</seg>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg100">Colleghi, non vorrei che ci fossero assembramenti. I senatori Questori hanno fatto un gran lavoro per cercare di tenere le distanze di sicurezza e poi avviene che ci sono gruppi che si incontrano nel centro dell'emiciclo. Non va bene!</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Calendario dei lavori dell'Assemblea</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u32">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg101">La Conferenza dei Presidenti dei Gruppi parlamentari, riunitasi il 21 aprile 2020, con la presenza dei Vice Presidenti del Senato e con l'intervento del rappresentante del Governo, ha adottato - ai sensi dell'articolo 55 del Regolamento - il calendario dei lavori fino al 30 aprile 2020:</seg>
+               <note type="summary">Martedì 28 aprile h. 15 - Disegno di legge n. 1766-B - Decreto-legge n. 18, Potenziamento Servizio sanitario nazionale e sostegno economico connessi emergenza coronavirus (approvato dal Senato, ove modificato dalla Camera dei deputati) - Discussione congiunta del Doc . LVII, n. 3 - Documento di economia e finanza 2020 e dell'annessa Relazione al Parlamento predisposta ai sensi dell'articolo 6 della legge 24 dicembre 2012, n. 243 (voto a maggioranza assoluta dei componenti del Senato) (ove presentati in tempo utile) * Mercoledì 29 " h. 9,30 Giovedì 30 " h. 9,30 (se necessaria)</note>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg102">Il termine di presentazione degli emendamenti al disegno di legge n. 1766-B (Decreto-legge n. 18, Potenziamento Servizio sanitario nazionale e sostegno economico connessi emergenza coronavirus) sarà stabilito in relazione ai tempi di trasmissione dalla Camera dei deputati. * Le proposte di risoluzione al Doc. LVII, n. 3 (Documento di economia e finanza 2020) e all'annessa Relazione al Parlamento predisposta ai sensi dell'articolo 6 della legge 24 dicembre 2012, n. 243, dovranno essere presentate entro la conclusione della discussione generale. Gli emendamenti alla risoluzione accolta dal Governo sul Documento di economia e finanza 2020 dovranno essere presentati entro mezz'ora dall'espressione del parere. Ripartizione dei tempi per la discussione del disegno di legge n. 1766-B (Decreto-legge n. 18, Potenziamento Servizio sanitario nazionale e sostegno economico connessi emergenza coronavirus) (4 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 40' Governo 40' Votazioni 40' Gruppi 2 ore, di cui: M5S 26' FI-BP 19' L-SP-PSd'Az 19' PD 14' Misto 11' FdI 11' IV-PSI 11' Aut (SVP-PATT, UV) 9' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg103">Ripartizione dei tempi per la discussione del Doc. LVII, n. 3 (Documento di economia e finanza 2020) e dell'annessa Relazione al Parlamento predisposta ai sensi dell'articolo 6 della legge 24 dicembre 2012, n. 243 (7 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 40' Governo 40' Votazioni 40' Gruppi 4 ore e 50 minuti, di cui: M5S 50' FI-BP 50' L-SP-PSd'Az 56' PD 30' Misto 26' FdI 30' IV-PSI 20' Aut (SVP-PATT, UV) 23' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg104">La ripartizione dei tempi tiene conto di specifiche richieste dei Gruppi.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">GRASSI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#GrassiUgo" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u33">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg105">Signor Presidente, è notizia di oggi che ben 8 dipendenti dell'ospedale Moscati di Avellino risultano contagiati da Covid-19. Oggi! È una notizia gravissima. De Luca si è vantato nella trasmissione di Bruno Vespa della sua attività di prevenzione e intanto gli ospedali campani - non mi riferisco dunque solo agli ospedali napoletani, su cui De Luca concentra la sua attenzione - sono e continuano ad essere focolaio di infezione. Questo accade perché medici e infermieri sono stati lasciati soli. Otto di loro - lo ripeto: otto! - risultano contagiati. Le cause? Le informazioni in mio possesso, oggetto di attenta verifica, mi dicono che i dispositivi di protezione individuale sono in ritardo e mancano i protocolli per una loro adeguata utilizzazione. Per quanto riguarda l'ospedale Moscati, si è gradualmente organizzato solo nelle ultime settimane (siamo ad aprile) il percorso separato per i pazienti Covid-19 dal triage in poi; solo da una settimana al Moscati esistono disposizioni per fare i tamponi a tutti coloro che si presentano al nosocomio, anche i casi non sospetti. Solo da una settimana! De Luca continua ad occupare la scena per coprire responsabilità di anni. Servono alcuni dati per valutare l'efficienza della gestione del Presidente della Regione Campania: in quella Regione la spesa sanitaria pro capite degli ultimi anni è molto simile alla spesa pro capite del Veneto; eppure la Campania continua a essere agli ultimi posti nelle valutazioni di performance. Continua ad oggi lo spostamento dei malati dalle Regioni del Sud al Nord e capolista di questa migrazione è la Campania; gran parte dei pazienti campani vanno in Lombardia. Bene, dopo l'attacco inaccettabile di ieri alla sanità lombarda dovremmo pensare che i pazienti campani sono sciocchi, perché evidentemente si rivolgono alla peggiore sanità di questo Paese; è vero il contrario.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg106">È grave ciò che è accaduto ieri. La verità è che De Luca sta mettendo in campo iniziative ad alto impatto mediatico per coprire le sue responsabilità. Gli ospedali campani sono focolai di infezione per le inefficienze del Presidente. Mi rivolgo agli elettori: non fatevi ingannare dalla propaganda. Dobbiamo togliere la sanità campana dalle mani del presidente De Luca.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u34">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg107">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di martedì 28 aprile 2020</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.u35">
+               <seg xml:id="ParlaMint-IT_2020-04-22-LEG18-Sed-209.seg108">Il Senato tornerà a riunirsi in seduta pubblica martedì 28 aprile, alle ore 15, con il seguente ordine del giorno: ( Vedi ordine del giorno ) La seduta è tolta (ore 10,47).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

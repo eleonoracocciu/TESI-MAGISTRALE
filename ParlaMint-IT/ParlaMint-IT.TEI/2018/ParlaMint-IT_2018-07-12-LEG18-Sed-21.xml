@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 21 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 21 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 21, giorno (2018-07-12)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 21, Day (2018-07-12)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="21-upper">21 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="126" unit="speeches" xml:lang="it">126 discorsi</measure>
+            <measure quantity="126" unit="speeches" xml:lang="en">126 speeches</measure>
+            <measure quantity="7449" unit="words" xml:lang="it">7.449 parole</measure>
+            <measure quantity="7449" unit="words" xml:lang="en">7,449 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1069286</idno>
+               <date when="2018-07-12">12.07.2018</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="12"/>
+               <tagUsage gi="head" occurs="11"/>
+               <tagUsage gi="note" occurs="53"/>
+               <tagUsage gi="seg" occurs="126"/>
+               <tagUsage gi="u" occurs="36"/>
+               <tagUsage gi="vocal" occurs="8"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="30"/>
+               <tagUsage gi="desc" occurs="38"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2018-07-12">12.07.2018</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente ALBERTI CASELLATI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u1">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg1">La seduta è aperta (ore 15,01). Si dia lettura del processo verbale. NISINI, segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u2">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00072) - Question time su realizzazione infrastrutture strategiche</head>
+            <note type="time">(ore 15,03)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u3">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg3">L'ordine del giorno reca lo svolgimento di interrogazioni a risposta immediata (cosiddetto question time ), ai sensi dell'articolo 151- bis del Regolamento, alle quali risponderanno il Ministro per i rapporti con il Parlamento e la democrazia diretta e il Ministro della salute. Invito gli oratori a un rigoroso rispetto dei tempi, considerata la diretta televisiva in corso. Il senatore Urso ha facoltà di illustrare l'interrogazione 3-00072 sulla realizzazione delle infrastrutture strategiche, per tre minuti.</seg>
+            </u>
+            <note type="speaker">URSO (FdI)</note>
+            <u ana="#regular" who="#UrsoAdolfo" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u4">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg4">Signor Presidente, signor Ministro, i progetti infrastrutturali per ogni Paese, per loro natura, hanno bisogno di continuità e coerenza, perché sono spesso progetti che vengono realizzati nel corso di anni, talvolta di decenni, e perché coinvolgono anche altri Paesi, vicini o lontani. Proprio per questo, non si possono cambiare progetti al cambio di Governo, a meno che non ricorrano eccezionali motivi, e ovviamente si devono mettere in conto gli eventuali costi del cambio dei progetti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg5">Negli ultimi anni, purtroppo, signor Ministro, è peggiorata la qualità della spesa pubblica. Sono aumentate le spese correnti e sono invece diminuite in maniera drastica proprio le risorse per gli investimenti pubblici e le infrastrutture, esattamente il contrario di quanto si doveva fare.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg6">Signor Ministro, sono passati centocinquanta giorni dalle elezioni e oltre settanta giorni dalla stesura di quello che voi, di fatto, considerate un nuovo Vangelo, cioè il contratto di programma, quarantadue giorni dal suo giuramento e ancora non abbiamo visto nemmeno un vostro decreto, nemmeno una vostra decisione, tantomeno sulle infrastrutture.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg7">Nel contratto di programma vi è scritto poco, nulla, anzi vi è scritto che deciderete qualcosa quando il comitato di conciliazione - il comitato di conciliazione, questo organo fantasma, nuovo - adotterà le opportune decisioni con riferimento alla realizzazione e al completamento delle opere pubbliche di rilievo nazionale non menzionate nel presente contratto, cioè tutte perché non menzionate nulla se non la linea ad alta velocità Torino-Lione in cui vi impegnate a ridiscutere il progetto.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg8">Ebbene, le dichiarazioni dei vari Ministri e Sottosegretari sono tra loro diametralmente contrapposte. Non si capisce nulla: è una Babele di linguaggi e di posizioni. Le chiedo se condivide la posizione del ministro Tria secondo cui è indispensabile investire nelle infrastrutture pubbliche e aumentare la spesa per le infrastrutture, se ritiene necessaria o meno la realizzazione dell'Alta velocità del terzo valico, se ritiene indispensabile la realizzazione del gasdotto che ci renderebbe più liberi dalla dipendenza energetica, il TAP, sempre che abbiate finalmente concluso l'analisi costi-benefici, che dura non da settanta o quarantadue giorni ma da cinque anni, perché da cinque anni voi vi opponete alle infrastrutture e pensiamo lo facciate sulla base di un'analisi reale.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg9">Pertanto, le chiedo questo e se vi sono, infine, accordi internazionali che ci obbligano a realizzare questi progetti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg10">PRESIDENTE. Il ministro per i rapporti con il Parlamento e la democrazia diretta, onorevole Fraccaro, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">FRACCARO</note>
+            <note type="role">ministro per i rapporti con il Parlamento e la democrazia diretta</note>
+            <u ana="#guest" who="#FraccaroRiccardo" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u5">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg11">Signor Presidente, colleghi senatori, rispondo al quesito posto dai senatori interroganti sulla base degli elementi forniti dal ministro Toninelli impossibilitato a partecipare alla seduta.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti ironici dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg12">La corretta definizione dei criteri di investimento in materia di infrastrutture costituisce un passaggio centrale delle politiche di Governo per il rilancio del sistema paese. In tale ottica c'è perfetta sintonia, in linea con quanto dichiarato dal Ministro dell'economia e delle finanze in sede di discussione del Documento di economia e finanza circa la necessità che l'Italia punti sugli investimenti pubblici per una rinascita economica e per attivare la crescita.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg13">In particolare, centrale in questo ambito è il rilievo delle infrastrutture che è essenziale, essendo queste tra quelle comunemente definite ad alto impatto moltiplicatore ossia in grado di garantire una ricaduta positiva sull'economia nel suo complesso superiore al loro costo. Questo orientamento non contrasta in alcun modo con una revisione degli orientamenti in termini di spesa e di risorse, così come di utilità per cittadini e imprese, dando un maggiore ascolto ai loro bisogni e alle esigenze del territorio e non incentrando le priorità sull'interesse esclusivo di chi realizzerà le opere.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg14">Obiettivo del Governo è quello di riesaminare in tempi brevi, che siano quindi più rapidi possibile, le diverse grandi opere per individuare quelle necessarie per i cittadini che dovranno quindi essere concluse, a partire ovviamente da quelle già iniziate. Su quelle che invece risulteranno, a seguito di accurata analisi, avere costi per la loro prosecuzione superiori ai benefici, andranno fatte le opportune valutazioni, processo del resto avviato anche in altri Paesi europei come ad esempio la Francia.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg15">Con particolare riguardo alla linea Alta velocità Torino-Lione, l'impegno del Governo è ridiscutere integralmente il progetto nell'applicazione dell'accordo tra Italia e Francia che rappresenta la volontà di pervenire a decisioni che non intendono rallentare i processi già avviati ma rafforzare i meccanismi di controllo quantitativo e qualitativo della spesa pubblica anche al fine di ridurre gli sprechi. In quest'ottica il Ministero sta procedendo alle complesse analisi di valutazione per le opere oggetto di interrogazione i cui risultati saranno in ogni caso utili all'adozione di soluzioni condivise dal Governo nel suo complesso il cui esito non comporterà ricadute negative sulla finanza pubblica e sull'azione dell'Esecutivo in quest'ambito.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg16">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Urso, per due minuti.</seg>
+            </u>
+            <note type="speaker">URSO (FdI)</note>
+            <u ana="#regular" who="#UrsoAdolfo" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u6">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg17">Signor Presidente, credo che chiunque sia in quest'Aula o ci abbia ascoltato non possa che dichiararsi assolutamente insoddisfatto della replica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FI-BP e PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg18">Sono insoddisfatto della replica innanzitutto perché non l'ha fatta il ministro delle infrastrutture Toninelli, il titolare, mentre il presidente del Consiglio Conte ci aveva assicurato che sarebbero venuti i titolari in quest'Aula a rispondere. E invece fuggite sempre dalle responsabilità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FI-BP e PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg19">FARAONE (PD). Bravi, rispetto per il Parlamento! Bravi! URSO (FdI). Sono profondamente insoddisfatto perché lei ha pronunciato - e l'hanno ascoltato tutti i cittadini - una sequela di affermazioni e di parole prive di contenuto, senza rispondere alle domande: «Ritenete fondamentale, sì o no, quest'opera che le imprese italiane e del Nord e i cittadini italiani ritengono determinante? Ritenete fondamentali, sì o no, i treni ad alta velocità e il gasdotto che ci renderebbe più liberi dalla sudditanza energetica?».</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FI-BP e PD. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg20">Insomma, quanto tempo dobbiamo aspettare prima che vi mettiate d'accordo a dare risposte meno farraginose e meno indeterminate? Il vostro non appare il Governo del cambiamento, ma delle parole, dell'indecisione, dei ritardi e dei rinvii: decidetevi a governare o tornate all'opposizione!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI, FI-BP e PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg21">VOCI DAL GRUPPO PD. Bravo!</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00075) - Question time su realizzazione grandi opere, in particolare ferrovia Torino-Lione</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u7">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg22">Il senatore Mallegni ha facoltà di illustrare l'interrogazione 3-00075 sulla realizzazione delle grandi opere, in particolare la ferrovia Torino-Lione, per tre minuti.</seg>
+            </u>
+            <note type="speaker">MALLEGNI (FI-BP)</note>
+            <u ana="#regular" who="#MallegniMassimo" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u8">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg23">Signor Presidente, pur comprendendo la delega del ministro Fraccaro in materia, debbo rilevare innanzi tutto con una certa indignazione che democrazia diretta significa che il Ministro, se non viene, del Parlamento se ne frega.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg24">Questo è il tema, ma in ogni caso cerco di illustrare l'interrogazione e spero che lei sia buon interprete di qualcuno che non c'è.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg25">Le grandi infrastrutture sono indispensabili alla crescita dell'Italia e ne rappresentano un fattore strategico, che rende necessaria una visione a lungo termine. Un rallentamento nella loro programmazione e realizzazione avrebbe negative e durature conseguenze, creando un divario tra noi e gli altri Paesi e allargando quello tra Nord e Sud del Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg26">Il cosiddetto contratto di Governo tra MoVimento 5 Stelle e Lega è vago - direi molto - al riguardo, perché non cita alcuna opera specifica (a parte le piste ciclabili e le ciclostazioni), se non la linea ad alta velocità Torino-Lione, per impegnarsi a ridiscutere integralmente il progetto di applicazione del relativo accordo tra Italia e Francia. L'attuale progetto della Torino-Lione è frutto di trattative durate anni e ogni variazione potrebbe essere rifiutata dalla Francia o dall'Unione europea, con la conseguente cancellazione dell'opera, nella quale sono già stati investiti 1,4 miliardi in studi, progetti e lavori. Stime attendibili valutano in almeno 2 miliardi la somma che andrebbe restituita alla Francia e all'Unione europea.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg27">Ma ve ne sono altre, signor Ministro, che elenco perché sono toscano e mi occupo anche di queste cose: le terze corsie autostradali; il sottoattraversamento di quella che fu la capitale italiana, Firenze; gli assi viari - già finanziati - nella zona di Lucca; l'autostrada tirrenica; la pista dell'aeroporto di Firenze. Cose forse a voi ancora sconosciute.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg28">Si chiede di sapere quale sia l'intendimento del Governo sulle grandi opere, quali intenda portare avanti e quali cancellare e, in particolare, quali modifiche intenda chiedere sulla Torino-Lione e in quali tempi, tenendo presente che, nella migliore delle ipotesi, comporterebbero un forte rallentamento nella loro realizzazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg29">PRESIDENTE. Il ministro per i rapporti con il Parlamento e la democrazia diretta, onorevole Fraccaro, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">FRACCARO</note>
+            <note type="role">ministro per i rapporti con il Parlamento e la democrazia diretta</note>
+            <u ana="#guest" who="#FraccaroRiccardo" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u9">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg30">Signor Presidente, colleghi senatori, rispondo al quesito posto dai senatori interroganti sulla base degli elementi forniti dal ministro Toninelli.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg31">Il tema posto dagli interroganti attiene alle grandi infrastrutture, che rappresentano senz'altro un fattore strategico e indispensabile per la crescita del sistema Paese. È interesse del Governo in generale che le infrastrutture vengano realizzate e che gli investimenti aumentino, considerato anche il loro effetto positivo sul PIL.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg32">Le opere in discussione sono diverse, alcune in via di realizzazione o di imminente avvio lavori, altre in fase di progettazione, altre ancora in attesa di finanziamenti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg33">Gli approfondimenti ancora in corso per la valutazione dei costi e dei benefici di ciascun progetto intendono evitare finalmente quello che finora non si è voluto evitare: lo spreco di denaro pubblico e il proliferare di ricorsi che rallentano inesorabilmente la realizzazione delle opere, finendo per gravare sulle tasche e sulla vita dei cittadini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg34">Deve essere chiaro che l'obiettivo dell'azione di governo non è dire no a tutto, bensì dire no alle opere inutili e dannose, per liberare energie e risorse davvero utili al futuro del Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg35">Con questo criterio intendiamo procedere a partire dall'Alta velocità Torino-Lione, per la quale è in corso un approfondimento serio, meticoloso e che, come già evidenziato, sarà portato all'attenzione del Parlamento ed è stato portato avanti già in Francia.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg36">Tenendo ferma la barra della centralità dell'interesse pubblico e dell'utilità di ogni opera per i cittadini, riusciremo a valutare con estrema attenzione ed efficacia ogni intervento. I primi risultati delle verifiche in corso saranno resi noti prossimamente all'Assemblea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Bellanova.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg37">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Mallegni, per due minuti.</seg>
+            </u>
+            <note type="speaker">MALLEGNI (FI-BP)</note>
+            <u ana="#regular" who="#MallegniMassimo" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u10">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg38">Signor Presidente, non posso che sentirmi totalmente insoddisfatto dalla risposta del surrogato del Ministro delle infrastrutture, il ministro Fraccaro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg39">Le devo dire una cosa, francamente, e la dirò fino a che costoro non si presenteranno in Aula, avendo rispetto di coloro i quali sono stati votati dai cittadini italiani. Quindi, continuerò fino a che avrò fiato. Io sto dicendo una cosa, e la dico agli amici e al territorio. È più di un mese che questo Governo si è insediato e forse arriverà il decreto-legge sulle motovedette nelle Commissioni competenti. A forza di aspettare, a forza di attendere, a forza di guardarsi intorno, le opere che già sono state finanziate, che già sono state approvate, le opere in partenza, quindi quelle che servono realmente al territorio e ai cittadini, rimangono lettera morta. Rimangono lettera morta gli impegni presi con le categorie del territorio, rimangono lettera morta gli impegni presi con coloro i quali lavorano, argomento a voi sconosciuto. Lavoro: argomento sconosciuto. Questi sono i motivi per i quali noi siamo totalmente insoddisfatti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP. Commenti dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg40">LUCIDI (M5S). Mallegni, vergognati! Hai capito? Vergognati!</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00077) - Question time su realizzazione grandi opere infrastrutturali</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u11">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg41">Il senatore D'Arienzo ha facoltà di illustrare l'interrogazione 3-00077 sulla realizzazione delle grandi opere infrastrutturali, per tre minuti.</seg>
+            </u>
+            <note type="speaker">D'ARIENZO (PD)</note>
+            <u ana="#regular" who="#DArienzoVincenzo" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u12">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg42">Signor Presidente, l'abbiamo già vista questa scena. In Commissione industria il Ministro ancora non si è fatto vedere. Continua ad addurre motivazioni altre, come quelle che ha riferito il surrogato, come viene chiamato il ministro Fraccaro.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg43">Questa mancanza di rispetto verso l'istituzione compete anche a lei, signor Presidente. Toccherà a lei richiamare questo Ministro in fuga (forse in giro a bloccare qualche opera oppure in qualche porto italiano) al rispetto verso le istituzioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg44">CASTALDI (M5S). Voi? Parlate voi? D'ARIENZO (PD). Ha ragione, infatti, chi dice che in quest'Aula siamo stati eletti...</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u13">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg45">Senatore D'Arienzo, ognuno può dire quello che vuole. Chiaramente lei può richiedere la presenza del ministro Toninelli. Io credo che sia legittima la presenza del Ministro per i rapporti con il Parlamento.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg46">Ma non ho detto che è illegittima. PUGLIA (M5S). Studia! Studia! PRESIDENTE. Io la inviterei al massimo rispetto, comunque.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg47">È infatti sempre successo che quando un Ministro è impedito a presenziare sia presente il Ministro per i rapporti con il Parlamento. Quindi, inviterei al massimo rispetto. Ognuno è legittimato, ovviamente, a dire come la pensa. Questo, però, non può riguardare la Presidenza per quanto riguarda la presenza degli interlocutori in questa Assemblea. Quindi, la pregherei di dire quello che pensa ma di dirlo con il massimo rispetto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg48">Lo stesso rispetto che lei sta chiedendo per i Ministri lo pretendiamo noi dal ministro Toninelli! PRESIDENTE. Non intendo che si facciano contestazioni su questa cosa perché non mi sembra il caso. Prego, continui.</seg>
+            </u>
+            <note type="speaker">D'ARIENZO (PD)</note>
+            <u ana="#regular" who="#DArienzoVincenzo" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u14">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg49">Lo stesso rispetto che lei chiede a noi, noi lo chiediamo al ministro Toninelli, peraltro al primo question time di questo Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg50">Questo è il rispetto del ministro Toninelli.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg51">In ogni caso, puntando sul tema dell'interrogazione, esprimiamo una forte preoccupazione. Il nostro Governo ha sempre creduto che sulle infrastrutture potessero crescere le comunità, il Paese, i posti di lavoro. È per questa ragione che vi abbiamo lasciato un patrimonio inestimabile</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Lucidi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg52">Mai nessun Governo, dopo la Prima guerra mondiale, ha investito oltre 100 miliardi di euro (132 per l'esattezza), di cui 98 disponibili. Ripeto, mai nessun Governo. Pur tuttavia, anziché interrogarsi su cosa fare per sfruttare questa ingente risorsa, il Ministro delle ispezioni dei costi e benefici si sta dilungando nel tentativo di bloccare le opere che fanno crescere il nostro Paese, quindi allungando i tempi e ritardando la crescita del Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg53">Ne ricordo alcune, ma solo per motivi di sintesi: l'Alta capacità Brescia-Padova, di cui un tratto importante, la Brescia-Verona è praticamente in appalto. Se fermate quella, fermate tutto l'asse produttivo del Nord-Est e del Nord, o del Sud Europa, mettetela come volete; l'Alta capacità Napoli-Bari, il collegamento finalmente tra i due mari; le opere ferroviarie della Regione Sicilia per far crescere, anche dal punto di vista turistico, non solo economico e sociale, quel territorio; la trasversale Tirreno-Adriatico, ovvero il collegamento tra il porto di Civitavecchia e l'Autostrada del sole.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg54">È sulle grandi opere che si misura la capacità di guardare al futuro e di dotare il Paese di strumenti per farlo crescere e per renderlo competitivo rispetto alle altre aree dell'Europa. La decisione di bloccare queste opere sarebbe grave, ed è per questa ragione che chiediamo elementi di dettaglio. Faccio alcune domande, Presidente, e concludo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg55">Vogliamo sapere quali sono le opere oggetto della verifica (abbiamo sentito adesso la Torino-Lione); quali sono le modalità di svolgimento; a chi saranno affidati gli incarichi (se sarà una gara oppure persone di fiducia) e, soprattutto, di quanto si allungheranno i tempi. Perché queste domande? Perché non vorremmo che il vostro sogno del cambiamento si trasformasse in un incubo per l'Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg56">PRESIDENTE. Il ministro per i rapporti con il Parlamento e la democrazia diretta, onorevole Fraccaro, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">FRACCARO</note>
+            <note type="role">ministro per i rapporti con il Parlamento e la democrazia diretta</note>
+            <u ana="#guest" who="#FraccaroRiccardo" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u15">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg57">Signor Presidente, la ringrazio, anche per il suo intervento: non sarà certo un appellativo a preoccuparci.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg58">Anche il quesito posto dal senatore Marcucci verte sul tema delle grandi opere, in relazione alle quali l'orientamento del Governo è, da un lato, evitare sprechi e opere incompiute, dall'altro, favorire gli investimenti. Siamo dunque favorevoli agli investimenti pubblici in infrastrutture e in quest'ottica il Governo sta portando avanti un confronto con l'Unione europea che terrà conto della possibilità di indirizzare in modo diverso gli investimenti futuri.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg59">Gli uffici del Ministero delle infrastrutture e dei trasporti, compresa la Struttura tecnica di missione, sono al lavoro sui singoli dossier per un'attenta analisi dei costi e dei benefici, per la valutazione della sostenibilità effettiva, dal punto di vista economico, ambientale e sociale. Circa la preoccupazione per il blocco e l'allungamento dei tempi di realizzazione di alcune grandi opere di rilevanza nazionale e internazionale, citate dell'onorevole senatore, quali l'Alta velocità Torino-Lione, il terzo valico dei Giovi, l'Alta velocità Brescia-Padova, l'Alta capacità Napoli-Bari, la trasversale Tirrenico-Adriatico, le opere ferroviarie in Sicilia, ma direi anche le interconnessioni (porti, aeroporti, autostrade e ferrovia), voglio ancora una volta rassicurare che, con attenzione e metodo trasparente, scriveremo una storia radicalmente nuova su infrastrutture e grandi opere, senza rallentamenti, senza sprechi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg60">MALPEZZI (PD). Un'altra storia! FRACCARO , ministro per i rapporti con il Parlamento e la democrazia diretta. Una storia diversa - dicevo - dall'impostazione errata seguita dai precedenti Governi. Per addivenire a queste valutazioni e alle conseguenti soluzioni per il bene dei cittadini, il Ministero si avvarrà delle migliori professionalità disponibili, che verranno scelte in base ai criteri di competenza e merito, al fine di realizzare quanto previsto dal contratto di Governo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Bellanova.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg61">PRESIDENTE. Per favore, fate rispondere. Avrete poi tempo per la replica.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg62">, ministro per i rapporti con il Parlamento e la democrazia diretta. Una ridiscussione dell'esistente che avverrà nel quadro normativo vigente, e che dunque non recherà pregiudizio alla finanza pubblica, e che costituirà la base per la progettazione delle infrastrutture del futuro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg63">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Margiotta, per due minuti.</seg>
+            </u>
+            <note type="speaker">MARGIOTTA (PD)</note>
+            <u ana="#regular" who="#MargiottaSalvatore" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u16">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg64">Signor Presidente, siamo ovviamente insoddisfatti di ascoltare aria fritta, parole assolutamente di circostanza, dichiarazioni di principio generiche, di una vaghezza imbarazzante.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg65">La verità è che il Ministro scappa e lo dico con il rispetto che lei ha richiesto. Il Ministro scappa: è l'unico che non è venuto ancora a confrontarsi nella Commissione di merito, qui in Senato, sulle linee programmatiche del suo Dicastero ad un mese dal suo insediamento. Impegnato in altro, ad inseguire Salvini, non si sofferma sul merito dei problemi, ma lo capisco. Il Ministro scappa e non da oggi, perché non ha il coraggio di confrontarsi con noi, per il semplice fatto che gli manca una visione del futuro del Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg66">Il Governo del cambiamento un cambiamento lo ha già fatto: ha cambiato idea sulla centralità del Parlamento in pochissimo tempo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg67">Io nella scorsa legislatura c'ero e sentivo che cosa dicevano al riguardo i colleghi del MoVimento 5 Stelle. C'ero anche quando Conte ha detto quasi che sarebbe venuto lui a rispondere ai question time e oggi ci troviamo con il Ministro per i rapporti con il Parlamento che ci viene a leggere le veline preparate dagli uffici.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg68">D'altra parte, questo Governo del cambiamento cambia idea su tutto. Volete rivedere il codice degli appalti, ridimensionare il ruolo di Cantone e dell'ANAC e anche questo è stato detto da Conte in quest'Aula. E perché avete cambiato idea? Non vi interessa più la trasparenza? Direi proprio di sì, a giudicare da quanto è accaduto con il primo decreto-legge relativo al tribunale di Bari, che viene affittato ad un imprenditore accusato di dare soldi ai mafiosi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg69">Un provvedimento che contiene anche la sospensione dei termini del giudizio: il primo decreto-legge, nauseante, nauseabondo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg70">PRESIDENTE. La invito a concludere, senatore.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg71">Ho già finito i due minuti? Non credo. PRESIDENTE. Purtroppo sì, qui ho un cronometro. MARGIOTTA (PD). Dico un'ultima cosa e chiudo. Sulle grandi opere, Ministro, è risibile, è imbarazzante che continuate ad appellarvi all'analisi costi-benefici, che esiste da una vita. Si tratta di procedure pagate e fatte anche bene, in maniera particolare dall'ultimo Governo. Se, invece di scappare, ci fosse stato Toninelli - e concludo - gli avrei detto: «Ministro, per il bene del Paese non insegua Salvini nelle tragiche battaglie navali; non si occupi di chiudere i porti, ma apra cantieri per il bene del Paese».</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Commenti dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg72">VOCI DAL GRUPPO PD: Onestà! Onestà!</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dai Gruppi M5S e L-SP</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg73">PRESIDENTE. Per favore, non c'è bisogno di richiamare all'onestà nessuno qui dentro.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg74">PRESIDENTE. Per favore, colleghi.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg75">VALENTE (PD). Presidente, lei è super partes.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u17">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg76">Credo che non si possa mettere in dubbio qui dentro l'onestà di nessuno. D'accordo? Grazie.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5Se</desc>
+               </kinesic>
+               <vocal type="shouting">
+                  <desc>L-SP. Proteste dal Gruppo PD.</desc>
+               </vocal>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00073) - Question time su normativa relativa a trasporto di prodotti alimentari</head>
+            <note>Il senatore Steger ha facoltà di illustrare l'interrogazione 3-00073 sulla normativa relativa al trasporto di prodotti alimentari, per tre minuti.</note>
+            <note type="speaker">STEGER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#StegerDieter" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u18">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg77">Signor Presidente, torno su un tema tecnico e non politico.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg78">Le imprese di autotrasporto che operano nel settore della gestione dei rifiuti ed effettuano anche trasporti di prodotti alimentari lamentano un'incertezza interpretativa di alcune norme, con conseguente aumento del rischio di sanzioni.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg79">La disciplina introdotta con il codice dell'ambiente prevede l'obbligo di iscrizione all'albo nazionale dei gestori ambientali per le imprese che effettuano il trasporto di rifiuti, con conseguente iscrizione di ciascun veicolo indipendentemente dalla sua classificazione.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg80">La deliberazione del comitato interministeriale del 27 luglio 1984 già prevede il divieto assoluto di utilizzo per prodotti alimentari di recipienti che hanno contenuto rifiuti tossici e nocivi. Anche la normativa europea sull'igiene dei prodotti alimentari stabilisce precise limitazioni sull'utilizzo di mezzi destinati al trasporto di prodotti alimentari.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg81">Il punto è che, mentre la menzionata disciplina del 1984 prevede un divieto assoluto per il trasporto di prodotti alimentari da parte di quei mezzi che hanno contenuto rifiuti pericolosi, la più recente disciplina comunitaria in materia di igiene dei prodotti alimentari stabilisce disposizioni più articolate, ai fini dell'utilizzazione dei vani di carico e veicoli per il trasporto dei prodotti alimentari.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg82">La difficoltà interpretativa lamentata dalle imprese del settore risulta particolarmente evidente per i veicoli classificati dal codice della strada come trattori stradali destinati esclusivamente al traino dei rimorchi o semirimorchi e, pertanto, non idonei, né destinati a caricare direttamente rifiuti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg83">Pertanto si chiede di sapere se, in virtù della necessaria prevalenza della normativa comunitaria di settore, non vada ritenuto superato il divieto assoluto previsto dalla deliberazione del 1984, nonché la conseguente prescrizione riportata sui provvedimenti di iscrizione all'albo o, in alternativa, qualora s'intenda confermare l'attuale impianto normativo, se non si ritenga opportuno esentare dall'obbligo di iscrizione all'albo i veicoli classificati come trattori stradali, in quanto non atti al trasporto diretto dei rifiuti o, in subordine, limitare l'applicazione della deliberazione del 1984 e della conseguente prescrizione dell'albo nazionale ai soli vani di carico e ai contenitori destinati a venire in contatto diretto con i prodotti alimentari, escludendo quindi i trattori stradali e gli altri mezzi non destinati a tale scopo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg84">PRESIDENTE. Il ministro per i rapporti con il Parlamento e la democrazia diretta, onorevole Fraccaro, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">FRACCARO</note>
+            <note type="role">ministro per i rapporti con il Parlamento e la democrazia diretta</note>
+            <u ana="#guest" who="#FraccaroRiccardo" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u19">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg85">Signor Presidente, colleghi senatori, sulla base degli elementi forniti dal ministro Costa in esito al quesito esposto, si rileva che la materia in questione rientra tra le competenze dell'albo nazionale gestori ambientali, istituito presso il Ministero dell'ambiente e disciplinato dall'articolo 212 del decreto legislativo n. 152 del 2006.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg86">Tale organo, sentito per le vie brevi, ha rappresentato che, previa acquisizione dell'avviso del comitato nazionale, procederà con apposita delibera, previo confronto con il Ministero della salute per i profili sanitari, alla modifica della prescrizione contenuta negli schemi di provvedimento d'iscrizione riguardante l'attività di raccolta e trasporto dei rifiuti pericolosi, con la limitazione del divieto di trasportare i generi alimentari ai soli recipienti e vani di carico ed escludendo quindi i veicoli, in conformità alla citata fonte comunitaria.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg87">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Steger, per due minuti.</seg>
+            </u>
+            <note type="speaker">STEGER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#StegerDieter" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u20">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg88">Signor Presidente, rinuncio alla replica.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg89">(Applausi del senatore Calderoli).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00076) - Question time su potestà normativa statale relativamente a gestione grandi carnivori e specie selvatiche</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u21">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg90">La senatrice De Petris ha facoltà di illustrare l'interrogazione 3-00076 sulla potestà normativa statale relativamente alla gestione dei grandi carnivori e delle specie selvatiche, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u22">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg91">Signor Presidente, ovviamente spiace anche a me che in questo nostro primo question time non abbiamo la possibilità di avere direttamente i Ministri presenti, ma comunque ascolteremo il ministro Fraccaro. Come è noto dalle cronache di questi giorni, le Province autonome di Trento e Bolzano hanno varato atti normativi con cui si attribuiscono nei fatti pieni poteri nella gestione dei grandi carnivori, degli orsi e dei lupi (ricordo che vi erano stati precedenti su carnivori più piccoli), nonostante sia abbastanza noto a me, ma credo anche a molti parlamentari, esperti costituzionalisti, che tali poteri spettano allo Stato, nel senso che la fauna è patrimonio indisponibile dello Stato. Vorrei, tra l'altro, ricordare al Ministro che, non solo noi abbiamo un'ancora dal punto di vista costituzionale nell'articolo 9 della Costituzione, che parla genericamente di paesaggio (ma è sempre stato interpretato in modo estensivo), ma anche l'articolo 117 dice con chiarezza che l'autonomia per le Regioni è sempre subordinata, non solo ai principi costituzionali, ma anche a norme e regolamenti di rango europeo, e qui siamo nel caso specifico. In queste Province è in corso, a nostro avviso, una violenta campagna di disinformazione legata - ahimè - anche a scadenze elettorali, che invoca l'uccisione di questi animali senza ricordare che invece vi sono metodi scientifici assolutamente proficui che possono realizzare piani di gestione volti a garantire non solo la piena convivenza con gli esseri umani, ma anche il rispetto della biodiversità, adottando sistemi ecologici di prevenzione che possono aiutarci a superare diversi problemi, quali il ricovero notturno degli animali e la guardiania. Il Ministro dell'ambiente ha preso una posizione chiara da questo punto di vista. Tuttavia noi chiediamo che, in tempi brevi, lo Stato affermi le sue competenze, intervenendo sul decreto legislativo n. 240 del 2016, che ha inopinatamente previsto la facoltà per le Province autonome di ampliare l'elenco delle specie cacciabili e che, purtroppo, è già servito alla provincia di Bolzano lo scorso settembre per fare strage di marmotte. Su questo è intervenuta una chiarissima sentenza della Corte dei conti che, ritengo, abbia applicato la legge. Chiediamo quindi formalmente se il Ministro e il Governo stesso intendano impugnare i provvedimenti per palese incostituzionalità, ripristinando così la legalità. PRESIDENTE. Il ministro per i rapporti con il Parlamento e la democrazia diretta, onorevole Fraccaro, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">FRACCARO</note>
+            <note type="role">ministro per i rapporti con il Parlamento e la democrazia diretta</note>
+            <u ana="#guest" who="#FraccaroRiccardo" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u23">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg92">Signor Presidente, colleghi senatori, rispondo al quesito posto dalla senatrice interrogante, sulla base degli elementi forniti dal ministro Costa.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg93">Il Ministero dell'ambiente e della tutela del territorio e del mare tiene in grande considerazione la necessità di realizzare e garantire un'efficace conservazione e gestione del lupo e dell'orso in Italia, trattandosi di specie di alto valore naturalistico la cui tutela non può prescindere da un'adeguata gestione dei conflitti con la zootecnia.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg94">Con questa finalità, l'Italia si è dotata nel 2002, in particolare, di un piano d'azione per la conservazione e gestione del lupo, che esclude la possibilità di attivare deroghe ai divieti di abbattimento della specie. Il Ministero dell'ambiente ha inoltre predisposto e portato in discussione presso la Conferenza permanente per i rapporti tra lo Stato, le Regioni e le Province autonome di Trento e Bolzano un aggiornamento del predetto piano d'azione nel quale sono individuate 22 azioni per regolare il rapporto uomo-lupo, prevedendo soluzioni alternative all'abbattimento. Allo stato, si è in attesa della sua condivisione da parte delle Regioni, in quanto autorità competenti per la gestione del territorio.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg95">In base al vigente quadro normativo, sia nazionale che comunitario, in via generale è dunque attualmente vietata l'uccisione di esemplari della specie. Le norme prevedono possibilità di deroga ai divieti di cattura o abbattimento solo in caso di gravi danni e a condizione che non esistano soluzioni alternative praticabili. Inoltre, tale deroga non deve pregiudicare il mantenimento, in uno stato di conservazione soddisfacente, delle popolazioni di lupo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg96">L'ISPRA ha peraltro evidenziato che, in ragione delle caratteristiche ecologiche delle due specie di grandi carnivori, che si muovono su aree molto vaste, e tenuto conto degli obblighi derivanti dalla normativa europea, la gestione del lupo e dell'orso richiede necessariamente una pianificazione su scala sovraprovinciale, così da ricomprendere l'intero contesto alpino.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg97">Alla luce delle informazioni esposte, e con particolare riferimento alla gestione del lupo e dell'orso nelle Province autonome di Trento e Bolzano, il Ministero dell'ambiente e della tutela del territorio e del mare ribadisce, pertanto, la propria disponibilità al confronto e alla ricerca di soluzioni, ferma restando la contrarietà ai principi costituzionali di eventuali atti normativi delle Regioni o delle Province autonome di deroga alla legge vigente in materia. In tal senso il Ministero dell'ambiente vigilerà sull'emanazione di eventuali leggi ampliative dei poteri di abbattimento e ne proporrà l'impugnativa davanti alla Corte costituzionale.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg98">Per quanto concerne invece le problematiche connesse alla caccia, il Ministro dell'ambiente e della tutela del territorio e del mare ha già fatto presente in altra sede di aver previsto un intenso programma di prevenzione, nel quale si contempla tra l'altro di rafforzare la rete dei controlli, anche attraverso le forze di polizia locale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg99">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice De Petris, per due minuti.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u24">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg100">Signor Presidente, io mi ritengo abbastanza soddisfatta. Ovviamente noi vigileremo perché al più presto il piano nazionale di conservazione del lupo, basato su una prevenzione senza deroghe, possa finalmente vedere la luce. Ovviamente continueremo a vigilare perché effettivamente la promessa e l'impegno di impugnare tali provvedimenti possa essere portata a compimento.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg101">Vorrei soltanto dire, signor Presidente, signor Ministro, che queste sono questioni di assoluta importanza per il nostro Paese, perché la conservazione della biodiversità è uno degli elementi fondamentali da cui può discendere uno sviluppo molto diverso del nostro Paese stesso.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00074) - Question time su gara per fornitura farmaci biologici per pubbliche amministrazioni</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u25">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg102">Il senatore Patuanelli ha facoltà di illustrare l'interrogazione 3-00074 sulla gara per la fornitura di farmaci biologici per le pubbliche amministrazioni, per tre minuti.</seg>
+            </u>
+            <note type="speaker">PATUANELLI (M5S)</note>
+            <u ana="#regular" who="#PatuanelliStefano" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u26">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg103">Signor Presidente, signor Ministro, come è noto, i dispositivi normativi vigenti individuano le categorie di bene e servizi, nonché le soglie al superamento delle quali le amministrazioni statali centrali e periferiche, nonché gli enti del Servizio sanitario nazionale ricorrono a Consip SpA o altro soggetto aggregatore delle relative procedure.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg104">In data 12 novembre 2017 Consip ha indetto una gara a procedura aperta per la conclusione di un accordo quadro per ogni lotto avente ad oggetto la fornitura di farmaci biologici per le pubbliche amministrazioni ai sensi del codice degli appalti. Con nota emessa in data 13 giugno 2018, Consip ha comunicato l'aggiudicazione della gara, specificando che l'iniziativa (suddivisa in sette lotti per un valore a base d'asta complessivo di 460 milioni di euro) avrebbe reso disponibili a medici e pazienti i più diffusi principi attivi in commercio in tale particolare settore farmaceutico, per il quale ogni anno la spesa nazionale ammonta a circa 800 milioni di euro.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg105">L'accordo quadro aggiudicato da Consip è della tipologia «a condizioni tutte fissate con più aggiudicatari», utile al fine di garantire un'offerta ampia e flessibile per coprire la maggior parte delle esigenze dei pazienti. L'aggiudicazione, però, ha riguardato soltanto sei dei sette lotti, dato che per il lotto n. 5 non sono state presentate offerte; difatti gli operatori economici risultati aggiudicatori sono stati complessivamente sei.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg106">Si chiede quindi di sapere se, nell'espletamento dell'aggiudicazione della gara per la fornitura dei farmaci, siano stati riscontrati comportamenti volti a una restrizione della concorrenza da parte delle aziende farmaceutiche che hanno aderito all'accordo quadro; se e quali misure siano state poste in essere per la verifica e la soluzione di eventuali pratiche irregolari; se e come il Ministro in indirizzo intenda verificare eventuali pratiche irregolari anche nel corso dell'aggiudicazione di gara per farmaci biologici da parte dei soggetti aggregatori regionali.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg107">PRESIDENTE. Il ministro della salute, onorevole Grillo, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">GRILLO</note>
+            <note type="role">ministro della salute</note>
+            <u ana="#guest" who="#GrilloGiulia" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u27">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg108">Signor Presidente, ringrazio i senatori interroganti per avermi sottoposto la tematica relativa alle procedure di gara avviate dalla Consip, nel rispetto delle vigenti disposizioni normative, per la fornitura di farmaci biologici. Nello specifico, per poter fornire oggi in quest'Aula i chiarimenti richiesti da ieri, cioè da quando è stata presentata l'interrogazione, i miei uffici hanno avviato l'istruttoria con gli uffici tecnici competenti, fornendomi una nota di dettaglio giunta dagli uffici Consip. Con la predetta nota la Consip ha indicato di aver proceduto, con bando di gara del 28 novembre 2017, per la conclusione di un accordo quadro, con validità di dodici mesi per singolo lotto, ai fini della fornitura di farmaci biologici per le pubbliche amministrazioni, mediante sette lotti merceologici, ciascuno corrispondente a un principio attivo, con un massimale complessivo di 460 milioni di euro. L'aggiudicazione è stata basata sul criterio del minor prezzo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg109">Solo per contestualizzare la tematica ricordo, anche se è noto a tutti noi oggi qui presenti, che la procedura in esame, cioè la procedura dell'accordo quadro per la fornitura di farmaci biologici, consegue a una specifica prescrizione normativa dettata dalla legge di stabilità per il 2017, che aveva disciplinato per l'appunto l'acquisto dei farmaci biologici a brevetto scaduto per i quali sono presenti sul mercato almeno tre farmaci biosimilari, al fine di razionalizzare la spesa.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg110">In estrema sintesi, è stato previsto che le procedure pubbliche devono svolgersi mediante accordi quadro con tutti gli operatori economici e che i pazienti devono essere trattati con uno dei primi tre farmaci nella graduatoria dell'accordo quadro, classificati secondo il criterio del minor prezzo o dell'offerta economicamente più vantaggiosa. Il medico è comunque libero di prescrivere il farmaco (sempre tra quelli inclusi nella graduatoria dell'accordo quadro) ritenuto idoneo a garantire la continuità terapeutica ai pazienti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg111">Ebbene, dopo questa breve sintesi ricognitiva dei fatti in esame, comunico che la nota Consip riporta quale oggetto una segnalazione di comportamento anomalo da parte delle aziende concorrenti, informando della situazione l'Autorità garante per la concorrenza e il mercato (AGCM); ciò in quanto i fornitori dei farmaci " originator" non hanno presentato l'offerta per sei lotti, mentre alcuni hanno partecipato come fornitore di farmaci biosimilari, nonché uno dei lotti, precisamente il lotto n. 5 relativo al principio "attivo insulina glargine", è andato deserto. Ho iniziato ringraziandovi e concludo ringraziandovi, perché da ieri la materia è alla mia attenzione, nel senso che l'interrogazione mi ha consentito di prendere coscienza di una problematica di significativo impatto in termini non solo di risposte ai malati, che hanno diritto a essere trattati con terapie adeguate, ma anche in termini di efficienza degli investimenti in ambito farmaceutico. Ecco perché sarà mia cura, fin da subito, avviare un sistema di monitoraggio sulla corretta attuazione delle procedure in esame, coinvolgendo anche i soggetti aggregatori presenti su tutto il territorio nazionale, rispetto all'esito degli accordi quadro in questione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg112">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Patuanelli, per due minuti.</seg>
+            </u>
+            <note type="speaker">PATUANELLI (M5S)</note>
+            <u ana="#regular" who="#PatuanelliStefano" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u28">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg113">Signor Ministro, grazie per la puntuale risposta; ovviamente resteremo aggiornati su questo tema.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg114">Ne approfitto anche per ringraziare per la sua presenza il ministro Fraccaro e per ringraziare il ministro Toninelli, che oggi è a Corato a commemorare il secondo anniversario delle vittime di un incidente ferroviario, un incidente avvenuto su una tratta a binario unico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP. Commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg115">D'ARIENZO (PD). È scappato! PATUANELLI (M5S). E questo mi riporta al tema delle infrastrutture necessarie per questo Paese, che non sono certamente un ponte sullo Stretto di Messina o un buco in una galleria di 32 chilometri.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP. Commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg116">È necessario in questo Paese investire in infrastrutture utili che servano a rispondere alle esigenze dei nostri cittadini e a evitare che ci siano ancora incidenti su tratte a binario unico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Commenti dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u29">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg117">Lo svolgimento delle interrogazioni a risposta immediata ( question time ) all'ordine del giorno è così esaurito.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg118">(ore 15,46)</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+            <note type="time">15,46</note>
+         </div>
+         <div type="debateSection">
+            <head>Disegni di legge, annunzio di presentazione</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u30">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg119">Onorevoli colleghi, comunico che è stato presentato il seguente disegno di legge: dal Presidente del Consiglio dei Ministri; dal Ministro delle politiche agricole alimentari e forestali; dal Ministro dei beni e delle attività culturali e del turismo; dal Ministro dell'ambiente e della tutela del territorio e del mare; e dal Ministro per la famiglia e le disabilità «Conversione in legge del decreto-legge 12 luglio 2018, n. 86, recante disposizioni urgenti in materia di riordino delle attribuzioni dei Ministeri dei beni e delle attività culturali e del turismo, delle politiche agricole alimentari e forestali e dell'ambiente e della tutela del territorio e del mare, nonché in materia di famiglia e disabilità» (648).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">VALENTE (PD)</note>
+            <u ana="#regular" who="#ValenteValeria" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u31">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg120">Signor Presidente, le ho domandato di intervenire perché auspichiamo, come Partito Democratico, un suo intervento per sollecitare la presenza in Aula del ministro Bonafede rispetto ai fatti che stanno emergendo intorno alla scelta di trasferire il tribunale di Bari in un immobile di proprietà di un soggetto alquanto discusso. Sul provvedimento, che oggi era all'attenzione della Camera dei deputati, già avevamo espresso più di una perplessità nelle Commissioni che lo avevano esaminato. Questo perché la scelta fatta dal Ministro, che ancora ieri qui in Commissione al Senato rivendicava essere di grande efficienza da parte del suo Ministero, è stata fatta - a nostro avviso - quantomeno con eccessiva superficialità e fretta, mentre il Ministro ascriveva a sé il grande merito di aver risolto in poco tempo una questione annosa. Ci verrebbe oggi da dire, alla luce di quanto emerso nelle ultime ore, se la fretta non sia stata per lui cattiva consigliera e se forse quella fretta, nel tentativo di ascrivere a sé qualche merito, nel silenzio di un Governo che fa fatica a fare provvedimenti, non abbia inciso in malo modo sulle scelte compiute. Fino a oggi il Ministro sarebbe dovuto intervenire in Aula alla Camera per spiegare la scelta di merito di spendere una cifra considerevole (1,2 milioni di euro all'anno da parte dello Stato) per prendere in locazione un immobile da destinare al tribunale: un immobile che, guarda un po', destando almeno qualche perplessità, era stato fino a poco tempo fa sfitto e soltanto pochi mesi è stato acquistato da un fondo pubblico da un soggetto privato. Il soggetto in questione è l'imprenditore Settanni, proprietario per il 50 per cento della società a sua volta proprietaria di questo immobile. Questo soggetto - come riportato oggi da alcuni quotidiani nazionali - è stato coinvolto in numerose inchieste. Mi sto rivolgendo a lei, Presidente. PRESIDENTE. Concluda, senatrice Valente. VALENTE (PD). È un soggetto, così com'è stato riportato dai giornali in queste ultime ore, che ha finanziato, a suo dire, anche soggetti legati alla criminalità organizzata. Ecco, allora noi siamo qui a chiedere coerenza a un Ministro che è espressione autorevole di un partito che su questi argomenti, in questi anni, ha manifestato non solo una cultura politica del sospetto, non solo una politica di deriva - a nostro avviso - essenzialmente e profondamente giustizialista, ma una politica rispetto alla quale noi oggi chiediamo coerenza. PRESIDENTE. Senatrice Valente, ha già fatto la sua richiesta. La Presidenza la trasmetterà all'interessato. VALENTE (PD). È un Ministro al quale abbiamo già chiesto di venire in più di una occasione. Pertanto chiediamo a lei, Presidente, di intercedere, affinché negli atti di sindacato ispettivo della giornata di martedì, il Ministro sia presente e fornisca le spiegazioni dovuta a noi e a quest'Assemblea, anche perché forse, prima ancora che a noi, le deve al Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e FI-BP.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">QUARTO (M5S)</note>
+            <u ana="#regular" who="#QuartoRuggiero" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u32">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg121">Signor Presidente, onorevoli colleghi, oggi ricorre il secondo anniversario di uno dei più gravi disastri ferroviari italiani. Il 12 luglio 2016, alle 11,05, sulla linea Bari-Barletta di Ferrotramviaria SpA tra Andria e Corato è avvenuta una drammatica collisione tra due treni che viaggiavano in direzione opposta su binario unico: il bilancio è stato di 23 morti e di 51 feriti anche gravi. Per questi nostri fratelli e i loro cari è doveroso il ricordo e la solidarietà anche perché sembra non si sia trattato affatto di tragica fatalità. Infatti l'indagine del Ministero delle infrastrutture e dei trasporti parla di una non corretta gestione del traffico, di un non corretto intervento nella gestione degli incroci, procedure difformi dalle previsioni regolamentari, dipendenza dal fattore umano del livello di sicurezza. Nell'era della cattura delle onde gravitazionali, qui siamo ancora con i telefoni a dare comunicazioni di via libera. La causa a monte è il non corretto recepimento della direttiva europea sulla sicurezza delle ferrovie non applicata alle ferrovie regionali se non dopo il disastro. Direttiva che, dopo due anni, rimane ancora in buona parte inevasa, tanto che l'Agenzia per la sicurezza ferroviaria dal 6 agosto prossimo imporrà il limite di 50 chilometri all'ora alle reti senza sistema di controllo marcia treno per mitigare il rischio di altri disastri. Intanto la giustizia, nella quale confidiamo, sta facendo il suo corso. La procura di Trani ha chiesto il rinvio a giudizio per 18 persone per Ferrotramviaria, fissando per lunedì prossimo l'udienza preliminare. Le accuse sono a vario titolo i reati di disastro ferroviario, omicidio colposo, lesioni gravi colpose, omissione dolosa di cautela, violazione delle norme sulla sicurezza del lavoro e falso. In attesa che siano individuate e sanzionate le responsabilità, auspico che il disastro sia di monito affinché il sistema ferroviario italiano sia efficiente e sicuro. Purtroppo la rete delle ferrovie secondarie di cui fa parte Bari Nord, nonostante i cinque milioni di utenti, è trascurata. Basti pensare che su 3.000 chilometri, 2.700 sono a binario unico. Per il trasporto ferroviario regionale registriamo fortunatamente l'impegno del Governo innanzitutto per ammodernare e potenziare le linee ferroviarie preesistenti e poi per rispondere ad una esigenza di mobilità decorosa, veloce, sicura e a basso impatto ambientale. È la cura del ferro che necessita l'Italia. Ascoltiamo il grido di dolore che si leva dalla Puglia per i nostri angeli volati in cielo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u33">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg122">Grazie senatore Quarto, la Presidenza si associa al ricordo e al cordoglio.</seg>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg123">Vorrei ora salutare il senatore Maffoni che per la prima volta siede nei nostri banchi e credo che sia il caso di rivolgergli un saluto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ROMAGNOLI (M5S)</note>
+            <u ana="#regular" who="#RomagnoliSergio" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u34">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg124">Signor Presidente, onorevoli senatori, faccio quest'intervento per evidenziare l'evento increscioso - l'ennesimo, purtroppo - avvenuto venerdì 6 luglio, alle ore 16,30, a Borgo Piediripa, in provincia di Macerata, presso la ditta Orim, dedita allo stoccaggio e allo smaltimento di rifiuti industriali. L'evento va ricordato perché, come evidenziato già alla Camera dei deputati da alcuni miei colleghi, in Italia non c'è solamente l'Orim, ma esistono molte aziende dedite allo smaltimento di rifiuti che poi si riversano purtroppo su tutti noi cittadini. Come dicevo, la ditta, situata in una zona ad alta densità commerciale e residenziale, purtroppo venerdì ha subito un incendio, l'ennesimo. La nuvola nera che si è innalzata in cielo ha causato non pochi problemi: al di là dell'odore acre e della situazione abbastanza incresciosa, nella zona c'è stata una moria di uccelli, le polveri si sono depositate sul terreno e così via, causando un notevole impatto su tutta la popolazione, non ultimo su chi è intervenuto presso l'incendio, come i vigili del fuoco, che - ahimè - ho visto dalle foto operare senza mascherine né l'opportuna strumentazione per affrontare una situazione del genere. Auspichiamo che, a seguito di questa situazione, vengano fatte analisi approfondite e rapide su campioni di area e suolo e vegetali, con la massima trasparenza nella pubblicazione dei risultati sul sito regionale, con particolare riferimento al dettaglio delle sostanze rilasciate nell'aria, allo stato dell'area, con variazione progressiva giornaliera, del suolo e del sottosuolo. Sembra quasi banale, a volte, chiedere queste cose, ma di fatto ci troviamo di fronte a situazioni che hanno un impatto enorme nei confronti della popolazione. Occorre massima trasparenza sulle cause dell'incendio, a seguito delle indagini della magistratura, ovviamente. In base ai risultati di tali indagini - se è escluso il dolo, ovviamente - si chiede di valutare la possibilità di modificare le normative adottate, con standard di sicurezza più elevati. Concludo sottolineando un aspetto a cui tengo particolarmente, signor Presidente, ossia la verifica dell'efficienza dell'ARPAM (l'Agenzia regionale per la protezione ambientale delle Marche) e di tutte le agenzie analoghe, perché, a seguito dei tagli effettuati dalla Regione, è importante comprovare l'efficienza di un'agenzia tanto importante per la verifica dei dati. Occorre anche valutare gli impatti occupazionali per i lavoratori dell'azienda, con l'eventuale apertura immediata di un tavolo tecnico per le problematiche connesse allo smaltimento dei rifiuti tossici.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u35">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg125">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di martedì 17 luglio 2018</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.u36">
+               <seg xml:id="ParlaMint-IT_2018-07-12-LEG18-Sed-21.seg126">Il Senato tornerà a riunirsi in seduta pubblica martedì 17 luglio, alle ore 16,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 15,58).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

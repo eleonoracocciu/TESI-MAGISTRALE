@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 205 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 205 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 205, giorno (2014-03-11)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 205, Day (2014-03-11)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="205-upper">205 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="171" unit="speeches" xml:lang="it">171 discorsi</measure>
+            <measure quantity="171" unit="speeches" xml:lang="en">171 speeches</measure>
+            <measure quantity="16455" unit="words" xml:lang="it">16.455 parole</measure>
+            <measure quantity="16455" unit="words" xml:lang="en">16,455 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0751371</idno>
+               <date when="2014-03-11">11.03.2014</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="23"/>
+               <tagUsage gi="head" occurs="19"/>
+               <tagUsage gi="note" occurs="214"/>
+               <tagUsage gi="seg" occurs="171"/>
+               <tagUsage gi="u" occurs="92"/>
+               <tagUsage gi="vocal" occurs="5"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="28"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="desc" occurs="34"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2014-03-11">11.03.2014</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente GASPARRI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u1">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg1">La seduta è aperta (ore 16,32). Si dia lettura del processo verbale. SAGGESE, segretario, dà lettura del processo verbale della seduta pomeridiana del 6 marzo. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u2">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u3">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg3">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg4">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,34).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Per l'inserimento all'ordine del giorno del disegno di legge n. 1224</head>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u4">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg5">Signor Presidente, volevo comunicare all'Aula, come ho già fatto per iscritto secondo le modalità previste dal nostro Regolamento, che ai sensi dell'articolo 56, comma 4, sono a chiederle la calendarizzazione per la giornata odierna - a seguire rispetto al primo punto all'ordine del giorno, concludendo ovviamente il già avviato esame del disegno di legge sulle incompatibilità dei magistrati - del disegno di legge n. 1224, e le spiego anche il motivo. Stiamo assistendo in questi giorni ad un ampio dibattito alla Camera rispetto all'argomento dell'equilibrio di genere in sede di elezioni (politiche, nel caso specifico); noi abbiamo affrontato il tema dell'equilibrio di genere in Commissione rispetto alle elezioni europee. Per le elezioni europee, fino all'attuale legislatura, era prevista una norma transitoria che garantiva una minima rappresentanza di genere per la quale uno dei due generi non doveva avere una presenza superiore ai due terzi. Questa norma, essendo transitoria, viene completamente meno in vista delle prossime elezioni europee, quindi con questa logica la normativa è stata esaminata in Commissione, ed è stato dato mandato all'unanimità al relatore di riferire in Aula, prevedendo l'equilibrio di genere e la preferenza con la cosiddetta alternanza, ovvero, nel caso di espressione di più di una preferenza, che la seconda debba appartenere ad un genere diverso rispetto alla prima. Pertanto, avendo riscontrato da parte di tutti i Gruppi la necessità che il Senato si togliesse l'onta di essere stato accusato di non aver voluto esitare una legge elettorale e di averla dovuta inviare per forza di cose alla Camera (visti i risultati, forse sarebbe stato il caso di mantenerla qui: non voglio comunque polemizzare rispetto a questo tema), era stata precedentemente comunicata la convocazione di una riunione della Conferenza dei Capigruppo oggi per le ore 15, riunione che ero convinto fosse finalizzata alla calendarizzazione di questo provvedimento. Visto che i tempi per potere approvare il disegno di legge in questione sono strettissimi, sono a chiederle, con il prescritto numero di senatori, che lei, nel momento in cui lo riterrà opportuno, sottoponga la mia richiesta al voto dell'Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u5">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg6">La Presidenza si riserva di valutare, secondo la prassi costante, il momento della seduta nel quale procedere, ai sensi del Regolamento, al voto dell'urgentissima.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'ordine dei lavori</head>
+            <note type="speaker">VOLPI (LN-Aut)</note>
+            <u ana="#regular" who="#VolpiRaffaele" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg7">Signor Presidente, un collega mi segnala che l'8ᵃ Commissione sta ancora procedendo a votazioni ad inizio seduta. Le chiederei di verificare.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u7">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg8">Provvediamo a disporre ai fini dell'immediata conclusione dei lavori presso l'8ᵃ Commissione, essendosi avviati i lavori dell'Aula. Grazie per la segnalazione.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Senato, composizione</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u8">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg9">La Giunta delle elezioni e delle immunità parlamentari ha comunicato che, nella seduta dell'11 marzo 2014, ha verificato non essere contestabili le seguenti elezioni nella circoscrizione Estero e, concorrendo negli eletti le qualità richieste dalla legge, le ha dichiarate valide: per la ripartizione Africa-Asia-Oceania-Antartide: Francesco Giacobbe; per la ripartizione America meridionale: Fausto Guilherme Longo e Claudio Zin; per la ripartizione America settentrionale e centrale: Renato Guerino Turano; per la ripartizione Europa: Claudio Micheloni e Aldo Di Biagio.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg10">Do atto alla Giunta di questa sua comunicazione e dichiaro convalidate tali elezioni.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione dei disegni di legge: (116) PALMA. - Disposizioni in materia di ricollocamento dei magistrati candidati, eletti o nominati ad una carica politica e riordino delle disposizioni in materia di eleggibilità dei magistrati alle elezioni amministrative</note>
+            <note type="time">16,39</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39417.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (273) ZANETTIN ed altri. - Disposizioni in materia di ineleggibilità e di incompatibilità dei magistrati</note>
+            <note type="time">16,39</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39954.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (296) BARANI. - Modifiche all'articolo 7 e abrogazione dell'articolo 8 del testo unico delle leggi recanti norme per la elezione della Camera dei deputati, di cui al decreto del Presidente della Repubblica 30 marzo 1957, n. 361, in materia di ineleggibilità dei magistrati</note>
+            <note type="time">16,39</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/39977.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (394) CASSON ed altri. - Disposizioni in materia di candidabilità, eleggibilità e ricollocamento dei magistrati in occasione di elezioni politiche e amministrative e in relazione alla assunzione di incarichi di governo nazionali e territoriali</note>
+            <note type="time">16,39</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40323.htm</note>
+            <note>Seguito della discussione dei disegni di legge: (546) CALIENDO ed altri. - Disposizioni sulla candidabilità dei magistrati alle elezioni politiche e amministrative e sull'assunzione di cariche di governo nazionali e locali, nonché sulle incompatibilità successive alla cessazione del mandato o della carica</note>
+            <note type="time">16,39</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/40555.htm</note>
+            <note>(ore 16,39) Approvazione, con modificazioni, in un testo unificato con il seguente titolo:</note>
+            <note>Disposizioni in materia di candidabilità, eleggibilità e ricollocamento dei magistrati in occasione di elezioni politiche e amministrative nonché di assunzione di incarichi di governo nazionali e territoriali. Modifiche alla disciplina in materia di astensione e ricusazione dei giudici</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u9">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg11">L'ordine del giorno reca il seguito della discussione dei disegni di legge nn. 116, 273, 296, 394 e 546, nel testo unificato proposto dalle Commissioni riunite.</seg>
+            </u>
+            <note>Riprendiamo l'esame degli articoli, nel testo unificato proposto dalle Commissioni riunite.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note>Ricordo che nella seduta antimeridiana del 6 marzo sono stati accantonati gli articoli 6, 8 e 12 con i relativi emendamenti, al fine di consentire alla Commissione bilancio di svolgere ulteriori approfondimenti. Comunico che è pervenuto alla Presidenza l'ulteriore parere espresso dalla 5ᵃ Commissione permanente sul disegno di legge in esame e sugli emendamenti, che verrà pubblicato in allegato al Resoconto della seduta odierna. Riprendiamo l'esame degli emendamenti precedentemente accantonati, sui quali invito i relatori ed il rappresentante del Governo a pronunziarsi, in attesa che trascorrano i venti minuti dal preavviso.</note>
+            <note type="speaker">CASSON</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CassonFelice" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u10">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg12">Signor Presidente, utilizziamo questo tempo, dando atto anche noi del fatto che è stato presentato e ci è stato consegnato il nuovo parere della 5ᵃ Commissione con una proposta di riformulazione relativamente sia all'articolo 6, comma 2, lettera d), sia all'articolo 12, comma 1, lettera d), e di conseguenza anche sull'emendamento 6.101. La proposta di riformulazione riguarda la sostituzione delle parole seguenti: «con possibilità di riscatto figurativo a totale carico del richiedente e senza oneri per il bilancio dello Stato» con le seguenti altre parole: «con contribuzione volontaria, comprensiva anche degli oneri a carico dell'amministrazione, a totale carico del richiedente e senza oneri per il bilancio dello Stato». In questo senso, i due relatori accolgono questa proposta di riformulazione e fanno presente di avere già depositato e consegnato gli emendamenti, rispettivamente, 6.1000 e 12.1000, che riprendono testualmente le indicazioni della 5ᵃ Commissione.</seg>
+            </u>
+            <note type="speaker">COSTA</note>
+            <note type="role">vice ministro della giustizia</note>
+            <u ana="#guest" who="#CostaEnrico" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u11">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg13">Il Governo è favorevole a questa riformulazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg14">PRESIDENTE. Invito i relatori ed il rappresentante del Governo a pronunziarsi anche sugli altri emendamenti accantonati presentati all'articolo 6.</seg>
+            </u>
+            <note type="speaker">CASSON</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CassonFelice" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u12">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg15">Signor Presidente, come si diceva la volta scorsa, l'articolo 6 costituisce sostanzialmente il nucleo di questo disegno di legge.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg16">Com'è noto, era stata proposta una serie di soluzioni alternative, anche contrapposte l'una all'altra, per quanto riguarda il ricollocamento dei magistrati. Da una parte, c'erano disegni di legge che facevano riferimento alla necessità per il magistrato giunto in Parlamento di non tornare alla magistratura d'origine: in sintesi, su questa posizione c'erano tre disegni di legge i cui primi firmatari sono tre senatori che siedono a questi banchi (il presidente Palma, il senatore Zanettin ed il sottoscritto). Altre proposte invece intendevano consentire il ritorno alla magistratura d'origine, seppur con qualche minima limitazione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg17">Su questo punto si è ampiamente discusso in sede di Commissioni riunite 1ᵃ e 2ᵃ. Come relatori, riteniamo di aver raggiunto un punto di equilibrio per quanto riguarda proprio la delicatezza di questo tema, con rispetto dei principi costituzionali a tutela, da una parte, del singolo magistrato come cittadino che si candida alle elezioni e, dall'altra, della magistratura come organismo e del Parlamento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg18">Questo punto di equilibrio, come relatori, riteniamo di doverlo condividere, anche per rispetto del lavoro svolto dalla Commissione. In questo senso, formulo un invito al ritiro degli emendamenti. Peraltro, mi risulta che l'emendamento 6.102 a prima firma del senatore Crimi sia già stato ritirato, così come il 6.101 del senatore Albertini, mentre per gli emendamenti 6.100 e 6.103 vale l'invito al ritiro testé formulato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg19">Sull'emendamento 6.104 il parere è favorevole.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg20">Con riferimento all'emendamento 6.105, propongo una riformulazione, che riguarda le ultime parole, cioè, dove è scritto: «non possono ricoprire incarichi direttivi o semidirettivi per un periodo di due anni», propongo di sostituire le parole: «un periodo di due anni» con le parole: «lo stesso periodo».</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg21">Esprimo parere favorevole sull'emendamento 6.106, mentre invito al ritiro dell'emendamento 6.107.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg22">Sull'emendamento 6.108 del senatore Buemi formulo un invito al ritiro, perché la prima parte è già trattata, e la seconda, cioè quella che fa riferimento al regolamento di cui all'articolo 8 comma 2, potrebbe essere riproposta all'articolo 8 nella stessa formulazione come modalità e criteri da riferirsi al regolamento che dovrà essere approntato per disciplinare le situazioni che si vengono a creare, ad opera della Presidenza del Consiglio d'intesa con i Ministri competenti.</seg>
+            </u>
+            <note type="speaker">COSTA</note>
+            <note type="role">vice ministro della giustizia</note>
+            <u ana="#guest" who="#CostaEnrico" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u13">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg23">Il parere del Governo è conforme a quello del relatore, signor Presidente.</seg>
+            </u>
+            <note type="speaker">DI MAGGIO (PI)</note>
+            <u ana="#regular" who="#DiMaggioSalvatoreTito" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u14">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg24">Signor Presidente, desidero segnalare che l'emendamento 6.101 non è stato ritirato. Tale emendamento, originariamente a firma dei senatori Albertini, Susta e Di Maggio, è stato ritirato dai senatori Albertini e Susta, mentre è stato da me mantenuto. PRESIDENTE. Grazie senatore. Accetta la proposta di riformulare l'emendamento come richiesto dalla 5ᵃ Commissione? DI MAGGIO (PI). Sì, si tratta di una riformulazione di carattere economico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u15">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg25">Invito il relatore ed il rappresentante del Governo a pronunziarsi sull'emendamento 6.101 (testo 2), come riformulato dal senatore Di Maggio.</seg>
+            </u>
+            <note type="speaker">CASSON</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CassonFelice" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u16">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg26">Signor Presidente, per le motivazioni già espresse all'inizio e anche poco fa, mantengo l'invito al ritiro, altrimenti il parere è contrario.</seg>
+            </u>
+            <note type="speaker">COSTA</note>
+            <note type="role">vice ministro della giustizia</note>
+            <u ana="#guest" who="#CostaEnrico" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u17">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg27">Esprimo parere conforme a quello del relatore.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg28">PRESIDENTE. Non mi pare che il senatore di Maggio intenda ritirare l'emendamento o non avrebbe preso la parola per confermarlo.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg29">Signor Presidente, confermo che ho ritirato il mio emendamento 6.103.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u19">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg30">Senatore Caliendo, la sua segnalazione era già stata recepita dagli uffici.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg31">Colleghi, in attesa che decorra il termine di venti minuti dal preavviso di cui all'articolo 119, comma 1, del Regolamento, sospendo la seduta. (La seduta, sospesa alle ore 16,49, è ripresa alle ore 16,54). Riprendiamo i nostri lavori. Passiamo quindi alla votazione dell'emendamento 6.100, sul quale è stato formulato un invito al ritiro.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u20">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg32">Signor Presidente, se fosse possibile, vorrei non più di un minuto di attenzione. PRESIDENTE. Colleghi, per cortesia. Prego, senatore Palma, cominci pure. PALMA (FI-PdL XVII). Signor Presidente, in sede di illustrazione degli emendamenti dicevo che questo è il punto nevralgico del provvedimento. In realtà - non me ne voglia il senatore Casson - le Commissioni, nella fase istruttoria...</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg33">PRESIDENTE. Per cortesia, colleghi, abbassate il tono della voce. Prego senatore, abbia la pazienza di andare avanti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg34">Dicevo che nella fase istruttoria le Commissioni hanno deciso di non decidere, lasciando aperta la possibilità al magistrato che rientra dall'azione politica di scegliere se tornare in magistratura, andare all'Avvocatura, collocarsi a riposo ovvero decidere di andare nei ruoli del Ministero della giustizia. L'emendamento 6.100 decide nel senso che individua come unico percorso per il magistrato che rientra dall'attività politica quello di andare all'Avvocatura dello Stato. Quindi, senza farla troppo lunga, con questo emendamento ho ritenuto semplicemente di far decidere l'Assemblea sul punto più importante del provvedimento, e la decisione è molto semplice: se voi, colleghi, ritenete che il magistrato che ha fatto attività politica possa comunque tornare a fare il magistrato, mantenendo cioè quella terzietà voluta dalla Costituzione all'articolo 111, non avrete altro da fare che bocciare questo emendamento; se invece ritenete che il magistrato che fa attività politica, che ricopre determinati incarichi politici, non possa, sotto il profilo dell'apparenza, mantenere quella terzietà prevista dall'articolo 111, voterete a favore di questo emendamento. Sotto il profilo tecnico, l'emendamento è corretto, copre le varie problematiche, e quindi la scelta che vi si pone - anche se, come dire, non mi sembra essere per voi molto pressante - è quella di decidere se il magistrato, all'atto di cessare l'azione politica, possa tornare a fare il magistrato, ovvero, avendo perso l'apparenza della terzietà, debba andare all'Avvocatura dello Stato.</seg>
+            </u>
+            <note type="speaker">FALANGA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u21">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg35">Signor Presidente, anzitutto vorrei aggiungere la mia firma a questo emendamento, perché, se mi consente, Presidente, le ragioni che mi inducono a condividerlo sono molto semplici. Condivido tutto quanto ha detto il senatore Palma, che lo ha presentato, ma vorrei ricordare a tutti coloro che siedono in quest'Aula che quando un giudice svolge la sua funzione, in particolare di giudicante, prima ancora di essere imparziale, deve apparire tale: deve dare al cittadino la serenità del giudizio, ed è molto difficile che chi è diventato parte politica in un consesso come questo, o come quelli di enti territoriali, possa, dopo avere abbandonato il suo ruolo di bilancia, diventare peso. L'ho già detto in discussione generale...</seg>
+               <incident type="sound">
+                  <desc>Il microfono si disattiva automaticamente.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg36">PRESIDENTE. Grazie, senatore Falanga.</seg>
+            </u>
+            <note type="speaker">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u22">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg37">Signor Presidente, in linea di stretto principio sarei d'accordo sull'emendamento 6.100 del presidente Palma, ma c'è un punto che mi lascia perplesso, e per questo dichiaro il mio voto di astensione. È evidente che ritengo che il bene da proteggere principalmente sia quello della terzietà del giudice e, in questo senso, un magistrato che torni all'attività giurisdizionale, dopo aver espletato la funzione politica, ha perso questa terzietà, almeno dal punto di vista dell'immagine: conseguentemente, bisognerebbe impedirne il ritorno alla funzione di magistrato. Ma il fatto di destinare univocamente alla funzione dell'Avvocatura dello Stato il magistrato che non svolge più le funzioni del magistrato rappresenta un privilegio che cercherei di evitare: è infatti evidente che la posizione riservata ai componenti dell'Avvocatura, dal punto di vista del trattamento economico diretto, si può equiparare a quella dei magistrati, ma dal punto di vista del trattamento complessivo, in funzione delle cause gestite dall'Avvocatura, sicuramente porta a un premio economico di un certo rilievo. Sarei favorevole all'emendamento se non fosse stata prevista questa corsia obbligatoria. Pertanto, dichiaro il mio voto di astensione.</seg>
+            </u>
+            <note type="speaker">PETROCELLI (M5S)</note>
+            <u ana="#regular" who="#PetrocelliVitoRosario" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u23">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg38">Signor Presidente, chiediamo che le votazioni vengano effettuate a scrutinio simultaneo mediante procedimento elettronico. Votazione nominale con scrutinio simultaneo</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u24">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg39">Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 6.100, presentato dai senatori Palma e Falanga.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg40">Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 116-273-296-394-546 PRESIDENTE. Passiamo alla votazione dell'emendamento 6.101 (testo 2).</seg>
+            </u>
+            <note type="speaker">DI MAGGIO (PI)</note>
+            <u ana="#regular" who="#DiMaggioSalvatoreTito" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u25">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg41">Vorrei sottolineare, signor Presidente, come ho già detto nella scorsa seduta, che questo voto per noi è dirimente rispetto al voto finale del disegno di legge. Votazione nominale con scrutinio simultaneo</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u26">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg42">Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 6.101 (testo 2), presentato dal senatore Di Maggio.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg43">Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 116-273-296-394-546 PRESIDENTE. Gli emendamenti 6.102 e 6.103 sono stati ritirati. Passiamo alla votazione dell'emendamento 6.104. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 6.104, presentato dal senatore Caliendo. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 116-273-296-394-546 PRESIDENTE. Passiamo alla votazione dell'emendamento 6.105 (testo 2). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 6.105 (testo 2), presentato dal senatore Lumia e da altri senatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 116-273-296-394-546 PRESIDENTE. Risulta pertanto assorbito l'emendamento 6.106.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u27">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg44">Signor Presidente, l'emendamento 6.106 doveva essere votato prima, ma non è assorbito, prevedendo, al comma 2, lettera a), per i magistrati già in servizio presso la Corte di cassazione, il Consiglio di Stato, la Corte dei Conti centrale e la Corte militare d'appello o presso le rispettive Procure generali nonché presso la Procura nazionale antimafia non già due anni di esclusione dagli incarichi direttivi o semidirettivi, ma una durata uguale a tutti gli altri. Per questo motivo aveva ricevuto il parere favorevole del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u28">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg45">L'emendamento precedente, infatti, è stato riformulato in questo senso, senatore. Le parole finali dell'emendamento precedente sono state riformulate con le parole «lo stesso periodo». Poiché la riformulazione è stata accettata, il suo emendamento è assorbito.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg46">Va bene, allora. PRESIDENTE. Sull'emendamento 6.107 vi è un invito al ritiro: lo accetta?</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u29">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg47">Su questo emendamento chiedo solo un attimo di attenzione. Si fa una differenza di trattamento: il giudice candidato e non eletto ritorna a fare il giudice per cinque anni in funzione collegiale e non può avere incarichi direttivi; colui che, invece, diventa deputato o senatore o riveste altre cariche può ritornare a fare il giudice con le stesse condizioni del non eletto, ma può chiedere (dovrebbe invece scegliere il Parlamento) di andare all'Avvocatura dello Stato, senza concorso, in violazione delle norme della Costituzione oppure di essere inquadrato in un ruolo autonomo nel Ministero della giustizia. Non devo spiegare a nessuno di voi, né al Vice Ministro, che non esiste un ruolo al Ministero della giustizia: è l'unico Ministero senza un ruolo. Ciò significa prevedere un trattamento privilegiato per chi è entrato in Parlamento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg48">L'emendamento 6.107 prevede per costoro lo stesso trattamento riservato a chi è candidato e non è eletto, ossia svolgere per forza cinque anni in funzioni collegiali senza avere incarichi direttivi o semidirettivi, in modo da eliminare quella che Pertini chiamava la mancanza di apparenza di indipendenza. Per tali motivi insisto per la votazione dell'emendamento.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u30">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg49">Saluto l'Istituto tecnico statale «Umberto Zanotti Bianco» di Marina di Gioiosa Jonica, in provincia di Reggio Calabria e i ragazzi e i docenti che seguono i nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 116-273-296-394-546</note>
+            <note type="time">17,06</note>
+            <note type="time">(ore 17,06)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u31">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg50">Passiamo alla votazione dell'emendamento 6.107. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 6.107, presentato dal senatore Caliendo. Dichiaro aperta la votazione. (Segue la votazione). Il Senato non approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 116-273-296-394-546 PRESIDENTE. Sull'emendamento 6.108 vi era un invito al ritiro: senatore Buemi, lo accetta?</seg>
+            </u>
+            <note type="speaker">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u32">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg51">Signor Presidente, c'era una richiesta di riformulazione, se ho capito bene.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg52">PRESIDENTE. Prego il relatore di chiarire il parere.</seg>
+            </u>
+            <note type="speaker">CASSON</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CassonFelice" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u33">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg53">Signor Presidente, l'emendamento 6.108 è diviso in due periodi. Il primo periodo è ricompreso nelle norme che abbiamo già considerato. Per la seconda parte, che fa riferimento al regolamento di cui all'articolo 8, comma 2, avevo segnalato l'opportunità al senatore Buemi di considerare questa parte e di valutare un inserimento all'articolo 8. L'articolo 8, comma 2, infatti, riguarda espressamente il regolamento che deve disciplinare queste modalità di inquadramento. Questo secondo periodo, quindi, potrebbe essere riferito all'articolo 8, che consideriamo tra poco.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u34">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg54">Non essendoci emendamenti all'articolo 8, se non quello soppressivo, invito il relatore a presentare formalmente un emendamento che recepisca questa parte dell'emendamento 6.108, il quale, se il senatore Buemi è d'accordo, viene contestualmente ritirato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg55">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE). Signor Presidente, per me va bene. CASSON, relatore. Posso leggere direttamente l'emendamento, affinché resti a verbale. PRESIDENTE. No, abbiamo bisogno di avere un documento da allegare agli atti dei nostri lavori. L'emendamento 6.108 è pertanto ritirato poiché sarà presentato dal relatore un emendamento all'articolo 8, sulla parte relativa, che perverrà agli uffici. Passiamo alla votazione dell'emendamento 6.1000, che la 5ª Commissione ritiene necessario. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 6.1000, presentato dai relatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 116-273-296-394-546 PRESIDENTE. Passiamo alla votazione dell'articolo 6, nel testo emendato. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 6, nel testo emendato. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 116-273-296-394-546 PRESIDENTE. Riprendiamo l'esame dell'articolo 8, precedentemente accantonato, e dei relativi emendamenti.</seg>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u35">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg56">Signor Presidente, in considerazione dell'approvazione dell'emendamento 6.1000, ritiro l'emendamento 8.100.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u36">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg57">L'emendamento 8.100 è quindi ritirato.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg58">Rimane l'emendamento presentato dal relatore, che recepisce l'emendamento 6.108 del senatore Buemi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg59">Senatore Casson, lo può ripetere all'Assemblea?</seg>
+            </u>
+            <note type="speaker">CASSON</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CassonFelice" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u37">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg60">Signor Presidente, ho già depositato il testo dell'emendamento, e lo leggo all'Assemblea per completezza: «Al comma 2, aggiungere, in fine, le seguenti parole: "Il regolamento disciplina le modalità di tale inquadramento, nonché le funzioni cui esso è finalizzato, con priorità per mansioni di studio e ricerca e per la destinazione alle candidature presso enti od organismi internazionali in cui si richiede la presenza di magistrati italiani"». Questo era il testo dell'emendamento del senatore Buemi, che inseriamo per completare l'articolo 8.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg61">PRESIDENTE. Invito il rappresentante del Governo a pronunziarsi sull'emendamento in esame.</seg>
+            </u>
+            <note type="speaker">COSTA</note>
+            <note type="role">vice ministro della giustizia</note>
+            <u ana="#guest" who="#CostaEnrico" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u38">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg62">Il parere è favorevole.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u39">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg63">Passiamo quindi alla votazione dell'emendamento 8.1000.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg64">PETROCELLI (M5S). Chiediamo la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dal senatore Petrocelli, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco pertanto la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 8.1000, presentato dai relatori. Dichiaro aperta la votazione. (Segue la votazione).</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg65">La votazione è annullata.</seg>
+            </u>
+            <note type="speaker">CASTALDI (M5S)</note>
+            <u ana="#regular" who="#CastaldiGianluca" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u40">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg66">Signor Presidente, vorrei chiedere se un parlamentare assente può chiedere l'appoggio alla votazione. O andiamo a togliere la pallina da dentro quella buchetta, visto anche che sono presenti in tribuna degli studenti!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg67">PRESIDENTE. Invito i senatori Segretari a fare le opportune verifiche.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Castaldi</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg68">Ha fatto la sua segnalazione, senatore Castaldi.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg69">Non ho finito, mi permetta. PRESIDENTE. Prego. CASTALDI (M5S). Perché non manda un assistente a controllare e a togliere la pallina e prende provvedimenti? Questo schifo qui dentro deve finire!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e applausi ironici del senatore Sonego.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u41">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg70">Invito i senatori Segretari a fare le opportune verifiche.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg71">Dichiaro nuovamente aperta la votazione. (Segue la votazione). (Il senatore Segretario Barani si reca presso i banchi del Gruppo FI-PdL XVII</seg>
+               <vocal type="speaking">
+                  <desc>ed estrae una scheda da un dispositivo di voto. Commenti dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg72">VOCI DAI BANCHI DEL GRUPPO M5S. Vergogna! PRESIDENTE. Il senatore Barani farà le opportune verifiche e poi riferirà.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg73">Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 116-273-296-394-546 PRESIDENTE. Passiamo alla votazione dell'articolo 8, nel testo emendato. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 8, nel testo emendato. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 116-273-296-394-546 PRESIDENTE. Riprendiamo l'esame dell'articolo 12, precedentemente accantonato, e dei relativi emendamenti, che si intendono illustrati e su cui invito i relatori ed il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">ZANETTIN</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#ZanettinPierantonio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u42">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg74">Invito a ritirare tutti gli emendamenti presentati, ad eccezione degli emendamenti dei relatori - il 12.500 e il 12.1000 - su cui il parere è favorevole.</seg>
+            </u>
+            <note type="speaker">COSTA</note>
+            <note type="role">vice ministro della giustizia</note>
+            <u ana="#guest" who="#CostaEnrico" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u43">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg75">Il parere è conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u44">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg76">Gli emendamenti 12.100, 12.101 e 12.102 sono stati ritirati.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg77">Passiamo alla votazione dell'emendamento 12.500.</seg>
+            </u>
+            <note type="speaker">PETROCELLI (M5S)</note>
+            <u ana="#regular" who="#PetrocelliVitoRosario" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u45">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg78">Chiediamo che le votazioni vengano effettuate a scrutinio simultaneo, mediante procedimento elettronico, escludendo le palline.</seg>
+               <kinesic type="applause">
+                  <desc>Ilarità. Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u46">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg79">Mi trovo d'accordo sulla prima e sulla seconda parte.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg80">Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dal senatore Petrocelli, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 12.500, presentato dai relatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 116-273-296-394-546 PRESIDENTE. Senatore Caliendo, intende accogliere l'invito del relatore a ritirare l'emendamento 12.103? CALIENDO (FI-PdL XVII). Sì, signor Presidente.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u47">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg81">Passiamo alla votazione dell'emendamento 12.1000. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'emendamento 12.1000, presentato dai relatori. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 116-273-296-394-546 PRESIDENTE. Passiamo alla votazione dell'articolo 12, nel testo emendato. Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, dell'articolo 12, nel testo emendato. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva. (v. Allegato B). Ripresa della discussione del disegno di legge n. 116-273-296-394-546</seg>
+            </u>
+            <note>PRESIDENTE.</note>
+            <note>Passiamo alla votazione finale.</note>
+            <note type="finalVoting">VOTAZIONE FINALE</note>
+            <note type="speaker">SUSTA (SCpI)</note>
+            <u ana="#regular" who="#SustaGianluca" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u48">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg82">Signor Presidente, onorevoli colleghe e colleghi, il Gruppo Scelta Civica per l'Italia esprimerà un voto favorevole sul provvedimento in esame, che rappresenta un punto positivo di mediazione tra il diritto di tutti i cittadini a partecipare alla gestione della cosa pubblica e il dovere di preservare l'indipendenza dell'ordine giudiziario, così da assicurare a tutti i cittadini la certezza di essere soggetti ad un giudice naturale che sia davvero terzo, soggetto solo alla legge, come vuole la nostra Costituzione. Non si poteva non prendere atto che l'era digitale, la civiltà della comunicazione e la velocizzazione delle comunicazioni condizionano sempre più la politica, con la veloce trasformazione di sconosciuti in star e la veloce acquisizione alla propria causa di chi ha ottenuto notorietà per fatti legati alla propria professione. Tali innovazioni nei processi di selezione del personale politico incidono profondamente sulla natura davvero democratica del nostro sistema. Ciò non riguarda ovviamente soltanto la magistratura (si pensi, ad esempio, ai giornalisti, soprattutto a quelli televisivi), ma assume particolare significato quando si tratta di magistrati. Non è il caso di approfondire in questa sede il grande dibattito - che pure si è aperto da Tangentopoli in poi - se compito primario dei magistrati sia quello di tutelare in concreto l'idea astratta di Giustizia (con la «G» maiuscola), cioè l'insieme di norme etiche, pregiuridiche, cui subordinare l'interpretazione del diritto positivo, ciò che spesso ha portato a costruire teoremi accusatori, poi smentiti perché non supportati dai fatti e riconducibili a fattispecie penalmente rilevanti, oppure - appunto - se l'ordine giudiziario debba essere il garante in concreto della legalità, dell'applicazione della legge, del diritto positivo. Con questo disegno di legge non risolviamo né affrontiamo il tema del rapporto tra magistratura e politica, che pure ha condizionato la vita istituzionale del Paese in questi vent'anni, in cui la politica colpevolmente non ha risolto problemi esiziali per uno Stato democratico fondato sui principi liberali della divisione dei poteri, come il conflitto di interessi tra gli affari personali e l'esercizio della funzione parlamentare o di governo o istituzionale, l'aggiornamento della compatibilità e incompatibilità degli eletti nelle istituzioni, il finanziamento della politica (tema su cui tardivamente, ma a mio avviso anche frettolosamente, abbiamo risposto poche settimane fa). Per contro, non si può non vedere che anche tra i settori della magistratura ideologicamente collocati in parti opposte si è diffusa la convinzione che l'obbligo etico di realizzare la giustizia invece di applicare il diritto positivo comportava la necessità di svolgere un ruolo di supplenza della politica, nel frattempo indebolita nella sua capacità di affrontare e risolvere la sempre più ampia frattura tra ceto politico e corpo sociale. La soluzione di questa ferita nei rapporti tra ordine giudiziario, da un lato, e la politica, dall'altro, dovrà essere affrontata e risolta in una più generale riforma della giustizia che sia coerente con il dettato costituzionale e con i principi liberali dello Stato di diritto. Questo provvedimento va nella direzione giusta: quella di garantire un equilibrio costituzionalmente corretto tra la doverosa terzietà dei giudici e la salvaguardia, anche per i magistrati, del diritto di poter esercitare i mandati elettivi, al pari di tutti gli altri cittadini, a determinate condizioni. Per queste ragioni, Scelta Civica per l'Italia voterà a favore di questo disegno di legge.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo SCpI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DI MAGGIO (PI)</note>
+            <u ana="#regular" who="#DiMaggioSalvatoreTito" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u49">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg83">Signor Presidente, non credo che si sia trovato un dignitoso punto di equilibrio, e ho approfittato di questo periodo di accantonamento del provvedimento anche per poter recuperare qualcosa che credo possa essere interessante per l'attenzione dell'Aula. Il 31 gennaio 1947, nell'ambito della Commissione per la Costituzione, Aldo Moro fa una dichiarazione, che credo sia di estrema attualità: «Bisogna garantire la libertà di pensiero dei magistrati sul piano politico. Indubbiamente il diritto di voto che si riconosce ai magistrati e il diritto di eleggibilità che ad essi si assicura, servono in parte a garantire questa libertà di pensiero sul piano politico. Ma è necessaria una limitazione per quanto riguarda l'appartenenza ai partiti politici. Si tratta di un sacrificio, ma il sacrificio è giustificato perché sia garantita la libertà dei cittadini, verso i quali i magistrati, per la loro stessa funzione, hanno obblighi diversi da tutti gli altri. È un sacrificio che ritorna ad incremento della dignità dei magistrati e a maggior garanzia della loro funzione. I magistrati debbono essere non soltanto superiori ad ogni parzialità, ma anche ad ogni sospetto di parzialità. Questa estraneità formale dalla lotta politica conferisce una maggiore dignità alla Magistratura, cosicché il magistrato possa obbedire veramente soltanto all'imperativo della propria coscienza». Questo passaggio mi è parso estremamente significativo, perché fu fatto nel corso di una seduta della Commissione per la Costituzione. Oggi noi abbiamo all'ordine del giorno la questione della partecipazione dei magistrati alle competizioni elettorali. Non si può ovviamente vietare ai magistrati di presentarsi alle elezioni; sarebbe una violazione dell'articolo 51 della Costituzione. Il problema che il provvedimento di oggi intende sanare concerne cosa debba fare il magistrato eletto in Parlamento, sia nazionale che europeo, o comunque chiamato a cariche elettive, alla scadenza del proprio mandato. Che noi si viva un tempo nel quale gli sconfinamenti tra i poteri dello Stato sono all'ordine del giorno mi sembra sia un dato di fatto; che la debolezza della politica abbia fatto spazio al potere giudiziario, a volte in funzione di supplenza, oppure, spesso, esorbitando ruoli e funzioni, è un altro dato di fatto. Credo che se il nostro Paese fosse veramente quello che in molti si prodigano a definire la culla del diritto - in questo senso, nell'Aula, di ampia retorica se ne è fatta molta - e, aggiungerei, anche un Paese di grande civiltà giuridica, basterebbe che il magistrato che decide di candidarsi a cariche elettive si dimettesse prima della candidatura stessa. Un onere, questo, che, anche se non stabilito dalla legge, dovrebbe essere oggi avvertito da qualunque magistrato come un dovere elementare di deontologia professionale, (anche queste, vorrei sottolinearlo, non sono parole mie, ma di un giurista, il dottor Ferrajoli, che è stato anche magistrato, di Magistratura Democratica). Un dovere, questo, che metterebbe al riparo da qualsiasi sospetto l'attività giudiziaria. Vorrei sottolineare agli onorevoli colleghi la gravità del provvedimento che ci accingiamo a votare, tendente a salvaguardare il principio cardine della separazione dei poteri. Mi dispiace che sia assente il amico senatore Albertini, perché, alla citazione che ho fatto l'altra volta in Aula di Montesquieu, vorrei aggiungerne una tratta da un testo molto significativo del 1789, ossia «Idee sul dispotismo ad uso di coloro che pronunciano questa parola senza comprenderla» di Condorcet: quello giudiziario non è un potere buono o giusto, ma odioso, perché, diversamente da qualunque altro pubblico potere (legislativo, politico o amministrativo), è un potere dell'uomo sull'uomo, che decide della libertà ed è perciò in grado di rovinare la vita delle persone sulle quali è esercitato. È dunque un potere terribile e odioso, soprattutto quello penale, che solo le garanzie possono limitare, ma non annullare. Quel potere sarà tanto più legittimo, quanto più è limitato dalle garanzie. Di questo allora parliamo oggi, di garanzie: scegliendone di rigidamente determinate, cari colleghi, riaffermiamo proprio il primato della politica, e soprattutto della nostra funzione in essa. Come non capire che licenziando questo provvedimento affermiamo che il magistrato ha lo status di un cittadino qualsiasi, che può amministrare giustizia, che può stare in Parlamento, a destra, a sinistra o al centro, e che poi può ritornare ad amministrare giustizia e quindi punire, anche in modo serio, corretto e scrupoloso? Purtuttavia, ditemi: chi si sentirebbe di ragionare contro a quel tale che sollevasse il dubbio di aver ricevuto una lesione del proprio diritto non in ragione della legge, ma della visione politica del magistrato che l'ha giudicato? Ecco che allora le buone ragioni di questa legge vengono vanificate da un testo normativo che applica ciò che vorrebbe disapplicare, tutto in perfetto stile gattopardesco. Per questi motivi annuncio il voto contrario del Gruppo Popolari per l'Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PI.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BARANI (GAL)</note>
+            <u ana="#regular" who="#BaraniLucio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u50">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg84">Signor Presidente, siamo di fronte all'ennesimo dibattito in questa Camera alta sulle prerogative della casta, di un gruppo - che qualcuno definisce lavoratori, ma che, a giudicare dal numero dei processi arretrati, grandi lavoratori non sono - ossia i magistrati, i giudici. Cinque o sei milioni sono i processi in arretrato e sessanta i giorni di ferie che hanno a disposizione; i loro sono tra gli stipendi più alti che si siano mai avuti e che si abbiano in Italia per un gruppo di lavoratori; un Governo ha osato addirittura ridurli loro del 10-15 per cento, ma subito altri giudici della Suprema corte hanno detto che non era costituzionale e quindi sono stati loro restituiti. Inoltre, non hanno alcuna responsabilità civile, a differenza di tutti gli altri lavoratori italiani, non rispondono degli errori e delle manchevolezze commessi (hanno un organo di autocontrollo che, di fatto, non li controlla) e quando vogliono, possono scendere in politica con una parte e ritornare poi a giudicare i loro avversari politici (nelle varie amministrazioni o nel Parlamento italiano, europeo o regionale). Così ovviamente non va, cari colleghi, perché è una questione solo italiana. Il collega Di Maggio parlava della Costituzione e di Aldo Moro, ma c'è anche Calamandrei, ci sono altri Padri costituenti che hanno voluto ben equilibrare i poteri e hanno scritto l'articolo 68 pensando di impedire che un potere avesse il sopravvento sull'altro. Insomma, noi siamo di nuovo qui a parlare di una casta e, come dice il collega Di Maggio, non abbiamo il coraggio di andare oltre, perché, come tutti sappiamo, abbiamo Magistratura Democratica che imperversa e impera e abbiamo un partito, il Partito Democratico, che da questo sindacato di magistrati dipende, perché per riuscire ad arrivare al potere ha avuto bisogno di togliere per via giudiziaria i propri avversari (ci è andata bene, una volta lo facevano con i carri armati). Colleghi, considerando quanto avviene negli altri Paesi e tenuto conto del fatto che, secondo la volontà dei nostri Padri costituenti, nel nostro ordinamento la magistratura e soprattutto i pubblici ministeri godono di una totale autonomia e indipendenza dal Governo e dai poteri esecutivo e legislativo, lascia perplessi il fatto che il legislatore abbia finora inteso sancire solo una causa di incompatibilità tra l'ufficio di magistrato e la posizione di candidato alle elezioni politiche, al fine di garantire quel bene costituzionalmente rilevante che è la terzietà, l'imparzialità del giudice, senza statuire invece per i magistrati una condizione di ineleggibilità assoluta, come del resto fa per altre categorie espressamente indicate nell'articolo 7 dello stesso testo unico, di cui al decreto del Presidente della Repubblica del n. 361 del 1957. Non è infatti vero, come sostiene qualcuno in malafede, che la nostra Costituzione afferma che siamo tutti uguali nel partecipare a cariche elettive, perché la legge testé citata afferma che sono ineleggibili alla carica di parlamentare: i Presidenti delle Giunte provinciali (finché ci saranno le Province), i sindaci dei Comuni con popolazione superiore ai 20.000 abitanti, il capo e il vice capo della Polizia, gli ispettori generali di pubblica sicurezza, i capi di gabinetto dei Ministeri, i rappresentanti e i commissari di Governo, i prefetti e coloro che ne fanno le veci nelle predette cariche, i vice prefetti, i funzionari di pubblica sicurezza, gli ufficiali generali, gli ammiragli, gli ufficiali superiori delle Forze armate. La legge quindi stabilisce giustamente che una serie di persone non devono essere elette, perché sono in posti chiave dell'ordinamento dello Stato, pertanto è giusto che, avendo degli incarichi ben specifici, non debbano ricoprire altre cariche. Crediamo sia altrettanto giusto che i giudici facciano solo il loro dovere e magari lavorino di più, affinché non ci si trovi di fronte a sentenze che vengono emesse dopo otto, dieci, dodici o quattordici anni. Oltre ai casi suddetti, l'articolo 10 del medesimo testo di legge presenta anche altre situazioni di incompatibilità. Ulteriori casi di ineleggibilità sono previsti per i giudici della Corte costituzionale e ancora per l'amministratore straordinario, il direttore generale e il direttore amministrativo di tutte le aziende sanitarie locali, che sono tantissime. Ciò per dirvi che le cause d'ineleggibilità così individuate sono dirette a tutelare esigenze differenti, come la garanzia della sovranità e dell'interesse nazionale, un principio cui in questi giorni ci rimanda continuamente anche l'Unione europea, che ci chiede di uniformarci alla legislazione in materia di diritto penale, amministrativo, civile con le normative europee, altrimenti non possiamo stare in Europa a senso unico alternato. Ciò al fine proprio di evitare indebite interferenze tra interessi e capziose influenze sull'elettorato. Ecco la necessità di intervenire a colmare le lacune della normativa che è stata a suo tempo affrontata anche dalla Commissione parlamentare del 1997 - se vi ricordate - a guida dell'onorevole D'Alema. Anche in quel caso infatti si pensava che i magistrati ordinari e amministrativi non potessero partecipare a competizioni elettorali nella Regione in cui avessero esercitato la loro funzione negli ultimi cinque anni. In conclusione, signor Presidente, riteniamo che questo sia un Parlamento sotto scacco di Magistratura Democratica; ho sempre detto e lo ripeto - adesso lo ripeto anche con maggior forza - che è anche sotto scacco delle cooperative rosse, infatti abbiamo un Ministro che appartiene a tale ambito d'intervento e di zona. Noi riteniamo comunque che un po' sia meglio di niente e che l'ottimo sia nemico del bene, ed è per questo che il provvedimento in discussione, che cerca di mettere in piedi una disciplina più armonica e maggiormente congrua per quanto attiene ai casi di incandidabilità, ineleggibilità e ricollocamento di magistrati, sia meglio di niente, quindi diamo il nostro voto favorevole, ovviamente turandoci il naso, perché si doveva e si potrebbe fare di più; ci auguriamo che nella prossima legislatura, con il bicameralismo ancora vigente o con il solo Senato (come ritengo sia più utile; anche per la tradizione, il sottoscritto ritiene sia più utile con un'unica Camera), si riesca veramente, con una maggioranza riformista e garantista, a ribaltare questo strapotere di Magistratura Democratica, che tiene (non riesco a capirlo o almeno io lo capisco ma non lo posso dire) sotto scacco una forza politica come il Partito Democratico. Quindi, annuncio il nostro voto favorevole.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Ferrara Mario.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">STEFANI (LN-Aut)</note>
+            <u ana="#regular" who="#StefaniErika" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u51">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg85">Signor Presidente, anche il Gruppo della Lega Nord preannuncia fin d'ora una sua posizione favorevole nei confronti del disegno di legge in esame. Si sta trattando di una materia veramente molto delicata. Nelle Commissioni riunite abbiamo dibattuto ampiamente e si sono cercati di approfondire i temi, tenendo conto che sotto alcuni profili ci sono anche degli aspetti molto tecnici. Però quello che vogliamo sottolineare ora, al di là dei passaggi su ogni singolo articolo o gli emendamenti che sono stati presentati e discussi, è che dobbiamo evidenziare sicuramente la difficoltà per certi versi di quest'Aula del Parlamento di trovare una soluzione ad una problematica di certo molto sottile e - si ribadisce ancora - molto delicata, perché si sta parlando a questo riguardo di più interessi, che sono tutti costituzionalmente protetti: per un verso, sicuramente vi è il diritto di elettorato passivo, il diritto ovviamente di partecipare alla vita politica; dall'altra parte, però anche l'immagine stessa di chi esercita l'attività giurisdizionale. La nostra Costituzione si impernia su una netta suddivisione dei poteri. Infatti la separazione degli stessi è sicuramente un indice di grande democrazia e la possibilità di far reggere proprio la gestione di un intero Stato nella maniera più opportuna possibile. Quando si parla della magistratura e di politica, si sta parlando ovviamente di due temi che a volte possono sembrare anche apparentemente confliggenti. È ovvio che il magistrato è un cittadino e, come tale, ha il diritto di votare e allo stesso modo di essere votato, ma d'altra parte ricordo, come ha fatto il collega che mi ha preceduto, le stesse parole di Pertini, che affermava che bisogna salvaguardare anche l'apparenza dell'imparzialità del magistrato. Ciò è vero soprattutto in un momento storico come questo, in cui tutti noi che lavoriamo anche in queste Aule diventiamo quelli che pongono in essere la politica. Questo è un momento in cui c'è un sincero disamore da parte della cittadinanza nei confronti di quello che facciamo e che rappresentiamo. Per alto verso, però, c'è anche un sentimento di perplessità nei confronti dell'attività della magistratura. La figura del giudice deve essere sempre assicurata e deve essere allontanata qualsiasi nebbia sul suo operato: è un modo proprio per salvaguardare ancora di più la sua posizione. Per questa ragione arriviamo a discutere in quest'Aula di un provvedimento come questo che, anche se ovviamente si dice sempre che si poteva fare di meglio e si poteva trovare la soluzione eccelsa, ha cercato di segnalare ancora di più questa netta separazione che ci deve essere tra l'attività della politica e l'attività della magistratura, che deve essere di stretta interpretazione ed applicazione del diritto. La soluzione che è stata adottata ci trova a questo punto anche favorevoli, anche se torniamo sempre a pensare che poi nell'operato e nel modo di esercitare l'attività, il singolo magistrato dovrà sempre tenere a mente che quella che sta svolgendo è un'attività che deve essere imparziale e terza e che non deve mai essere inquinata dalla politica, dagli orientamenti politici e dalle ideologie. Per questo motivo riteniamo che quella proposta con questo disegno di legge, come è stato emendato in Commissione e come è giunto all'esame dell'Assemblea, possa essere una soluzione e sicuramente un primo passaggio per poter arrivare ad una soluzione ottimale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u52">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg86">Signor Presidente, signor vice Ministro, colleghi, è evidente che almeno nel dibattito che abbiamo svolto in queste ore abbiamo fatto un punto di chiarezza e che l'immagine del giudice che scende in politica rimane definitivamente compromessa. È una questione che con il provvedimento che andiamo ad approvare sicuramente non abbiamo risolto, perché rimane appunto questo alone di perdita di verginità che purtroppo accompagna tutti coloro che assumono posizioni di parte e il magistrato che scende, o sale, in politica per definizione assume una posizione di parte. Certamente questo provvedimento ha introdotto dei significativi miglioramenti, perché rallenta o quantomeno seleziona le condizioni di accesso dalla magistratura alla politica e, nello stesso tempo, riduce gli spazi di rientro dalla politica alla magistratura. Rimangono però, come ho detto prima, questi elementi di compromissione dell'immagine del magistrato che avremmo voluto evitare. Gli esempi di questa compromissione sono sotto gli occhi di tutti. In questi decenni ci sono state personalità che dall'azione giudiziaria hanno tratto vantaggio politico e ci sono altrettante personalità che dall'azione politica hanno potuto recuperare ruoli e carriere in magistratura particolarmente significativi. Questo provvedimento che oggi approviamo, come dicevo, introduce degli elementi di selezione ed è evidente che le penalizzazioni o le condizioni per il reinserimento in magistratura di coloro che hanno svolto attività politica e si sono candidati alle elezioni nazionali o ad altri livelli elettorali rappresentano un discrimine importante. Credo che però non possiamo neanche nascondere un altro elemento: che comunque permangono condizioni di privilegio per un settore del pubblico impiego, quale quello dei magistrati, che certamente hanno ancora carriere garantite, anche se con le penalizzazioni di una sorta di moratoria di cinque anni, in quanto non possono assumere incarichi direttivi per almeno questo periodo. Come un occhio di particolare attenzione occorre tenere - e in questo senso richiamo l'attenzione dei colleghi dell'Aula - sul trattamento economico, non soltanto dei magistrati, ma di tutti i pubblici dipendenti nel ruolo dirigenziale che, assumendo l'incarico di parlamentare, mantengono la possibilità di scegliere il migliore trattamento economico tra quelli riservati, rispettivamente, ai parlamentari e agli alti dirigenti delle organizzazioni statuali, magistrati compresi. A coloro che continuano a buttare la croce addosso alla politica e ai parlamentari voglio dire che, pur percependo un trattamento equiparato allo stipendio di presidente di sezione di Cassazione, i parlamentari, senatori e deputati, si sono autoridotti lo stipendio negli anni scorsi e ancora di recente in modo tale che, pur mantenendo la stessa posizione funzionale, il presidente di sezione che scende in politica può rivendicare di mantenere lo stipendio di presidente di sezione rispetto a quello di parlamentare. (</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Albertini e Volpi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg87">Questo vuol dire che non è più quella del parlamentare la casta di cui si parla e un po' di verità, da questo punto di vista, è opportuno cominciare a scriverla! Questa prerogativa però non riguarda soltanto i magistrati, ma gli alti funzionari dell'apparato dello Stato, che se assumono l'incarico parlamentare possono scegliere la condizione migliore.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg88">Altrettanto non possono fare i dirigenti delle imprese private, e allora, da questo punto di vista - non in questa sede perché è materia estranea al provvedimento se si vuole trattare in termini generali, ma in futuro - dovremo riconsiderare questo aspetto, perché qui è evidente una disparità di trattamento nell'assumere il ruolo di parlamentari tra dipendenti privati e dipendenti pubblici.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg89">Detto questo, credo che bisogna giudicare il provvedimento in esame come un passo importante nella direzione che tutti abbiamo auspicato nella nostra discussione. E siccome noi socialisti consideriamo che la perfezione sia nemica del bene, riteniamo che questo passo sia importante e che valga la pena di approvare questo provvedimento, auspicando che, ancora in presenza di un sistema bicamerale perfetto, l'altra Camera, svolgendo il suo ruolo fino all'eventuale abolizione, svolga la funzione di correzione del lavoro positivo svolto al Senato, lavoro che sicuramente è passibile di miglioramenti alla Camera.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg90">In questo senso, dichiaro il nostro voto favorevole.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Albertini.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE CRISTOFARO (Misto-SEL)</note>
+            <u ana="#regular" who="#DeCristofaroPeppe" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u53">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg91">Signor Presidente, dichiaro anch'io il voto favorevole della componente Sinistra Ecologia e Libertà del Gruppo Misto sul provvedimento in esame, perché consideriamo condivisibile che il Parlamento abbia deciso di prendere la parola su una materia molto delicata, come è stato oggi ricordato, e di inserire alcune norme per meglio regolare uno degli aspetti del rapporto tra magistratura e politica, in particolare la possibilità e i limiti, per i magistrati che lo scelgano, di un loro impegno diretto nelle istituzioni democratiche dello Stato. Si tratta di un aspetto delicato, perché attiene al grande tema della separazione dei poteri, come è stato ricordato da molti miei colleghi stasera ed in discussione generale, anche attraverso la citazione di veri e propri Padri della Repubblica, come Pertini, Calamandrei e gli altri ricordati in questi giorni. In verità (lo ha ricordato anche il mio collega, senatore Stefano, in discussione generale qualche giorno fa, e lo ha fatto recentemente anche attraverso la presentazione pubblica di un disegno di legge che cerca di regolamentare l'intera materia riguardante ineleggibilità, incompatibilità, incandidabilità e indennità), ci sarebbe probabilmente bisogno di una vera e propria nuova normativa organica, capace di affrontare anche i temi riguardanti la problematica dei magistrati che scelgono di fare politica, in maniera non scissa ed indipendente da tutto il resto. Servirebbe, insomma, una riforma complessiva del sistema normativo, che l'intera nostra parte politica auspica. Crediamo comunque che questo testo sia un passo avanti, a partire dalla necessità di affrontare alcuni principi che a noi sembrano inderogabili, cioè alcuni principi cardine che, non a caso, sono sanciti nella nostra Carta costituzionale e che devono essere combinati tra di loro. Parlo dell'autonomia e dell'indipendenza della magistratura, da una parte e, dall'altra, della possibilità per tutti i cittadini di accedere alle cariche pubbliche e di concorrere alla costruzione dell'ordinamento democratico dello Stato conservando il diritto a tornare al proprio posto di lavoro una volta terminato il proprio mandato. Bisogna evidentemente combinare questi principi che rimandano tutti al corretto funzionamento delle istituzioni e alla necessità di realizzare quell'equilibrio tra i poteri dello Stato, che è un presupposto del corretto funzionamento della nostra democrazia. Si tratta di una materia, in particolare questa relativa alla condizione dei magistrati in tema di ineleggibilità e incompatibilità, che viene osservata, come è stato giustamente ricordato, con grande attenzione dall'opinione pubblica del nostro Paese, anche alla luce della storia recente dell'Italia, che ha visto, da Tangentopoli in poi, un ruolo spesso molto attivo della magistratura rispetto ai fatti politici. In molti casi essa è intervenuta su molti aspetti e con uno spirito positivo, ma a volte anche con un esercizio che non sempre è riuscito a distinguere tra diritti, privilegi e garanzie. Per queste ragioni crediamo che questo disegno di legge sia utile nel regolamentare la materia, pur avendo espresso alcuni dubbi nei giorni passati durante la votazione degli emendamenti e su alcuni singoli punti che sono stati ricordati, sui quali abbiamo presentato, per esempio, l'emendamento respinto sui sei mesi di aspettativa, che ci sembravano troppi, o sull'articolo 13, il cui riferimento temporale a dieci anni ci sembrava sbagliato. Riteniamo importante che sia stata apportata la correzione che è stata fatta, anche e soprattutto a partire dal nostro emendamento. Approfitto per dire al presidente della Commissione giustizia, senatore Palma, che ha ragione nel dire che la cultura del sospetto non deve avere cittadinanza in quest'Aula. Lo dico con la più grande chiarezza possibile: se in questi anni non fossero state fatte oltre trenta leggi ad personam e se non ci fosse stato il tentativo sistematico di sottrarre l'ex Presidente del Consiglio e le sue aziende al normale corso della giustizia, probabilmente questa cosa sarebbe un po' più facile. Siccome invece la storia è andata in un altro modo, anche a quelli come me, come noi di Sinistra Ecologia e Libertà, che hanno una solida cultura garantista, qualche volta il sospetto può venire. In ogni caso, consideriamo giusto il nuovo istituto del ricollocamento dei magistrati già eletti in Parlamento o che hanno avuto incarichi di Governo e anche il limite temporale dei cinque anni, che ci sembra corretto e condivisibile. Tutto questo serve a motivare il nostro voto favorevole e per dire che consideriamo positivo il tentativo di disciplinare una materia fondante lo Stato di diritto. Dunque, dichiariamo il nostro voto favorevole.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">D'ASCOLA (NCD)</note>
+            <u ana="#regular" who="#DAscolaNico" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u54">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg92">Signor Presidente, nel dichiarare il voto favorevole a questo disegno di legge del Nuovo Centrodestra, devo però esprimere alcuni giudizi che riguardano proprio il testo che ci stiamo accingendo a votare. Non c'è dubbio che questo sia un testo legislativo molto prudente, dove nell'avverbio di quantità sta il senso delle affermazioni che ci permettiamo di fare. Un testo molto prudente e anche molto rispettoso dell'ordine giudiziario, perché noi consentiamo a magistrati che abbiano svolto attività politiche, e che quindi abbiano perso quel carattere di imparzialità che sta nell'articolo 111 della nostra Costituzione, di ritornare a svolgere quelle funzioni che, al contrario, implicano inevitabilmente il mantenimento di quella imparzialità che l'attività politica certamente fa venir meno. Questo disegno di legge ha un contenuto sostanzialmente costituzionale, e dico «sostanzialmente» e non «formalmente» costituzionale, perché è una disposizione di legge ordinaria che regola i confini dei poteri tra due poteri dello Stato, e quindi delimita sostanzialmente ciò che si trova in Costituzione in norme dotate di quella diversa forza, cosicché, ancorché non sia una legge formalmente costituzionale, lo è dal punto di vista sostanziale. Infatti, occorre dire - senza quei mezzi termini che potrebbero qualificarci come persone che intendono eludere la sostanza dei problemi, che al contrario hanno l'obbligo di trattare nel rispetto del mandato loro conferito dai cittadini - che la partecipazione dei magistrati alla vita politica costituisce un'anomalia: certamente necessaria, perché una norma costituzionale, da rispettare, vieta che a taluni soggetti sia precluso il compimento di un'attività politica, e tuttavia indubbiamente un'anomalia. Ciò, proprio nella misura in cui noi consentiamo quella perdita di imparzialità, ma soprattutto il recupero delle funzioni giudiziarie, che (ripeto, nel rispetto che abbiamo ritenuto l'ordine giudiziario fondatamente debba meritare) abbiamo ritenuto di praticare. Questa legge si regge sull'equilibrio che coloro i quali hanno partecipato ai lavori conoscono: sanno quanto difficile sia stato giungervi, in un contesto nel quale pure esistevano opinioni contrarie rispetto alla possibilità di consentire la restituzione di ex magistrati che avevano svolto attività politica all'interno dei ranghi della magistratura, e di svolgere quelle attività che nel periodo dell'assolvimento del mandato parlamentare erano loro precluse. Certamente l'auspicio è che l'Italia ritorni in una condizione di normalità, perché se anche oggi è comprensibile il perché tanti magistrati abbiano ritenuto necessario partecipare all'attività politica in un momento di grave confusione delle coscienze, non è diversamente dubitabile che una condizione di equilibrio, una condizione di normalità imporrebbe che chi applica le leggi non partecipi anche alla formazione astratta delle leggi stesse. Quindi, l'auspicio è il ritorno ad una condizione di normalità, a quella che era la condizione di normalità dell'Italia prima che una serie convergente di fenomeni determinassero l'alterazione di un corretto assetto costituzionale, e che questi due poteri possano reciprocamente controllarsi e nello stesso tempo rispettarsi, essere indipendenti l'uno rispetto all'altro ma contestualmente evitare quelle commistioni in virtù delle quali nessuno di noi penserebbe di comporre un organo giudicante. L'auspicio è anche che la politica torni a meritarsi quelle garanzie che ha perduto, probabilmente per tutta una serie di responsabilità alle quali la politica stessa non è stata estranea. Il recupero della funzione che la politica svolgeva in Italia implica che la politica sia finalmente in grado di meritarsi quelle garanzie che i Padri costituenti le avevano attribuito attraverso la predisposizione di una norma fondamentale: il terzo comma dell'articolo 68, che una legge del 1993, in un contesto drammatico per la situazione politica italiana, ha inteso eliminare. La politica deve certamente meritarsi quella fiducia che i cittadini, attraverso la disposizione costituzionale, le avevano conferito, ma per fare questo deve ispirarsi ad altissimi criteri di moralità e di equilibrio, deve avvalersi di uomini forti e indipendenti: deve, in un'unica espressione, ritornare ad essere quella politica che innanzitutto rivendica un assoluto monopolio del potere legislativo, pretende che quel monopolio non venga messo in discussione da alcuno e che quelle sfere di discrezionalità, che sono esclusivamente attribuite alla politica nel contesto di un normale Paese democratico, non siano assoggettate ad alcun controllo e quindi non siano di fatto limitate. Conclusivamente, a prescindere da chi tra noi, uomini della politica, avrà la maggioranza e riscuoterà agli occhi dei cittadini italiani quel successo che lo porrà nella condizione di essere titolare di un potere politico, auspico che questo stesso potere possa finalmente essere esercitato al di fuori di un controllo che sia spinto sul contenuto dell'attività politica. Il controllo di legalità evidentemente implica anche il rispetto della sfera di discrezionalità di un potere politico, che, se sottoposto ad un controllo concernente le ragioni delle scelte e dell'agire politico, inevitabilmente finirebbe per non potersi esplicare pienamente. Insomma, signori senatori, se la politica è debole l'intero Stato è debole, non una sua fazione. Allora, dobbiamo tutti quanti, a prescindere dall'appartenenza degli uni o degli altri ad un partito, lavorare in maniera convergente perché la politica recuperi questa sua alta dignità, la sua indiscutibile moralità e possa proporsi per esercitare quel ruolo che solo in passato ha indipendentemente svolto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo NCD e del senatore Candiani. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CRIMI (M5S)</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u55">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg93">Signor Presidente, prima di affrontare nel merito il provvedimento che siamo chiamati a votare, ritengo opportuno fare alcune precisazioni. A differenza di alcune forze politiche, non abbiamo una posizione di preconcetta diffidenza e scontro nei riguardi dei magistrati. Anzi, in tantissime occasioni ci siamo trovati a difendere (e continueremo a farlo) i magistrati dall'attacco della politica, di «certa» politica del malaffare. Ci siamo ritrovati a difendere la buona magistratura, ovviamente, quella che per definizione svolge il proprio lavoro con dedizione e terzietà. E in questo momento non può che andare un pensiero al pm Di Matteo, al quale va tutta la nostra solidarietà.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg94">Nessuno sconto è da concedere, invece, a chi usa la propria posizione predominante, determinata da un grande potere (quello di decidere della libertà altrui), per fini individuali, per arrivismo politico o per propaganda personale. Fortunatamente, questi ultimi casi sono pochi, circostanziati e ben noti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg95">Questa legge era doverosa. Doverosa perché, insieme all'Esecutivo (il Governo) e al legislativo (noi, il Parlamento), quello giudiziario è uno dei tre poteri fondamentali dello Stato: tre poteri indipendenti, per i quali il passaggio reciproco - dall'uno all'altro - deve essere regolato da norme precise. Auspichiamo (ma è una speranza che rimarrà vana) che anche il passaggio dal potere legislativo a quello esecutivo possa essere regolamentato un giorno, per evitare che senatori diventino temporaneamente Ministri o Sottosegretari e scambino poltrona da una parte all'altra, appunto preservando il controllo che ha il Parlamento sull'attività del Governo e l'attività esecutiva del Governo rispetto all'attività del Parlamento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg96">È una norma di buon senso, come dicevo, per regolare una volta per tutte le modalità di accesso alla candidatura da parte dei magistrati e il loro rientro in servizio o in altri ruoli. È una norma che consente ai magistrati di affrontare con serenità la propria candidatura, conoscendo prima i vincoli pregiudiziali e i vincoli del proprio rientro. È una norma doverosa.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg97">Riconosciamo che dalla sua forma iniziale ha ottenuto tanti miglioramenti tecnici e sostanziali, grazie anche ai nostri suggerimenti, poi recepiti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg98">Innanzitutto, il dispositivo individua i requisiti che un magistrato deve rispettare affinché possa candidarsi a cariche elettive, o venga nominato in organi esecutivi, prevedendo un vincolo ben preciso.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg99">Sia chiaro: non è una limitazione dell'elettorato passivo, ma, proprio in funzione del delicato ruolo ricoperto dal magistrato, è necessario imporgli di rivestire incarichi politici altrove, in aree diverse e lontane da quelle in cui ha esercitato la sua giurisdizione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg100">Così come è necessario che lo stesso entri in aspettativa a partire da una data sufficientemente in anticipo rispetto a quella delle consultazioni elettorali, salvo in caso di elezioni anticipate, nelle quali si prevede un termine di dieci giorni successivi allo scioglimento delle Camere.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg101">Ma la parte forse più delicata - sulla quale avremmo auspicato soluzioni diverse, pur ritenendo accettabili quelle individuate nel testo definitivo - è quella relativa alla ricollocazione al termine del mandato elettivo o politico in generale, al fine di impedire la prosecuzione dell'attività di quello che potremmo definire l'ufficio di collocamento per poteri forti.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg102">La norma prevede in tal caso che il magistrato possa rientrare nel precedente servizio (tornare a fare il magistrato), purché non svolga incarichi direttivi o semidirettivi, e venga integrato in un organo collegiale (evitando, quindi, il conferimento del ruolo di pm, ed anzi collocandolo in un collegio, insieme ad altri colleghi), in località la cui competenza sia diversa rispetto alla circoscrizione elettorale in cui è stato eletto o candidato, o nella quale ha svolto il suo ruolo esecutivo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg103">Tuttavia, permane l'eventualità che agli stessi venga concesso di ricoprire incarichi speciali presso il Ministero. Si tratta di funzioni spesso ambite da altri colleghi che per maggiori meriti potrebbero aspirarvi, ma che grazie a questa norma possono vedersi scavalcati da altri colleghi, ricollocati dunque in ruoli di prestigio.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg104">Speriamo che la destinazione presso il Ministero non diventi ancora un'occasione per piazzare nel tempo i propri uomini nei ruoli chiave del Ministero. Speriamo che in questo caso il CSM, che dovrebbe essere un organo chiamato a controllare l'attività dei magistrati e ad esprimersi sul loro collocamento e sul loro posizionamento, sappia anche esercitare questo ruolo senza influenze politiche di sorta, con terzietà, privilegiando la meritocrazia in spregio all'appartenenza politica.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg105">Ma - scusate - forse ho avuto un'allucinazione: ricordo che il CSM ha sempre dimostrato di seguire criteri diversi. Fra questi, l'appartenenza alle correnti è il criterio principale da sempre prediletto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Airola</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg106">Diamo atto che sono state recepite le modifiche sulla disciplina transitoria (molto più blanda nella sua versione originale), da applicare ai magistrati che attualmente svolgono ruoli politici.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg107">Diamo atto anche che sull'articolo 13 sono state recepite alcune nostre osservazioni. L'articolo 13 prevedeva la facoltà di ricusare il giudice che sia stato eletto o candidato nei dieci anni precedenti se una delle parti è nelle stesse condizioni. È stato riportato in limite, in modo ragionevole, a cinque anni, omogeneo al resto del provvedimento. È stato anche scongiurato il pericolo che questo intervento legislativo possa far cadere in prescrizione procedimenti in corso, con un suo utilizzo strumentale; scongiurato grazie alla introduzione della non applicabilità ai procedimenti in corso.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg108">Auspicando - come hanno già ribadito alcuni colleghi - che un magistrato che decida di fare politica faccia spontaneamente quello che per legge non è stato imposto (e, cioè, decida di abbandonare il ruolo di magistrato definitivamente) per fugare ogni dubbio sul suo ruolo futuro e presente, comunque voteremo favorevolmente su questo disegno di legge.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u56">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg109">Saluto gli studenti e i docenti dell'Istituto comprensivo «Rovigo 2» di Rovigo, che assistono ai nostri lavori. Benvenuti al Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 116-273-296-394-546</note>
+            <note type="time">18,08</note>
+            <note type="time">(ore 18,08)</note>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u57">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg110">Signor Presidente, in questi tredici anni di attività politica ho ricevuto, come era logico, delle critiche, a volte fondate e a volte meno, e, come logico non era, ho ricevuto molteplici insulti, tutti assolutamente gratuiti. Agli insulti sono rimasto del tutto indifferente, salvo uno: quello in virtù del quale mi si accusava di non essere sentimentalmente legato alla magistratura. Non ho qua da dire molto. Mi limito semplicemente a dire che il Presidente della Repubblica sa bene con quanta sofferenza ho presentato le mie dimissioni, quelle dimissioni che segnavano il distacco da una vita, che era stata la mia vita per circa trent'anni, e che segnavano principalmente il distacco da quello che era stato il mio sogno da ragazzo. Ma quelle dimissioni erano necessarie, perché davvero non credevo, così come non credo, che un magistrato che sia entrato a fare politica e che abbia avuto, come nel mio caso, la fortuna di ricoprire incarichi di rilievo, possa poi tornare in magistratura assumendo di non aver perso, non dico la sostanza, ma l'apparenza della terzietà. Sono molto soddisfatto che, di qui a poco, si varerà questo provvedimento: un provvedimento che vide la sua prima luce nel 2002, che trovò un'approvazione all'unanimità alla Camera dei deputati, ma che poi non venne varato dal Senato della Repubblica. Probabilmente soffriva del clima di scontro che vi era all'epoca (che vi fu e che vi è stato per diversi anni), un clima in cui gli eccessi vi sono stati da tutte le parti. Un varo, questo, che molto probabilmente avverrà all'unanimità; il che - mi auguro - probabilmente potrà dimostrare un revirement rispetto al passato, cioè la ricerca di un punto di equilibrio. Questo è un provvedimento fortemente voluto, non solo dalla classe politica e non solo, almeno a parole, dalla magistratura: esso è fortemente voluto dal Presidente della Repubblica, il quale, in un suo intervento al Consiglio superiore della magistratura nel 2010, ebbe ad affermare che era necessario regolare, in modo per vari aspetti nuovo e di certo più restrittivo, l'impiego del magistrato in funzioni diverse da quelle proprie, il transitare all'attività politica, così come il rientrare nella carriera giudiziaria. In quell'intervento il Presidente della Repubblica non dimenticò di dire che spesso vi erano delle esposizioni di tipo mediatico a fini politici da parte di magistrati, con il solo fine dell'autopromozione personale. Quante di queste autopromozioni abbiamo visto, senza che la politica abbia sentito il dovere di intervenire, ma principalmente senza che la politica, probabilmente affaticata da uno scontro, avesse avuto, quanto meno, il coraggio di formulare delle critiche? O si era da una parte, o si era dall'altra; o si difendeva a tutto campo o si attaccava a tutto campo. Ci siamo dimenticati quello che è stato il ruolo proprio della politica. Come è stato possibile, ad esempio, consentire che un magistrato potesse ottenere la sua popolarità affermando che vi era stata una compromissione tra un partito e una determinata organizzazione criminale salvo poi (è sui giornali di oggi), dire, in un suo libro, che questa era solo una sua ipotesi? Come è stato possibile non intervenire in ordine a una prassi che vedeva magistrati impegnati in processi, spesso aventi ad oggetto il personaggio politico influente del posto, che poi magari finivano in una assoluzione o in un proscioglimento, e grazie a questa popolarità diventare sindaci o assessori in quello stesso Comune in cui avevano esercitato le loro funzioni? Come è stato possibile non intervenire, autorizzando così il crescere e il persistere dei sospetti, in ordine all'azione giudiziaria posta in essere da quei magistrati? Davvero a qualcuno non è venuto in mente che un'azione giudiziaria contro il politico locale, della zona, poi magari assolto, non fosse già all'epoca guidata da un interesse di tipo politico? Non è un caso - lo ha ricordato il senatore Falanga - che alle ultime elezioni ben due schieramenti, ben due partiti, abbiano avuto come loro leader magistrati del pubblico ministero. Non pensate che, nella sostanza, ciò vada contro la tripartizione dei poteri, contro la separazione dei poteri? Non vi rendete conto di quanto queste invasioni di campo - legittime perché consentite dalla legge - siano disastrose sotto il profilo dell'autonomia e dell'indipendenza della magistratura? Per questo motivo, a mio avviso, oggi noi licenzieremo un provvedimento giusto, anche se probabilmente non coraggioso come molti di noi volevano. Infatti, nel consentire - sia pure con tutta una serie di ostacoli - il rientro del magistrato dalla politica in magistratura, probabilmente esso non opera una scelta definitiva, una scelta tranchant, e decide come lo struzzo di non pronunciarsi, di non prendere posizione rispetto al principio costituzionale della terzietà del giudice, di cui all'articolo 111, e al diritto alla conservazione del posto di lavoro, di cui all'articolo 51 della Costituzione. Ciononostante, ritengo sia un buon provvedimento. Aggiungo una considerazione. Se questo è l'inizio di un percorso, mi permetto di evidenziare a tutti i colleghi, di maggioranza e di opposizione, che se vogliamo definitivamente uscire dalla contrapposizione tra il potere giudiziario e il potere politico abbiamo la necessità di normare; abbiamo la necessità di regolamentare le situazioni che meritano di essere regolamentate; abbiamo la necessità di restringere, come oggi facciamo, l'ingresso e l'uscita dalla politica dei magistrati; abbiamo anche, a mio avviso, il dovere di limitare, nei termini consentiti dalla Corte costituzionale e imposti dalla riservatezza propria di un determinato ruolo, una serie di esternazioni che davvero hanno poco a che fare con l'attività giudiziaria e che evidentemente invadono il campo della politica.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg111">(ore 18,18) ( Segue PALMA). Mi auguro che questo sia un inizio e che, anche in virtù dell'unanimità che probabilmente oggi raggiungeremo, si possa cominciare a ragionare senza alcun intendimento di carattere ritorsivo, ma anche senza alcun intendimento di carattere difensivo. PRESIDENTE. Senatore Palma, dovrebbe concludere il suo intervento. PALMA (FI-PdL XVII). Concludo subito, e la ringrazio, signora Presidente. Come dicevo, mi auguro che si possa cominciare a ragionare senza alcun intendimento di carattere ritorsivo, ma anche senza alcun intendimento di carattere difensivo, avendo tutti a cuore non il nostro piccolo interesse di bottega né l'interesse personale del singolo magistrato, ma ciò che a tutti noi deve stare a cuore, cioè la neutralità dell'azione giudiziaria, l'autonomia e l'indipendenza dalla magistratura.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="president">Presidenza della vice presidente LANZILLOTTA</note>
+            <note type="time">18,18</note>
+            <note type="speaker">LUMIA (PD)</note>
+            <u ana="#regular" who="#LumiaGiuseppe" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u58">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg112">Signora Presidente, colleghi, un altro disegno di legge atteso da anni, da decenni: basti pensare che siamo fermi al testo unico del 30 marzo 1957. Colleghi, un altro disegno di legge delicato, molto divisivo, corredato da polemiche roventi e insulti di vario genere. Un altro disegno di legge che, già nei suoi articoli votati in Aula, ha avuto larghissimi consensi, quasi unanimi. Un altro disegno di legge che si appresta ad essere varato tra poco dall'Aula con un vasto consenso che va al di là del gioco democratico tra maggioranza e opposizione: fatto raro, ma reale e da apprezzare. Un disegno di legge meditato e discusso nelle Commissioni per settimane. Ricordo ai colleghi che si è partiti con due impostazioni divergenti. Si sono contrapposte infatti due scuole di pensiero: i sostenitori dell'idea che il magistrato non può candidarsi, non può partecipare ai vari momenti elettorali della vita democratica, non può avere incarichi negli Esecutivi nei diversi livelli istituzionali e, qualora dovesse candidarsi, non è possibile prevedere un rientro negli uffici giudiziari; all'opposto, i sostenitori dell'idea che il magistrato candidato, eletto o non eletto, con incarichi negli Esecutivi, può ritornare alla propria attività giurisdizionale. Colleghi, tali divisioni all'inizio sembravano incomponibili e senza alcuna possibilità di sintesi. Attenzione: le due scuole di pensiero si ritrovano in tutti i Gruppi, tagliano trasversalmente le varie realtà politiche e la stessa dinamica maggioranza-opposizione. Non sono mancate nei due approcci impostazioni radicali e spesso estreme. Nella prima impostazione, contraria alla possibilità che i magistrati potessero, una volta candidati, rientrare nel sistema giudiziario, non sono mancate letture punitive, che noi del Partito Democratico non abbiamo condiviso e non condividiamo. Letture punitive nei confronti dei magistrati; una sorta di occasione privilegiata per la politica per prendersi una rivincita con la riproposizione del trito e ritrito duello tra politica-magistrati. Abbiamo impedito che ciò prendesse il sopravvento, impedendo così, alla fine, di produrre una riforma. I magistrati eletti nelle istituzioni non hanno rotto il valore costituzionale dell'autonomia e dell'indipendenza della magistratura. Abbiamo esempi nobili di correttezza e d'impegno al servizio del Paese, che evidenziano come essi, quando essi sono rientrati, hanno mantenuto un profilo di serietà e rigore nell'essere lontani dalla faziosità e dalla partigianeria. Un'altra impostazione, più conservatrice, riteneva che non ci fossero problemi nel passaggio dal ruolo di magistrato a quello politico e viceversa: un'altra impostazione squilibrata e critica, che rischia di essere e apparire subalterna a una condizione di promiscuità che, anche quando si realizza in pochi casi, fa sempre male alla stessa funzione e allo stesso ruolo della magistratura. Nelle Commissioni è prevalso un approccio positivo, di sintesi, radicato e ben piantato nella nostra Costituzione, capace di tenere conto dell'esperienza maturata in questi anni, in questi decenni, libero da idee di scontro e di faziosità. La nostra democrazia è chiamata ad affrontare riforme e cambiamenti senza precedenti. Abbiamo lavorato per dare finalmente soluzioni al nodo delle candidature dei magistrati: i magistrati possono candidarsi rispettando condizioni rigorose e chiare; i magistrati possono scegliere diverse vie dopo la candidatura, sia che siano eletti, sia che non siano stati scelti dai cittadini nel ruolo di rappresentanti dentro le istituzioni. Colleghi, in questo periodo in cui siamo chiamati a dare il meglio e in cui il Parlamento sarà chiamato ad affrontare leggi da far tremare i polsi, aver raggiunto qui - prima nelle Commissioni e adesso in Aula - un accordo nobile è anche d'esempio e di stimolo. Il Parlamento può fare e condividere le riforme, e può farne di ottime. Misurare questo spirito parlamentare dentro i temi della giustizia è un risultato ancor più qualificante, perché in essa vi sono divisione, contrapposizione e, spesso, faziosità. Ecco perché, colleghi, apprezziamo questo risultato importante, in quanto ci mette nelle condizioni di continuare un percorso serio di riforme. Il Gruppo del PD ha lavorato per raggiungere questo risultato di qualità: votiamo sì al testo licenziato dalle Commissioni e migliorato in Aula. Colleghi, un buon lavoro è stato fatto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FALANGA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u59">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg113">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg114">Signora Presidente, mi asterrò dal votare il provvedimento in esame per due ordini di ragioni. Innanzi tutto, quest'Aula non ha avuto il coraggio di approvare un testo che andasse definitivamente a regolamentare l'accesso all'agone politico da parte dei magistrati ed il ricollocamento nelle funzioni di magistratura. Si è fatto riferimento all'articolo 51 della Costituzione, la quale viene utilizzata «a fisarmonica», per così dire: citando l'articolo 51, si dice che tutti i cittadini, per quanto attiene alla candidabilità dei giudici, hanno il diritto di candidarsi, ma ci si dimentica dell'articolo 56, che va ad indicare quali sono i presupposti per potersi candidare alle varie elezioni. Si parla dell'articolo 111 e lo si dimentica, quando esso, a proposito del ricollocamento nelle funzioni, testualmente recita che ogni processo si deve svolgere davanti ad un giudice terzo ed imparziale. Inoltre, avete respinto l'emendamento del presidente Palma, e qualche considerazione di ordine costituzionale è stata fatta anche dal senatore Caliendo, quando ha fatto a sua volta riferimento all'articolo 97 di questa Costituzione, sempre utilizzata a mo' di fisarmonica. Tale articolo prevede dunque che agli impieghi pubblici si acceda solo mediante concorso, e che quindi non fosse possibile il ricollocamento nei ruoli dell'Avvocatura. Era una strada, che avrebbe potuto evitare che un cittadino, trovandosi dinanzi ad un giudice, provasse la sensazione che questi non fosse terzo e imparziale. L'avete respinta e non avete voluto aderire a questa soluzione che - essa sì - poteva essere di mediazione. Per queste ragioni, dinanzi alla viltà di un Senato della Repubblica che non ha il coraggio di approvare le misure che sono giuste, ma che possono dare fastidio, perché vanno nella direzione di tutelare quell'enorme numero di magistrati che svolgono le loro funzioni nel rispetto dei principi costituzionali e, tra questi, anche quelli della terzietà e dell'imparzialità, non volendomi lasciar coinvolgere da una tale schiera di viltà, dichiaro di astenermi dal voto su questo provvedimento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u60">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg115">Passiamo all'esame della proposta di coordinamento C1, che è stata già distribuita, che invito il relatore ad illustrare.</seg>
+            </u>
+            <note type="speaker">CASSON</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#CassonFelice" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u61">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg116">Signora Presidente, si tratta sostanzialmente di alcune modifiche di ordine lessicale, come ad esempio la sostituzione del verbo «candidarsi» con il verbo «essere candidati» e della parola «ricompresa» con la parola «compresa». Sono modifiche di questo tenore, che riguardano gli articoli 1, 2, 3, 5, 6, 8, 9, 10, 12 e 13 e che non incidono sulla sostanza del provvedimento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg117">Un'altra modifica consiste nella seguente precisazione: sostituire le parole «al Parlamento nazionale o al Parlamento europeo», con le seguenti «al Parlamento europeo o al Senato della Repubblica o alla Camera dei deputati».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u62">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg118">Metto ai voti la proposta di coordinamento C1, presentata dai relatori.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg119">È approvata.</seg>
+            </u>
+            <note type="speaker">PETROCELLI (M5S)</note>
+            <u ana="#regular" who="#PetrocelliVitoRosario" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u63">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg120">Chiediamo che la votazione finale del provvedimento sia effettuata a scrutinio simultaneo, mediante procedimento elettronico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u64">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg121">Invito il senatore Segretario a verificare se la richiesta di votazione con scrutinio simultaneo, avanzata dal senatore Petrocelli, risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Votazione nominale con scrutinio simultaneo PRESIDENTE. Indìco la votazione nominale con scrutinio simultaneo, mediante procedimento elettronico, del testo unificato dei disegni di legge nn. 116, 273, 296, 394 e 546, nel testo emendato, con il seguente titolo: «Disposizioni in materia di candidabilità, eleggibilità e ricollocamento dei magistrati in occasione di elezioni politiche e amministrative nonché di assunzione di incarichi di governo nazionali e territoriali. Modifiche alla disciplina in materia di astensione e ricusazione dei giudici», con l'avvertenza che la Presidenza si intenderà autorizzata ad effettuare le eventuali ulteriori modifiche di coordinamento formale che dovessero risultare necessarie. Dichiaro aperta la votazione. (Segue la votazione). Il Senato approva.</seg>
+               <kinesic type="applause">
+                  <desc>v. Allegato B. Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'ordine dei lavori</head>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u65">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg122">Signora Presidente, oggi la Presidenza del Consiglio dei ministri ha diramato a tutti i capi degli uffici legislativi e alla Ragioneria generale dello Stato uno schema di decreto-legge che riguarda l'avvalimento di soggetti terzi per l'attività di vigilanza bancaria. L'attività di vigilanza bancaria è in capo alla Banca d'Italia. Mi consenta di usare questo minuto. PRESIDENTE. Senatore, possiamo rinviare il suo intervento a fine seduta, perché la materia non è oggetto della discussione in corso. DIVINA (LN-Aut). Signora Presidente, non è materia di fine seduta. Utilizzare enti terzi per le funzioni di vigilanza al posto della Banca d'Italia, che è un ente funzionale adibito alla vigilanza, sembra poco chiaro; pertanto, visto che c'è anche un rappresentante del Governo, vorremmo che ci desse delle spiegazioni. In primo luogo il Governo ha annunciato una serie di provvedimenti su temi che vanno dalla casa al lavoro.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u66">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg123">Senatore Divina, se e quando il Governo emanerà questo provvedimento ne illustrerà le ragioni, non è questo il momento.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg124">La prego di concludere, altrimenti sono costretta a toglierle la parola, perché non è materia oggetto del nostro ordine del giorno.</seg>
+            </u>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u67">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg125">Noi vorremmo capire da questo Governo se, al posto di tutte le priorità che ha annunciato, la prima priorità è sostituire, nell'attività di vigilanza, la Banca d'Italia con enti terzi.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Discussione della proposta di inserimento all'ordine del giorno del disegno di legge n. 1224</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u68">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg126">Colleghi è stata avanzata la richiesta, ai sensi dell'articolo 56, comma 4, del Regolamento, di inserire all'ordine del giorno il disegno di legge n. 1224-A per la promozione dell'equilibrio di genere nella rappresentanza politica alle elezioni per il Parlamento europeo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg127">Ricordo che sulla proposta potrà prendere la parola un rappresentante per Gruppo per non più di dieci minuti ciascuno.</seg>
+            </u>
+            <note type="speaker">BRUNO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#BrunoDonato" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u69">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg128">Signora Presidente, normalmente sono abbastanza allineato alle richieste del presidente Calderoli, ma questa volta devo dissentire, non tanto per il merito del provvedimento, sul quale tra l'altro abbiamo lavorato in Commissione (abbiamo licenziato il testo, ancorché non abbiamo votato gli emendamenti, riservando all'Aula la possibilità di votarli o meno) ma perché ritengo che sarebbe un abuso ricorrere alle previsioni di cui all'articolo 56, comma 4, del Regolamento quando vi è un luogo abilitato a che tali richieste possano essere svolte. La Conferenza dei Capigruppo doveva essere convocata per oggi, ma poi, per motivi che a me probabilmente sfuggono, è stata rinviata. Il collega Calderoli ben farebbe a chiedere al Presidente del Senato la convocazione della Conferenza dei Capigruppo al fine di analizzare questo ed altri provvedimenti. Diversamente si corre il rischio che ogni Gruppo ogni giorno chieda di calendarizzare ora questo ora quel provvedimento. Credo anche che per regolarizzare i nostri lavori sia molto opportuno che questo avvenga nella sede idonea, che - ripeto - secondo il mio modo di vedere è la Conferenza dei Capigruppo. Quindi, in questo senso sollecito il collega Calderoli a rappresentare al presidente del Senato Grasso la convocazione di tale organo, dove verrà discusso l'eventuale inserimento di questo provvedimento; sarà presente il Governo, in maniera tale che possa dire la sua, anche per vedere se è giusto o meno che si scavalchi qualche altro provvedimento, che a suo tempo è stato oggetto di richiesta da parte dei vari Gruppi. Pertanto, inviterei l'Assemblea a soprassedere rispetto all'inserimento del disegno di legge sopra citato, fermo restando che noi ci allineeremo a quella che sarà la decisione che la Conferenza dei Capigruppo andrà ad assumere.</seg>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u70">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg129">Signora Presidente, chiedo la convocazione della Conferenza dei Capigruppo nei tempi quanto più rapidi possibili. Anticipo che il Gruppo del Partito Democratico chiederà nella Conferenza dei Capigruppo che il disegno di legge sull'equilibrio di genere venga calendarizzato anch'esso nei tempi più rapidi possibili: immediatamente, se possibile. È un disegno di legge che porta le prime firme di senatori del Partito Democratico; è un disegno di legge che abbiamo sostenuto in Commissione, di cui chiediamo un'urgente approvazione. Ma pensiamo che il calendario dell'Aula debba essere deciso nella sede a ciò abilitata, sede nella quale il calendario può essere armonizzato sentendo tutte le esigenze, sentendo contemporaneamente tutti i Capigruppo. Diversa è un'irruzione nel calendario, nelle forme in cui è stata presentata dal senatore Calderoli, per esigenze che io condivido, sebbene non condivida il metodo con cui la richiesta è stata avanzata. Pertanto, torno a chiedere alla Presidenza un'immediata convocazione della Conferenza dei Capigruppo.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u71">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg130">Signora Presidente, anch'io ho trovato francamente un po' strano il fatto che sia stata sconvocata la riunione dei Capigruppo fissata per oggi, alle ore 15. Per di più non abbiamo per la settimana grandi programmi (lo dico anche al presidente Zanda, perché si preannunciano spostamenti di mozioni). Sappiamo tutti (lo sappiamo noi che siamo stati in Commissione affari costituzionali, perché ce lo siamo detti, e guardo il presidente Bruno: io sono stata molto chiara anche rispetto alla richiesta a cui poi ho acceduto di ritirare gli emendamenti per l'Aula, e non a caso il testo poi è stato votato all'unanimità) che sembrava ci fosse l'intenzione da parte di tutti i Gruppi di farsi carico, quindi anche verso il Presidente del Senato e la riunione dei Capigruppo, di calendarizzare rapidamente questo disegno di legge. Oggi 11 marzo vorrei anche far presente a tutti che sono iniziate le raccolte di firme, per chi deve raccoglierle o per chi sceglie di raccogliere le firme sulle liste: è già iniziata dalla scorsa settimana la raccolta di firme. La proposta che ha presentato qui il vice presidente Calderoli non è quindi un'irruzione a gamba tesa, ma deriva dalla volontà di riportare anche alla discussione dell'Assemblea e alla sua responsabilità il fatto che c'è la necessità di cominciare a discuterla rapidamente. Non so se la Conferenza dei Capigruppo può essere convocata con una certa rapidità, cioè entro la giornata di oggi. Se così fosse, visto che il partito di maggioranza relativa si è detto disponibile, ed anche il nostro Gruppo fa questa richiesta (io stessa l'ho espressa oggi al presidente Grasso), la calendarizzazione potrebbe avvenire immediatamente. Capisco che l'argomento dell'introduzione della preferenza di genere, dopo la giornata di ieri, possa sembrare scabroso, ma credo che questa Assemblea debba prendere coscienza che il Senato può assumersi una responsabilità rapidamente, altrimenti la Camera può trincerarsi dietro al fatto che non ci sono i tempi prima della presentazione delle liste. Questo può farlo benissimo la Conferenza dei Capigruppo, ma visto che è stata presentata oggi dal senatore Calderoli la richiesta di inserimento in calendario del disegno di legge n. 1224, il nostro Gruppo è comunque favorevole alla proposta avanzata.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u72">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg131">Assicuro che il Presidente del Senato è informato e quindi provvederà a convocare al più presto la Conferenza del Capigruppo.</seg>
+            </u>
+            <note type="speaker">MAURO Mario (PI)</note>
+            <u ana="#regular" who="#MauroMario" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u73">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg132">Signora Presidente, dichiaro, in pochi secondi, l'adesione da parte del mio Gruppo alla proposta del senatore Calderoli, e vorrei fare un invito al Partito Democratico e a Forza Italia, nel senso che questa normativa ad altro non è finalizzata che a dare pari opportunità e pari chance a donne e uomini alle elezioni europee. Se dietro questa normativa, invece, si intende proseguire con il gioco di prendere in ostaggio altre questioni in tema di legge elettorale italiana evidentemente il gioco dei rinvii e delle motivazioni, più o meno opportune, continuerà in eterno. La nostra raccomandazione, quindi, è che si diano pari opportunità a uomini e donne per le elezioni al Parlamento europeo e che si accetti la proposta avanzata dal senatore Calderoli.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u74">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg133">Signora Presidente, signori colleghi, rimaniamo sempre molto stupiti dall'atteggiamento che si ha. È un discorso di metodo. Oggi era stata convocata, per le ore 15, una riunione della Conferenza dei Capigruppo. La stessa riunione è stata sconvocata. Iniziamo con il capire per quali motivi questa riunione è stata prima convocata e dopo sconvocata: cerchiamo di capire chi l'ha richiesta e chi l'ha sconvocata. Per quanto riguarda la richiesta del senatore Calderoli, ritengo che avanzarla in quest'Aula del Parlamento sia pienamente nelle sue facoltà, per cui ci esprimeremo con un voto, favorevole o contrario, in maniera assolutamente serena. Quello che è accaduto oggi, signora Presidente, è che sulla mozione sul MUOS, che è stata presentata nell'agosto del 2013, oggi i Presidenti delle Commissioni sanità e ambiente sono intervenuti a gamba tesa per prendere ancora tempo e per non consentire a questa Assemblea di votare giovedì. Sottolineo che si tratta di una discussione che è iniziata già il mese scorso. Il calendario, lo dico al senatore Zanda, va discusso nella Conferenza dei Capigruppo, ma va assolutamente mantenuto. Già la scorsa settimana questo programma è stato concordato insieme, quindi è un discorso di metodo. Chiediamo che il calendario venga discusso nella Conferenza dei Capigruppo: se non c'è l'unanimità si viene in Aula a votare, e ognuno si prende la responsabilità dei vari spostamenti. Questo rientra nell'azione lecita di ciascun Gruppo e di ciascun parlamentare. Il Movimento 5 Stelle voterà contro la richiesta avanzata dal presidente Calderoli, e attende ulteriori sviluppi rispetto alla Conferenza dei Capigruppo; soprattutto attende che vengano resi pubblici i motivi per cui la Conferenza è stata convocata e poi sconvocata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u75">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg134">Valuterà il Presidente del Senato se dare motivazioni più analitiche di questi fatti.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u76">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg135">Signora Presidente, non ho fatto alcun intervento a gamba tesa (forse l'ha fatto qualcun'altro). Credo si debba togliere il velo di ipocrisia che continua a girare sulle leggi elettorali. Ci siamo riempiti la bocca per settimane e mesi sugli equilibri di genere in materia elettorale. Ora diciamolo chiaro e tondo: ci sono i sancta sanctorum dei vecchi europarlamentari maschietti che questo equilibrio non lo vogliono perché vogliono difendere il loro posto. Questa è la realtà! E un'altra ipocrisia è che in Commissione tutti si sono impegnati a sollecitare il Presidente del Senato affinché il provvedimento sia calendarizzato per l'Aula. Addirittura mi è stato richiesto di chiederlo al Presidente la prima volta che ne avessi avuto occasione, ed io ho seguito la strada ordinaria, cioè sono andato dal Presidente del Senato a chiedere, a nome di tutta la Commissione, che il provvedimento venisse quanto prima calendarizzato per l'Aula. Il Presidente mi ha detto che avrebbe convocato una riunione della Conferenza dei Capigruppo, cosa che si è realizzata. Oggi avremmo dovuto calendarizzare, mi auguro per la giornata di domani, la discussione del provvedimento. Poi, di colpo, la riunione della Conferenza sparisce, e mi si dice che avrei dovuto intervenire nella Conferenza dei Capigruppo: peccato che la Conferenza non si sia svolta e non si sia potuto discutere! Diciamolo chiaramente: se la si rimanda adesso, questa legge non avrà più la possibilità di essere approvata anche dalla Camera dei deputati, e quindi non verrà mai utilizzata.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u77">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg136">Mi scusi, presidente Calderoli, posso interromperla per dare una comunicazione? Il Presidente informa che la Capigruppo è immediatamente convocata per questa decisione, e quindi è sospesa la deliberazione sulla sua richiesta, che, alla luce di quanto deciderà la Conferenza di Capigruppo, potrà eventualmente essere messa in votazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut, PD e PI e del senatore Buemi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u78">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg137">Mi scusi, signora Presidente, non vorrei contraddirla, però spetta anche a me dare la disponibilità in tal senso: nel momento in cui si inizia ad affrontare un argomento che era nella sua potestà definire in termini di orario, dopo si deve arrivare alla conclusione. Comunque, non ne faccio una questione: a me interessa l'obiettivo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg138">Concludo anticipando che in ogni caso, rispetto alla Conferenza dei Capigruppo, non esiste al mondo che ci sia l'impossibilità di discutere un disegno di legge perché l'asse stabilito tra PD e FI-PdL XVII non può rompersi in questa sede perché ci sarebbero ricadute sulla legge elettorale alla Camera! Non esiste questa possibilità!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg139">La richiesta dell'urgentissima, se ha determinato la convocazione della Conferenza dei Capigruppo - e poi voglio vedere nella Capigruppo che si richieda per domani mattina che si affronti l'argomento - mi sta benissimo, perché, diversamente da quanto è accaduto alla Camera, dove con il voto segreto tutti i gatti si sono nascosti, qui si deve votare con un voto nominale, e resta registrato chi lo vuole e chi non lo vuole, e poi ciascuno ne risponderà all'esterno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg140">Ritiro la mia richiesta, però, non essendo passati ancora ad un altro punto all'ordine del giorno, sulla base dell'esito della riunione della Conferenza dei Capigruppo deciderò se ripresentarla.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u79">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg141">Come è nel suo diritto (e si vede in questo una supremazia del Senato).</seg>
+            </u>
+            <note type="speaker">BRUNO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#BrunoDonato" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u80">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg142">Signora Presidente, mi rivolgo, chiaramente, al senatore Calderoli. Il fatto di dire che domattina questo provvedimento può essere all'esame dell'Assemblea mi induce a una precisazione. Non vorrei forzare la mano in un modo o nell'altro, ma tutti i senatori hanno diritto di presentare in Aula emendamenti; chi vi parla ha intenzione di presentarli (in Commissione li abbiamo ritirati, e abbiamo detto che li avremmo ripresentati in Aula: questo è l'accordo che vi è stato). Ora, non si può togliere la possibilità, riconosciuta ad ogni senatore, di presentare propri emendamenti. Il calendario viene stabilito nella Conferenza dei Capigruppo solo ed esclusivamente per dare la possibilità a tutti i senatori di presentare emendamenti sul provvedimento nel tempo dovuto. Se venisse calendarizzato per la giornata di domani probabilmente verrebbe tolto il diritto al senatore di presentare propri emendamenti. Sollecito, quindi, per il suo tramite il Presidente del Senato affinché fissi una data congrua che consenta a tutti di presentare emendamenti.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u81">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg143">La Conferenza dei Capigruppo valuterà senza altro anche questo aspetto.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u82">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg144">Saluto gli studenti dell'istituto tecnico «Macedonio Melloni» di Parma.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg145">Sospendo la seduta, che riprenderà al termine della riunione della Conferenza dei Capigruppo. (La seduta, sospesa alle ore 18,50, è ripresa alle ore 20,27).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u83">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg146">La seduta è ripresa.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg147">La Conferenza dei Capigruppo ha approvato modifiche e integrazioni al calendario corrente e il nuovo calendario dei lavori fino al 27 marzo 2014.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg148">La seduta antimeridiana di domani - dalle ore 9 alle ore 14 - sarà dedicata alla discussione del disegno di legge recante modifiche alla disciplina delle misure cautelari personali.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg149">Nella seduta pomeridiana di domani, con inizio alle ore 16 - che coincide con il termine per la presentazione degli emendamenti - inizierà la discussione del disegno di legge per il riequilibrio di genere nelle elezioni al Parlamento europeo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg150">Restano confermati gli altri argomenti previsti dal calendario della settimana corrente, peraltro con anticipo delle mozioni (idrocarburi Mare Adriatico e MUOS) rispetto alle ratifiche di Accordi internazionali.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg151">Il calendario della prossima settimana, oltre al seguito degli argomenti non conclusi, prevede l'esame dei disegni di legge recanti esercizio abusivo delle professioni e ammissione al reclutamento nelle Forze armate; comunicazioni del Presidente del Consiglio dei ministri in vista del Consiglio europeo (nella seduta pomeridiana di mercoledì 19 marzo); comunicazioni del Presidente del Senato sul contenuto del disegno di legge collegato in materia di agricoltura; mozioni sul popolo Saharawi e su iniziative a sostegno dei territori confinanti con la Svizzera.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg152">Nelle sedute della settimana successiva alla prossima - dal 25 al 26 marzo - sarà esaminato il decreto-legge recante rientro dei capitali detenuti all'estero, ove trasmesso in tempo utile dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg153">Infine, giovedì 27 marzo ricorre la Giornata mondiale del Teatro. I Capigruppo hanno convenuto sulla proposta del Presidente di celebrare tale importante momento culturale attraverso un'apposita cerimonia da tenersi nell'Aula del Senato nel corso della mattinata.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Programma dei lavori dell'Assemblea, integrazioni</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u84">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg154">La Conferenza dei Presidenti dei Gruppi parlamentari, riunitasi questa sera con la presenza dei Vice presidenti del Senato e con l'intervento del rappresentante del Governo ha adottato - ai sensi dell'articolo 53 del Regolamento le seguenti integrazioni al programma dei lavori del Senato per i mesi di gennaio, febbraio e marzo: - Disegno di legge n. 1224 e connessi - Modifiche alla legge 24 gennaio 1979, n. 18, per la promozione dell'equilibrio di genere nella rappresentanza politica alle elezioni per il Parlamento europeo.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg155">- Disegno di legge n. 471 e connessi - Modifiche all'articolo 348 del codice penale e all'articolo 141 del testo unico delle leggi sanitarie, di cui al regio decreto 27 luglio 1934, n. 1265, in materia di esercizio abusivo di una professione.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg156">- Disegno di legge n. 733 e connessi - Modifica all'articolo 635 del codice dell'ordinamento militare, di cui al decreto legislativo 15 marzo 2010, n. 66, e altre disposizioni in materia di parametri fisici per l'ammissione ai concorsi per il reclutamento nelle Forze armate, nelle Forze di polizia e nel Corpo nazionale dei Vigili del fuoco.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Calendario dei lavori dell'Assemblea</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u85">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg157">Nel corso della stessa riunione, la Conferenza dei Presidenti dei Gruppi parlamentari ha altresì adottato - ai sensi dell'articolo 55 del Regolamento - modifiche e integrazioni al calendario corrente e il nuovo calendario dei lavori fino al 27 marzo 2014:</seg>
+               <note type="summary">Mercoledì 12 " ant. h. 9-14 - Disegno di legge n. 1232 e connessi - Modifiche disciplina misure cautelari personali (Approvato dalla Camera dei deputati) - Disegno di legge n. 1224 e connessi - Equilibrio di genere elezioni Parlamento europeo (Voto finale con la presenza del numero legale) (mercoledì 12 pom) - Mozioni sull'attività di ricerca di idrocarburi nel Mare Adriatico - Seguito mozioni sul sistema di telecomunicazioni satellitari MUOS - Ratifiche di Accordi internazionali definite dalla Commissione esteri " " " pom. h. 16-20 Giovedì 13 " ant. h. 9.30-14 Giovedì 13 marzo pom. h. 16 - Interpellanze e interrogazioni</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg158">Gli emendamenti al disegno di legge n. 1224 e connessi (Equilibrio di genere elezioni Parlamento europeo) dovranno essere presentati entro le ore 16 di mercoledì 12 marzo.</seg>
+               <note type="summary">Martedì 18 marzo ant. h.11-13,30 - Seguito argomenti non conclusi - Disegno di legge n. 471 e connessi - Esercizio abusivo delle professioni - Disegno di legge n. 733 e connessi - ammissione reclutamento Forze armate - Comunicazioni del Presidente del Consiglio dei ministri in vista del Consiglio europeo di Bruxelles del 20 e 21 marzo 2014 (mercoledì 19, pom.) - Comunicazioni del Presidente, ai sensi dell'articolo 126- bis comma 2- bis , del Regolamento, sul disegno di legge n. 1328 - Competitività settore agricolo (Collegato alla manovra finanziaria) - Mozione n. 129, Vaccari, sulle iniziative a favore del popolo Saharawi - Mozione n. 214, Bitonci, su iniziative a sostegno dei territori confinanti con la Svizzera " " " pom. h. 16,30-20 Mercoledì 19 " ant. h. 9,30-13 " " " pom. h. 16-20 Giovedì 20 " ant. h. 9,30-14 Giovedì 20 marzo pom. h. 16 - Interpellanze e interrogazioni</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg159">Gli emendamenti al disegno di legge n. 471 e connessi (Esercizio abusivo delle professioni) e al disegno di legge n. 733 e connessi (Ammissione reclutamento Forze armate) dovranno essere presentati entro le ore 13 di venerdì 14 marzo.</seg>
+               <note type="summary">Martedì 25 marzo ant. h. 11-13,30 - Eventuale seguito argomenti non conclusi - Disegno di legge n. ... - Decreto-legge n. 4, rientro capitali detenuti all'estero (Ove approvato dalla Camera dei deputati) (Scade il 30 marzo 2014) " " " pom. h. 16,30-20 Mercoledì 26 " ant. h. 9,30-13,30 " " " pom. h. 16 Giovedì 27 marzo pom. h. 16 Interpellanze e interrogazioni</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg160">Il termine per la presentazione di emendamenti al disegno di legge n. ... (Decreto-legge n. 4, rientro capitali detenuti all'estero) sarà stabilito in relazione ai tempi di trasmissione dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg161">Ripartizione dei tempi per la discussione sulle comunicazioni del Presidente del Consiglio dei ministri in vista del Consiglio europeo di Bruxelles del 20 e 21 marzo 2014 (3 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Governo 40' Gruppi 2 ore e 30 minuti, di cui: PD 33' FI-PdL XVII 22' M5S 17' NCD 15' Misto 13' LN-Aut 11' Aut (SVP, UV, PATT, UPT) - PSI-MAIE 10' PI 10' GAL 10' SCpI 10' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg162">Ripartizione dei tempi per la discussione del disegno di legge n. ...</seg>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg163">(Decreto-legge n. 4, rientro capitali detenuti all'estero) (7 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 40' Governo 40' Votazioni 40' Gruppi 5 ore, di cui: PD 1 h 06' FI-PdL XVII 43' M5S 34' NCD 30' Misto 25' LN-Aut 22' Aut (SVP, UV, PATT, UPT) - PSI-MAIE 21' PI 20' GAL 20' SCpI 19' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg164">Passiamo quindi agli interventi di fine seduta. Data l'ora, avevo chiesto ad alcuni colleghi, che hanno accettato e che ringrazio moltissimo, di rinviare a domani; rimangono alcuni senatori che ritengono i loro interventi non rinviabili a domani, in quanto particolarmente urgenti.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla chiusura della strada statale n. 42 del Tonale e della Mendola</head>
+            <note type="speaker">DIVINA (LN-Aut)</note>
+            <u ana="#regular" who="#DivinaSergio" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u86">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg165">Signora Presidente, ho chiesto di poter svolgere oggi questa trattazione perché presenta aspetti di effettiva urgenza. Sto parlando della strada statale n. 42 del Tonale e della Mendola. La Mendola è un passo che divide le Province di Trento e di Bolzano, e da sempre, essendo a una quota di circa 1.400 metri, ha visto precipitazioni nevose, a volte anche di grande importanza. Si è verificata anche quest'anno una nevicata abbondante, ma il guaio è che, mentre prima la gestione era in capo all'ANAS, adesso è passata alle due Province autonome. Se la strada rimaneva chiusa due o tre giorni era già un'eccezione, ma ora è chiusa dal 28 febbraio, e sembra che prima del 15 marzo non verrà aperta. Là sul passo ci sono delle attività economiche che non reggono con la sola stagione estiva: ormai, infatti, si deve poter lavorare non solo per quattro o cinque mesi, ma anche i tre mesi dell'inverno. Il dato economico dell'Italia in questo momento è estremamente preoccupante: sembra che chiudano più di 400.000 imprese l'anno per difficoltà oggettive, per crisi, per il mercato, per un calo della domanda e dei consumi interni. Ma in questo caso rischiamo di far chiudere aziende sane che hanno domanda, clienti, bellezze naturali da offrire, perché le pubbliche amministrazioni (noi diciamo, con molta disattenzione, ma probabilmente è con molta noncuranza) si sono preoccupate più delle proprie responsabilità che non delle attività economiche delle famiglie che lì vivono. A questo punto, non vogliamo dare indicazioni, né all'ANAS né al Ministero delle infrastrutture, ma pensiamo che debbano essi stessi verificare se funzionava meglio la loro gestione o quella attuale in capo alla Provincia. Per risolvere il problema vi sono molteplici modalità: ci sono microcariche da sparare per far scendere la neve prima; ci sono semafori da installare che impediscano il transito nel momento in cui il manto nevoso, che deve essere monitorato, dà segnali di movimento. Il problema però non è questo. Noi chiediamo al Ministro delle infrastrutture e all'ANAS di vigilare su quello che sta accadendo e di sollecitare le due Province autonome a ripristinare il più presto possibile quella viabilità.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulle prospettive occupazionali dei lavoratori del gruppo 6 GDO Srl e per la risposta scritta ad un'interrogazione</head>
+            <note type="speaker">ORRU' (PD)</note>
+            <u ana="#regular" who="#OrruPamelaGiacomaGiovanna" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u87">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg166">Signora Presidente, colleghi, ancora una volta intervengo brevemente sulla vicenda che riguarda la restituzione del gruppo 6 GDO Srl, un'azienda della mia Regione. Voglio semplicemente dire che ho chiesto di intervenire perché a giorni si definirà la situazione per quanto riguarda il futuro di questi lavoratori. Sostanzialmente, sollecito di nuovo la risposta alla mia interrogazione 4-01685 presentata al Ministro dell'interno il 12 febbraio scorso. Chiedo inoltre di allegare il testo del mio intervento, affinché sia pubblicato in Allegato ai Resoconti della seduta odierna.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u88">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg167">La Presidenza la autorizza in tal senso e trasmetterà anche il sollecito al Governo.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sullo spread e sul rafforzamento dell'euro sul mercato valutario</head>
+            <note type="speaker">ENDRIZZI (M5S)</note>
+            <u ana="#regular" who="#EndrizziGiovanni" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u89">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg168">Signora Presidente, colleghi, sappiamo che il debito pubblico è in crescita, le risorse vengono prosciugate per coprire il costo degli interessi, fondi per le politiche sulle imprese e sui redditi - ci dicevano i partiti - non ce ne sono, così i redditi sono ancora diminuiti e i consumi interni crollati. Cosa rimane? Le piccole e medie imprese esportatrici, l'unico comparto che segnava tassi di crescita positivi: cadute loro, è il baratro. Ma dall'agosto 2012 l'euro è in rafforzamento su tutte le monete: sul dollaro ormai siamo a più 15 per cento. Per le imprese è tragica: o subire un calo degli ordinativi o contenere i prezzi a scapito del già magro guadagno. FIAT perde quote di mercato; Electrolux è al bivio. Vedete l'assurdità delle politiche di rigore, che denunciamo da anni? L'Italia si svena per onorare il debito ed il pareggio di bilancio; la sfiducia nell'unione monetaria si riduce, e si rafforza invece la fiducia e lo spread cala: ma si rafforza anche l'euro, e questo è veleno per le nostre esportazioni. Capite? Ci sveniamo per rafforzare la Germania, che da un euro forte invece si avvantaggia. I Primi Ministri si prendono meriti, ma possono davvero poco sui tassi di cambio: e i tassi di cambio sono decisivi per uscire dalla crisi. Ma allora perché maggioranze e Governi da un anno sono sordi alle nostre proposte? Parlo di quella per il reddito di cittadinanza e il taglio delle tasse e delle spese inutili. Renzi sventola dal nulla decine di miliardi, quando fino a poche settimane fa pareva non ci fossero nemmeno i soldi per approvarci il taglio dell'IRAP per le aziende sotto i cinque dipendenti; allora, o i soldi c'erano, e in questi mesi hanno abbandonato colpevolmente le imprese per consentire a Renzi questo colpetto di teatro, oppure questi miliardi sono finti. Renzi sa che mancano 14 miliardi dalla legge di stabilità del buco? Sa che dovrà spremere 50 miliardi per onorare il fiscal compact ? Conta sui 6 miliardi che potremmo forse risparmiare in un biennio per il calo dello spread ? I tassi sono volatili, basta una brutta notizia dalla Crimea o che le nostre banche falliscano lo stress test, e i suoi castelli di carte vengono giù. Peraltro l'OCSE ha appena previsto una probabile deflazione nel Sud Europa. Se l'inflazione svaluta il debito, in deflazione il debito tenderà a crescere ancor di più. Concludo: con un euro così forte le nostre imprese esportatrici perderanno ancora commesse, lo Stato vedrà cadere il gettito fiscale che ne deriva, e quelle di Renzi resteranno vane promesse.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'attività di vigilanza sugli istituti bancari</head>
+            <note type="speaker">COMAROLI (LN-Aut)</note>
+            <u ana="#regular" who="#ComaroliSilvanaAndreina" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u90">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg169">Signora Presidente, mi scusi, ma è importante che si affronti la questione questa sera, proprio per l'urgenza. Come ha accennato prima il mio collega Divina, questo schema di decreto, che praticamente è stato inviato a tutti i capi degli uffici legislativi, è importante da sottoporre per un parere vista la particolare rilevanza, perché con questa bozza si vorrebbe affidare a soggetti terzi l'attività che svolge la Banca d'Italia. La missione della Banca d'Italia è proprio vigilare gli istituti. Vorrei sottoporre a lei, Presidente, affinché si faccia carico di porle all'attenzione del Governo, le conseguenze di un simile decreto, innanzitutto proprio il pericolo, visto che poi il Parlamento non saprà mai chi sono questi soggetti terzi di cui si avvarrà la banca, che tutte le nostre informazioni particolarmente sensibili possano andare in mano a qualcuno; anche se sono soggetti al vincolo di segretezza, sappiamo che fine fanno molte volte determinate informazioni. Quindi, se possiamo evitare questo pericolo, valutiamolo attentamente prima di emanare questo decreto. Un altro tema che tutti hanno in mente è come funzionano le società di rating. Le società di rating, che sono estere e che hanno in mano molti dati sensibili, molte volte purtroppo nei loro giudizi non sono poi così vincolanti e non suscettibili magari di pressioni da qualcuno. Se la Banca d'Italia è stata istituita con questa missione - e per fortuna - non capiamo veramente la necessità che essa possa avvalersi di soggetti terzi. Signora Presidente, veramente, prenda a cuore questa situazione, perché è di particolare gravità. Non si può pensare che arrivi una qualunque società a cui si possa dire: «sì, sì, firma, mi raccomando, c'è questo segreto, non divulgarlo». Sappiamo che fine fanno, nel mondo di oggi, le informazioni: molte volte sono proprio il segreto di Pulcinella, e noi non vogliamo che succeda questo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi LN-Aut e M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u91">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg170">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per le sedute di mercoledì 12 marzo 2014</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LanzillottaLinda" xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.u92">
+               <seg xml:id="ParlaMint-IT_2014-03-11-LEG17-Sed-205.seg171">Il Senato tornerà a riunirsi domani, mercoledì 12 marzo, in due sedute pubbliche, la prima alle ore 9 e la seconda alle ore 16, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 20,39).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

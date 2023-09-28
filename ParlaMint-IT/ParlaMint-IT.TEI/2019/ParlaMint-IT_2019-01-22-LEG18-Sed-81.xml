@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 81 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 81 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 81, giorno (2019-01-22)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 81, Day (2019-01-22)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="81-upper">81 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="85" unit="speeches" xml:lang="it">85 discorsi</measure>
+            <measure quantity="85" unit="speeches" xml:lang="en">85 speeches</measure>
+            <measure quantity="7184" unit="words" xml:lang="it">7.184 parole</measure>
+            <measure quantity="7184" unit="words" xml:lang="en">7,184 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1097323</idno>
+               <date when="2019-01-22">22.01.2019</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="9"/>
+               <tagUsage gi="head" occurs="8"/>
+               <tagUsage gi="note" occurs="84"/>
+               <tagUsage gi="seg" occurs="85"/>
+               <tagUsage gi="u" occurs="38"/>
+               <tagUsage gi="vocal" occurs="5"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="30"/>
+               <tagUsage gi="desc" occurs="35"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2019-01-22">22.01.2019</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente LA RUSSA</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u1">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg1">La seduta è aperta (ore 9,31). Si dia lettura del processo verbale. CASTALDI, segretario, dà lettura del processo verbale della seduta del 17 gennaio. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u2">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u3">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg3">Ha chiesto di intervenire il presidente dell'8ᵃ Commissione permanente, senatore Coltorti, per riferire sui lavori delle Commissioni riunite 1ᵃ e 8ᵃ in merito al disegno di legge n. 989. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">COLTORTI (M5S)</note>
+            <u ana="#regular" who="#ColtortiMauro" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u4">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg4">Signor Presidente, i lavori sono proseguiti in maniera celere, ma non li abbiamo completati. Valutando la situazione, abbiamo bisogno di un altro giorno per completarli.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg5">Chiediamo, dunque, un giorno ulteriore di tempo per poter poi presentare il provvedimento all'Assemblea.</seg>
+            </u>
+            <note type="speaker">FERRARI (PD)</note>
+            <u ana="#regular" who="#FerrariAlan" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u5">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg6">Signor Presidente, non vorrei che il clima di buon senso, e soprattutto di rispetto reciproco, che si sta tenendo in Commissione ci faccia perdere di vista il fatto che ci troviamo di fronte a una richiesta, l'ennesima, di rinvio dei lavori. Come si sa, alla fine dell'anno precedente, dopo le gravi violazioni dell'articolo 72 della Costituzione nell' iter di approvazione della legge di bilancio, il Gruppo del Partito Democratico ha sollevato il conflitto di attribuzione presso la Corte costituzionale. Non vorrei che il fatto che sia passato già un mese non ci consenta più di avere chiaro perché lo abbiamo fatto. Siamo convinti che il modo di lavorare che stanno seguendo la maggioranza (Lega e 5 Stelle) e il Governo in questo Parlamento non consenta alle singole Commissioni di lavorare in modo adeguato né di rispettare le prerogative di tutti i parlamentari. Sotto questo profilo, il richiamo della Corte costituzionale, a seguito del nostro ricorso, è stato chiaro. Non possiamo fare a meno di sottolineare, anche su questo decreto-legge, l'inadeguatezza del modo di lavorare di questo ramo del Parlamento. La maggioranza ha voluto forzare e programmare un calendario che, come in tutte le altre occasioni, non è stata in grado di rispettare. Tra l'altro, ha gravato di un'ulteriore eterogeneità, in modo assolutamente scomposto, un decreto-legge che teoricamente dovrebbe presentare una certa omogeneità di materia. Poiché la maggioranza proprio non riesce a non adottare tale modo di lavorare, non si arriva a sciogliere alcun nodo politico nell' iter delle Commissioni: e così, si replica esattamente la situazione per la quale abbiamo sollevato il conflitto di attribuzione. La Commissione bilancio e quelle competenti - in questo caso, affari costituzionali e lavori pubblici - sono di fatto inutili, perché non ci sono le condizioni per sviluppare un ragionamento di merito che vada nella direzione di sciogliere un dubbio politico, che - con ritardo e confusione - viene sciolto esclusivamente dal Governo. Peccato che, per l'ennesima volta, questo accada dopo che sia stato chiesto alla Conferenza dei Capigruppo e alla Presidenza del Senato di rivedere il calendario dei lavori dell'Assemblea. Dobbiamo necessariamente darci una regolata: mi auguro che ci saranno le condizioni per la Presidenza di prendere in esame una volta per tutte il fatto che non è questo il modo in cui può lavorare l'Assemblea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">VITALI (FI-BP)</note>
+            <u ana="#regular" who="#VitaliLuigi" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg7">Signor Presidente, vorrei partire da una premessa: ancora una volta, ci troviamo di fronte a un provvedimento che arriva all'esame del Parlamento in maniera confusionaria e che parte con l'etichetta di semplificazione, ma che alla fine arriverà probabilmente con quella di semiomnibus, e questa è una questione di merito. Quanto alla procedura, dobbiamo riconoscere alla maggioranza e al Governo un cambio di passo. In Commissione stiamo lavorando in maniera costante e continuativa. Abbiamo avuto l'impegno, da parte dei Presidenti delle due Commissioni di merito, del Capogruppo del MoVimento 5 Stelle e di tutta la Commissione che, a differenza di quanto accaduto in occasione dell'esame della legge di stabilità, il provvedimento sarà licenziato dalla Commissione dopo aver svolto la discussione su tutti gli emendamenti. Già questo è un grande passo in avanti del quale prendiamo atto. Al di là del merito, sul quale sicuramente ci sono molte cose da dire, e le diremo nel corso dell'esame del provvedimento, dobbiamo prendere atto con onestà intellettuale che quantomeno da questo momento comincia un'inversione di tendenza, con un maggiore rispetto delle funzioni parlamentari e quindi anche di quelle che devono svolgere i rappresentanti dell'opposizione. Con i Presidenti delle Commissioni avevamo concordato, anche come opposizione, che, apprezzate le circostanze, sarebbe stato opportuno far slittare la discussione in Aula per riempire di contenuti quella in Commissione e dare alla fine il mandato al relatore.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg8">Signor Presidente, in sede di Conferenza dei Capigruppo avremo la possibilità di riprogrammare meglio i nostri lavori. Vorrei ricordare qui, per farne partecipe l'Assemblea, che anche ieri sera abbiamo chiesto ai relatori e ai Presidenti il massimo delle garanzie perché si possa continuare a svolgere in modo approfondito il lavoro in Commissione e un cambio di passo e di metodo profondo rispetto a quanto accaduto durante l'esame della legge di bilancio. I nodi politici li conosciamo tutti, ci sono. Per non contribuire ad allungare ancora il dibattito, concludo augurandomi che non riguardino esclusivamente la maggioranza o il rapporto tra i due alleati di Governo ma che, trattandosi di questioni che riguardano tutti, anche su di essi oggi ci sia la possibilità di fare un approfondimento e di dare un contributo da parte delle Commissioni. Solo in questo modo, infatti, si ripristina il regolare andamento dei lavori e la centralità delle Commissioni del Parlamento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u8">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg9">Onorevoli colleghi, non essendoci altri interventi e preso atto di quanto riferito dal presidente Coltorti, non possiamo che sospendere la seduta.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg10">Avverto che la Conferenza dei Capigruppo si riunirà alle ore 10, dopodiché vi informeremo degli ulteriori sviluppi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg11">La seduta è sospesa. (La seduta, sospesa alle ore 9,42, è ripresa alle ore 11,09).</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg12">La Conferenza dei Capigruppo ha apportato modifiche al calendario della settimana corrente in relazione all' iter del decreto-legge semplificazioni. La discussione in Assemblea del provvedimento avrà inizio nella seduta di domani, a partire dalle ore 15, per proseguire fino alla sua conclusione nelle sedute di giovedì 24 e, ove necessario, venerdì 25. Le sedute non prevedono orario di chiusura. La relazione del Ministro della giustizia sull'amministrazione della giustizia sarà anticipata alle ore 9,30 di domani, secondo i tempi già definiti. Il sindacato ispettivo e il question time non avranno luogo nella settimana corrente.</seg>
+            </u>
+            <note type="president">Presidenza del presidente ALBERTI CASELLATI</note>
+            <note type="time">11,09</note>
+         </div>
+         <div type="debateSection">
+            <head>Calendario dei lavori dell'Assemblea, variazioni Discussione e reiezione di proposte di modifica</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u9">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg13">La Conferenza dei Presidenti dei Gruppi parlamentari, riunitasi oggi, con la presenza dei Vice Presidenti del Senato e con l'intervento del rappresentante del Governo, ha adottato - ai sensi dell'articolo 55 del Regolamento - modifiche al calendario corrente:</seg>
+               <note type="summary">Mercoledì 23 gennaio h. 9,30 - Relazione del Ministro della giustizia sull'amministrazione della giustizia - Disegno di legge n. 989 - Decreto-legge n. 135, Semplificazioni (scade il 12 febbraio 2019) (dalle ore 15 di mercoledì 23) Giovedì 24 " h. 9,30 Venerdì 25 " h. 9,30 (se necessaria)</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg14">La settimana dal 29 al 31 gennaio sarà riservata ai lavori delle Commissioni.</seg>
+               <note type="summary">Martedì 5 febbraio h. 9,30-20 - Disegni di legge costituzionale n. 214 e connessi, Riduzione numero parlamentari (prima deliberazione del Senato) (voto finale con la presenza del numero legale) - Disegno di legge n. 881, Applicabilità delle leggi elettorali (ove concluso dalla Commissione) - Disegni di legge n. 897 e connessi - Videosorveglianza (approvato dalla Camera dei deputati) (ove conclusi dalla Commissione) - Disegni di legge nn. 257 e 702 - Ratifica convenzione di Faro sul patrimonio culturale (ove conclusi dalla Commissione) - Sindacato ispettivo - Interrogazioni a risposta immediata, ai sensi dell'articolo 151- bis del Regolamento (giovedì 7, ore 15) Mercoledì 6 " h. 9,30-20 Giovedì 7 " h. 9,30</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg15">Gli emendamenti ai disegni di legge n. 214 e connessi (Riduzione numero parlamentari) dovranno essere presentati entro le ore 13 di giovedì 31 gennaio 2019.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg16">I termini per la presentazione degli emendamenti ai disegni di legge n. 881 (Applicabilità delle leggi elettorali) e nn. 897 e connessi (Videosorveglianza) saranno stabiliti in relazione ai lavori della Commissione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg17">Relazione del Ministro della giustizia sull'amministrazione della giustizia (3 ore e 30 minuti, incluse dichiarazioni di voto)</seg>
+               <note type="summary">Governo 30' Gruppi 3 ore, di cui: M5S 44' FI-BP 30' L-SP-PSd'Az 29' PD 28' FdI 18' Misto 16' Aut (SVP-PATT, UV) 15' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg18">Ripartizione dei tempi per la discussione del disegno di legge n. 989 (Decreto-legge n. 135, Semplificazioni) (11 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori di maggioranza 45' Relatori di minoranza 45' Governo 30' Votazioni 1 h. Gruppi 8 ore, di cui: M5S 1 h. 30' FI-BP 1 h. 40' L-SP-PSd'Az 1 h. PD 1 h. 34' FdI 52' Misto 48' Aut (SVP-PATT, UV) 40' Dissenzienti 5'</note>
+            </u>
+            <note type="speaker">BERNINI (FI-BP)</note>
+            <u ana="#regular" who="#BerniniAnnaMaria" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg19">Signor Presidente, vorrei fare alcune considerazioni sulla Conferenza dei Capigruppo, condividendo con i colleghi in particolare il motivo per il quale siamo usciti non con un verdetto unanime, bensì a maggioranza. Anche oggi il collega Vitali ha sottolineato alcuni aspetti del lavoro di Commissione sul decreto-legge semplificazioni, che rischia di diventare uno dei provvedimenti più complessi ed eterogenei della storia di questa legislatura. Per noi non c'è stato alcun intento e non abbiamo manifestato alcun atteggiamento ostruzionistico. Con i nostri emendamenti abbiamo cercato di portare le nostre posizioni all'attenzione della Commissione e, in maniera assolutamente collaborativa e naturalmente nel rispetto del nostro ruolo di opposizione, di lavorare sugli emendamenti della maggioranza. Come sempre, il problema non siamo noi: il problema è la maggioranza, la quale non riesce ad accordarsi su alcuni aspetti dei suoi temi portanti che - come già detto - hanno ampiamente allargato il perimetro di applicazione del decreto-legge semplificazioni, rendendolo di difficilissima applicazione ed è proprio su questi temi che abbiamo perso tempo. È semplice e molto complicato anche il modo con cui il provvedimento è stato portato all'attenzione della Commissione e dell'Assemblea. Ricordo che lo stimatissimo collega Patuanelli ci ha chiesto una sorta di patto d'onore per poter concludere l'esame del provvedimento e passarlo alla Camera dei deputati entro il pomeriggio di mercoledì. Noi abbiamo detto di sì, comprendendo l'esigenza della maggioranza, ma sempre nella garanzia del dibattito tra opposizione e maggioranza. Noi siamo rimasti fedeli a questo patto e lo abbiamo rispettato per quanto nella nostra disponibilità. Il problema rimane sempre la difficoltà, lo stato confusionale, la profonda difficoltà di interazione tra le due componenti della maggioranza. Di questo, però, non possiamo essere accusati noi e non possiamo nemmeno ogni settimana ritrovarci qui a dire che alla fine ne subiamo le conseguenze, perché il calendario di quest'Assemblea cambia. Per quanto riguarda noi, nulla quaestio nell'invertire l'ordine dei fattori sulla presenza del Ministro della giustizia alla Camera e al Senato e, quindi, per noi va bene se svolgerà la sua relazione prima al Senato e poi alla Camera. Va bene cominciare a esaminare il decreto-legge semplificazioni in tutta la sua complessità domani pomeriggio; va bene utilizzare tutta la giornata di giovedì per lavorare sul decreto-legge semplificazioni. Il collega Marcucci - lo dirà poi lui stesso - ha posto alla Conferenza dei Capigruppo un'altra istanza da portare all'attenzione di quest'Assemblea. Prima che il ministro Di Maio dichiari guerra alla Francia</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD),</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg20">sarebbe opportuno ascoltare il ministro Moavero per sapere che intenzioni ha o se ha un parere, una posizione omologa, lievemente diversa o totalmente dissonante rispetto alle dichiarazioni rese dal ministro Di Maio.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg21">Tutto questo però, visto che la maggioranza ha mancato il suo patto nei confronti delle opposizioni, rende molto difficile combinare il calendario. Capite quante conseguenze ha la continua rottura del patto di lealtà parlamentare della maggioranza nei confronti delle opposizioni: ogni volta deve cambiare qualcosa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg22">Signor Presidente, lei ci ha proposto una seduta nella giornata di venerdì, naturalmente compatibilmente con la disponibilità del ministro Moavero, per capire che ne sarà noi e dei nostri rapporti con la Francia. Su questo siamo d'accordo, ma, signor Presidente, vogliamo - e con questo concludo e chiedo ai colleghi ancora un attimo di pazienza - che finalmente si applichi il Regolamento del Senato come è stato modificato di comune accordo la scorsa legislatura, creando un'alternanza operativa tra il lavoro dell'Assemblea e quello delle Commissioni, cosa che non è ancora avvenuta.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg23">Chiediamo quindi che sia confermato il calendario della prossima settimana, che vede lavorare solo le Commissioni, che non ci siano contaminazioni di sorta e chiediamo con forza alle componenti della maggioranza che nulla cambi di quello che è stato per l'ennesima volta rinegoziato tra la maggioranza e le opposizioni stesse.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg24">Ribadiamo naturalmente la nostra richiesta di calendarizzazione delle mozioni. Mi riferisco alla mozione di cui ho parlato la scorsa settimana sul monito del Presidente della Repubblica e sulla conseguente deliberazione della Corte costituzionale, che apre nuovi spaccati sul ruolo di tutti noi; alla mozione sull'autismo e sulle gravi disabilità; alla mozione sul Comitato per le questioni degli italiani all'estero e, naturalmente, per ultima ma non meno importante, alla mozione TAV.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ALFIERI (PD)</note>
+            <u ana="#regular" who="#AlfieriAlessandro" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u11">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg25">Signor Presidente, esprimo la contrarietà del Gruppo Partito Democratico al calendario così come presentato senza la possibilità di avere in Aula il ministro degli affari esteri Moavero alla luce delle dichiarazioni gravi, inaccettabili e reiterate del vice presidente del Consiglio Di Maio nei confronti di un partner storico dell'Italia all'interno dell'Unione europea e, cioè, della Francia, alle quali questa mattina sono succedute quelle dell'altro vice presidente del Consiglio Salvini. E dico questo perché dichiarazioni ad alzo zero di tal genere fanno seguito a dichiarazioni rese nei giorni precedenti a favore dei gilet gialli proprio quando un mezzo sfondava addirittura il portone di un Ministero. Mi chiedo, se in Italia in questo momento sfondassero il portone del Ministero dello sviluppo economico, come si sentirebbe il ministro Di Maio e vicepresidente del Consiglio se Macron simpatizzasse con gli autori di un tale gesto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg26">Ci sarà certo occasione di approfondire questi temi quando il ministro Moavero ci farà la cortesia di venire in Aula, ma è evidente che stiamo assistendo a un cambio radicale della politica estera del nostro Paese, che tradisce di fatto i nostri interessi nazionali. Quando c'è da discutere in Europa delle modifiche al nuovo piano pluriennale per assegnare le risorse, il quale vede dare molti meno soldi nell'ambito della politica agricola comune agli agricoltori italiani e abbiamo la possibilità di recuperare solo alleandoci con la Francia, non si tratta di interesse nazionale? Ci inimichiamo il principale partner in Europa che ci può aiutare a recuperare risorse? E lo stesso vale per l'allentamento dell' austerity. Chi in questo momento in Europa ha i nostri stessi interessi nell'allentare le regole europee? Chi è tra i commissari quello che ha guardato con più favore a non aprire la procedura di infrazione nei confronti dell'Italia se non il commissario francese?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e della senatrice Unterberger</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg27">In generale, sulle missioni dell'Unione europea, laddove c'è da fermare la tratta nei Paesi di transito abbiamo interesse a collaborare con la Francia. I Paesi cui si riferiscono i novelli statisti dei 5 Stelle sono di transito. Andate a vedere bene da dove vengono i flussi migratori in Africa: non da Paesi dove c'era il colonialismo francese, ma da Paesi come la Nigeria, che - ricordiamo al vice ministro Di Maio - non era un possedimento coloniale francese. Certo, c'è anche competizione nel Continente africano con noi, ma abbiamo interesse a cooperare sui Paesi della tratta da cui arrivano i trafficanti come il Niger, confermando la missione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg28">Di tutti questi temi vogliamo discutere con il ministro Moavero ed è il motivo per cui non siamo d'accordo con il calendario appena annunciato, perché c'è un radicale cambiamento della nostra politica estera e si corre il rischio che crescano le tensioni. Per questo per noi è inaccettabile ed è inaccettabile che non se ne possa discutere in Assemblea. Per tale motivo voteremo contro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Airola.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">LA RUSSA (FdI)</note>
+            <u ana="#regular" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg29">Signor Presidente, Fratelli d'Italia ha aderito convintamente al programma dei lavori dell'Aula per i prossimi giorni, innanzitutto perché non si scandalizza della previsione di un giorno in più di discussione in Commissione su un decreto-legge, che, per la verità, il Governo ha riempito di troppi e nuovi argomenti. Volendo si può fare la polemica. Abbiamo, però, considerato che, a differenza di quanto avvenuto in occasione della discussione sulla legge di bilancio, stavolta in Commissione tutti stanno lavorando in un clima assolutamente sereno. Quindi, meglio un giorno in più di dibattito che l'assenza di dibattito, come colpevolmente il Governo aveva imposto al Parlamento in occasione della legge di bilancio. Per questo motivo siamo favorevoli al programma dei lavori di Assemblea che il Presidente ci ha proposto nella Conferenza dei Capigruppo. Siamo altresì estremamente favorevoli alla richiesta di ascoltare il ministro degli affari esteri Moavero. E credo sia favorevole, senza ripensamenti, anche il Governo. Probabilmente il Partito Democratico non si rende conto che si stanno fregando le mani di fronte alla richiesta di spiegare la decisa presa di posizione contro certi atteggiamenti neocolonialisti della Francia. Voglio evidenziare - non è una gara alla primogenitura, ma basta guardare sul web - che Fratelli d'Italia per primo, insistentemente, con Giorgia Meloni, sin dalla nostra manifestazione di settembre «Atreju», ha cercato di far entrare il tema nel dibattito politico. Non possiamo che essere contenti quando le nostre tesi appaiono sulle labbra dei nostri avversari politici, quali sono i componenti del Governo di cui non facciamo parte. Mi rivolgo agli amici del PD: capisco la vostra strenua difesa di qualunque cosa faccia la Francia. Avete difeso a oltranza la dottrina Mitterrand, quando impediva a Battisti di essere estradato in Italia</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg30">, che ha ancora un effetto di copertura di numerosi terroristi presenti in Francia. Avete difeso - e non lo dimentico - i sorrisini di Sarkozy con la Merkel, quando si prendeva in giro l'Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e FI-BP, e delle senatrici Bottici e Casolati.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg31">Non vi siete peritati, allora, di chiedere come facessero a essere così avversi all'Italia quelli che - come avete appena detto - dovrebbero essere i suoi principali alleati.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice De Petris</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg32">E anche Macron è stato salutato come un nuovo statista meraviglioso, cosa che non è condivisa dai gilet gialli che lo stanno sbeffeggiando in Francia. Capisco ed è legittima la posizione della sinistra in difesa della Francia; meno legittimo è lo stravolgimento di una posizione politica, per noi assolutamente negativa, che vede da sempre la Francia non concorrere alla possibilità di fare dell'immigrazione un evento in qualche modo gestibile. Siamo assolutamente convinti che l'immigrazione non sia bloccabile, ma debba essere gestita. La Francia ha contribuito a rendere all'Italia ingestibile o difficilmente gestibile la questione dell'immigrazione, per quanto attiene alle nostre frontiere, e ha altresì contribuito a rendere l'Africa un luogo dal quale è più facile scappare piuttosto che cercare di rimanere e costruire qualcosa. Per questo motivo ascolteremo con piacere quanto il ministro Moavero, riprendendo le tesi di Fratelli d'Italia e Georgia Meloni, ha intenzione di dire e di fare su detta questione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e FI-BP.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg33">Signor Presidente, prendiamo atto dello spostamento dell'esame in Assemblea del decreto-legge sulla semplificazione, di cui non è certo responsabilità delle opposizioni e lo voglio ribadire in questa sede; anzi, in Commissione le opposizioni - certamente per quanto ci riguarda, ma anche per le altre - hanno lavorato e hanno dato tutta la loro disponibilità e questo per un motivo semplice, Presidente. Riscontriamo il problema di tentare di restituire centralità al lavoro del Parlamento e di riportare sul binario corretto il lavoro delle Commissioni e anche dei singoli parlamentari. Vi è un problema che vorrei porre in questa sede e che forse è bene che l'Assemblea cominci ad affrontare. Mi riferisco al fatto che alla fine i decreti - e questo decreto-legge semplificazioni ne è un esempio lampante - sono tutto meno che omogenei. Ci sarebbe quindi molto da dire sulla loro costituzionalità, perché partono disomogenei e poi, man mano, si riempiono, come accaduto per il provvedimento in esame, di una serie di contenuti: si apre un problema e viene inserito nel primo decreto che passa. In particolare, il decreto-legge semplificazioni è diventato un iperomnibus che si è appesantito sempre di più. Questo è un problema, Presidente e non so quando arriverà il momento in cui si tornerà al rispetto anche dei vari pronunciamenti della Corte costituzionale circa l'omogeneità dei decreti-legge che lei, Presidente, conosce perfettamente. Di qui nascono molti problemi e a questo dobbiamo aggiungere le questioni e i nodi politici che la maggioranza ha difficoltà a sciogliere oppure che scioglie in corsa. Siamo arrivati così a questo punto. Per quanto ci riguarda, noi non vogliamo essere spettatori. L'ho detto prima in Commissione e lo ribadisco ora: vogliamo discutere i nodi che ci sono e che riguardano questioni come quelle delle trivelle o dell'Ires, questioni che non devono essere un fatto che riguarda solo e unicamente la maggioranza, ma sulle quali la discussione deve essere piena e dobbiamo essere partecipi all'interno della Commissione, ognuno con le proprie posizioni. Per quanto riguarda la questione del calendario, Presidente, doveva essere naturale e normale la richiesta di un'informativa da parte del ministro degli affari esteri Moavero Milanesi e doveva essere accolta immediatamente, perché ci stiamo trovando, in politica estera, di fronte una specie di avventurismo spinto, della maggioranza, in politica estera. Mentre noi facciamo questo, l'asse franco-tedesco - per essere chiari - si sta ampiamente consolidando, visto che hanno appena sottoscritto un accordo economico ad Aquisgrana. Dovremmo forse concentrarci su questo, su ciò che significa o ha significato nella gestione dell'Unione europea. Il punto però è che davanti alle difficoltà, ancora una volta, l'avventurismo è scelto, è un'operazione di distrazione di massa: nel momento in cui si è verificata l'ennesima strage nel Mediterraneo, il MoVimento 5 Stelle e il Vice Premier pensano di reindirizzare tutta la discussione accusando la Francia. E al presidente La Russa vorrei ricordare che sono gli stessi che fino a poco tempo fa volevano cercare di fare un'alleanza con Macron, non è certamente da questa parte politica che vi era simpatia nei confronti di Macron. Abbiamo necessità che il Parlamento discuta e sia informato di ciò che sta accadendo. Siamo convinti che si tratti di un'operazione del tutto strumentale, sempre per spostare l'attenzione, ma avventurista e pericolosa, Presidente. Magari si volesse davvero indagare fino in fondo, in quest'Aula, come sarebbe ora, le cause dell'immigrazione e i dati veri di quello che succede in Africa. Lo stiamo chiedendo da molto tempo, per non continuare con propagande pericolose e false; vorremmo i dati veri, i numeri e gli spostamenti che hanno coinvolto l'Africa. Tra l'altro - e torno a ripetere che sono operazioni di distrazione di massa - mentre noi stiamo parlando, stanno smantellando il secondo centro per rifugiati, che si trova qui alle porte di Roma, a Castelnuovo di Porto, senza avvertire i sindaci e senza conoscere quale sia la destinazione di tutte le persone che si trovano là dentro. Quindi, si continua con una gestione che è assolutamente, non solo irrazionale, ma disumana e nel momento di difficoltà, dopo quella tragedia, invece di capire che la questione della priorità della salvezza della vita umana è fondamentale, perché questo ci fa essere umani, si sceglie, da parte del Vice Premier, di fare un'operazione di distrazione e di indirizzare tutto verso la Francia. Questa è la questione che, francamente, troviamo insopportabile. Credo quindi sia assolutamente necessario che quest'Aula abbia un'informativa su quello che sta accadendo e, oltre all'informativa, dovrebbe esserci anche una chiara presa di posizione da parte del Senato stesso. Pertanto, sono favorevole ad inserire tale informativa nella giornata di venerdì. Visto che la settimana prossima sarà dedicata al lavoro delle Commissioni, mi sembra che venerdì sia la data migliore.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BAGNAI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BagnaiAlberto" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u14">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg34">Signor Presidente, intervengo per sottolineare che da parte del Gruppo della Lega non vi è, naturalmente, alcuna contrarietà a convocare in Aula il ministro Moavero Milanesi e ad ascoltarlo in merito alle vicende che sono state evocate da chi mi ha preceduto. L'unica osservazione è che vorremmo evitare che ciò interferisse ulteriormente con l'ordine dei lavori in merito al decreto semplificazioni. C'è anche da aggiungere qualche considerazione. Secondo me ha perfettamente ragione la collega De Petris quando segnala che, forse, più che sui temi che sono finiti, per certi motivi, sulle prime pagine dei giornali e su cui comunque vorrei aggiungere qualche piccolo commento, sarebbe interessante sapere qual è la posizione del Governo - e siamo interessati a sollecitarla - sul tema del nuovo trattato franco-tedesco e, più in generale, sull'atteggiamento dei nostri cugini francesi e dei nostri cugini tedeschi riguardo all'Europa. L'Europa dovrebbe essere un progetto multilaterale ma, in realtà, si articola sempre intorno a questo asse franco-tedesco e attorno a quella che Martin Feldstein, un eminente economista americano, alla fine degli anni Novanta aveva in qualche modo stigmatizzato come la contraddizione fra l'aspirazione francese all'uguaglianza e il desiderio tedesco all'egemonia. Ecco, queste dinamiche continuiamo a vederle in opera e, ad avviso di chi parla, ma con tutta umiltà, voglio segnalare che mi sembrano un po' disfunzionali rispetto ad un ordinato sviluppo del progetto europeo. Esse sono altresì alla base di alcune tensioni che emergono. Io apprezzo molto che, finalmente, il commissario Moscovici abbia riconosciuto, ieri, che le provocazioni squalificano chi le fa. Credo si rivolgesse a se stesso, a quando, il 13 dicembre dello scorso anno, definì la situazione politica europea come caratterizzata dall'avvento di tanti piccoli Mussolini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg35">Reagì il vice premier Salvini e fece bene, perché questo spettro del fascismo, evocato in tutte le possibili salse, non contribuiva certo a rasserenare il clima. Quindi, si può discutere dei toni con i quali i problemi vengono sollevati e si può discutere sulla tempistica con i quali vengono sollevati, ma non mi sembra che questo Governo sia in condizioni di poter accettare lezioni di stile da una Commissione europea che ha già dato prova di essere un pochino incontinente nelle sue critiche.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg36">Voglio anche ricordare un altro punto. Nel 1967 io avevo cinque anni. Questa informazione non interessa, se non perché mi permette di dire che, però, in quell'anno Omar Bongo divenne il presidente del Gabon e lo restò fino al 2009: per quarantadue anni, dieci anni in più del pontificato di Pio IX, che è uno dei più lunghi della storia. Omar Bongo venne democraticamente eletto presidente del Gabon per quarantadue anni! Il Gabon è parte della Comunità economica e monetaria dell'Africa centrale, la CEMAC, che è una delle due istituzioni in cui si articola la zona del cosiddetto Franco CFA.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg37">Quando parliamo dei temi sollevati dal vice premier Di Maio, parliamo di una realtà che qui in Italia si ignora e che ovviamente non è il caso di affrontare in tono polemico o aggressivo, ma che è strettamente legata alle sorti dell'Eurozona. Il motivo è semplice: esattamente come il franco CFA (franco delle colonie francesi d'Africa) era legato al franco francese, oggi il franco CFA (che è diventato il franco della Comunità finanziaria africana, ma cambiando il nome, come Shakespeare ci ha insegnato, una rosa ha lo stesso profumo) è legato all'euro. Di fatto, quindi, vediamo agganciato a noi e alla nostra economia monetaria un pezzo enorme di Africa sub sahariana e al riguardo occorrerebbe articolare alcune riflessioni. Anche su questo punto sarebbe interessante sentire le riflessioni del ministro Moavero e ci associamo senz'altro alla richiesta di chi ha espresso il desiderio di sentirlo, purché però questo non interferisca con l'ordine dei lavori di un procedimento complesso e delicato, che ha avuto un iter sufficientemente articolato e sul quale sarebbe giusto che adesso l'Assemblea si esprimesse. Questa è la posizione del mio Gruppo: vi ringrazio per il tempo che mi avete concesso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u15">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg38">Vorrei salutare a nome dell'Assemblea i partecipanti al Master in Parlamento e politiche pubbliche dell'università LUISS di Roma, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ripresa della discussione sul calendario dei lavori dell'Assemblea</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u16">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg39">Passiamo alla votazione delle proposte di modifica del calendario.</seg>
+            </u>
+            <note type="speaker">FERRARI (PD)</note>
+            <u ana="#regular" who="#FerrariAlan" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u17">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">AIROLA (M5S)</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u18">
+               <note>Domando di parlare, signor Presidente! PRESIDENTE. Facciamo svolgere la dichiarazione di voto al senatore Ferrari.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg40">No, signor Presidente, vorrei parlare sull'ordine dei lavori prima del collega, posso? PRESIDENTE. Sull'ordine dei lavori con riferimento a cosa? AIROLA (M5S). Desidero intervenire con riferimento alla dichiarazione di voto sul calendario. PRESIDENTE. Ne ha facoltà. AIROLA (M5S). Signor Presidente, da quando si fanno dichiarazioni di voto sul calendario? Si fanno proposte di variazione al calendario, che poi si votano: questo è quello che abbiamo sempre fatto; non si fanno dichiarazioni di voto sul calendario, ma proposte.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u19">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg41">Senatore Airola, la proposta è stata formulata nel momento in cui è stata fatta una dichiarazione sul calendario: c'è quindi il diritto, da parte dei senatori che lo richiedano, di svolgere la dichiarazione di voto sulla proposta che è già stata prospettata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg42">Ha quindi facoltà di parlare il senatore Ferrari, per svolgere la dichiarazione di voto sul calendario.</seg>
+            </u>
+            <note type="speaker">FERRARI (PD)</note>
+            <u ana="#regular" who="#FerrariAlan" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u20">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg43">Signor Presidente, vorrei tendere la mano al senatore Bagnai, perché lo abbiamo visto estremamente coinvolto nella discussione, che è esattamente quella che vorremmo fare noi alla presenza del ministro Moavero.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg44">Nonostante i punti di vista siano diversi, ci hanno davvero rassicurato l'interesse, la passione e soprattutto l'apertura della Lega rispetto all'urgenza di questo dibattito.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg45">A tale proposito, oltre che per dichiarare il nostro favore all'inserimento di questo punto nel calendario dei lavori, intervengo anche per precisare che chiediamo che ciò avvenga al termine dei lavori sul decreto-legge di semplificazione (che ragionevolmente avrà luogo nella tarda serata di giovedì o nella giornata di venerdì, nella quale peraltro è prevista seduta, ove non conclusi i lavori). In tal modo, nel pieno rispetto del miglior svolgimento dei lavori possibile, si potrà completare l'esame di detto decreto.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg46">Preciso quindi che la nostra richiesta è di inserire in calendario questo dibattito - che sta raccogliendo l'interesse di più parti, compresa la Lega - al termine dei lavori sul decreto-legge di semplificazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PATUANELLI (M5S)</note>
+            <u ana="#regular" who="#PatuanelliStefano" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u21">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg47">Signor Presidente, a seguito di un breve confronto con il presidente Romeo, parlo a nome dell'intera maggioranza: siamo a disposizione per sentire l'informativa del ministro Moavero, ma non in questa settimana, bensì nella successiva.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u22">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg48">C'è una richiesta di informativa del ministro Moavero: alcuni l'hanno posta in maniera generica, nel senso che non hanno indicato quando dovrebbe avvenire.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg49">Propongo quindi di mettere ai voti, per alzata di mano, la richiesta di informativa del ministro Moavero che dovrebbe tenersi questa settimana. Qualora il voto dell'Assemblea fosse favorevole, porrò in votazione il quando. Mi sembra, infatti, che la senatrice De Petris abbia fatto genericamente una richiesta ma non abbia indicato il quando, la senatrice Bernini abbia chiesto che l'informativa si tenga venerdì mattina mentre il Partito Democratico abbia avanzato la richiesta che l'informativa si tenga comunque al termine dei lavori, quindi giovedì sera o venerdì.</seg>
+            </u>
+            <note type="speaker">BERNINI (FI-BP)</note>
+            <u ana="#regular" who="#BerniniAnnaMaria" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u23">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg50">Signor Presidente, in un'ottica di collaborazione, posso aggiornare la mia richiesta alla settimana prossima, per evitare che ci siano distonie. Se esiste una disponibilità per la settimana successiva, posso rimandare la mia richiesta.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u24">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg51">Senatrice Bernini, la settimana prossima, però, sarebbe destinata al lavoro delle Commissioni. La settimana successiva di Aula è quella del cinque di febbraio. Lei ritiene che vada bene attendere fino al cinque di febbraio?</seg>
+            </u>
+            <note type="speaker">BERNINI (FI-BP)</note>
+            <u ana="#regular" who="#BerniniAnnaMaria" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u25">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg52">Mi scuso con i colleghi ma se i tempi sono così dilatati, preferisco mantenere la mia richiesta per il venerdì mattina di questa settimana, se vogliamo mantenere il criterio dell'alternanza Aula-Commissione.</seg>
+            </u>
+            <note type="speaker">LA RUSSA (FdI)</note>
+            <u ana="#regular" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg53">Signor Presidente, le chiederei intanto di mettere in votazione l'intenzione dell'Aula di ascoltare il ministro Moavero e successivamente il quando, perché mi pare che non vi sia chiarezza. Ad esempio, io credo che anche durante la settimana dedicata alle Commissioni si possa ritagliare uno spazio per ascoltare, per cui le chiederei che la prima votazione, se possibile, riguardi l'interesse dell'Assemblea, nei tempi che sarà possibile definire, di ascoltare al più presto il ministro Moavero, perché poi ci vuole la disponibilità del ministro. (Brusìo).</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u27">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg54">Io devo porre in votazione una richiesta specifica e la richiesta era per questa settimana di lavori d'Aula, che possono terminare giovedì sera o venerdì mattina perché abbiamo messo nel calendario, ove sia necessario proseguire i lavori, la seduta di venerdì e quindi l'informativa dovrebbe avvenire comunque al termine dall'esame del decreto semplificazioni.</seg>
+            </u>
+            <note type="speaker">LA RUSSA (FdI)</note>
+            <u ana="#regular" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u28">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg55">Valuti lei quale sia l'ordine che devono seguire le votazioni. Le dico che Fratelli d'Italia richiede la presenza del ministro Moavero nei tempi che potranno essere concordati dalla Presidenza con il Ministro interessato, perché noi non possiamo decidere che sia venerdì senza sapere nemmeno se il Ministro degli esteri sarà in Italia o all'estero.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg56">PRESIDENTE. In definitiva è quello che diceva il senatore Bagnai.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg57">Deciderà lei cosa mettere in votazione. Fratelli d'Italia chiede che si voti comunque, prima o dopo, l'interesse o no dell'Assemblea ad ottenere la presenza del ministro Moavero, nei tempi che verranno concordati dal Presidente con il Ministro interessato.</seg>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u29">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg58">Signor Presidente, vorrei confermare quello che, di fatto, lei ha già esplicitato. Anche in seguito alla discussione che c'è stata in sede di Capigruppo, noi chiediamo di mettere in votazione una richiesta esplicita, definita e molto semplice e cioè che in questa settimana, considerate le dichiarazioni del vice presidente Di Maio, considerate le dichiarazioni di questa mattina del vice presidente Salvini e, ovviamente, visto che, a questo punto bisogna prendere atto di una modifica della politica estera del nostro Paese, il Ministro degli affari esteri venga a riferire in Parlamento, non specifico al Senato, con urgenza. Questo, rispettando gli impegni che abbiamo preso con la maggioranza sul decreto che stiamo discutendo in Commissione, quindi a seguire, il che significa o giovedì sera o venerdì. Per semplicità di votazione noi proponiamo venerdì, in modo che il Ministro, nell'arco della giornata, possa dirci se e quando vorrà venire. Ovviamente il Parlamento, per il Governo, non è qualcosa di vario ed eventuale, ma dovrebbe essere una priorità, in particolare su questioni così rilevanti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg59">PRESIDENTE. Anche lei, senatrice De Petris, è d'accordo su venerdì? DE PETRIS (Misto-LeU). Sì, Presidente.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u30">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg60">Mi pare che a questo punto la richiesta di informativa si sia maggiormente dettagliata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg61">Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta ad inserire nella mattina di venerdì di questa settimana l'informativa del ministro degli affari esteri e della cooperazione internazionale, Enzo Moavero Milanesi, avanzata dai senatori Bernini, De Petris e Ferrari.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg62">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg63">Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta ad inserire la discussione di mozioni nella settimana dal 5 al 7 febbraio, avanzata dalla senatrice Bernini.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg64">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg65">Resta pertanto definitivo il calendario dei lavori adottato a maggioranza dalla Conferenza dei Capigruppo e da me comunicato all'Assemblea.</seg>
+            </u>
+            <note type="speaker">LA RUSSA (FdI)</note>
+            <u ana="#regular" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u31">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg66">Signor Presidente, a parte la possibilità di richiedere la verifica sulla votazione, avendo io alzato tempestivamente la mano - ma questo è il meno, ormai i colleghi stanno andando via, quindi ritiro l'ipotesi - vorrei sollecitare la possibilità di un altro voto. Avendo noi avanzato la richiesta di ascoltare il ministro Moavero nella prossima settimana, anche se è la settimana dedicata alle riunioni delle Commissioni, probabilmente quella votazione, se avessi avuto la possibilità di intervenire, lei l'avrebbe disposta. Non le chiedo di farlo ora, perché mi rendo conto che non sarebbe corretto, visto che molti colleghi hanno già lasciato l'Aula. Mi basta che rimanga a verbale che viene reiterata, da parte del Gruppo di Fratelli d'Italia, affidandola al Presidente, la richiesta di poter avere in Aula il ministro Moavero il più presto possibile, secondo il calendario che lei riterrà di modificare, anche sentendo i Capigruppo, e la possibilità di dedicare tempo a questa incombenza del Ministro stesso.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">FEDELI (PD)</note>
+            <u ana="#regular" who="#FedeliValeria" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u32">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg67">Signor Presidente, apprendiamo che il senatore Lannutti si è scusato per le farneticanti dichiarazioni di ieri. Non è tuttavia possibile non stigmatizzare il continuo ricorso - e in queste ultime ore abbiamo assistito ad una vera e propria escalation - a fake news infarcite di antisemitismo, negazionismo e razzismo.</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg68">PRESIDENTE. Scusate, colleghi, ma non si sente nulla, mentre mi pare che l'argomento sia importante.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg69">Addirittura il senatore Lannutti, per spiegare il controllo bancario, ha riproposto come fonte - e questo è davvero pazzesco - "Protocolli dei Savi di Sion", che è l'emblema dei falsi alla base dell'antisemitismo. Siamo alla riproposizione dei più violenti e infondati pregiudizi, alla riproposizione di un autentico falso, cioè della fake news più foriera di odio e morte nella nostra storia, lo strumento fabbricato e usato per perseguitare ed eliminare in tante parti del mondo le persone di religione ebraica, dai pogrom russi fino ai campi di sterminio nazisti. Sa il senatore Lannutti che in Germania i «Protocolli» - ripeto, un documento totalmente falso, creato al solo scopo di alimentare l'odio contro gli ebrei - furono usati dai nazisti come una licenza per il genocidio? È inaccettabile tutto questo, peraltro a pochi giorni dalla Giornata della memoria, mentre i nostri studenti, accompagnati dalle sorelle Bucci, bambine internate nei lager, stanno facendo un viaggio nei campi di sterminio ad Auschwitz, organizzato dal Ministero dell'istruzione, dell'università e della ricerca, per conoscere e mai dimenticare la storia dell'Olocausto e la tragedia della Shoah. Penso che chi siede in Parlamento e rappresenta le istituzioni non possa farsi portavoce davanti al Paese di messaggi falsi, irresponsabili, pericolosi e discriminatori. Non si può - e mi rivolgo ai colleghi del MoVimento 5 Stelle - guidare l'Italia e contemporaneamente continuare a distruggerla, ad indebolirla, a minare la sua credibilità internazionale a colpi di bufale negazioniste, razziste, antisemite e discriminatorie. L'Italia è un grande Paese che non merita di essere trascinato così in basso, in una gara continua tra voi, forze di Governo, a chi la spara più grossa, a chi sparge più odio, più negazionismo, più violenza. Vi prego, fermatevi ora.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg70">Prendete dei provvedimenti, c'è in gioco l'Italia, la nostra credibilità, l'educazione, l'istruzione e il futuro dei giovani che ci guardano e che ci giudicano per quello che noi diciamo in queste Aule. Vi prego, fermatevi davvero, prima che sia troppo tardi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PERILLI (M5S)</note>
+            <u ana="#regular" who="#PerilliGianluca" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u33">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg71">Signor Presidente, ho chiesto di intervenire a nome del Gruppo MoVimento 5 Stelle in risposta all'intervento della senatrice Fedeli, perché pensiamo che su un argomento così delicato ovviamente non ci si debba sottrarre, ma che bisogna anche chiarire alcuni punti, proprio nel rispetto della delicatezza dell'argomento che avete sollevato. Il MoVimento 5 Stelle - sia chiaro - rigetta in maniera ferma e perentoria ogni forma di antisemitismo, anche involontario.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg72">MARCUCCI (PD). Non ci è sembrato! PERILLI (M5S). Così farà adesso, come in futuro. La chiarezza di questa frase e di questi intenti credo non sia fraintendibile. Ciò detto, credo che anche la senatrice Fedeli conosca la storia umana e parlamentare del senatore Lannutti. Lei ha iniziato il suo intervento dando atto che il senatore si è scusato per le parole che ha scritto sul suo post e ha anche chiarito il senso del suo errore e ha dichiarato in maniera netta ed incontrovertibile che non è né antisemita, né contrario a qualsiasi tipo di confessione religiosa. A questo punto, penso che sia doveroso prendere atto di queste scuse e non costruirci un teorema che si estende alla politica del MoVimento 5 Stelle o anche a quello che sarà in futuro, alla manovra finanziaria, alla politica di questo Governo, perché questo, sì, è scorretto intellettualmente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg73">Penso, senatrice Fedeli, che lei conosca la storia del senatore Lannutti e parla la sua vita, perché se una persona è antisemita e ha delle frasi estreme o estremiste, lo è da sempre. Lui non lo è mai stato, quindi non si può prendere a pretesto questo argomento sul quale - ripeto - il MoVimento 5 Stelle ha un'unica linea, cioè quella di rigettare ogni forma - diciamolo chiaramente - di antisemitismo e ogni forma di complottismo, ogni tesi, ogni teoria sconfessata dalla storia. Non è accettabile che sulla base di questa serissima argomentazione si faccia politica contro il Governo e contro il MoVimento 5 Stelle, perché questo non c'entra nulla.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Faraone.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg74">Colleghi, ve lo dico con molta serenità: siamo intervenuti in risposta, era doverosa una risposta, il senatore ha chiarito il suo errore e si è scusato. Credo che su questo capitolo, almeno in quest'Aula, sia doveroso mettere la parola fine.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MALAN (FI-BP)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u34">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg75">Signor Presidente, rispetto il senatore Lannutti, persona dalle prese di posizione spesso molto forti e appassionate su tanti temi, e anche il fatto che egli abbia cancellato il suo tweet. Ricordo che, quando si comunica sia in televisione, che sui social media, ciò che si comunica sono le parole pronunciate. In questo caso, è apparso un tweet, a firma senatore Lannutti, in cui sostanzialmente si sostiene la tesi secondo cui i "Protocolli dei Savi di Sion" sono la prova del complotto ebraico mondiale per il dominio del mondo. Il senatore Lannutti ha fatto bene a ritirarlo, ma non ha fatto bene a pubblicarlo. Allo stesso modo, visto che il tweet è stato cancellato non dopo dieci minuti, ma dopo più di ventiquattr'ore, non ha fatto bene il movimento cui il senatore appartiene a non dire una parola al riguardo, né a chiedergli di ritirarlo. Rispetto la scelta. Se è stato davvero un errore, è stato un errore marchiano, ma va bene. Conosco il senatore Lannutti da anni e sono rimasto estremamente stupito nel vedere questo tweet. Soprattutto, però, mi sono stupito di vederlo per ore. Può succedere a tutti che la mano scappi e di scrivere un tweet strano, ma dopo ventiquattr'ore quella stessa mano dovrebbe correggerlo. Ritengo estremamente grave che altri non l'abbiano fatto. Adesso, addirittura, si viene attaccati perché ci si permette di citare il problema. Questo mi sembra davvero esagerato. Quando si sbaglia, si chiede scusa. E se si chiede scusa, vuol dire che si è contriti, non si attacca l'avversario perché ha osato stigmatizzare la cosa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg76">Questo mi sembra esagerato e davvero preoccupante in tempi come questi, in cui uno Stato sovrano, che ha ottimi rapporti con l'Italia, continua a minacciare lo sterminio totale degli ebrei che si trovano in Israele. Ciò è pericoloso, e lo sarebbe anche se non fosse la settimana in cui ricorre il Giorno della memoria.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u35">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg77">Signor Presidente, desidero intervenire su questa questione. Anzitutto, avrei forse gradito sentire le scuse in quest'Aula direttamente da chi ha scritto il tweet. Reputo difficile comprendere come si possa involontariamente scrivere un tweet ed esprimere un'opinione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg78">Ciò è difficile in particolare per persone mature come tutti noi e per persone che avrebbero il dovere di rappresentare la nazione e i suoi convincimenti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg79">Sono molto preoccupato per quel tweet perché ventiquattr'ore sono tante. Sono preoccupato perché il Gruppo a cui appartiene il senatore in questione sarebbe forse potuto intervenire molto prima per fargli ritirare il tweet vergognoso che ha scritto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg80">Nel mondo di oggi ventiquattr'ore sono tante e lo sapete bene voi, che siete abituati a prendere una posizione e magari a dire a quei disgraziati che sono affogati in mare che se la sono cercata, tanto poi, dopo, si chiede scusa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg81">Credo che si debba guardare un po' oltre. Intravedo in questa vicenda il voler strizzare l'occhio a posizioni pericolose e credo che sia il Gruppo...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg82">ENDRIZZI (M5S). Mettiti gli occhiali! Vergognati! MARCUCCI (PD). Ringrazio il collega che dimostra il suo convincimento democratico. Credo che il Gruppo MoVimento 5 Stelle non debba prendere le difese del senatore, che ha sbagliato e lo apprendiamo. Credo che il MoVimento 5 Stelle debba chiedere scusa per una posizione di questa dimensione e gravità che è stata assunta per ventiquattr'ore e per il messaggio che, magari involontariamente, rischia di trasmettere al Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">LAUS (PD)</note>
+            <u ana="#regular" who="#LausMauroAntonioDonato" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u36">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg83">Signor Presidente, abbiamo appreso oggi da notizie di stampa che l'ex collega senatore Stefano Esposito, il prefetto di Torino e il direttore dell'ANSA hanno ricevuto delle minacce, dei proiettili. Il mio intervento è per esprimere solidarietà e chiedo che solidarietà possa essere espressa anche dall'intera Assemblea. I proiettili erano indirizzati appunto a queste tre autorità: si tratta di quattro buste con proiettili scoperte al centro di smistamento delle Poste di Torino. Quanto è accaduto è raccapricciante, noi condanniamo fermamente questi vili atti di inciviltà e ci auguriamo che gli investigatori possano al più presto fare chiarezza e individuare i responsabili di questi atti incivili. Chiedo nuovamente all'Assemblea di esprimere solidarietà su quanto accaduto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, M5S e FI-BP.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u37">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg84">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di mercoledì 23 gennaio 2019</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.u38">
+               <seg xml:id="ParlaMint-IT_2019-01-22-LEG18-Sed-81.seg85">Il Senato tornerà a riunirsi in seduta pubblica domani, mercoledì 23 gennaio, alle ore 9,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 12,02).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

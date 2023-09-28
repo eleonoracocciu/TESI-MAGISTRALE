@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 850 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 850 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 850, giorno (2017-07-04)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 850, Day (2017-07-04)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="850-upper">850 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="181" unit="speeches" xml:lang="it">181 discorsi</measure>
+            <measure quantity="181" unit="speeches" xml:lang="en">181 speeches</measure>
+            <measure quantity="15570" unit="words" xml:lang="it">15.570 parole</measure>
+            <measure quantity="15570" unit="words" xml:lang="en">15,570 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=1029178</idno>
+               <date when="2017-07-04">04.07.2017</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="9"/>
+               <tagUsage gi="head" occurs="8"/>
+               <tagUsage gi="note" occurs="155"/>
+               <tagUsage gi="seg" occurs="181"/>
+               <tagUsage gi="u" occurs="70"/>
+               <tagUsage gi="vocal" occurs="16"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="33"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="desc" occurs="50"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2017-07-04">04.07.2017</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente GASPARRI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u1">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg1">La seduta è aperta (ore 16,31). Si dia lettura del processo verbale. SCOMA, segretario, dà lettura del processo verbale della seduta pomeridiana del 28 giugno. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u2">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u3">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg3">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg4">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 16,35).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'ordine dei lavori</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u4">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg5">In attesa che termini la Conferenza dei Capigruppo, sospendo la seduta. (La seduta, sospesa alle ore 16,35, è ripresa alle ore 16,56).</seg>
+            </u>
+            <note type="president">Presidenza del presidente GRASSO</note>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni del Presidente sul calendario dei lavori</head>
+            <note type="time">(ore 16,56)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u5">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg6">L'ordine del giorno reca: «Comunicazioni del Presidente sul calendario dei lavori».</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg7">La Conferenza dei Capigruppo ha approvato il calendario dei lavori dell'Assemblea fino al 3 agosto.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg8">Oggi pomeriggio proseguirà fino alla sua conclusione il disegno di legge di modifica al codice delle leggi antimafia e delle misure di prevenzione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg9">A partire da domani mattina si svolgerà la discussione generale del disegno di legge in materia di cittadinanza. Sono state ripartite tra i Gruppi dieci ore, comprensive delle questioni incidentali.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg10">Il decreto-legge in materia di prevenzione vaccinale sarà esaminato dall'Assemblea non appena concluso dalla Commissione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg11">Nella seduta pomeridiana di domani, alle ore 18,30, il Ministro dell'interno riferirà sulla gestione dei flussi migratori. I Gruppi potranno intervenire per cinque minuti ciascuno.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg12">Seguirà il disegno di legge di delega per il codice dello spettacolo, collegato alla manovra di finanza pubblica.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg13">Il calendario della prossima settimana prevede, oltre al seguito dei disegni di legge non conclusi, i seguenti provvedimenti: celebrazione duemila anni dalla morte di Ovidio; piccoli Comuni; fornitura servizi rete Internet; lingua italiana dei segni; decreto-legge sulla crescita economica del Mezzogiorno.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg14">Nella settimana dal 18 al 20 luglio saranno esaminati la legge di delegazione europea 2016 e la connessa relazione consuntiva sulla partecipazione dell'Italia all'Unione europea per l'anno 2016.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg15">Giovedì 20 luglio, alle ore 14, è convocato il Parlamento in seduta comune per l'elezione di un giudice della Corte costituzionale; pertanto la seduta di sindacato ispettivo non avrà luogo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg16">Il calendario della settimana dal 25 al 27 luglio prevede i decreti-legge in materia bancaria, ove trasmessi dalla Camera dei deputati; il disegno di legge in materia di disposizioni anticipate di trattamento, ove concluso dalla Commissione; ratifiche di accordi internazionali e documenti definiti dalla Giunta delle elezioni e delle immunità parlamentari.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg17">Nella settimana dal 1° al 3 agosto, ove conclusi dalle Commissioni competenti, saranno esaminati i disegni di legge su mercato e concorrenza; rendiconto e assestamento; smaltimento fanghi in agricoltura.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg18">Il calendario prevede sedute dedicate alla discussione di mozioni nelle mattine di martedì 18 (proliferazione armi nucleari) e di martedì 25 luglio (agricoltura).</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg19">Il calendario sarà inoltre integrato con la discussione del rendiconto e del bilancio interno del Senato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Programma dei lavori dell'Assemblea</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u6">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg20">La Conferenza dei Presidenti dei Gruppi parlamentari, riunitasi oggi con la presenza dei Vice Presidenti del Senato e con l'intervento del rappresentante del Governo, ha adottato - ai sensi dell'articolo 53 del Regolamento - il seguente programma dei lavori del Senato per i mesi di luglio, agosto e settembre 2017. - Disegno di legge n. 2134 e connessi - Modifiche al codice delle leggi antimafia e delle misure di prevenzione, di cui al decreto legislativo 6 settembre 2011, n. 159, al codice penale e alle norme di attuazione, di coordinamento e transitorie del codice di procedura penale e altre disposizioni. Delega al Governo per la tutela del lavoro nelle aziende sequestrate e confiscate (Approvato dalla Camera dei deputati) - Disegno di legge n. 2092 e connessi - Modifiche alla legge 5 febbraio 1992, n. 91, e altre disposizioni in materia di cittadinanza (Approvato dalla Camera dei deputati) - Disegno di legge n. 2287- bis e connessi - Delega al Governo per il codice dello spettacolo (Collegato alla manovra di finanza pubblica) (Voto finale con la presenza del numero legale) - Disegno di legge n. 2304 - Disposizioni per la celebrazione dei duemila anni dalla morte di Publio Ovidio Nasone - Disegno di legge n. 2541 - Misure per il sostegno e la valorizzazione dei piccoli Comuni, nonché disposizioni per la riqualificazione e il recupero dei centri storici dei medesimi Comuni (Approvato dalla Camera dei deputati) - Disegno di legge n. 2484 - Disposizioni in materia di fornitura dei servizi della rete Internet per la tutela della concorrenza e della libertà di accesso degli utenti (Approvato dalla Camera dei deputati) - Disegno di legge n. 302 e connessi - Riconoscimento della lingua italiana dei segni - Disegno di legge n. 2834 - Delega al Governo per il recepimento delle direttive europee e l'attuazione di altri atti dell'Unione europea - Legge di delegazione europea 2016 (Voto finale con la presenza del numero legale) - Documento LXXXVII, n. 5 - Relazione consuntiva sulla partecipazione dell'Italia all'Unione europea - Disegno di legge n. 2801 e connessi - Norme in materia di consenso informato e di disposizioni anticipate di trattamento (Approvato dalla Camera dei deputati) - Disegno di legge n. 2085-B - Legge annuale per il mercato e la concorrenza (Approvato dalla Camera dei deputati, modificato dal Senato e nuovamente modificato dalla Camera dei deputati) (Collegato alla manovra di finanza pubblica) (Voto finale con la presenza del numero legale) - Disegno di legge n. 2323 - Delega al Governo per la modifica della normativa in materia di utilizzo dei fanghi di depurazione in agricoltura (Voto finale con la presenza del numero legale) - Disegni di legge di conversione di decreti-legge - Ratifiche di accordi internazionali definite dalla Commissione competente - Documenti di bilancio - Rendiconto delle spese del Senato per l'anno 2016 e progetto di bilancio interno per l'anno 2017 - Mozioni - Interpellanze ed interrogazioni - Documenti definiti dalla Giunta delle elezioni e delle immunità parlamentari</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Calendario dei lavori dell'Assemblea Discussione e approvazione di proposta di modifica della senatrice Bellot; discussione e reiezione di ulteriori proposte Parlamento in seduta comune, convocazione</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u7">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg21">Nel corso della stessa riunione, la Conferenza dei Presidenti dei Gruppi parlamentari ha altresì adottato a maggioranza - ai sensi dell'articolo 55 del Regolamento - il seguente calendario dei lavori dell'Assemblea fino al 3 agosto 2017:</seg>
+               <note type="summary">Martedì 4 luglio pom h. 16,30 - Seguito disegno di legge n. 2134 e connessi - Modifiche al codice delle leggi antimafia e delle misure di prevenzione (Approvato dalla Camera dei deputati) - Seguito disegno di legge n. 2092 e connessi - Disposizioni in materia di cittadinanza (Approvato dalla Camera dei deputati) - Informativa del Ministro dell'interno sulla gestione dei flussi migratori (mercoledì 5, ore 18,30) - Disegno di legge n. 2856 - Decreto-legge n. 73, disposizioni urgenti in materia di prevenzione vaccinale (Voto finale entro l'8 luglio) (Scade il 6 agosto) - Disegno di legge n. 2287- bis e connessi - Delega al Governo per il codice dello spettacolo (Collegato alla manovra di finanza pubblica) (Voto finale con la presenza del numero legale) Mercoledì 5 " ant. h. 9,30-13 " " " pom. h. 16,30-20 Giovedì 6 " ant. h. 9,30-14 Giovedì 6 luglio pom. h. 16 - Interpellanze e interrogazioni</note>
+               <note type="summary">Martedì 11 luglio pom. h. 16,30-20 - Seguito disegni di legge non conclusi - Disegno di legge n. 2304 e connesso - Celebrazione duemila anni dalla morte di Ovidio - Disegno di legge n. 2541 - Piccoli Comuni (Approvato dalla Camera dei deputati) - Disegno di legge n. 2484 - Fornitura servizi rete Internet (Approvato dalla Camera dei deputati) - Disegno di legge n. 302 e connessi - Lingua italiana dei segni - Disegno di legge n. 2860 - Decreto-legge n. 91, crescita economica nel Mezzogiorno (Voto finale entro il 22 luglio) (Scade il 19 agosto) Mercoledì 12 " ant. h. 9,30-13 " " " pom. h. 16,30-20 Giovedì 13 " ant. h. 9,30-14 Giovedì 13 luglio pom. h. 16 - Interpellanze e interrogazioni</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg22">Gli emendamenti ai disegni di legge nn. 2541 (Piccoli Comuni) e 302 (Lingua italiana dei segni) dovranno essere presentati entro le ore 13 di giovedì 6 luglio.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg23">Gli emendamenti al disegno di legge n. 2860 (Decreto-legge n. 91, crescita economica nel Mezzogiorno) dovranno essere presentati entro le ore 13 di lunedì 10 luglio.</seg>
+               <note type="summary">Martedì 18 luglio ant. h. 11-13 - Mozioni sulla proliferazione delle armi nucleari Martedì 18 luglio pom. h. 16,30-20 - Seguito disegni di legge non conclusi - Disegno di legge n. 2834 - Legge di delegazione europea 2016 (Voto finale con la presenza del numero legale) e documento LXXXVII, n. 5 - Relazione consuntiva sulla partecipazione dell'Italia all'UE per l'anno 2016 Mercoledì 19 " ant. h. 9,30-13 " " " pom. h. 16,30-20 Giovedì 20 " ant. h. 9,30-13,30</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg24">Il termine per la presentazione degli emendamenti al disegno di legge n. 2834 (Legge di delegazione europea 2016) sarà stabilito in relazione ai lavori della Commissione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg25">Il Parlamento in seduta comune è convocato giovedì 20 luglio, alle ore 14, per l'elezione di un Giudice della Corte costituzionale. Voteranno per primi i Senatori.</seg>
+               <note type="summary">Martedì 25 luglio ant. h. 11-13 - Mozioni in materia di agricoltura Martedì 25 luglio pom. h. 16,30-20 - Seguito disegni di legge non conclusi - Disegno di legge n. ... - Decreto-legge n. 89, settore creditizio (Scade il 16 agosto) (Ove trasmesso dalla Camera dei deputati) - Disegno di legge n. ..... - Decreto-legge n. 99, liquidazione coatta amministrativa Banca Popolare Vicenza e Veneto Banca (Scade il 24 agosto) (Ove trasmesso dalla Camera dei deputati) - Disegno di legge n. 2801 e connessi - Disposizioni anticipate di trattamento (Approvato dalla Camera dei deputati) (Ove concluso dalla Commissione) - Ratifiche di accordi internazionali definite dalla Commissione affari esteri - Documenti definiti dalla Giunta delle elezioni e delle immunità parlamentari Mercoledì 26 " ant. h. 9,30-13 " " " pom. h. 16,30-20 Giovedì 27 " ant. h. 9,30-14 Giovedì 27 luglio pom. h. 16 - Interpellanze e interrogazioni</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg26">I termini per la presentazione degli emendamenti al disegno di legge n. ... (Decreto-legge n. 89, settore creditizio) e al disegno di legge n. .... (Decreto-legge n. 99, liquidazione coatta amministrativa Banca Popolare Vicenza e Veneto Banca) saranno stabiliti in relazione ai tempi di trasmissione dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg27">Il termine per la presentazione degli emendamenti al disegno di legge n. 2801 e connessi (Disposizioni anticipate di trattamento) sarà stabilito in relazione ai lavori della Commissione.</seg>
+               <note type="summary">Martedì 1° agosto ant. h. 11-13 - Seguito argomenti non conclusi - Disegno di legge n. 2085-B - Legge annuale mercato e concorrenza (Approvato dalla Camera dei deputati, modificato dal Senato, nuovamente modificato dalla Camera dei deputati) (Collegato alla manovra di finanza pubblica) (Voto finale con la presenza del numero legale) (Ove concluso dalla Commissione) - Disegni di legge nn. .... - Rendiconto 2016 e Assestamento 2017 (Votazioni finali con la presenza del numero legale) (Ove conclusi dalla Commissione) - Disegno di legge n. 2323 - Delega smaltimento fanghi in agricoltura (Voto finale con la presenza del numero legale) (Ove concluso dalla Commissione) " " " pom. h. 16,30-20 Mercoledì 2 " ant. h. 9,30-13 " " " pom. h. 16,30-20 Giovedì 3 " ant. h. 9,30</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg28">I termini per la presentazione degli emendamenti al disegno di legge n. 2085-B (Legge annuale mercato e concorrenza), ai disegni di legge di Rendiconto 2016 e Assestamento 2017 e al disegni di legge n. 2323 (Delega smaltimento fanghi in agricoltura) saranno stabiliti in relazione ai lavori delle Commissioni.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg29">Il calendario sarà integrato con la discussione del rendiconto delle spese del Senato per l'anno 2016 e del progetto di bilancio interno per l'anno 2017.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg30">Ripartizione dei tempi per le questioni incidentali e la discussione generale del disegno di legge n. 2092 e connessi (Disposizioni in materia di cittadinanza)</seg>
+               <note type="summary">Gruppi 10 ore, di cui: PD 2h. FI-PdL XVII 1h. 9' M5S 1h. Misto 56' AP-CpE-NCD 51' Aut (SVP, UV, PATT, UPT)-PSI-MAIE 44' GAL (DI, GS, MPL, RI) 43' Art. 1-MDP 41' ALA-SCCLP 40' LN-Aut 39' FL (Id-PL, PLI) 37'</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg31">Ripartizione dei tempi per la discussione del disegno di legge n. 2856 (Decreto-legge n. 73, disposizioni urgenti in materia di prevenzione vaccinale) (10 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatore 1 h. Governo 1 h. Votazioni 1 h. Gruppi 7 ore, di cui: PD 1 h. 24' FI-PdL XVII 48' M5S 42' Misto 39' AP-CpE-NCD 35' Aut (SVP, UV, PATT, UPT)-PSI-MAIE 31' GAL (DI, GS, MPL, RI) 30' Art. 1-MDP 29' ALA-SCCLP 28' LN-Aut 27' FL (Id-PL, PLI) 26' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg32">Ripartizione dei tempi per la discussione del disegno di legge n. 2287- bis e connessi (Delega al Governo per il codice dello spettacolo) (10 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatore 1 h. Governo 1 h. Votazioni 1 h. Gruppi 7 ore, di cui: PD 1 h. 24' FI-PdL XVII 48' M5S 42' Misto 39' AP-CpE-NCD 35' Aut (SVP, UV, PATT, UPT)-PSI-MAIE 31' GAL (DI, GS, MPL, RI) 30' Art. 1-MDP 29' ALA-SCCLP 28' LN-Aut 27' FL (Id-PL, PLI) 26' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg33">Ripartizione dei tempi per la discussione del disegno di legge n. 2860 (Decreto-legge n. 91, crescita economica nel Mezzogiorno) (10 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatore 1 h. Governo 1 h. Votazioni 1 h. Gruppi 7 ore, di cui: PD 1 h. 24' FI-PdL XVII 48' M5S 42' Misto 39' AP-CpE-NCD 35' Aut (SVP, UV, PATT, UPT)-PSI-MAIE 31' GAL (DI, GS, MPL, RI) 30' Art. 1-MDP 29' ALA-SCCLP 28' LN-Aut 27' FL (Id-PL, PLI) 26' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg34">Ripartizione dei tempi per la discussione del disegno di legge n. 2834 (Legge di delegazione europea) e del documento LXXXVII, n. 5 (Relazione consuntiva sulla partecipazione dell'Italia all'UE per l'anno 2016) (10 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatore 1 h. Governo 1 h. Votazioni 1 h. Gruppi 7 ore, di cui: PD 1 h. 24' FI-PdL XVII 48' M5S 42' Misto 39' AP-CpE-NCD 35' Aut (SVP, UV, PATT, UPT)-PSI-MAIE 31' GAL (DI, GS, MPL, RI) 30' Art. 1-MDP 29' ALA-SCCLP 28' LN-Aut 27' FL (Id-PL, PLI) 26' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg35">Ripartizione dei tempi per la discussione del disegno di legge n. ... (Decreto-legge n. 89, settore creditizio) (7 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatore 40' Governo 40' Votazioni 40' Gruppi 5 ore, di cui: PD 1 h. FI-PdL XVII 34' M5S 30' Misto 28' AP-CpE-NCD 25' Aut (SVP, UV, PATT, UPT)-PSI-MAIE 22' GAL (DI, GS, MPL, RI) 22' Art. 1-MDP 21' ALA-SCCLP 20' LN-Aut 19' FL (Id-PL, PLI) 18' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg36">Ripartizione dei tempi per la discussione del disegno di legge n. ... (Decreto-legge n. 99, liquidazione coatta amministrativa Banca Popolare Vicenza e Veneto Banca) (7 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatore 40' Governo 40' Votazioni 40' Gruppi 5 ore, di cui: PD 1 h. FI-PdL XVII 34' M5S 30' Misto 28' AP-CpE-NCD 25' Aut (SVP, UV, PATT, UPT)-PSI-MAIE 22' GAL (DI, GS, MPL, RI) 22' Art. 1-MDP 21' ALA-SCCLP 20' LN-Aut 19' FL (Id-PL, PLI) 18' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg37">Ripartizione dei tempi per la discussione del disegno di legge n. 2085-B (Legge annuale mercato e concorrenza) (5 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatore 40' Governo 40' Votazioni 40' Gruppi 3 ore, di cui: PD 36' FI-PdL XVII 21' M5S 18' Misto 17' AP-CpE-NCD 15' Aut (SVP, UV, PATT, UPT)-PSI-MAIE 13' GAL (DI, GS, MPL, RI) 13' Art. 1-MDP 12' ALA-SCCLP 12' LN-Aut 12' FL (Id-PL, PLI) 11' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg38">Ripartizione dei tempi per la discussione del disegno di legge n. ... (Rendiconto 2016 e Assestamento 2017) (7 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatore 1h. Governo 30' Votazioni 30' Gruppi 5 ore, di cui: PD 1 h. FI-PdL XVII 34' M5S 30' Misto 28' AP-CpE-NCD 25' Aut (SVP, UV, PATT, UPT)-PSI-MAIE 22' GAL (DI, GS, MPL, RI) 22' Art. 1-MDP 21' ALA-SCCLP 20' LN-Aut 19' FL (Id-PL, PLI) 18' Dissenzienti 5'</note>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg39">Signor Presidente, come lei sa, noi abbiamo posto in Conferenza dei Capigruppo una questione molto precisa e molto seria. Abbiamo chiesto, visto che nella settimana dal 25 al 27 luglio è stata ipotizzata la ratifica dell'accordo economico-commerciale tra l'Unione europea e il Canada (il cosiddetto CETA), di rinviare l'arrivo in Aula di questa ratifica, per motivi di merito e anche in qualche modo di metodo. Signor Presidente, lei sa che noi non siamo d'accordo con questa ratifica e che abbiamo già esposto tutte le nostre motivazioni in Commissione esteri: riteniamo che questo accordo rappresenti un grave danno per i diritti ambientali e sociali e per tutto il nostro sistema agroalimentare. Le abbiamo chiesto di togliere dal calendario tale ratifica per attendere almeno il pronunciamento della Corte costituzionale francese. Alcuni parlamentari in Francia - loro lo possono fare - hanno fatto ricorso direttamente alla Corte costituzionale ed è evidente che, qualora la Corte costituzionale francese ne dichiarasse l'incostituzionalità, l'accordo salterebbe, dal momento che basta che un Paese non lo ratifichi perché questo non possa andare avanti. Quello sospensivo sarebbe un atteggiamento, cui invitiamo ancora l'Assemblea, almeno di prudenza, oltre che di ulteriore riflessione, perché sono in gioco interessi rilevanti dal punto di vista della tutela del sistema dei diritti. Solo per dirne uno, vorrei ricordare in questa sede che con questo accordo una serie di sostanze chimiche, vietate nel nostro Paese addirittura dagli anni Settanta, potrebbero entrare liberamente attraverso l'accordo sui prodotti. La cosa ancora più grave è che la sovranità di questo Parlamento sarebbe messa in discussione, perché qualsiasi legge che questo Parlamento approvasse che potesse essere ritenuta lesiva di una serie di interessi di multinazionali potrebbe essere portata davanti all'arbitrato internazionale. Vi è quindi anche un problema costituzionale molto rilevante e pesante e, a maggior ragione, crediamo serva una pausa di riflessione e chiediamo che il provvedimento sia tolto dal calendario almeno per adesso, in attesa del pronunciamento della Corte costituzionale francese.</seg>
+            </u>
+            <note type="speaker">ROMANI Paolo (FI-PdL XVII)</note>
+            <u ana="#regular" who="#RomaniPaolo" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u9">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg40">Signor Presidente, «La modifica che si vuole approvare al codice antimafia non è né utile, né opportuna e rischia persino di essere controproducente. Non è utile nei confronti delle organizzazioni mafiose che utilizzano la corruzione, perché in tali casi può certamente già utilizzarsi la normativa vigente; non è opportuna e non serve nemmeno per le altre vicende di corruzione, perché, come ha già sperimentato con successo la procura di Roma, anche in questo caso la confisca di prevenzione può essere adottata a legislazione vigente, in presenza, però, di episodi reiterati che dimostrino che il soggetto trae risorse in via non episodica dalla corruzione». Questo non lo dice un senatore di Forza Italia, lo dice Raffaele Cantone, presidente dell'Autorità nazionale anticorruzione. Noi abbiamo cercato, nella Conferenza dei Capigruppo che si è testé conclusa, di informare il Parlamento che si è aperto un dibattito del quale, con colpevole ritardo, prendiamo atto e che ci sono esponenti non politici, ma studiosi, costituzionalisti e autorità nazionali che dicono anche di non essere stati auditi in Commissione riguardo un argomento che è diventato oggetto di dibattito. Mi rendo conto che siamo in ritardo anche per richiedere un ritorno in Commissione, ma in ventiquattro anni di attività parlamentare, a memoria, non ricordo un dibattito così aperto e acceso, rispetto a un argomento non irrilevante, che si è aperto con colpevole ritardo sul provvedimento dibattuto e approvato alla Camera, lungamente dibattuto in Commissione giustizia e che arriva all'Assemblea con una posizione del nostro Gruppo chiaramente, fermamente e fortemente contraria. Alle volte, la maturità della classe politica risiede anche nella capacità di acquisire la sensibilità che il Paese esprime attraverso i suoi più autorevoli esponenti, alcuni dei quali sono investiti di un incarico fondamentale e importante che questo Governo e questa maggioranza hanno voluto affidare loro. Ribadisco quindi che non parliamo di esponenti del nostro partito, ma di studiosi, di costituzionalisti ed ex presidenti della Corte costituzionale che aprono un dibattito acceso nel Paese e che dicono di stare attenti, perché questo provvedimento rischia di essere notevolmente peggiorativo, invece di essere migliorativo, rispetto alla lotta alla mafia, sulla quale siamo tutti perfettamente d'accordo. La richiesta che faccio e che reitero in quest'Aula è dunque quella di rimandare il provvedimento in Commissione. Manca ancora un articolo, ma probabilmente un momento di riflessione sul codice antimafia vale la pena che vi sia. Forse è accaduto qualcosa; forse non ce ne siamo accorti in tempo; forse qualcuno, la maggioranza, nella sua determinazione di portare a conclusione un provvedimento approvato alla Camera, non ha voluto fare una riflessione ulteriore. Può capitare; non c'è niente di male. Può darsi che coloro che sono delegati alla percezione culturale del Paese l'abbiano registrata veramente con ritardo o non se ne siano accorti. Può essere che sia accaduto qualcosa. E la nostra parte politica in quest'Aula, responsabilmente, chiede che questo provvedimento ritorni là dove è stato dibattuto lungamente: forse un ulteriore momento di riflessione su questo argomento varrebbe la pena che ci fosse. Quindi, chiediamo che il prossimo provvedimento che ci attende nel calendario annunciato dal Presidente ritorni in Commissione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u10">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg41">Senatore Romani, mi corre l'obbligo di avvisarla che il ritorno in Commissione in questa fase non è possibile. Voteremo la sua proposta come richiesta di modifica al calendario per un eventuale rinvio. Non possiamo accedere a quel tipo di richiesta, comunque la voteremo.</seg>
+            </u>
+            <note type="speaker">BELLOT (Misto-Fare!)</note>
+            <u ana="#regular" who="#BellotRaffaela" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u11">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg42">Signor Presidente, credo ci sia stata una dimenticanza ingenua - ma a questo punto è solo in senso ironico se uso queste parole - per quanto concerne l'elenco degli argomenti non conclusi. Se non ricordo male, il 31 maggio quest'Assemblea ha incardinato il provvedimento che sancisce il passaggio di Sappada dal Veneto al Friuli-Venezia Giulia ed è addirittura iniziata la discussione generale, con una chiara volontà di proseguirla in un momento successivo, nel momento in cui si fossero affrontati gli argomenti non conclusi. Ebbene, lei ha fatto un elenco dei provvedimenti non conclusi ma questo io non l'ho assolutamente sentito menzionare. Credo che l'apertura della discussione generale di fatto abbia dato inizio a un iter che solitamente deve essere rispettato. C'era un chiaro accordo da parte di tutte le forze in quest'Assemblea - forse qualcuno meno e qualcun altro più corretto - nell'esprimere questa volontà. Oggi con la Capigruppo si è visto che alla fine probabilmente tutta questa disponibilità non c'era, non c'è e non vuole esserci. Abbiamo assistito un anno fa, nel mese di marzo, a un episodio abbastanza increscioso, ovvero al ritiro del disegno di legge dall'ordine del giorno. Il 31 maggio è stato incardinato, si è aperta la discussione generale, si è quindi dato inizio all'esame del provvedimento. Credo quindi che ci sia ora un comportamento scorretto e ingiustificato nei confronti di questo disegno di legge. Chiediamo fortemente che l'esame venga ripreso al più presto come prossimo argomento all'ordine del giorno affinché perlomeno quel poco di fiducia nelle istituzioni - che potrebbe essere determinata da questa conferma - possa essere rinnovata. Credo che siate poco credibili e questo calendario ne è la conferma. Signor Presidente, chiedo a chi si era impegnato in quella sede, in quella data, di continuare la discussione del disegno di legge al termine del provvedimento di modifica al codice delle leggi antimafia. Nel caso in cui quest'ultimo venga posticipato, chiedo addirittura che si passi subito all'esame del disegno di legge sul passaggio di Sappada al Friuli-Venezia Giulia. Che ci sia veramente la coerenza, la volontà e la correttezza di mantenere ciò che qui dentro si è deciso.</seg>
+            </u>
+            <note type="speaker">*QUAGLIARIELLO (FL (Id-PL, PLI))</note>
+            <u ana="#regular" who="#QuagliarielloGaetano" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg43">Signor Presidente, prendo atto che in questa sede non è possibile chiedere il ritorno del provvedimento in Commissione. Lo faremo in sede propria, nel caso in cui la proposta di modifica del calendario che vado ad avanzare non sarà accolta. Credo che quanto accaduto, colleghi, sia sotto gli occhi di tutti e abbia qualcosa di imprevedibile e anche di straordinario. Se noi scorgessimo, un giorno, i tifosi della Roma e quelli della Lazio parlare all'unisono; se sentissimo i tifosi del Torino e quelli della Juventus schierarsi nello stesso modo o quantomeno esprimersi nello stesso modo; se i tifosi del Milan e quelli dell'Inter avessero le stesse sensazioni, diremmo: beh, qualcosa sta accedendo. Ora, quello che è successo in questi giorni che hanno separato l'ultima nostra sessione di lavoro sul codice antimafia dalla giornata di oggi, è qualcosa di paragonabile agli esempi che ho portato. Non voglio dire che il dibattito pubblico italiano sia fatto da tifosi, ma da giuristi e da operatori del dritto con diverse sensibilità certamente sì. C'è una parte che ha una sensibilità più garantista e una parte che invece ha più a cuore, per così dire, la repressione del crimine. Senza dare un giudizio di merito, si direbbe più giustizialista che garantista. Ora, è accaduto qualcosa di straordinario: sul provvedimento in discussione abbiamo visto i garantisti e i giustizialisti essere d'accordo nel dire che questo provvedimento non va bene. Io credo che ognuno di noi avrebbe pensato di sognare se avesse un giorno dovuto immaginare che Cantone, Violante, Flick, Mirabelli, Tesauro, Fiandaca, Cassese, Nordio, il procuratore di Messina De Lucia e le Camere penali avrebbero usato gli stessi argomenti per dire che un provvedimento del Parlamento è sbagliato. Mi pare che il Parlamento si dovrebbe interrogare: in caso contrario ci comporteremmo come coloro i quali, invece che stare in un'istituzione a contatto con la società e con il dibattito che la società produce, sta in una torre d'avorio insensibile a qualsiasi sollecitazione e a qualsiasi stimolo. Alcuni di questi che ho citato sono non soltanto degli illustri giuristi, ma anche degli operatori alla testa di importanti istituzioni che dovrebbero essere la controparte. Francamente, mi ha stupito leggere in un'intervista su un giornale di Napoli che il presidente Cantone, che molte volte e su molti temi è stato evocato - devo dire talora anche a sproposito - abbia detto che su questo provvedimento non è stato nemmeno audito in Commissione. Di fronte a una realtà come questa, credo che un attimo di riflessione, un momento di ponderazione da parte del Parlamento e del Senato sia un atto dovuto, un atto di buonsenso. Signor Presidente, mi scusi, ma mi pare che le argomentazioni che sono state portate in Conferenza dei Capigruppo per evitare questo approfondimento non reggano. Da una parte si è detto - cosa assolutamente vera - che in realtà il provvedimento è in discussione da un lasso di tempo molto lungo e che queste obiezioni sono venute soltanto alla fine. Noi avremmo preferito sentir dire eventualmente che le obiezioni che sono state portate non sono fondate, perché se le obiezioni arrivano alla fine, anche un minuto prima che il provvedimento venga adottato, e hanno un effettivo fondamento, se i dubbi sulla sua costituzionalità e sulla sua utilità sono fondati, è bene intervenire anche all'ultimo minuto piuttosto che andare dritti, per coerenza, nel burrone. L'altra cosa che è stata detta è che fortunatamente c'è un meccanismo bicamerale e quindi la Camera provvederà a modificare il provvedimento. Lei, signor Presidente, molte volte ha detto che per fortuna c'è il Senato e questa volta probabilmente sarebbe stato portato a dire che per fortuna c'è la Camera. Ma siamo quasi alla fine della legislatura e immaginare che il provvedimento debba avere un passaggio parlamentare in più, che potrebbe portarci anche oltre il tempo massimo, soltanto perché non si può tornare indietro, soltanto perché non si può valutare quello che alcune opposizioni hanno detto (alcune delle argomentazioni usate dagli illustri giuristi sono esattamente quelle usate da alcuni esponenti delle opposizioni, soprattutto in sede di Commissione); insomma, pensare di poter mettere a rischio questo provvedimento soltanto per non prendersi una pausa di riflessione a me sembra francamente un atteggiamento incomprensibile dal punto di vista logico ancor prima che dal punto di vista politico. Questa, signor Presidente, è la ragione per la quale noi chiediamo di modificare il calendario. E anche sotto questo aspetto mi permetta di fare un'altra piccola notazione di carattere metodologico. Tra i temi in discussione c'è la legge sulla lingua italiana dei segni, un provvedimento arrivato in Assemblea e rimandato in Commissione. Non ne conosco l' iter, ma dal punto di vista metodologico, se i problemi sono stati risolti, un provvedimento che è giunto all'esame dell'Assemblea ed è stato rinviato in Commissione, nel momento in cui si risolvono i suoi problemi formali o si arriva ad un suo maggiore approfondimento, evidentemente merita di avere la precedenza. Per questo io le chiedo di anticipare la discussione di questo provvedimento. È anche un modo, signor Presidente, per dirle che in questo intervento non c'è alcuna volontà ostruzionistica nei confronti del provvedimento sul codice antimafia, ma semplicemente quella di cercare di far prevalere il buon senso e di non far passare il nostro Senato come il luogo dove vi sono persone avulse dalla realtà che non si accorgono di un dibattito esterno, di critiche provenienti da persone che di solito non sono d'accordo; un luogo di persone che preferiscono chiudersi all'interno di una torre d'avorio dove in realtà chi fa politica non dovrebbe mai stare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FL (Id-PL, PLI).</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">STEFANI (LN-Aut)</note>
+            <u ana="#regular" who="#StefaniErika" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg44">Signor Presidente, interveniamo sul provvedimento di modifica al codice delle leggi antimafia, giunto all'esame dell'Assemblea subito dopo la sospensione dei lavori. Si tratta sicuramente di una normativa estremamente complessa e il dibattito che c'è stato in Assemblea ha confermato che si tratta di un elaborato assolutamente difficile. Signor Presidente, colleghi, dobbiamo tener presente che parlando di una materia come questa, in cui si va ad incidere su uno dei fenomeni criminali più gravi del nostro Paese, dobbiamo approvare una normativa non solo efficace, ma non opinabile, che non dia cioè adito a perplessità o comunque a valutazioni che possono inficiarne la portata. Durante l'esame in Commissione giustizia sicuramente sono state fatte alcune elaborazioni da parte dei colleghi per cercare di migliorare il testo approvato dalla Camera, ma si sono evidenziate moltissime problematiche, tanto che il lavoro fatto in Commissione (con tutto il rispetto per quel lavoro cui ho partecipato anche io) è stato forse un po' confuso: sono stati presentanti degli emendamenti, di alcuni altri abbiamo sospeso l'esame, si è intervenuti in maniera sostanziale su altri. Sicuramente si è rivelato che la materia è assolutamente difficile. Rivolgo pertanto un invito rispetto a questo testo, perché nessuno di noi può negare che ci siano state argomentazioni e considerazioni che non vengono certo da chi non conosce la materia, ma da chi l'ha vissuta e la conosce bene, anche nei suoi aspetti più tecnici. Bisogna inoltre cercare di approvare una norma il più possibile condivisa: il codice antimafia non può essere approvato da quest'Aula con una maggioranza di Governo strettissima, ma deve essere condiviso da tutti noi. La lotta alla mafia riguarda tutti e tutti dobbiamo essere uniti. Rivolgo dunque un invito a tutti, affinché ci si riservi un momento di riflessione in ordine a questo disegno di legge con un rinvio della sua trattazione, al fine di poter trovare o magari di riuscire a elaborare o a sanare delle incongruenze o delle perplessità che possono inficiarne l'autorevolezza una volta approvato da quest'Assemblea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e del senatore Bilardi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GASPARRI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u14">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg45">Signor Presidente, il calendario dei lavori prevede da domani la discussione del disegno di legge n. 2092 e connessi, recante disposizioni in materia di cittadinanza. La mia impressione è che il calendario dell'Assemblea del Senato sia dettato più dalle direttive giornalistico-editoriali che non dalla maturazione delle discussioni parlamentari. È noto che c'è un quotidiano che fa la tabella di ciò che il Senato e la Camera debbano fare e non fare, che riporta i provvedimenti che devono essere approvati, citati uno per uno, con il calendario e l'esito: questo è approvato e questo no. Ad esempio, la Camera deve esaminare il disegno di legge sulla tortura, di cui abbiamo discusso a lungo al Senato, introducendo anche delle modifiche che ritenevamo assolutamente ragionevoli. Ora quel testo non piace più a nessuno, non piace ai fautori di quella legge, che lo ritengono insufficiente, e certo non piace a chi, come noi, ritiene che l'intenzione sostanziale non sia tanto e solo quella di recepire una convenzione internazionale, opinabile, ma sia quella di creare ostruzione all'azione delle forze di polizia. Poi c'è il disegno di legge di modifica al codice delle leggi antimafia, di cui hanno già parlato il presidente del nostro Gruppo Romani e altri colleghi, rispetto ad una questione che non riprenderò perché la mia proposta di modifica del calendario riguarda il disegno di legge sulla cittadinanza. È stato già osservato da più parti, se ne saranno accorti tardi o forse il Parlamento avrà sottovalutato la questione sia alla Camera che al Senato, non lo so, che insigni giuristi di questo Paese, nessuno dei quali è riconducibile alla nostra area di pensiero, hanno avanzato delle contestazioni sulla costituzionalità di quel provvedimento, anche nella versione modificata che in quest'Aula è arrivata pressoché in dirittura d'arrivo, al voto finale dell'ultimo articolo. Poi andrà alla Camera e Dio vedrà. Ma insomma, ci sono i richiami di Cantone che, secondo la maggioranza di Governo, un giorno è un eroe (parlo del presidente dell'Autorità nazionale anticorruzione) e un altro giorno non viene ascoltato in alcun modo quindi ha giorni felici e giorni sfortunati, ma anche di Sabino Cassese, che nei confronti dell'area politica cui appartengo è stato sempre un critico molto deciso e determinato (ricordo i suoi articoli contro la mia legge di riforma del sistema delle telecomunicazioni e tanti altri interventi) il quale ha detto in queste ore delle cose molto chiare. Quindi si tratta di un problema che poi il Parlamento valuterà. Lo vedremo quando discuteremo nuovamente nel merito del codice antimafia, perché poi discuteremo comunque sulle procedure e sui problemi. Ad un certo punto, però, si decide di proporre, con tempi contingentati, il disegno di legge sullo ius soli. La mia proposta è di non calendarizzare domani questo provvedimento ma di rinviarlo al termine dell'esame in Commissione. Vorrei motivare la mia richiesta, signor Presidente, che non avanzo per principio, perché sono all'opposizione e quindi sono contro questo disegno di legge per ragioni quasi automatiche. Voglio dire ai colleghi di quest'Assemblea che noi non abbiamo urgenza di approvare questo disegno di legge e che quindi è bene che la Commissione ne possa discutere. Il mio Gruppo, il Gruppo di Forza Italia, non ha presentato decine di migliaia di emendamenti, ne abbiamo presentati un numero limitato perché vogliamo andare nel merito della discussione; riteniamo che la legge sia sbagliata e vogliamo discuterne per convincere il Senato, non il Paese, perché il Paese, cari colleghi, è già convinto che questa legge sia sbagliata. Alle elezioni amministrative recenti, con tutto il rispetto dei candidati sindaci di questo e di quel partito, del traino di Tizio e di Caio, la gente ha votato sì per le proprie città e per i sindaci, ma ha votato anche guardando agli sbarchi in massa di immigrati e al fatto che si risponde a questi sbarchi pensano di dare la cittadinanza rapidamente ad altre 800.000 persone. Quella al nostro esame è una legge-manifesto che rischia di moltiplicare gli arrivi in Italia e della quale non si avverte la necessità intanto perché la nostra Costituzione distingue i diritti del cittadino da quelli della persona e quasi tutti i diritti sono riconosciuti alla persona. I costituenti, quando hanno scritto la Costituzione, non usavano le parole a caso: ci sono diritti che sono da riconoscere a chiunque, professare la propria religione, avere la propria libertà di pensiero sono diritti che appartengono alla persona, a chiunque arrivi in Italia da qualsiasi parte del mondo; quei diritti sono collegati alla sua natura di persona. La cittadinanza estende altri diritti come, ad esempio, il diritto di voto alle elezioni politiche mentre altri diritti, come l'assistenza sanitaria o l'istruzione, sono garantiti alle persone. Poi si deve considerare il permesso di soggiorno e quant'altro. Quindi non è vero che ci sono diritti negati a chi non ha la cittadinanza. Per quanto riguarda il disegno di legge sulla cittadinanza, informo i colleghi che negli ultimi due anni, con le leggi vigenti sulla cittadinanza, hanno acquisito la cittadinanza italiana 400.000 stranieri. Sono pochi 400.000 stranieri che diventano cittadini in due anni? Sono una percentuale significativa: è l'uno per cento della popolazione di cittadini in più, che nel dettaglio sono stati 178.000 nel 2015 e 202.000 nel 2016. Si tratta di 400.000 nuovi cittadini. Non è un Paese xenofobo il nostro, né un Paese blindato. Se uno straniero risiede in Italia un certo numero di anni può presentare la domanda di cittadinanza; chi è nato in Italia e raggiunge la maggiore età può presentare la domanda di cittadinanza; chi contrae matrimonio con un cittadino italiano può avere la cittadinanza. Quindi, non siamo in una torre d'avorio, ma in una realtà che concede la cittadinanza in base a norme che sono state poi nel tempo modificate e ritoccate. Lo ius soli è praticato da pochi Paesi. L'esempio degli Stati Uniti viene a volte fatto a sproposito, visto che negli Stati Uniti si fanno addirittura delle verifiche, dei veri e propri esami per capire se una persona ha aderito ai principi costituzionali fondamentali. Non ho visto insorgere molti esponenti della sinistra. La Presidente della Camera - gliene va dato atto - è sensibilissima alle questioni dei diritti, ma quando abbiamo avuto il caso di quella donna italiana di Bologna, che ha sposato un marocchino (la madre di Youssef, il terrorista che poi è rimasto ucciso a Londra), era una donna italiana che è stata ripudiata dal marito del Marocco perché non ha accettato la poligamia. Quella signora è stata picchiata, è finita in ospedale due mesi in Marocco, poi è tornata in Italia, dove vive, si era convertita all'Islam (sua libera scelta) e poi ha incontrato poligamia e ripudio. Ebbene, non ho sentito nemmeno una parola da parte di alcune personalità delle nostre istituzioni che della questione dei diritti fanno una bandiera. Bisogna essere coerenti e anche la mamma di Youssef meritava una parola da parte di alcuni esponenti delle nostre istituzioni che invece hanno taciuto totalmente di fronte a quelle vessazioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg46">Allora direte: che c'entra questo? C'entra, perché quel ragazzo, Youssef, che poi è morto perché la polizia inglese è intervenuta mentre sgozzava delle persone nei ristoranti (non è morto perché è stato compresso nei suoi diritti; uccideva e le forze dell'ordine inglesi sono intervenute dopo che purtroppo aveva già seminato morte), era un cittadino italiano, perché figlio di un'italiana e di uno straniero.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg47">Quindi, le leggi sulla cittadinanza sono fin troppo generose. Semmai dovremmo introdurre norme per la revoca della cittadinanza a chi ha sposato il fondamentalismo e si radicalizza, vuole la sharia e vuole affermare principi che sono contrari alla Costituzione repubblicana.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg48">E di questo non si discute in Parlamento, di come semmai togliere la cittadinanza a chi non la merita. E quando si obietta che ci sono anche i mafiosi, io propongo di levare anche a loro la cittadinanza, ad alcuni condannati. Se si levasse la cittadinanza a Totò Riina e ad altri personaggi sarei il primo ad applaudire, perché non credo che la cittadinanza debba essere negata a chi demerita, se ha origini etniche di altri Paesi o se è di confessioni religiose diverse da quella prevalente. Credo che andrebbe negata a tutti coloro che si pongono fuori dal consesso civile, democratico e costituzionale.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg49">Quindi, questo disegno di legge non è affatto urgente, non è necessario e andrebbe discusso nelle Commissioni, così come lo ius cultura e altri provvedimenti collegati. Vediamo che cosa si deve discutere. PRESIDENTE. La prego di concludere. GASPARRI (FI-PdL XVII). Concludo, signor Presidente. State facendo un errore e vi state scavando la fossa. Non so quando si voterà e con quale legge elettorale. Noi speriamo che questo disegno di legge non venga approvata, ma Forza Italia sarà in prima linea a proporre un referendum abrogativo. Siccome si voterà nel 2018, il referendum sarà - lo sappiamo - nel 2019, ma le elezioni del 2018 verteranno su questo tema e chi sostiene questa legge folle le perderà. Vi state scavando la fossa, peccato che la scavate anche all'Italia. Non ve lo consentiremo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg50">Quindi, chiediamo di non calendarizzare questa proposta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CAPPELLETTI (M5S)</note>
+            <u ana="#regular" who="#CappellettiEnrico" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg51">Signor Presidente, vorrei ribadire quanto già detto in Conferenza dei Capigruppo. In questo calendario dei lavori ci sono provvedimenti importanti, altri meno e alcuni completamente ignorati. Con riferimento al CETA, associandoci a quanto è già stato detto da alcuni colleghi, ci chiediamo perché dobbiamo occupare il lavoro del Parlamento sulla ratifica di un Trattato che con tutta probabilità verrà bocciato ad esempio dalla Francia, che ha portato il Trattato commerciale davanti alla Corte costituzionale francese per valutare la sua compatibilità con la Carta francese. Sappiamo che se anche uno solo dei membri dell'Unione Europea non ratificherà questo Trattato, sarà resa vana la ratifica da parte di tutti gli altri Paesi. Allora perché dobbiamo essere noi il primo Paese ad avviare i lavori di ratifica, il primo ovviamente tra i più importanti dell'Unione europea? Propongo di subordinare la calendarizzazione del disegno di legge di autorizzazione alla ratifica dell'Accordo economico e commerciale globale tra Unione europea e Canada (CETA) all'ottenimento di altre ratifiche di Paesi significativi dell'Unione europea e comunque alla pronuncia della Corte costituzionale francese, non perché facciamo dipendere da questo giudizio la valutazione in merito sul provvedimento, ma perché se ci fosse una bocciatura da parte di tale Corte, evidentemente ci sarebbe una bocciatura da parte della Francia e quindi si andrebbe a ratificare un trattato destinato a morire. Detto questo, ho presentato in Conferenza dei Capigruppo la richiesta di calendarizzazione di altri due provvedimenti, che sono prioritari per il Movimento 5 Stelle, il primo dei quali riguarda la cosiddetta class action. Signor Presidente, proprio in questi giorni tale riforma compie due anni in Senato: essa è infatti approdata in Senato dopo essere stata votata all'unanimità dalla Camera dei deputati due anni fa e per due anni è stata tenuta a prendere polvere nei cassetti delle Commissioni di merito. Non è questa la sede per spiegare i motivi per cui si tratta di una riforma particolarmente importante, ma se non procediamo ad una sua calendarizzazione in Assemblea, non sbloccheremo la situazione in Commissione. Prendiamo atto del fatta che la Confindustria si è pronunciata contro l'approvazione di tale provvedimento e quindi prendiamo anche atto del fatto che in questo Parlamento ci sono forze politiche che, evidentemente, sono molto più sensibili alle indicazioni di Confindustria - o meglio dei suoi vertici - che non agli interessi dei cittadini. Signor Presidente, abbiamo chiesto la calendarizzazione in Assemblea del provvedimento sul cosiddetto whistleblowing. Anche nel caso di tale disegno di legge, ovvero l'Atto Senato 2208, esso è stato già approvato, sostanzialmente all'unanimità, dalla Camera dei deputati. Si tratta delle disposizioni per la tutela degli autori di segnalazioni di reato, attraverso cui vorremo introdurre una maggiore tutela per gli autori di segnalazioni di reato. Mi dica lei, signor Presidente, se non è attuale una normativa di questo tipo, dopo lo scandalo Consip</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg52">e il trattamento che è stato riservato a Marroni.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg53">Abbiamo poi segnalato due mozioni: la n. 803, a prima firma del senatore Girotto, sui rincari conseguenti alla riforma delle tariffe sulla distribuzione elettrica, e la n. 445, a prima firma del senatore Santangelo, relativa alla zona franca per l'isola di Pantelleria e le isole minori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FALANGA (ALA-SCCLP)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u16">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg54">Signor Presidente, chiediamo di inserire nella settimana dal 1° al 3 agosto il proseguo della discussione del disegno di legge di modifica al codice delle leggi antimafia, ovvero il provvedimento che si dovrebbe esaminare da qui a qualche attimo. Il ritorno in Commissione del provvedimento non è possibile; lo ha detto la Presidenza e lo ha riconosciuto anche il senatore Quagliariello: ciò è tecnicamente impossibile. Il problema lo possono risolvere soltanto i signori relatori del provvedimento. Conoscendo la nota sensibilità dei senatori Lumia e Pagliari, sono convinto che essi non sono affatto insensibili agli "schiaffi" - metaforicamente parlando, si intende - che stanno raccogliendo in queste ore dalla dottrina giuridica italiana, dalla magistratura italiana, da tutto il mondo della cultura italiana e dai cittadini italiani. Non credo che essi siano insensibili a tali "schiaffi" e sono convinto che vorranno avere il tempo necessario per modificare, eventualmente, il provvedimento. Il tempo serve anche al Gruppo di Alternativa popolare, alla senatrice Bianconi, agli amici di Alternativa popolare, che si sono accontentati di un intervento di chirurgia plastica - come dicevo proprio ieri in un'intervista ad un quotidiano - laddove era necessario un intervento di chirurgia oncologica. Non è possibile immaginare di aver risolto il problema con quel collegamento, tra l'altro malfatto, con l'articolo 416 del codice penale, laddove si sono oltre tutto lasciati fuori delitti che possono essere commessi anche senza la forma associativa. Credo che questi trenta giorni possano essere di aiuto ai signori relatori per tentare un intervento chirurgico al testo in esame, che veda i favori, non dico di tutti, di molti o di questa parte politica, ma quanto meno della dottrina italiana, della magistratura italiana, di Cantone e di tutti quegli esponenti che amministrano la giustizia e si rendono conto che il provvedimento, così come è, andrà a creare sconquasso in quel sistema giurisprudenziale, ormai perfetto, che si è creato negli anni per effetto dell'applicazione delle misure di sorveglianza. Tutti riconoscono che si è creato un assetto equilibrato, puntuale, perfetto, incisivo ed efficace. Vi rendete conto che la norma in esame andrà a incidere sull'equilibrio che si è creato? E come? In peius. Sono convinto - l'ho detto in varie sedi - che in Senato non vi è alcuna forza politica che non voglia collaborare a realizzare un contrasto efficace alla criminalità organizzata. Tuttavia, deve essere messa da parte la gara a chi porta l'asticella più in alto non già per uno scopo di reale contrasto alla criminalità, ma per portare una bandiera che non va nella direzione dell'affermazione dei principi di legalità nel nostro Paese, ma che, anzi, nella confusione potrà favorire ancora di più la criminalità organizzata. Per queste ragioni, signor Presidente, le chiedo di inserire nel calendario dei lavori dell'ultima settimana il tema che stiamo trattando. PRESIDENTE. Qual è il tema che stiamo trattando? FALANGA (ALA-SCCLP). Nei trenta giorni di tempo a disposizione i senatori Pagliari e Lumia avranno la sensibilità di capire che devono correggere il tiro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Barani, Bernini e D'Anna.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CALIENDO (FI-PdL XVII)</note>
+            <u ana="#regular" who="#CaliendoGiacomo" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u17">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg55">PRESIDENTE. Avverto che chi parla per la prima volta per il proprio Gruppo ha dieci minuti di tempo a disposizione, mentre chi interviene per la seconda volta per lo stesso Gruppo che ha già avanzato le sue richieste di modifica ha due minuti.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg56">Senatore Caliendo, ha facoltà di parlare.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg57">Signor Presidente, chiedo in parte quanto già avanzato dal presidente Romani, ma collegandomi al secondo argomento. Credo che tutti noi abbiamo il dovere, morale e politico, di tener conto di quanto è stato detto negli ultimi giorni dal professor Fiandaca, da Sabino Cassese e da Raffaele Cantone. Non mi riferisco a quanto ha già richiamato il presidente Romani. Signor Presidente, noi abbiamo un dovere che ci richiama Violante, il quale ci invita a fermarci a riflettere e ci ricorda il procedimento seguito per l'esame della cosiddetta legge Rognoni-La Torre, durante il quale ci fu un approfondimento per gradi successivi. Qual è la cosa che mi preoccupa e dovrebbe preoccupare tutti noi? Ci sono due aspetti segnalati da Cassese e Cantone, che non rappresentano la mia area politica. Una prima questione riguarda l'incostituzionalità, richiamata da Cassese. Quel che mi preoccupa di più è il richiamo fatto da Cantone al Parlamento affinché tenga conto che una mancata riflessione e l'approvazione del testo così com'è possono portare a porre in forse o a riconsiderare le affermazioni della Corte europea dei diritti dell'uomo e della Corte costituzionale che hanno salvato le misure di prevenzione antimafia, che invece non possono essere più salvate e potrebbero essere inglobate in una dichiarazione d'incostituzionalità. PRESIDENTE. Concluda, senatore Caliendo. CALIENDO (FI-PdL XVII). Presidente, vorrei dire solo che questo quindi giustifica il ritorno in Commissione, o un rinvio, come lei dice. Mi consenta di dire a proposito - e mi rivolgo anche alla maggioranza - che non si vince con i numeri. Potremmo iniziare sin da oggi l'esame del disegno di legge sullo ius soli e avere un tempo necessario che, ancorché contingentato, sia meno drastico di quello che ho sentito: se ho sentito bene, infatti, sono previste dieci ore comprensive delle eventuali questioni incidentali e la discussione generale e cinque ore per l'esame degli emendamenti. PRESIDENTE. Avanzi la sua richiesta, per favore, senatore Caliendo. CALIENDO (FI-PdL XVII). La mia richiesta è di anticipare a oggi l'esame del provvedimento sullo ius soli, aumentando il tempo draconiano fissato con il contingentamento.</seg>
+            </u>
+            <note type="speaker">PICCOLI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PiccoliGiovanni" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u18">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg58">Signor Presidente, prendo atto che, a quanto pare, il disegno di legge sul distacco del Comune di Sappada dalla Regione Veneto e sul suo trasferimento alla Regione Friuli-Venezia Giulia è scomparso dai radar dei lavori del Senato. Ora, questo disegno di legge - il n. 951 - è già stato largamente istruito e quindi, per così dire, non parte da zero. Vorrei pertanto proporne l'anticipazione rispetto a ogni altro tipo di provvedimento, anche perché, nel formulare questa proposta, ritengo che la conclusione del suo esame potrebbe impiegare l'Aula davvero per poco tempo. La motivazione di fondo è che, diversamente, da un lato, perderemo una grande occasione di manifestare la credibilità del Parlamento nei confronti dei cittadini e, dall'altro, non onoreremo il nostro impegno di dare una risposta. Qualunque essa sia, è importante che i cittadini di Sappada - e tutti i cittadini della provincia di Belluno insieme a loro - possano avere una risposta precisa. La mia proposta è quindi di anticipare quella che di fatto è la conclusione della trattazione di quest'argomento rispetto alla prosecuzione dei lavori di oggi pomeriggio.</seg>
+            </u>
+            <note type="speaker">DI MAGGIO (GAL (DI, GS, MPL, RI))</note>
+            <u ana="#regular" who="#DiMaggioSalvatoreTito" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u19">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg59">Signor Presidente, credo che tutto l' iter affrontato dal provvedimento sul codice antimafia racconti quanto sta avvenendo anche in Aula oggi. Abbiamo provato in tutti i modi a emendare il testo, per fare in modo che il codice antimafia fosse il più condiviso possibile, ma, come avete potuto notare anche voi durante il dibattito che ha avuto luogo in Aula, il sentimento che alberga all'interno della maggioranza è completamente diverso da quello delle opposizioni. Se i risultati dell'applicazione di questo disegno di legge dovessero ricadere soltanto sulla maggioranza, allora direi di discuterne, parlarne e fare le dichiarazioni di voto; purtroppo, non è così: l'effettiva applicazione di questo disegno di legge ricadrà sul tessuto sociale del nostro Paese e questa è una cosa che non possiamo assolutamente permettere, anche alla luce del dibattito che si è aperto su questa vicenda, in occasione del quale autorevoli giuristi hanno sottolineato l'inadeguatezza del disegno di legge. Il nostro Gruppo si associa quindi alla richiesta di rinvio del provvedimento, nelle forme che la Presidenza riterrà eventualmente più opportune. Auspichiamo peraltro che non ci sia soltanto un rinvio - perché se fosse fine a se stesso avrebbe poco significato - ma che questo abbia la forza e la capacità di rivedere tutta la normativa compresa all'interno del disegno di legge in maniera da poterla rendere molto più adeguata al fine che tutti quanti, maggioranza e opposizione, sottoscriviamo.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u20">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg60">PRESIDENTE. Chiede di intervenire sull'ordine dei lavori? Avverto che stiamo già cercando di organizzare i lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg61">Infatti, signor Presidente, probabilmente c'è un misunderstanding : il mio intervento è un richiamo al Regolamento, non è sull'ordine dei lavori. PRESIDENTE. Ne ha facoltà. PALMA (FI-PdL XVII). Signor Presidente, è già accaduto diverso tempo fa, all'inizio della legislatura, che ella, proprio con riferimento alle discussioni sul calendario dei lavori, abbia immaginato di percorrere una strada simile a quella che ci sta proponendo adesso. A dire la verità, ritengo che i Regolamenti debbano essere rispettati e che le regole stabilite nei Regolamenti e nelle norme siano poste a tutela sia della funzione del senatore, sia, principalmente, della funzione dei senatori di opposizione. Signor Presidente, non riesco a comprendere bene quale fonte regolamentare assista il suo dire. L'articolo 89, comma 2, del Regolamento dice che «Salvi i diversi termini previsti dal Regolamento, la durata di qualsiasi altro intervento non può eccedere i dieci minuti». Il che equivale a dire che ogni senatore, nelle proposte di modifica del Regolamento, ha dieci minuti di tempo per l'illustrazione; tempo, questo, che non può essere in alcun modo compresso, essendo specifica la disposizione «salvi i diversi termini previsti dal Regolamento». Inoltre, all'articolo 55, se non ricordo male, si dice che, salvo quando il calendario è approvato all'unanimità, cosa che lo fa diventare definitivo, sul calendario vi sono le proposte che vengono avanzate dai singoli senatori. Su queste proposte interverrà un oratore per Gruppo per il tempo di dieci minuti. Il che equivale a dire che siamo in presenza di una fase sdoppiata: la prima, quella delle proposte avanzate dai singoli senatori; la seconda, quella in cui i Gruppi, attraverso l'intervento di un oratore per Gruppo, se lo ritengono, manifestano il loro pensiero. Pertanto, signor Presidente, nell'illustrazione delle proposte, il Regolamento garantisce a ogni senatore il tempo di dieci minuti; evidentemente è il tempo massimo, lasciando al buon cuore dei senatori la possibilità di limitare i propri interventi a un tempo più ristretto. D'altra parte, signor Presidente, mi scusi, che senso avrebbe che tre senatori possano parlare per dieci minuti e altri senatori per due minuti, un minuto, tre minuti? E chi stabilisce che sia un minuto, due minuti, tre minuti, quattro minuti? Personalmente, signor Presidente, credo che lei non possa in alcun modo comprimere il tempo di intervento dei senatori, peraltro in una maniera particolarmente rilevante, portandolo da dieci a due minuti, e che debba consentire a ogni senatore di illustrare la propria proposta per il tempo che gli viene garantito dal Regolamento. Vede, signor Presidente, mi rendo conto di tutto, ma probabilmente, per l'attività pregressa, penso che se le regole non vengono rispettate o vengono lasciate alla sensibilità discrezionale di taluni, quelle regole sostanzialmente non esistono più. In un consesso come questo, in cui vi è una maggioranza e un'opposizione, la compressione dei tempi va tutta a svantaggio dei senatori delle opposizioni; con un'ulteriore aggravante, essendo il Senato rimasto in vita all'esito del referendum del 4 dicembre: che tutto questo vale come precedente. Il che equivale a dire che se, per ipotesi, un domani, nella prossima legislatura, le parti - come io penso - si dovessero invertire, sarà semplice per taluno andare a comprimere oltre misura i diritti dell'opposizione facendo leva su un precedente anomalo che a me pare essere in contrasto sia con l'articolo 89 che con l'articolo 55 del Regolamento. Pertanto, signor Presidente, non essendo detto da nessuna parte che ogni senatore che intenderà intervenire utilizzerà fino in fondo il tempo di dieci minuti che gli viene garantito dal Regolamento, ritengo che la sua linea di non concedere più di due minuti sia contraria al Regolamento e conseguentemente le chiedo di revocarla, per consentire che gli interventi possano essere regolarmente corretti.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u21">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg62">Senatore Palma, mi ha fatto piacere che lei abbia ricordato il precedente applicato proprio in quest'Aula e in questa legislatura. Ci sono però precedenti che risalgono al 2007, e da allora per dieci anni, in cui anche i miei predecessori hanno utilizzato questo sistema di armonizzazione della discussione. Come lei ha detto, un oratore per Gruppo ha pienamente titolo ai dieci minuti; gli altri invece possono intervenire secondo l'armonizzazione che il Presidente ha l'obbligo di fare per mantenere l'ordine dei lavori. Quindi, poiché ora il tempo ancora di più va armonizzato, soprattutto dopo il suo intervento, i prossimi interventi dello stesso Gruppo saranno di un minuto.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti e proteste dal Gruppo FI-PdL XVII.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">BERNINI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#BerniniAnnaMaria" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u22">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg63">Signor Presidente, prima... PRESIDENTE. La prego di illustrare la richiesta di modifica. Sono ben dieci i senatori dello stesso Gruppo che si sono iscritti a parlare. Prego, senatrice Bernini. BERNINI (FI-PdL XVII). Prima di tutto, signor Presidente, intervengo sull'ordine dei lavori. Ritengo, mi perdoni, signor Presidente, con tutto il rispetto...</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u23">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg64">Devo dire che è chiuso l'ordine di iscrizione agli interventi. Il senatore Mario Mauro e il senatore Centinaio, in quanto Capogruppo, sono gli ultimi ad essere iscritti. Non si accettano altre iscrizioni a parlare.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo FI-PdL XVII.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">BERNINI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#BerniniAnnaMaria" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u24">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg65">Signor Presidente, questa ulteriore armonizzazione mi sembra fortemente prevaricante nei confronti dei diritti dell'opposizione. Mi rendo conto del fatto che l'opposizione possa essere sgradevole e possa arrecare ritardi...</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg66">PRESIDENTE. No, si tratta di fare un ordine dei lavori, per cui deve intervenire sulla modifica del calendario.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg67">Signor Presidente, almeno un minuto ce lo conceda, perché mezzo minuto non ci consentirebbe nemmeno di dirle "grazie, Presidente" e di rivolgerci ai colleghi. Questo mi sembra veramente eccessivo. Signor Presidente, le ripeto, esistono delle prerogative dell'opposizione rispetto alle quali lei deve fare un equo bilanciamento nella gestione dell'ordine dei lavori e dei lavori d'Aula. Questo, a mio avviso e ritengo anche ad avviso del mio Gruppo, non è un equo bilanciamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Rizzotti.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg68">Dieci interventi possono essere attuati senza alterare i lavori e senza alterare il calendario, soprattutto a fronte di un calendario che prevede domani un draconiano contingentamento dei tempi su un provvedimento importante quale quello sulla cittadinanza.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg69">Signor Presidente, le ripeto ancora una volta, ritengo sia un nostro diritto, in quanto membri dell'opposizione, intervenire non...</seg>
+               <incident type="sound">
+                  <desc>Il microfono si disattiva automaticamente.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg70">RIZZOTTI (FI-PdL XVII). Vergogna! BERNINI (FI-PdL XVII). Signor Presidente, lasci fare alla maggioranza il suo mestiere, non comprima in maniera eccessiva i diritti dell'opposizione. Questo è veramente troppo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg71">Le ricordo, signor Presidente, la sua terzietà. Questo è veramente troppo. Ci consenta di parlare, ci consenta di esprimere quanto vogliamo esprimere, a fronte di provvedimenti, quale quello sul codice antimafia, che sta suscitando - come hanno ricordato i miei colleghi - profonde perplessità, non solamente in quidam de populo, cioè in persone che non hanno competenza nella materia, ma anche in persone come presidenti emeriti della Corte costituzionale o giuristi esimi come il professor Fiandaca. Si stanno sollevando movimenti fortemente critici su un provvedimento che si sta portando avanti a una velocità supersonica. Basta seguire la letteratura, anche se solo giornalistica, di questi giorni. Presidente, se non faremo qualcosa sul provvedimento, purtroppo ci troveremo a leggere ben altra letteratura nei prossimi mesi e anni e di questo saremo tutti responsabili. Il provvedimento sul codice antimafia e quello sulla cittadinanza saranno fortemente influenzati dalla capacità dell'opposizione di produrre tutti i suoi effetti d'opposizione in questa Assemblea. Presidente, dove dobbiamo parlare dei provvedimenti se non in questa sede? Ci vuole cortesemente indicare una sede che non sia quest'Aula parlamentare dove parlare con lei e la maggioranza di questi provvedimenti? Dobbiamo scrivere degli articoli sui giornali? A chi ci dobbiamo appellare per esprimere le nostre posizioni? Presidente, questi tempi non sono sufficienti e non considero questa estensione di tempo per parlare legata alla mia persona uno strumento sufficiente per manifestare tutta la nostra contrarietà rispetto a quanto deciso dalla Capigruppo e rispetto a ciò che sarà celebrato all'interno di quest'Aula. PRESIDENTE. Ha parlato per quattro minuti e non ha fatto che ribadire cose già dette senza un'ulteriore richiesta di modifica del calendario. BERNINI (FI-PdL XVII). Se mi lascia parlare ancora, vorrei specificare la modifica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Marin</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg72">PRESIDENTE. Faccia la proposta, altrimenti le tolgo la parola. Mi dispiace.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg73">CENTINAIO (LN-Aut). Ma cosa vuole dimostrare? BERNINI (FI-PdL XVII). Presidente, mi scusi, ma crede di gestire un asilo di infanzia? Come si permette di dire che mi toglie la parola?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u25">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg74">Sono quattro anni che il provvedimento è in discussione, prima alla Camera e poi al Senato: un anno e otto mesi in discussione al Senato; dobbiamo discutere del provvedimento nel merito nel momento di modifica del calendario, è questo che lei dice?</seg>
+            </u>
+            <note type="speaker">BERNINI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#BerniniAnnaMaria" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u26">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg75">Presidente, visto che lei sta facendo la negotiorum gestio della maggioranza, le ricordo che il provvedimento è rimasto fermo in Commissione perché la maggioranza non ha voluto calendarizzarlo. PRESIDENTE. Io non faccio nessuna negotiorum gestio; io applico il Regolamento. MALAN (FI-PdL XVII). In Commissione non se n'è parlato. PRESIDENTE. Faccia la sua richiesta di modifica del calendario, per favore. BERNINI (FI-PdL XVII). Presidente, visto che, come lei giustamente ricordava, ci troviamo di fronte non a un decreto-legge, ma a un disegno di legge che è rimasto fermo per anni in Commissione e sulla cui assenza di necessità e urgenza ritengo che tutti, maggioranza, Commissione e lei medesimo, potremo convenire, vorrei che nel calendario fosse anticipato rispetto al provvedimento sulla cittadinanza quello sui vaccini, che ha anche la caratteristica del decreto-legge e che sicuramente domani sarà pronto in Commissione. Inoltre, rispetto al suo contenuto vi saranno forti influenze e cointeressenze anche con il provvedimento sulla cittadinanza, dal momento che i minori non accompagnati che metteranno piede nel nostro Paese in ogni modo e che potranno accedere all'istruzione primaria e secondaria potranno anch'essi essere vaccinati. Per questo motivo e vista la natura urgente del decreto che si sta discutendo nella competente Commissione, ritengo che questo debba essere anticipato in calendario sia rispetto al provvedimento sulla cittadinanza sia rispetto al provvedimento definito codice antimafia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg76">PRESIDENTE. Come sa, i decreti-legge non hanno bisogno di essere anticipati perché hanno la precedenza assoluta non appena finiti in Commissione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg77">Presidente, le sue precisazioni sono sempre illuminanti. La ringrazio. PRESIDENTE. Lo sa meglio di me che i decreti-legge non hanno bisogno di essere anticipati.</seg>
+            </u>
+            <note type="speaker">RIZZOTTI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#RizzottiMaria" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u27">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg78">Signor Presidente, mi associo a tutto ciò che ha detto la senatrice Bernini. Vorrei ricordare che il 22 luglio a Salerno ci sarà la giornata mondiale della sindrome di Sjögren, una malattia autoimmunitaria che colpisce più di 20.000 cittadini italiani. Il 17 dicembre, nella seduta n. 153, ho presentato una mozione per la considerazione della sindrome di Sjögren nell'elenco delle malattie rare, che purtroppo non è stata inserita nei LEA. In Europa l'Eurordis ha inserito questa malattia nel gruppo delle malattie rare (le connettiviti), che comprende sclerosi sistemica, malattie del tessuto connettivo, polimiositi, dermatomiositi, antifosfolipidi, lupus eritematoso sistemico e sindrome di Sjogren. Come ho detto, la mozione di cui sono prima firmataria risale al 17 dicembre 2013; pertanto, visto che il 22 luglio saranno presenti a Salerno tutte le personalità e le società scientifiche mondiali, mi piacerebbe molto che la discussione di questa mozione venisse anticipata, e quindi calendarizzata, per poter dare un senso di aiuto e di vicinanza alle 20.000 persone che devono pagarsi medicinali costosissimi, senza considerare la qualità terribile della loro vita. Perlomeno che il Senato della Repubblica per il 22 luglio possa riconoscere loro questa grave disabilità e ricordarli.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatore Romani Paolo.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FLORIS (FI-PdL XVII)</note>
+            <u ana="#regular" who="#FlorisEmilio" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u28">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg79">Signor Presidente, come ha detto precedentemente la mia collega Bernini, mi dispiace che lei utilizzi il potere che ha in quest'Assemblea per limitare una discussione che noi vorremmo la più pacata possibile sull'argomento clou di questa fase della legislatura. Comunque sia, poiché devo avanzare una proposta di modifica del calendario dei lavori, sarei comunque intervenuto per sollecitare la mozione presentata da me come primo firmatario, ma con la firma di tanti altri colleghi, riguardante la scrittrice Grazia Deledda che, come lei sa, è premio Nobel (assegnato nel 1926 e consegnato nel 1927). Quest'anno sono novant'anni che la Deledda ha ritirato il premio Nobel. Dispiace che all'unica donna italiana premio Nobel per la letteratura non venga dedicato un tempo sufficiente - lo dirò quando si discuterà la mozione in Assemblea - per l'insegnamento nelle nostre scuole, soprattutto nelle scuole medie e superiori, ragion per cui ritengo di doverlo sostenere fortemente in quest'Assemblea, come hanno fatto l'onorevole Centemero e tanti altri colleghi nell'Assemblea della Camera votando all'unanimità una mozione simile. Gradirei che tale mozione venisse inserita prima del 4 agosto per poter poi essere eventualmente discussa in Assemblea e naturalmente presentata al Ministro.</seg>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u29">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg80">Signor Presidente, vorrei ricordare che il provvedimento sullo ius soli non è stato trattato in Commissione, a meno che per trattare si intenda dire fare quattro chiacchiere, ma la Costituzione dice «esaminato», e l'esame parlamentare o è una pagliacciata - e questo non dovremmo essere noi a propugnarlo - oppure deve essere un esame con votazioni. Degli emendamenti presentati - pochi o tanti che siano - ne sono stati votati tre, dedicando a questo esame un'ora negli ultimi quindici mesi. Ecco un buon motivo per giustificare la proposta che mi appresto a fare. Secondo punto: la legge sul codice antimafia sta causando una serie di interventi autorevolissimi che ci informano del possibile pericolo che rappresentano le norme in esso contenute sia per la lotta alla mafia sia per la lotta alla corruzione. Questo è stato detto da autorevolissimi esponenti con grande esperienza nella magistratura, nello studio del diritto, nello studio della Costituzione. Di fronte al fatto che il Parlamento europeo dedica una seduta alla questione dell'immigrazione - qualcuno curiosamente la ritiene disgiunta dalla questione della cittadinanza per gli immigrati; il senatore Mirabelli dice che non c'entrano nulla: evidentemente la legge sullo ius soli è dedicata soltanto agli italiani che, per qualche ragione, non hanno la cittadinanza italiana - che il Governo italiano minaccia di chiudere i porti, che ci si mette in conflitto con l'Europa e si propone all'Unione europea di prendere provvedimenti drastici contro la Polonia, la Repubblica ceca e l'Ungheria, noi qui vogliamo anticipare questa legge assurda che incentiva un ulteriore aumento del già pauroso numero di persone che vengono sulle nostre coste, fatte prelevare attraverso le ONG, e a volte anche senza questo tramite, dal Comando della nostra Guardia costiera, dimostrando una totale insensibilità ed anche una certa incoerenza: si va in Europa a chiedere una cosa e poi in Parlamento si accelera per ottenerne un'altra. La mia proposta, signor Presidente, è di posticipare a settembre l'esame di entrambi i provvedimenti che ho citato sia per una questione di merito, sia perché ho l'impressione che qualcuno voglia usare questi due provvedimenti come strumenti per mettere in difficoltà il Governo. Noi dobbiamo approvare le leggi se sono buone e respingerle se sono cattive, e non inserirle in calendario per mettere in difficoltà il Governo: io sono ben contento che il Governo sia in difficoltà, ma non deve essere questo il modo in cui lo si mette in difficoltà. Bisogna metterlo in difficoltà, eventualmente, sulle sue politiche, ma non con disegni di legge che non hanno nessun carattere d'urgenza e che non sono stati esaminati in Commissione - mi riferisco alla legge sulla cittadinanza - o di cui viene denunciata la pericolosità dai più importanti esponenti della lotta alla corruzione e alla criminalità organizzata.</seg>
+            </u>
+            <note type="speaker">GIOVANARDI (FL (Id-PL, PLI))</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u30">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg81">Signor Presidente, la mia proposta è di anticipare due provvedimenti che mi sembra abbiano un consenso generale: il disegno di legge sull'aggregazione del Comune di Sappada alla Regione Friuli-Venezia Giulia, una risposta che quelle popolazioni attendono dalle istituzioni, e la legge sulla lingua italiana dei segni. E ciò anche per prendere tempo rispetto ad una questione importante. Quando sento il presidente Luciano Violante (sono stato Vice Presidente della Camera quando lui era Presidente) definire oggi in un'intervista «infantilismo politico» ed «inciviltà del diritto» il testo che ci accingiamo a votare, ho di che preoccuparmi. Non mi risulta, infatti, che Luciano Violante, nella sua storia, sia stato tenero con la mafia o che non si possa considerare uno che ha combattuto in prima linea i fenomeni mafiosi. Come si suol dire, a pensare male si fa peccato ma quasi sempre ci si prende. Mi viene allora da pensare che nella Sicilia pirandelliana (mi citano sempre delle menti raffinatissime quando si parla di mafia), non ci sia qualche mente raffinatissima che pensa, come è stato sottolineato da tutti questi studiosi e dal Presidente della Corte costituzionale, che estendendo anche ad altre materie e disposizioni per il contrasto alla mafia e le leggi speciali, crollino anche le misure speciali contro la mafia, che è giusto che rimangano. È una riflessione che affido a questa Assemblea, perché le menti raffinatissime, quando operano, possono raggiungere i loro obiettivi anche giocando con la buona fede di chi crede invece di fare operazioni giuridiche che però - ricordo - sono state bollate come infantilismo politico ed inciviltà del diritto e dovrebbero pesare sulla coscienza di tutti.</seg>
+            </u>
+            <note type="speaker">MANDELLI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MandelliAndrea" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u31">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg82">Signor Presidente, la mia proposta di modifica del calendario si rifà al momento che stiamo vivendo in Senato: stiamo discutendo del provvedimento sui vaccini, quindi abbiamo puntato un faro sulla sanità. Ho presentato, il 26 ottobre, un atto di sindacato ispettivo che accendeva una luce sulla grave emergenza di sanità pubblica rappresentata dal fenomeno delle resistenze batteriche agli antibiotici, che sono in costante aumento e di cui si stanno occupando diversi soggetti, dall'Organizzazione mondiale della sanità al G8. Si tratta, quindi, di un tema all'ordine del giorno e pensavo che si potesse trovare uno spazio per discutere di questa mia mozione in una delle sedute del martedì dedicate alla discussione di questi temi, proprio approfittando del fatto che in questo momento ci stiamo occupando di un tema di sanità così importante e particolarmente sentito dal Paese, anche per lanciare uno dei principali allarmi della sanità mondiale: nel 2050 si morirà più di infezioni che di tumori. Si potrebbe quindi approfittare di questo momento per calendarizzare nelle sedute del martedì questa mozione che penso, nel momento in cui ci stiamo occupando di un tema di salute così importante, potrebbe avere il rilievo, l'importanza e la risonanza che rappresentano il primo effetto di una discussione in Parlamento: avvisare i cittadini che questo è un grave problema non solo per l'Italia e per l'Europa ma per il mondo. La mia proposta è quindi di calendarizzare per martedì la mozione n. 674, pubblicata il 26 ottobre 2016.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Rizzotti.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MAURO Mario (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MauroMario" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u32">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg83">Signor Presidente, la mia proposta trae spunto da un richiamo già fatto dai colleghi Quagliariello e Giovanardi, che riflette un passaggio frettoloso sulla condizione di un provvedimento che dalla Commissione affari costituzionali torna all'esame dell'Assemblea e che è stato inserito in calendario per i prossimi giorni. Mi riferisco al provvedimento sulla cosiddetta lingua dei segni; un disegno di legge che era stato riportato in Commissione per evidenti e oggettivi problemi di copertura e di coordinamento tra i Ministeri che afferiscono alla natura del provvedimento stesso. In Commissione, per poter arrivare comunque a un risultato spendibile in termini mediatici, con il supporto della Commissione bilancio, il Partito Democratico ha deciso di svuotare il provvedimento della misura economica e di trasformarlo in una legge di cornice di diritti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Rizzotti. Commenti del senatore Russo.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg84">È più che legittimo e io plaudo a questa iniziativa; c'è solo un piccolo problema. Senza soldi, quel provvedimento diventa la negazione di un diritto, perché se si applica alla necessità di far utilizzare la lingua dei segni ai ragazzi nelle scuole afferisce al problema di dover ricreare le classi speciali, e quindi fa fare passi indietro al nostro sistema educativo, impedendo nei fatti che quel diritto possa essere fruito da più di una persone per volta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg85">Per questa ragione credo che, invece di legare in modo ottuso su quel provvedimento o su quello sullo ius soli, che non sono pronti per la discussione in Assemblea, sia meglio per noi procedere mettendo in calendario un confronto oggettivo con il Presidente del Consiglio sui risultati disastrosi che in questi giorni il nostro Governo sta collezionando in sede internazionale e segnatamente in sede europea, dove ci stiamo facendo dire no da tutti (Francia, Spagna e Austria) con risultati disastrosi per le prospettive del nostro Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Rizzotti.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg86">CENTINAIO (LN-Aut). Domando di parlare.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u33">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg87">Ne ha facoltà.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg88">D'ALI' (FI-PdL XVII). Ho domandato di parlare molto prima del senatore Mauro. MALAN (FI-PdL XVII). Io voglio farlo sulla proposta del senatore Mario Mauro, che non ho potuto sentire. PRESIDENTE. Senatore D'Alì, non mi era stato segnalato, adesso però le do la parola. PALMA (FI-PdL XVII). Anche io ho chiesto di intervenire. Il richiamo al Regolamento è una cosa; abbia la bontà di ascoltarmi. CENTINAIO (LN-Aut). Signor Presidente, faccia parlare il senatore D'Alì, aveva alzato la mano prima di me. PALMA (FI-PdL XVII). Io prima ero intervenuto sul Regolamento, adesso invece vorrei avanzare una proposta di modifica del calendario. MALAN (FI-PdL XVII). Anche io voglio intervenire sulla proposta fatta. PRESIDENTE. Senatore Centineo... senatore Centinaio, scusi, è la seconda volta che sbaglio; avverto che la senatrice Stefani è già intervenuta e che lei come Capogruppo può parlare sul complesso delle proposte di modifica del calendario.</seg>
+            </u>
+            <note type="speaker">CENTINAIO (LN-Aut)</note>
+            <u ana="#regular" who="#CentinaioGianMarco" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u34">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg89">No, io devo fare una proposta; ne ho diritto come tutti gli altri senatori, presidente "Grassi".</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg90">PRESIDENTE. Le volevo dire, senatore Centinaio, che la senatrice Stefani ha già fatta una proposta, quindi lei ha due minuti, così come tutti gli altri, per fare la sua proposta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg91">Infatti, signor Presidente, nei miei due minuti volevo chiederle, pescando nel cestino della tombola, a quanti minuti avrei avuto diritto, visto che alcuni hanno avuto diritto a dieci minuti, altri a due, altri a quattro, altri a cinque; a Centinaio è uscito il numero due, quindi va benissimo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg92">Presidente, nei miei due minuti, visto che mi ha dato la parola come Capogruppo prima, le pongo la seguente domanda: perché mi ha dato la parola come Capogruppo e non come senatore "Centineo", come dice lei? Perché, se lei mi ha dato la parola come Capogruppo oggi, qualche giorno fa non me l'ha data, nonostante io l'avessi chiesta per ben sei volte quando abbiamo incardinato in Aula lo ius soli ? Allora, se oggi mi dà la parola come Capogruppo, come ha detto lei, me la doveva dare anche qualche giorno fa. Me la doveva dare!</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u35">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg93">Senatore Centinaio, non voglio proseguire polemiche passate. Aveva chiesto la parola il presidente della Commissione Torrisi e io non avevo notato che lei l'aveva richiesta prima. Le vostre reazioni, comunque, sono state viste da tutti. Non voglio fare polemica inutile e non voglio rivangare il passato.</seg>
+            </u>
+            <note type="speaker">CENTINAIO (LN-Aut)</note>
+            <u ana="#regular" who="#CentinaioGianMarco" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u36">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg94">No, Presidente, anche i filmati mostrano che io avevo chiesto la parola prima del senatore Torrisi e prima che lei desse la parola al senatore Torrisi. Però, Presidente, lei purtroppo - ahimè - gestisce l'Assemblea come fosse il salotto di casa sua e, di conseguenza, riduce i tempi degli interventi dei senatori e decide quali senatori intervengono e quali no.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg95">Io quindi, a questo punto, faccio due proposte e sono le stesse che ho avanzato in Conferenza dei Capigruppo, ma anche in quella sede lei non mi ha voluto ascoltare: la prima proposta, cari colleghi, era relativa al fatto che i senatori del Partito Democratico hanno una riunione e ci hanno chiesto, giustamente, di interrompere i lavori dell'Assemblea in anticipo. Io avevo detto, Presidente, che il dibattito sul calendario sarebbe durato tanto, probabilmente troppo, e ha visto quanto è durato. Di conseguenza, tutto il provvedimento sul Codice antimafia, invece che trattarlo a spizzichi e bocconi velocemente questa sera, avevo proposto di rimandarlo direttamente a domani mattina, finendolo alla velocità della luce. Ma lei fa il sapientone e ha voluto andare avanti.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg96">In secondo luogo, visto e considerato che voi siete come il mago Oronzo, prevedete il futuro e sapete già che ci sarà ostruzionismo parlamentare, avete già previsto di contingentare i tempi della discussione sullo ius soli. Ma chi ha detto che ci sarà ostruzionismo parlamentare? Chi ha detto che ci saranno decine se non centinaia, come ha detto qualcuno, di senatori che interverranno sullo ius soli ? Avete deciso di contingentare tutto. Andate avanti così, a me va bene. Noi proponiamo di eliminare il contingentamento perché in questo momento non serve contingentare i tempi, serve buon senso, cosa che lei, nella gestione di quest'Assemblea, non ha.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u37">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg97">Senatore Centinaio, come lei sa, la necessità di contingentare i tempi è nata in sede di Conferenza dei Capigruppo dalla richiesta di un Gruppo, che non era il suo, che ha preannunciato, correttamente, qual era l'intenzione del Gruppo su un determinato provvedimento. Lei lo sa benissimo perché era presente quindi non cambi la realtà delle cose.</seg>
+            </u>
+            <note type="speaker">D'ALI' (FI-PdL XVII)</note>
+            <u ana="#regular" who="#DAliAntonio" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u38">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg98">Signor Presidente, chiedo di inserire nel calendario della giornata di domani l'audizione del ministro dell'economia Padoan su un fatto gravissimo, che forse i colleghi avranno appreso dalla stampa ma senza dargli la dovuta importanza, che si è verificato la settimana scorsa quando la Corte dei conti siciliana ha bocciato per la prima volta nella storia dell'autonomia regionale siciliana, quindi dal 1946 ad oggi, il bilancio predisposto dalla Regione. Poiché è un fatto che ha rilevanza politica ed economica sostanziale sull'intero Paese, signor Presidente, le chiedo che nella giornata di domani il Ministro dell'economia venga a riferire su quanto accaduto e soprattutto sulle motivazioni per le quali il bilancio della Regione Siciliana è stato redatto a pochi mesi di distanza da una sbandierata convenzione, da uno sbandierato accordo economico tra il Governo nazionale e lo stesso governo regionale. Ieri la Corte dei conti ha detto che quel bilancio è fasullo. Del resto, quando non si certifica un bilancio, sia che a farlo sia una società di revisione o un organo importantissimo come la Corte dei conti, è chiaro che il bilancio in questione è fasullo. Infatti lo è perché mancano alcune poste che ne avrebbero ulteriormente evidenziato la tragicità. Apprendiamo quindi che i siciliani hanno 8 miliardi di debiti, circa 1.500 euro ad abitante, e che questo Governo ha aumentato in cinque anni del 41 per cento le passività della Regione Siciliana. Credo che questo sia un argomento di interesse dell'intera Nazione per le influenze che può avere sul bilancio e sulla politica nazionale, visto che la Regione potrebbe essere immediatamente commissariata. Infatti, se fosse confermato in questa settimana il giudizio di negatività e di non procedibilità per quel bilancio, bisognerebbe immediatamente commissariare la Regione Siciliana e sarebbe una sorta di nemesi storica sulla miriade di commissariamenti con cui questo governo regionale ha gratificato la società e le istituzioni siciliane. PALMA (FI-PdL XVII). Domando di parlare.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u39">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg99">Senatore Palma, chiede di intervenire sul calendario dei lavori? Perché prima ha chiesto di intervenire sull'ordine dei lavori e poi per un richiamo al Regolamento.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u40">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg100">Intanto vorrei essere chiaro, perché la sua ricostruzione non è aderente ai fatti. Ho chiesto di parlare per una proposta di modifica al calendario dei lavori. Successivamente ho chiesto di parlare per un richiamo al Regolamento.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg101">PRESIDENTE. Sul richiamo al Regolamento è già intervenuto.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg102">Una cosa non esclude l'altra. Le dico anche, Presidente, che appena ho finito di intervenire sul calendario, probabilmente le chiederò di riparlare sul Regolamento. Ho già accennato a quel precedente dell'inizio della sua Presidenza qui al Senato, perché lo ricordo bene. PRESIDENTE. Interviene su una proposta di modifica del calendario o sul precedente avvenuto in Senato? PALMA (FI-PdL XVII). Volevo solo ricordarle, Presidente, che ricordavo bene quel precedente, perché, all'esito di una discussione accesa, mi venne inflitta una sanzione inesistente che poi all'unanimità venne revocata. Detto questo, Presidente, mi pare che per la seduta antimeridiana del 18 luglio sia stata prevista la discussione di una mozione sul nucleare, ma credo che tale mozione, alla luce di quanto sta accadendo nel panorama mondiale, meriti una forte anticipazione. Ritengo quindi che debba essere trattata il prima possibile. Conseguentemente, la mia proposta di modifica del calendario va nel senso di dare la precedenza alla mozione sul nucleare, inserendone la discussione anche alla fine della trattazione del provvedimento sul codice antimafia.</seg>
+            </u>
+            <note type="speaker">BIANCONI (AP-CpE-NCD)</note>
+            <u ana="#regular" who="#BianconiLaura" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u41">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg103">Signor Presidente, sono una passista e normalmente mi piace mettere un piede davanti all'altro per riuscire ad arrivare alla meta. Lei avrà capito molto bene - quindi mi appello alla sua saggezza - che in questa maniera non riusciremo più a mettere un passo davanti all'altro. Tra un po' saranno le ore 19 e dovremo interrompere i nostri lavori, perché così è stato chiesto da un Gruppo di maggioranza per una propria riunione, e non saremo riusciti né a votare il calendario, né tantomeno ad approvare - come da intendimento suo e della maggioranza - il codice antimafia. Allora, signor Presidente, la prego: abbiamo davanti a noi un mese denso di provvedimenti, tra cui decreti molto delicati in scadenza. Se in quest'Assemblea, attraverso la sua saggia gestione, non si ripristina un minimo di serenità e la capacità di portare a termine i diversi provvedimenti, faremo buchi nell'acqua e non ce lo possiamo assolutamente permettere. La proposta che le faccio, signor Presidente, è la seguente. Intanto questa sera ci faccia votare il calendario dei lavori, concludiamo la seduta d'Aula e domani facciamo quanto previsto, ovvero l'esame del disegno di legge di modifica al codice delle leggi antimafia. Lasciamo il tempo alle Commissioni per compiere il proprio lavoro ed esprimersi sugli emendamenti al provvedimento in materia di vaccini, visto che si tratta di un decreto-legge in scadenza e lasciamo che il ministro Minniti venga a riferire all'Assemblea nella seduta di domani, alle ore 18,30. Dopodiché organizziamo una nuova Conferenza dei Capigruppo, in cui, rasserenati gli animi, possiamo trovare insieme una soluzione possibile per l'Assemblea, per trattare i diversi decreti-legge ed, eventualmente il provvedimento che sta a cuore anche al Partito Democratico, ovvero il disegno di legge in materia di cittadinanza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo AP-CpE-NCD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u42">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg104">Mi pare una proposta ragionevole, che tra l'altro coincide con quella del senatore Centinaio.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Centinaio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg105">Senatore Centinaio, le ho dato atto che coincide con quella...</seg>
+               <vocal type="speaking">
+                  <desc>Reiterati commenti del senatore Centinaio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg106">Come Presidente ho l'obbligo di fare un tentativo di andare avanti nell'ordine dei lavori, secondo quanto ha stabilito la Conferenza dei Capigruppo. Se poi non ci riusciamo, troviamo comunque un modo per andare avanti in maniera serena e saggia, come dice la senatrice Bianconi, ma non come dice lei.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del senatoreCarraro.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg107">Intanto votiamo il calendario.</seg>
+            </u>
+            <note type="speaker">D'AMBROSIO LETTIERI (GAL (DI, GS, MPL, RI))</note>
+            <u ana="#regular" who="#DAmbrosioLettieriLuigi" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u43">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg108">PRESIDENTE. Senatore D'Ambrosio Lettieri, su cosa vuole intervenire? Siamo in fase di votazione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg109">Intendo intervenire sul calendario, signor Presidente.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u44">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg110">Abbiamo concluso gli interventi sul calendario.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Calderoli.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg111">Senatore Calderoli, abbiamo detto che votiamo soltanto il calendario e poi rinviamo: mi pare di essere stato abbastanza chiaro.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg112">Senatore D'Ambrosio Lettieri, dunque su cosa vuole intervenire? Abbiamo concluso gli interventi sulle proposte di modifica del calendario.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg113">Signor Presidente, ho chiesto di intervenire da un quarto d'ora. PRESIDENTE. Chi ha rilevato la sua richiesta di parlare? D'AMBROSIO LETTIERI (GAL (DI, GS, MPL, RI)). Signor Presidente, allora si assuma lei la responsabilità... PRESIDENTE. Mi assumo la responsabilità, perché ho la collaborazione degli Uffici e dei senatori Segretari e nessuno mi ha segnalato il fatto che ha chiesto di parlare da un quarto d'ora. D'AMBROSIO LETTIERI (GAL (DI, GS, MPL, RI)). Benissimo, sappia però che ho chiesto di intervenire da un quarto d'ora. PRESIDENTE. Se i senatori Segretari confermano questa realtà, che non mi è stata segnalata, lei ha ragione di intervenire. Questo è il punto, però non attribuiamo tutte le responsabilità alla Presidenza. Senatore D'Ambrosio Lettieri, ha facoltà di parlare, per due minuti, per illustrare la sua proposta di modifica del calendario.</seg>
+            </u>
+            <note type="speaker">D'AMBROSIO LETTIERI (GAL (DI, GS, MPL, RI))</note>
+            <u ana="#regular" who="#DAmbrosioLettieriLuigi" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u45">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg114">Signor Presidente, lei ha la responsabilità, ma mi permetta di dirle che ha anche il privilegio della conduzione dell'Assemblea.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg115">PRESIDENTE. È un onere più che un privilegio.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg116">Signor Presidente, mi consenta di conferire alla seconda carica dello Stato il prestigio che tutti le riconosciamo, e che lei esprime quando è seduto nello scranno della Presidenza del Senato. Signor Presidente, mi rendo conto che è difficile riuscire a governare l'Assemblea quando ci sono numerosi iscritti a parlare. Abbia però la bontà di convenire su una considerazione. Da ultimo - e lo sottolineo - anche la senatrice Bianconi ha portato degli elementi e delle riflessioni che hanno contribuito a raggiungere un obiettivo, che non è quello di creare, in modo inopinato e irresponsabile le condizioni di una contestazione, di un'opposizione o di un ostruzionismo irresponsabile: è l'esatto opposto. Signor Presidente, sono molti i saggisti e gli opinionisti che hanno discettato sull'arte nobile dell'opposizione in quest'Aula, nella quale i concetti si formano sulla base di un confronto alto, maturo, rispettoso e responsabile. Sulla base di questo, uso trenta secondi per fare la mia garbata proposta, nel convincimento di esprimere in quest'Aula, non un dissenso aprioristico alla calendarizzazione del provvedimento sullo ius soli, ma una posizione di sostegno a proposte coerenti con le sensibilità politiche che appartengono alla mia persona, secondo i doveri inerenti all'esercizio della mia funzione. Mi richiamo a tre articoli della Costituzione: gli articoli 29, 30 e 31, che fanno riferimento al valore della famiglia. In un momento in cui la famiglia rischia di perdere la sua funzione di prima rete di protezione sociale a costo zero e la politica del welfare è fortemente pregiudicata dalle condizioni di crisi, chiedo di inserire nel calendario dei lavori la mozione in tema di famiglia che ho presentato nello scorso mese di dicembre. Con tale mozione si intende impegnare il Governo a destinare una rinnovata attenzione a un istituto costituzionalmente ben individuato e considerato che risente della gravissima situazione di crisi dell'economia del nostro Paese, con risvolti anche di natura demografica, riferiti soprattutto alla natalità. È pertanto auspicabile una rinnovata attenzione da parte di quest'Assemblea nei confronti della tematica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi GAL (DI, GS, MPL, RI), ALA-SCCLP e della senatrice Rizzotti.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u46">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg117">Procediamo con le votazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg118">Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta a rinviare la discussione della ratifica dell'accordo economico-commerciale tra l'Unione europea e il Canada (CETA), avanzata dalla senatrice De Petris.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg119">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg120">DE PETRIS (Misto-SI-SEL). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata. Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta a inserire la discussione del disegno di legge sul distacco del Comune di Sappada dal Veneto e relativa aggregazione al Friuli-Venezia Giulia, avanzata dai senatori Bellot e Piccoli. Non è approvata. CALIENDO (FI-PdL XVII). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. È approvata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII, ALA-SCCLP e LN-Aut</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg121">Il provvedimento sarà inserito in coda al calendario dei lavori della settimana.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg122">CROSIO (LN-Aut). Oggi! PRESIDENTE. Non c'è stata una richiesta specifica.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Falanga</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg123">Verrà inserito nel calendario dei lavori e, casomai, convocheremo la Conferenza dei Capigruppo.</seg>
+            </u>
+            <note type="speaker">BELLOT (Misto-Fare!)</note>
+            <u ana="#regular" who="#BellotRaffaela" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u47">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg124">Signor Presidente, credo che la richiesta fosse molto chiara: inserire il provvedimento sul Comune di Sappada al termine dell'esame di quello sul codice antimafia, qualora questo venga discusso; diversamente, se viene rinviato, che venga subito incardinato quello su Sappada. Quindi, se il provvedimento sul codice antimafia dovesse subire un rinvio, un ritardo o una modifica nella sua calendarizzazione, quello su Sappada dovrebbe essere il primo ad essere esaminato dall'Assemblea. Questa era la richiesta, signor Presidente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u48">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg125">Quindi, in caso di rinvio del provvedimento sul codice antimafia, chiede venga esaminato quello sul Comune di Sappada; ma ancora dobbiamo votare sul rinvio del disegno di legge sul codice antimafia.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg126">Chiediamo che il disegno di legge sul Comune di Sappada sia il primo argomento utile dopo il provvedimento sul codice antimafia, sia nel caso in cui lo si voti sia nel caso in cui lo si rinvii. PRESIDENTE. Votiamo la proposta di modifica del calendario della senatrice Bellot, volta a inserire la discussione del disegno di legge sul Comune di Sappada subito dopo il provvedimento sul codice antimafia. VOCI DAL GRUPPO FI-PdL XVII e LN-Aut. No! No! PRESIDENTE. Non volete votare?</seg>
+            </u>
+            <note type="speaker">PICCOLI (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PiccoliGiovanni" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u49">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg127">Signor Presidente, in ordine al disegno di legge sul Comune di Sappada, la mia proposta è stata di anticiparne la trattazione - e dunque di concluderne l' iter, perché di questo si tratta - rispetto a ogni altro provvedimento in itinere : quindi subito.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII e LN-Aut.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg128">PRESIDENTE. Controlleremo. Siccome c'è una diversa proposta...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo LN-Aut.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg129">Si vota, l'Assemblea è sovrana.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg130">MALAN (FI-PdL XVII). Abbiamo già votato! PRESIDENTE. L'Assemblea ha votato e approvato l'inserimento nel calendario del provvedimento sul Comune di Sappada; il senatore Piccoli ne ha chiesto l'inserimento immediato, mentre la senatrice Bellot ne ha chiesto l'inserimento dopo quello sul codice antimafia, quindi dobbiamo votare.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dai Gruppi FI-PdL XVII e LN-Aut.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u50">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg131">Scusi Presidente, abbiamo votato i calendari una montagna di volte per quattro anni: l'inserimento c'è o non c'è. Non stiamo parlando di una sospensiva, per cui prima si vota la sospensiva e poi la durata della sospensione. L'Assemblea del Senato ha votato l'inserimento in calendario del provvedimento sul Comune di Sappada: venga inserito senza termini. Il Senato non può tornare a votare su un argomento sul quale ha già votato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del Gruppo LN-Aut e della senatrice Simeoni.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg132">Altrimenti, vuol dire veramente ciurlare nel manico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo LN-Aut e della senatrice Rizzotti.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg133">PRESIDENTE. Le alternative sono la proposta del senatore Piccoli...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Calderoli.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg134">Quando votiamo l'inserimento di disegni di legge in calendario senza specificare, poi si deve votare come, quando e dove inserirli nel calendario.</seg>
+            </u>
+            <note type="speaker">GIOVANARDI (FL (Id-PL, PLI))</note>
+            <u ana="#regular" who="#GiovanardiCarlo" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u51">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg135">Signor Presidente, ho chiesto la parola proprio su questo, perché la proposta l'ho fatta io e basta andare a vedere il Resoconto: avevo chiesto di inserire prima i provvedimenti che non suscitano discordie e contrasti, tra i quali ho indicato quello sul Comune di Sappada, sul quale c'è sostanzialmente unanimità, affinché venisse messo all'ordine del giorno prima di quelli che sono divisivi. Questa è stata la mia richiesta. PRESIDENTE. Ho il Resoconto qui.</seg>
+            </u>
+            <note type="speaker">GUERRA (Art.1-MDP)</note>
+            <u ana="#regular" who="#GuerraMariaCecilia" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u52">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg136">Signor Presidente, se parliamo tutti un po' più piano si sente, perché qua non si capisce neanche cosa sta succedendo. Lei ha messo ai voti la proposta di inserimento in calendario: qualunque cosa avessero detto o intendessero dire i colleghi, quella votazione riguardava quello che lei ha detto, cioè l'inserimento nel calendario. Dopodiché, se vogliamo votare qualsiasi altra proposta, si annulla la precedente e se ne fa una nuova oppure la si sovrappone in specificazione, ma sicuramente non si può considerare una votazione che abbiamo fatto a un certo titolo come acquisita a un altro titolo. Mi sembra banale.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u53">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg137">Ci sono due proposte diverse secondo il Resoconto. Prima si vota l'inserimento, dopodiché si vota tra le due proposte, che sono diverse. Leggo dal Resoconto che la proposta della senatrice Bellot è di continuare la discussione del disegno di legge sul Comune di Sappada al termine della votazione del provvedimento sulle leggi di modifica al codice antimafia. Il senatore Piccoli, invece, propone di anticipare la conclusione della trattazione di questo argomento rispetto alla prosecuzione dei lavori di oggi pomeriggio. Quindi c'è una votazione preliminare sull'inserimento e una votazione che bisogna fare sulle due proposte. Così risulta dal Resoconto.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo FI-PdL XVII</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg138">È quindi esatta la prima votazione sull'inserimento, non è un tornare indietro.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg139">CANDIANI (LN-Aut). Piccoli! Piccoli! PRESIDENTE. Per favore, non diamo suggerimenti ad altri senatori</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo LN-Aut</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg140">Queste sono le due proposte, sulle quali si dovrà votare. Siccome è precedente, porrò ai voti per prima la proposta della senatrice Bellot di continuare la discussione del disegno di legge su Sappada al termine della votazione del provvedimento sul codice antimafia.</seg>
+            </u>
+            <note type="speaker">BELLOT (Misto-Fare!)</note>
+            <u ana="#regular" who="#BellotRaffaela" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u54">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg141">Signor Presidente, credo che sia corretto ripetere ciò che ho detto. Ho detto chiaramente «se»: nel caso in cui il provvedimento sul codice antimafia, visti i problemi che ci sono, si chiuda (mancano pochi articoli e pochi emendamenti, ma mi sembra non ci sia la volontà dell'Assemblea), il primo provvedimento in discussione sia quello su Sappada. Non cambia assolutamente nulla, quindi. Il disegno di legge sul Comune di Sappada deve assolutamente essere -questa è la mia interpretazione - portato avanti qualora si rinvii il provvedimento sul codice antimafia e si passi ad un altro argomento oppure ove si concluda. Il primo provvedimento è Sappada.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi della senatrice Rizzotti.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u55">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg142">Chiarissimo, senatrice.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg143">Tra le due proposte votiamo...</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del senatore Maran</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg144">Ho fatto votare l'inserimento; se l'esito fosse stato negativo non saremmo passati alla seconda votazione.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste del senatore Caliendo.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">ROMANI Paolo (FI-PdL XVII)</note>
+            <u ana="#regular" who="#RomaniPaolo" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u56">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg145">Signor Presidente, il misunderstanding può essere dovuto al fatto che lei ha detto «votiamo l'inserimento»; forse in quel momento non ricordava che c'erano due proposte di inserimento. Ma abitualmente si vota... PRESIDENTE. Ma come mi attribuisce questa intenzione? ROMANI Paolo (FI-PdL XVII). Sto cercando di trovare una soluzione. PRESIDENTE. Abbiamo verificato. Cosa sta dicendo? Che non sapevo cosa facevo votare? ROMANI Paolo (FI-PdL XVII). Abbiamo verificato che sono state avanzate due richieste: la prima, quella del senatore Piccoli... PRESIDENTE. Era la seconda. ROMANI Paolo (FI-PdL XVII). La prima, in cui il senatore Piccoli chiedeva di inserire immediatamente il provvedimento su Sappada; la seconda è quella del senatore Giovanardi, che è stata la prima in assoluto. Quindi si votano le richieste di modifica al calendario, non l'inserimento in termini generici..</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Giovanardi</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg146">Senatore Giovanardi, sto dicendo la stessa cosa.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg147">Il voto avvenuto era ovviamente riferito alla prima proposta di modifica del calendario, per l'inserimento del provvedimento al primo punto, come ha chiesto Giovanardi, non l'inserimento in termini generali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u57">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg148">Il senatore Giovanardi ha fatto la terza richiesta. La prima proposta è stata avanzata dalla senatrice Bellot, che ha parlato dopo la senatrice De Petris. GIOVANARDI (FL (Id-PL, PLI)). Era prima! PRESIDENTE. È così. Dopo aver votato l'inserimento in calendario del disegno di legge, metto ora ai voti la proposta volta a discutere il disegno di legge sul Comune di Sappada dopo l'esame del disegno di legge di modifica al codice delle leggi antimafia, avanzata dalla senatrice Bellot. È approvata. FALANGA (ALA-SCCLP). Un momento. Non abbiamo capito. Cosa abbiamo votato? BULGARELLI (M5S). Non sei capace di tenere l'Assemblea! PRESIDENTE. Abbiamo votato la proposta della senatrice Bellot di inserire il disegno di legge su Sappada dopo quello sul codice antimafia. Se poi viene rinviato il provvedimento sull'antimafia, rimane per primo. Ancora dobbiamo votare il provvedimento sull'antimafia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici dal Gruppo LN-Aut.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg149">La votazione è stata effettuata e il Senato ha approvato.</seg>
+            </u>
+            <note type="speaker">ROMANI Paolo (FI-PdL XVII)</note>
+            <u ana="#regular" who="#RomaniPaolo" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u58">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg150">PRESIDENTE. Scusate c'è una votazione che è stata effettuata. Senatore Romani, non possiamo andare avanti così.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg151">Ha facoltà di parlare, senatore Romani.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg152">Signor Presidente, se noi adesso abbiamo votato la proposta della senatrice Bellot, cosa abbiamo votato prima, visto che lei ha sostenuto che la proposta della senatrice Bellot fosse la prima? PRESIDENTE. L'inserimento. ROMANI Paolo (FI-PdL XVII). Scusi, il voto precedente a cosa si riferiva?</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u59">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg153">È talmente chiaro. Il voto precedente, fra due proposte contrastanti sulla data dell'inserimento e sulla collocazione nel calendario, riguardava l'inserimento generico. Una volta approvato l'inserimento si passa alla specifica; ed è stato approvato l'inserimento secondo la proposta della senatrice Bellot.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg154">Dispongo comunque la controprova. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg155">È approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg156">A questo punto, è preclusa l'altra proposta del senatore Piccoli.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg157">Metto ora ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta a rinviare la discussione dei disegni di legge sul codice antimafia e sulla cittadinanza.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo FI-PdL XVII</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg158">PALMA (FI-PdL XVII). Signor Presidente, sono due cose diverse! PRESIDENTE. Sono due rinvii. Va bene, votiamoli separatamente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg159">Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta a rinviare la discussione del disegno di legge di modifica al codice delle leggi antimafia.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg160">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg161">BERNINI (FI-PdL XVII). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata. Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta a rinviare la discussione del disegno di legge in materia di cittadinanza. Non è approvata. GASPARRI (FI-PdL XVII). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata. Passiamo alla votazione della proposta di premettere la discussione del disegno di legge sulla lingua italiana dei segni a quella di altri disegni di legge in calendario. È questa la sua proposta, senatore Quagliariello? QUAGLIARIELLO (FL (Id-PL, PLI)). Sì, signor Presidente. PRESIDENTE. Metto dunque ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta ad anticipare la discussione del disegno di legge sulla lingua italiana dei segni. Non è approvata. GASPARRI (FI-PdL XVII). Chiediamo la controprova. PRESIDENTE. Mi pare che sia evidente, non c'è bisogno di controprova. Prima c'era bisogno, ora no. Passiamo alla votazione della proposta di anticipare la discussione delle mozioni sulla proliferazione delle armi nucleari.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo FI-PdL XVII.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg162">È stato chiesto in questa maniera generica. Le mozioni sul nucleare sono già calendarizzate per il 18 luglio. Poi voteremo in merito a quando tale discussione sarà anticipata. La proposta è del senatore Palma.</seg>
+            </u>
+            <note type="speaker">PALMA (FI-PdL XVII)</note>
+            <u ana="#regular" who="#PalmaNittoFrancesco" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u60">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg163">Signor Presidente, per ragioni microfoniche non si è sentito. Anticipo per me vuol dire: immediata trattazione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u61">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg164">D'accordo. Anticipo significa immediata trattazione delle mozioni sulla proliferazione delle armi nucleari.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg165">Metto dunque ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta ad anticipare la discussione delle mozioni sulla proliferazione delle armi nucleari, avanzata dal senatore Palma.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg166">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg167">Mi pare evidente che non ci sia bisogno di controprova.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg168">Passiamo alla votazione della proposta di inserire la discussione di mozioni. È stata richiesta la discussione di più mozioni. Si vota genericamente sull'inserimento di ulteriori mozioni nel calendario.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg169">RIZZOTTI (FI-PdL XVII). No! PRESIDENTE. Abbiamo sempre votato così; dopo si passerà alle votazioni in merito all'inserimento in calendario delle singole mozioni richieste. Metto ai voti la proposta di modifica del calendario dei lavori dell'Assemblea volta a inserire la discussione di ulteriori mozioni. Non è approvata. ROMANI Paolo (FI-PdL XVII). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata. Metto ai voti la proposta di modifica del calendario del calendario dei lavori dell'Assemblea volta a inserire un'informativa del ministro Padoan, avanzata dal senatore D'Alì. Non è approvata. ROMANI Paolo (FI-PdL XVII). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata. Abbiamo così esaurito tutte le votazioni.</seg>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u62">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg170">C'era la proposta del senatore Mario Mauro, che è stato tra gli ultimi a intervenire, di fare un dibattito su tutto l'argomento dell'immigrazione e della politica estera. PRESIDENTE. Un dibattito sull'immigrazione? Noi inseriamo disegni di legge o mozioni. MALAN (FI-PdL XVII). Infatti, questa è un'altra cosa: è un dibattito. Credo che il senatore Mauro sappia esprimerlo meglio di quanto possa fare io.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (LN-Aut)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u63">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg171">Signor Presidente, intervengo per ricordare la proposta del senatore Centinaio e della senatrice Bianconi rispetto al fatto che, votato il calendario, si chiuda la seduta. Dobbiamo votare anche quello. PRESIDENTE. Non c'è stato dissenso.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u64">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg172">Signor Presidente, avevo chiesto la parola un po' di tempo. Ho fatto tante volte richieste di modifiche del calendario e lei, come sa, ma lo ricordo a tutti, ogni volta faceva votare l'inserimento generico di provvedimenti o di mozioni. Così è sempre stato. È la prima volta che c'è stato il tentativo di dire che si inseriva esattamente al minuto o all'ora specifica. Questo serve a ricordare e riportare nell'ordine la storia di come facciamo le modifiche del calendario. Lo dico a proposito della votazione precedente su Sappada.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u65">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg173">Il problema è che quello su Sappada era l'unico disegno di legge e quindi la relativa proposta di inserimento nel calendario è stata votata. Di solito ci sono più disegni di legge. Poi c'erano problemi su due diverse proposte di inserimento, ma a me pare che tutto si sia svolto secondo le regole e che l'Assemblea sia stata sovrana - come al solito - e abbia votato.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg174">Sulla proposta di rinvio della seduta non mi pare ci siano dissensi. Secondo il senatore Calderoli dobbiamo votare. Nemine contradicente, ho imparato anche questo. Nella mia formazione alla politica, che sto facendo attraverso l'Assemblea, ho imparato che, nemine contradicente, posso rinviare la seduta. Se c'è qualcuno in disaccordo, lo dica, alzi la mano.</seg>
+            </u>
+            <note type="speaker">MAURO Mario (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MauroMario" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u66">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg175">Signor Presidente, desideravo solo comprendere... PRESIDENTE. Colleghi, non vi allontanate perché potrebbe esserci una richiesta di votazione. Prego, senatore Mauro, è in disaccordo? MAURO Mario (FI-PdL XVII). Presidente, desidero solo capire se, non essendo contraddittorio rispetto alla proposta fatta dalla collega Bianconi e dal collega Centinaio, diamo per scontate non solo la chiusura della seduta ma, dopo il nuovo calendario, una riconvocazione della Capigruppo, come mi sembra di comprendere. PRESIDENTE. Assolutamente no. MAURO Mario (FI-PdL XVII). Dobbiamo votare, allora. PRESIDENTE. Io ho detto: se c'è qualcuno che non è d'accordo, dobbiamo votare, ma se nessuno contraddice, come sempre avvenuto, non si vota.</seg>
+            </u>
+            <note type="speaker">SANTANGELO (M5S)</note>
+            <u ana="#regular" who="#SantangeloVincenzo" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u67">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg176">Signor Presidente, tanto la seduta sarà interrotta: sono allora io che mi oppongo, così votiamo e facciamo prima.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u68">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg177">Metto ai voti la proposta di rinviare i lavori a domattina.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg178">È approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg179">Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. È approvata.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u69">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg180">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per le sedute di mercoledì 5 luglio 2017</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.u70">
+               <seg xml:id="ParlaMint-IT_2017-07-04-LEG17-Sed-850.seg181">Il Senato tornerà a riunirsi domani, mercoledì 5 luglio, in due sedute pubbliche, la prima alle ore 9,30 e la seconda alle ore 16,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 18,58).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

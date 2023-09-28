@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 869 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 869 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 869, giorno (2017-08-01)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 869, Day (2017-08-01)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="869-upper">869 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="120" unit="speeches" xml:lang="it">120 discorsi</measure>
+            <measure quantity="120" unit="speeches" xml:lang="en">120 speeches</measure>
+            <measure quantity="12800" unit="words" xml:lang="it">12.800 parole</measure>
+            <measure quantity="12800" unit="words" xml:lang="en">12,800 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=1039983</idno>
+               <date when="2017-08-01">01.08.2017</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="9"/>
+               <tagUsage gi="head" occurs="6"/>
+               <tagUsage gi="note" occurs="90"/>
+               <tagUsage gi="seg" occurs="120"/>
+               <tagUsage gi="u" occurs="36"/>
+               <tagUsage gi="vocal" occurs="23"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="37"/>
+               <tagUsage gi="desc" occurs="60"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2017-08-01">01.08.2017</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente GRASSO</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u1">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg1">La seduta è aperta (ore 11,03). Si dia lettura del processo verbale. FRAVEZZI, segretario, dà lettura del processo verbale della seduta antimeridiana del 27 luglio. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u2">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Preannunzio di votazioni mediante procedimento elettronico</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u3">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg3">Avverto che nel corso della seduta odierna potranno essere effettuate votazioni qualificate mediante il procedimento elettronico.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg4">Pertanto decorre da questo momento il termine di venti minuti dal preavviso previsto dall'articolo 119, comma 1, del Regolamento (ore 11,08).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla situazione in Venezuela</head>
+            <note type="speaker">CASINI (AP-CpE-NCD)</note>
+            <u ana="#regular" who="#CasiniPierFerdinando" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u4">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg5">Signor Presidente, in queste ore stanno arrivando dal Venezuela notizie impressionanti...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg6">Sono notizie impressionanti per tutto il mondo; forse per uno che ha fatto un ululato in quest'Aula non sono impressionanti, ma è uno su più di trecento. Per noi sono impressionanti</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi AP-CpE-NCD, PD, FI-PdL XVII, Misto, Aut (SVP, UV, PATT, UPT)-PSI-MAIE, Art.1-MDP e ALA-SCCLP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg7">Leopoldo Lόpez e il legittimo sindaco di Caracas, Antonio Ledezma, che era agli arresti domiciliari, entrambi esponenti dell'opposizione, sono stati prelevati da casa questa mattina all'alba da forze della polizia bolivarista e non si sa dove siano stati portati.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg8">Vorrei che il Senato, che è stata la prima voce che si è levata per solidarizzare con il Parlamento e con il popolo venezuelano, mandasse un messaggio chiaro: dell'incolumità fisica di questi due esponenti e leader venezuelani è, a pieno titolo, responsabile il presidente Maduro, per tutto quello che potrà succedere nelle prossime ore. Le famiglie, infatti, ci chiedono di lanciare questo appello a difesa dei diritti delle persone e della loro incolumità fisica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi AP-CpE-NCD, PD, FI-PdL XVII, Misto, Aut (SVP, UV, PATT, UPT)-PSI-MAIE), Art.1-MDP, e ALA-SCCLP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg9">Ieri il presidente Gentiloni Silveri e il nostro ministro degli affari esteri Alfano hanno usato parole chiare, limpide e trasparenti. Hanno parlato di deriva totalitaria e dittatoriale, con votazioni imposte al popolo di un'Assemblea costituente che in alcun modo l'Europa e l'Italia riconoscono.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg10">Non voglio turbare l'ordine dei lavori, ma ritengo che l'esserci oggi soffermati qui in Senato a solidarizzare, ancora una volta, con il Parlamento venezuelano, con gli italiani, connazionali, angosciati in queste ore, e con il popolo che sta in piazza contro una dittatura narcomilitare, è un atto che nobilita il Parlamento e la nostra sensibilità internazionale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi AP-CpE-NCD, PD, FI-PdL XVII Misto, Aut (SVP, UV, PATT, UPT)-PSI-MAIE, Art.1-MDP e ALA-SCCLP.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MAURO Mario (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MauroMario" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u5">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg11">Signor Presidente, intervengo per ribadire quanto già accennato dal presidente Casini. Vorrei però che altri, questa mattina, facessero sentire la propria voce e che si levasse la voce del Parlamento italiano a favore dell'incolumità delle persone venezuelane, che peraltro hanno tanti parenti che oggi vivono in Italia. Questa notte la figlia del sindaco Ledezma, che vive in Italia, ha inviato un massaggio a molti di noi. Questo messaggio è particolarmente drammatico, perché contiene il video del rapimento di suo padre, avvenuto solo poche ore fa. Credo sia un atto dignitoso del nostro Parlamento far sentire la voce di ogni Gruppo politico, a tutela non solo dell'incolumità fisica di queste persone, come ha giustamente detto il presidente Casini, ma - soprattutto - del diritto del popolo venezuelano a reali elezioni libere (ripeto: "reali elezioni libere"), così da consentire che non ci sia uno Stato che si senta padrone della loro vita.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-PdL XVII, PD, Misto e GAL (DI, GS, MPL, RI).</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SANGALLI (PD)</note>
+            <u ana="#regular" who="#SangalliGianCarlo" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg12">Signor Presidente, intervengo a nome del Gruppo del Partito Democratico, in assoluta sintonia e assonanza con quanto il presidente Casini ha espresso molto bene in Aula. Negli ultimi tempi abbiamo avuto modo più volte di intervenire nel Senato della Repubblica a proposito del Venezuela, avendo la consapevolezza, che ci veniva dai report di quel Paese, dagli oppositori e dai parlamentari in fuga, che eravamo di fronte a una deriva che avrebbe portato alla guerra civile e alla fine della democrazia e alla dittatura. Eravamo di fronte a una deriva davvero molto pericolosa. Il primo atto che il presidente Maduro ha adottato - lo voglio ricordare al Parlamento della Repubblica - è stato togliere l'immunità ai parlamentari, mettendoli nella condizione di poter essere arrestati per le proprie idee politiche e azione politica e messi in carcere, così da non poter rappresentare il popolo, nonostante l'opposizione abbia la maggioranza nel Parlamento del Venezuela. Adesso si è compiuto un atto finale. Attenzione, perché questi atti portano progressivamente, magari sulla base di ragioni economiche e di una delle più grandi crisi economiche che il Paese ha attraversato (non solo per responsabilità dei Governi che l'hanno governato, ma anche per l'andamento dei mercati internazionali), a una deriva autoritaria e, poi, a una deriva che sempre si chiama fascista. Bene, attenzione, salvaguardiamo le prerogative del Parlamento e ciò che esso rappresenta. Infatti, il Parlamento rappresenta la Nazione e il popolo, ma anche gli stessi concetti di libertà e democrazia. In questo senso, siamo in assoluta sintonia con il presidente Casini e con le parole che ha pronunciato sul Venezuela, terra che a noi sta a cuore per i nostri connazionali, per quel popolo e per le nostre imprese impegnate là, che, come ben si sa, sono tra l'altro riconosciute per gli altissimi livelli, tecnologici e di investimento economico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD e Misto.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BUEMI (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#BuemiEnrico" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg13">Signor Presidente, concordiamo anche noi del Gruppo per le Autonomie - Partito socialista - MAIE con le parole del presidente Casini e degli altri colleghi che sono già intervenuti. Non posso, tuttavia, non richiamare i fatti di questa notte e non ricordare a quest'Assemblea e a tutti noi che queste sono cose che abbiamo già visto: le abbiamo già viste in giro per il mondo, ma le abbiamo viste anche nel nostro Paese (è soltanto di qualche mese fa l'anniversario del rapimento di Giacomo Matteotti e della sua successiva uccisione). Concordo con le parole del presidente Casini nel ritenere, nel caso accadesse qualcosa a questi due esponenti politici dell'opposizione venezuelana, come primo responsabile - almeno per quanto ci riguarda - il presidente Maduro, che sta forzando le normative, anche con l'uso della forza militare, mettendo in discussione i principi fondamentali. Non posso, però, non richiamare alla vostra attenzione, colleghi, il silenzio di due Gruppi parlamentari in quest'Aula, che non hanno applaudito quando il presidente Casini richiamava all'impegno ed alla solidarietà di questa Assemblea nei confronti delle opposizioni e della battaglia popolare venezuelana per la democrazia. Non capisco come certi pezzi della sinistra italiana non si associno a questa battaglia di affermazione di democrazia e di principi di libertà: non ci può essere interesse di bottega, non ci può essere solidarietà con altri Stati che in questo momento in Venezuela giocano una partita magari discutibile da parte di Gruppi politici italiani. Per quanto mi riguarda, non so se il mio futuro sarà ancora di impegno politico in questo Parlamento, ma sarà difficile condividere con loro prospettive politiche che in questo momento li fanno dividere da un impegno solidale di questo Senato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Aut (SVP, UV, PATT, UPT)-PSI-MAIE, PD e AP-CpE-NCD.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ROSSI Luciano (AP-CpE-NCD)</note>
+            <u ana="#regular" who="#RossiLuciano" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg14">Signor Presidente, vorrei dare onore e merito al presidente Casini, che in tempi non sospetti ha già sollecitato il Senato su questo tema così importante e delicato, che riguarda anche nostri connazionali che hanno portato cultura, lavoro, onestà, dignità e tanti esempi di cosa significa essere italiani in quel Paese, così lontano ma nello stesso tempo così vicino. Non c'è dubbio che l'impostazione, prima di Chavez ed oggi di Maduro, che è nata da una protesta senza proposta, ha portato quel Paese, signor Presidente, la ventesima economia al mondo, dotato di straordinaria ricchezza e di grandi opportunità sotto tutti gli aspetti, in una situazione devastata e devastante. Non può continuare così. Credo sia giusto e doveroso che il Senato ed il Governo si impegnino con concretezza nel mandare un messaggio forte e chiaro di vicinanza ai nostri connazionali, ma, nello stesso tempo, anche al presidente Maduro che così non si può andare avanti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo AP-CpE-NCD e del senatore Mauro Mario.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">AMORUSO (ALA-SCCLP)</note>
+            <u ana="#regular" who="#AmorusoFrancescoMaria" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u9">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg15">Signor Presidente, anche a nome del mio Gruppo, voglio ricordare come qualche settimana fa, quando si discuteva in quest'Aula, appunto, delle vicende venezuelane, noi abbiamo sottolineato come la situazione stesse degenerando per quanto riguardava gli aspetti di democrazia, di libertà e di sicurezza in quel Paese. È troppo tempo che anche cittadini di origine italiana sono stati ammazzati, nel silenzio assordante di tante istituzioni, mentre protestavano per difendere i loro diritti e la loro libertà. Oggi noi siamo solidali con quanto detto dal presidente Casini, condividiamo a pieno questo appello e speriamo che la comunità internazionale non sia assente rispetto a ciò che sta avvenendo in Venezuela e che anche il Governo italiano faccia sentire forte la sua voce a difesa della libertà e della democrazia di quel Parlamento e di quel popolo, ma anche a difesa di quella nostra comunità che oggi si sente ancora di più abbandonata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal GruppoALA-SCCLP e del senatore Rossi Luciano.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CORSINI (Art.1-MDP)</note>
+            <u ana="#regular" who="#CorsiniPaolo" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg16">Signor Presidente, è per me del tutto naturale associarmi alle dichiarazioni del presidente Casini e dei colleghi che mi hanno preceduto, anche perché in Commissione affari esteri, tempo fa, abbiamo proposto una risoluzione che è stata portata all'attenzione dell'Assemblea. In tale risoluzione denunciavamo il processo autoritario e totalitario che è appunto in corso in Venezuela. Peraltro, come parlamentari italiani, abbiamo il vantaggio che in quest'Aula sieda il collega Orellana, che in Venezuela ha vissuto a lungo e che giornalmente ci fornisce notizie e ci presenta dati sullo sviluppo della situazione. Qual è il dato veramente impressionante? È il fatto che Maduro sta imponendo non semplicemente un monopolio d'autorità, che espropria il Parlamento delle sue legittime funzioni di rappresentante della volontà popolare ma, per così dire, un monopolio politico che estromette gli avversari e i contendenti dall'arena e dalla scena politica. Oltre al fatto che la storia di questi giorni è costellata di incidenti, di uccisioni, di sparatorie, di interventi che umiliano la dignità umana e la dignità dei singoli soggetti. Dobbiamo anche denunciare un fatto. È in corso, e molti parlamentari ne sono stati vittime, una sorta di mail bombing da parte di nostri connazionali, i quali si ostinano caparbiamente a negare la realtà dei fatti, cioè quella di un Paese martoriato che è sottoposto al processo di affermazione di una dittatura violenta e totalitaria.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Buemi e Compagna.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg17">È per queste ragioni che noi oggi vogliamo riconfermare la nostra solidarietà al popolo venezuelano e trarre appunto auspici perché il Paese possa vedere rapidamente il ripristino della regola democratica nella sua pienezza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi Art.1-MDP, PD e Aut (SVP, UV, PATT, UPT)-PSI-MAIE.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">TARQUINIO (GAL (DI, GS, MPL, RI))</note>
+            <u ana="#regular" who="#TarquinioLucio" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u11">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg18">Signor Presidente, come al solito, anche se il presidente Casini ha fatto rilevare questa situazione già tempo fa, noi in politica estera siamo reticenti e ci esprimiamo sempre molto tardi. La tragedia venezuelana è iniziata già prima di Maduro, ma equilibri cosiddetti demagogici o ideologici impedivano di parlarne. L'intervista rilasciata questa mattina da Maduro dice una cosa allucinante: l'Assemblea costituente farsa, da lui fatta eleggere con tutti i mezzi militari e polizieschi a disposizione, servirebbe - lui lo dichiara con una semplicità unica - a punire e a fare arrestare tutti i parlamentari. Il Parlamento non deve esserci, il Parlamento deve tacere; c'è solo la sua voce. Un popolo ridotto alla fame da tempo, per scelte che alcuni anni fa erano anche orgogliose, ma poi rivelatesi disastrose, negando ogni democrazia. Noi, però, parliamo sempre con un po' di ritardo. Speriamo che l'Italia recuperi in questi anni tanti silenzi e tanta omertà. Allo stesso modo, non si parla e non si continua a parlare ancora - o lo si fa a mezza voce - di ciò che accade in Turchia. Mi rendo conto degli equilibri internazionali, come quelli della NATO, ma anche questi sono atti un po' da vigliacchi, se mi consentite. Se difendiamo la democrazia la difendiamo sempre, al di là degli interessi che possano esserci. Questo è il dato reale. Se poi la democrazia deve essere una battaglia di facciata e la si difende solo se ci fa comodo, non è una battaglia ma è una farsa e le farse non sono accettabili. In Venezuela è in atto una tragedia. Dobbiamo muoverci e anche noi dobbiamo contribuire, insieme all'Europa e a tutti gli altri, a sanzioni ulteriormente pesanti, anche se allucinanti (a un popolo martoriato si impongono altre sanzioni), con la speranza che questo signore vada a casa da solo, senza ulteriori traumi per un Paese e ulteriori vittime. Egli, infatti, è solo un volgare dittatore della peggiore specie. Ma di questi personaggi in giro per il mondo ce ne sono tanti. E se crediamo in una democrazia vera dobbiamo denunciare tutto questo. Con quanto silenzio sono stati arrestati in Turchia decine di migliaia di persone, di magistrati, di professori e di impiegati! E sembra che nulla sia accaduto!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi GAL (DI, GS, MPL, RI), FL (Id-PL, PLI) e del senatore Mauro Mario</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg19">Manteniamo gli equilibri economici, manteniamo gli equilibri della NATO: e per che cosa? Per chi abusa di tutti e apre e chiude le porte del proprio Paese in termini di ricatto? Questo è il dato reale. Quindi, in generale si abbia coraggio: l'Italia sia un Paese in cui la democrazia trionfa e che vuole che trionfi ovunque. Questa è la vera battaglia. Piena solidarietà al Venezuela e piena solidarietà a tutti i Paesi che vivono quel tipo di condizioni!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi GAL (DI, GS, MPL, RI), FL (Id-PL, PLI) e del senatore Mauro Mario.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE CRISTOFARO (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#DeCristofaroPeppe" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u12">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg20">Signor Presidente, io e i colleghi del mio Gruppo parlamentare non abbiamo mai avuto, nel corso di questi mesi, da quando è cominciata la crisi in Venezuela, alcuna esitazione ad applaudire le parole di tutti quelli che hanno provato a mettere in campo uno sforzo per la ricerca della pace e di una soluzione condivisa, e non erano personaggi secondari del dibattito pubblico e politico che ha attraversato il mondo. Il primo a dire cose di questo genere, cioè a chiedere che tutti gli attori in campo nella drammatica vicenda venezuelana facessero un passo indietro, è stato il Papa, con parole solenni, dichiarate molti mesi fa con la sua autorevolezza. Il secondo è stato l'ex premier spagnolo Zapatero, che è stato, come sappiamo, per molte settimane in quel Paese. Anche lui ha cercato, nei limiti del possibile, in una situazione che andava degenerando giorno dopo giorno, di mettere in campo sforzi diplomatici e un tentativo di portare il Paese fuori dalle secche di una possibile guerra civile. Dico, invece, con grande franchezza - rivolgendomi a qualche senatore che ogni tanto, mettendo in campo una certa ricerca della propaganda e della strumentalità che forse fa scuola in questo Parlamento, omette di parlare delle cose esattamente come stanno - che ho più dubbi ad applaudire quando la vicenda del Venezuela viene rappresentata come se ci fosse da una parte un Governo dittatoriale e dall'altra parte, invece, una opposizione fatta di gentiluomini che si batte per la democrazia. Io non ho alcuna remora a dire ad alta voce che contesto e non condivido il comportamento del Governo Maduro. Lo considero sbagliato e considero sbagliate, ovviamente, le repressioni di tutte le forme di dissenso democratiche e credo che, anche rispetto alle speranze che nel corso degli anni passati erano state suscitate dai primi anni della rivoluzione bolivariana e dal chavismo, questi comportamenti siano molto sbagliati e dannosi. Ma francamente questa idea, che davvero sento soltanto nel Parlamento italiano perché in altri Paesi del mondo vi è un po' meno sufficienza su questo e un po' più di approfondimento, secondo la quale si fa finta che anche all'interno dell'opposizione non vi siano comportamenti molto differenziati, davvero mi spaventa. MARINO Luigi (AP-CpE-NCD). A chi lo dici? DE CRISTOFARO (Misto-SI-SEL). La cosiddetta opposizione venezuelana è tutto e il contrario di tutto. L'opposizione venezuelana è certamente rappresentata dai giovani che manifestano nelle piazze, associazioni di uomini e donne che si battono per la democrazia e per i diritti umani. A loro va tutta la nostra vicinanza. Ma l'opposizione venezuelana di questi mesi è stata anche e soprattutto il ritorno di elementi conosciuti in tutto il mondo come riconosciuti golpisti fascisti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg21">Gente che nel corso di questi anni e nel corso degli anni passati è stata addestrata alle scuole paramilitari della CIA in America Latina</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg22">e che è stata complice delle peggiori dittature sudamericane nel corso degli ultimi trent'anni.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg23">Facciamo allora attenzione: vogliamo fare un ragionamento sul Venezuela? Facciamolo seriamente ma facciamolo a 360 gradi.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Susta</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg24">Ragioniamo di cosa è accaduto in Venezuela, degli errori e dei limiti del Governo Maduro, ma francamente questa idea davvero tutta italiana (che, insisto, non trova riscontri in alcun'altra parte del mondo) di considerare tutta quella opposizione come salvifica rispetto alla situazione venezuelana, davvero mi sconcerta e mi addolora.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Susta.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg25">Ben altro equilibrio, rispetto a questo Parlamento, hanno dimostrato nel corso di questi mesi Parlamenti di altri Paesi europei che, a differenza del nostro, sono rimasti esattamente nel solco della discussione richiesta da Papa Francesco. Siccome credo che Papa Francesco sia un riferimento di tutti in quest'Aula, non può succedere che qualche volta le sue parole si ascoltino e qualche volta invece, quando danno fastidio, si ascoltino di meno. Io Papa Francesco lo ascolto sempre e quando lui ci invita a fare attenzione, a non contribuire a far sprofondare quel Paese nella guerra civile, a trovare soluzioni e a non immaginare una dinamica di parte che possa essere, quella sì, foriera di una drammaticità ancora maggiore per la situazione venezuelana, ebbene credo che questo sia un monito per tutti.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg26">Lo dico anche al presidente Casini: parliamone in quest'Aula, facciamo un dibattito serio sulla questione venezuelana. Da parte nostra non si ci sarà alcuna difesa dell'indifendibile e metteremo in campo tutte le forme di distanza che occorrono verso politiche repressive che non hanno niente a che vedere con quello che pensiamo noi, anche quelle di Maduro e di una parte molto significativa della sua classe dirigente. Ma insisto: non si può far diventare tutti i soggetti dell'opposizione venezuelana, compresi i golpisti fascisti, i nuovi campioni della democrazia; su questo, mi dispiace, ma il Gruppo di Sinistra Italiana esprime una distanza siderale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SI-SEL e dei senatori Casaletto e Pepe.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">*QUAGLIARIELLO (FL (Id-PL, PLI))</note>
+            <u ana="#regular" who="#QuagliarielloGaetano" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u13">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg27">PRESIDENTE. Senatore Quagliariello, su questo tema?</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg28">Signor Presidente, non ha parlato nessuno del mio Gruppo. Le avevo chiesto la parola prima. Pensavo di essere stato visto. PRESIDENTE. Purtroppo non l'avevo vista. Ha facoltà di parlare. QUAGLIARIELLO (FL (Id-PL, PLI)). Non c'è problema e non mi sento offeso per questo. Volevo però garantire ai colleghi che avevo chiesto la parola per tempo. Signor Presidente, vorrei esprimere, a nome del Gruppo, la solidarietà all'opposizione venezuelana e la condivisione delle parole espresse dal presidente Casini. Vorrei anche chiarire che oggi non stiamo parlando di errori e limiti del Governo Maduro, ma stiamo parlando di dichiarazioni e atti insopportabili e in aperto contrasto con qualsiasi regola democratica. Signor Presidente, non è certo la prima volta che le opposizioni sono diversificate, ma quando si colpisce l'opposizione, si colpiscono tutte le opposizioni e non è consentito fare distinzioni. Così come non è un caso che, quando questo accade, avviene sempre attraverso un'azione che indebolisce innanzitutto le prerogative dei Parlamenti. È accaduto anche questa volta. Tutto ciò ci dovrebbe portare, colleghi, a due riflessioni: innanzitutto ad avere molta attenzione per il parlamentarismo, le sue tradizioni e le sue prerogative, e a condannare quegli atti di antiparlamentarismo che sono molto facili da identificare. Noto che anche nel dibattito corrente c'è una grande attenzione e una condanna più o meno quotidiana per il cosiddetto populismo, che è una categoria assolutamente incerta e indefinita, laddove invece c'è molta più tolleranza per gli attacchi al Parlamento, sia quando questi vengono perpetrati a casa nostra, sia quando accade in casa d'altri, laddove invece l'attacco al Parlamento, rispetto a ipotetici populismi, è molto più facile da individuare e anche da contrastare. Credo che su questo abbia ragione il collega Tarquinio: dovremmo essere assolutamente rigidi in questa condanna e dovremmo manifestarla sempre. È evidente che ogni situazione è diversa dall'altra, ma quando c'è un attacco al Parlamento c'è un indebolimento della democrazia. Questo è avvenuto ieri in Turchia, oggi in Venezuela. Sarebbe bene che i liberi Parlamenti se ne accorgessero sempre, perché, laddove la democrazia nel mondo, almeno dal punto di vista nominale, si va ampliando, il parlamentarismo si va indebolendo e dunque la qualità della democrazia e la capacità di respingere gli attacchi dei suoi nemici diventa evidentemente più flebile. Signor Presidente, d'altra parte questa cosa si spiega conoscendo la storia e il suo andamento. Lo vorrei dire al collega Buemi. Cambiano le sigle dei partiti, molto spesso cambiano le bandiere e i simboli, cambiano i riti, ma è molto più difficile che cambino le mentalità. È per questo che in una discussione come quella di oggi è possibile rintracciare continuità con un passato che apparentemente è passato ma che invece, se si considerano le mentalità, è un passato che non passa. Signor Presidente, per questo chiedo che la nostra guardia, la guardia di chi ama la democrazia e i Parlamenti, rimanga alta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi AP-CpE-NCD e GAL (DI, GS, MPL, RI).</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione del disegno di legge: (2085-B) Legge annuale per il mercato e la concorrenza</note>
+            <note type="time">11,37</note>
+            <note type="status">(Approvato dalla Camera dei deputati, modificato dal Senato e nuovamente modificato dalla Camera dei deputati) (Collegato alla manovra finanziaria) (Votazione finale qualificata, ai sensi dell'articolo 120, comma 3, del Regolamento) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/48172.htm</note>
+            <note type="time">(ore 11,37)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u14">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg29">L'ordine del giorno reca la discussione del disegno di legge n. 2085-B, già approvato dalla Camera dei deputati, modificato dal Senato e nuovamente modificato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg30">Ricordo che, ai sensi dell'articolo 104 del Regolamento, oggetto della discussione e delle deliberazioni saranno soltanto le modificazioni apportate dalla Camera dei deputati, salvo la votazione finale.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg31">I relatori, senatori Marino Luigi e Tomaselli, hanno chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg32">Pertanto, ha facoltà di parlare il relatore, senatore Marino Luigi.</seg>
+            </u>
+            <note type="speaker">MARINO Luigi</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#MarinoLuigi" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u15">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg33">Signor Presidente, ci troviamo a riesaminare il testo del disegno di legge sulla concorrenza perché, come è noto, la Camera - lei lo ha ricordato - ha apportato cinque modifiche.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg34">La prima riguarda l'abrogazione del comma 01 dell'articolo 170- bis del codice delle assicurazioni private, modifica introdotta al Senato, relativo alle polizze assicurative del ramo danni di ogni tipologia contenute nel comma 25. La Camera dei deputati ha abrogato la parte, introdotta proprio dal Senato, che prevedeva che le polizze assicurative ramo danni di ogni tipologia alla loro scadenza non potessero essere rinnovate tacitamente, riportando l'articolo al testo originario. La seconda modifica riguarda la soppressione del comma 44, introdotto da un emendamento del Gruppo Movimento 5 Stelle, presentato dal senatore Girotto, su cui a lungo avevamo dibattuto. Esso prevedeva che gli operatori di telefonia avessero l'obbligo di comunicare all'esordio della conversazione una serie di dati identificativi del soggetto committente e, inoltre, che non si potessero più offrire servizi in abbonamento senza il previo consenso espresso e documentato. Il Garante per la protezione dei dati personali aveva evidenziato, già al Senato, che la formulazione dava adito a qualche problema interpretativo in quanto sembrava consentire le chiamate anche in assenza del previo consenso dell'interessato. Ciò sarebbe stato in contrasto con le direttive europee sulla privacy e così la Camera ha abrogato tale disposizione. La terza modifica riguarda il comma 60, ex articolo 29, relativo alla cessazione del regime di maggior tutela per l'energia elettrica, sul quale si soffermerà più diffusamente di me ilsenatore Tomaselli. La quarta modifica, relativa al comma 153, ex articolo 57, riguarda l'esercizio dell'attività odontoiatrica anche all'interno di strutture sanitarie. È una norma che precisa che le prestazioni odontoiatriche devono essere svolte solo e unicamente dai soggetti abilitati secondo legge, ma forse alla Camera si è andati oltre le migliori intenzioni, tant'è che la 10ᵃ Commissione del Senato ha approvato un ordine del giorno chiarificatore; altrimenti sarebbe stata incerta la presenza di odontoiatri in strutture pubbliche. Queste quattro modifiche sono state approvate in Commissione alla Camera; l'Assemblea della Camera ha poi modificato il comma 117, ex articolo 44, relativo alla razionalizzazione della rete dei carburanti e anche in questo caso probabilmente si sono realizzati degli equivoci. Nel corso dell'esame al Senato il comma era stato modificato prevedendo la bonifica del sito solo in caso di accertata contaminazione; la Camera ha modificato il testo inserendo le parole «in ogni caso» e questa nuova definizione porta a una formulazione che suscita qualche dubbio interpretativo, tanto per cambiare. Queste sono le modifiche apportate dalla Camera dei deputati al testo approvato pochi mesi fa dal Senato. Autorevoli rappresentanti della maggioranza alla Camera avevano accolto il disegno di legge sulla concorrenza approvato dal Senato il 3 maggio con agguerrite dichiarazioni circa il fatto che il Gruppo di maggioranza assoluta alla Camera avrebbe approvato il provvedimento solo in presenza di forti modificazioni. Lo stesso Presidente del Partito Democratico, a babbo morto, ha valutato che fossero quattro piccole correzioni. Noi le valutiamo diversamente: ci sono modeste correzioni e correzioni non modeste; ad esempio, il comma 60 sulla maggior tutela non è una modesta correzione. In Senato nel mese di aprile di quest'anno abbiamo suggerito un rapido passaggio in 10ᵃ Commissione per apportare quelle modifiche e quei miglioramenti che il lasso di tempo intercorrente tra l'agosto 2016 (quando la 10ᵃ Commissione del Senato approvò il testo) e l'aprile 2017 (quando l'Assemblea del Senato ha approvato il testo) avrebbe permesso, realizzando un passaggio in Commissione per attualizzare il disegno di legge. Il Governo ha invece insistito per un rapido passaggio in Assemblea con il voto di fiducia. Pensavo che anche la Camera a quel punto avesse preceduto con il voto di fiducia, invece in quel ramo del Parlamento si è aperta una fase emendativa che ha richiesto questo quarto passaggio. Non mi sembra che le modifiche apportate, comunque, abbiano migliorato il testo. Ognuno di noi ha un'idea della concorrenza e non può che essere così, perché se è sbagliato un mercato chiuso, è anche sbagliato un mercato senza regole e senza limiti. Ognuno di noi si è fatto un'idea di questo disegno di legge e soprattutto del perché abbia impiegato così tanto tempo per uscire dalle Aule parlamentari. Sul ritardo accumulato se ne sono dette tante, si sono espresse valutazioni critiche spesso infarcite di luoghi comuni, di banalità e di pregiudizi, ad esempio quello sul peso delle lobby come motivazione di questo ritardo. È una sciocchezza, come è folkloristico l'elenco dei lobbisti e addirittura l'individuazione di una saletta-gabbia dove rinchiuderli, come è avvenuto alla Camera dei deputati, come se non esistessero i telefoni e i contatti personali al di fuori del Parlamento. Il disegno di legge in discussione è rimasto fermo per tanto tempo per le esigenze della politica, non per le lobby. Vorrei aggiungere che i settori toccati dal testo in discussione hanno una oggettiva complessità. Occorre favorire i consumatori, senza però dissestare il sistema delle imprese e degli altri operatori economici. Occorre tagliare le rendite, ma non il profitto. Occorre recuperare errori che si sono sedimentati nel tempo, ad esempio le parafarmacie, senza abbattere speranze ed energie imprenditoriali. Non sono temi facili e non possono sempre essere risolti con un tocco di bacchetta magica. Non so se quella previsione legislativa, che doveva essere uno stimolo e un pungolo a governare i processi, cioè quella di realizzare ogni anno una legge sulla concorrenza, sia una previsione da rivedere. Ma è indubbio che, in materia di liberalizzazioni e di concorrenza praticata e non terrorizzata, ci sono campi ancora da arare in profondità. In questo disegno di legge abbiamo affrontato ad esempio i temi della RC auto e delle energie. Ma quanto c'è da fare circa l'azione monopolistica delle società a forte partecipazione di capitale pubblico, che si interessano ad esempio di acqua e le cui tariffe medie sono aumentate in un anno, anzi in dieci anni, del 90 per cento? Se prendiamo l'anno di riferimento del referendum sull'acqua, cioè il 2011, notiamo che da allora ad oggi le tariffe dell'acqua sono aumentate del 43 per cento, con incrementi superiori a qualunque altro servizio di tipo pubblico e superiori di gran lunga all'inflazione sui prezzi al consumo, che si attesta intorno al 14 per cento. Ho parlato dell'acqua perché è un tema di attualità. Ma le tariffe sui rifiuti sono cresciute in dieci anni del 52 per cento e i trasporti del 30 per cento. Ci sono poi temi sui quali il dibattito e la diversità di opinioni tra di noi, ma anche il dubbio circa le ricadute positive sui consumatori sono un arricchimento e non un pregiudizio o una difesa di interessi lobbistici. Ad esempio, la norma sul tacito rinnovo in campo assicurativo, che ci viene riproposta dalla Camera (quindi la Camera ha bocciato la proposta del Senato), farà risparmiare il consumatore o l'assicurato? Io penso di no; io penso che le tariffe RC auto siano diminuite, certo, per la diminuzione delle truffe e degli indennizzi, ma forse anche perché non c'è più il tacito rinnovo, che impone all'impresa assicuratrice ogni anno di riconquistare il cliente. C'è poi la norma sul telemarketing, modificata anche questa dalla Camera, ripristinando il testo precedente e vanificando l'azione del Senato. Noi l'abbiamo introdotta accettando un emendamento del Gruppo Movimento 5 Stelle, per aiutare il consumatore e per difenderlo dall'invadenza e talvolta dall'aggressività del venditore, per tutelare il suo consenso. La Camera e anche il garante, legittimamente, ritengono invece che l'effetto sarebbe opposto e controproducente. C'è poi la norma sulla nullità delle clausole contrattuali degli albergatori che utilizzano piattaforme digitali, senza neppure aver accolto l'introduzione della clausola cautelativa. Questa è davvero una norma tre volte vincente, cioè vincono i consumatori, vincono gli albergatori e vince lo Stato italiano? Io penso di no. Io penso che per gli albergatori si potrebbe prevedere invece un aumento, una tassa d'ingresso quando debbono accedere ai portali, per lo Stato si potrebbe prevedere una procedura di infrazione, mentre il cliente probabilmente pagherebbe le stanze come prima. Ma io non dispongo della verità, non ho la sfera di cristallo. Penso che si debbano rispettare le regole, soprattutto se contratte tra privati, e che, tanto per non generare equivoci, gli over the top digitali debbano pagare le tasse in Italia, bloccando evasione ed elusione. E allora perché dico tutto questo? Lo dico non per rinfocolare una polemica, ma all'opposto. Penso che, sulla concorrenza e su temi così delicati e difficili da discernere, le convinzioni diverse e le valutazioni critiche ci stanno tutte e da tutte le parti, ma è sul complesso del provvedimento che occorre esprimere il giudizio, perché non esiste un disegno di legge sulla concorrenza perfetto per tutti i palati. Due scienziati dell'economia e della concorrenza hanno scritto sul «Corriere della sera» che questo disegno di legge va approvato «anche solo per non darla vinta alle lobby ». È inutile negarlo: qualche lobby ha ottenuto ciò che voleva o ha ridotto i danni (è inevitabile), ma questo disegno di legge va approvato non per quello che dicono gli scienziati dell'economia, bensì perché rappresenta un ulteriore passo in avanti della concorrenza nel nostro Paese. Non sarà una legge epocale, ma certamente rappresenta un'evoluzione moderna in molti settori dell'attività economica. Il saldo tra le cose buone, quelle che si potevano fare meglio e le forzature è certamente più che positivo. Sarà un provvedimento incisivo e riformatore. Apportare nuove modifiche a uno o a tutti i cinque commi introdotti dalla Camera in terza lettura potrebbe comprometterne il traguardo: sarebbe la caduta del ciclista in dirittura d'arrivo. Per questo noi relatori abbiamo chiesto, insieme al Governo e ai commissari della 10ᵃ Commissione, il ritiro o altrimenti la bocciatura di tutti gli emendamenti, alcuni dei quali certamente apprezzabili. I consumatori, le categorie professionali, il mondo produttivo e dei servizi, le istituzioni europee ed internazionali hanno bisogno non di rinvii, ma di certezze. Abbiamo consumato in abbondanza il tempo a nostra disposizione. D'altra parte, se Governo e Parlamento avessero preso alla lettera le norme esistenti della legge sulla concorrenza, oggi avremmo dovuto fare il terzo provvedimento sulla concorrenza. E approvando oggi questo provvedimento, non arretriamo, non stiamo fermi: facciamo non uno, ma due passi in avanti sul piano dell'ammodernamento e della competitività del nostro Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi AP-CpE-NCD e PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u16">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg35">Ha facoltà di parlare il relatore, senatore Tomaselli.</seg>
+            </u>
+            <note type="speaker">TOMASELLI</note>
+            <note type="role">relatore</note>
+            <u ana="#regular" who="#TomaselliSalvatore" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u17">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg36">Signor Presidente, rinuncio ad intervenire e rinvio le mie considerazioni in occasione della replica alla discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg37">Chiedo ad ogni modo di poter allegare al Resoconto della seduta odierna il testo scritto della mia relazione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u18">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg38">La Presidenza la autorizza in tal senso.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg39">Ha chiesto di intervenire il ministro per le riforme costituzionali e i rapporti con il Parlamento, senatrice Finocchiaro. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">FINOCCHIARO</note>
+            <note type="role">ministro per i rapporti con il Parlamento</note>
+            <u ana="#regular" who="#FinocchiaroAnna" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u19">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg40">Signor Presidente, onorevoli senatori, a nome del Governo, con l'autorizzazione del Consiglio dei ministri, pongo la questione di fiducia sull'approvazione dell'articolo unico del disegno di legge n. 2085-B, nel testo già approvato dalla Camera dei deputati, modificato dal Senato e nuovamente modificato dalla Camera dei deputati.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u20">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg41">La Presidenza prende atto della posizione della questione di fiducia da parte del Governo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg42">È pertanto convocata la Conferenza dei Capigruppo per organizzare il relativo dibattito.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg43">Sospendo pertanto la seduta. (La seduta, sospesa alle ore 11,54, è ripresa alle ore 12,13).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato Organizzazione della discussione della questione di fiducia Conferenza dei Presidenti dei Gruppi parlamentari, convocazione Commissioni permanenti, autorizzazione alla convocazione</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u21">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg44">Riprendiamo i nostri lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg45">Onorevoli colleghi, la Conferenza dei Capigruppo ha proceduto all'organizzazione dei lavori sulla questione di fiducia posta dal Governo sul disegno di legge per il mercato e la concorrenza nel testo già approvato dalla Camera dei deputati, modificato dal Senato e nuovamente modificato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg46">La discussione sulla questione di fiducia, per la quale è stata ripartita un'ora e 30 minuti, in base a specifiche richieste dei Gruppi, si svolgerà, fino alla sua conclusione, nella seduta pomeridiana odierna, con inizio alla ore 16, dopo l'esame del bilancio interno del Senato.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg47">Le dichiarazioni di voto avranno inizio domani, in seduta unica senza previsione di orario di chiusura, a partire dalle ore 9. Seguirà quindi la chiama.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg48">L'ordine del giorno di domani prevede inoltre - ove richiesto dal prescritto numero dì senatori - la discussione su atti di indirizzo relativi alla partecipazione dell'Italia a missioni internazionali e l'esame del disegno di legge di delegazione europea 2016.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg49">La seduta antimeridiana di oggi proseguirà con la deliberazione sulla richiesta di dichiarazione d'urgenza sul disegno di legge in materia di abolizione dei vitalizi.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg50">L'Assemblea tornerà a riunirsi martedì 12 settembre, alle ore 17, con all'ordine del giorno le comunicazioni del Presidente sul calendario dei lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg51">La Conferenza dei Capigruppo è convocata, sempre martedì 12 settembre, alle ore 15.30.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg52">L'attività ordinaria delle Commissioni riprenderà a partire da lunedì 4 settembre.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg53">Le Commissioni sono comunque autorizzate a convocarsi in qualunque momento in relazione a sopravvenute esigenze nelle materie di propria competenza.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Deliberazione sulla richiesta di dichiarazione d'urgenza, ai sensi dell'articolo 77 del Regolamento, in ordine al disegno di legge: (2888) Deputato RICHETTI ed altri. - Disposizioni in materia di abolizione dei vitalizi e nuova disciplina dei trattamenti pensionistici dei membri del Parlamento e dei consiglieri regionali</note>
+            <note type="time">HH,MM</note>
+            <note type="status">(Approvato dalla Camera dei deputati)</note>
+            <note type="link">http://www.senato.it/leg/17/BGT/Schede/Ddliter/48226.htm</note>
+            <note type="time">(ore 12,15)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u22">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg54">L'ordine del giorno reca la deliberazione sulla richiesta di dichiarazione d'urgenza, ai sensi dell'articolo 77 del Regolamento, in ordine al disegno di legge n. 2888, già approvato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg55">Ricordo che su tale richiesta ha luogo una discussione nella quale potrà prendere la parola non più di un oratore per ciascun Gruppo parlamentare e per non più di dieci minuti.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg56">Ha la parola il senatore Cappelletti per illustrare la richiesta.</seg>
+            </u>
+            <note type="speaker">CAPPELLETTI (M5S)</note>
+            <u ana="#regular" who="#CappellettiEnrico" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u23">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg57">Signor Presidente, credo sia utile richiamare brevemente la storia di questo provvedimento per meglio comprenderne la portata e soprattutto per capire come siamo arrivati a formulare la richiesta odierna di calendarizzazione d'urgenza del provvedimento che è già stato approvato alla Camera. Appena entrati in Parlamento noi del Movimento 5 Stelle abbiamo chiesto due cose: abolire i vitalizi degli ex parlamentari, applicando anche a loro il ricalcolo contributivo, e abolire la pensione privilegiata degli attuali parlamentari, anch'essa un vitalizio mascherato che manda in pensione gli onorevoli a sessantacinque anni dopo solo quattro anni, sei mesi e un giorno in Parlamento. In sostanza, abbiamo chiesto che anche i parlamentari prendano la pensione esattamente con le stesse regole applicate a tutti gli altri italiani.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg58">A settembre del 2013 il Movimento 5 Stelle ha presentato una mozione per mettere un tetto ai vitalizi e alle pensioni d'oro e ricalcolare la quota contributiva. PD e maggioranza hanno votato no. Nel 2014, durante la discussione sul bilancio della Camera e del Senato, il Movimento 5 Stelle ha presentato un ordine del giorno che prevedeva un tetto massimo di 5.000 euro lordi ai vitalizi. Il Partito Democratico e la maggioranza hanno votato no. Il 20 maggio 2015 il Movimento 5 Stelle ha presentato un emendamento alla riforma costituzionale che intendeva abolire i vitalizi in Costituzione. Il Partito Democratico e la maggioranza hanno votato no. Il 9 luglio 2015 il PD, evidentemente sotto pressione, tramite Matteo Renzi ha presentato la cosiddetta legge Richetti, ma l'ha presentata in televisione perché la legge giace da anni in un cassetto, anche se veniva utilizzata spesso dallo stesso Renzi durante le apparizioni televisive per dire che il Partito Democratico è per il superamento, per l'abrogazione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg59">Arriviamo a noi: il 2 aprile 2017 il Movimento 5 Stelle ha presentato in Ufficio di Presidenza altri due ordini del giorno, uno che applica la legge Fornero ai parlamentari in carica e l'altro che ricalca la stessa legge Richetti. Sul primo, ancora una volta, il PD vota no perché ha sostenuto che serviva una legge ordinaria. Benissimo, allora calendarizziamola questa legge ordinaria e votiamola, cosa che è stata fatta anche e forse soprattutto grazie alla spinta mediatica di trasmissioni televisive molto seguite nel Paese che hanno destato l'attenzione importante dell'opinione pubblica su questo argomento.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg60">La verità dunque, signori, è che il PD si è sempre opposto. Nella recentissima votazione alla Camera sembrava di assistere ad un funerale. Io capisco che per voi rinunciare ad un diritto che somiglia veramente ad un privilegio di tipo medievale è una cosa innaturale, però l'avete comunque votata alla Camera, forse nella malcelata speranza che il disegno di legge possa essere insabbiato analogamente ad altre dozzine di emendamenti. Ora, io capisco bene che la democrazia è anche e soprattutto una questione di numeri ma la trasparenza è un importante ingrediente della democrazia.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg61">Chiedo quindi, con il voto sulla dichiarazione di urgenza, di rendere palese a tutti i cittadini italiani se siete favorevoli o no al mantenimento di questo privilegio di stampo medioevale,</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo Art.1-MDP</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg62">o, almeno una volta, di essere coerenti con quanto avete dichiarato, e cioè di essere favorevoli a un suo veloce superamento. Delle due l'una e, se non è abbastanza chiaro il concetto, torno a ribadirlo con le vostre parole. Vengo a ribadire le motivazioni a favore della dichiarazione di urgenza, citando le parole usate da voi, dai vostri parlamentari, commentando il voto favorevole alla Camera sul provvedimento. Siete voi del Partito Democratico ad aver dichiarato: «Votiamo sì, perché lavorare per restringere la distanza tra i cittadini e la politica è cruciale per tutti noi». Bene.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg63">Un'altra collega alla Camera ha detto: «Non possiamo più permettere disparità di trattamento così forti e ingiustificate. Tutti meritano di andare in pensione, ma nessuno può pretendere di ricevere più di quanto ha versato. Questo il principio che ci ha guidati e che mi ha vista firmataria di una legge che dobbiamo al Paese e che spero trovi al più presto l'approvazione del Senato». Lo ha dichiarato una vostra collega alla Camera.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg64">«Bisogna votare sì perché il punto è capire che la disuguaglianza è un male vero nella nostra società, che va affrontato con misure concrete tutt'altro che demagogiche»: siete sempre voi. Benissimo. Ma forse più chiaro di tutti è Matteo Renzi: «Grazie a Matteo Richetti e ai deputati del PD, orgoglioso del vostro lavoro sui vitalizi». «La legge Fornero, se vale, vale per tutti. Le stesse regole per i cittadini e per i politici».</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg65">Presidente, dichiarandosi orgoglioso del lavoro dei parlamentari del PD sui vitalizi, a quale lavoro faceva riferimento Matteo Renzi? A quello che ha portato, tra mille ostacoli, il disegno di legge a essere approvato alla Camera o a quello di insabbiamento che è ora in corso al Senato e che potrebbe avere inizio proprio oggi con la bocciatura di questa dichiarazione di urgenza? Valutatelo voi.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg66">Per il Paese e per i cittadini italiani tutti i vitalizi vanno abrogati subito. Il Movimento 5 Stelle non ha dubbi e voterà favorevolmente alla dichiarazione di urgenza. Gli altri Gruppi risponderanno del loro voto alle loro coscienze e sopratutto ai cittadini.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">*QUAGLIARIELLO (FL (Id-PL, PLI))</note>
+            <u ana="#regular" who="#QuagliarielloGaetano" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u24">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg67">Signor Presidente, colleghi, il nostro Gruppo voterà contro la dichiarazione di urgenza, innanzitutto per una ragione di metodo: questo disegno di legge è appena arrivato, abbiamo avuto molte anticipazioni dai giornali, ma il suo contenuto non è ancora conosciuto. Alcuni colleghi, che hanno posto delle domande specifiche al Servizio studi del Senato, si sono sentiti rispondere che i funzionari non hanno ancora la possibilità di dare informazioni precise perché il testo è complicato e va approfondito. Se questo vale per un ufficio studi, a maggior ragione vale per ogni singolo parlamentare su una questione che evidentemente non è secondaria. C'è poi una ragione di merito che ci porta a prendere questa decisione: noi siamo fermamente convinti che un principio contenuto in questa norma, cioè quello della retroattività, sia manifestamente incostituzionale. Non è una convinzione soltanto nostra, signor Presidente, ma è una convinzione che è stata espressa a chiare lettere da esimi costituzionalisti, ex presidenti della Corte Costituzionale di destra, di centro e di sinistra. Evidentemente c'è una ragione. Se questo è vero noi rischiamo un cinico spot elettorale sulla pelle dei cittadini italiani. Non costa niente votare un provvedimento come questo, se si è certi che la Corte costituzionale interverrà, come ha fatto in passato, per abrogarlo dopo pochi mesi. Se invece ciò non dovesse avvenire, signor Presidente, passerebbe un principio - la possibilità di intervenire retroattivamente in questa materia - che mette in forse lo stato di diritto, ma ancor più mette in forse le certezze economiche di quel ceto medio che è stato colpito duramente dalla crisi. Vorrei che tutti i colleghi riprendessero le dichiarazioni del presidente Boeri che dice di volere riconsiderare le pensioni cosiddette d'oro a partire da 3.500 euro. Signor Presidente, una pensione di 3.500 euro non è d'oro e uno Stato che consente una liquidazione come quella riconosciuta a un manager come Cattaneo e mette in dubbio la certezza di una pensione di 3.500 euro</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-PdL XVII e del senatore Giovanardi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg68">) è uno Stato che si rapporta difficilmente nei confronti dei suoi cittadini. Noi questo vorremmo evitarlo. Non c'è alcun altro motivo, se non ragioni di equità, a fondamento della nostra posizione.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg69">Signor Presidente, le dico anticipatamente, a nome di tutti i membri del Gruppo, che qualora arrivassimo a decidere, come Senato, una tassa di scopo ben elaborata che si raccordi ai princìpi costituzionali, o un contributo di solidarietà, perché in un momento così difficile dai parlamentari venga un segno chiaro e inequivocabile, noi saremmo i primi ad aderire a questa proposta e, anzi, ci faremo parte in causa, perché questa possa essere la soluzione per cui si passi dagli spot ai contributi veri e fattivi nei confronti dei cittadini italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Compagna, Giovanardi e D'Ambrosio Lettieri.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MALAN (FI-PdL XVII)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u25">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg70">Signor Presidente, il disegno di legge appena giunto dalla Camera, dove ha subìto diverse modificazioni nel corso del suo iter, non è ancora conosciuto approfonditamente e il testo stesso fa sì che siano parecchi i punti di dubbia interpretazione. È pertanto difficile esprimersi compiutamente su un testo concepito in siffatto modo. Temo che sia un testo dalla portata molto breve ed esclusivamente mediatica oppure dalla portata molto ampia che va molto al di là di quanto viene prospettato. I casi sono due: il provvedimento sarà considerato incostituzionale dalla Corte costituzionale oppure non lo sarà, perché sarà ritenuto compatibile con la Costituzione. Se la Corte costituzionale lo dichiarerà incostituzionale, come moltissimi esperti di diritto costituzionale hanno ampiamente previsto, il provvedimento non avrà alcuna efficacia e non ci sarà alcun taglio, giusti o sbagliati che siano. L'unico risultato sarà mediatico e servirà a sventolare una bandierina che parla di 50 milioni all'anno all'incirca, quando poi vengono lasciate da parte le questioni che valgono decine di miliardi e, a volte, addirittura centinaia di miliardi. Si tenta però di puntare l'attenzione sui 50 milioni come se fossero risolutivi e non come un inizio di azioni che riguardano questioni assai più ampie e meno giustificate di una pensione. La parola vitalizio è un inutile eufemismo. Si chiamano pensioni vitalizie perché così fu deciso da Camera e Senato nell'immediato dopoguerra. Non si avrà alcun effetto se non quello di provocare la distrazione dai problemi veri e importanti del Paese, che non si affrontano, di modo che tutta l'attenzione sia posta su questo, e l'effetto sarà importante. L'altra ipotesi è che invece poi in qualche modo le norme contenute nel presente disegno di legge, una volta approvate definitivamente, siano ritenute compatibili con la Costituzione. Ciò aprirebbe la strada a risvolti finanziari molto superiori alla cinquantina di milioni l'anno di cui parliamo, perché si parla di una cinquantina di miliardi dei pensionati italiani. Si ripete lo slogan che in questo modo i parlamentari sono equiparati a tutti gli altri cittadini italiani, ma devo dire che ciò non è assolutamente vero. Le pensioni dei parlamentari sono certamente più alte della media delle pensioni degli italiani, perché il reddito annuale di un parlamentare è mediamente più alto di quello dei cittadini; vi sono però molti cittadini che percepiscono una pensione parecchio più alta di quella di un parlamentare, quand'anche avesse la più lunga carriera in Parlamento, anche superiore a tutti i parametri della legge Fornero e ce ne sono; sono pochissimi, ma ripeto che ce ne sono. Va ricordato che tutti gli oltre 20 milioni di pensionati, a esclusione forse di pochissime migliaia di eccezioni, hanno la loro pensione calcolata sulla base del sistema contributivo a partire dal 2011, quando entrò in vigore la legge Fornero in tutti i suoi vari aspetti, e con il calcolo retributivo per quanto riguarda gli anni lavorati in precedenza con i relativi contributi versati. Le norme approvate dalla Camera, per quanto non molto chiare nei loro dettagli, non si applicano soltanto a chi ancora deve percepire un assegno di pensione, ma anche a coloro che già lo percepiscono, comprese le vedove e i vedovi che, come tutti i vedovi e le vedove di pensionati italiani, hanno una quota di reversibilità, qualunque sia la loro età: ovviamente abbiamo persone di tutte le età, ma soprattutto di età assai avanzata. Se questa norma viene ritenuta costituzionale, non soltanto si apre la porta, ma si rende anche pressoché d'obbligo - e forse questo a qualcuno piace - passare a un ricalcolo contributivo retroattivo per tutte le pensioni di tutti gli italiani, e anche di coloro che oggi percepiscono la pensione, e quindi comprese le vedove e i vedovi che oggi percepiscono la pensione. Noi riteniamo che sia dovere del Parlamento contenere le spese, porre rimedio ad alcuni parametri ingiustificati, che infatti sono stati tutti soppressi, salvo quanto riguarda il passato. Attualmente, però, le norme sono molto severe e per diversi aspetti sono più severe delle norme previdenziali generali e, dunque, non riteniamo utile discutere il tema con urgenza. Nulla ci impedisce di discutere senza la bandierina della bandierina della dichiarazione d'urgenza. Si può tranquillamente passare all'esame del provvedimento in titolo senza l'inutile dichiarazione che serve a fare un titolino o un titolone, a seconda dell'interesse dei giornali a occultare altre notizie assai più importanti. Riteniamo che sia stata positiva l'azione degli anni scorsi con cui si è data una regolamentazione dal 2011 in poi e si sono introdotte norme anche per il passato: penso all'incompatibilità della pensione del parlamentare con cariche che ancora ricopre anche al di fuori del Parlamento - in precedenza non era così - nonché al limite ai cumuli e così via. Non riteniamo però di assecondare una manovra puramente di propaganda che mette in pericolo l'importo delle pensioni di decine di milioni di italiani. Per queste ragioni il Gruppo di Forza Italia esprimerà voto contrario sulla richiesta avanzata.</seg>
+            </u>
+            <note type="speaker">FALANGA (ALA-SCCLP)</note>
+            <u ana="#regular" who="#FalangaCiro" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg71">Signor Presidente, condivido quanto ha anticipato il senatore Quagliariello, perché non ci è stata ancora data la possibilità di valutare il testo, innanzitutto sotto il profilo della sua costituzionalità, che viene posta in dubbio - come hanno detto i miei colleghi - da esperti costituzionalisti. A me è balenata soltanto una prima considerazione: il collega del Movimento 5 Stelle parla di uguaglianza di tutti i cittadini, e quindi anche dei parlamentari, sotto il profilo previdenziale. Allora chiedo ai colleghi del Movimento 5 Stelle: non ritenete voi, nel momento in cui viene approvata una norma con effetti retroattivi, di realizzare una disparità di trattamento nei confronti di chi, sapendo di avere il sistema contributivo negli anni passati, ha ritenuto di riscattare ad esempio gli anni della laurea, del servizio militare e quant'altro, per organizzare a suo vantaggio il proprio sistema previdenziale? Oggi, il deputato che si vede retroattivamente applicare il sistema contributivo quale possibilità ha di fare la stessa cosa che hanno fatto tutti i cittadini che avevano quel sistema contributivo? Un provvedimento di tal genere dovrebbe allora essere accompagnato da una riapertura dei termini anche per i deputati che oggi si vedono retroattivamente applicare un sistema contributivo. Anche a loro deve essere data la possibilità di usufruire di quelle agevolazioni di cui tutti i cittadini, con quel sistema, hanno goduto. A questo non ci avete pensato. Avete immaginato soltanto di cavalcare l'onda che veniva - come ha detto appunto prima il collega - da note trasmissioni televisive, seguite da milioni di italiani. Ma condotte da chi? Non voglio essere volgare, non voglio fare una distinzione tra me e chi svolge un'attività diversa dalla mia. Ma chi è che percorreva e denunciava quasi ogni domenica questi fatti? Chi, per condurre una manifestazione canora nazionale nel nostro Paese, ha guadagnato, dai soldi degli italiani, 650.000 euro per cinque giorni di lavoro? Se proprio dobbiamo tutelare i soldi degli italiani, cominciamo allora a vedere come vengono spesi e da chi vengono incassati. Vengono incassati e intascati da chi poi in televisione va a criticare il vitalizio dei deputati. Signori, a prescindere dal merito, che non mancherà di essere da me attenzionato anche sotto il profilo squisitamente tecnico, oggi dico: dov'è l'urgenza? L'urgenza riguarda boschi che si incendiano e la gente che non arriva a fine mese. Abbiamo tanti provvedimenti e noi immaginiamo di voler urgentemente licenziare un provvedimento di tal genere soltanto per dare una possibilità di marchette elettorali a determinate forze politiche. Cercate allora prima di studiare bene il provvedimento, affinché non sia poi censurato dalla Corte costituzionale. Cerchiamo di essere seri. Facciamo in modo che il Parlamento non si senta dire, ancora una volta, dai giudici della Corte suprema di cassazione e della Corte costituzionale che è un provvedimento sbagliato. Per questa ragione, noi diciamo no, un no deciso e convinto. Con coraggio diciamo no oggi al voto della dichiarazione d'urgenza. Ci riserveremo poi, nel merito dell'esame del provvedimento, di verificare e valutare se davvero si pongono tutti sullo stesso piano, deputati e cittadini, perché io su questo punto sono d'accordo con il Movimento 5 Stelle: devono essere tutti i uguali i cittadini italiani, ma lo devono essere per davvero. E prestiamo attenzione, perché il provvedimento che è arrivato qui dalla Camera a me pare non rispetti il principio di uguaglianza. Ovviamente approfondirò il tema ed eventualmente, se convincerà me e i miei compagni di Gruppo, lo voteremo - perché no - ma lo voteremo soltanto quando ci saremo convinti della bontà del provvedimento sotto il profilo della sua costituzionalità, del merito e dell'uguaglianza di tutti i cittadini di fronte al sistema previdenziale. Per queste ragioni, allo stato, diciamo no alla dichiarazione d'urgenza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo ALA-SCCLP.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ZELLER (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#ZellerKarl" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u27">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg72">Signor Presidente, il Gruppo per le Autonomie PSI-MAIE non vede alcuna necessità per un'abbreviazione dei tempi dell'esame del provvedimento in Commissione. Crediamo invece che la questione meriti un in serio approfondimento, anche perché ci stiamo occupando di temi molto delicati, considerato soprattutto che la proposta di legge in esame incide pesantemente sui diritti acquisiti degli ex parlamentari. Si tratta quindi non di insabbiare la questione, ma di valutarla attentamente, di fare una legge fatta bene, per non finire poi davanti alla Corte costituzionale rischiando di compiere un grande pasticcio. Ricordo ai colleghi che un'analoga questione si è posta in Regione Trentino-Alto Adige, dove il Consiglio regionale ha approvato una riforma applicabile ex post agli ex consiglieri regionali, in cui si prevedeva una decurtazione del 20 per cento; ma già due giudici hanno rimandato la questione davanti alla Corte, ritenendo il nuovo regime in contrasto con i criteri dettati dalla Corte costituzionale in materia. Per noi si tratta anche di una questione di civiltà giuridica e crediamo che i principi costituzionali debbano valere per tutti i cittadini, anche per i parlamentari e per gli ex parlamentari. Per questo motivo voteremo no alla richiesta di urgenza presentata dal Movimento 5 Stelle.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Buemi e Panizza.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE CRISTOFARO (Misto-SI-SEL)</note>
+            <u ana="#regular" who="#DeCristofaroPeppe" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u28">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg73">Signor Presidente, esprimo un voto di contrarietà alla proposta del Movimento 5 Stelle, che vorrei argomentare molto rapidamente. Premetto che il mio Gruppo parlamentare alla Camera ha votato a favore del provvedimento in esame e aggiungo a questo dato che il mio Gruppo parlamentare, anche qui nella Camera Alta, il Senato, lavorerà con impegno nel corso delle prossime settimane e mesi per far sì che venga approvato un provvedimento capace di poter mettere in campo un elemento di maggiore equità e uguaglianza e che riduca quei benefici che - giustamente, a nostro avviso - agli occhi di una larga fetta della popolazione del nostro Paese appaiono come un insopportabile privilegio. Credo altresì - e mi rivolgo a quei colleghi preoccupati che avvertono in qualche modo il rischio di misure che possano incidere su alcuni aspetti più generali - che davvero al riguardo la politica debba dare il buon esempio. Non c'è niente da fare. Quando si fa politica e ci si candida a rappresentare i cittadini di questo Paese, alla Camera o al Senato; quando si votano le leggi; quando si è costretti - come è successo nel corso degli anni passati - a chiedere alla popolazione del nostro Paese anche dei sacrifici rispetto a quanto accade, c'è poco da fare: o si è capaci di dare il buon esempio fino in fondo, oppure viene meno la credibilità. E siccome viviamo in una fase storica in cui la credibilità della politica - non semplicemente nel nostro Paese, ma è evidentemente un problema globale - è messa a rischio in modo molto, molto significativo, credo che Camera e Senato debbano fare davvero di tutto per mettere in campo degli elementi di trasparenza e di uguaglianza, per ridurre i privilegi. Pertanto, credo che, anche su aspetti come questo, il percorso iniziato alla Camera, che ha visto il voto favorevole del mio partito, sia giusto e condivisibile. Voglio però aggiungere - ed è il motivo per cui esprimo, rispetto alla dichiarazione d'urgenza, e non rispetto al merito del testo, un elemento di contrarietà - che, proprio affinché ciò accada, penso che il tutto debba essere fatto in maniera molto seria, tenendo basso il livello della propaganda. Capisco che con la propaganda si ottengono molti voti; è uno sport nazionale che va avanti da molti mesi a questa parte. Signor Presidente, io ho difeso la dignità di questo Senato da chi voleva abolirlo con il referendum costituzionale in maniera improvvida. E l'ho difesa assieme alle colleghe e ai colleghi del mio Gruppo quando ho sostenuto la necessità, ancora oggi, di una centralità del bicameralismo. Troverei, quindi, davvero contraddittorio se oggi il Senato dovesse svolgere un ruolo da passacarte, se non potesse nemmeno entrare nel merito della questione, che è seria. Mi rivolgo ai colleghi del Movimento 5 Stelle, e me lo posso permettere, perché io e il mio Gruppo parlamentare - guarda caso - siamo quelli che guadagnano di meno all'interno del Parlamento. Quando, alla fine del mese, arrivano le buste paga, si scopre, magari in maniera più silenziosa (magari senza agitare questo come fattore di propaganda, perché veniamo da un'altra cultura politica), che le nostre sono le più basse di tutte: anche noi finanziamo progetti e addirittura il 70 per cento della nostra indennità mensile viene utilizzato per questo. Quindi mi posso permettere di dire che alcuni elementi di discussione emersi meritano per lo meno un approfondimento e un ragionamento da parte del Senato. Sono favorevole al provvedimento approvato dalla Camera, ma farò le barricate se qualcuno pensa di poterlo utilizzare come un grimaldello per attaccare le normali pensioni degli italiani. Se qualcuno, cioè, pensa - e non mi riferisco ai parlamentari, che, per l'appunto, debbono dare il buon esempio, anche a rischio di far assumere ad alcuni elementi connotati molti particolari rispetto alla storia normale della previdenza del nostro Paese - di poter utilizzare questo strumento come un grimaldello per colpire le pensioni delle persone normali, di tutti coloro che oggi con la pensione molto spesso coprono anche i propri figli e i propri nipoti senza lavoro, facendo sì che diventi un contributo essenziale per lo Stato sociale, noi faremo le barricate. Abbiamo, allora, il diritto, quando discutiamo all'interno dell'Assemblea, di capire come costruiamo non semplicemente un provvedimento a rischio di incostituzionalità, ma anche un provvedimento che non apra a questo tipo di ipotesi? Mi pare una cosa molto seria e credo, quindi, che il Senato debba agire all'interno di due parametri che sono: da una parte, l'attacco frontale e radicale a qualunque forma di insopportabile privilegio e, quindi, il Senato deve continuare lungo la strada intrapresa dalla Camera dei deputati; dall'altra parte, però, una volta tanto, deve mettere la propaganda da parte e cercare di fare una cosa seria per il Paese e anche per la credibilità della sua classe dirigente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Misto-SI-SEL.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular" who="#ZandaLuigi" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u29">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg74">Signor Presidente, in questo dibattito ho ascoltato vari interventi che hanno affrontato il merito del disegno di legge sui vitalizi dei parlamentari e dei consiglieri regionali. Tuttavia, oggi noi siamo chiamati a discutere e a votare non nel merito, bensì sulla richiesta di adottare una procedura d'urgenza per un provvedimento di cui tutti - lo dimostra il dibattito che abbiamo ascoltato - riconoscono l'importanza e la delicatezza. La richiesta d'urgenza viene dai senatori del Movimento 5 Stelle che - desidero sottolinearlo, in quanto è l'unica occasione che ho per farlo - è l'unico Gruppo che stamattina non ha preso la parola per condannare il regime venezuelano di Maduro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e dei senatori De Pietro e Mazzoni</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg75">La richiesta arriva poi alla fine di luglio, ventiquattrore prima della chiusura del Senato per le ferie di agosto. Se anche l'Assemblea dovesse accogliere questa richiesta, il dibattito in Commissione, cui il provvedimento è stato assegnato proprio questa mattina, non potrebbe iniziare prima del prossimo mese di settembre.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg76">CASTALDI (M5S). Non è vero! ZANDA (PD). Se le cose stanno così - e stanno esattamente così - perché presentare proprio ora, a poche ore dalla sospensione dei nostri lavori, una richiesta d'urgenza?</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg77">Perché, con questa discussione procedurale, ritardare - come stiamo facendo - l'inizio del dibattito finale su un provvedimento di grande rilievo, come quello sulla concorrenza, così atteso...</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg78">CRIMI (M5S). Ci avete messo la fiducia!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg79">PRESIDENTE. Per cortesia, colleghi, non interrompete.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg80">Per favore, come sapete non interrompo mai nessuno. Non costringetemi a rispondervi per le rime.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Airola</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg81">PRESIDENTE. Senatore Airola, per favore, non interrompa.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg82">AIROLA (M5S). Falla finita! ZANDA (PD). Lasciatemi parlare. PRESIDENTE. Senatore Airola, la richiamo all'ordine. Non ha la parola. La richiamo all'ordine. (La senatrice Paglini effettua riprese video dell'Assemblea con un telefono cellulare). Colleghi, come sapete, non sono ammesse le riprese. DONNO (M5S). Non sono ammesse nemmeno le minacce!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Airola.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg83">MIRABELLI (PD). Impara ad ascoltare! PRESIDENTE. Possiamo continuare? Prego, senatore Zanda. ZANDA (PD). Perché questa inversione di priorità da provvedimenti che interessano i cittadini italiani a un dibattito su procedure di palazzo? Io credo che nella risposta a queste domande ci sia la principale ragione per cui le senatrici e i senatori del Partito Democratico respingeranno la richiesta di urgenza... LUCIDI (M5S). Per andare al mare! ZANDA (PD). Il Movimento 5 Stelle continua a praticare una politica parlamentare che - è evidente - punta non su ciò che è più urgente per risolvere i problemi dell'Italia, quanto a quel che gli può servire per battere la grancassa della propaganda.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD e dei senatori De Pietro e Falanga.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg84">E la richiesta d'urgenza che hanno presentato ha un obiettivo chiaro: vogliono apparire agli occhi dell'opinione pubblica italiana come i campioni dell'antipolitica, dell'antipartitismo e come i rappresentanti delle forze antisistema. Questo è l'obiettivo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg85">AIROLA (M5S). Degli onesti! CALEO (PD). E stai zitto! PRESIDENTE. Senatore Caleo, la prego. DONNO (M5S). Stai calmo! ZANDA (PD) Per favore! PRESIDENTE. Silenzio! Senatore Airola, la diffido. Prego, senatore Zanda. ZANDA (PD). Signor Presidente, se le cose stanno così, è bene che ci mettiamo d'accordo sui principi e sui modi che dovranno regolare la nostra discussione sulle pensioni dei parlamentari, cominciando proprio dal fatto che dobbiamo cessare di chiamare vitalizi quello che dal 2012 è stato trasformato dal Parlamento in un regolare sistema pensionistico contributivo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, Aut (SVP, UV, PATT, UPT)-PSI-MAIE e AP-CpE-NCD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg86">Le senatrici e i senatori del PD vogliono esaminare con rispetto ed attenzione un provvedimento così rilevante che ci arriva dalla Camera con il voto dei deputati del Partito Democratico e con la prima firma nostra, e non certo quella del Movimento 5 Stelle.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Commenti e applausi ironici dal Gruppo M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg87">Il Senato non deve dilungare la discussione e non lo farà, ma non deve troncarla artificialmente. Al Senato, in questa legislatura, il Partito Democratico non ha mai - e dico mai - praticato tecniche ostruzionistiche che, invece, sono usate continuamente proprio da chi oggi chiede l'urgenza.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Commenti dei senatori Cioffi e Castaldi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg88">E non l'abbiamo mai fatto e non lo faremo certamente ora. Anzi, vigileremo perché in Commissione e in Aula i lavori procedano con regolarità.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg89">Come tutti i provvedimenti, vogliamo esaminare anche questo con lo scrupolo necessario, studiandone il contenuto e gli effetti, valutandone l'impatto sul sistema parlamentare e i risvolti di costituzionalità, che non sono certamente aspetti secondari e che la Commissione ha il dovere primario di valutare con la necessaria attenzione.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Lezzi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg90">Ricordava adesso il senatore De Cristofaro che il referendum del 4 dicembre ha detto con chiarezza che gli italiani vogliono conservare il sistema bicamerale paritario. DONNO (M5S). La legge è vostra! PRESIDENTE. Senatrice Donno, la prego. ZANDA (PD). Chi, come me, ha votato sì alla riforma deve essere il primo a essere molto rigoroso nel rispettare la volontà degli elettori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dei senatori Lezzi e Lucidi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg91">Ma anche chi, come il Movimento 5 Stelle, ha votato no ha l'obbligo morale di rispettare la sostanza e non solo la propaganda del significato e dello spirito del bicameralismo.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg92">Una Camera, quella dei deputati, davanti a un provvedimento difficile, ha discusso per anni; l'altra Camera, il Senato, viene invece incitata a votare in tempi brevissimi, immediatamente, già il 1° settembre - come ho sentito dire dall'opposizione - e questo non corrisponde al modello di bicameralismo che il referendum ha confermato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg93">È significativo che il Movimento 5 Stelle, che nelle piazze ha fatto del no al referendum la sua bandiera, oggi, con una richiesta d'urgenza così intempestiva e così sterile, voglia imporre una procedura che ridurrebbe il lavoro del Senato a quello di un mero passacarte, impegnato più nel rispetto...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dei senatori Cioffi, Donno e Lucidi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg94">PETROCELLI (M5S). Hanno passato le carte su ogni cosa! PRESIDENTE. Senatore Petrocelli, la richiamo all'ordine: non interrompa. Chiedete la parola quando volete, ma non interrompete. Prego, senatore Zanda. ZANDA (PD). …un Senato che vorreste impegnato nel rispetto di una velocità imposta e non nello studio del provvedimento. Ho terminato, signor Presidente, ma una considerazione politica devo svolgere in chiusura. C'è molto cammino da fare perché chi predica una democrazia nella quale un clic conta più della volontà dei parlamentari possa apprezzare la maturità di una democrazia parlamentare rappresentativa e il senso positivo delle sue procedure.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, Aut (SVP, UV, PATT, UPT)-PSI-MAIE e AP-CpE-NCD e del senatore D'Alì. Commenti della senatrice Paglini</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg95">Le tragiche vicende della città di Roma</seg>
+               <vocal type="speaking">
+                  <desc>.. (Vivaci commenti e proteste dal Gruppo M5S.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg96">MORONESE (M5S). Ma se siete stati voi!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dei senatori Cioffi e Petrocelli.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg97">PRESIDENTE. Senatore Cioffi e senatore Petrocelli, vi richiamo all'ordine! PETROCELLI (M5S). Vergognatevi! PRESIDENTE. Senatore Petrocelli, la richiamo all'ordine per la seconda volta! (Alcuni senatori del Gruppo M5S segnalano alla Presidenza che il senatore Orellana sta effettuando delle riprese video dell'Assemblea con il telefono cellulare). PRESIDENTE. Senatore Orellana, non è consentito effettuare riprese in Aula. RUSSO (PD). Signor Presidente, ma li butti fuori! TAVERNA (M5S). Buffoni! CASTALDI (M5S). Buffoni!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Buemi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg98">Signor Presidente, debbo dire che veramente non si accorgono che stanno usando dei metodi da regime.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, AP-CpE-NCD e Aut (SVP, UV, PATT, UPT)-PSI-MAIE) e della senatrice Bencini.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg99">SANTANGELO (M5S). Signor Presidente, ma lo faccia smettere! (Il Gruppo M5S intona dei cori da stadio). PRESIDENTE. Colleghi, ora basta! Dobbiamo concludere questa discussione! Sapete che a breve sono convocate delle Commissioni di Camera e Senato, che attendono il vostro apporto. ZANDA (PD). Signor Presidente, debbo concludere il mio intervento. Stavo accennando alle tragiche vicende della città di Roma, che ci dicono una cosa chiara... CASTALDI (M5S). Basta! È la terza volta che lo dice!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti e proteste delle senatrici Catalfo e Taverna.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg100">PRESIDENTE. Lasciate parlare il senatore Zanda. Non potete continuare a interrompere chi interviene.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg101">LUCIDI (M5S). Ma che c'entra Roma? CASTALDI (M5S). Cosa c'entra Roma? Faccia rispettare le carte, signor Presidente, che sono le vostre. ZANDA (PD). Non citerò più Roma allora. Quelle vicende ci dicono che quando qualcuno parla di democrazia diretta noi dobbiamo intendere che la vuole diretta da altri centri di potere. Vuole che in Parlamento sia diretta da altrove.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, AP-CpE-NCD, Aut (SVP, UV, PATT, UPT)-PSI-MAIE), FL (Id-PL, PLI) e della senatrice Fucksia.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg102">Signor Presidente, il disegno di legge sulle pensioni dei parlamentari farà allora in Senato il suo corso regolare, rigoroso, senza alcun rallentamento e senza alcun trucco, né per intralciarne la trattazione né per modificarne il cammino. I senatori del Partito Democratico hanno un'unica richiesta da fare su questo provvedimento: che venga esaminato con serietà, con scrupolo, attenzione e senza demagogia.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Donno.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg103">E che la discussione democratica del Senato sia pure vivace ma resti sempre all'interno di quel comportamento civile che questa mattina non ho visto e che è l'unico modo conosciuto per costruire dei buoni provvedimenti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi PD, AP-CpE-NCD e Aut (SVP, UV, PATT, UPT)-PSI-MAIE). Senatori del Gruppo M5S espongono dei cartelli con la scritta «STOP VITALIZI SUBITO».</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg104">PRESIDENTE. Invito i senatori Questori e gli assistenti a intervenire per rimuovere quei cartelli. Invito inoltre il Capogruppo del Movimento 5 Stelle a mantenere l'ordine nel suo Gruppo. (Dal Gruppo PD si intona il coro : «Buffoni, buffoni, buffoni». Dal Gruppo M5S si intona il coro: «Ladri, ladri, ladri»).</seg>
+            </u>
+            <note type="speaker">MONTEVECCHI (M5S)</note>
+            <u ana="#regular" who="#MontevecchiMichela" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u30">
+               <note>Domando di parlare.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg105">PRESIDENTE. La discussione è chiusa, senatrice Montevecchi. A che titolo vuole intervenire? MONTEVECCHI (M5S). Sull'ordine dei lavori e per fatto personale, signor Presidente.</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg106">PRESIDENTE. Silenzio! Ora può intervenire sull'ordine dei lavori. Per fatto personale interverrà a fine seduta.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg107">Ne ha facoltà, senatrice Montevecchi.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg108">Signor Presidente, dal senatore Zanda sono arrivate delle parole...</seg>
+               <vocal type="speaking">
+                  <desc>Vivaci commenti dal Gruppo PD.</desc>
+               </vocal>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u31">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg109">Questo tema non riguarda l'ordine dei lavori. È un intervento sul merito. Senatrice Montevecchi, se vuole intervenire per fatto personale potrà farlo alla fine della seduta, come sempre accade.</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dei senatori Cioffi, Puglia e Santangelo</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg110">SANTANGELO (M5S). Grasso, il problema sei tu! PRESIDENTE. Metto ai voti la richiesta di dichiarazione d'urgenza, ai sensi dell'articolo 77 del Regolamento, in ordine al disegno di legge n. 2888, presentata dal senatore Cappelletti e da altri senatori. Non è approvata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi ironici dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg111">DONNO (M5S). Non è un vostro provvedimento! SANTANGELO (M5S). Chiediamo la controprova. PRESIDENTE. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">NUGNES (M5S)</note>
+            <u ana="#regular" who="#NugnesPaola" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u32">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Montevecchi. Il senatore Airola fa cenno di voler intervenire</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg112">Senatrice Montevecchi, potrà intervenire in fine seduta come tutti gli altri.</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg113">Signor Presidente, vorrei aspettare un attimo che l'Assemblea si calmi. PRESIDENTE. Intanto può cominciare. Prego i colleghi di allontanarsi in silenzio. NUGNES (M5S). Signor Presidente, colleghi, intervengo per denunciare la gravissima situazione ambientale di Aprilia. In primis vorrei segnalare i numerosi esposti presentati da diversi cittadini, singoli e associati, supportati da una documentazione imponente su problemi relativi a violazioni ambientali rimaste ad oggi completamente ignorate. Io stessa ho sollevato con un atto ispettivo la situazione di un terreno agricolo in Via Nettunense 102 all'interno del quale era stata rilevata una illecita attività di stoccaggio e commercio di prodotti chimici per l'industria e l'agricoltura, nonché rifiuti speciali pericolosi e tossici di vario tipo. Ho chiesto al ministro Galletti urgenti iniziative di competenza affinché sia previsto un percorso finalizzato a garantire la rimozione dei rifiuti presenti nell'area, la successiva bonifica e il ripristino dello stato dei luoghi, nonché la verifica dello stato di contaminazione dell'area medesima. Alcuni giorni dopo la mia interrogazione, è stata sequestrata nel territorio di Aprilia, in località Tufetto - una zona sottoposta a vincolo idrologico - una enorme discarica abusiva. L'acqua minerale la cui sorgente si trova in loco non viene imbottigliata, ma fino a pochi giorni fa è stata liberamente usata dai cittadini della zona. L'operazione Dark Side ha portato a sedici le ordinanze di custodia cautelare in carcere e sei divieti di dimora, più sequestri di società, fabbricati, terreni, automezzi, conti bancari e contanti per 15 milioni di euro. Si ipotizzano reati che vanno dall'associazione a delinquere al traffico illecito di rifiuti, intestazione fittizia di beni e autoriciclaggio. Ma, a parte il sito di via Nettunense e a parte quello della cava, ci sono tanti altri episodi per i quali a nostro parere si può ravvedere la necessità di chiedere un commissariamento. Ci sono discariche abusive da bonificare dalla fine degli anni Ottanta. Siamo alle porte di un disastro ambientale che si può certificare così: ad Aprilia ci sono cinque discariche abusive ad altissima priorità in attesa di bonifica da più di venti anni, di cui era ed è a conoscenza anche la Regione Lazio. Ci sono inoltre quattro discariche ad alta priorità nella medesima situazione, decine di siti in attesa di essere inseriti nell'elenco delle bonifiche, tra cui quello di Via Nettunense, sequestrato da quattro anni. La cosiddetta normativa Seveso non viene rispettata, non è stata mai fatta una sola esercitazione, e non sono reperibili i piani di emergenza. In definitiva ad Aprilia (ma non solo lì ovviamente) il lassismo e l'incuranza su aspetti così fondamentali per la tutela della salute pubblica e la salvaguardia ambientale non sono più tollerabili.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ORELLANA (Aut (SVP, UV, PATT, UPT)-PSI-MAIE)</note>
+            <u ana="#regular" who="#OrellanaLuisAlberto" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u33">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg114">Signor Presidente, mi permetto di esprimere innanzitutto le mie scuse, perché prima non ho obbedito prontamente alle sue indicazioni. Purtroppo non sono l'unico che ogni tanto trascende in quest'Aula. Vado direttamente al punto: ringrazio i colleghi che hanno espresso solidarietà ai due esponenti politici venezuelani che sono stati rapiti nel corso di questa notte. Ringrazio chi ha condannato questa deriva autoritaria e ringrazio anche chi ha chiesto un dibattito aperto e approfondito sul Venezuela, come il collega De Cristofaro, perché sono certo che lo ha fatto in perfetta buona fede. Ricordo però che domenica è avvenuto un fatto gravissimo: un'esigua minoranza di venezuelani è andata al voto e ha eletto un gruppo di 545 persone per costituire una cosiddetta Costituente, caratterizzata dalla presenza di rappresentanti delle corporazioni con divieto di affiliazioni partitiche. Per l'ennesima volta è stato esautorato il Parlamento, eletto con suffragio universale un anno e mezzo fa. Al suo posto ora c'è una Costituente illegittimamente indetta (ricordo che sarebbe dovuta essere preceduta da un referendum ) e invece ciò non è avvenuto. Dalle nostre comode poltrone possiamo disquisire ora su questa o quella dichiarazione di esponenti dell'opposizione, su questo quell'orientamento politico, ma resta il fatto indubitabile e incontrovertibile della fine della democrazia in Venezuela. Lo dico con il cuore spezzato, perché il dolore è molto forte per questa situazione: si sta tornando agli anni bui della dittatura degli anni Cinquanta. Questo deve essere chiaro a tutti. L'Italia deve prendere una posizione netta e assolutamente contraria a questa Costituente, come hanno fatto altri Paesi europei e non solo europei. Credo che si sia arrivati a un punto di svolta in cui non possono esservi più tentennamenti e la condanna deve essere ferma e assoluta.</seg>
+            </u>
+            <note type="speaker">LUMIA (PD)</note>
+            <u ana="#regular" who="#LumiaGiuseppe" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u34">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg115">MONTEVECCHI (M5S). Ma la seduta non finiva alle ore 13?</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Cirinnà</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg116">Signor Presidente, non volevo che passasse la giornata senza ricordare in questa Assemblea la figura di Nicola Cipolla, che è morto a novantacinque anni. Si spegne un'altra personalità e protagonista del lungo e travagliato cammino della democrazia italiana e dell'altrettanto travagliato e tragico percorso della politica siciliana. Nicola Cipolla è nato nella città di Pirandello, ad Agrigento, dove passò la sua gioventù. Si trasferì con la famiglia a Palermo, dove al Liceo classico «Umberto I» ebbe compagni di classe della personalità e del calibro di Napoleone Colajanni, Enzo Sellerio, Nino Sorgi. Fu anche per lui l'occasione per entrare dentro la temperie culturale del suo tempo, ma anche per conoscere e apprezzare la cultura marxista. Con la fine del fascismo si aprì la stagione nuova della speranza e Cipolla aderì al PSI e fu tra i fondatori del Fronte del lavoro. Oggi riposa proprio nella camera ardente della CGIL di Palermo, che allora, nel 1944, contribuì a riaprire insieme con Cesare Cessa. Nel 1946 Cipolla ingaggia una battaglia contro l'allora sindaco di Palermo Rocco Gullo, pure lui socialista, ma considerato vicino ad ambienti mafiosi. Con Mario Mineo, Napoleone Colajanni, Enzo Sellerio e Peppe Fazio riuscì a far espellere dal PSI Gullo; poi il sindaco di Palermo fu reintegrato nel Partito Socialista e fatto eleggere nella Costituente. Cipolla decise di rompere con il suo partito e aderì al Partito Comunista, guidato in Sicilia da un'altra spiccata e carismatica personalità, Girolamo Li Causi. Il suo percorso si avvia attraverso il lavoro sindacale nel cuore della struttura sociale del Mezzogiorno, l'agricoltura, dove si forgiavano le giovani classi dirigenti. Basti pensare su tutto allo stesso Pio La Torre. Nel 1947 venne eletto segretario responsabile della prestigiosa Federterra. Iniziò così l'epopea delle lotte contadine con l'occupazione delle terre incolte dei grandi e sterminati feudi e per la riforma agraria, la mamma di tutte le riforme. Tra il 1949 e 1950, insieme a Pio La Torre, vive le lotte per la terra a Corleone, avendo alle spalle la memoria di Bernardino Verro, che all'inizio del Novecento fu protagonista del primo ciclo delle lotte contadine attraverso quel vasto e ricco movimento dei Fasci siciliani. Sempre a Corleone conobbe personalità del calibro di Placido Rizzotto, avendo anche di fronte a sé nei mesi di quel tempo le cosiddette prime stragi di Stato con lo sterminio dei migliori leader e dirigenti per mano della mafia, degli agrari reazionari, delle istituzioni colluse, sino a giungere alla strage di Portella della Ginestra, quella che viene ormai comunemente definita la prima strage di Stato. Dalle lotte contadine alle presenze nell'assemblea regionale il passo fu breve, di cui fu deputato in tre legislature: nella II, nella III e nella IV, dal 1951 al 1963. Nel 1963 arriva in questa Aula del Senato nelle file del Partito Comunista, candidato nel collegio di Sciacca, una provincia molto progressista in quel tempo. Viene confermato senatore nel 1968 e dal 1° luglio del 1963 fino al 14 novembre del 1967 è segretario del Gruppo del Partito Comunista, un ruolo che impone molta severità e capacità sia organizzativa che politica. Nel 1972, alla sua terza legislatura, viene confermato al Senato nell'altro collegio progressista di Ragusa. Dal 1972 al 1976 è membro della rappresentanza italiana al Parlamento europeo. Nel 1981 fonda il Centro studi di politica economica in Sicilia (CEPES). Si dedica così alle tematiche del movimento della pace e, di recente, a quelle attuali dello sviluppo sostenibile, una bella memoria per un tempo odierno arso di cultura progettuale e di sane passioni politiche.</seg>
+            </u>
+            <note type="speaker">ESPOSITO Stefano (PD)</note>
+            <u ana="#regular" who="#EspositoStefano" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u35">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg117">Signor Presidente, vorrei ricordare, visto che negli ultimi giorni è ritornata prepotentemente di attualità la questione relativa al malfunzionamento dell'azienda dei trasporti pubblici romana ATAC, che quest'Aula, nell'ottobre del 2016 approvò un ordine del giorno, collegato alla mozione 1-00619 , i cui firmatari, oltre al sottoscritto, erano i colleghi Aracri e Augello ma che fu condiviso in maniera molto larga in questa Aula, in cui veniva descritta la situazione allo stato della discussione e quello che sarebbe successo in assenza di provvedimenti seri sull'azienda. Ad un anno da quella discussione e dall'approvazione di quell'ordine del giorno, oggi ritorna prepotentemente la richiesta dell'amministrazione capitolina e del sindaco Raggi di un aiuto economico da parte del Governo. Vorrei ricordare, signor Presidente, leggendo brevemente gli impegni che erano stati inseriti nell'ordine del giorno G1 riferito alla mozione n. 619, che l'unica possibilità per il Governo italiano di sostenere e dare risorse a un'azienda pubblica ma non di proprietà dello Stato è la seguente. Il dispositivo del citato ordine del giorno recitava come segue: «A valutare la possibilità di collocare temporaneamente la partecipazione dell'ATAC all'interno del Ministero dell'economia e delle finanze, affidando contestualmente a una struttura tecnica scelta ad hoc il compito del risanamento industriale e patrimoniale dell'azienda». Desidero dirlo, signor Presidente, perché, ritenendo e continuando a ritenere che l'ATAC sia un patrimonio pubblico del Paese e che non è un'azienda di trasporto pubblico come le altre, in quanto serve la Capitale d'Italia e quindi non solo i cittadini romani, pregherei di trasmettere al Ministero notizia di questo atto di indirizzo (atteso che il tempo fa svanire anche i ricordi), al fine di rispondere esattamente al suo contenuto. Cioè, se c'è la possibilità di dare una mano a Roma, ciò può avvenire esclusivamente assoggettando l'azienda ATAC ad una gestione commissariale del Ministero dell'economia e delle finanze. Se non sono in grado di farlo a livello di amministrazione comunale, credo che il Governo debba porsi il problema di farlo, rispondendo peraltro ad un ordine del giorno al quale, come ho detto, ho lavorato in particolare insieme ai senatori Aracri e Augello.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#GrassoPietro" xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.u36">
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg118">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg119">Tenuto conto di quanto stabilito dalla Conferenza dei Capigruppo, ricordo che il Senato tornerà a riunirsi in seduta pubblica oggi, alle ore 16, con l'ordine del giorno già stampato e distribuito.</seg>
+               <seg xml:id="ParlaMint-IT_2017-08-01-LEG17-Sed-869.seg120">La seduta è tolta (ore 13,22).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

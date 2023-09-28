@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 49 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 49 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 49, giorno (2018-10-18)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 49, Day (2018-10-18)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="49-upper">49 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="149" unit="speeches" xml:lang="it">149 discorsi</measure>
+            <measure quantity="149" unit="speeches" xml:lang="en">149 speeches</measure>
+            <measure quantity="11995" unit="words" xml:lang="it">11.995 parole</measure>
+            <measure quantity="11995" unit="words" xml:lang="en">11,995 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1077406</idno>
+               <date when="2018-10-18">18.10.2018</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="15"/>
+               <tagUsage gi="head" occurs="14"/>
+               <tagUsage gi="note" occurs="72"/>
+               <tagUsage gi="seg" occurs="149"/>
+               <tagUsage gi="u" occurs="47"/>
+               <tagUsage gi="vocal" occurs="14"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="49"/>
+               <tagUsage gi="desc" occurs="63"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2018-10-18">18.10.2018</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente TAVERNA</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u1">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg1">La seduta è aperta (ore 9,30). Si dia lettura del processo verbale. CARBONE, segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u2">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Svolgimento di interrogazioni: (3-00035) - Attuazione normativa in materia di disposizioni anticipate di trattamento</head>
+            <note type="time">(ore 9,34)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u3">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg3">L'ordine del giorno reca lo svolgimento di interrogazioni.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg4">Sarà svolta per prima l'interrogazione 3-00035 sull'attuazione della normativa in materia di disposizioni anticipate di trattamento. Il rappresentante del Governo ha facoltà di rispondere a tale interrogazione.</seg>
+            </u>
+            <note type="speaker">BARTOLAZZI</note>
+            <note type="role">sottosegretario di Stato per la salute</note>
+            <u ana="#guest" who="#BartolazziArmando" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u4">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg5">Signor Presidente, onorevoli senatori, intendo innanzitutto ringraziare i senatori interroganti poiché il loro atto ispettivo pone l'attenzione su una tematica sulla quale il Ministero della salute, pur con le difficoltà oggettive che mi appresto ad evidenziare, ha fatto molto in questi mesi al fine di addivenire, nel minor tempo possibile, ad una effettiva applicazione di una legge estremamente importante ed innovativa.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg6">Come noto, la legge 22 dicembre 2017, n. 219, ha introdotto nel nostro ordinamento le disposizioni anticipate di trattamento (le cosiddette DAT), allo scopo di assicurare ad ogni cittadino la tutela del diritto alla vita, alla salute, alla dignità e all'autodeterminazione della persona, stabilendo che nessun trattamento sanitario possa essere iniziato o proseguito se privo del consenso libero ed informato della persona interessata, tranne che nei casi espressamente previsti dalla normativa.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg7">Al fine di consentire una concreta applicazione della legge - che sotto questo aspetto appariva oggettivamente incompleta - con altro intervento normativo, contenuto nella legge di bilancio (l'articolo 1, comma 418, della legge 27 dicembre 2017, n. 205), è stata prevista l'istituzione, presso il Ministero della salute, della banca dati destinata alla registrazione delle disposizioni anticipate di trattamento, le cui modalità sono state demandate ad un apposito decreto del Ministro della salute, da emanarsi entro 180 giorni dall'entrata in vigore della legge di bilancio.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg8">È noto che immediatamente dopo l'approvazione delle summenzionate disposizioni normative, sono insorti numerosi dubbi in merito alla concreta applicazione della nuova disciplina, soprattutto con riferimento alle nuove attività poste in carico agli ufficiali di stato civile. Per tale ragione il Ministero dell'interno, di intesa con il Ministero della salute, è prontamente intervenuto, con circolare n. 1 dell'8 febbraio 2018, fornendo le prime indicazioni operative nonché i chiarimenti concernenti gli aspetti di competenza degli uffici dello stato civile. Già in tale occasione è tuttavia emerso chiaramente come la nuova disciplina risultasse particolarmente complessa sotto il profilo applicativo e in ogni caso bisognosa - ai fini di una piena operatività - del cennato decreto del Ministro della salute istitutivo della banca dati delle DAT per il quale era stato previsto un termine inevitabilmente successivo (come detto, di sei mesi) rispetto a quello di entrata in vigore della legge sulle DAT.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg9">Per la redazione di tale decreto ministeriale, il Ministero della salute si è attivato subito, istituendo un gruppo di lavoro, composto anche da rappresentanti del Ministero dell'interno, delle Regioni e del Garante per la protezione dei dati personali. Già dalle prime riunioni del gruppo di lavoro, sono tuttavia emersi notevoli dubbi interpretativi in merito alla corretta portata delle nuove disposizioni, che hanno purtroppo riguardato punti dirimenti per lo stesso ulteriore avanzamento dei lavori e, dunque, tali da giustificare la fondatezza di un apposito quesito al Consiglio di Stato. Di conseguenza, in data 22 giugno 2018, tra i primi atti posti in essere dal neo ministro Grillo, si è provveduto a formalizzare tale quesito, a cui il Consiglio di Stato ha risposto il 18 luglio 2018.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg10">È necessario evidenziare che nel rendere il parere richiesto, il supremo Consesso, riunito nella solenne sede dell'Adunanza generale, ha dovuto riconoscere, cito testualmente: «la complessità del quadro normativo nonché talune espressioni non univoche utilizzate dal legislatore» che «…potrebbero comportare concrete difficoltà applicative della legge n. 219 del 2017, tali da vanificare la rilevante portata innovativa delle relative disposizioni». I chiarimenti forniti dal Consiglio di Stato hanno, dunque, dato finalmente il necessario impulso alla redazione dello schema di decreto ministeriale e della bozza di correlato disciplinare tecnico, entrambi in fase di avanzatissima definizione.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg11">Sono lieto di informare, infatti, che la bozza di decreto elaborata dal Ministero della salute, nell'ottica di una più ampia condivisione di nuovi adempimenti previsti che graveranno anche su soggetti esterni, è stata condivisa proprio negli scorsi giorni con i principali stakeholder istituzionali, ai quali è stato richiesto di fornire in tempi brevi le loro eventuali osservazioni. In esito a tale fase, che si è ritenuta necessaria - intendo ribadirlo - proprio per coinvolgere i principali destinatari delle indicazioni operative contenute nel decreto ministeriale in modo da assicurarne una volta approvato la piena operatività, rammento che lo schema di decreto, secondo quanto previsto nella scorsa legge di bilancio, dovrà essere sottoposto all'intesa presso la Conferenza permanente per i rapporti tra Stato, le Regioni e le Province autonome di Trento e Bolzano, previa acquisizione del parere favorevole dell'Autorità garante per la protezione dei dati personali. Per quel che riguarda le attività di informazione, specificamente richiamate nell'atto ispettivo, faccio, inoltre, presente che il Ministero della salute, in ottemperanza all'articolo 4, comma 6, della legge n. 219 del 2017, ha provveduto nei termini di legge a dare diffusione attraverso il proprio portale istituzionale ai contenuti previsti dalla normativa in maniera di DAT. A riguardo, desidero tuttavia assicurare i senatori interroganti che l'attività di informazione istituzionale sarà certamente riproposta e rafforzata in seguito alla definitiva approvazione del citato decreto del Ministero della salute, i cui tempi, alla luce di quanto esposto, non dipendono più di fatto dall'attività di questo Dicastero.</seg>
+            </u>
+            <note type="speaker">FARAONE (PD)</note>
+            <u ana="#regular" who="#FaraoneDavide" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u5">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg12">Signor Presidente, sono particolarmente preoccupato dopo la risposta del Sottosegretario. Lo dico, a maggior ragione, perché questo provvedimento che abbiamo approvato nella passata legislatura non aveva alcun colore politico. Pertanto, non devo difendere qualcosa che ha fatto il Governo della scorsa legislatura, che ha lasciato al Parlamento un'assoluta libertà su temi così sensibili su cui è giusto che vi sia libertà di coscienza. Non sto svolgendo, quindi, un «intervento politico», ma mi sto semplicemente preoccupando di far applicare una legge dello Stato. Il MoVimento 5 Stelle e - ricordo - anche l'attuale ministro Grillo, componente della Commissione salute alla Camera, furono protagonisti dell'approvazione di questo provvedimento. Si oppose la Lega, ma il MoVimento 5 stelle, insieme a noi, portò avanti questa legge e insieme a noi l'ha approvata. Il fatto che, da quando è stata approvata la legge a oggi, nei Comuni non si riescano materialmente a concretizzare le disposizioni anticipate di trattamento e ogni Comune agisca in autonomia, fornisca moduli differenti, dia tempi differenti e non ci sia una regia complessiva e che lei nella sua risposta mi dica, in conclusione, che ormai non dipende più da voi, quasi lavandovi le mani della concreta applicazione del provvedimento, mi preoccupa. Come Ministero dovevamo svolgere alcuni compiti che dovevano essere fatti in fretta. Come Ministero dovremmo anche preoccuparci di capire come avviene la concreta e corretta applicazione del provvedimento. Rispetto a questo lei non mi ha risposto. Mi ha semplicemente rimandato a una Conferenza tra Stato e Regioni, che dovrà riunirsi, e non mi ha detto invece ciò che sta accadendo oggi. Oggi, in questo momento, un cittadino che volesse vedere applicata questa legge e quindi volesse veder rappresentata l'impostazione che vuole darsi insieme ai suoi familiari, troverebbe, a seconda del Comune di nascita, una risposta differente rispetto ad un altro Comune magari anche adiacente. Credo che il Ministero della salute debba sforzarsi, nella fase di attuazione del provvedimento, di far sì che nei Comuni e nelle Regioni vi sia uniformità di comportamento e una volontà di applicazione della legge. Non vorrei infatti che la legge fosse applicata a seconda del colore dell'amministrazione comunale che deve applicarla. Ciò sarebbe gravissimo. È una legge dello Stato e ogni Comune ha il dovere di applicarla per come è stata scritta dal legislatore. Ribadisco che si tratta di una legge condivisa dalla stragrande maggioranza dei parlamentari nella scorsa legislatura. Vorrei vi fosse condivisione anche sul fatto che non è possibile sabotarla e che non possono esserci colori politici nella sua applicazione e nell'effettuazione di eventuali sabotaggi. Chiedo allora al Ministero della salute di vigilare, di non limitarsi semplicemente a fare il compitino del decreto, ma di sincerarsi affinché l'applicazione della legge sia effettivamente uniforme su tutto il territorio nazionale e senza difformità che penalizzerebbero i cittadini a seconda del Comune di nascita.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi delle senatrici Bellanova e Rojc.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00121) - Bonifica stabilimento Rendina Ambiente di Melfi (PZ)</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u6">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg13">Segue l'interrogazione 3-00121 sulla bonifica dello stabilimento Rendina Ambiente di Melfi, in provincia di Potenza. Il rappresentante del Governo ha facoltà di rispondere a tale interrogazione.</seg>
+            </u>
+            <note type="speaker">GAVA</note>
+            <note type="role">sottosegretario di Stato per l'ambiente e la tutela del territorio e del mare</note>
+            <u ana="#guest" who="#GavaVannia" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u7">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg14">Signor Presidente, con riferimento alle questioni poste, sulla base degli elementi acquisiti, si fa presente, in via preliminare, che nel 2009 l'Agenzia regionale per la protezione dell'ambiente della Basilicata (ARPAB) ha comunicato alla Regione, alla Provincia e al Comune di Melfi, l'accertamento di una contaminazione delle acque sottostanti il sito del termovalorizzatore, avviando il procedimento relativo alle conseguenti verifiche. A seguito di tale comunicazione la società responsabile ha avviato l'emungimento delle acque di falda a valle dell'impianto mediante esistenti piezometri di monitoraggio. La suddetta barriera è stata successivamente sostituita da pozzi disposti a monte dei suddetti piezometri e di volta in volta integrata ed adeguata alle prescrizioni via via impartite dall'apposita Conferenza di servizi.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg15">La barriera idraulica è tuttora attiva. Il Comune di Melfi con ordinanza del 14 marzo 2009 ha disposto il divieto di utilizzo, a qualsiasi scopo, delle acque di falda emungibili dai pozzi presenti all'interno del piezometro, nell'area di pertinenza del termovalorizzatore e da quelli presenti a valle del sito.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg16">Le sorgenti di contaminazione sono state individuate in vasche e serbatoi, condotte di acque di processo e di reti fognarie. Il soggetto obbligato ha eseguito vari interventi, tra cui il ripristino di alcune vasche di contenimento ed interventi di relining di alcuni tratti delle reti interrate. Le attività di MISE proseguono tuttora e sono monitorate al fine di valutarne l'efficacia in attesa degli interventi di bonifica. L'attività di emungimento è passata dalle 9 postazioni piezometriche iniziali ai 46 pozzi costituenti la barriera idraulica, grazie agli ulteriori interventi di ampliamento richiesti dalla Regione. Tutte le attività di emungimento sono monitorate attraverso l'acquisizione dei principali parametri idraulici e chimico-fisici delle acque sotterranee. Il sistema di monitoraggio registra in continuo ed in tempo reale i parametri necessari ad accertare l'efficienza dello sbarramento idraulico. Il controllo del sistema di monitoraggio è affidato all'Arpab e alla Provincia di Potenza che verificano la sua rispondenza alle prescrizioni della Conferenza di Servizi ed al protocollo APAT-ISPRA. Gli ultimi dati di monitoraggio, rispetto ai risultati della caratterizzazione, confermano la regressione del numero dei contaminanti e la diminuzione delle concentrazioni degli stessi. Nella Conferenza di servizi del 2011 è stato approvato il documento di analisi di rischio, sono stati fissati gli obiettivi di bonifica da conseguire e il termine di sei mesi per la presentazione del relativo progetto. Malgrado i contenziosi ancora pendenti, la Regione ha assunto specifiche iniziative nelle Conferenze di servizi di luglio e settembre 2013 per ottenere dal soggetto obbligato gli approfondimenti necessari a completare la progettazione degli interventi. Si segnala, inoltre, che il 20 febbraio 2014 è stata sottoscritta una Convenzione tra la Regione Basilicata ed ISPRA. Per quanto concerne il progetto di bonifica, lo stesso è stato aggiornato da Fenice Ambiente srl ed approvato dal Comune di Melfi con deliberazione del 2015, a seguito della Conferenza di servizi decisoria, che ha richiesto specifiche integrazioni. La prima fase si è conclusa con l'approvazione dei risultati della sperimentazione in laboratorio con deliberazione di giunta dell'aprile 2017. La seconda fase, relativa ai test pilota in campo, ha avuto inizio a giugno 2017 e prevede, oltre all'esecuzione degli interventi, un monitoraggio di dodici mesi. Attualmente i test sono in corso e mensilmente viene trasmesso lo stato di avanzaménto delle attività. I risultati dei test in corso sono stati esaminati dalla Conferenza di servizi tenutasi presso il Comune di Melfi il 12 luglio 2018. In tale sede, sono state evidenziate criticità riguardanti la presenza di alcune sostanze inquinanti e sono stati chiesti ulteriori approfondimenti di indagine per accertare la provenienza del toluene riscontrato in sede di monitoraggio dei test pilota in campo. A tal proposito, l'ARPAB ha evidenziato di aver effettuato, nel periodo 2016-2018, complessivamente 506 campionamenti e di essere in attesa di ricevere gli esiti analitici dei campionamenti effettuati nei mesi di marzo, maggio e luglio 2018 per procedere alla trasmissione dei risultati agli enti interessati. L'Agenzia ha fatto presente che tutti i dati relativi agli accertamenti effettuati sono pubblicati sul proprio sito istituzionale. Per quanto attiene l'aspetto relativo alla compromissione dell'acqua potabile, la Regione Basilicata ha fatto presente di aver ricevuto una comunicazione da parte di Acquedotto lucano, attuale gestore del servizio idrico integrato e della rete di distribuzione dell'acqua potabile nell'area industriale, secondo cui l'acqua distribuita proviene dallo schema idrico dell'Ofanto (Acquedotto pugliese) senza interferenze con sorgenti locali; sono stati inoltre eseguiti campionamenti congiunti tra l'Azienda sanitaria locale di Potenza ed Acquedotto lucano in data 30 luglio 2018, dai quali si evince che non sussiste alcuna compromissione dell'acqua potabile. Si precisa, infine, che il Ministero dell'ambiente, al fine di acquisire elementi utili per la valutazione del danno ambientale, ha incaricato ISPRA di verificare lo stato dei luoghi e di redigere una valutazione tecnica di individuazione, descrizione e quantificazione del danno. Ferme restando le competenze in ambito sanitario delle Regioni e degli altri enti preposti, il Ministero rassicura comunque che manterrà alto il livello di attenzione sulla vicenda.</seg>
+            </u>
+            <note type="speaker">MOLES (FI-BP)</note>
+            <u ana="#regular" who="#MolesGiuseppe" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg17">Signor Presidente, ringrazio il Governo, nella persona del Sottosegretario, e mi ritengo parzialmente soddisfatto (spiegherò anche il perché). La risposta del Governo certifica un dato di fatto, ossia che abbiamo la certezza di un inquinamento di quest'area che risale al 2009, se non prima. Sono parzialmente soddisfatto, perché nella conclusione della sua risposta il Ministero assicura un alto livello di attenzione. Questo è quello che in realtà a noi serve; questo è ciò che noi volevamo avere come risposta alla nostra interrogazione, perché sottolineo con grande amarezza che questa è una storia che va avanti da tanti anni. Tante sono state le sollecitazioni, tante sono state le iniziative delle comunità e delle istituzioni; tante sono state le segnalazioni delle stesse aziende che orbitano in quell'area. La percezione - che non è solo una percezione, ma una certezza - è che la Basilicata sia quasi una pattumiera; e non sono solo questi i casi di inquinamento ambientale, come ben sappiamo. Nessuna risposta in questi anni è arrivata dagli enti preposti e dalla Regione Basilicata. Per quale motivo? Forse perché con questo rimbalzo di competenze si è voluto coprire una serie di mancanze? Forse perché la Regione Basilicata, non avendo più discariche a disposizione, non sapeva dove portare i rifiuti? Per concludere, ciò che chiedo al Governo è di mantenere l'impegno che ha assunto verso la conclusione della sua risposta, perché evidentemente non possiamo più fidarci e non possiamo più ritenere assolutamente attendibili, né credibili, i controlli, gli atti e le iniziative degli enti preposti localmente e di una Regione Basilicata che da anni è stata governata in modo irresponsabile dal centrosinistra. Tante sono state le iniziative a cui non è stata data risposta. Soltanto ultimamente, grazie all'intervento della magistratura e del NOE, è stata data una risposta. Ritengo che questo comportamento sia da irresponsabili; è un atteggiamento, non solo delle istituzioni, assolutamente punibile da un punto di vista morale e politico. Di conseguenza, se è vero che la responsabilità non è di questo Governo, appena subentrato al precedente, è però sua responsabilità tutelare una comunità, come quella lucana e del Vulture Melfese, che non può continuare a essere trattata in questo modo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00208) - Discarica Valanghe d'inverno in provincia di Catania</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u9">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg18">Segue l'interrogazione 3-00208 sulla discarica Valanghe d'inverno in provincia di Catania. Il rappresentante del Governo ha facoltà di rispondere a tale interrogazione.</seg>
+            </u>
+            <note type="speaker">GAVA</note>
+            <note type="role">sottosegretario di Stato per l'ambiente e la tutela del territorio e del mare</note>
+            <u ana="#guest" who="#GavaVannia" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u10">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg19">Signor Presidente, con riferimento alle questioni poste, sulla base degli elementi acquisiti, si rappresenta quanto segue: la vicenda in esame va inserita nel più ampio contesto regionale caratterizzato ormai da anni da una valutazione di continua emergenza, legata anche all'insufficiente presenza di impianti di smaltimento sul territorio regionale.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg20">Nel sito Valanghe d'inverno sono presenti una discarica, autorizzata con decreto AIA n. 221 del 19 marzo 2009, per rifiuti non pericolosi, attualmente in coltivazione, il relativo impianto per la produzione di biogas, entrato in esercizio il 25 febbraio 2016, e un impianto di pretrattamento e selezione, autorizzato con decreto AIA n. 661 del 10 luglio 2008, attualmente non operativo.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg21">A partire dal 2014 sono intervenuti numerosi provvedimenti amministrativi e giudiziari. Tra questi si ritiene utile menzionare in questa sede il provvedimento regionale del 2014 di diniego al rinnovo del decreto AIA n. 221 del 2009; il decreto prefettizio dello stesso anno con cui è stato disposto il commissariamento della Oikos; la sentenza del Consiglio di giustizia amministrativa di Palermo del 2017 che ha annullato il predetto provvedimento di diniego e la sentenza del 2018 dello stesso Consiglio che ha annullato il provvedimento prefettizio.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg22">Per effetto della sentenza del 2017 è stato riavviato l' iter istruttorio per il rinnovo dell'AIA e sono stati convocati appositi tavoli tecnici e conferenze di servizi da parte del dipartimento regionale competente. L'ultima conferenza di servizi si è tenuta lo scorso 18 settembre, all'esito della quale ARPA ha manifestato la necessità di procedere ad alcuni approfondimenti e revisioni. Si segnala, a tal proposito, che, ai sensi del comma 11 dell'articolo 29 del decreto legislativo n. 152 del 2006, fino alla pronuncia dell'autorità competente in merito al riesame dell'AIA, il gestore sta continuando l'attività sulla base dell'autorizzazione in suo possesso. Per quanto concerne le emissioni di metano e sostanze odorigene, l'ARPA ha pianificato e attuato un insieme di accertamenti di natura tecnica utili alla realizzazione di un monitoraggio ambientale della matrice aria, volto a studiare lo stato qualitativo di aria e ambiente all'interno dell'agglomerato urbano dei Comuni interessati, con particolare riguardo alle segnalazioni di maleodoranze rilevate dai cittadini di Misterbianco e Motta Sant'Anastasia. Limitatamente al periodo in cui sono state condotte le rilevazioni, è emerso che, in determinate fasce orarie della giornata, in alcuni punti delle aree oggetto di studio possono manifestarsi con una certa ciclicità, intensità e durata variabile significative modificazioni delle composizioni qualitative e quantitative dell'area, accompagnate dalla contestuale percezione degli odori sgradevoli. In particolare, in alcuni casi è risultato evidente l'incremento, anche molto rilevante, della concentrazione di metano costantemente accompagnato da incrementi di concentrazione, anche se più contenuti, di alcuni composti organici responsabili delle percezioni maleodoranti. La relazione dell'ARPA ha concluso che appare logico ricondurre i fenomeni registrati alla presenza di una sorgente diffusa di varie dimensioni, la quale può però identificarsi nel complesso impiantistico costruito nelle discariche e correlati impianti. Appare superfluo precisare che la situazione qui descritta è fortemente condizionata dalla stagionalità. Analoghi rilievi e misure eseguite in stagioni caratterizzate da condizioni meteorologiche diverse possono con ogni probabilità produrre risultati differenti. Alla luce delle considerazioni esposte, la Regione Sicilia, proprio al fine di superare l'annoso problema delle emissioni odorigene, ha disposto che presso la discarica Valanghe d'inverno venisse conferita esclusivamente frazione secca proveniente dal sopravaglio degli impianti di tritovagliatura. Per quanto attiene, infine, all'opportunità di inserire la valutazione di impatto sanitario (VIS) nella valutazione di impatto ambientale del progetto dell'impianto di trattamento di percolato, pur ritenendo quanto segnalato dagli interroganti meritevole di attenzione nell'interesse della salute pubblica, si rammenta tuttavia che la valutazione di impatto sanitario è prevista dalla normativa vigente per progetti riguardanti impianti differenti da quello in esame. A ogni modo, si rassicura che il Ministero dell'ambiente e della tutela del territorio e del mare, già da tempo a conoscenza della problematica in questione, sta monitorando costantemente l'evolversi della vicenda e assicura che manterrà alto il livello di attenzione sul tema.</seg>
+            </u>
+            <note type="speaker">DRAGO (M5S)</note>
+            <u ana="#regular" who="#DragoTizianaCarmelaRosaria" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u11">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg23">Gentile Sottosegretario, esprimo la mia soddisfazione nell'apprendere che il Ministero è a conoscenza del problema e ha piena consapevolezza della criticità della situazione sottoposta alla vostra attenzione. Prendo atto della circostanza che la normativa vigente a cui ha fatto riferimento non mette a disposizione del Ministero gli strumenti per poter intervenire nel corso della procedura amministrativa di rinnovo dell'AIA, ma apprendo con soddisfazione che durante l' iter avviato in sede di Conferenza dei servizi per il rinnovo della citata autorizzazione le autorità preposte alla tutela della salute pubblica, nel caso di specie l'ARPA, nel confermare la presenza di potenziali fattori di rischio ambientale, hanno di fatto imposto l'obbligo di disporre ulteriori approfondimenti e verifiche a cui potrebbe far seguito, se non il diniego al rinnovo dell'autorizzazione, quanto meno l'onere a carico del gestore della discarica di porre in essere ogni intervento utile a scongiurare potenziali rischi per la salute dei cittadini. Come ha avuto modo di vedere anche nell'interrogazione che le ho sottoposto, ci sono degli studi dell'Università di Catania che avvalorano scientificamente quanto detto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#TavernaPaola" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u12">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg24">Lo svolgimento delle interrogazioni all'ordine del giorno è così esaurito.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg25">La seduta riprenderà alle ore 15. (La seduta, sospesa alle ore 10,03, è ripresa alle ore 15).</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+            <note type="time">15,00</note>
+         </div>
+         <div type="debateSection">
+            <head>(3-00291) - Question time su crisi aziendali imprese costruttrici del Quadrilatero Marche-Umbria</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u13">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg26">L'ordine del giorno reca lo svolgimento di interrogazioni a risposta immediata (cosiddetto question time ), ai sensi dell'articolo 151- bis del Regolamento, alle quali risponderanno il Ministro delle infrastrutture e dei trasporti e il Ministro delle politiche agricole alimentari, forestali e del turismo. Invito gli oratori ad un rigoroso rispetto dei tempi, considerata la diretta televisiva in corso. Il senatore Zaffini ha facoltà di illustrare l'interrogazione 3-00291 sulle crisi aziendali che hanno colpito le imprese costruttrici del Quadrilatero Marche-Umbria, per tre minuti.</seg>
+            </u>
+            <note type="speaker">ZAFFINI (FdI)</note>
+            <u ana="#regular" who="#ZaffiniFrancesco" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u14">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg27">Signor Presidente, signor Ministro, il maxilotto 2 del Quadrilatero Marche-Umbria è un'opera complessa, che prevede la realizzazione, in regime di general contracting, dei lavori di ammodernamento e potenziamento della direttrice Perugia-Ancona, principalmente, nonché la realizzazione della nuova sede della Pedemontana delle Marche. Attualmente, Ministro, i lavori risultano bloccati per l'ennesima crisi finanziaria che colpisce sistematicamente tutti gli affidatari dei lavori della Perugia-Ancona, ultimo, in ordine di tempo, il gruppo Astaldi SpA, che proprio ieri è stato ammesso alla procedura di concordato in continuità, mandando sul lastrico le imprese locali, che hanno realizzato i lavori con grande professionalità, ma salvaguardando rigorosamente gli affidatari colpiti dalle ennesime crisi di liquidità. Va considerato che il committente dell'opera è la Quadrilatero Marche-Umbria SpA, società controllata da ANAS, che ne detiene il 92 per cento, mentre il general contractor, inizialmente Dirpa Scarl, è poi divenuto Dirpa 2 Scarl e che i lavori lungo la Perugia-Ancona, Ministro, sono stati avviati nel 2008, quindi dieci anni fa, e sono stati sistematicamente bloccati e il termine degli stessi è slittato di anno in anno. La prima affidataria dei lavori, la BTP SpA (Baldassini-Tognozzi-Pontello SpA), è stata sottoposta ad amministrazione giudiziale ed è stata successivamente ammessa alla procedura di concordato preventivo, conclusasi nel dicembre del 2011, con la cessione del ramo d'azienda a favore di Impresa SpA. È una serie un po' noiosa di fatti aziendali, signor Ministro, ma che serve a far capire cosa accade su quella strada. Questa prima crisi ha determinato il fallimento di circa 50 aziende del tessuto locale. All'inizio del 2013 si sono manifestate nuove criticità e Impresa SpA è stata ammessa alla procedura di amministrazione straordinaria, in questo caso estesa anche al contraente generale Dirpa, con ulteriori disastrose ripercussioni sulle imprese locali. Impresa apparteneva al Consorzio Operae, mandatario dell'ATI, società aggiudicataria del maxilotto 2. Mentre la Dirpa Scarl era in amministrazione straordinaria, le subentrava la neocostituita Dirpa 2 Scarl - non cambiano nemmeno nome, Ministro! - come nuovo contraente generale. Nel 2015, i lavori, per un importo di circa 500 milioni, sono stati affidati ad Astaldi, che oggi, guarda caso, è in crisi di liquidità. Dirpa 2 è infatti di proprietà, per il 99,99 per cento, del Consorzio Operae, quindi i protagonisti sono sempre gli stessi, con il famoso gioco delle tre carte. PRESIDENTE. Senatore, deve concludere. ZAFFINI (FdI). Sto concludendo, vengo alla domanda: non ritiene, signor Ministro, che in virtù di questa serie storica di fatti assolutamente inequivocabili, sia doveroso procedere alla revoca dell'affidamento dei lavori del maxilotto 2 con l'incameramento delle fideiussioni a garanzia del saldo di tutti i debiti accumulati da Astaldi SpA? Mi riferisco alla specifica direttrice Perugia-Ancona e non a tutti i debiti di Astaldi, evidentemente. PRESIDENTE. Il ministro delle infrastrutture e dei trasporti, senatore Toninelli, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">TONINELLI</note>
+            <note type="role">ministro delle infrastrutture e dei trasporti</note>
+            <u ana="#regular" who="#ToninelliDanilo" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u15">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg28">Signor Presidente, colleghi, in premessa è opportuno specificare che l'attuale contraente generale, Dirpa 2, non è il medesimo soggetto rispetto all'originario contraente generale Dirpa. Infatti, in esito alle due procedure fallimentari intervenute, sono state disposte dalle competenti autorità giudiziarie e governative le cessioni di ramo d'azienda, di cui la seconda alla subentrata Dirpa 2, nel rispetto delle previsioni di legge in materia.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg29">Circa l'affidamento ad Astaldi dei lavori da parte di Dirpa 2, secondo la normativa di riferimento, il contraente generale può autonomamente affidare i lavori senza alcun vincolo, purché le imprese abbiano tutti i requisiti di legge.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg30">Pertanto, in risposta all'ipotesi di revoca dell'affidamento dei lavori del maxilotto 2, evidenzio che la revoca dell'affidamento - rectius la risoluzione in danno del contratto - non appare al momento opportuna, considerato che la società committente Quadrilatero Marche Umbria e il contraente generale stanno ponendo in essere ogni azione volta alla tempestiva ripresa dei lavori per completare il citato maxilotto 2. In ogni caso, tenuto conto dell'evolversi della situazione complessiva, saranno valutate le ipotesi di risoluzione contrattuale nonché di escussione della garanzia. Tale eventuale escussione servirebbe a garantire prioritariamente il conseguente maggior costo da sostenere per il completamento del maxilotto 2, in quanto si dovrebbe procedere con una nuova gara di affidamento. Inoltre, l'eventuale saldo positivo risultante dall'escussione delle garanzie, una volta coperti i maggiori costi, dovrebbe necessariamente rientrare nell'ambito della procedura di concordato.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg31">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Zaffini, per due minuti.</seg>
+            </u>
+            <note type="speaker">ZAFFINI (FdI)</note>
+            <u ana="#regular" who="#ZaffiniFrancesco" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u16">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg32">Signor Ministro, finché Dirpa 2 non entra nella procedura concorsuale di Astaldi le risorse sono libere, quindi bisogna sbrigarsi a revocare il danno. Dirpa 2 non è la stessa società di Dirpa, ma fa capo alla medesima proprietà, che è Astaldi. È un gioco delle tre carte, ormai assolutamente evidente, consentito dal committente, che è Quadrilatero, una società di scopo. Lo scopo della Quadrilatero, detenuta al 92 per cento da ANAS, ma anche dalle camere di commercio di Umbria e Marche, era quello di realizzare l'opera, di farlo rapidamente e di tutelare le imprese locali: non ha ottenuto nessuno dei tre scopi. È una società di scopo che ha miseramente fallito lo scopo. È detenuta da ANAS al 92 per cento, quindi fa parte del suo Ministero.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg33">Rispetto a questo, non è un atteggiamento notarile quello che occorre signor Ministro, mi perdoni, ma l'atteggiamento che decide di rompere una prassi consolidata, che vede le strade da troppo tempo lastricate di fallimenti invece che di asfalto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi del Gruppo FdI.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00293) - Question time su realizzazione Terzo valico dei Giovi</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u17">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg34">Il senatore Astorre ha facoltà di illustrare l'interrogazione 3-00293 sulla realizzazione del Terzo valico dei Giovi, per tre minuti.</seg>
+            </u>
+            <note type="speaker">ASTORRE (PD)</note>
+            <u ana="#regular" who="#AstorreBruno" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u18">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg35">Signor Presidente, signor Ministro, la ringrazio per essere qui: pensavamo fosse presso la procura della Repubblica, a consegnare qualche denuncia rispetto agli atti che avete o non avete approvato al Governo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD. Richiami del Presidente</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg36">È un piacere vedere che il rispetto che lei ha del Senato è di più del depositare denuncia alla procura della Repubblica (ma ci sarete andati questa mattina o ci andrete questa sera).</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg37">L'interrogazione di cui chiediamo la risposta e che abbiamo depositato riguarda una delle opere infrastrutturali più importanti, che è il collegamento del Terzo valico a Genova. Genova è una città già martoriata dal crollo del ponte Morandi; Genova è quella realtà che vede 2.400 persone impegnate nella realizzazione di questa opera strategica, che hanno anche fatto una manifestazione nazionale e che vedono in pericolo il proprio posto di lavoro e la propria struttura. E per che cosa, signor Presidente? Per una fantomatica analisi costi-benefici, data a una struttura di missione del Ministero dei trasporti, quando tutte le analisi costi-benefici sono state fatte prima. (Il senatore Faraone espone un cartello con la scritta «Toninelli #escidaltunnel»).</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u19">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg38">Senatore, tolga quel cartello. Invito gli assistenti ad intervenire.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg39">Adesso avremo un'analisi costi-benefici... PRESIDENTE. Un attimo, senatore Astorre. Sospendiamo la diretta televisiva.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg40">Approfittarsi della diretta televisiva, che in questo momento non c'è, non è una gran cosa.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg41">Prego, senatore Astorre.</seg>
+            </u>
+            <note type="speaker">ASTORRE (PD)</note>
+            <u ana="#regular" who="#AstorreBruno" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u20">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg42">Ricordavo al ministro Toninelli le migliaia e migliaia di persone che lavorano nel porto di Genova, che è uno dei più importanti d'Italia, con decine di milioni di merci e milioni di container scaricati, per una struttura che si inserisce nel collegamento tra Genova e Rotterdam. Abbiamo, quindi, impegni italiani ed europei da rispettare. Invece di mettere nel decreto-legge su Genova una sanatoria indiscriminata e urbanistica per la città di Ischia, che serve a farci vergognare di fronte al popolo - ma, si sa, tra condoni e sanatorie risultate esperti - occorre che a Genova si dia una risposta, che si dia una risposta al Terzo valico e alle opere infrastrutturali.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg43">Lo sviluppo di un Paese, con la sua capacità di proiettarsi nel futuro, ha necessità di non andare dietro ai facili consensi elettorali, anche perché spesso ci si rimangia pure la parola. Penso alla questione No TAP: è stata fatta una campagna elettorale in Puglia e si sono presi tanti voti e poi adesso si decide di andare avanti. Cavalcando tutti i no si possono ottenere voti; ma realizzare infrastrutture per migliorare la qualità della vita del Paese significa governare questo Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg44">Vi chiediamo, allora, di essere precisi nelle risposte. Non fate come al solito: non siate latitanti o evasivi, perché le risposte che il Paese aspetta in materia di infrastrutture e sviluppo sono fondamentali. Finitela di andare avanti e indietro dalla procura della Repubblica e date risposte al Paese, che aspetta che governiate.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg45">PRESIDENTE. Il ministro delle infrastrutture e dei trasporti, senatore Toninelli, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">TONINELLI</note>
+            <note type="role">ministro delle infrastrutture e dei trasporti</note>
+            <u ana="#regular" who="#ToninelliDanilo" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u21">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg46">Colleghi, anzitutto, mi viene da dire che queste opere sono talmente fondamentali che le avete iniziate nel 1992 e ancora non siete stati in grado di terminarle.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Proteste dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg47">Ventisei anni per concludere un'opera e chiedere a un Governo insediato da quattro mesi di portarla a termine mi pare equiparabile a una barzelletta.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg48">MARGIOTTA (PD). Ma smettila, ora sei al Governo non all'opposizione! TONINELLI , ministro delle infrastrutture e dei trasporti. Detto questo, Presidente, il Terzo valico dei Giovi è un'opera che trae origine da una convenzione stipulata nel 1992 tra l'attuale RFI e il consorzio COCIV, che, nel corso di oltre un quarto di secolo, ha visto una serie di vicissitudini, anche di natura giudiziaria, che ne hanno evidenziato le numerose criticità. Si tratta di una delle più grandi opere pubbliche finanziate dallo Stato, per la quale ricordo che è stata aperta un'inchiesta giudiziaria - ci mancava anche questa - che, solo nello scorso giugno, pochi giorni dopo il mio insediamento, si è chiusa con oltre 36 indagati, alcuni tra i quali esponenti di primissimo piano delle istituzioni. Se quando è stata concepita l'opera fossimo stati al Governo, e l'unico rammarico che ho è che il MoVimento 5 Stelle non fosse al Governo prima che faceste questi disastri...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti e proteste dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg49">MALPEZZI (PD). C'era la Lega! FARAONE (PD). Buffone! Sei un buffone! PRESIDENTE. Se chiamate il Ministro per sentire una risposta, ascoltatela.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Malpezzi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg50">Senatrice, per cortesia. Prego, Ministro.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg51">, ministro delle infrastrutture e dei trasporti. Dicevo che se il MoVimento 5 Stelle fosse stato al Governo, l'opera non sarebbe mai stata portata avanti in questo modo. La valutazione che il Ministero sta svolgendo non ha l'obiettivo di fermare l'opera, ma quello di giudicarne la convenienza complessiva per i cittadini. Come è stato da me sempre ribadito, sulle opere che sono a un avanzato stadio di realizzazione, la valutazione dell'analisi costi-benefìci non potrà non tenere conto di tutti i vincoli normativi, dello stato di avanzamento dei lavori e di tutti gli interessi coinvolti, compresi quelli occupazionali, ai quali abbiamo sempre prestato la massima attenzione. Pertanto, posso confermare ancora una volta ai colleghi interroganti che, in attesa dei risultati delle valutazioni, ormai in via di completamento, a proposito delle voci circa presunti licenziamenti da parte del consorzio COCIV, non esiste un diretto legame con la consegna del quinto lotto, come testimoniato dall'accordo tra RFI e il general contractor, che ha dato continuità ai cantieri in corso, checché ne abbiano detto in queste settimane i colleghi del Partito Democratico, ripresi da molti giornali.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Faraone.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg52">Sempre in risposta all'interrogazione, ribadisco ancora una volta che la valutazione, dal momento che terrà conto dei vincoli esistenti, considererà sicuramente gli oneri a carico del bilancio pubblico in caso di sospensione delle opere infrastrutturali, qualunque sia la causa di questi oneri e che questi aspetti, così come gli altri oggetto di analisi, saranno resi pubblici - a differenza del passato - prima che il Governo assuma le sue determinazioni in proposito.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg53">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice Pinotti, per due minuti.</seg>
+            </u>
+            <note type="speaker">PINOTTI (PD)</note>
+            <u ana="#regular" who="#PinottiRoberta" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u22">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg54">Ministro Toninelli, il Terzo valico è un'infrastruttura strategica per l'Italia ed essenziale per il futuro di Genova, soprattutto e ancora di più oggi, dopo il crollo del ponte Morandi.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg55">Il movimento politico al quale lei appartiene, il MoVimento 5 Stelle, ha sempre manifestato avversità nei confronti dell'opera. L'ultimo episodio risale a martedì scorso, quando, in Consiglio regionale, il MoVimento 5 Stelle ha impedito di votare un ordine del giorno che chiedeva, all'unanimità degli altri partiti, di poter procedere con il Terzo valico.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg56">Capisco le posizioni del MoVimento; lei guarda sempre indietro, ma vede, adesso lei è Ministro della Repubblica, ha una responsabilità che va oltre la propaganda.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg57">La smetta di nascondersi dietro le ambiguità, perché è inutile che lei mi rilegga che il CIPE ha approvato il quinto lotto e i finanziamenti: lo sappiamo. Ma il messaggio politico che lei ha dato - «L'opera va messa sotto controllo», «Vedremo» - di fatto sta impedendo di avere finanziamenti certi e stiamo parlando di 2.400 persone che non sanno se potranno continuare a lavorare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg58">Lei dice che lavora tanto, sua moglie è preoccupata, riposa poco: ci dispiace, però sappia che il riposo lei lo toglie anche, per esempio, a quei cittadini abruzzesi che non sanno se quel ponte fra la A24 e la A25 è sicuro o no.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg59">Lei non può lanciare a mezzo stampa l'allarme su questi problemi: lo chiuda, se è rischioso, e non parli così. E toglie il riposo anche a quei lavoratori e a quelle famiglie che stanno manifestando non perché aizzati da qualcuno, ma perché sono preoccupati per il loro posto di lavoro.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg60">Concludo la mia replica con un frase che ha urlato un operaio, uno di quelli che rischiano il posto, nel Consiglio regionale ligure ai suoi colleghi di partito, del MoVimento 5 Stelle: «Io voglio il lavoro», non il reddito di cittadinanza. Questo vogliono gli italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00292) - Question time su emergenza relativa a opere infrastrutturali a Genova</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u23">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg61">Il senatore Biasotti ha facoltà di illustrare l'interrogazione 3-00292 sull'emergenza relativa alle opere infrastrutturali a Genova, per tre minuti.</seg>
+            </u>
+            <note type="speaker">BIASOTTI (FI-BP)</note>
+            <u ana="#regular" who="#BiasottiSandroMario" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u24">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg62">Signor Ministro io vorrei poterle dare la mia solidarietà per tutte le offese, le critiche e le ingiurie che lei ha ricevuto dopo il crollo del ponte Morandi. Questo perché lei è un Ministro per me importantissimo: il Ministro delle infrastrutture, che sia chiaro, non il Ministro delle non infrastrutture.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg63">Io credo che le infrastrutture, il turismo e il made in Italy siano i tre settori che possono veramente portare l'Italia fuori da questa crisi economica. Ed allora mi dispiace che le opposizioni le abbiano dato del bugiardo, quando lei è venuto ad inaugurare il Salone nautico dicendo che il decreto-legge era pronto e che sarebbe stato pubblicato in poche ore e poi sono passati quaranta giorni e quando ha detto che il decreto-legge avrebbe previsto aiuti per tutte le aziende e le famiglie non c'erano. Mi dispiace che le abbiano dato dell'incompetente, qualcuno anche peggio, quando lei ha proposto di costruire al posto del Morandi un ponte vivibile e pedonabile. Mi dispiace quando hanno detto «Vergogna!» perché lei ha postato una foto sorridente, con sua moglie, due giorni dopo l'incidente, oppure quando lei ha postato - o hanno postato - un'altra foto con Vespa con il ponte, ridendo del crollo del ponte. Tralascio poi tutti gli insulti che lei ha ricevuto dai comici: ormai lei è diventato il simbolo della satira di Gene Gnocchi, di Bizzarri, di Crozza. Addirittura, la sua faccina gira nei siti come simbolo che significa: sparando delle cavolate (la parola è un'altra ma ci capiamo).</seg>
+               <kinesic type="applause">
+                  <desc>Applausi e ilarità dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg64">LUPO (M5S). Ma sta interrogando? PRESIDENTE. Senatore Biasotti, la domanda.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo M5S</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg65">Mi permetto di consigliarle di approfondire. Se lei avesse approfondito i temi su cui poi rilascia dichiarazioni, non avrebbe detto di volere un ponte vivibile e pedonabile, perché si tratta di un ponte autostradale a 50 metri sul Polcevera, che straripa un anno sì e l'altro anche, non è né vivibile, né transitabile, né pedonabile. Se lei avesse approfondito saprebbe che la Gronda non è un pezzo di tetto dove va l'acqua piovana, è un'opera fondamentale che la città aspetta da vent'anni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg66">Perché la città era già bloccata prima del crollo del ponte, figuriamoci adesso! Se lei avesse approfondito, non avrebbe nominato cinque commissari per verificare le motivazioni del crollo per poi licenziarli dopo tre minuti perché erano incompatibili o incompetenti. Se lei avesse approfondito non avrebbe dichiarato che revocava la concessione ad Autostrade, su tutta la linea delle autostrade, perché non poteva, tant'è che non ha potuto farlo, lei ha revocato la concessione solo per un pezzettino, creandoci degli enormi problemi, perché Autostrade potrebbe fare il ponte in otto mesi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP. Commenti dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg67">Faccia dopo, la revoca e le critiche.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg68">PRESIDENTE. Concluda, senatore Biasotti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg69">BIASOTTI (FI-BP). Io le chiedo, signor Ministro, lasciamo perdere le polemiche, metta la testa sui dossier. Ci faccia fare questa benedetta Gronda, che costa zero per le casse dello Stato, zero! Paga tutto Autostrade, che incassa già l'aumento dei pedaggi dal 1° luglio - io spero che lei lo sappia - quindi è pagata. Ci faccia fare il Terzo valico, ci faccia fare la diga del porto di Genova, signor Ministro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u25">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg70">Rivolgo un saluto, a nome dell'Aula, a studenti e docenti del collegio «Sacra Famiglia» di Torino, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Question time su emergenza relativa a opere infrastrutturali a Genova</head>
+            <note type="time">(ore 15,20)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u26">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg71">Il ministro delle infrastrutture e dei trasporti, senatore Toninelli, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">TONINELLI</note>
+            <note type="role">ministro delle infrastrutture e dei trasporti</note>
+            <u ana="#regular" who="#ToninelliDanilo" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u27">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg72">Signor Presidente, essere criticato da esponenti del Partito Democratico e di Forza Italia, che con i loro Governi hanno rubato il futuro a quei ragazzi seduti in tribuna, rovinando questo Paese, mi riempie di grande orgoglio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Vivaci proteste dal Gruppo PD.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg73">PRESIDENTE. Signor Ministro, la prego, risponda alla domanda.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg74">VERDUCCI (PD). Vergogna! Sei un Ministro! Vergognati! (I senatori Faraone e Malpezzi espongono nuovamente il cartello con la scritta «#Toninelliescidaltunnel»).</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u28">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg75">Senatore Faraone e senatrice Malpezzi, vi richiamo formalmente all'ordine! Fate concludere il Ministro.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del Gruppo PD.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">TONINELLI</note>
+            <note type="role">ministro delle infrastrutture e dei trasporti</note>
+            <u ana="#regular" who="#ToninelliDanilo" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u29">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg76">Signor Presidente, comprendo perfettamente il nervosismo. (Il senatore Verducci scende nell'emiciclo). PRESIDENTE. Senatore Verducci, torni al suo posto!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Verducci</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg77">Signor Ministro, lo ripeto: risponda al quesito che le è stato sottoposto dal senatore Biasotti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg78">, ministro delle infrastrutture e dei trasporti. La ringrazio molto dell'invito, signor Presidente, peccato che non abbia posto alcun quesito. VOCI DAL GRUPPO PD: Dimissioni! Dimissioni! TONINELLI , ministro delle infrastrutture e dei trasporti. Però, ripeto che io rispondo con molta serenità, comprendendo lo stato di nervosismo, se non di panico, di chi ha gestito questo Paese negli ultimi cinque anni in maniera a dir poco disastrosa. Mi rivolgo a quei ragazzi: questi signori hanno regalato la cosa pubblica a dei prenditori di Stato. Le loro critiche devono essere motivo di orgoglio!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg79">MALPEZZI (PD). Devi rispondere alla domanda! PRESIDENTE. Senatrice Malpezzi, vuole sedersi? Lei non ha l'esclusività del dibattito in quest'Aula. Si segga! L'ho già richiamata una volta, non mi costringa a farlo un'altra volta. MALPEZZI (PD). Signor Presidente, gli chieda di rispondere alla domanda! PRESIDENTE. Si sieda. TONINELLI , ministro delle infrastrutture e dei trasporti. Signor Presidente, siccome, però, il sottoscritto pensa a Genova e ai genovesi e non pensa, invece, a difendere un passato indifendibile, andiamo alla risposta. MALAN (FI-BP). Devi fare, non pensare. TONINELLI , ministro delle infrastrutture e dei trasporti. Certo, se pensassi come lei, guardi, farei fatica a trovare soluzioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg80">La tragedia che ha colpito la comunità nazionale il 14 agosto poteva e doveva essere evitata. Quarantatré persone hanno perso la vita e vi sono state ricadute disastrose per la città di Genova, per i suoi cittadini e, più in generale, per tutto il Paese, data l'importanza strategica del polo industriale e commerciale genovese.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg81">Il Governo è intervenuto con grande tempestività e con un massiccio dispiegamento di mezzi e risorse umane e materiali e tutte le istituzioni, congiuntamente, hanno profuso i loro sforzi per attenuare nell'immediato i disagi delle popolazioni colpite e per provvedere alle necessità più impellenti nel medio termine.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Faraone</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg82">Infatti, oltre ai primi provvedimenti d'urgenza disposti dal commissario del Governo già nelle ore immediatamente successive al crollo del ponte, nel decreto-legge attualmente all'esame del Parlamento sono state introdotte misure fiscali a sostegno degli sfollati e delle imprese danneggiate, misure finanziarie per il trasporto pubblico locale a favore della Regione Liguria, risorse destinate al porto di Genova per l'ottimizzazione dei flussi logistici e per l'istituzione di una zona logistica semplificata, che si somma alla creazione di una zona franca urbana finalizzata a dare sostegno alle aziende. Aggiungo che sono state previste compensazioni economiche in favore degli autotrasportatori per i costi aggiuntivi da questi sostenuti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg83">Quanto alle 260 famiglie sfollate, il Governo ha provveduto, nella prima fase dell'emergenza, ad assegnare una nuova casa a cento famiglie e ad attribuire alle residue 160 un contributo autonomo di sistemazione, che varia da 600 a 900 euro a seconda della composizione familiare. Inoltre, con emendamento governativo approvato in Commissione martedì scorso alla Camera, è stata prevista l'erogazione di 2.025,50 euro per metro quadrato per ciascun immobile interessato, a cui si aggiungono le indennità speciali, pari a 45.000 euro, e l'indennità per l'improvviso sgombero, pari a 36.000 euro.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg84">Vorrei dire ai colleghi del Partito Democratico che quel termine «nonché», che si vuole modificare temendo per quei 45.000 euro più 36.000 euro, ha un valore maggiore del termine «inoltre»; quindi stiano tranquilli: queste voci ci sono tutte! Ma posso capire che la grammatica per alcuni sia complicata!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg85">In queste ore in sede di conversione del decreto-legge ulteriori misure si aggiungeranno a sostegno del reddito dei lavoratori. Faccio riferimento in particolare alla norma che prevede un'indennità pari al trattamento massimo della cassa integrazione salariale in favore dei lavoratori del settore privato, compreso quello agricolo, impossibilitati e penalizzati a prestare l'attività lavorativa in tutto o in parte a seguito del crollo del ponte Morandi. Le misure riguarderanno anche i collaboratori coordinati e continuativi, i titolari di rapporti di agenzia e di rappresentanza commerciale, i lavoratori autonomi, compresi i titolari di attività d'impresa e professionali, ai quali verrà corrisposta un'indennità una tantum pari a 15.000 euro. Quanto alle imprese aventi sede operativa nella cosiddetta zona rossa, saranno riconosciute a loro favore specifiche misure quali un'indennità pari a 1.300 euro a metro quadrato per le aree coperte e 325 euro a metro quadrato per le aree scoperte. Sarà anche prevista un'ulteriore misura indennitaria per ristorare le imprese dalla perdita delle attrezzature e dei materiali aziendali e per rifondere le spese sostenute per il recupero delle apparecchiature e per il trasferimento in un'altra area della Città metropolitana di Genova. Siamo di fronte ad una sfida difficile, ma andiamo avanti con determinazione affinché una comunità colpita al cuore possa al più presto tornare alla normalità e trarre, anzi, da questa tragedia...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Bellanova</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg86">PRESIDENTE. Senatrice, cambia postazione, ma l'atteggiamento no, come il collega Faraone.</seg>
+               <vocal type="laughter">
+                  <desc>Ilarità dal Gruppo PD</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg87">, ministro delle infrastrutture e dei trasporti. ...l'occasione di un complessivo rilancio. A chi ride, vorrei ricordare che stiamo parlando di Genova e delle quarantatré vittime. Alla faccia del rispetto delle famiglie delle vittime!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD. Proteste della senatrice Malpezzi</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg88">PRESIDENTE. Senatrice Malpezzi, basta! TONINELLI , ministro delle infrastrutture e dei trasporti. Venendo alla realizzazione delle diverse opere infrastrutturali insistenti sul territorio ligure e, segnatamente, la linea ferroviaria Terzo valico di Giovi e la nuova Gronda di Genova, sono in atto le valutazioni degli esperti, condotte secondo la metodologia e i criteri espressi nelle linee guida per la valutazione delle opere pubbliche emanate dal MIT con decreto del giugno 2017. A tale riguardo, voglio assicurare che l'analisi relativa al Terzo valico sarà completata entro questo mese, mentre quella relativa alla Gronda di Genova, che avrebbe visto comunque avviare i suoi lavori nei primi mesi del 2019, giungerà a definizione entro il mese di dicembre.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg89">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Biasotti, per due minuti.</seg>
+            </u>
+            <note type="speaker">BIASOTTI (FI-BP)</note>
+            <u ana="#regular" who="#BiasottiSandroMario" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u30">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg90">Signor Ministro, ho l'impressione che lei, oltre a non capire, forse non ascolta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg91">Nel mio intervento infatti ho ricordato che il primo a ridere - e per questo si dovrebbe vergognare - è stato lei.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg92">Detto ciò, entriamo nell'argomento: ho fatto tre domande e lei ha risposto a tutt'altra domanda. Forse è vero che esiste la manina di qualche dirigente che le dà altri fogli.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg93">Le ho chiesto: se fa il Terzo valico, e mi sembra che una parte della risposta l'abbia data; se fa la Gronda, ma non c'è stata risposta e, soprattutto, se fa la nuova diga per il porto di Genova.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg94">Vorrei ricordarle, signor Ministro, che il porto di Genova e il porto Petroli di Genova danno allo Stato, oltre ad essere una servitù pesantissima per la nostra città perché il porto Petroli è nel cuore della città e noi ne siamo terrorizzati, 6 miliardi di introiti. Il porto di Rotterdam o di Anversa recuperano di questi 6 miliardi il 51 per cento; il porto di Barcellona e di Marsiglia il 40 per cento. Quindi a Genova spetterebbero, nella norma, dai 2 ai 3 miliardi. Voi avete previsto 50 milioni: 2 miliardi contro 50 milioni. Lei è il Ministro delle infrastrutture, non è il Ministro del turismo che è a fianco a lei. Le infrastrutture bisogna farle!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg95">Le ricordo che lei ha detto che non avrebbe fatto il Terzo valico. Il porto di Genova si deve collegare col resto del mondo con la ferrovia e la ferrovia da Genova ha una pendenza del 12 per cento, non possono transitare né treni di 700 metri, né di 500 metri. Se lei non vuole fare il Terzo valico, chiudiamo il porto di Genova e facciamo un bel porto turistico. Lo dica. Accetto la qualsiasi, basta che sappiamo che il porto di Genova ha necessità assoluta del Terzo valico. Non perché lo vogliamo noi, o perché lo vuole la COCIV, o perché hanno rubato, ma perché il porto di Genova è al mare e per arrivare in Lombardia bisogna passare gli Appennini.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg96">Basta studiare, signor Ministro. Studi!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FI-BP e PD. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00289) - Question time su articolazione temporale spesa per messa in sicurezza tratte autostradali A24 e A25</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u31">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg97">Il senatore Castaldi ha facoltà di illustrare l'interrogazione 3-00289 sull'articolazione temporale della spesa per la messa in sicurezza delle tratte autostradali A24 e A25, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CASTALDI (M5S)</note>
+            <u ana="#regular" who="#CastaldiGianluca" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u32">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg98">Signor Presidente, cercherò di semplificare un'interrogazione piena di acronimi, forse non comprensibili a tutti i cittadini.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg99">Signor Ministro, lei nel decreto Genova prevede una serie di misure volte a fronteggiare situazioni emergenziali. Già il termine «emergenziale» la dice lunga, perché fa capire come questo Governo, tramite il suo Dicastero, debba sopperire ad anni ed anni di totale incuria e totale disinteresse.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg100">Nello specifico tecnico, al comma 2 dell'articolo 16 si prevede una rimodulazione temporale dell'autorizzazione di spesa disposta a favore della società concessionaria Strada parchi SpA, al fine di consentire l'immediata esecuzione degli interventi di ripristino e messa in sicurezza sulla tratta autostradale A24 e A25, che si sono resi necessari in conseguenza degli eventi sismici che partono da L'Aquila nel 2009 e interessano poi il Centro Italia nel 2016-2017. Siamo nel 2018 e l'indifferenza a queste problematiche credo sia evidente a tutti. Quindi lei, in pratica, e soprattutto in maniera celere, fulminea direi, visto che è al Dicastero solo da qualche mese, rimodula l'autorizzazione di spesa del fondo per lo sviluppo e coesione 2014-2020 e la concentra nel biennio 2018-2019, e la incrementa di 50 milioni di euro per tutti gli anni che vanno dal 2021 al 2025.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg101">Nell'articolo 16, sempre al comma 2, lettera d), lei prevede che il CIPE provveda alla conseguente rimodulazione a valere sulle assegnazioni per interventi già programmati nell'ambito dei patti di sviluppo sottoscritti con la Regione Abruzzo e la Regione Lazio (delibere CIPE 26 e 56 del 2016). Io ho osservato che, secondo notizie di stampa provenienti soprattutto dalla Regione Abruzzo e dai canali comunicativi di alcuni esponenti delle opposizioni, ci sarebbe incertezza sull'impatto che questa previsione avrebbe concretamente sulla progettazione e sulla realizzazione di interventi già inclusi nei patti di sviluppo sottoscritti dall'Abruzzo e dal Lazio. Insieme ai miei colleghi firmatari e per conto anche dei cittadini di Abruzzo e Lazio, che sono preoccupati, le chiedo quali siano le indicazioni che lei, signor Ministro, ci dà in merito alla rimodulazione di spesa, e soprattutto quali siano le eventuali conseguenze di tali rimodulazioni sulla progettazione e la realizzazione di interventi già inclusi nei patti di sviluppo sottoscritti dalla Regione Abruzzo e dalla Regione Lazio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg102">PRESIDENTE. Il ministro delle infrastrutture e dei trasporti, senatore Toninelli, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">TONINELLI</note>
+            <note type="role">ministro delle infrastrutture e dei trasporti</note>
+            <u ana="#regular" who="#ToninelliDanilo" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u33">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg103">Signor Presidente, la questione relativa alle concessioni dei tratti autostradali A24 e A25 rappresenta uno dei peggiori dossier che il mio Ministero ha ricevuto dai Governi precedenti, quelli dei cosiddetti esperti della politica, quelli bravi, che oggi stanno criticando anche in quest'Aula.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Malpezzi.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg104">Ricordo ancora una volta che la società Strada dei parchi non sottoscrive un nuovo piano economico finanziario dal 2013. Io mi sono insediato il 2 giugno 2018: fate voi il calcolo su chi c'era prima, tra il 2013 e il 2018. Ciò significa che, per l'intera legislatura passata, i miei predecessori - quelli bravi - non hanno risolto una situazione che ha esposto i cittadini a tariffe oggettivamente insostenibili e le opere a un grave degrado. Cosa hanno fatto? Niente. Hanno fatto sì che andasse avanti per cinque anni una concessione, così com'era prima, senza rinnovarla, e quindi senza permettere interventi in sicurezza per i nostri utenti della strada.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg105">Per questo motivo, ho disposto una verifica straordinaria dello stato della struttura delle autostrade da parte dell'ufficio ispettivo territoriale competente, il quale ha concluso che «il decadimento manutentivo riscontrato, associato all'incremento dei carichi di esercizio rispetto all'epoca di costruzione, è tale da non poter dimostrare il raggiungimento di adeguati standard di sicurezza con il regolare transito di circolazione». E chi è che ha scoperto che questa struttura era da attenzionare, quelli «bravi» di prima o il nuovo Governo? Mi sembra il nuovo Governo. Anche prima di questa verifica, più volte negli ultimi mesi il Ministero aveva segnalato al concessionario e alle altre autorità l'urgenza di adottare ogni provvedimento necessario per garantire la sicurezza delle infrastrutture e dell'utenza autostradale, dalla modulazione del traffico fino alla chiusura dei tratti. Lo abbiamo specificato proprio oggi, in conseguenza di quest'ultima verifica, in una comunicazione formale che indica gli specifici adempimenti a carico del concessionario. Gli abbiamo inviato una disposizione direttiva, dove il Ministero torna a fare il Ministero e lo Stato torna a fare lo Stato, in cui diciamo al concessionario che deve mettere in sicurezza quell'infrastruttura, cosa, ovviamente, mai fatta prima. La stampa che mi accusa di aver creato allarme senza intervenire sta di fatto coprendo la responsabilità dei concessionari, perché dovrebbe sapere che l'obbligo di limitare il traffico - che magari qualcuno del PD o di Forza Italia dimentica di leggere e di studiare - per ragioni di sicurezza grava sul concessionario, come previsto dal codice della strada.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Commenti della senatrice Malpezzi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg106">Peraltro non mi sono affatto limitato alla verifica diretta e personale sulle infrastrutture, ma sono intervenuto con l'anticipazione dal 2021 al 2018 e quindi con l'utilizzo immediato dei 192 milioni di euro previsti per la messa in sicurezza dei viadotti della A24 e della A25.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg107">L'urgenza di questo intervento avrebbe dovuto indurre i Ministri che mi hanno preceduto, così come il Presidente della Regione Abruzzo, a intervenire con qualsiasi mezzo, ben prima del mio insediamento.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg108">In questo contesto, mentre il Presidente lasciava per mesi la Regione Abruzzo in una situazione di grave incertezza, preferendo una poltrona al Senato, invece che mandare avanti il mandato di Governo, il mio Ministero ha trovato le risorse.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S.</desc>
+               </kinesic>
+               <vocal type="speaking">
+                  <desc>Commenti dal Gruppo PD.</desc>
+               </vocal>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u34">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg109">Ministro Toninelli, eviti questi riferimenti che non c'entrano nulla con l'argomento.</seg>
+            </u>
+            <note type="speaker">TONINELLI</note>
+            <note type="role">ministro delle infrastrutture e dei trasporti</note>
+            <u ana="#regular" who="#ToninelliDanilo" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u35">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg110">È strano che dati di fatto facciano arrabbiare così tanto.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg111">MALPEZZI (PD). Presidente, sta mancando di rispetto al Parlamento! PRESIDENTE. Senatrice Malpezzi, il Presidente lo faccio io, quindi si segga. TONINELLI , ministro delle infrastrutture e dei trasporti. Lo ha fatto utilizzando i fondi europei per lo sviluppo e la coesione 2014-2020, senza scippare - come qualcuno ha detto - alcuna risorsa destinata a realizzare progetti in Abruzzo, come riportato dalla stampa e da numerosi esponenti degli altri partiti, che hanno deciso di inaugurare la campagna elettorale con questa polemica del tutto pretestuosa. Per consentire di realizzare immediatamente questi interventi, si è fatto riferimento alle risorse FSC relative ai patti territoriali in grado di garantire un'adeguata disponibilità per l'emergenza dei viadotti rispetto a quanto assegnato annualmente al piano operativo MIT. Tuttavia, le risorse del Patto territoriale per l'Abruzzo sarebbero state subito reintegrate (a differenza di quanto qualcuno ha affermato) grazie alla rimodulazione, attraverso il CIPE, del piano operativo MIT. Come se non bastasse, siamo andati oltre insieme al Ministero per il Sud: con il parere del Governo all'emendamento dei relatori 16.1, si provvederà a riformulare l'articolo 16, comma 2, lettera b), del decreto-legge n. 109, prevedendo la copertura all'interno delle risorse non impegnate del Fondo per lo sviluppo e la coesione. I soldi ci sono. Abbiamo provveduto a questa ulteriore modifica per eliminare alcuni passaggi burocratici necessari nel caso di una rimodulazione di risorse già impegnate dell'FSC: così è stato garantito un notevole risparmio di tempo per far partire quanto prima i lavori di messa in sicurezza di questa importante infrastruttura. Lo ribadisco: questo intervento non è finalizzato a restituire soldi che non sarebbero mai - ripeto, mai - stati tolti ma solo ed unicamente ad accelerare ulteriormente l'avvio dei lavori. Pertanto, ci auguriamo davvero che coloro che fino ad oggi hanno fatto polemica strumentale votino a favore della norma che tutela tutti quelli che stanno utilizzando questa fondamentale infrastruttura.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az. Commenti dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg112">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Castaldi, per due minuti.</seg>
+            </u>
+            <note type="speaker">CASTALDI (M5S)</note>
+            <u ana="#regular" who="#CastaldiGianluca" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u36">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg113">Signor Presidente, vorrei dire al Ministro che non sono solo soddisfatto, sinceramente mi si illuminano anche gli occhi. Sono stato qui per cinque anni a fare opposizione e questa celerità e questa efficienza non l'ho mai riscontrata.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Commenti ironici dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg114">Era un'interrogazione tecnica, non un comizio, come avveniva per le interrogazioni precedenti. A questo punto voglio togliermi anch'io qualche sassolino.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg115">PRESIDENTE. Senatore Castaldi, la prego di evitare.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg116">Lo farò con il rispetto che ho sempre avuto in quest'Aula e lei lo sa. Il PD abruzzese continuerà sicuramente a utilizzare la stampa o i siti locali. Hanno dei siti locali, lo sa? Li chiamano siti di informazione, ma sono gestiti da politici o da loro sindaci (è incredibile quanto accade). Lei oggi ha ripristinato due grandi verità: la prima è che, al contrario di quanto affermato, addirittura con una conferenza stampa cui hanno chiamato sindaci che si sono prostrati a questa sceneggiata, lei oggi ci dice che questo è falso e, soprattutto, che non si è scippato assolutamente nulla ai sindaci laziali e abruzzesi. La seconda grande verità è che - lo dico veramente con orgoglio - dopo quasi dieci anni di nulla assoluto - ripeto, dieci anni - dal terremoto di L'Aquila e dai successivi terremoti (quelli meno noti e di piccola entità, fino ai terremoti del 2016 e 2017, purtroppo noti a tutti) in cui abbiamo subìto governi regionali di centrodestra e centrosinistra, lei fa un'azione veloce e fulminea e fa partire la messa in sicurezza della A24 e della A25.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg117">Dica pertanto ai giornalisti locali che questa era la notizia da pubblicare a caratteri cubitali su «Il Centro» e sulle varie testate locali. Questa era la notizia da pubblicare: parte la messa in sicurezza, e di questo la ringrazio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg118">Io non so se questi politici hanno il sentimento di vergogna, però li invito quanto meno a tacere.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Ginetti.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg119">Veramente, li invito a tacere. Io mi trovo anche in conflitto di interesse, signor Ministro, perché vado su quelle strade tutte le settimane, come anche alcuni esponenti, fortunatamente sempre meno, dell'opposizione e ogni giorno rischio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg120">Di questo la ringrazio.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti della senatrice Ginetti</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg121">Hanno avuto paura di votare, sapevano che il Presidente sarebbe stato eletto perché la legge elettorale l'hanno fatta loro. Oggi non possiamo ancora votare in Abruzzo, ma vedrete che a febbraio ci sarà un altro 4 marzo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S. Congratulazioni.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00290) - Question time su proliferazione incontrollata cimice asiatica ai danni di colture Nord-Est</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u37">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg122">Il senatore Vallardi ha facoltà di illustrare l'interrogazione 3-00290 sulla proliferazione incontrollata della cimice asiatica ai danni delle colture nel Nord-Est, per tre minuti.</seg>
+            </u>
+            <note type="speaker">VALLARDI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#VallardiGianpaolo" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u38">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg123">Signor Presidente, sicuramente si tratta delle colture del Nord-Est, del Nord-Ovest e di tutta l'Alta Italia.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg124">Signor Ministro, il problema di cui stiamo parlando è molto grave. Il settore ortofrutticolo - in particolare quello del Nord Italia - è colpito da un'emergenza dovuta dall'invasione, che - a ben vedere - si può tranquillamente definire biblica, della halyomorpha halys, un nome un po' particolare che indica la cosiddetta cimice asiatica marmorata. Questo insetto, proveniente da Cina, Giappone, Taiwan e Corea, è particolarmente infestante e, non avendo antagonisti naturali efficaci, prolifera tranquillamente, creando seri danni all'agricoltura. Come altri parassiti definiti alieni, comparsi in Italia negli ultimi anni, la cimice asiatica si diffonde attraverso le attività umane, ovvero trasporti, importazione di prodotti vegetali e turismo. È un insetto polifago - è onnivoro, mangia di tutto - e quindi può passare da una coltura all'altra tranquillamente. Inoltre, ha un'elevata capacità di adattamento all'ambiente e si espande da un territorio all'altro. Infatti, in Italia si è dapprima insediato in Emilia-Romagna e, a oggi, è esteso fino in Friuli-Venezia Giulia, Veneto e Piemonte. Sono giunte forti segnalazioni anche in Toscana e nel Lazio (a Roma questi insetti si sono radicati in parecchie case negli ultimi mesi, soprattutto in periferia). A causa di questa invasione, sono a rischio le coltivazioni di tutta la frutta e, in particolare di pere e kiwi, che rappresentano per il nostro Paese colture di punta nel mercato frutticolo a livello europeo e mondiale, e di cui siamo ottimi esportatori. Gli strumenti finora usati per frenarne l'espansione consistono nell'uso dei fitosanitari, che però hanno un effetto limitato, e per avere un controllo sufficiente è necessario intervenire costantemente con ovvie conseguenze, oppure nell'utilizzo di coperture anti-insetto, ovvero le reti antigrandine. Signor Ministro, la domanda è se è possibile utilizzare per il contrasto un antagonista naturale. Sembra che la soluzione migliore per il controllo biologico sia infatti quella che è stata scoperta dai ricercatori del CREA, che hanno individuato, nell'ambito del progetto nazionale Aspropi, in un imenottero - l' ooencyrtus telenomicida - un antagonista naturale della cimice asiatica. Tale imenottero ha infatti dimostrato, in ambiente controllato (ossia in laboratorio), di essere in grado di parassitare le uova della cimice, impedendone la proliferazione. Se fosse dimostrata la capacità di questo imenottero di contrastare efficacemente la cimice asiatica, questo rappresenterebbe una speranza per migliaia e migliaia di agricoltori in tutta Italia (a questo punto, il problema non è infatti solo del Nord o del Nord-Est, ma di tutto il Paese), dove i raccolti sono stati fortemente danneggiati. Signor Ministro, chiedo pertanto di sapere se il Ministero sia a conoscenza dei fatti esposti e quali iniziative ritenga opportuno intraprendere per debellare questa piaga che sta affliggendo il mondo agricolo e anche a che punto siano le ricerche del CREA sull'efficacia dell' ooencyrtus telenomicida quale antagonista naturale da utilizzare per il contrasto alla diffusione della cimice asiatica.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg125">PRESIDENTE. Il ministro delle politiche agricole alimentari, forestali e del turismo, senatore Centinaio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CENTINAIO</note>
+            <note type="role">ministro delle politiche agricole alimentari, forestali e del turismo</note>
+            <u ana="#regular" who="#CentinaioGianMarco" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u39">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg126">Signor Presidente, la cimice marmorata - un insetto originario dell'Asia orientale rinvenuto per la prima volta in Europa a partire dal 2004, la cui presenza è attualmente accertata anche nel continente nordamericano - ha un'elevata polifagia, tant'è che si segnalano più di cento ospiti vegetali. L'insetto - che arreca danni su vari frutteti e colture erbacee - pur avendo dimostrato un'elevata capacità di diffusione nel Mediterraneo e nell'areale europeo, non è stato incluso tra gli organismi nocivi da quarantena per l'Unione, visto che la sua rapida distribuzione su una vasta area geografica ha precluso ogni tempestivo intervento di eradicazione.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg127">Nell'ambito delle misure di contrasto al parassita - che includono interventi di lotta dedicati, basati su strategie d'intervento integrate - risulta fondamentale l'attività di monitoraggio mirata nelle singole aziende agricole e sulle diverse colture ed è importante ricordare che il successo non è assicurato dall'esclusivo utilizzo di trattamenti chimici, vista l'elevata mobilità della specie, che può riposizionarsi su differenti colture.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg128">In seno al Comitato fitosanitario nazionale sono state identificate le azioni prioritarie volte a contrastare i danni del parassita, che si sostanziano in attività dedicate di divulgazione e monitoraggio a cura dei servizi fitosanitari delle Regioni interessate dal problema, in collaborazione con le strutture tecniche territoriali, per supportare gli agricoltori nella lotta all'insetto.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg129">In particolare, il CREA è stato identificato come istituto di supporto per l'approfondimento degli aspetti scientifici e, nel contempo, sono state avviate sperimentazioni con prove in campo e in laboratorio, per individuare le sostanze più idonee al contrasto (in tal senso, sono state ottenute le relative autorizzazioni).</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg130">Con riferimento specifico al controllo biologico per la difesa della frutticoltura nazionale - secondo quanto richiesto dal senatore interrogante - sono stati avviati studi dedicati per porre in essere interventi con antagonisti naturali del parassita. In particolare, le ricerche svolte nell'ambito del progetto nazionale denominato Aspropi hanno permesso di individuare in ambienti dell'Italia centrale un imenottero parassita delle uova della cimice, allevabile in biofabbriche su ospiti alternativi. Una popolazione del parassitoide è stata trasferita nei laboratori del CREA e mantenuta in ambiente controllato, dove si è mostrata in grado di parassitare efficacemente le uova della cimice. Per la verifica in campo delle potenzialità dell'antagonista naturale - impiegabile in un contesto integrato per la difesa della frutticoltura nazionale - sono state effettuate prove dirette in frutteti condotte con differenti metodologie: nei frutteti produttivi - nei quali è necessario il controllo anche di altre avversità - l'antagonista ha mostrato limiti di efficacia e di permanenza negli ambienti.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg131">Per l'utilizzo di antagonisti naturali provenienti dal territorio d'origine del parassita, invece, in prove estensive in campo tese a valutarne l'efficacia e le migliori modalità d'impiego, sarà prima necessario risolvere le problematiche legate al divieto d'introdurre in natura specie o popolazioni non autoctone, per evitare che si verifichi il medesimo problema.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg132">A questo proposito, tenuto conto dell'importanza di procedere tempestivamente alla verifica delle potenzialità e dei rischi connessi all'introduzione di antagonisti naturali provenienti dall'area di origine della cimice asiatica - previa acquisizione delle necessarie certificazioni di legge - questo Ministero ha già autorizzato il CREA ad introdurre, in condizioni di quarantena e per soli motivi di studio, la specie ritenuta a livello mondiale più efficace, chiamata samurai wasp, a carico della quale sono in fase avanzata i necessari studi, in particolare sull'impatto ambientale nei nostri agrosistemi.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg133">Contestualmente, nell'ambito dei progetti finanziati da questo Ministero, il CREA sta proseguendo le ricerche su tutti gli antagonisti naturali della cimice attivi sul territorio nazionale, che stanno iniziando ad utilizzarla come vittima.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg134">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Vallardi, per due minuti.</seg>
+            </u>
+            <note type="speaker">VALLARDI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#VallardiGianpaolo" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u40">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg135">Signor Ministro, la ringrazio per l'impegno del Ministero dell'agricoltura, suo e di tutti i collaboratori. Effettivamente siamo in ansia - lo dico anche a nome degli agricoltori di questo Paese - nell'attesa dei risultati del lavoro di questa samurai wasp: visto che la importiamo dalla Cina, se funziona, sarà il primo prodotto cinese a funzionare veramente nel nostro Paese; la aspettiamo quindi con ansia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi e ilarità dai Gruppi L-SP-PSd'Az e M5S.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg136">La ringrazio perché l'agricoltura in questo momento ha sicuramente bisogno di attenzione e delle soluzioni fornite dall'azione del suo Ministero. La ringraziano i consorzi di bonifica, perché dal punto di vista dell'irrigazione sono appena arrivati oltre 300 milioni; la ringraziano i tanti produttori che in questo momento vedono rafforzato il suo lavoro sul made in Italy, cosa di cui sicuramente l'agricoltura in questo momento ha fortemente bisogno per gli oltre 90 miliardi di danni causati dall' italian sounding e dalla contraffazione, fenomeno al quale lei sta lavorando per combatterlo ancora più efficacemente. La ringraziano anche tutti quei consumatori che in questo momento si vedono tutelati dal rafforzamento del controllo, che viene fatto sicuramente più che nel passato, su tutti quei prodotti contraffatti che arrivavano - e oggi non arrivano più - nei nostri porti e che poi finivano sulla tavola degli italiani. Ritornando, in conclusione, alla cimice, si tratta di un fenomeno che non è arrivato assolutamente ora, è presente da diversi anni in questo Paese e di sicuro non è colpa della politica se è arrivata, ma è sicuramente colpa del Governo precedente se oggi siamo in questa situazione. Forse, se l'attenzione che lei, Ministro, sta ponendo alla questione in questo momento fosse stata posta qualche anno fa, oggi non saremmo in questa situazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai GruppiL-SP-PSd'Az eM5S.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u41">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg137">Lo svolgimento delle interrogazioni a risposta immediata ( question time ) all'ordine del giorno è così esaurito. Saluto e ringrazio i Ministri.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">FEDELI (PD)</note>
+            <u ana="#regular" who="#FedeliValeria" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u42">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg138">Signor Presidente, lei sa che le ho sempre riconosciuto, come tantissime persone in quest'Aula ed anche nelle legislature precedenti, la sua qualità di Presidente ed il suo equilibrio. PRESIDENTE. Mi scusi, senatrice. Ministro Toninelli! FEDELI (PD). Il ministro Toninelli faccia quello che ritiene. Le dico però che oggi sono rimasta colpita dal modo in cui lei ha presieduto. A differenza di tanti anni in cui il suo equilibrio è sempre stato dimostrato, lei ha fermato legittimamente la protesta del Gruppo Partito Democratico, che si è espressa in forme spesso non consone a quest'Aula, ma non ha fermato - in questo voglio stigmatizzare la sua Presidenza di oggi - il ministro Toninelli quando si è rivolto ad una parte dell'Assemblea offendendola</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg139">e quando ha usato strumentalmente - cosa mai accaduta in quest'Aula, lei lo sa - la presenza delle ragazze e dei ragazzi che stavano assistendo alla seduta contro una parte dell'Assemblea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg140">DONNO (M5S). Ha risposto alle vostre offese! FEDELI (PD). Lei sa che si risponde alle interrogazioni sempre nel merito. Per questo ho ritenuto necessario sottolineare questo oggi, perché non era mai capitato e mi auguro, Presidente, che non succeda mai più.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u43">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg141">Senatrice Fedeli, il ministro Toninelli è stato richiamato dal sottoscritto. Non ho sentito offese riferite ad alcuno.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg142">Penso al detto: «chi semina vento raccoglie tempesta»</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai GruppiL-SP-PSd'Az eM5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg143">, perché le parole che sono state pronunciate da coloro che siedono alle sue spalle (questa volta non sto parlando della senatrice Malpezzi) sono state assolutamente offensive, al punto che è stato riferito al Ministro per sei volte il termine «buffone». L'ho saputo dopo, perché diversamente questa persona non sarebbe più stata nell'Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg144">Ma io infatti gliel'ho riconosciuto. PRESIDENTE. Senatrice, questo non è un dibattito fra di noi.</seg>
+            </u>
+            <note type="speaker">D'ALFONSO (PD)</note>
+            <u ana="#regular" who="#DAlfonsoLuciano" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u44">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg145">Signor Presidente, la ringrazio, ma mi faciliti il trattenimento in Aula del ministro Toninelli, perché il mio intervento ha senso soltanto alla presenza del Ministro. Io la ringrazio per avermi consentito di intervenire, ma non voglio parlare davanti al Ministro resosi fantasma, perché io faccio riferimento alle parole che ha usato il Ministro, addirittura citando la mia persona e la mia funzione. Questo porrebbe come dovere anche di moralità che lui si trattenesse qui per ascoltare cosa completa il suo punto di vista e cosa mette in difficoltà il suo punto di vista.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg146">Il Ministro, interrogato volutamente ad hoc sul punto, ha messo in evidenza che, per quanto riguarda le tratte autostradali A24 e A25, negli ultimi sei anni il Ministero competente - quindi il Governo precedente - e la Regione Abruzzo non avrebbero fatto nulla. Questo però può affermarlo soltanto chi è completamente a digiuno di lettura documentale, di frequentazione di dossier e di competenza sul punto. Negli ultimi sei anni sono stati fatti tutti gli interventi ordinari che spettano al gestore della concessione e lavori di antiscalinamento per 150 milioni di euro, resi possibili dal Ministero vigilante. Mi auguro che la tecnologia, nonché i servizi dell'Aula possano facilitare la comprensione di quello che io sto dicendo e dirò al Ministro, perché il Ministro ne ha bisogno. Il fatto che ne abbia bisogno è testimoniato dalla questione che lui stesso ha contribuito a far nascere in questi giorni, arrivando a dichiarare che, sulla base di un suo sopralluogo visivo, le infrastrutture autostradali abruzzesi sarebbero pericolose. Il Ministro si è recato fisicamente davanti ad un pilone e, dopo aver osservato, ha dichiarato, senza nessun coinvolgimento professionale del Ministero, che quel pilone è pericoloso e va sottoposto a chiusura. Per quanto riguarda i Ministeri io ho sempre saputo che un conto è il Ministro, un conto è il Ministero e che, quando entra in campo il Ministero, lo fa col suo coinvolgimento professionale, di téchne; soltanto il Ministero, con la sua direzione generale di vigilanza, può acclarare l'impossibilità di un esercizio autostradale e non l'emotività di un Ministro che ha evidenti interessi politici di parte, com'è emerso prima. Voglio dire con assoluta chiarezza che il Ministro ha impegnato, sottraendoli alla Regione Abruzzo, 200 milioni di euro del piano regionale, del patto riferito all'Abruzzo, che è coperto da 753 milioni di euro. Con l'articolo 16 del decreto-legge per la città di Genova ha tolto 200 milioni di euro per realizzare lavori di spettanza nazionale e statuale, su un'autostrada nazionale e statuale, gravando però sulla copertura finanziaria della Regione. Questa è l'anomalia che, da una parte, stiamo patendo, anche se ci viene assicurato ad ogni piè sospinto che quelle risorse verranno ripristinate con la legge di bilancio. Dall'altra parte, la cosa più grave e da incompetente che il Ministro ha fatto è stato produrre un notevole disorientamento tra tutta la popolazione abruzzese che utilizza quelle infrastrutture: ogni mese sono circa 2 milioni i passaggi su quella infrastruttura. E così, mentre si sente un Ministro dichiarare che l'infrastruttura è pericolosa, quel Ministro poi non agisce, né coerentemente sul fronte della pericolosità, né dando luogo a l'immediatezza delle procedure per fare i lavori, perché si è in attesa dell'ultima autorizzazione tecnica per attivare i cantieri. Su questo avrei voluto sentire il Ministro, non come in una specie di compagnia di ventura in cui uno interroga e l'altro risponde. PRESIDENTE. La prego, senatore, concluda il suo intervento. Le ho già concesso un minuto in più. D'ALFONSO (PD). La ringrazio, Presidente. Mi auguro che lei faccia pervenire questo mio detto al Ministro e che su questo il Ministro abbia il tempo di concentrarsi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u45">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg147">Senatore, tutte le sue parole resteranno agli atti del Senato e pertanto saranno consultabili dal Ministro e da altri.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u46">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg148">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di martedì 23 ottobre 2018</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.u47">
+               <seg xml:id="ParlaMint-IT_2018-10-18-LEG18-Sed-49.seg149">Il Senato tornerà a riunirsi in seduta pubblica martedì 23 ottobre, alle ore 16,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 15,58).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

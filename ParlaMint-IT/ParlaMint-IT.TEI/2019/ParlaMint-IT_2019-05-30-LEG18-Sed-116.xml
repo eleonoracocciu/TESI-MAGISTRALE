@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #reference" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 116 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 116 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 116, giorno (2019-05-30)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 116, Day (2019-05-30)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="116-upper">116 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="123" unit="speeches" xml:lang="it">123 discorsi</measure>
+            <measure quantity="123" unit="speeches" xml:lang="en">123 speeches</measure>
+            <measure quantity="9777" unit="words" xml:lang="it">9.777 parole</measure>
+            <measure quantity="9777" unit="words" xml:lang="en">9,777 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1112214</idno>
+               <date when="2019-05-30">30.05.2019</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="16"/>
+               <tagUsage gi="head" occurs="15"/>
+               <tagUsage gi="note" occurs="76"/>
+               <tagUsage gi="seg" occurs="123"/>
+               <tagUsage gi="u" occurs="44"/>
+               <tagUsage gi="vocal" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="29"/>
+               <tagUsage gi="desc" occurs="30"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2019-05-30">30.05.2019</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente LA RUSSA</note>
+            <note type="time">12,02</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u1">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg1">La seduta è aperta (ore 12,02). Si dia lettura del processo verbale. PISANI Giuseppe, segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u2">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'ordine dei lavori</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u3">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg3">Informo l'Assemblea che all'inizio della seduta il Presidente del Gruppo MoVimento 5 Stelle ha fatto pervenire, ai sensi dell'articolo 113, comma 2, del Regolamento, la richiesta di votazione con procedimento elettronico per tutte le votazioni da effettuare nel corso della seduta. La richiesta è accolta ai sensi dell'articolo 113, comma 2, del Regolamento.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg4">Colleghi, poiché non è ancora pervenuto il parere della Commissione bilancio sugli emendamenti al decreto-legge 18 aprile 2019, n. 32, sospendo la seduta, che riprenderà alle ore 15 con il question time; alle ore 17, proseguirà la discussione del decreto-legge, come stabilito nella seduta di ieri.</seg>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u4">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Senatore Marcucci, in realtà ho già sospeso la seduta, ma, se vuole intervenire sull'ordine dei lavori, ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg5">Signor Presidente, la ringrazio per il suo atteggiamento magnanimo. Le cose stanno andando molto diversamente rispetto al calendario dei lavori: poco fa ero in Commissione bilancio, dov'è arrivato un nuovo emendamento e, quindi, occorre il tempo per subemendare; ma in realtà, la questione più rilevante è che il Presidente della Commissione bilancio ha comunicato che non c'è ancora traccia di alcuna relazione tecnica su tutti i recenti emendamenti del Governo e dei relatori, e dunque è assolutamente improbabile che la Commissione possa completare i lavori entro le ore 17. Signor Presidente, sono obbligato a chiederle di prendere in seria considerazione l'ipotesi di una convocazione della Conferenza dei Capigruppo da parte della Presidenza, perché l'organizzazione dei lavori, così come definita in quella precedente, mi sembra oggettivamente irrealizzabile. Chiedo quindi, con approccio costruttivo, di convocare una Conferenza dei Capigruppo per verificarne l'andamento.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u5">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg6">La ringrazio, senatore Marcucci. La sua richiesta mi sembra assolutamente corretta, dunque non potrò fare altro che riferirla immediatamente al Presidente, senatrice Alberti Casellati.</seg>
+            </u>
+            <note type="speaker">MALAN (FI-BP)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg7">Signor Presidente, mi associo alla richiesta: non è possibile una simile gestione dei lavori, anche perché non è la prima volta che accade, anzi, direi che sarebbe un'eccezione se si procedesse normalmente, secondo il decoro che dovrebbe caratterizzare i lavori parlamentari.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u7">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg8">La ringrazio, senatore Malan. Fermo restando che riferirò al Presidente del Senato quanto avete appena esposto, vi informo che la seduta per la discussione del decreto-legge al nostro esame riprenderà alle ore 17, senza dimenticare che alle ore 15 si terrà in ogni caso il question time. Sospendo pertanto la seduta fino alle ore 15. (La seduta, sospesa alle ore 12,08, è ripresa alle ore 15,02).</seg>
+            </u>
+            <note type="president">Presidenza del presidente ALBERTI CASELLATI</note>
+            <note type="time">15,02</note>
+         </div>
+         <div type="debateSection">
+            <head>(3-00865) - Question time su disposizioni Ministero interno su divieto circolazione veicoli immatricolati all'estero per residenti in Italia</head>
+            <note type="time">(ore 15,02)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u8">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg9">L'ordine del giorno reca lo svolgimento di interrogazioni a risposta immediata (cosiddetto question time ), ai sensi dell'articolo 151- bis del Regolamento, alle quali risponderanno il Ministro dell'interno, il Ministro delle politiche agricole alimentari e forestali e del turismo e il Ministro della difesa. Invito gli oratori ad un rigoroso rispetto dei tempi, considerata la diretta televisiva in corso. La senatrice Unterberger ha facoltà di illustrare l'interrogazione 3-00865 sulle disposizioni del Ministero dell'interno applicative del divieto di circolazione con veicoli immatricolati all'estero per i residenti in Italia, per tre minuti.</seg>
+            </u>
+            <note type="speaker">UNTERBERGER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#UnterbergerJulia" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u9">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg10">Signor Presidente, onorevole Ministro, il decreto sicurezza ha introdotto una novella dell'articolo 93, comma 1- bis, del codice della strada, che, salvo limitate eccezioni, prevede il divieto di circolazione per i veicoli immatricolati all'estero e in disponibilità di soggetti che abbiano stabilito la propria residenza in Italia da più di sessanta giorni, con conseguenti pesanti sanzioni in caso di violazioni. La circolare n. 245 del 2019 del Ministero dell'interno, attuativa della suddetta norma, ha inspiegabilmente previsto per i cittadini europei che si possa tener conto anche della cosiddetta residenza normale. La definizione di «residenza normale», introdotta nel nostro ordinamento dall'articolo 118- bis del codice della strada, è mutuata in realtà dal diritto europeo e, in particolare, dall'articolo 12 della direttiva europea n. 126 del 2006 sul rilascio delle patenti di guida allo scopo di facilitarne l'acquisto. Si tratta di una norma, per così dire, speciale, che nulla ha a che fare con la residenza anagrafica. Ad oggi, a causa della circolare del Ministero dell'interno e di tale utilizzo della definizione di residenza normale, le autorità competenti sanzionano i lavoratori stranieri, i cosiddetti stagionali - quelli, ad esempio, del settore alberghiero con contratti di lavoro in Italia di durata superiore a sessanta giorni - che, non essendo residenti in Italia, non dovrebbero essere ricompresi nel divieto e, quindi, nemmeno sanzionati. Per forza di cose, il divieto interessa in particolare le Regioni situate nelle zone di confine, tra cui il Südtirol, dove il rischio di incorrere in sanzioni è più diffuso e gli effetti negativi connessi all'applicazione della norma in maniera distorta sono maggiormente avvertiti dai cittadini e dai lavoratori, specialmente transfrontalieri. In occasione di un incontro informale con i tecnici del suo Ministero, avevamo ricevuto rassicurazioni in merito a una modifica della suddetta circolare, ma ancora nulla è stato fatto. In aggiunta, signor Ministro, c'è da dire che la disciplina attualmente in vigore appare del tutto inadeguata, specie se applicata ad alcune situazioni che nulla hanno a che vedere con l'elusione fiscale. Mi riferisco all'addetto dell'albergo che parcheggia la macchina del cliente della struttura o al conducente della Croce Bianca che ha un accordo con l'assicurazione per il soccorso stradale e deve guidare la macchina della persona coinvolta in un incidente. Gli esempi sono tanti e ho richiamato solo alcune delle segnalazioni pervenute dal territorio. Le chiedo pertanto, signor Ministro, innanzitutto se intende predisporre un intervento correttivo della circolare n. 245 del 2019, che escluda l'inspiegabile utilizzo della definizione di residenza normale. In generale, chiedo poi se non ritenga opportuno un intervento legislativo ad hoc, affinché siano definitivamente esclusi dal divieto anche tutti i soggetti e le categorie al momento attuale ingiustamente coinvolti e sanzionati. PRESIDENTE. Il ministro dell'interno, senatore Salvini, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">SALVINI</note>
+            <note type="role">vice presidente del Consiglio dei ministri e ministro dell'interno</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u10">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg11">Signor Presidente, onorevoli senatori, ringrazio anzitutto l'onorevole interrogante.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg12">È evidente che le modifiche apportate all'articolo 93 del codice della strada nello scorso dicembre, in occasione della conversione in legge del cosiddetto decreto sicurezza, non volevano punire gli autisti della Croce Bianca o i camerieri degli alberghi di confine - mi sembra evidente - ma avevano e hanno l'obiettivo di contrastare il fenomeno della cosiddetta esterovestizione, ossia la circolazione di autoveicoli con targa estera nel territorio nazionale, al solo fine di eludere gli obblighi assicurativi e fiscali, nonché di evitare l'applicazione delle sanzioni del codice della strada (ciò è accaduto in migliaia di casi).</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg13">Il divieto cui ho fatto riferimento è temperato da alcune eccezioni esplicitamente previste. Si tratta quindi di disposizioni importanti che, come riferito dagli stessi operatori di polizia, stanno già facendo registrare risultati positivi che sono certo nel tempo andranno a consolidarsi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg14">In ogni caso, visto che nessuna norma nasce perfetta e se dei problemi arrivano dal territorio e da quest'Assemblea è nostro dovere affrontarli, gli uffici del Ministero hanno già fornito indicazioni operative con circolare dello scorso gennaio, evidentemente non ancora sufficienti per limitare le controindicazioni di cui lei, onorevole senatrice interrogante, ha parlato.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg15">La segnalata problematica dell'applicazione del divieto non solo ai cittadini comunitari, ma anche ai cosiddetti residenti normali (ossia quelli dimoranti nel territorio nazionale per almeno centottantacinque giorni all'anno per interessi professionali o personali) potrà essere superata in via amministrativa, precisando l'esclusione dei cittadini comunitari residenti all'estero dal campo d'applicazione del divieto di circolazione e la facoltà per gli stessi di circolare sul territorio nazionale con targa estera per la durata massima di un anno.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg16">Quanto alla situazione dei lavoratori stagionali stranieri - cui lei, onorevole interrogante, ha fatto riferimento - che potrebbero incorrere nel divieto di circolazione in ragione della natura potenzialmente pluriennale dell'attività lavorativa, invece, stiamo già valutando diverse possibili soluzioni che, come ricordava, dovranno trovare ingresso nell'ordinamento con un provvedimento normativo. Una soluzione richiede quindi una circolare, mentre l'altra un provvedimento normativo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg17">Posso infine assicurare che le criticità segnalate ed emerse nella fase di prima applicazione della normativa sono adeguatamente affrontate in modo da salvaguardare le poche, ma evidenti situazioni meritevoli di uno specifico trattamento derogatorio, fermo restando l'obiettivo di colpire le migliaia di condotte elusive degli obblighi di legge.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg18">In conclusione, senatrice Unterberger, la ringrazio e le assicuro che siamo assolutamente a disposizione per risolvere i residuali problemi segnalati, visto che adottiamo i decreti per semplificare la vita alle persone perbene e complicarla ai furbetti e alle persone permale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az e delle senatrici Lupo e Piarulli</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg19">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice Unterberger, per due minuti.</seg>
+            </u>
+            <note type="speaker">UNTERBERGER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#UnterbergerJulia" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u11">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg20">Signor ministro Salvini, come saprà politicamente non sono della sua linea, ma ritengo sia una persona dotata di grande buon senso per risolvere questioni pratiche.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg21">Immagini che da noi, in Alto Adige, sta per iniziare la stagione, ma abbiamo una carenza di lavoratori: sono state fermate e contravvenzionate molte persone che hanno la residenza all'estero e vengono da noi a lavorare per cinque, sette o otto mesi, poiché sono state sequestrate loro le autovetture, in tanti hanno già disdetto, dicendo di non voler più venire in questo Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg22">È da tanto tempo che cerchiamo di intervenire anche impugnando le contravvenzioni, al punto che la giudice di pace ci ha dato ragione e le ha sospese; tuttavia, non possiamo consigliare a quelle povere persone di rivolgersi ad un avvocato per impugnare tali provvedimenti. La soluzione pertanto sarebbe soltanto cancellare dalla vostra circolare il richiamo alla residenza normale, che giuridicamente nulla ha a che fare con la residenza anagrafica.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg23">Signor Ministro, confidiamo in lei e nel suo buon senso: ci dia una mano per risolvere questa situazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo Aut (SVP-PATT, UV) e del senatore Marcucci.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00863) - Question time su istituzione Commissione unica nazionale per prezzi grano con sede a Foggia</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u12">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg24">Il senatore De Bonis ha facoltà di illustrare l'interrogazione 3-00863 sull'istituzione della Commissione unica nazionale per i prezzi del grano con sede a Foggia, per tre minuti.</seg>
+            </u>
+            <note type="speaker">DE BONIS (Misto)</note>
+            <u ana="#regular" who="#DeBonisSaverio" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u13">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg25">Signor Presidente, al nostro Ministro per le politiche agricole, alimentari, forestali e del turismo vogliamo chiedere qual è la situazione della Commissione unica nazionale introdotta nel nostro ordinamento dall'articolo 6- bis del decreto-legge n. 51 del 5 maggio 2015, disposizione che ha introdotto il principio di trasparenza nei meccanismi di formazione dei prezzi all'origine dell'agricoltura. La costituzione di una CUN a Foggia per il prezzo del grano duro è in discussione da molto tempo, sin dal luglio 2016, e fa parte addirittura del piano dell'ex ministro Maurizio Martina per il rilancio del grano italiano, prodotto d'eccellenza da cui ricaviamo pane e pasta. Lo stesso, tra l'altro, in un tavolo ministeriale al quale partecipai ebbe modo di affermare che dai dati Ismea sull'andamento dei prezzi per il grano duro non c'era alcuna correlazione tra il mercato internazionale e quello nazionale, lasciando così ipotizzare la presenza in Italia di fenomeni distorsivi dei prezzi e dunque della concorrenza. Da allora fino ad oggi al Ministero si sono susseguiti tanti tavoli, come ben sa, senza alcun esito. L'esigenza di stabilire la Commissione nel Capoluogo della Capitanata è data dal fatto che i prezzi del grano duro fino pastificabile sia all'ingrosso sia all'origine continuano a non essere remunerativi per i nostri produttori, sicché gli agricoltori della Daunia, del Belice e dell'associazione GranoSalus in queste settimane hanno protestato per il grano pagato solo 17 o 18 centesimi. Gli agricoltori denunciano ovviamente le politiche comunitarie che svantaggiano il grano siciliano, pugliese, lucano, molisano e abruzzese, costringendoli ad abbandonare i propri terreni, visto che i costi superano sempre più i guadagni. Pare dunque evidente l'opportunità di individuare a Foggia la sede di questa Commissione sul grano duro, senza alcun indugio verso le sperimentazioni, come pure è stato annunciato qualche giorno fa da alcuni esponenti del Governo. Tenuto conto che, nonostante la citata legge, il decreto attuativo approvato in sede di Conferenza Stato-Regioni e la risoluzione della precedente legislatura, questa commissione non è stata istituita, anche a causa di ostacoli frapposti da alcune organizzazioni, vi sono stati anche ricorsi presso i TAR e il Consiglio di Stato per annullare i listini della borsa merci di Foggia. Tale grave ritardo nell'attuazione della CUN sul grano duro a Foggia penalizza il processo di trasparenza e aggrava le condizioni delle imprese cerealicole dell'Italia e del Mezzogiorno in particolare, senza consentire ai consumatori di avere anche orientamenti circa la qualità tossicologica dei prodotti. Il mondo agricolo e quello dei consumatori aspettano quindi, sotto questo profilo, un chiaro segnale da parte del Ministro per indire rapidamente la Commissione e soprattutto affidare all'Antitrust un'indagine che argini i fenomeni distorsivi dei prezzi e della concorrenza e verifichi il rispetto delle regole nazionali ed europee in materia. PRESIDENTE. Il ministro delle politiche agricole alimentari e forestali e del turismo, senatore Centinaio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CENTINAIO</note>
+            <note type="role">ministro delle politiche agricole alimentari, forestali e del turismo</note>
+            <u ana="#regular" who="#CentinaioGianMarco" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u14">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg26">Signor Presidente, il sistema cerealicolo italiano riveste una grande importanza all'interno dell'intero settore agricolo nazionale, sia per l'estensione delle coltivazioni e per la formazione di una parte rilevante del fatturato, sia per il forte valore identitario che esprime. Proprio a tal fine, il Ministero è impegnato nel sostegno alla filiera grano-pasta e nel consolidamento dei rapporti tra i trasformatori e gli agricoltori, per garantire massima tutela ai consumatori.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg27">Nel quadro delle azioni d'intervento rientra anche la disponibilità operativa del Ministero delle politiche agricole alimentari, forestali e del turismo a varare la creazione della Commissione unica nazionale sul grano duro. Tale strumento, che si avvia in applicazione della legge n. 91 del 2015, prevede un accordo tra la parte acquirente e venditrice per la formazione di un prezzo di riferimento valido a livello nazionale, che superi il sistema attuale di quotazione delle borse merci.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg28">Al fine di progredire nelle procedure e a fronte di una richiesta di filiera, il Ministero ha già tenuto il 14 marzo 2018 un tavolo tecnico e in data 21 marzo 2018 ha inviato ai partecipanti un questionario per stabilire alcune caratteristiche fondamentali della costituenda CUN sul grano duro, tra le quali la scelta della sede. A tale tavolo tecnico sono state invitate le organizzazioni agricole e la rappresentanza della parte industriale di trasformazione, proprio per individuare congiuntamente un percorso utile di formazione della CUN, e alla riunione hanno partecipato anche i rappresentanti dell'associazione GranoSalus.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg29">Il Ministero ha ricevuto solo tre risposte al questionario, due delle quali contenenti la richiesta d'interrompere il percorso di formazione della CUN da parte delle rappresentanze della futura parte acquirente, nessuna risposta o indicazione invece, è stata inviata dall'associazione GranoSalus.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg30">Convinto dell'importanza dell'obiettivo di avere un prezzo indicativo più trasparente per chi produce fuori dai contratti di filiera, lo scorso dicembre, al tavolo della filiera grano pasta, ho ribadito la disponibilità alla creazione di una Commissione unica nazionale per il grano duro nell'ambito di una serie di azioni per il settore e in tale direzione sta continuando il lavoro di dialogo tecnico con le parti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg31">In merito al recepimento di una griglia di valutazione tossicologica della qualità del grano, anche a tutela dei consumatori, richiesta dall'interrogante, giova ricordare che quello immesso sul mercato deve rispettare per legge tutte le caratteristiche di sicurezza e salubrità previste dalla normativa europea e nazionale in materia.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg32">Per quanto concerne le indagini antitrust, ricordo che esse spettano all'Autorità garante della concorrenza e del mercato che, in caso di pratiche sleali, provvede d'ufficio. Ribadisco comunque l'impegno del Ministero, per quanto di competenza, a evitare speculazioni, frodi e volatilità dei prezzi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg33">PRESIDENTE. Ha facoltà di intervenire in replica il senatore De Bonis, per due minuti.</seg>
+            </u>
+            <note type="speaker">DE BONIS (Misto)</note>
+            <u ana="#regular" who="#DeBonisSaverio" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u15">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg34">Signor Ministro, le cose non stanno esattamente in questi termini, perché è assurdo che l'agricoltura sia l'unico settore in cui a decidere i prezzi d'acquisto delle materie prime siano le controparti forti, ossia l'industria, la trasformazione e i commercianti.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg35">Ho depositato un disegno di legge per superare tale ostacolo, perché questa CUN non si farà mai, dal momento che alcune associazioni di categoria di parte industriale non vogliono un processo di trasparenza, che pure lo Stato italiano ha avviato, dopo anni di dure battaglie. È merito del MoVimento 5 Stelle aver introdotto, anche su nostra sollecitazione, questa norma, che stabilisce il principio di trasparenza.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg36">Se pertanto l'ostacolo è l'ostracismo da parte delle industrie, lo si può rimuovere anche accogliendo la proposta che ho presentato, che lei può trasformare in un decreto immediato: non è con i questionari, infatti, che riusciremo a convincere le industrie a ripartire equamente il valore aggiunto lungo la filiera.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00869) - Question time su eventuale revisione trattato CETA con Canada in ambito agricolo</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u16">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg37">La senatrice Biti ha facoltà di illustrare l'interrogazione 3-00869 sull'eventuale revisione del trattato commerciale CETA con il Canada in ambito agricolo, per tre minuti.</seg>
+            </u>
+            <note type="speaker">BITI (PD)</note>
+            <u ana="#regular" who="#BitiCaterina" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u17">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg38">Signor Presidente, desidero innanzitutto ringraziare il Ministro per la sua presenza.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg39">Possiamo dire che quella di oggi è la terza puntata della nostra personale serie sul CETA ( Comprehensive economic and trade agreement ). In Commissione ho già avuto modo di chiederle cosa ne pensasse in qualità di Ministro delle politiche agricole alimentari e forestali pro tempore della Repubblica italiana; ho avuto modo di provocarla nuovamente in Aula, quando abbiamo parlato di agricoltura. Questa è la terza puntata e, visto che anche i cittadini ci stanno guardando da casa, mi auguro che abbia finalmente l'opportunità di spiegare a tutti cosa intende fare sul CETA come Ministro delle politiche agricole. Ricordo infatti le sue dichiarazioni di un anno fa, quando chiese di aspettare per vedere i risultati del CETA, in quel momento in vigore provvisoriamente, e di avere i dati alla mano per capire se apportare revisioni (che sappiamo essere possibili). D'altra parte, sentiamo Ministri del suo stesso Governo dire cose diverse, schierandosi in maniera netta e chiara contro quest'accordo di libero scambio col Canada. Come le ho già detto più volte e come ribadisco ora, però, il Ministro è lei ed è lei che sceglie la politica dei settori agricolo e agroalimentare. Le chiediamo allora, signor Ministro, cosa pensa davvero su questo fondamentale strumento di accordi bilaterali con un'importante Paese qual è il Canada. È una risposta politica quella che vogliamo, perché è una scelta che il Governo deve fare. Vogliamo sapere allora se siete d'accordo o meno con la ratifica, che ancora non è avvenuta, anche se il Trattato è in vigore e in funzione e dati descritti e riportati sono importanti per il settore dell'agricoltura e soprattutto per quello agroalimentare. Vorremmo quindi sapere qual è la vostra opinione rispetto alla ratifica, con quali previsioni e in che tempi volete farla o meno e anche in che modo, cioè se pensate a una revisione. Noi non abbiamo bisogno che lei ci elenchi dei dati, perché quelli li troviamo anche da soli, ma che ci dica cosa vuole fare questo Governo. Anche se ai doppi binari siamo abituati su tutto, noi che ci interessiamo soprattutto di agricoltura con i colleghi della Commissione vorremmo sapere finalmente qual è la posizione univoca del Governo, che lei rappresenta come Ministro pro tempore delle politiche agricole alimentari, forestali e del turismo, e conoscere la sua posizione sul CETA.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg40">PRESIDENTE. Il ministro delle politiche agricole alimentari e forestali e del turismo, senatore Centinaio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CENTINAIO</note>
+            <note type="role">ministro delle politiche agricole alimentari, forestali e del turismo</note>
+            <u ana="#regular" who="#CentinaioGianMarco" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u18">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg41">Signor Presidente, io avevo una risposta che mi era stata preparata dagli uffici competenti, che ringrazio visto che era una risposta tecnica; in questo momento però le do una risposta politica, perché considero doveroso farlo visto che da troppo tempo stiamo parlando del CETA.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg42">Come ben sapete, in questo momento il CETA è in vigore, di conseguenza le nostre aziende possono beneficiarne totalmente senza problemi; chi dice il contrario mente sapendo di mentire. Come abbiamo detto in più occasioni, l'obiettivo che ci siamo dati era quello di valutare, insieme alle associazioni di categoria, alle aziende e al mondo agricolo il prosieguo di questo accordo. Nelle scorse settimane abbiamo iniziato a incontrare alcune delle associazioni di categoria, quindi abbiamo cominciato a vedere insieme a loro come sta andando il CETA. Sappiamo benissimo che adesso ci sarà una revisione di medio termine e di conseguenza ci sarà anche la possibilità di interloquire con il Canada per vedere cosa si può modificare. In questo momento stiamo vedendo - personalmente è vero che i dati sono molti positivi - che chi può esportare in Canada ha la possibilità di fare volumi e quindi business; pertanto in questo senso lo consideriamo positivamente. Gli aspetti negativi li abbiamo già chiariti in più di un'occasione; mi riferisco cioè al fatto che non tutti possono esportare, perché questo accordo è previsto solamente per un numero limitato di prodotti italiani. L'altro dei due aspetti che vogliamo riconsiderare nella revisione di medio termine perché non lo riteniamo positivo è il fatto che l' italian sounding in Canada sia ancora permesso. Queste sono le due motivazioni per cui in questo momento esprimerei ancora parere negativo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg43">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Taricco, per due minuti.</seg>
+            </u>
+            <note type="speaker">TARICCO (PD)</note>
+            <u ana="#regular" who="#TariccoMino" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u19">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg44">Signor Presidente, ringrazio il Ministro per la schiettezza della risposta: quantomeno adesso abbiamo una risposta fresca da cui partire nei ragionamenti. Mi permetto solo di fare una considerazione.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg45">Come lei ben sa, nei mesi scorsi è stata aggiunta all'elenco delle denominazioni protette anche quella del prosciutto di Carpegna, certificando in modo plastico che quanto molti avevano detto, cioè che questa tutela riguardava solo un numero ristretto di denominazioni d'origine, in realtà non è suffragato perché gli accordi dicono cose diverse. A mio avviso abbiamo urgentemente bisogno del chiarimento cui lei faceva riferimento, perché ritengo che il tema non riguardi tanto e soltanto come gestire il prosieguo del percorso sul CETA, ma, alla luce di questo discorso, capire quale strategia usare a livello internazionale per tutelare le nostre denominazioni d'origine. Il tema principale è che in questo caso avremo tutele limitate, ed è vero, ma c'è da chiedersi quale altra strada ci sia per tutelare le denominazioni d'origine.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg46">Quindi, da questo punto di vista, credo che il chiarimento cui lei faceva riferimento sia sicuramente fondamentale per il CETA, ma credo anche per tutto il settore italiano votato all' export, che (proprio ieri abbiamo vissuto un momento di approfondimento su questo tema) ha nelle denominazioni di origine un patrimonio straordinario sia in termini economici, che in termini di ricaduta d'immagine sull'Italia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una rappresentanza di studenti</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u20">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg47">Saluto a nome dell'Assemblea gli studenti della facoltà di Scienze politiche dell'Università «LUISS» di Roma, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00866) - Question time su tutela dieta mediterranea in programma proposto da commissione Eat-Lancet</head>
+            <note type="time">(ore 15,26)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u21">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg48">Il senatore Bergesio ha facoltà di illustrare l'interrogazione 3-00866 sulla tutela della dieta mediterranea rispetto al programma proposto dalla commissione internazionale Eat-Lancet, per tre minuti.</seg>
+            </u>
+            <note type="speaker">BERGESIO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BergesioGiorgioMaria" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u22">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg49">Signor Ministro, portiamo alla sua attenzione e a quella dei colleghi di quest'Assemblea un problema che si sta riproponendo dopo poco più di cinque mesi dall'approvazione, da parte di entrambi i rami del Parlamento, di una mozione con la quale chiedevamo al Governo di difendere il settore agroalimentare italiano nelle opportune sedi internazionali, in particolare nell'ambito dell'ONU e delle sue principali agenzie. Grazie al suo intervento e a quello delle nostre diplomazie, l'ONU è tornata sui suoi passi e ha dovuto ammettere che i nostri prodotti agroalimentari e le nostre eccellenze del made in Italy non sono così dannosi per la salute come dicevano. Oggi ci troviamo a dover discutere nuovamente di questo tema. Il 19 gennaio scorso è stata presentata ad Oslo la commissione Eat-Lancet su alimentazione, pianeta e salute, che si propone di trasformare il sistema globale della nutrizione. Tale commissione dispone di risorse economiche straordinarie, è collegata a una fondazione che gestisce oltre 30 miliardi di dollari e intende proporre stili alimentari lontani dal nostro modello della dieta mediterranea, stili basati solo su studi epidemiologici, senza avere alla base nessun fondamento clinico che ne certifichi l'efficacia e la salubrità. Questo modello risulta avere delle gravi carenze. I passaggi attraverso cui tale commissione vorrebbe realizzare i propri piani sono gravemente lesivi della libertà di scelta del consumatore, al punto da prevedere prima una guida delle scelte attraverso incentivi, poi una guida attraverso disincentivi (che vorrebbe dire tassare alcuni cibi), poi la restrizione tramite l'esclusione di alcuni prodotti dal mercato e infine addirittura l'eliminazione della scelta, sulla base del fatto che sarebbe lo Stato a indicare al consumatore quali sono i cibi salutari. Viene naturale pensare che dietro questo ennesimo attacco al made in Italy ci siano ben altri interessi e che sotto la copertura della salute umana si voglia invece colpire l'agricoltura e la filiera agroalimentare. Le chiediamo pertanto se e come intenda nuovamente intervenire per tutelare ancora una volta la filiera agroalimentare italiana nei confronti di un modello contrario alle abitudini e alle tradizioni alimentari. Sarebbe opportuno farlo anche attraverso campagne di informazione mirate, che consentano ai cittadini consumatori di valutare in modo obiettivo l'iniziativa di questa commissione, la cui propaganda purtroppo ha già attecchito presso diversi media all'estero e, alcuni, anche in Italia, al fine di evitare che i consumatori possano mettere in atto comportamenti alimentari nocivi per la loro salute.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg50">PRESIDENTE. Il ministro delle politiche agricole alimentari e forestali e del turismo, senatore Centinaio, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">CENTINAIO</note>
+            <note type="role">ministro delle politiche agricole alimentari, forestali e del turismo</note>
+            <u ana="#regular" who="#CentinaioGianMarco" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u23">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg51">Signor Presidente, onorevoli senatori, il Ministero ha sempre lavorato rispondendo nell'ottica della mozione che era stata approvata all'unanimità da entrambi i rami del Parlamento. Proprio per questo motivo di recente, al fine di rappresentare la posizione italiana nell'ultima sessione del comitato etichettatura alimentare del Codex Alimentarius, organismo della FAO, che si è tenuto a Ottawa dal 13 al 17 maggio scorso, insieme con i Ministeri degli affari esteri e della cooperazione internazionale, della salute e dello sviluppo economico abbiamo elaborato una posizione che ha modificato la posizione originaria che la Commissione avrebbe presentato a nome di tutti gli Stati membri, ancora una volta contro l'agroalimentare italiano.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg52">L'azione della delegazione italiana è stata finalizzata a contrastare l'eventuale approvazione di nuove linee guida sull'etichettatura nutrizionale fronte pacco, che legittimano sistemi di etichettatura basati sulla classificazione cibi sani/cibi non sani, sistemi di etichettatura FOP a colori (il famoso semaforo), sistemi che attribuiscono un giudizio sintetico sulle qualità complessive dell'alimento (Nutri-score) e sistemi basati su indicatori di nocività.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg53">Per quanto riguarda nello specifico l'iniziativa Eat, una startup no profit dedicata alla trasformazione del sistema alimentare mondiale, quest'ultima è ormai nota per il rapporto della commissione Eat-Lancet «Diete salutari da sistema alimentare sostenibile», in cui viene affermata la necessità di modificare le abitudini alimentari mondiali verso regimi alimentari più dietetici, da un punto di vista non solo della salute pubblica ma, anche e soprattutto, di lotta al cambiamento climatico. Questo modello pone attenzione su un incremento a livello mondiale della produzione e del consumo dei cibi ritenuti salubri (frutta, verdura, cereali integrali, legumi e frutta secca) e una drastica riduzione, o totale eliminazione, del consumo dei cibi ritenuti dannosi (in particolare di carne rossa, ma anche di carne bianca, latticini, zuccheri e cereali raffinati). Sono previste diverse gradazioni di intervento pubblico per «cambiare il sistema alimentare globale», comprensive di misure più morbide e misure più drastiche, quali l'adozione di incentivi per alcune categorie di prodotti alimentari identificati come sani, e di disincentivi per le altre categorie merceologiche, fino alla totale eliminazione della libertà di scelta da parte del consumatore. Il rapporto della Commissione afferma che l'industria alimentare dovrebbe addirittura ritirare dal commercio i prodotti inappropriati e diversificare il proprio business. Il rapporto succitato ha suscitato forte preoccupazione, non solo da parte del Governo italiano, ma anche a livello imprenditoriale presso le organizzazioni agricole di categoria e di produttori agroalimentari. Le principali perplessità si incentrano sulla non adeguata fondatezza scientifica del rapporto e soprattutto sul carattere prescrittivo delle sue conclusioni e raccomandazioni. Infatti, in linea con i più consolidati orientamenti scientifici, il Ministero della salute e il Ministero delle politiche agricole, alimentari, forestali e del turismo hanno sempre ritenuto invece fondamentale la totalità della dieta e non il singolo alimento, evitando di classificare gli alimenti in buoni e cattivi, poiché tali alimenti devono essere commisurati alle esigenze del singolo individuo e non giudicati nell'ambito di una semplice valutazione standardizzata. L'Italia ha promosso, promuove e sempre promuoverà la dieta mediterranea, riconosciuta il 16 novembre del 2010 patrimonio culturale immateriale dell'umanità dall'UNESCO</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg54">, un modello nutrizionale rimasto costante nel tempo, costituito principalmente da olio di oliva, cereali, frutta fresca o secca, e verdure, una moderata quantità di pesce, latticini e carne, per i suoi positivi effetti sulla salute e incoraggia i produttori a mantenere la qualità eccellente dei prodotti tradizionali italiani.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg55">La posizione concettuale espressa nel rapporto della Commissione Eat-Lancet potrebbe produrre effetti discriminatori soprattutto nei confronti di quei prodotti italiani riconosciuti a livello europeo come patrimonio nazionale (DOP e IGP), che sono obbligati per legge a mantenere determinati tenori di nutrienti, previsti dai disciplinari di produzione a tutela delle tradizioni e dei consumatori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi M5S e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg56">Nel mese di settembre 2019 a Parigi è prevista un'ulteriore iniziativa dei promotori della campagna Eat-Lancet nell'ambito di un think tank cui sono stati invitati diversi rappresentanti della Commissione europea. Non si mancherà in tale sede di intervenire per controbattere rispetto a questi tentativi di influire sui Governi e sulle competenti autorità regolatorie in varie parti del mondo per imporre una visione non suffragata da convincenti evidenze scientifiche e senz'altro controproducente per il mondo agricolo e i produttori di alimenti sani e di qualità come quelli italiani. Quanto sopra non esaurisce l'azione di tutela delle eccellenze agroalimentari nazionali, perché intendiamo mantenere alta l'attenzione in tutti i fori internazionali, FAO compresa, in cui vengono definite le politiche della salute con potenziale impatto sulla produzione e commercializzazione dei prodotti alimentari, con l'intento di imprimere incisività e determinazione al ruolo dell'Italia, salvaguardando il made in Italy.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg57">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Bergesio, per due minuti.</seg>
+            </u>
+            <note type="speaker">BERGESIO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BergesioGiorgioMaria" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u24">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg58">Signor Presidente, signor Ministro, crediamo che, con tutti i problemi che l'agricoltura italiana ha oggi, ritrovarsi ancora una volta a dover discutere di questo argomento e a dover difendere ancora una volta il nostro made in Italy sinceramente sia svilente, non solo per quest'Assemblea, non solo per i consumatori, ma soprattutto per i nostri agricoltori e per i nostri produttori, che si trovano già a combattere contro i continui cambiamenti climatici e contro la concorrenza sleale, in primis dei Paesi europei e poi dei Paesi extraeuropei. Colgo l'occasione anche per ricordare - e la ringraziamo - che le risorse messe a disposizione dell'agricoltura e del comparto agroalimentare da parte di questo Governo negli ultimi sei mesi ammontano ad oltre 1 miliardo di euro. Questo al fine di favorire le produzioni italiane, che sono di assoluta qualità. È notizia recente che, con oltre 55.000 aziende agricole guidate da under 35, l'Italia è al vertice a livello europeo. Il ritorno alla terra è indubbiamente favorito da tutto questo. I problemi, naturalmente, non mancano, ma l'attenzione che lei porrà a tale argomento è fondamentale per le nostre produzioni, per la redditività dei nostri agricoltori e soprattutto per il consumatore finale. Prima i prodotti italiani, sempre. Grazie, signor Ministro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi L-SP-PSd'Az e M5S.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00867) - Question time su tema scelto per sfilata militare del 2 giugno 2019</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u25">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg59">La senatrice Rauti ha facoltà di illustrare l'interrogazione 3-00867 sul tema scelto per la sfilata militare del 2 giugno 2019, per tre minuti.</seg>
+            </u>
+            <note type="speaker">RAUTI (FdI)</note>
+            <u ana="#regular" who="#RautiIsabella" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u26">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg60">Signor Presidente, signor Ministro, l'inclusione è il tema scelto quest'anno per la tradizionale parata militare ai Fori imperiali del 2 giugno. Un evento che di per sé è inclusivo, proprio perché si svolge in occasione della Festa della Repubblica, ricorrenza che unisce tutti gli italiani. Ma tra i compiti delle Forze armate ricordiamo: la difesa dello Stato, la sicurezza e la sovranità nazionale, la protezione dei confini della Patria, la costruzione e il mantenimento della pace nelle missioni internazionali, interventi in caso di calamità naturale, difesa collettiva in operazioni in ambienti complessi. Insomma, le Forze armate non sono organizzazioni non governative né associazioni di volontariato, e non è loro compito istituzionale combattere l'emarginazione sociale, né scambiare fucili con borse di studio per la pace, come ha chiesto e proposto il presidente Conte.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg61">La parata del 2 giugno è, o dovrebbe essere, occasione per celebrare ed onorare l'impegno dei militari e rafforzare il senso dell'appartenenza nazionale. È proprio questa specificità delle Forze armate che andrebbe onorata e rispettata in occasione della ricorrenza del 2 giugno, ricordando sempre, ogni giorno, che i militari sono servitori dello Stato e ambasciatori dell'Italia nelle missioni all'estero.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg62">L'aver dedicato la parata del 2 giugno al tema dell'inclusione ci sembra, signor Ministro, un'ipocrisia ideologica, un'alterazione politica e anche un mancato riconoscimento della vocazione principale delle Forze armate. Pur condividendo l'ottica che la strategia dual use non potrebbe essere diversa, riteniamo che la scelta finisca per privilegiare l'impegno civile con una deminutio dei valori militari che sono proprio quelli che una parata delle Forze armate dovrebbe celebrare. Insomma, signor Ministro, più che una parata sarà una sfilata, più dai colori arcobaleno che dai colori del Tricolore. Buona festa buonista, signor Ministro. Peace and love ! PRESIDENTE. Il ministro della difesa, onorevole Trenta, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">TRENTA</note>
+            <note type="role">ministro della difesa</note>
+            <u ana="#guest" who="#TrentaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u27">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg63">. Peace and love a lei, senatrice! (Il Ministro rivolge il gesto cosiddetto di peace and love</seg>
+               <kinesic type="applause">
+                  <desc>all'indirizzo della senatrice Rauti. Applausi dal Gruppo M5S. Proteste dal Gruppo FdI.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u28">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg64">Signor Ministro, non capisco questo gesticolare. Si rivolga all'Assemblea e si rivolga a me.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg65">VOCE DAL GRUPPO FDI. Un Ministro che fa i gesti all'Assemblea! PRESIDENTE. Il Ministro della difesa...</seg>
+               <vocal type="shouting">
+                  <desc>Proteste dal Gruppo FdI.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg66">, ministro della difesa. Non ho fatto il gesto delle corna, ma quello di peace and love. PRESIDENTE. Ho appena detto che non trovo comprensibile questo tipo di gesticolazione, non idoneo a quest'Aula. L'ho appena detto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg67">TAVERNA (M5S). Lo dica a loro! PRESIDENTE. Signor Ministro, per cortesia, risponda all'interrogazione illustrata.</seg>
+            </u>
+            <note type="speaker">TRENTA</note>
+            <note type="role">ministro della difesa</note>
+            <u ana="#guest" who="#TrentaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u29">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg68">Signor Presidente, la risposta all'interrogazione oggi in discussione mi consente di chiarire con esattezza una questione oggetto di particolare interesse ed evidenza mediatica, nell'auspicio che tale intervento possa dissipare tutti i dubbi e non dia spazio a strumentalizzazioni e interpretazioni di parte.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg69">La festa della Repubblica è la festa di tutti i cittadini e di tutti i militari che rappresentano la Repubblica e i valori di unità che essa sottende. Per tale motivo, come parte essenziale della Repubblica, i militari rappresentano l'incarnazione stessa dei principi e dei valori costitutivi dello Stato. Il concetto di inclusione è interno alla difesa. Inclusione vuol dire considerare come parte integrante della compagine difesa tutti i militari che hanno rischiato la vita per il servizio e che, ad esempio, si sono ammalati a seguito del loro impiego nei teatri operativi. Questi militari per tanto tempo non hanno trovato un riconoscimento formale e solo ora, finalmente, si sta facendo chiarezza sulla genesi delle patologie collegate all'esposizione ad agenti nocivi, con il preciso intento di ridurre al minimo, se non addirittura eliminare, ogni fattore di rischio per la salute dei militari impiegati.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg70">L'occasione di questa ricorrenza così speciale per la storia della Repubblica mi ha imposto di tenere tutti nella loro debita considerazione, affinché nessuno, nella difesa, debba rimanere indietro. Per tale motivo, nel corso della sfilata avremo con noi rappresentanti delle vittime del dovere e delle famiglie di coloro che sono caduti per il bene della Patria.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg71">Inclusione vuol dire che, per la prima volta, parteciperanno i civili della Difesa e per la prima volta la riserva selezionata. La diversità delle scelte e delle abilità è un patrimonio comune e rispettare l'autodeterminazione delle persone è necessario perché un Paese si mantenga vivo e competitivo, anche nella considerazione solidale per chi ha maggiormente pagato per il proprio impegno.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg72">Tali considerazioni e argomentazioni mi consentono di affermare che la dedica della parata della festa della Repubblica al tema dell'inclusione non possa costituire una sorta di deminutio dei valori militari o un mancato riconoscimento della vocazione principale delle Forze armate. Anzi, è un ringraziamento dovuto a tutti coloro che hanno dato la vita e sacrificato parte importante di essa per servire la patria. È la festa degli eroi del Paese, anche di quelli che, ammalatisi per il servizio, sono transitati al ruolo civile. In tale ottica, il tema che ha ispirato l'organizzazione dei festeggiamenti per il 2 giugno mi pare del tutto coerente con la vocazione delle Forze armate ed in perfetta armonia con il dettato costituzionale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg73">PRESIDENTE. Ha facoltà di intervenire in replica il senatore La Russa, per due minuti.</seg>
+            </u>
+            <note type="speaker">LA RUSSA (FdI)</note>
+            <u ana="#regular" who="#LaRussaIgnazio" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u30">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg74">Signor Presidente, io ho sempre apprezzato i Ministri della difesa degli ultimi Governi, a partire dalla senatrice Pinotti. Questa volta, però, proprio non siamo soddisfatti, perché la toppa che il ministro Trenta ha cercato di mettere al buco ci sembra colorata e la rende ancora più visibile. Io ho capito, signor Ministro, che lei si è vergognata di aver fatto capire che questa storia dell'inclusione fosse un attacco a chi ha altre visioni, per esempio sul tema dell'immigrazione, che fosse un attacco al suo presunto alleato Salvini. Adesso ha cercato di aggiustare tale storia, ma non è andata come dice lei. Angelo Tofalo, il suo Sottosegretario, del MoVimento 5 Stelle (che ha applaudito senza leggere i comunicati), un'ora fa ha detto che ha cercato per un anno di stare accanto al ministro Trenta e di spiegarle che il nemico non è Salvini o chissà chi altro ma che, purtroppo, il Ministro ha deciso di fare valutazioni diverse. Non lo dico io, lo dice il suo Sottosegretario. E stia tranquilla: Gianfranco Paglia e Luca Barisonzi, medaglie d'oro ferite in Afghanistan e in altre missioni, non hanno bisogno della sua inclusione, perché sono già nel cuore delle Forze armate e di tutti gli italiani, senza bisogno che lei dedichi loro il 2 giugno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg75">Vede, quando al Presidente del Consiglio, che ha detto che vendeva sette fucili per creare una borsa di studio, hanno chiesto cosa avrebbero fatto i sette militari senza fucile, egli ha risposto che li avrebbe messi nelle retrovie a parlare di pace. E lei non ha detto una parola; quasi che non siano tutti i militari, con il loro impegno, a difendere ogni giorno in armi la pace! Non sono certo amanti della guerra, i militari!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dai Gruppi FdI e L-SP-PSd'Az</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg76">Caro ministro Trenta, noi, più che la bandiera arcobaleno, amiamo il Tricolore. Amiamo il Tricolore. (I senatori del Gruppo FdI espongono il Tricolore.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FdI e della senatrice Bonfrisco</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg77">PRESIDENTE. No, mi stupisce...</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg78">E siccome, come insegna il proverbio, dopo il trenta verrà il trentuno, speriamo che lei passi presto.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u31">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg79">Sospendo la seduta. (La seduta, sospesa alle ore 15,46, è ripresa alle ore 15,48). La seduta è ripresa.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00864) - Question time su programma acquisto aerei F-35</head>
+            <note>Il senatore Causin ha facoltà di illustrare l'interrogazione 3-00864 sul programma di acquisto degli aerei F-35, per tre minuti.</note>
+            <note type="speaker">CAUSIN (FI-BP)</note>
+            <u ana="#regular" who="#CausinAndrea" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u32">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg80">Signor Presidente, signor Ministro, a nome del gruppo di Forza Italia, desidero interrogarla sull'annosa e controversa questione che riguarda la dotazione d'arma relativa al programma di rinnovamento della nostra flotta aerea attraverso l'introduzione di caccia di nuova generazione, denominati F-35.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg81">Il Gruppo Forza Italia, come lei sicuramente sa, non ha mai nutrito alcun dubbio rispetto all'importanza strategica e industriale della partecipazione dell'Italia al programma degli F-35. Da parte del Governo però questa chiarezza non c'è, non c'è stata e non ci pare all'orizzonte. Sul tema degli F-35 infatti, come su molte altre questioni, si sta verificando una dinamica insolita: anche quando siete in due riuscite ad esprimere tre posizioni. Salvini ha infatti affermato che il programma relativo agli F-35 è irrinunciabile; Di Maio il 31 gennaio 2019 ha detto che assolutamente no, non si possono buttare via i soldi con gli F-35. Lei è stata più cauta, affermando che sta studiando e valutando (ed è da un anno che sta studiando).</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg82">Dal momento che riteniamo che il programma sia utile e indispensabile sul piano industriale, sul piano dello sviluppo tecnologico, dell'occupazione e del miglioramento delle capacità di difesa dello spazio aereo italiano, le chiediamo tre cose: la posizione ufficiale del Governo rispetto al programma, ammesso che essa ci sia; le valutazioni alle quali ella è giunta in un anno di contemplazione e di riflessione; se ritiene, in coerenza con i pareri tecnici che arrivano dall'Aeronautica militare e dal Ministero della difesa, che il programma di sviluppo e di produzione di caccia strategici di nuova generazione, denominati F-35, possa rappresentare, come dicono tutti, un'eccellenza sul piano militare e possa essere altresì un'opportunità per lo sviluppo tecnologico ed economico dell'industria italiana della difesa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg83">PRESIDENTE. Il ministro della difesa, onorevole Trenta, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">TRENTA</note>
+            <note type="role">ministro della difesa</note>
+            <u ana="#guest" who="#TrentaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u33">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg84">Signor Presidente, il programma Joint Strike Fighter, avviato circa vent'anni fa e proseguito dagli Esecutivi che si sono avvicendati fino a oggi, è estremamente complesso sia per le ragioni tecniche legate alle caratteristiche di assoluta innovazione tecnologica del velivolo sia perché presenta una peculiare struttura contrattuale del sistema di partenariato internazionale attraverso cui si sta procedendo.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg85">La scelta di partecipare al programma sin dalle sue fasi iniziali va letta nella duplice ottica di soddisfare le esigenze prioritarie di difesa nazionale e alleata attraverso un sistema d'arma dotato di elevata tecnologia in grado di svolgere funzioni multiruolo avanzate, che consenta alle Forze armate di mantenere un adeguato margine di superiorità tecnologica rispetto alle possibili minacce, nonché di assicurare all'industria nazionale l'accesso a tecnologie innovative e all'avanguardia con i correlati e adeguati ritorni industriali e la relativa crescita occupazionale.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg86">Va anche detto, tuttavia, che l'impegno finanziario per il programma F-35, così come era stato originariamente concepito, è di assoluta rilevanza nel quadro del budget per la difesa e per le finanze pubbliche, e pertanto deve essere attentamente analizzato in un'ottica di valutazione complessiva del rapporto costi-benefici. Pertanto, sin dal mio insediamento ho chiesto agli uffici tecnici competenti una valutazione approfondita del programma che tenga conto delle esigenze e delle capacità delle nostre Forze armate e dell'indotto occupazionale connesso, delle importanti ricadute imprenditoriali e di ulteriori variabili utili allo scopo di determinare una riflessione esaustiva sul dossier. Al momento, il Dicastero è autorizzato a procedere al completamento della prima fase del progetto, che vedrà la realizzazione e la consegna di 28 velivoli entro il 2022 (i velivoli sinora consegnati sono 13), i cui contratti sono stati completamente finanziati come da richieste del Joint Program Office. Le diverse articolazioni del Ministero della difesa coinvolte stanno, come dicevo, esaminando le conseguenze - sul piano delle capacità e su quello industriale e occupazionale - dei possibili scenari derivanti dalla eventuale rimodulazione del profilo di acquisizione dei velivoli, ovvero del livello di partecipazione al programma. Ritengo sia assolutamente chiaro e condivisibile il fatto che qualsiasi valutazione politica che preceda un'approfondita valutazione tecnica rischi di apparire superficiale, approssimativa e incauta. Nel concludere, sento il dovere di puntualizzare che le decisioni sul futuro del programma non possono comunque - alla luce delle implicazioni di carattere strategico internazionale, industriali e occupazionali - essere demandate al solo Ministero della difesa. Reputo infatti necessaria al riguardo una valutazione corale che consenta all'Esecutivo di sostenere con coerenza una posizione rappresentativa di un impegno che nei fatti è di lungo termine.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg87">PRESIDENTE. Ha facoltà di intervenire in replica il senatore Causin, per due minuti.</seg>
+            </u>
+            <note type="speaker">CAUSIN (FI-BP)</note>
+            <u ana="#regular" who="#CausinAndrea" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u34">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg88">Signor Presidente, signor Ministro, colleghi, vorrei premettere che mi sembra incredibile che si debba aprire una valutazione su questioni già valutate e in corso; ma questa è solo una parentesi.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg89">Ringrazio il signor Ministro per la risposta che, tuttavia, considero non esaustiva e non soddisfacente. Le ricordo, signor Ministro, che la Difesa non è un comparto secondario dello Stato, ma un bene comune dello Stato e dei cittadini e, come tale, non solo va preservato, ma deve essere anche oggetto di corretti e giusti investimenti. Penso che sia sulla base di queste valutazioni che, illo tempore, si decise di attuare il programma degli F-35. Sappiamo che la distanza che l'Italia sconta sul piano degli investimenti e degli obiettivi fissati è ampia: spendiamo l'1,25 per cento contro il 2 per cento che spendono in media i Paesi NATO. Anche le riduzioni che lei ha posto sul bilancio pluriennale della Difesa, di 600 milioni di euro, vanno sicuramente nella direzione di penalizzare ulteriormente questo programma e ci portano perciò a temere che lei voglia, forse, far fare al programma F-35 la fine che ha fatto fare al programma dei droni della Piaggio Aerospace, un programma già in corso che è stato stoppato. Per carità, sono scelte ma non le condividiamo assolutamente. Riteniamo al contrario - e lo voglio ribadire - che il programma F-35 a regime consentirà di assumere, di aumentare e migliorare le nostre capacità di difesa; consentirà all'Italia di progredire dal punto di vista tecnologico e sarà anche una grande risposta sul piano dell'evoluzione scientifica e dell'occupazione. Per tale ragione, a nome del Gruppo, esprimo insoddisfazione per la sua risposta, con l'auspicio che lei possa dedicare del tempo a tale questione e giungere finalmente alle ulteriori valutazioni necessarie per dare una risposta definitiva su questo programma, anche perché siamo diventati lo zimbello d'Europa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo FI-BP.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>(3-00868) - Question time su tutela militari colpiti da patologie contratte in missioni nei Balcani</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u35">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg90">La senatrice Maiorino ha facoltà di illustrare l'interrogazione 3-00868 sulla tutela dei militari colpiti da patologie contratte nel corso delle missioni nei Balcani, per tre minuti.</seg>
+            </u>
+            <note type="speaker">MAIORINO (M5S)</note>
+            <u ana="#regular" who="#MaiorinoAlessandra" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u36">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg91">Signor Presidente, gentile Ministro, nel 2001 scoppia il caso «Sindrome dei Balcani», con l'emergere dei primi episodi di militari italiani ammalatisi o deceduti al rientro dalle missioni in Bosnia Erzegovina e Kosovo, due Paesi dove la NATO, nel 1995 e nel 1999, aveva fatto uso di proiettili all'uranio impoverito.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg92">Secondo i dati dell'Osservatorio militare ad oggi si contano nel nostro Paese almeno 4.000 reduci colpiti da patologie asbesto-correlate e 359 decessi. Viene altresì confermato dalla ricerca scientifica che questi proiettili sono pericolosi, sia per la radioattività emanata, sia per le nano-polveri tossiche che rilasciano nell'ambiente. Continuano, inoltre, a verificarsi toccanti vicende umane legate a patologie contratte a causa di agenti patogeni, alle quali occorre dare costante attenzione e assicurare una doverosa ricerca della verità.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg93">Inoltre, nei giorni scorsi è apparsa, su alcuni organi di stampa, la notizia di un militare che si è tolto la vita, perché colpito da una patologia connessa all'esposizione all'uranio impoverito nel corso di alcune missioni all'estero; era stato costretto ad affrontare un lungo quanto penoso contenzioso con il Ministero della difesa.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg94">Infine, il Ministro ha avuto il coraggio di rompere il muro di silenzio sulle responsabilità della Difesa, annunciando la creazione di un tavolo tecnico e provvedimenti legislativi proprio a tutela dei nostri militari.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg95">Tutto ciò premesso, si chiede dunque di sapere quali siano tali provvedimenti concreti che il Ministro intende intraprendere per affrontare una problematica che tanta sofferenza ha provocato e continua a provocare nel personale militare, che ha messo a rischio la propria incolumità fisica per servire lo Stato e che lo Stato ha il dovere di tutelare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e del senatore Rufa</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg96">PRESIDENTE. Il ministro della difesa, onorevole Trenta, ha facoltà di rispondere all'interrogazione testé illustrata, per tre minuti.</seg>
+            </u>
+            <note type="speaker">TRENTA</note>
+            <note type="role">ministro della difesa</note>
+            <u ana="#guest" who="#TrentaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u37">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg97">Signor Presidente, ringrazio la senatrice per questa domanda, che mi consente di illustrare la posizione della Difesa e la mia personale su un tema quanto mai delicato per la vita di ciascuno di noi: la tutela della salute. È un tema che assume ancor più rilievo per tutti quei lavoratori maggiormente esposti a rischi professionali e, tra questi, i militari.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg98">Individuare le cause delle patologie che abbiano colpito o possano colpire i militari è per noi una priorità assoluta e, nella stessa misura, ci sta a cuore manifestare ogni possibile forma di solidarietà a chi si è ammalato, dando finalmente una risposta a chi l'aspetta ormai da troppo tempo. Fin dal mio insediamento ho ritenuto preminente tutelare i militari colpiti da patologie in relazione all'esposizione ad agenti nocivi e rompere quel silenzio assordante che era stato denunciato dalla Commissione d'inchiesta presieduta dall'onorevole Scanu. Per questi motivi, le conclusioni cui è pervenuta quella Commissione sono state considerate il punto da cui è partita l'attività del tavolo tecnico, per approfondire le criticità emerse in relazione all'esposizione a particolari fattori di rischio ambientale in ambito Difesa. Nei giorni scorsi il tavolo ha concluso la propria attività con la proposizione di una relazione finale e di un possibile testo normativo, che solo dopo aver ricevuto il parere di concordanza dei Dicasteri interessati inizierà il suo iter di approvazione. Le soluzioni individuate per rispondere alle richieste di coloro che si sono ammalati durante il servizio a causa dell'esposizione a sostanze nocive, incluso l'uranio, agiranno su diversi fronti. In primo luogo, si propone di invertire l'onere della prova, sollevando così il personale dal dover dimostrare di aver contratto la patologia per effetto dell'esposizione a sostanze nocive durante il servizio. Sarà ora l'Amministrazione a dover dimostrare, al di là di ogni ragionevole dubbio, che la malattia derivi da altre cause, diverse da quelle di esposizione a fattori di rischio. Si propone inoltre l'adozione di procedure in grado di oggettivizzare il più possibile il procedimento presso le commissioni mediche territoriali o centrali, al fine di evitare il più possibile qualsivoglia disparità di trattamento tra casi similari. Si ritiene anche necessario intervenire su alcune criticità riconducibili a una pesante stratificazione normativa determinatasi negli anni, disegnando nuove modalità operative per snellire le procedure e ridurre i tempi di attesa per il personale interessato. La recente notizia riportata dai giornali sul ritrovamento di uranio nel midollo di un militare conferma - se mai ce ne fosse bisogno - che dobbiamo rispondere velocemente al dramma dei tanti militari e delle loro famiglie e rendere sempre più saldo il rapporto di fiducia tra l'Amministrazione e il suo personale. Peraltro, con immensa soddisfazione ho appreso che di recente il Consiglio di Stato ha individuato la natura giuridica, i presupposti e l'ambito applicativo delle disposizioni del codice dell'ordinamento militare (COM) e del testo unico regolamentare dell'ordinamento militare (TUOM) che tutelano il personale civile e militare ammalatosi di alcune gravi patologie tumorali in quanto esposto a particolari fattori di rischio. Quindi, per chiarire con la citata sentenza - come anche io ho sempre sostenuto - le commissioni sanitarie competenti a riconoscere dal punto di vista medico-legale la sussistenza dei requisiti per la speciale indennità oggi dovranno dimostrare in concreto quali siano le cause delle patologie che hanno colpito il personale diverse da quelle automaticamente riconducibili alle situazioni di pericolo contemplate dal COM e dal TUOM. Nella medesima direzione si muove il progetto di disegno di legge in corso di elaborazione da parte del tavolo tecnico citato. Il disegno di legge non potrà che recepire favorevolmente anche questo arresto giurisprudenziale e rendere finalmente fruibile, oggettivo ed equo il riconoscimento della speciale indennità per tutti coloro che durante il servizio siano stati esposti - ad esempio - a fattori di rischio derivanti da partecipazione a missioni operative, a stress da particolari condizioni ambientali e operative e naturalmente anche ad ambienti lavorativi inquinati dal cosiddetto uranio impoverito.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg99">PRESIDENTE. Ha facoltà di intervenire in replica la senatrice Maiorino, per due minuti.</seg>
+            </u>
+            <note type="speaker">MAIORINO (M5S)</note>
+            <u ana="#regular" who="#MaiorinoAlessandra" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u38">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg100">Signor Ministro, la ringrazio per la risposta e soprattutto per le iniziative già intraprese e che sta intraprendendo, che dimostrano quell'attenzione che purtroppo è finora tristemente mancata.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg101">Si tratta di passi importanti che vanno incontro alle esigenze del nostro personale militare, esigenze che sono rimaste inevase e inascoltate per troppo tempo. È un cambio di direzione ancora più importante perché le sue rassicurazioni arrivano proprio alla vigilia della festa della Repubblica, ricorrenza che sarà dedicata, per sua espressa volontà, proprio alle vittime, ivi inclusi i militari italiani rientrati dai teatri operativi malati di cancro a causa dell'uranio impoverito e che meritano dallo Stato delle risposte.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg102">Noi, nonostante le malevole interpretazioni e le sceneggiate cui abbiamo dovuto assistere proprio in quest'Aula dagli oppositori di professione, siamo invece molto grati per le iniziative del Ministro e siamo veramente orgogliosi della sua scelta. Un disegno di legge per tutelare i diritti dei militari che si sono ammalati è un obiettivo condivisibile - credo - innovativo e ambizioso che dimostra, ancora una volta, la sensibilità di questo Governo e del Ministro su temi lungamente ignorati.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg103">Mi auguro solo che su una questione così delicata, che interessa la vita e la salute dei tanti servitori dello Stato in divisa che, nel servizio reso al Paese e alle istituzioni, non si sono mai tirati indietro nell'assolvimento del proprio dovere, il Parlamento non dimostri di essere diviso. Spero dimostri, invece, di essere compatto e coeso a sostenere le iniziative proposte dal Ministero.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg104">Posso assicurare che il Gruppo MoVimento 5 Stelle anche in questa circostanza sarà pronto a sostenere e a tutelare il nostro personale militare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo M5S e dei senatori Rufa e Pianasso.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u39">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg105">Lo svolgimento delle interrogazioni a risposta immediata ( question time ) all'ordine del giorno è così esaurito. Sospendo la seduta, che riprenderà dopo la Conferenza dei Capigruppo, convocata per le ore 16,30. (La seduta, sospesa alle ore 16,05, è ripresa alle ore 17,21).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u40">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg106">Onorevoli colleghi, comunico che, a seguito della riformulazione dell'emendamento 1.7 sul decreto-legge sblocca cantieri, la Conferenza dei Capigruppo ha fissato il termine per la presentazione di subemendamenti alle ore 12 di domani.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg107">Il seguito della discussione del decreto-legge proseguirà, fino alla sua conclusione, martedì 4 giugno, a partire dalle ore 9,30, con seduta senza orario di chiusura. Restano confermati gli altri argomenti previsti dal calendario.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Calendario dei lavori dell'Assemblea, variazioni</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u41">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg108">La Conferenza dei Presidenti dei Gruppi parlamentari, riunitasi oggi con la presenza dei Vice Presidenti del Senato e con l'intervento del rappresentante del Governo, ha adottato - ai sensi dell'articolo 55 del Regolamento - modifiche al calendario corrente:</seg>
+               <note type="summary">Martedì 4 giugno h. 9,30 - Seguito disegno di legge n. 1248 - Decreto-legge n. 32, Sblocca cantieri (scade il 17 giugno) - Disegno di legge n. 920-B - Concretezza delle azioni delle pubbliche amministrazioni (approvato dal Senato e modificato dalla Camera dei deputati) (collegato alla manovra di finanza pubblica) (voto finale con la presenza del numero legale) - Disegni di legge nn. 980 e 885 - Contrasto alla circonvenzione degli anziani - Disegno di legge n. 1088 - Ratifica con il Kenya sul Centro spaziale Luigi Broglio - Doc. XXIV, n. 5 - Risoluzione della 9ª Commissione sull'invasione della cimice marmorata asiatica - Mozioni sul contrasto ai cambiamenti climatici (mercoledì 5) - Mozioni su Radio Radicale - Interrogazioni a risposta immediata, ai sensi dell'articolo 151- bis del Regolamento (giovedì 6, ore 15) Mercoledì 5 " h. 9,30-20 Giovedì 6 " h. 9,30-20</note>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg109">La settimana dal 10 al 14 giugno sarà riservata ai lavori delle Commissioni.</seg>
+               <note type="summary">Martedì 18 giugno h. 16,30-20 - Disegno di legge n. ... - Decreto-legge n. 35, Misure urgenti per il servizio sanitario della Regione Calabria (ove trasmesso dalla Camera dei deputati) (scade il 1° luglio) - Comunicazioni del Presidente del Consiglio dei Ministri in vista del Consiglio europeo del 20 e 21 giugno 2019 (mercoledì 19, ore 9,30) - Disegno di legge n. 310 e connessi - Salario minimo orario (ove conclusi dalla Commissione) - Disegno di legge n. 897 e connessi - Videosorveglianza (approvato dalla Camera dei deputati) (ove concluso dalla Commissione) - Disegno di legge n. 1144 e connessi - Distacco comuni di Montecopiolo e Sassofeltrio dalla regione Marche e aggregazione alla regione Emilia-Romagna (approvato dalla Camera dei deputati) (ove concluso dalla Commissione) - Sindacato ispettivo - Interrogazioni a risposta immediata, ai sensi dell'articolo 151- bis del Regolamento (giovedì 20, ore 15) Mercoledì 19 " h. 9,30-20 Giovedì 20 " h. 9,30-20</note>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg110">Il termine per la presentazione degli emendamenti al disegno di legge n. ... (Decreto-legge n. 35, Misure urgenti per il servizio sanitario della Regione Calabria) sarà stabilito in relazione ai tempi di trasmissione dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg111">I termini per la presentazione degli emendamenti ai disegni di legge n. 310 e connessi (Salario minimo orario), n. 897 e connessi (Videosorveglianza) e n. 1144 e connessi (Distacco comuni di Montecopiolo e Sassofeltrio dalla Regione Marche e aggregazione alla Regione Emilia-Romagna) saranno stabiliti in relazione ai lavori delle Commissioni.</seg>
+               <note type="summary">Martedì 25 giugno h. 16,30-20 - Eventuale seguito argomenti non conclusi - Disegno di legge n. ... - Decreto-legge n. 34, Crescita economica (ove trasmesso dalla Camera dei deputati) (scade il 29 giugno) - Votazione per l'elezione di due componenti del Collegio del Garante per la protezione dei dati personali (votazione a scrutinio segreto mediante schede) (mercoledì 26, ore 9,30) - Disegno di legge n. 944 - Legge di delegazione europea 2018 (approvato dalla Camera dei deputati) (ove concluso dalla Commissione) (voto finale con la presenza del numero legale) - Doc. LXXXVI, n. 2 - Relazione programmatica sulla partecipazione dell'Italia all'Unione europea per l'anno 2019 (ove concluso dalla Commissione) - Doc. LXXXVII, n. 2 - Relazione consuntiva sulla partecipazione dell'Italia all'Unione europea, relativa all'anno 2018 (ove concluso dalla Commissione) - Ratifiche di accordi internazionali definite dalla Commissione affari esteri - Disegno di legge costituzionale n. 214-515-805-B - Riduzione del numero dei parlamentari (approvato in prima deliberazione dal Senato; approvato senza modificazioni in prima deliberazione dalla Camera dei deputati) (seconda deliberazione del Senato) (voto finale con la maggioranza assoluta dei componenti del Senato) - Disegno di legge costituzionale n. 1089 - Disposizioni in materia di iniziativa legislativa popolare e di referendum (approvato dalla Camera dei deputati) (ove concluso dalla Commissione) - Disegno di legge n. 1200 e connessi - Tutela vittime violenza di genere (dalla sede redigente) (approvato dalla Camera dei deputati) (ove concluso dalla Commissione) - Sindacato ispettivo - Interrogazioni a risposta immediata, ai sensi dell'articolo 151- bis del Regolamento (giovedì 27, ore 15) Mercoledì 26 " h. 9,30-20 Giovedì 27 " h. 9,30-20</note>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg112">Il termine per la presentazione degli emendamenti al disegno di legge n. ... (Decreto-legge n. 34, Crescita economica) sarà stabilito in relazione ai tempi di trasmissione dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg113">I termini per la presentazione degli emendamenti al disegno di legge n. 944 (Legge di delegazione europea 2018) e al disegno di legge costituzionale n. 1089 (Disposizioni in materia di iniziativa legislativa popolare e di referendum ) saranno stabiliti in relazione ai lavori delle Commissioni. Ripartizione dei tempi per la discussione del disegno di legge n. 1248 (Decreto-legge n. 32, Sblocca cantieri) (10 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 1 h. Governo 1 h. Votazioni 1 h. Gruppi 7 ore, di cui: M5S 1 h. 40' FI-BP 1 h. 10' L-SP-PSd'Az 1 h. 8' PD 1 h. 4' FdI 42' Misto 39' Aut (SVP-PATT, UV) 35' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg114">Ripartizione dei tempi per la discussione del disegno di legge n. 920-B (Concretezza delle azioni delle pubbliche amministrazioni) (5 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 1 h. Governo 30' Votazioni 30' Gruppi 3 ore, di cui: M5S 43' FI-BP 30' L-SP-PSd'Az 29' PD 28' FdI 18' Misto 17' Aut (SVP-PATT, UV) 15' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg115">Ripartizione dei tempi per la discussione del disegno di legge n. ...</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg116">(Decreto-legge n. 35, Misure urgenti per il servizio sanitario della Regione Calabria) (7 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 1 h. Governo 30' Votazioni 30' Gruppi 5 ore, di cui: M5S 1 h. 12' FI-BP 50' L-SP-PSd'Az 49' PD 46' FdI 30' Misto 28' Aut (SVP-PATT, UV) 25' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg117">Ripartizione dei tempi per la discussione sulle Comunicazioni del Presidente del Consiglio dei Ministri in vista del Consiglio europeo del 20 e 21 giugno 2019 (2 ore e 30 minuti, incluse dichiarazioni di voto)</seg>
+               <note type="summary">Governo 30' Gruppi 2 ore, di cui: M5S 29' FI-BP 20' L-SP-PSd'Az 20' PD 18' FdI 12' Misto 11' Aut (SVP-PATT, UV) 10' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg118">Ripartizione dei tempi per la discussione del disegno di legge n. ...</seg>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg119">(Decreto-legge n. 34, Crescita economica) (7 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 1 h. Governo 30' Votazioni 30' Gruppi 5 ore, di cui: M5S 1 h. 12' FI-BP 50' L-SP-PSd'Az 49' PD 46' FdI 30' Misto 28' Aut (SVP-PATT, UV) 25' Dissenzienti 5'</note>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg120">Ripartizione dei tempi per la discussione del disegno di legge n. 944 (Legge di delegazione europea 2018) e dei connessi Doc. LXXXVI, n. 2 e Doc. LXXXVII, n. 2 (Relazioni programmatica e consuntiva sulla partecipazione dell'Italia all'Unione europea) (7 ore, escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 1 h. Governo 30' Votazioni 30' Gruppi 5 ore, di cui: M5S 1 h. 12' FI-BP 50' L-SP-PSd'Az 49' PD 46' FdI 30' Misto 28' Aut (SVP-PATT, UV) 25' Dissenzienti 5'</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">BOLDRINI (PD)</note>
+            <u ana="#regular" who="#BoldriniPaola" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u42">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg121">Signor Presidente, onorevoli colleghi, desidero ricordare che ieri è stato il settimo anniversario del sisma che il 29 maggio 2012 ha colpito il territorio dell'Emilia-Romagna, causando morti e distruzioni. È nostro dovere ricordare in quest'Aula le 28 vittime di quel nefasto evento, i numerosi feriti, gli sfollati e i danni subiti dai territori delle Province di Modena, Ferrara, Bologna e Reggio Emilia. Nel corso di questi anni, grazie allo spirito di abnegazione dei cittadini, delle imprese, delle associazioni e delle istituzioni, l'Emilia-Romagna è riuscita a risollevarsi in quelle zone, ripartendo con risultati economici ancora più positivi. Sono stati fatti grandi passi in avanti nel percorso della ricostruzione ed enorme è stato lo sforzo dispiegato in questi anni per ricostruire abitazioni, imprese, opere pubbliche e beni storici e artistici. Ricordo che, dal giorno dell'evento, non un giorno di scuola è stato perso e tutti gli alunni a settembre sono entrati a scuola, con continuità e tranquillità. Certamente ci sono ancora aspetti e questioni da risolvere. Dal gennaio 2019 lo stato di emergenza è cessato in 29 dei 59 Comuni colpiti dal sisma, mentre rimane ancora attivo lo stato di emergenza nei 30 Comuni più colpiti e danneggiati che formano il cratere ristretto. Il buon lavoro messo in campo dal Governo di centrosinistra in questi anni è stato purtroppo vanificato dall'immobilismo e dall'incapacità di questo Governo. Stiamo parlando del provvedimento sblocca cantieri, che probabilmente vorrà sbloccare i cantieri, ma obbligatoriamente bloccherà quelli della ricostruzione e vi ricordo che se l'emendamento su Invitalia non verrà approvato, delle persone che stanno lavorando alla ricostruzione torneranno a casa. Credo che queste zone non debbano essere assolutamente abbandonate e, visto che ne parleremo durante l'esame del cosiddetto decreto sblocca cantieri, chiedo che il lavoro iniziato possa andare avanti. Solo l'intervento della Regione Emilia-Romagna ha permesso di tracciare, anche per quest'anno, un bilancio positivo delle cose fatte. Mi viene da pensare che la collaborazione che noi - sia come senatori, che come deputati - abbiamo sempre offerto al Governo nella precedente legislatura abbia portato a risultati ottimi e positivi. Non ci siamo mai fermati di fronte a questo. Certo, c'è ancora molto da fare. Una ricostruzione così complessa richiederà ancora molto tempo per essere debitamente conclusa, ma la situazione di stallo politico, economico e sociale in cui versa questo Paese e le prospettive future sempre più confuse ed incerte evidentemente non aiutano nemmeno questo grande passo che è stato fatto con la ricostruzione. Il Partito Democratico, ovviamente, è pronto a continuare a lavorare in collaborazione per completare il processo di ricostruzione. Mi auguro che anche il Governo continuerà a darci una mano.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi dal Gruppo PD.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u43">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg122">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di martedì 4 giugno 2019</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#AlbertiCasellatiMariaElisabetta" xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.u44">
+               <seg xml:id="ParlaMint-IT_2019-05-30-LEG18-Sed-116.seg123">Il Senato tornerà a riunirsi in seduta pubblica martedì 4 giugno, alle ore 9,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 17,26).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+

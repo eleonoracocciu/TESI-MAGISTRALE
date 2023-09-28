@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.meeting.regular #covid" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 268 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 268 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 268, giorno (2020-10-27)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 268, Day (2020-10-27)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="268-upper">268 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Information and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="255" unit="speeches" xml:lang="it">255 discorsi</measure>
+            <measure quantity="255" unit="speeches" xml:lang="en">255 speeches</measure>
+            <measure quantity="16864" unit="words" xml:lang="it">16.864 parole</measure>
+            <measure quantity="16864" unit="words" xml:lang="en">16,864 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-06-10">June 10, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1178934</idno>
+               <date when="2020-10-27">27.10.2020</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="div" occurs="8"/>
+               <tagUsage gi="head" occurs="6"/>
+               <tagUsage gi="note" occurs="229"/>
+               <tagUsage gi="seg" occurs="255"/>
+               <tagUsage gi="u" occurs="122"/>
+               <tagUsage gi="vocal" occurs="11"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="56"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="desc" occurs="68"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2020-10-27">27.10.2020</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+         <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del vice presidente ROSSOMANDO</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u1">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg1">La seduta è aperta (ore 16,32). Onorevoli colleghi, rivolgo un invito non formale, ma sostanziale a tutti a indossare sempre la mascherina in Aula. Vi informo che, come da ultime disposizioni dei senatori Questori, in Aula si può intervenire dal posto, ma sempre indossando la mascherina. Nel caso di eventuale dimenticanza, lo ricorderemo. Si dia lettura del processo verbale. LAFORGIA, segretario, dà lettura del processo verbale della seduta del 21 ottobre PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u2">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'ordine dei lavori</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u3">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg3">Informo l'Assemblea che all'inizio della seduta il Presidente del Gruppo MoVimento 5 Stelle ha fatto pervenire, ai sensi dell'articolo 113, comma 2, del Regolamento, la richiesta di votazione con procedimento elettronico per tutte le votazioni da effettuare nel corso della seduta. La richiesta è accolta ai sensi dell'articolo 113, comma 2, del Regolamento.</seg>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u4">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg4">Signor Presidente, desidero richiedere alla Presidenza, se possibile nella giornata odierna, di procedere a una riunione della Conferenza dei Capigruppo per valutare l'opportunità di avere in Aula, in tempi molto rapidi (credo che potrebbe essere possibile già nella giornata di domani), il ministro Lamorgese, per una informativa al Senato della Repubblica su quanto accaduto nelle serate precedenti in alcune città del nostro Paese. Ritengo sia di estrema urgenza e importanza per il Parlamento essere edotto anche sui provvedimenti e sulle politiche che il Ministero dell'interno sta portando avanti. Quindi, le chiedo se può riferire al Presidente del Senato questa richiesta di convocazione della Conferenza dei Capigruppo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u5">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg5">Senatore Marcucci, ovviamente avrò cura di riferire al Presidente, perché la prima risposta che dobbiamo concordare e ricevere è la convocazione della Conferenza dei Capigruppo. Confido, nel corso della seduta, di poter dare una risposta.</seg>
+            </u>
+            <note type="speaker">ROMEO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#RomeoMassimiliano" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg6">Signor Presidente, intervengo perché riteniamo assolutamente urgente la convocazione di una Conferenza dei Capigruppo, relativamente alla tematica che è stata messa in evidenza, con la presenza del ministro Lamorgese, a cui avevamo già chiesto, anche in precedenza, di intervenire rapidamente in Aula per informarci dei fatti accaduti. Chiaramente, adesso è molto più urgente soffermarsi sulla questione delle rivolte sociali e delle manifestazioni di piazza. Anche noi, dunque, chiediamo con urgenza che si vada in questa direzione.</seg>
+            </u>
+            <note type="speaker">MALAN (FIBP-UDC)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg7">Signor Presidente, mi associo anche io alla richiesta di convocare la Conferenza dei Capigruppo. La situazione è tale per cui i lavori non possono andare avanti come se nulla fosse e, pertanto, nella Conferenza dei Capigruppo si potrà esaminare quanto proposto dal presidente Marcucci e quanto detto dal presidente Romeo perché indubbiamente il momento non è banale ed è tutt'altro che di ordinaria amministrazione. (</seg>
+               <kinesic type="applause">
+                  <desc>Applausi).</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CIRIANI (FdI)</note>
+            <u ana="#regular" who="#CirianiLuca" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg8">Signor Presidente, trovo leggermente paradossale - per usare un eufemismo - che la maggioranza si preoccupi (è una preoccupazione legittima) che domani mattina possa riferire il Ministro dell'interno sugli accadimenti delle piazze italiane e non sia più urgente il fatto che, prima del ministro Lamorgese, venga a riferire in questa Assemblea il presidente Conte, che è il responsabile politico di quanto sta avvenendo nelle piazze italiane. (</seg>
+               <kinesic type="applause">
+                  <desc>Applausi).</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg9">A noi fa piacere che il ministro Lamorgese venga a dirci qual è stato l'operato delle Forze di polizia, cui va la nostra totale solidarietà, però prima è importante che nella casa degli italiani, cioè il Parlamento, venga il primo ministro Conte, che si è preso quattro giorni di tempo per riferire su questioni urgentissime e drammatiche per la vita di centinaia di migliaia di lavoratori, professionisti e imprenditori italiani. Venga pure il ministro Lamorgese, ma prima venga il presidente Conte. È molto più urgente ascoltare il presidente Conte che non il ministro Lamorgese. (</seg>
+               <kinesic type="applause">
+                  <desc>Applausi).</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg10">Presidente, trovo surreale che la maggioranza si preoccupi di ciò anziché preoccuparsi che il Presidente del Consiglio riferisca urgentemente in quest'Aula di quanto ha fatto senza il consenso delle Regioni, delle categorie, di sindaci e del Parlamento.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg11">Di questo si deve parlare e non degli scontri di piazza, che condanniamo. In piazza, però, ci sono i cittadini italiani esasperati, preoccupati e terrorizzati per il loro futuro. Di questo si dovrebbe parlare e non della presenza del Ministro dell'interno. (</seg>
+               <kinesic type="applause">
+                  <desc>Applausi).</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u9">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg12">Presidente Ciriani, come lei sa per le vie brevi, posso anticipare che giovedì, 29 ottobre, alle ore 12,30, il Presidente del Consiglio dei ministri renderà, con trasmissione diretta televisiva, un'informativa sull'ultimo decreto del Presidente del Consiglio dei ministri del 24 ottobre recante ulteriori misure per il contrasto alla diffusione dell'epidemia da Covid-19. I Gruppi potranno intervenire per dieci minuti.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg13">Restano ferme le sue valutazioni che ci ha appena esposto.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Seguito della discussione congiunta del disegno di legge: (1721) Delega al Governo per il recepimento delle direttive europee e l'attuazione di altri atti dell'Unione europea - Legge di delegazione europea 2019</note>
+            <note type="time">16,42</note>
+            <note type="status">(Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/18/BGT/Schede/Ddliter/52774.htm</note>
+            <note>e dei documenti:</note>
+            <note type="document">( Doc . LXXXVI, n. 3) Relazione programmatica sulla partecipazione dell'Italia all'Unione europea (Anno 2020)</note>
+            <note type="document">( Doc . LXXXVII, n. 3) Relazione consuntiva sulla partecipazione dell'Italia all'Unione europea (Anno 2019)</note>
+            <note type="time">(ore 16,42)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u10">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg14">L'ordine del giorno reca il seguito della discussione congiunta del disegno di legge n. 1721 e dei documenti LXXXVI, n. 3, e LXXXVII, n. 3.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg15">Ricordo che nella seduta del 15 ottobre si è conclusa la discussione generale congiunta.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg16">Non intendendo intervenire in replica il senatore Pittella, relatore sul disegno di legge n. 1721, ha facoltà di parlare la senatrice Gaudiano, relatrice sui documenti LXXXVI, n. 3, e LXXXVII, n. 3.</seg>
+            </u>
+            <note type="speaker">GAUDIANO</note>
+            <note type="role">relatrice sui documenti LXXXVI, n. 3, e LXXXVII, n. 3</note>
+            <u ana="#regular" who="#GaudianoFelicia" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u11">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg17">Signor Presidente, vorrei fare semplicemente dei ringraziamenti.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg18">Innanzitutto vorrei ringraziare il ministro Amendola per il lavoro svolto in seno al proprio Ministero. Al tempo stesso, ringrazio il sottosegretario Laura Agea per il tratto di signorilità che ha contraddistinto il suo operato in seno alla 14ᵃ Commissione, di cui sono onorata di fare parte.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg19">Ringrazio tutti i membri della Commissione, i presidenti Licheri e Stefano, che hanno sempre svolto il loro operato con garbo istituzionale. In particolar modo, ringrazio il collega, senatore Pittella, che ha messo sempre a disposizione la sua esperienza in un rapporto di stretta collaborazione.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg20">Signor Presidente, tutto ciò assume una valenza particolare visto che ancora oggi la pandemia ci attanaglia, ci spinge e ci sollecita a rapporti di collaborazione per mettere insieme tutte le nostre energie, le nostre forze, il nostro senso di appartenenza, il nostro orgoglio e il nostro amor patrio. Abbiamo già dimostrato in passato di possedere tali fattori, che albergano nel nostro patrimonio genetico.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u12">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg21">Comunico che sono pervenute alla Presidenza le seguenti proposte di risoluzione, i cui testi sono in distribuzione: n. 1, a firma dei senatori Lorefice, Nannicini, Ginetti, Lonardo e Durnwalder, n. 2, a firma della senatrice Bernini e di altri senatori, n. 3, a firma del senatore Ciriani e di altri senatori, e n. 4, a firma del senatore Romeo e di altri senatori.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg22">Ha facoltà di intervenire il rappresentante del Governo, al quale chiedo altresì di indicare quale, tra le proposte di risoluzione presentate, il Governo intenda accettare.</seg>
+            </u>
+            <note type="speaker">AGEA</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#AgeaLaura" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u13">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg23">Signor Presidente, relativamente alle proposte di risoluzione, il Governo esprime parere favorevole alla risoluzione di maggioranza e contrario alle altre risoluzioni.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg24">Per prima cosa mi corre l'obbligo di fare alcuni ringraziamenti, in particolare alla 14ᵃ Commissione del Senato, che ormai da circa un anno lavora alacremente, con grande convinzione e con l'obiettivo di raggiungere il massimo risultato, alla legge di delegazione europea.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg25">Nello specifico, il mio primario ringraziamento va al relatore, senatore Gianni Pittella, che con uno spirito di grande collaborazione ha gestito il lavoro in seno alla 14ᵃ Commissione, e a tutti i senatori che di essa fanno parte, alla correlatrice, la senatrice Gaudiano, ai Presidenti della Commissione, che poi si sono avvicendati, ai quali esprimo un ringraziamento per avermi sempre coinvolto e con i quali la collaborazione è stata estremamente produttiva: il presidente, senatore Licheri, e poi, decaduto dalla carica, il suo sostituto, oggi Presidente della 14ᵃ Commissione, senatore Stefano.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg26">Implementare, in un momento come questo, la normativa europea in seno all'ordinamento nazionale non è cosa semplice, richiede particolare attenzione. Richiede un'attenzione particolare non solo perché la normativa europea è il frutto di negoziati in seno a Istituzioni che rappresentano non solo 550 milioni di cittadini europei, ma anche 27 Stati membri, che molto spesso hanno realtà, situazioni e condizioni diverse. Non è stato sicuramente facile trovarci ad implementare nella legge di delegazione europea 2019 un numero così alto di direttive e regolamenti, ma il massimo sforzo che la Commissione e i senatori hanno fatto ci consente oggi di poter dire di essere estremamente orgogliosi e soddisfatti non solo di poter licenziare un testo ambizioso, ma anche di farlo in un momento estremamente complesso; un momento nel quale, oltre a dover essere particolarmente attenti alle richieste che ci vengono fatte dall'Unione europea, dobbiamo anche avere la responsabilità di rendere quella normativa adatta e assolutamente efficace con riferimento all'attuale realtà economica e sociale del nostro Paese. Stiamo affrontando un momento di estrema difficoltà, una crisi pandemica alla quale non eravamo preparati, ma che con coraggio e con convinzione stiamo cercando di affrontare anche con questo strumento, cercando di dare attuazione alla normativa europea e di farlo in maniera che essa non gravi troppo sul nostro tessuto produttivo.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg27">Non entrerò nello specifico di tutte le direttive e i regolamenti ai quali si dà delega al Governo per la loro attuazione. Mi preme però ricordare come l'Italia oggi ponga la sua attenzione su temi estremamente importanti che riguardano la cybersicurezza, l'equilibrio tra vita professionale e vita familiare.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg28">Oggi più che mai abbiamo bisogno di sostenere la famiglia in un momento così complesso e sfidante, nel quale dobbiamo essere all'altezza delle tante complessità. La direttiva, che regola l'equilibrio tra vita familiare e vita lavorativa, ci consente di dare supporto e sostegno maggiore a quelle famiglie che vivono l'esperienza lavorativa, ma che hanno bisogno di modellarla sulle reali necessità dei propri nuclei familiari. Mi concentrerò sulle altre priorità affrontate con questa legge di delegazione, come la direttiva sul copyright, un tema estremamente complesso, sul quale era necessario porre ordine ed attenzione e sul quale l'Italia sta facendo un passo avanti. Credo che l'Italia sia uno tra i pochi Paesi che darà completa attuazione alla direttiva sul copyright, cercando anche di dare sostegno e supporto a tutte quelle categorie che, per un motivo o per un altro, fino ad oggi sono state escluse da questa regolamentazione. C'è poi la direttiva sulle fonti rinnovabili: oggi l'Europa parla di green deal, di transizione verde, di raggiungimento di obiettivi di neutralità energetica al 2050. Ebbene, questa direttiva va in quella direzione, consente al nostro Paese di fare un passo in avanti, di cercare veramente, anche alla luce di quelle che poi saranno le risorse del recovery fund, di andare verso l'ottica della transizione verde, una transizione che ha bisogno di coraggio, di decisioni importanti, che avranno un impatto forte. Non dimentichiamo che all'interno di questa direttiva parliamo delle comunità energetiche, di quei cittadini che da oggi avranno la possibilità di produrre, stoccare e vendere l'energia.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg29">Questi sono passi in avanti. L'Europa sostiene questi cambiamenti. Le energie rinnovabili sono un cambiamento necessario ed una strada da percorrere con coraggio e senza un minimo tentennamento.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg30">Mi soffermo brevemente anche su altri argomenti sui quali oggi si pone l'attenzione: la relazione programmatica sulla partecipazione dell'Italia all'Unione europea. Quando abbiamo iniziato a lavorare su questo documento, non immaginavamo quanto sarebbe successo di lì a poco, nessuno si aspettava che il mondo, l'Italia, l'Europa si sarebbero trovati a misurarsi con quello che è probabilmente uno degli eventi più inaspettati e tragici dal secondo Dopoguerra. La pandemia ha posto l'attenzione su quelli che devono essere gli obiettivi, i compiti, i ruoli, gli sforzi e le sfide che da oggi in avanti ci troveremo ad affrontare relativamente a tutti i futuri cambiamenti che accadranno dopo la pandemia. Oggi ci troviamo in un momento che ci pone di fronte all'assoluta necessità di ripensare al contesto europeo, alla luce di quelli che saranno cambiamenti che non potremo fare a meno di considerare tali. Gli stessi slanci e lo stesso sforzo dell'Unione europea devono andare quindi in questa direzione. Gli obiettivi alla base del recovery fund sono gli stessi alla base della relazione sulla partecipazione dell'Italia alla l'Unione europea. Non sono cambiate le nostre priorità, perché già prima della pandemia e parlando dell'appartenenza dell'Italia all'Unione europea, ci ponevamo interrogativi importanti, erano quelli delle sfide verso una transizione verde, verso la transizione verso il digitale, sfide che dovevano riguardare l'inclusione sociale, un pilastro sociale non semplicemente negli enunciati, ma nella sua concretezza. Sarà quindi fondamentale affrontare qualunque tipo di intervento tenendo presenti e saldi questi principi. Credo fortemente che l'impegno del Governo e il mandato forte che il Senato darà al Governo su questi temi ci permetterà di essere credibili in Europa e di portare avanti con coraggio le nuove sfide, i nuovi obiettivi che ci pongono di fronte a un interrogativo fondamentale. Noi oggi ci troviamo a programmare, a pensare e a progettare un Paese che dobbiamo lasciare in eredità ai nostri figli e ai nostri nipoti e dobbiamo avere il coraggio di farlo in maniera tale che sia un'eredità della quale essere non solo orgogliosi, ma anche fieri e che renda il futuro dei nostri figli e dei nostri nipoti all'altezza della loro bellezza. Green deal, transizione digitale, economia verde, inclusione sociale sono parole che diventano atti concreti non solo nella legge di delegazione europea, ma nei principi che ci permettono di sentirci parte dell'Unione europea. Lo abbiamo ricordato con la nostra partecipazione italiana all'Unione europea. È fondamentale corrispondere oggi a questi obiettivi, pensando che ci sono ambiti nei quali il nostro intervento lascerà un segno non solo in questo momento emergenziale; noi, come Governo, dobbiamo sentire la grande responsabilità, con il mandato forte del Parlamento, di fare qualcosa che possa diventare un moltiplicatore positivo. Il recovery fund è diventato un progetto comune; mai l'Europa aveva parlato di un fondo le cui risorse finanziarie fossero recuperate sui mercati con una garanzia posta da tutti gli Stati membri. Io credo che questo sia un passo in avanti e questo deve renderci ancor più responsabili nell'utilizzo di queste risorse: 750 miliardi sono un punto di partenza, ma possono essere un moltiplicatore positivo laddove l'azione di programmazione e il senso di responsabilità impegnino tutti al loro utilizzo non come se fossero nostre risorse, ma come se fossero risorse da lasciare a qualcuno che verrà dopo di noi e che, come noi, saprà non solo utilizzarle ma moltiplicarle, non semplicemente perché siamo bravi a fare le cose, ma perché abbiamo una capacità di ripensare e progettare il nostro Paese da qui e per i prossimi trent'anni. Ringrazio di nuovo il senatore Pittella, la senatrice Gaudiano e i commissari che hanno lavorato con i loro emendamenti, con il massimo sforzo, per rendere questo lavoro veramente all'altezza dell'Italia e di come oggi il nostro Paese si presenta in Europa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u14">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg31">Ricordo che, ai sensi dell'articolo 144- bis, comma 7, del Regolamento, a fronte di più proposte di risoluzione si vota per prima quella accettata dal Governo, alla quale ciascun senatore può proporre emendamenti. Poiché il Governo ha dichiarato di accettare la proposta di risoluzione n. 1, decorre da questo momento il termine di trenta minuti per la presentazione di eventuali emendamenti ad essa riferiti. Il voto finale sul disegno di legge di delegazione europea, la votazione degli eventuali emendamenti presentati alla proposta di risoluzione n. 1, nonché il voto finale sulla proposta di risoluzione stessa avranno luogo al termine delle dichiarazioni di voto congiunte. Comunico che sono pervenuti alla Presidenza - e sono in distribuzione - i pareri espressi dalla 1ᵃ e dalla 5ᵃ Commissione permanente sul disegno di legge in esame e sugli emendamenti, che verranno pubblicati in allegato al Resoconto della seduta odierna.</seg>
+            </u>
+            <note>Passiamo all'esame degli articoli del disegno di legge n. 1721, nel testo proposto dalla Commissione.</note>
+            <note type="articlesExam">ESAME DEGLI ARTICOLI</note>
+            <note type="speaker">CANDIANI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u15">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg32">Signor Presidente, vorrei rivolgere una richiesta di attenzione alla Presidenza. L'esame del provvedimento è stato spezzettato in più sedute e si è perso anche un po' il senso dei termini temporali; credo che i tempi d'intervento dei Gruppi siano ormai molto limitati, quindi chiedo alla Presidenza di valutare opportunamente di non considerare in maniera estremamente severa i termini temporali, perché altrimenti non si possono neanche illustrare gli emendamenti.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u16">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg33">Senatore Candiani, come sempre la Presidenza cercherà di gestire i tempi in modo flessibile.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg34">Passiamo all'esame dell'articolo 1, sul quale sono stati presentati emendamenti e un ordine del giorno che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">BOSSI Simone (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BossiSimone" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u17">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg35">Signor Presidente, con gli emendamenti 1.6 e 1.7 vogliamo portare all'attenzione dell'Assemblea una problematica seria che oggi è sul tavolo di tutti: il nostro Paese ha contratto 100 miliardi di debito pubblico, 84 dei quali sono ancora nelle casse del Ministero. Abbiamo un PIL che scende di 12,8 punti, siamo da nove mesi in stato di emergenza, piangiamo quasi quarantamila morti, abbiamo fatto tutti milioni di tamponi, le Regioni sono chiuse, abbiamo difficoltà quotidiane e chiediamo al Governo di uniformare la legge di delegazione europea alle necessità odierne, che purtroppo non sono inserite nel disegno di legge al nostro esame. Lo abbiamo chiesto più volte, lo abbiamo rimarcato anche nel formulare la relazione programmatica ma sembra che questa necessità non voglia essere accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg36">Con l'emendamento 1.6 cerchiamo di porre l'attenzione sulla quotidianità e sui problemi di tutti i giorni, problemi che riscontriamo parlando con i ristoratori e che emergono parlando con le persone che dirigono le palestre e i centri sportivi, problemi che si fa finta di non vedere. Ci sono tantissime problematiche che tutti i giorni caratterizzano la vita di ogni attività, grande o piccola. Quindi noi chiediamo all'Assemblea di votare a favore dei nostri emendamenti per andare nella direzione di chi, nell'emergenza Covid, sta perdendo tutto e sta facendo sentire il proprio grido d'allarme.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">FAZZOLARI (FdI)</note>
+            <u ana="#regular" who="#FazzolariGiovanbattista" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u18">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg37">Signor Presidente, posso parlare dal mio posto? PRESIDENTE. Può farlo, senatore Fazzolari, tenendo la mascherina, come ho detto all'inizio della seduta.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg38">Signor Presidente, è bene ricordare che quest'Assemblea, a dicembre 2018, ha votato a favore di una risoluzione di maggioranza emendata da Fratelli d'Italia che prevedeva due concetti: ribadire la supremazia dell'ordinamento italiano su quello europeo e, in secondo luogo, la necessità di fare una valutazione di impatto di tutte le leggi europee sull'ordinamento italiano (e ovviamente sull'ambito economico e sociale italiano) prima di recepirle. Questa risoluzione è stata approvata da quest'Assemblea a dicembre 2018. In coerenza con tale testo, abbiamo presentato l'emendamento 1.8 che prevede semplicemente di chiedere che, per quanto riguarda la legge di delegazione europea, ad ogni singolo provvedimento sia allegato, da parte del Governo, lo studio di impatto che l'adeguamento della norma italiana a quella europea avrebbe sul contesto italiano. Sembra quantomeno bizzarro che questa cosa non si voglia fare, perché, al di là della posizione politica di ognuno, tutti, a parole, hanno concordato sulla necessità di una maggiore attenzione per sapere, quantomeno, che cosa approva il Parlamento e qual è l'impatto che la nuova normativa avrà sui cittadini. Evidentemente la legge di delegazione europea è ormai una sorta di tabù e quindi qualunque cosa possa non rispondere al modello di totale asservimento dell'Italia all'eurosistema deve essere bocciato. Io chiedo un po' di buon senso e quindi il recepimento della nostra proposta.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u19">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg39">I restanti emendamenti e l'ordine del giorno si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg40">Invito il relatore e il rappresentante del Governo a pronunziarsi sugli emendamenti e l'ordine del giorno in esame.</seg>
+            </u>
+            <note type="speaker">PITTELLA</note>
+            <note type="role">relatore sul disegno di legge n. 1721</note>
+            <u ana="#regular" who="#PittellaGianni" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u20">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg41">Signor presidente, esprimo parere contrario sugli emendamenti.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg42">Sull'ordine del giorno, fermo restando che il Governo ha preannunciato una richiesta di riformulazione, esprimo un parere favorevole.</seg>
+            </u>
+            <note type="speaker">AGEA</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#AgeaLaura" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u21">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg43">Signor presidente, relativamente agli emendamenti 1.6, 1.7 e 1.8 il Governo esprime un parere contrario.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg44">Per quanto riguarda l'ordine del giorno G1.100, il Governo lo accoglie, a patto che venga così riformulato: «impegna il Governo a valutare l'opportunità di».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u22">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg45">Passiamo all'emendamento 1.6, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg46">Essendone stata avanzata richiesta, procediamo alla votazione.</seg>
+            </u>
+            <note type="speaker">GALLONE (FIBP-UDC)</note>
+            <u ana="#regular" who="#GalloneMariaAlessandra" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u23">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg47">Signor Presidente, il parere contrario sia del relatore che del Governo sull'emendamento 1.6 mi fa veramente specie, dopo aver ascoltato la prolusione - proprio del Governo - rispetto a quanto sia importante questo disegno di legge di delegazione europea e di recepimento delle direttive, soprattutto per le generazioni future. Ecco, davanti a dichiarazioni del genere, ci saremmo aspettati piuttosto, da parte del Governo, una presa di coscienza rispetto al fatto che oggi andiamo a votare direttive che sono state emanate - e che oggi dobbiamo andare a recepire - in un periodo assolutamente lontano e distante dal momento attuale. Gli emendamenti presentati chiedono semplicemente di non andare a pesare ulteriormente - a causa delle suddette direttive - sugli impegni di spesa degli imprenditori e di tutti coloro che si occupano di doverle recepire e far rispettare. Poteva essere l'occasione - oggi più che mai - di dimostrare veramente l'attenzione che questo Governo vorrebbe avere nei confronti di chi fa attività e di chi produce. Quindi, c'è assolutamente un grande e grave ossimoro tra quello che il Governo dice e quello che fa. Forza Italia voterà a favore degli emendamenti riferiti all'articolo 1 proprio perché, oggi più che mai, vorremmo essere qui non a votare l'ordinario, ma ad ascoltare il perché e il per come del presidente del consiglio Conte che, invece, va avanti senza ascoltare il Parlamento, salvo ascoltarlo il giorno dopo aver preso posizione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg48">Questa era un'ulteriore occasione per poter dimostrare la buona fede e la buona volontà dell'Esecutivo. Dobbiamo prendere atto che il Governo fa delle affermazioni, ma poi va esattamente nella direzione contraria agli interessi degli italiani.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u24">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg49">Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 1.6, presentato dal senatore Candiani e da altri senatori, fino alle parole «sostenibilità economica».</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg50">Non è approvata.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg51">Risultano pertanto preclusi la restante parte e l'emendamento 1.7.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg52">Passiamo alla votazione dell'emendamento 1.8.</seg>
+            </u>
+            <note type="speaker">CANDIANI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#CandianiStefano" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u25">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg53">Signor Presidente, essendo precluso l'emendamento 1.7, mi limiterò alla dichiarazione di voto sull'emendamento 1.8 che, per materia, è assolutamente coerente. Signor Presidente, inorridisco per la votazione che si è appena tenuta. Inorridisco per l'argomento e per l'asprezza che ha dimostrato il Governo rispetto alle motivazioni sottese agli emendamenti 1.6 e 1.7. Non è possibile fregarsene dei costi che caleranno sugli italiani e sulle imprese nel momento in cui si approva una normativa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg54">Non è possibile! In questa sede abbiamo chiesto in maniera esplicita al Governo di tenere conto dei costi, della valutazione rigorosa di impatto, della sostenibilità economica e di prevedere un fondo adeguato a sostenere i costi di adeguamento ricadenti sulle attività produttive. Non è possibile che, in parallelo, in 14ᵃ Commissione ci sia un parere di maggioranza che scrive esattamente queste cose, ma se le stesse vengono dette dalla Lega, la proposta viene bollata e respinta. Questo vuol dire non considerare l'interesse degli italiani, ma dividere gli italiani!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg55">Questo non è quello che il Governo va a dire in televisione, quando invita a collaborare, ma vuol dire avere una faccia quando si va in televisione e fare un'altra cosa in Parlamento.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg56">Inorridisco per il disprezzo che avete nei confronti delle piccole e medie imprese italiane.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u26">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg57">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 1.8, presentato dai senatori Fazzolari e Bossi Simone. (Segue la votazione). Il Senato non approva. (v. Allegato B). Il rappresentante del Governo ha proposto una riformulazione dell'ordine del giorno G1.100, della Commissione, che viene accettata dai relatori. Pertanto, essendo stato accolto dal Governo, l'ordine del giorno G1.100 (testo 2) non verrà posto ai voti. Indìco la votazione nominale con scrutinio simultaneo dell'articolo 1. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 2. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 3, sul quale sono stati presentati emendamenti che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">SAPONARA (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#SaponaraMaria" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u27">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg58">Signor Presidente, rappresentante del Governo, parliamo tanto dei pericoli della Rete e parliamo tanto di preservare i nostri bambini, i nostri adolescenti da quei pericoli, di cui vediamo le conseguenze. Gli emendamenti 3.1 e 3.2 andavano appunto nella direzione di prevenire certi rischi e di preservare i nostri bambini, i nostri adolescenti e di coinvolgere anche le famiglie. L'approvazione di tali emendamenti sarebbe un bellissimo segnale di tutela nei confronti dei nostri giovani; un segnale importante soprattutto in questo momento storico in cui i bambini e gli adolescenti sono sempre collegati in Rete, dove possono trovare di tutto.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg59">Parliamo tanto di formazione e informazione e quegli emendamenti andavano proprio nel senso della formazione e dell'informazione corretta, dell'uso della Rete in un modo corretto e non sbagliato. Il non accoglimento di tali emendamenti significa non volere veramente bene ai nostri giovani e ai nostri bambini; significa non volere veramente bene alle famiglie di quei bambini e ragazzi.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg60">Voglio sollecitare il Governo a riflettere sulla necessità di dare una maggiore informazione e formazione in questo senso.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">GIAMMANCO (FIBP-UDC)</note>
+            <u ana="#regular" who="#GiammancoGabriella" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u28">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg61">Signor Presidente, anche con i miei emendamenti, per la precisione il 3.100 e il 3.13 che verrà votato a seguire, si chiede di introdurre l'obbligo da parte dei social network di richiedere un documento d'identità all'atto dell'iscrizione dell'utente, ovviamente per poter procedere a una più veloce identificazione del proprietario dell' account in caso di reati commessi sul web. Sappiamo che c'è anche una proposta a firma di Italia Viva che va in questa direzione, e quindi una proposta della maggioranza, depositata alla Camera, se non erro a prima firma dell'onorevole Marattin. Pertanto, non capisco perché non dare il via libera a un emendamento che mira a tutelare gli utenti del web da reati troppo spesso odiosi e che, tra l'altro, è in linea con la strategia europea a tutela dei minori da abusi commessi online, di cui stiamo discutendo attualmente in sede di Commissione al Senato. Serve uno strumento di identificazione dei fruitori del web, che non può essere più una giungla dove tutto è permesso. Chiedo pertanto anch'io al Governo di rivedere la posizione su questo emendamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PILLON (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#PillonSimone" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u29">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg62">Signor Presidente, chiedo di poter sottoscrivere gli emendamenti 3.1 e 3.2.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u30">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg63">Va bene, senatore Pillon.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg64">I restanti emendamenti si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg65">Invito il relatore e il rappresentante del Governo a pronunziarsi sugli emendamenti in esame.</seg>
+            </u>
+            <note type="speaker">PITTELLA</note>
+            <note type="role">relatore sul disegno di legge n. 1721</note>
+            <u ana="#regular" who="#PittellaGianni" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u31">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg66">Signor Presidente, esprimo parere contrario su tutti gli emendamenti presentati all'articolo 3.</seg>
+            </u>
+            <note type="speaker">AGEA</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#AgeaLaura" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u32">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg67">Signor Presidente, esprimo parere contrario sugli emendamenti 3.1, 3.2, 3.100, 3.12, 3.13, 3.14 e 3.15.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u33">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg68">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.1, presentato dalla senatrice Saponara e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.2, presentato dalla senatrice Saponara e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.100, presentato dalle senatrici Giammanco e Masini. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 3.12.</seg>
+            </u>
+            <note type="speaker">BERGESIO (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BergesioGiorgioMaria" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u34">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg69">Signor Presidente, intervengo semplicemente per dire che è assurdo esprimere un parere contrario su un emendamento importante come quello in esame. Noi chiediamo di non applicare i considerando 28 e 58; il primo riguarda il controllo dell'esposizione a comunicazioni commerciali relative a prodotti alimentari, mentre il secondo riguarda il controllo sui contenuti delle comunicazioni relative all'agroalimentare in merito al contenuto di grassi e sali. La richiesta è motivata dal fatto che ci potrebbe essere una lotta contro il made in Italy proprio attraverso questi articoli. Perciò noi chiediamo espressamente oggi a quest'Aula di riflettere su questo tema, perché è fondamentale. Il rischio è che vengano pubblicizzati come cattivi i cibi del nostro made in Italy. Un esempio su tutti: un cibo ad alto contenuto di grasso come il parmigiano potrebbe essere indicato come cibo cattivo, con una pubblicità negativa. Su questo argomento l'Europa sta massacrando le nostre imprese, le nostre aziende, i nostri agricoltori, i nostri industriali. Noi stiamo faticando; con le assurde decisioni dell'ultimo decreto del Presidente del Consiglio dei ministri un terzo dell'importante canale dell'acquisto fuori casa va perduto. Abbiamo dei problemi enormi in termini di latte e di trasformazione della carne. La scorsa settimana il non decidere del Parlamento europeo è stato gravissimo: un hamburger non è vegano, un hamburger è di carne. Sia chiaro.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg70">Non possiamo continuare a prendere in giro gli italiani, ma dobbiamo parlare in modo corretto e chiaro. La prima etichettatura - ricordatevelo - è la denominazione corretta di un prodotto, attraverso la sua identità, attraverso la sua catena produttiva e la sua filiera. Il ministro Bellanova tutti i giorni ci parla di aiuto alle filiere; vorremmo capire quali sono detti aiuti. Se l'Europa dà le risorse - come ha detto prima il Vice Ministro - sia chiaro che devono essere identificate bene, altrimenti si rischia di trovarsi di fronte a un parolaio collettivo da televisione, che non serve a nulla. Noi andremo in crisi; tutte le nostre imprese e il milione e mezzo di partite IVA agricole verranno a prendere a calci nel sedere chi di dovere.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u35">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg71">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.12, presentato dal senatore Bergesio e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.13, presentato dalle senatrici Giammanco e Masini. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.14, presentato dal senatore Iannone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 3.15, presentato dal senatore Iannone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'articolo 3.</seg>
+            </u>
+            <note type="speaker">GASPARRI (FIBP-UDC)</note>
+            <u ana="#regular" who="#GasparriMaurizio" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u36">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg72">Signor Presidente, era molto tempo - non so quanto - che non esaminavamo un disegno di legge ordinario, con gli emendamenti e la dichiarazione di voto sull'articolo, che per fortuna non è stata ancora abolita da un decreto del Presidente del Consiglio dei ministri. Quindi, intanto saluto positivamente questo normale modo di lavorare in Parlamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg73">Tra decreti e fiducia, non so quale sia stata l'ultima occasione in cui ciò è accaduto: forse nel caso dell'approvazione di un disegno di legge di ratifica di trattati internazionali, ma comunque non si trattava di un disegno di legge così articolato cioè quello in esame. Già questo mi rende felice, indipendentemente dal giudizio di merito.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg74">In ogni caso, la facoltà di poter esaminare secondo il normale iter questo disegno di legge mi consente di fare una dichiarazione di voto sull'articolo 3, soprattutto in un momento di grande difficoltà per il mondo della cultura, dell'arte, dello spettacolo, della letteratura, al quale voglio inviare la piena solidarietà</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg75">Il bavaglio alla cultura, al cinema e alla musica non risponde a esigenze di salute, stando ai dati statistici che sono stati divulgati, anche all'indomani del Festival del cinema di Venezia, della Festa del cinema di Roma e di eventi culturali importanti, che non hanno determinato un aggravamento della drammatica situazione in cui ci troviamo, anzi.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg76">Il maestro Muti in una lettera molto bella e importante, con l'equilibrio e l'autorevolezza del suo dire, al di sopra delle parti politiche - lo ricordiamo anche protagonista in quest'Aula del Senato di concerti importanti nelle occasioni celebrative - ha lanciato un grido di dolore.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg77">Oggi un importante regista Pupi Avati, in un'intervista sul «Corriere della sera», rispetto alla misura contro il cinema, il teatro e lo spettacolo ha detto che è come avere chiuso la stanza dei giochi. Se in una casa uno chiudesse la stanza dei giochi, impedirebbe alla parte più vivace e in crescita della famiglia di fruire dello svago, anche se la cultura e il sapere sono non solo svago, ma - come si dice con un'espressione abusata - anche cibo dell'anima.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg78">Che cosa c'entra tutto questo con l'articolo 3 della legge di delegazione europea? C'entra. Molti sono i nostri spunti critici sul modo con il quale il Governo si muove in Europa. Abbiamo molte cose anche contro alcuni principi contenuti in questo provvedimento, ma come Forza Italia ci riteniamo autori fondamentali dell'articolo 3, che contiene la tutela del diritto d'autore. In particolare, fare chiaramente riferimento nell'articolo alla direttiva europea 2018/1808 vuol dire tutelare il diritto d'autore.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg79">È stato un tema delicato e controverso nel Parlamento europeo. Ricordo l'impegno di un nostro autorevole parlamentare, Antonio Tajani, e quello di tanti altri del Gruppo Forza Italia-Partito Popolare Europeo, affinché la direttiva europea fosse varata.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg80">Contro questa direttiva europea c'è stato il peso delle lobby dei colossi della rete, adusi al saccheggio digitale: Google, Facebook, Amazon rubano i contenuti dell'arte e del sapere senza pagare la creatività.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg81">Scrivere un romanzo, un'opera musicale o una canzone - anche la cultura popolare non va disprezzata - realizzare un film, produrre informazione televisiva, scrivere un articolo su un giornale solo un costo - quello dell'editore, dell'organizzazione produttiva - è il valore del sapere, che il regista, l'attore, il giornalista, il musicista e l'autore profondano nella propria opera: un valore morale, spirituale, ma anche materiale.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg82">La direttiva sul diritto d'autore tutela tutto ciò. E non è stato facile vararla nel Parlamento europeo, in quanto le grandi lobby della rete hanno ingaggiato tutti i giuristi e gli avvocati di Bruxelles per fare pressione lobbistica. Le aziende editoriali e culturali, i teatri dell'opera e i musicisti hanno avuto grande difficoltà. Desidero salutare e ringraziare una persona importante - Giulio Rapetti Mogol, Presidente della SIAE - che ha fatto questa battaglia non per i grandi artisti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg83">Come ha detto anche in Senato in occasione di vari incontri, ci sono non solo i grandi autori e cantanti - anche se questa fase non consente loro di fare concerti ed eventi, sopravvivranno - ma anche tanti altri artisti, che non sono quelli che tutti conosciamo e ascoltiamo, che sopravvivono con diritti d'autore di entità molto bassa e contribuiscono alla creatività e all'intrattenimento.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg84">La direttiva sul diritto d'autore tutela tutto questo mondo, comprensivo di una base di operatori della cultura, dell'informazione, del giornalismo e della letteratura che non sono i grandi protagonisti che possono resistere anche un anno senza eventi, né concerti. Pensiamo, in questa fase in cui gli eventi non ci sono, a tutti i lavoratori che fanno parte del mondo della SIAE e vantano diritti d'autore. Non ci sono solo i 10 grandi cantanti e artisti, ma esiste una miriade di persone.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg85">L'altro giorno li avete visti manifestare a Piazza del Duomo in maniera composta, portando quei bauli che in genere si usano quando si organizzano i concerti e le interpretazioni liriche. La tutela del diritto d'autore serve anche a quei lavoratori della cultura, della musica e dell'arte.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg86">Per questi motivi, siamo molto favorevoli a tutto ciò e riteniamo che la modernità e la digitalizzazione - tutti la invochiamo, per carità - non debbano comportare il saccheggio. È ovvio che, facendo un click, si può riprodurre all'infinito qualsiasi opera senza costo, in quanto non siamo nell'epoca in cui i libri si scrivevano a mano nei monasteri (si tratta ormai di opere d'arte). Oggi basta un click per divulgare tonnellate di pagine, byte e megabyte di musica e tutto ciò che si vuole. Tutelare tutto questo è importante. Ricordo che anni fa un cantante - parlo della cultura popolare e mi riferisco ad Adriano Celentano - scrisse sul quotidiano «Corriere della Sera» che, se il pane non si pagasse, nessuno farebbe il fornaio. È una frase abbastanza chiara. Se la cultura, l'arte e lo spettacolo vengono saccheggiati, noi uccidiamo la creatività, che deve essere remunerata e tutelata anche nell'epoca dell'elettronica avanzata e della digitalizzazione, che devono essere un'opportunità per la conoscenza e non un furto del sapere legalizzato. È infatti questo che sta avvenendo. Onorevoli colleghi, su 4,5 miliardi di euro di volume di affari in Italia (nel commercio, ma anche nella divulgazione del sapere), Amazon ha pagato 11 milioni di euro di tasse, pari allo 0,2 per cento. La Commissione europea ha sanzionato Google con una multa da 14 miliardi di euro, che però è riuscito a farsi annullare dalla magistratura irlandese. Quando si devono pagare 14 miliardi di euro si trova un giudice amico a Dublino, piuttosto che a Berlino. Noi vogliamo equità, progresso e conoscenza, ma anche riconoscimento della proprietà intellettuale e del diritto d'autore. L'articolo 3 del provvedimento - lo dico al Governo - non conclude l' iter, perché servono i provvedimenti attuativi. La modernità ci deve aiutare a fruire più facilmente e liberamente della cultura, del sapere, della letteratura, della musica e dell'informazione, ma non deve essere il furto del sapere. Noi esprimeremo pertanto voto favorevole all'articolo 3, nel rispetto della creatività e anche, in questo momento, come gesto di solidarietà verso il mondo dell'arte, della cultura, della musica e dello spettacolo, di cui il Governo non si sta occupando affatto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u37">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg87">Indìco la votazione nominale con scrutinio simultaneo dell'articolo 3. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 4, sul quale sono stati presentati emendamenti, che si intendono illustrati e su cui invito il relatore e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">PITTELLA</note>
+            <note type="role">relatore sul disegno di legge n. 1721</note>
+            <u ana="#regular" who="#PittellaGianni" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u38">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg88">Signor Presidente, esprimo parere contrario su tutti gli emendamenti presentati.</seg>
+            </u>
+            <note type="speaker">AGEA</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#AgeaLaura" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u39">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg89">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u40">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg90">Passiamo all'emendamento 4.14, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg91">Essendone stata avanzata richiesta, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.14, presentato dal senatore Bossi Simone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.18, presentato dal senatore Iannone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'emendamento 4.100, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. Essendone stata avanzata richiesta, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.100, presentato dai senatori Paroli e Cangini. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.35, presentato dal senatore Bossi Simone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.42, presentato dal senatore Corti e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'emendamento 4.43, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. Essendone stata avanzata richiesta, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.43, presentato dal senatore Corti e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 4.46, presentato dal senatore Corti e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 4. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 5, sul quale sono stati presentati emendamenti e un ordine del giorno che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">DURNWALDER (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular" who="#DurnwalderMeinhard" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u41">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg92">Signor Presidente, annuncio il ritiro degli emendamenti 5.81, 5.85 e 5.87.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg93">PRESIDENTE. I suddetti emendamenti si intendono quindi ritirati.</seg>
+            </u>
+            <note type="speaker">NUGNES (Misto-LeU)</note>
+            <u ana="#regular" who="#NugnesPaola" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u42">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg94">Signor Presidente, ci tenevo a parlare dell'emendamento 5.311 perché lo ritengo molto importante e perché è stato firmato da molte parti politiche in maniera trasversale. Oltre alla firma mia e della collega De Petris, ci sono infatti le firme delle senatrici La Mura, Fattori e Cirinnà.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg95">L'emendamento è importante perché intende porre fine a un equivoco che va avanti da molto tempo. Chiede di porre una graduale esclusione dal 1° gennaio 2024 fino al dicembre 2030 degli obblighi di miscelazione al combustibile diesel e dalla produzione elettrica rinnovabile, nonché dal relativo conteggio delle fonti rinnovabili e dai sussidi di mercato, dei carburanti ad alto rischio di cambiamento indiretto di destinazione d'uso dei terreni, come l'olio di palma.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg96">Ciò crea chiaramente un conflitto importante con l'uso agricolo dei terreni, che non solo è grave perché veniamo a perdere altro uso di terreno agricolo, ma anche perché, nel momento in cui c'è la trasmigrazione della produzione agricola, si vanno a produrre molte più emissioni di CO₂ quando si vanno a intaccare terreni ad alta ricchezza di carbonio, come - per esempio - quello delle foreste. Il bilancio complessivo diventa, pertanto, estremamente negativo per il contenimento di CO₂ in atmosfera.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg97">Ritengo che l'emendamento 5.311 sia assolutamente importante e da sostenere.</seg>
+            </u>
+            <note type="speaker">BRIZIARELLI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BriziarelliLuca" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u43">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg98">Signor Presidente, auspico un ripensamento da parte del Governo sull'emendamento 5.86.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg99">L'articolo 5 si occupa delle energie rinnovabili - e per questo ben venga - ed è stato ampiamente integrato in sede di Commissione. Il testo che arriva in Aula è, quindi, decisamente più corposo e la Commissione si è posta il problema di poter collocare - per esempio - gli impianti fotovoltaici anche sui terreni dell' ex discariche, su cui c'era una condivisione complessiva. Si è posta il problema di semplificare gli interventi sugli impianti anche quando vanno al di là della sostituzione delle batterie di alcune parti. Si è posta tutta una serie di passaggi. L'ultimo metro che manca è che non si può immaginare che, con una bacchetta magica, scompaiano i rifiuti da apparecchiature elettriche ed elettroniche anche quelle delle fonti di energia rinnovabili. Noi chiedevamo semplicemente che nel testo della delega al Governo fosse inserito di tener conto del fine vita degli impianti fotovoltaici e di alcune loro parti e di farlo attraverso il coinvolgimento dei consorzi. Non si capisce perché una parte della maggioranza abbia una preclusione ideologica rispetto al sistema consortile senza il quale il nostro Paese sarebbe molto più indietro in vari settori, compreso quello dei rifiuti di apparecchiature elettriche ed elettroniche (RAEE). Mi auguro, quindi, che ci sia un ripensamento e che l'emendamento, che non comporta alcun costo (il parere contrario è stato, pertanto, esclusivamente nel merito e di natura ideologica), possa essere riesaminato e accolto dall'Aula.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u44">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg100">I restanti emendamenti e l'ordine del giorno si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg101">Invito il relatore e il rappresentante del Governo a pronunziarsi sugli emendamenti e l'ordine del giorno in esame.</seg>
+            </u>
+            <note type="speaker">PITTELLA</note>
+            <note type="role">relatore sul disegno di legge n. 1721</note>
+            <u ana="#regular" who="#PittellaGianni" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u45">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg102">Signor Presidente, esprimo parere contrario sugli emendamenti 5.200, 5.6, 5.13, 5.16, 5.18, 5.23, 5.36, 5.46, 5.50, 5.54, 5.59, 5.61, 5.67, 5.68, 5.74, 5.77, 5.78, 5.79, 5.82, 5.83, 5.84, 5.86, 5.87, 5.90, 5.95, 5.307, 5.308, 5.309, 5.310 e 5.97.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg103">Esprimo parere favorevole sugli emendamenti 5.302, 5.303, 5.304, 5.305 e 5.306.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg104">Per quanto riguarda l'emendamento, 5.311 mi è stata annunciata una proposta di riformulazione da parte del Governo, sulla quale esprimo fin d'ora parere favorevole.</seg>
+            </u>
+            <note type="speaker">AGEA</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#AgeaLaura" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u46">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg105">Signor Presidente, il Governo esprime parere conforme a quello del relatore sugli emendamenti dal 5.200 al 5.310.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg106">Esprimo parere favorevole sull'emendamento 5.311, se così riformulato: " Al comma 1 sostituire la lettera dd) con la seguente : «prevedere la graduale esclusione, a partire dal 1° gennaio 2024, da completare entro il 31 dicembre 2030, dagli obblighi di miscelazione al combustibile diesel e dalla produzione elettrica rinnovabile, nonché dal relativo conteggio delle fonti rinnovabili e dai sussidi di mercato di biocarburanti, bioliquidi o combustibili da materie prime o relativi residui e sottoprodotti derivati ad elevato rischio di cambiamento indiretto di destinazione d'uso dei terreni»". Relativamente all'ordine del giorno G5.100, il Governo è favorevole all'accoglimento se dopo le parole «a valutare», vengono inserite le parole «nell'ambito della revisione della normativa di settore». PRESIDENTE. Chiedo ai presentatori se accettano la riformulazione proposta.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u47">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg107">Signor Presidente, poiché la prima firmataria è d'accordo, accettiamo la riformulazione e quindi ritiro gli emendamenti 5.308 e 5.310 a mia prima firma. Le firme che erano state apposte a questi emendamenti ovviamente confluiscono tutte sul testo riformulato dell'emendamento 5.311.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u48">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg108">Colleghi, sulle riformulazioni vi chiedo di procedere nell'ordine, quando trattiamo l'emendamento (ora non ho interrotto la senatrice De Petris, ovviamente). Inizierei con l'esame dell'emendamento 5.200 e poi, quando ci arriveremo, ognuno interverrà, se lo ritiene, sulla riformulazione o su altro.</seg>
+            </u>
+            <note type="speaker">BUCCARELLA (Misto)</note>
+            <u ana="#regular" who="#BuccarellaMaurizio" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u49">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg109">Signor Presidente, chiedo di poter aggiungere la firma all'emendamento 5.311, come riformulato. PRESIDENTE. La Presidenza ne prende atto.</seg>
+            </u>
+            <note type="speaker">CIRINNA' (PD)</note>
+            <u ana="#regular" who="#CirinnaMonica" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u50">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg110">Signor Presidente, ritiro gli emendamenti a mia prima firma.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u51">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg111">Passiamo all'emendamento 5.200, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg112">Essendone stata avanzata richiesta, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.200, presentato dalla senatrice Gallone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.6 (testo 3), presentato dal senatore Candiani e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Gli emendamenti 5.300 e 5.301 sono stati ritirati. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.302, presentato dal senatore Girotto e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 5.303.</seg>
+            </u>
+            <note type="speaker">ARRIGONI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#ArrigoniPaolo" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u52">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg113">Signor Presidente, annuncio il voto contrario da parte del Gruppo, perché riteniamo che i sei mesi di tempo introdotti dall'emendamento siano troppo pochi. È troppo poco, infatti, il tempo che viene dato alle Regioni per individuare sul proprio territorio le aree idonee all'installazione di impianti fotovoltaici. Ritenevamo più congruo e opportuno mantenere il testo approvato dalla Commissione. Peraltro vorrei segnalare che le Regioni non possono da sole individuare queste aree, ma ovviamente si devono raccordare con le Province e soprattutto con i Comuni e quest'attività necessita di tempo. Per questo motivo il voto del Gruppo Lega-Salvini Premier-Partito Sardo d'Azione sarà contrario</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u53">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg114">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.303, presentato dai senatori Girotto e De Petris. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 5.13.</seg>
+            </u>
+            <note type="speaker">GALLONE (FIBP-UDC)</note>
+            <u ana="#regular" who="#GalloneMariaAlessandra" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u54">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u55">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg115">Ne ha facoltà.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg116">Colleghi, intanto vi dico che non è che improvvisamente abbiamo dei guasti. Avendo cambiato le modalità di intervento, alcuni microfoni (ovviamente non sappiamo a memoria quali) sono stati deviati per consentire il loro funzionamento sulle tribune. Dobbiamo quindi avere un po' di pazienza e, se vediamo che il microfono non funziona, ci dobbiamo spostare.</seg>
+            </u>
+            <note type="speaker">GALLONE (FIBP-UDC)</note>
+            <u ana="#regular" who="#GalloneMariaAlessandra" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u56">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg117">Signor Presidente, vorrei solo dichiarare il voto favorevole del Gruppo Forza Italia sull'emendamento 5.13, che secondo noi è di estremo buon senso e, anzi, prevede la valorizzazione, ad esempio, delle aree già edificate e compromesse, nel rispetto della difesa di quelle agricole, soprattutto per quanto riguarda proprio l'evoluzione delle cosiddette energie rinnovabili.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg118">Chiediamo quindi che nel settore delle energie rinnovabili, anche in deroga a precedenti disposizioni normative, le cave, le discariche esaurite, le aree ripristinate dal punto di vista ambientale, a seguito di procedimenti di bonifica, ai sensi di quanto disposto dalla normativa, non siano considerate agricole, ai fini dell'ammissione agli incentivi statali di cui al decreto legislativo 3 marzo 2011, n. 28, a prescindere dalla qualificazione delle medesime, dettata dal pertinente strumento urbanistico. Questo per fare in modo che su terreni non più utilizzabili per nessun altro scopo possano invece insistere, con gli incentivi che meritano, i pannelli fotovoltaici, l'eolico o quant'altro</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u57">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg119">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.13, presentato dalla senatrice Gallone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 5.304.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u58">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg120">Signor Presidente, chiedo la votazione per parti separate dell'emendamento 5.304. In particolare, chiedo di votare separatamente la lettera a) e la lettera b).</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u59">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg121">Essendo stata avanzata una richiesta di votazione per parti separate, chiedo all'Assemblea di pronunciarsi su questo punto.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg122">Passiamo alla votazione della richiesta di votazione per parti separate dell'emendamento 5.304.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg123">CANDIANI (L-SP-PSd'Az). Signor Presidente, chiediamo la verifica del numero legale. PRESIDENTE. Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta non risulta appoggiata). Metto ai voti la richiesta di votazione per parti separate dell'emendamento 5.304, presentata dal senatore Calderoli. Non è approvata. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.304, presentato dai senatori Girotto e De Petris. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.16, presentato dalla senatrice Gallone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 5.18.</seg>
+            </u>
+            <note type="speaker">ARRIGONI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#ArrigoniPaolo" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u60">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg124">Signor Presidente, l'emendamento 5.18 vuole riordinare la normativa vigente in materia di riconoscimento degli incentivi statali e sanare una discrepanza normativa con il decreto ministeriale cosiddetto FER1, emanato a luglio 2019, che dà priorità, nel riconoscimento degli incentivi, agli impianti fotovoltaici realizzati su discariche chiuse, cave esaurite o siti di interesse nazionale o contaminati, che sono stati oggetto di bonifica. Queste tre tipologie di aree, alla fine della loro funzione, prendono la destinazione agricola. Ebbene, il decreto ministeriale FER1 era in contrasto con il decreto-legge n. 1 del 2012, che di fatto vieta il riconoscimento degli incentivi per impianti fotovoltaici realizzati a terra su aree agricole. Questa discrepanza, che nel nostro Paese è durata quasi un anno e mezzo, è stata oggetto di emendamenti della Lega, che in diversi provvedimenti sono risultati bocciati dal Governo in modo stolto. Infatti, l'Esecutivo esprimeva parere negativo motivandolo con il fatto che l'accoglimento di quegli emendamenti avrebbe aumentato gli oneri della finanza pubblica. Grazie alla sua caparbietà, in occasione dell'esame del decreto-legge semplificazioni, alla presenza del vice ministro Misiani, la Lega ha presentato un emendamento il cui accoglimento avrebbe consentito il raggiungimento degli obiettivi per quanto riguarda le maggiori fonti di energia rinnovabili; non solo non avrebbe comportato un aumento degli oneri di finanza pubblica, ma, avendo esteso la platea dei beneficiari degli incentivi, avrebbe introdotto un principio di concorrenza favorendo il ribasso delle aste, quindi un minore incentivo, un minor onere generale di sistema e, di conseguenza, minori carichi sulle bollette. Ebbene, quell'emendamento della Lega è stato approvato nel decreto-legge semplificazioni, ragion per cui non ha più senso mettere in votazione l'emendamento 5.18, a prima firma Arrigoni, che ritiro.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u61">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg125">La Presidenza ne prende atto.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg126">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.23, presentato dal senatore Arrigoni e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.305, presentato dal senatore Girotto e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.36, presentato dal senatore Bossi Simone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.46, presentato dal senatore Candiani e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.50, presentato dal senatore Arrigoni e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.54, presentato dal senatore Arrigoni e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 5.59.</seg>
+            </u>
+            <note type="speaker">GALLONE (FIBP-UDC)</note>
+            <u ana="#regular" who="#GalloneMariaAlessandra" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u62">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg127">Signor Presidente, questo emendamento riguarda una questione molto importante, che è già stata anticipata in relazione a un altro. Si tratta della questione del fine vita dei pannelli fotovoltaici. Semplicemente chiediamo di «uniformare le norme che regolano la determinazione e la gestione dell'ecocontributo di garanzia finanziaria per la gestione del fine vita dei pannelli fotovoltaici», perché oggi c'è un sistema non omogeneo, che, di fatto, anziché migliorare la situazione, soprattutto ambientale, può portare a peggiorarla. Si tratta dunque di un emendamento di estremo buonsenso e, nonostante i pareri negativi, chiediamo all'Assemblea di votare a favore, perché non capiamo come mai si debba votare in senso contrario, visto che vuole semplificare ed uniformare le norme. Non chiediamo dunque niente di particolare, ma avanziamo una proposta di buonsenso, che può aiutare, da un lato, i produttori e, dall'altra, i fruitori e soprattutto garantire un fine vita omogeneo per prodotti che, oggi più che mai, diventano necessari per la transizione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u63">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg128">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.59, presentato dalla senatrice Gallone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 5.61.</seg>
+            </u>
+            <note type="speaker">ARRIGONI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#ArrigoniPaolo" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u64">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg129">Signor Presidente, questa volta non ritiro l'emendamento, ma lo confermo. Cito le parole del sottosegretario Agea, che all'inizio del suo intervento ha detto che il provvedimento in esame, la legge di delegazione europea, rafforzerà e perseguirà la transizione energetica del Paese, a cui è improntato, e favorirà il contrasto ai cambiamenti climatici, visto che ci sono misure che contrastano le emissioni, non solo di CO₂, ma anche di polveri sottili. Peccato che la bocciatura dell'emendamento in esame testimoni il pregiudizio della maggioranza verso misure che vanno nell'ottica di una migliore transizione energetica, che non può che passare attraverso le città sostenibili. Ricordo a tutti i colleghi qui presenti che, durante gli oltre due mesi di lockdown, quando la mobilità si è praticamente ridotta a zero, tutti i fautori di quella elettrica si aspettavano un crollo delle emissioni di polveri sottili (PM10, PM2,5 o diossido di azoto). Peccato che le Agenzie regionali per la protezione ambientale (ARPA) abbiamo registrato valori totalmente inalterati, a conferma che l'inquinamento atmosferico è prevalentemente prodotto dal riscaldamento domestico, che incide per il 60 per cento, e non dalle automobili.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg130">Non capiamo dunque la contrarietà di Governo e maggioranza all'approvazione di un emendamento che mira a promuovere, favorire e diffondere l'uso del teleriscaldamento efficiente, prodotto cioè con il calore di scarto dei processi industriali e con l'utilizzo di fonti rinnovabili. Non capiamo dunque i motivi di questa contrarietà: c'è un profondo pregiudizio, che si vede anche nel cosiddetto superbonus. Avete infatti introdotto il beneficio del superbonus per l'allaccio ai sistemi di teleriscaldamento efficiente solo nei Comuni montani oggetto di infrazione: è una presa in giro!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg131">Dovremmo invece promuovere il tele riscaldamento efficiente in tutto il Paese e soprattutto nelle città densamente urbanizzate, che sono tantissime.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg132">I vantaggi del teleriscaldamento efficiente sono plurimi: certamente c'è una maggiore efficienza energetica, che è uno dei tre obiettivi del Piano nazionale integrato per l'energia e il clima (PNIEC), che, con i vostri pregiudizi, nel 2030 non verrà raggiunto; ci sono minori emissioni di CO₂, di PM10, di PM2,5, di ossidi di azoto; c'è più sicurezza nelle case, perché con il teleriscaldamento una famiglia toglie la caldaietta in casa, che ha necessità di manutenzione e controllo, a fronte di un impianto comune, e ci sono più controlli.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg133">Ecco perché, con il vostro voto contrario smascheriamo l'ideologia ambientalista di questa maggioranza e del Governo. Noi, invece, confermiamo il voto favorevole sull'emendamento 5.61.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u65">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg134">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.61, presentato dal senatore Arrigoni e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.67, presentato dal senatore Arrigoni e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.68, presentato dal senatore Candiani e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 5.70 è stato ritirato. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.77, presentato dalla senatrice Gallone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.74, presentato dal senatore Candiani e da altri senatori, identico all'emendamento 5.78, presentato dal senatore Arrigoni e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo all'emendamento 5.79, su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. Essendone stata avanzata richiesta, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.79, presentato dal senatore Candiani e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 5.81 è stato ritirato. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.82, presentato dal senatore La Pietra e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.83, presentato dal senatore Candiani e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.84, presentato dal senatore La Pietra e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 5.85 è stato ritirato. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.86, presentato dal senatore Briziarelli e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 5.87 è stato ritirato. Passiamo alla votazione dell'emendamento 5.90.</seg>
+            </u>
+            <note type="speaker">ARRIGONI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#ArrigoniPaolo" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u66">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg135">Signor Presidente, con questo emendamento chiediamo di fare un approfondimento, uno studio e una ricognizione per lo sviluppo della capacità di generazione di energia da fonti rinnovabili che non sono comprese nel perimetro definito dal decreto ministeriale FER1. Sto parlando di fonti rinnovabili quali la geotermia, il biogas e il solare termodinamico. Non comprendiamo il parere negativo espresso dal Governo e dalla maggioranza, perché con questo emendamento poniamo un problema molto serio. La maggioranza è contenta perché in Europa il Consiglio europeo, la Commissione europea e il Parlamento europeo, quando si metteranno d'accordo, voteranno per un ulteriore taglio delle emissioni di CO₂ nel 2030 (oggi è fissato a meno 40 per cento), perché si vuole raggiungere la neutralità climatica nel 2050. C'è la Commissione che vuole portare la soglia da meno 40 a meno 55, mentre il Parlamento europeo ha già votato per portarla a meno 60 per cento. Ebbene, cosa significa in termini di maggiore produzione da fonti rinnovabili nel 2030? Significa che l'attuale quota, fissata al 30 per cento nel 2030, dovrà essere innalzata intorno al 40 per cento. Non si può solo gioire dei numeri, ma bisogna guardare i fatti. Guardate che, grazie alla burocrazia asfissiante che impiega anni e anni per rilasciare l'autorizzazione per un nuovo impianto o per un revamping, siamo solo al 15-20 per cento dal raggiungimento dell'attuale obiettivo di produzione da fonti rinnovabili entro il 2030. Basti citare il fatto che, in riferimento al terzo bando del decreto ministeriale FER1, che incentiva il fotovoltaico sulle cave, sulle discariche, sui tetti che avevano l'Eternit e sui nuovi impianti fotovoltaici o eolici, rispetto a un contingente di potenza incentivabile di 1.300 megawatt, ne è stato richiesto in posizione utile meno di un terzo. Il problema di realizzare impianti da fonti di energia rinnovabile è serio ed è dimostrato dal decreto ministeriale FER1. Sul decreto ministeriale FER2, che vuole incentivare le rinnovabili speciali (come geotermia, biogas, solare termodinamico e moto ondoso), il Governo non deve più dormire, perché c'è un'industria che vuole investire nella transizione energetica con i fatti e non con le parole e i numeri. Quindi non riusciamo a capire perché il Governo e la maggioranza vogliano votare contro questo emendamento, su cui la Lega invece voterà convintamente a favore.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u67">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg136">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.90, presentato dal senatore Arrigoni e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.95, presentato dalla senatrice Testor e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Passiamo alla votazione dell'emendamento 5.306.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u68">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg137">Signor Presidente, dal momento che il proverbio dice: «ritenta, sarai più fortunato», chiedo di poter votare per parti separate l'emendamento 5.306, votando la lettera v-bis) separatamente dalla lettera v-ter).</seg>
+            </u>
+            <note type="speaker">BOSSI Simone (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BossiSimone" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u69">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg138">Non sono d'accordo, signor Presidente.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u70">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg139">Senatore Calderoli, la Presidenza prende atto che non c'è accordo.</seg>
+            </u>
+            <note type="speaker">CALDEROLI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u71">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg140">Signor Presidente, poiché, non essendoci unanimità sulla proposta, occorre procedere ad una votazione per alzata di mano, chiediamo la verifica del numero legale.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg141">Verifica del numero legale</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u72">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg142">Invito il senatore Segretario a verificare se la richiesta risulta appoggiata dal prescritto numero di senatori, mediante procedimento elettronico. (La richiesta risulta appoggiata). Invito pertanto i senatori a far constatare la loro presenza mediante procedimento elettronico. (Segue la verifica del numero legale). Il Senato è in numero legale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg143">Ripresa della discussione congiunta del disegno di legge n. 1721 e dei documenti LXXXVI, n. 3, e LXXXVII, n. 3 PRESIDENTE. Metto ai voti la proposta, avanzata dal senatore Calderoli, di votare per parti separate l'emendamento 5.306, votando la lettera v-bis) separatamente dalla lettera v-ter). Non è approvata. CALDEROLI (L-SP-PSd'Az). Chiediamo la controprova. PRESIDENTE. Non poteva mancare a questo punto la richiesta di controprova. Ordino la chiusura delle porte. Procediamo alla controprova mediante procedimento elettronico. Non è approvata. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.306, presentato dal senatore Girotto e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). L'emendamento 5.307 è stato ritirato.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u73">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg144">Signor Presidente, questi emendamenti hanno ad oggetto un po' tutti lo stesso argomento. Avevo annunciato il ritiro di alcuni emendamenti, ma evidentemente c'è stato un equivoco sulla riformulazione. Le chiedo pertanto se sia possibile sospendere i lavori per mezz'ora così da poter conferire con il relatore e il rappresentante del Governo per sistemare la questione.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#RossomandoAnna" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u74">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg145">Abbiamo svolto una parte considerevole del lavoro e sicuramente una maggiore chiarezza sulla riformulazione gioverà all'Assemblea.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg146">Sospendo pertanto la seduta fino alle ore 19. (La seduta, sospesa alle ore 18,30, è ripresa alle ore 19,01).</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg147">Invito i colleghi a prendere posto. Senatrice De Petris, eravamo all'emendamento 5.308 che lei vorrebbe ritirare, mentre mantiene l'emendamento 5.310. Giusto?</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente CALDEROLI</note>
+            <note type="time">19,01</note>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u75">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg148">Esatto, signor Presidente.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg149">Il senso dell'emendamento 5.310 è molto chiaro. Sapete tutti che la direttiva europea prevede che, per quanto riguarda gli obblighi di miscelazione di combustibile diesel e dalla produzione elettrica rinnovabile, ad oggi è ancora previsto l'utilizzo dell'olio di palma, che ha un impatto fortissimo (per quanto riguarda la deforestazione sappiamo quello che accade in Brasile e non solo).</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg150">La direttiva prevede che dal 2024 ed entro il 2030 debba essere escluso dalla miscelazione l'olio di palma. Con questo emendamento prevedono un anticipo al 2023, come peraltro alcuni player nazionali stanno cominciando a fare. Per questo motivo abbiamo coordinato le diverse proposte emendative. Ritiro pertanto l'emendamento 5.308, mentre confermo l'emendamento 5.310, di cui chiedo la votazione e su cui ovviamente il Governo e il relatore devono esprimere il parere. Credo ci sia anche un altro emendamento di cui la senatrice Nugnes annuncerà il ritiro. PRESIDENTE. Gli emendamenti 5.308 e 5.309 sono stati ritirati. Invito il relatore e il rappresentante del Governo a pronunziarsi sull'emendamento 5.310.</seg>
+            </u>
+            <note type="speaker">PITTELLA</note>
+            <note type="role">relatore sul disegno di legge n. 1721</note>
+            <u ana="#regular" who="#PittellaGianni" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u76">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg151">Signor Presidente, esprimo parere favorevole sull'emendamento 5.310.</seg>
+            </u>
+            <note type="speaker">AGEA</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#AgeaLaura" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u77">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg152">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="speaker">LA MURA (M5S)</note>
+            <u ana="#regular" who="#LaMuraVirginia" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u78">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg153">Signor Presidente, chiedo di aggiungere la mia firma all'emendamento 5.310.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u79">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg154">La Presidenza ne prende atto.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg155">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.310, presentato dalla senatrice De Petris e da altri senatori. (Segue la votazione). Il Senato approva. (v. Allegato B). L'emendamento 5.311 è precluso dall'approvazione dell'emendamento precedente. Passiamo all'emendamento 5.97 (testo 2), su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. Essendone stata avanzata richiesta, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 5.97 (testo 2), presentato dal senatore Arrigoni e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Senatore Pittella, accoglie la riformulazione dell'ordine del giorno G5.100? PITTELLA, relatore. Sì, Presidente. PRESIDENTE. Essendo stato accolto dal Governo, l'ordine del giorno G5.100 (testo 2) non verrà posto ai voti. Indìco la votazione nominale con scrutinio simultaneo dell'articolo 5, nel testo emendato. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 6, sul quale sono stati presentati emendamenti e un ordine del giorno che invito i presentatori ad illustrare.</seg>
+            </u>
+            <note type="speaker">BRIZIARELLI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BriziarelliLuca" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u80">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg156">Signor Presidente, vorrei soffermarmi sull'ordine del giorno G6.100. In Europa ci imponiamo anche i limiti non dovuti, cogliamo almeno le occasioni. L'ordine del giorno riguarda l'aviazione leggera. Il regolamento UE 2018/1139, richiamato dall'ordine del giorno, ha consentito agli Stati membri di poter aumentare il peso massimo degli ultraleggeri. Noi, come produttori, siamo un'eccellenza a livello internazionale. Si intende pertanto impugnare il Governo a cogliere questa opportunità, come hanno già fatto altri Stati come la Germania, sostenendo in questo momento la nostra industria e accogliendo l'aumento di peso reso possibile per gli ultraleggeri.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u81">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg157">I restanti emendamenti si intendono illustrati.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg158">Invito il relatore e il rappresentante del Governo a pronunziarsi sugli emendamenti e l'ordine del giorno in esame.</seg>
+            </u>
+            <note type="speaker">PITTELLA</note>
+            <note type="role">relatore sul disegno di legge n. 1721</note>
+            <u ana="#regular" who="#PittellaGianni" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u82">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg159">Signor Presidente, esprimo parere contrario sugli emendamenti 6.4 (testo 2) e 6.5.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg160">Per quanto riguarda l'ordine del giorno G6.100, c'è una proposta di riformulazione del Governo.</seg>
+            </u>
+            <note type="speaker">AGEA</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#AgeaLaura" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u83">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg161">Signor Presidente, esprimo parere conforme al relatore sugli emendamenti.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg162">Per quanto riguarda l'ordine del giorno G6.100, il Governo considera l'ordine del giorno accoglibile con la seguente riformulazione nell'impegno: «a valutare l'opportunità, in sede di attuazione del regolamento UE 2018/1139 e di aggiornamento della disciplina nazionale in materia di volo da diporto e sportivo, di adottare ogni iniziativa che, compatibilmente con l'ordinamento eurounitario, favorisca lo sviluppo dell'industria del volo turistico italiana».</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u84">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg163">Senatore Briziarelli, accoglie la riformulazione? BRIZIARELLI (L-SP-PSd'Az). La accolgo, Presidente. PRESIDENTE. Passiamo all'emendamento 6.4 (testo 2), su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. Essendone stata avanzata richiesta, indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 6.4 (testo 2), presentato dal senatore Ripamonti e da altri senatori, fino alle parole «n. 287». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte e l'emendamento 6.5. Essendo stato accolto dal Governo, l'ordine del giorno G6.100 (testo 2) non verrà posto ai voti. Indìco la votazione nominale con scrutinio simultaneo dell'articolo 6. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 7, sul quale sono stati presentati emendamenti che si intendono illustrati e sui quali invito il relatore e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">PITTELLA</note>
+            <note type="role">relatore sul disegno di legge n. 1721</note>
+            <u ana="#regular" who="#PittellaGianni" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u85">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg164">Signor Presidente, esprimo parere contrario su tutti gli emendamenti.</seg>
+            </u>
+            <note type="speaker">AGEA</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#AgeaLaura" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u86">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg165">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u87">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg166">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.10, presentato dal senatore La Pietra e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.11, presentato dal senatore La Pietra e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.12, presentato dal senatore La Pietra e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.18, presentato dal senatore Candiani e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.21, presentato dal senatore La Pietra e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.24, presentato dal senatore Bergesio e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.25, presentato dal senatore La Pietra e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.32, presentato dai senatori De Bonis e Candiani. (Segue la votazione). Il Senato non approva. (v. Allegato B). L'emendamento 7.33 è stato ritirato. Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.35, presentato dal senatore Candiani e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo della prima parte dell'emendamento 7.36, presentato dal senatore Bossi Simone e da altri senatori, fino alle parole «acque interne dolci». (Segue la votazione). Il Senato non approva. (v. Allegato B). Risultano pertanto preclusi la restante parte e l'emendamento 7.44. Passiamo all'emendamento 7.45 (testo 2), su cui la 5ᵃ Commissione ha espresso parere contrario ai sensi dell'articolo 81 della Costituzione. Essendone stata avanzata richiesta, indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.45 (testo 2), presentato dal senatore Bergesio e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.38, presentato dal senatore La Pietra e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.40, presentato dal senatore La Pietra e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.41, presentato dal senatore Bossi Simone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 7.42, presentato dal senatore Bossi Simone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 7. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 8, sul quale sono stati presentati emendamenti, che si intendono illustrati e su cui invito il relatore e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">PITTELLA</note>
+            <note type="role">relatore sul disegno di legge n. 1721</note>
+            <u ana="#regular" who="#PittellaGianni" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u88">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg167">Signor Presidente, esprimo parere contrario su tutti gli emendamenti.</seg>
+            </u>
+            <note type="speaker">AGEA</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#AgeaLaura" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u89">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg168">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u90">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg169">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 8.3, presentato dai senatori Fazzolari e Bossi Simone. (Segue la votazione).</seg>
+               <vocal type="speaking">
+                  <desc>Commenti.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg170">Io non lo sto verificando. Sono asimmetrici rispetto alle lucine, però è corretto.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg171">C'è poi il detto: «chi fa la spia non è figlio di Maria». Tre sono i presenti e tre sono i votanti.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg172">Colleghi, collocatevi in modo che non ci siano questioni. Nella quarta fila ci sono due persone e due voti.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg173">Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 8.4, presentato dal senatore Bossi Simone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 8. (Segue la votazione). Il Senato approva. (v. Allegato B). (</seg>
+               <vocal type="speaking">
+                  <desc>Commenti).</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg174">Colleghi, il distanziamento è una regola introdotta dai nostri senatori Questori, quindi se non vi collocate correttamente sospendo la seduta. Senatore, può usare anche il banco del Governo; sfrutti il posto del Ministro, visto che non c'è.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg175">Passiamo all'esame dell'articolo 9, sul quale sono stati presentati emendamenti e ordini del giorno, che si intendono illustrati e su cui invito il relatore e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">PITTELLA</note>
+            <note type="role">relatore sul disegno di legge n. 1721</note>
+            <u ana="#regular" who="#PittellaGianni" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u91">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg176">Signor Presidente, esprimo parere contrario su tutti gli emendamenti; esprimo invece parere favorevole sugli ordini del giorno G9.100, G9.101 e G9.102.</seg>
+            </u>
+            <note type="speaker">AGEA</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#AgeaLaura" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u92">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg177">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u93">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg178">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.2, presentato dal senatore Bossi Simone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.3, presentato dal senatore Bossi Simone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.5, presentato dal senatore Iannone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.6, presentato dal senatore Iannone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.7, presentato dal senatore Iannone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.13, presentato dal senatore Bossi Simone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.17, presentato dal senatore Bossi Simone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.22 (testo 2), presentato dalla senatrice Borgonzoni e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.30, presentato dal senatore Bossi Simone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.31, presentato dalla senatrice Borgonzoni e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.35, presentato dal senatore Bossi Simone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.41, presentato dal senatore Iannone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.49, presentato dal senatore Candiani e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.48, presentato dal senatore Bossi Simone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 9.46, presentato dal senatore Iannone e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Essendo stati accolti dal Governo, gli ordini del giorno G9.100, G9.101 e G9.102 non verranno posti ai voti. Indìco la votazione nominale con scrutinio simultaneo dell'articolo 9. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 10, sul quale sono stati presentati emendamenti, che si intendono illustrati e su cui invito il relatore e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">PITTELLA</note>
+            <note type="role">relatore sul disegno di legge n. 1721</note>
+            <u ana="#regular" who="#PittellaGianni" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u94">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg179">Signor presidente, esprimo parere contrario su tutti gli emendamenti presentati.</seg>
+            </u>
+            <note type="speaker">AGEA</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#AgeaLaura" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u95">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg180">Signor presidente, il parere del Governo è conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u96">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg181">Passiamo alla votazione dell'emendamento 10.2, identico all'emendamento 10.3.</seg>
+            </u>
+            <note type="speaker">BAGNAI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BagnaiAlberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u97">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg182">Signor Presidente, sarò veramente succinto. Per me è molto interessante osservare come si stanno svolgendo queste dichiarazioni, considerando la materia degli articoli 10 e 11 della legge di delegazione europea, che riguardano argomenti piuttosto importanti. Le lugubri sigle che li contraddistinguono sono BRRD, CRD, CRR, SRM: sostanzialmente quello che va sotto il nome di pacchetto bancario. Ed è quando vedo come stiamo analizzando qui in Aula queste disposizioni che capisco come è stato possibile che, per esempio, sempre in quest'Aula si siano approvate - peraltro, con una grande leggerezza da parte dell'attuale maggioranza - normative come quelle del bail in. Poi, naturalmente, è chiaro che esiste una saggezza della storia e su quel bail in il PD si è fatto del male e si sta facendo del male su altre cose. Per esempio, ho sotto gli occhi un meraviglioso titolo del dicembre 2018 in cui l'attuale ministro Gualtieri ci diceva che sui non performing loan in Europa era stato approvato un testo equilibrato. Quel testo equilibrato conteneva il famigerato calendar provisioning, che è quello che oggi, per esempio, il dottor Nagel, amministratore delegato di Mediobanca, definisce una bomba, e che fa preoccupare perfino il dottor Visco, governatore di Banca d'Italia, di cui all'epoca, però, non si rinvengono particolari opposizioni. Per quel che riguarda l'articolo 10, in particolare l'emendamento 10.10 del nostro Gruppo, alla lettera g -bis contiene una norma particolarmente importante, perché riguarda il tema del principio di proporzionalità che, senza entrare in dettagli tecnici inutili, si traduce in come non farci troppo del male nel recepire le normative europee. Quello che noi chiediamo è che non ci si avvalga della facoltà prevista dalla lettera b) del punto 145 dell'articolo 2 del regolamento 575/2013, in relazione alla soglia di 5 miliardi di euro del valore totale delle attività quale condizione ai fini della definizione di ente piccolo e non complesso. Richiediamo, cioè, che non venga abbassata la soglia al di sotto della quale una banca è considerata un ente piccolo e non complesso. Questo perché? Perché - secondo quella che è sempre stata la linea politica del nostro partito, e che ha sempre trovato l'opposizione, in particolare della vigilanza nazionale, e anche dell'attuale maggioranza - intendiamo tutelare il credito territoriale; intendiamo tutelare le piccole banche rispetto a un aumento di costi, per esempio di compliance, che inevitabilmente incomberebbero su di loro se si decidesse di considerare piccola una banca con un capitale inferiore ai 5 miliardi di euro. Qui c'è fondamentalmente il tema del gold plating : gli altri Paesi non si avvarranno della possibilità di abbassare la soglia, quindi è assolutamente importante che anche noi chiediamo al legislatore delegato di non avvalersi della possibilità di abbassare la soglia, altrimenti, come al solito, andremo a competere in Europa con un braccio legato dietro la schiena. Per aver detto queste parole di saggezza, anche in altre circostanze, anche durante l'approvazione della BRRD nella prima versione, economisti della Lega sono stati accusati di essere antieuropei, di fare critica ostruzionistica; stiamo semplicemente chiedendo cautela. Esattamente come accadde qualche anno fa al presidente Borghi di rivolgersi all'allora presidente del Consiglio Letta dicendo che non avevano capito cosa stessero facendo («Vi correranno dietro con i forconi e tiferò per gli inseguitori»), ed esattamente come ci siamo opposti, per esempio, al calendar provisioning così come magnificato da Gualtieri, qui chiediamo di fare attenzione. E se la storia ci ha dato ragione due volte, temo che ci darà ragione anche la terza volta. Auguri a questa maggioranza!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u98">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg183">Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 10.2, presentato dal senatore Tosato e da altri senatori, identico all'emendamento 10.3, presentato dal senatore Perosino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 10.4, presentato dal senatore Tosato e da altri senatori, identico all'emendamento 10.5, presentato dal senatore Perosino e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 10.10, presentato dal senatore Tosato e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'emendamento 10.12, presentato dal senatore Tosato e da altri senatori. (Segue la votazione). Il Senato non approva. (v. Allegato B). Indìco la votazione nominale con scrutinio simultaneo dell'articolo 10. (Segue la votazione). Il Senato approva. (v. Allegato B). Passiamo all'esame dell'articolo 11, sul quale è stato presentato un emendamento, che si intende illustrato e su cui invito il relatore e il rappresentante del Governo a pronunziarsi.</seg>
+            </u>
+            <note type="speaker">PITTELLA</note>
+            <note type="role">relatore sul disegno di legge n. 1721</note>
+            <u ana="#regular" who="#PittellaGianni" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u99">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg184">Signor Presidente, esprimo parere contrario all'emendamento.</seg>
+            </u>
+            <note type="speaker">AGEA</note>
+            <note type="role">sottosegretario di Stato alla Presidenza del Consiglio dei ministri</note>
+            <u ana="#guest" who="#AgeaLaura" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u100">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg185">Signor Presidente, esprimo parere conforme a quello del relatore.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u101">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg186">Passiamo alla votazione dell'emendamento 11.1.</seg>
+            </u>
+            <note type="speaker">BAGNAI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#BagnaiAlberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u102">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg187">Signor Presidente, mi perdoni, non la annoierò a lungo. Questa cosa annoia anche me e cercherò di farla più noiosa possibile, in modo che la maggioranza non si accorga di quello che sto per dire, perché altrimenti sosterrebbe il nostro emendamento. Quindi, spero che si distragga e intanto dico di cosa si tratta. Qui si tratta, specificamente, di modificare la BRRD, ovvero la direttiva sulla risoluzione e i salvataggi bancari. I salvataggi bancari, in Italia, si chiamano Etruria, Marche, Ferrara e Chieti, tanto per capire di cosa stiamo parlando e per ricordarlo affettuosamente ai nostri colleghi di maggioranza. Qual è, dunque, lo specifico senso dell'intervento emendativo? Non mi diffondo: ci sono due punti e mi limito a ricordare il primo, in modo che rimanga traccia del fatto che, da Cassandre, costruiamo capitale politico. Si sta parlando della risoluzione bancaria e quindi del potere di sospendere taluni obblighi e, in particolare, del potere di sospendere gli obblighi di pagamento. Chiediamo dunque che non venga esteso il potere di sospensione ai depositi ammissibili e in particolare che si introduca una clausola di salvaguardia, che assicuri un importo minimo giornaliero ai depositanti, al fine di mantenere la fiducia dei risparmiatori e la stabilità finanziaria, nelle circostanze eccezionali in cui si determini la necessità di attivare la sospensione dei pagamenti o il rimborso dei depositanti, cioè nel caso in cui si debba andare a una risoluzione bancaria. Al netto della concentrazione o della distrazione dei colleghi, scusabile a quest'ora, mi sembra che qui ci sia un tema, che ritengo dovrebbe essere evidente a tutti. Forse non lo è, forse mi sbaglio e lo sottopongo dunque all'attenzione dell'Assemblea. Voglio ricordare quando fu applicato il bail in in Italia, a fine 2015, causando quel bagno di sangue che tutti ricordiamo. Mi riferisco al bail in, ovvero alla BRRD, ovvero la roba di cui stiamo parlando oggi, tanto per essere chiari. Il bagno di sangue fu un crollo del 60 per cento del comparto azionario in borsa, con tutto quello che sappiamo, in termini di danni ai risparmiatori e ai piccoli investitori. All'epoca non era stata percepita la pericolosità dell'intervento legislativo che ci si accingeva a fare. Anni dopo, nel 2018, l'autorità bancaria europea (EBA) intervenne, dicendo che effettivamente la BRRD è un po' destabilizzante, dal punto di vista finanziario. In altre parole, l'Italia era stata usata come cavia, il bail in era stato applicato a casa nostra e a casa loro si disponevano risolutamente a non applicarlo. Del resto, gli sviluppi recenti in materia di bad bank europea ci suggeriscono che lì ci si accinge a salvare le banche con i soldi pubblici. A me non sembra che la lezione sia stata pienamente compresa, perché il semplice fatto che dobbiamo disporre un emendamento di questo tipo - che adesso la maggioranza boccerà - fa capire che la natura destabilizzante della normativa europea in materia di risoluzione di salvataggi bancari non è stata pienamente compresa dallo stesso legislatore europeo. Quindi ci aspettiamo altre copiose lacrime di coccodrillo dopo l'altro inevitabile incidente. Ci resterà la soddisfazione di averlo detto e voglio sperare che a lungo andare gli elettori si rendano conto che l'unica colpa degli economisti e, in generale, dei parlamentari della Lega non è non voler bene a mamma Europa, ma è semplicemente capire un pochino prima quello che gli altri capiscono un pochino dopo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CIRIANI (FdI)</note>
+            <u ana="#regular" who="#CirianiLuca" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u103">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg188">Signor Presidente, ho appreso adesso da alcuni colleghi che il presidente Conte sta svolgendo una conferenza stampa - non so se in televisione, su Facebook o dove, ma è comunque una conferenza stampa pubblica - mentre il Parlamento sta lavorando e il Senato è impegnato nella discussione e nella votazione di un disegno di legge di delegazione europea. Trovo tutto ciò inaccettabile</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg189">e chiedo che il Senato sospenda immediatamente i lavori per consentire anche ai rappresentanti del popolo, quali noi siamo, di poter apprendere direttamente - se non di persona, almeno via Facebook o via televisione - quello che il presidente Conte riferisce agli altri ma non riferisce al Parlamento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MALAN (FIBP-UDC)</note>
+            <u ana="#regular" who="#MalanLucio" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u104">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg190">Signor Presidente, prima c'è stata una richiesta di convocazione della Conferenza dei Capigruppo e adesso, ancora una volta, vediamo sugli schermi il Presidente del Consiglio che fa l'ennesima conferenza stampa; probabilmente questa sera l' audience massima è a quest'ora, altrimenti l'avrebbe fatta più tardi. Riteniamo assolutamente indecente questo comportamento. Un comma, peraltro incostituzionale, approvato dalla maggioranza chiedeva di venire ad illustrare preventivamente</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg191">i provvedimenti in Parlamento, non in televisione; davanti ai rappresentanti del popolo, non con Rocco Casalino. Questo era quello che voi avete scritto, peraltro violando la Costituzione e facendo i decreti del Presidente del Consiglio dei ministri al posto del decreto-legge. Ma neppure questo.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg192">La conferenza stampa la domenica e poi la conferenza stampa mentre noi siamo qui a fare un lavoro molto serio. Ma è certamente prioritario quanto sta accadendo nelle vite degli italiani</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg193">, che sono stravolte da questi provvedimenti. Nelle piazze, purtroppo, c'è chi ha approfittato delle giuste proteste per infilarsi.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg194">Signor presidente Conte, se non viene da noi, saremo noi ad andare da lei.</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg195">PRESIDENTE. Colleghi, stiamo tranquilli.</seg>
+            </u>
+            <note type="speaker">SALVINI (L-SP-PSd'Az)</note>
+            <u ana="#regular" who="#SalviniMatteo" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u105">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg196">Signor Presidente, mi rivolgo anche ai colleghi della maggioranza per chiedere se non è frustrante essere in Aula mentre nelle piazze di mezza Italia, in quasi totale tranquillità... Ribadisco e ribadirò sempre che la violenza non è mai giustificata e non è mai la soluzione</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg197">Mentre noi siamo qui a votare...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg198">PRESIDENTE. Senatore Airola, si segga.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg199">Mentre noi siamo qui a votare, il Presidente del Consiglio è in televisione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg200">Non è normale, dovrebbe essere...</seg>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Airola.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg201">Mi scusi, senatore, si tranquillizzi.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg202">PRESIDENTE. Senatore Airola!</seg>
+               <vocal type="speaking">
+                  <desc>Commenti.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg203">Vi domando se ritenete normale, al di là delle urla di qualche senatore nervoso del MoVimento 5 Stelle, che, mentre il Senato e la Camera stanno lavorando, il Presidente del Consiglio si faccia gli affari suoi in televisione. Non è accettabile, non è normale, è un insulto a milioni di famiglie e a milioni di lavoratori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg204">PRESIDENTE. Senatore Salvini, si rimetta la mascherina.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg205">Io metto la mascherina ma voi della maggioranza dovreste mettere la maschera, perché dovreste vergognarvi di coprire una situazione surreale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg206">C'è l'Italia col fiato sospeso, ci sono tassisti, commercianti, lavoratori della cultura e dello spettacolo, e noi siamo qui a votare. Alla Camera si sta votando sull'omotransfobia. Questo per darci l'idea di come qualcuno viva su Marte, mentre i problemi degli italiani sono i problemi di questa Terra</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg207">Conte non è al Senato, non è alla Camera, ma in televisione. Senza Casalino, perché è a casa.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg208">Non è accettabile; andate avanti voi a lavorare in questa maniera e a prendere in giro gli italiani. Noi usciamo da quest'Aula, perché il Senato ha ancora una dignità. Buon lavoro. E abbiate vergogna, se ne siete ancora capaci.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MARCUCCI (PD)</note>
+            <u ana="#regular" who="#MarcucciAndrea" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u106">
+               <note>Domando di parlare. PRESIDENTE. Ne ha facoltà.</note>
+               <vocal type="speaking">
+                  <desc>Commenti del senatore Airola</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg209">Senatore Airola, lei ha i diritti e i doveri di tutti i senatori. Quindi si sieda e le verrà data la parola nell'ordine in cui l'ha richiesta.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg210">Prego, senatore Marcucci.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg211">Signor Presidente, sembra strano anche a me, per discussioni passate. Però - ahimè - il senatore Airola aveva decisamente ragione, perché sull'ordine dei lavori non ho capito che cosa ci abbia detto il senatore Salvini, oltre a parlare senza mascherina.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg212">E mi permetta, signor Presidente: il suo richiamo mi è apparso un pochino tardivo. Ha lasciato volentieri che continuasse con un atteggiamento sprezzante delle regole del Senato.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg213">Dopodiché tutta questa messa in scena mi appare ridicola. Credo che sia corretto che ognuno di noi, soprattutto quelli che hanno incarichi istituzionali, faccia il proprio lavoro. Lo fa il Presidente del Consiglio e, tra i compiti del Presidente del Consiglio, c'è anche quello di informare tutto il Paese sui provvedimenti che il Governo sta prendendo. Il nostro dovere è fare le leggi e siamo qui a votare. Non credo che le due attività debbano necessariamente interferire.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg214">Però, guardi, parlo con grande spirito di collaborazione (è il messaggio che sto dando in queste ore al Paese, anche se mi sembra che le forze di centrodestra non siano affatto disponibili a riceverlo): se si chiede una sospensione, io sono favorevole alla sospensione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u107">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg215">Senatore Marcucci, dopo aver dato la parola anche al senatore Airola, l'andamento dei nostri lavori e la richiesta di quattro interventi di fine seduta ci sta conducendo verso una conclusione dei lavori in maniera naturale.</seg>
+            </u>
+            <note type="speaker">AIROLA (M5S)</note>
+            <u ana="#regular" who="#AirolaAlberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u108">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg216">Signor Presidente, io tante volte avrei voluto fare propaganda, magari sull'ordine dei lavori, come ha fatto il senatore Salvini, quando non si tratta di ordine dei lavori. Attualmente il presidente Conte sta parlando non si sa di cosa e la sua comunicazione scatena un dibattito sull'ordine dei lavori; ma la conferenza stampa del Presidente del Consiglio non riguarda l'ordine lavori né il provvedimento che dobbiamo approvare, che serve invece a portare avanti il nostro Paese soprattutto nei riguardi dell'Europa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg217">È vergognoso che si usi quest'Aula come il salotto di qualche talk show e lei non dovrebbe permetterlo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg218">Come sempre equamente - e lo ricordo - lei ha fatto.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg219">Adesso noi dobbiamo finire di votare questo provvedimento e non ascoltare le "cazzate" che ci vengono dette...</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg220">PRESIDENTE. Senatore Airola, la richiamo.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg221">No, no, perché quelle sono cose che non si possono dire in quest'Aula. PRESIDENTE. Più si parla, meno si vota. Lei vuole parlare? AIROLA (M5S). Infatti mi taccio e le do subito la conduzione dell'Aula.</seg>
+            </u>
+            <note type="speaker">PERILLI (M5S)</note>
+            <u ana="#regular" who="#PerilliGianluca" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u109">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg222">Signor Presidente, immagino che quanto accaduto (non c'è diretta, non c'è diretta con il Paese e forse questo è un motivo per il quale certe cose devono comunque uscire) sia esattamente quello che non vuole in questo momento il popolo italiano. Non vuole che si strumentalizzi una seduta, non vuole che non si lavori, mentre questo è il risultato: bloccare in questo momento i lavori dell'Assemblea perché c'è una conferenza di un Presidente del Consiglio - che è venuto dieci volte a riferire in Parlamento e che verrà qui in Senato anche il prossimo giovedì</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg223">- che sta annunciando dei provvedimenti che il Paese attende e che non c'entra nulla con quello che sarà legittimamente il dibattito in quest'Aula.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg224">Ebbene, si è trovato un modo, tante volte cercato nella giornata, per interrompere i lavori e per dire al Paese che si prende la prima occasione al volo per fare propaganda e bloccare l'attività.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg225">Se questo è il risultato che si voleva ottenere, ci si è riusciti e lo si è fatto in maniera sbagliata, perché è evidente a tutti che si è tenuto sostanzialmente un comizio - adesso il collega Airola lo ha colorito - rispetto ad una richiesta di intervento sull'ordine dei lavori che in quest'Aula ha una sua logica e una sua previsione regolamentare.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg226">Quindi il fatto di dire «vergognatevi», quando in realtà chi si dovrebbe vergognare è chi rinuncia a lavorare e a venire in Parlamento quando si tengono i lavori</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg227">, è qualificante e direi in maniera potente riassuntivo del ruolo dell'opposizione del tutto accessorio rispetto alla crisi profonda che sta affrontando il Paese, dando dimostrazione in maniera plastica del suo valore in questa Assemblea.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU)</note>
+            <u ana="#regular" who="#DePetrisLoredana" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u110">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg228">Signor Presidente, non è accettabile - e credo che quest'Assemblea e la stessa Presidenza lo debbano stigmatizzare con forza - che si prenda la parola per dirci «vergognatevi». Ma di che cosa ci dovremmo vergognare? Del fatto che stiamo facendo il nostro lavoro, che è giusto che facciamo?</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg229">Giustamente infatti i cittadini pretendono da noi - per questo siamo eletti - che portiamo avanti i provvedimenti che servono al Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg230">Quale sarebbe la lesa maestà da parte del Presidente di un Consiglio dei ministri che ha approvato un decreto-legge? Ricordo che alle riunioni dei Capigruppo, in cui erano presenti anche quelli dell'opposizione, tutti hanno chiesto che venisse adottato immediatamente il decreto per poter dare il ristoro. Questo è il punto.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg231">Guardate, vi state assumendo delle responsabilità gravi, perché non si può venire qui e fare gesti più o meno plateali, ad uso non so di chi, per poter fare un comunicato e soffiare sul fuoco, invece di assumersi tutti insieme delle responsabilità, ognuno certamente per la propria parte, noi come maggioranza e il Governo per la sua, ma vale anche per l'opposizione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg232">Vi pare il caso di mettersi qui a soffiare, in un modo francamente un po' arruffato, sul fuoco delle manifestazioni dei cittadini? Penso che oggi la risposta sia piuttosto quella per cui ognuno, per carità, deve assumersi la propria responsabilità - ciascuno per la propria parte - ma dobbiamo stare qui a fare il nostro dovere, a votare e a portare fino in fondo tutti i provvedimenti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PARAGONE (Misto)</note>
+            <u ana="#regular" who="#ParagoneGianluigi" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u111">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg233">Senatore Paragone, le concedo proprio un istante, perché alle ore 20 è prevista la chiusura dei lavori dell'Assemblea. Ho concesso a due senatori del Gruppo MoVimento 5 Stelle di intervenire, per cui le concedo la parola, ma solo per un paio di minuti.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg234">La ringrazio, sarò brevissimo. Signor Presidente, penso che le tensioni che si registrano siano figlie di un impoverimento del dibattito in Aula, perché gli spazi sono sempre più compressi.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg235">Se non vi dà fastidio, colleghi, finisco, così la chiudo anche in fretta.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg236">Questo tema si ripresenterà tutte le volte - e lo vedremo anche quando prossimamente il presidente del Consiglio Conte verrà in quest'Aula - nella ripartizione dei tempi parlamentari: per quanto riguarda il Gruppo Misto, ad esempio, fra un po' avremo il problema di un Gruppo che tenderà a ingrandirsi con una distribuzione dei tempi misurata rispetto ai dieci minuti canonici e questo comprimerà sempre di più gli spazi del dibattito parlamentare.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg237">Questa è una questione che pongo all'ordine del giorno un po' per tutti.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg238">Non volevo essere polemico con nessuno e credo di esserci riuscito.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u112">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg239">Apprezzate le circostanze, rinvio il seguito della discussione congiunta dei provvedimenti in titolo ad altra seduta.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sui lavori del Senato</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u113">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg240">Onorevoli colleghi, comunico che, sulla base della richiesta formulata prima da più di un Capogruppo, previ accordi intercorsi, il calendario dei lavori della settimana corrente è integrato con i seguenti argomenti: informativa del Ministro dell'interno sui recenti disordini accaduti in alcune città italiane, domani alle ore 17; informativa del Presidente del Consiglio dei ministri sul decreto del Presidente del Consiglio dei ministri del 24 ottobre 2020, recante ulteriori misure per il contrasto della diffusione dell'epidemia da Covid-19, giovedì 29 alle ore 12,30 (per tale informativa è prevista la diretta televisiva).</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg241">Sull'informativa del Ministro dell'interno ciascun Gruppo potrà intervenire per quindici minuti, mentre su quella del Presidente del Consiglio dei ministri il tempo attribuito a ciascun Gruppo per intervenire sarà di dieci minuti.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">ASTORRE (PD)</note>
+            <u ana="#regular" who="#AstorreBruno" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u114">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg242">Aspetto un attimo? Mi dica lei, signor Presidente, anche perché devo svolgere un intervento non bello, su una persona giovane, morta di Covid.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u115">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg243">Colleghi, invito chi intende lasciare l'Aula a farlo in tempi rapidi, così da consentire a coloro che devono intervenire di poter svolgere il proprio intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg244">Prego, senatore Astorre.</seg>
+            </u>
+            <note type="speaker">ASTORRE (PD)</note>
+            <u ana="#regular" who="#AstorreBruno" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u116">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg245">Grazie, signor Presidente.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg246">Vorrei ricordare anche in quest'Assemblea, così come è stato fatto ieri alla Camera dei deputati, la figura di Giovanni Bartoloni, un professionista - mio portavoce e addetto stampa per tanti anni - che all'età di cinquantuno anni è morto di Covid dopo una settimana di ricovero allo Spallanzani in terapia intensiva, senza alcuna malattia pregressa. Voglio sottolinearlo, perché è bene che si sappia. Purtroppo si tratta di un virus cattivo e maligno, che non legge libri e non spiega che chi non ha una malattia pregressa a cinquantuno anni, con un figlio di otto anni e una donna giovane accanto, può morire dopo una settimana di terapia intensiva.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg247">Voglio ricordare qui Giovanni, una persona mite e buona, ma soprattutto un professionista di grande valore. È stato portavoce alla Provincia di Roma e ha lavorato con Alitalia ed Equitalia. Da dieci anni collaboravamo tutti i giorni e da sette anni era il portavoce del Consiglio regionale del Lazio.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg248">Una persona mite, competente, amata da tanti. Tutte le mattine mi faceva la rassegna stampa e avevo con lui un legame personale e profondo. Se n'è andato senza che la famiglia lo abbia potuto salutare. Oggi la bara è passata sotto la finestra di casa, da cui si sono affacciati la moglie e il figlioletto, che lo hanno salutato. È stato portato al cimitero di Soriano nel Cimino, dove lo andremo a trovare nei prossimi giorni.</seg>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg249">Vorrei che anche in quest'Assemblea lui, che ha tanto collaborato, anche indirettamente, ai nostri lavori, fosse ricordato, così come lo è stato dalla stampa romana, laziale e anche nazionale, come un professionista buono, capace e competente. Ciao Giovanni, un amico vero.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u117">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg250">Senatore Astorre, la Presidenza si unisce al suo ricordo e cordoglio.</seg>
+            </u>
+            <note type="speaker">EVANGELISTA (M5S)</note>
+            <u ana="#regular" who="#EvangelistaElviraLucia" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u118">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg251">Signor Presidente, anche in Sardegna le terapie intensive, con l'aumento dei contagi da Coronavirus, sono già sature. Tuttavia, niente è stato fatto dalla Giunta sardo-leghista per far fronte al gravissimo problema della carenza cronica di medici e infermieri, il cui organico avrebbe dovuto avere un potenziamento. Il bando di qualche giorno fa per il conferimento di incarichi di collaborazione esterna per personale medico da destinare a tutte le sedi ATS Sardegna per l'emergenza Covid-19 del 23 ottobre 2020, finalizzato alla formazione di un elenco di medici disponibili a svolgere attività assistenziale in Sardegna, oltre ad arrivare con un gravissimo ritardo, sebbene sia stato presentato dal Presidente della Regione come la soluzione a tutti i mali della sanità sarda, altro non è che un mezzo inadeguato, che difficilmente porterà nuove forze lavorative, men che anche meno provenienti da altre realtà regionali. Ciò a causa della scarsa attrattiva delle condizioni economiche proposte, decisamente inferiori a quelle offerte da altre Regioni italiane, penso ad esempio al Piemonte, che correttamente riconoscono degli incentivi allo svolgimento di prestazioni professionali gravose e rischiose come quelle dei reparti Covid-19. Non solo: le inerzie della Giunta sardo-leghista si sono veramente rivelate delle voragini, anche nel campo della scuola e dei trasporti. In Sardegna si è dato il via alle lezioni nella totale assenza di un programma che fosse in grado di conciliare il diritto allo studio con un adeguato sistema di trasporto pubblico a tutela della salute degli studenti e dei pendolari di tutta l'isola nell'emergenza coronavirus. Sono impresse nella nostra memoria l'immagine di tanti studenti sardi costretti a rimanere a terra, perché è rimasto invariato il numero degli autobus e quello delle corse, nonostante le regole anti Covid-19 impongano la riduzione delle presenze a bordo con limitato coefficiente di riempimento, e le scene dei mezzi sovraffollati dei ragazzi che indossano le mascherine, ma tra i quali è impossibile osservare il prescritto distanziamento. La giunta Solinas non è stata in grado di predisporre le misure necessarie a tutela della salute e del diritto allo studio, con un ritardo imperdonabile che ha sicuramente influito in modo significativo sulla diffusione dei contagi. Il Consiglio regionale ha approvato di recente una legge, la legge regionale n. 27 del 5 ottobre 2020, che stanzia dei fondi per implementare il numero di corse del servizio di trasporto pubblico degli studenti e dei pendolari e per il trasporto scuolabus, gestito dai Comuni. Si tratta, però, di una legge alla quale ancora non è stata data attuazione e che, nell'aggravarsi dell'emergenza sanitaria, non è solo tardiva, ma rischia di essere inefficace. Insomma, una gestione, quella del governo di centrodestra sardo leghista, destinata a far pagare a caro prezzo l'emergenza sanitaria in Sardegna.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MAUTONE (M5S)</note>
+            <u ana="#regular" who="#MautoneRaffaele" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u119">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg252">Signor Presidente, il barbaro omicidio di Lorena Quaranta, nel marzo 2020, durante il lockdown, ad opera del fidanzato, non ha impedito il conferimento della laurea in medicina alla sfortunata neo dottoressa. Si tratta di una laurea alla memoria, ovviamente, con una tesi in pediatria, completata e discussa all'università di Messina, da una sua amica e collega, Vittoria, con la presenza delle autorità accademiche e delle istituzioni. La pergamena di laurea, è stata consegnata dal rettore alla famiglia della giovane vittima, con la partecipazione commossa di amici e colleghi del corso di laurea. Il rettore ha salutato con affetto la mamma e i familiari di Lorena e sottolineato che questo momento solenne, che poteva e doveva rappresentare il raggiungimento di un obiettivo, di un traguardo della vita professionale di Lorena, deve, comunque, dare un segno alla cittadinanza che il rispetto e il ricordo di una persona, di un essere umano deve superare la burocrazia e le pastoie che molto spesso ostacolano le azioni più semplici e partecipate della vita quotidiana. La sedia vuota nell'aula, che doveva essere occupata da Lorena per coronare il suo percorso di studi e il raggiungimento finale di un sogno suo e della sua famiglia, deve essere, per tutti noi, un momento di riflessione e di compartecipazione sentita al dolore immenso e alla tragedia immane che ha colpito la famiglia di Lorena, e possa, in parte, ricordare il suo entusiasmo e la sua voglia di apprendere e crescere professionalmente. Questa occasione è stato anche un momento per ribadire la necessità di combattere e contrastare, in tutti i modi e con tutti i mezzi a disposizione, condannando in maniera ferma e decisa, la grave problematica della violenza sulle donne, sia fisica che psichica, e l'assoluta necessità di norme e provvedimenti concreti, capaci di contrastarla. Va in questa direzione l'approvazione del cosiddetto codice rosso. Questa lotta, oltre che dal punto di vista giuridico e istituzionale, va attuata anche attraverso un percorso di maturazione culturale capace di coinvolgere la scuola, la famiglia, dando supporto e il dovuto risalto all'attività delle associazioni coinvolte attivamente e direttamente nella difesa e nel sostegno delle donne vittime di violenza, che spesso si realizza tra le mura domestiche, prima che le aggressioni ripetute e le loro conseguenze traumatiche sfocino nel dramma estremo dell'omicidio. Non dobbiamo dimenticare le tante vittime innocenti, la cui unica colpa è stata quella di innamorarsi della persona sbagliata. Rivolgo alla collega Lorena e alla sua famiglia questo ricordo. (</seg>
+               <kinesic type="applause">
+                  <desc>Applausi).</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u120">
+               <incident type="action">
+                  <desc>Una senatrice fa cenno di voler intervenire</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg253">). Senatrice, sono le ore 20,01 e, quindi, chiudo la seduta perché la seduta è conclusa; dovrà svolgere l'intervento nella seduta di domani. Lei non ha fatto una richiesta scritta e non rispetta il numero dei componenti dei vari Gruppi; non si alza la mano alle ore 20,01 e si chiede di parlare.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u121">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg254">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Ordine del giorno per la seduta di mercoledì 28 ottobre 2020</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair" who="#CalderoliRoberto" xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.u122">
+               <seg xml:id="ParlaMint-IT_2020-10-27-LEG18-Sed-268.seg255">Il Senato tornerà a riunirsi in seduta pubblica domani, mercoledì 28 ottobre, alle ore 9,30, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 20,01).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
+
